@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ReadLens Pro — 講師向けガイド</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Inter:wght@400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:'Noto Sans JP',sans-serif;color:#2c2c2c;background:#888;display:flex;justify-content:center;padding:10px}
+@page{size:A4 portrait;margin:0}
+.page{width:210mm;height:297mm;background:#fff;overflow:hidden;position:relative;display:flex;flex-direction:column}
+
+/* ===== HERO ===== */
+.hero{background:linear-gradient(135deg,#5a1a2a,#7e2e40 40%,#9e4a5b 70%,#b46478);color:#fff;padding:6mm 8mm 5mm;position:relative;flex-shrink:0}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2.5mm;background:linear-gradient(90deg,#e8c547,#d4a843,#e8c547)}
+.hero-inner{display:flex;align-items:center;justify-content:space-between}
+.hero h1{font-family:'Inter',sans-serif;font-size:24pt;font-weight:900;letter-spacing:.03em;text-shadow:0 2px 6px rgba(0,0,0,.3)}
+.hero h1 .pro{font-weight:500;font-size:.42em;background:rgba(255,255,255,.15);padding:1px 7px;border-radius:4px;margin-left:4px;vertical-align:middle;border:1px solid rgba(255,255,255,.3)}
+.hero .sub{font-size:7pt;opacity:.6;letter-spacing:.08em;font-weight:300}
+.hero .badge{display:inline-block;background:#e8c547;color:#5a1a2a;font-size:7pt;font-weight:900;padding:1.5px 8px;border-radius:3px;margin-top:2px}
+.hero-qr{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);border-radius:5px;padding:4px 6px;border:1px solid rgba(255,255,255,.2)}
+.hero-qr img{width:60px;height:60px;border-radius:2px;background:#fff;padding:2px}
+.hero-qr .qt{font-size:5pt;opacity:.6;line-height:1.3}
+
+/* ===== BODY ===== */
+.body{padding:3.5mm 6mm 2mm;flex:1;display:flex;flex-direction:column;gap:3mm;overflow:hidden}
+
+/* Intro */
+.intro-row{display:grid;grid-template-columns:1fr 42mm;gap:3mm;align-items:start}
+.intro-text{font-size:8pt;line-height:1.75;color:#444}
+.intro-text strong{color:#7a3344}
+.intro-text .lead{font-size:9.5pt;font-weight:900;color:#7a3344;margin-bottom:2mm;display:block}
+.intro-img{border-radius:5px;border:1px solid #e0d5d0;width:42mm}
+
+/* Section headers */
+.sec-h{display:flex;align-items:center;gap:2mm;margin:0;flex-shrink:0}
+.sec-h .num{font-family:'Inter',sans-serif;font-size:14pt;font-weight:900;color:#b46478;line-height:1}
+.sec-h .text{font-size:10pt;font-weight:900;color:#7a3344}
+.sec-h .line{flex:1;height:1.5px;background:linear-gradient(90deg,#d4939f,transparent)}
+
+/* 3-col scenes */
+.scenes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.scene{border-radius:5px;padding:3mm;font-size:7pt;line-height:1.55}
+.scene.s1{background:#fef5f0;border:1px solid #e8c5b5}
+.scene.s2{background:#f0f5fe;border:1px solid #b5c5e8}
+.scene.s3{background:#f5fef0;border:1px solid #b5e8c5}
+.scene .s-title{font-size:8.5pt;font-weight:900;margin-bottom:2mm}
+.scene.s1 .s-title{color:#c0392b}
+.scene.s2 .s-title{color:#2980b9}
+.scene.s3 .s-title{color:#27ae60}
+.scene img{width:100%;border-radius:3px;border:1px solid rgba(0,0,0,.08);margin:2mm 0}
+.scene .s-cap{font-size:4.5pt;color:#999;text-align:center;margin-bottom:1mm}
+.scene p{color:#444}
+.scene strong{color:#333}
+.scene table{width:100%;border-collapse:collapse;font-size:6.5pt;margin-top:2mm}
+.scene th{background:rgba(0,0,0,.04);padding:2px 4px;text-align:left;font-weight:700;border-bottom:1px solid rgba(0,0,0,.1)}
+.scene td{padding:2px 4px;border-bottom:1px dotted rgba(0,0,0,.06)}
+.hl{color:#9e4a5b;font-weight:700}
+
+/* 2-col screenshots */
+.ss-row{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.ss-card{border:1px solid #e0d5d0;border-radius:5px;overflow:hidden}
+.ss-card img{width:100%;display:block}
+.ss-card .ss-label{background:#f5ece8;padding:2mm 3mm;font-size:7pt;color:#7a3344;font-weight:700;display:flex;align-items:center;gap:1.5mm}
+.ss-card .ss-desc{padding:2mm 3mm;font-size:6.5pt;line-height:1.55;color:#555}
+
+/* Compare */
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5mm}
+table.cmp{width:100%;border-collapse:collapse;font-size:7.5pt}
+table.cmp th{background:#f5ece8;color:#7a3344;padding:3px 5px;text-align:left;font-weight:700;border-bottom:1.5px solid #d4939f}
+table.cmp td{padding:3px 5px;border-bottom:1px solid #f0e8e4}
+table.cmp td:last-child{color:#1e7a47;font-weight:700}
+
+/* Benefits */
+.benefits{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:2.5mm}
+.ben{border-radius:5px;padding:2.5mm;text-align:center}
+.ben:nth-child(1){background:#fef5f0;border:1px solid #e8c5b5}
+.ben:nth-child(2){background:#f0f5fe;border:1px solid #b5c5e8}
+.ben:nth-child(3){background:#f5fef0;border:1px solid #b5e8c5}
+.ben:nth-child(4){background:#fef0f5;border:1px solid #e8b5c5}
+.ben .bn{font-family:'Inter',sans-serif;font-size:14pt;font-weight:900;line-height:1}
+.ben:nth-child(1) .bn{color:#c0392b}
+.ben:nth-child(2) .bn{color:#2980b9}
+.ben:nth-child(3) .bn{color:#27ae60}
+.ben:nth-child(4) .bn{color:#8e44ad}
+.ben .bt{font-size:8pt;font-weight:900;color:#333;margin-top:0.5mm}
+.ben .bd{font-size:6pt;color:#666;line-height:1.35;margin-top:0.5mm}
+
+
+
+
+.footer{text-align:center;font-size:5pt;color:#aaa;padding:1.5mm 0;border-top:1px solid #eee;flex-shrink:0}
+@media print{body{background:#fff;padding:0}.page{box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>ReadLens <span class="pro">Pro</span></h1>
+        <div class="sub">ENGLISH READING PRACTICE DATABASE</div>
+        <div class="badge">🎓 講師向け活用ガイド</div>
+      </div>
+      <div class="hero-qr">
+        <img src="qr_code.png" alt="QR">
+        <div class="qt">📱 アクセス<br>read-lens-pro<br>.vercel.app</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- Intro -->
+    <div class="intro-row">
+      <div class="intro-text">
+        <span class="lead">📋 ReadLens Pro とは</span>
+        駿台・河合塾等の<strong>共通テスト実戦模試のリーディング問題</strong>を、インタラクティブなWebアプリに変換したプラットフォームです。
+        本文と設問を見開きレイアウトで表示し、<strong>正解の根拠文をハイライト表示</strong>、文ごとの和訳ポップアップ、段落ごとのネイティブ音声再生など、
+        従来の紙教材では実現できなかった<strong>根拠ベースの読解指導</strong>を可能にします。
+        4択問題・整序問題・エッセイ添削問題など<strong>多様な出題形式に対応</strong>したUIを搭載し、
+        印刷テスト→アプリ復習の2段階で<strong>授業と家庭学習をシームレスに接続</strong>します。
+      </div>
+      <img src="ss_lp.png" class="intro-img" alt="トップ画面" style="object-fit:cover;object-position:top;height:30mm">
+    </div>
+
+    <!-- 3 Scenes -->
+    <div class="sec-h"><span class="num">▍</span><span class="text">授業での3つの活用シーン</span><span class="line"></span></div>
+    <div class="scenes">
+      <div class="scene s1">
+        <div class="s-title">📝 SCENE 1：印刷テスト → アプリ復習</div>
+        <img src="ss_lp.png" alt="LP" style="max-height:90px;object-fit:cover;object-position:60% center">
+        <div class="s-cap">▲ 大問ごとに問題・設問を個別印刷</div>
+        <p>大問ごとに<strong>問題と設問を別々に印刷</strong>し、テスト形式で演習。解答後はアプリで<strong>根拠確認→解説閲覧→和訳精読→音声聴取</strong>の4段階復習。「解いて丸付けして終わり」の学習から脱却させます。</p>
+        <table>
+          <tr><th>モード</th><th>用途</th></tr>
+          <tr><td>📄 問題のみ</td><td>教室テスト・宿題</td></tr>
+          <tr><td>📝 設問のみ</td><td>本文投影＋紙配布</td></tr>
+          <tr><td>📋 全問題一括</td><td>模試形式の総合演習</td></tr>
+        </table>
+      </div>
+      <div class="scene s2">
+        <div class="s-title">🔍 SCENE 2：根拠ベースの読解指導</div>
+        <img src="ss_explain.png" alt="根拠ハイライト" style="max-height:90px;object-fit:cover;object-position:left 40%">
+        <div class="s-cap">▲ 根拠文の色分け＋解説パネル</div>
+        <p><strong>「なぜこの答えか？」</strong>を視覚的に示せます。正解の根拠箇所が<strong>色分けハイライト</strong>で一目瞭然。不正解選択肢の理由も含めた詳細解説で、<strong>消去法の思考プロセス</strong>まで指導可能です。</p>
+        <table>
+          <tr><th>機能</th><th>指導への効果</th></tr>
+          <tr><td>根拠ハイライト</td><td>根拠箇所を<span class="hl">色分け</span></td></tr>
+          <tr><td>解説一括表示</td><td>不正解の理由も指導</td></tr>
+          <tr><td>文クリック和訳</td><td>精読のポップアップ</td></tr>
+        </table>
+      </div>
+      <div class="scene s3">
+        <div class="s-title">🇯🇵 SCENE 3：語彙・精読・リスニング</div>
+        <img src="ss_translate_detail.png" alt="和訳" style="max-height:90px;object-fit:cover;object-position:top">
+        <div class="s-cap">▲ 文ごとの和訳＋ネイティブ音声</div>
+        <p>「訳」ボタンで<strong>文ごとの和訳を一括表示</strong>。段落ごとに整理された訳文で<strong>パラグラフリーディング指導</strong>に直結。全段落に<strong>ネイティブ音声🔊</strong>を搭載し、「読む→聴く」のシームレスな学習で<strong>4技能を横断的に強化</strong>します。</p>
+      </div>
+    </div>
+
+    <!-- Screenshots -->
+    <div class="sec-h"><span class="num">▍</span><span class="text">画面イメージ</span><span class="line"></span></div>
+    <div class="ss-row">
+      <div class="ss-card">
+        <img src="ss_translate.png" alt="和訳全体" style="max-height:140px;object-fit:cover;object-position:top">
+        <div class="ss-label">🖥 和訳＋設問の見開きレイアウト</div>
+        <div class="ss-desc">左ペイン：英文＋和訳＋音声ボタン ｜ 右ペイン：設問＋選択肢＋解説。テキストと設問を同時に参照でき、スクロール連動で効率的な学習が可能。</div>
+      </div>
+      <div class="ss-card">
+        <img src="ss_viewer_scroll.png" alt="ビューアスクロール" style="max-height:140px;object-fit:cover;object-position:top">
+        <div class="ss-label">📐 根拠＋和訳＋解説の統合表示</div>
+        <div class="ss-desc">根拠ハイライト・和訳・詳細解説のすべてを同時表示。消去法の過程も可視化され、生徒の思考プロセスを一目で把握できます。</div>
+      </div>
+    </div>
+
+    <!-- Compare + Benefits in 2-col -->
+    <div class="compare-grid">
+      <div>
+        <div class="sec-h" style="margin-bottom:1mm"><span class="num">▍</span><span class="text">従来指導との比較</span><span class="line"></span></div>
+        <table class="cmp">
+          <tr><th style="width:22%">観点</th><th style="width:33%">従来</th><th>ReadLens Pro</th></tr>
+          <tr><td>教材準備</td><td>コピー＋切り貼り</td><td>ワンクリック印刷</td></tr>
+          <tr><td>根拠の提示</td><td>口頭説明のみ</td><td>ハイライトで視覚化</td></tr>
+          <tr><td>復習の仕組み</td><td>生徒任せ</td><td>アプリで自走可能</td></tr>
+          <tr><td>リスニング</td><td>別教材が必要</td><td>全文音声内蔵</td></tr>
+          <tr><td>解説の深さ</td><td>正解番号のみ</td><td>不正解の理由まで</td></tr>
+          <tr><td>出題形式</td><td>4択のみ対応</td><td>整序・添削も対応</td></tr>
+        </table>
+      </div>
+      <div>
+        <div class="sec-h" style="margin-bottom:1mm"><span class="num">▍</span><span class="text">導入メリット</span><span class="line"></span></div>
+        <div class="benefits" style="grid-template-columns:1fr 1fr">
+          <div class="ben"><div class="bn">01</div><div class="bt">授業効率化</div><div class="bd">教材準備・採点の手間を大幅に削減。空いた時間で個別指導に注力できます。</div></div>
+          <div class="ben"><div class="bn">02</div><div class="bt">指導品質の均一化</div><div class="bd">根拠・解説が構造化されており、講師間の指導のバラつきを解消します。</div></div>
+          <div class="ben"><div class="bn">03</div><div class="bt">生徒の自走力強化</div><div class="bd">自宅でもアプリで復習でき、「やりっぱなし」を防止。自立学習を促進します。</div></div>
+          <div class="ben"><div class="bn">04</div><div class="bt">段階的指導が可能</div><div class="bd">印刷テスト→アプリ復習の2段階で、授業と家庭学習を接続します。</div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">© 2025 ECC藍住・北島中央・大学前 ｜ スマホ・タブレット・PC対応 ｜ 追加費用なし</div>
+
+</div>
+</body>
+</html>

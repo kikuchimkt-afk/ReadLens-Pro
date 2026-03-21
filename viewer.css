@@ -827,3 +827,109 @@
   background: #e0e0e0;
 }
 
+/* ===== Multi-Answer Group (複数解答型) ===== */
+.multi-answer-group {
+  margin-bottom: 10px;
+}
+.multi-answer-label {
+  display: inline-block;
+  border: 2px solid #999;
+  border-radius: 4px;
+  min-width: 28px;
+  text-align: center;
+  font-weight: 700;
+  padding: 0 6px;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+
+/* ===== Questionnaire (アンケート結果) ===== */
+.questionnaire-q-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 14px 0 10px;
+  line-height: 1.5;
+}
+
+/* Chart Image (user screenshot) */
+.chart-image-container {
+  margin: 10px 0 16px;
+  text-align: center;
+}
+.chart-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #999;
+}
+
+/* Multi-Answer Slots */
+.multi-answer-slots {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+.multi-answer-slots.judged.correct .multi-slot {
+  border-color: #4caf50;
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+.multi-answer-slots.judged.wrong .multi-slot {
+  border-color: #e53935;
+  background: #ffebee;
+  color: #c62828;
+}
+
+/* Student Comments */
+.questionnaire-comments-label {
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+  color: #555;
+}
+.student-comment {
+  margin-bottom: 8px;
+  padding-left: 4px;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+/* ===== Handout (配布資料) ===== */
+.handout-section {
+  margin-bottom: 14px;
+}
+.handout-heading {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+.handout-item {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  padding-left: 10px;
+  margin-bottom: 4px;
+}
+.handout-sub-item {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.handout-sub-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.handout-sub-content {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  padding-left: 14px;
+}
+.handout-options {
+  padding-left: 14px;
+  margin-top: 4px;
+}
+.handout-option {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  padding-left: 6px;
+}
+

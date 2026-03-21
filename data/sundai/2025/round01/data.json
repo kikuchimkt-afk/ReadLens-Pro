@@ -690,6 +690,279 @@
           { "en": "concluding", "ja": "結論となる；結びの" }
         ]}
       }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "points_per_question": 3,
+      "situation": {
+        "en": "You and some friends have decided to start a new club at your high school — an English debate club. You have made a handout about the topic based on the following article and the results of a questionnaire given to students who had recently taken part in an English debate in class.",
+        "ja": "あなたと何人かの友人は高校で新しいクラブ―英語によるディベートクラブ―を始めることにしました。あなたは，以下の記事に基づいた主題と，授業で最近英語によるディベートに参加した生徒に対して行ったアンケート結果についての配布資料を作りました。"
+      },
+      "passages": [
+        {
+          "id": "debate_article",
+          "title": { "en": "What Makes a Successful Debate?", "ja": "ディベートを成功させるのは何か" },
+          "subtitle": { "en": "Lucy Gonzalez, debate team captain at Skyrock College", "ja": "スカイロック大学ディベートチームのキャプテンである，ルーシー・ゴンザレス" },
+          "paragraphs": [
+            [
+              { "id": "da_s1", "en": "Debate is a tool used to discuss important topics.", "ja": "ディベートは重要な主題について議論するための道具です。" },
+              { "id": "da_s2", "en": "Debating allows students to explore difficult subjects, express their opinions logically, and challenge their prejudices.", "ja": "ディベートを行うことによって，学生は難解な主題を探求し，自分の意見を論理的に表現し，自分が抱いている先入観に疑問を投げかけることができるのです。" },
+              { "id": "da_s3", "en": "All debates start with a resolution — the statement to be discussed — which is chosen in advance.", "ja": "すべてのディベートは，前もって選ばれる1つの決議案―議論されるべき意見―から始まります。" }
+            ],
+            [
+              { "id": "da_s4", "en": "A debate requires three groups: the affirmative team, the opposing team, and the judges.", "ja": "ディベートは，賛成チーム，反対チーム，そして審査団という3つのグループを必要とします。" },
+              { "id": "da_s5", "en": "The affirmative team starts by presenting arguments supporting the resolution and their reasons.", "ja": "賛成チームは，決議案を支持する主張とその理由を発表することから始めます。" },
+              { "id": "da_s6", "en": "They should also anticipate reasons for disagreeing with the resolution, and explain why those reasons are false.", "ja": "また彼らは決議案に対する反対理由を予測し，その理由がなぜ間違っているのかを説明しなければなりません。" }
+            ],
+            [
+              { "id": "da_s7", "en": "Next, the opposing team presents their opposing arguments.", "ja": "次に，反対チームが反対である主張を発表します。" },
+              { "id": "da_s8", "en": "The speaker answers questions raised by the other team, and presents further reasons for opposing the resolution.", "ja": "発表者は相手チームによって提起された疑問に答え，決議案に反対するさらなる理由を発表します。" },
+              { "id": "da_s9", "en": "Researching both sides of the topic and guessing what your opponent will say brings success.", "ja": "主題の両面を調査し，相手チームがどういう発言をするかを推測することが成功をもたらします。" }
+            ],
+            [
+              { "id": "da_s10", "en": "Both teams speak again in the rebuttal section.", "ja": "両チームは反論セクションで再び発言します。" },
+              { "id": "da_s11", "en": "Here, the speakers can comment on what the other team said, and give further counter-arguments.", "ja": "ここでは，発表者は相手チームが言ったことに関する見解を述べ，さらなる反論を述べます。" },
+              { "id": "da_s12", "en": "Finally, the judges listen to the final statements.", "ja": "最後に，審判団が最終的な意見を聴きます。" },
+              { "id": "da_s13", "en": "The judges look for two main points — clarity and relevance.", "ja": "審判団は主要な2つの点―明晰さと妥当性―を探ります。" },
+              { "id": "da_s14", "en": "Clarity means that the arguments were clear and logical, while relevance means that the speakers stuck to the topic and gave appropriate evidence.", "ja": "明晰さとは主張が明快で論理的であったことを意味し，一方，妥当性とは発表者が主題からそれることなく適切な証拠をあげたことを意味します。" },
+              { "id": "da_s15", "en": "Judges should base their judgment on these points regardless of their own personal opinions.", "ja": "審判団は，自分たち自身の個人的意見とは関係なく，そうした点に自分たちの判断の基盤を置かなければなりません。" }
+            ],
+            [
+              { "id": "da_s16", "en": "A debate should be fun.", "ja": "ディベートは楽しくあるべきです。" },
+              { "id": "da_s17", "en": "Although participants should take their roles seriously, everyone should remain polite.", "ja": "参加者は自分たちの役割を真剣に引き受けなければなりませんが，全員が礼儀正しいままでいるべきです。" },
+              { "id": "da_s18", "en": "Through this activity, members can improve their skills and knowledge.", "ja": "こうした活動を通して，メンバーたちは自分の技術と知識をよりよいものにしていくことができるのです。" }
+            ]
+          ]
+        },
+        {
+          "id": "questionnaire",
+          "title": { "en": "Results of the Questionnaire", "ja": "アンケート結果" },
+          "q1_title": { "en": "Q1: What did you feel the benefits of taking part in an English debate class were?", "ja": "質問1：英語のディベートの授業に参加することの利点はどういうことだと感じましたか。" },
+          "chart_data": [
+            { "label": { "en": "Increased knowledge of difficult topics", "ja": "難解な主題に関する知識が増えた" }, "value": 10 },
+            { "label": { "en": "Increased vocabulary", "ja": "語彙が増えた" }, "value": 5 },
+            { "label": { "en": "Practiced writing skills", "ja": "ライティングの技術の練習になった" }, "value": 5 },
+            { "label": { "en": "Improved confidence", "ja": "自信が増した" }, "value": 7 },
+            { "label": { "en": "Practiced logical thinking", "ja": "論理的思考の練習になった" }, "value": 8 },
+            { "label": { "en": "Improved research skills", "ja": "研究技術が向上した" }, "value": 12 },
+            { "label": { "en": "Improved public speaking skills", "ja": "人前で話す技術が増した" }, "value": 14 }
+          ],
+          "chart_total": 20,
+          "q2_title": { "en": "Q2: Give your opinions about the debate class.", "ja": "質問2：ディベートの授業に関する意見を述べてください。" },
+          "comments": [
+            { "id": "s1_comment", "label": "S1", "en": "Although I was assigned to the opposition team, I actually agreed with the resolution personally. It was difficult for me to think of opposing arguments.", "ja": "私は反対チームに割り当てられましたが，実際のところは個人的には決議案に賛成でした。反対の主張を考えるのは私にとって難しいことでした。" },
+            { "id": "s2_comment", "label": "S2", "en": "I was a member of one of the debate groups, but my friend was a judge. She didn't do any research at all. I think judges have to research the topics too. She also said it was difficult to remember the key points each team made.", "ja": "私はディベートグループの1つの一員でしたが，私の友だちは審判でした。彼女はまったく研究をしませんでした。私は審判団も主題の研究をしなければならないと思います。彼女はまたそれぞれのチームが述べていた要点を覚えておくことは難しかったと言っていました。" },
+            { "id": "s3_comment", "label": "S3", "en": "The debate was difficult for me because I didn't know the necessary English words. I wish we had had a vocabulary list before starting the activity.", "ja": "私は必要な英単語がわからなかったので，私にとってディベートは難しいものでした。活動を始める前に語彙リストがあればよかったと思います。" },
+            { "id": "s4_comment", "label": "S4", "en": "The opposition team found statistics and data to support their opinion. The affirmative team did not come up with logical reasons or evidence, so they lost.", "ja": "反対チームは自分たちの意見を支持する統計とデータを見つけました。賛成チームは論理的な理由や証拠を見つけることができなかったので，負けたのです。" },
+            { "id": "s5_comment", "label": "S5", "en": "I think we needed more time in class to prepare for the debate and understand the topic I didn't have enough time to investigate.", "ja": "私は，私たちには授業中に，ディベートの準備をし，調査する時間が十分とれなかった主題を理解するための時間がもっと必要だったと思います。" },
+            { "id": "s6_comment", "label": "S6", "en": "My knowledge of the subject was really poor and I didn't have any opinions before doing the debate. However, not only did I gain knowledge about the topic, I learned about other related issues.", "ja": "主題に関する私の知識は本当に貧弱で，私はディベートを行う前にはどんな意見も持っていませんでした。しかし，私は主題に関する知識を得たばかりでなく，関連する他の問題についてもたくさん学びました。" }
+          ]
+        },
+        {
+          "id": "handout",
+          "title": { "en": "Organizing a Formal Debate", "ja": "正式なディベートを計画すること" },
+          "is_handout": true,
+          "sections_content": [
+            {
+              "heading": { "en": "Debate Structure", "ja": "ディベートの構成" },
+              "items": [
+                { "en": "Resolution: [19]", "ja": "決議案：[19]" },
+                { "en": "Three groups: affirmative team, opposing team, and judges", "ja": "3つのグループ：賛成チーム，反対チーム，審判団" }
+              ]
+            },
+            {
+              "heading": { "en": "Recommendations for the team members based on expert advice and questionnaire results", "ja": "専門家のアドバイスとアンケート結果に基づくチームメンバーへの助言" },
+              "sub_items": [
+                {
+                  "label": { "en": "Affirmative Team:", "ja": "賛成チーム：" },
+                  "content": { "en": "Research and present reasons [20].", "ja": "[20]理由を研究し発表する。" }
+                },
+                {
+                  "label": { "en": "Opposing Team:", "ja": "反対チーム：" },
+                  "content": { "en": "Give the opposing view on the topic, even if you personally disagree. Giving hints to the team in advance may help them prepare opposing arguments.", "ja": "たとえ個人的には同意していないとしても，主題に関する反対意見を述べる。前もってチームに有益な情報を与えることは，反対である主張を準備するのに役立つかもしれない。" }
+                },
+                {
+                  "label": { "en": "Judges:", "ja": "審判団：" },
+                  "blank_number": 21,
+                  "options": [
+                    { "label": "A", "en": "Decide your opinion before the debate starts.", "ja": "ディベートが始まる前に自分の意見を決める。" },
+                    { "label": "B", "en": "Learn about the topic in advance.", "ja": "前もって主題に関して学ぶ。" },
+                    { "label": "C", "en": "Look for clear and logical arguments.", "ja": "明瞭で論理的な主張を探す。" },
+                    { "label": "D", "en": "Look for evidence that supports arguments.", "ja": "主張を支持する証拠を探す。" },
+                    { "label": "E", "en": "Take notes during the debate to avoid forgetting.", "ja": "忘れてしまわないように，ディベートの間にメモをとる。" }
+                  ]
+                }
+              ]
+            },
+            {
+              "heading": { "en": "Other issues to discuss", "ja": "話し合うべきその他の問題" },
+              "items": [
+                { "en": "The lowest number of students said that [22] as [23]'s comment mentioned. What should we do about this?", "ja": "[23]の意見が言及していたように，[22]と言っていた学生の数はもっとも少なかった。そのことに関して，我々はどうすべきか。" },
+                { "en": "Based on both the graph and [24]'s comment, should we assign club time to understanding the topic and planning the arguments? How much time do we think the teams will need?", "ja": "グラフと[24]の意見の両方に基づけば，我々はクラブの時間を，主題を理解し，主張の計画を立てることに割り当てるべきなのだろうか。我々はそれぞれのチームがどれだけの時間を必要とすると考えているのだろうか。" },
+                { "en": "S1 said that he already had a fixed opinion about the topic they debated in class. Perhaps we should have a large group brainstorming session before being divided into teams so everyone can see all sides of the argument. What do you think?", "ja": "S1は，授業中に議論された主題に関する自分の意見はすでに決まっていたと述べていた。おそらく，我々は，全員が主張のあらゆる側面を理解できるようにするために，各チームに分かれる前に，グループでのブレーンストーミングのための時間を多く持つべきである。あなたはどう思うか。" }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 19,
+          "stem": { "en": "Choose the best option for [19].", "ja": "「[19]に入れるのにもっとも適切な選択肢を選びなさい」" },
+          "choices": [
+            { "label": "①", "en": "A statement to which both teams should prepare opposing arguments", "ja": "両チームが反対の主張を準備するべきである意見", "is_correct": false },
+            { "label": "②", "en": "A view about an issue to be debated", "ja": "ディベートするべき問題に関する意見", "is_correct": true },
+            { "label": "③", "en": "An opinion about a controversial subject that most people agree with", "ja": "議論の余地のある主題についてのほとんどの人々が賛成する意見", "is_correct": false },
+            { "label": "④", "en": "The first argument of the opposing team that the affirmative team opposes", "ja": "賛成チームが反対する，反対チームの最初の主張", "is_correct": false }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。「ディベートを成功させるのは何か」という記事の第1段落最終文（All debates start ...）で「すべてのディベートは，前もって選ばれる1つの決議案―議論されるべき意見―から始まります」と述べられていることから，「決議案」とは「議論されるべき意見」であることがわかるので，正解は②と考えることができる。",
+            "evidence_sentences": ["da_s3"],
+            "why_others_wrong": [
+              { "choice": "①", "reason": "①，③，④はいずれも決議案の定義として記事で述べられている内容ではないので不可。", "ref_sentences": [] },
+              { "choice": "③", "reason": "①，③，④はいずれも決議案の定義として記事で述べられている内容ではないので不可。", "ref_sentences": [] },
+              { "choice": "④", "reason": "①，③，④はいずれも決議案の定義として記事で述べられている内容ではないので不可。", "ref_sentences": [] }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 20,
+          "stem": { "en": "Choose the best option for [20].", "ja": "「[20]に入れるのにもっとも適切な選択肢を選びなさい」" },
+          "choices": [
+            { "label": "①", "en": "agreeing with the resolution, backed up with data you researched", "ja": "あなたが研究したデータで裏づけられる，決議案に同意する", "is_correct": true },
+            { "label": "②", "en": "disagreeing with the topic, using advanced English vocabulary", "ja": "上級の英語語彙を使って，主題に反対する", "is_correct": false },
+            { "label": "③", "en": "for both sides of the argument, allowing the judges to decide", "ja": "審判団が決断を下すことを可能にする，主張に関する双方の側にとっての", "is_correct": false },
+            { "label": "④", "en": "for your personal opinion of the topic, to convince the other team", "ja": "相手チームを説得するための，主題に関する個人的な意見の", "is_correct": false }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。「ディベートを成功させるのは何か？」という記事の第2段落第2文（The affirmative team ...）で「賛成チームは，決議案を支持する主張とその理由を発表することから始めます」と述べられている。賛成チームが行うこととして[20]に①を入れると「あなたが研究したデータで裏づけられる。決議案に同意する理由を研究し発表する」という意味になり，記事で述べられていることとほぼ同じ意味を表すことになると判断できるので，正解は①となる。",
+            "evidence_sentences": ["da_s5"],
+            "why_others_wrong": [
+              { "choice": "②", "reason": "②，③，④はいずれも，[20]に続けても賛成チームが行うこととして記事で述べられている内容とはならないので不可。", "ref_sentences": [] },
+              { "choice": "③", "reason": "②，③，④はいずれも，[20]に続けても賛成チームが行うこととして記事で述べられている内容とはならないので不可。", "ref_sentences": [] },
+              { "choice": "④", "reason": "②，③，④はいずれも，[20]に続けても賛成チームが行うこととして記事で述べられている内容とはならないので不可。", "ref_sentences": [] }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "stem": { "en": "You are checking the handout. You notice an error in recommendations under Judges. Which of the following should you remove? [21]", "ja": "「あなたは配布資料を点検しているところである。審判団の下にある助言の中に誤りを見つけた。以下のどれを取り除くべきか」[21]" },
+          "choices": [
+            { "label": "①", "en": "A", "ja": "A", "is_correct": true },
+            { "label": "②", "en": "B", "ja": "B", "is_correct": false },
+            { "label": "③", "en": "C", "ja": "C", "is_correct": false },
+            { "label": "④", "en": "D", "ja": "D", "is_correct": false },
+            { "label": "⑤", "en": "E", "ja": "E", "is_correct": false }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。「ディベートを成功させるのは何か」という記事の第4段落第3文（Finally, the judges ...）以降に審判団が行うことの説明がなされているが，最終文（Judges should base ...）に「審判団は，自分たち自身の個人的意見とは関係なく，そうした点に自分たちの判断の基盤を置かなければなりません」とあるので，Aの「ディベートが始まる前に自分の意見を決める」は誤りであるとわかる。",
+            "evidence_sentences": ["da_s15"],
+            "why_others_wrong": [
+              { "choice": "②", "reason": "BはS2のコメントにある「審判団も主題の研究をしなければならないと思います」という意見を反映させたものであると考えることができる。", "ref_sentences": ["s2_comment"] },
+              { "choice": "③", "reason": "CとDは第4段落第4文（The judges look ...）と第5文（Clarity means that ...）で述べられている，「審判団は主要な2つの点―明晰さと妥当性―を探ります。明晰さとは主張が明快で論理的であったことを意味し，一方，妥当性とは発表者が主題からそれることなく適切な証拠をあげたことを意味します」という内容に対応していると考えられる。", "ref_sentences": ["da_s13", "da_s14"] },
+              { "choice": "④", "reason": "CとDは第4段落第4文（The judges look ...）と第5文（Clarity means that ...）で述べられている内容に対応していると考えられる。", "ref_sentences": ["da_s13", "da_s14"] },
+              { "choice": "⑤", "reason": "EはS2のコメントにある「彼女はまたそれぞれのチームが述べていた要点を覚えておくことは難しかったと言っていました」という意見を反映させたものであると考えることができる。", "ref_sentences": ["s2_comment"] }
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_numbers": [22, 23],
+          "stem": { "en": "Choose the best options for [22] and [23].", "ja": "「[22]と[23]に入れるのにもっとも適切な選択肢を選びなさい」" },
+          "choices_22": [
+            { "label": "①", "en": "it was difficult to speak in front of friends", "ja": "友人たちの前で話すのは難しかった", "is_correct": false },
+            { "label": "②", "en": "there was little time to prepare", "ja": "準備のための時間がほとんどなかった", "is_correct": false },
+            { "label": "③", "en": "they were able to acquire new words", "ja": "新しい単語を身につけることができた", "is_correct": true },
+            { "label": "④", "en": "they had little knowledge of the topic", "ja": "主題に関する知識がほとんどなかった", "is_correct": false },
+            { "label": "⑤", "en": "writing practice was not included", "ja": "ライティングの練習が含まれていなかった", "is_correct": false }
+          ],
+          "choices_23": [
+            { "label": "①", "en": "S1", "ja": "S1", "is_correct": false },
+            { "label": "②", "en": "S2", "ja": "S2", "is_correct": false },
+            { "label": "③", "en": "S3", "ja": "S3", "is_correct": true },
+            { "label": "④", "en": "S4", "ja": "S4", "is_correct": false },
+            { "label": "⑤", "en": "S5", "ja": "S5", "is_correct": false },
+            { "label": "⑥", "en": "S6", "ja": "S6", "is_correct": false }
+          ],
+          "answer": { "22": "③", "23": "③" },
+          "explanation": {
+            "ja": "正解は[22]が③，[23]が③。空所[22]と[23]を含む箇所は，話し合うべきその他の問題の1つとして「[23]の意見が言及していたように，[22]と言っていた学生の数はもっとも少なかった。そのことに関して，我々はどうすべきか」という意味を表している。空所[22]に関し，グラフより，学生の数がもっとも少なかった項目は「語彙が増えた」であるので，[22]には③「新しい単語を身につけることができた」が入ることになる。空所[23]に関し，アンケート結果の質問2における各生徒の意見の中でS3は「私は必要な英単語がわからなかったので，私にとってディベートは難しいものでした。活動を始める前に語彙リストがあればよかったと思います」とコメントしている。「必要な英単語がわからなかった」ということは「新しい単語を身につけることができたと言っていた学生の数はもっとも少なかった」というグラフが示していることと呼応していると判断できるので，[23]には③S3が入ると考えることができる。",
+            "evidence_sentences": ["s3_comment"]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 24,
+          "stem": { "en": "Choose the best option for [24].", "ja": "「[24]に入る最も適切な選択肢を答えなさい」" },
+          "choices": [
+            { "label": "①", "en": "S1", "ja": "S1", "is_correct": false },
+            { "label": "②", "en": "S2", "ja": "S2", "is_correct": false },
+            { "label": "③", "en": "S3", "ja": "S3", "is_correct": false },
+            { "label": "④", "en": "S4", "ja": "S4", "is_correct": false },
+            { "label": "⑤", "en": "S5", "ja": "S5", "is_correct": true },
+            { "label": "⑥", "en": "S6", "ja": "S6", "is_correct": false }
+          ],
+          "answer": "⑤",
+          "explanation": {
+            "ja": "正解は⑤。空所[24]を含む箇所は「グラフと[24]の意見の両方に基づけば，我々はクラブの時間を，主題を理解し主張の計画を立てることに割り当てるべきなのだろうか。我々はそれぞれのチームがどれだけの時間を必要とすると考えているのだろうか」という意味を表している。アンケート結果の質問2における各生徒の意見の中で，S5は「私は，私たちには授業中に，ディベートの準備をし，調査する時間が十分とれなかった主題を理解するための時間がもっと必要だったと思います」とコメントしているが，そのコメントに基づいて「主題を理解して主張の計画を立てることに割り当てるべきなのだろうか」という問題提起がなされていると判断できるので，[24]には⑤S5が入ることになる。",
+            "evidence_sentences": ["s5_comment"]
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": { "items": [
+          { "en": "debate", "ja": "ディベート；討論" },
+          { "en": "handout", "ja": "配布資料" },
+          { "en": "questionnaire", "ja": "アンケート" }
+        ]},
+        "passage": { "items": [
+          { "en": "explore", "ja": "…を探求する" },
+          { "en": "logically", "ja": "論理的に" },
+          { "en": "challenge", "ja": "…に疑問を投げかける" },
+          { "en": "prejudice", "ja": "先入観；偏見" },
+          { "en": "resolution", "ja": "決議案" },
+          { "en": "in advance", "ja": "前もって" },
+          { "en": "affirmative", "ja": "賛成の；肯定的な" },
+          { "en": "opposing", "ja": "反対の" },
+          { "en": "present", "ja": "…を提示する；…を発表する" },
+          { "en": "anticipate", "ja": "…を予測する" },
+          { "en": "false", "ja": "誤った；間違っている" },
+          { "en": "raise", "ja": "…を提起する" },
+          { "en": "opponent", "ja": "対戦相手" },
+          { "en": "rebuttal", "ja": "反論" },
+          { "en": "counter-argument", "ja": "反論" },
+          { "en": "clarity", "ja": "明晰さ" },
+          { "en": "relevance", "ja": "妥当性；関連性" },
+          { "en": "logical", "ja": "論理的な" },
+          { "en": "stick to ...", "ja": "…からそれない；…に固執する" },
+          { "en": "appropriate", "ja": "適切な" },
+          { "en": "evidence", "ja": "証拠" },
+          { "en": "regardless of ...", "ja": "…に関係なく" },
+          { "en": "participant", "ja": "参加者" },
+          { "en": "remain", "ja": "…のままでいる" },
+          { "en": "polite", "ja": "礼儀正しい" },
+          { "en": "assign", "ja": "…を割り当てる" },
+          { "en": "opposition", "ja": "反対" },
+          { "en": "statistics", "ja": "統計" },
+          { "en": "come up with ...", "ja": "…を思いつく" },
+          { "en": "investigate", "ja": "…を調査する" },
+          { "en": "brainstorming", "ja": "ブレーンストーミング" }
+        ]},
+        "questions_and_choices": { "items": [
+          { "en": "controversial", "ja": "議論の余地のある" },
+          { "en": "back up", "ja": "…を裏づける" },
+          { "en": "acquire", "ja": "…を身につける" },
+          { "en": "convince", "ja": "…を説得する" }
+        ]}
+      }
     }
   ]
 }

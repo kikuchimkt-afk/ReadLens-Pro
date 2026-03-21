@@ -224,6 +224,73 @@ function renderPassage() {
       }
     }
 
+    // ===== Questionnaire rendering =====
+    if (passage.id === 'questionnaire') {
+      // Q1 title
+      if (passage.q1_title) {
+        html += `<div class="questionnaire-q-title">${passage.q1_title.en}</div>`;
+      }
+      // Bar chart image (user-provided screenshot)
+      if (passage.chart_image) {
+        html += `<div class="chart-image-container"><img class="chart-image" src="${passage.chart_image.src}" alt="${passage.chart_image.alt || 'Chart'}"></div>`;
+      } else if (passage.chart_data) {
+        // Fallback: simple image if chart_image not set
+        const imgBase = currentDataPath.replace(/data\.json$/, 'images/');
+        html += `<div class="chart-image-container"><img class="chart-image" src="${imgBase}s5_questionnaire_chart.png" alt="Questionnaire Chart"></div>`;
+      }
+      // Q2 title + comments
+      if (passage.q2_title) {
+        html += `<div class="questionnaire-q-title" style="margin-top:20px;">${passage.q2_title.en}</div>`;
+      }
+      if (passage.comments) {
+        html += `<div class="questionnaire-comments-label">Main comments:</div>`;
+        for (const c of passage.comments) {
+          html += `<div class="student-comment">
+            <span class="sentence" data-sid="${c.id}"><strong>${c.label === 'S1' ? 'Student 1 (S1)' : c.label}:</strong> ${c.en}</span>
+            <div class="sentence-ja" data-sid-ja="${c.id}">${c.ja}</div>
+          </div>`;
+        }
+      }
+    }
+
+    // ===== Handout rendering =====
+    if (passage.is_handout) {
+      if (passage.sections_content) {
+        for (const sec of passage.sections_content) {
+          html += `<div class="handout-section">`;
+          html += `<div class="handout-heading">■ ${sec.heading.en}</div>`;
+          if (sec.items) {
+            for (const item of sec.items) {
+              const itemEn = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="handout-item">－ ${itemEn}</div>`;
+            }
+          }
+          if (sec.sub_items) {
+            for (const sub of sec.sub_items) {
+              html += `<div class="handout-sub-item">`;
+              html += `<div class="handout-sub-label">－ ${sub.label.en}</div>`;
+              if (sub.content) {
+                const contentEn = sub.content.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                html += `<div class="handout-sub-content">${contentEn}</div>`;
+              }
+              if (sub.options) {
+                html += `<div class="handout-options">`;
+                if (sub.blank_number) {
+                  html += `<div class="answer-slot" style="margin-bottom:6px;">${sub.blank_number}</div>`;
+                }
+                for (const opt of sub.options) {
+                  html += `<div class="handout-option">${opt.label}.  ${opt.en}</div>`;
+                }
+                html += `</div>`;
+              }
+              html += `</div>`;
+            }
+          }
+          html += `</div>`;
+        }
+      }
+    }
+
     html += '</div>';
   }
 
@@ -402,7 +469,35 @@ function renderQuestions() {
       html += '</div>';
       // Undo button
       html += '<button class="ordering-undo" data-qid="' + q.question_id + '" title="取り消し" style="display:none;">↩ 戻す</button>';
-    } else {
+    } else if (q.answer_numbers) {
+      // Multiple answer: slot-based UI (select all before checking)
+      html += '<div class="multi-answer-slots" data-qid="' + q.question_id + '">';
+      for (let ai = 0; ai < q.answer_numbers.length; ai++) {
+        const ansNum = q.answer_numbers[ai];
+        if (ai > 0) html += '<span class="ordering-arrow">＋</span>';
+        html += '<span class="ordering-slot multi-slot" data-slot="' + ansNum + '">[' + ansNum + ']</span>';
+      }
+      html += '</div>';
+      for (const ansNum of q.answer_numbers) {
+        const choicesKey = `choices_${ansNum}`;
+        const choices = q[choicesKey];
+        if (!choices) continue;
+        html += `<div class="multi-answer-group" data-ans-num="${ansNum}">`;
+        html += `<div class="multi-answer-label">[${ansNum}]</div>`;
+        html += '<ul class="choices">';
+        for (const choice of choices) {
+          html += `<li class="choice-item multi-choice" data-qid="${q.question_id}" data-ans-num="${ansNum}" data-label="${choice.label}">
+            <span class="choice-label">${choice.label}</span>
+            <span class="choice-text">
+              ${choice.en}
+              <div class="choice-text-ja">${choice.ja || ''}</div>
+            </span>
+          </li>`;
+        }
+        html += '</ul></div>';
+      }
+      html += '<button class="ordering-undo multi-undo" data-qid="' + q.question_id + '" title="取り消し" style="display:none;">↩ 戻す</button>';
+    } else if (q.choices) {
       // Normal choices
       html += '<ul class="choices">';
       for (const choice of q.choices) {
@@ -425,8 +520,8 @@ function renderQuestions() {
 
   document.getElementById('questions-content').innerHTML = html;
 
-  // Bind choice click events
-  document.querySelectorAll('.choice-item').forEach(el => {
+  // Bind choice click events (exclude multi-choice items)
+  document.querySelectorAll('.choice-item:not(.multi-choice)').forEach(el => {
     el.addEventListener('click', handleChoiceClick);
   });
 
@@ -435,12 +530,20 @@ function renderQuestions() {
     el.addEventListener('click', handlePerQuestionEvidence);
   });
 
-  // Bind ordering buttons
-  document.querySelectorAll('.ordering-btn').forEach(btn => {
+  // Bind ordering buttons (excluding multi-btn)
+  document.querySelectorAll('.ordering-btn:not(.multi-btn)').forEach(btn => {
     btn.addEventListener('click', handleOrderingClick);
   });
-  document.querySelectorAll('.ordering-undo').forEach(btn => {
+  document.querySelectorAll('.ordering-undo:not(.multi-undo)').forEach(btn => {
     btn.addEventListener('click', handleOrderingUndo);
+  });
+
+  // Bind multi-answer choices
+  document.querySelectorAll('.multi-choice').forEach(el => {
+    el.addEventListener('click', handleMultiAnswerClick);
+  });
+  document.querySelectorAll('.multi-undo').forEach(btn => {
+    btn.addEventListener('click', handleMultiAnswerUndo);
   });
 }
 
@@ -557,6 +660,121 @@ function handleOrderingUndo(e) {
   if (!anyFilled) {
     e.currentTarget.style.display = 'none';
   }
+}
+
+// ===== Multi-Answer Click Handler =====
+function handleMultiAnswerClick(e) {
+  const btn = e.currentTarget;
+  const qid = btn.dataset.qid;
+  const ansNum = btn.dataset.ansNum;
+  const label = btn.dataset.label;
+
+  const slotsContainer = document.querySelector(`.multi-answer-slots[data-qid="${qid}"]`);
+  if (slotsContainer && slotsContainer.classList.contains('judged')) return;
+
+  // Remove previous selection in this group
+  document.querySelectorAll(`.multi-choice[data-qid="${qid}"][data-ans-num="${ansNum}"]`).forEach(el => {
+    el.classList.remove('selected');
+  });
+  btn.classList.add('selected');
+
+  // Fill the corresponding slot
+  const slot = slotsContainer.querySelector(`.multi-slot[data-slot="${ansNum}"]`);
+  if (slot) {
+    slot.textContent = label;
+    slot.dataset.label = label;
+    slot.classList.add('filled');
+  }
+
+  // Show undo
+  const undoBtn = document.querySelector(`.multi-undo[data-qid="${qid}"]`);
+  if (undoBtn) undoBtn.style.display = 'inline-block';
+
+  // Check if all slots filled
+  const allSlots = slotsContainer.querySelectorAll('.multi-slot');
+  const allFilled = [...allSlots].every(s => s.dataset.label);
+  if (!allFilled) return;
+
+  // Judge all answers
+  const q = currentSection.questions.find(q => q.question_id === qid);
+  if (!q) return;
+
+  let allCorrect = true;
+  for (const s of allSlots) {
+    const num = s.dataset.slot;
+    const userLabel = s.dataset.label;
+    const correctLabel = q.answer && q.answer[String(num)];
+    if (userLabel !== correctLabel) {
+      allCorrect = false;
+      break;
+    }
+  }
+
+  slotsContainer.classList.add('judged', allCorrect ? 'correct' : 'wrong');
+  if (undoBtn) undoBtn.style.display = 'none';
+
+  // Mark choices as correct/wrong
+  for (const num of q.answer_numbers) {
+    const correctLabel = q.answer[String(num)];
+    const selectedEl = document.querySelector(`.multi-choice[data-qid="${qid}"][data-ans-num="${num}"].selected`);
+    if (selectedEl) {
+      if (selectedEl.dataset.label === correctLabel) {
+        selectedEl.classList.add('correct');
+      } else {
+        selectedEl.classList.add('wrong');
+        // Also highlight the correct one
+        document.querySelectorAll(`.multi-choice[data-qid="${qid}"][data-ans-num="${num}"]`).forEach(el => {
+          if (el.dataset.label === correctLabel) el.classList.add('correct');
+        });
+      }
+    }
+  }
+
+  // If wrong, show correct
+  if (!allCorrect) {
+    let correctText = '正解: ';
+    for (const num of q.answer_numbers) {
+      correctText += `[${num}] ${q.answer[String(num)]}  `;
+    }
+    const correctDiv = document.createElement('div');
+    correctDiv.className = 'ordering-correct-answer';
+    correctDiv.textContent = correctText;
+    slotsContainer.parentNode.insertBefore(correctDiv, slotsContainer.nextSibling);
+  }
+
+  // Show explanation
+  const explBox = document.querySelector(`.explanation-box[data-qid="${qid}"]`);
+  if (explBox) explBox.classList.add('visible');
+
+  // Highlight evidence
+  highlightEvidence(qid);
+}
+
+// ===== Multi-Answer Undo =====
+function handleMultiAnswerUndo(e) {
+  const qid = e.currentTarget.dataset.qid;
+  const slotsContainer = document.querySelector(`.multi-answer-slots[data-qid="${qid}"]`);
+  if (!slotsContainer || slotsContainer.classList.contains('judged')) return;
+
+  const slots = [...slotsContainer.querySelectorAll('.multi-slot')];
+  // Find last filled slot
+  for (let i = slots.length - 1; i >= 0; i--) {
+    if (slots[i].dataset.label) {
+      const ansNum = slots[i].dataset.slot;
+      const label = slots[i].dataset.label;
+      slots[i].textContent = '[' + ansNum + ']';
+      delete slots[i].dataset.label;
+      slots[i].classList.remove('filled');
+      // Un-select the choice
+      document.querySelectorAll(`.multi-choice[data-qid="${qid}"][data-ans-num="${ansNum}"]`).forEach(el => {
+        el.classList.remove('selected');
+      });
+      break;
+    }
+  }
+
+  const anyFilled = slots.some(s => s.dataset.label);
+  if (!anyFilled) e.currentTarget.style.display = 'none';
 }
 
 // ===== Choice Click Handler =====
@@ -742,6 +960,18 @@ function setupControls() {
     document.querySelectorAll('.ordering-btn').forEach(b => b.classList.remove('used'));
     document.querySelectorAll('.ordering-undo').forEach(b => { b.style.display = 'none'; });
     document.querySelectorAll('.ordering-correct-answer').forEach(el => el.remove());
+    // Reset multi-answer questions
+    document.querySelectorAll('.multi-answer-slots').forEach(sc => {
+      sc.classList.remove('judged', 'correct', 'wrong');
+      sc.querySelectorAll('.multi-slot').forEach(s => {
+        const ansNum = s.dataset.slot;
+        s.textContent = '[' + ansNum + ']';
+        delete s.dataset.label;
+        s.classList.remove('filled');
+      });
+    });
+    document.querySelectorAll('.multi-choice').forEach(el => el.classList.remove('selected', 'correct', 'wrong'));
+    document.querySelectorAll('.multi-undo').forEach(b => { b.style.display = 'none'; });
     // Collapse others-wrong
     document.querySelectorAll('.others-wrong.open').forEach(el => el.classList.remove('open'));
     document.querySelectorAll('.explanation-toggle').forEach(el => el.textContent = '▶ 他の選択肢の解説');
