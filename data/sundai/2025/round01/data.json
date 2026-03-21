@@ -1,0 +1,695 @@
+{
+  "exam_info": {
+    "title": "2025年駿台共通テスト実戦問題集",
+    "round": 1,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 46,
+    "source_pdf_mondai": "第1回_問題.pdf",
+    "source_pdf_kaitou": "第1回_解答.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "situation": {
+        "en": "You are an exchange student in Canada, and your homestay family wants to take you on a day trip. Your homestay mother has given you some information about the available tours.",
+        "ja": "あなたはカナダにいる交換留学生で，ホームステイ先の家族はあなたを日帰り旅行に連れて行きたいと思っています。ホームステイ先の母親があなたに利用可能なツアーについての情報を提供してくれました。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": { "en": "Prince Edward Island (PEI) Sightseeing Tours", "ja": "プリンスエドワード島（PEI）観光ツアー" },
+          "subtitle": { "en": "Choose from three Maple Tours itineraries", "ja": "メイプルツアーズの3つの旅行計画から選択する" }
+        },
+        {
+          "id": "montgomery_tour",
+          "title": { "en": "The Montgomery Tour", "ja": "モンゴメリツアー" },
+          "image": {
+            "src": "data/sundai/2025/round01/images/montgomery_house.png",
+            "alt": "Montgomery House illustration",
+            "float": "right"
+          },
+          "sentences": [
+            { "id": "mt_s1", "en": "Learn about Lucy Maud Montgomery, the author of Anne of Green Gables, whose writing was inspired by the island's nature and people.", "ja": "「赤毛のアン」の作者であるルーシー・モード・モンゴメリ ─ 彼女の著作はこの島の自然と人々に触発されました ─ について学びます。" },
+            { "id": "mt_s2", "en": "Start the tour at the Cavendish United Church, built in 1901, where Montgomery was buried in 1940.", "ja": "1901年に建てられ，1940年にモンゴメリが埋葬されたキャベンディッシュ・ユナイテッド・チャーチからツアーは出発します。" },
+            { "id": "mt_s3", "en": "Next, visit the Anne of Green Gables Museum and see items belonging to Montgomery.", "ja": "次に「赤毛のアン博物館」を訪れ，モンゴメリの所持品を見学します。" },
+            { "id": "mt_s4", "en": "The museum was originally a house built by Montgomery's relatives in 1872.", "ja": "博物館はもともとモンゴメリの親戚の人たちにより1872年に建てられた家屋でした。" },
+            { "id": "mt_s5", "en": "Finally, visit the school where Montgomery taught.", "ja": "最後に，モンゴメリが教鞭を執った学校を訪問します。" },
+            { "id": "mt_s6", "en": "The tour will be conducted by tour guides who were all brought up on PEI.", "ja": "このツアーは，みんなこのPEIで育ったガイドたちが案内します。" }
+          ]
+        },
+        {
+          "id": "scenic_drive",
+          "title": { "en": "PEI Scenic Drive", "ja": "PEIの景観を眺めながらのドライブ" },
+          "sentences": [
+            { "id": "sd_s1", "en": "Let's experience the island's beautiful scenery and nature.", "ja": "この島の美しい風景と自然を体験しましょう。" },
+            { "id": "sd_s2", "en": "Your local guide will pick you up directly from your accommodation.", "ja": "地元のガイドが宿泊先から直接あなたを車に乗せてくれます。" },
+            { "id": "sd_s3", "en": "First, we will drive down Charlottetown's main street, passing Province House, completed in 1847, and the site of the Charlottetown Conference in 1864, which led to the formation of Canada.", "ja": "まず，チャールストン大通りを通って，1847年完成のプロビンスハウスと，カナダの建国につながった1864年のシャーロットタウン会議跡地を通ります。" },
+            { "id": "sd_s4", "en": "Then we will visit the Prince Edward Island National Park, before stopping at North Rustico, a lobster fishing village.", "ja": "それからプリンスエドワード島国立公園を訪れ，その後，ロブスター漁の村であるノースラスティコに立ち寄ります。" },
+            { "id": "sd_s5", "en": "Try some delicious lobster at a restaurant there.", "ja": "そこのレストランでおいしいロブスターを食べてみてください。" }
+          ]
+        },
+        {
+          "id": "walking_tour",
+          "title": { "en": "Charlottetown Food Highlights Walking Tour", "ja": "シャーロットタウンの食のハイライトをめぐるウォーキングツアー" },
+          "sentences": [
+            { "id": "wt_s1", "en": "Let's explore Charlottetown on foot.", "ja": "シャーロットタウンを歩いて探検しましょう。" },
+            { "id": "wt_s2", "en": "Your guide has lived on PEI his entire life, and he will introduce Charlottetown's historical sights, while pointing out delicious local food to sample.", "ja": "ガイドは生まれてからずっとPEIで暮らしてきたので，おいしい地元の食べ物に目を留めて試食しながら，シャーロットタウンの史跡を紹介してくれます。" },
+            { "id": "wt_s3", "en": "Start the tour at Peake's Wharf, by the sea.", "ja": "海に近いピークスワーフからツアーに出発します。" },
+            { "id": "wt_s4", "en": "These warehouse buildings were built in 1872, and are now restaurants and gift shops.", "ja": "この倉庫群は1872年に建てられ，今ではレストランやギフトショップになっています。" },
+            { "id": "wt_s5", "en": "Try some ice cream before moving on to the Farmer's Market.", "ja": "アイスクリームを食べてみてから，ファーマーズマーケットに移動しましょう。" },
+            { "id": "wt_s6", "en": "Meet local farmers and buy delicious fresh produce.", "ja": "地元の農家に会って新鮮でおいしい農産物を手に入れてください。" },
+            { "id": "wt_s7", "en": "After wandering the streets, we'll eat at the Canton Café, the island's longest-running restaurant.", "ja": "通りを散策してから，この島で最も長く営業しているレストランであるカントンカフェで食事をします。" },
+            { "id": "wt_s8", "en": "The owners moved to Canada in the 1950s and opened their Chinese restaurant in 1970.", "ja": "各オーナーは1950年代にカナダへと移住してきて，1970年にそれぞれの中華レストランを開きました。" }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": { "en": "Prince Edward Island has [1].", "ja": "「プリンスエドワード島には[1]がある」" },
+          "choices": [
+            { "label": "①", "en": "a place where a historically important conference was held", "ja": "歴史的に重要な会議が開かれた場所", "is_correct": true },
+            { "label": "②", "en": "a school that was founded by Canada's most famous female writer", "ja": "カナダのもっとも有名な女性作家によって創立された学校", "is_correct": false },
+            { "label": "③", "en": "the first Chinese restaurant that opened in Canada", "ja": "カナダで開店した最初の中華レストラン", "is_correct": false },
+            { "label": "④", "en": "warehouses that have been used to store goods since the 18th century", "ja": "18世紀以来商品を貯蔵するために使用されてきた倉庫群", "is_correct": false }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。2つ目のツアーである「PEIの景観を眺めながらのドライブ」の第3文（First, we will ...）に「まず，チャールストン大通りを通って，1847年完成のプロビンスハウスと，カナダの建国につながった1864年のシャーロットタウン会議跡地を通ります」とあるが，シャーロットタウン会議跡地は選択肢①の「歴史的に重要な会議が開かれた場所」と考えられることから，正解は①となる。",
+            "evidence_sentences": ["sd_s3"],
+            "why_others_wrong": [
+              { "choice": "②", "reason": "②に関しては，カナダの女性作家である「赤毛のアン」の作者ルーシー・モード・モンゴメリと彼女が教鞭を執った学校のことは1つ目のツアーである「モンゴメリツアー」で言及されているが，モンゴメリが創立した学校については述べられていないので不可。", "ref_sentences": ["mt_s5"] },
+              { "choice": "③", "reason": "③に関しては，中華レストランは3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」で言及されているが，「カナダで開店した最初の中華レストラン」であるとは述べられていないので不可。", "ref_sentences": ["wt_s7", "wt_s8"] },
+              { "choice": "④", "reason": "④に関しては，倉庫群は3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」で言及されているが，その第4文（These warehouse buildings ...）で「この倉庫群は1872年に建てられ，今ではレストランやギフトショップになっています」と述べられていることから，今では商品を貯蔵するために使用されているわけではないことがわかるので不可。", "ref_sentences": ["wt_s4"] }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": { "en": "On all three tours, you will [2].", "ja": "「3つのツアーのすべてで，あなたは[2]ことになる」" },
+          "choices": [
+            { "label": "①", "en": "be taken around by a guide who lives on the island", "ja": "この島に住んでいるガイドに案内してもらう", "is_correct": true },
+            { "label": "②", "en": "learn about famous people from the island", "ja": "この島の出身である有名な人々について学ぶ", "is_correct": false },
+            { "label": "③", "en": "see the center of the largest city, Charlottetown", "ja": "もっとも大きな都市であるシャーロットタウンの中心部を見学する", "is_correct": false },
+            { "label": "④", "en": "try various examples of local food", "ja": "さまざまな代表的な地元の食べ物を試食する", "is_correct": false }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。1つ目のツアーである「モンゴメリツアー」の最終文（The tour will ...）では「このツアーは，みんなこのPEIで育ったガイドたちが案内します」と述べられ，2つ目のツアーである「PEIの景観を眺めながらのドライブ」の第2文（Your local guide ...）では「地元のガイドが宿泊先から直接あなたを車に乗せてくれます」と，そして3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」の第2文（Your guide has ...）では「ガイドは生まれてからずっとPEIで暮らしてきたので，おいしい地元の食べ物に目を留めて試食しながら，シャーロットタウンの史跡を紹介してくれます」と述べられていることから，3つのツアーすべてにおいて地元出身のガイドが案内してくれることがわかる。よって正解は①となる。",
+            "evidence_sentences": ["mt_s6", "sd_s2", "wt_s2"],
+            "why_others_wrong": [
+              { "choice": "②", "reason": "②に関しては，1つ目のツアーである「モンゴメリツアー」ではカナダの有名な女性作家である「赤毛のアン」の作者ルーシー・モード・モンゴメリについて学ぶことがわかるが，他の2つのツアーでは「この島の出身である有名な人々について学ぶ」ことが述べられていないので不可。", "ref_sentences": ["mt_s1"] },
+              { "choice": "③", "reason": "③に関しては，1つ目の「モンゴメリツアー」がシャーロットタウンで行われるとの記述がないので不可。", "ref_sentences": [] },
+              { "choice": "④", "reason": "④に関しては，2つ目のツアーである「PEIの景観を眺めながらのドライブ」ではロブスターを食べること，また3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」では地元の食べ物やアイスクリームを試食することやカフェで食事をすることが述べられているが，1つ目のツアーである「モンゴメリツアー」では試食に関する記述はないので不可。", "ref_sentences": ["sd_s5", "wt_s2", "wt_s5", "wt_s7"] }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": { "en": "Which is the oldest building you will see on these tours? [3]", "ja": "「これらのツアーで見学することになる中で最も古い建物はどれか」[3]" },
+          "choices": [
+            { "label": "①", "en": "Province House", "ja": "プロビンスハウス", "is_correct": true },
+            { "label": "②", "en": "the Anne of Green Gables Museum", "ja": "赤毛のアン博物館", "is_correct": false },
+            { "label": "③", "en": "the Canton Café, Chinese restaurant", "ja": "カントンカフェという中華レストラン", "is_correct": false },
+            { "label": "④", "en": "the Cavendish United Church", "ja": "キャベンディッシュ・ユナイテッド・チャーチ", "is_correct": false }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。1つ目のツアーである「モンゴメリツアー」では，1901年に建てられたキャベンディッシュ・ユナイテッド・チャーチから出発することと，「赤毛のアン博物館」がもともとモンゴメリの親戚の人たちにより1872年に建てられた家屋であったことが述べられている。2つ目のツアーである「PEIの景観を眺めながらのドライブ」では，カナダの建国につながった，1847年完成のプロビンスハウスについて言及されている。そして3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」では，1970年に開店した中華レストランについての言及がある。以上の中で最も古い建物は1847年完成のプロビンスハウスであるとわかるので正解は①ということになる。",
+            "evidence_sentences": ["mt_s2", "mt_s4", "sd_s3", "wt_s8"],
+            "building_years": [
+              { "name": "Province House", "year": 1847, "ref": "sd_s3" },
+              { "name": "Anne of Green Gables Museum (originally a house)", "year": 1872, "ref": "mt_s4" },
+              { "name": "Cavendish United Church", "year": 1901, "ref": "mt_s2" },
+              { "name": "Canton Café (Chinese restaurant)", "year": 1970, "ref": "wt_s8" }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": { "items": [
+          { "en": "exchange student", "ja": "交換留学生" },
+          { "en": "available", "ja": "利用可能な" }
+        ]},
+        "passage": { "items": [
+          { "en": "sightseeing", "ja": "観光" },
+          { "en": "itinerary", "ja": "旅程表；旅行計画" },
+          { "en": "Anne of Green Gables", "note": "ルーシー・モード・モンゴメリ作の長編小説「赤毛のアン」の原題。" },
+          { "en": "be inspired by ...", "ja": "…に触発される" },
+          { "en": "bury", "ja": "…を埋葬する" },
+          { "en": "relative", "ja": "親戚；親類" },
+          { "en": "conduct", "ja": "…を案内する" },
+          { "en": "bring up ...", "ja": "…を育てる" },
+          { "en": "scenic", "ja": "景色の（すばらしい）" },
+          { "en": "scenery", "ja": "風景" },
+          { "en": "pick ... up", "ja": "…を車に乗せる" },
+          { "en": "accommodation", "ja": "宿泊施設" },
+          { "en": "conference", "ja": "会議" },
+          { "en": "formation", "ja": "設立" },
+          { "en": "on foot", "ja": "徒歩で" },
+          { "en": "point out ...", "ja": "…に注目させる" },
+          { "en": "sample", "ja": "…を試食する" },
+          { "en": "warehouse", "ja": "倉庫" },
+          { "en": "produce", "ja": "農産物" }
+        ]},
+        "questions_and_choices": { "items": [
+          { "en": "found", "ja": "…を創設［創立］する" },
+          { "en": "be used to -", "ja": "-するために用いられる" },
+          { "en": "take ... around", "ja": "…を案内して回る" }
+        ]}
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 10,
+      "points_per_question": 2,
+      "situation": {
+        "en": "You will soon move to the UK to study at a university there. You are reading an article about bank accounts for students written by a recent graduate of that university.",
+        "ja": "あなたはまもなくイギリスへ行き，そこの大学で勉強することになります。あなたは，その大学を最近卒業した人によって書かれた学生用銀行預金口座についての記事を読んでいるところです。"
+      },
+      "passages": [
+        {
+          "id": "bank_article",
+          "paragraphs": [
+            [
+              { "id": "ba_s1", "en": "Almost all banks these days offer special \"student bank accounts,\" and I strongly recommend signing up because they offer services not available to regular account holders.", "ja": "最近のほぼすべての銀行は特別な「学生銀行口座」を提供しており，そうした口座は通常の口座保持者では利用できないサービスを提供しているので，私は申請することを強く勧めます。" }
+            ],
+            [
+              { "id": "ba_s2", "en": "My account is with Alpha Bank.", "ja": "私の口座はアルファ銀行にあります。" },
+              { "id": "ba_s3", "en": "To attract new customers, they offer a 3-year student railcard if you open an account in September.", "ja": "新規の顧客を呼び込むために，9月に口座を開設すると，3年間の鉄道の学生割引証を提供しています。" },
+              { "id": "ba_s4", "en": "These railcards are worth £120, and holders can get 30% off train fares.", "ja": "この鉄道割引証は120ポンド分の価値があり，保持者は鉄道料金を30%引きにすることができます。" },
+              { "id": "ba_s5", "en": "Other banks give cash gifts.", "ja": "他には現金のギフトを提供してくれるところもあります。" },
+              { "id": "ba_s6", "en": "For example, Waverly Bank puts £50 in every new student account, while Phoenix Bank gives £40.", "ja": "たとえば，ウェイバリー銀行はすべての新しい学生用口座に50ポンドを入れてくれますし，フェニックス銀行は40ポンドを提供しています。" }
+            ],
+            [
+              { "id": "ba_s7", "en": "In addition to online banking and a debit card, all student accounts provide low-interest credit cards and offer zero-interest short-term loans.", "ja": "オンライン銀行やデビットカードに加えて，すべての学生用口座は低金利のクレジットカードを支給し，金利ゼロの短期ローンを提供しています。" },
+              { "id": "ba_s8", "en": "Last month, the salary from my part-time job was late, but I borrowed £100 from Alpha at zero interest for a week.", "ja": "先月，私のアルバイトの給料が遅れましたが，私はアルファ銀行から1週間，利息なしで100ポンドを借りました。" },
+              { "id": "ba_s9", "en": "Some banks allow higher limits.", "ja": "銀行の中にはもっと高い上限を認めているところもあります。" },
+              { "id": "ba_s10", "en": "Customers of Waverly Bank and Phoenix Bank can borrow up to £200 and £300 interest-free respectively.", "ja": "ウェイバリー銀行とフェニックス銀行の顧客はそれぞれ利息なしで最大200ポンドと300ポンドを借りることができます。" }
+            ],
+            [
+              { "id": "ba_s11", "en": "Most adult bank accounts charge a fee of up to £10 a month, but student bank accounts are usually cheap or free to use.", "ja": "ほとんどの成人用銀行口座は毎月最大10ポンドの手数料を請求しますが，学生用銀行口座はたいてい安い価格か無料で利用できます。" },
+              { "id": "ba_s12", "en": "My bank charges £2 a month, but Waverly and Phoenix are free.", "ja": "私の銀行は月に2ポンド請求しますが，ウェイバリー銀行とフェニックス銀行は無料です。" },
+              { "id": "ba_s13", "en": "However, my bank does not charge at all for ATM cash withdrawals, unlike the other two.", "ja": "しかし，私の銀行はATMでの現金引き出しには，その2つの他の銀行とは異なり，まったく料金を請求しません。" }
+            ],
+            [
+              { "id": "ba_s14", "en": "The unique benefit of Alpha bank is that it offers free travel insurance until I graduate.", "ja": "アルファ銀行独自の利点は，卒業まで無料の旅行保険を提供してくれることです。" },
+              { "id": "ba_s15", "en": "This is great for me because I like to travel.", "ja": "これは，私が旅行好きであることから，私にとってはすばらしいものです。" },
+              { "id": "ba_s16", "en": "I took a trip to Paris last month and my camera was stolen.", "ja": "私は先月，パリへ旅行に行き，カメラを盗まれてしまいました。" },
+              { "id": "ba_s17", "en": "I was able to get some money back to buy a new camera, although I wish the money had arrived faster and the procedure was simpler.", "ja": "私は新しいカメラを買うためにいくらかのお金を取り戻すことができました。もっとも，そのお金がもっと速く届いて，手続きがもっと簡単であればよかったのですけれども。" }
+            ],
+            [
+              { "id": "ba_s18", "en": "Each account offers different benefits and services, so think about your own needs before choosing a student bank account.", "ja": "それぞれの口座がさまざまな利点やサービスを提供していますので，学生用銀行預金口座を選ぶ前に自分自身に必要なものについて考えておいてください。" }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": { "en": "According to the article, which of the following is true? [4]", "ja": "「記事によれば，以下のどれが本当か」[4]" },
+          "choices": [
+            { "label": "①", "en": "All bank accounts mentioned allow free ATM withdrawals.", "ja": "言及されているすべての銀行預金口座はATMの無料引き出しを認めている。", "is_correct": false },
+            { "label": "②", "en": "Alpha Bank's gift to new student clients is the most valuable.", "ja": "アルファ銀行の新しい学生の顧客へのギフトがもっとも金銭的価値がある。", "is_correct": true },
+            { "label": "③", "en": "Both Alpha Bank and Waverly Bank provide travel insurance.", "ja": "アルファ銀行とウェイバリー銀行は共に旅行保険を提供している。", "is_correct": false },
+            { "label": "④", "en": "Only Waverly Bank and Phoenix Bank offer interest-free loans.", "ja": "ウェイバリー銀行とフェニックス銀行だけが金利ゼロのローンを提供している。", "is_correct": false }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。第2段落第1文（My account is ...）～第3文（These railcards are ...）から，筆者が利用しているアルファ銀行は120ポンドに相当する鉄道の学生割引証を新規の顧客に提供していることがわかる。また最終文（For example, Waverly ...）には，ウェイバリー銀行はすべての新しい学生用口座に50ポンドを入れてくれ，フェニックス銀行は40ポンドを提供していると述べられている。以上から，銀行が新たに銀行口座を開設した学生に提供するものの中でもっとも価値が高いのは，アルファ銀行の120ポンドに相当する鉄道の学生割引証であることがわかるので，正解は②となる。",
+            "evidence_sentences": ["ba_s2", "ba_s3", "ba_s4", "ba_s6"],
+            "why_others_wrong": [
+              { "choice": "①", "reason": "①に関しては，第4段落最終文（However, my bank ...）からわかるように，ATMの無料引き出しを認めているのは筆者が利用しているアルファ銀行だけであるので不可。", "ref_sentences": ["ba_s13"] },
+              { "choice": "③", "reason": "③に関しては，第5段落第1文（The unique benefit ...）で筆者が利用しているアルファ銀行が無料の旅行保険を提供していることが言及されているが，ウェイバリー銀行が旅行保険を提供していることは述べられていないので不可。", "ref_sentences": ["ba_s14"] },
+              { "choice": "④", "reason": "④に関しては，第3段落第1文（In addition to ...）から，すべての学生用口座がゼロ金利のローンを提供していることがわかるので不可。", "ref_sentences": ["ba_s7"] }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": { "en": "Which is not offered by the author's bank? [5]", "ja": "「筆者の銀行によって提供されていないものはどれか」[5]" },
+          "choices": [
+            { "label": "①", "en": "A debit card", "ja": "デビットカード", "is_correct": false },
+            { "label": "②", "en": "ATM services", "ja": "ATMサービス", "is_correct": false },
+            { "label": "③", "en": "Free-of-charge banking", "ja": "無料の銀行取引業務", "is_correct": true },
+            { "label": "④", "en": "Free travel insurance", "ja": "無料の旅行保険", "is_correct": false }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。第3段落第1文（In addition to ...）から，すべての学生用口座がオンライン銀行とデビットカードを提供していることがわかる。また第4段落最終文（However, my bank ...）に「ATMでの現金引き出し」の言及があるのでATMサービスが提供されていることもわかる。さらに第5段落第1文（The unique benefit ...）で筆者が利用しているアルファ銀行が無料の旅行保険を提供していることが言及されている。一方，第4段落第1文（Most adult bank ...）～第2文（My bank charges ...）から，筆者が利用している銀行（アルファ銀行）は月に2ポンドの銀行口座利用手数料を請求しており，銀行取引業務は無料ではないことがわかる。以上から正解は③となる。",
+            "evidence_sentences": ["ba_s7", "ba_s11", "ba_s12", "ba_s13", "ba_s14"],
+            "why_others_wrong": [
+              { "choice": "①", "reason": "①，②，④に関しては，上で述べたように，筆者の銀行が提供しているものなので不可。", "ref_sentences": ["ba_s7", "ba_s13", "ba_s14"] },
+              { "choice": "②", "reason": "①，②，④に関しては，上で述べたように，筆者の銀行が提供しているものなので不可。", "ref_sentences": ["ba_s13"] },
+              { "choice": "④", "reason": "①，②，④に関しては，上で述べたように，筆者の銀行が提供しているものなので不可。", "ref_sentences": ["ba_s14"] }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": { "en": "Which is the features of student bank accounts described in this article? [6]", "ja": "「この記事の中で説明されている学生用銀行預金口座の特徴はどれか」[6]" },
+          "choices": [
+            { "label": "①", "en": "A and D", "ja": "AとD", "is_correct": false },
+            { "label": "②", "en": "A and E", "ja": "AとE", "is_correct": true },
+            { "label": "③", "en": "B and C", "ja": "BとC", "is_correct": false },
+            { "label": "④", "en": "B and D", "ja": "BとD", "is_correct": false },
+            { "label": "⑤", "en": "C and E", "ja": "CとE", "is_correct": false }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。第3段落第1文（In addition to ...）から，すべての学生用口座はゼロ金利の短期ローンを提供していることがわかり，第4段落第1文（Most adult bank ...）から，学生用銀行口座は成人用口座よりも安い価格か無料で利用できることがわかるので，Aが学生用口座のことを説明していると判断できる。また，第2段落第4文（Other banks give ...）～最終文（For example, Waverly ...）から，たとえばウェイバリー銀行やフェニックス銀行のように新しい学生の顧客に奨励金を提供している銀行もあることがわかるので，Eが学生用口座のことを説明していると判断できる。以上から正解は②AとEとなる。",
+            "evidence_sentences": ["ba_s7", "ba_s11", "ba_s5", "ba_s6"],
+            "sub_statements": [
+              { "label": "A", "en": "Loans and services are cheaper than adult accounts.", "ja": "ローンとサービスが成人用口座よりも安い。" },
+              { "label": "B", "en": "They allow students to withdraw cash without charge only weekdays.", "ja": "学生が平日のみ無料で現金を引き出すことを可能にしている。" },
+              { "label": "C", "en": "They help students find part-time jobs.", "ja": "学生がアルバイトの仕事を探す手助けをしている。" },
+              { "label": "D", "en": "They insist new account holders pay £40 into their account.", "ja": "新しい口座保持者が自分の口座に40ポンド入れることを要求している。" },
+              { "label": "E", "en": "They offer incentives to new customers.", "ja": "新しい顧客に奨励金を提供している。" }
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": { "en": "One opinion the author has about her own student bank account is that [7].", "ja": "「自身の学生用口座に関して筆者が抱いている1つの意見は[7]ということである」" },
+          "choices": [
+            { "label": "①", "en": "insurance claims take too long to process", "ja": "保険請求は処理するための時間があまりに長くかかりすぎた", "is_correct": true },
+            { "label": "②", "en": "the banking app is too complicated to use", "ja": "銀行業務アプリは使用するにはあまりに複雑すぎる", "is_correct": false },
+            { "label": "③", "en": "the free gifts were not very useful to her", "ja": "無料ギフトは彼女にはあまり役に立たなかった", "is_correct": false },
+            { "label": "④", "en": "zero-interest loan limits are too low", "ja": "ゼロ金利ローンの上限があまりに低すぎる", "is_correct": false }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。筆者は，第5段落第1文（The unique benefit ...）で「（筆者が利用している）アルファ銀行独自の利点は，卒業まで無料の旅行保険を提供してくれることです」と述べ，第3文（I took a ...）では旅行先のパリでカメラの盗難被害にあったことに言及し，最終文（I was able ...）においては「私は新しいカメラを買うためにいくらかのお金を取り戻すことができました。もっとも，そのお金がもっと速く届いて，手続きがもっと簡単であればよかったのですけれども」と，銀行の保険手続きに時間がかかりすぎたことに関する不満を述べていることから，正解は①とわかる。",
+            "evidence_sentences": ["ba_s14", "ba_s16", "ba_s17"],
+            "why_others_wrong": [
+              { "choice": "②", "reason": "②に関しては記述がないので不可。", "ref_sentences": [] },
+              { "choice": "③", "reason": "③に関しては，「無料ギフト」と考えられるものは鉄道の割引証，ATM引き出し手数料，旅行保険などがあるが，いずれも「役に立たなかった」という記述はないので誤り。", "ref_sentences": [] },
+              { "choice": "④", "reason": "④に関しては，第3段落第3文（Some banks allow ...）で，銀行の中にはゼロ金利ローンの上限額を筆者が利用しているアルファ銀行よりも高くしているところもあることが言及されているが，アルファ銀行のゼロ金利ローンの上限があまりに低すぎるとは述べていないので不可。", "ref_sentences": ["ba_s9"] }
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 8,
+          "stem": { "en": "Which of the following best represents the author's view? [8]", "ja": "「以下のどれが筆者の考えをもっともよく表しているか」[8]" },
+          "choices": [
+            { "label": "①", "en": "She thinks opening a student bank account will produce various financial benefits.", "ja": "彼女は学生用口座を開設することはさまざまな金銭上の利益を生むだろうと考えている。", "is_correct": true },
+            { "label": "②", "en": "She thinks there is almost no difference between student and regular accounts.", "ja": "彼女は，学生用口座と通常の口座にはほとんど違いはないと考えている。", "is_correct": false },
+            { "label": "③", "en": "She expects more banks to offer similar financial services to students.", "ja": "彼女は，学生に同様の金銭的サービスを提供する銀行が増えることを期待している。", "is_correct": false },
+            { "label": "④", "en": "She thinks it is better to buy separate travel insurance when going abroad.", "ja": "彼女は，外国に行くときには別の旅行保険を購入した方がいいと考えている。", "is_correct": false }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。第1段落第1文（Almost all banks ...）から，最近のほぼすべての銀行は特別な「学生銀行口座」を提供しており，そうした口座は通常の口座保持者では利用できないサービスを提供していることがわかり，第2段落～第5段落では，そうしたさまざまなサービスには金銭的な価値があることが紹介されている。よって正解は①となる。",
+            "evidence_sentences": ["ba_s1", "ba_s18"],
+            "why_others_wrong": [
+              { "choice": "②", "reason": "②，③，④に関しては，筆者が述べている内容にはなっていないので不可。", "ref_sentences": [] },
+              { "choice": "③", "reason": "②，③，④に関しては，筆者が述べている内容にはなっていないので不可。", "ref_sentences": [] },
+              { "choice": "④", "reason": "②，③，④に関しては，筆者が述べている内容にはなっていないので不可。", "ref_sentences": [] }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": { "items": [
+          { "en": "graduate", "ja": "卒業生" }
+        ]},
+        "passage": { "items": [
+          { "en": "sign up", "ja": "申請する" },
+          { "en": "account holder", "ja": "口座保持者" },
+          { "en": "attract", "ja": "…を引きつける" },
+          { "en": "railcard", "ja": "鉄道の割引証" },
+          { "en": "fare", "ja": "運賃" },
+          { "en": "debit card", "ja": "デビットカード" },
+          { "en": "credit card", "ja": "クレジットカード" },
+          { "en": "interest", "ja": "利子；利息" },
+          { "en": "loan", "ja": "借入金 ; ローン" },
+          { "en": "borrow", "ja": "…を借りる" },
+          { "en": "charge", "ja": "…を請求する" },
+          { "en": "fee", "ja": "手数料" },
+          { "en": "withdrawal", "ja": "引き出し" },
+          { "en": "insurance", "ja": "保険" },
+          { "en": "procedure", "ja": "手続き" }
+        ]},
+        "questions_and_choices": { "items": [
+          { "en": "valuable", "ja": "価値のある" },
+          { "en": "interest-free", "ja": "無利子の" },
+          { "en": "free-of-charge", "ja": "無料の" },
+          { "en": "incentive", "ja": "奨励金" },
+          { "en": "insurance claim", "ja": "保険請求" },
+          { "en": "represent", "ja": "…を表す" }
+        ]}
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "situation": {
+        "en": "You and the other members of your school English Club are going to take part in a volunteering day. You are reading a report written by Junya, a member who took part in a similar event last year.",
+        "ja": "あなたと学校の英語クラブの他のメンバーたちがボランティアの日に参加することになっています。あなたは昨年同様のイベントに参加したメンバーであるジュンヤによって書かれた報告書を読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "river_cleaning",
+          "title": { "en": "River Cleaning and Nature Survey Day", "ja": "川の清掃と自然調査の日" },
+          "image": {
+            "src": "data/sundai/2025/round01/images/river_cleaning.png",
+            "alt": "Volunteers cleaning the riverbank",
+            "float": "right"
+          },
+          "paragraphs": [
+            [
+              { "id": "rc_s1", "en": "For last year's volunteering day, we worked with the River Clean Up Association (RCUA).", "ja": "去年のボランティアの日，私たちは河川浄化協会（RCUA）と一緒に働きました。" },
+              { "id": "rc_s2", "en": "Volunteers come to the river each month and pick up all the trash that has built up.", "ja": "ボランティアの人たちは毎月川に来て，蓄積したごみをすべて拾っています。" },
+              { "id": "rc_s3", "en": "Because of the recent typhoon, there was more trash than usual.", "ja": "最近の台風のために，いつもよりも多くのごみがありました。" },
+              { "id": "rc_s4", "en": "We also took part in a nature survey and recorded the flowers we found.", "ja": "私たちはまた自然調査にも参加して，自分たちが見つけた花を記録しました。" }
+            ],
+            [
+              { "id": "rc_s5", "en": "First, we met the RCUA members.", "ja": "まず初めに，私たちはRCUAのメンバーたちと会いました。" },
+              { "id": "rc_s6", "en": "Although it was sunny, the ground was very wet and muddy, so we wore boots and waterproof pants.", "ja": "よく晴れていましたが，地面はとても濡れてぬかるんでいたので，私たちは長靴と防水性のズボンを履きました。" },
+              { "id": "rc_s7", "en": "We wore gloves to protect our hands, and had plastic bags in which to collect the trash.", "ja": "手の保護のために手袋をして，ごみを集めるポリ袋を持ちました。" },
+              { "id": "rc_s8", "en": "We formed two groups.", "ja": "私たちは2つのグループを作りました。" },
+              { "id": "rc_s9", "en": "One group collected the trash, and the other group checked it for recyclable items.", "ja": "1つのグループはごみを集め，もう1つのグループが再生利用できるものがないかとそのごみを点検しました。" },
+              { "id": "rc_s10", "en": "By lunchtime, we had collected 30 large bags of trash.", "ja": "お昼時までに，私たちは大きな袋30個分のごみを集めていました。" }
+            ],
+            [
+              { "id": "rc_s11", "en": "We stopped for lunch at midday.", "ja": "正午になると昼食のために手を休めました。" },
+              { "id": "rc_s12", "en": "Most of us had packed lunches, but some students forgot theirs, so they went to a convenience store to buy food.", "ja": "私たちのほとんどが弁当を持っていましたが，中には自分の分を忘れた人もいたので，そうした人たちは食べ物を買いにコンビニに行きました。" },
+              { "id": "rc_s13", "en": "We felt sorry for them because they were already tired after the morning's work.", "ja": "彼らは午前中の仕事の後ですでに疲れていたので，私たちは気の毒に思いました。" }
+            ],
+            [
+              { "id": "rc_s14", "en": "After lunch, Mika, an RCUA member, taught us how to collect information about flowers.", "ja": "昼食後，RCUAのメンバーであるミカが私たちに，花に関する情報の集め方を教えてくれました。" },
+              { "id": "rc_s15", "en": "The RCUA was helping some university ecology experts collect research data.", "ja": "RCUAは一部の大学における生態学の専門家が研究データを集める手助けをしていたのです。" },
+              { "id": "rc_s16", "en": "We formed pairs and threw large hoops at random into the grass.", "ja": "私たちはペアを作って，大きな輪を無作為に草の中に投げました。" },
+              { "id": "rc_s17", "en": "We then counted the numbers and species of the flowers inside the hoop.", "ja": "それからその輪の中の花の数と種類を数えました。" },
+              { "id": "rc_s18", "en": "We all felt proud to contribute to university research.", "ja": "大学の研究に貢献して，私たちは皆誇らしく感じました。" },
+              { "id": "rc_s19", "en": "Mika told us that we would be able to read about our work in a famous ecology journal next year.", "ja": "ミカは私たちに，来年，有名な生態学の専門誌で自分たちの仕事について読むことができるだろう，と教えてくれました。" }
+            ],
+            [
+              { "id": "rc_s20", "en": "Finally, we loaded the trash into the RCUA truck.", "ja": "最後に，私たちはごみをRCUAのトラックに積み込みました。" },
+              { "id": "rc_s21", "en": "They planned to take it to the city's trash disposal facility later.", "ja": "RCUAの人たちは後でそれを市のごみ処理施設に持って行く計画でした。" },
+              { "id": "rc_s22", "en": "They also invited us to dinner at a nearby restaurant.", "ja": "彼らはまた，私たちを近くのレストランでの夕食に招待してくれました。" },
+              { "id": "rc_s23", "en": "We enjoyed talking about environmental issues.", "ja": "私たちは楽しく環境問題についての話をしました。" },
+              { "id": "rc_s24", "en": "We practiced our English with the two foreign members in the group.", "ja": "私たちはRCUAのグループの中にいた2人の外国人のメンバーと英語の練習をしました。" }
+            ],
+            [
+              { "id": "rc_s25", "en": "This year, I will join the volunteer day again.", "ja": "今年，私はまたボランティアの日に参加するつもりです。" },
+              { "id": "rc_s26", "en": "The experience inspired me in many ways.", "ja": "多くの点で，経験したことが私をやる気にさせたのです。" },
+              { "id": "rc_s27", "en": "Writing this report also reminded me of what Mika had said about the ecology journal.", "ja": "この報告書を書きながらも，私はミカが生態系の専門誌について言ったことを思い出しました。" },
+              { "id": "rc_s28", "en": "I decided to go to the library to see if she was right.", "ja": "私は，彼女が正しかったかどうかを確かめるために図書館に行こうと心に決めました。" }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 9,
+          "question_type": "ordering",
+          "stem": { "en": "Junya's article also included student comments (①〜④) describing the events during the volunteering day. Put the comments in the order in which the events happened. [9]→[10]→[11]→[12]", "ja": "「ジュンヤの記事には，ボランティアの日の出来事について述べた学生たちのコメント（①〜④）も含まれていた。各コメントを出来事が起きた順番通りにしなさい」" },
+          "choices": [
+            { "label": "①", "en": "I wish I had brought lunch! It was hard walking all the way to the store to buy food after cleaning up the riverbank.", "ja": "昼食を持ってきていたらなあ！ 土手を掃除した後で，食べ物を買いに店まですっと歩いて行くのはつらいことでした。" },
+            { "label": "②", "en": "Speaking to the RCUA members over dinner was my favorite experience. Learning to communicate with people of different ages and backgrounds is important.", "ja": "夕食を食べながらRCUAのメンバーたちと話したことは，私のお気に入りの経験でした。年齢や経歴が異なる人たちとコミュニケーションをとれるようになるのは重要なことです。" },
+            { "label": "③", "en": "The highlight of the day was collecting research data. I'm interested in plants and I hope to become a biologist in the future.", "ja": "この日のハイライトは研究データを集めることでした。私は植物に興味があるので，将来は生物学者になることを希望しています。" },
+            { "label": "④", "en": "We were surprised to see how much work we had to do when we arrived. The strong wind had blown a lot of things into the water.", "ja": "到着した時には，いかに多くの仕事をしなければならないのかを知って，私たちは驚きました。強風がたくさんの物を水の中へと吹き飛ばしてしまっていたのです。" }
+          ],
+          "answer": "④→①→③→②",
+          "answer_sequence": [4, 1, 3, 2],
+          "explanation": {
+            "ja": "このボランティアの日の出来事を時系列で追っていくと，まず第1段落第3文（Because of the ...）に「最近の台風のために，いつもよりも多くのごみがありました」とあるが，これは川の清掃作業前の光景の記述であると推測できるので，最初に④が来る。午前中の清掃作業を終えた後，昼食をとることになるのだが，第3段落第2文（Most of us ...）～最終文（We felt sorry ...）から，一部の人たちは昼食を持ってくるのを忘れたので，午前中の作業で疲れていたがコンビニまで食べ物を買いに行かなければならなかったことがわかる。①はその昼食を持ってくるのを忘れた人たちの1人のコメントであると推測できるので，2番目には①が来る。「昼食後」で始まる第4段落（After lunch, Mika, ...）には，午後に自然調査を行った経験が述べられている。③はその自然調査に関するコメントであると判断できるので，3番目には③が来る。「最後に」で始まる第5段落（Finally, we loaded ...）から，その日の作業を終えた後，近くのレストランでRCUA（河川浄化協会）の人たちと夕食を食べたことがわかる。②はその夕食時に関するコメントであると判断できるので，最後の4番目には②が来るとわかる。以上から，正解は④→①→③→②の順となる。",
+            "evidence_sentences": ["rc_s3", "rc_s12", "rc_s13", "rc_s14", "rc_s17", "rc_s20", "rc_s22"]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 13,
+          "stem": { "en": "During the volunteering day, the students did not [13].", "ja": "「ボランティアの日の間，学生たちは[13]ことはなかった」" },
+          "choices": [
+            { "label": "①", "en": "carry out information gathering regarding flowers", "ja": "花に関する情報収集を行う", "is_correct": false },
+            { "label": "②", "en": "go to the trash disposal facility", "ja": "ごみ処理施設に行く", "is_correct": true },
+            { "label": "③", "en": "have conversations with volunteers in English", "ja": "ボランティアの人たちと英語で会話する", "is_correct": false },
+            { "label": "④", "en": "take a break between activities", "ja": "活動の間に休憩をとる", "is_correct": false }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。第4段落（After lunch, Mika, ...）には，学生たちはRCUAのメンバーからやり方を教わりながら花に関する情報収集を行ったことが述べられているので，①は学生たちが行った行動である。また，第5段落には，RCUAのメンバーたちとレストランで夕食を食べた時のことが述べられているが，その最終文（We practiced our ...）に「RCUAのグループの中にいた2人の外国人のメンバーと英語の練習をしました」とあることから，③も学生たちが行った行動である。さらに，第3段落第1文（We stopped for ...）に「正午になると昼食のために手を休めました」とあり，午前中の川の清掃活動と午後の自然調査の活動の間に昼食をとるための休憩をとったことがわかるので，④も学生たちが行った行動である。しかし，第5段落第1文（Finally, we loaded ...）～第2文（They planned to ...）で「最後に，私たちはごみをRCUAのトラックに積み込みました。RCUAの人たちは後でそれを市のごみ処理施設に持って行く計画でした」と述べられていることから，学生たちはごみ処理施設には行かなかったことがわかるので，正解は②となる。",
+            "evidence_sentences": ["rc_s14", "rc_s17", "rc_s24", "rc_s11", "rc_s20", "rc_s21"],
+            "why_others_wrong": [
+              { "choice": "①", "reason": "①は学生たちが行った行動である。第4段落で花に関する情報収集を行ったことが述べられている。", "ref_sentences": ["rc_s14", "rc_s17"] },
+              { "choice": "③", "reason": "③も学生たちが行った行動。第5段落最終文でRCUAの外国人メンバーと英語の練習をしたとある。", "ref_sentences": ["rc_s24"] },
+              { "choice": "④", "reason": "④も学生たちが行った行動。第3段落第1文で昼食のために手を休めたとある。", "ref_sentences": ["rc_s11"] }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 14,
+          "stem": { "en": "What did Junya most likely find when he went to the library? [14]", "ja": "「ジュンヤは図書館に行った時に，おそらくのところ何を見つけたか」[14]" },
+          "choices": [
+            { "label": "①", "en": "a book about wild flowers", "ja": "野生の花に関する本", "is_correct": false },
+            { "label": "②", "en": "a guide to the local river ecology", "ja": "地元の川の生態系の案内書", "is_correct": false },
+            { "label": "③", "en": "a journal article based on their data", "ja": "自分たちのデータに基づいた専門誌の記事", "is_correct": true },
+            { "label": "④", "en": "a news report about the typhoon", "ja": "台風に関する報道", "is_correct": false }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。第4段落最終文（Mika told us ...）では，RCUAのメンバーであるミカがジュンヤたちに，来年，有名な生態学の専門誌で自分たちの仕事について読むことができるだろう，と教えてくれたことが述べられ，最終段落最終文（I decided to ...）には「私［この記事の筆者であるジュンヤ］は，彼女が正しかったかどうかを確かめるために図書館に行こうと心に決めました」とあることから，ジュンヤは図書館に行き，おそらくのところ自分たちのデータに基づいた専門誌の記事を探して見つけた，と推測できるので，正解は③となる。",
+            "evidence_sentences": ["rc_s19", "rc_s27", "rc_s28"],
+            "why_others_wrong": [
+              { "choice": "①", "reason": "①，②，④に関しては，いずれも本文からはジュンヤが図書館に行って見つける可能性のあるものと考えることはできないので不可。", "ref_sentences": [] },
+              { "choice": "②", "reason": "①，②，④に関しては，いずれも本文からはジュンヤが図書館に行って見つける可能性のあるものと考えることはできないので不可。", "ref_sentences": [] },
+              { "choice": "④", "reason": "①，②，④に関しては，いずれも本文からはジュンヤが図書館に行って見つける可能性のあるものと考えることはできないので不可。", "ref_sentences": [] }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": { "items": [
+          { "en": "take part in ...", "ja": "…に参加する" }
+        ]},
+        "passage": { "items": [
+          { "en": "survey", "ja": "調査" },
+          { "en": "trash", "ja": "ごみ；くず；がらくた" },
+          { "en": "build up", "ja": "増大する" },
+          { "en": "muddy", "ja": "泥だらけの；ぬかるんでいる" },
+          { "en": "waterproof pants", "ja": "防水性のズボン" },
+          { "en": "plastic bag", "ja": "ポリ袋；ビニール袋" },
+          { "en": "in which to -", "ja": "（前置詞＋関係代名詞＋to-）という形で直前の名詞にかかる形容詞句" },
+          { "en": "recyclable", "ja": "再生利用できる" },
+          { "en": "midday", "ja": "正午" },
+          { "en": "pack", "ja": "…を詰める；…を入れる" },
+          { "en": "feel sorry for ...", "ja": "…を気の毒に思う" },
+          { "en": "ecology expert", "ja": "生態学の専門家" },
+          { "en": "hoop", "ja": "大きな輪" },
+          { "en": "at random", "ja": "無作為に" },
+          { "en": "feel proud to -", "ja": "-することで誇らしく感じる" },
+          { "en": "contribute to ...", "ja": "…に貢献する" },
+          { "en": "journal", "ja": "専門誌" },
+          { "en": "load A into B", "ja": "AをB（車など）に積む" },
+          { "en": "trash disposal facility", "ja": "ごみ処理施設" },
+          { "en": "inspire", "ja": "…を鼓舞する；…を奮起させる" },
+          { "en": "in many ways", "ja": "多くの点で" },
+          { "en": "remind 〈人〉 of ...", "ja": "〈人〉に…を思い出させる" },
+          { "en": "see if ...", "ja": "…かどうかを確かめる" }
+        ]},
+        "questions_and_choices": { "items": [
+          { "en": "It was hard walking all the way ...", "ja": "walkingは形式主語Itの真主語となる動名詞句" },
+          { "en": "riverbank", "ja": "川岸；土手" },
+          { "en": "over dinner", "ja": "夕食を食べながら" },
+          { "en": "learn to -", "ja": "-する［できる］ようになる" },
+          { "en": "background", "ja": "背景；経歴" },
+          { "en": "blow A into B", "ja": "AをBの中に吹き飛ばす" },
+          { "en": "carry out ...", "ja": "…を実行する" },
+          { "en": "information gathering", "ja": "情報収集" },
+          { "en": "regarding", "ja": "…に関する" },
+          { "en": "take a break", "ja": "休憩をとる" },
+          { "en": "most likely", "ja": "おそらく" },
+          { "en": "based on ...", "ja": "…に基づいた" },
+          { "en": "news report", "ja": "報道" }
+        ]}
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "situation": {
+        "en": "In English class you are writing an essay about a science issue you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "英語の授業であなたは関心のある科学的問題についてのエッセイを書いています。これが最も新しい草稿です。あなたは今，先生からのコメントに基づいて，修正に取り組んでいます。"
+      },
+      "passages": [
+        {
+          "id": "sleep_essay",
+          "title": { "en": "How to Improve Your Sleep", "ja": "睡眠を改善する方法" },
+          "paragraphs": [
+            [
+              { "id": "se_s1", "en": "Scientific research tells us that most adults need around 7 to 9 hours of sleep a night to stay healthy.", "ja": "科学的研究によれば，ほとんどの成人は，健康を維持するには一晩に7～9時間ほどの睡眠が必要です。" },
+              { "id": "se_s2", "en": "Long-term lack of sleep can cause many health problems, including heart disease, high blood pressure, and obesity.", "ja": "長期間にわたって睡眠が不足すると，心臓病や高血圧や肥満を含め，多くの健康上の問題を引き起こす可能性があります。" },
+              { "id": "se_s3", "en": "It also affects our brains, making us less alert and less able to retain information.", "ja": "それはまた脳にも影響を及ぼし，頭の回転や，情報保持の能力を低下させます。" },
+              { "id": "se_s4", "en": "Despite the importance of sleep, many people find themselves unable to sleep well at night.", "ja": "睡眠の重要性にもかかわらず，多くの人々は夜，十分に眠ることができていません。" },
+              { "id": "se_s5", "en": "For instance, there are many things we can do to make our sleep better.", "ja": "たとえば，睡眠を改善するために私たちにできることはたくさんあります。", "comment_marker": "(1)" }
+            ],
+            [
+              { "id": "se_s6", "en": "First, it is important to expose ourselves to natural light in the morning.", "ja": "第一に，朝，自然の光に触れることが重要です。" },
+              { "id": "se_s7", "en": "This is because our natural daily rhythm is set by exposure to light.", "ja": "自然な生活リズムは光に触れることによって作られるからです。" },
+              { "id": "se_s8", "en": "Hormones are released from inside our brains which stop us from feeling sleepy.", "ja": "眠気を感じることを防ぐホルモンが脳の内部から放出されます。", "comment_marker": "(2)" },
+              { "id": "se_s9", "en": "The first exposure to light also instructs our bodies to make the sleep hormone melatonin around 14 hours later.", "ja": "また最初に光に触れたときに，身体に約14時間後にメラトニンという睡眠ホルモンを作る指示が出されます。" }
+            ],
+            [
+              { "id": "se_s10", "en": "Second, where do you sleep?", "ja": "第二に，どこで眠っているでしょうか？", "comment_marker": "(3)" },
+              { "id": "se_s11", "en": "The best temperature for sleep is said to be between 18 and 20 degrees Celsius.", "ja": "睡眠に最適な温度は摂氏18～20度と言われています。" },
+              { "id": "se_s12", "en": "In addition to light, the human sleep cycle is regulated by other environmental triggers such as temperature.", "ja": "光に加えて，人間の睡眠周期は温度のような環境的な要因によって調節されます。" },
+              { "id": "se_s13", "en": "Therefore, by lowering the temperature of our bedrooms, we can signal to the body that we are ready to sleep and that helps us fall asleep quicker and improve the quality of our sleep.", "ja": "したがって，寝室の温度を下げることによって，身体に眠る準備をする指示を出すことができ，それが寝つく時間を早め，睡眠の質を改善することに役立ちます。" }
+            ],
+            [
+              { "id": "se_s14", "en": "Finally, it is known that using electronic devices late in the evening can negatively affect the quality of our sleep.", "ja": "最後に，夜に電子機器を使用すると睡眠の質に悪影響を及ぼす可能性があることが知られています。" },
+              { "id": "se_s15", "en": "Devices such as smartphones and tablets emit blue light, which can delay the production of melatonin.", "ja": "スマートフォンやタブレットといった機器はブルーライトを放射し，それがメラトニンの生成を遅らせることになりうるのです。" }
+            ],
+            [
+              { "id": "se_s16", "en": "In summary, there are a number of things we can do to get better sleep, as we have seen above.", "ja": "要約すると，以上見てきたように，よりよい睡眠をとるためにできることはたくさんあります。", "comment_marker": "(4)" }
+            ]
+          ],
+          "teacher_comment": {
+            "en": "Good job! I definitely need to get more sleep, so I will take on your advice! 😊",
+            "ja": "上出来です！ 私は，確実にもっと多くの睡眠をとる必要があるので，あなたのアドバイスを取り入れるつもりです！😊"
+          },
+          "margin_comments": [
+            { "marker": "(1)", "en": "You have used the wrong connecting expression here. Please change it.", "ja": "ここには間違った接続表現が用いられています。変更してください。" },
+            { "marker": "(2)", "en": "This sentence does not connect well with the previous sentence. Add more information to improve the flow of your writing.", "ja": "この文は前の文とうまくつながっていません。記述の流れを良くするためにさらに情報を加えてください。" },
+            { "marker": "(3)", "en": "The topic sentence does not explain the following paragraph well. Rewrite it.", "ja": "この主題文は後に続く文章をうまく説明していません。書き直してください。" },
+            { "marker": "(4)", "en": "I think you should add a final, concluding sentence.", "ja": "最終的な結論となる文を追加するべきだと思います。" }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 15,
+          "stem": { "en": "Based on comment (1), which is the best expression to use instead? [15]", "ja": "「コメント(1)に基づくと，代わりに使う最もよい表現はどれか」[15]" },
+          "choices": [
+            { "label": "①", "en": "However", "ja": "しかし", "is_correct": true },
+            { "label": "②", "en": "In contrast", "ja": "対照的に", "is_correct": false },
+            { "label": "③", "en": "In short", "ja": "要するに", "is_correct": false },
+            { "label": "④", "en": "Therefore", "ja": "したがって", "is_correct": false }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。下線部(1)の前文では，睡眠は重要であるけれども，多くの人々が睡眠不足に陥っていることが述べられ，下線部(1)に続く文では，睡眠を改善するためにできることはたくさんあると述べられているが，これは前文の例示ではなく，前文で述べられている好ましくない状況を，それとは逆の好ましい状況にするための方法に関する言及であるとみなせる。すなわち，「睡眠の重要性にもかかわらず，多くの人々は夜，十分に眠ることができていません。しかし（ながら），睡眠を改善するために，私たちにできることはたくさんあります」というつながりにすれば自然な文脈となる。以上から①のHowever「しかし（ながら）」が正解となる。",
+            "evidence_sentences": ["se_s4", "se_s5"]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 16,
+          "stem": { "en": "Based on comment (2), which is the best expression to add? [16]", "ja": "「コメント(2)に基づくと，追加するのに最もよい表現はどれか」[16]" },
+          "choices": [
+            { "label": "①", "en": "After falling asleep,", "ja": "寝ついた後，", "is_correct": false },
+            { "label": "②", "en": "By spending time in the dark,", "ja": "暗い所で時間を過ごすことによって，", "is_correct": false },
+            { "label": "③", "en": "If we protect our eyes against this,", "ja": "私たちがそのことから目を守れば，", "is_correct": false },
+            { "label": "④", "en": "When sunlight enters our eyes,", "ja": "日光が目に入ってくると，", "is_correct": true }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。下線部(2)を含む文の前文には「自然な生活リズムは光に触れることによって作られるからです」とあり，下線部(2)を含む文ではそれを具体的に説明して「(2)眠気を感じることを防ぐホルモンが脳の内部から放出されます」と述べられていると推測できる。よって下線部(2)には眠気を感じることを防ぐホルモンが放出される「光に触れること」を含む前提となる表現が入ると自然な文脈となる。以上から④のWhen sunlight enters our eyes,「日光が目に入ってくると，」が正解となる。",
+            "evidence_sentences": ["se_s7", "se_s8"]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 17,
+          "stem": { "en": "Based on comment (3), which is the best replacement? [17]", "ja": "「コメント(3)に基づくと，置き換えものとしてどれが最適か」[17]" },
+          "choices": [
+            { "label": "①", "en": "it is important to sleep in a dark environment.", "ja": "暗い環境で眠ることが重要です。", "is_correct": false },
+            { "label": "②", "en": "make sure you are tired enough to sleep.", "ja": "必ず十分に疲れた状態で眠るようにしましょう。", "is_correct": false },
+            { "label": "③", "en": "sleeping in a cool room is recommended.", "ja": "涼しい部屋で眠ることを推奨します。", "is_correct": true },
+            { "label": "④", "en": "try to relax your body before going to bed.", "ja": "寝る前に身体をリラックスさせるようにしましょう。", "is_correct": false }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。空所(3)の後には，睡眠に最適な温度は摂氏18～20度であると言われているので，寝室の温度を調節することで睡眠の質が改善される，といった内容が述べられているとわかる。よってこの段落の主題文としては選択肢③「涼しい部屋で眠ることを推奨します」が最適であると判断できるので，③が正解となる。",
+            "evidence_sentences": ["se_s10", "se_s11", "se_s12", "se_s13"]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 18,
+          "stem": { "en": "Which sentence should you add, based on comment (4)? [18]", "ja": "「コメント(4)に基づくと，どの文を追加するべきか」[18]" },
+          "choices": [
+            { "label": "①", "en": "In conclusion, people in our society are still not doing these things properly.", "ja": "結論として，私たちの社会の人々はいまだにこうしたことを適切に行っていません。", "is_correct": false },
+            { "label": "②", "en": "In this way, we can not only improve our sleep quality, but also our overall health.", "ja": "このようにして，私たちは睡眠の質ばかりでなく，健康全般を改善することができます。", "is_correct": true },
+            { "label": "③", "en": "Therefore, we should spend less time working, and more time sleeping.", "ja": "したがって，私たちは労働時間を減らし，睡眠時間を増やすべきです。", "is_correct": false },
+            { "label": "④", "en": "These points show the importance of getting more sleep for young people.", "ja": "これらの点は，若者たちにとってより多くの睡眠をとることの重要性を示しています。", "is_correct": false }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。コメント(4)には「最終的な結論となる文を追加するべきだと思います」とある。空所(4)を含む段落の前までの段落構成は以下のようになっている（[ ]内の数字は段落番号を表す）。[1]序論「睡眠改善と健康改善のためにできること」、[2]本論1「朝，日光に触れること」、[3]本論2「寝室の温度を下げること」、[4]本論3「夜，電子機器の利用を控えること」。以上の内容を受けて，[5]では「要約すると，以上見てきたように，よりよい睡眠をとるためにできることはたくさんあります。(4)」と述べられているので，空所(4)に②「このようにして，私たちは睡眠の質ばかりでなく，健康全般を改善することができます」という文を追加すれば，最終的な結論を示す適切な結びとなると判断できる。よって正解は②となる。",
+            "evidence_sentences": ["se_s16"],
+            "why_others_wrong": [
+              { "choice": "①", "reason": "①，③，④はいずれも最終的な結論の内容を示すものとはなっていないので不可。", "ref_sentences": [] },
+              { "choice": "③", "reason": "①，③，④はいずれも最終的な結論の内容を示すものとはなっていないので不可。", "ref_sentences": [] },
+              { "choice": "④", "reason": "①，③，④はいずれも最終的な結論の内容を示すものとはなっていないので不可。", "ref_sentences": [] }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": { "items": [
+          { "en": "draft", "ja": "草稿" },
+          { "en": "work on ...", "ja": "…に取り組む" },
+          { "en": "revision", "ja": "改訂；修正" },
+          { "en": "based on ...", "ja": "…に基づいて［た］" }
+        ]},
+        "passage": { "items": [
+          { "en": "long-term", "ja": "長期にわたる" },
+          { "en": "including ...", "ja": "…を含めて" },
+          { "en": "high blood pressure", "ja": "高血圧" },
+          { "en": "obesity", "ja": "肥満" },
+          { "en": "affect", "ja": "…に影響を及ぼす" },
+          { "en": "alert", "ja": "機敏な；頭の回転が速い" },
+          { "en": "retain", "ja": "…を保持する" },
+          { "en": "expose A to B", "ja": "AをBに触れさせる" },
+          { "en": "hormone", "ja": "ホルモン" },
+          { "en": "release", "ja": "…を放出する" },
+          { "en": "from inside ...", "ja": "…の内部から" },
+          { "en": "instruct O to -", "ja": "Oに-するよう指示を与える" },
+          { "en": "degree", "ja": "（温度・角度などの）度" },
+          { "en": "Celsius", "ja": "摂氏" },
+          { "en": "in addition to ...", "ja": "…に加えて" },
+          { "en": "regulate", "ja": "…を調節する" },
+          { "en": "trigger", "ja": "引き金；要因" },
+          { "en": "signal to A that ...", "ja": "Aに…と指示［合図］する" },
+          { "en": "fall asleep", "ja": "寝つく；眠りに落ちる" },
+          { "en": "electronic device", "ja": "電子機器" },
+          { "en": "negatively", "ja": "否定的に；悪い方へ" },
+          { "en": "emit", "ja": "…を放射［放出］する" },
+          { "en": "delay", "ja": "…を遅らせる" },
+          { "en": "in summary", "ja": "要約すると" },
+          { "en": "a number of", "ja": "多くの［いくつかの］（複数形）" },
+          { "en": "definitely", "ja": "確かに；確実に" },
+          { "en": "take on ...", "ja": "…を採用する［取り入れる］" }
+        ]},
+        "questions_and_choices": { "items": [
+          { "en": "connect with ...", "ja": "…とつながる" },
+          { "en": "topic sentence", "ja": "主題文" },
+          { "en": "rewrite", "ja": "…を書き直す" },
+          { "en": "concluding", "ja": "結論となる；結びの" }
+        ]}
+      }
+    }
+  ]
+}
