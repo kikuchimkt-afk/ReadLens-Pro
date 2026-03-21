@@ -182,8 +182,11 @@ function renderPassage() {
             html += '</div>';
           }
           html += '</td></tr>';
+        } else if (passage.block_separators && passage.block_separators.length > 0) {
+          // Block-based rendering: group paragraphs into blocks separated by ◆◆◆◆◆
+          // Handled below after the loop
         } else {
-          // Normal paragraph rendering
+          // Normal paragraph rendering (no blocks)
           html += '<div class="para-audio-row">';
           html += '<div class="para-content">';
           html += '<p class="passage-paragraph">';
@@ -199,6 +202,50 @@ function renderPassage() {
           html += '</div>';
           html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
           html += '</div>';
+        }
+      }
+
+      // Block-based rendering: paragraphs grouped by ◆◆◆◆◆ separators
+      if (passage.block_separators && passage.block_separators.length > 0 && !hasComments) {
+        // Clear the html we just added for paragraphs (we need to re-render in blocks)
+        // Actually, since we skipped rendering in the else-if branch, we just add block html now
+        const separators = passage.block_separators;
+        const paragraphs = passage.paragraphs;
+        let blockStart = 0;
+        let blockNum = 1;
+
+        for (let bi = 0; bi <= separators.length; bi++) {
+          const blockEnd = bi < separators.length ? separators[bi] : paragraphs.length - 1;
+          const blockAudioFile = `${audioBase}s${secNum}_${passage.id}_p${blockNum}.mp3`;
+
+          html += '<div class="para-audio-row">';
+          html += '<div class="para-content">';
+
+          for (let pi = blockStart; pi <= blockEnd; pi++) {
+            const para = paragraphs[pi];
+            html += `<p class="passage-paragraph para-indent">`;
+            for (const sent of para) {
+              html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+            }
+            html += '</p>';
+            html += '<div class="passage-ja-block">';
+            for (const sent of para) {
+              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</div>`;
+            }
+            html += '</div>';
+          }
+
+          html += '</div>';
+          html += `<button class="btn-audio" data-audio="${blockAudioFile}" title="読み上げ">🔊</button>`;
+          html += '</div>';
+
+          // ◆◆◆◆◆ separator (not after the last block)
+          if (bi < separators.length) {
+            html += '<div class="block-separator">◆◆◆◆◆</div>';
+          }
+
+          blockStart = blockEnd + 1;
+          blockNum++;
         }
       }
 
@@ -291,6 +338,132 @@ function renderPassage() {
       }
     }
 
+    // ===== Authors rendering (大問6: Step1) =====
+    if (passage.authors) {
+      for (const author of passage.authors) {
+        const audioFile = `${audioBase}s${sec.section_number}_${author.id}.mp3`;
+        html += '<div class="author-block">';
+        html += `<div class="author-label"><strong>${author.label.en}</strong></div>`;
+        html += '<div class="para-audio-row">';
+        html += '<div class="para-content">';
+        html += '<p class="passage-paragraph">';
+        for (const s of author.sentences) {
+          html += `<span class="sentence" data-sid="${s.id}">${s.en}</span> `;
+        }
+        html += '</p>';
+        html += '<div class="passage-ja-block">';
+        for (const s of author.sentences) {
+          html += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div>`;
+        }
+        html += '</div></div>';
+        html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
+        html += '</div></div>';
+      }
+      // Navigation cue: answer 問1 and 問2 after reading Step 1
+      html += `<div class="step-nav-cue" data-target-qids="問1,問2">
+        <span class="step-nav-icon">📝</span>
+        <span class="step-nav-text">ここまで読んだら <strong>問1</strong> と <strong>問2</strong> を解答 →</span>
+      </div>`;
+    }
+
+    // ===== Step2: Take a position =====
+    if (passage.is_step2) {
+      if (passage.position) {
+        const posText = passage.position.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+        html += `<div class="step-position"><strong><u>${posText}</u></strong></div>`;
+      }
+      if (passage.position_details) {
+        html += '<ul class="step-details">';
+        for (const d of passage.position_details) {
+          const detailText = d.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += `<li>${detailText}</li>`;
+        }
+        html += '</ul>';
+      }
+      // Navigation cue: answer 問3 after Step 2
+      html += `<div class="step-nav-cue" data-target-qids="問3">
+        <span class="step-nav-icon">📝</span>
+        <span class="step-nav-text">ここまで読んだら <strong>問3</strong> を解答 →</span>
+      </div>`;
+    }
+
+    // ===== Step3: Outline =====
+    if (passage.is_step3 && passage.outline) {
+      const o = passage.outline;
+      html += '<div class="outline-label">Outline of your essay:</div>';
+      html += '<div class="outline-box">';
+      html += `<div class="outline-title"><em>${o.essay_title.en}</em></div>`;
+      html += `<div class="outline-section"><strong><em>Introduction</em></strong></div>`;
+      html += `<div class="outline-content">${o.introduction.en}</div>`;
+      html += `<div class="outline-section"><strong><em>Body</em></strong></div>`;
+      for (const reason of o.body) {
+        const rText = reason.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+        html += `<div class="outline-reason">${rText}</div>`;
+      }
+      html += `<div class="outline-section"><strong><em>Conclusion</em></strong></div>`;
+      html += `<div class="outline-content">${o.conclusion.en}</div>`;
+      html += '</div>';
+    }
+
+    // ===== Source with chart image (大問6: Source B) =====
+    if (passage.is_source_with_chart && passage.chart_image) {
+      html += `<div class="chart-image-container"><img class="chart-image" src="${passage.chart_image.src}" alt="${passage.chart_image.alt || 'Chart'}"></div>`;
+    }
+
+    // Navigation cue: answer 問4 and 問5 after reading Source B
+    if (passage.id === 'source_b') {
+      html += `<div class="step-nav-cue" data-target-qids="問4,問5">
+        <span class="step-nav-icon">📝</span>
+        <span class="step-nav-text">ここまで読んだら <strong>問4</strong> と <strong>問5</strong> を解答 →</span>
+      </div>`;
+    }
+
+    // ===== Notes section (大問7: Your notes) =====
+    if (passage.is_notes) {
+      html += `<div class="notes-title">${passage.notes_title.en}</div>`;
+
+      // Story outline
+      if (passage.story_outline) {
+        const so = passage.story_outline;
+        html += '<div class="notes-heading">Story outline</div>';
+        html += `<div class="notes-outline-start">${so.start.en}</div>`;
+        html += '<div class="notes-outline-slots">';
+        for (const slot of so.slots) {
+          html += `<div class="notes-outline-slot"><span class="answer-slot">${slot}</span></div>`;
+        }
+        html += '</div>';
+        html += `<div class="notes-outline-end">${so.end.en}</div>`;
+      }
+
+      // About Sam
+      if (passage.about_sam) {
+        const as_ = passage.about_sam;
+        html += '<div class="notes-heading">About Sam</div>';
+        html += '<ul class="notes-list">';
+        html += `<li>Nationality: ${as_.nationality.en}</li>`;
+        const ageSlot = `<span class="answer-slot">${as_.age_slot}</span>`;
+        html += `<li>Age: ${ageSlot}</li>`;
+        html += `<li>Occupation: ${as_.occupation.en}</li>`;
+        html += '<li>How his friends and family supported him:';
+        for (const item of as_.support) {
+          const text = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += `<div class="notes-support-item">${text}</div>`;
+        }
+        html += '</li></ul>';
+      }
+
+      // Interpretation
+      if (passage.interpretation) {
+        html += '<div class="notes-heading">Interpretation of key moments</div>';
+        html += '<ul class="notes-list">';
+        for (const item of passage.interpretation) {
+          const text = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += `<li>${text}</li>`;
+        }
+        html += '</ul>';
+      }
+    }
+
     html += '</div>';
   }
 
@@ -303,9 +476,37 @@ function renderPassage() {
 
   // Bind audio play buttons
   setupAudioButtons();
+
+  // Bind step navigation cue clicks
+  setupStepNavCues();
 }
 
-// ===== Sentence Translation Popup =====
+// ===== Step Navigation Cue (scroll to questions in right pane) =====
+function setupStepNavCues() {
+  document.querySelectorAll('.step-nav-cue').forEach(cue => {
+    cue.addEventListener('click', () => {
+      const qids = cue.dataset.targetQids.split(',');
+      if (!qids.length) return;
+
+      // Find the first target question block in the right pane
+      const firstQBlock = document.querySelector(`.question-block[data-qid="${qids[0]}"]`);
+      if (!firstQBlock) return;
+
+      // Scroll right pane to the question
+      const rightPane = document.getElementById('pane-questions');
+      firstQBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      // Flash highlight all target questions
+      for (const qid of qids) {
+        const qBlock = document.querySelector(`.question-block[data-qid="${qid}"]`);
+        if (qBlock) {
+          qBlock.classList.add('nav-flash');
+          setTimeout(() => qBlock.classList.remove('nav-flash'), 1800);
+        }
+      }
+    });
+  });
+}
 function setupSentencePopup() {
   const pane = document.getElementById('pane-passage');
 
@@ -434,16 +635,17 @@ function renderQuestions() {
       <button class="btn-evidence-q" data-qid="${q.question_id}" data-qidx="${qIdx}" title="根拠箇所をヒント表示">ヒント</button>
     </div>`;
 
-    // Stem
-    const stemEn = q.stem.en.replace(
+    // Stem (support both "stem" and "question_text" field names)
+    const stemObj = q.stem || q.question_text;
+    const stemEn = stemObj.en.replace(
       /\[(\d+)\]/g,
       '<span class="answer-slot">$1</span>'
     );
     html += `<div class="question-stem">${stemEn}</div>`;
 
     // Stem ja (hidden by default)
-    if (q.stem.ja) {
-      html += `<div class="choice-text-ja" style="margin-bottom:10px; margin-top:-8px;">${q.stem.ja}</div>`;
+    if (stemObj.ja) {
+      html += `<div class="choice-text-ja" style="margin-bottom:10px; margin-top:-8px;">${stemObj.ja}</div>`;
     }
 
     // Choices — ordering vs normal
@@ -551,10 +753,27 @@ function renderQuestions() {
 function renderExplanation(q) {
   if (!q.explanation) return '';
 
+  // Build answer text
+  let answerText;
+  if (q.answer && typeof q.answer === 'object') {
+    // Multi-answer: {"27": "①", "28": "④", ...}
+    const parts = Object.entries(q.answer).map(([k, v]) => `[${k}] ${v}`);
+    answerText = parts.join(' ');
+    if (q.answer_note) answerText += `（${q.answer_note}）`;
+  } else if (q.answer) {
+    answerText = q.answer;
+  } else if (q.choices) {
+    // Derive from is_correct in choices
+    const correct = q.choices.filter(c => c.is_correct);
+    answerText = correct.map(c => c.label).join(', ');
+  } else {
+    answerText = '';
+  }
+
   let html = `<div class="explanation-box" data-qid="${q.question_id}">`;
   html += `<div class="explanation-header">📖 解説（${q.question_id}）</div>`;
   html += `<div class="explanation-text">
-    <strong>正解: ${q.answer}</strong> ─ ${q.explanation.ja}
+    <strong>正解: ${answerText}</strong> ─ ${q.explanation.ja}
   </div>`;
 
   // Others wrong
@@ -699,14 +918,38 @@ function handleMultiAnswerClick(e) {
   const q = currentSection.questions.find(q => q.question_id === qid);
   if (!q) return;
 
-  let allCorrect = true;
+  // Determine which slots are unordered (e.g. [27] and [28] are interchangeable)
+  const unorderedSlots = q.unordered_slots || [];
+  const userAnswers = {};
   for (const s of allSlots) {
-    const num = s.dataset.slot;
-    const userLabel = s.dataset.label;
-    const correctLabel = q.answer && q.answer[String(num)];
-    if (userLabel !== correctLabel) {
+    userAnswers[s.dataset.slot] = s.dataset.label;
+  }
+
+  let allCorrect = true;
+  if (unorderedSlots.length > 0) {
+    // For unordered slots: collect correct labels and user labels, then compare as sets
+    const unorderedCorrect = unorderedSlots.map(n => q.answer[String(n)]).sort();
+    const unorderedUser = unorderedSlots.map(n => userAnswers[String(n)]).sort();
+    if (JSON.stringify(unorderedCorrect) !== JSON.stringify(unorderedUser)) {
       allCorrect = false;
-      break;
+    }
+    // Check remaining (ordered) slots
+    for (const s of allSlots) {
+      const num = s.dataset.slot;
+      if (unorderedSlots.includes(Number(num))) continue;
+      if (userAnswers[num] !== q.answer[String(num)]) {
+        allCorrect = false;
+        break;
+      }
+    }
+  } else {
+    for (const s of allSlots) {
+      const num = s.dataset.slot;
+      const correctLabel = q.answer && q.answer[String(num)];
+      if (userAnswers[num] !== correctLabel) {
+        allCorrect = false;
+        break;
+      }
     }
   }
 
@@ -715,17 +958,27 @@ function handleMultiAnswerClick(e) {
 
   // Mark choices as correct/wrong
   for (const num of q.answer_numbers) {
-    const correctLabel = q.answer[String(num)];
+    const isUnordered = unorderedSlots.includes(Number(num));
     const selectedEl = document.querySelector(`.multi-choice[data-qid="${qid}"][data-ans-num="${num}"].selected`);
     if (selectedEl) {
-      if (selectedEl.dataset.label === correctLabel) {
-        selectedEl.classList.add('correct');
+      if (isUnordered) {
+        // For unordered: check if user's label is among any of the unordered correct labels
+        const unorderedCorrectLabels = unorderedSlots.map(n => q.answer[String(n)]);
+        if (unorderedCorrectLabels.includes(selectedEl.dataset.label)) {
+          selectedEl.classList.add('correct');
+        } else {
+          selectedEl.classList.add('wrong');
+        }
       } else {
-        selectedEl.classList.add('wrong');
-        // Also highlight the correct one
-        document.querySelectorAll(`.multi-choice[data-qid="${qid}"][data-ans-num="${num}"]`).forEach(el => {
-          if (el.dataset.label === correctLabel) el.classList.add('correct');
-        });
+        const correctLabel = q.answer[String(num)];
+        if (selectedEl.dataset.label === correctLabel) {
+          selectedEl.classList.add('correct');
+        } else {
+          selectedEl.classList.add('wrong');
+          document.querySelectorAll(`.multi-choice[data-qid="${qid}"][data-ans-num="${num}"]`).forEach(el => {
+            if (el.dataset.label === correctLabel) el.classList.add('correct');
+          });
+        }
       }
     }
   }
@@ -736,6 +989,7 @@ function handleMultiAnswerClick(e) {
     for (const num of q.answer_numbers) {
       correctText += `[${num}] ${q.answer[String(num)]}  `;
     }
+    if (q.answer_note) correctText += `（${q.answer_note}）`;
     const correctDiv = document.createElement('div');
     correctDiv.className = 'ordering-correct-answer';
     correctDiv.textContent = correctText;
