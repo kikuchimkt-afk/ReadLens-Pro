@@ -16,8 +16,8 @@
   align-items: center;
   gap: 16px;
   padding: 8px 20px;
-  background: var(--bg-header-gradient);
-  box-shadow: 0 2px 8px rgba(180,140,60,0.2);
+  background: linear-gradient(135deg, #7e2e40 0%, #9e4a5b 50%, #b46478 100%);
+  box-shadow: 0 2px 8px rgba(120,50,60,0.25);
   z-index: 10;
   flex-shrink: 0;
 }
@@ -68,7 +68,7 @@
 .btn-icon:hover { background: rgba(255,255,255,0.25); }
 .btn-icon.active {
   background: #fff;
-  color: var(--bg-header);
+  color: #9e4a5b;
   border-color: #fff;
 }
 
