@@ -175,6 +175,59 @@ function renderPassagePage(sec) {
       }
       html += '</div>';
 
+    } else if (passage.id === 'questionnaire') {
+      // Questionnaire (大問5: chart + comments)
+      html += '<div class="print-passage">';
+      if (passage.title) html += '<div class="print-passage-title">' + passage.title.en + '</div>';
+      if (passage.q1_title) html += '<p class="print-paragraph"><strong>' + passage.q1_title.en + '</strong></p>';
+      if (passage.chart_image) {
+        html += '<img class="print-img" src="' + passage.chart_image.src + '" alt="' + (passage.chart_image.alt || '') + '">';
+      }
+      if (passage.q2_title) html += '<p class="print-paragraph" style="margin-top:12px;"><strong>' + passage.q2_title.en + '</strong></p>';
+      if (passage.comments) {
+        html += '<p class="print-paragraph"><em>Main comments:</em></p>';
+        for (const c of passage.comments) {
+          html += '<div style="margin:4px 0 4px 16px;">• <strong>' + c.name.en + ':</strong> ' + c.text.en + '</div>';
+        }
+      }
+      html += '</div>';
+
+    } else if (passage.is_handout) {
+      // Handout (大問5: sections with items/sub_items/options)
+      html += '<div class="print-passage" style="border:1px solid #333;padding:16px;">';
+      if (passage.title) html += '<div class="print-passage-title">' + passage.title.en + '</div>';
+      if (passage.sections_content) {
+        for (const sec of passage.sections_content) {
+          html += '<div style="margin:10px 0;">';
+          html += '<div><strong>■ ' + sec.heading.en + '</strong></div>';
+          if (sec.items) {
+            for (const item of sec.items) {
+              const itemEn = item.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>');
+              html += '<div style="margin-left:16px;">－ ' + itemEn + '</div>';
+            }
+          }
+          if (sec.sub_items) {
+            for (const sub of sec.sub_items) {
+              html += '<div style="margin-left:16px;">－ ' + sub.label.en + '</div>';
+              if (sub.content) {
+                const contentEn = sub.content.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>');
+                html += '<div style="margin-left:32px;">' + contentEn + '</div>';
+              }
+              if (sub.options) {
+                if (sub.blank_number) {
+                  html += '<div style="margin-left:32px;"><span class="print-answer-slot">' + sub.blank_number + '</span></div>';
+                }
+                for (const opt of sub.options) {
+                  html += '<div style="margin-left:40px;">' + opt.label + '. ' + opt.en + '</div>';
+                }
+              }
+            }
+          }
+          html += '</div>';
+        }
+      }
+      html += '</div>';
+
     } else if (passage.is_notes) {
       // Notes section (大問7)
       html += '<div class="print-passage" style="border:1px solid #333;padding:16px;">';
