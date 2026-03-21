@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-main: #f5efe6;
+  --bg-card: #ffffff;
+  --bg-header: #d4a853;
+  --bg-header-gradient: linear-gradient(135deg, #c9933e 0%, #d4a853 50%, #e0be6a 100%);
+  --text-primary: #2c2c2c;
+  --text-secondary: #666666;
+  --text-header: #ffffff;
+  --text-section-title: #8b6914;
+  --border-card: #e8e0d0;
+  --shadow-card: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-card-hover: 0 6px 20px rgba(0,0,0,0.12);
+  --tag-points-bg: #e8f5e9;
+  --tag-points-text: #2e7d32;
+  --tag-questions-bg: #e3f2fd;
+  --tag-questions-text: #1565c0;
+  --radius: 10px;
+  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', 'Inter', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ===== Header ===== */
+.site-header {
+  background: var(--bg-header-gradient);
+  padding: 40px 20px 36px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(180, 140, 60, 0.25);
+}
+
+.site-header h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--text-header);
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.site-header .subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.05em;
+}
+
+/* ===== Main Container ===== */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+/* ===== Exam Block ===== */
+.exam-block {
+  margin-bottom: 40px;
+}
+
+.exam-block-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-section-title);
+  margin-bottom: 16px;
+  padding-left: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.exam-block-title .icon {
+  font-size: 1.2rem;
+}
+
+/* ===== Section Grid ===== */
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+@media (max-width: 768px) {
+  .section-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .site-header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ===== Section Card ===== */
+.section-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius);
+  padding: 18px 16px 14px;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--bg-header-gradient);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.section-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: #d4a853;
+}
+
+.section-card:hover::before {
+  opacity: 1;
+}
+
+.section-card .section-number {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--text-section-title);
+  letter-spacing: 0.05em;
+}
+
+.section-card .section-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.section-card .tags {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+
+.tag-points {
+  background: var(--tag-points-bg);
+  color: var(--tag-points-text);
+}
+
+.tag-questions {
+  background: var(--tag-questions-bg);
+  color: var(--tag-questions-text);
+}
+
+/* ===== Footer ===== */
+.section-card--disabled {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+.section-card--disabled .section-number {
+  color: #aaa;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  text-align: center;
+  padding: 24px 20px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border-card);
+}
+
+/* ===== Exam Block Header (title + print-all button) ===== */
+.exam-block-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.exam-block-header .exam-block-title {
+  margin-bottom: 0;
+}
+
+/* ===== Print All Button ===== */
+.btn-print-all {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  background: #f0f0f0;
+  color: #555;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.btn-print-all:hover {
+  background: #e0e0e0;
+  color: #333;
+}
+
+/* ===== Card Print Links ===== */
+.card-print-links {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+.card-print-link {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  background: #fef9ef;
+  color: #8b6914;
+  border: 1px solid #e0d5b8;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: var(--transition);
+}
+.card-print-link:hover {
+  background: #f5edd5;
+  border-color: #c9a53e;
+}
+

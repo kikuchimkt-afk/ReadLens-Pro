@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReadLens Pro — 印刷プレビュー</title>
+  <link rel="stylesheet" href="print.css">
+</head>
+<body>
+  <div class="print-controls" id="print-controls">
+    <a href="javascript:history.back()" class="print-back">← 戻る</a>
+    <span class="print-title" id="print-title">印刷プレビュー</span>
+    <button class="print-btn" onclick="window.print()">🖨 印刷</button>
+  </div>
+  <div id="print-content"></div>
+  <script src="print.js"></script>
+</body>
+</html>
