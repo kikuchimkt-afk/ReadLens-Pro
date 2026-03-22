@@ -33,14 +33,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (mode === 'passage' && sectionNum > 0) {
     const sec = data.sections.find(s => s.section_number === sectionNum);
-    if (sec) html = renderPassagePage(sec);
+    if (sec) html = renderPassagePage(sec, dataPath);
   } else if (mode === 'questions' && sectionNum > 0) {
     const sec = data.sections.find(s => s.section_number === sectionNum);
     if (sec) html = renderQuestionsPage(sec);
   } else {
     // all: 大問1問題→大問1設問→大問2問題→…
     for (const sec of data.sections) {
-      html += renderPassagePage(sec);
+      html += renderPassagePage(sec, dataPath);
       html += renderQuestionsPage(sec);
     }
   }
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // ===== Render Passage Page =====
-function renderPassagePage(sec) {
+function renderPassagePage(sec, dataPath) {
   let html = '<div class="print-section">';
 
   // Header
@@ -74,7 +74,51 @@ function renderPassagePage(sec) {
   for (const passage of sec.passages) {
     const hasComments = passage.margin_comments && passage.margin_comments.length > 0;
 
-    if (hasComments) {
+    if (passage.is_presentation && passage.slides) {
+      // Presentation slides (大問8)
+      html += '<div class="print-passage">';
+      if (passage.title) html += '<div class="print-passage-title">' + passage.title.en + '</div>';
+      html += '<div class="print-slides-grid">';
+      for (const slide of passage.slides) {
+        html += '<div class="print-slide-card">';
+        html += '<div class="print-slide-title">' + (slide.title ? slide.title.en.replace(/\n/g, '<br>') : '') + '</div>';
+        if (slide.has_image && dataPath) {
+          html += '<img class="print-slide-img" src="' + dataPath.replace(/data\.json$/, 'images/s8_slide1.png') + '" alt="Vegetables">';
+        }
+        if (slide.columns) {
+          html += '<table class="print-slide-columns"><tr>';
+          for (const col of slide.columns) {
+            html += '<td><div class="print-slide-col-heading">' + col.heading.en + '</div><ul>';
+            for (const item of col.items) {
+              html += '<li>' + item.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</li>';
+            }
+            html += '</ul></td>';
+          }
+          html += '</tr></table>';
+        }
+        if (slide.content) {
+          html += '<p class="print-slide-content">' + slide.content.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</p>';
+        }
+        if (slide.options) {
+          html += '<div class="print-slide-options">';
+          for (const opt of slide.options) {
+            html += '<div>' + opt.label + '. ' + opt.en + '</div>';
+          }
+          html += '</div>';
+        }
+        if (slide.items) {
+          html += '<ul class="print-slide-items">';
+          for (const item of slide.items) {
+            html += '<li>' + item.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</li>';
+          }
+          html += '</ul>';
+        }
+        html += '<div class="print-slide-number">' + slide.number + '</div>';
+        html += '</div>';
+      }
+      html += '</div></div>';
+
+    } else if (hasComments) {
       // Essay table layout (大問4)
       html += '<table class="print-essay-table">';
       html += '<thead><tr>';
@@ -129,6 +173,8 @@ function renderPassagePage(sec) {
         html += '</p></div>';
       }
       html += '</div>';
+      // Navigation cue: answer 問1 and 問2 after Step 1
+      html += '<div class="print-nav-cue">📝 ここまで読んだら <strong>問1</strong> と <strong>問2</strong> を解答</div>';
 
     } else if (passage.is_step2) {
       // Step2: Take a position (大問6)
@@ -145,6 +191,8 @@ function renderPassagePage(sec) {
         html += '</ul>';
       }
       html += '</div>';
+      // Navigation cue: answer 問3 after Step 2
+      html += '<div class="print-nav-cue">📝 ここまで読んだら <strong>問3</strong> を解答</div>';
 
     } else if (passage.is_step3) {
       // Step3: Essay outline (大問6)
@@ -160,9 +208,10 @@ function renderPassagePage(sec) {
         html += '<p class="print-paragraph"><em>Conclusion:</em> ' + o.conclusion.en + '</p>';
       }
       html += '</div>';
+      // Navigation cue: answer 問4 and 問5 after Step 3
+      html += '<div class="print-nav-cue">📝 ここまで読んだら <strong>問4</strong> と <strong>問5</strong> を解答</div>';
 
     } else if (passage.is_source_with_chart) {
-      // Source with chart image (大問6 Source B)
       html += '<div class="print-passage">';
       if (passage.title) html += '<div class="print-passage-title">' + passage.title.en + '</div>';
       if (passage.sentences) {
@@ -182,12 +231,16 @@ function renderPassagePage(sec) {
       if (passage.q1_title) html += '<p class="print-paragraph"><strong>' + passage.q1_title.en + '</strong></p>';
       if (passage.chart_image) {
         html += '<img class="print-img" src="' + passage.chart_image.src + '" alt="' + (passage.chart_image.alt || '') + '">';
+      } else if (passage.chart_data && dataPath) {
+        // Fallback: derive image path from data path
+        const imgBase = dataPath.replace(/data\.json$/, 'images/');
+        html += '<img class="print-img" src="' + imgBase + 's5_questionnaire_chart.png" alt="Questionnaire Chart">';
       }
       if (passage.q2_title) html += '<p class="print-paragraph" style="margin-top:12px;"><strong>' + passage.q2_title.en + '</strong></p>';
       if (passage.comments) {
         html += '<p class="print-paragraph"><em>Main comments:</em></p>';
         for (const c of passage.comments) {
-          html += '<div style="margin:4px 0 4px 16px;">• <strong>' + c.name.en + ':</strong> ' + c.text.en + '</div>';
+          html += '<div style="margin:4px 0 4px 16px;">• <strong>' + (c.label === 'S1' ? 'Student 1 (S1)' : c.label) + ':</strong> ' + c.en + '</div>';
         }
       }
       html += '</div>';

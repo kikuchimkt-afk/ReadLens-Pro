@@ -4222,6 +4222,567 @@
           }
         }
       ]
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 14,
+      "points_per_question": "問1〜問5: 各2点, 問3のみ完全正解で4点",
+      "situation": {
+        "en": "You are preparing a presentation for your science class, using the following information from a health website.",
+        "ja": "あなたは次の健康ウェブサイトからの情報を使用して、理科の授業のために発表の準備をしているところです。"
+      },
+      "passages": [
+        {
+          "id": "fiber_article",
+          "title": {
+            "en": "Dietary Fiber: the Forgotten Hero",
+            "ja": "食物繊維：忘れられた英雄"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s1",
+                "en": "Health experts are always encouraging us to eat more fruit and vegetables.",
+                "ja": "健康の専門家たちは、もっと果物や野菜を食べるよう常に私たちを奨励している。"
+              },
+              {
+                "id": "s2",
+                "en": "We know that these foods contain a large variety of vitamins, minerals, and nutrients that are vital for keeping our bodies healthy.",
+                "ja": "私たちは、これらの食品が私たちの体を健康に維持するために不可欠な、多種多様なビタミン、ミネラル、栄養素を含んでいることを知っている。"
+              },
+              {
+                "id": "s3",
+                "en": "However, one other reason for encouraging the consumption of fruit and vegetables is because they contain fiber.",
+                "ja": "しかしながら、果物や野菜の摂取を奨励するもう一つの理由は、それらが食物繊維を含んでいるからである。"
+              },
+              {
+                "id": "s4",
+                "en": "In fact, we can only get the fiber our bodies need through eating fruit, vegetables, and other plant-based foods.",
+                "ja": "実際のところ、私たちの体が必要とする食物繊維は、果物、野菜、その他の植物性食品を食べることによってのみ得ることができる。"
+              },
+              {
+                "id": "s5",
+                "en": "Other foods such as meat, fish, and dairy products contain many nutrients, but they completely lack fiber.",
+                "ja": "肉、魚、乳製品などの他の食品は多くの栄養素を含んでいるが、食物繊維はまったく含んでいない。"
+              }
+            ],
+            [
+              {
+                "id": "s6",
+                "en": "In Western countries, fiber intake has decreased, while consumption of processed foods has risen.",
+                "ja": "西洋諸国では、食物繊維の摂取量は減少し、一方で加工食品の消費は増加している。"
+              },
+              {
+                "id": "s7",
+                "en": "It is difficult for busy people to take the time to cook meals from fresh ingredients for themselves and their families, so more and more people are relying on ready-made food.",
+                "ja": "忙しい人々が、自分自身と家族のために生の材料からで食事を調理する時間を取ることは難しく、そのため既製食品に頼る人々はますます増えている。"
+              },
+              {
+                "id": "s8",
+                "en": "According to the UK National Health Service, the average adult should eat at least 30g of fiber each day.",
+                "ja": "英国の国民保健サービスによると、平均的な成人は毎日少なくとも30グラムの食物繊維を摂取すべきである。"
+              },
+              {
+                "id": "s9",
+                "en": "However, research shows that the current average is just 20g.",
+                "ja": "しかし、研究は現在の平均がわずか20グラムであることを示している。"
+              },
+              {
+                "id": "s10",
+                "en": "Unfortunately, a lack of fiber in one's diet can lead to numerous health problems.",
+                "ja": "残念なことに、食事における食物繊維の不足は、多くの健康上の問題を引き起こす可能性がある。"
+              }
+            ],
+            [
+              {
+                "id": "s11",
+                "en": "It is important to note that there are two main types of fiber — soluble fiber and insoluble fiber.",
+                "ja": "食物繊維には水溶性食物繊維と非水溶性食物繊維の2つの主要なタイプが存在することに注意しておくことが重要である。"
+              },
+              {
+                "id": "s12",
+                "en": "Each type of fruit or vegetable contains a different amount of each.",
+                "ja": "果物や野菜の各種類には、それぞれ異なる量のそれぞれのタイプが含まれている。"
+              },
+              {
+                "id": "s13",
+                "en": "Soluble fiber is fiber that dissolves in liquid to form a gel inside the digestive system.",
+                "ja": "水溶性食物繊維は液体に溶けて消化器系の内部でゼリー状の物質を形成する食物繊維である。"
+              },
+              {
+                "id": "s14",
+                "en": "This gel is not absorbed by the body itself, but is used as food by the bacteria that live inside us.",
+                "ja": "このゼリー状の物質は体そのものには吸収されないが、体内に生息するバクテリアの食餌として利用される。"
+              },
+              {
+                "id": "s15",
+                "en": "These bacteria play a very important role in not only digestion, but also our brain health.",
+                "ja": "このバクテリアは、消化だけでなく、私たちの脳の健康においても非常に重要な役割を果たしている。"
+              },
+              {
+                "id": "s16",
+                "en": "That is because these bacteria release certain compounds that act as signaling chemicals in our nervous system.",
+                "ja": "なぜなら、これらのバクテリアはある種の化合物を放出し、それが私たちの神経系においてシグナル伝達化学物質として働くからである。"
+              },
+              {
+                "id": "s17",
+                "en": "Recent evidence suggests that increasing consumption of soluble fiber can lower the risk of developing diseases of the brain such as Alzheimer's disease.",
+                "ja": "最近の証拠が示唆するところでは、水溶性食物繊維の消費を増やすと、アルツハイマー病といった脳の病気を発症するリスクが低くなる可能性がある。"
+              },
+              {
+                "id": "s18",
+                "en": "When we eat, we should think not only about our needs, but also the needs of our \"good\" gut bacteria.",
+                "ja": "食事をする時、私たちは自分自身のニーズだけでなく、私たちの「善玉」腸内バクテリアのニーズについても考えるべきである。"
+              }
+            ],
+            [
+              {
+                "id": "s19",
+                "en": "Soluble fiber also blocks or slows the absorption of the fat and sugars that we eat.",
+                "ja": "水溶性食物繊維はまた、私たちが食べる脂肪分と糖分の吸収を防いだり、遅らせたりする。"
+              },
+              {
+                "id": "s20",
+                "en": "This means that by consuming more soluble fiber, we can stop high amounts of fat and sugar from suddenly entering our blood stream after a meal.",
+                "ja": "このことは、水溶性食物繊維をより多く摂取することにより、食後に大量の脂肪分と糖分が突然血流に入り込むのを止めることができることを意味する。"
+              },
+              {
+                "id": "s21",
+                "en": "Sharp rises in blood sugar over a long period of time can eventually lead to diabetes, while too much fat and cholesterol can lead to heart disease.",
+                "ja": "長期間にわたる血糖の急激な上昇は最終的に糖尿病を引き起こす可能性があり、一方で脂肪分とコレステロールの過剰摂取は心臓病を引き起こす可能性がある。"
+              },
+              {
+                "id": "s22",
+                "en": "In reducing our intake of fat and sugar, weight gain is slowed down.",
+                "ja": "脂肪分と糖分の摂取を減らすことにおいて、体重増加は鈍化する。"
+              },
+              {
+                "id": "s23",
+                "en": "It is known that gaining too much weight can also lead to high blood pressure and pain in our joints.",
+                "ja": "体重の過度な増加は高血圧や関節痛にもつながりうることが知られている。"
+              },
+              {
+                "id": "s24",
+                "en": "Soluble fiber is found in all plant foods but it is particularly high in oats, beans, and carrots.",
+                "ja": "水溶性食物繊維はすべての植物性食品に含まれているが、オーツ麦、豆類、ニンジンに特に多く含まれている。"
+              }
+            ],
+            [
+              {
+                "id": "s25",
+                "en": "Insoluble fiber, on the other hand, is not broken down at all in the body and does not dissolve in water.",
+                "ja": "一方、非水溶性食物繊維は体内でまったく分解されず、水にも溶けない。"
+              },
+              {
+                "id": "s26",
+                "en": "It is a physical material that moves through our digestive system and cleans it.",
+                "ja": "それは消化器系を通過して、それを掃除する物理的な物質である。"
+              },
+              {
+                "id": "s27",
+                "en": "It attracts water and sticks to other waste products of the digestion process, eventually helping to form the waste we release when we use the toilet.",
+                "ja": "それは水分を引きつけ、消化過程の他の老廃物にくっつき、最終的にトイレを使用するときに排出する老廃物を形成するのに役立つ。"
+              },
+              {
+                "id": "s28",
+                "en": "It helps us use the toilet regularly, preventing stomach pain and discomfort, and prevents harmful waste products remaining in our digestive system for too long.",
+                "ja": "それは私たちが定期的にトイレを使用することを助け、胃の痛みや不快感を予防し、有害な老廃物が消化器系内にあまりに長く留まるのを防いでくれる。"
+              },
+              {
+                "id": "s29",
+                "en": "Without insoluble fiber, we would be more likely to develop cancers of the digestive system, such as intestinal cancer.",
+                "ja": "非水溶性食物繊維がなければ、腸がんといった消化器系のがんを発症する可能性がより高くなるだろう。"
+              },
+              {
+                "id": "s30",
+                "en": "These cancers are rising in young people around the world, and one reason for this may be a lack of insoluble fiber in our diets.",
+                "ja": "これらのがんは世界中の若者の間でも増加しつつあり、その1つの理由は私たちの食事に非水溶性食物繊維が不足しているからかもしれない。"
+              },
+              {
+                "id": "s31",
+                "en": "To increase our intake of insoluble fiber, we should eat foods like nuts, apples and potatoes.",
+                "ja": "非水溶性食物繊維の摂取を増やすために、ナッツ、リンゴ、ジャガイモなどの食品を食べるべきである。"
+              },
+              {
+                "id": "s32",
+                "en": "Eating the skin of apples and potatoes helps us consume even more of this type of fiber.",
+                "ja": "リンゴやジャガイモの皮を食べると、このタイプの食物繊維をさらに多く摂取するのに役立つ。"
+              }
+            ],
+            [
+              {
+                "id": "s33",
+                "en": "Although there are many important benefits to increasing our intake of both types of fiber, there are some negative effects of eating too much.",
+                "ja": "両方の種類の食物繊維の摂取を増やすことには多くの重要な利点があるが、あまりにも摂りすぎることにはいくつかの悪影響もある。"
+              },
+              {
+                "id": "s34",
+                "en": "First, people who suddenly increase their fiber intake may suffer from gas and stomachache.",
+                "ja": "まず第一に、食物繊維の摂取量を急激に増やす人々はガスや胃痛に悩むかもしれない。"
+              },
+              {
+                "id": "s35",
+                "en": "This is because the bacteria living in the digestive system produce gas when they break down the fiber.",
+                "ja": "これは消化器系に生息するバクテリアが食物繊維を分解する時にガスを発生させるためである。"
+              },
+              {
+                "id": "s36",
+                "en": "The pressure of the gas inside the digestive system may be painful.",
+                "ja": "消化器系内のガスの圧力は痛みを伴うかもしれない。"
+              },
+              {
+                "id": "s37",
+                "en": "Second, because fiber binds to water, we may become dehydrated if we do not drink enough water.",
+                "ja": "第二に、食物繊維は水と結合するため、十分な水分を摂らないと脱水状態になることもある。"
+              },
+              {
+                "id": "s38",
+                "en": "This can make it difficult to get rid of waste regularly.",
+                "ja": "そのせいで、定期的に老廃物を除去することが困難になりかねない。"
+              },
+              {
+                "id": "s39",
+                "en": "Finally, because fiber slows down the absorption of nutrients, we may not be able to absorb the nutrients our body needs if we consume too much fiber.",
+                "ja": "最後に、食物繊維は栄養素の吸収を鈍化させるので、食物繊維を摂りすぎた場合、身体が必要とする栄養素を吸収できなくなる可能性がある。"
+              }
+            ],
+            [
+              {
+                "id": "s40",
+                "en": "Despite the risks of taking in too much fiber, it is a problem that is unlikely to occur in most people.",
+                "ja": "食物繊維を摂りすぎることにはリスクがあるものの、それはほとんどの人々において発生する可能性は低い問題である。"
+              },
+              {
+                "id": "s41",
+                "en": "Around 90% of people do not eat enough fiber, so the general advice is for everyone to increase their intake of fruits, vegetables, beans, and nuts.",
+                "ja": "約90%の人々は十分な食物繊維を摂取していないので、一般的なアドバイスとしては、すべての人が果物、野菜、豆類、ナッツの摂取を増やすべきであるというものだ。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "slides",
+          "title": {
+            "en": "Presentation slides:",
+            "ja": "プレゼンテーション用スライド："
+          },
+          "is_presentation": true,
+          "slides": [
+            {
+              "number": 1,
+              "title": { "en": "Dietary Fiber:\nthe Forgotten Hero", "ja": "食物繊維：忘れられた英雄" },
+              "has_image": true
+            },
+            {
+              "number": 2,
+              "title": { "en": "Characteristics", "ja": "特徴" },
+              "columns": [
+                {
+                  "heading": { "en": "Soluble fiber", "ja": "水溶性食物繊維" },
+                  "items": [
+                    { "en": "dissolves in water", "ja": "水に溶ける" },
+                    { "en": "[41]", "ja": "[41]" },
+                    { "en": "not absorbed", "ja": "吸収されない" },
+                    { "en": "food for bacteria", "ja": "バクテリアの餌" }
+                  ]
+                },
+                {
+                  "heading": { "en": "Insoluble Fiber", "ja": "非水溶性食物繊維" },
+                  "items": [
+                    { "en": "attracts water", "ja": "水分を引きつける" },
+                    { "en": "binds to waste", "ja": "老廃物と結合する" },
+                    { "en": "cleans digestive system", "ja": "消化器系を掃除する" }
+                  ]
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "title": { "en": "Health Benefits of Fiber Consumption", "ja": "食物繊維摂取の健康上の利点" },
+              "content": {
+                "en": "Increasing fiber consumption to the recommended amount can ... [42]",
+                "ja": "食物繊維の摂取量を推奨量まで増やすと… [42]"
+              },
+              "options": [
+                { "label": "A", "en": "lower risk of diabetes.", "ja": "糖尿病のリスクが下がる。" },
+                { "label": "B", "en": "result in weight gain.", "ja": "体重増加をもたらす。" },
+                { "label": "C", "en": "prevent brain diseases.", "ja": "脳の病気を予防する。" },
+                { "label": "D", "en": "make us use the toilet regularly.", "ja": "定期的にトイレを使用させてくれる。" },
+                { "label": "E", "en": "reduce risk of developing cancer.", "ja": "がんの発症リスクを減らす。" }
+              ]
+            },
+            {
+              "number": 4,
+              "title": { "en": "Side Effects of Too Much Fiber", "ja": "食物繊維の過剰摂取の副作用" },
+              "items": [
+                { "en": "[43]", "ja": "[43]" },
+                { "en": "Dehydration", "ja": "脱水" },
+                { "en": "[44]", "ja": "[44]" }
+              ]
+            },
+            {
+              "number": 5,
+              "title": { "en": "Gut Bacteria", "ja": "腸バクテリア" },
+              "content": { "en": "[45]", "ja": "[45]" }
+            },
+            {
+              "number": 6,
+              "title": { "en": "Final Remarks", "ja": "最終的な意見" },
+              "content": { "en": "[46]", "ja": "[46]" }
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "stem": {
+            "en": "What is the second characteristic of soluble fiber on Slide 2? [41]",
+            "ja": "スライド2での水溶性食物繊維の2つ目の特徴は何か？ [41]"
+          },
+          "answer_number": 41,
+          "answer": "②",
+          "choices": [
+            {
+              "label": "①",
+              "en": "enhances fat and sugar absorption",
+              "ja": "脂肪分と糖分の吸収を高める",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "forms a gel-like substance",
+              "ja": "ゼリー状の物質を形成する",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "speeds up digestion",
+              "ja": "消化を早める",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "works as a signaling chemical",
+              "ja": "シグナル伝達化学物質として機能する",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は②。第3段落第3文（Soluble fiber is ...）で「水溶性食物繊維は液体に溶けて、消化器系の内部でゼリー状の物質を形成する」と述べられていることから、正解は②となる。①③に関しては、水溶性食物繊維の特徴として本文で述べられている内容ではないので不可。④に関しては、第3段落第6文（That is because ...）において「なぜなら、これらのバクテリアはある種の化合物を放出し、それが私たちの神経系においてシグナル伝達化学物質として働くからである」で述べられているように、シグナル伝達化学物質として働くのはバクテリアが放出する化合物であり、水溶性食物繊維自体ではないことがわかるので不可。",
+            "evidence_sentences": ["s13", "s16"]
+          }
+        },
+        {
+          "question_id": "問2",
+          "stem": {
+            "en": "Which is an error you found on Slide 3? [42]",
+            "ja": "スライド3であなたが見つけた間違いはどれか？ [42]"
+          },
+          "answer_number": 42,
+          "answer": "②",
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は②。第4段落（Soluble fiber also ...）では、水溶性食物繊維は脂肪分と糖分の吸収を防いだり、遅らせたりし、そのようにして脂肪分と糖分の摂取量が減れば体重増加は鈍化する、ということが述べられている。食物繊維の消費を増加させることは、脂肪分と糖分の摂取量が減ることになるので体重増加にはつながらないと判断できるので、Bが間違いでありこれが正解。①のAに関しては、第4段落第3文（Sharp rises in ...）で糖尿病に関して述べられ、本文の内容に合致している。③のCに関しては、第3段落第7文（Recent evidence suggests ...）で「最近の証拠が示唆するところでは、水溶性食物繊維の消費が増えると、アルツハイマー病といった脳の病気を発症するリスクが低くなる可能性がある」と述べられていることから、本文の内容に合致している。④のDに関しては、第5段落第3文（It attracts water ...）～第4文（It helps us ...）で述べられている内容と合致している。⑤のEに関しては、第5段落第5文（Without insoluble fiber, ...）～第6文（These cancers are ...）で述べられているように本文の内容に合致している。",
+            "evidence_sentences": ["s19", "s20", "s21", "s22"]
+          }
+        },
+        {
+          "question_id": "問3",
+          "stem": {
+            "en": "Choose two options for Slide 4. (The order does not matter.) [43] · [44]",
+            "ja": "スライド4に入る2つの選択肢を選びなさい（順番は問わない）。[43]・[44]"
+          },
+          "answer_numbers": [43, 44],
+          "unordered_slots": [43, 44],
+          "answer": { "43": "②", "44": "③" },
+          "answer_note": "順不同",
+          "choices_43": [
+            {
+              "label": "①",
+              "en": "death of useful gut bacteria",
+              "ja": "有益な腸バクテリアの死滅",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "inability to take in sufficient nutrients",
+              "ja": "十分な栄養素を摂取できないこと",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "stomach pain or discomfort",
+              "ja": "胃の痛みや不快感",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "too much water in our waste",
+              "ja": "老廃物内の水分が多すぎること",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "using the toilet too often",
+              "ja": "トイレを使用する回数が多すぎること",
+              "is_correct": false
+            }
+          ],
+          "choices_44": [
+            {
+              "label": "①",
+              "en": "death of useful gut bacteria",
+              "ja": "有益な腸バクテリアの死滅",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "inability to take in sufficient nutrients",
+              "ja": "十分な栄養素を摂取できないこと",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "stomach pain or discomfort",
+              "ja": "胃の痛みや不快感",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "too much water in our waste",
+              "ja": "老廃物内の水分が多すぎること",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "using the toilet too often",
+              "ja": "トイレを使用する回数が多すぎること",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は②と③（順不同）。②に関しては、第6段落最終文（Finally, because fiber ...）で「最後に、食物繊維は栄養素の吸収を鈍化させるので、食物繊維を摂りすぎた場合、身体が必要とする栄養素を吸収できなくなる可能性がある」と述べられていることから、②が正解の1つとなることがわかる。③に関しては、第6段落第2文（First, people who ...）で「まず第一に、食物繊維の摂取量を急激に増やす人々はガスや胃痛に悩むかもしれない」と述べられていることから、③がもう1つの正解となることがわかる。①⑤に関しては、本文で述べられている内容ではないので不可。④に関しては、第6段落第5文（Second, because fiber ...）～第6文（This can make ...）で「第二に、食物繊維は水と結合するので、十分な水分を摂らないと脱水状態になることもある。そのせいで、定期的に老廃物を除去することが困難になりかねない」と述べられているが、この内容に合致しないので不可。",
+            "evidence_sentences": ["s34", "s39"]
+          }
+        },
+        {
+          "question_id": "問4",
+          "stem": {
+            "en": "What can we say about the bacteria living in our digestive systems for Slide 5? [45]",
+            "ja": "スライド5として、私たちの消化器系に存在するバクテリアについてどういったことが言えるか？ [45]"
+          },
+          "answer_number": 45,
+          "answer": "④",
+          "choices": [
+            {
+              "label": "①",
+              "en": "Eating too much insoluble fiber causes bacteria to grow, which may lead to the development of cancer in young people in Western countries.",
+              "ja": "不溶性食物繊維をあまりに多く摂りすぎることはバクテリアが成長する原因となり、それが西洋諸国の若者におけるがんの発症を引き起こす可能性がある。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "It is important that we do not eat the wrong kind of fiber, because it will cause too many bacteria to grow and produce gas.",
+              "ja": "私たちが間違った種類の食物繊維を摂取しないことが重要であるのは、それがあまりに多くのバクテリアが成長し、ガスを生み出す原因になるからだ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "We should avoid too much fiber because it helps bad bacteria grow in our gut that may cause diseases such as Alzheimer's.",
+              "ja": "私たちがあまりに多くの食物繊維を避けるべきであるのは、それがアルツハイマー病のような病気を引き起こすかもしれない悪いバクテリアが腸内で成長することを助長するからだ。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "We should feed our gut bacteria with fiber because they break down the food and produce important chemicals.",
+              "ja": "私たちが腸バクテリアに食物繊維を与えるべきであるのは、腸バクテリアが食物を分解し、重要な化学物質を生み出すからだ。",
+              "is_correct": true
+            }
+          ],
+          "explanation": {
+            "ja": "正解は④。第3段落第3文（Soluble fiber is ...）～第6文（That is because ...）において、水溶性食物繊維はゼリー状の物質を形成し、この物質が体内のバクテリアの食餌となり、このバクテリアは私たちが食べ物の消化を助け、ある種の化合物を放出し、それが私たちの神経系においてシグナル伝達化学物質として働く、ということが述べられている。よって正解は④であるとわかる。①②③に関しては、本文で述べられている内容ではないので不可。",
+            "evidence_sentences": ["s13", "s14", "s15", "s16"]
+          }
+        },
+        {
+          "question_id": "問5",
+          "stem": {
+            "en": "Choose the most appropriate remark for Slide 6? [46]",
+            "ja": "スライド6に入る、最も適切な意見を選びなさい。[46]"
+          },
+          "answer_number": 46,
+          "answer": "③",
+          "choices": [
+            {
+              "label": "①",
+              "en": "Everyone should increase their consumption of plant-based foods, but always peel vegetables because the skin contains harmful fiber.",
+              "ja": "すべての人が植物性食品の摂取を増やすべきであるが、野菜の皮は有害な食物繊維を含んでいるので、常に皮をむくべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Not all people can tolerate large amounts of fiber, so people should consult a doctor before changing their diet.",
+              "ja": "すべての人々が大量の食物繊維に耐えられるわけではないので、人々は食事を変える前には医者に相談するべきである。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Since most people do not eat enough fiber, it's better to increase our consumption of both types of fiber without thinking about the possible negative effects.",
+              "ja": "ほとんどの人々は十分な食物繊維を摂取していないので、私たちは発生しうる悪影響のことは考慮せず、両方の種類の食物繊維の消費を増やすべきである。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "There is no evidence to suggest fiber supports brain health, but some people say it may reduce cancer risk in young people.",
+              "ja": "食物繊維が脳の健康を支援することを示唆する証拠はないが、中には食物繊維が若者におけるがんのリスクを減らす可能性があると言う人もいる。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "We should choose foods that contain soluble fiber, but avoid those that contain insoluble fiber because of the risk of health problems.",
+              "ja": "私たちは、水溶性食物繊維を含んでいる食品を選ぶべきであるが、健康上のリスクがあるために不溶性食物繊維を含む食品は避けるべきである。",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は③。第6段落第1文（Although there are ...）の前半では「両方の種類の食物繊維の摂取を増やすことには多くの重要な利点があるが、あまりにも摂りすぎることにはいくつかの悪影響もある」と述べられているが、最終段落第1文（Despite the risks ...）で「食物繊維を摂りすぎることにはリスクはあるものの、それはほとんどの人々において発生する可能性は低い問題である」と述べられていることから、この文章の最終的な意見としては③が最も適切な選択肢であると判断できる。①②④⑤に関しては、本文で述べられている内容ではないので不可。",
+            "evidence_sentences": ["s33", "s40", "s41"]
+          }
+        }
+      ]
     }
   ]
 }

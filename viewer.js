@@ -106,6 +106,57 @@ function renderPassage() {
       html += `<img class="passage-img ${floatClass}" src="${passage.image.src}" alt="${passage.image.alt || ''}">`;
     }
 
+    // Presentation slides (大問8)
+    if (passage.is_presentation && passage.slides) {
+      html += '<div class="slides-grid">';
+      for (const slide of passage.slides) {
+        html += '<div class="slide-card">';
+        html += '<div class="slide-title">' + (slide.title ? slide.title.en.replace(/\n/g, '<br>') : '') + '</div>';
+        // Slide 1: image
+        if (slide.has_image) {
+          html += '<img class="slide-img" src="' + currentDataPath.replace(/data\.json$/, 'images/s8_slide1.png') + '" alt="Vegetables">';
+        }
+        // Slide with two columns (e.g., Characteristics)
+        if (slide.columns) {
+          html += '<table class="slide-columns"><tr>';
+          for (const col of slide.columns) {
+            html += '<td><div class="slide-col-heading">' + col.heading.en + '</div><ul>';
+            for (const item of col.items) {
+              const txt = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += '<li>' + txt + '</li>';
+            }
+            html += '</ul></td>';
+          }
+          html += '</tr></table>';
+        }
+        // Slide with content text
+        if (slide.content) {
+          const txt = slide.content.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += '<p class="slide-content">' + txt + '</p>';
+        }
+        // Slide with options (A-E list)
+        if (slide.options) {
+          html += '<div class="slide-options">';
+          for (const opt of slide.options) {
+            html += '<div>' + opt.label + '. ' + opt.en + '</div>';
+          }
+          html += '</div>';
+        }
+        // Slide with bullet items
+        if (slide.items) {
+          html += '<ul class="slide-items">';
+          for (const item of slide.items) {
+            const txt = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += '<li>' + txt + '</li>';
+          }
+          html += '</ul>';
+        }
+        html += '<div class="slide-number">' + slide.number + '</div>';
+        html += '</div>';
+      }
+      html += '</div>';
+    }
+
     // Sentences as flowing paragraph (inline spans) + audio button
     if (passage.sentences) {
       const audioFile = `${audioBase}s${secNum}_${passage.id}.mp3`;
@@ -1160,6 +1211,20 @@ function setupControls() {
   const btnJa = document.getElementById('btn-toggle-ja');
   const btnEvidence = document.getElementById('btn-toggle-evidence');
   const btnExplain = document.getElementById('btn-toggle-explain');
+  const btnPrintPassage = document.getElementById('btn-print-passage');
+  const btnPrintQuestions = document.getElementById('btn-print-questions');
+
+  // Print buttons
+  const params = new URLSearchParams(location.search);
+  const examId = params.get('exam') || 'sundai_2025_01';
+  const sectionNum = params.get('section') || '1';
+
+  btnPrintPassage.addEventListener('click', () => {
+    window.open(`print.html?exam=${examId}&mode=passage&section=${sectionNum}`, '_blank');
+  });
+  btnPrintQuestions.addEventListener('click', () => {
+    window.open(`print.html?exam=${examId}&mode=questions&section=${sectionNum}`, '_blank');
+  });
 
   // Fullscreen toggle
   btnFullscreen.addEventListener('click', () => {
