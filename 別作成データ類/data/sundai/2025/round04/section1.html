@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第1問 - 共通テスト英語問題DB</title>
+    <link rel="stylesheet" href="../../../../style.css">
+</head>
+
+<body>
+    <div class="exam-header">
+        <a href="../../../../index.html" class="back-btn">← 問題一覧に戻る</a>
+        <div class="exam-title">駿台実戦 2025 第4回</div>
+        <div class="score-display">配点: 6点</div>
+    </div>
+
+    <div class="exam-container" data-section="section1">
+        <h1 class="section-heading">第1問</h1>
+        <p class="section-points">配点 6点（各2点×3問）</p>
+
+        <div class="passage-intro">
+            You are looking at an advertisement for an art gallery in Wellington, New Zealand and notice information
+            about a competition for college students. You are considering taking part.
+        </div>
+
+        <div class="passage-box">
+            <div class="passage-title">College Students — Transform Your Trash!</div>
+            <p>Time to clean out your room and get rid of your trash? Read on!</p>
+            <p>Your task is to keep a seven-day diary of all the rubbish from your big clean-up and make something
+                'cool' or useful!</p>
+            <hr>
+            <p><strong>Rules of Entry</strong></p>
+            <ul>
+                <li>Record your trash every day for one week between April 1 and May 19.</li>
+                <li>Make a piece of art or something useful using your trash.</li>
+                <li>Take 3 to 5 pictures of your work after the seven days and upload them on the relevant link with
+                    your trash diary by 23:59 May 26.<br>
+                    → Upload Art<br>→ Upload Something Useful</li>
+                <li>Explain in under 30 words why you made your entry.</li>
+            </ul>
+            <hr>
+            <p><strong>Vote for the Best!</strong></p>
+            <ul>
+                <li>You can only vote once in each of the categories, and not for your own work.</li>
+                <li>Click the link to look at all the entries and vote from May 27 until the last day of the month at
+                    20:00.<br>→ Vote</li>
+                <li>Each vote costs 1.5 NZD, which will be donated to recycling awareness.</li>
+            </ul>
+            <hr>
+            <p><strong>Winners</strong></p>
+            <p>The winner of the 'Art' category will have his/her piece exhibited in our gallery until January 5 next
+                year!</p>
+            <p>The winner of the 'Something Useful' category will have his/her work reproduced by a professional local
+                artist and sold in our gift shop!</p>
+            <p>Those in first, second and third place will each get two free tickets for our summer 'It's Trash?'
+                exhibition!</p>
+        </div>
+
+        <!-- Questions -->
+        <div class="question-block" data-question="section1_1">
+            <div class="question-label">問1</div>
+            <div class="question-text">You can upload your work between <span class="answer-box">1</span>.</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section1', 1, 1)">
+                    <span class="choice-number">①</span>
+                    <span>April 1 and May 19</span>
+                </button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section1', 1, 2)">
+                    <span class="choice-number">②</span>
+                    <span>May 1 and May 26</span>
+                </button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section1', 1, 3)">
+                    <span class="choice-number">③</span>
+                    <span>May 19 and May 26</span>
+                </button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section1', 1, 4)">
+                    <span class="choice-number">④</span>
+                    <span>May 27 and May 31</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section1_2">
+            <div class="question-label">問2</div>
+            <div class="question-text">When entering this competition you have to <span class="answer-box">2</span>.
+            </div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section1', 2, 1)">
+                    <span class="choice-number">①</span>
+                    <span>buy something you want at the gift shop</span>
+                </button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section1', 2, 2)">
+                    <span class="choice-number">②</span>
+                    <span>collect different kinds of trash</span>
+                </button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section1', 2, 3)">
+                    <span class="choice-number">③</span>
+                    <span>create something with your unwanted things</span>
+                </button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section1', 2, 4)">
+                    <span class="choice-number">④</span>
+                    <span>vote for two different entries</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section1_3">
+            <div class="question-label">問3</div>
+            <div class="question-text">If you come in second or third place you will be able to <span
+                    class="answer-box">3</span>.</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section1', 3, 1)">
+                    <span class="choice-number">①</span>
+                    <span>meet an artist who works in Wellington</span>
+                </button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section1', 3, 2)">
+                    <span class="choice-number">②</span>
+                    <span>select something from the gift shop</span>
+                </button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section1', 3, 3)">
+                    <span class="choice-number">③</span>
+                    <span>take someone to see a summer exhibition</span>
+                </button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section1', 3, 4)">
+                    <span class="choice-number">④</span>
+                    <span>visit the gallery whenever until January</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="submit-area">
+            <button class="submit-btn" id="submit-section1" onclick="gradeSection('section1')" disabled>採点する
+                (0/3)</button>
+        </div>
+
+        <div class="result-panel" id="result-section1">
+            <div class="result-score"></div>
+            <div class="result-label"></div>
+        </div>
+    </div>
+
+    <div class="exam-footer">
+        共通テスト英語問題データベース &copy; 2025 | 駿台実戦問題集 2025 第4回
+    </div>
+
+    <script src="../../../../app.js"></script>
+</body>
+
+</html>

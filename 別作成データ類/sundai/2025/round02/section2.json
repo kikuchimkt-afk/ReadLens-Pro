@@ -1,0 +1,89 @@
+{
+    "theme": "クリーンアップ・チャレンジ",
+    "theme_translation": "あなたは生徒会のメンバーです。メンバーたちは生徒が町のごみを清掃するのを手助けするプロジェクトについて話し合ってきました。アイデアを得るため，あなたはスクール・チャレンジに関するレポートを読んでいます。それは日本のある中学校で教えている外国語指導助手が書いたものです。",
+    "passage": [
+        "Cleanup Challenge",
+        "In response to the town's environmental beautification campaign, our junior high school worked on the town's cleanup activity. I also felt that there was a lot of litter, such as empty bottles or pieces of paper, on the road the school is on, so l thought this would be a good opportunity to improve the environment near our school. We started this activity to help students understand the importance of keeping the community clean. A total of 250 students participated every Friday from January 10th to February 10th. They picked up litter on their way to school, put it in a special plastic bag and brought it to school. What was interesting was that students from the western part of the town picked up more litter than students from other areas. What was the cause of this? Based on the feedback (given below), there seems to be an answer to this question:",
+        "Feedback from participants\nAS: Thanks to this project, I realized the importance of cleaning. It seemed that when the road was clean, my heart was also clean.\nBK: Some of my friends seemed to find it difficult to pick up litter because they commuted to school by bicycle.\nSC: I made a map of where l found a lot of litter. There seems to be no significant relationship between distance from the station and amounts of trash.\nJD: We separated trash carefully. Cigarette butts were the most common objects, followed by plastic trash, wastepaper, and empty cans. Smoking on the street is prohibited in our town, so l was very upset.\nML: One of my classmates commuting from the western area of our city picked up more litter than l did. This may be related to the fact that there is a busy shopping area there."
+    ],
+    "translations": [
+        "クリーンアップ・チャレンジ",
+        "町の環境美化運動に呼応して，私たちの中学校では地域清掃活動に取り組みました。私も通学路に空き瓶や紙くずなどのごみが多いと感じていたので，学校周辺の環境を改善する良い機会だと思いました。私たちがこの活動に取り組み始めたのは，生徒たちに町を清潔に保つ大切さを理解させる手助けをするためでした。合計250名の生徒が1月10日から2月10日まで毎週金曜日に参加しました。彼らは通学途中に拾ったごみを特製のビニール袋に入れて学校に持ち運びました。興味深かったのは，町の西部の生徒たちの方が他の地域の生徒たちよりも多くのごみを拾ったということでした。この原因は何だったのでしょうか？（以下の）フィードバックに基づけば，この問いに対する答えがあるようです。",
+        "参加者からのフィードバック\nAS:このプロジェクトのおかげで清掃の大切さを実感しました。道がきれいになると自分の心もきれいになるようでした。\nBK:私の友人の一部は自転車で通学しているため，ごみを拾うことが難しかったようです。\nSC:私はどこに多くのごみが落ちているのかに関する地図を作りました。駅からの距離とごみの量の間には，顕著な関連性はないようです。\nJD:慎重にごみの分別をしました。たばこの吸い殻が一番多く，次にプラスチックごみ，紙くず，空き缶の順でした。路上でタバコを吸うことは私たちの町では禁止されているので，大変頭にきました。\nML:私たちの町の西部から通ってくる1人のクラスメートの方が私より多くのごみを拾っていました。これは，そちらの方ににぎやかな商店街があることと関係しているのかもしれません。"
+    ],
+    "questions": [
+        {
+            "id": "4",
+            "question_number": "1",
+            "points": 2,
+            "question_text": "The aim of the Cleanup Challenge was to help students to [ 4 ]",
+            "choices": [
+                "appreciate the need for a clean environment",
+                "be worthy members of the community",
+                "recognize regional trash connections",
+                "understand different types of litter"
+            ],
+            "answer": "1",
+            "explanation": "正解は①。クリーンアップ・チャレンジに関する本文の第3文(We started this…)に「私たちがこの活動に取り組み始めたのは‘生徒たちに町を清潔に保つ大切さを理解させる手助けをするためでした」とあり，①が適切だとわかる。\n②は文章中に記述がない。③,④はフィードバック中に該当すると考えられる記述があるが，この運動が行われた目的とは言えないため，不適切である。"
+        },
+        {
+            "id": "5",
+            "question_number": "2",
+            "points": 2,
+            "question_text": "One fact about the Cleanup Challenge is that [ 5 ]",
+            "choices": [
+                "it lasted for two months during the winter",
+                "it was held at least four times during a set period",
+                "most of the students came from the western side of town",
+                "students had to use homemade bags"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。クリーンアップ・チャレンジに関する本文の第4文(A total of…)に「合計250名の生徒が1月10日から2月10日まで毎週金曜日に参加しました」とあり，この活動が1ヵ月間続き，週1回の参加で少なくとも4回は行われたことがわかるため，②が適切である。\n①は本文内容と矛盾する。③は本文中に記述がない。④は本文中に「特製のビニール袋を使う」という記述があるが，自家製とは明示されていないため不適切である。"
+        },
+        {
+            "id": "6",
+            "question_number": "3",
+            "points": 2,
+            "question_text": "From the feedback, [ 6 ] were activities reported by participants\nA: examining different types of litter\nB: recording where litter was found\nC: taking litter home\nD: warning people not to smoke",
+            "choices": [
+                "A and B",
+                "A and C",
+                "A and D",
+                "B and C",
+                "B and D",
+                "C and D"
+            ],
+            "answer": "1",
+            "explanation": "正解は①。フィードバック中のSCのコメントに「私はどこに多くのごみが落ちているのかに関する地図を作りました」とあり，ごみが落ちている場所に関する記録をつけていたことがわかるため,Bは適切である。また,JDのコメントに「慎重にごみの分別をしました」とあり，落ちているごみの内訳を調べたという内容があるため,Aも適切である。\n以上より，①AとBが正解である。\nCとDは本文中に記述がない。"
+        },
+        {
+            "id": "7",
+            "question_number": "4",
+            "points": 2,
+            "question_text": "One of the participants' opinions about the Cleanup Challenge is that [ 7 ]",
+            "choices": [
+                "it was more efficient for students commuting by bicycle",
+                "many students got into the habit of picking up litter",
+                "smoking should be prohibited as soon as possible",
+                "the cleaner the town was, the better the participant felt"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。フィードバック中のASのコメントに「道がきれいになると自分の心もきれいになるようでした」とあるため，④が適切である。\n①は、BKのコメントに，自転車通学者はごみを拾うのが難しかったとあるため，不適切である。②は，本文中に記述がない。③は,JDのコメントに，路上喫煙は禁止されているとあるため，不適切である。"
+        },
+        {
+            "id": "8",
+            "question_number": "5",
+            "points": 2,
+            "question_text": "The author's question is answered by [ 8 ]",
+            "choices": [
+                "AS",
+                "BK",
+                "JD",
+                "ML",
+                "SC"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。クリーンアップ･チャレンジに関する本文の第6文(What was interesting…), 第7文(What was the…)に「興味深かったのは，町の西部の生徒たちの方が他の地域の生徒たちよりも多くのごみを拾ったということでした。この原因は何だったのでしょうか？」とあり，西部の生徒たちがより多くのごみを拾った事実に筆者は疑問を抱いている。それに対して，フィードバック中のMLのコメントに「私たちの町の西部から通ってくる1人のクラスメートの方が私より多くのごみを拾っていました。これは，そちらの方ににぎやかな商店街があることと関係しているのかもしれません」とその疑問に対する回答が述べられているため，④が適切である。\n他の選択肢はこの疑問に対して回答を述べていないため，不適切である。"
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第4問 - 共通テスト英語問題DB</title>
+    <link rel="stylesheet" href="../../../../style.css">
+    <style>
+        .essay-layout {
+            display: grid;
+            grid-template-columns: 1fr 240px;
+            gap: 0;
+        }
+
+        .essay-body {
+            padding: 24px;
+            border-right: 1px solid var(--border-color);
+        }
+
+        .essay-comments {
+            padding: 16px;
+            font-style: italic;
+            font-size: 0.88rem;
+            color: var(--accent-orange);
+        }
+
+        .essay-comments .comment {
+            margin-bottom: 20px;
+        }
+
+        .essay-comments .comment-num {
+            font-weight: 700;
+        }
+
+        .underline-word {
+            text-decoration: underline;
+        }
+
+        .caret {
+            color: var(--accent-red);
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .essay-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .essay-body {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="exam-header">
+        <a href="../../../../index.html" class="back-btn">← 問題一覧に戻る</a>
+        <div class="exam-title">駿台実戦 2025 第4回</div>
+        <div class="score-display">配点: 12点</div>
+    </div>
+
+    <div class="exam-container" data-section="section4">
+        <h1 class="section-heading">第4問</h1>
+        <p class="section-points">配点 12点（各3点×4問）</p>
+
+        <div class="passage-intro">
+            In English class you are writing an essay on IT problems you are interested in. This is your most recent
+            draft. You are now working on revisions based on comments from your teacher.
+        </div>
+
+        <div class="passage-box" style="padding: 0; overflow: hidden;">
+            <div class="essay-layout">
+                <div class="essay-body">
+                    <div class="passage-title" style="text-align: left; margin-bottom: 16px;">AI art generators should
+                        be used properly</div>
+
+                    <p>In recent years, artificial intelligence (AI) has developed rapidly. AI is used for many things,
+                        such as generating music, translating foreign languages, and analyzing data. AI can be used in
+                        many positive ways. However, many artists are worried about AI programs that generate art. They
+                        believe these programs should be limited or restricted.</p>
+
+                    <p>First, AI art generators steal the work of real artists. These programs must be trained on
+                        thousands of examples of real art made by human artists. <sup>(1)</sup> <span
+                            class="caret">∧</span> Many artists don't consent to AI programs using their art
+                        this way. They believe their work has been stolen and is being used illegally.</p>
+
+                    <p>Second, AI art takes jobs from real artists. AI art generators can make photographs or pictures
+                        at a much lower price than a human artist and in much less time. This <sup>(2)</sup> <span
+                            class="underline-word">changes</span> the demand for real artists and leaves them with less
+                        work. In the future, this may cause artists to lose their jobs, even though they are highly
+                        skilled and have spent years perfecting their skills.</p>
+
+                    <p>Finally, <sup>(3)</sup> <span class="caret">∧</span> let's consider learning art. Drawing,
+                        painting, and photography are all creative forms of expression, and are important to us as human
+                        beings. Practicing art develops the small muscles in our hands and encourages imagination and
+                        creativity. If art becomes something we can make at the click of a button, we will lose this
+                        important part of our culture.</p>
+
+                    <p>In conclusion, AI programs sample the work of artists without permission, they reduce work
+                        opportunities for artists, and they discourage people from making art themselves. Many artists
+                        believe that despite the advantages of AI art, it has a negative influence on our culture
+                        overall. <sup>(4)</sup> <span class="caret">∧</span></p>
+                </div>
+                <div class="essay-comments">
+                    <div style="font-weight: 700; margin-bottom: 16px; font-style: normal; color: var(--text-primary);">
+                        Teacher's Comments</div>
+
+                    <div class="comment">
+                        <span class="comment-num">(1)</span> Can you tell me how the AI programs do that? Add more
+                        information here.
+                    </div>
+
+                    <div class="comment">
+                        <span class="comment-num">(2)</span> Changes the demand in what way? Be more specific.
+                    </div>
+
+                    <div class="comment">
+                        <span class="comment-num">(3)</span> The topic sentence doesn't adequately summarize your point.
+                        Rewrite it.
+                    </div>
+
+                    <div class="comment">
+                        <span class="comment-num">(4)</span> Add a concluding sentence here.
+                    </div>
+
+                    <div
+                        style="margin-top: 24px; font-style: normal; border-top: 1px solid var(--border-color); padding-top: 12px;">
+                        <strong>Overall Comment</strong><br>
+                        This is very interesting. I had never thought about the problems with AI art generators before.
+                        Good work!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Questions -->
+        <div class="question-block" data-question="section4_15">
+            <div class="question-label">問1</div>
+            <div class="question-text">Based on comment (1), which sentence should you insert here? <span
+                    class="answer-box">15</span></div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section4', 15, 1)"><span
+                        class="choice-number">①</span><span>AI programs analyze these images and sample them to make new
+                        ones.</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section4', 15, 2)"><span
+                        class="choice-number">②</span><span>AI programs can make original art without using other
+                        people's images.</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section4', 15, 3)"><span
+                        class="choice-number">③</span><span>AI programs use art or photography bought from professional
+                        artists.</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section4', 15, 4)"><span
+                        class="choice-number">④</span><span>AI programs use pictures donated for free by human
+                        artists.</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section4_16">
+            <div class="question-label">問2</div>
+            <div class="question-text">Based on comment (2), which word or expression should you use here instead? <span
+                    class="answer-box">16</span></div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section4', 16, 1)"><span
+                        class="choice-number">①</span><span>expands</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section4', 16, 2)"><span
+                        class="choice-number">②</span><span>magnifies</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section4', 16, 3)"><span
+                        class="choice-number">③</span><span>reduces</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section4', 16, 4)"><span
+                        class="choice-number">④</span><span>replaces</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section4_17">
+            <div class="question-label">問3</div>
+            <div class="question-text">Based on comment (3), which topic sentence should be inserted here? <span
+                    class="answer-box">17</span></div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section4', 17, 1)"><span
+                        class="choice-number">①</span><span>AI art generators are better at making drawings and
+                        photographs than humans</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section4', 17, 2)"><span
+                        class="choice-number">②</span><span>an increase in AI art will discourage people from studying
+                        and practicing art</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section4', 17, 3)"><span
+                        class="choice-number">③</span><span>children who use AI art use their imaginations in a way that
+                        is different from artists</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section4', 17, 4)"><span
+                        class="choice-number">④</span><span>using AI art is a different form of creativity, so it should
+                        be encouraged</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section4_18">
+            <div class="question-label">問4</div>
+            <div class="question-text">Which sentence should you add, based on comment (4)? <span
+                    class="answer-box">18</span></div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section4', 18, 1)"><span
+                        class="choice-number">①</span><span>As a result, artists should use AI art generators more
+                        carefully.</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section4', 18, 2)"><span
+                        class="choice-number">②</span><span>Consequently, AI technology is still not effective
+                        enough.</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section4', 18, 3)"><span
+                        class="choice-number">③</span><span>In summary, AI should be developed more.</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section4', 18, 4)"><span
+                        class="choice-number">④</span><span>Therefore, the use of AI art generators should be
+                        limited.</span></button>
+            </div>
+        </div>
+
+        <div class="submit-area">
+            <button class="submit-btn" id="submit-section4" onclick="gradeSection('section4')" disabled>採点する
+                (0/4)</button>
+        </div>
+
+        <div class="result-panel" id="result-section4">
+            <div class="result-score"></div>
+            <div class="result-label"></div>
+        </div>
+    </div>
+
+    <div class="exam-footer">
+        共通テスト英語問題データベース &copy; 2025 | 駿台実戦問題集 2025 第4回
+    </div>
+
+    <script src="../../../../app.js"></script>
+</body>
+
+</html>

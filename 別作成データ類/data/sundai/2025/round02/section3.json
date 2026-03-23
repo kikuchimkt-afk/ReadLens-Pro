@@ -1,0 +1,60 @@
+{
+    "theme": "ぼろから富へ",
+    "theme_translation": "あなたは，友人の1人が貸してくれた雑誌の中に，成功に関する以下の記事を見つけました。",
+    "passage": [
+        "From Rags to Riches\n(By Sally Ellis)",
+        "You may have never heard of Howard Schultz, but most likely you know the company he transformed. Born into a poor family in New York in 1953, his number one goal in life was to succeed and build a brighter future, and he fought hard at school to achieve good grades. Schultz later proved to be a natural at sports, and was offered a free place at university because of his ability. After graduation Schultz did sales for a small coffee-maker company, as well as for other companies, and was promoted quickly there. Eventually he became an advertising manager for a coffee bean company with a few stores in Seattle. The name of this small chain? Starbucks.",
+        "On an Italian trip, Schultz was impressed by the cafe culture there, and suggested Starbucks open coffee shops where people could socialize and chat comfortably. Even when the top managers doubted that ideas would suit their organization, they sometimes allowed their staff to carry them out; and the American public loved Schultz's idea. He then left and returned to Starbucks twice, eventually becoming president of the enterprise, expanding it across the USA and further, incorporating it into 39 countries by 2012. Ironically, some neighboring Starbucks stores have closed because they were competing with each other. Soon after, Schultz was listed in Forbes Magazine as one of America's richest.",
+        "Schultz has used any power he had in positive ways since he climbed to the top of his company, and once famously criticized an investor for being against gay marriage, even suggesting he spend his money boosting another company. He received an award for never lying at work, and was invited to teach a course on fair business practices at an American university. He supports the concept of an environmentally friendly business world, and wants oil and gas to be taxed more harshly."
+    ],
+    "translations": [
+        "ぼろから富へ\nサリー・エリス",
+        "ハワード・シュルツについてあなたは聞いたことがないかもしれないが，彼が変革した会社のことはおそらく知っているだろう。1953年にニューヨークの貧しい家庭に生まれた彼の人生における第一の目標は成功してより明るい未来を築くことであり，彼は良い成績を収めようと学校で奮闘した。シュルツは後にスポーツの天才であると判明し，またその能力ゆえに大学では学費免除を受けた。卒業後シュルツは，他の会社と並んでコーヒーメーカーを扱う小さな会社でも販売業務を行い，そこで急速に昇進した。最終的に彼は，シアトルにいくつか店舗のあるコーヒー豆の会社の広告部長になった。この小さなチェーン店の名前はと言えば，スターバックスだった。",
+        "イタリア旅行に行った際，シュルツは当地のカフェ文化に感銘を受け，人々が居心地良く集まっておしゃべりできる喫茶店を開くようスターバックスに提案した。着想が組織に合わないのではないかと最高経営者たちが疑うときでさえ，彼らはスタッフにその実行を許可する場合があった。そしてアメリカの大衆はシュルツの着想が大いに気に入ったのである。彼はそれからスターバックスから離れては戻ることを二度行い，最終的には企業の頭取となってそれをアメリカ合衆国中に広め，さらには2012年までに39カ国へと出店した。皮肉にも，隣接するスターバックスの店舗が互いに競合し閉店する場合もあった。ほどなくシュルツは，アメリカでトップの金持ちの1人としてフォーブズ誌に載った。",
+        "シュルツは自分の会社のトップに上りつめて以来，持てる力のすべてを良い方向へと使ってきた。そしてよく知られているようにかつてある投資家を同性婚に反対していることについて批判し，その投資家に自分の金を別の会社を後援するために使うよう提案さえした。彼は職場で決して嘘をつかないことに対して賞を与えられ，公正な商慣習に関する講座を教えるようあるアメリカの大学に招かれた。彼は環境に優しい実業界という理念を支持しており，石油やガスへの課税がより厳しくなるよう望んでいる。"
+    ],
+    "questions": [
+        {
+            "id": "9",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "Put the following events (1~4) into the order in which they happened. [ 9 ] -> [ 10 ] -> [ 11 ] -> [ 12 ]",
+            "choices": [
+                "Schultz became the head of Starbucks",
+                "Schultz proposed introducing a new business style to Starbucks",
+                "Schultz quit working at Starbucks.",
+                "Schultz started using his influence constructively."
+            ],
+            "answer": "2-3-1-4",
+            "explanation": "第3段落第1文(On an Italian…)にあるように「喫茶店を開くよう提案」した後、同段落第3文(He then left…)にあるように「スターバックスから離れては戻ることを二度行い｣，さらに同文にあるように「最終的には企業の頭取」となってそれ以来，最終段落第1文(Schultz has used…)にあるように「持てる力のすべてを良い方向に使ってきた」のであるから，それぞれに対応する②,③,①,④が順に正解となる。"
+        },
+        {
+            "id": "13",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "One fact we know about Schultz's life is that he [ 13 ]",
+            "choices": [
+                "caused constant trouble at school",
+                "preferred traditional American customs",
+                "used expensive energy sources",
+                "was among the wealthiest persons in the USA"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。第3段落最終文(Soon after, Schultz…)に「シュルツはアメリカでトップの金持ちの1人としてフォーブズ誌に載った」という記述が見られるので,④が正解。他の選択肢はいずれも，本文に書かれていない内容。"
+        },
+        {
+            "id": "14",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "From this story, you learned that Starbucks [ 14 ]",
+            "choices": [
+                "began as a cheap store accessible to people living in poverty",
+                "faced considerable challenges early on and almost went out of business",
+                "itself collected ideas from restaurants worldwide to build an international chain",
+                "listened to proposals of employees and was willing to try new things"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。第3段落第2文(Even when the…)に「着想が組織に合わないのではないかと最高経営者が疑うときでさえ，彼ら［＝スターバックスの最高経営者たち］はスタッフにその実行を許可する場合があった」とあるため，④が正解。他の選択肢はいずれも，本文に書かれていない内容。"
+        }
+    ]
+}

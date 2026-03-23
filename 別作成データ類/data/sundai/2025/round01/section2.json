@@ -1,0 +1,115 @@
+{
+    "theme": "学生用銀行預金口座",
+    "theme_translation": "あなたはまもなくイギリスへ行き，そこの大学で勉強することになります。あなたは，その大学を最近卒業した人によって書かれた学生用銀行預金口座についての記事を読んでいるところです。",
+    "passage": [
+        "Almost all banks these days offer special \"student bank accounts,\" and I strongly recommend signing up because they offer services not available to regular account holders.",
+        "My account is with Alpha Bank. To attract new customers, they offer a 3-year student railcard if you open an account in September. These railcards are worth £120, and holders can get 30% off train fares. Other banks give cash gifts. For example, Waverly Bank puts £50 in every new student account, while Phoenix Bank gives £40.",
+        "In addition to online banking and a debit card, all student accounts provide low-interest credit cards and offer zero-interest short-term loans. Last month, the salary from my part-time job was late, but I borrowed £100 from Alpha at zero interest for a week. Some banks allow higher limits. Customers of Waverly Bank and Phoenix Bank can borrow up to £200 and £300 interest-free respectively.",
+        "Most adult bank accounts charge a fee of up to £10 a month, but student bank accounts are usually cheap or free to use. My bank charges £2 a month, but Waverly and Phoenix are free. However, my bank does not charge at all for ATM cash withdrawals, unlike the other two.",
+        "The unique benefit of Alpha bank is that it offers free travel insurance until I graduate. This is great for me because I like to travel. I took a trip to Paris last month and my camera was stolen. I was able to get some money back to buy a new camera, although I wish the money had arrived faster and the procedure was simpler.",
+        "Each account offers different benefits and services, so think about your own needs before choosing a student bank account."
+    ],
+    "translations": [
+        "最近のほぼすべての銀行は特別な「学生銀行口座」を提供しており，そうした口座は通常の口座保持者では利用できないサービスを提供しているので，私は申請することを強く勧めます。",
+        "私の口座はアルファ銀行にあります。新規の顧客を呼び込むために，9月に口座を開設すると，3年間の鉄道の学生割引証を提供しています。この鉄道割引証は120ポンド分の価値があり，保持者は鉄道料金を30%引きにすることができます。他には現金のギフトを提供してくれるところもあります。たとえば，ウェイバリー銀行はすべての新しい学生用口座に50ポンドを入れてくれますし，フェニックス銀行は40ポンドを提供しています。",
+        "オンライン銀行やデビットカードに加えて，すべての学生用口座は低金利のクレジットカードを支給し，金利ゼロの短期ローンを提供しています。先月，私のアルバイトの給料が遅れましたが，私はアルファ銀行から1週間，利息なしで100ポンドを借りました。銀行の中にはもっと高い上限を認めているところもあります。ウェイバリー銀行とフェニックス銀行の顧客はそれぞれ利息なしで最大200ポンドと300ポンドを借りることができます。",
+        "ほとんどの成人用銀行口座は毎月最大10ポンドの手数料を請求しますが，学生用銀行口座はたいてい安い価格か無料で利用できます。私の銀行は月に2ポンド請求しますが，ウェイバリー銀行とフェニックス銀行は無料です。しかし，私の銀行はATMでの現金引き出しには，その2つの他の銀行とは異なり，まったく料金を請求しません。",
+        "アルファ銀行独自の利点は，卒業まで無料の旅行保険を提供してくれることです。これは，私が旅行好きであることから，私にとってはすばらしいものです。私は先月，パリへ旅行に行き，カメラを盗まれてしまいました。私は新しいカメラを買うためにいくらかのお金を取り戻すことができました。もっとも，そのお金がもっと速く届いて，手続きがもっと簡単であればよかったのですけれども。",
+        "それぞれの口座がさまざまな利点やサービスを提供していますので，学生用銀行預金口座を選ぶ前に自分自身に必要なものについて考えておいてください。"
+    ],
+    "questions": [
+        {
+            "id": "4",
+            "question_number": "1",
+            "points": 2,
+            "question_text": "According to the article, which of the following is true? [ 4 ]",
+            "choices": [
+                "All bank accounts mentioned allow free ATM withdrawals.",
+                "Alpha Bank's gift to new student clients is the most valuable.",
+                "Both Alpha Bank and Waverly Bank provide travel insurance.",
+                "Only Waverly Bank and Phoenix Bank offer interest-free loans."
+            ],
+            "answer": "2",
+            "evidence": [
+                "they offer a 3-year student railcard if you open an account in September. These railcards are worth £120",
+                "Waverly Bank puts £50 in every new student account, while Phoenix Bank gives £40."
+            ],
+            "explanation": "正解は②。第2段落第1文(My account is ...)～第3文(These railcards are ...)から，筆者が利用しているアルファ銀行は120ポンドに相当する鉄道の学生割引証を新規の顧客に提供していることがわかる。また最終文(For example, Waverly ...)には，ウェイバリー銀行はすべての新しい学生用口座に50ポンドを入れてくれ，フェニックス銀行は40ポンドを提供していると述べられている。以上から，銀行が新たに銀行口座を開設した学生に提供するものの中でもっとも価値が高いのは，アルファ銀行の120ポンドに相当する鉄道の学生割引証であることがわかるので，正解は②となる。\n①に関しては，第4段落最終文(However, my bank ...)からわかるように，ATMの無料引き出しを認めているのは筆者が利用しているアルファ銀行だけであるので不可。\n③に関しては，第5段落第1文(The unique benefit ...)で筆者が利用しているアルファ銀行が無料の旅行保険を提供していることが言及されているが，ウェイバリー銀行が旅行保険を提供していることは述べられていないので不可。\n④に関しては，第3段落第1文(In addition to ...)から，すべての学生用口座がゼロ金利のローンを提供していることがわかるので不可。"
+        },
+        {
+            "id": "5",
+            "question_number": "2",
+            "points": 2,
+            "question_text": "Which is not offered by the author's bank? [ 5 ]",
+            "choices": [
+                "A debit card",
+                "ATM services",
+                "Free-of-charge banking",
+                "Free travel insurance"
+            ],
+            "answer": "3",
+            "evidence": [
+                "In addition to online banking and a debit card, all student accounts provide low-interest credit cards",
+                "However, my bank does not charge at all for ATM cash withdrawals",
+                "My bank charges £2 a month",
+                "The unique benefit of Alpha bank is that it offers free travel insurance until I graduate."
+            ],
+            "explanation": "正解は③。第3段落第1文(In addition to ...)から，すべての学生用口座がオンライン銀行とデビットカードを提供していることがわかる。また第4段落最終文(However, my bank ...)に「ATMでの現金引き出し」の言及があるのでATMサービスが提供されていることもわかる。さらに第5段落第1文(The unique benefit ...)で筆者が利用しているアルファ銀行が無料の旅行保険を提供していることが言及されている。一方，第4段落第1文(Most adult bank ...)～第2文(My bank charges ...)から，筆者が利用している銀行（アルファ銀行）は月に2ポンドの銀行口座利用手数料を請求しており，銀行取引業務は無料ではないことがわかる。以上から正解は③となる。"
+        },
+        {
+            "id": "6",
+            "question_number": "3",
+            "points": 2,
+            "question_text": "Which is the features of student bank accounts described in this article? [ 6 ]",
+            "choices": [
+                "A and D",
+                "A and E",
+                "B and C",
+                "B and D",
+                "C and E"
+            ],
+            "answer": "2",
+            "evidence": [
+                "all student accounts provide low-interest credit cards and offer zero-interest short-term loans",
+                "student bank accounts are usually cheap or free to use",
+                "Other banks give cash gifts. For example, Waverly Bank puts £50 in every new student account, while Phoenix Bank gives £40."
+            ],
+            "explanation": "正解は②。第3段落第1文(In addition to ...)から，すべての学生用口座はゼロ金利の短期ローンを提供していることがわかり，第4段落第1文(Most adult bank ...)から，学生用銀行口座は成人用口座よりも安い価格か無料で利用できることがわかるので，Aが学生用口座のことを説明していると判断できる。また，第2段落第4文(Other banks give ...)～最終文(For example, Waverly ...)から，たとえばウェイバリー銀行やフェニックス銀行のように新しい学生の顧客に奨励金を提供している銀行もあることがわかるので，Eが学生用口座のことを説明していると判断できる。以上から正解は②AとEとなる。"
+        },
+        {
+            "id": "7",
+            "question_number": "4",
+            "points": 2,
+            "question_text": "One opinion the writer has of her student account is that [ 7 ].",
+            "choices": [
+                "her insurance claim took too long to process",
+                "the banking app is too complicated to use",
+                "the free gift was not very useful for her",
+                "the limit for the zero-interest loan is too low"
+            ],
+            "answer": "1",
+            "evidence": [
+                "I was able to get some money back to buy a new camera, although I wish the money had arrived faster and the procedure was simpler."
+            ],
+            "explanation": "正解は①。筆者は，第5段落第1文(The unique benefit ...)で「（筆者が利用している）アルファ銀行独自の利点は，卒業まで無料の旅行保険を提供してくれることです」と述べ，第3文(I took a ...)では旅行先のパリでカメラの盗難被害にあったことと言及し，最終文(I was able ...)においては「私は新しいカメラを買うためにいくらかのお金を取り戻すことができました。もっとも，そのお金がもっと速く届いて，手続きがもっと簡単であればよかったのですけれども」と，銀行の保険手続きに時間がかかりすぎたことに関する不満を述べていることから，正解は①とわかる。\n②に関しては記述がないので不可。\n③に関しては，「無料ギフト」と考えられるものは鉄道の割引証，ATM引き出し手数料，旅行保険などがあるが，いずれも「役に立たなかった」という記述はないので誤り。\n④に関しては，第3段落第3文(Some banks allow ...)で，銀行の中にはゼロ金利ローンの上限額を筆者が利用しているアルファ銀行よりも高くしているところもあることが言及されているが，アルファ銀行のゼロ金利ローンの上限があまりに低すぎると述べていないので不可。"
+        },
+        {
+            "id": "8",
+            "question_number": "5",
+            "points": 2,
+            "question_text": "Which of the following best describes the writer's attitude? [ 8 ]",
+            "choices": [
+                "She believes opening a student account will generate various monetary profits.",
+                "She considers there to be little difference between student and regular accounts.",
+                "She hopes that more banks will offer similar financial services to students.",
+                "She thinks it is better to buy separate travel insurance when going abroad."
+            ],
+            "answer": "1",
+            "evidence": [
+                "Almost all banks these days offer special \"student bank accounts,\" and I strongly recommend signing up because they offer services not available to regular account holders.",
+                "Each account offers different benefits and services, so think about your own needs before choosing a student bank account."
+            ],
+            "explanation": "正解は①。第1段落第1文(Almost all banks ...)から，最近のほぼすべての銀行は特別な「学生銀行口座」を提供しており，そうした口座は通常の口座保持者では利用できないサービスを提供していることがわかり，第2段落～第5段落では，そうしたさまざまなサービスには金銭的な価値があることが紹介されている。よって正解は①となる。\n②，③，④に関しては，筆者が述べている内容にはなっていないので不可。"
+        }
+    ]
+}

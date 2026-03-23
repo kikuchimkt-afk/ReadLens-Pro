@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第4問 - 共通テスト英語問題DB</title>
+  <link rel="stylesheet" href="../../../../style.css">
+  <style>
+    .essay-layout { display: grid; grid-template-columns: 1fr 240px; gap: 0; }
+    .essay-body { padding: 24px; border-right: 1px solid var(--border-color); }
+    .essay-comments { padding: 16px; font-style: italic; font-size: 0.88rem; color: var(--accent-orange); }
+    .essay-comments .comment { margin-bottom: 20px; }
+    .essay-comments .comment-num { font-weight: 700; }
+    .underline-word { text-decoration: underline; }
+    .caret { color: var(--accent-red); font-size: 1.2rem; }
+    @media (max-width: 768px) {
+      .essay-layout { grid-template-columns: 1fr; }
+      .essay-body { border-right: none; border-bottom: 1px solid var(--border-color); }
+    }
+  </style>
+</head>
+<body>
+  <div class="exam-header">
+    <a href="../../../../index.html" class="back-btn">← 問題一覧に戻る</a>
+    <div class="exam-title">駿台実戦 2025 第5回</div>
+    <div class="score-display">配点: 12点</div>
+  </div>
+
+  <div class="exam-container" data-section="section4">
+    <h1 class="section-heading">第4問</h1>
+    <p class="section-points">配点 12点（各3点×4問）</p>
+
+    <div class="passage-intro">
+      In English class you are writing an essay on a social issue you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.
+    </div>
+
+    <div class="passage-box" style="padding: 0; overflow: hidden;">
+      <div class="essay-layout">
+        <div class="essay-body">
+          <div class="passage-title" style="text-align: left; margin-bottom: 16px;">The Benefits of Taxing High-Sugar Drinks</div>
+
+          <p>Sweet drinks such as fruit juice and soda are very popular with young people around the world. However, we know that consuming these drinks is bad for the health. Taking in too much sugar can lead to obesity and other health problems, such as heart disease and diabetes. <sup>(1)</sup> <span class="underline-word">For example</span>, many governments around the world are trying to get their citizens to reduce their sugar intake by adding a so-called "sugar tax" to sweet drinks. This new tax has produced some positive results.</p>
+
+          <p>First, a tax on sweet drinks reduces consumption. When a tax was added to sweet drinks in five cities in the US, <sup>(2)</sup> <span class="underline-word">it</span> declined by 33%. That means that people stopped buying sweet drinks, and bought healthier alternatives instead. This is a particularly important effect in poor areas, because people in poor areas tend to be less healthy and consume more sugary drinks.</p>
+
+          <p>Second, raising the price of sweet drinks reduces obesity <sup>(3)</sup> <span class="caret">∧</span>. Elementary school-aged children benefit the most from this. When a sugar tax was added to drinks on sale in England, there was a large drop in the number of obese children in the higher grades of elementary school. In addition, the number of children entering the hospital for the removal of teeth declined.</p>
+
+          <p>Finally, sugar taxes help the government save money on healthcare. When people become healthier, they use public hospitals less often, live longer, and spend more time at work. This means that the government has to spend less money on healthcare and unemployment benefits. That money can be used to benefit society in many other ways, such as investing in education or improving cities.</p>
+
+          <p>In conclusion, applying a tax on sweet drinks has many benefits. It makes people drink fewer sweet beverages, improves the health of children, and <sup>(4)</sup> <span class="underline-word">helps hospitals</span>. More countries around the world should do this to improve the health and well-being of their citizens.</p>
+        </div>
+        <div class="essay-comments">
+          <div style="font-weight: 700; margin-bottom: 16px; font-style: normal; color: var(--text-primary);">Teacher's Comments</div>
+
+          <div class="comment">
+            <span class="comment-num">(1)</span> You have used the incorrect word here. Please choose a different word or expression.
+          </div>
+
+          <div class="comment">
+            <span class="comment-num">(2)</span> What does "it" mean here? Write out the sentence in full.
+          </div>
+
+          <div class="comment">
+            <span class="comment-num">(3)</span> Your topic sentence doesn't summarize the other effect you mention in this passage. Please add it.
+          </div>
+
+          <div class="comment">
+            <span class="comment-num">(4)</span> This does not really summarize what you wrote in the fourth paragraph. Please rewrite this.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Questions -->
+    <div class="question-block" data-question="section4_15">
+      <div class="question-label">問1</div>
+      <div class="question-text">Based on comment (1), which is the best word to use instead? <span class="answer-box">15</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section4', 15, 1)">
+          <span class="choice-number">①</span>
+          <span>In addition</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section4', 15, 2)">
+          <span class="choice-number">②</span>
+          <span>In contrast</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section4', 15, 3)">
+          <span class="choice-number">③</span>
+          <span>On the contrary</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section4', 15, 4)">
+          <span class="choice-number">④</span>
+          <span>Therefore</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section4_16">
+      <div class="question-label">問2</div>
+      <div class="question-text">Based on comment (2), which is the best expression to use here? <span class="answer-box">16</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section4', 16, 1)">
+          <span class="choice-number">①</span>
+          <span>the amount of tax paid</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section4', 16, 2)">
+          <span class="choice-number">②</span>
+          <span>the amount people ate</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section4', 16, 3)">
+          <span class="choice-number">③</span>
+          <span>the number of people paying tax</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section4', 16, 4)">
+          <span class="choice-number">④</span>
+          <span>purchases of these drinks</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section4_17">
+      <div class="question-label">問3</div>
+      <div class="question-text">Based on comment (3), which expression should you add here? <span class="answer-box">17</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section4', 17, 1)">
+          <span class="choice-number">①</span>
+          <span>and helps children avoid dental problems</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section4', 17, 2)">
+          <span class="choice-number">②</span>
+          <span>and improves academic grades</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section4', 17, 3)">
+          <span class="choice-number">③</span>
+          <span>and makes children work harder</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section4', 17, 4)">
+          <span class="choice-number">④</span>
+          <span>and raises school attendance</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section4_18">
+      <div class="question-label">問4</div>
+      <div class="question-text">Based on comment (4), which is the best replacement? <span class="answer-box">18</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section4', 18, 1)">
+          <span class="choice-number">①</span>
+          <span>allows governments to spend money on projects that benefit society</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section4', 18, 2)">
+          <span class="choice-number">②</span>
+          <span>helps schools receive more money for education from the government</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section4', 18, 3)">
+          <span class="choice-number">③</span>
+          <span>makes our cities easier to live in by improving infrastructure</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section4', 18, 4)">
+          <span class="choice-number">④</span>
+          <span>stops hospitals and schools from wasting money on unnecessary things</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="submit-area">
+      <button class="submit-btn" id="submit-section4" onclick="gradeSection('section4')" disabled>採点する (0/4)</button>
+    </div>
+
+    <div class="result-panel" id="result-section4">
+      <div class="result-score"></div>
+      <div class="result-label"></div>
+    </div>
+  </div>
+
+  <div class="exam-footer">
+    共通テスト英語問題データベース &copy; 2025 | 駿台実戦問題集 2025 第5回
+  </div>
+
+  <script src="../../../../app.js"></script>
+</body>
+</html>

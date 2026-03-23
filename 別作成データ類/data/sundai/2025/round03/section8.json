@@ -1,0 +1,99 @@
+{
+    "section": 8,
+    "theme": "You are in a student group preparing for a university biology presentation. You are using the following passage to create your part of the presentation on useful viruses.",
+    "theme_translation": "あなたは大学の生物学の発表の準備をしている学生グループの一員です。役に立つウイルスについての発表の，自分の担当部分を作るために次の一節を利用しています。",
+    "passage": [
+        "When you think of viruses, you probably think of disease. After all, viruses are responsible for many of the illnesses that regularly affect humans. Influenza, the common cold, COVID-19, and countless other diseases are caused by viruses that specifically infect humans. For that reason, many people believe that all viruses are bad and must be avoided at all costs. However, that is not strictly true. There are many viruses that live inside us that are not responsible for disease at all. In fact, the opposite is true, because many viruses that live inside our digestive systems actually keep us healthy by killing harmful bacteria. Those viruses are called \"bacteriophages,\" and they do not harm human cells at all. Moreover, scientists have also been researching other types of viruses that can kill cancer cells. These cancer-killing viruses have already been used to treat skin cancer in patients, and it is hoped that more treatment of this kind will be developed in the future.",
+        "The interesting thing about viruses is that they are not really \"alive.\" They are not made out of cells, and they cannot make energy or reproduce by themselves. In simple terms, they are just a small piece of genetic material, such as DNA, surrounded by a protein case. Because viruses are very simple structures, they are very small. In fact, most viruses are 100-times smaller than a human cell. They are so small that they cannot be seen under a standard microscope. However, it's a virus's size and structure that allows it to bind to the outside of a host cell, insert its genetic instructions, then use the host cell's machinery to make copies of itself. The attack on a cell by a virus in this way usually results in the death of the host cell.",
+        "It is a virus's ability to kill a host cell that has allowed researchers to develop cancer treatments using viruses. In 2015, the first virus treatment for cancer was approved by the US government for use on patients. Scientists used a herpes virus, which usually causes mouth sores in humans. They modified the outer protein case of the virus so that it ignored healthy cells and attached itself to the outside of cancer cells. They also modified the genetic material of the virus so that it produced molecules called antigens that would attract human immune cells to the site of the cancer. Doctors could then inject these modified viruses into the site of the cancer every two weeks. The viruses would use the cancer cells to reproduce, killing the host cells in the process. The body's immune system would also attack the cancer cells itself. In this way, large skin cancer tumors have been destroyed.",
+        "There are many benefits of this treatment compared to standard medicine. First, there are fewer bad side effects because the virus only attacks cancer cells and leaves healthy cells alone. It is also a good way to treat skin tumors that cannot be removed by surgery. In addition, the viruses are injected directly into the tumor, so the treatment is targeted by location. This treatment is also easier for patients because it involves short visits to a doctor instead of long stays in hospital. On the other hand, there may be mild side effects such as fever and tiredness. In addition, this treatment cannot be used on patients with weak immune systems.",
+        "Currently, scientists are testing a similar treatment for patients with an eye disease that causes vision to gradually decline. Scientists have altered the genetic information in a virus so that it can deliver treatment to the eyes of patients with this disease to stop the vision loss. This treatment has been successful on laboratory mice, and it is hoped that it can be used in humans in the near future. However, one of the biggest challenges associated with this type of therapy is preventing the body's own immune system from identifying and killing the virus before it can deliver its important package to the cells that need it.",
+        "In summary, viruses can be used for good. They can be used to fight cancer and deliver important genes to the site of genetic disease. In the future, many other human diseases may be cured by specially adapted viruses.",
+        "<hr>",
+        "<strong>Your presentation slides:</strong><br><br><div class=\"row mb-3\"><div class=\"col-md-6\"><div class=\"p-3 border text-center h-100 d-flex align-items-center justify-content-center\"><strong>Good Viruses</strong></div></div><div class=\"col-md-6\"><div class=\"p-3 border h-100\"><strong>1. Basic Information</strong><br>• Many diseases are caused by viruses<br>• Many \"good viruses\" live inside us<br>• <span class=\"box\">41</span></div></div></div><div class=\"row mb-3\"><div class=\"col-md-6\"><div class=\"p-3 border h-100\"><strong>2. Skin Cancer Treatment</strong><br>• modified herpes virus<br>• injected into tumor<br>• cancer cells killed<br>• patient immune system activated</div></div><div class=\"col-md-6\"><div class=\"p-3 border h-100 text-center\"><strong>3. Benefits of This Treatment</strong><br><br><div class=\"text-start mb-2\">• <span class=\"box\">42</span><br>• <span class=\"box\">43</span></div><img src=\"images/sundai_2025_r03_q_34_p1.png\" alt=\"Virus injecting into tumor, shrinking tumor\" class=\"img-fluid w-50 mx-auto mt-2\" /></div></div></div><div class=\"row mb-3\"><div class=\"col-md-6\"><div class=\"p-3 border h-100 text-center\"><strong>4. How the Treatment Works</strong><br><div class=\"mb-2\"><span class=\"box\">44</span></div><img src=\"images/sundai_2025_r03_q_34_p2.png\" alt=\"How treatment works, stages A, B, C\" class=\"img-fluid w-100\" /></div></div><div class=\"col-md-6\"><div class=\"p-3 border h-100 d-flex flex-column\"><strong class=\"text-center mb-auto\">5. Final Statement</strong><div class=\"text-center mt-auto mb-auto\"><span class=\"box\">45</span></div></div></div></div>"
+    ],
+    "translations": [
+        "ウイルスと言えば，あなたはおそらく病気を思い浮かべるだろう。何といっても，ウイルスは頻繁に人間を襲う病気の多くの原因なのだ。インフルエンザや一般的な風邪，COVID-19やそのほか数えきれない病気が，特にヒトに伝染するウイルスによって引き起こされている。そのため多くの人が，すべてのウイルスは悪いもので何としても避けなくてはならないものだと信じている。しかし，それは厳密に言うと正しくない。私たちの体内にあって病気の原因にはまったくならないウイルスもたくさんある。実際，本当はその正反対なのである。なぜなら私たちの消化器系の中に住んでいる多くのウイルスは，有害な細菌を殺すことによって，実際には私たちの健康を保ってくれているのだから。そういうウイルスは「バクテリオファージ［殺菌ウイルス］」と呼ばれ，ヒトの細胞を害することは全くない。さらに科学者たちは，がん細胞を殺せる他の種類のウイルスもずっと研究し続けている。これらの抗がんウイルスはすでに患者の皮膚がんを治療するために使われており，将来はこのような種類の治療がもっと開発されることが期待されているのだ。",
+        "ウイルスについて興味深いことは，それらが本当は「生きて」などいないということだ。ウイルスは細胞でできているのではなく，エネルギーを作り出すことも自己増殖することもできない。簡単な言葉で言うと，それらはタンパク質の外被に囲まれた，DNAのような遺伝物質の小さなかけらにすぎない。ウイルスは非常に単純な構造をしているので，非常に小さい。実際，ほとんどのウイルスはヒトの細胞の100分の1の小ささだ。非常に小さいので通常の顕微鏡では見ることができない。しかし，ウイルスが宿主になる細胞の外側に付着してその遺伝子の指示を注入し，それから自分のコピーを作り出すために宿主細胞の機構を利用することができるのは，その小ささと構造のおかげなのだ。このようにしてウイルスが細胞を攻撃すると，その結果，たいてい宿主細胞は死んでしまう。",
+        "研究者たちがウイルスを使ったがん治療を開発できたのは，宿主細胞を殺してしまうというウイルスの能力のおかげだ。2015年に初めて，ウイルスを使用したがん治療を患者に実施してよいという合衆国政府からの認可が得られた。科学者たちは，たいていヒトの口腔に炎症を作り出す原因となるヘルペスウイルスを使った。彼らはウイルスのタンパク質の外被を変異させ，ウイルスが健康な細胞を無視し，がん細胞の外側に取り付くようにした。またウイルスの遺伝子物質をも変異させ，ウイルスが抗原［アンチゲン］と呼ばれる分子を生産するようにした。抗原はヒトの免疫細胞をがんの患部へと引き寄せるのである。すると医師たちはこれらの変異したウイルスをがんの患部に1週間おきに注入できる。それらのウイルスは増殖するためにがん細胞を利用し，そしてその過程で宿主細胞を殺してしまうのである。人体の免疫システムもまた，自分自身でがん細胞を攻撃する。このようにして，大きな皮膚がんの腫瘍が破壊されてしまう。",
+        "この治療法には普通の薬と比べて多くの良い点がある。第1に，ウイルスはがん細胞を攻撃するだけで健康な細胞には手を付けないので，悪い副作用が少ない。またそれは，外科手術では取り除けない皮膚腫瘍を治療するのにもよい方法だ。さらに，ウイルスは腫瘍にじかに注入されるので，治療は患部に的を絞って行われる。この治療法は病院に長く入院するのでなく，短時間通院すればよいので，患者にとっても楽だ。他方，熱や疲労感といった軽い副作用がある可能性がある。さらに，この治療法は免疫システムの弱い患者には使えない。",
+        "現在科学者たちは，視力が徐々に弱まっていく眼病の患者たちに同様の治療法を試みている。科学者たちはこの病気の患者の視力が失われるのを阻止するため，目に治療を届けられるように，ウイルスの中の遺伝子情報を変化させた。実験室のネズミについてはこの治療は成功しており，近い将来人間にも実施できると期待されている。しかし，このタイプの治療法に伴う最大の難問の1つは，ウイルスがその重要な内包物を，それを必要としている細胞に届けないうちに，人体自身の免疫システムがそのウイルスを見分けて殺してしまうのを防ぐことだ。",
+        "要約すると，ウイルスは善用できる。がんと闘い，遺伝子病の患部に重要な遺伝子を届けるために利用できる。将来は，その他の多くの人間の病気が，特別に改作されたウイルスによって治せるかもしれない。",
+        "【あなたの発表用のスライド】\\n（スライド1）基本情報\\n・多くの病気がウイルスによって引き起こされる\\n・多くの「善玉ウイルス」も私たちの体内には存在する\\n・(41)\\n\\n（スライド2）皮膚がんの治療\\n・変異させたヘルペスウイルス\\n・腫瘍に注入される\\n・がん細胞は死滅\\n・患者の免疫システムの活性化\\n\\n（スライド3）この治療法のよい点\\n・(42)\\n・(43)\\n（図：ウイルス → 腫瘍 → 縮小していく腫瘍）\\n\\n（スライド4）どのように治療法は働くのか\\n(44)\\n（図：(A) → (B) → (C) がん細胞）\\n\\n（スライド5）まとめ\\n(45)"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 2,
+            "question_text": "Which of the following should you <u>not</u> include for <span class=\"box\"> 41 </span>?",
+            "choices": [
+                "Help human cells reproduce quickly",
+                "Most viruses are one-hundredth the size of a human cell",
+                "No reproduction without a host",
+                "Reproduction usually kills the host cell",
+                "Simple genetic material in a protein case"
+            ],
+            "answer": "1",
+            "explanation": "正解は①。「(41)に入れるべきでないのは次のうちどれか」。\\n正解は①。ウイルスについての基本的な情報は第2段落に書かれている。本文の内容と一致しないものを選ぶことに注意。1文ずつの選択肢と一致するか見ていく。\\n第2文 (They are not ...) 「ウイルスは細胞でできているのではなく，エネルギーを作り出すことも自己増殖することもできない」及び第7文 (However, it's a ...) 「…それから自分のコピーを作り出すために宿主細胞の機構を利用することができるのは，その小ささと構造のおかげなのだ」は③と一致する。第3文 (In simple terms, ...) 「…それらはタンパク質の外被に囲まれた，DNAのような遺伝物質の小さなかけらにすぎない」は⑤に一致する。第5文 (In fact, most ...) 「実際，ほとんどのウイルスはヒトの細胞の100分の1の小ささだ」は②と一致する。最終文 (The attack on ...) 「このようにしてウイルスが細胞を攻撃すると，その結果，たいてい宿主細胞は死んでしまう」は④と一致する。\\n①はウイルスの特徴として本文に書かれていないので，これが正解。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "For the <strong>Benefits of This Treatment</strong> slide, select two aspects of this treatment that are beneficial to the patient. (The order does not matter.) <span class=\"box\"> 42 </span> · <span class=\"box\"> 43 </span>",
+            "choices": [
+                "By using modified herpes viruses, the patient also becomes immune to future herpes infections.",
+                "It is not so hard on the patient because it only requires short visits to a doctor.",
+                "It is usually used to make the removal of tumors by surgery much easier and faster.",
+                "The modified herpes viruses are adapted to attack only cancer cells, so healthy cells do not die.",
+                "This treatment causes no side effects, unlike cancer medicine which causes fever."
+            ],
+            "answer": "2-4",
+            "explanation": "正解は②と④。「スライドの『この治療法のよい点』に，この治療法の患者にとって利益となる側面を2つ選んで入れなさい（順番は問わない）」。\\n正解は②と④。ウイルスを使った治療法の特徴については第4段落に書かれている。第2文 (First, there are ...) には「第1に，ウイルスはがん細胞を攻撃するだけで健康な細胞には手を付けないので，悪い副作用が少ない」とある。これは④に一致するので，正解。また第5文 (This treatment is ...) に「この治療法は病院に長く入院するのでなく，短時間通院すればよいので，患者にとっても楽だ」とあるのに一致するのは②で，これがもう1つの正解である。\\n①の「将来ヘルペスに感染しない」ということについての記述はないので誤り。「外科手術」については第4段落第3文 (It is also ...) に「またそれは，外科手術では取り除けない皮膚腫瘍を治療するのにもよい方法だ」とあるが，「外科手術に使われる」とは述べていないので③は不適当。副作用については第6文 (On the other ...) に「他方，熱や疲労感といった軽い副作用がある可能性がある」とあるので，⑤の「副作用がない」と矛盾する。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "Complete the missing labels on the illustration for the <strong>How the Treatment Works</strong> slide. <span class=\"box\"> 44 </span>",
+            "choices": [
+                "(A) antigens<br>(B) immune cell<br>(C) modified virus",
+                "(A) antigens<br>(B) modified virus<br>(C) immune cell",
+                "(A) immune cell<br>(B) modified virus<br>(C) antigens",
+                "(A) modified virus<br>(B) antigens<br>(C) immune cell",
+                "(A) modified virus<br>(B) immune cell<br>(C) antigens"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。「スライド『どのように治療法は働くのか』の図に付けるラベルを完成させよ」。\\n正解は④。この治療の仕組みについては第3段落に書かれている。まず，第4文 (They modified the ...) 「彼らはウイルスのタンパク質の外被を変異させ，ウイルスが健康な細胞を無視し，がん細胞の外側に取り付くようにした」とあるので，図の(A)はがん細胞に取り付く変異したウイルスだとわかる。そして，第5文 (They also modified ...) に「またウイルスの遺伝子物質をも変異させ，ウイルスが抗原［アンチゲン］と呼ばれる分子を生産するようにした。抗原はヒトの免疫細胞をがんの患部へと引き寄せるのである」とあることから，右側の図はがん細胞に取り付いたウイルスから(B)の抗原が発生し，(C)の免疫細胞が引き寄せられている状況を表しているとわかる。これに一致する④が正解。\\nがん細胞の図は，第7文 (The viruses would ...) に「それらのウイルスは増殖するためにがん細胞を利用し，そしてその過程で宿主細胞を殺してしまう」とあるように，がん細胞を宿主として増殖した変異ウイルスによって細胞が破壊される過程を表している。"
+        },
+        {
+            "id": "4",
+            "question_number": "4",
+            "points": 3,
+            "question_text": "Which is the best statement for the final slide? <span class=\"box\"> 45 </span>",
+            "choices": [
+                "Although many viruses cause disease, some are actually beneficial to humans. Furthermore, some viruses can be adapted so that they target and kill unhealthy cells.",
+                "In the future, our knowledge of viruses will help us cure diseases such as cancer. However, until this technology develops, viruses are dangerous to humans.",
+                "The number of viruses that cure diseases is greater than the number that cause them, so their negative reputation is no longer deserved.",
+                "Viruses that cause disease and illness have sometimes evolved to cure diseases such as cancer in humans."
+            ],
+            "answer": "1",
+            "explanation": "正解は①。「最後のスライドに最適な記述はどれか」。\\n正解は①。ウイルスというものに関する評価は主に第1段落に書かれている。第7文 (In fact, the ...) 「実際，本当はその正反対なのである。なぜなら私たちの消化器系の中に住んでいる多くのウイルスは，有害な細菌を殺すことによって，実際には私たちの健康を保ってくれているのだから」，および第3段落第4文 (They modified the ...) 「彼らはウイルスのタンパク質の外被を変異させ，ウイルスが健康な細胞を無視し，がん細胞の外側に取り付くようにした」の内容と合っている①が正解。\\n②については，第1段落最終文 (These cancer-killing viruses ...) 「これらの抗がんウイルスはすでに患者の皮膚がんを治療するために使われており，将来はこのような種類の治療がもっと開発されることが期待されているのだ」と，「ウイルスは人間にとって危険なもの」という評価は矛盾するので②は不適当。③の役に立つウイルスと役に立たないウイルスの数の比較については特に記述はないので不適当。④については，ウイルスがヒトの病気を治すように進化してきたという記述はないので誤りである。"
+        },
+        {
+            "id": "5",
+            "question_number": "5",
+            "points": 3,
+            "question_text": "Why is the body's own immune system a barrier to the effectiveness of virus-based treatments? <span class=\"box\"> 46 </span>",
+            "choices": [
+                "The body's immune system may find the virus and kill it before it can treat the disease.",
+                "The human immune system is not good at reacting to viruses that enter the body.",
+                "Viruses cannot be recognized by the human immune system so the treatment is useless.",
+                "Viruses may cause the body's immune system to kill healthy cells instead of cancer cells."
+            ],
+            "answer": "1",
+            "explanation": "正解は①。「人体自身の免疫システムがウイルスを使った治療法の効果にとって障害になるのはなぜか」。\\n正解は①。ヒトの免疫システムとウイルスを使った治療法との関係については第5段落に書かれている。最終文 (However, one of ...) 「しかし，このタイプの治療法に伴う最大の難問の1つは，ウイルスがその重要な内包物を，それを必要としている細胞に届けないうちに，人体自身の免疫システムがそのウイルスを見分けて殺してしまうのを防ぐことだ」と一致する①が正解。\\n本文のこの部分は，③の「ヒトの免疫システムはウイルスを認識できない」と矛盾するので③は誤り。②の免疫システムの欠点については記述がないので誤り。ウイルスが免疫システムに働きかけて健康な細胞を攻撃させるということは書いていないので④も誤り。"
+        }
+    ]
+}

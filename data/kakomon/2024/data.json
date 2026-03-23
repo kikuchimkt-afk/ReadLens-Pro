@@ -1,0 +1,1002 @@
+{
+  "exam_info": {
+    "title": "大学入学共通テスト 英語（リーディング）",
+    "year": "2024",
+    "round": "本試験",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_points": 100,
+    "total_answer_numbers": 49,
+    "average_score": 51.54,
+    "standard_deviation": 19.94,
+    "examinees": 449328,
+    "source_pdf": {
+      "mondai": "2024年_本試験_問題.pdf",
+      "kaitou": "2024年_本試験_解説.pdf"
+    },
+    "format": "6AB",
+    "section_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      "6A",
+      "6B"
+    ]
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 10,
+      "points_per_question": 2,
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You are studying English at a language school in the US.  The school is planning an event.  You want to attend, so you are reading the flyer.",
+            "ja": "あなたは米国のある語学学校で英語を学んでいます。学校はあるイベントを計画中です。あなたは参加したいので，案内広告を読んでいます。"
+          },
+          "passages": [
+            {
+              "id": "header_1a",
+              "title": {
+                "en": "The Thorpe English Language School\nInternational Night",
+                "ja": "ソープ英語学校\nインターナショナルな夕べ"
+              },
+              "subtitle": {
+                "en": "Friday, May 24, 5 p.m.-8 p.m.\nEntrance Fee: $5",
+                "ja": "5月24日金曜日　午後5時から8時\n入場料：5ドル"
+              },
+              "no_divider": true
+            },
+            {
+              "id": "intro_1a",
+              "sentences": [
+                {
+                  "id": "1a_s1",
+                  "en": "The Thorpe English Language School (TELS) is organizing an international exchange event.",
+                  "ja": "ソープ英語学校（TELS）はインターナショナルな交流イベントを計画しています。"
+                },
+                {
+                  "id": "1a_s2",
+                  "en": "TELS students don't need to pay the entrance fee.",
+                  "ja": "TELSの学生は入場料を支払う必要はありません。"
+                },
+                {
+                  "id": "1a_s3",
+                  "en": "Please present your student ID at the reception desk in the Student Lobby.",
+                  "ja": "学生ロビーの受付で学生証を提示してください。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "foods_1a",
+              "title": {
+                "en": "● Enjoy foods from various parts of the world",
+                "ja": "● 世界の様々な地域の食べ物を味わう"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s4",
+                  "en": "Have you ever tasted hummus from the Middle East?",
+                  "ja": "中東のフムスの味をご存知ですか？"
+                },
+                {
+                  "id": "1a_s5",
+                  "en": "How about tacos from Mexico?",
+                  "ja": "メキシコのタコスはどうですか？"
+                },
+                {
+                  "id": "1a_s6",
+                  "en": "Couscous from North Africa?",
+                  "ja": "北アフリカのクスクスは？"
+                },
+                {
+                  "id": "1a_s7",
+                  "en": "Try them all!",
+                  "ja": "すべて試食できますよ。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "languages_1a",
+              "title": {
+                "en": "● Experience different languages and new ways to communicate",
+                "ja": "● 色々な言語や新しいコミュニケーションの仕方を体験しよう"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s8",
+                  "en": "Write basic expressions such as \"hello\" and \"thank you\" in Arabic, Italian, Japanese, and Spanish.",
+                  "ja": "\"hello\"や\"thank you\"などの基本的な表現をアラビア語，イタリア語，日本語，スペイン語で書いてみましょう。"
+                },
+                {
+                  "id": "1a_s9",
+                  "en": "Learn how people from these cultures use facial expressions and their hands to communicate.",
+                  "ja": "こういった文化圏の人々がコミュニケーションをとるために，表情や手をどのように用いるのかを学びましょう。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "dance_1a",
+              "title": {
+                "en": "● Watch dance performances",
+                "ja": "● ダンスの実演を見学しよう"
+              },
+              "image": {
+                "src": "data/kakomon/2024/images/s1a_hula_dancer.png",
+                "alt": "Hula dancer illustration",
+                "float": "right"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s10",
+                  "en": "From 7 p.m. watch flamenco, hula, and samba dance shows on the stage!",
+                  "ja": "午後7時から舞台で行われるフラメンコ，フラダンス，サンバのダンスショーを見てください！"
+                },
+                {
+                  "id": "1a_s11",
+                  "en": "After each dance, performers will teach some basic steps.",
+                  "ja": "それぞれのダンスの後で，実演者が基本のステップを教えます。"
+                },
+                {
+                  "id": "1a_s12",
+                  "en": "Please join in.",
+                  "ja": "どうぞ参加してください。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "display_1a",
+              "sentences": [
+                {
+                  "id": "1a_s13",
+                  "en": "Lots of pictures, flags, maps, textiles, crafts, and games will be displayed in the hall.",
+                  "ja": "ホールでは，たくさんの写真，旗，地図，織物，手工芸品，ゲームが展示されます。"
+                },
+                {
+                  "id": "1a_s14",
+                  "en": "If you have some pictures or items from your home country which can be displayed at the event, let a school staff member know by May 17!",
+                  "ja": "あなたの出身国の写真や物品で，イベントで展示できるものをお持ちでしたら，5月17日までに学校職員にお知らせくださいね！"
+                }
+              ],
+              "no_divider": true
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 1,
+              "stem": {
+                "en": "To join the event free of charge, you must [1].",
+                "ja": "「このイベントに無料で参加するには，[1]しなければならない」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "bring pictures from your home country",
+                  "ja": "出身国の写真を持参",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "consult a staff member about the display",
+                  "ja": "ショーのことでスタッフに相談する",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "fill out a form in the Student Lobby",
+                  "ja": "学生ロビーにある用紙に記入",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "show proof that you are a TELS student",
+                  "ja": "TELSの学生であることを証明するものを提示",
+                  "is_correct": true
+                }
+              ],
+              "answer": "④",
+              "explanation": {
+                "ja": "正解は④。案内広告の冒頭付近の説明文中に，「TELSの学生は入場料を支払う必要はありません（TELS students don't need ...）」。学生ロビーの受付で学生証を提示してください（Please present ...）」とあることから，下線部の内容と合っている④が正解となる。\n他の選択肢は，「このイベントに無料で参加する」条件とは関係がない。",
+                "evidence_sentences": [
+                  "1a_s2",
+                  "1a_s3"
+                ]
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 2,
+              "stem": {
+                "en": "At the event, you can [2].",
+                "ja": "「このイベントでは，[2]ことができる」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "learn about gestures in various cultures",
+                  "ja": "様々な文化のジェスチャーを学ぶ",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "participate in a dance competition",
+                  "ja": "ダンス競技会に参加する",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "read short stories in foreign languages",
+                  "ja": "外国語で短い物語を読む",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "try cooking international dishes",
+                  "ja": "国際的な料理を作ってみる",
+                  "is_correct": false
+                }
+              ],
+              "answer": "①",
+              "explanation": {
+                "ja": "正解は①。案内広告の中程にある2つ目の丸印（●）の項目（Experience different languages ...）の最終文（Learn how people ...）に，「こういった文化圏の人々がコミュニケーションをとるために，表情や手をどのように用いるのかを学びましょう」とある。①の中の「ジェスチャー（gestures）」は，下線部と同内容と考えられることから，①が正解となる。\n②のように「ダンス競技会（competition）に参加する」や，④のように「国際的な料理を作って（cooking）みる」ことができるとは，本文中では述べられていない。\n③に相当することも本文中では述べられていない。",
+                "evidence_sentences": [
+                  "1a_s9"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You are an exchange student in the US and next week your class will go on a day trip.  The teacher has provided some information.",
+            "ja": "あなたは米国にいる交換留学生で，来週あなたのクラスは日帰り旅行に出かけます。先生が情報を提供してくれました。"
+          },
+          "passages": [
+            {
+              "id": "header_1b",
+              "title": {
+                "en": "Tours of Yentonville",
+                "ja": "イエントンビルのツアー"
+              },
+              "subtitle": {
+                "en": "The Yentonville Tourist Office offers three city tours.",
+                "ja": "イエントンビル旅行案内所は，3つの市内観光ツアーを提供しています。"
+              }
+            },
+            {
+              "id": "history_tour",
+              "title": {
+                "en": "The History Tour",
+                "ja": "歴史ツアー"
+              },
+              "image": {
+                "src": "data/kakomon/2024/images/s1b_mayors_house.png",
+                "alt": "Mayor's House illustration",
+                "float": "right"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s1",
+                  "en": "The day will begin with a visit to St. Patrick's Church, which was built when the city was established in the mid-1800s.",
+                  "ja": "ツアーの1日は，聖パトリック教会の訪問から始まります。この教会は1800年代の半ばに市が設立された時に建てられたものです。"
+                },
+                {
+                  "id": "1b_s2",
+                  "en": "Opposite the church is the early-20th-century Mayor's House.",
+                  "ja": "教会の向かい側には，20世紀初めの市長舎があります。"
+                },
+                {
+                  "id": "1b_s3",
+                  "en": "There will be a tour of the house and its beautiful garden.",
+                  "ja": "市長舎とその美しい庭園のツアーが行われます。"
+                },
+                {
+                  "id": "1b_s4",
+                  "en": "Finally, cross the city by public bus and visit the Peace Park.",
+                  "ja": "最後に，公共バスで市を横断して，平和公園を訪れましょう。"
+                },
+                {
+                  "id": "1b_s5",
+                  "en": "Opened soon after World War II, it was the site of many demonstrations in the 1960s.",
+                  "ja": "ここは第二次世界大戦のすぐ後に開園し，1960年代にはここで数多くのデモ活動が行われました。"
+                }
+              ]
+            },
+            {
+              "id": "arts_tour",
+              "title": {
+                "en": "The Arts Tour",
+                "ja": "芸術ツアー"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s6",
+                  "en": "The morning will be spent in the Yentonville Arts District.",
+                  "ja": "午前中はイエントンビル芸術地区で過ごします。"
+                },
+                {
+                  "id": "1b_s7",
+                  "en": "We will begin in the Art Gallery where there are many paintings from Europe and the US.",
+                  "ja": "最初に訪れるのは，数多くのヨーロッパや米国の絵画がある美術館です。"
+                },
+                {
+                  "id": "1b_s8",
+                  "en": "After lunch, enjoy a concert across the street at the Bruton Concert Hall before walking a short distance to the Artists' Avenue.",
+                  "ja": "昼食後は通りの向かい側に行き，ブルートン音楽堂でコンサートを楽しんでから，少し歩いて芸術家通りに行きます。"
+                },
+                {
+                  "id": "1b_s9",
+                  "en": "This part of the district was developed several years ago when new artists' studios and the nearby Sculpture Park were created.",
+                  "ja": "この区域は数年前，新しい芸術家たちのアトリエと近隣にある彫刻公園が造られた時に開発されました。"
+                },
+                {
+                  "id": "1b_s10",
+                  "en": "Watch artists at work in their studios and afterwards wander around the park, finding sculptures among the trees.",
+                  "ja": "芸術家たちのアトリエでの制作活動を見た後は，公園を散策して，木々の中に彫刻を見つけてください。"
+                }
+              ],
+              "image": {
+                "src": "data/kakomon/2024/images/s1b_artist.png",
+                "alt": "Artist painting illustration",
+                "float": "left"
+              }
+            },
+            {
+              "id": "sports_tour",
+              "title": {
+                "en": "The Sports Tour",
+                "ja": "スポーツツアー"
+              },
+              "image": {
+                "src": "data/kakomon/2024/images/s1b_hockey_player.png",
+                "alt": "Hockey player illustration",
+                "float": "right"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s11",
+                  "en": "First thing in the morning, you can watch the Yentonville Lions football team training at their open-air facility in the suburbs.",
+                  "ja": "朝一番で，イエントンビル・ライオンズというフットボールチームがトレーニングしているのを，郊外にある屋外施設で見学できます。"
+                },
+                {
+                  "id": "1b_s12",
+                  "en": "In the afternoon, travel by subway to the Yentonville Hockey Arena, completed last fall.",
+                  "ja": "午後は，昨秋に完成したイエントンビルホッケー競技場まで地下鉄で移動します。"
+                },
+                {
+                  "id": "1b_s13",
+                  "en": "Spend some time in its exhibition hall to learn about the arena's unique design.",
+                  "ja": "この競技場の独特のデザインについて知るために，展示ホールでしばらく時間を過ごしてください。"
+                },
+                {
+                  "id": "1b_s14",
+                  "en": "Finally, enjoy a professional hockey game in the arena.",
+                  "ja": "最後に，競技場でプロによるホッケーの試合を楽しみましょう。"
+                }
+              ]
+            },
+            {
+              "id": "footer_1b",
+              "sentences": [
+                {
+                  "id": "1b_s15",
+                  "en": "Yentonville Tourist Office, January, 2024",
+                  "ja": "2024年1月，イエントンビル旅行案内所"
+                }
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問3",
+              "answer_number": 3,
+              "stem": {
+                "en": "Yentonville has [3].",
+                "ja": "「イエントンビルには[3]がある」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "a church built 250 years ago when the city was constructed",
+                  "ja": "市が建設された250年前に建てられた教会",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "a unique football training facility in the center of the town",
+                  "ja": "町の中心部にある独特なフットボールのトレーニング施設",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "an art studio where visitors can create original works of art",
+                  "ja": "訪問客が独自の芸術作品を作ることができるアトリエ",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "an arts area with both an art gallery and a concert hall",
+                  "ja": "美術館と音楽堂の両方がある芸術地区",
+                  "is_correct": true
+                }
+              ],
+              "answer": "④",
+              "explanation": {
+                "ja": "正解は④。イエントンビルのツアー案内の「芸術ツアー（The Arts Tour）」の項の第1文（The morning will ...）から第3文（After lunch, ...）に，「午前中はイエントンビル芸術地区で過ごします。最初に訪れるのは，数多くのヨーロッパや米国の絵画がある美術館です。昼食後は通りの向かい側に行き，ブルートン音楽堂でコンサートを楽しんでから，少し歩いて芸術家通りに行きます」とあることから，④は正しいとわかる。\n①については，「教会（church）」に関する記述は本文中では「歴史ツアー（The History Tour）」の中にあるのみで，そこでは教会は「1800年代の半ばに（in the mid-1800s）」に設立されたと述べられている。一方①の中では教会は「250年前（250 years ago）」に建てられたとある。この2つの記述が合わないことから，①は誤りとなる（ちなみに本文の最下部にあるように，このツアーの案内文が作成されたのは2024年1月である）。②の中の「フットボールのトレーニング施設」については，本文中の「スポーツツアー（The Sports Tour）」の項に記述があるが，本文中ではトレーニング施設は「郊外にある（in the suburbs）」と述べられていて，これが②の中の「町の中心部にある（in the center of the town）」と明らかに合わない。③については，「訪問客が独自の芸術作品を作ることができる」の部分が本文中では述べられていない。",
+                "evidence_sentences": [
+                  "1b_s6",
+                  "1b_s7",
+                  "1b_s8"
+                ],
+                "why_others_wrong": [
+                  {
+                    "choice": "①",
+                    "reason": "「教会（church）」に関する記述は本文中では「歴史ツアー（The History Tour）」の中にあるのみで，そこでは教会は「1800年代の半ばに（in the mid-1800s）」に設立されたと述べられている。一方①の中では教会は「250年前（250 years ago）」に建てられたとある。この2つの記述が合わないことから，①は誤りとなる。"
+                  },
+                  {
+                    "choice": "②",
+                    "reason": "②の中の「フットボールのトレーニング施設」については，本文中の「スポーツツアー（The Sports Tour）」の項に記述があるが，本文中ではトレーニング施設は「郊外にある（in the suburbs）」と述べられていて，これが②の中の「町の中心部にある（in the center of the town）」と明らかに合わない。"
+                  },
+                  {
+                    "choice": "③",
+                    "reason": "③については，「訪問客が独自の芸術作品を作ることができる」の部分が本文中では述べられていない。"
+                  }
+                ]
+              }
+            },
+            {
+              "question_id": "問4",
+              "answer_number": 4,
+              "stem": {
+                "en": "On all three tours, you will [4].",
+                "ja": "「3つのツアーすべてにおいて，あなたは[4]だろう」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "learn about historic events in the city",
+                  "ja": "市の歴史的な事件について学ぶ",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "see people demonstrate their skills",
+                  "ja": "人々が自分の技術を披露しているのを見る",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "spend time both indoors and outdoors",
+                  "ja": "屋内と屋外の両方で時間を過ごす",
+                  "is_correct": true
+                },
+                {
+                  "label": "④",
+                  "en": "use public transportation to get around",
+                  "ja": "公共交通を利用して動き回る",
+                  "is_correct": false
+                }
+              ],
+              "answer": "③",
+              "explanation": {
+                "ja": "正解は③。下の表に示すように，3つのツアーすべてが，屋内と屋外の両方の活動を含んでいると考えられることから，③が正解となる。\n①については，芸術ツアーやスポーツツアーの項に明確な記述がないため，正解にはなれない。②については，芸術ツアーで行われる「芸術家の制作活動の見学」や，スポーツツアーで行われる「プロのホッケーチームの練習や試合の見学」が，これに該当すると考えることはできるが，歴史ツアーにはこれに該当する活動がないので，②は正解になれない。④については，芸術ツアーの項に該当する記述がない。",
+                "evidence_sentences": [
+                  "1b_s3",
+                  "1b_s4",
+                  "1b_s7",
+                  "1b_s8",
+                  "1b_s10",
+                  "1b_s11",
+                  "1b_s13",
+                  "1b_s14"
+                ]
+              }
+            },
+            {
+              "question_id": "問5",
+              "answer_number": 5,
+              "stem": {
+                "en": "Which is the newest place in Yentonville you can visit on the tours? [5]",
+                "ja": "「ツアーで訪れることのできる，イエントンビルの中の最も新しい場所はどれか」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "The Hockey Arena",
+                  "ja": "ホッケー競技場",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "The Mayor's House",
+                  "ja": "市長舎",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "The Peace Park",
+                  "ja": "平和公園",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "The Sculpture Park",
+                  "ja": "彫刻公園",
+                  "is_correct": false
+                }
+              ],
+              "answer": "①",
+              "explanation": {
+                "ja": "正解は①。①の「ホッケー競技場」については，スポーツツアーの項の第2文（In the afternoon, ...）に「午後は，昨秋に（last fall）完成したイエントンビルホッケー競技場まで地下鉄で移動します」とある。②の「市長舎」については，歴史ツアーの項の第2文（Opposite the church ...）に「教会の向かい側には，20世紀初め（early-20th-century）の市長舎があります」とある。③の「平和公園」については，歴史ツアーの項の最終文（Opened soon after ...）に「ここは第二次世界大戦のすぐ後に（soon after World War II）開園し，1960年代にはここで数多くのデモ活動が行われました」とある。④の「彫刻公園」については，芸術ツアーの項の第4文（This part of the district ...）に「この区域は数年前（several years ago），新しい芸術家たちのアトリエと近隣にある彫刻公園が造られた時に開発されました」とある。これら下線部の表現を比較することで，最も新しい場所は①のホッケー競技場であることがわかる。",
+                "evidence_sentences": [
+                  "1b_s12",
+                  "1b_s2",
+                  "1b_s5",
+                  "1b_s9"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "flyer",
+              "ja": "ちらし；ビラ"
+            },
+            {
+              "en": "entrance fee",
+              "ja": "入場料"
+            },
+            {
+              "en": "organize",
+              "ja": "〈行事などを〉準備［計画］する"
+            },
+            {
+              "en": "present",
+              "ja": "…を提示する"
+            },
+            {
+              "en": "reception desk",
+              "ja": "受付"
+            },
+            {
+              "en": "facial",
+              "ja": "顔の"
+            },
+            {
+              "en": "steps",
+              "ja": "（ダンスの）ステップ"
+            },
+            {
+              "en": "textile",
+              "ja": "織物"
+            },
+            {
+              "en": "crafts",
+              "ja": "手工芸品"
+            },
+            {
+              "en": "display",
+              "ja": "…を展示する"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            {
+              "en": "Opposite the church is ...",
+              "ja": "「教会の向かい側には…がある」"
+            },
+            {
+              "en": "soon after ...",
+              "ja": "「…のすぐ後に」"
+            },
+            {
+              "en": "site",
+              "ja": "場所；現場"
+            },
+            {
+              "en": "district",
+              "ja": "地域；地区"
+            },
+            {
+              "en": "art gallery",
+              "ja": "美術館"
+            },
+            {
+              "en": "sculpture",
+              "ja": "彫刻"
+            },
+            {
+              "en": "at work",
+              "ja": "活動［仕事］中で"
+            },
+            {
+              "en": "first thing in the morning",
+              "ja": "朝一番に"
+            },
+            {
+              "en": "open-air",
+              "ja": "野外の"
+            },
+            {
+              "en": "facility",
+              "ja": "施設"
+            },
+            {
+              "en": "arena",
+              "ja": "競技場"
+            },
+            {
+              "en": "exhibition",
+              "ja": "展示"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": "6A",
+      "title": "第6問 A",
+      "points": 12,
+      "pdf_pages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "passage_images": [
+        "images/mondai_p30.png",
+        "images/mondai_p31.png",
+        "images/mondai_p32.png",
+        "images/mondai_p33.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p22.png",
+        "images/kaitou_p23.png",
+        "images/kaitou_p24.png"
+      ],
+      "situation": "Your English teacher has assigned this article to you.  You need to prepare notes to give a short talk.",
+      "passages": [
+        {
+          "title": "Perceptions of Time",
+          "paragraphs": [
+            "When you hear the word \"time,\" it is probably hours, minutes, and seconds that immediately come to mind.  In the late 19th century, however, philosopher Henri Bergson described how people usually do not experience time as it is measured by clocks (clock time).  Humans do not have a known biological mechanism to measure clock time, so they use mental processes instead.  This is called psychological time, which everyone perceives differently.",
+            "If you were asked how long it had taken to finish your homework, you probably would not know exactly.  You would think back and make an estimate.  In a 1975 experiment, participants were shown either simple or complex shapes for a fixed amount of time and asked to memorize them.  Afterwards, they were asked how long they had looked at the shapes.  To answer, they used a mental process called retrospective timing, which is estimating time based on the information retrieved from memory.  Participants who were shown the complex shapes felt the time was longer, while the people who saw the simple shapes experienced the opposite.",
+            "Another process to measure psychological time is called prospective timing.  It is used when you are actively keeping track of time while doing something.  Instead of using the amount of information recalled, the level of attention given to time while doing the activity is used.  In several studies, the participants performed tasks while estimating the time needed to complete them.  Time seemed shorter for the people doing more challenging mental activities which required them to place more focus on the task than on time.  Time felt longer for the participants who did simpler tasks and the longest for those who were waiting or doing nothing.",
+            "Your emotional state can influence your awareness of time, too.  For example, you can be enjoying a concert so much that you forget about time.  Afterwards, you are shocked that hours have passed by in what seemed to be the blink of an eye.  To explain this, we often say, \"Time flies when you're having fun.\"  The opposite occurs when you are bored.  Instead of being focused on an activity, you notice the time.  It seems to go very slowly as you cannot wait for your boredom to end.  Fear also affects our perception of time.  In a 2006 study, more than 60 people experienced skydiving for the first time.  Participants with high levels of unpleasant emotions perceived the time spent skydiving to be much longer than it was in reality.",
+            "Psychological time also seems to move differently during life stages.  Children constantly encounter new information and have new experiences, which makes each day memorable and seem longer when recalled.  Also, time creeps by for them as they anticipate upcoming events such as birthdays and trips.  For most adults, unknown information is rarely encountered and new experiences become less frequent, so less mental focus is required and each day becomes less memorable.  However, this is not always the case.  Daily routines are shaken up when drastic changes occur, such as changing jobs or relocating to a new city.  In such cases, the passage of time for those people is similar to that for children.  But generally speaking, time seems to accelerate as we mature.",
+            "Knowledge of psychological time can be helpful in our daily lives, as it may help us deal with boredom.  Because time passes slowly when we are not mentally focused and thinking about time, changing to a more engaging activity, such as reading a book, will help ease our boredom and speed up the time.  The next occasion that you hear \"Time flies when you're having fun,\" you will be reminded of this."
+          ]
+        }
+      ],
+      "notes": {
+        "title": "Perceptions of Time",
+        "outline_by_paragraph": [
+          {
+            "number": 1,
+            "text": "[39]"
+          },
+          {
+            "number": 2,
+            "text": "Retrospective timing"
+          },
+          {
+            "number": 3,
+            "text": "Prospective timing"
+          },
+          {
+            "number": 4,
+            "text": "[40]",
+            "sub_items": [
+              "Skydiving"
+            ]
+          },
+          {
+            "number": 5,
+            "text": "Effects of age",
+            "sub_items": [
+              "Time speeds up as we mature, but a [41]."
+            ]
+          },
+          {
+            "number": 6,
+            "text": "Practical tips"
+          }
+        ],
+        "original_examples": [
+          {
+            "label": "A",
+            "heading": "Retrospective timing",
+            "text": "Example: [42]"
+          },
+          {
+            "label": "B",
+            "heading": "Prospective timing",
+            "text": "Example: [43]"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_numbers": [
+            39,
+            40
+          ],
+          "stem": "Choose the best options for [39] and [40].",
+          "choices": [
+            "Biological mechanisms",
+            "Effects of our feelings",
+            "Kinds of memory",
+            "Life stages",
+            "Ongoing research",
+            "Types of time"
+          ],
+          "answer": {
+            "39": 6,
+            "40": 2
+          },
+          "points": 3,
+          "all_correct_only": true,
+          "explanation": "[39]には，第1段落（When you hear ...）の内容を端的に示す表現が入る。この段落では，時計によって計測される時間を表す「クロックタイム（clock time）」に対して，人間が時計を用いずに知覚する時間を表す「心理的時間（psychological time）」が紹介されている。つまり時間は複数の種類に分けて考えられるという趣旨であることから，⑥の「時間の種類」が正解となる。①の「生物学的メカニズム（biological mechanism）」については，本段落第3文（Humans do not ...）の中で言及されているものの，これは人間が時間計測の手段として持ち合わせていないものとして紹介されているもので，本段落の中心となる事項ではない。\n\n[40]には，第4段落（Your emotional state ...）の内容を端的に示す表現が入る。第1文に「感情の状態（emotional state）も時間の意識に影響を及ぼす（influence）ことがあります」とあり，この後ではいろいろな感情の状態（コンサートでの興奮状態，退屈，恐れ）が時間の知覚の仕方に影響を及ぼす例が紹介されている。したがって下線部の意味にほぼ等しい②の「私たちの気持ちの影響」が正解となる。"
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 41,
+          "stem": "Choose the best option for [41].",
+          "choices": [
+            "major lifestyle change at any age will likely make time slow down",
+            "major lifestyle change regardless of age will likely make time speed up",
+            "minor lifestyle change for adults will likely make time slow down",
+            "minor lifestyle change for children will likely make time speed up"
+          ],
+          "answer": 1,
+          "points": 3,
+          "explanation": "正解は①。第5段落の内容を要約した文を完成する。同段落第6文（Daily routines are ...）と第7文（In such cases, ...）に，「転職や新しい場所への転勤など劇的な変化が起こると，毎日の決まり事は一新されます。そのような場合には，こういった人たちにとっての時間の経過は，子供にとっての時間の経過と似ています」とある。この中の「劇的な変化（drastic changes）」は，①の中の「大きな生活様式の変化（major lifestyle change）」と同内容である。また，「こういった人たち（those people）」とは，劇的な変化を経験した大人のことである。そして「子供にとっての時間の経過（that for children）」とは，同段落第3文（Also, time creeps ...）などにあるように，「ゆっくりと過ぎる（creeps by）」ことである。以上の点から選択肢①は，上に引用した第6・7文の内容と合っているので，これが正解となる。"
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 42,
+          "stem": "Choose the best option for [42].",
+          "choices": [
+            "anticipating a message from a classmate",
+            "memorizing your mother's cellphone number",
+            "reflecting on how many hours you worked today",
+            "remembering that you have a meeting tomorrow"
+          ],
+          "answer": 3,
+          "points": 3,
+          "explanation": "正解は③。「追想的時間評価（Retrospective timing）」の例として適切なものを選ぶ。このタイプの時間評価については，第2段落第5文（To answer, they ...）に，「彼らは答えるために，追想的時間評価と呼ばれる心理作用を用いました。これは記憶から取り出される情報に基づいて時間を見積もることです」とある。選択肢の中で，下線部中の「時間を見積もること（estimating time）」に対応するものを探せば，③の「今日何時間働いたかを思い起こすこと」しかなく，この行為は，下線部の内容と合っている。したがって③が正解となる。"
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "stem": "Choose the best option for [43].",
+          "choices": [
+            "guessing how long you've been jogging so far",
+            "making a schedule for the basketball team summer camp",
+            "running into your tennis coach at the railway station",
+            "thinking about your last family vacation to a hot spring"
+          ],
+          "answer": 1,
+          "points": 3,
+          "explanation": "正解は①。「予期的時間評価（Prospective timing）」の例として適切なものを選ぶ。第3段落第1文（Another process to measure ...）と第2文（It is used ...）に，「心理的時間を測定する別の方法に，予期的時間評価と呼ばれるものがあります。これは何かをしながら能動的に時間を計り続ける時に用いられます」とある。選択肢の①は，言い換えれば「ジョギングをしながら現在までのジョギング時間を推測する」ことに等しいので，下線部の例として適切である。\n\nその他の選択肢はいずれも「時間を計り続ける」こととは関係のない行為なので，正解にはなれない。"
+        }
+      ],
+      "vocabulary": {
+        "paragraph_1": "come to mind「思い浮かぶ」/ philosopher「哲学者」/ measure「…を測定する」/ known「既知の」/ biological「生物学的な」/ mental process「心理作用：精神過程」/ instead「代わりに」/ psychological「心理的な」/ perceive「知覚する」",
+        "paragraph_2": "estimate「見積もり」「…を見積もる」/ participant「参加者」/ fixed「一定の」/ memorize「…を記憶する」/ afterwards「後になって」/ based on ...「…に基づいて」/ retrieve「取り戻す：回収する」/ the opposite「正反対のこと」",
+        "paragraph_3": "actively「積極的に：能動的に」/ keep track of ...「…の経過を追う：…の記録をつける」/ instead of ...「…の代わりに」/ recall「…を思い出す」/ perform「…を遂行する」/ complete「…を完成する」/ challenging「やりがいのある：きつい」/ focus「焦点：集中」",
+        "paragraph_4": "emotional「感情の」/ state「状態」/ influence「…に影響を及ぼす」/ awareness「意識：認識」/ pass by「過ぎ去る」/ in what seemed to be the blink of an eye「目の瞬き[一瞬]と思える（短い）時間のうちに」/ be focused on ...「…に集中している」/ wait for O to -「Oが－するのを待つ」/ boredom「退屈」/ affect「…に影響する」/ perception「知覚」/ unpleasant「不快な」/ perceive O to be ...「Oが…であるのに気づく」/ in reality「実際に」",
+        "paragraph_5": "constantly「絶えず」/ encounter「…に遭遇する」/ memorable「記憶に残る」/ creep by「徐々に過ぎる」/ anticipate「…を予期する：心待ちにする」/ upcoming「まもなくやって来る」/ rarely「めったに…しない」/ frequent「頻繁に起こる」/ be the case「真相[事実]である」/ routine「決まってすること」/ shake up「再編[刷新]する」/ drastic「徹底的な」/ relocate「（新しい場所に）移転[移住]する」/ passage「（時の）経過」/ generally speaking「一般的に言って」/ accelerate「加速する」/ mature「成長する：大人になる」",
+        "paragraph_6": "knowledge「知識」/ deal with ...「…を扱う[処理する]」/ engaging「興味をそそる」/ ease「…を和らげる」/ occasion「時：場合」/ be reminded of ...「…が思い出される」"
+      }
+    },
+    {
+      "section_number": "6B",
+      "title": "第6問 B",
+      "points": 12,
+      "pdf_pages": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "passage_images": [
+        "images/mondai_p34.png",
+        "images/mondai_p35.png",
+        "images/mondai_p36.png",
+        "images/mondai_p37.png",
+        "images/mondai_p38.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p25.png",
+        "images/kaitou_p26.png",
+        "images/kaitou_p27.png",
+        "images/kaitou_p28.png"
+      ],
+      "situation": "You are preparing a presentation for your science club, using the following passage from a science website.",
+      "passages": [
+        {
+          "title": "Chili Peppers: The Spice of Life",
+          "paragraphs": [
+            "Tiny pieces of red spice in chili chicken add a nice touch of color, but biting into even a small piece can make a person's mouth burn as if it were on fire.  While some people love this, others want to avoid the painful sensation.  At the same time, though, they can eat sashimi with wasabi.  This might lead one to wonder what spiciness actually is and to ask where the difference between chili and wasabi comes from.",
+            "Unlike sweetness, saltiness, and sourness, spiciness is not a taste.  In fact, we do not actually taste heat, or spiciness, when we eat spicy foods.  The bite we feel from eating chili peppers and wasabi is derived from different types of compounds.  Chili peppers get their heat from a heavier, oil-like element called capsaicin.  Capsaicin leaves a lingering, fire-like sensation in our mouths because it triggers a receptor called TRPV1.  TRPV1 induces stress and tells us when something is burning our mouths.  Interestingly, there is a wide range of heat across the different varieties of chili peppers, and the level depends on the amount of capsaicin they contain.  This is measured using the Scoville Scale, which is also called Scoville Heat Units (SHU).  SHUs range from the sweet and mild shishito pepper at 50-200 SHUs to the Carolina Reaper pepper, which can reach up to 2.2 million.",
+            "Wasabi is considered a root, not a pepper, and does not contain capsaicin.  Thus, wasabi is not ranked on the Scoville Scale.  However, people have compared the level of spice in it to chilis with around 1,000 SHUs, which is on the lower end of the scale.  The reason some people cannot tolerate chili spice but can eat foods flavored with wasabi is that the spice compounds in it are low in density.  The compounds in wasabi vaporize easily, delivering a blast of spiciness to our nose when we eat it.",
+            "Consuming chili peppers can have positive effects on our health, and much research has been conducted into the benefits of capsaicin.  When capsaicin activates the TRPV1 receptor in a person's body, it is similar to what happens when they experience stress or pain from an injury.  Strangely, capsaicin can also make pain go away.  Scientists found that TRPV1 ceases to be turned on after long-term exposure to chili peppers, temporarily easing painful sensations.  Thus, skin creams containing capsaicin might be useful for people who experience muscle aches.",
+            "Another benefit of eating chili peppers is that they accelerate the metabolism.  A group of researchers analyzed 90 studies on capsaicin and body weight and found that people had a reduced appetite when they ate spicy foods.  This is because spicy foods increase the heart rate, send more energy to the muscles, and convert fat into energy.  Recently, scientists at the University of Wyoming have created a weight-loss drug with capsaicin as a main ingredient.",
+            "It is also believed that chili peppers are connected with food safety, which might lead to a healthier life.  When food is left outside of a refrigerated environment, microorganisms multiply on it, which may cause sickness if eaten.  Studies have shown that capsaicin and other chemicals found in chili peppers have antibacterial properties that can slow down or even stop microorganism growth.  As a result, food lasts longer and there are fewer food-borne illnesses.  This may explain why people in hot climates have a tendency to use more chili peppers, and therefore, be more tolerant of spicier foods due to repeated exposure.  Also, in the past, before there were refrigerators, they were less likely to have food poisoning than people in cooler climates.",
+            "Chili peppers seem to have health benefits, but can they also be bad for our health?  Peppers that are high on the Scoville Scale can cause physical discomfort when eaten in large quantities.  People who have eaten several of the world's hottest chilis in a short time have reported experiencing upset stomachs, diarrhea, numb hands, and symptoms similar to a heart attack.  Ghost peppers, which contain one million SHUs, can even burn a person's skin if they are touched.",
+            "Luckily the discomfort some people feel after eating spicy foods tends to go away soon—usually within a few hours.  Despite some negative side effects, spicy foods remain popular around the world and add a flavorful touch to the table.  Remember, it is safe to consume spicy foods, but you might want to be careful about the amount of peppers you put in your dishes."
+          ]
+        }
+      ],
+      "presentation_slides": {
+        "slide_1": {
+          "title": "Chili Peppers:\nThe Spice of Life",
+          "content": "[Image of chili peppers]",
+          "number": 1
+        },
+        "slide_2": {
+          "title": "Characteristics",
+          "content": {
+            "columns": [
+              "chili peppers",
+              "wasabi"
+            ],
+            "chili_peppers": [
+              "oil-like elements",
+              "triggering TRPV1",
+              "persistent feeling"
+            ],
+            "wasabi": [
+              "[44]",
+              "changing to vapor",
+              "spicy rush"
+            ]
+          },
+          "number": 2
+        },
+        "slide_3": {
+          "title": "Positive Effects",
+          "content": "Capsaicin can... [45]",
+          "items": [
+            "A. reduce pain.",
+            "B. give you more energy.",
+            "C. speed up your metabolism.",
+            "D. make you feel less stress.",
+            "E. decrease food poisoning."
+          ],
+          "number": 3
+        },
+        "slide_4": {
+          "title": "Negative Effects",
+          "content": "When eating too many strong chili peppers in a short time,",
+          "items": [
+            "[46]",
+            "[47]"
+          ],
+          "number": 4
+        },
+        "slide_5": {
+          "title": "Spice Tolerance",
+          "content": "[48]",
+          "number": 5
+        },
+        "slide_6": {
+          "title": "Closing Remark",
+          "content": "[49]",
+          "number": 6
+        }
+      },
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 44,
+          "stem": "What is the first characteristic of wasabi on Slide 2? [44]",
+          "choices": [
+            "burning taste",
+            "fire-like sensation",
+            "lasting feeling",
+            "light compounds"
+          ],
+          "answer": 4,
+          "points": 2,
+          "explanation": "正解は④。第2段落第3文（The bite we feel ...）と第4文（Chili peppers get ...）に，「チリ・ペッパーやワサビを食べることから感じる辛さは，異なる種類の化合物から生じます。チリ・ペッパーのピリッとした辛みは，カプサイシンと呼ばれるより重くて（heavier）油に似た成分に由来します」とある。これらの記述から，ワサビを形成する化合物は，チリ・ペッパーを形成する化合物よりも軽い（lighter）ことがわかるので，④が正解となる。\n\n他の選択肢は，いずれも本文中でワサビの特徴として述べられていない。"
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 45,
+          "stem": "Which is an error you found on Slide 3? [45]",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answer": 4,
+          "points": 2,
+          "explanation": "正解は④。カプサイシンのプラス効果として不適切なものを選ぶ。Dに「人が感じるストレスの量を減らす」とあるが，カプサイシンとストレスの関係については，第2段落第5文（Capsaicin leaves ...）と第6文（TRPV1 induces stress ...）に，「カプサイシンはTRPV1と呼ばれる受容体を始動させるため，口の中になかなか収まらない炎症のような感覚を残します。何かが口をヒリヒリさせている時に，TRPV1はストレスを誘発して私たちに知らせます」とある。また，第4段落第2文（When capsaicin activates ...）には，「カプサイシンが体内のTRPV1受容体を活性化させる時に起こることは，人がストレスや負傷によって痛みを経験する時に起こることと似ています」とある。これらはいずれも，カプサイシンはストレスやそれに似た症状を発現させるという内容であり，Dのようにカプサイシンが「人が感じるストレスの量を減らす」ということではないので，④が正解となる。\n\nAの「痛みを減らす」については，第4段落第3文（Strangely, capsaicin can ...）に「奇妙なことに，カプサイシンは痛みを消すこともできます」とあることなどと合っている。Bの「より多くのエネルギーを体に与える」については，カプサイシンと体重に関する研究の分析結果について述べている第5段落第3文（This is because ...）に，「その理由は，辛い食べ物は心拍数を上げて，筋肉に送るエネルギーを増やし，脂肪をエネルギーに変えるためです」とあることと合っている。Cの「新陳代謝の速度を上げる」については，第5段落第1文（Another benefit of ...）に「チリ・ペッパーを食べるもう1つの利点は，それが新陳代謝を促進することです」とあるのと合っている。Eの「食中毒を減らす」は，第6段落最終文（Also, in the past, ...）に「また，かつて冷蔵庫がなかった時は，彼ら（＝辛い食べ物を通じてカプサイシンを頻繁に摂取している暑い気候の地域の人々）はより涼しい気候の地域の人々よりも食中毒にかかる可能性が低かったのです」とあることと合っている。"
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            46,
+            47
+          ],
+          "stem": "Choose two options for Slide 4.  (The order does not matter.)\n[46] · [47]",
+          "choices": [
+            "you might activate harmful bacteria.",
+            "you might experience stomach pain.",
+            "you might lose feeling in your hands.",
+            "your fingers might feel like they are on fire.",
+            "your nose might start hurting."
+          ],
+          "answer": {
+            "46": 2,
+            "47": 3
+          },
+          "points": 3,
+          "all_correct_only": true,
+          "unordered": true,
+          "explanation": "正解は②と③。短時間で強いチリ・ペッパーを食べすぎた時に起こるマイナス効果を表すものを選ぶ。これについては第7段落（Chili peppers seem ...）で述べられている。第3文（People who have eaten ...）に，「世界で最も辛いチリのいくつかを短時間で食べた人々は，胃の不調（upset stomachs），下痢，手の痺れ（numb hands），心臓麻痺に似た症状を経験したと報告しています」とあり，②と③は下線部の内容と合っている。\n\n他の選択肢のようなことは，チリ・ペッパーの食べすぎによって起こるとは本文中で述べられていない。"
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 48,
+          "stem": "What can be inferred about tolerance for spices for Slide 5? [48]",
+          "choices": [
+            "People with a high tolerance to chili peppers pay attention to the spices used in their food.",
+            "People with a high tolerance to wasabi are scared of chili peppers' negative effects.",
+            "People with a low tolerance to chili peppers can get used to their heat.",
+            "People with a low tolerance to wasabi cannot endure high SHU levels."
+          ],
+          "answer": 3,
+          "points": 3,
+          "explanation": "正解は③。香辛料への耐性に関して，第6段落第5文（This may explain ...）に「このことにより，気候の暑い地域の人々はチリ・ペッパーを使う量がより多く，それゆえ，繰り返しさらされることでより辛い食べ物への耐性が高まる傾向があるのかもしれません」とある。下線部の中の「繰り返しさらされること（repeated exposure）」とは，この文脈では「辛いものを繰り返し食べること」を表している。このことから，③のように，最初はチリ・ペッパーが苦手でも，繰り返し食べていくうちにその辛さに慣れることがあると推論することが可能なので，③が正解となる。\n\n①や②のようなことは，本文からは読み取れない。④については，SHU値はカプサイシンの含有量によって決まる（第2段落第8文：This is measured ...）が，ワサビはカプサイシンを含んでいない（第3段落第1文：Wasabi is considered ...）ので，ワサビへの耐性とSHU値への耐性を直接関連づけることはできないことから，④は正解にならない。"
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 49,
+          "stem": "Choose the most appropriate remark for Slide 6. [49]",
+          "choices": [
+            "Don't be afraid.  Eating spicy foods will boost your confidence.",
+            "Next time you eat chili chicken, remember its punch only stays for a second.",
+            "Personality plays a big role in our spice preference, so don't worry.",
+            "Unfortunately, there are no cures for a low wasabi tolerance.",
+            "When someone offers you some spicy food, remember it has some benefits."
+          ],
+          "answer": 5,
+          "points": 2,
+          "explanation": "正解は⑤。チリ・ペッパーについての発表の最後の言葉として適切なものを選ぶ。消去法で考えるとわかりやすい。①の中の「辛いものを食べると自信が高まります」や，③の中の「香辛料の好みにおいては個性が大きな役割を果たす」という指摘は，発表内容の中に該当するものがないので，正解にはなれない。また，②の中の「辛さはほんのわずかしか続かない」は，最終段落第1文（Luckily the discomfort ...）の「幸いなことに，辛いものを食べた後で一部の人々が感じる不快感は，すぐに（普通は数時間以内に）消え去ることが多いのです」という記述を誤解したものなので，やはり正解にはなれない。また，この発表の表題は「チリ・ペッパー：生活のスパイス」なので，④のようにワサビについてのコメントで発表を結ぶのも不自然であるし，ワサビの耐性の低さへの治療法がないとも本文で述べられていない。したがって正解になりうるものは⑤のみである。⑤の中の「それ（＝辛い食べ物）にはいくつかの利点がある」ことについては，第4段落（Consuming chili peppers ...）から第6段落（It is also believed ...）を中心に述べられており，発表内容との矛盾点はなく，またこの発表の主旨と考えることもできるので，これが正解として最適である。"
+        }
+      ],
+      "vocabulary": {
+        "paragraph_1": "touch「ちょっと手を加えること」/ bite into ...「…をかじる」/ burn「ヒリヒリする」/ on fire「火がついて」/ sensation「感覚：感じ」/ at the same time「同時に：その反面」/ spiciness「香辛料のきいた：ピリッとした」",
+        "paragraph_2": "unlike ...「…とは違って」/ saltiness < salty「塩気のある：塩辛い」/ sourness < sour「酸っぱい」/ heat「熱：辛さ」/ bite「辛さ」/ be derived from ...「…に由来する」/ compound「化合物」/ element「要素：成分」/ lingering「なかなか消えない」/ trigger「…を誘発する：始動させる」/ receptor「受容器[体]」/ induce「…を誘発する」/ interestingly「興味深いことに」/ variety「種類」/ depend on ...「…によって決まる」/ measure「…を測定する」/ range from A to B「AからBにわたる」/ up to ...「最大[最高]…」",
+        "paragraph_3": "root「根」/ rank「…をランクづけする」/ compare A to B「AをBになぞらえる」/ tolerate「…への耐性がある」/ flavored with ...「…で味付けされた[風味を添えた]」/ density「密度：濃度」/ vaporize「蒸発[気化]する」/ deliver A to B「A〈打撃・攻撃など〉をBに加える」/ blast「強いひと吹き」",
+        "paragraph_4": "consume「…を消費する：食べる」/ positive「肯定的な：プラスの」/ effect「影響：効果」/ benefit「恩恵：利点」/ activate「…を活性化する」/ injury「負傷：けが」/ strangely「奇妙なことに」/ go away「消えていく」/ cease to -「－しなくなる」/ turn on「スイッチを入れる：刺激する」/ long-term「長期の」/ exposure to ...「…にさらされる[触れる]こと」/ temporarily「一時的に」/ ease「…を和らげる」/ muscle ache「筋肉痛」",
+        "paragraph_5": "accelerate「…を加速する」/ metabolism「新陳代謝」/ analyze「…を分析する」/ reduced < reduce「減少した」/ appetite「食欲」/ heart rate「心拍数」/ convert A into B「AをBに変える」/ fat「脂肪」/ weight-loss「減量の」/ ingredient「成分」",
+        "paragraph_6": "be connected with ...「…と関係[関連]がある」/ food safety「食の安全」/ refrigerated < refrigerate「冷蔵された」/ microorganism「微生物」/ multiply「繁殖する」/ chemical「化学物質」/ antibacterial「抗菌の」/ property「特性」/ as a result「その結果」/ last「（ある期間）もつ」/ food-borne「食物が媒介する」/ have a tendency to -「－する傾向がある」/ be tolerant of ...「…に対して耐性がある」/ due to ...「…のせいで」/ refrigerator「冷蔵庫」/ be likely to -「－しそうだ：－する可能性が高い」/ food poisoning「食中毒」",
+        "paragraph_7": "discomfort「苦痛（からくる不快感）」/ in large quantities「大量に」/ upset「不調な」/ diarrhea「下痢」/ numb「感覚のない：麻痺した」/ symptom「症状」/ heart attack「心臓麻痺」",
+        "paragraph_8": "go away「消えゆく」/ despite「…にもかかわらず」/ negative「否定的な：マイナスの」/ flavorful「風味に富む」/ you might want to -「－する方がいい」"
+      }
+    }
+  ]
+}

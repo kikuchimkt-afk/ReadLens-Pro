@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第5問 - 共通テスト英語問題DB</title>
+    <link rel="stylesheet" href="../../../../style.css">
+    <style>
+        .blog-header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+        }
+
+        .blog-header h3 {
+            margin: 0 0 4px;
+        }
+
+        .blog-header .posted {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .added-costs-box {
+            border: 2px solid var(--border-color);
+            padding: 16px 20px;
+            margin: 18px 0;
+            background: var(--surface-1);
+            border-radius: var(--radius);
+        }
+
+        .added-costs-box .costs-title {
+            font-weight: 700;
+            font-style: italic;
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+
+        .costs-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+        }
+
+        .cost-item {
+            text-align: center;
+            min-width: 100px;
+        }
+
+        .cost-item .cost-icon {
+            font-size: 1.8rem;
+            margin-bottom: 4px;
+        }
+
+        .cost-item .cost-label {
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+
+        .cost-item .cost-price {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .rent-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 14px 0;
+        }
+
+        .rent-table th,
+        .rent-table td {
+            border: 1px solid var(--border-color);
+            padding: 10px 12px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        .rent-table th {
+            background: var(--surface-2);
+            font-weight: 600;
+        }
+
+        .rent-table td:first-child {
+            text-align: left;
+        }
+
+        .rent-table .table-header-row th {
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .rent-table .na-cell {
+            background: linear-gradient(to top right, transparent calc(50% - 1px), var(--border-color), transparent calc(50% + 1px));
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="exam-header">
+        <a href="../../../../index.html" class="back-btn">← 問題一覧に戻る</a>
+        <div class="exam-title">駿台実戦 2025 第4回</div>
+        <div class="score-display">配点: 16点</div>
+    </div>
+
+    <div class="exam-container" data-section="section5">
+        <h1 class="section-heading">第5問</h1>
+        <p class="section-points">配点 16点</p>
+
+        <div class="passage-intro">
+            You are going to study at Wyatt University in the US from September and need accommodation. You are looking
+            at the blogs of two students, Olivia and Rob, to see what options are available.
+        </div>
+
+        <!-- Olivia's Blog -->
+        <div class="passage-box">
+            <div class="blog-header">
+                <h3>See You at Wyatt University!</h3>
+                <div class="posted">Posted by Olivia at 3:32 p.m. on July 17, 2022</div>
+            </div>
+
+            <p>Need a place to live for your college adventure? One thing to consider is what your rent includes, and
+                other spending costs. Look at the average amount of money students spent on necessities not included in
+                their rents this year.</p>
+
+            <div class="added-costs-box">
+                <div class="costs-title">Added Costs — Be Aware!</div>
+                <div class="costs-grid">
+                    <div class="cost-item">
+                        <div class="cost-icon">🛒</div>
+                        <div class="cost-label">Groceries</div>
+                        <div class="cost-price">$110 a month</div>
+                    </div>
+                    <div class="cost-item">
+                        <div class="cost-icon">⚡</div>
+                        <div class="cost-label">Electricity</div>
+                        <div class="cost-price">$20 a month</div>
+                    </div>
+                    <div class="cost-item">
+                        <div class="cost-icon">🌐</div>
+                        <div class="cost-label">Internet</div>
+                        <div class="cost-price">$15 a month</div>
+                    </div>
+                    <div class="cost-item">
+                        <div class="cost-icon">🚌</div>
+                        <div class="cost-label">Transportation</div>
+                        <div class="cost-price">$20~30 a month</div>
+                    </div>
+                    <div class="cost-item">
+                        <div class="cost-icon">👔</div>
+                        <div class="cost-label">Laundry</div>
+                        <div class="cost-price">$38 a month</div>
+                    </div>
+                </div>
+            </div>
+
+            <p>Naturally where, and the kind of place you live make a difference. Living in a campus dormitory or a
+                private campus room, you won't need to travel. If you stay with a family, freshly cooked food is usually
+                included, but one problem is that you can't always expect privacy. I'd advise selecting a no-food plan
+                in
+                a private campus room for $95 a month less than a food plan. There aren't student discounts for buses,
+                so
+                I'd recommend a place in Zone 1 so you can walk to classes.</p>
+
+            <p>By the way, don't forget hidden savings or costs! In off-campus accommodation, both apartments and
+                families, the deposits are at least double those of accommodation in private campus rooms. If you live
+                in
+                an on-campus dormitory you must move out in summer, but that saves you money!</p>
+        </div>
+
+        <!-- Rob's Blog -->
+        <div class="passage-box">
+            <div class="blog-header">
+                <h3>Join Us at Wyatt!</h3>
+                <div class="posted">Posted by Rob at 11:03 a.m. on July 18, 2022</div>
+            </div>
+
+            <p>I remember the tough time I had finding accommodation on starting at Wyatt University.</p>
+
+            <p>I spent my first year in a private campus room, where everything except laundry fees was included, though
+                paying for food service separately is probably better. I often missed meals because of studying or
+                hanging out with friends. And, from my room commuting to class was quick, but the bus service in Zones 2
+                and 3 is also efficient. The journey from Zone 3 is more time-consuming, and if you consider the extra
+                price of buses and relatively small differences in rents between these two areas, I'd prefer to live
+                nearer the city center.</p>
+
+            <p>If you pay each time you wash clothes, money disappears soon! But if you live in an apartment house with
+                three other students, you can pick up a washing machine for around $120 per person, and you'll save
+                almost all laundry fees. In the on-campus dormitory, everything is included except food and laundry, but
+                this definitely isn't for someone who enjoys time alone!</p>
+
+            <p style="text-align: center; font-weight: 600; margin-bottom: 6px;">Monthly Rent</p>
+            <table class="rent-table">
+                <tr class="table-header-row">
+                    <th>Type</th>
+                    <th>Zone 1<br>(City Center)</th>
+                    <th>Zone 2</th>
+                    <th>Zone 3</th>
+                </tr>
+                <tr>
+                    <td>Staying with Families A, B, and C</td>
+                    <td>$240 (A)</td>
+                    <td>$198 (B)</td>
+                    <td>$182 (C)</td>
+                </tr>
+                <tr>
+                    <td>Campus dormitory</td>
+                    <td>$66</td>
+                    <td class="na-cell">—</td>
+                    <td class="na-cell">—</td>
+                </tr>
+                <tr>
+                    <td>Private campus room with food included</td>
+                    <td>$270</td>
+                    <td class="na-cell">—</td>
+                    <td class="na-cell">—</td>
+                </tr>
+                <tr>
+                    <td>Off-campus students' apartments X, Y, and Z</td>
+                    <td>$220 (X)</td>
+                    <td>$170 (Y)</td>
+                    <td>$150 (Z)</td>
+                </tr>
+            </table>
+
+            <p style="text-align: right; font-size: 0.85rem;">https://helpwithaccommodationwu.example.com</p>
+
+            <p><strong>Don't forget deposits!</strong> If you live on-campus, it is $150 for the dormitory, and $300 for
+                private rooms on moving in.</p>
+        </div>
+
+        <!-- Questions -->
+        <div class="question-block" data-question="section5_19">
+            <div class="question-label">問1</div>
+            <div class="question-text">Olivia recommends living close to the university because <span
+                    class="answer-box">19</span>.</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section5', 19, 1)"><span
+                        class="choice-number">①</span><span>the city bus doesn't offer student rates</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section5', 19, 2)"><span
+                        class="choice-number">②</span><span>the city bus service is unreliable</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section5', 19, 3)"><span
+                        class="choice-number">③</span><span>walking to class is good exercise</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section5', 19, 4)"><span
+                        class="choice-number">④</span><span>you can save time commuting on foot</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section5_20">
+            <div class="question-label">問2</div>
+            <div class="question-text">Rob suggests purchasing <span class="answer-box">20</span>.</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section5', 20, 1)"><span
+                        class="choice-number">①</span><span>a washing machine with other students if
+                        possible</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section5', 20, 2)"><span
+                        class="choice-number">②</span><span>extra food because campus meals are small</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section5', 20, 3)"><span
+                        class="choice-number">③</span><span>some kind of wi-fi router for faster Internet
+                        access</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section5', 20, 4)"><span
+                        class="choice-number">④</span><span>your own desk so that you can study more
+                        easily</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section5_21">
+            <div class="question-label">問3</div>
+            <div class="question-text">Both Olivia and Rob recommend that you <span class="answer-box">21</span>.</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section5', 21, 1)"><span
+                        class="choice-number">①</span><span>choose accommodation in Zone 2</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section5', 21, 2)"><span
+                        class="choice-number">②</span><span>choose accommodation without food included</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section5', 21, 3)"><span
+                        class="choice-number">③</span><span>live with a family if possible</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section5', 21, 4)"><span
+                        class="choice-number">④</span><span>live with roommates you can get along well
+                        with</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section5_22">
+            <div class="question-label">問4</div>
+            <div class="question-text">If you want your privacy ensured but wish to pay the cheapest monthly rent, you
+                should choose to <span class="answer-box">22</span> among the four options.</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section5', 22, 1)"><span
+                        class="choice-number">①</span><span>live in a campus dormitory</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section5', 22, 2)"><span
+                        class="choice-number">②</span><span>live in a campus private room without food
+                        included</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section5', 22, 3)"><span
+                        class="choice-number">③</span><span>live in off-campus student's apartment Y</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section5', 22, 4)"><span
+                        class="choice-number">④</span><span>live with Family C</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section5_23">
+            <div class="question-label">問5</div>
+            <div class="question-text">Among the four options, <span class="answer-box">23</span> is likely to be your
+                choice if you want to pay the least deposit; and if you need to live in a place in Zone 1 for the whole
+                year, the monthly rent is likely to be the most inexpensive by living in <span
+                    class="answer-box">24</span>. (Choose one for each box from options ①〜④.)</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section5', 23, 1)"><span
+                        class="choice-number">①</span><span>Campus dormitory</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section5', 23, 2)"><span
+                        class="choice-number">②</span><span>Off-campus students' apartment X</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section5', 23, 3)"><span
+                        class="choice-number">③</span><span>Private campus room with food included</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section5', 23, 4)"><span
+                        class="choice-number">④</span><span>Staying with Family A</span></button>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 8px;">※23に入る選択肢を選んでください</p>
+        </div>
+
+        <div class="question-block" data-question="section5_24">
+            <div class="question-label">問5（続き: 24の解答）</div>
+            <div class="question-text">24に入る選択肢を選んでください。</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section5', 24, 1)"><span
+                        class="choice-number">①</span><span>Campus dormitory</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section5', 24, 2)"><span
+                        class="choice-number">②</span><span>Off-campus students' apartment X</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section5', 24, 3)"><span
+                        class="choice-number">③</span><span>Private campus room with food included</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section5', 24, 4)"><span
+                        class="choice-number">④</span><span>Staying with Family A</span></button>
+            </div>
+        </div>
+
+        <div class="submit-area">
+            <button class="submit-btn" id="submit-section5" onclick="gradeSection('section5')" disabled>採点する
+                (0/6)</button>
+        </div>
+
+        <div class="result-panel" id="result-section5">
+            <div class="result-score"></div>
+            <div class="result-label"></div>
+        </div>
+    </div>
+
+    <div class="exam-footer">
+        共通テスト英語問題データベース &copy; 2025 | 駿台実戦問題集 2025 第4回
+    </div>
+
+    <script src="../../../../app.js"></script>
+</body>
+
+</html>

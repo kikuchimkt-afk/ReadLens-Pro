@@ -5,7 +5,11 @@
 
 // ===== レジストリ（app.jsと共通） =====
 const EXAM_PATHS = {
-  sundai_2025_01: 'data/sundai/2025/round01/data.json'
+  sundai_2025_01: 'data/sundai/2025/round01/data.json',
+  sundai_2025_02: 'data/sundai/2025/round02/data.json',
+  sundai_2025_03: 'data/sundai/2025/round03/data.json',
+  sundai_2025_04: 'data/sundai/2025/round04/data.json',
+  kakomon_2024: 'data/kakomon/2024/data.json'
 };
 
 // ===== State =====
@@ -19,7 +23,8 @@ let showExplain = false;
 document.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(location.search);
   const examId = params.get('exam') || 'sundai_2025_01';
-  const sectionNum = parseInt(params.get('section') || '1');
+  const sectionParam = params.get('section') || '1';
+  const sectionNum = /^\d+$/.test(sectionParam) ? parseInt(sectionParam) : sectionParam;
 
   const dataPath = EXAM_PATHS[examId];
   currentDataPath = dataPath;
@@ -36,7 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  currentSection = currentData.sections.find(s => s.section_number === sectionNum);
+  currentSection = currentData.sections.find(s => String(s.section_number) === String(sectionNum));
   if (!currentSection) {
     document.getElementById('passage-content').innerHTML = '<p class="pane-loading">この大問のデータはまだありません。</p>';
     return;
@@ -44,8 +49,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Set title
   const info = currentData.exam_info;
+  const roundLabel = typeof info.round === 'number' ? `第${info.round}回` : info.round;
   document.getElementById('viewer-title').textContent =
-    `${info.title} 第${info.round}回 — ${currentSection.title}`;
+    `${info.title} ${roundLabel} — ${currentSection.title}`;
   document.title = `${currentSection.title} — 共通テスト英語問題DB`;
 
   // Render
@@ -65,14 +71,38 @@ function renderPassage() {
   const audioBase = currentDataPath.replace(/data\.json$/, 'audio/');
   let html = '';
 
+  // Flatten subsections if present (6AB format: sections 1-5 have A/B subsections)
+  if (sec.subsections && !sec._flattened) {
+    sec.passages = [];
+    sec.questions = [];
+    for (const sub of sec.subsections) {
+      // Add situation as a separator passage
+      if (sub.situation) {
+        sec.passages.push({
+          id: `subsection_${sub.label}_header`,
+          is_subsection_header: true,
+          subsection_label: sub.label,
+          situation: sub.situation
+        });
+      }
+      if (sub.passages) sec.passages.push(...sub.passages);
+      if (sub.questions) {
+        for (const q of sub.questions) q._subsectionLabel = sub.label;
+        sec.questions.push(...sub.questions);
+      }
+    }
+    sec._flattened = true;
+  }
+
   // Section header
+  const allQuestions = sec.questions || [];
   html += `<div class="passage-header">
     <div class="section-label">${sec.title}</div>
-    <div class="section-points">配点 ${sec.points}点（各${sec.points_per_question}点×${sec.questions.length}問）</div>
+    <div class="section-points">配点 ${sec.points}点${sec.points_per_question ? `（各${sec.points_per_question}点×${allQuestions.length}問）` : `（${allQuestions.length}問）`}</div>
   </div>`;
 
-  // Situation
-  if (sec.situation) {
+  // Situation (skip for subsections — each subsection has its own)
+  if (sec.situation && !sec.subsections) {
     html += `<div class="situation-box">${sec.situation.en}</div>`;
   }
 
@@ -82,16 +112,29 @@ function renderPassage() {
   const passages = sec.passages;
   for (let i = 0; i < passages.length; i++) {
     const passage = passages[i];
-    const isHeader = passage.id === 'header';
+    const isHeader = passage.id === 'header' || (passage.id && passage.id.startsWith('header_'));
     const isFirst = i === 0;
 
-    // Separator between tour sections (not before first)
-    if (!isFirst) {
+    // Subsection header (A/B separator for 6AB format)
+    if (passage.is_subsection_header) {
+      if (!isFirst) html += '</div>'; // close previous passage-container
+      html += `<div class="subsection-label">${sec.title} ${passage.subsection_label}</div>`;
+      if (passage.situation) {
+        const sitText = typeof passage.situation === 'string' ? passage.situation : passage.situation.en;
+        html += `<div class="situation-box">${sitText}</div>`;
+      }
+      html += '<div class="passage-container">';
+      continue;
+    }
+
+    // Separator between tour sections (not before first, not if no_divider)
+    if (!isFirst && !passages[i-1]?.is_subsection_header && !passage.no_divider) {
       html += '<hr class="passage-divider">';
     }
 
     // Section within the passage box
-    html += `<div class="passage-section${isHeader ? ' passage-section--header' : ''}">`;
+    const hasPortrait = passage.portrait_image ? ' has-portrait' : '';
+    html += `<div class="passage-section${isHeader ? ' passage-section--header' : ''}${hasPortrait}">`;
 
     if (passage.title && !(passage.margin_comments && passage.margin_comments.length > 0)) {
       html += `<div class="passage-title">${passage.title.en}</div>`;
@@ -104,6 +147,17 @@ function renderPassage() {
     if (passage.image) {
       const floatClass = passage.image.float === 'left' ? 'passage-img--left' : 'passage-img--right';
       html += `<img class="passage-img ${floatClass}" src="${passage.image.src}" alt="${passage.image.alt || ''}">`;
+    }
+    // Portrait image with caption (float, 大問7)
+    if (passage.portrait_image) {
+      const imgBase = currentDataPath.replace(/data\.json$/, '');
+      const floatSide = passage.portrait_image.float === 'left' ? 'left' : 'right';
+      html += `<div class="portrait-container" style="float:${floatSide};">`;
+      html += `<img class="portrait-img" src="${imgBase}${passage.portrait_image.src}" alt="${passage.portrait_image.alt || ''}">`;
+      if (passage.portrait_image.alt) {
+        html += `<div class="portrait-caption">${passage.portrait_image.alt}</div>`;
+      }
+      html += `</div>`;
     }
 
     // Presentation slides (大問8)
@@ -157,24 +211,91 @@ function renderPassage() {
       html += '</div>';
     }
 
-    // Sentences as flowing paragraph (inline spans) + audio button
+    // Sentences rendering
     if (passage.sentences) {
       const audioFile = `${audioBase}s${secNum}_${passage.id}.mp3`;
-      html += '<div class="para-audio-row">';
-      html += '<div class="para-content">';
-      html += '<p class="passage-paragraph">';
-      for (const sent of passage.sentences) {
-        html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+
+      if (passage.advertisement_sections) {
+        // ===== Structured advertisement rendering =====
+        const sentMap = {};
+        for (const s of passage.sentences) sentMap[s.id] = s;
+
+        html += '<div class="para-audio-row">';
+        html += '<div class="para-content">';
+        html += '<div class="ad-box">';
+
+        for (const adSec of passage.advertisement_sections) {
+          // Section heading with separator
+          if (adSec.heading) {
+            html += '<hr class="ad-separator">';
+            html += `<div class="ad-section-heading"><strong>${adSec.heading.en}</strong></div>`;
+          }
+
+          if (adSec.type === 'intro') {
+            // Intro text as normal paragraph
+            html += '<p class="passage-paragraph">';
+            for (const sid of adSec.sentence_ids) {
+              const s = sentMap[sid];
+              if (s) html += `<span class="sentence" data-sid="${s.id}">${s.en}</span> `;
+            }
+            html += '</p>';
+            html += '<div class="passage-ja-block">';
+            for (const sid of adSec.sentence_ids) {
+              const s = sentMap[sid];
+              if (s) html += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div>`;
+            }
+            html += '</div>';
+          } else if (adSec.type === 'bullet') {
+            // Bullet list items with ◆ marker
+            html += '<ul class="ad-bullet-list">';
+            for (const sid of adSec.sentence_ids) {
+              const s = sentMap[sid];
+              if (s) {
+                html += `<li><span class="sentence" data-sid="${s.id}">${s.en}</span>`;
+                html += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div>`;
+                html += '</li>';
+              }
+              // Links after specific sentence
+              if (adSec.links && adSec.links_after_sentence_id === sid) {
+                for (const link of adSec.links) {
+                  html += `<div class="ad-link"><strong>${link.en}</strong></div>`;
+                }
+              }
+            }
+            html += '</ul>';
+          } else if (adSec.type === 'text') {
+            // Normal text block (e.g. Winners)
+            for (const sid of adSec.sentence_ids) {
+              const s = sentMap[sid];
+              if (s) {
+                html += `<p class="passage-paragraph"><span class="sentence" data-sid="${s.id}">${s.en}</span></p>`;
+                html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div></div>`;
+              }
+            }
+          }
+        }
+        html += '</div>'; // .ad-box
+        html += '</div>'; // .para-content
+        html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
+        html += '</div>'; // .para-audio-row
+      } else {
+        // ===== Flat sentences rendering (fallback) =====
+        html += '<div class="para-audio-row">';
+        html += '<div class="para-content">';
+        html += '<p class="passage-paragraph">';
+        for (const sent of passage.sentences) {
+          html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+        }
+        html += '</p>';
+        html += '<div class="passage-ja-block">';
+        for (const sent of passage.sentences) {
+          html += `<span class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</span>`;
+        }
+        html += '</div>';
+        html += '</div>';
+        html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
+        html += '</div>';
       }
-      html += '</p>';
-      html += '<div class="passage-ja-block">';
-      for (const sent of passage.sentences) {
-        html += `<span class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</span>`;
-      }
-      html += '</div>';
-      html += '</div>';
-      html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
-      html += '</div>';
     }
 
     // Paragraphs: multiple <p> blocks with per-paragraph audio buttons
@@ -208,10 +329,22 @@ function renderPassage() {
           html += '<div class="para-content">';
           html += '<p class="passage-paragraph">';
           for (const sent of para) {
-            if (sent.comment_marker) {
-              html += '<sup class="comment-marker">' + sent.comment_marker + '</sup>';
+            // Show marker BEFORE sentence (default) unless marker_position is 'after'
+            if (sent.comment_marker && sent.marker_position !== 'after') {
+              const caret = sent.marker_type === 'caret' ? ' <span class="caret-mark">∧</span>' : '';
+              html += '<sup class="comment-marker">' + sent.comment_marker + '</sup>' + caret + ' ';
             }
-            html += '<span class="sentence" data-sid="' + sent.id + '">' + sent.en + '</span> ';
+            // Render sentence text with optional underline word
+            let sentText = sent.en;
+            if (sent.underline_word) {
+              sentText = sentText.replace(sent.underline_word, '<span class="underline-word">' + sent.underline_word + '</span>');
+            }
+            html += '<span class="sentence" data-sid="' + sent.id + '">' + sentText + '</span> ';
+            // Show marker AFTER sentence
+            if (sent.comment_marker && sent.marker_position === 'after') {
+              const caret = sent.marker_type === 'caret' ? ' <span class="caret-mark">∧</span>' : '';
+              html += '<sup class="comment-marker">' + sent.comment_marker + '</sup>' + caret;
+            }
           }
           html += '</p>';
           html += '<div class="passage-ja-block">';
@@ -240,6 +373,17 @@ function renderPassage() {
           // Normal paragraph rendering (no blocks)
           html += '<div class="para-audio-row">';
           html += '<div class="para-content">';
+          // Insert passage images that target this paragraph
+          if (passage.images) {
+            const imgBase = currentDataPath.replace(/data\.json$/, '');
+            for (const img of passage.images) {
+              if (img.paragraph_index === pi) {
+                const floatClass = img.position === 'float-left' ? 'passage-img-float-left' : 'passage-img-float-right';
+                const styleAttr = img.max_width ? ` style="max-width:${img.max_width}px"` : '';
+                html += `<img src="${imgBase}${img.src}" alt="${img.alt || ''}" class="passage-img ${floatClass}"${styleAttr}>`;
+              }
+            }
+          }
           html += '<p class="passage-paragraph">';
           for (const sent of para) {
             html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
@@ -252,6 +396,24 @@ function renderPassage() {
           html += '</div>';
           html += '</div>';
           html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
+          html += '</div>';
+        }
+
+        // Graph image after specified paragraph (1-indexed)
+        if (passage.graph_image && passage.graph_image.after_paragraph === (pi + 1)) {
+          const imgBase = currentDataPath.replace(/data\.json$/, '');
+          html += `<div class="chart-image-container"><img class="chart-image" src="${imgBase}${passage.graph_image.src}" alt="${passage.graph_image.alt || 'Graph'}"></div>`;
+        }
+        // Info box with image after specified paragraph (1-indexed)
+        if (passage.info_box && passage.info_box.after_paragraph === (pi + 1)) {
+          const imgBase = currentDataPath.replace(/data\.json$/, '');
+          html += '<div class="info-box">';
+          if (passage.info_box.title) {
+            html += `<div class="info-box-title">${passage.info_box.title.en}</div>`;
+          }
+          if (passage.info_box.image_src) {
+            html += `<div class="info-box-image"><img src="${imgBase}${passage.info_box.image_src}" alt="${passage.info_box.image_alt || ''}"></div>`;
+          }
           html += '</div>';
         }
       }
@@ -319,6 +481,38 @@ function renderPassage() {
 
       if (hasComments) {
         html += '</tbody></table>';
+      }
+
+      // Data table (e.g. Monthly Rent)
+      if (passage.table) {
+        const tbl = passage.table;
+        html += '<div class="data-table-container">';
+        if (tbl.title) {
+          html += `<div class="data-table-title">${tbl.title.en}</div>`;
+        }
+        html += '<table class="data-table"><thead><tr>';
+        for (const h of tbl.headers) {
+          html += `<th>${h.replace(/\n/g, '<br>')}</th>`;
+        }
+        html += '</tr></thead><tbody>';
+        for (const row of tbl.rows) {
+          html += '<tr>';
+          for (let ci = 0; ci < row.cells.length; ci++) {
+            const isNA = row.na_cells && row.na_cells.includes(ci);
+            html += `<td${isNA ? ' class="na-cell"' : ''}>${row.cells[ci]}</td>`;
+          }
+          html += '</tr>';
+        }
+        html += '</tbody></table>';
+        if (tbl.source_url) {
+          html += `<div class="data-table-source">${tbl.source_url}</div>`;
+        }
+        html += '</div>';
+      }
+
+      // Footer note (e.g. deposits info)
+      if (passage.footer_note) {
+        html += `<div class="passage-footer-note"><strong>${passage.footer_note.en}</strong></div>`;
       }
     }
 
@@ -389,26 +583,36 @@ function renderPassage() {
       }
     }
 
+    // ===== Step label rendering =====
+    if (passage.step_label) {
+      html += `<div class="step-heading">${passage.step_label.en}</div>`;
+    }
+
     // ===== Authors rendering (大問6: Step1) =====
     if (passage.authors) {
       for (const author of passage.authors) {
-        const audioFile = `${audioBase}s${sec.section_number}_${author.id}.mp3`;
+        const authorId = author.name.en.split('(')[0].trim().replace(/ /g, '_').toLowerCase();
         html += '<div class="author-block">';
-        html += `<div class="author-label"><strong>${author.label.en}</strong></div>`;
-        html += '<div class="para-audio-row">';
-        html += '<div class="para-content">';
-        html += '<p class="passage-paragraph">';
-        for (const s of author.sentences) {
-          html += `<span class="sentence" data-sid="${s.id}">${s.en}</span> `;
+        html += `<div class="author-label"><strong>${author.name.en}</strong></div>`;
+        for (let pi = 0; pi < author.paragraphs.length; pi++) {
+          const para = author.paragraphs[pi];
+          const audioFile = `${audioBase}s${secNum}_${authorId}_p${pi + 1}.mp3`;
+          html += '<div class="para-audio-row">';
+          html += '<div class="para-content">';
+          html += '<p class="passage-paragraph">';
+          for (const s of para) {
+            html += `<span class="sentence" data-sid="${s.id}">${s.en}</span> `;
+          }
+          html += '</p>';
+          html += '<div class="passage-ja-block">';
+          for (const s of para) {
+            html += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div>`;
+          }
+          html += '</div></div>';
+          html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
+          html += '</div>';
         }
-        html += '</p>';
-        html += '<div class="passage-ja-block">';
-        for (const s of author.sentences) {
-          html += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div>`;
-        }
-        html += '</div></div>';
-        html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
-        html += '</div></div>';
+        html += '</div>';
       }
       // Navigation cue: answer 問1 and 問2 after reading Step 1
       html += `<div class="step-nav-cue" data-target-qids="問1,問2">
@@ -417,52 +621,83 @@ function renderPassage() {
       </div>`;
     }
 
-    // ===== Step2: Take a position =====
-    if (passage.is_step2) {
-      if (passage.position) {
-        const posText = passage.position.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
-        html += `<div class="step-position"><strong><u>${posText}</u></strong></div>`;
+    // ===== Step2: Position rendering (大問6) =====
+    if (passage.position) {
+      const pos = passage.position;
+      html += '<div class="position-box">';
+      if (pos.title) {
+        const titleText = pos.title.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+        html += `<div class="position-title"><strong><u>${titleText}</u></strong></div>`;
       }
-      if (passage.position_details) {
-        html += '<ul class="step-details">';
-        for (const d of passage.position_details) {
-          const detailText = d.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
-          html += `<li>${detailText}</li>`;
+      if (pos.bullets) {
+        html += '<ul class="position-bullets">';
+        for (const b of pos.bullets) {
+          const bText = b.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += `<li>${bText}</li>`;
         }
         html += '</ul>';
       }
+      html += '</div>';
       // Navigation cue: answer 問3 after Step 2
-      html += `<div class="step-nav-cue" data-target-qids="問3">
+      html += `<div class="step-nav-cue" data-target-qids="問3a,問3b,問3c">
         <span class="step-nav-icon">📝</span>
         <span class="step-nav-text">ここまで読んだら <strong>問3</strong> を解答 →</span>
       </div>`;
     }
 
-    // ===== Step3: Outline =====
-    if (passage.is_step3 && passage.outline) {
-      const o = passage.outline;
-      html += '<div class="outline-label">Outline of your essay:</div>';
-      html += '<div class="outline-box">';
-      html += `<div class="outline-title"><em>${o.essay_title.en}</em></div>`;
-      html += `<div class="outline-section"><strong><em>Introduction</em></strong></div>`;
-      html += `<div class="outline-content">${o.introduction.en}</div>`;
-      html += `<div class="outline-section"><strong><em>Body</em></strong></div>`;
-      for (const reason of o.body) {
-        const rText = reason.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
-        html += `<div class="outline-reason">${rText}</div>`;
+    // ===== Sources rendering (大問6: Step3 sources) =====
+    if (passage.sources) {
+      for (const source of passage.sources) {
+        const sourceId = source.name.en.replace(/ /g, '_').toLowerCase();
+        html += `<div class="source-block">`;
+        html += `<div class="source-label"><strong>${source.name.en}</strong></div>`;
+        for (let pi = 0; pi < source.paragraphs.length; pi++) {
+          const para = source.paragraphs[pi];
+          const audioFile = `${audioBase}s${secNum}_${sourceId}_p${pi + 1}.mp3`;
+          html += '<div class="para-audio-row">';
+          html += '<div class="para-content">';
+          html += '<p class="passage-paragraph">';
+          for (const s of para) {
+            html += `<span class="sentence" data-sid="${s.id}">${s.en}</span> `;
+          }
+          html += '</p>';
+          html += '<div class="passage-ja-block">';
+          for (const s of para) {
+            html += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div>`;
+          }
+          html += '</div></div>';
+          html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
+          html += '</div>';
+          // Graph image after specified paragraph
+          if (source.graph_image && source.graph_image.after_paragraph === (pi + 1)) {
+            const imgBase = currentDataPath.replace(/data\.json$/, '');
+            html += `<div class="chart-image-container"><img class="chart-image" src="${imgBase}${source.graph_image.src}" alt="${source.graph_image.alt || 'Graph'}"></div>`;
+          }
+        }
+        html += '</div>';
       }
-      html += `<div class="outline-section"><strong><em>Conclusion</em></strong></div>`;
-      html += `<div class="outline-content">${o.conclusion.en}</div>`;
-      html += '</div>';
-    }
 
-    // ===== Source with chart image (大問6: Source B) =====
-    if (passage.is_source_with_chart && passage.chart_image) {
-      html += `<div class="chart-image-container"><img class="chart-image" src="${passage.chart_image.src}" alt="${passage.chart_image.alt || 'Chart'}"></div>`;
-    }
+      // Outline rendering
+      if (passage.outline) {
+        const o = passage.outline;
+        html += '<div class="outline-box">';
+        html += `<div class="outline-title">${o.title.en}</div>`;
+        for (const sec2 of o.sections) {
+          html += `<div class="outline-section"><strong><em>${sec2.label.en}</em></strong></div>`;
+          if (sec2.content) {
+            html += `<div class="outline-content">${sec2.content.en}</div>`;
+          }
+          if (sec2.reasons) {
+            for (const reason of sec2.reasons) {
+              const rText = reason.text.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="outline-reason">${reason.label}: ${rText}</div>`;
+            }
+          }
+        }
+        html += '</div>';
+      }
 
-    // Navigation cue: answer 問4 and 問5 after reading Source B
-    if (passage.id === 'source_b') {
+      // Navigation cue: answer 問4 and 問5 after reading sources
       html += `<div class="step-nav-cue" data-target-qids="問4,問5">
         <span class="step-nav-icon">📝</span>
         <span class="step-nav-text">ここまで読んだら <strong>問4</strong> と <strong>問5</strong> を解答 →</span>
@@ -483,7 +718,9 @@ function renderPassage() {
           html += `<div class="notes-outline-slot"><span class="answer-slot">${slot}</span></div>`;
         }
         html += '</div>';
-        html += `<div class="notes-outline-end">${so.end.en}</div>`;
+        if (so.end) {
+          html += `<div class="notes-outline-end">${so.end.en}</div>`;
+        }
       }
 
       // About Sam
@@ -513,6 +750,136 @@ function renderPassage() {
         }
         html += '</ul>';
       }
+
+      // Research notes (generic sections with heading + items)
+      if (passage.research_sections) {
+        for (const rsec of passage.research_sections) {
+          html += `<div class="notes-heading">${rsec.heading.en}</div>`;
+          html += '<ul class="notes-list">';
+          for (const item of rsec.items) {
+            const text = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<li>${text}</li>`;
+          }
+          html += '</ul>';
+        }
+      }
+
+      // Event sequence (timeline with slots)
+      if (passage.event_sequence) {
+        const es = passage.event_sequence;
+        html += `<div class="notes-heading">${es.heading.en}</div>`;
+        html += '<div class="notes-outline-start">' + es.start.en + '</div>';
+        html += '<div class="notes-outline-slots">';
+        for (const slot of es.slots) {
+          html += `<div class="notes-outline-slot"><span class="answer-slot">${slot}</span></div>`;
+        }
+        html += '</div>';
+      }
+
+      // Legacy sections (heading + single slot item)
+      if (passage.legacy_section) {
+        const ls = passage.legacy_section;
+        html += `<div class="notes-heading">${ls.heading.en}</div>`;
+        const text = ls.content.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+        html += `<div class="notes-outline-start">${text}</div>`;
+      }
+
+      // Lessons learned (heading + slot items)
+      if (passage.lessons) {
+        const ll = passage.lessons;
+        html += `<div class="notes-heading">${ll.heading.en}</div>`;
+        html += '<ul class="notes-list">';
+        for (const item of ll.items) {
+          const text = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += `<li>${text}</li>`;
+        }
+        html += '</ul>';
+      }
+
+      // Note sections (大問7: 発表ノートの各セクション)
+      if (passage.note_sections) {
+        if (passage.subtitle_slot) {
+          html += `<div class="notes-subtitle-slot">${passage.subtitle_slot.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>')}</div>`;
+        }
+        for (const ns of passage.note_sections) {
+          html += `<div class="notes-heading">${ns.heading.en}</div>`;
+          if (ns.is_timeline) {
+            html += '<div class="notes-timeline">';
+            for (const item of ns.items) {
+              if (item.is_slot) {
+                html += `<div class="notes-timeline-slot"><span class="answer-slot">${item.en.replace(/[\[\]]/g, '')}</span></div>`;
+              } else {
+                html += `<div class="notes-timeline-item">${item.en}</div>`;
+              }
+            }
+            html += '</div>';
+          } else {
+            html += '<ul class="notes-list">';
+            for (const item of ns.items) {
+              const text = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<li>${text}</li>`;
+            }
+            html += '</ul>';
+          }
+        }
+      }
+    }
+
+    // Presentation slides (image-based, e.g. 大問8)
+    if (passage.presentation_image) {
+      const basePath = currentDataPath.replace(/[^/]*$/, '');
+      const imgSrc = basePath + passage.presentation_image;
+      html += `<div class="presentation-slides"><img src="${imgSrc}" alt="Presentation slides" style="max-width:100%; border:1px solid #ccc; border-radius:4px;"></div>`;
+    }
+
+    // ===== Poster rendering (大問8) =====
+    if (passage.is_poster) {
+      const imgBase = currentDataPath.replace(/data\.json$/, '');
+      html += '<div class="poster-box">';
+      // Poster title
+      if (passage.poster_title) {
+        html += `<div class="poster-title-wrap"><span class="poster-title">${passage.poster_title.en}</span></div>`;
+      }
+      // Intro slot ([41])
+      if (passage.poster_intro_slot) {
+        html += `<p>${passage.poster_intro_slot.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>')}</p>`;
+      }
+      // Section label + table
+      if (passage.poster_section_label) {
+        html += `<div class="poster-section-label">${passage.poster_section_label.en}</div>`;
+      }
+      if (passage.poster_table) {
+        const pt = passage.poster_table;
+        html += '<table class="poster-table"><tr>';
+        for (const h of pt.headers) {
+          html += `<th>${h}</th>`;
+        }
+        html += '</tr>';
+        for (const row of pt.rows) {
+          html += '<tr>';
+          html += `<td style="text-align:center;">${row.type_num}</td>`;
+          html += '<td>';
+          html += `${row.cause.en}`;
+          if (row.cause_image) {
+            html += `<br><img src="${imgBase}${row.cause_image}" alt="${row.cause.en}" style="max-width:60px; margin-top:4px;">`;
+          }
+          html += '</td>';
+          html += `<td>${row.theory.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>')}</td>`;
+          html += `<td>${row.origins.en}</td>`;
+          html += '</tr>';
+        }
+        html += '</table>';
+      }
+      // Solutions section
+      if (passage.poster_solutions_label) {
+        html += `<div class="poster-section-label">${passage.poster_solutions_label.en}</div>`;
+        html += '<div class="poster-solutions">';
+        for (const slot of passage.poster_solutions_slots) {
+          html += `<div>${slot.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>')}</div>`;
+        }
+        html += '</div>';
+      }
+      html += '</div>';
     }
 
     html += '</div>';
@@ -676,7 +1043,13 @@ function renderQuestions() {
   const sec = currentSection;
   let html = '';
 
+  let prevSubLabel = null;
   for (const q of sec.questions) {
+    // Insert subsection label header when transitioning between A/B
+    if (q._subsectionLabel && q._subsectionLabel !== prevSubLabel) {
+      html += `<div class="subsection-label">${sec.title} ${q._subsectionLabel}</div>`;
+      prevSubLabel = q._subsectionLabel;
+    }
     const qIdx = getQuestionIndex(q.question_id);
     html += `<div class="question-block" data-qid="${q.question_id}">`;
 

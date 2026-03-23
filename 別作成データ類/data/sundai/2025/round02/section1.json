@@ -1,0 +1,68 @@
+{
+    "theme": "ショッピングモールの環境保護プログラム",
+    "theme_translation": "あなたは自分の通う大学の近くにあるショッピングモールのウェブサイトを見ています。そこで，ショッピングモールが行う環境保護プログラムについての情報を見つけます。",
+    "passage": [
+        "Reuse Your clothes & reboot your life!",
+        "Special coupons for your old favorites",
+        "It takes a lot of natural resources to make the clothes we wear every day. However, last year the amount of dumped clothes was 11 million tons in America alone - worse than ever!\nSo how can we tackle this issue? Reuse!",
+        "Our project\nOur clothing-collecting project just started three years ago. You can help us like this:",
+        "1. Instead of throwing your unwanted clothes away, please bring them to us at Silver Sky Mall.\n2. Turn in your clothes (any brands, in any condition) at the register.\n※We accept items bought at shops other than ours.\n3. We will give you a $5 coupon per one item to make your next purchase at our mall. (You can bring up to three items at one time; if you bring a member's card or sign up for one, you can donate one more item.)",
+        "Last year, thanks to you, we collected one ton of textiles and successfully reused them. Collected garments will be reworn by someone, remade into new clothes, or recycled into other products like shopping bags or machine parts.",
+        "Date\nSat. April 20th - Tues. April 23rd, 9:00 a.m. - 4:00 p.m.\n※You can participate in this campaign once per person during this period.",
+        "Want items at special prices?\nSome collected clothes will be sold as secondhand clothing at our mall from May.\nDuring this event, if you want to look at pictures of the items, please visit the special website.\nhttps://silversky.trade-in.example"
+    ],
+    "translations": [
+        "あなたは自分の通う大学の近くにあるショッピングモールのウェブサイトを見ています。そこで，ショッピングモールが行う環境保護プログラムについての情報を見つけます。",
+        "服を再利用して，新生活を始めよう！\n昔大好きだった服を，特別なクーポンに",
+        "私たちが毎日着ている服をつくるために，天然資源が多く使用されています。しかし，昨年捨てられた服の量は，アメリカだけでも1,100万トンにのぼりました。これは過去最悪の数字です！\nそこで，この問題に対して私たちにできることは何でしょうか？それは，再利用です！",
+        "私たちの取り組み\n私たちの服回収計画は，ちょうど3年前に開始されました。以下のようにして参加していただくことが可能です：",
+        "1.不要な服は，捨てるのではなく，私たちシルバースカイモールにお持ちください。\n2．服（ブランドや状態は問いません）をレジまでお持ちください。\n※シルバースカイモール以外の店舗で購入されたアイテムも受け付けています。\n3,1点につき，当モールでの次のお買い物時に使える5ドルのクーポンを1枚差し上げます。（一度に3点までご持参いただけます。もしメンバーズカードをお持ちになるか，メンバーズカードにお申し込みいただければ，追加でもう1点寄付いただくことが可能です）",
+        "昨年は皆様のおかげで,1トン分の服地が回収でき，その再利用に成功しました。回収された服は，他のどなたかが再び着る場合，新しい服に作り変えられる場合，そして買い物袋や機械の部品など他の製品にリサイクルされる場合があります。",
+        "日程\n4月20日土曜日～4月23日火曜日\n午前9時～午後4時\n※このキャンペーンには､上記の期間中おひとり様につき1回のみご参加可能です。",
+        "特別な価格で衣服を手に入れたい？\n回収された衣服の一部は，古着として5月から私たちのショッピングモールで売りに出されます。このイベントの開催中，もし品物の写真を見たい場合は，特設ウェブサイトをご覧ください。\nhttps://silversky.trade-in.example"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 2,
+            "question_text": "If you have a member's card, you can get coupons for a maximum of [ 1 ]",
+            "choices": [
+                "$10",
+                "$15",
+                "$20",
+                "$25"
+            ],
+            "answer": "3",
+            "explanation": "正解は③。Our projectの3の項目(We will give…)に,｢服1点につき5ドル分のクーポンがもらえる｣，「一度に3点まで服を持ってくることが可能｣，「メンバーズカードがあれば1点追加で持ってくることが可能」とあるため，5ドル×4で20ドル。Dateの項目に「期間中おひとり様につき1回のみご参加可能です」とあり，これ以上追加でクーポンを取得することはできないため，正解は③。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 2,
+            "question_text": "Last year was [ 2 ]",
+            "choices": [
+                "the beginning of the distribution of coupons on the website",
+                "the first time Silver Sky Mall had collected more than 1,000 kg of unwanted garments",
+                "the first year of this clothes-collecting program",
+                "the worst year for the amount of wasted clothes in the US"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。表の一番上の説明の第2文(However, last year…)に,昨年はアメリカで1,100万トンの服が捨てられ，それは過去最悪だったと記述があるため，④が正解。\nウェブサイト上でのクーポン配布については記述がないため,①は誤り。②は,｢初めて」や「1,000kgを上回る」という部分が，本文の内容と合わない。この衣服回収計画は3年前に始まったという記述があるため③も誤り。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 2,
+            "question_text": "During this program, you cannot [ 3 ]",
+            "choices": [
+                "bring clothes purchased from other countries",
+                "check on the Internet what items will be sold",
+                "send in the clothes you want to sell by mail",
+                "use the coupon next time you come to the mall"
+            ],
+            "answer": "3",
+            "explanation": "正解は③。「売りたい服を郵送できる」という記述は本文中にないため,③が正解。\n他の場所で買った衣服を持ってきても良いと書いてあるため，①は誤り。古着として売りに出される品物はウェブサイトで写真が見られるとあるため，②は誤り。クーポンは次にモールで買い物をするときに使用できると書いてあるため,④は誤り。"
+        }
+    ]
+}

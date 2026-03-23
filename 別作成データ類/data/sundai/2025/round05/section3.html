@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第3問 - 共通テスト英語問題DB</title>
+  <link rel="stylesheet" href="../../../../style.css">
+  <style>
+    .article-with-image { display: flex; gap: 16px; margin-bottom: 12px; }
+    .article-with-image .article-text { flex: 1; }
+    .article-with-image .article-img { flex: 0 0 150px; text-align: center; }
+    .article-with-image .article-img img { width: 140px; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .article-with-image { flex-direction: column; }
+      .article-with-image .article-img { flex: none; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="exam-header">
+    <a href="../../../../index.html" class="back-btn">← 問題一覧に戻る</a>
+    <div class="exam-title">駿台実戦 2025 第5回</div>
+    <div class="score-display">配点: 9点</div>
+  </div>
+
+  <div class="exam-container" data-section="section3">
+    <h1 class="section-heading">第3問</h1>
+    <p class="section-points">配点 9点（問1: 3点*、問2: 3点、問3: 3点）<br>* は，全部正解の場合のみ点を与える。</p>
+
+    <div class="passage-intro">
+      Your friend in the U.S. introduced his favorite musician to you. Wanting to learn more, you found the following article in a music magazine.
+    </div>
+
+    <div class="passage-box">
+      <div class="passage-title">Bob Marley, the Soul of Reggae</div>
+      <hr>
+      <div class="article-with-image">
+        <div class="article-text">
+          <p>Bob Marley was born on February 6, 1945. He was a Jamaican reggae singer, songwriter, musician, and guitarist who achieved international fame and is still highly praised by his enthusiastic fans. Starting out in 1963 with the group <em>The Wailers</em>, he created a distinctive songwriting and vocal style that would soon be received with admiration by audiences worldwide. After <em>The Wailers</em> broke up in 1974, Marley pursued a solo career that reached its peak with the release of the album <em>Exodus</em> in June, 1977. It is certain that the album established his worldwide reputation and led to his status as one of the world's best-selling artists of all time, with sales of more than 75 million records.</p>
+        </div>
+        <div class="article-img">
+          <img src="../../../../images/sundai_2025_05/illust_bob_marley.png" alt="Bob Marley illustration">
+        </div>
+      </div>
+
+      <p>Bob Marley was a committed Rastafarian, an Abrahamic religion which developed in Jamaica in the 1930s. This religion inspired him and filled his music with a sense of spirituality. The <em>Rastafari movement</em> was a key element in the development of reggae. As a passionate supporter of Rastafari, Bob Marley took reggae music out of the socially deprived areas of Jamaica and onto the international music scene.</p>
+
+      <p>In July, 1977, Marley was found to be suffering from a type of fatal disease under the nail of one of his toes. His doctors strongly advised him to have an operation on it. However, Marley turned down their advice, citing his religious beliefs. In spite of his illness, he continued touring until his health grew worse as the cancer spread throughout his body. He died on 11 May 1981 at Cedars of Lebanon Hospital in Miami (now University of Miami Hospital) at the age of 36. The spread of the cancer to his lungs and brain caused his death. His final words to his son Ziggy were: "Money can't buy life."</p>
+    </div>
+
+    <!-- 問1: 時系列並べ替え (9→10→11→12) 全部正解のみ3点 -->
+    <div class="question-block" data-question="section3_9">
+      <div class="question-label">問1</div>
+      <div class="question-text">Put the following events (①〜④) into the order in which they happened.<br>
+      <span class="answer-box">9</span> → <span class="answer-box">10</span> → <span class="answer-box">11</span> → <span class="answer-box">12</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section3', 9, 1)">
+          <span class="choice-number">①</span>
+          <span>Marley began to sing solo.</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section3', 9, 2)">
+          <span class="choice-number">②</span>
+          <span>Marley didn't stop his tours after he discovered his disease.</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section3', 9, 3)">
+          <span class="choice-number">③</span>
+          <span>Marley joined the group <em>The Wailers</em>.</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section3', 9, 4)">
+          <span class="choice-number">④</span>
+          <span>The album <em>Exodus</em> was released.</span>
+        </button>
+      </div>
+      <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 12px;">※ 9に入る選択肢を選んでください</p>
+    </div>
+
+    <div class="question-block" data-question="section3_10">
+      <div class="question-label">問1（続き: 10の解答）</div>
+      <div class="question-text">10に入る選択肢を選んでください。</div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section3', 10, 1)">
+          <span class="choice-number">①</span>
+          <span>Marley began to sing solo.</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section3', 10, 2)">
+          <span class="choice-number">②</span>
+          <span>Marley didn't stop his tours after he discovered his disease.</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section3', 10, 3)">
+          <span class="choice-number">③</span>
+          <span>Marley joined the group <em>The Wailers</em>.</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section3', 10, 4)">
+          <span class="choice-number">④</span>
+          <span>The album <em>Exodus</em> was released.</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section3_11">
+      <div class="question-label">問1（続き: 11の解答）</div>
+      <div class="question-text">11に入る選択肢を選んでください。</div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section3', 11, 1)">
+          <span class="choice-number">①</span>
+          <span>Marley began to sing solo.</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section3', 11, 2)">
+          <span class="choice-number">②</span>
+          <span>Marley didn't stop his tours after he discovered his disease.</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section3', 11, 3)">
+          <span class="choice-number">③</span>
+          <span>Marley joined the group <em>The Wailers</em>.</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section3', 11, 4)">
+          <span class="choice-number">④</span>
+          <span>The album <em>Exodus</em> was released.</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section3_12">
+      <div class="question-label">問1（続き: 12の解答）</div>
+      <div class="question-text">12に入る選択肢を選んでください。</div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section3', 12, 1)">
+          <span class="choice-number">①</span>
+          <span>Marley began to sing solo.</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section3', 12, 2)">
+          <span class="choice-number">②</span>
+          <span>Marley didn't stop his tours after he discovered his disease.</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section3', 12, 3)">
+          <span class="choice-number">③</span>
+          <span>Marley joined the group <em>The Wailers</em>.</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section3', 12, 4)">
+          <span class="choice-number">④</span>
+          <span>The album <em>Exodus</em> was released.</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 問2 -->
+    <div class="question-block" data-question="section3_13">
+      <div class="question-label">問2</div>
+      <div class="question-text">Marley refused to be taken care of by his doctors because <span class="answer-box">13</span>.</div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section3', 13, 1)">
+          <span class="choice-number">①</span>
+          <span>he thought it was too late to have an operation</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section3', 13, 2)">
+          <span class="choice-number">②</span>
+          <span>he was busy doing concert tours</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section3', 13, 3)">
+          <span class="choice-number">③</span>
+          <span>he was following his faith</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section3', 13, 4)">
+          <span class="choice-number">④</span>
+          <span>his cancer was at an early stage</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 問3 -->
+    <div class="question-block" data-question="section3_14">
+      <div class="question-label">問3</div>
+      <div class="question-text">From this story, you learned that <span class="answer-box">14</span>.</div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section3', 14, 1)">
+          <span class="choice-number">①</span>
+          <span>a religion had an influence on Marley's music</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section3', 14, 2)">
+          <span class="choice-number">②</span>
+          <span>a religion made Marley move to Jamaica</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section3', 14, 3)">
+          <span class="choice-number">③</span>
+          <span>Marley didn't get along with his band members</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section3', 14, 4)">
+          <span class="choice-number">④</span>
+          <span>Marley's music deprived his country of money</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="submit-area">
+      <button class="submit-btn" id="submit-section3" onclick="gradeSection('section3')" disabled>採点する (0/6)</button>
+    </div>
+
+    <div class="result-panel" id="result-section3">
+      <div class="result-score"></div>
+      <div class="result-label"></div>
+    </div>
+  </div>
+
+  <div class="exam-footer">
+    共通テスト英語問題データベース &copy; 2025 | 駿台実戦問題集 2025 第5回
+  </div>
+
+  <script src="../../../../app.js"></script>
+</body>
+</html>

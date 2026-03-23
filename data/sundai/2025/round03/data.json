@@ -1,0 +1,3785 @@
+{
+  "exam_info": {
+    "title": "2025年駿台共通テスト実戦問題集",
+    "round": 3,
+    "round_label": "第3回",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 46,
+    "source_pdf_mondai": "第3回_問題.pdf",
+    "source_pdf_kaitou": "第3回_解答.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "situation": {
+        "en": "You are a university student in the US and you are interested in joining a creative writing summer course. You find a website for such a course.",
+        "ja": "あなたはアメリカの大学生で，クリエイティブ・ライティングの夏期講座を受講しようと考えています。あなたはウェブサイトでそのような講座を見つけます。"
+      },
+      "passages": [
+        {
+          "id": "website",
+          "title": {
+            "en": "YCW Seattle",
+            "ja": "YCWシアトル"
+          },
+          "subtitle": {
+            "en": "One Week Intensive Course",
+            "ja": "1週間集中講座"
+          },
+          "sentences": [
+            {
+              "id": "s1_s1",
+              "en": "Join YCW's fifth annual intensive creative writing course.",
+              "ja": "毎年恒例の第5回YCWクリエイティブ・ライティング集中講座にご参加ください。"
+            },
+            {
+              "id": "s1_s2",
+              "en": "Stay with other young writers in the camp and learn from published writers and artists.",
+              "ja": "キャンプで他の若いライターたちと共に過ごし，出版歴のある作家や芸術家から学んでください。"
+            },
+            {
+              "id": "s1_s3a",
+              "en": "Dates: August 20th to 27th 2023.",
+              "ja": "日程：2023年8月20日から27日。"
+            },
+            {
+              "id": "s1_s3b",
+              "en": "Location: Camp YCW, Lake Washington, Seattle.",
+              "ja": "場所：シアトル，ワシントン湖，キャンプYCW。"
+            },
+            {
+              "id": "s1_s3c",
+              "en": "Course Price: $750 – accommodation and food provided (bring cash to use in the camp store).",
+              "ja": "受講料：750ドル — 宿泊設備，食事は提供されます（キャンプ内での店舗で使用する現金を持参してください）。"
+            },
+            {
+              "id": "s1_s3d",
+              "en": "Optional Activities: hiking, lake cruise.",
+              "ja": "オプショナル・アクティビティ：ハイキング，湖のクルーズ。"
+            },
+            {
+              "id": "s1_s3",
+              "en": "Shakespeare Course: You will analyze two Shakespeare plays with the help of an award-winning screenwriter.",
+              "ja": "シェイクスピア・コース：受賞歴のある脚本家に補佐してもらい，皆さんはシェイクスピアの戯曲2作品を分析します。"
+            },
+            {
+              "id": "s1_s4",
+              "en": "You will also work in small groups to write a short play which will be performed on the final morning of the course in front of your campmates.",
+              "ja": "また，小グループで寸劇制作に取り組み，講座最終日の午前中にキャンプ参加者の前でそれを上演します。"
+            },
+            {
+              "id": "s1_s5",
+              "en": "Bronte Course: Karen Nelson, a published novelist, will lead this course.",
+              "ja": "ブロンテ・コース：出版歴のある小説家，カレン・ネルソンがこの講座の講師です。"
+            },
+            {
+              "id": "s1_s6",
+              "en": "She will teach you the basics of writing, techniques for storytelling, and how to get your work published.",
+              "ja": "彼女がライティングの基礎，ストーリーテリングの手法，作品の出版方法について指導します。"
+            },
+            {
+              "id": "s1_s7",
+              "en": "Your short stories will be made into a book, which you will receive in the mail a week after the course.",
+              "ja": "あなたの短編は製本され，講座終了後1週間で郵送で届きます。"
+            },
+            {
+              "id": "s1_s8",
+              "en": "Lee Course: Named after Stan Lee, the creator of some of the world's most famous comics, this course will teach you the basics of comic writing.",
+              "ja": "リー・コース：世界的に最も有名なコミックを複数制作しているスタン・リーの名前にちなんだコースで，コミック作りの基礎を指導します。"
+            },
+            {
+              "id": "s1_s9",
+              "en": "You will also learn about Japanese manga from published manga artist Kana Kagawa.",
+              "ja": "また，出版歴のある漫画家，カナ・カガワから日本の漫画についても学習します。"
+            },
+            {
+              "id": "s1_s10",
+              "en": "Your work will be shown as a slide presentation to your campmates on the final evening.",
+              "ja": "最後の夜には，皆さんの作品をスライド上映してキャンプの参加者に披露します。"
+            },
+            {
+              "id": "s1_s11",
+              "en": "How to Apply: 1. Complete the online application form by June 7th, 2023. Please state your preferred course.",
+              "ja": "応募要項：1. 2023年6月7日までにオンラインの申込書に記入してください。希望するコースを明記してください。"
+            },
+            {
+              "id": "s1_s12",
+              "en": "2. You will receive email confirmation of your place after June 8th.",
+              "ja": "2. 6月8日以降，参加確認のメールが届きます。"
+            },
+            {
+              "id": "s1_s13",
+              "en": "Please note that places are limited to 20 students for each course. If too many students apply for one course, places will be given at random. Students who do not get their preferred course may cancel their application or join a less popular course.",
+              "ja": "各コースとも定員は学生20名ですので注意してください。1つのコースで応募者数が多すぎる場合は，参加者は無作為に選ばれます。希望コースに参加できなかった学生は，申し込みをキャンセルしても，希望者の少ないコースに参加しても構いません。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "All camp instructors are [1].",
+            "ja": "キャンプの講師は全員，[1]。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "experts whose work has been published or highly evaluated",
+              "ja": "作品が出版されたり高く評価された専門家だ",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "knowledgeable about the Japanese language",
+              "ja": "日本語に精通している",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "qualified teachers of literature",
+              "ja": "資格のある文学の教師だ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "writers who have been awarded a prize for their novels",
+              "ja": "小説が受賞経験のある作家だ",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。冒頭の囲み枠内に「出版歴のある作家や芸術家から学んでください」とある。また，各コースの説明からも「受賞歴のある脚本家」，「出版歴のある小説家」，「出版歴のある漫画家」という，それぞれ専門家の講師だということがわかる。",
+            "evidence_sentences": [
+              "s1_s2",
+              "s1_s3",
+              "s1_s5",
+              "s1_s8",
+              "s1_s9"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "On the last morning of the camp, campers will [2].",
+            "ja": "キャンプ最終日の午前中に，参加者は[2]。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "enjoy a slide presentation of Japanese manga",
+              "ja": "日本の漫画のスライド上映を楽しむ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "go fishing in Lake Washington",
+              "ja": "ワシントン湖へ釣りに出かける",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "read a book created by the Bronte Course students",
+              "ja": "ブロンテ・コースの学生が制作した本を読む",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "watch a play written during the camp",
+              "ja": "キャンプ中に書かれた劇を見る",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。最終日の午前中の活動に関しては，シェイクスピア・コースの説明に「小グループで寸劇制作に取り組み，講座最終日の午前中にキャンプ参加者の前でそれを上演します」とある。\n漫画のスライド上映は最後の夜に行われ，上映されるのはリー・コースの参加者の作品なので①は誤り。②や③のようなことも，本文からは読み取れない。",
+            "evidence_sentences": [
+              "s1_s4"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "漫画のスライド上映は最後の夜に行われ，上映されるのはリー・コースの参加者の作品なので①は誤り。"
+              },
+              {
+                "choice": "②",
+                "reason": "②や③のようなことも，本文からは読み取れない。"
+              },
+              {
+                "choice": "③",
+                "reason": "②や③のようなことも，本文からは読み取れない。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "What will happen if a course is too popular? [3]",
+            "ja": "1つのコースの人気が高すぎる場合はどうなるか。[3]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Each student will have an equal chance of being chosen.",
+              "ja": "各学生には選ばれるチャンスが平等にある。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Each student's writing skills will be checked.",
+              "ja": "各学生の文章能力がチェックされる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Students who applied earlier will be chosen.",
+              "ja": "早く応募した学生が選ばれる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Students will have to take a placement test.",
+              "ja": "学生はクラス分けテストを受けなければならない。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。最後のアステリスク（＊）のあとの第2文に，「1つのコースで応募者数が多すぎる場合は，参加者は無作為に選ばれます」と書かれている。「無作為に選ばれる」ということなので，参加できるかどうかのチャンスは平等だということになる。",
+            "evidence_sentences": [
+              "s1_s13"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "intensive",
+              "ja": "集中的な"
+            },
+            {
+              "en": "published",
+              "ja": "出版歴のある"
+            },
+            {
+              "en": "award-winning",
+              "ja": "受賞歴のある"
+            },
+            {
+              "en": "screenwriter",
+              "ja": "脚本家"
+            },
+            {
+              "en": "campmates",
+              "ja": "キャンプ仲間"
+            },
+            {
+              "en": "novelist",
+              "ja": "小説家"
+            },
+            {
+              "en": "storytelling",
+              "ja": "ストーリーテリング；物語の語り方"
+            },
+            {
+              "en": "manga",
+              "ja": "漫画"
+            },
+            {
+              "en": "at random",
+              "ja": "無作為に"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 10,
+      "points_per_question": 2,
+      "situation": {
+        "en": "You are a member of your school's student council. You and the other members have been discussing how to help the younger students in the school become more active. To get ideas, you are reading an article about a school fitness program a school in the US started.",
+        "ja": "あなたは学校の生徒会の一員です。あなたと他のメンバーは，学校の下級生たちがもっと活動的になるのを促すにはどうしたらよいかということを話し合っています。アイディアを得るために，あなたはアメリカのある学校が始めたスクール・フィットネス・プログラムについての記事を読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Walk-to-School Project",
+            "ja": "徒歩通学プロジェクト"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s2_s1",
+                "en": "Studies have shown that the activity levels of school students are dropping each year.",
+                "ja": "調査によって，生徒たちの活動レベルが年々下がっているということが明らかになっています。"
+              },
+              {
+                "id": "s2_s2",
+                "en": "In addition, fewer students are walking or cycling to school than in previous years.",
+                "ja": "さらに，学校に徒歩，または自転車で通学している生徒の数もこれまでの年より減っています。"
+              },
+              {
+                "id": "s2_s3",
+                "en": "This lack of exercise means that students are becoming unhealthy and overweight.",
+                "ja": "このような運動不足は，生徒たちが不健康で肥満傾向にあることを意味します。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s4",
+                "en": "Although many parents want their children to walk to and from school, they are worried about safety.",
+                "ja": "多くの親御さんは子どもたちには，往復とも徒歩で通学してほしいと思っていますが，安全面での不安があります。"
+              },
+              {
+                "id": "s2_s5",
+                "en": "For that reason, they drive their children to school or put them on a school bus, even though they live within walking distance of school.",
+                "ja": "そのため，たとえ学校まで徒歩圏内に住んでいても，子どもたちを学校まで車で送ったり，スクールバスに乗せたりするのです。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s6",
+                "en": "Our school started the Walk-to-School project on November 1st on a trial basis.",
+                "ja": "当校は11月1日から試験的に徒歩通学プロジェクトを始めました。"
+              },
+              {
+                "id": "s2_s7",
+                "en": "We had a group of students living in the same neighborhood walk to school together with adult supervisors.",
+                "ja": "同じ地区に住む生徒たちが集団になって，監督役の大人の人といっしょに学校まで歩いて行きました。"
+              },
+              {
+                "id": "s2_s8",
+                "en": "Three walking routes were organized, with two adult volunteers per route.",
+                "ja": "各通学路につき大人のボランティアが2人付き添い，3つの徒歩通学路が決まりました。"
+              },
+              {
+                "id": "s2_s9",
+                "en": "Seventy-five students from grades 1 and 2 participated in the beginning, but only 60 students were using the Walk-to-School program by the start of the winter vacation in December.",
+                "ja": "当初，1年生と2年生の75人の生徒が参加したのですが，12月の冬休みが始まる前には，この徒歩通学プログラムを利用していたのは60人だけでした。"
+              },
+              {
+                "id": "s2_s10",
+                "en": "Let's look at feedback from students and parents to find out why.",
+                "ja": "理由を調べるために生徒や保護者のフィードバックを見てみましょう。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s10b",
+                "en": "Student/Parent Feedback",
+                "ja": "生徒／保護者からのフィードバック",
+                "is_section_header": true
+              }
+            ],
+            [
+              {
+                "id": "s2_s11",
+                "en": "M.M. Thanks to this project, many students, including my daughter, have made new friends from different classes.",
+                "ja": "M.M. このプロジェクトのおかげで，私の娘を含む多くの生徒に別のクラスの新しい友達ができました。"
+              },
+              {
+                "id": "s2_s12",
+                "en": "They have also begun to enjoy exercise more.",
+                "ja": "それに，生徒たちは以前より運動を楽しみ始めました。"
+              },
+              {
+                "id": "s2_s13",
+                "en": "I consider it a success.",
+                "ja": "これは成功だと私は思います。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s14",
+                "en": "K.J. I enjoyed the walking in the beginning, but I didn't like it on rainy days.",
+                "ja": "K.J. 私は最初，この徒歩通学を楽しんでいたのですが，雨の日は嫌でした。"
+              },
+              {
+                "id": "s2_s15",
+                "en": "It rains a lot in winter so I'm thinking of taking the bus on rainy days.",
+                "ja": "冬は雨が多いので，雨の日はバスに乗ろうと思います。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s16",
+                "en": "R.B. A few weeks after the project began, both volunteers on my son's route had to retire for family reasons.",
+                "ja": "R.B. プロジェクトが始まって数週間後，息子の通学路にいたボランティアの方がお2人とも，ご家庭の事情で辞めなければならなくなりました。"
+              },
+              {
+                "id": "s2_s17",
+                "en": "I didn't trust the students to walk to school by themselves so I started driving my son to school again, as did other parents.",
+                "ja": "生徒たちだけで学校まで歩いて行かせることはできなかったので，息子を車で学校へ送ることを再開しました。そういう親御さんは他にもいらっしゃいました。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s18",
+                "en": "V.K. My friend wanted to join too but she lives in an area not covered by the project.",
+                "ja": "V.K. 私の友人も参加を希望したのですが，彼女はプロジェクトの対象エリア外に住んでいるのです。"
+              },
+              {
+                "id": "s2_s19",
+                "en": "I wish she could join too.",
+                "ja": "彼女も参加できればよいのにと思います。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s20",
+                "en": "W.L. I love the Walk-to-School project because I can talk to my friends before school and it motivates me to get up early and leave the house on time.",
+                "ja": "W.L. 私は徒歩通学プロジェクトがとても気に入っていますが，理由は学校に着く前に友達とおしゃべりができるので，早起きをして時間通りに家を出ようという気持ちになるからです。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "The aim of the Walk-to-School Project was to [4].",
+            "ja": "徒歩通学プロジェクトの目的は[4]ことだった。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "allow parents free time in the morning",
+              "ja": "親に午前中自由な時間を与える",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "cut transportation costs for parents",
+              "ja": "親の交通費の負担を減らす",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "give students the chance to exercise",
+              "ja": "生徒たちに運動の機会を与える",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "help students get to school on time",
+              "ja": "生徒たちが学校に時間通りに着くことを手伝う",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。このプロジェクトを始めるきっかけは第1段落に書かれている。生徒たちの活動レベルの低下，運動不足がもたらす不健康，肥満傾向への対策としてプロジェクトがスタートした経緯が記されている。\n①，②，④のような記述はない。",
+            "evidence_sentences": [
+              "s2_s1",
+              "s2_s2",
+              "s2_s3"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①，②，④のような記述はない。"
+              },
+              {
+                "choice": "②",
+                "reason": "①，②，④のような記述はない。"
+              },
+              {
+                "choice": "④",
+                "reason": "①，②，④のような記述はない。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "One fact about the Walk-to-School Project is that [5].",
+            "ja": "徒歩通学プロジェクトについての1つの事実は[5]ということだ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "every student participated",
+              "ja": "生徒全員が参加した",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "fifteen students quit the project",
+              "ja": "15人の生徒がプロジェクトを辞めた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "it is a permanent project",
+              "ja": "永続的なプロジェクトである",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "it was canceled on rainy days",
+              "ja": "雨の日は中止になった",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。第3段落第4文（Seventy-five students ...）を見ると，「当初の参加者数は75人だったが，12月の冬休み前には60人になった」，つまり参加した生徒数が15人減ったことがわかる。\n第3段落第4文（Seventy-five students ...）に「1年生と2年生が参加した」とあり，また「生徒／保護者からのフィードバック」では4人目のV.K.が「対象エリア外に住んでいる友人が参加できない」と述べているので，①は誤り。第3段落第1文（Our school started ...）にはこのプロジェクトが「11月1日から試験的に始めた」とあるので，③も誤り。フィードバックの中でK.J.が「雨の日は嫌でした」と述べていることから，このプロジェクトは雨の日にも行われたことがわかるので，④も誤り。",
+            "evidence_sentences": [
+              "s2_s9"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "第3段落第4文（Seventy-five students ...）に「1年生と2年生が参加した」とあり，また「生徒／保護者からのフィードバック」では4人目のV.K.が「対象エリア外に住んでいる友人が参加できない」と述べているので，①は誤り。"
+              },
+              {
+                "choice": "③",
+                "reason": "第3段落第1文（Our school started ...）にはこのプロジェクトが「11月1日から試験的に始めた」とあるので，③も誤り。"
+              },
+              {
+                "choice": "④",
+                "reason": "フィードバックの中でK.J.が「雨の日は嫌でした」と述べていることから，このプロジェクトは雨の日にも行われたことがわかるので，④も誤り。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "From the feedback, [6] were problems reported by students or parents.\n\nA: lack of interest by parents\nB: limited areas included in the project\nC: road conditions in winter\nD: too few volunteers",
+            "ja": "フィードバックによると，[6]は生徒または保護者から報告された問題だった。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A and B",
+              "ja": "AとB",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "A and C",
+              "ja": "AとC",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "A and D",
+              "ja": "AとD",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "B and C",
+              "ja": "BとC",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "B and D",
+              "ja": "BとD",
+              "is_correct": true
+            },
+            {
+              "label": "⑥",
+              "en": "C and D",
+              "ja": "CとD",
+              "is_correct": false
+            }
+          ],
+          "answer": "⑤",
+          "explanation": {
+            "ja": "正解は⑤。V.K.は「友人はプロジェクトの対象エリア外に住んでいるので参加できなかった」という趣旨のフィードバックをしているので，「プロジェクトの対象地域が限定されていること」がもう1つの問題点であると考えられることから，Bは一致する。また，R.B.のフィードバックに「ボランティアがプロジェクトの途中で辞めた」とあるのでDも一致する。\nAのようなフィードバックはない。K.J.は冬に雨が多いとは述べているが，道路状況が問題だとは述べていないので，Cも不適切。",
+            "evidence_sentences": [
+              "s2_s18",
+              "s2_s16"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "A",
+                "reason": "Aのようなフィードバックはない。"
+              },
+              {
+                "choice": "C",
+                "reason": "K.J.は冬に雨が多いとは述べているが，道路状況が問題だとは述べていないので，Cも不適切。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "One of the opinions about the Walk-to-School Project is that [7].",
+            "ja": "徒歩通学プロジェクトに対する意見の1つは[7]ということだ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "it helped many students to get to know other students",
+              "ja": "多くの生徒が他の生徒と知り合うのに役立った",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "it started too early in the morning",
+              "ja": "朝の出発時間が早すぎた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "it was faster than taking the bus",
+              "ja": "バスに乗るよりも速かった",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "parents started to trust their children more",
+              "ja": "親が子どもたちをさらに信頼し始めた",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。フィードバックにM.M.が，「このプロジェクトのおかげで，私の娘を含む多くの生徒に別のクラスの新しい友達ができました」と述べていることから，この内容と合っている①が正解となる。\n②，③，④のような記述はない。",
+            "evidence_sentences": [
+              "s2_s11"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "②",
+                "reason": "②，③，④のような記述はない。"
+              },
+              {
+                "choice": "③",
+                "reason": "②，③，④のような記述はない。"
+              },
+              {
+                "choice": "④",
+                "reason": "②，③，④のような記述はない。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 8,
+          "stem": {
+            "en": "The author's question was answered by [8].",
+            "ja": "筆者の疑問に答えているのは[8]だった。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "K.J.",
+              "ja": "K.J.",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "M.M.",
+              "ja": "M.M.",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "R.B.",
+              "ja": "R.B.",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "V.K.",
+              "ja": "V.K.",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "W.L.",
+              "ja": "W.L.",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。筆者の疑問とは，第3段落第4，5文（Seventy-five students ... / Let's look at ...）で述べられている，「11月に75人でスタートしたプロジェクトが12月の冬休み前までに60人に減ってしまった理由」ということ。R.B.が「ボランティアの人が辞めたために，親たちは再び子どもを車で学校に送り始めた」と述べている。その結果プロジェクトを辞める生徒が生じたと考えられるので，これが疑問に対する答えになっている。",
+            "evidence_sentences": [
+              "s2_s9",
+              "s2_s10",
+              "s2_s16",
+              "s2_s17"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "activity level",
+              "ja": "活動レベル"
+            },
+            {
+              "en": "overweight",
+              "ja": "肥満の"
+            },
+            {
+              "en": "walking distance",
+              "ja": "徒歩圏内"
+            },
+            {
+              "en": "trial basis",
+              "ja": "試験的に"
+            },
+            {
+              "en": "supervisor",
+              "ja": "監督者"
+            },
+            {
+              "en": "volunteer",
+              "ja": "ボランティア"
+            },
+            {
+              "en": "participate",
+              "ja": "参加する"
+            },
+            {
+              "en": "feedback",
+              "ja": "フィードバック；意見"
+            },
+            {
+              "en": "retire",
+              "ja": "辞める；退く"
+            },
+            {
+              "en": "motivate",
+              "ja": "やる気を起こさせる"
+            },
+            {
+              "en": "at random",
+              "ja": "無作為に"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "situation": {
+        "en": "You share an apartment with other exchange students. Your kitchen is messy, so you have decided to clean and organize it. You read the following article written by an expert home organizer.",
+        "ja": "あなたは他の交換留学生たちとアパートをシェアしています。自分たちの台所が散らかっているので，掃除をして整理することに決めました。あなたはベテランのホームオーガナイザーが書いた次の記事を読みます。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Maximizing Kitchen Efficiency",
+            "ja": "キッチン効率の最大化"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s3_s1",
+                "en": "When I first returned to work after having my children, I realized that I needed to make my life as organized and efficient as possible, to stay on schedule, and to maximize the time I could spend with my children.",
+                "ja": "出産後，初めて仕事に復帰したとき，私は生活をできるだけ整理し効率的にして，物事を予定通りに進め，子どもたちと過ごせる時間を最大にする必要があると感じました。"
+              },
+              {
+                "id": "s3_s2",
+                "en": "I noticed that so much of my time involved preparing food, so I decided to organize my kitchen first.",
+                "ja": "自分の時間のかなりの部分が食事の準備に関わっていることに気づいたので，まずキッチンを整理することに決めました。"
+              },
+              {
+                "id": "s3_s3",
+                "en": "Here is how I succeeded in making my kitchen easier to use, and decreasing the amount of time I spent cooking and tidying up.",
+                "ja": "次のように，私はキッチンを使いやすくして，料理や片付けに使う時間を減らすことに成功しました。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s4",
+                "en": "The first step to organizing a kitchen is to get rid of clutter.",
+                "ja": "キッチンを片付ける第一段階は，ごちゃごちゃしたものを処分することです。"
+              },
+              {
+                "id": "s3_s5",
+                "en": "I decided that any items such as plates, dishes or pans that I hadn't used for a year could be sold, recycled, or thrown away.",
+                "ja": "私は1年間使っていない平皿，大皿，なべなどは，どんなものでも売るかリサイクルするか捨てるかしてよいと決めました。"
+              },
+              {
+                "id": "s3_s6",
+                "en": "This freed up a lot of storage space.",
+                "ja": "これで収納スペースがたくさんできました。"
+              },
+              {
+                "id": "s3_s7",
+                "en": "Next, I put all the equipment I use most often near the places I use it.",
+                "ja": "次に，いちばんよく使う器具は全部，私がそれを使う場所の近くに置きました。"
+              },
+              {
+                "id": "s3_s8",
+                "en": "For example, frying pans that I use daily I put in the shelves to the right of the cooker.",
+                "ja": "たとえば，私が毎日使うフライパンはコンロの右にある棚に入れました。"
+              },
+              {
+                "id": "s3_s9",
+                "en": "As a right-handed person, this means I can easily pull the pans out with my right hand and use them on the cooker immediately.",
+                "ja": "私のような右利きの人は，こうすれば簡単に右手でフライパンを取り出し，すぐにコンロの上で使えることになります。"
+              },
+              {
+                "id": "s3_s10",
+                "en": "Coffee cups were placed next to the coffee machine, while storage containers were put on the shelf above the fridge.",
+                "ja": "コーヒーカップはコーヒーメーカーの隣に置き，一方で，収納容器は冷蔵庫の上の棚に入れました。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s11",
+                "en": "After that, I focused on food.",
+                "ja": "その後で，食料品に目を向けました。"
+              },
+              {
+                "id": "s3_s12",
+                "en": "Sometimes when food is in boxes or packages, it is difficult to see how much is left.",
+                "ja": "食料品が箱やパッケージに入っていると，どれくらい残っているのかわかりにくいことがあります。"
+              },
+              {
+                "id": "s3_s13",
+                "en": "I often felt disappointed when I realized a package was almost empty and I had forgotten to buy a replacement.",
+                "ja": "パッケージがほぼ空っぽで，新しいのを買っておくのを忘れていたことに気づいてがっかりすることがよくありました。"
+              },
+              {
+                "id": "s3_s14",
+                "en": "To solve that problem, I bought clear glass jars for items such as cereal, flour, pasta, and sugar so that I can easily see how much is left.",
+                "ja": "その問題を解決するために，私は残りの量が簡単にわかるように，シリアル，小麦粉，パスタ，砂糖などを入れるための透明なガラスのびんを買いました。"
+              },
+              {
+                "id": "s3_s15",
+                "en": "Now, I use my smartphone to take a photo of my shelves before I go to the store so that I can easily check what I need to buy.",
+                "ja": "今では，買わなければいけないものをチェックしやすいように，お店に行く前にスマートフォンを使って棚の写真を撮ります。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s16",
+                "en": "Finally, I made a virtual library of my favorite recipes.",
+                "ja": "最後に，自分の好きなレシピのバーチャル図書館を作りました。"
+              },
+              {
+                "id": "s3_s17",
+                "en": "I often wrote down good meal ideas on scraps of paper or in notepads, but this not only created a pile of paper, it also made it difficult to find what I wanted quickly.",
+                "ja": "私はよく，紙の切れ端やメモ帳に料理のよいアイディアを書いていたのですが，これだと紙の山ができるだけでなく，自分が欲しいものをすぐに見つけるのが難しかったのです。"
+              },
+              {
+                "id": "s3_s18",
+                "en": "Instead, I photographed all my recipes and stored them on my tablet.",
+                "ja": "その代わりに，私は自分のレシピを全部写真に撮って，タブレットに保存しました。"
+              },
+              {
+                "id": "s3_s19",
+                "en": "I threw away all the old paper and now everything is available at the touch of a button.",
+                "ja": "古い紙は全部捨てて，今ではボタンをタッチすれば，どれでも見ることができるのです。"
+              },
+              {
+                "id": "s3_s20",
+                "en": "I can even e-mail them to my husband when it's his turn to cook!",
+                "ja": "夫が料理担当のときには，メールでそれを送ることもできます！"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "stem": {
+            "en": "Put the following events (①~④) into the order they happened.\n[9] → [10] → [11] → [12]",
+            "ja": "次の出来事（①～④）を起きた順番に並べよ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The writer changed the location of her utensils.",
+              "ja": "筆者は道具の置き場所を変えた。"
+            },
+            {
+              "label": "②",
+              "en": "The writer created digital copies of her recipes.",
+              "ja": "筆者は自分のレシピのデジタルコピーを作った。"
+            },
+            {
+              "label": "③",
+              "en": "The writer disposed of unused equipment.",
+              "ja": "筆者は使っていない道具を処分した。"
+            },
+            {
+              "label": "④",
+              "en": "The writer purchased transparent containers.",
+              "ja": "筆者は透明な入れ物を買った。"
+            }
+          ],
+          "answer_sequence": [
+            "③",
+            "①",
+            "④",
+            "②"
+          ],
+          "explanation": {
+            "ja": "正解は③ → ① → ④ → ②。キッチンの片付けについては時系列で書かれているので，順に追っていけばよい。第2段落第1, 2文 (The first step ... / I decided that ...) から，筆者はまず「1年間使っていないごちゃごちゃしたものを処分した」ことがわかる。続く第4文 (Next, I put ...) 以降には，道具を効率的に使えるように「置き場所を変えた」と書かれている。第3段落第4文 (To solve that ...) では，中身が見えないために残りの量がわからない問題を解決するために「透明なガラスのびんを買った」とある。最終段落第1文 (Finally, I made ...) では，「自分の好きなレシピのバーチャル図書館を作った」と書かれている。したがって，正解は③ → ① → ④ → ② となる。",
+            "evidence_sentences": [
+              "s3_s4",
+              "s3_s5",
+              "s3_s7",
+              "s3_s14",
+              "s3_s16",
+              "s3_s18"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 13,
+          "stem": {
+            "en": "If you follow the writer's advice to create an efficient kitchen, you should [13].",
+            "ja": "あなたが筆者のアドバイスに従って効率的なキッチンを作るなら，あなたは[13]べきだ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "avoid throwing away items that are rarely used",
+              "ja": "めったに使わないものを捨てるのはやめる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "make sure items are stored in logical locations",
+              "ja": "ものは必ず合理的な場所に置く",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "use things for a year before getting rid of them",
+              "ja": "1年間使ってからものを捨てる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "wait until food has run out before buying it",
+              "ja": "食品はなくなるのを待ってから買う",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。キッチンの効率性を高めることとして，第2段落第4文 (Next, I put ...) に「いちばんよく使う器具は使う場所の近くに置く」とあり，そのあとに具体例が書かれている。\n①と③は第2段落第1, 2文 (The first step ... / I decided that ...) の「1年間使っていないごちゃごちゃしたものを処分した」に一致しない。④のようなことも筆者は述べていない。",
+            "evidence_sentences": [
+              "s3_s7",
+              "s3_s8",
+              "s3_s9",
+              "s3_s10"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①と③は第2段落第1, 2文 (The first step ... / I decided that ...) の「1年間使っていないごちゃごちゃしたものを処分した」に一致しない。"
+              },
+              {
+                "choice": "③",
+                "reason": "①と③は第2段落第1, 2文 (The first step ... / I decided that ...) の「1年間使っていないごちゃごちゃしたものを処分した」に一致しない。"
+              },
+              {
+                "choice": "④",
+                "reason": "④のようなことも筆者は述べていない。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 14,
+          "stem": {
+            "en": "From this article, you understand that the writer [14].",
+            "ja": "この記事から，あなたは筆者が[14]ことがわかる。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "spends less money on groceries than before",
+              "ja": "以前ほど食料品にお金を使わない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "wants her husband to do more cooking",
+              "ja": "彼女の夫にもっと料理をしてほしいと思っている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "wastes less time in the kitchen these days",
+              "ja": "最近はキッチンで無駄に過ごす時間が減っている",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "would like her children to help with housework",
+              "ja": "彼女の子どもたちに家事を手伝ってほしいと思っている",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。記事のタイトルや第1段落最終文 (Here is how ...) からもわかるように，この記事は「キッチンを使いやすくして，料理や片付けに使う時間を減らすことに成功した方法」について書いてある。したがって，そこから推測できる③が正解。\n①の食料品については第3段落 (After that, I ...) で残りの量をわかりやすくするためにした工夫のことは書かれているが，それにより食料品にかかるお金が減ることには言及されていない。②は，最終段落最終文 (I can even ...) で筆者の夫について触れられているが，夫にもっと料理をしてほしいとは述べていない。④は，キッチンを効率化するきっかけとして第1段落第1文 (When I first ...) に子どもたちのことが出てくるが，子どもたちに家事を手伝ってほしいとは書かれていない。",
+            "evidence_sentences": [
+              "s3_s3"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①の食料品については第3段落 (After that, I ...) で残りの量をわかりやすくするためにした工夫のことは書かれているが，それにより食料品にかかるお金が減ることには言及されていない。"
+              },
+              {
+                "choice": "②",
+                "reason": "②は，最終段落最終文 (I can even ...) で筆者の夫について触れられているが，夫にもっと料理をしてほしいとは述べていない。"
+              },
+              {
+                "choice": "④",
+                "reason": "④は，キッチンを効率化するきっかけとして第1段落第1文 (When I first ...) に子どもたちのことが出てくるが，子どもたちに家事を手伝ってほしいとは書かれていない。"
+              }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "maximize",
+              "ja": "最大にする"
+            },
+            {
+              "en": "efficient",
+              "ja": "効率的な"
+            },
+            {
+              "en": "clutter",
+              "ja": "散らかったもの"
+            },
+            {
+              "en": "storage space",
+              "ja": "収納スペース"
+            },
+            {
+              "en": "right-handed",
+              "ja": "右利きの"
+            },
+            {
+              "en": "clear glass jar",
+              "ja": "透明なガラスびん"
+            },
+            {
+              "en": "scraps of paper",
+              "ja": "紙の切れ端"
+            },
+            {
+              "en": "virtual library",
+              "ja": "バーチャル図書館"
+            },
+            {
+              "en": "at the touch of a button",
+              "ja": "ボタンをタッチするだけで"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "situation": {
+        "en": "In English class you are writing about a social issue you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "英語の授業であなたは関心のある社会的問題について書いています。これが最も新しい草稿です。あなたは今，先生からのコメントに基づいて，修正に取り組んでいます。"
+      },
+      "passages": [
+        {
+          "id": "essay",
+          "title": {
+            "en": "The Benefits of Playing Computer Games",
+            "ja": "コンピューターゲームをすることの利点"
+          },
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "Add a linking sentence to introduce the main topic of the essay.",
+              "ja": "この文章の主題を導入するつなぎとなる文を追加してください。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Avoid words you used in the previous sentences and try to use a different phrase.",
+              "ja": "前の文章で使った語句を避けて，別の表現を使ってみてください。"
+            },
+            {
+              "marker": "(3)",
+              "en": "Insert the topic sentence for this paragraph.",
+              "ja": "この段落の主題文を入れてください。"
+            },
+            {
+              "marker": "(4)",
+              "en": "Summarize those positive points here.",
+              "ja": "ここで利点を要約してください。"
+            }
+          ],
+          "teacher_comment": {
+            "en": "Very interesting! Maybe I should play video games to make myself smarter! ^^",
+            "ja": "非常に興味深いです！私も頭をよくするためにテレビゲームをした方がいいのでしょう！^^"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s4_s1",
+                "en": "Video games have a bad reputation among parents and teachers.",
+                "ja": "テレビゲームは親や教師たちの間で悪評を買っています。"
+              },
+              {
+                "id": "s4_s2",
+                "en": "They often believe that video games have no benefits at all and are a bad influence on a child's studies and social life.",
+                "ja": "彼らは，テレビゲームには利点がまったくなく，子どもの勉強と社会生活に対する悪影響であると信じていることが多いのです。"
+              },
+              {
+                "id": "s4_s3",
+                "en": "[15]",
+                "ja": "[15]",
+                "comment_marker": "(1)"
+              },
+              {
+                "id": "s4_s4",
+                "en": "Some studies show that there are multiple benefits to game playing for young people.",
+                "ja": "ゲームをすることは若者たちにとってさまざまな利点があることを示している研究もあります。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s5",
+                "en": "First, research by psychologists has shown that playing certain types of video games improves the thinking skills of the players.",
+                "ja": "第一に，心理学者による研究は，ある種のテレビゲームをすることはゲームをする者たちの思考能力を向上させることを示しました。"
+              },
+              {
+                "id": "s4_s6",
+                "en": "These thinking skills include navigation skills, memory, and reasoning.",
+                "ja": "これらの思考能力にはナビゲーション能力や記憶力や論理的思考能力が含まれます。"
+              },
+              {
+                "id": "s4_s7",
+                "en": "This is particularly true for shooting games, which involve a player finding and shooting targets while trying to avoid being attacked.",
+                "ja": "これは，プレーヤーが攻撃されることを避けようとしながら標的を見つけて撃つことを必要とするシューティングゲームに特に言えることです。"
+              },
+              {
+                "id": "s4_s8",
+                "en": "In fact, gamers polish these skills just as much by playing video games as they would on a real-life course designed to teach these skills.",
+                "ja": "実際，プレーヤーは，こうした技術を教えるために作られた現実生活の過程とまったく同じぐらい，テレビゲームをすることによってそうした技術を磨いていきます。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s9",
+                "en": "Second, a long-term study has found that games may develop problem-solving skills.",
+                "ja": "第二に，ある長期的研究は，ゲームは問題解決能力を発達させる可能性があることを発見しました。"
+              },
+              {
+                "id": "s4_s10",
+                "en": "Role-playing games are especially good for developing this skill.",
+                "ja": "ロールプレイングゲームはこうした能力を発達させるのに特に有益です。"
+              },
+              {
+                "id": "s4_s11",
+                "en": "The study found that the longer a student plays role-playing video games, the greater the improvement in school grades the following year.",
+                "ja": "その研究が発見したところによると，生徒がロールプレイングのテレビゲームをする時間が長ければ長いほど，翌年の学校の成績が向上します。"
+              },
+              {
+                "id": "s4_s12",
+                "en": "In short, playing role-playing games can [16].",
+                "ja": "要するに，ロールプレイングゲームをすることは[16]可能性があるのです。",
+                "comment_marker": "(2)"
+              }
+            ],
+            [
+              {
+                "id": "s4_s13",
+                "en": "[17]",
+                "ja": "[17]",
+                "comment_marker": "(3)"
+              },
+              {
+                "id": "s4_s14",
+                "en": "Games that are short and easy to play can encourage relaxation and make the player feel happier than before.",
+                "ja": "プレイする時間が短く簡単なゲームは息抜きを促し，プレーヤーの気分がプレー前よりもよくなる可能性があります。"
+              },
+              {
+                "id": "s4_s15",
+                "en": "Put simply, playing video games can make young people feel good.",
+                "ja": "簡単に言えば，テレビゲームをすると，若者たちの気分がよくなることがあり得るのです。"
+              },
+              {
+                "id": "s4_s16",
+                "en": "This is important in a society where depression and mental health problems are becoming more common.",
+                "ja": "これは，鬱や精神衛生に関する問題がより一般的になりつつある社会においては重要なことです。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s17",
+                "en": "In summary, video games have many positive points.",
+                "ja": "要約すれば，テレビゲームには多くの利点があります。"
+              },
+              {
+                "id": "s4_s18",
+                "en": "[18]",
+                "ja": "[18]",
+                "comment_marker": "(4)"
+              },
+              {
+                "id": "s4_s19",
+                "en": "Of course, there are negative points as well, but if people use games in moderation, they can benefit them in many ways.",
+                "ja": "もちろん，欠点もありますが，適度にゲームを行えば，ゲームは多くの点で人に利益をもたらす可能性があるのです。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on comment (1), which is the most appropriate linking sentence to add? [15]",
+            "ja": "コメント(1)に基づくと，追加すべき最も適切なつなぎとなる文はどれか。[15]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Actually, this is probably correct.",
+              "ja": "実際のところ，おそらくこれは正しいのでしょう。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "However, this is not always the case.",
+              "ja": "しかし，それが常に実情であるというわけではありません。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "In fact, most studies support this.",
+              "ja": "実際，ほとんどの研究はそのことを支持しています。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "In short, this is not supported at all.",
+              "ja": "手短に言えば，これはまったく支持されていません。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。コメント(1)には「ここの文章の主題を導入するつなぎとなる文を追加してください」とある。空所(1)の直前では，親や教師たちはテレビゲームには利点がまったくなく，子どもの勉強と社会生活に悪影響を及ぼすと信じている，と述べられ，空所(1)の直後には「ゲームをすることは若者たちにとってさまざまな利点があることを示している研究もあります」とある。つまり，空所(1)の前後ではテレビゲームの利点に関し，親や教師の思い込みと実際の研究では逆の内容が述べられている。また，この文章の主題は，第2段落 (First, research by ...) ，第3段落 (Second, a long-term ...) ，第4段落 (Finally, video games ...) において述べられているように，テレビゲームのいくつかの利点である。以上から正解は②となる。\n①，③，④はいずれも自然な文脈とはならないので不可。",
+            "evidence_sentences": [
+              "s4_s2",
+              "s4_s4"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①，③，④はいずれも自然な文脈とはならないので不可。"
+              },
+              {
+                "choice": "③",
+                "reason": "①，③，④はいずれも自然な文脈とはならないので不可。"
+              },
+              {
+                "choice": "④",
+                "reason": "①，③，④はいずれも自然な文脈とはならないので不可。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on comment (2), which is the most appropriate phrase to use instead? [16]",
+            "ja": "コメント(2)に基づくと，代わりに使うべき最も適切な表現はどれか。[16]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "cause school performance to decline",
+              "ja": "学校の成績を下げる原因となる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "lead to higher academic results",
+              "ja": "よりよい学業成績の結果につながる",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "make students do more school work",
+              "ja": "生徒により多くの学校の勉強をさせる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "result in a drop in achievement",
+              "ja": "結果として成績の下落を招く",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。コメント(2)には「前の文章で使った語句を避けて，別の表現を使ってみてください」とある。下線部(2)を含む文の直前の文では，the greater the improvement in school grades the following year（翌年の学校の成績が向上します）という表現が用いられているが，下線部(2)には improve school grades（学校の成績を向上させる）とあり，improvement の動詞形と school grades が繰り返し用いられている。意味は変えずに表現の繰り返しを避けるように指示されているのだから，正解は②と判断できる。\n①，③，④はいずれも下線部(2)と同様の意味を表していないので不可。",
+            "evidence_sentences": [
+              "s4_s11",
+              "s4_s12"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①，③，④はいずれも下線部(2)と同様の意味を表していないので不可。"
+              },
+              {
+                "choice": "③",
+                "reason": "①，③，④はいずれも下線部(2)と同様の意味を表していないので不可。"
+              },
+              {
+                "choice": "④",
+                "reason": "①，③，④はいずれも下線部(2)と同様の意味を表していないので不可。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 17,
+          "stem": {
+            "en": "Which is the most appropriate topic sentence to add based on comment (3)? [17]",
+            "ja": "コメント(3)に基づくと，追加すべき最も適切な主題文はどれか。[17]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Finally, it is better for a person's mood and mental health to play long and difficult video games.",
+              "ja": "最後に，人の気分と精神衛生にとっては時間が長くかかる難しいテレビゲームをする方がよいのです。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Finally, playing video games has little effect in either direction on a person's happiness or moods.",
+              "ja": "最後に，テレビゲームをすることは人の幸福感や気分に対してどの方向にもほとんど影響を与えません。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Finally, the longer a person plays video games, the more their mental health is negatively affected.",
+              "ja": "最後に，テレビゲームをする時間が長ければ長いほど，精神衛生は悪影響を受けます。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Finally, video games help to improve a person's moods and prevent them from feeling anxious.",
+              "ja": "最後に，テレビゲームは，人の気分を改善し，不安を感じることを防ぐのに役立ちます。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。コメント(3)には「この段落の主題文を入れてください」とある。空所(3)を含む第4段落では，時間が短く簡単なテレビゲームは人の気分を改善させ，これは，鬱や精神的な健康問題がより一般的になりつつある社会においては重要なことであるということが述べられているので，その内容を簡潔にまとめた④が正解となる。\n①，②，③はいずれもこの段落の内容を表してはいないので不可。",
+            "evidence_sentences": [
+              "s4_s14",
+              "s4_s15",
+              "s4_s16"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①，②，③はいずれもこの段落の内容を表してはいないので不可。"
+              },
+              {
+                "choice": "②",
+                "reason": "①，②，③はいずれもこの段落の内容を表してはいないので不可。"
+              },
+              {
+                "choice": "③",
+                "reason": "①，②，③はいずれもこの段落の内容を表してはいないので不可。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 18,
+          "stem": {
+            "en": "Which sentence should you add, based on comment (4)? [18]",
+            "ja": "コメント(4)に基づくと，どの文を追加するべきか。[18]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "They develop a person's ability to design, work hard, and socialize with other young people.",
+              "ja": "それは，設計したり，熱心に取り組んだり，他の若者たちと交際したりすることができる人の能力を発達させます。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "They improve cognitive ability, polish solution-finding skills, and make a person feel good.",
+              "ja": "それは，認知能力を改善し，解決策を見つける能力を磨き，人によい気分を感じさせます。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "They protect a person's mind, and their ability to study, and increase depression.",
+              "ja": "それは，人の精神や勉強する能力を保護し，鬱を増大させます。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "They refine the shooting skills of the players, their ability to concentrate, and their energy levels.",
+              "ja": "それは，プレーヤーのシューティング能力や集中力や活力レベルを向上させます。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。コメント(4)には「ここで利点を要約してください」とある。空所(4)を含む段落の前までの段落構成は以下のようになっている（カッコ内の数字は段落番号を表す）。\n[1] 序論 「親や教師たちはテレビゲームには利点がまったくなく，子どもに悪影響を及ぼすと信じている」\n[2] 主題 「しかし，テレビゲームにはさまざまな利点がある」\n    例示1「思考能力の向上」\n[3] 例示2「問題解決能力の発達とそれによる学業成績の向上」\n[4] 例示3「精神面における効用」\n以上から，この文章全体の主題である「テレビゲームにおけるさまざまな利点」は第2段落から第4段落において「思考能力の向上」，「問題解決能力の発達とそれによる学業成績の向上」，「精神面における効用」として具体的に述べられていることがわかる。よってその3つの利点をまとめた②が正解とわかる。\n①，③，④はいずれもこの文章中で述べられているテレビゲームの利点の要約とはなっていないので不可。",
+            "evidence_sentences": [
+              "s4_s5",
+              "s4_s9",
+              "s4_s14",
+              "s4_s15"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①，③，④はいずれもこの文章中で述べられているテレビゲームの利点の要約とはなっていないので不可。"
+              },
+              {
+                "choice": "③",
+                "reason": "①，③，④はいずれもこの文章中で述べられているテレビゲームの利点の要約とはなっていないので不可。"
+              },
+              {
+                "choice": "④",
+                "reason": "①，③，④はいずれもこの文章中で述べられているテレビゲームの利点の要約とはなっていないので不可。"
+              }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "reputation",
+              "ja": "評判"
+            },
+            {
+              "en": "psychologist",
+              "ja": "心理学者"
+            },
+            {
+              "en": "navigation",
+              "ja": "ナビゲーション"
+            },
+            {
+              "en": "reasoning",
+              "ja": "論理的思考"
+            },
+            {
+              "en": "problem-solving",
+              "ja": "問題解決"
+            },
+            {
+              "en": "role-playing",
+              "ja": "ロールプレイング"
+            },
+            {
+              "en": "relaxation",
+              "ja": "リラックス；息抜き"
+            },
+            {
+              "en": "depression",
+              "ja": "鬱"
+            },
+            {
+              "en": "in moderation",
+              "ja": "適度に"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "points_per_question": null,
+      "lead_text": {
+        "en": "You have decided to volunteer as an assistant Japanese language teacher in Australia next year. To prepare, you are reading two articles about language teaching techniques.",
+        "ja": "あなたは来年，オーストラリアで日本語のアシスタント教師としてボランティアをすることに決めました。準備のために，あなたは語学教授法に関する2つの記事を読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "article_matsui",
+          "title": {
+            "en": "Task-Based Learning",
+            "ja": "タスク中心学習"
+          },
+          "subtitle": {
+            "en": "K. Matsui — English Teacher, Iwahashi High School",
+            "ja": "K. 松井 — 岩橋高校 英語教師"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s5_m_s1",
+                "en": "When I was a high school student many years ago in Japan, all my classes were taught using the \"grammar-translation method.\"",
+                "ja": "何年も前ですが，私が日本で高校生だったころ，私の授業はすべて「文法訳読法」を用いて教えられていました。"
+              },
+              {
+                "id": "s5_m_s2",
+                "en": "In fact, even when I became an English teacher myself, that was the method I used.",
+                "ja": "実際，私自身が英語教師になったときでさえ，それは私が用いたやり方でした。"
+              },
+              {
+                "id": "s5_m_s3",
+                "en": "I taught my students an English grammar rule and its meaning in Japanese, then we practiced translating Japanese into English using this rule.",
+                "ja": "私は生徒たちに英語の文法規則とその意味を日本語で教え，それから，この規則を用いて日本語から英語へ翻訳する練習をしました。"
+              },
+              {
+                "id": "s5_m_s4",
+                "en": "The students learned grammar in great detail, and they were able to pass their exams.",
+                "ja": "生徒たちは文法をとても詳しく学び，試験に合格することができたのです。"
+              },
+              {
+                "id": "s5_m_s5",
+                "en": "It was boring but effective.",
+                "ja": "退屈でしたが，効果はありました。"
+              }
+            ],
+            [
+              {
+                "id": "s5_m_s6",
+                "en": "However, when I took a break from my career and studied at a language school in Australia, I realized there was another way to learn a language.",
+                "ja": "しかし，仕事を一休みしてオーストラリアの語学学校で勉強したとき，私は語学学習には別の方法があることに気づきました。"
+              },
+              {
+                "id": "s5_m_s7",
+                "en": "My teacher used \"task-based learning.\"",
+                "ja": "私の先生は「タスク中心学習」を用いました。"
+              },
+              {
+                "id": "s5_m_s8",
+                "en": "This means that instead of focusing on a grammar rule, we were given a task to complete in English, then we looked at the language after we had finished the task.",
+                "ja": "これは文法規則に焦点を当てるのではなく，私たちは英語で完成させるタスクを与えられ，その後，タスクを終えてから言語をチェックしました。"
+              },
+              {
+                "id": "s5_m_s9",
+                "en": "For example, we were given the task of planning a travel schedule for a friend.",
+                "ja": "たとえば，私たちは友達の旅行スケジュールの計画を立てるタスクを与えられました。"
+              },
+              {
+                "id": "s5_m_s10",
+                "en": "We had to research accommodations and activities, role-play calling a hotel to make a reservation, then write an email to a friend.",
+                "ja": "私たちは宿泊設備，アクティビティを調べ，ホテルに予約の電話をかけるロールプレイをし，それから友達にメールを書かなければなりませんでした。"
+              },
+              {
+                "id": "s5_m_s11",
+                "en": "During this task we used reading, writing, speaking and listening skills, and practiced language without feeling it was \"work.\"",
+                "ja": "このタスクの間，私たちはリーディング，ライティング，スピーキング，そしてリスニングのスキルを使い，それが「課題」だと思わずに言語の訓練をしたのです。"
+              },
+              {
+                "id": "s5_m_s12",
+                "en": "When the project or \"task\" was over, our teacher gave us advice about our English without using any Japanese at all.",
+                "ja": "このプロジェクト，つまり「タスク」が終わると，先生は日本語を全く使わずに私たちの英語に対するアドバイスをくれました。"
+              }
+            ],
+            [
+              {
+                "id": "s5_m_s13",
+                "en": "I decided to use this technique more when I returned to Japan.",
+                "ja": "私は日本に帰ったらこの方法をもっと使おうと決めました。"
+              },
+              {
+                "id": "s5_m_s14",
+                "en": "Now, as a high school teacher, I use task-based learning as much as I can in my English lessons.",
+                "ja": "今，高校教師として，私は自分の英語の授業ではできるだけ多くタスク中心学習を使っています。"
+              },
+              {
+                "id": "s5_m_s15",
+                "en": "I have noticed that my students are more engaged and their ability to actually use the language they have learned has improved.",
+                "ja": "生徒たちはより積極的に参加し，学習した言語を実際に使う能力が向上したことに私は気づきました。"
+              },
+              {
+                "id": "s5_m_s16",
+                "en": "I believe it is time that the old-fashioned grammar-translation method was retired.",
+                "ja": "昔ながらの文法訳読法は終わりにしてもいいころだと思います。"
+              },
+              {
+                "id": "s5_m_s17",
+                "en": "I also think that the use of Japanese by English teachers in the classroom should not be encouraged.",
+                "ja": "また，教室で英語の教師が日本語を使うことを推奨すべきではないとも考えます。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "article_suzuki",
+          "title": {
+            "en": "The Grammar-Translation Method",
+            "ja": "文法訳読法"
+          },
+          "subtitle": {
+            "en": "M. Suzuki — Researcher, Kanto Language University",
+            "ja": "M. 鈴木 — 関東言語大学 研究員"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s5_s_s1",
+                "en": "I enjoyed reading Ms. Matsui's experience of task-based language learning, and I agree that it can be very beneficial to intermediate language learners.",
+                "ja": "私は松井氏のタスク中心言語学習の体験を興味深く拝読し，それが言語学習の中級者にはとても有益になり得るという点で同意見です。"
+              },
+              {
+                "id": "s5_s_s2",
+                "en": "It encourages communication and allows the students to understand that language is a tool for everyday life.",
+                "ja": "それによりコミュニケーションが促され，生徒たちは，言語が日常生活を送るためのツールであることを理解することができます。"
+              }
+            ],
+            [
+              {
+                "id": "s5_s_s3",
+                "en": "However, I do not believe we should completely get rid of grammar translation as a method of language teaching, particularly when we teach beginners.",
+                "ja": "しかしながら，言語教授法として，特に初級者を指導する際は，文法訳読を全面的に排除するべきではないと思います。"
+              },
+              {
+                "id": "s5_s_s4",
+                "en": "For example, take a class of 12-year-old Japanese students.",
+                "ja": "たとえば，12歳の日本人生徒のクラスを例に挙げましょう。"
+              },
+              {
+                "id": "s5_s_s5",
+                "en": "They have very limited exposure to English, so they know few words and even less grammar.",
+                "ja": "彼らは英語に接する機会がきわめて限られているので，単語の知識はほぼありませんし，まして文法の知識はそれ以下です。"
+              },
+              {
+                "id": "s5_s_s6",
+                "en": "It would be impossible for them to complete any kind of meaningful task in English.",
+                "ja": "彼らはいかなる種類の有意義なタスクも英語でやり遂げることはできないでしょう。"
+              },
+              {
+                "id": "s5_s_s7",
+                "en": "It would be even more difficult to explain the task to them in English because they would not understand the teacher's instructions.",
+                "ja": "彼らは教師の指示を理解できないでしょうから，英語で彼らにそのタスクについて説明することはさらに困難でしょう。"
+              },
+              {
+                "id": "s5_s_s8",
+                "en": "We need to give them the tools of vocabulary and grammar and explain it to them in language they understand while they are at the beginner stage.",
+                "ja": "初級者の段階では，私たちは彼らに語彙や文法というツールを与えて，彼らが理解できる言語でそれについて説明することが必要です。"
+              }
+            ],
+            [
+              {
+                "id": "s5_s_s9",
+                "en": "In one study conducted at a school in Jordan, researchers compared test results of students taught an English grammar point in the source language (their native language: Arabic), with the results of students taught only in the target language (English).",
+                "ja": "ヨルダンの学校で行われたある調査で，研究者たちは，英文法のポイントを起点言語（彼らの母語であるアラビア語）で教わった生徒のテストの結果と，目標言語（英語）だけで教わった生徒の結果を比較しました。"
+              },
+              {
+                "id": "s5_s_s10",
+                "en": "They randomly divided students into two groups of ten of equal academic ability.",
+                "ja": "彼らは同程度の学力の生徒たちを，ランダムに10人ずつの2つのグループに分けました。"
+              },
+              {
+                "id": "s5_s_s11",
+                "en": "Group A was taught a specific grammar point using the grammar-translation method, with instructions in their native language.",
+                "ja": "Aグループには，母語で指導して文法訳読法を用いて特定の文法項目を教えました。"
+              },
+              {
+                "id": "s5_s_s12",
+                "en": "Group B was taught the same grammar point using just English and a number of example sentences.",
+                "ja": "Bグループには，同じ文法項目を英語だけで多くの例文を用いて教えました。"
+              },
+              {
+                "id": "s5_s_s13",
+                "en": "The two groups were then given the same grammar test.",
+                "ja": "それから，2つのグループは同じ文法のテストを受けました。"
+              },
+              {
+                "id": "s5_s_s14",
+                "en": "As you can see, there is a significant difference in the average test scores of the two groups.",
+                "ja": "ご覧の通り，2つのグループにはテストの平均点に著しい差があります。"
+              }
+            ],
+            [
+              {
+                "id": "s5_s_s15",
+                "en": "Therefore, while I agree that task-based learning is a great teaching tool, we should not give up on grammar translation if we want our students to accurately learn how to read and write English and pass the all-important university entrance exams.",
+                "ja": "したがって，タスク中心学習は優れた教授法であることに賛同はしますが，生徒たちが正確に英語の読み書きを学習し，極めて重要な大学入試に合格してほしいと願うなら，私たちは文法訳読をやめるべきではありません。"
+              },
+              {
+                "id": "s5_s_s16",
+                "en": "I believe a good English course incorporates a number of different teaching techniques to give students a thorough understanding of the language and motivate them in a way that grammar translation does not.",
+                "ja": "よい英語の授業とは，数多くの多様な教授法を組み入れて，生徒たちには言語を徹底的に理解させ，文法訳読ではできないやり方で生徒たちにやる気を出させるものだと私は考えます。"
+              }
+            ]
+          ],
+          "graph_image": {
+            "src": "images/s5_test_scores.png",
+            "alt": "テストの平均点（10点満点） Aグループ: 約7.5点 / Bグループ: 約5.5点",
+            "after_paragraph": 2,
+            "float": "right"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 19,
+          "stem": {
+            "en": "Matsui believes that [19].",
+            "ja": "「松井氏は[19]と考えている」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "grammar translation is ineffective in preparing for exams",
+              "ja": "文法訳読は試験の準備には効果がない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "task-based learning is the best way to pass exams",
+              "ja": "タスク中心学習は試験に合格するためには最良の方法だ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "teaching grammar is boring for English teachers",
+              "ja": "文法を教えることは英語教師にとって退屈だ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "teaching in Japanese is not helpful for students",
+              "ja": "日本語で教えることは生徒たちには役に立たない",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。松井氏は第2段落 (However, when I ...) で自分が体験した「タスク中心学習」を紹介している。最終段落 (I decided to ...) では，その効果を実感したうえで，第4文 (I believe it ...) で「（日本語で教える）文法訳読法は終わりにしてもいいころだ」，最終文 (I also think ...) では「教室で英語の教師が日本語を使うことを推奨すべきではない」と書いている。したがって，④が正解だと判断できる。\n松井氏の記事では第1段落で文法訳読法を紹介し，第4, 5文 (The students learned ... / It was boring ...) で「生徒たちは文法をとても詳しく学び，試験に合格することができ，退屈だったが効果はあった」と書いている。「効果はあった」ので①は誤り。②のような記述はない。また，「退屈だった」と感じたのは当時の松井氏で，一般の英語教師にとって退屈だとは述べていないので③も誤り。",
+            "evidence_sentences": [
+              "s5_m_s16",
+              "s5_m_s17"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "「効果はあった」ので①は誤り。"
+              },
+              {
+                "choice": "②",
+                "reason": "②のような記述はない。"
+              },
+              {
+                "choice": "③",
+                "reason": "「退屈だった」と感じたのは当時の松井氏で，一般の英語教師にとって退屈だとは述べていないので③も誤り。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 20,
+          "stem": {
+            "en": "In the study introduced by Suzuki, students were [20].",
+            "ja": "「鈴木氏が紹介した調査で，生徒たちは[20]」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "compared after being taught using different methods",
+              "ja": "異なる教授法で学習した後で比較された",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "divided into two groups of different levels",
+              "ja": "異なる学力の2つのグループに分けられた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "not able to produce better results after the experiment",
+              "ja": "実験後は前より良い結果を出すことができなかった",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "taught example sentences in their native language",
+              "ja": "母語で例文を教わった",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。鈴木氏が紹介した調査で，生徒たちは①「異なる教授法で学習した後で比較された」。調査に関しては鈴木氏の記事の第3段落に書かれている。第1文 (In one study ...) で研究者たちは「英文法のポイントを母語で教わった生徒のテストの結果と，目標言語（英語）だけで教わった生徒の結果を比較した」と書かれている。「母語で教わった」は文法訳読の教授法，「目標言語（英語）で教わった」はタスク中心学習の教授法なので，①が正解。\n第3段落第2文 (They randomly divided ...) から，生徒たちは「同程度の学力」の2つのグループだったことがわかるので，②は誤り。また，実験は2つのグループの比較であり，実験前と後の比較ではないので，③は誤り。第3段落第3, 4文 (Group A was ... / Group B was ...) から両グループともに同じ英語の文法項目を学習する際，グループAは母語で，グループBは多くの例文を用いて英語だけで学習したことがわかるので，④も誤り。",
+            "evidence_sentences": [
+              "s5_s_s9",
+              "s5_s_s10",
+              "s5_s_s11",
+              "s5_s_s12"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "②",
+                "reason": "第3段落第2文 (They randomly divided ...) から，生徒たちは「同程度の学力」の2つのグループだったことがわかるので，②は誤り。"
+              },
+              {
+                "choice": "③",
+                "reason": "実験は2つのグループの比較であり，実験前と後の比較ではないので，③は誤り。"
+              },
+              {
+                "choice": "④",
+                "reason": "第3段落第3, 4文 (Group A was ... / Group B was ...) から両グループともに同じ英語の文法項目を学習する際，グループAは母語で，グループBは多くの例文を用いて英語だけで学習したことがわかるので，④も誤り。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            21,
+            22
+          ],
+          "stem": {
+            "en": "Suzuki explains that while task-based language learning is effective in improving intermediate students' [21] skills, grammar translation ensures that students learn the [22] language accurately, and is therefore an important method when teaching beginners.\n(Select one option from ①〜⑥ for each blank.)",
+            "ja": "「鈴木氏は，タスク中心言語学習は中級の生徒たちの[21]スキルを向上させるのに効果的であるのに対し，文法訳読は生徒たちが正確に[22]言語を学ぶのを確実にするので，初級者を教える場合には重要な方法だと説明している（各空所に選択肢①〜⑥のうちから最適なものを1つずつ選べ。）」"
+          },
+          "choices_21": [
+            {
+              "label": "①",
+              "en": "communication",
+              "ja": "コミュニケーション",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "job",
+              "ja": "仕事",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "source",
+              "ja": "起点",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "study",
+              "ja": "学習",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "target",
+              "ja": "目標",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "writing",
+              "ja": "ライティング",
+              "is_correct": false
+            }
+          ],
+          "choices_22": [
+            {
+              "label": "①",
+              "en": "communication",
+              "ja": "コミュニケーション",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "job",
+              "ja": "仕事",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "source",
+              "ja": "起点",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "study",
+              "ja": "学習",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "target",
+              "ja": "目標",
+              "is_correct": true
+            },
+            {
+              "label": "⑥",
+              "en": "writing",
+              "ja": "ライティング",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "21": "①",
+            "22": "⑤"
+          },
+          "explanation": {
+            "ja": "正解は(21)①，(22)⑤。「鈴木氏は，タスク中心言語学習は中級の生徒たちの(21)スキルを向上させるのに効果的であるのに対し，文法訳読は生徒たちが正確に(22)言語を学ぶのを確実にするので，初級者を教える場合には重要な方法だと説明している」。\n鈴木氏はタスク中心言語学習について第1段落 (I enjoyed reading ...) で，「中級者にはとても有益で，コミュニケーションを促す」と述べている。これは，中級の生徒たちのコミュニケーションスキルを向上させるのに有益だということなので，(21)には①(communication)が入る。\n文法訳読については，初級者への指導法として，第2段落 (However, I do ...) でその必要性を主張し，最終段落第1文 (Therefore, while I ...) で「生徒たちが正確に英語の読み書きを学習し，大学入試に合格してほしいなら，文法訳読をやめるべきではない」と述べている。第3段落第1文 (In one study ...) にあるように，ここでの英語とは生徒たちにとって目標言語なので，(22)には⑤(target)が入るのが適切。",
+            "evidence_sentences": [
+              "s5_s_s1",
+              "s5_s_s2",
+              "s5_s_s3",
+              "s5_s_s9",
+              "s5_s_s15"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 23,
+          "stem": {
+            "en": "Both writers agree that grammar translation is helpful for [23].",
+            "ja": "「筆者は2人とも，文法訳読は[23]のに有益だという点で同意見だ」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "learning how to write creatively",
+              "ja": "創造的に書く方法を学ぶ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "motivating intermediate students",
+              "ja": "中級レベルの生徒たちのやる気を出させる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "scoring well in exams",
+              "ja": "試験で高得点を取る",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "seeing English as a tool",
+              "ja": "英語をツールとして見る",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。「筆者は2人とも，文法訳読は(23)のに有益だという点で同意見だ」。\n正解は③。文法訳読に関して，松井氏は第1段落第4, 5文 (The students learned ... / It was boring ...) で「生徒たちは文法を詳しく学び，試験に合格することができ，効果はあった」と述べている。また，鈴木氏は最終段落第1文 (Therefore, while I ...) で「生徒たちが正確に英語の読み書きを学習し，極めて重要な大学入試に合格してほしいと願うなら，私たちは文法訳読をやめるべきではありません」と述べている。以上から，2人とも試験で高得点を取り入試に合格するためには文法訳読は効果的だという点で意見が一致している。したがって，③が正解。\n①のような記述はない。②のようなことは，松井氏の意見からは読み取れない。④については，「英語をツールとして見る」という表現を松井氏は全く用いていない。また鈴木氏の記事の第1段落最終文 (It encourages communication ...) に「それによりコミュニケーションが促され，生徒たちは，言語が日常生活を送るためのツールであることを理解することができます」とあるが，下線部の「それ(It)」は，タスク中心学習のことなので，④は正解になれない。",
+            "evidence_sentences": [
+              "s5_m_s4",
+              "s5_m_s5",
+              "s5_s_s15"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①のような記述はない。"
+              },
+              {
+                "choice": "②",
+                "reason": "②のようなことは，松井氏の意見からは読み取れない。"
+              },
+              {
+                "choice": "④",
+                "reason": "「英語をツールとして見る」という表現を松井氏は全く用いていない。また鈴木氏の記事の第1段落最終文 (It encourages communication ...) に「それによりコミュニケーションが促され，生徒たちは，言語が日常生活を送るためのツールであることを理解することができます」とあるが，下線部の「それ(It)」は，タスク中心学習のことなので，④は正解になれない。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 24,
+          "stem": {
+            "en": "Which additional information would be the best to further support Suzuki's argument? [24]",
+            "ja": "「鈴木氏の主張をさらに裏付けるには，どの追加情報が最適か」[24]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "How to combine the task-based method and the grammar-translation method most successfully",
+              "ja": "タスク中心学習法と文法訳読法の最適な組み合わせ方",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "What makes grammar-translation learning more enjoyable for advanced students",
+              "ja": "文法訳読学習が上級の生徒にとってより楽しくなるための方法",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Whether foreign language teachers should use their native language in class",
+              "ja": "外国語の教師が授業で母語を使うべきかどうか",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Why task-based language learning is effective at the beginner stage",
+              "ja": "タスク中心の言語学習が初級段階で効果がある理由",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。「鈴木氏の主張をさらに裏付けるには，どの追加情報が最適か」。\n正解は①。鈴木氏の最終段落最終文 (I believe a ...) 「よい英語の授業とは，数多くの多様な教授法を組み入れて，生徒たちには言語を徹底的に理解させ，文法訳読ではできないやり方で生徒たちにやる気を出させるものだ」に注目する。これは「生徒たちに言語を徹底的に理解させる」文法訳読法と「文法訳読ではできないやり方で生徒たちにやる気を出させる」タスク中心学習を組み合わせることが「よい英語の授業」につながることを示唆している。したがって，①の「タスク中心学習と文法訳読法の最適な組み合わせ方」が鈴木氏の主張の裏付けになる。\n鈴木氏は文法訳読法を上級レベルの生徒に向けて行うべきだとは述べていないので，②は鈴木氏の主張をさらに裏付ける情報とはならない。③も，文法訳読法の利点を説く鈴木氏の意見を裏付ける情報とは考えられない。また，鈴木氏は「タスク中心学習は初級段階で効果がない」と考えているので，④の「タスク中心の言語学習が初級段階で効果がある理由」も鈴木氏の主張の裏付けにはならない。",
+            "evidence_sentences": [
+              "s5_s_s16"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "②",
+                "reason": "鈴木氏は文法訳読法を上級レベルの生徒に向けて行うべきだとは述べていないので，②は鈴木氏の主張をさらに裏付ける情報とはならない。"
+              },
+              {
+                "choice": "③",
+                "reason": "③も，文法訳読法の利点を説く鈴木氏の意見を裏付ける情報とは考えられない。"
+              },
+              {
+                "choice": "④",
+                "reason": "鈴木氏は「タスク中心学習は初級段階で効果がない」と考えているので，④の「タスク中心の言語学習が初級段階で効果がある理由」も鈴木氏の主張の裏付けにはならない。"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 18,
+      "points_per_question": 3,
+      "situation": {
+        "en": "You are working on an essay about whether self-driving cars should be permitted on roads. You will follow the steps below.",
+        "ja": "あなたは路上で自動運転車が許可されるべきかどうかについてのエッセイに取り組んでいます。以下の各ステップに従っていきます。"
+      },
+      "step_instructions": [
+        {
+          "en": "Step 1: Read and understand various viewpoints about self-driving cars.",
+          "ja": "ステップ1：自動運転車に関するさまざまな見解を読んで理解する。"
+        },
+        {
+          "en": "Step 2: Take a position about whether or not self-driving cars should be allowed.",
+          "ja": "ステップ2：自動運転車が許可されるべきかどうかについての判断を下す。"
+        },
+        {
+          "en": "Step 3: Create an outline for an essay using additional sources.",
+          "ja": "ステップ3：追加の情報源を使って，エッセイの概要を作成する。"
+        }
+      ],
+      "passages": [
+        {
+          "id": "step1_sources",
+          "title": {
+            "en": "[Step 1] Read various sources",
+            "ja": "【ステップ1】さまざまな情報源を読む"
+          },
+          "authors": [
+            {
+              "id": "author_a",
+              "label": {
+                "en": "Author A (Elderly Person)",
+                "ja": "筆者A（高齢者）"
+              },
+              "sentences": [
+                {
+                  "id": "s6_a_s1",
+                  "en": "I'm excited about this new technology.",
+                  "ja": "私はこの新しいテクノロジーにわくわくしています。"
+                },
+                {
+                  "id": "s6_a_s2",
+                  "en": "As I get older, my reactions are getting worse, so it's too dangerous for me to drive a regular car now.",
+                  "ja": "歳をとるにつれて，私の反応は悪くなってきているので，今私が普通車を運転するのは危険すぎます。"
+                },
+                {
+                  "id": "s6_a_s3",
+                  "en": "However, if I had a self-driving car, I would be able to keep my independence for many more years.",
+                  "ja": "しかし，自動運転車があれば，私はさらにあと何年も自立を維持することができるでしょう。"
+                },
+                {
+                  "id": "s6_a_s4",
+                  "en": "This technology will be very useful for disabled people, too.",
+                  "ja": "このテクノロジーは障害を持つ人たちにとっても非常に役に立つでしょう。"
+                },
+                {
+                  "id": "s6_a_s5",
+                  "en": "Anything that allows the elderly and disabled people to move around safely by themselves is a good thing.",
+                  "ja": "高齢者や障害者が1人で安全に動き回ることを可能とするものは何であれ，よいものなのです。"
+                },
+                {
+                  "id": "s6_a_s6",
+                  "en": "The only thing that worries me is how expensive these cars are!",
+                  "ja": "私が心配する唯一のことは，こうした車がどれだけ高額になるかということです！"
+                }
+              ]
+            },
+            {
+              "id": "author_b",
+              "label": {
+                "en": "Author B (Driving Instructor)",
+                "ja": "筆者B（教習所教官）"
+              },
+              "sentences": [
+                {
+                  "id": "s6_b_s1",
+                  "en": "I'm not worried about an increase in self-driving cars.",
+                  "ja": "私は自動運転車が増えることについて心配してはいません。"
+                },
+                {
+                  "id": "s6_b_s2",
+                  "en": "Rather, my concern is that we will see more unsuitable drivers on the road.",
+                  "ja": "むしろ，私が心配するのは，路上であまり車の運転には向いていない運転者をより多く見ることになるということです。"
+                },
+                {
+                  "id": "s6_b_s3",
+                  "en": "There are certain situations where a car will switch from self-driving to driver-operated, and we still need everyone to be sufficiently good at driving without artificial intelligence.",
+                  "ja": "車が自動運転から運転者による操作に切り替わる状況は確実にあり，私たちはいまだにすべての人が人工知能なしに十分に車の運転が上手であることを必要としています。"
+                },
+                {
+                  "id": "s6_b_s4",
+                  "en": "On the other hand, this technology benefits people who can't drive normal cars now, such as senior citizens or people with disabilities.",
+                  "ja": "一方，このテクノロジーは高齢者や障害者といった現在普通車を運転することができない人たちに利益をもたらします。"
+                },
+                {
+                  "id": "s6_b_s5",
+                  "en": "They will be able to stay independent for longer.",
+                  "ja": "そうした人たちはより長く自立を維持することができるでしょう。"
+                }
+              ]
+            },
+            {
+              "id": "author_c",
+              "label": {
+                "en": "Author C (Car Engineer)",
+                "ja": "筆者C（自動車エンジニア）"
+              },
+              "sentences": [
+                {
+                  "id": "s6_c_s1",
+                  "en": "As an engineer for a car company, I have no worries about the safety of self-driving vehicles.",
+                  "ja": "車会社のエンジニアとして，私は自動運転車の安全性についてまったく心配してはいません。"
+                },
+                {
+                  "id": "s6_c_s2",
+                  "en": "In fact, we specifically design these cars to be safer than human-operated cars.",
+                  "ja": "実際，私たちはこうした車を人が運転する車よりも安全であるように特別に設計しています。"
+                },
+                {
+                  "id": "s6_c_s3",
+                  "en": "In my country, 85% of car accidents are caused by human error.",
+                  "ja": "我が国では，車の事故の85%が人の過失によって引き起こされています。"
+                },
+                {
+                  "id": "s6_c_s4",
+                  "en": "If we can reduce this human error, we can save hundreds of lives every year.",
+                  "ja": "もし人の過失を減らすことができれば，毎年数百もの命を救うことができます。"
+                },
+                {
+                  "id": "s6_c_s5",
+                  "en": "Of course, I worry a little about computer security, as there is always a chance that the vehicle's internal computer can get hacked, but I am confident that we have the skills and knowledge to deal with this quickly.",
+                  "ja": "もちろん，コンピューターの安全性に関しては，常に車内のコンピューターがハッキングされる可能性があるので，少し心配なところはありますが，私たちはそうしたことを迅速に処理する技術と知識を持っていると自負しております。"
+                }
+              ]
+            },
+            {
+              "id": "author_d",
+              "label": {
+                "en": "Author D (Police officer)",
+                "ja": "筆者D（警官）"
+              },
+              "sentences": [
+                {
+                  "id": "s6_d_s1",
+                  "en": "A lot of my daily work involves warning or arresting people for road offenses, such as speeding, drunk driving, or dangerous driving.",
+                  "ja": "私の毎日の業務の多くは，スピード違反や飲酒運転や危険な運転といった路上での違反のために人々に警告を与えたり，逮捕したりすることに関係しています。"
+                },
+                {
+                  "id": "s6_d_s2",
+                  "en": "I have heard that when this new technology becomes available, it may reduce traffic accidents.",
+                  "ja": "私は，この新しいテクノロジーが利用可能になると交通事故を減少させるかもしれない，と聞いたことがあります。"
+                },
+                {
+                  "id": "s6_d_s3",
+                  "en": "However, I don't believe this will actually happen, because there are so many things that can go wrong, causing more accidents.",
+                  "ja": "しかし，私は実際のところ，誤ってより多くの事故を引き起こし得る非常に多くのことが存在するので，そうしたことは起こらないと思います。"
+                },
+                {
+                  "id": "s6_d_s4",
+                  "en": "Overall, I don't think it is a good idea to bring this new technology in.",
+                  "ja": "全般的に言うと，私はこの新しいテクノロジーを導入するのはよい考えではないと思います。"
+                },
+                {
+                  "id": "s6_d_s5",
+                  "en": "The answer to the problems I mentioned is stricter driving tests and better laws.",
+                  "ja": "私が言及した問題に対する解決策は，運転免許試験をより厳格化し，法律を改良することです。"
+                }
+              ]
+            },
+            {
+              "id": "author_e",
+              "label": {
+                "en": "Author E (Taxi driver)",
+                "ja": "筆者E（タクシー運転手）"
+              },
+              "sentences": [
+                {
+                  "id": "s6_e_s1",
+                  "en": "I have been following this new technology with interest because I work as a taxi driver and my industry will be greatly impacted.",
+                  "ja": "私はタクシー運転手として働き，私の業界は大きな影響を受けることになるので，この新しいテクノロジーを興味深く追っています。"
+                },
+                {
+                  "id": "s6_e_s2",
+                  "en": "I worry that not only private vehicles but also taxis and buses will eventually be replaced by driverless cars.",
+                  "ja": "私は，個人の車ばかりでなくタクシーやバスも最終的には無人車に取って代わられることになるのではと懸念しています。"
+                },
+                {
+                  "id": "s6_e_s3",
+                  "en": "Although the cars themselves will be more expensive than a regular car at first, they will start to become cheaper.",
+                  "ja": "最初は車自体は普通車より高額になるでしょうが，価格は安くなり始めるでしょう。"
+                },
+                {
+                  "id": "s6_e_s4",
+                  "en": "At that point, transportation companies will decide that drivers are an unnecessary expense.",
+                  "ja": "その時点で，運送会社は運転手は不必要な出費であると判断することになるでしょう。"
+                },
+                {
+                  "id": "s6_e_s5",
+                  "en": "I'm afraid taxi and bus drivers might not be able to work as we do now.",
+                  "ja": "私は，タクシーやバスの運転手が現在のように働けなくなるかもしれないと心配しています。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "step2_position",
+          "title": {
+            "en": "[Step 2] Take a position",
+            "ja": "【ステップ2】判断を下す"
+          },
+          "is_step2": true,
+          "position": {
+            "en": "Your position: Self-driving cars should be allowed on the road.",
+            "ja": "あなたの判断：自動運転車は路上で許可されるべきだ。"
+          },
+          "position_details": [
+            {
+              "en": "Authors [27] and [28] support your position.",
+              "ja": "筆者[27]と[28]があなたの判断を支持している。"
+            },
+            {
+              "en": "The main argument of the two authors: [29].",
+              "ja": "その2人の筆者の主要な論拠：[29]。"
+            }
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "情報源A"
+          },
+          "sentences": [
+            {
+              "id": "s6_sa_s1",
+              "en": "Cars and vans currently account for about 10% of the world's carbon emissions.",
+              "ja": "現在，車や小型トラックは世界の炭素排出量の約10%を占めている。"
+            },
+            {
+              "id": "s6_sa_s2",
+              "en": "Therefore, it is very important that every step is taken to reduce this amount.",
+              "ja": "したがって，この排出量を減らすためにあらゆる手段を講じることが非常に重要である。"
+            },
+            {
+              "id": "s6_sa_s3",
+              "en": "One way to do this is by moving toward self-driving cars.",
+              "ja": "それを行う方法の1つは，自動運転車に移行することによるものである。"
+            },
+            {
+              "id": "s6_sa_s4",
+              "en": "Now, cars burn a large amount of energy when driven at high speeds, when braking, and when accelerating too quickly.",
+              "ja": "今，車は高速で運転されるときやブレーキをかけるときやあまりに急速に加速するときにはたくさんのエネルギーを燃焼する。"
+            },
+            {
+              "id": "s6_sa_s5",
+              "en": "Self-driving cars, on the other hand, are smart enough to optimize speed and acceleration to burn as little fuel as possible.",
+              "ja": "一方，自動運転車は，できる限り燃焼する燃料を少なくするために，スピードや加速を最適化することができるほどとても賢くなっている。"
+            },
+            {
+              "id": "s6_sa_s6",
+              "en": "They can also choose the most efficient route for journeys.",
+              "ja": "また自動運転車は移動のために最も効率のよいルートを選ぶことができる。"
+            },
+            {
+              "id": "s6_sa_s7",
+              "en": "In addition, if these cars eventually become completely driverless, households will need fewer vehicles because the same car can drive all the family members to work or school by itself, without needing lots of short journeys in different cars.",
+              "ja": "加えて，こうした車が最終的に完全な無人運転となれば，同じ車ですべての家族を自動で仕事場や学校へ送り届けることができるので別々の車で短い移動をたくさん行う必要がなく，各家庭が必要とする乗り物は少なくなるだろう。"
+            },
+            {
+              "id": "s6_sa_s8",
+              "en": "Finally, as technology improves, the weight of the car will decrease, leading to even less burning of fuels.",
+              "ja": "最後に，テクノロジーが向上するにつれて，そうした車の重量は減少し，燃料の燃焼量の一層の減少にさえつながるだろう。"
+            },
+            {
+              "id": "s6_sa_s9",
+              "en": "Now, batteries are heavy, but they are likely to get lighter over time.",
+              "ja": "現在，バッテリーは重いが，時間をかけて軽くなっていく可能性が高い。"
+            }
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "情報源B"
+          },
+          "sentences": [
+            {
+              "id": "s6_sb_s1",
+              "en": "A study by an insurance company in the US show that the amount we pay for insurance is likely to change if self-driving cars become more common.",
+              "ja": "米国のある保険会社の研究が示しているところによると，自動運転車がより一般的になれば，私たちが保険に支払う金額は変わる可能性が高い。"
+            },
+            {
+              "id": "s6_sb_s2",
+              "en": "The calculations show the amount people pay currently for insurance for different types of car, compared to future estimates if the car becomes self-driving.",
+              "ja": "算定グラフは，車が自動運転になった場合の将来見積りと比較した，さまざまな種類の車の保険に対して現在支払っている金額を示している。"
+            },
+            {
+              "id": "s6_sb_s3",
+              "en": "This is because self-driving cars are less likely to have accidents.",
+              "ja": "これは自動運転車が事故を起こす可能性がより低いという理由によるものである。"
+            }
+          ],
+          "is_source_with_chart": true,
+          "chart_image": {
+            "src": "data/sundai/2025/round03/images/s6_insurance_chart.png",
+            "alt": "Estimated Auto Insurance Costs: Self-Driving vs. Human-Driven Cars of Same Model"
+          }
+        },
+        {
+          "id": "step3_outline",
+          "title": {
+            "en": "[Step 3] Create an outline using sources A and B",
+            "ja": "【ステップ3】情報源AとBを使って，概要を作成する。"
+          },
+          "is_step3": true,
+          "outline": {
+            "essay_title": {
+              "en": "Self-driving cars are the future",
+              "ja": "自動運転車が未来の姿だ"
+            },
+            "introduction": {
+              "en": "In recent years, more car manufacturers are developing self-driving cars. Although many people are worried about this technology, they should be allowed on the roads.",
+              "ja": "近年，自動運転車を開発する自動車製造業者が増えている。このテクノロジーに懸念を抱く人は多いが，自動運転車は路上において許可されるべきだ。"
+            },
+            "body": [
+              {
+                "en": "Reason 1: (From Step 2)",
+                "ja": "理由1：（ステップ2から）"
+              },
+              {
+                "en": "Reason 2: (Based on Source A) ...... [30]",
+                "ja": "理由2：（情報源Aに基づく）…… [30]"
+              },
+              {
+                "en": "Reason 3: (Based on Source B) ...... [31]",
+                "ja": "理由3：（情報源Bに基づく）…… [31]"
+              }
+            ],
+            "conclusion": {
+              "en": "For these reasons, people should be permitted to buy and use self-driving cars.",
+              "ja": "こうした理由で，人々は自動運転車を購入して使用することを許可されるべきだ。"
+            }
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 25,
+          "choices": [
+            {
+              "label": "①",
+              "en": "cars with this technology will become more expensive, so the elderly cannot use them",
+              "ja": "こうしたテクノロジーを備えた車は価格がより高額になるので，高齢者は使用することができない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "families will be positively affected by self-driving cars because grandparents can help more",
+              "ja": "各家庭は，祖父母がより助けてくれるので，自動運転車によい影響を受けるであろう",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "fewer people will take driving lessons because these new cars can drive themselves",
+              "ja": "こうした新しい車は自ら運転を行うので，自動車教習を受ける人は減るだろう",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "self-driving cars will allow certain groups of people to become drivers and maintain independence",
+              "ja": "自動運転車はある特定の人々の集団が運転者となって自立を維持することを可能とするだろう",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。「筆者AとBは両者とも[25]と言及している」。\n高齢者である筆者Aは第3文 (However, if I ...) で「しかし，自動運転車があれば，私はさらにあと何年も自立を維持することができるでしょう」と述べている。また教習所教官の筆者Bは，第4文 (On the other ...) 以降で「一方，このテクノロジーは高齢者や障害者といった現在普通車を運転することができない人たちに利益をもたらします。そうした人たちはより長く自立を維持することができるでしょう」と述べている。両者とも自動運転車は高齢者や障害者といった特定の人々の自立を維持することになる，と言及していると判断できるので，正解は④。\n①に関しては，筆者Aが最終文 (The only thing ...) で自動運転車が高額になる可能性に触れているが，そのために高齢者は自動運転車を使用できないとは述べていないし，筆者Bは自動運転車の価格についてはまったく触れていないので不可。\n②，③に関しては，いずれも筆者AとBが述べている内容とはなっていないので不可。",
+            "evidence_sentences": [
+              "s6_a_s3",
+              "s6_b_s4",
+              "s6_b_s5"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "筆者Aが最終文 (The only thing ...) で自動運転車が高額になる可能性に触れているが，そのために高齢者は自動運転車を使用できないとは述べていないし，筆者Bは自動運転車の価格についてはまったく触れていないので不可。"
+              },
+              {
+                "choice": "②",
+                "reason": "②，③に関しては，いずれも筆者AとBが述べている内容とはなっていないので不可。"
+              },
+              {
+                "choice": "③",
+                "reason": "②，③に関しては，いずれも筆者AとBが述べている内容とはなっていないので不可。"
+              }
+            ]
+          },
+          "question_text": {
+            "en": "Both Authors A and B mention that [25].",
+            "ja": "「筆者AとBは両者とも[25]と言及している」"
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 26,
+          "choices": [
+            {
+              "label": "①",
+              "en": "although many people worry about the safety of these cars, they are no different to regular cars",
+              "ja": "多くの人々がこうした車の安全性について心配しているが，こうした車は普通車とまったく変わらない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "by removing the need for human drivers, these new cars will help reduce the number of accidents",
+              "ja": "人間の運転手の必要をなくすことによって，こうした新しい車は事故の数を減らすことに役立つだろう",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "people will become better drivers with these new cars because the controls are much easier to operate",
+              "ja": "こうした車があると，操縦がはるかにしやすいので，人々は車の運転がさらに上手くなるだろう",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the cars are designed so that if there is the risk of an accident, the car switches to driver-operated mode",
+              "ja": "こうした車は，事故の危険がある場合には車が運転手操作式に切り替わるよう設計されている",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。「筆者Cは[26]と示唆している」。\n自動車エンジニアである筆者Cは第2文 (In fact, we ...) で，自分たちは自動運転車を人が運転する車よりも安全であるように設計している，と述べた後で，続く第3文 (In my country, ...) ～第4文 (If we can ...) で，自分たちの国の車の事故の85％が人の過失によるものなので，それを減らすことができれば事故の数は大きく減少し，たくさんの命を救うことになる，と主張しているが，これは言い換えれば，人間が運転する車に自動運転車が取って代わることで事故の数を減らすことができるということを意味しているので，正解は②となる。\n①，③，④に関しては，いずれも筆者Cが述べている内容とはなっていないので不可。",
+            "evidence_sentences": [
+              "s6_c_s2",
+              "s6_c_s3",
+              "s6_c_s4"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①，③，④に関しては，いずれも筆者Cが述べている内容とはなっていないので不可。"
+              },
+              {
+                "choice": "③",
+                "reason": "①，③，④に関しては，いずれも筆者Cが述べている内容とはなっていないので不可。"
+              },
+              {
+                "choice": "④",
+                "reason": "①，③，④に関しては，いずれも筆者Cが述べている内容とはなっていないので不可。"
+              }
+            ]
+          },
+          "question_text": {
+            "en": "Author C states that [26].",
+            "ja": "「筆者Cは[26]と示唆している」"
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            27,
+            28,
+            29
+          ],
+          "choices_27_28": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct_27": true,
+              "is_correct_28": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct_27": false,
+              "is_correct_28": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct_27": false,
+              "is_correct_28": true
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct_27": false,
+              "is_correct_28": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct_27": false,
+              "is_correct_28": false
+            }
+          ],
+          "choices_29": [
+            {
+              "label": "①",
+              "en": "Accidents will now be the responsibility of car manufacturers, rather than human drivers",
+              "ja": "現在，事故は人間の運転手ではなく自動車製造業者の責任となるのだろう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Introducing self-driving technology will allow people to safely operate cars regardless of their driving skills",
+              "ja": "自動運転の技術を導入することで，運転技能にかかわらず安全に車を運転することが可能になるだろう",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Self-driving cars are much less likely to get hacked by dangerous people than regular cars",
+              "ja": "自動運転車は普通車よりも危険人物によってハッキングされる可能性がはるかに少ない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The number of people who are arrested for drinking alcohol and driving will drop dramatically",
+              "ja": "アルコールを飲んで車を運転したために逮捕される人の数は劇的に減少するだろう",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "27": "①",
+            "28": "③",
+            "29": "②"
+          },
+          "explanation": {
+            "ja": "[27]と[28]の正解は①と③。(順序は問わない)\n高齢者である筆者Aは上の問1の解説でも触れたように，第3文 (However, if I ...) ～第4文 (This technology will ...) において，自動運転車は高齢者や障害者の自立を維持することで非常に有益だ，と言及している。また自動車エンジニアである筆者Cは上の問2の解説でも触れたように，第2文 (In fact, we ...) ～第4文 (If we can ...) で，自分たちエンジニアは自動運転車を人が運転する車よりも安全であるように設計しており，自動運転車が人間の過失を減らすことができれば車の事故は大幅に減少すると言っている。以上から筆者AとCは「自動運転車は路上で許可されるべきだ」という「あなた」の判断を支持する意見を述べていることがわかるので，[27]と[28]には①(A)と③(C)が入ることになる。\n\n[29]の正解は②。筆者Aは今の自分にとって普通車を運転するのは危険である，と述べているが，第5文 (Anything that allows ...) で「（自動運転車は）高齢者や障害者が1人で安全に動き回ることを可能とする」と述べている。また筆者Cも，自動運転車が人間の過失を減らすことができれば車の事故は大幅に減少すると述べている。以上から，「あなた」の判断を支持している筆者AとC共通の論拠は選択肢②の「自動運転の技術を導入することで，運転技能にかかわらず安全に車を運転することが可能になるだろう」ということだとわかる。\nなお筆者Bは，「すべての人が人工知能なしに十分に車の運転が上手であることが必要」と述べているため選択肢②には当てはまらない。",
+            "evidence_sentences": [
+              "s6_a_s3",
+              "s6_a_s4",
+              "s6_a_s5",
+              "s6_c_s2",
+              "s6_c_s3",
+              "s6_c_s4"
+            ]
+          },
+          "question_text": {
+            "en": "Now that you understand the various viewpoints, you have taken a position on the introduction of self-driving cars, and have written it out as below. Choose the best options to complete [27], [28], and [29].\nYour position: Self-driving cars should be allowed on the road.\n• Authors [27] and [28] support your position.\n• The main argument of the two authors: [29].",
+            "ja": "「さまざまな見解を理解したので，自動運転車の導入に関して判断を下し，それを以下のように書き出した。[27]，[28]，[29] を完成させるのにもっとも適切な選択肢を選びなさい」\n\nあなたの判断：自動運転車は路上で許可されるべきだ。\n・筆者 [27] と [28] があなたの判断を支持している。\n・その2人の筆者の主要な論拠： [29] 。"
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 30,
+          "choices": [
+            {
+              "label": "①",
+              "en": "Human-driven cars are about 10% more inefficient than self-driving cars.",
+              "ja": "人間が運転する車は自動運転車よりも約10%非効率的である。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Newer self-driving cars have lighter batteries and brake faster than older ones, so they are more efficient to drive.",
+              "ja": "新しい自動運転車は古い自動運転車よりバッテリーは軽く，より速くブレーキがかかるので，運転効率がよりよい。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Self-driving cars can move faster for longer and have lighter batteries than human-driven cars, so they use less CO2-emitting fuel.",
+              "ja": "自動運転車は人間が運転する車よりも長い距離をより速く移動でき，バッテリーは軽いので，二酸化炭素を排出する燃料の使用量はより少ない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Self-driving cars may be better for the environment because they are more fuel efficient and can cut down the number of car journeys.",
+              "ja": "自動運転車は燃費がよく，車での移動数を削減できるので，環境にとってよりよいものかもしれない。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。「情報源Aに基づくと，理由2にとってもっとも適切なのは次のうちどれか」。\n情報源Aの第5文 (Self-driving cars, on ...) では「一方，自動運転車は，できる限り燃焼する燃料を少なくするために，スピードや加速を最適化することができるほどとても賢くなっている」と，自動運転車の燃費がよい点が述べられ，さらに第7文 (In addition, if ...) では「加えて，こうした車が最終的に完全な無人運転となれば，さまざまな車で短い移動をたくさん行う必要がなく，各家庭が必要とする乗り物は少なくなるだろう」と，自動運転車を使用すれば車での移動回数が少なくて済むことが述べられている。車での移動回数が少なくて済むということは，それだけ二酸化炭素の排出量を減らすことになるので，環境に対してよいものとなると推測できる。また第8文 (Finally, as technology ...) では「最後に，テクノロジーが向上するにつれて，そうした車の重量は減少し，燃料の燃焼量の一層の減少にさえつながるだろう」と今後のテクノロジーの発展により使用する燃料の減少につながることが述べられている。以上から，自動運転車は燃費がよく，車での移動回数が少なくて済み，テクノロジーの発展と相まって二酸化炭素の排出量を減らすことになるので，環境に対してよい自動車となる可能性が高いと推測できる。よって正解は④となる。\n①，②，③に関しては，いずれも情報源Aで述べられている内容ではないので不可。",
+            "evidence_sentences": [
+              "s6_sa_s5",
+              "s6_sa_s7",
+              "s6_sa_s8"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①，②，③に関しては，いずれも情報源Aで述べられている内容ではないので不可。"
+              },
+              {
+                "choice": "②",
+                "reason": "①，②，③に関しては，いずれも情報源Aで述べられている内容ではないので不可。"
+              },
+              {
+                "choice": "③",
+                "reason": "①，②，③に関しては，いずれも情報源Aで述べられている内容ではないので不可。"
+              }
+            ]
+          },
+          "question_text": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [30]",
+            "ja": "「情報源Aに基づくと，理由2にとってもっとも適切なのは次のうちどれか」[30]"
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 31,
+          "choices": [
+            {
+              "label": "①",
+              "en": "Around 50% of self-driving cars will have cheaper insurance than human-driven cars because they are cheaper to repair if they get damaged.",
+              "ja": "自動運転車の約50%は，損傷を受けた場合の修理費が安く済むので，人間が運転する車よりも保険料が安くなるだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Insurance costs for self-driving cars are half the price of human-driven cars due to changes in the car insurance industry.",
+              "ja": "自動車保険会社における変更により，自動運転車の保険料は人間が運転する車の半額となっている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "More people will switch to smaller cars and self-driving cars because they are both cheaper to insure than regular ones.",
+              "ja": "小型車や自動運転車は両方とも普通車よりも自動車保険料が安いので，それらに切り替える人が増えるだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Owners of self-driving cars may save around $1,000 each year in insurance costs because these cars are less likely to be involved in accidents.",
+              "ja": "自動運転車は事故に巻き込まれる可能性が低いので，自動運転車の所有者は毎年保険料をおよそ1,000ドル節約できるかもしれない。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。「『自動運転車は人々のお金を節約する可能性が高い』という記載を支持するにもっともふさわしい選択肢は情報源Bに基づくとどれか」。\n情報源Bのグラフより，どの車種においても自動運転車の保険料は人間が運転する車よりも大体1,000ドルほど低くなっていることがわかる。情報源Bの最終文 (This is because ...) には「これは自動運転車が事故を起こす可能性がより低いという理由によるものである」と述べられていることから，正解は④となる。\n①，②，③に関しては，いずれも情報源Bで述べられている内容およびグラフからわかる内容ではないので不可。",
+            "evidence_sentences": [
+              "s6_sb_s3"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①，②，③に関しては，いずれも情報源Bで述べられている内容およびグラフからわかる内容ではないので不可。"
+              },
+              {
+                "choice": "②",
+                "reason": "①，②，③に関しては，いずれも情報源Bで述べられている内容およびグラフからわかる内容ではないので不可。"
+              },
+              {
+                "choice": "③",
+                "reason": "①，②，③に関しては，いずれも情報源Bで述べられている内容およびグラフからわかる内容ではないので不可。"
+              }
+            ]
+          },
+          "question_text": {
+            "en": "For Reason 3, you have decided to write, \"Self-driving vehicles are likely to save people money\". Based on Source B, which option best supports this statement? [31]",
+            "ja": "「理由3として，あなたは『自動運転車は人々のお金を節約する可能性が高い』と書くことにした。情報源Bに基づけば，どの選択肢がこの記述をもっともよく支持しているか」[31]"
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 15,
+      "points_per_question": 3,
+      "situation": {
+        "en": "Your science teacher has asked everyone to research an important woman in science and present your research to the class, using notes. You have found an article about Mileva Marić, Albert Einstein's first wife.",
+        "ja": "あなたの理科の先生は，科学の分野で重要な仕事をした女性について調べ，メモを使ってクラスで調査を発表するという課題を全員に出しました。あなたはアルベルト・アインシュタインの最初の妻であるミレヴァ・マリッチについての記事を見つけました。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "The Life of Mileva Marić",
+            "ja": "ミレヴァ・マリッチの生涯"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s7_s1",
+                "en": "Everyone knows the name \"Albert Einstein.\"",
+                "ja": "「アルベルト・アインシュタイン」という名前は誰もが知っている。"
+              },
+              {
+                "id": "s7_s2",
+                "en": "He is considered the most important physicist of the 20th century, winning the Nobel Prize in Physics in 1921.",
+                "ja": "彼は20世紀で最も重要な物理学者と見なされ，1921年にはノーベル物理学賞を獲得している。"
+              },
+              {
+                "id": "s7_s3",
+                "en": "However, few people know about his first wife, Serbian physicist Mileva Marić.",
+                "ja": "しかし，彼の最初の妻のセルビア人物理学者ミレヴァ・マリッチについて知る人はほとんどいない。"
+              },
+              {
+                "id": "s7_s4",
+                "en": "She was associated with Einstein between 1896, when they first met, and 1919, when they divorced.",
+                "ja": "彼女は2人が初めて会った1896年から，1919年に離婚するまでアインシュタインの伴侶だった。"
+              },
+              {
+                "id": "s7_s5",
+                "en": "It is believed by many that Mileva was the key to Einstein's success.",
+                "ja": "アインシュタインの成功のカギはミレヴァであったと，多くの人が信じている。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s6",
+                "en": "Mileva Marić was born in Serbia in 1875 to a wealthy family.",
+                "ja": "ミレヴァ・マリッチは1875年，セルビアの裕福な家庭に生まれた。"
+              },
+              {
+                "id": "s7_s7",
+                "en": "All of her education before university was completed in her home country.",
+                "ja": "大学以前の教育はすべて故国で受けた。"
+              },
+              {
+                "id": "s7_s8",
+                "en": "At that time, only boys were allowed to attend physics lectures at her high school, but her father recognized her ability and obtained special permission for her to participate.",
+                "ja": "当時，彼女の通っていた高校では物理の授業を受けられるのは男子だけだったが，父親は彼女の能力を認め，彼女が授業に参加できるよう特別に許可を取ってくれた。"
+              },
+              {
+                "id": "s7_s9",
+                "en": "In 1886, she entered Zurich Polytechnic in Switzerland, where she enrolled at the same time as Albert Einstein.",
+                "ja": "1886年，彼女はスイスのチューリッヒ工科大学に入った。アルベルト・アインシュタインと同時期に入学したのである。"
+              },
+              {
+                "id": "s7_s10",
+                "en": "She was the only woman in her course, which indicates she must have been very talented because opportunities for female scientists at that time were very limited.",
+                "ja": "彼女はそのコースで唯一の女子学生で，そのことは彼女がいかに才能のある人であったかを示している。当時女性の科学者のための機会は非常に限られていたのだから。"
+              },
+              {
+                "id": "s7_s11",
+                "en": "Mileva and Albert spent many years studying together.",
+                "ja": "ミレヴァとアルベルトは長い年月をともに勉強して過ごした。"
+              },
+              {
+                "id": "s7_s12",
+                "en": "It is clear from the letters they exchanged at the time that she greatly influenced his studies.",
+                "ja": "彼らが当時交わしていた手紙からも，彼女が彼の研究に大きな影響を与えたことは明らかだ。"
+              },
+              {
+                "id": "s7_s13",
+                "en": "Mileva and Albert finished their classes with very similar grades, except in applied physics, where Mileva achieved much higher grades than Albert.",
+                "ja": "ミレヴァとアルベルトは非常に似通った成績で大学を出たが，応用物理学だけは差があった。その科目ではミレヴァの方がアルベルトよりもずっとよい成績だったのだ。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s14",
+                "en": "Albert's parents opposed his relationship with Mileva because of her nationality, her religion, and her high intellect.",
+                "ja": "アルベルトの両親は彼のミレヴァとの関係に，彼女の国籍と宗教と高い知性を理由に反対した。"
+              },
+              {
+                "id": "s7_s15",
+                "en": "They believed she would not make a suitable wife for him.",
+                "ja": "彼にとってふさわしい妻にはなれないと思ったのである。"
+              },
+              {
+                "id": "s7_s16",
+                "en": "However, they continued their relationship and married in 1903.",
+                "ja": "しかし，彼らは関係を続け1903年に結婚した。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s17",
+                "en": "Even before their marriage, the couple worked together on research.",
+                "ja": "結婚する前からすでに，彼らは協力して研究に取り組んでいた。"
+              },
+              {
+                "id": "s7_s18",
+                "en": "In 1900, they submitted their first research paper which was signed only by Albert.",
+                "ja": "1900年には彼らは最初の研究論文を提出したが，それにはアルベルト1人の署名しかなかった。"
+              },
+              {
+                "id": "s7_s19",
+                "en": "Despite this, both Mileva and Albert referred to it as \"our article\" in letters to each other and friends.",
+                "ja": "それにも関わらず，彼らはお互いや友人たちに宛てた手紙の中でそれを「私たちの論文」と呼んでいた。"
+              },
+              {
+                "id": "s7_s20",
+                "en": "Why did Mileva not add her name to the article?",
+                "ja": "ミレヴァはなぜ論文に自分の名を付け加えなかったのだろうか。"
+              },
+              {
+                "id": "s7_s21",
+                "en": "It is believed there are two main reasons.",
+                "ja": "主な理由は2つあると考えられている。"
+              },
+              {
+                "id": "s7_s22",
+                "en": "The first is that Mileva wanted Albert to make a name for himself so that his parents would allow him to marry her, and the second is that there was great prejudice against women at that time.",
+                "ja": "第1に，ミレヴァはアルベルトの両親に2人の結婚を認めてもらえるように，彼に有名になってほしかった。第2に当時は女性に対する大きな偏見があったからだ。"
+              },
+              {
+                "id": "s7_s23",
+                "en": "By having their research published only in a man's name, it was more likely to be received positively.",
+                "ja": "研究を男性の名前だけで発表することで，それが肯定的に受け取られる可能性がより大きかったのだ。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s24",
+                "en": "1905 was Einstein's most productive year.",
+                "ja": "1905年はアインシュタインにとって最も実りの多い年だった。"
+              },
+              {
+                "id": "s7_s25",
+                "en": "He published five major articles in that year, one of which led to his Nobel Prize in 1921.",
+                "ja": "その年，彼は5本の主要な論文を発表し，その1つは1921年のノーベル賞受賞につながった。"
+              },
+              {
+                "id": "s7_s26",
+                "en": "Mileva mentioned to friends at the time that she and her husband would stay up late every night working on these papers.",
+                "ja": "ミレヴァは当時友人に，夫と2人で毎晩遅くまでこれらの論文の執筆に取り組んだものだと語っていた。"
+              },
+              {
+                "id": "s7_s27",
+                "en": "In addition, Einstein's biographer stated that Mileva was the one who checked the articles and sent them out while Einstein rested.",
+                "ja": "それに加えて，アインシュタインの伝記の執筆者は，アインシュタインが休んでいる間にミレヴァが論文を点検しそれを送ったと述べた。"
+              },
+              {
+                "id": "s7_s28",
+                "en": "Albert himself said to a friend, \"I need my wife. She solves for me all my mathematical problems.\"",
+                "ja": "アルベルト自身も友人に「僕には妻が必要だ。僕の数学的な問題はすべて彼女が解決してくれる」と語っていた。"
+              },
+              {
+                "id": "s7_s29",
+                "en": "Despite this, it was Albert who became the celebrated physicist while Mileva quietly worked in the background.",
+                "ja": "これにも関わらず，高名な物理学者になったのはアルベルトで，一方ミレヴァは裏方で静かに働いていたのだった。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s30",
+                "en": "In 1912, Albert began a secret relationship with Elsa Lowenthal, his cousin.",
+                "ja": "1912年，アルベルトはいとこのエルザ・ロウエンタールとひそかに関係を持ち始めた。"
+              },
+              {
+                "id": "s7_s31",
+                "en": "He also lived in different European cities during this time for work.",
+                "ja": "また彼はこのころ仕事のためにヨーロッパのいろいろな都市に住んでいた。"
+              },
+              {
+                "id": "s7_s32",
+                "en": "This caused the collapse of his marriage to Mileva, and they divorced in 1919.",
+                "ja": "このため，ミレヴァとの結婚は破綻し，1919年離婚に至った。"
+              },
+              {
+                "id": "s7_s33",
+                "en": "Albert and Mileva were not on good terms after their divorce, and there is evidence that Albert's lawyers were worried that the truth of Mileva's input would be revealed after her death and the \"Einstein myth\" be destroyed.",
+                "ja": "離婚後のアルベルトとミレヴァの仲は良くなく，ミレヴァの死後に彼女の貢献の真相が暴露され「アインシュタインの神話」が破壊されてしまうことを，アルベルトの弁護士たちが心配していたという証拠がある。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s34",
+                "en": "Mileva Marić is just one of many female scientists in history whose work has been hidden.",
+                "ja": "ミレヴァ・マリッチは歴史の中でその仕事が隠されてきた多くの女性科学者の1人にすぎない。"
+              },
+              {
+                "id": "s7_s35",
+                "en": "It is only recently that her influence on Einstein has been acknowledged.",
+                "ja": "彼女のアインシュタインに与えた影響が認められたのは，やっと最近になってのことだ。"
+              },
+              {
+                "id": "s7_s36",
+                "en": "As with many women of her time, she abandoned her own wishes in order to support her husband's success.",
+                "ja": "当時の多くの女性の場合と同様に，彼女は夫の成功を支えるために自分自身の願いをあきらめたのである。"
+              },
+              {
+                "id": "s7_s37",
+                "en": "In fact, without Mileva Marić, Albert Einstein would probably not have become the household name he is today.",
+                "ja": "実際，ミレヴァ・マリッチなくして，アルベルト・アインシュタインはおそらく今日のようなよく知られた名にはなっていなかっただろう。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "notes",
+          "is_notes": true,
+          "notes_title": {
+            "en": "The Life of Mileva Marić",
+            "ja": "ミレヴァ・マリッチの生涯"
+          },
+          "research_sections": [
+            {
+              "heading": {
+                "en": "About Mileva Marić",
+                "ja": "ミレヴァ・マリッチについて"
+              },
+              "items": [
+                {
+                  "en": "Spent her youth in her home country of Serbia.",
+                  "ja": "故国セルビアで若い時期を過ごした。"
+                },
+                {
+                  "en": "Met Albert Einstein at university in Switzerland.",
+                  "ja": "スイスの大学でアルベルト・アインシュタインと出会った。"
+                },
+                {
+                  "en": "Evidence of her talent in physics is that [32].",
+                  "ja": "彼女の物理学の才能を証明するのは[32]ことである。"
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Influential people in Mileva's life",
+                "ja": "ミレヴァの人生に影響を与えた人々"
+              },
+              "items": [
+                {
+                  "en": "Her father, who fought for her to study alongside boys.",
+                  "ja": "父親。彼は彼女が男の子たちと並んで勉強できるように戦ってくれた。"
+                },
+                {
+                  "en": "Albert's parents, who opposed their marriage, which probably caused her to [33].",
+                  "ja": "アルベルトの両親。彼らはアルベルトとの結婚に反対し，おそらくそのために彼女は[33]ことになった。"
+                }
+              ]
+            }
+          ],
+          "event_sequence": {
+            "heading": {
+              "en": "Influential events",
+              "ja": "影響を与えた出来事"
+            },
+            "start": {
+              "en": "Enrolled at Zurich Polytechnic",
+              "ja": "チューリッヒ工科大学に入学した"
+            },
+            "slots": [
+              34,
+              35,
+              36,
+              37
+            ]
+          },
+          "legacy_section": {
+            "heading": {
+              "en": "Mileva and Albert's legacy",
+              "ja": "ミレヴァとアルベルトの遺産"
+            },
+            "content": {
+              "en": "Albert's lawyers were concerned that [38].",
+              "ja": "アルベルトの弁護士たちは[38]のではないかと心配した。"
+            }
+          },
+          "lessons": {
+            "heading": {
+              "en": "What we can learn from Mileva's story",
+              "ja": "ミレヴァの物語から学ぶことができること"
+            },
+            "items": [
+              {
+                "en": "[39]",
+                "ja": "[39]"
+              },
+              {
+                "en": "[40]",
+                "ja": "[40]"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 32,
+          "question_text": {
+            "en": "Choose the best option for [32].",
+            "ja": "[32]に入る最適な選択肢を選べ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "she got a scholarship to Zurich Polytechnic",
+              "ja": "チューリッヒ工科大学へ進学する奨学金を得た",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "she got the best grades in her high school",
+              "ja": "高校で最優秀の成績だった",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "she was acknowledged by Einstein in college",
+              "ja": "大学でアインシュタインに認められた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "she was the sole female admitted to her college course",
+              "ja": "受講した大学のコースに入ることができた女性は彼女1人だけだった",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。第2段落第5文 (She was the ...) に「彼女はそのコースで唯一の女子学生で，そのことは彼女がいかに才能のある人かを示している。当時女性の科学者のための機会は非常に限られていたのだから」とあることから，④が正解。\nその他の選択肢については，特に本文に記述はないので不適当。",
+            "evidence_sentences": [
+              "s7_s10"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 33,
+          "question_text": {
+            "en": "Choose the best option for [33].",
+            "ja": "[33]に入る最適な選択肢を選べ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "avoid writing her name on joint research papers",
+              "ja": "共著の研究論文に自分の名を書くのを避ける",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "complete her own research with no input from Albert",
+              "ja": "アルベルトのアドバイスは全くもらわずに彼女自身の研究を完成させる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "move to various European cities without Albert",
+              "ja": "アルベルトを伴わずさまざまなヨーロッパの都市に移り住む",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "stop helping Albert write his physics research papers",
+              "ja": "アルベルトが物理学の研究論文を書く手伝いをするのをやめる",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。第4段落第6文 (The first is ...) では，ミレヴァが論文に自分の名を付けなかった理由について，「第1に，ミレヴァはアルベルトの両親に2人の結婚を認めてもらえるように，彼に有名になってほしかった」と述べられている。つまり彼の両親に結婚を反対されていたために，論文に自分の名を付さずアルベルト1人の名前で発表したのだということがわかる。したがって正解は①。\n②のミレヴァ自身の研究について述べた個所はないので不適当。③の「ヨーロッパ各地に住んだ」のはミレヴァではなくアルベルトなので不適当。④のように，アルベルトの両親から結婚に反対されたせいで彼の論文執筆の手伝いをやめたという記述はないので④は不適当。",
+            "evidence_sentences": [
+              "s7_s22"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "question_type": "ordering",
+          "question_text": {
+            "en": "Choose four out of the five events (①～⑤) and rearrange them in the order they happened. [34] → [35] → [36] → [37]",
+            "ja": "5つの出来事（①～⑤）のうち4つを選び，起こった順に並べなさい。[34] → [35] → [36] → [37]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Albert and his cousin started a secret romantic relationship.",
+              "ja": "アルベルトと彼のいとこは秘密の恋愛関係を持ち始めた。"
+            },
+            {
+              "label": "②",
+              "en": "Albert got better grades than Mileva in applied physics.",
+              "ja": "アルベルトは応用物理学の成績がミレヴァよりよかった。"
+            },
+            {
+              "label": "③",
+              "en": "Albert published the paper that led to his Nobel Prize.",
+              "ja": "アルベルトはノーベル賞受賞につながる論文を発表した。"
+            },
+            {
+              "label": "④",
+              "en": "Mileva and Albert finally became husband and wife.",
+              "ja": "ミレヴァとアルベルトはついに結婚した。"
+            },
+            {
+              "label": "⑤",
+              "en": "Mileva and Albert finished and published their first article.",
+              "ja": "ミレヴァとアルベルトは彼らの最初の論文を完成し発表した。"
+            }
+          ],
+          "answer_sequence": [
+            "⑤",
+            "④",
+            "③",
+            "①"
+          ],
+          "explanation": {
+            "ja": "正解は⑤→④→③→①。「チューリッヒ工科大学に入学した」に続く4つの出来事を並べる。まず，大学に入ってからのことを述べている②についてみると，第2段落最終文 (Mileva and Albert ...) に「応用物理学だけは差があった。その科目ではミレヴァの方がアルベルトよりもずっとよい成績だったのだ」とあり，②は事実ではないため正解には含まれない。①は第6段落第1文 (In 1912, Albert ...) から1912年，③は第5段落第1, 2文 (1905 was Einstein's ... / He published five ...) から1905年，④は第3段落最終文 (However, they continued ...) から1903年，⑤は第4段落第2文 (In 1900, they ...) から1900年。したがって，これらを時系列に並べると⑤→④→③→①の順になる。",
+            "evidence_sentences": [
+              "s7_s18",
+              "s7_s16",
+              "s7_s25",
+              "s7_s30"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 38,
+          "question_text": {
+            "en": "Choose the best option for [38].",
+            "ja": "[38]に入る最適な選択肢を選べ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Mileva had not supported Albert as much as she had told friends",
+              "ja": "ミレヴァが友人たちに語っていたほどはアルベルトを支えていなかった",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Mileva would not get the recognition she deserved for her work",
+              "ja": "ミレヴァが自分の仕事に値する評価を受けられない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Mileva's contribution would become known, ruining Albert's reputation",
+              "ja": "論文へのミレヴァの貢献が知られて，アルベルトの名声が地に落ちる",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "papers the couple published together would not be found after her death",
+              "ja": "夫婦が共同で発表した論文は彼女の死後見つからない",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。「アルベルトの弁護士たちは[38]と心配した」に入るものを選ぶ。ミレヴァの死後のことについては第6段落最終文 (Albert and Mileva ...) に「…ミレヴァの死後に彼女の貢献の真相が暴露され『アインシュタインの神話』が破壊されてしまうことを，アルベルトの弁護士たちが心配していたという証拠がある」とあるので，これに一致する③が正解。\nその他の選択肢についての記述はない。",
+            "evidence_sentences": [
+              "s7_s33"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_numbers": [
+            39,
+            40
+          ],
+          "question_text": {
+            "en": "Choose the best two options for [39] and [40]. (The order does not matter.)",
+            "ja": "[39]・[40]に最適な選択肢を選べ（順番は問わない）。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Albert would have been more successful without his parent's strong opposition.",
+              "ja": "アルベルトは，彼の両親の強い反対がなければより大きな成功を収めていただろう。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Einstein was a very important physicist, but his wife's influence may be greater than believed.",
+              "ja": "アインシュタインは非常に重要な物理学者だったが，彼の妻の影響は信じられているよりも大きい可能性がある。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Mileva is an example of a female scientist whose work has not been fully recognized.",
+              "ja": "ミレヴァはその仕事が十分には認められていない女性科学者の一例である。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "More Nobel Prizes should be awarded to female scientists than to male scientists.",
+              "ja": "ノーベル賞は男性科学者よりも女性科学者に多く与えられるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Most of Albert Einstein's work was completed by his wife and not him.",
+              "ja": "アルベルト・アインシュタインの仕事のほとんどが，彼自身ではなく妻によって完成された。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②・③",
+          "explanation": {
+            "ja": "正解は②と③。②の「ミレヴァのアルベルトへの影響」については第5段落に書かれており，また，結論的に最終段落最終文 (In fact, without ...) に「実際，ミレヴァ・マリッチなくして，アルベルト・アインシュタインはおそらく今日のようなよく知られた名にはなっていなかっただろう」とある。また，③については，最終段落第1文 (Mileva Marić is ...) に「ミレヴァ・マリッチは歴史の中でその仕事が隠されてきた多くの女性科学者の1人にすぎない」とある。よって②と③が正解。\n①のアルベルトの両親の反対については第3段落第1文 (Albert's parents opposed ...) に「アルベルトの両親は彼のミレヴァとの関係に…反対した」とある。しかし「反対されなかったらより大きな成功を収めていただろう」と考える根拠はないので不適切。④については記述がない。⑤の，ミレヴァのアルベルトへの協力については第5段落に書かれている。第3文 (Mileva mentioned to ...) には「ミレヴァは…夫と2人で毎晩遅くまでこれらの論文の執筆に取り組んだものだと語っている」とあるが，「ほとんど彼自身ではなくミレヴァが完成した」という記述はないので不適切。",
+            "evidence_sentences": [
+              "s7_s37",
+              "s7_s34"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 14,
+      "situation": {
+        "en": "You are in a student group preparing for a university biology presentation. You are using the following passage to create your part of the presentation on useful viruses.",
+        "ja": "あなたは大学の生物学の発表の準備をしている学生グループの一員です。役に立つウイルスについての発表の，自分の担当部分を作るために次の一節を利用しています。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Good Viruses",
+            "ja": "役立つウイルス"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s1",
+                "en": "When you think of viruses, you probably think of disease.",
+                "ja": "ウイルスと言えば，あなたはおそらく病気を思い浮かべるだろう。"
+              },
+              {
+                "id": "s8_s2",
+                "en": "After all, viruses are responsible for many of the illnesses that regularly affect humans.",
+                "ja": "何といっても，ウイルスは頻繁に人間を襲う病気の多くの原因なのだ。"
+              },
+              {
+                "id": "s8_s3",
+                "en": "Influenza, the common cold, COVID-19, and countless other diseases are caused by viruses that specifically infect humans.",
+                "ja": "インフルエンザや一般的な風邪，COVID-19やそのほか数えきれない病気が，特にヒトに伝染するウイルスによって引き起こされている。"
+              },
+              {
+                "id": "s8_s4",
+                "en": "For that reason, many people believe that all viruses are bad and must be avoided at all costs.",
+                "ja": "そのため多くの人が，すべてのウイルスは悪いもので何としても避けなくてはならないものだと信じている。"
+              },
+              {
+                "id": "s8_s5",
+                "en": "However, that is not strictly true.",
+                "ja": "しかし，それは厳密に言うと正しくない。"
+              },
+              {
+                "id": "s8_s6",
+                "en": "There are many viruses that live inside us that are not responsible for disease at all.",
+                "ja": "私たちの体内にあって病気の原因にはまったくならないウイルスもたくさんある。"
+              },
+              {
+                "id": "s8_s7",
+                "en": "In fact, the opposite is true, because many viruses that live inside our digestive systems actually keep us healthy by killing harmful bacteria.",
+                "ja": "実際，本当はその正反対なのである。なぜなら私たちの消化器系の中に住んでいる多くのウイルスは，有害な細菌を殺すことによって，実際には私たちの健康を保ってくれているのだから。"
+              },
+              {
+                "id": "s8_s8",
+                "en": "Those viruses are called \"bacteriophages,\" and they do not harm human cells at all.",
+                "ja": "そういうウイルスは「バクテリオファージ［殺菌ウイルス］」と呼ばれ，ヒトの細胞を害することは全くない。"
+              },
+              {
+                "id": "s8_s9",
+                "en": "Moreover, scientists have also been researching other types of viruses that can kill cancer cells.",
+                "ja": "さらに科学者たちは，がん細胞を殺せる他の種類のウイルスもずっと研究し続けている。"
+              },
+              {
+                "id": "s8_s10",
+                "en": "These cancer-killing viruses have already been used to treat skin cancer in patients, and it is hoped that more treatment of this kind will be developed in the future.",
+                "ja": "これらの抗がんウイルスはすでに患者の皮膚がんを治療するために使われており，将来はこのような種類の治療がもっと開発されることが期待されているのだ。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s11",
+                "en": "The interesting thing about viruses is that they are not really \"alive.\"",
+                "ja": "ウイルスについて興味深いことは，それらが本当は「生きて」などいないということだ。"
+              },
+              {
+                "id": "s8_s12",
+                "en": "They are not made out of cells, and they cannot make energy or reproduce by themselves.",
+                "ja": "ウイルスは細胞でできているのではなく，エネルギーを作り出すことも自己増殖することもできない。"
+              },
+              {
+                "id": "s8_s13",
+                "en": "In simple terms, they are just a small piece of genetic material, such as DNA, surrounded by a protein case.",
+                "ja": "簡単な言葉で言うと，それらはタンパク質の外被に囲まれた，DNAのような遺伝物質の小さなかけらにすぎない。"
+              },
+              {
+                "id": "s8_s14",
+                "en": "Because viruses are very simple structures, they are very small.",
+                "ja": "ウイルスは非常に単純な構造をしているので，非常に小さい。"
+              },
+              {
+                "id": "s8_s15",
+                "en": "In fact, most viruses are 100-times smaller than a human cell.",
+                "ja": "実際，ほとんどのウイルスはヒトの細胞の100分の1の小ささだ。"
+              },
+              {
+                "id": "s8_s16",
+                "en": "They are so small that they cannot be seen under a standard microscope.",
+                "ja": "非常に小さいので通常の顕微鏡では見ることができない。"
+              },
+              {
+                "id": "s8_s17",
+                "en": "However, it's a virus's size and structure that allows it to bind to the outside of a host cell, insert its genetic instructions, then use the host cell's machinery to make copies of itself.",
+                "ja": "しかし，ウイルスが宿主になる細胞の外側に付着してその遺伝子の指示を注入し，それから自分のコピーを作り出すために宿主細胞の機構を利用することができるのは，その小ささと構造のおかげなのだ。"
+              },
+              {
+                "id": "s8_s18",
+                "en": "The attack on a cell by a virus in this way usually results in the death of the host cell.",
+                "ja": "このようにしてウイルスが細胞を攻撃すると，その結果，たいてい宿主細胞は死んでしまう。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s19",
+                "en": "It is a virus's ability to kill a host cell that has allowed researchers to develop cancer treatments using viruses.",
+                "ja": "研究者たちがウイルスを使ったがん治療を開発できたのは，宿主細胞を殺してしまうというウイルスの能力のおかげだ。"
+              },
+              {
+                "id": "s8_s20",
+                "en": "In 2015, the first virus treatment for cancer was approved by the US government for use on patients.",
+                "ja": "2015年に初めて，ウイルスを使用したがん治療を患者に実施してよいという合衆国政府からの認可が得られた。"
+              },
+              {
+                "id": "s8_s21",
+                "en": "Scientists used a herpes virus, which usually causes mouth sores in humans.",
+                "ja": "科学者たちは，たいていヒトの口腔に炎症を作り出す原因となるヘルペスウイルスを使った。"
+              },
+              {
+                "id": "s8_s22",
+                "en": "They modified the outer protein case of the virus so that it ignored healthy cells and attached itself to the outside of cancer cells.",
+                "ja": "彼らはウイルスのタンパク質の外被を変異させ，ウイルスが健康な細胞を無視し，がん細胞の外側に取り付くようにした。"
+              },
+              {
+                "id": "s8_s23",
+                "en": "They also modified the genetic material of the virus so that it produced molecules called antigens that would attract human immune cells to the site of the cancer.",
+                "ja": "またウイルスの遺伝子物質をも変異させ，ウイルスが抗原［アンチゲン］と呼ばれる分子を生産するようにした。抗原はヒトの免疫細胞をがんの患部へと引き寄せるのである。"
+              },
+              {
+                "id": "s8_s24",
+                "en": "Doctors could then inject these modified viruses into the site of the cancer every two weeks.",
+                "ja": "すると医師たちはこれらの変異したウイルスをがんの患部に1週間おきに注入できる。"
+              },
+              {
+                "id": "s8_s25",
+                "en": "The viruses would use the cancer cells to reproduce, killing the host cells in the process.",
+                "ja": "それらのウイルスは増殖するためにがん細胞を利用し，そしてその過程で宿主細胞を殺してしまうのである。"
+              },
+              {
+                "id": "s8_s26",
+                "en": "The body's immune system would also attack the cancer cells itself.",
+                "ja": "人体の免疫システムもまた，自分自身でがん細胞を攻撃する。"
+              },
+              {
+                "id": "s8_s27",
+                "en": "In this way, large skin cancer tumors have been destroyed.",
+                "ja": "このようにして，大きな皮膚がんの腫瘍が破壊されてしまう。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s28",
+                "en": "There are many benefits of this treatment compared to standard medicine.",
+                "ja": "この治療法には普通の薬と比べて多くの良い点がある。"
+              },
+              {
+                "id": "s8_s29",
+                "en": "First, there are fewer bad side effects because the virus only attacks cancer cells and leaves healthy cells alone.",
+                "ja": "第1に，ウイルスはがん細胞を攻撃するだけで健康な細胞には手を付けないので，悪い副作用が少ない。"
+              },
+              {
+                "id": "s8_s30",
+                "en": "It is also a good way to treat skin tumors that cannot be removed by surgery.",
+                "ja": "またそれは，外科手術では取り除けない皮膚腫瘍を治療するのにもよい方法だ。"
+              },
+              {
+                "id": "s8_s31",
+                "en": "In addition, the viruses are injected directly into the tumor, so the treatment is targeted by location.",
+                "ja": "さらに，ウイルスは腫瘍にじかに注入されるので，治療は患部に的を絞って行われる。"
+              },
+              {
+                "id": "s8_s32",
+                "en": "This treatment is also easier for patients because it involves short visits to a doctor instead of long stays in hospital.",
+                "ja": "この治療法は病院に長く入院するのでなく，短時間通院すればよいので，患者にとっても楽だ。"
+              },
+              {
+                "id": "s8_s33",
+                "en": "On the other hand, there may be mild side effects such as fever and tiredness.",
+                "ja": "他方，熱や疲労感といった軽い副作用がある可能性がある。"
+              },
+              {
+                "id": "s8_s34",
+                "en": "In addition, this treatment cannot be used on patients with weak immune systems.",
+                "ja": "さらに，この治療法は免疫システムの弱い患者には使えない。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s35",
+                "en": "Currently, scientists are testing a similar treatment for patients with an eye disease that causes vision to gradually decline.",
+                "ja": "現在科学者たちは，視力が徐々に弱まっていく眼病の患者たちに同様の治療法を試みている。"
+              },
+              {
+                "id": "s8_s36",
+                "en": "Scientists have altered the genetic information in a virus so that it can deliver treatment to the eyes of patients with this disease to stop the vision loss.",
+                "ja": "科学者たちはこの病気の患者の視力が失われるのを阻止するため，目に治療を届けられるように，ウイルスの中の遺伝子情報を変化させた。"
+              },
+              {
+                "id": "s8_s37",
+                "en": "This treatment has been successful on laboratory mice, and it is hoped that it can be used in humans in the near future.",
+                "ja": "実験室のネズミについてはこの治療は成功しており，近い将来人間にも実施できると期待されている。"
+              },
+              {
+                "id": "s8_s38",
+                "en": "However, one of the biggest challenges associated with this type of therapy is preventing the body's own immune system from identifying and killing the virus before it can deliver its important package to the cells that need it.",
+                "ja": "しかし，このタイプの治療法に伴う最大の難問の1つは，ウイルスがその重要な内包物を，それを必要としている細胞に届けないうちに，人体自身の免疫システムがそのウイルスを見分けて殺してしまうのを防ぐことだ。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s39",
+                "en": "In summary, viruses can be used for good.",
+                "ja": "要約すると，ウイルスは善用できる。"
+              },
+              {
+                "id": "s8_s40",
+                "en": "They can be used to fight cancer and deliver important genes to the site of genetic disease.",
+                "ja": "がんと闘い，遺伝子病の患部に重要な遺伝子を届けるために利用できる。"
+              },
+              {
+                "id": "s8_s41",
+                "en": "In the future, many other human diseases may be cured by specially adapted viruses.",
+                "ja": "将来は，その他の多くの人間の病気が，特別に改作されたウイルスによって治せるかもしれない。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "slides",
+          "presentation_image": "images/s8_slides.png"
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 41,
+          "question_text": {
+            "en": "Which of the following should you <u>not</u> include for [41]?",
+            "ja": "[41]に入れるべきでないのは次のうちどれか。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Help human cells reproduce quickly",
+              "ja": "ヒトの細胞が速く複製するのを助ける",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Most viruses are one-hundredth the size of a human cell",
+              "ja": "ほとんどのウイルスはヒト細胞の100分の1の大きさである",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "No reproduction without a host",
+              "ja": "宿主なしでは増殖できない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Reproduction usually kills the host cell",
+              "ja": "増殖は通常宿主細胞を殺す",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Simple genetic material in a protein case",
+              "ja": "タンパク質の外被に入った単純な遺伝物質",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。「[41]に入れるべきでないのは次のうちどれか」。ウイルスについての基本的な情報は第2段落に書かれている。本文の内容と一致しないものを選ぶことに注意。\n第2文 (They are not ...) 「ウイルスは細胞でできているのではなく，エネルギーを作り出すことも自己増殖することもできない」及び第7文 (However, it's a ...) 「…それから自分のコピーを作り出すために宿主細胞の機構を利用することができるのは，その小ささと構造のおかげなのだ」は③と一致する。第3文 (In simple terms, ...) 「…それらはタンパク質の外被に囲まれた，DNAのような遺伝物質の小さなかけらにすぎない」は⑤に一致する。第5文 (In fact, most ...) 「実際，ほとんどのウイルスはヒトの細胞の100分の1の小ささだ」は②と一致する。最終文 (The attack on ...) 「このようにしてウイルスが細胞を攻撃すると，その結果，たいてい宿主細胞は死んでしまう」は④と一致する。\n①はウイルスの特徴として本文に書かれていないので，これが正解。",
+            "evidence_sentences": [
+              "s8_s12",
+              "s8_s13",
+              "s8_s15",
+              "s8_s17",
+              "s8_s18"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_numbers": [
+            42,
+            43
+          ],
+          "question_text": {
+            "en": "For the <strong>Benefits of This Treatment</strong> slide, select two aspects of this treatment that are beneficial to the patient. (The order does not matter.) [42]・[43]",
+            "ja": "スライドの「この治療法のよい点」に，この治療法の患者にとって利益となる側面を2つ選んで入れなさい（順番は問わない）。[42]・[43]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "By using modified herpes viruses, the patient also becomes immune to future herpes infections.",
+              "ja": "変異されたヘルペスウイルスを使うことで，患者は将来のヘルペス感染にも免疫を持つようになる。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "It is not so hard on the patient because it only requires short visits to a doctor.",
+              "ja": "短時間通院すればよいだけなので，患者にとってそれほど辛くない。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "It is usually used to make the removal of tumors by surgery much easier and faster.",
+              "ja": "それは通常，外科手術による腫瘍摘出をより簡単で速くするために使われる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The modified herpes viruses are adapted to attack only cancer cells, so healthy cells do not die.",
+              "ja": "変異されたヘルペスウイルスはがん細胞のみを攻撃するように改変されているので，健康な細胞は死なない。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "This treatment causes no side effects, unlike cancer medicine which causes fever.",
+              "ja": "この治療法は，熱を引き起こすがん治療薬と違い副作用がない。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②・④",
+          "explanation": {
+            "ja": "正解は②と④。ウイルスを使った治療法の特徴については第4段落に書かれている。第2文 (First, there are ...) には「第1に，ウイルスはがん細胞を攻撃するだけで健康な細胞には手を付けないので，悪い副作用が少ない」とある。これは④に一致するので，正解。また第5文 (This treatment is ...) に「この治療法は病院に長く入院するのでなく，短時間通院すればよいので，患者にとっても楽だ」とあるのに一致するのは②で，これがもう1つの正解である。\n①の「将来ヘルペスに感染しない」ということについての記述はないので誤り。「外科手術」については第4段落第3文 (It is also ...) に「またそれは，外科手術では取り除けない皮膚腫瘍を治療するのにもよい方法だ」とあるが，「外科手術に使われる」とは述べていないので③は不適当。副作用については第6文 (On the other ...) に「他方，熱や疲労感といった軽い副作用がある可能性がある」とあるので，⑤の「副作用がない」と矛盾する。",
+            "evidence_sentences": [
+              "s8_s29",
+              "s8_s32"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 44,
+          "question_text": {
+            "en": "Complete the missing labels on the illustration for the <strong>How the Treatment Works</strong> slide. [44]",
+            "ja": "スライド「どのように治療法は働くのか」の図に付けるラベルを完成させよ。[44]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "(A) antigens  (B) immune cell  (C) modified virus",
+              "ja": "(A) 抗原  (B) 免疫細胞  (C) 変異ウイルス",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "(A) antigens  (B) modified virus  (C) immune cell",
+              "ja": "(A) 抗原  (B) 変異ウイルス  (C) 免疫細胞",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "(A) immune cell  (B) modified virus  (C) antigens",
+              "ja": "(A) 免疫細胞  (B) 変異ウイルス  (C) 抗原",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "(A) modified virus  (B) antigens  (C) immune cell",
+              "ja": "(A) 変異ウイルス  (B) 抗原  (C) 免疫細胞",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "(A) modified virus  (B) immune cell  (C) antigens",
+              "ja": "(A) 変異ウイルス  (B) 免疫細胞  (C) 抗原",
+              "is_correct": false
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。この治療の仕組みについては第3段落に書かれている。まず，第4文 (They modified the ...) 「彼らはウイルスのタンパク質の外被を変異させ，ウイルスが健康な細胞を無視し，がん細胞の外側に取り付くようにした」とあるので，図の(A)はがん細胞に取り付く変異したウイルスだとわかる。そして，第5文 (They also modified ...) に「またウイルスの遺伝子物質をも変異させ，ウイルスが抗原［アンチゲン］と呼ばれる分子を生産するようにした。抗原はヒトの免疫細胞をがんの患部へと引き寄せるのである」とあることから，右側の図はがん細胞に取り付いたウイルスから(B)の抗原が発生し，(C)の免疫細胞が引き寄せられている状況を表しているとわかる。これに一致する④が正解。",
+            "evidence_sentences": [
+              "s8_s22",
+              "s8_s23"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 45,
+          "question_text": {
+            "en": "Which is the best statement for the final slide? [45]",
+            "ja": "最後のスライドに最適な記述はどれか。[45]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Although many viruses cause disease, some are actually beneficial to humans. Furthermore, some viruses can be adapted so that they target and kill unhealthy cells.",
+              "ja": "多くのウイルスが病気を引き起こすものの，人間にとって実際に有益なものもある。さらに，不健康な細胞を標的にして殺すように改変することもできる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "In the future, our knowledge of viruses will help us cure diseases such as cancer. However, until this technology develops, viruses are dangerous to humans.",
+              "ja": "将来，ウイルスに関する知識はがんのような病気の治療に役立つだろう。しかし，この技術が発展するまで，ウイルスは人間にとって危険なものだ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The number of viruses that cure diseases is greater than the number that cause them, so their negative reputation is no longer deserved.",
+              "ja": "病気を治すウイルスの数は病気を引き起こすウイルスの数より多いので，その否定的な評判はもはや当たらない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Viruses that cause disease and illness have sometimes evolved to cure diseases such as cancer in humans.",
+              "ja": "病気や病を引き起こすウイルスは，時として人間のがんのような病気を治すように進化してきた。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。ウイルスというものに関する評価は主に第1段落に書かれている。第7文 (In fact, the ...) 「実際，本当はその正反対なのである。なぜなら私たちの消化器系の中に住んでいる多くのウイルスは，有害な細菌を殺すことによって，実際には私たちの健康を保ってくれているのだから」，および第3段落第4文 (They modified the ...) 「彼らはウイルスのタンパク質の外被を変異させ，ウイルスが健康な細胞を無視し，がん細胞の外側に取り付くようにした」の内容と合っている①が正解。\n②については，第1段落最終文 (These cancer-killing viruses ...) 「これらの抗がんウイルスはすでに患者の皮膚がんを治療するために使われており」と，「ウイルスは人間にとって危険なもの」という評価は矛盾するので不適当。③の比較については特に記述はない。④についてはウイルスが病気を治すように進化したという記述はないので誤り。",
+            "evidence_sentences": [
+              "s8_s7",
+              "s8_s22"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 46,
+          "question_text": {
+            "en": "Why is the body's own immune system a barrier to the effectiveness of virus-based treatments? [46]",
+            "ja": "人体自身の免疫システムがウイルスを使った治療法の効果にとって障害になるのはなぜか。[46]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The body's immune system may find the virus and kill it before it can treat the disease.",
+              "ja": "人体の免疫システムがウイルスを見つけて，それが病気を治療する前に殺してしまう可能性がある。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "The human immune system is not good at reacting to viruses that enter the body.",
+              "ja": "ヒトの免疫システムは体内に入るウイルスに反応するのが得意ではない。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Viruses cannot be recognized by the human immune system so the treatment is useless.",
+              "ja": "ウイルスはヒトの免疫システムに認識されないので治療は役に立たない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Viruses may cause the body's immune system to kill healthy cells instead of cancer cells.",
+              "ja": "ウイルスが人体の免疫システムにがん細胞ではなく健康な細胞を殺させる可能性がある。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。ヒトの免疫システムとウイルスを使った治療法との関係については第5段落に書かれている。最終文 (However, one of ...) 「しかし，このタイプの治療法に伴う最大の難問の1つは，ウイルスがその重要な内包物を，それを必要としている細胞に届けないうちに，人体自身の免疫システムがそのウイルスを見分けて殺してしまうのを防ぐことだ」と一致する①が正解。\n本文のこの部分は，③の「ヒトの免疫システムはウイルスを認識できない」と矛盾するので③は誤り。②の免疫システムの欠点については記述がないので誤り。ウイルスが免疫システムに働きかけて健康な細胞を攻撃させるということは書いていないので④も誤り。",
+            "evidence_sentences": [
+              "s8_s38"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

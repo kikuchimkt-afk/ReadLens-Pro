@@ -1,0 +1,105 @@
+{
+    "section": 5,
+    "theme": "You have decided to volunteer as an assistant Japanese language teacher in Australia next year. To prepare, you are reading two articles about language teaching techniques.",
+    "theme_translation": "あなたは来年，オーストラリアで日本語のアシスタント教師としてボランティアをすることに決めました。準備のために，あなたは語学教授法に関する2つの記事を読んでいます。",
+    "passage": [
+        "<strong class=\"center d-block mb-3\">Task-Based Learning<br>K. Matsui<br>English Teacher, Iwahashi High School</strong>",
+        "When I was a high school student many years ago in Japan, all my classes were taught using the \"grammar-translation method.\" In fact, even when I became an English teacher myself, that was the method I used. I taught my students an English grammar rule and its meaning in Japanese, then we practiced translating Japanese into English using this rule. The students learned grammar in great detail, and they were able to pass their exams. It was boring but effective.",
+        "However, when I took a break from my career and studied at a language school in Australia, I realized there was another way to learn a language. My teacher used \"task-based learning.\" This means that instead of focusing on a grammar rule, we were given a task to complete in English, then we looked at the language after we had finished the task. For example, we were given the task of planning a travel schedule for a friend. We had to research accommodations and activities, role-play calling a hotel to make a reservation, then write an email to a friend. During this task we used reading, writing, speaking and listening skills, and practiced language without feeling it was \"work.\" When the project or \"task\" was over, our teacher gave us advice about our English without using any Japanese at all.",
+        "I decided to use this technique more when I returned to Japan. Now, as a high school teacher, I use task-based learning as much as I can in my English lessons. I have noticed that my students are more engaged and their ability to actually use the language they have learned has improved. I believe it is time that the old-fashioned grammar-translation method was retired. I also think that the use of Japanese by English teachers in the classroom should not be encouraged.",
+        "<hr>",
+        "<strong class=\"center d-block mb-3\">The Grammar-Translation Method<br>M. Suzuki<br>Researcher, Kanto Language University</strong>",
+        "I enjoyed reading Ms. Matsui's experience of task-based language learning, and I agree that it can be very beneficial to intermediate language learners. It encourages communication and allows the students to understand that language is a tool for everyday life.",
+        "However, I do not believe we should completely get rid of grammar translation as a method of language teaching, particularly when we teach beginners. For example, take a class of 12-year-old Japanese students. They have very limited exposure to English, so they know few words and even less grammar. It would be impossible for them to complete any kind of meaningful task in English. It would be even more difficult to explain the task to them in English because they would not understand the teacher's instructions. We need to give them the tools of vocabulary and grammar and explain it to them in language they understand while they are at the beginner stage.",
+        "In one study conducted at a school in Jordan, researchers compared test results of students taught an English grammar point in the source language (their native language: Arabic), with the results of students taught only in the target language (English). They randomly divided students into two groups of ten of equal academic ability. Group A was taught a specific grammar point using the grammar-translation method, with instructions in their native language. Group B was taught the same grammar point using just English and a number of example sentences. The two groups were then given the same grammar test. As you can see, there is a significant difference in the average test scores of the two groups.",
+        "<div class=\"text-center\"><div class=\"d-inline-block border p-3 bg-light my-2\"><strong>Average Test Score / 10</strong><br>Group A: ~7.5<br>Group B: ~5.5</div></div>",
+        "Therefore, while I agree that task-based learning is a great teaching tool, we should not give up on grammar translation if we want our students to accurately learn how to read and write English and pass the all-important university entrance exams. I believe a good English course incorporates a number of different teaching techniques to give students a thorough understanding of the language and motivate them in a way that grammar translation does not."
+    ],
+    "translations": [
+        "タスク中心学習\\nK. 松井\\n岩橋高校 英語教師",
+        "何年も前ですが，私が日本で高校生だったころ，私の授業はすべて「文法訳読法」を用いて教えられていました。実際，私自身が英語教師になったときでさえ，それは私が用いたやり方でした。私は生徒たちに英語の文法規則とその意味を日本語で教え，それから，この規則を用いて日本語から英語へ翻訳する練習をしました。生徒たちは文法をとても詳しく学び，試験に合格することができたのです。退屈でしたが，効果はありました。",
+        "しかし，仕事を一休みしてオーストラリアの語学学校で勉強したとき，私は語学学習には別の方法があることに気づきました。私の先生は「タスク中心学習」を用いました。これは文法規則に焦点を当てるのではなく，私たちは英語で完成させるタスクを与えられ，その後，タスクを終えてから言語をチェックしました。たとえば，私たちは友達の旅行スケジュールの計画を立てるタスクを与えられました。私たちは宿泊設備，アクティビティを調べ，ホテルに予約の電話をかけるロールプレイをし，それから友達にメールを書かなければなりませんでした。このタスクの間，私たちはリーディング，ライティング，スピーキング，そしてリスニングのスキルを使い，それが「課題」だと思わずに言語の訓練をしたのです。このプロジェクト，つまり「タスク」が終わると，先生は日本語を全く使わずに私たちの英語に対するアドバイスをくれました。",
+        "私は日本に帰ったらこの方法をもっと使おうと決めました。今，高校教師として，私は自分の英語の授業ではできるだけ多くタスク中心学習を使っています。生徒たちはより積極的に参加し，学習した言語を実際に使う能力が向上したことに私は気づきました。昔ながらの文法訳読法は終わりにしてもいいころだと思います。また，教室で英語の教師が日本語を使うことを推奨すべきではないとも考えます。",
+        "",
+        "文法訳読法\\nM. 鈴木\\n関東言語大学 研究員",
+        "私は松井氏のタスク中心言語学習の体験を興味深く拝読し，それが言語学習の中級者にはとても有益になり得るという点で同意見です。それによりコミュニケーションが促され，生徒たちは，言語が日常生活を送るためのツールであることを理解することができます。",
+        "しかしながら，言語教授法として，特に初級者を指導する際は，文法訳読を全面的に排除するべきではないと思います。たとえば，12歳の日本人生徒のクラスを例に挙げましょう。彼らは英語に接する機会がきわめて限られているので，単語の知識はほぼありませんし，まして文法の知識はそれ以下です。彼らはいかなる種類の有意義なタスクも英語でやり遂げることはできないでしょう。彼らは教師の指示を理解できないでしょうから，英語で彼らにそのタスクについて説明することはさらに困難でしょう。初級者の段階では，私たちは彼らに語彙や文法というツールを与えて，彼らが理解できる言語でそれについて説明することが必要です。",
+        "ヨルダンの学校で行われたある調査で，研究者たちは，英文法のポイントを起点言語（彼らの母語であるアラビア語）で教わった生徒のテストの結果と，目標言語（英語）だけで教わった生徒の結果を比較しました。彼らは同程度の学力の生徒たちを，ランダムに10人ずつの2つのグループに分けました。Aグループには，母語で指導して文法訳読法を用いて特定の文法項目を教えました。Bグループには，同じ文法項目を英語だけで多くの例文を用いて教えました。それから，2つのグループは同じ文法のテストを受けました。ご覧の通り，2つのグループにはテストの平均点に著しい差があります。",
+        "【グラフ：テストの平均点（10点満点） / Aグループ: 約7.5点 / Bグループ: 約5.5点】",
+        "したがって，タスク中心学習は優れた教授法であることに賛同はしますが，生徒たちが正確に英語の読み書きを学習し，極めて重要な大学入試に合格してほしいと願うなら，私たちは文法訳読をやめるべきではありません。よい英語の授業とは，数多くの多様な教授法を組み入れて，生徒たちには言語を徹底的に理解させ，文法訳読ではできないやり方で生徒たちにやる気を出させるものだと私は考えます。"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "Matsui believes that <span class=\"box\"> 19 </span>.",
+            "choices": [
+                "grammar translation is ineffective in preparing for exams",
+                "task-based learning is the best way to pass exams",
+                "teaching grammar is boring for English teachers",
+                "teaching in Japanese is not helpful for students"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。松井氏は第2段落 (However, when I ...) で自分が体験した「タスク中心学習」を紹介している。最終段落 (I decided to ...) では，その効果を実感したうえで，第4文 (I believe it ...) で「（日本語で教える）文法訳読法は終わりにしてもいいころだ」，最終文 (I also think ...) では「教室で英語の教師が日本語を使うことを推奨すべきではない」と書いている。したがって，④が正解だと判断できる。\\n松井氏の記事では第1段落で文法訳読法を紹介し，第4, 5文 (The students learned ... / It was boring ...) で「生徒たちは文法をとても詳しく学び，試験に合格することができ，退屈だったが効果はあった」と書いている。「効果はあった」ので①は誤り。②のような記述はない。また，「退屈だった」と感じたのは当時の松井氏で，一般の英語教師にとって退屈だとは述べていないので③も誤り。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "In the study introduced by Suzuki, students were <span class=\"box\"> 20 </span>.",
+            "choices": [
+                "compared after being taught using different methods",
+                "divided into two groups of different levels",
+                "not able to produce better results after the experiment",
+                "taught example sentences in their native language"
+            ],
+            "answer": "1",
+            "explanation": "正解は①。鈴木氏が紹介した調査で，生徒たちは①「異なる教授法で学習した後で比較された」。調査に関しては鈴木氏の記事の第3段落に書かれている。第1文 (In one study ...) で研究者たちは「英文法のポイントを母語で教わった生徒のテストの結果と，目標言語（英語）だけで教わった生徒の結果を比較した」と書かれている。「母語で教わった」は文法訳読の教授法，「目標言語（英語）で教わった」はタスク中心学習の教授法なので，①が正解。\\n第3段落第2文 (They randomly divided ...) から，生徒たちは「同程度の学力」の2つのグループだったことがわかるので，②は誤り。また，実験は2つのグループの比較であり，実験前と後の比較ではないので，③は誤り。第3段落第3, 4文 (Group A was ... / Group B was ...) から両グループともに同じ英語の文法項目を学習する際，グループAは母語で，グループBは多くの例文を用いて英語だけで学習したことがわかるので，④も誤り。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 2,
+            "question_text": "Suzuki explains that while task-based language learning is effective in improving intermediate students' <span class=\"box\"> 21 </span> skills, grammar translation ensures that students learn the <span class=\"box\"> 22 </span> language accurately, and is therefore an important method when teaching beginners.<br>（※選択肢は 21, 22 共通）",
+            "choices": [
+                "communication",
+                "job",
+                "source",
+                "study",
+                "target",
+                "writing"
+            ],
+            "answer": "1-5",
+            "explanation": "正解は(21)①，(22)⑤。「鈴木氏は，タスク中心言語学習は中級の生徒たちの(21)スキルを向上させるのに効果的であるのに対し，文法訳読は生徒たちが正確に(22)言語を学ぶのを確実にするので，初級者を教える場合には重要な方法だと説明している」。\\n鈴木氏はタスク中心言語学習について第1段落 (I enjoyed reading ...) で，「中級者にはとても有益で，コミュニケーションを促す」と述べている。これは，中級の生徒たちのコミュニケーションスキルを向上させるのに有益だということなので，(21)には①(communication)が入る。\\n文法訳読については，初級者への指導法として，第2段落 (However, I do ...) でその必要性を主張し，最終段落第1文 (Therefore, while I ...) で「生徒たちが正確に英語の読み書きを学習し，大学入試に合格してほしいなら，文法訳読をやめるべきではない」と述べている。第3段落第1文 (In one study ...) にあるように，ここでの英語とは生徒たちにとって目標言語なので，(22)には⑤(target)が入るのが適切。"
+        },
+        {
+            "id": "4",
+            "question_number": "4",
+            "points": 3,
+            "question_text": "Both writers agree that grammar translation is helpful for <span class=\"box\"> 23 </span>.",
+            "choices": [
+                "learning how to write creatively",
+                "motivating intermediate students",
+                "scoring well in exams",
+                "seeing English as a tool"
+            ],
+            "answer": "3",
+            "explanation": "正解は③。「筆者は2人とも，文法訳読は(23)のに有益だという点で同意見だ」。\\n正解は③。文法訳読に関して，松井氏は第1段落第4, 5文 (The students learned ... / It was boring ...) で「生徒たちは文法を詳しく学び，試験に合格することができ，効果はあった」と述べている。また，鈴木氏は最終段落第1文 (Therefore, while I ...) で「生徒たちが正確に英語の読み書きを学習し，極めて重要な大学入試に合格してほしいと願うなら，私たちは文法訳読をやめるべきではありません」と述べている。以上から，2人とも試験で高得点を取り入試に合格するためには文法訳読は効果的だという点で意見が一致している。したがって，③が正解。\\n①のような記述はない。②のようなことは，松井氏の意見からは読み取れない。④については，「英語をツールとして見る」という表現を松井氏は全く用いていない。また鈴木氏の記事の第1段落最終文 (It encourages communication ...) に「それによりコミュニケーションが促され，生徒たちは，言語が日常生活を送るためのツールであることを理解することができます」とあるが，下線部の「それ(It)」は，タスク中心学習のことなので，④は正解になれない。"
+        },
+        {
+            "id": "5",
+            "question_number": "5",
+            "points": 3,
+            "question_text": "Which additional information would be the best to further support Suzuki's argument? <span class=\"box\"> 24 </span>",
+            "choices": [
+                "How to combine the task-based method and the grammar-translation method most successfully",
+                "What makes grammar-translation learning more enjoyable for advanced students",
+                "Whether foreign language teachers should use their native language in class",
+                "Why task-based language learning is effective at the beginner stage"
+            ],
+            "answer": "1",
+            "explanation": "正解は①。「鈴木氏の主張をさらに裏付けるには，どの追加情報が最適か」。\\n正解は①。鈴木氏の最終段落最終文 (I believe a ...) 「よい英語の授業とは，数多くの多様な教授法を組み入れて，生徒たちには言語を徹底的に理解させ，文法訳読ではできないやり方で生徒たちにやる気を出させるものだ」に注目する。これは「生徒たちに言語を徹底的に理解させる」文法訳読法と「文法訳読ではできないやり方で生徒たちにやる気を出させる」タスク中心学習を組み合わせることが「よい英語の授業」につながることを示唆している。したがって，①の「タスク中心学習と文法訳読法の最適な組み合わせ方」が鈴木氏の主張の裏付けになる。\\n鈴木氏は文法訳読法を上級レベルの生徒に向けて行うべきだとは述べていないので，②は鈴木氏の主張をさらに裏付ける情報とはならない。③も，文法訳読法の利点を説く鈴木氏の意見を裏付ける情報とは考えられない。また，鈴木氏は「タスク中心学習は初級段階で効果がない」と考えているので，④の「タスク中心の言語学習が初級段階で効果がある理由」も鈴木氏の主張の裏付けにはならない。"
+        }
+    ]
+}

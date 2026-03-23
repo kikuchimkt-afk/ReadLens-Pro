@@ -1,0 +1,104 @@
+{
+    "section": 2,
+    "theme": "You are a member of your school's student council. You and the other members have been discussing how to help the younger students in the school become more active. To get ideas, you are reading an article about a school fitness program a school in the US started.",
+    "theme_translation": "あなたは学校の生徒会の一員です。あなたと他のメンバーは，学校の下級生たちがもっと活動的になるのを促すにはどうしたらよいかということを話し合っています。アイディアを得るために，あなたはアメリカのある学校が始めたスクール・フィットネス・プログラムについての記事を読んでいます。",
+    "passage": [
+        "<strong class=\"center d-block mb-3\">Walk-to-School Project</strong>",
+        "Studies have shown that the activity levels of school students are dropping each year. In addition, fewer students are walking or cycling to school than in previous years. This lack of exercise means that students are becoming unhealthy and overweight.",
+        "Although many parents want their children to walk to and from school, they are worried about safety. For that reason, they drive their children to school or put them on a school bus, even though they live within walking distance of school.",
+        "Our school started the Walk-to-School project on November 1st on a trial basis. We had a group of students living in the same neighborhood walk to school together with adult supervisors. Three walking routes were organized, with two adult volunteers per route. Seventy-five students from grades 1 and 2 participated in the beginning, but only 60 students were using the Walk-to-School program by the start of the winter vacation in December. Let's look at feedback from students and parents to find out why.",
+        "<strong><u>Student/Parent Feedback</u></strong>",
+        "<strong>M.M.</strong> Thanks to this project, many students, including my daughter, have made new friends from different classes. They have also begun to enjoy exercise more. I consider it a success.",
+        "<strong>K.J.</strong> I enjoyed the walking in the beginning, but I didn't like it on rainy days. It rains a lot in winter so I'm thinking of taking the bus on rainy days.",
+        "<strong>R.B.</strong> A few weeks after the project began, both volunteers on my son's route had to retire for family reasons. I didn't trust the students to walk to school by themselves so I started driving my son to school again, as did other parents.",
+        "<strong>V.K.</strong> My friend wanted to join too but she lives in an area not covered by the project. I wish she could join too.",
+        "<strong>W.L.</strong> I love the Walk-to-School project because I can talk to my friends before school and it motivates me to get up early and leave the house on time."
+    ],
+    "translations": [
+        "徒歩通学プロジェクト",
+        "調査によって，生徒たちの活動レベルが年々下がっているということが明らかになっています。さらに，学校に徒歩，または自転車で通学している生徒の数もこれまでの年より減っています。このような運動不足は，生徒たちが不健康で肥満傾向にあることを意味します。",
+        "多くの親御さんは子どもたちには，往復とも徒歩で通学してほしいと思っていますが，安全面での不安があります。そのため，たとえ学校まで徒歩圏内に住んでいても，子どもたちを学校まで車で送ったり，スクールバスに乗せたりするのです。",
+        "当校は11月1日から試験的に徒歩通学プロジェクトを始めました。同じ地区に住む生徒たちが集団になって，監督役の大人の人といっしょに学校まで歩いて行きました。各通学路につき大人のボランティアが2人付き添い，3つの徒歩通学路が決まりました。当初，1年生と2年生の75人の生徒が参加したのですが，12月の冬休みが始まる前には，この徒歩通学プログラムを利用していたのは60人だけでした。理由を調べるために生徒や保護者のフィードバックを見てみましょう。",
+        "生徒／保護者からのフィードバック",
+        "M.M. このプロジェクトのおかげで，私の娘を含む多くの生徒に別のクラスの新しい友達ができました。それに，生徒たちは以前より運動を楽しみ始めました。これは成功だと私は思います。",
+        "K.J. 私は最初，この徒歩通学を楽しんでいたのですが，雨の日は嫌でした。冬は雨が多いので，雨の日はバスに乗ろうと思います。",
+        "R.B. プロジェクトが始まって数週間後，息子の通学路にいたボランティアの方がお2人とも，ご家庭の事情で辞めなければならなくなりました。生徒たちだけで学校まで歩いて行かせることはできなかったので，息子を車で学校へ送ることを再開しました。そういう親御さんは他にもいらっしゃいました。",
+        "V.K. 私の友人も参加を希望したのですが，彼女はプロジェクトの対象エリア外に住んでいるのです。彼女も参加できればよいのにと思います。",
+        "W.L. 私は徒歩通学プロジェクトがとても気に入っていますが，理由は学校に着く前に友達とおしゃべりができるので，早起きをして時間通りに家を出ようという気持ちになるからです。"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 2,
+            "question_text": "The aim of the Walk-to-School Project was to <span class=\"box\"> 4 </span>.",
+            "choices": [
+                "allow parents free time in the morning",
+                "cut transportation costs for parents",
+                "give students the chance to exercise",
+                "help students get to school on time"
+            ],
+            "answer": "3",
+            "explanation": "正解は③。このプロジェクトを始めるきっかけは第1段落に書かれている。生徒たちの活動レベルの低下，運動不足がもたらす不健康，肥満傾向への対策としてプロジェクトがスタートした経緯が記されている。\\n①，②，④のような記述はない。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 2,
+            "question_text": "One fact about the Walk-to-School Project is that <span class=\"box\"> 5 </span>.",
+            "choices": [
+                "every student participated",
+                "fifteen students quit the project",
+                "it is a permanent project",
+                "it was canceled on rainy days"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。第3段落第4文（Seventy-five students ...）を見ると，「当初の参加者数は75人だったが，12月の冬休み前には60人になった」，つまり参加した生徒数が15人減ったことがわかる。\\n第3段落第4文（Seventy-five students ...）に「1年生と2年生が参加した」とあり，また「生徒／保護者からのフィードバック」では4人目のV.K.が「対象エリア外に住んでいる友人が参加できない」と述べているので，①は誤り。第3段落第1文（Our school started ...）にはこのプロジェクトが「11月1日から試験的に始めた」とあるので，③も誤り。フィードバックの中でK.J.が「雨の日は嫌でした」と述べていることから，このプロジェクトは雨の日にも行われたことがわかるので，④も誤り。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 2,
+            "question_text": "From the feedback, <span class=\"box\"> 6 </span> were problems reported by students or parents.<br><br><strong>A</strong> : lack of interest by parents<br><strong>B</strong> : limited areas included in the project<br><strong>C</strong> : road conditions in winter<br><strong>D</strong> : too few volunteers",
+            "choices": [
+                "A and B",
+                "A and C",
+                "A and D",
+                "B and C",
+                "B and D",
+                "C and D"
+            ],
+            "answer": "5",
+            "explanation": "正解は⑤。V.K.は「友人はプロジェクトの対象エリア外に住んでいるので参加できなかった」という趣旨のフィードバックをしているので，「プロジェクトの対象地域が限定されていること」がもう1つの問題点であると考えられることから，Bは一致する。また，R.B.のフィードバックに「ボランティアがプロジェクトの途中で辞めた」とあるのでDも一致する。\\nAのようなフィードバックはない。K.J.は冬に雨が多いとは述べているが，道路状況が問題だとは述べていないので，Cも不適切。"
+        },
+        {
+            "id": "4",
+            "question_number": "4",
+            "points": 2,
+            "question_text": "One of the opinions about the Walk-to-School Project is that <span class=\"box\"> 7 </span>.",
+            "choices": [
+                "it helped many students to get to know other students",
+                "it started too early in the morning",
+                "it was faster than taking the bus",
+                "parents started to trust their children more"
+            ],
+            "answer": "1",
+            "explanation": "正解は①。フィードバックにM.M.が，「このプロジェクトのおかげで，私の娘を含む多くの生徒に別のクラスの新しい友達ができました」と述べていることから，この内容と合っている①が正解となる。\\n②，③，④のような記述はない。"
+        },
+        {
+            "id": "5",
+            "question_number": "5",
+            "points": 2,
+            "question_text": "The author's question was answered by <span class=\"box\"> 8 </span>.",
+            "choices": [
+                "K.J.",
+                "M.M.",
+                "R.B.",
+                "V.K.",
+                "W.L."
+            ],
+            "answer": "3",
+            "explanation": "正解は③。筆者の疑問とは，第3段落第4，5文（Seventy-five students ... / Let's look at ...）で述べられている，「11月に75人でスタートしたプロジェクトが12月の冬休み前までに60人に減ってしまった理由」ということ。R.B.が「ボランティアの人が辞めたために，親たちは再び子どもを車で学校に送り始めた」と述べている。その結果プロジェクトを辞める生徒が生じたと考えられるので，これが疑問に対する答えになっている。"
+        }
+    ]
+}

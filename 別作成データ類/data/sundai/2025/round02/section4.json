@@ -1,0 +1,80 @@
+{
+    "theme": "紙の使用を減らすこと",
+    "theme_translation": "英語の授業であなたは関心のある環境問題についてのエッセイを書いています。これが最も新しい草稿です。あなたは今,先生からのコメントに基づいて,修正に取り組んでいます。",
+    "passage": [
+        "Reducing Paper Use",
+        "In 2021, people around the world used 417 million tons of paper. Producing this much paper has major environmental effects, including deforestation, use of energy and water, and pollution. (1) In contrast, paper makes up around 26% of all waste in landfill sites. Although much of this paper waste is produced in the workplace, we can also try to reduce paper use in our daily lives.",
+        "First, we should reduce our use of disposable paper towels and tissues. Many people use single-use paper towels and tissues to clean their homes. This is particularly true in the kitchen, especially when cleaning up spilled liquids. (2) ^ Wherever possible, you should do this instead of using paper towels.",
+        "Second, (3) do you do a lot of reading? The publishing industry in the US uses around 32 million trees a year to produce books. While it is the responsibility of that industry to use more recycled paper, you can help by borrowing books from the library instead of buying them, or by purchasing electronic books instead of printed versions.",
+        "Finally, we should change our bills and bank statements to digital versions. Until recently, most families received paper bills, which not only wastes paper but also uses energy during delivery. By accessing your bills and bank information online, you can save paper, time, and energy.",
+        "In conclusion, there are many things you can do to save paper. We can reduce our reliance on single-use paper products, change the way we consume books (4) ^ . By doing this, we can help to protect the environment.",
+        "Teacher's Comments\nGreat effort! I should do some of these things too :)\n(1) You have used the wrong expression here. Please change it.\n(2) You are missing an important sentence. What do you recommend we do?\n(3) Change the style of the topic sentence.\n(4) Please summarize your third point here."
+    ],
+    "translations": [
+        "紙の使用を減らすこと",
+        "2021年,世界中の人々は4億1,700万トンの紙を使用しました。これほどの多量の紙を生産することは，森林伐採やエネルギーと水の使用や汚染を含め，環境に大きな影響を及ぼします。(1)対照的に，紙はゴミの埋立地におけるすべての廃棄物の約26％を構成しています。こうした紙の廃棄物の多くは仕事場で生み出されていますが，私たちは日常生活の中で紙の使用を減らす努力をすることもできます。",
+        "第一に，私たちは使い捨てのペーパータオルやティッシュの使用を減らすべきです。多くの人たちが使い捨てのペーパータオルやティッシュを使って家を掃除しています。これはとりわけ，特にこぼれた液体を掃除するときに，台所において言えることです。(2)八可能なところはどこででも，ペーパータオルを使わずにこうしたことを行うべきです。",
+        "第二に，(3)みなさんは読書をたくさんするでしょうか？アメリカの出版業界は，本を生産するために1年に約3,200万本の木を使用しています。再生紙の使用を増やすことがこの業界の責任なのですが，本を買う代わりに図書館から本を借りることによって，あるいは印刷された本ではなく電子書籍を購入することによって，みなさんも貢献することができます。",
+        "最後に，請求書や銀行取引明細書をデジタル版に変えるべきです。最近まで，ほとんどの家庭は紙の請求書を受け取っていましたが,それは紙を浪費するばかりでなく，配達する間にエネルギーを使用してもいます。請求書や銀行情報をオンラインで入手することで，紙と時間とエネルギーを節約することができます。",
+        "結論として，紙を節約するためにできることはたくさんあります。私たちは，使い捨ての紙製品に対する依存を減らし，本の消費の仕方を変えることができます(4)八。そうしたことをすることで，私たちは環境保護を助けることができるのです。",
+        "先生のコメント\n大変努力しましたね！私もそうしたことのいくつかを行った方がいいでしょう。:)\n(1)ここには間違った表現が使用されました。変更してください。\n(2)重要な1文が欠けています。あなたは私たちが何をすることを推奨しているのですか。\n(3)主題文の文体を変更してください。\n(4)ここで3番目のポイントを要約してください。"
+    ],
+    "questions": [
+        {
+            "id": "15",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "What is the best expression to replace the one you used, based on comment (1)? [ 15 ]",
+            "choices": [
+                "As a result",
+                "In addition",
+                "In other words",
+                "On the other hand"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。下線部(1)の直前では，多量の紙を使用することによる，森林伐採・エネルギーと水の使用・汚染といった環境に及ぼされる悪影響が言及され，下線部(1)の直後でも，紙がゴミの埋立地における廃棄物の約26％を構成しているという，廃棄物となった紙の好ましからぬ面（言い換えれば悪影響）が言及されている。つまり，下線部(1)の前後の内容はともに紙のもたらす悪影響であることから，「対比対照」ではなく「添加」の関係にあると判断できる。よって正解は②の「加えて」となる。\n①,③,④はいずれも自然な文脈とはならないので不可。"
+        },
+        {
+            "id": "16",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "What is the best sentence to add, based on comment (2)? [ 16 ]",
+            "choices": [
+                "However, this job could be done using reusable towels.",
+                "I believe it is important that we use better quality towels.",
+                "It is important that you avoid spilling drinks in the kitchen.",
+                "Therefore, you should be much more careful at home."
+            ],
+            "answer": "1",
+            "explanation": "正解は①。第1段落では，環境保護のために日常生活の中で紙の使用を減らすことが可能である，と述べられ,その第1の方法として，第2段落の(2)の前では,使い捨てのペーパータオルやティッシュの使用を減らすべきであるという提案がなされている。さらに(2)の後では，第1の方法に代わるものとしてペーパータオルを使わずにこうしたこと［掃除をすること］を行うべきであるという提案がなされている。したがって，(2)に，使い捨てのペーパータオル以外のもの，すなわち再利用できるものを使うことができるという内容が入れば，筆者が推奨していることを表す文になる。よって正解は①となる。\n②,③,④はいずれも自然な文脈とはならないので不可。"
+        },
+        {
+            "id": "17",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "What expression should you replace the question with, according to comment (3)? [ 17 ]",
+            "choices": [
+                "you should buy books that use less paper",
+                "you should change the way you read books",
+                "you should reduce the number of books you throw away",
+                "you should think about reading fewer books"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。下線部(3)の2文後では「再生紙の使用を増やすことがこの業界の責任なのですが，本を買う代わりに図書館から本を借りることによって，あるいは印刷された本ではなく電子書籍を購入することによって，みなさんも貢献することができます」と述べられているが，それは本を読む方法を変えることによって私たちも紙の使用を減らすことに貢献できることを意味していると判断できる。よって，下線部(3)を②の「本を読む方法を変えるべきです」にすれば疑問文を肯定文の文体に変えてこの段落の主題を表現できる。\n①，③，④はいずれもこの段落で述べられている内容ではないので不可。"
+        },
+        {
+            "id": "18",
+            "question_number": "4",
+            "points": 3,
+            "question_text": "Which expression should you add, according to comment (4)? [ 18 ]",
+            "choices": [
+                "and avoid having letters delivered",
+                "and change the banks you use",
+                "and have your bills delivered digitally",
+                "and reduce the energy you consume"
+            ],
+            "answer": "3",
+            "explanation": "正解は③。コメント(4)には「ここで3番目のポイントを要約してください」とある。(4)を含む段落の前までの段落構成は以下のようになっている（カッコ内の数字は段落番号を表す)。\n［1］主題「日常生活の中で紙の消費を減らすことができる」\n［2］例示1「使い捨ての清掃用品の使用量を減らしたり，そうしたものを使わないこと」\n［3］例示2「読書の仕方を変えること」\n［4］例示3「請求書や銀行明細書をデジタル版に変えること」\n以上から，この文章全体の主題である「紙の消費量を減らすこと」における3番目のポイントは第4段落の内容である「請求書や銀行明細書をデジタル版に変えること」であることがわかる。よって③が正解。"
+        }
+    ]
+}

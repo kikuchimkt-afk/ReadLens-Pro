@@ -14,6 +14,46 @@ const EXAM_REGISTRY = [
     label: "駿台実戦問題集 2025 ─ 第1回",
     dataPath: "data/sundai/2025/round01/data.json",
     icon: "📘"
+  },
+  {
+    id: "sundai_2025_02",
+    publisher: "駿台",
+    series: "実戦問題集",
+    year: 2025,
+    round: 2,
+    label: "駿台実戦問題集 2025 ─ 第2回",
+    dataPath: "data/sundai/2025/round02/data.json",
+    icon: "📗"
+  },
+  {
+    id: "sundai_2025_03",
+    publisher: "駿台",
+    series: "実戦問題集",
+    year: 2025,
+    round: 3,
+    label: "駿台実戦問題集 2025 ─ 第3回",
+    dataPath: "data/sundai/2025/round03/data.json",
+    icon: "📙"
+  },
+  {
+    id: "sundai_2025_04",
+    publisher: "駿台",
+    series: "実戦問題集",
+    year: 2025,
+    round: 4,
+    label: "駿台実戦問題集 2025 ─ 第4回",
+    dataPath: "data/sundai/2025/round04/data.json",
+    icon: "📕"
+  },
+  {
+    id: "kakomon_2024",
+    publisher: "共通テスト",
+    series: "過去問",
+    year: 2024,
+    round: "本試験",
+    label: "共通テスト 2024年度 本試験",
+    dataPath: "data/kakomon/2024/data.json",
+    icon: "🏫"
   }
 ];
 
@@ -26,7 +66,9 @@ const SECTION_DEFAULTS = {
   5: { desc: "複数テキスト", points: 16 },
   6: { desc: "複数意見統合", points: 18 },
   7: { desc: "長文読解", points: 15 },
-  8: { desc: "長文読解", points: 14 }
+  8: { desc: "長文読解", points: 14 },
+  '6A': { desc: "長文読解", points: 12 },
+  '6B': { desc: "長文読解", points: 12 }
 };
 
 // ===== メイン =====
@@ -62,9 +104,10 @@ async function renderExamBlock(exam) {
   const sections = data?.sections || [];
   let cardsHtml = '';
 
-  // 全8大問分のカードを常に表示する
-  for (let num = 1; num <= 8; num++) {
-    const sec = sections.find(s => s.section_number === num);
+  // section_list があれば使う（6AB型対応）、なければ1-8
+  const sectionList = data?.exam_info?.section_list || [1,2,3,4,5,6,7,8];
+  for (const num of sectionList) {
+    const sec = sections.find(s => String(s.section_number) === String(num));
     const defaults = SECTION_DEFAULTS[num] || {};
     const points = sec?.points || defaults.points || '?';
     const questionCount = sec ? countQuestions(sec) : '?';
@@ -110,6 +153,12 @@ async function renderExamBlock(exam) {
 
 // ===== 設問数カウント =====
 function countQuestions(section) {
-  if (!section.questions) return 0;
-  return section.questions.length;
+  let count = 0;
+  if (section.questions) count += section.questions.length;
+  if (section.subsections) {
+    for (const sub of section.subsections) {
+      if (sub.questions) count += sub.questions.length;
+    }
+  }
+  return count;
 }

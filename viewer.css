@@ -236,6 +236,15 @@
   margin-bottom: 4px;
 }
 
+.subsection-label {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-section-title);
+  margin: 24px 0 8px 0;
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--bg-header);
+}
+
 .section-points {
   font-size: 0.8rem;
   color: var(--text-secondary);
@@ -1200,3 +1209,374 @@
   margin: 4px 0;
 }
 
+/* ===== Advertisement Box (大問1-2 広告・チラシ) ===== */
+.ad-box {
+  border: 2px solid #555;
+  padding: 16px 18px;
+  margin-top: 12px;
+  background: #fff;
+}
+.ad-separator {
+  border: none;
+  border-top: 2px solid #555;
+  margin: 14px 0 8px;
+}
+.ad-section-heading {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #999;
+}
+.ad-bullet-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 6px 0 10px;
+}
+.ad-bullet-list li {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  padding-left: 18px;
+  position: relative;
+  margin-bottom: 6px;
+}
+.ad-bullet-list li::before {
+  content: '◆';
+  position: absolute;
+  left: 0;
+  color: #333;
+  font-size: 0.8rem;
+}
+.ad-link {
+  text-align: right;
+  font-size: 0.88rem;
+  margin: 2px 0;
+  color: #333;
+}
+
+/* ===== Passage Inline Illustrations ===== */
+.passage-img {
+  max-width: 110px;
+  height: auto;
+  margin-bottom: 6px;
+}
+.passage-img-float-left {
+  float: left;
+  margin-right: 14px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.passage-img-float-right {
+  float: right;
+  margin-left: 14px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+/* Clearfix for para-content with floated images */
+.para-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ===== Essay Comment Markers & Caret ===== */
+.comment-marker {
+  color: var(--accent-red, #c0392b);
+  font-weight: 700;
+  font-size: 0.85em;
+}
+.caret-mark {
+  color: var(--accent-red, #c0392b);
+  font-size: 1.15em;
+  font-weight: 700;
+}
+.underline-word {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+/* Overall Comment row in essay table */
+.essay-teacher-comment {
+  border-top: 1px solid var(--border-color, #ddd);
+  padding: 12px 16px;
+  font-size: 0.92rem;
+}
+.essay-teacher-comment strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* ===== Blog Subtitle ===== */
+.passage-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted, #888);
+  margin-bottom: 10px;
+}
+
+/* ===== Info Box (Added Costs) ===== */
+.info-box {
+  border: 2px solid var(--border-color, #ddd);
+  padding: 14px 18px;
+  margin: 14px 0;
+  border-radius: 8px;
+  background: var(--surface-1, #fafafa);
+}
+.info-box-title {
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+.info-box-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Data Table (Monthly Rent) ===== */
+.data-table-container {
+  margin: 16px 0;
+}
+.data-table-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.data-table th,
+.data-table td {
+  border: 1px solid var(--border-color, #ddd);
+  padding: 8px 10px;
+  text-align: center;
+}
+.data-table th {
+  background: var(--surface-2, #f0f0f0);
+  font-weight: 600;
+}
+.data-table td:first-child {
+  text-align: left;
+}
+.data-table .na-cell {
+  background: linear-gradient(to top right, transparent calc(50% - 1px), var(--border-color, #ccc), transparent calc(50% + 1px));
+  color: transparent;
+}
+.data-table-source {
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--text-muted, #888);
+  margin-top: 4px;
+}
+
+/* ===== Footer Note ===== */
+.passage-footer-note {
+  margin: 12px 0 4px;
+  font-size: 0.9rem;
+}
+
+/* ===== Step Heading (大問6) ===== */
+.step-heading {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 20px 0 12px;
+  padding: 6px 12px;
+  background: var(--surface-2, #f0f0f0);
+  border-left: 4px solid var(--accent-blue, #3b82f6);
+}
+
+/* ===== Author Block (大問6: Step1) ===== */
+.author-block {
+  border: 1px solid var(--border-color, #ddd);
+  margin-bottom: 0;
+}
+.author-block + .author-block {
+  border-top: none;
+}
+.author-label {
+  padding: 8px 14px;
+  background: var(--surface-2, #f0f0f0);
+  border-bottom: 1px solid var(--border-color, #ddd);
+  font-size: 0.9rem;
+}
+.author-block .para-audio-row {
+  padding: 0 6px;
+}
+
+/* ===== Source Block (大問6: Step3) ===== */
+.source-block {
+  border: 1px solid var(--border-color, #ddd);
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+.source-label {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+/* ===== Outline Box (大問6) ===== */
+.outline-box {
+  border: 1px solid var(--border-color, #ddd);
+  padding: 16px 20px;
+  margin: 14px 0;
+}
+.outline-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.outline-section {
+  font-weight: 700;
+  margin: 12px 0 4px;
+}
+.outline-content {
+  margin-left: 16px;
+  margin-bottom: 8px;
+  font-size: 0.92rem;
+}
+.outline-reason {
+  margin-left: 16px;
+  font-size: 0.92rem;
+  margin-bottom: 4px;
+}
+
+/* ===== Position Box (大問6: Step2) ===== */
+.position-box {
+  border: 1px solid var(--border-color, #ddd);
+  padding: 16px 20px;
+  margin: 12px 0;
+}
+.position-title {
+  margin-bottom: 10px;
+}
+.position-bullets {
+  padding-left: 20px;
+  margin: 0;
+}
+.position-bullets li {
+  margin-bottom: 4px;
+  font-size: 0.92rem;
+}
+
+/* ===== Portrait Image (大問7: float) ===== */
+.portrait-container {
+  margin: 0 0 6px 16px;
+  text-align: center;
+  max-width: 150px;
+}
+.portrait-img {
+  width: 100%;
+  border: 1px solid var(--border-color, #ddd);
+  display: block;
+}
+.portrait-caption {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+/* has-portrait: disable flex on para-audio-row so float works */
+.has-portrait .para-audio-row {
+  display: block;
+}
+.has-portrait .btn-audio {
+  float: right;
+  margin: 2px 0 0 4px;
+}
+
+/* ===== Poster (大問8) ===== */
+.poster-box {
+  border: 2px solid var(--border-color, #ddd);
+  padding: 16px 20px;
+  margin: 16px 0;
+}
+.poster-title-wrap {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.poster-title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 6px 18px;
+  background: linear-gradient(135deg, #888, #555);
+  color: #fff;
+  border-radius: 20px;
+}
+.poster-section-label {
+  display: inline-block;
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 16px;
+  padding: 4px 14px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin: 12px 0 8px;
+}
+.poster-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+  font-size: 0.9rem;
+}
+.poster-table th,
+.poster-table td {
+  border: 1px solid var(--border-color, #ddd);
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.poster-table th {
+  background: var(--surface-2, #f4f4f4);
+}
+.poster-solutions {
+  border: 1px solid var(--border-color, #ddd);
+  padding: 12px 16px;
+  margin: 8px 0;
+}
+
+/* ===== Notes Timeline (大問7) ===== */
+.notes-subtitle-slot {
+  text-align: center;
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+.notes-timeline {
+  border-left: 3px solid var(--border-color, #ccc);
+  margin: 8px 0 8px 20px;
+  padding-left: 16px;
+}
+.notes-timeline-item {
+  margin: 8px 0;
+  font-size: 0.92rem;
+}
+.notes-timeline-slot {
+  margin: 6px 0;
+}
+
+/* ===== Passage images (float/wrap) ===== */
+.passage-img {
+  max-width: 120px;
+  margin: 4px 0 8px;
+  shape-margin: 8px;
+}
+.passage-img--right {
+  float: right;
+  margin-left: 12px;
+}
+.passage-img--left {
+  float: left;
+  margin-right: 12px;
+}
+
+/* ===== Passage container (bordered box like original exam) ===== */
+.passage-container {
+  border: 1.5px solid #888;
+  padding: 16px;
+  margin-bottom: 16px;
+  overflow: hidden; /* clearfix for floated images */
+}
+
+/* Clear floats after each passage section */
+.passage-section {
+  overflow: hidden;
+}

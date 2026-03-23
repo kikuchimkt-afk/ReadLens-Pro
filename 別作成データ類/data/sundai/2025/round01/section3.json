@@ -1,0 +1,79 @@
+{
+    "theme": "川の清掃と自然調査の日",
+    "theme_translation": "あなたと学校の英語クラブの他のメンバーたちがボランティアの日に参加することになっています。あなたは昨年同様のイベントに参加したメンバーであるジュンヤによって書かれた報告書を読んでいます。",
+    "passage": [
+        "River Cleaning and Nature Survey Day",
+        "For last year's volunteering day, we worked with the River Clean Up Association (RCUA). Volunteers come to the river each month and pick up all the trash that has built up. Because of the recent typhoon, there was more trash than usual. We also took part in a nature survey and recorded the flowers we found.",
+        "First, we met the RCUA members. Although it was sunny, the ground was very wet and muddy, so we wore boots and waterproof pants. We wore gloves to protect our hands, and had plastic bags in which to collect the trash. We formed two groups. One group collected the trash, and the other group checked it for recyclable items. By lunchtime, we had collected 30 large bags of trash.",
+        "We stopped for lunch at midday. Most of us had packed lunches, but some students forgot theirs, so they went to a convenience store to buy food. We felt sorry for them because they were already tired after the morning's work.",
+        "After lunch, Mika, an RCUA member, taught us how to collect information about flowers. The RCUA was helping some university ecology experts collect research data. We formed pairs and threw large hoops at random into the grass. We then counted the numbers and species of the flowers inside the hoop. We all felt proud to contribute to university research. Mika told us that we would be able to read about our work in a famous ecology journal next year.",
+        "Finally, we loaded the trash into the RCUA truck. They planned to take it to the city's trash disposal facility later. They also invited us to dinner at a nearby restaurant. We enjoyed talking about environmental issues. We practiced our English with the two foreign members in the group.",
+        "This year, I will join the volunteer day again. The experience inspired me in many ways. Writing this report also reminded me of what Mika had said about the ecology journal. I decided to go to the library to see if she was right."
+    ],
+    "translations": [
+        "川の清掃と自然調査の日",
+        "去年のボランティアの日，私たちは河川浄化協会（RCUA）と一緒に働きました。ボランティアの人たちは毎月川に来て，蓄積したごみをすべて拾っています。最近の台風のために，いつもよりも多くのごみがありました。私たちはまた自然調査にも参加して，自分たちが見つけた花を記録しました。",
+        "まず初めに，私たちはRCUAのメンバーたちと会いました。よく晴れていましたが，地面はとても濡れてぬかるんでいたので，私たちは長靴と防水性のズボンを履きました。手の保護のために手袋をして，ごみを集めるポリ袋を持ちました。私たちは2つのグループを作りました。1つのグループはごみを集め，もう1つのグループが再生利用できるものがないかとそのごみを点検しました。お昼時までに，私たちは大きな袋30個分のごみを集めていました。",
+        "正午になると昼食のために手を休めました。私たちのほとんどが弁当を持っていましたが，中には自分の分を忘れた人もいたので，そうした人たちは食べ物を買いにコンビニに行きました。彼らは午前中の仕事の後ですでに疲れていたので，私たちは気の毒に思いました。",
+        "昼食後，RCUAのメンバーであるミカが私たちに，花に関する情報の集め方を教えてくれました。RCUAは一部の大学における生態学の専門家が研究データを集める手助けをしていたのです。私たちはペアを作って，大きな輪を無作為に草の中に投げました。それからその輪の中の花の数と種類を数えました。大学の研究に貢献して，私たちは皆誇らしく感じました。ミカは私たちに，来年，有名な生態学の専門誌で自分たちの仕事について読むことができるだろう，と教えてくれました。",
+        "最後に，私たちはごみをRCUAのトラックに積み込みました。RCUAの人たちは後でそれを市のごみ処理施設に持って行く計画でした。彼らはまた，私たちを近くのレストランでの夕食に招待してくれました。私たちは楽しく環境問題についての話をしました。私たちはRCUAのグループの中にいた2人の外国人のメンバーと英語の練習をしました。",
+        "今年，私はまたボランティアの日に参加するつもりです。多くの点で，経験したことが私をやる気にさせたのです。この報告書を書きながら，私はミカが生態系の専門誌について言ったことを思い出しました。私は，彼女が正しかったかどうかを確かめるために図書館に行こうと心に決めました。"
+    ],
+    "questions": [
+        {
+            "id": "9-12",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "Junya's article also included student comments (①〜④) describing events during the volunteering day. Put the comments in the order in which the events happened.\n[ 9 ] → [ 10 ] → [ 11 ] → [ 12 ]",
+            "choices": [
+                "I wish I had brought lunch! It was hard walking all the way to the store to buy food after cleaning up the riverbank.",
+                "Speaking to the RCUA members over dinner was my favorite experience. Learning to communicate with people of different ages and backgrounds is important.",
+                "The highlight of the day was collecting research data. I'm interested in plants and I hope to become a biologist in the future.",
+                "We were surprised to see how much work we had to do when we arrived. The strong wind had blown a lot of things into the water."
+            ],
+            "answer": "4-1-3-2",
+            "evidence": [
+                "Because of the recent typhoon, there was more trash than usual.",
+                "some students forgot theirs, so they went to a convenience store to buy food. We felt sorry for them because they were already tired after the morning's work.",
+                "After lunch, Mika, an RCUA member, taught us how to collect information about flowers.",
+                "They also invited us to dinner at a nearby restaurant."
+            ],
+            "explanation": "正解は④→①→③→②。このボランティアの日の出来事を時系列で追っていくと，まず第1段落第3文(Because of the ...)に「最近の台風のために，いつもよりも多くのごみがありました」とあるが，これは川の清掃作業前の光景の記述であると推測できるので，最初に④が来る。午前中の清掃作業を終えた後，昼食をとるところになるのだが，第3段落第2文(Most of us ...)～最終文(We felt sorry ...)から，一部の人たちは昼食を持ってくるのを忘れたので，午前中の作業で疲れていたがコンビニまで食べ物を買いに行かなければならなかったことがわかる。①はその昼食を持ってくるのを忘れた人たちの1人のコメントであると推測できるので，2番目には①が来る。「昼食後」で始まる第4段落(After lunch, Mika, ...)には，午後に自然調査を行った経緯が述べられている。③はその自然調査に関するコメントであると判断できるので，3番目には③が来る。「最後に」で始まる第5段落(Finally, we loaded ...)から，その日の作業を終えた後，近くのレストランでRCUA（河川浄化協会）の人たちと夕食を食べたことがわかる。②はその夕食時に関するコメントであると判断できるので，最後の4番目には②が来るとわかる。以上から，正解は④→①→③→②の順となる。"
+        },
+        {
+            "id": "13",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "During the volunteering day, the students did not [ 13 ].",
+            "choices": [
+                "carry out information gathering regarding flowers",
+                "go to the trash disposal facility",
+                "have conversations with volunteers in English",
+                "take a break between activities"
+            ],
+            "answer": "2",
+            "evidence": [
+                "Finally, we loaded the trash into the RCUA truck. They planned to take it to the city's trash disposal facility later."
+            ],
+            "explanation": "正解は②。第4段落(After lunch, Mika, ...)には，学生たちはRCUAのメンバーからやり方を教わりながら花に関する情報収集を行ったことが述べられているので，①は学生たちが行った行動である。また，第5段落には，RCUAのメンバーたちとレストランで夕食を食べた時のことが述べられているが，その最終文(We practiced our ...)に「RCUAのグループの中にいた2人の外国人のメンバーと英語の練習をしました」とあることから，③も学生たちが行った行動である。さらに，第3段落第1文(We stopped for ...)に「正午になると昼食のために手を休めました」とあることから，午前中の川の清掃活動と午後の自然調査の活動の間に昼食をとるための休憩をとったことがわかるので，④も学生たちが行った行動である。しかし，第5段落第1文(Finally, we loaded ...)～第2文(They planned to ...)で「最後に，私たちはごみをRCUAのトラックに積み込みました。RCUAの人たちは後でそれを市のごみ処理施設に持って行く計画でした」と述べられていることから，学生たちはごみ処理施設には行かなかったことがわかるので，正解は②となる。"
+        },
+        {
+            "id": "14",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "What did Junya most likely find when he went to the library? [ 14 ]",
+            "choices": [
+                "a book about wild flowers",
+                "a guide to the local river ecology",
+                "a journal article based on their data",
+                "a news report about the typhoon"
+            ],
+            "answer": "3",
+            "evidence": [
+                "Mika told us that we would be able to read about our work in a famous ecology journal next year.",
+                "I decided to go to the library to see if she was right."
+            ],
+            "explanation": "正解は③。第4段落最終文(Mika told us ...)では，RCUAのメンバーであるミカがジュンヤたちに，来年，有名な生態学の専門誌で自分たちの仕事について読むことができるだろう，と教えてくれたことが述べられ，最終段落最終文(I decided to ...)には「私[この記事の筆者であるジュンヤ]は，彼女が正しかったかどうかを確かめるために図書館に行こうと心に決めました」とあることから，ジュンヤは図書館に行き，おそらくのところ自分たちのデータに基づいた専門誌の記事を探して見つけた，と推測できるので，正解は③となる。\n①，②，④に関しては，いずれも本文からはジュンヤが図書館に行って見つける可能性のあるものと考えることはできないので不可。"
+        }
+    ]
+}

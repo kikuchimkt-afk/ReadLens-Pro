@@ -1,0 +1,82 @@
+{
+    "section": 1,
+    "theme": "You are a university student in the US and you are interested in joining a creative writing summer course. You find a website for such a course.",
+    "theme_translation": "あなたはアメリカの大学生で，クリエイティブ・ライティングの夏期講座を受講しようと考えています。あなたはウェブサイトでそのような講座を見つけます。",
+    "passage": [
+        "<strong>YCW Seattle</strong>",
+        "<strong>One Week Intensive Course</strong>",
+        "Join YCW's fifth annual intensive creative writing course. Stay with other young writers in the camp and learn from published writers and artists.",
+        "<strong>Dates</strong> : August 20th to 27th 2023",
+        "<strong>Location</strong> : Camp YCW, Lake Washington, Seattle",
+        "<strong>Course Price</strong> : $750 \u2013 accommodation and food provided (bring cash to use in the camp store)",
+        "<strong>Optional Activities</strong> : hiking, lake cruise",
+        "<strong>Courses Available</strong>",
+        "◆ <strong>Shakespeare Course</strong> : You will analyze two Shakespeare plays with the help of an award-winning screenwriter. You will also work in small groups to write a short play which will be performed on the final morning of the course in front of your campmates.",
+        "◆ <strong>Bronte Course</strong> : Karen Nelson, a published novelist, will lead this course. She will teach you the basics of writing, techniques for storytelling, and how to get your work published. Your short stories will be made into a book, which you will receive in the mail a week after the course.",
+        "◆ <strong>Lee Course</strong> : Named after Stan Lee, the creator of some of the world's most famous comics, this course will teach you the basics of comic writing. You will also learn about Japanese manga from published manga artist Kana Kagawa. Your work will be shown as a slide presentation to your campmates on the final evening.",
+        "▲ <strong>How to Apply</strong>",
+        "1. Complete the <u>online application form</u> by June 7th, 2023. Please state your preferred course.",
+        "2. You will receive email confirmation of your place after June 8th.",
+        "*Please note that places are limited to 20 students for each course. If too many students apply for one course, places will be given at random. Students who do not get their preferred course may cancel their application or join a less popular course."
+    ],
+    "translations": [
+        "YCW シアトル\\n1週間集中講座",
+        "毎年恒例の第5回 YCW クリエイティブ・ライティング集中講座にご参加ください。キャンプで他の若いライターたちと共に過ごし，出版歴のある作家や芸術家から学んでください。",
+        "日程：2023年8月20日から27日",
+        "場所：シアトル，ワシントン湖，キャンプ YCW",
+        "受講料：750ドル — 宿泊設備，食事は提供されます（キャンプ内での店舗で使用する現金を持参してください）",
+        "オプショナル・アクティビティ：ハイキング，湖のクルーズ",
+        "受講可能講座",
+        "◆シェイクスピア・コース：受賞歴のある脚本家に補佐してもらい，皆さんはシェイクスピアの戯曲2作品を分析します。また，小グループで寸劇制作に取り組み，講座最終日の午前中にキャンプ参加者の前でそれを上演します。",
+        "◆ブロンテ・コース：出版歴のある小説家，カレン・ネルソンがこの講座の講師です。彼女がライティングの基礎，ストーリーテリングの手法，作品の出版方法について指導します。あなたの短編は製本され，講座終了後1週間で郵送で届きます。",
+        "◆リー・コース：世界的に最も有名なコミックを複数制作しているスタン・リーの名前にちなんだコースで，コミック作りの基礎を指導します。また，出版歴のある漫画家，カナ・カガワから日本の漫画についても学習します。最後の夜には，皆さんの作品をスライド上映してキャンプの参加者に披露します。",
+        "▲応募要項",
+        "1. 2023年6月7日までにオンラインの申込書に記入してください。希望するコースを明記してください。",
+        "2. 6月8日以降，参加確認のメールが届きます。",
+        "＊各コースとも定員は学生20名ですので注意してください。1つのコースで応募者数が多すぎる場合は，参加者は無作為に選ばれます。希望コースに参加できなかった学生は，申し込みをキャンセルしても，希望者の少ないコースに参加しても構いません。"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 2,
+            "question_text": "All camp instructors are <span class=\"box\"> 1 </span>.",
+            "choices": [
+                "experts whose work has been published or highly evaluated",
+                "knowledgeable about the Japanese language",
+                "qualified teachers of literature",
+                "writers who have been awarded a prize for their novels"
+            ],
+            "answer": "1",
+            "explanation": "正解は①。冒頭の囲み枠内に「出版歴のある作家や芸術家から学んでください」とある。また，各コースの説明からも「受賞歴のある脚本家」，「出版歴のある小説家」，「出版歴のある漫画家」という，それぞれ専門家の講師だということがわかる。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 2,
+            "question_text": "On the last morning of the camp, campers will <span class=\"box\"> 2 </span>.",
+            "choices": [
+                "enjoy a slide presentation of Japanese manga",
+                "go fishing in Lake Washington",
+                "read a book created by the Bronte Course students",
+                "watch a play written during the camp"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。最終日の午前中の活動に関しては，シェイクスピア・コースの説明に「小グループで寸劇制作に取り組み，講座最終日の午前中にキャンプ参加者の前でそれを上演します」とある。\\n漫画のスライド上映は最後の夜に行われ，上映されるのはリー・コースの参加者の作品なので①は誤り。②や③のようなことも，本文からは読み取れない。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 2,
+            "question_text": "What will happen if a course is too popular? <span class=\"box\"> 3 </span>",
+            "choices": [
+                "Each student will have an equal chance of being chosen.",
+                "Each student's writing skills will be checked.",
+                "Students who applied earlier will be chosen.",
+                "Students will have to take a placement test."
+            ],
+            "answer": "1",
+            "explanation": "正解は①。最後のアステリスク（＊）のあとの第2文に，「1つのコースで応募者数が多すぎる場合は，参加者は無作為に選ばれます」と書かれている。「無作為に選ばれる」ということなので，参加できるかどうかのチャンスは平等だということになる。"
+        }
+    ]
+}

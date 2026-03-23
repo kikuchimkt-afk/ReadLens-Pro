@@ -1,0 +1,89 @@
+{
+    "section": 4,
+    "theme": "In English class you are writing about a social issue you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+    "theme_translation": "英語の授業であなたは関心のある社会的および環境問題について書いています。これが最も新しい草稿です。あなたは今，先生からのコメントに基づいて，修正に取り組んでいます。",
+    "passage": [
+        "<strong class=\"center d-block mb-3\">The Benefits of Playing Computer Games</strong>",
+        "Video games have a bad reputation among parents and teachers. They often believe that video games have no benefits at all and are a bad influence on a child's studies and social life. <span class=\"box\">(1)</span> Some studies show that there are multiple benefits to game playing for young people.",
+        "<div class=\"info-box mt-2 mb-4\"><strong>Comments:</strong><br>(1) Add a linking sentence to introduce the main topic of the essay.</div>",
+        "First, research by psychologists has shown that playing certain types of video games improves the thinking skills of the players. These thinking skills include navigation skills, memory, and reasoning. This is particularly true for shooting games, which involve a player finding and shooting targets while trying to avoid being attacked. In fact, gamers polish these skills just as much by playing video games as they would on a real-life course designed to teach these skills.",
+        "Second, a long-term study has found that games may develop problem-solving skills. Role-playing games are especially good for developing this skill. The study found that the longer a student plays role-playing video games, the greater the improvement in school grades the following year. In short, playing role-playing games can (2) <u>improve school grades</u>.",
+        "<div class=\"info-box mt-2 mb-4\"><strong>Comments:</strong><br>(2) Avoid words you used in the previous sentences and try to use a different phrase.</div>",
+        "<span class=\"box\">(3)</span> Games that are short and easy to play can encourage relaxation and make the player feel happier than before. Put simply, playing video games can make young people feel good. This is important in a society where depression and mental health problems are becoming more common.",
+        "<div class=\"info-box mt-2 mb-4\"><strong>Comments:</strong><br>(3) Insert the topic sentence for this paragraph.</div>",
+        "In summary, video games have many positive points. <span class=\"box\">(4)</span> Of course, there are negative points as well, but if people use games in moderation, they can benefit them in many ways.",
+        "<div class=\"info-box mt-2 mb-4\"><strong>Comments:</strong><br>(4) Summarize those positive points here.</div>",
+        "<div class=\"info-box mt-4\"><strong>Teacher's Comment</strong><br>Very interesting! Maybe I should play video games to make myself smarter! ^^</div>"
+    ],
+    "translations": [
+        "コンピューターゲームをすることの利点",
+        "テレビゲームは親や教師たちの間で悪評を買っています。彼らは，テレビゲームには利点がまったくなく，子どもの勉強と社会生活に対する悪影響である，と信じていることが多いのです。(1) ゲームをすることは若者たちにとってさまざまな利点があることを示している研究もあります。",
+        "【コメント(1)】ここの文章の主題を導入するつなぎとなる文を追加してください。",
+        "第一に，心理学者による研究は，ある種のテレビゲームをすることはゲームをする者たちの思考能力を向上させることを示しました。これらの思考能力にはナビゲーション能力や記憶力や論理的思考能力が含まれます。これは，プレーヤーが攻撃されることを避けようとしながら標的を見つけて撃つことを必要とするシューティングゲームに特に言えることです。実際，プレーヤーは，こうした技術を教えるために作られた現実生活の過程とまったく同じぐらい，テレビゲームをすることによってそうした技術を磨いていきます。",
+        "第二に，ある長期的研究は，ゲームは問題解決能力を発達させる可能性があることを発見しました。ロールプレイングゲームはこうした能力を発達させるのに特に有益です。その研究が発見したところによると，生徒がロールプレイングのテレビゲームをする時間が長ければ長いほど，翌年の学校の成績が向上します。要するに，ロールプレイングゲームをすることは (2)学校の成績を向上させる可能性があるのです。",
+        "【コメント(2)】前の文章で使った語句を避けて，別の表現を使ってみてください。",
+        "(3) プレイする時間が短く簡単なゲームは息抜きを促し，プレーヤーの気分がプレー前よりもよくなる可能性があります。簡単に言えば，テレビゲームをすると，若者たちの気分がよくなることがあり得るのです。これは，鬱や精神衛生に関する問題がより一般的になりつつある社会においては重要なことです。",
+        "【コメント(3)】この段落の主題文を入れてください。",
+        "要約すれば，テレビゲームには多くの利点があります。(4) もちろん，欠点もありますが，適度にゲームを行えば，ゲームは多くの点で人に利益をもたらす可能性があるのです。",
+        "【コメント(4)】ここで利点を要約してください。",
+        "【先生のコメント】非常に興味深いです！ 私も頭をよくするためにテレビゲームをした方がいいのでしょう！^^"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "Based on comment (1), which is the most appropriate linking sentence to add? <span class=\"box\"> 15 </span>",
+            "choices": [
+                "Actually, this is probably correct.",
+                "However, this is not always the case.",
+                "In fact, most studies support this.",
+                "In short, this is not supported at all."
+            ],
+            "answer": "2",
+            "explanation": "正解は②。コメント(1)には「ここの文章の主題を導入するつなぎとなる文を追加してください」とある。空所(1)の直前では，親や教師たちはテレビゲームには利点がまったくなく，子どもの勉強と社会生活に悪影響を及ぼすと信じている，と述べられ，空所(1)の直後には「ゲームをすることは若者たちにとってさまざまな利点があることを示している研究もあります」とある。つまり，空所(1)の前後ではテレビゲームの利点に関し，親や教師の思い込みと実際の研究では逆の内容が述べられている。また，この文章の主題は，第2段落 (First, research by ...) ，第3段落 (Second, a long-term ...) ，第4段落 (Finally, video games ...) において述べられているように，テレビゲームのいくつかの利点である。以上から正解は②となる。\\n①，③，④はいずれも自然な文脈とはならないので不可。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "Based on comment (2), which is the most appropriate phrase to use instead? <span class=\"box\"> 16 </span>",
+            "choices": [
+                "cause school performance to decline",
+                "lead to higher academic results",
+                "make students do more school work",
+                "result in a drop in achievement"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。コメント(2)には「前の文章で使った語句を避けて，別の表現を使ってみてください」とある。下線部(2)を含む文の直前の文では，the greater the improvement in school grades the following year（翌年の学校の成績が向上します）という表現が用いられているが，下線部(2)には improve school grades（学校の成績を向上させる）とあり，improvement の動詞形と school grades が繰り返し用いられている。意味は変えずに表現の繰り返しを避けるように指示されているのだから，正解は②と判断できる。\\n①，③，④はいずれも下線部(2)と同様の意味を表していないので不可。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "Which is the most appropriate topic sentence to add based on comment (3)? <span class=\"box\"> 17 </span>",
+            "choices": [
+                "Finally, it is better for a person's mood and mental health to play long and difficult video games.",
+                "Finally, playing video games has little effect in either direction on a person's happiness or moods.",
+                "Finally, the longer a person plays video games, the more their mental health is negatively affected.",
+                "Finally, video games help to improve a person's moods and prevent them from feeling anxious."
+            ],
+            "answer": "4",
+            "explanation": "正解は④。コメント(3)には「この段落の主題文を入れてください」とある。空所(3)を含む第4段落では，時間が短く簡単なテレビゲームは人の気分を改善させ，これは，鬱や精神的な健康問題がより一般的になりつつある社会においては重要なことであるということが述べられているので，その内容を簡潔にまとめた④が正解となる。\\n①，②，③はいずれもこの段落の内容を表してはいないので不可。"
+        },
+        {
+            "id": "4",
+            "question_number": "4",
+            "points": 3,
+            "question_text": "Which sentence should you add, based on comment (4)? <span class=\"box\"> 18 </span>",
+            "choices": [
+                "They develop a person's ability to design, work hard, and socialize with other young people.",
+                "They improve cognitive ability, polish solution-finding skills, and make a person feel good.",
+                "They protect a person's mind, and their ability to study, and increase depression.",
+                "They refine the shooting skills of the players, their ability to concentrate, and their energy levels."
+            ],
+            "answer": "2",
+            "explanation": "正解は②。コメント(4)には「ここで利点を要約してください」とある。空所(4)を含む段落の前までの段落構成は以下のようになっている（カッコ内の数字は段落番号を表す）。\\n[1] 序論 「親や教師たちはテレビゲームには利点がまったくなく，子どもに悪影響を及ぼすと信じている」\\n[2] 主題 「しかし，テレビゲームにはさまざまな利点がある」\\n    例示1「思考能力の向上」\\n[3] 例示2「問題解決能力の発達とそれによる学業成績の向上」\\n[4] 例示3「精神面における効用」\\n以上から，この文章全体の主題である「テレビゲームにおけるさまざまな利点」は第2段落から第4段落において「思考能力の向上」，「問題解決能力の発達とそれによる学業成績の向上」，「精神面における効用」として具体的に述べられていることがわかる。よってその3つの利点をまとめた②が正解とわかる。\\n①，③，④はいずれもこの文章中で述べられているテレビゲームの利点の要約とはなっていないので不可。"
+        }
+    ]
+}

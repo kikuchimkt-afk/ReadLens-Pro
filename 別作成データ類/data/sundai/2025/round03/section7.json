@@ -1,0 +1,102 @@
+{
+    "section": 7,
+    "theme": "Your science teacher has asked everyone to research an important woman in science and present your research to the class, using notes. You have found an article about Mileva Marić, Albert Einstein's first wife.",
+    "theme_translation": "あなたの理科の先生は，科学の分野で重要な仕事をした女性について調べ，メモを使ってクラスで調査を発表するという課題を全員に出しました。あなたはアルベルト・アインシュタインの最初の妻であるミレヴァ・マリッチについての記事を見つけました。",
+    "passage": [
+        "<strong class=\"center d-block mb-3\">The Life of Mileva Marić</strong>",
+        "Everyone knows the name \"Albert Einstein.\" He is considered the most important physicist of the 20th century, winning the Nobel Prize in Physics in 1921. However, few people know about his first wife, Serbian physicist Mileva Marić. She was associated with Einstein between 1896, when they first met, and 1919, when they divorced. It is believed by many that Mileva was the key to Einstein's success.",
+        "Mileva Marić was born in Serbia in 1875 to a wealthy family. All of her education before university was completed in her home country. At that time, only boys were allowed to attend physics lectures at her high school, but her father recognized her ability and obtained special permission for her to participate. In 1886, she entered Zurich Polytechnic in Switzerland, where she enrolled at the same time as Albert Einstein. She was the only woman in her course, which indicates she must have been very talented because opportunities for female scientists at that time were very limited. Mileva and Albert spent many years studying together. It is clear from the letters they exchanged at the time that she greatly influenced his studies. Mileva and Albert finished their classes with very similar grades, except in applied physics, where Mileva achieved much higher grades than Albert.",
+        "Albert's parents opposed his relationship with Mileva because of her nationality, her religion, and her high intellect. They believed she would not make a suitable wife for him. However, they continued their relationship and married in 1903.",
+        "Even before their marriage, the couple worked together on research. In 1900, they submitted their first research paper which was signed only by Albert. Despite this, both Mileva and Albert referred to it as \"our article\" in letters to each other and friends. Why did Mileva not add her name to the article? It is believed there are two main reasons. The first is that Mileva wanted Albert to make a name for himself so that his parents would allow him to marry her, and the second is that there was great prejudice against women at that time. By having their research published only in a man's name, it was more likely to be received positively.",
+        "1905 was Einstein's most productive year. He published five major articles in that year, one of which led to his Nobel Prize in 1921. Mileva mentioned to friends at the time that she and her husband would stay up late every night working on these papers. In addition, Einstein's biographer stated that Mileva was the one who checked the articles and sent them out while Einstein rested. Albert himself said to a friend, \"I need my wife. She solves for me all my mathematical problems.\" Despite this, it was Albert who became the celebrated physicist while Mileva quietly worked in the background.",
+        "In 1912, Albert began a secret relationship with Elsa Lowenthal, his cousin. He also lived in different European cities during this time for work. This caused the collapse of his marriage to Mileva, and they divorced in 1919. Albert and Mileva were not on good terms after their divorce, and there is evidence that Albert's lawyers were worried that the truth of Mileva's input would be revealed after her death and the \"Einstein myth\" be destroyed.",
+        "Mileva Marić is just one of many female scientists in history whose work has been hidden. It is only recently that her influence on Einstein has been acknowledged. As with many women of her time, she abandoned her own wishes in order to support her husband's success. In fact, without Mileva Marić, Albert Einstein would probably not have become the household name he is today.",
+        "<hr>",
+        "<strong>Your notes:</strong><br><br><strong class=\"center d-block mb-3\">The Life of Mileva Marić</strong><br><br><strong><em>About Mileva Marić</em></strong><br>• Spent her youth in her home country of Serbia.<br>• Met Albert Einstein at university in Switzerland.<br>• Evidence of her talent in physics is that <span class=\"box\">32</span>.<br><br><strong><em>Influential people in Mileva's life</em></strong><br>• Her father, who fought for her to study alongside boys.<br>• Albert's parents, who opposed their marriage, which probably caused her to <span class=\"box\">33</span>.<br><br><strong><em>Influential events</em></strong><br>Enrolled at Zurich Polytechnic → <span class=\"box\">34</span> → <span class=\"box\">35</span> → <span class=\"box\">36</span> → <span class=\"box\">37</span><br><br><strong><em>Mileva and Albert's legacy</em></strong><br>Albert's lawyers were concerned that <span class=\"box\">38</span>.<br><br><strong><em>What we can learn from Mileva's story</em></strong><br>• <span class=\"box\">39</span><br>• <span class=\"box\">40</span>"
+    ],
+    "translations": [
+        "【ミレヴァ・マリッチの生涯】",
+        "「アルベルト・アインシュタイン」という名前は誰もが知っている。彼は20世紀で最も重要な物理学者と見なされ，1921年にはノーベル物理学賞を獲得している。しかし，彼の最初の妻のセルビア人物理学者ミレヴァ・マリッチについて知る人はほとんどいない。彼女は2人が初めて会った1896年から，1919年に離婚するまでアインシュタインの伴侶だった。アインシュタインの成功のカギはミレヴァであったと，多くの人が信じている。",
+        "ミレヴァ・マリッチは1875年，セルビアの裕福な家庭に生まれた。大学以前の教育はすべて故国で受けた。当時，彼女の通っていた高校では物理の授業を受けられるのは男子だけだったが，父親は彼女の能力を認め，彼女が授業に参加できるよう特別に許可を取ってくれた。1886年，彼女はスイスのチューリッヒ工科大学に入った。アルベルト・アインシュタインと同時期に入学したのである。彼女はそのコースで唯一の女子学生で，そのことは彼女がいかに才能のある人であったかを示している。当時女性の科学者のための機会は非常に限られていたのだから。ミレヴァとアルベルトは長い年月をともに勉強して過ごした。彼らが当時交わしていた手紙からも，彼女が彼の研究に大きな影響を与えたことは明らかだ。ミレヴァとアルベルトは非常に似通った成績で大学を出たが，応用物理学だけは差があった。その科目ではミレヴァの方がアルベルトよりもずっとよい成績だったのだ。",
+        "アルベルトの両親は彼のミレヴァとの関係に，彼女の国籍と宗教と高い知性を理由に反対した。彼にとってふさわしい妻にはなれないと思ったのである。しかし，彼らは関係を続け1903年に結婚した。",
+        "結婚する前からすでに，彼らは協力して研究に取り組んでいた。1900年には彼らは最初の研究論文を提出したが，それにはアルベルト1人の署名しかなかった。それにも関わらず，彼らはお互いや友人たちに宛てた手紙の中でそれを「私たちの論文」と呼んでいた。ミレヴァはなぜ論文に自分の名を付け加えなかったのだろうか。主な理由は2つあると考えられている。第1に，ミレヴァはアルベルトの両親に2人の結婚を認めてもらえるように，彼に有名になってほしかった。第2に当時は女性に対する大きな偏見があったからだ。研究を男性の名前だけで発表することで，それが肯定的に受け取られる可能性がより大きかったのだ。",
+        "1905年はアインシュタインにとって最も実りの多い年だった。その年，彼は5本の主要な論文を発表し，その1つは1921年のノーベル賞受賞につながった。ミレヴァは当時友人に，夫と2人で毎晩遅くまでこれらの論文の執筆に取り組んだものだと語っていた。それに加えて，アインシュタインの伝記の執筆者は，アインシュタインが休んでいる間にミレヴァが論文を点検しそれを送ったと述べた。アルベルト自身も友人に「僕には妻が必要だ。僕の数学的な問題はすべて彼女が解決してくれる」と語っていた。これにも関わらず，高名な物理学者になったのはアルベルトで，一方ミレヴァは裏方で静かに働いていたのだった。",
+        "1912年，アルベルトはいとこのエルザ・ロウエンタールとひそかに関係を持ち始めた。また彼はこのころ仕事のためにヨーロッパのいろいろな都市に住んでいた。このため，ミレヴァとの結婚は破綻し，1919年離婚に至った。離婚後のアルベルトとミレヴァの仲は良くなく，ミレヴァの死後に彼女の貢献の真相が暴露され「アインシュタインの神話」が破壊されてしまうことを，アルベルトの弁護士たちが心配していたという証拠がある。",
+        "ミレヴァ・マリッチは歴史の中でその仕事が隠されてきた多くの女性科学者の1人にすぎない。彼女のアインシュタインに与えた影響が認められたのは，やっと最近になってのことだ。当時の多くの女性の場合と同様に，彼女は夫の成功を支えるために自分自身の願いをあきらめたのである。実際，ミレヴァ・マリッチなくして，アルベルト・アインシュタインはおそらく今日のようなよく知られた名にはなっていなかっただろう。",
+        "【あなたのメモ】\\nミレヴァ・マリッチの生涯\\n〔ミレヴァ・マリッチについて〕\\n・故国セルビアで若い時期を過ごした。\\n・スイスの大学でアルベルト・アインシュタインと出会った。\\n・彼女の物理学の才能を証明するのは (32) ことである。\\n\\n〔ミレヴァの人生に影響を与えた人々〕\\n・父親。彼は彼女が男の子たちと並んで勉強できるように戦ってくれた。\\n・アルベルトの両親。彼らはアルベルトとの結婚に反対し，おそらくそのために彼女は (33) ことになった。\\n\\n〔影響を与えた出来事〕\\nチューリッヒ工科大学に入学した → (34) → (35) → (36) → (37)\\n\\n〔ミレヴァとアルベルトの遺産〕\\nアルベルトの弁護士たちは (38) のではないかと心配した。\\n\\n〔ミレヴァの物語から学ぶことができること〕\\n・(39)\\n・(40)"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "Choose the best option for <span class=\"box\"> 32 </span>.",
+            "choices": [
+                "she got a scholarship to Zurich Polytechnic",
+                "she got the best grades in her high school",
+                "she was acknowledged by Einstein in college",
+                "she was the sole female admitted to her college course"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。「(32)に入る最適な選択肢を選べ」。\\n正解は④。第2段落第5文 (She was the ...) に「彼女はそのコースで唯一の女子学生で，そのことは彼女がいかに才能のある人かを示している。当時女性の科学者のための機会は非常に限られていたのだから」とあることから，④が正解。\\nその他の選択肢については，特に本文に記述はないので不適当。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "Choose the best option for <span class=\"box\"> 33 </span>.",
+            "choices": [
+                "avoid writing her name on joint research papers",
+                "complete her own research with no input from Albert",
+                "move to various European cities without Albert",
+                "stop helping Albert write his physics research papers"
+            ],
+            "answer": "1",
+            "explanation": "正解は①。「(33)に入る最適な選択肢を選べ」。\\n正解は①。第4段落第6文 (The first is ...) では，ミレヴァが論文に自分の名を付けなかった理由について，「第1に，ミレヴァはアルベルトの両親に2人の結婚を認めてもらえるように，彼に有名になってほしかった」と述べられている。つまり彼の両親に結婚を反対されていたために，論文に自分の名を付さずアルベルト1人の名前で発表したのだということがわかる。したがって正解は①。\\n②のミレヴァ自身の研究について述べた個所はないので不適当。③の「ヨーロッパ各地に住んだ」のはミレヴァではなくアルベルトなので不適当。④のように，アルベルトの両親から結婚に反対されたせいで彼の論文執筆の手伝いをやめたという記述はないので④は不適当。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "Choose <strong>four</strong> out of the five events (①～⑤) and rearrange them in the order they happened. <span class=\"box\"> 34 </span> → <span class=\"box\"> 35 </span> → <span class=\"box\"> 36 </span> → <span class=\"box\"> 37 </span>",
+            "choices": [
+                "Albert and his cousin started a secret romantic relationship.",
+                "Albert got better grades than Mileva in applied physics.",
+                "Albert published the paper that led to his Nobel Prize.",
+                "Mileva and Albert finally became husband and wife.",
+                "Mileva and Albert finished and published their first article."
+            ],
+            "answer": "5-4-3-1",
+            "explanation": "正解は⑤→④→③→①。「5つの出来事（①～⑤）のうち4つを選び，起こった順に並べなさい」。\\n正解は⑤→④→③→①。「チューリッヒ工科大学に入学した」に続く4つの出来事を並べる。まず，大学に入ってからのことを述べている②についてみると，第2段落最終文 (Mileva and Albert ...) に「応用物理学だけは差があった。その科目ではミレヴァの方がアルベルトよりもずっとよい成績だったのだ」とあり，②は事実ではないため正解には含まれない。①は第6段落第1文 (In 1912, Albert ...) から1912年，③は第5段落第1, 2文 (1905 was Einstein's ... / He published five ...) から1905年，④は第3段落最終文 (However, they continued ...) から1903年，⑤は第4段落第2文 (In 1900, they ...) から1900年。したがって，これらを時系列に並べると⑤→④→③→①の順になる。"
+        },
+        {
+            "id": "4",
+            "question_number": "4",
+            "points": 3,
+            "question_text": "Choose the best option for <span class=\"box\"> 38 </span>.",
+            "choices": [
+                "Mileva had not supported Albert as much as she had told friends",
+                "Mileva would not get the recognition she deserved for her work",
+                "Mileva's contribution would become known, ruining Albert's reputation",
+                "papers the couples published together would not be found after her death"
+            ],
+            "answer": "3",
+            "explanation": "正解は③。「(38)に入る最適な選択肢を選べ」。\\n正解は③。「アルベルトの弁護士たちは(38)と心配した」に入るものを選ぶ。ミレヴァの死後のことについては第6段落最終文 (Albert and Mileva ...) に「…ミレヴァの死後に彼女の貢献の真相が暴露され『アインシュタインの神話』が破壊されてしまうことを，アルベルトの弁護士たちが心配していたという証拠がある」とあるので，これに一致する③が正解。\\nその他の選択肢についての記述はない。"
+        },
+        {
+            "id": "5",
+            "question_number": "5",
+            "points": 3,
+            "question_text": "Choose the best two options for <span class=\"box\"> 39 </span> and <span class=\"box\"> 40 </span>. (The order does not matter.)",
+            "choices": [
+                "Albert would have been more successful without his parent's strong opposition.",
+                "Einstein was a very important physicist, but his wife's influence may be greater than believed.",
+                "Mileva is an example of a female scientist whose work has not been fully recognized.",
+                "More Nobel Prizes should be awarded to female scientists than to male scientists.",
+                "Most of Albert Einstein's work was completed by his wife and not him."
+            ],
+            "answer": "2-3",
+            "explanation": "正解は②と③。「(39)・(40)に最適な選択肢を選べ（順番は問わない）」。\\n正解は②と③。②の「ミレヴァのアルベルトへの影響」については第5段落に書かれており，また，結論的に最終段落最終文 (In fact, without ...) に「実際，ミレヴァ・マリッチなくして，アルベルト・アインシュタインはおそらく今日のようなよく知られた名にはなっていなかっただろう」とある。また，③については，最終段落第1文 (Mileva Marić is ...) に「ミレヴァ・マリッチは歴史の中でその仕事が隠されてきた多くの女性科学者の1人にすぎない」とある。よって②と③が正解。\\n①のアルベルトの両親の反対については第3段落第1文 (Albert's parents opposed ...) に「アルベルトの両親は彼のミレヴァとの関係に…反対した」とある。しかし「反対されなかったらより大きな成功を収めていただろう」と考える根拠はないので不適切。④については記述がない。⑤の，ミレヴァのアルベルトへの協力については第5段落に書かれている。第3文 (Mileva mentioned to ...) には「ミレヴァは…夫と2人で毎晩遅くまでこれらの論文の執筆に取り組んだものだと語っている」とあるが，「ほとんど彼自身ではなくミレヴァが完成した」という記述はないので不適切。"
+        }
+    ]
+}

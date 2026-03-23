@@ -1,0 +1,95 @@
+{
+    "theme": "睡眠を改善する方法（エッセイ）",
+    "theme_translation": "英語の授業であなたは関心のある科学的問題についてのエッセイを書いています。これが最も新しい草稿です。あなたは今，先生からのコメントに基づいて，修正に取り組んでいます。",
+    "passage": [
+        "How to Improve Your Sleep",
+        "Scientific research tells us that most adults need around 7 to 9 hours of sleep a night to stay healthy. Long-term lack of sleep can cause many health problems, including heart disease, high blood pressure, and obesity. It also affects our brains, making us less alert and less able to retain information. Despite the importance of sleep, many people find themselves unable to sleep well at night. (1) For instance, there are many things we can do to make our sleep better.",
+        "First, it is important to expose ourselves to natural light in the morning. This is because our natural daily rhythm is set by exposure to light. (2) Hormones are released from inside our brains which stop us from feeling sleepy. The first exposure to light also instructs our bodies to make the sleep hormone melatonin around 14 hours later.",
+        "Second, (3) where do you sleep? The best temperature for sleep is said to be between 18 and 20 degrees Celsius. In addition to light, the human sleep cycle is regulated by other environmental triggers such as temperature. Therefore, by lowering the temperature of our bedrooms, we can signal to the body that we are ready to sleep and that helps us fall asleep quicker and improve the quality of our sleep.",
+        "Finally, it is known that using electronic devices late in the evening can negatively affect the quality of our sleep. Devices such as smartphones and tablets emit blue light, which can delay the production of melatonin.",
+        "In summary, there are a number of things we can do to get better sleep, as we have seen above. (4)"
+    ],
+    "translations": [
+        "睡眠を改善する方法",
+        "科学的研究によれば，ほとんどの成人は，健康を維持するには一晩に7～9時間ほどの睡眠が必要です。長期間にわたって睡眠が不足すると，心臓病や高血圧や肥満を含め，多くの健康上の問題を引き起こす可能性があります。それはまた脳にも影響を及ぼし，頭の回転や，情報保持の能力を低下させます。睡眠の重要性にもかかわらず，多くの人々は夜，十分に眠ることができていません。(1)たとえば，睡眠を改善するために，私たちにできることはたくさんあります。",
+        "第一に，朝，自然の光に触れることが重要です。自然な生活リズムは光に触れることによって作られるからです。(2)眠気を感じることを防ぐホルモンが脳の内部から放出されます。また最初に光に触れたときに，身体に約14時間後にメラトニンという睡眠ホルモンを作る指示が出されます。",
+        "第二に，(3)どこで眠っているでしょうか？ 睡眠に最適な温度は摂氏18～20度と言われています。光に加えて，人間の睡眠周期は温度のような環境的な要因によって調節されます。したがって，寝室の温度を下げることによって，身体に眠る準備をする指示を出すことができ，それが寝つく時間を早め，睡眠の質を改善することに役立ちます。",
+        "最後に，夜に電子機器を使用すると睡眠の質に悪影響を及ぼす可能性があることが知られています。スマートフォンやタブレットといった機器はブルーライトを放射し，それがメラトニンの生成を遅らせることになりうるのです。",
+        "要約すると，以上見てきたように，よりよい睡眠をとるためにできることはたくさんあります。(4)"
+    ],
+    "questions": [
+        {
+            "id": "15",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "Based on comment (1), which is the best expression to use instead? [ 15 ]",
+            "choices": [
+                "However",
+                "In contrast",
+                "In short",
+                "Therefore"
+            ],
+            "answer": "1",
+            "evidence": [
+                "Despite the importance of sleep, many people find themselves unable to sleep well at night.",
+                "there are many things we can do to make our sleep better."
+            ],
+            "explanation": "正解は①。下線部(1)の前文では，睡眠は重要であるけれども，多くの人々が睡眠不足に陥っていることが述べられ，下線部(1)に続く文では，睡眠を改善するためにできることはたくさんあると述べられているが，これは前文の例示ではなく，前文で述べられている好ましくない状況を，それとは逆の好ましい状況にするための方法に関する言及であるとみなせる。すなわち，「睡眠の重要性にもかかわらず，多くの人々は夜，十分に眠ることができていません。しかし（ながら），睡眠を改善するために，私たちにできることはたくさんあります」というつながりにすれば自然な文脈となる。以上から①のHowever「しかし（ながら）」が正解となる。\n②，③，④はいずれも自然な文脈とはならないので不可。"
+        },
+        {
+            "id": "16",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "Based on comment (2), which is the best expression to add? [ 16 ]",
+            "choices": [
+                "After falling asleep,",
+                "By spending time in the dark,",
+                "If we protect our eyes against this,",
+                "When sunlight enters our eyes,"
+            ],
+            "answer": "4",
+            "evidence": [
+                "This is because our natural daily rhythm is set by exposure to light.",
+                "Hormones are released from inside our brains which stop us from feeling sleepy."
+            ],
+            "explanation": "正解は④。下線部(2)を含む文の前文には「自然な生活リズムは光に触れることによって作られるからです」とあり，下線部(2)を含む文ではそれを具体的に説明して「(2)眠気を感じることを防ぐホルモンが脳の内部から放出されます」と述べられていると推測できる。よって下線部(2)には眠気を感じることを防ぐホルモンが放出される「光に触れること」を含む前提となる表現が入ると自然な文脈となる。以上から④のWhen sunlight enters our eyes,「日光が目に入ってくると，」が正解となる。\n①，②，③はいずれも自然な文脈とはならないので不可。"
+        },
+        {
+            "id": "17",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "Based on comment (3), which is the best replacement? [ 17 ]",
+            "choices": [
+                "it is important to sleep in a dark environment.",
+                "make sure you are tired enough to sleep.",
+                "sleeping in a cool room is recommended.",
+                "try to relax your body before going to bed."
+            ],
+            "answer": "3",
+            "evidence": [
+                "The best temperature for sleep is said to be between 18 and 20 degrees Celsius.",
+                "the human sleep cycle is regulated by other environmental triggers such as temperature.",
+                "by lowering the temperature of our bedrooms, we can signal to the body that we are ready to sleep"
+            ],
+            "explanation": "正解は③。空所(3)の後には，睡眠に最適な温度は摂氏18～20度であると言われていること，寝室の温度を調節することで睡眠の質が改善される，といった内容が述べられていることがわかる。よってこの段落の主題文としては選択肢③「涼しい部屋で眠ることを推奨します」が最適であると判断できるので，③が正解となる。\n①，②，④はいずれもこの段落で述べられている内容ではないので不可。"
+        },
+        {
+            "id": "18",
+            "question_number": "4",
+            "points": 3,
+            "question_text": "Which sentence should you add, based on comment (4)? [ 18 ]",
+            "choices": [
+                "In conclusion, people in our society are still not doing these things properly.",
+                "In this way, we can not only improve our sleep quality, but also our overall health.",
+                "Therefore, we should spend less time working, and more time sleeping.",
+                "These points show the importance of getting more sleep for young people."
+            ],
+            "answer": "2",
+            "evidence": [
+                "In summary, there are a number of things we can do to get better sleep, as we have seen above.",
+                "Long-term lack of sleep can cause many health problems, including heart disease, high blood pressure, and obesity."
+            ],
+            "explanation": "正解は②。コメント(4)には「最終的な結論となる文を追加するべきだと思います」とある。空所(4)を含む段落の前までの段落構成は以下のようになっている：\n[1] 序論 「睡眠改善と健康改善のためにできること」\n[2] 本論1「朝，日光に触れること」\n[3] 本論2「寝室の温度を下げること」\n[4] 本論3「夜，電子機器の利用を控えること」\n以上の内容を受けて，[5]では「要約すると，以上見てきたように，よりよい睡眠をとるためにできることはたくさんあります。(4)」と述べられているので，空所(4)に②「このようにして，私たちは睡眠の質ばかりでなく，健康全般を改善することができます」という文を追加すれば，最終的な結論を示す適切な結びとなると判断できる。よって正解は②となる。\n①，③，④はいずれも最終的な結論を示す内容とはなっていないので不可。"
+        }
+    ]
+}

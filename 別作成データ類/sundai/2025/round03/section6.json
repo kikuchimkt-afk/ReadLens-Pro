@@ -1,0 +1,127 @@
+{
+    "section": 6,
+    "theme": "You are working on an essay about whether self-driving cars should be permitted on roads. You will follow the steps below.",
+    "theme_translation": "あなたは路上で自動運転車が許可されるべきかどうかについてのエッセイに取り組んでいます。以下の各ステップに従っていきます。",
+    "passage": [
+        "<strong class=\"center d-block mb-3\">Step 1: Read and understand various viewpoints about self-driving cars.<br>Step 2: Take a position about whether or not self-driving cars should be allowed.<br>Step 3: Create an outline for an essay using additional sources.</strong>",
+        "<strong>[Step 1] Read various sources</strong>",
+        "<strong>Author A (Elderly Person)</strong><br>I'm excited about this new technology. As I get older, my reactions are getting worse, so it's too dangerous for me to drive a regular car now. However, if I had a self-driving car, I would be able to keep my independence for many more years. This technology will be very useful for disabled people, too. Anything that allows the elderly and disabled people to move around safely by themselves is a good thing. The only thing that worries me is how expensive these cars are!",
+        "<strong>Author B (Driving Instructor)</strong><br>I'm not worried about an increase in self-driving cars. Rather, my concern is that we will see more unsuitable drivers on the road. There are certain situations where a car will switch from self-driving to driver-operated, and we still need everyone to be sufficiently good at driving without artificial intelligence. On the other hand, this technology benefits people who can't drive normal cars now, such as senior citizens or people with disabilities. They will be able to stay independent for longer.",
+        "<strong>Author C (Car Engineer)</strong><br>As an engineer for a car company, I have no worries about the safety of self-driving vehicles. In fact, we specifically design these cars to be safer than human-operated cars. In my country, 85% of car accidents are caused by human error. If we can reduce this human error, we can save hundreds of lives every year. Of course, I worry a little about computer security, as there is always a chance that the vehicle's internal computer can get hacked, but I am confident that we have the skills and knowledge to deal with this quickly.",
+        "<strong>Author D (Police officer)</strong><br>A lot of my daily work involves warning or arresting people for road offenses, such as speeding, drunk driving, or dangerous driving. I have heard that when this new technology becomes available, it may reduce traffic accidents. However, I don't believe this will actually happen, because there are so many things that can go wrong, causing more accidents. Overall, I don't think it is a good idea to bring this new technology in. The answer to the problems I mentioned is stricter driving tests and better laws.",
+        "<strong>Author E (Taxi driver)</strong><br>I have been following this new technology with interest because I work as a taxi driver and my industry will be greatly impacted. I worry that not only private vehicles but also taxis and buses will eventually be replaced by driverless cars. Although the cars themselves will be more expensive than a regular car at first, they will start to become cheaper. At that point, transportation companies will decide that drivers are an unnecessary expense. I'm afraid taxi and bus drivers might not be able to work as we do now.",
+        "<hr>",
+        "<strong>[Step 2] Take a position</strong>",
+        "Your position: Self-driving cars should be allowed on the road.<br>• Authors <span class=\"box\">27</span> and <span class=\"box\">28</span> support your position.<br>• The main argument of the two authors: <span class=\"box\">29</span>.",
+        "<hr>",
+        "<strong>Source A</strong><br>Cars and vans currently account for about 10% of the world's carbon emissions. Therefore, it is very important that every step is taken to reduce this amount. One way to do this is by moving toward self-driving cars. Now, cars burn a large amount of energy when driven at high speeds, when braking, and when accelerating too quickly. Self-driving cars, on the other hand, are smart enough to optimize speed and acceleration to burn as little fuel as possible. They can also choose the most efficient route for journeys. In addition, if these cars eventually become completely driverless, households will need fewer vehicles because the same car can drive all the family members to work or school by itself, without needing lots of short journeys in different cars. Finally, as technology improves, the weight of the car will decrease, leading to even less burning of fuels. Now, batteries are heavy, but they are likely to get lighter over time.",
+        "<strong>Source B</strong><br>A study by an insurance company in the US show that the amount we pay for insurance is likely to change if self-driving cars become more common. The calculations show the amount people pay currently for insurance for different types of car, compared to future estimates if the car becomes self-driving. This is because self-driving cars are less likely to have accidents.",
+        "<div class=\"text-center\"><div class=\"d-inline-block border p-3 bg-light my-2\"><strong>Estimated Auto Insurance Costs: Self-Driving vs. Human-Driven Cars of Same Model</strong><br>Human-Driven Price is significantly higher than Self-Driving Price across all types (A to F). Example: Type B shows $1,942 for Human-Driven vs $388 for Self-Driving.</div></div>",
+        "<hr>",
+        "<strong>[Step 3] Create an outline using sources A and B</strong>",
+        "Outline of your essay:<br><strong>Self-driving cars are the future</strong><br><strong>Introduction</strong><br>In recent years, more car manufacturers are developing self-driving cars. Although many people are worried about this technology, they should be allowed on the roads.<br><br><strong>Body</strong><br>Reason 1: [From Step 2]<br>Reason 2: [Based on Source A] ...... <span class=\"box\">30</span><br>Reason 3: [Based on Source B] ...... <span class=\"box\">31</span><br><br><strong>Conclusion</strong><br>For these reasons, people should be permitted to buy and use self-driving cars."
+    ],
+    "translations": [
+        "ステップ1：自動運転車に関するさまざまな見解を読んで理解する。\\nステップ2：自動運転車が許可されるべきかどうかについての判断を下す。\\nステップ3：追加の情報源を使って，エッセイの概要を作成する。",
+        "【ステップ1】さまざまな情報源を読む",
+        "【筆者A（高齢者）】\\n私はこの新しいテクノロジーにわくわくしています。歳をとるにつれて，私の反応は悪くなってきているので，今私が普通車を運転するのは危険すぎます。しかし，自動運転車があれば，私はさらにあと何年も自立を維持することができるでしょう。このテクノロジーは障害を持つ人たちにとっても非常に役に立つでしょう。高齢者や障害者が1人で安全に動き回ることを可能とするものは何であれ，よいものなのです。私が心配する唯一のことは，こうした車がどれだけ高額になるかということです！",
+        "【筆者B（教習所教官）】\\n私は自動運転車が増えることについて心配してはいません。むしろ，私が心配するのは，路上であまり車の運転には向いていない運転者をより多く見ることになるということです。車が自動運転から運転者による操作に切り替わる状況は確実にあり，私たちはいまだにすべての人が人工知能なしに十分に車の運転が上手であることを必要としています。一方，このテクノロジーは高齢者や障害者といった現在普通車を運転することができない人たちに利益をもたらします。そうした人たちはより長く自立を維持することができるでしょう。",
+        "【筆者C（自動車エンジニア）】\\n車会社のエンジニアとして，私は自動運転車の安全性についてまったく心配してはいません。実際，私たちはこうした車を人が運転する車よりも安全であるように特別に設計しています。我が国では，車の事故の85%が人の過失によって引き起こされています。もし人の過失を減らすことができれば，毎年数百もの命を救うことができます。もちろん，コンピューターの安全性に関しては，常に車内のコンピューターがハッキングされる可能性があるので，少し心配なところはありますが，私たちはそうしたことを迅速に処理する技術と知識を持っていると自負しております。",
+        "【筆者D（警官）】\\n私の毎日の業務の多くは，スピード違反や飲酒運転や危険な運転といった路上での違反のために人々に警告を与えたり，逮捕したりすることに関係しています。私は，この新しいテクノロジーが利用可能になると交通事故を減少させるかもしれない，と聞いたことがあります。しかし，私は実際のところ，誤ってより多くの事故を引き起こし得る非常に多くのことが存在するので，そうしたことは起こらないと思います。全般的に言うと，私はこの新しいテクノロジーを導入するのはよい考えではないと思います。私が言及した問題に対する解決策は，運転免許試験をより厳格化し，法律を改良することです。",
+        "【筆者E（タクシー運転手）】\\n私はタクシー運転手として働き，私の業界は大きな影響を受けることになるので，この新しいテクノロジーを興味深く追っています。私は，個人の車ばかりでなくタクシーやバスも最終的には無人車に取って代わられることになるのではと懸念しています。最初は車自体は普通車より高額になるでしょうが，価格は安くなり始めるでしょう。その時点で，運送会社は運転手は不必要な出費であると判断することになるでしょう。私は，タクシーやバスの運転手が現在のように働けなくなるかもしれないと心配しています。",
+        "【ステップ2】判断を下す",
+        "あなたの判断：自動運転車は路上で許可されるべきだ。\\n・筆者 (27) と (28) があなたの判断を支持している。\\n・その2人の筆者の主要な論拠： (29) 。",
+        "【情報源A】\\n現在，車や小型トラックは世界の炭素排出量の約10%を占めている。したがって，この排出量を減らすためにあらゆる手段を講じることが非常に重要である。それを行う方法の1つは，自動運転車に移行することによるものである。今，車は高速で運転されるときやブレーキをかけるときやあまりに急速に加速するときにはたくさんのエネルギーを燃焼する。一方，自動運転車は，できる限り燃焼する燃料を少なくするために，スピードや加速を最適化することができるほどとても賢くなっている。また自動運転車は移動のために最も効率のよいルートを選ぶことができる。加えて，こうした車が最終的に完全な無人運転となれば，同じ車ですべての家族を自動で仕事場や学校へ送り届けることができるので別々の車で短い移動をたくさん行う必要がなく，各家庭が必要とする乗り物は少なくなるだろう。最後に，テクノロジーが向上するにつれて，そうした車の重量は減少し，燃料の燃焼量の一層の減少にさえつながるだろう。現在，バッテリーは重いが，時間をかけて軽くなっていく可能性が高い。",
+        "【情報源B】\\n米国のあ保険会社の研究が示しているところによると，自動運転車がより一般的になれば，私たちが保険に支払う金額は変わる可能性が高い。算定グラフは，車が自動運転になった場合の将来見積りと比較した，さまざまな種類の車の保険に対して現在支払っている金額を示している。これは自動運転車が事故を起こす可能性がより低いという理由によるものである。",
+        "【グラフ：自動車保険費の概算：自動運転 vs 人間が運転する同じ車種の車】",
+        "【ステップ3】情報源AとBを使って，概要を作成する。",
+        "あなたのエッセイの概要：\\n自動運転車が未来の姿だ\\n【序論】\\n近年，自動運転車を開発する自動車製造業者が増えている。このテクノロジーに懸念を抱く人は多いが，自動運転車は路上において許可されるべきだ。\\n【本論】\\n理由1：［ステップ2から］\\n理由2：［情報源Aに基づく］……(30)\\n理由3：［情報源Bに基づく］……(31)\\n【結論】\\nこうした理由で，人々は自動運転車を購入して使用することを許可されるべきだ。"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "Both Authors A and B mention that <span class=\"box\"> 25 </span>.",
+            "choices": [
+                "cars with this technology will become more expensive, so the elderly cannot use them",
+                "families will be positively affected by self-driving cars because grandparents can help more",
+                "fewer people will take driving lessons because these new cars can drive themselves",
+                "self-driving cars will allow certain groups of people to become drivers and maintain independence"
+            ],
+            "answer": "4",
+            "explanation": "正解は④。「筆者AとBは両者とも(25)と言及している」。\\n高齢者である筆者Aは第3文 (However, if I ...) で「しかし，自動運転車があれば，私はさらにあと何年も自立を維持することができるでしょう」と述べている。また教習所教官の筆者Bは，第4文 (On the other ...) 以降で「一方，このテクノロジーは高齢者や障害者といった現在普通車を運転することができない人たちに利益をもたらします。そうした人たちはより長く自立を維持することができるでしょう」と述べている。両者とも自動運転車は高齢者や障害者といった特定の人々の自立を維持することになる，と言及していると判断できるので，正解は④。\\n①に関しては，筆者Aが最終文 (The only thing ...) で自動運転車が高額になる可能性に触れているが，そのために高齢者は自動運転車を使用できないとは述べていないし，筆者Bは自動運転車の価格についてはまったく触れていないので不可。\\n②，③に関しては，いずれも筆者AとBが述べている内容とはなっていないので不可。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "Author C states that <span class=\"box\"> 26 </span>.",
+            "choices": [
+                "although many people worry about the safety of these cars, they are no different to regular cars",
+                "by removing the need for human drivers, these new cars will help reduce the number of accidents",
+                "people will become better drivers with these new cars because the controls are much easier to operate",
+                "the cars are designed so that if there is the risk of an accident, the car switches to driver-operated mode"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。「筆者Cは(26)と示唆している」。\\n自動車エンジニアである筆者Cは第2文 (In fact, we ...) で，自分たちは自動運転車を人が運転する車よりも安全であるように設計している，と述べた後で，続く第3文 (In my country, ...) ～第4文 (If we can ...) で，自分たちの国の車の事故の85％が人の過失によるものなので，それを減らすことができれば事故の数は大きく減少し，たくさんの命を救うことになる，と主張しているが，これは言い換えれば，人間が運転する車に自動運転車が取って代わることで事故の数を減らすことができるということを意味しているので，正解は②となる。\\n①，③，④に関しては，いずれも筆者Cが述べている内容とはなっていないので不可。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "Now that you understand the various viewpoints, you have taken a position on the introduction of self-driving cars, and have written it out as below. Choose the best options to complete <span class=\"box\"> 27 </span>, <span class=\"box\"> 28 </span>, and <span class=\"box\"> 29 </span>.<br>Your position: Self-driving cars should be allowed on the road.<br>• Authors <span class=\"box\">27</span> and <span class=\"box\">28</span> support your position.<br>• The main argument of the two authors: <span class=\"box\">29</span>.",
+            "choices": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "answer": "1-3",
+            "explanation": "正解は(27)①，(28)③。(順序は問わない) 「『あなたの判断：自動運転車は路上で許可されるべきだ』を支持している筆者2人はだれか」。\\n高齢者である筆者Aは上の問1の解説でも触れたように，第3文 (However, if I ...) ～第4文 (This technology will ...) において，自動運転車は高齢者や障害者の自立を維持することで非常に有益だ，と言及している。また自動車エンジニアである筆者Cは上の問2の解説でも触れたように，第2文 (In fact, we ...) ～第4文 (If we can ...) で，自分たちエンジニアは自動運転車を人が運転する車よりも安全であるように設計しており，自動運転車が人間の過失を減らすことができれば車の事故は大幅に減少すると言っている。以上から筆者AとCは「自動運転車は路上で許可されるべきだ」という「あなた」の判断を支持する意見を述べていることがわかるので，(27)と(28)には①(A)と③(C)が入ることになる。"
+        },
+        {
+            "id": "4",
+            "question_number": "3_2",
+            "points": 3,
+            "question_text": "Options for <span class=\"box\"> 29 </span>",
+            "choices": [
+                "Accidents will now be the responsibility of car manufacturers, rather than human drivers",
+                "Introducing self-driving technology will allow people to safely operate cars regardless of their driving skills",
+                "Self-driving cars are much less likely to get hacked by dangerous people than regular cars",
+                "The number of people who are arrested for drinking alcohol and driving will drop dramatically"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。「筆者AとCの主要な論拠としてもっとも適切な選択肢はどれか」。\\n筆者Aは今の自分にとって普通車を運転するのは危険である，と述べているが，第5文 (Anything that allows ...) で「（自動運転車は）高齢者や障害者が1人で安全に動き回ることを可能とする」と述べている。また筆者Cも，自動運転車が人間の過失を減らすことができれば車の事故は大幅に減少すると述べている。以上から，「あなた」の判断を支持している筆者AとC共通の論拠は選択肢②の「自動運転の技術を導入することで，運転技能にかかわらず安全に車を運転することが可能になるだろう」ということだとわかる。\\nなお筆者Bは，「すべての人が人工知能なしに十分に車の運転が上手であることが必要」と述べているため選択肢②には当てはまらない。"
+        },
+        {
+            "id": "5",
+            "question_number": "4",
+            "points": 3,
+            "question_text": "Based on Source A, which of the following is the most appropriate for Reason 2? <span class=\"box\"> 30 </span>",
+            "choices": [
+                "Human-driven cars are about 10% more inefficient than self-driving cars.",
+                "Newer self-driving cars have lighter batteries and brake faster than older ones, so they are more efficient to drive.",
+                "Self-driving cars can move faster for longer and have lighter batteries than human-driven cars, so they use less CO2-emitting fuel.",
+                "Self-driving cars may be better for the environment because they are more fuel efficient and can cut down the number of car journeys."
+            ],
+            "answer": "4",
+            "explanation": "正解は④。「情報源Aに基づくと，理由2にとってもっとも適切なのは次のうちどれか」。\\n情報源Aでは自動運転車に移行することが世界の炭素排出量を減らすという環境にとってよいことになるという主張に対して，①スピードや加速を最適化できるから，②最も効率のよいルートを選ぶことができるから，③各家庭が必要とする乗り物が少なくなるから，④テクノロジーの向上により車の重量が減少するから，という主に4つの理由が述べられている。これらと合致する選択肢は④の「自動運転車は燃費がよく，車の移動回数を減らすことができるので環境にとってよりよい可能性がある」である。\\n情報源Aの第1文 (Cars and vans ...) で車や小型トラックは世界の炭素排出量の約10%を占めていると述べられているが，①のように人が運転する車が自動運転車より約10%非効率的であるとは述べられていない。また②，③のように自動運転車とこれまでの自動運転車を比較したり，人が運転する車とバッテリーの重さやスピードの速さを比較したりした記述はない。"
+        },
+        {
+            "id": "6",
+            "question_number": "5",
+            "points": 3,
+            "question_text": "For Reason 3, you have decided to write, \"Self-driving vehicles are likely to save people money\". Based on Source B, which option best supports this statement? <span class=\"box\"> 31 </span>",
+            "choices": [
+                "Around 50% of self-driving cars will have cheaper insurance than human-driven cars because they are cheaper to repair if they get damaged.",
+                "Insurance costs for self-driving cars are half the price of human-driven cars due to changes in the car insurance industry.",
+                "More people will switch to smaller cars and self-driving cars because they are both cheaper to insure than regular ones.",
+                "Owners of self-driving cars may save around $1,000 each year in insurance costs because these cars are less likely to be involved in accidents."
+            ],
+            "answer": "4",
+            "explanation": "正解は④。「『自動運転車は人々のお金を節約する可能性が高い』という記載を支持するにもっともふさわしい選択肢は情報源Bに基づくとどれか」。\\n情報源Bの本文では第3文 (This is because ...) で自動運転車が事故を起こす可能性がより低いこと，そしてグラフではこれに伴って自動運転の保険費用は人が運転する同じ車種の保険費用に比べてどの車種も1000ドル前後安くなることが示されている。したがって，正解は④の「自動運転車は事故に巻き込まれる可能性が低いため，所有者は保険費用において毎年およそ1000ドル節約できる可能性がある」である。\\n①自動運転車が破損した場合の修理費が安く済む，②自動車保険業界の変化，③小型車が普通車より保険料が安い，などは本文・グラフのいずれにも記載がないので不可。"
+        }
+    ]
+}

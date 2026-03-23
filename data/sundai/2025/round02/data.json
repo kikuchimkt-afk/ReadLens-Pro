@@ -1,0 +1,4461 @@
+{
+  "exam_info": {
+    "title": "2025年駿台共通テスト実戦問題集",
+    "round": 2,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 46,
+    "source_pdf_mondai": "第2回_問題.pdf",
+    "source_pdf_kaitou": "第2回_解答.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "situation": {
+        "en": "You are looking at the website for a shopping mall near your university, and you find information on an environmentally-friendly program it will be carrying out.",
+        "ja": "あなたは自分の通う大学の近くにあるショッピングモールのウェブサイトを見ています。そこで、ショッピングモールが行う環境保護プログラムについての情報を見つけます。"
+      },
+      "passages": [
+        {
+          "id": "reuse_program",
+          "title": {
+            "en": "Reuse your clothes & reboot your life!\nSpecial coupons for your old favorites",
+            "ja": "服を再利用して、新生活を始めよう！\n昔大好きだった服を、特別なクーポンに"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s1",
+                "en": "It takes a lot of natural resources to make the clothes we wear every day.",
+                "ja": "私たちが毎日着ている服をつくるためには、天然資源が多く使用されています。"
+              },
+              {
+                "id": "s2",
+                "en": "However, last year the amount of dumped clothes was 11 million tons in America alone — worse than ever!",
+                "ja": "しかし、昨年捨てられた服の量は、アメリカだけでも1,100万トンにのぼりました。これは過去最悪の数字です！"
+              },
+              {
+                "id": "s3",
+                "en": "So how can we tackle this issue? Reuse!",
+                "ja": "そこで、この問題に対して私たちにできることは何でしょうか？ それは、再利用です！"
+              }
+            ],
+            [
+              {
+                "id": "s4",
+                "en": "Our clothing-collecting project just started three years ago.",
+                "ja": "私たちの服回収計画は、ちょうど3年前に開始されました。"
+              },
+              {
+                "id": "s5",
+                "en": "You can help us like this:",
+                "ja": "以下のようにして参加していただくことが可能です："
+              }
+            ],
+            [
+              {
+                "id": "s6",
+                "en": "1. Instead of throwing your unwanted clothes away, please bring them to us at Silver Sky Mall.",
+                "ja": "1. 不要な服は、捨てるのではなく、私たちシルバースカイモールにお持ちください。"
+              },
+              {
+                "id": "s7",
+                "en": "2. Turn in your clothes (any brands, in any condition) at the register.",
+                "ja": "2. 服（ブランドや状態は問いません）をレジまでお持ちください。"
+              },
+              {
+                "id": "s8",
+                "en": "※ We accept items bought at shops other than ours.",
+                "ja": "※シルバースカイモール以外の店舗で購入されたアイテムも受け付けています。"
+              },
+              {
+                "id": "s9",
+                "en": "3. We will give you a $5 coupon per one item to make your next purchase at our mall. (You can bring up to three items at one time; if you bring a member's card or sign up for one, you can donate one more item.)",
+                "ja": "3. 1点につき、当モールでの次のお買い物時に使える5ドルのクーポンを1枚差し上げます。（一度に3点までご持参いただけます。もしメンバーズカードをお持ちになるか、メンバーズカードにお申し込みいただければ、追加でもう1点寄付いただくことが可能です）"
+              }
+            ],
+            [
+              {
+                "id": "s10",
+                "en": "Last year, thanks to you, we collected one ton of textiles and successfully reused them.",
+                "ja": "昨年は皆様のおかげで、1トン分の服地が回収でき、その再利用に成功しました。"
+              },
+              {
+                "id": "s11",
+                "en": "Collected garments will be reworn by someone, remade into new clothes, or recycled into other products like shopping bags or machine parts.",
+                "ja": "回収された服は、他のどなたかが再び着る場合、新しい服に作り変えられる場合、そして買い物袋や機械の部品など他の製品にリサイクルされる場合があります。"
+              }
+            ],
+            [
+              {
+                "id": "s12",
+                "en": "Date\nSat. April 20th – Tues. April 23rd, 9:00 a.m. - 4:00 p.m.",
+                "ja": "日程\n4月20日土曜日〜4月23日火曜日　午前9時〜午後4時"
+              },
+              {
+                "id": "s13",
+                "en": "※ You can participate in this campaign once per person during this period.",
+                "ja": "※このキャンペーンには、上記の期間中おひとり様につき1回のみご参加可能です。"
+              }
+            ],
+            [
+              {
+                "id": "s14",
+                "en": "Want items at special prices?",
+                "ja": "特別な価格で衣服を手に入れたい？"
+              },
+              {
+                "id": "s15",
+                "en": "Some collected clothes will be sold as secondhand clothing at our mall from May.",
+                "ja": "回収された衣服の一部は、古着として5月から私たちのショッピングモールで売りに出されます。"
+              },
+              {
+                "id": "s16",
+                "en": "During this event, if you want to look at pictures of the items, please visit the special website.",
+                "ja": "このイベントの開催中、もし品物の写真を見たい場合は、特設ウェブサイトをご覧ください。"
+              },
+              {
+                "id": "s17",
+                "en": "https://silversky.trade-in.example",
+                "ja": "https://silversky.trade-in.example"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "If you have a member's card, you can get coupons for a maximum of [1].",
+            "ja": "もしメンバーズカードを持っていれば、最大で[1]分のクーポンを取得できる。"
+          },
+          "answer": "③",
+          "choices": [
+            {
+              "label": "①",
+              "en": "$10",
+              "ja": "10ドル",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "$15",
+              "ja": "15ドル",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "$20",
+              "ja": "20ドル",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "$25",
+              "ja": "25ドル",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は③。Our projectの3の項目(We will give…)に,｢服1点につき5ドル分のクーポンがもらえる｣，「一度に3点まで服を持ってくることが可能｣，「メンバーズカードがあれば1点追加で持ってくることが可能」とあるため，5ドル×4で20ドル。Dateの項目に「期間中おひとり様につき1回のみご参加可能です」とあり，これ以上追加でクーポンを取得することはできないため，正解は③。",
+            "evidence_sentences": [
+              "s9",
+              "s13"
+            ],
+            "why_others_wrong": []
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "Last year was [2].",
+            "ja": "昨年は[2]だった。"
+          },
+          "answer": "④",
+          "choices": [
+            {
+              "label": "①",
+              "en": "the beginning of the distribution of coupons on the website",
+              "ja": "ウェブサイト上でのクーポンの配布を開始した年",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "the first time Silver Sky Mall had collected more than 1,000 kg of unwanted garments",
+              "ja": "シルバースカイモールが初めて1,000kgを上回る不要な衣服を回収した年",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the first year of this clothes-collecting program",
+              "ja": "この衣服回収計画が始まった年",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the worst year for the amount of wasted clothes in the US",
+              "ja": "アメリカで捨てられた服の量が最悪だった年",
+              "is_correct": true
+            }
+          ],
+          "explanation": {
+            "ja": "正解は④。表の一番上の説明の第2文(However, last year…)に,昨年はアメリカで1,100万トンの服が捨てられ，それは過去最悪だったと記述があるため，④が正解。\nウェブサイト上でのクーポン配布については記述がないため,①は誤り。②は,｢初めて」や「1,000kgを上回る」という部分が，本文の内容と合わない。この衣服回収計画は3年前に始まったという記述があるため③も誤り。",
+            "evidence_sentences": [
+              "s2"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①は誤り。"
+              },
+              {
+                "choice": "②",
+                "reason": "②は,｢初めて」や「1,000kgを上回る」という部分が，本文の内容と合わない。この衣服回収計画は3年前に始まったという記述があるため③も誤り。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "During this program, you cannot [3].",
+            "ja": "このプログラム中、あなたは[3]ことはできない。"
+          },
+          "answer": "③",
+          "choices": [
+            {
+              "label": "①",
+              "en": "bring clothes purchased from other countries",
+              "ja": "他の国から購入した服を持ってくる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "check on the Internet what items will be sold",
+              "ja": "どんな品物が売りに出されるかをインターネットで調べる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "send in the clothes you want to sell by mail",
+              "ja": "自分が売りたい服を郵送する",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "use the coupon next time you come to the mall",
+              "ja": "次にモールに来た時にクーポンを使用する",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は③。「売りたい服を郵送できる」という記述は本文中にないため,③が正解。\n他の場所で買った衣服を持ってきても良いと書いてあるため，①は誤り。古着として売りに出される品物はウェブサイトで写真が見られるとあるため，②は誤り。クーポンは次にモールで買い物をするときに使用できると書いてあるため,④は誤り。",
+            "evidence_sentences": [
+              "s8",
+              "s16",
+              "s9"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①は誤り。古着として売りに出される品物はウェブサイトで写真が見られるとあるため，"
+              },
+              {
+                "choice": "②",
+                "reason": "②は誤り。クーポンは次にモールで買い物をするときに使用できると書いてあるため,"
+              },
+              {
+                "choice": "④",
+                "reason": "④は誤り。"
+              }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "environmentally-friendly",
+              "ja": "環境にやさしい"
+            },
+            {
+              "en": "carry O out",
+              "ja": "Oを実行する"
+            },
+            {
+              "en": "natural resource",
+              "ja": "天然資源"
+            },
+            {
+              "en": "amount",
+              "ja": "量"
+            },
+            {
+              "en": "dump",
+              "ja": "…を捨てる"
+            },
+            {
+              "en": "tackle",
+              "ja": "…に取り組む"
+            },
+            {
+              "en": "issue",
+              "ja": "問題"
+            },
+            {
+              "en": "clothing",
+              "ja": "衣服"
+            },
+            {
+              "en": "instead of O",
+              "ja": "Oではなく"
+            },
+            {
+              "en": "throw O away",
+              "ja": "Oを捨てる"
+            },
+            {
+              "en": "unwanted",
+              "ja": "不要な"
+            },
+            {
+              "en": "turn in O",
+              "ja": "Oを提出する"
+            },
+            {
+              "en": "condition",
+              "ja": "状態"
+            },
+            {
+              "en": "purchase",
+              "ja": "購入"
+            },
+            {
+              "en": "donate",
+              "ja": "…を寄付する"
+            },
+            {
+              "en": "textile",
+              "ja": "服；布"
+            },
+            {
+              "en": "reboot",
+              "ja": "…を再起動する"
+            },
+            {
+              "en": "clothes",
+              "ja": "衣服"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": []
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 10,
+      "points_per_question": 2,
+      "situation": {
+        "en": "You are a member of the student council. The members have been discussing a project helping students to clear the town of trash. To get ideas, you are reading a report about a school challenge. It was written by an assistant language teacher who taught at a junior high school in Japan.",
+        "ja": "あなたは生徒会のメンバーです。メンバーたちは生徒が町のごみを清掃するのを手助けするプロジェクトについて話し合ってきました。アイデアを得るため、あなたはスクール・チャレンジに関するレポートを読んでいます。それは日本のある中学校で教えている外国語指導助手が書いたものです。"
+      },
+      "passages": [
+        {
+          "id": "cleanup_report",
+          "title": {
+            "en": "Cleanup Challenge",
+            "ja": "クリーンアップ・チャレンジ"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s1",
+                "en": "In response to the town's environmental beautification campaign, our junior high school worked on the town's cleanup activity.",
+                "ja": "町の環境美化運動に呼応して、私たちの中学校では地域清掃活動に取り組みました。"
+              },
+              {
+                "id": "s2",
+                "en": "I also felt that there was a lot of litter, such as empty bottles or pieces of paper, on the road the school is on, so I thought this would be a good opportunity to improve the environment near our school.",
+                "ja": "私も通学路に空き瓶や紙くずなどのごみが多いと感じていたので、学校周辺の環境を改善する良い機会だと思いました。"
+              },
+              {
+                "id": "s3",
+                "en": "We started this activity to help students understand the importance of keeping the community clean.",
+                "ja": "私たちがこの活動に取り組み始めたのは、生徒たちに町を清潔に保つ大切さを理解させる手助けをするためでした。"
+              },
+              {
+                "id": "s4",
+                "en": "A total of 250 students participated every Friday from January 10th to February 10th.",
+                "ja": "合計250名の生徒が1月10日から2月10日まで毎週金曜日に参加しました。"
+              },
+              {
+                "id": "s5",
+                "en": "They picked up litter on their way to school, put it in a special plastic bag and brought it to school.",
+                "ja": "彼らは通学途中に拾ったごみを特製のビニール袋に入れて学校に持ち運びました。"
+              },
+              {
+                "id": "s6",
+                "en": "What was interesting was that students from the western part of the town picked up more litter than students from other areas.",
+                "ja": "興味深かったのは、町の西部の生徒たちの方が他の地域の生徒たちよりも多くのごみを拾ったということでした。"
+              },
+              {
+                "id": "s7",
+                "en": "What was the cause of this?",
+                "ja": "この原因は何だったのでしょうか？"
+              },
+              {
+                "id": "s8",
+                "en": "Based on the feedback (given below), there seems to be an answer to this question:",
+                "ja": "（以下の）フィードバックに基づけば、この問いに対する答えがあるようです："
+              }
+            ]
+          ]
+        },
+        {
+          "id": "feedback",
+          "title": {
+            "en": "Feedback from participants",
+            "ja": "参加者からのフィードバック"
+          },
+          "sentences": [
+            {
+              "id": "f_as1",
+              "en": "AS: Thanks to this project, I realized the importance of cleaning.",
+              "ja": "AS：このプロジェクトのおかげで清掃の大切さを実感しました。"
+            },
+            {
+              "id": "f_as2",
+              "en": "It seemed that when the road was clean, my heart was also clean.",
+              "ja": "道がきれいになると自分の心もきれいになるようでした。"
+            },
+            {
+              "id": "f_bk1",
+              "en": "BK: Some of my friends seemed to find it difficult to pick up litter because they commuted to school by bicycle.",
+              "ja": "BK：私の友人の一部は自転車で通学しているため、ごみを拾うことが難しかったようです。"
+            },
+            {
+              "id": "f_sc1",
+              "en": "SC: I made a map of where I found a lot of litter.",
+              "ja": "SC：私はどこに多くのごみが落ちているのかに関する地図を作りました。"
+            },
+            {
+              "id": "f_sc2",
+              "en": "There seems to be no significant relationship between distance from the station and amounts of trash.",
+              "ja": "駅からの距離とごみの量の間には、顕著な関連性はないようです。"
+            },
+            {
+              "id": "f_jd1",
+              "en": "JD: We separated trash carefully.",
+              "ja": "JD：慎重にごみの分別をしました。"
+            },
+            {
+              "id": "f_jd2",
+              "en": "Cigarette butts were the most common objects, followed by plastic trash, wastepaper, and empty cans.",
+              "ja": "たばこの吸い殻が一番多く、次にプラスチックごみ、紙くず、空き缶の順でした。"
+            },
+            {
+              "id": "f_jd3",
+              "en": "Smoking on the street is prohibited in our town, so I was very upset.",
+              "ja": "路上でタバコを吸うことは私たちの町では禁止されているので、大変頭にきました。"
+            },
+            {
+              "id": "f_ml1",
+              "en": "ML: One of my classmates commuting from the western area of our city picked up more litter than I did.",
+              "ja": "ML：私たちの町の西部から通ってくる1人のクラスメートの方が私より多くのごみを拾っていました。"
+            },
+            {
+              "id": "f_ml2",
+              "en": "This may be related to the fact that there is a busy shopping area there.",
+              "ja": "これは、そちらの方ににぎやかな商店街があることと関係しているのかもしれません。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "The aim of the Cleanup Challenge was to help students to [4].",
+            "ja": "クリーンアップ・チャレンジの目的は、生徒が[4]ことを手助けすることだった。"
+          },
+          "answer": "①",
+          "choices": [
+            {
+              "label": "①",
+              "en": "appreciate the need for a clean environment",
+              "ja": "清潔な環境の必要性を理解する",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "be worthy members of the community",
+              "ja": "地域社会の価値ある一員となる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "recognize regional trash connections",
+              "ja": "地域のごみの関係性を認識する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "understand different types of litter",
+              "ja": "さまざまな種類のごみを理解する",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は①。クリーンアップ・チャレンジに関する本文の第3文(We started this…)に「私たちがこの活動に取り組み始めたのは‘生徒たちに町を清潔に保つ大切さを理解させる手助けをするためでした」とあり，①が適切だとわかる。\n②は文章中に記述がない。③,④はフィードバック中に該当すると考えられる記述があるが，この運動が行われた目的とは言えないため，不適切である。",
+            "evidence_sentences": [
+              "s3"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "②",
+                "reason": "②は文章中に記述がない。③,"
+              },
+              {
+                "choice": "④",
+                "reason": "④はフィードバック中に該当すると考えられる記述があるが，この運動が行われた目的とは言えないため，不適切である。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "One fact about the Cleanup Challenge is that [5].",
+            "ja": "クリーンアップ・チャレンジに関する1つの事実は[5]ということだ。"
+          },
+          "answer": "②",
+          "choices": [
+            {
+              "label": "①",
+              "en": "it lasted for two months during the winter",
+              "ja": "冬の間に2ヵ月間行われた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "it was held at least four times during a set period",
+              "ja": "設定期間中に少なくとも4回行われた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "most of the students came from the western side of town",
+              "ja": "生徒の大半は町の西部から来ていた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "students had to use homemade bags",
+              "ja": "生徒は自家製の袋を使わなければならなかった",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は②。クリーンアップ・チャレンジに関する本文の第4文(A total of…)に「合計250名の生徒が1月10日から2月10日まで毎週金曜日に参加しました」とあり，この活動が1ヵ月間続き，週1回の参加で少なくとも4回は行われたことがわかるため，②が適切である。\n①は本文内容と矛盾する。③は本文中に記述がない。④は本文中に「特製のビニール袋を使う」という記述があるが，自家製とは明示されていないため不適切である。",
+            "evidence_sentences": [
+              "s4"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①は本文内容と矛盾する。"
+              },
+              {
+                "choice": "③",
+                "reason": "③は本文中に記述がない。"
+              },
+              {
+                "choice": "④",
+                "reason": "④は本文中に「特製のビニール袋を使う」という記述があるが，自家製とは明示されていないため不適切である。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "From the feedback, [6] were activities reported by participants.",
+            "ja": "フィードバックによると、[6]は参加者によって報告された活動だった。"
+          },
+          "answer": "①",
+          "choices": [
+            {
+              "label": "①",
+              "en": "A and B",
+              "ja": "AとB",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "A and C",
+              "ja": "AとC",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "A and D",
+              "ja": "AとD",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "B and C",
+              "ja": "BとC",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "B and D",
+              "ja": "BとD",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "C and D",
+              "ja": "CとD",
+              "is_correct": false
+            }
+          ],
+          "stem_options": [
+            {
+              "label": "A",
+              "en": "examining different types of litter",
+              "ja": "さまざまな種類のごみを調べること"
+            },
+            {
+              "label": "B",
+              "en": "recording where litter was found",
+              "ja": "ごみがどこで見つかったのか記録すること"
+            },
+            {
+              "label": "C",
+              "en": "taking litter home",
+              "ja": "ごみを家に持ち帰ること"
+            },
+            {
+              "label": "D",
+              "en": "warning people not to smoke",
+              "ja": "人々に喫煙しないように注意すること"
+            }
+          ],
+          "explanation": {
+            "ja": "正解は①。フィードバック中のSCのコメントに「私はどこに多くのごみが落ちているのかに関する地図を作りました」とあり，ごみが落ちている場所に関する記録をつけていたことがわかるため,Bは適切である。また,JDのコメントに「慎重にごみの分別をしました」とあり，落ちているごみの内訳を調べたという内容があるため,Aも適切である。\n以上より，①AとBが正解である。\nCとDは本文中に記述がない。",
+            "evidence_sentences": [
+              "f_sc1",
+              "f_jd1",
+              "f_jd2"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "C",
+                "reason": "本文中に記述がない。",
+                "ref_sentences": []
+              },
+              {
+                "choice": "D",
+                "reason": "本文中に記述がない。",
+                "ref_sentences": []
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "One of the participants' opinions about the Cleanup Challenge is that [7].",
+            "ja": "クリーンアップ・チャレンジに関する参加者の意見の1つは[7]ということだ。"
+          },
+          "answer": "④",
+          "choices": [
+            {
+              "label": "①",
+              "en": "it was more efficient for students commuting by bicycle",
+              "ja": "自転車で通学する生徒にはより効率が良かった",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "many students got into the habit of picking up litter",
+              "ja": "生徒の多くはごみを拾うことが習慣となった",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "smoking should be prohibited as soon as possible",
+              "ja": "タバコを吸うことをできるだけ早く禁止すべきだ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the cleaner the town was, the better the participant felt",
+              "ja": "町がきれいになればなるほど、ますます参加者の気分も良くなった",
+              "is_correct": true
+            }
+          ],
+          "explanation": {
+            "ja": "正解は④。フィードバック中のASのコメントに「道がきれいになると自分の心もきれいになるようでした」とあるため，④が適切である。\n①は、BKのコメントに，自転車通学者はごみを拾うのが難しかったとあるため，不適切である。②は，本文中に記述がない。③は,JDのコメントに，路上喫煙は禁止されているとあるため，不適切である。",
+            "evidence_sentences": [
+              "f_as2"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①は、BKのコメントに，自転車通学者はごみを拾うのが難しかったとあるため，不適切である。"
+              },
+              {
+                "choice": "②",
+                "reason": "②は，本文中に記述がない。"
+              },
+              {
+                "choice": "③",
+                "reason": "③は,JDのコメントに，路上喫煙は禁止されているとあるため，不適切である。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 8,
+          "stem": {
+            "en": "The author's question is answered by [8].",
+            "ja": "筆者の問いは[8]によって答えられている。"
+          },
+          "answer": "④",
+          "choices": [
+            {
+              "label": "①",
+              "en": "AS",
+              "ja": "AS",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "BK",
+              "ja": "BK",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "JD",
+              "ja": "JD",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "ML",
+              "ja": "ML",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "SC",
+              "ja": "SC",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "ja": "正解は④。クリーンアップ･チャレンジに関する本文の第6文(What was interesting…), 第7文(What was the…)に「興味深かったのは，町の西部の生徒たちの方が他の地域の生徒たちよりも多くのごみを拾ったということでした。この原因は何だったのでしょうか？」とあり，西部の生徒たちがより多くのごみを拾った事実に筆者は疑問を抱いている。それに対して，フィードバック中のMLのコメントに「私たちの町の西部から通ってくる1人のクラスメートの方が私より多くのごみを拾っていました。これは，そちらの方ににぎやかな商店街があることと関係しているのかもしれません」とその疑問に対する回答が述べられているため，④が適切である。\n他の選択肢はこの疑問に対して回答を述べていないため，不適切である。",
+            "evidence_sentences": [
+              "s6",
+              "s7",
+              "f_ml1",
+              "f_ml2"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "student council",
+              "ja": "生徒会"
+            },
+            {
+              "en": "trash",
+              "ja": "ごみ；くず"
+            },
+            {
+              "en": "assistant language teacher",
+              "ja": "外国語指導助手"
+            },
+            {
+              "en": "in response to ...",
+              "ja": "…に応じて"
+            },
+            {
+              "en": "beautification",
+              "ja": "美化"
+            },
+            {
+              "en": "campaign",
+              "ja": "運動；キャンペーン"
+            },
+            {
+              "en": "work on ...",
+              "ja": "…に取り組む"
+            },
+            {
+              "en": "litter",
+              "ja": "ごみ；くず"
+            },
+            {
+              "en": "empty",
+              "ja": "空の；中身のない"
+            },
+            {
+              "en": "opportunity",
+              "ja": "機会"
+            },
+            {
+              "en": "participate",
+              "ja": "参加する"
+            },
+            {
+              "en": "a total of ...",
+              "ja": "総数…"
+            },
+            {
+              "en": "pick up ...",
+              "ja": "…を拾う"
+            },
+            {
+              "en": "on one's way to ...",
+              "ja": "…に行く途中で"
+            },
+            {
+              "en": "plastic bag",
+              "ja": "ビニール袋"
+            },
+            {
+              "en": "based on ...",
+              "ja": "…に基づけば"
+            },
+            {
+              "en": "feedback",
+              "ja": "反応；フィードバック；意見"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "thanks to ...",
+              "ja": "…のおかげで"
+            },
+            {
+              "en": "commute",
+              "ja": "通勤する；通学する"
+            },
+            {
+              "en": "amount",
+              "ja": "量；総額；総計"
+            },
+            {
+              "en": "separate",
+              "ja": "…を分ける"
+            },
+            {
+              "en": "cigarette butt",
+              "ja": "タバコの吸い殻"
+            },
+            {
+              "en": "common",
+              "ja": "ありふれた；よく見られる"
+            },
+            {
+              "en": "object",
+              "ja": "物；物体"
+            },
+            {
+              "en": "..., followed by ~",
+              "ja": "…、その後に~が続く"
+            },
+            {
+              "en": "prohibit",
+              "ja": "…を禁止する"
+            },
+            {
+              "en": "upset",
+              "ja": "取り乱している；腹を立てている"
+            },
+            {
+              "en": "be related to ...",
+              "ja": "…に関係［関連］のある"
+            },
+            {
+              "en": "busy",
+              "ja": "にぎやかな"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "situation": {
+        "en": "You found the following article about success in a magazine that one of your friends lent you.",
+        "ja": "あなたは、友人の1人が貸してくれた雑誌の中に、成功に関する以下の記事を見つけました。"
+      },
+      "passages": [
+        {
+          "id": "rags_to_riches",
+          "title": {
+            "en": "From Rags to Riches\n(By Sally Ellis)",
+            "ja": "ぼろから富へ\nサリー・エリス"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s1",
+                "en": "You may have never heard of Howard Schultz, but most likely you know the company he transformed.",
+                "ja": "ハワード・シュルツについてあなたは聞いたことがないかもしれないが、彼が変革した会社のことはおそらく知っているだろう。"
+              },
+              {
+                "id": "s2",
+                "en": "Born into a poor family in New York in 1953, his number one goal in life was to succeed and build a brighter future, and he fought hard at school to achieve good grades.",
+                "ja": "1953年にニューヨークの貧しい家庭に生まれた彼の人生における第一の目標は成功してより明るい未来を築くことであり、彼は良い成績を収めようと学校で奮闘した。"
+              },
+              {
+                "id": "s3",
+                "en": "Schultz later proved to be a natural at sports, and was offered a free place at university because of his ability.",
+                "ja": "シュルツは後にスポーツの天才であると判明し、またその能力ゆえに大学では学費免除を受けた。"
+              },
+              {
+                "id": "s4",
+                "en": "After graduation Schultz did sales for a small coffee-maker company, as well as for other companies, and was promoted quickly there.",
+                "ja": "卒業後シュルツは、他の会社と並んでコーヒーメーカーを扱う小さな会社でも販売業務を行い、そこで急速に昇進した。"
+              },
+              {
+                "id": "s5",
+                "en": "Eventually he became an advertising manager for a coffee bean company with a few stores in Seattle.",
+                "ja": "最終的に彼は、シアトルにいくつか店舗のあるコーヒー豆の会社の広告部長になった。"
+              },
+              {
+                "id": "s6",
+                "en": "The name of this small chain? Starbucks.",
+                "ja": "この小さなチェーン店の名前はと言えば、スターバックスだった。"
+              }
+            ],
+            [
+              {
+                "id": "s7",
+                "en": "On an Italian trip, Schultz was impressed by the café culture there, and suggested Starbucks open coffee shops where people could socialize and chat comfortably.",
+                "ja": "イタリア旅行に行った際、シュルツは当地のカフェ文化に感銘を受け、人々が居心地良く集まっておしゃべりできる喫茶店を開くようスターバックスに提案した。"
+              },
+              {
+                "id": "s8",
+                "en": "Even when the top managers doubted that ideas would suit their organization, they sometimes allowed their staff to carry them out; and the American public loved Schultz's idea.",
+                "ja": "着想が組織に合わないのではないかと最高経営者たちが疑うときでさえ、彼らはスタッフにその実行を許可する場合があった。そしてアメリカの大衆はシュルツの着想が大いに気に入ったのである。"
+              },
+              {
+                "id": "s9",
+                "en": "He then left and returned to Starbucks twice, eventually becoming president of the enterprise, expanding it across the USA and further, incorporating it into 39 countries by 2012.",
+                "ja": "彼はそれからスターバックスから離れては戻ることを二度行い、最終的には企業の頭取となってそれをアメリカ合衆国中に広め、さらには2012年までに39カ国へと出店した。"
+              },
+              {
+                "id": "s10",
+                "en": "Ironically, some neighboring Starbucks stores have closed because they were competing with each other.",
+                "ja": "皮肉にも、隣接するスターバックスの店舗が互いに競合し閉店する場合もあった。"
+              },
+              {
+                "id": "s11",
+                "en": "Soon after, Schultz was listed in Forbes Magazine as one of America's richest.",
+                "ja": "ほどなくシュルツは、アメリカでトップの金持ちの1人としてフォーブズ誌に載った。"
+              }
+            ],
+            [
+              {
+                "id": "s12",
+                "en": "Schultz has used any power he had in positive ways since he climbed to the top of his company, and once famously criticized an investor for being against gay marriage, even suggesting he spend his money boosting another company.",
+                "ja": "シュルツは自分の会社のトップに上りつめて以来、持てる力のすべてを良い方向へと使ってきた。そしてよく知られているようにかつてある投資家を同性婚に反対していることについて批判し、その投資家に自分の金を別の会社を後援するために使うよう提案さえした。"
+              },
+              {
+                "id": "s13",
+                "en": "He received an award for never lying at work, and was invited to teach a course on fair business practices at an American university.",
+                "ja": "彼は職場で決して嘘をつかないことに対して賞を与えられ、公正な商慣習に関する講座を教えるようあるアメリカの大学に招かれた。"
+              },
+              {
+                "id": "s14",
+                "en": "He supports the concept of an environmentally friendly business world, and wants oil and gas to be taxed more harshly.",
+                "ja": "彼は環境に優しい実業界という理念を支持しており、石油やガスへの課税がより厳しくなるよう望んでいる。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "stem": {
+            "en": "Put the following events (①～④) into the order in which they happened. [9] → [10] → [11] → [12]",
+            "ja": "以下の出来事（①～④）を起きた順に並べよ。[9] → [10] → [11] → [12]"
+          },
+          "answer": "②→③→①→④",
+          "answer_sequence": [
+            2,
+            3,
+            1,
+            4
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "Schultz became the head of Starbucks.",
+              "ja": "シュルツはスターバックスの頭取になった。"
+            },
+            {
+              "label": "②",
+              "en": "Schultz proposed introducing a new business style to Starbucks.",
+              "ja": "シュルツはスターバックスへの新たなビジネス形態の導入を提案した。"
+            },
+            {
+              "label": "③",
+              "en": "Schultz quit working at Starbucks.",
+              "ja": "シュルツはスターバックスで働くのをやめた。"
+            },
+            {
+              "label": "④",
+              "en": "Schultz started using his influence constructively.",
+              "ja": "シュルツは自分の影響力を建設的に使い始めた。"
+            }
+          ],
+          "explanation": {
+            "ja": "第3段落第1文(On an Italian…)にあるように「喫茶店を開くよう提案」した後、同段落第3文(He then left…)にあるように「スターバックスから離れては戻ることを二度行い｣，さらに同文にあるように「最終的には企業の頭取」となってそれ以来，最終段落第1文(Schultz has used…)にあるように「持てる力のすべてを良い方向に使ってきた」のであるから，それぞれに対応する②,③,①,④が順に正解となる。",
+            "evidence_sentences": [
+              "s7",
+              "s9",
+              "s12"
+            ],
+            "why_others_wrong": []
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 13,
+          "stem": {
+            "en": "One fact we know about Schultz's life is that he [13].",
+            "ja": "シュルツの人生についてわかっている1つの事実は、彼が[13]ということである。"
+          },
+          "answer": "④",
+          "choices": [
+            {
+              "label": "①",
+              "en": "caused constant trouble at school",
+              "ja": "学校で絶えず面倒を引き起こした",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "preferred traditional American customs",
+              "ja": "伝統的なアメリカの慣習を好んだ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "used expensive energy sources",
+              "ja": "高価なエネルギー源を使用した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "was among the wealthiest persons in the USA",
+              "ja": "アメリカで最も富裕な人々のうちの1人だった",
+              "is_correct": true
+            }
+          ],
+          "explanation": {
+            "ja": "正解は④。第3段落最終文(Soon after, Schultz…)に「シュルツはアメリカでトップの金持ちの1人としてフォーブズ誌に載った」という記述が見られるので,④が正解。他の選択肢はいずれも，本文に書かれていない内容。",
+            "evidence_sentences": [
+              "s11"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "本文に書かれていない内容。",
+                "ref_sentences": []
+              },
+              {
+                "choice": "②",
+                "reason": "本文に書かれていない内容。",
+                "ref_sentences": []
+              },
+              {
+                "choice": "③",
+                "reason": "本文に書かれていない内容。",
+                "ref_sentences": []
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 14,
+          "stem": {
+            "en": "From this story, you learned that Starbucks [14].",
+            "ja": "この話から、スターバックスは[14]ということがわかった。"
+          },
+          "answer": "④",
+          "choices": [
+            {
+              "label": "①",
+              "en": "began as a cheap store accessible to people living in poverty",
+              "ja": "貧しい暮らしの人にとって利用しやすい、安く利用できる店として始まった",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "faced considerable challenges early on and almost went out of business",
+              "ja": "早い時期に相当の難題に直面し、廃業しかかった",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "itself collected ideas from restaurants worldwide to build an international chain",
+              "ja": "国際的なチェーン店を作り上げるために、自ら世界中のレストランからアイディアを集めた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "listened to proposals of employees and was willing to try new things",
+              "ja": "従業員の提案に耳を傾け、新しいことを試すことを厭わなかった",
+              "is_correct": true
+            }
+          ],
+          "explanation": {
+            "ja": "正解は④。第3段落第2文(Even when the…)に「着想が組織に合わないのではないかと最高経営者が疑うときでさえ，彼ら［＝スターバックスの最高経営者たち］はスタッフにその実行を許可する場合があった」とあるため，④が正解。他の選択肢はいずれも，本文に書かれていない内容。",
+            "evidence_sentences": [
+              "s8"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "本文に書かれていない内容。",
+                "ref_sentences": []
+              },
+              {
+                "choice": "②",
+                "reason": "本文に書かれていない内容。",
+                "ref_sentences": []
+              },
+              {
+                "choice": "③",
+                "reason": "本文に書かれていない内容。",
+                "ref_sentences": []
+              }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "rag",
+              "ja": "ぼろ（きれ）"
+            },
+            {
+              "en": "riches",
+              "ja": "富；財産"
+            },
+            {
+              "en": "most likely",
+              "ja": "たぶん；十中八九"
+            },
+            {
+              "en": "Born into ...",
+              "ja": "…に生まれて"
+            },
+            {
+              "en": "natural",
+              "ja": "生来の達人；天才"
+            },
+            {
+              "en": "free place",
+              "ja": "授業料免除の学籍"
+            },
+            {
+              "en": "coffee-maker",
+              "ja": "コーヒーメーカー"
+            },
+            {
+              "en": "socialize",
+              "ja": "うち解けて［社交的に］交際［おしゃべり］する"
+            },
+            {
+              "en": "incorporate",
+              "ja": "…を組み入れる"
+            },
+            {
+              "en": "soon after",
+              "ja": "すぐ後に"
+            },
+            {
+              "en": "list",
+              "ja": "…を名簿に載せる"
+            },
+            {
+              "en": "Forbes Magazine",
+              "ja": "フォーブズ誌"
+            },
+            {
+              "en": "famously",
+              "ja": "よく知られているように"
+            },
+            {
+              "en": "criticize O for ...",
+              "ja": "Oを…のことで批判する"
+            },
+            {
+              "en": "gay marriage",
+              "ja": "同性愛［間］結婚"
+            },
+            {
+              "en": "even suggesting ...",
+              "ja": "…と提案しさえして"
+            },
+            {
+              "en": "boost",
+              "ja": "…を後援［宣伝］する"
+            },
+            {
+              "en": "business practice",
+              "ja": "商慣習"
+            },
+            {
+              "en": "concept",
+              "ja": "概念；（基本）理念"
+            },
+            {
+              "en": "harshly",
+              "ja": "厳しく"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "constructively",
+              "ja": "建設的に"
+            },
+            {
+              "en": "accessible to ...",
+              "ja": "…にとって利用［入手］しやすい"
+            },
+            {
+              "en": "in poverty",
+              "ja": "貧困のうちに"
+            },
+            {
+              "en": "early on",
+              "ja": "早い時期［段階］に"
+            },
+            {
+              "en": "go out of business",
+              "ja": "廃業する"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "situation": {
+        "en": "In English class you are writing an essay about an environmental issue you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "英語の授業であなたは関心のある環境問題についてのエッセイを書いています。これが最も新しい草稿です。あなたは今,先生からのコメントに基づいて,修正に取り組んでいます。"
+      },
+      "passages": [
+        {
+          "id": "paper_essay",
+          "title": {
+            "en": "Reducing Paper Use",
+            "ja": "紙の使用を減らすこと"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "pe_s1",
+                "en": "In 2021, people around the world used 417 million tons of paper.",
+                "ja": "2021年,世界中の人々は4億1,700万トンの紙を使用しました。"
+              },
+              {
+                "id": "pe_s2",
+                "en": "Producing this much paper has major environmental effects, including deforestation, use of energy and water, and pollution.",
+                "ja": "これほどの多量の紙を生産することは，森林伐採やエネルギーと水の使用や汚染を含め，環境に大きな影響を及ぼします。"
+              },
+              {
+                "id": "pe_s3",
+                "en": "In contrast, paper makes up around 26% of all waste in landfill sites.",
+                "ja": "対照的に，紙はゴミの埋立地におけるすべての廃棄物の約26％を構成しています。",
+                "comment_marker": "(1)"
+              },
+              {
+                "id": "pe_s4",
+                "en": "Although much of this paper waste is produced in the workplace, we can also try to reduce paper use in our daily lives.",
+                "ja": "こうした紙の廃棄物の多くは仕事場で生み出されていますが，私たちは日常生活の中で紙の使用を減らす努力をすることもできます。"
+              }
+            ],
+            [
+              {
+                "id": "pe_s5",
+                "en": "First, we should reduce our use of disposable paper towels and tissues.",
+                "ja": "第一に，私たちは使い捨てのペーパータオルやティッシュの使用を減らすべきです。"
+              },
+              {
+                "id": "pe_s6",
+                "en": "Many people use single-use paper towels and tissues to clean their homes.",
+                "ja": "多くの人たちが使い捨てのペーパータオルやティッシュを使って家を掃除しています。"
+              },
+              {
+                "id": "pe_s7",
+                "en": "This is particularly true in the kitchen, especially when cleaning up spilled liquids.",
+                "ja": "これはとりわけ，特にこぼれた液体を掃除するときに，台所において言えることです。",
+                "comment_marker": "(2)"
+              },
+              {
+                "id": "pe_s8",
+                "en": "Wherever possible, you should do this instead of using paper towels.",
+                "ja": "可能なところはどこででも，ペーパータオルを使わずにこうしたことを行うべきです。"
+              }
+            ],
+            [
+              {
+                "id": "pe_s9",
+                "en": "Second, do you do a lot of reading?",
+                "ja": "第二に，みなさんは読書をたくさんするでしょうか？",
+                "comment_marker": "(3)"
+              },
+              {
+                "id": "pe_s10",
+                "en": "The publishing industry in the US uses around 32 million trees a year to produce books.",
+                "ja": "アメリカの出版業界は，本を生産するために1年に約3,200万本の木を使用しています。"
+              },
+              {
+                "id": "pe_s11",
+                "en": "While it is the responsibility of that industry to use more recycled paper, you can help by borrowing books from the library instead of buying them, or by purchasing electronic books instead of printed versions.",
+                "ja": "再生紙の使用を増やすことがこの業界の責任なのですが，本を買う代わりに図書館から本を借りることによって，あるいは印刷された本ではなく電子書籍を購入することによって，みなさんも貢献することができます。"
+              }
+            ],
+            [
+              {
+                "id": "pe_s12",
+                "en": "Finally, we should change our bills and bank statements to digital versions.",
+                "ja": "最後に，請求書や銀行取引明細書をデジタル版に変えるべきです。"
+              },
+              {
+                "id": "pe_s13",
+                "en": "Until recently, most families received paper bills, which not only wastes paper but also uses energy during delivery.",
+                "ja": "最近まで，ほとんどの家庭は紙の請求書を受け取っていましたが,それは紙を浪費するばかりでなく，配達する間にエネルギーを使用してもいます。"
+              },
+              {
+                "id": "pe_s14",
+                "en": "By accessing your bills and bank information online, you can save paper, time, and energy.",
+                "ja": "請求書や銀行情報をオンラインで入手することで，紙と時間とエネルギーを節約することができます。"
+              }
+            ],
+            [
+              {
+                "id": "pe_s15",
+                "en": "In conclusion, there are many things you can do to save paper.",
+                "ja": "結論として，紙を節約するためにできることはたくさんあります。"
+              },
+              {
+                "id": "pe_s16",
+                "en": "We can reduce our reliance on single-use paper products, change the way we consume books",
+                "ja": "私たちは，使い捨ての紙製品に対する依存を減らし，本の消費の仕方を変えることができます",
+                "comment_marker": "(4)"
+              },
+              {
+                "id": "pe_s17",
+                "en": ". By doing this, we can help to protect the environment.",
+                "ja": "。そうしたことをすることで，私たちは環境保護を助けることができるのです。"
+              }
+            ]
+          ],
+          "teacher_comment": {
+            "en": "Great effort! I should do some of these things too :)",
+            "ja": "大変努力しましたね！私もそうしたことのいくつかを行った方がいいでしょう。:)"
+          },
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "You have used the wrong expression here. Please change it.",
+              "ja": "ここには間違った表現が使用されました。変更してください。"
+            },
+            {
+              "marker": "(2)",
+              "en": "You are missing an important sentence. What do you recommend we do?",
+              "ja": "重要な1文が欠けています。あなたは私たちが何をすることを推奨しているのですか。"
+            },
+            {
+              "marker": "(3)",
+              "en": "Change the style of the topic sentence.",
+              "ja": "主題文の文体を変更してください。"
+            },
+            {
+              "marker": "(4)",
+              "en": "Please summarize your third point here.",
+              "ja": "ここで3番目のポイントを要約してください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 15,
+          "stem": {
+            "en": "What is the best expression to replace the one you used, based on comment (1)? [15]",
+            "ja": "「コメント(1)に基づくと，使用した表現の代わりに用いる最もよいものはどれか」[15]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "As a result",
+              "ja": "結果として",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "In addition",
+              "ja": "加えて",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "In other words",
+              "ja": "言い換えると",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "On the other hand",
+              "ja": "他方で",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。下線部(1)の直前では，多量の紙を使用することによる，森林伐採・エネルギーと水の使用・汚染といった環境に及ぼされる悪影響が言及され，下線部(1)の直後でも，紙がゴミの埋立地における廃棄物の約26％を構成しているという，廃棄物となった紙の好ましからぬ面（言い換えれば悪影響）が言及されている。つまり，下線部(1)の前後の内容はともに紙のもたらす悪影響であることから，「対比対照」ではなく「添加」の関係にあると判断できる。よって正解は②の「加えて」となる。\n①,③,④はいずれも自然な文脈とはならないので不可。",
+            "evidence_sentences": [
+              "pe_s2",
+              "pe_s3"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "④",
+                "reason": "④はいずれも自然な文脈とはならないので不可。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 16,
+          "stem": {
+            "en": "What is the best sentence to add, based on comment (2)? [16]",
+            "ja": "「コメント(2)に基づくと，追加するのに最もよい文はどれか」[16]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "However, this job could be done using reusable towels.",
+              "ja": "しかしながら，この仕事は再利用可能なタオルを使ってすることもできます。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "I believe it is important that we use better quality towels.",
+              "ja": "よりよい品質のタオルを使うことが重要だと思います。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "It is important that you avoid spilling drinks in the kitchen.",
+              "ja": "台所で飲み物をこぼさないようにすることが重要です。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Therefore, you should be much more careful at home.",
+              "ja": "したがって，家でもっと注意すべきです。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。第1段落では，環境保護のために日常生活の中で紙の使用を減らすことが可能である，と述べられ,その第1の方法として，第2段落の(2)の前では,使い捨てのペーパータオルやティッシュの使用を減らすべきであるという提案がなされている。さらに(2)の後では，第1の方法に代わるものとしてペーパータオルを使わずにこうしたこと［掃除をすること］を行うべきであるという提案がなされている。したがって，(2)に，使い捨てのペーパータオル以外のもの，すなわち再利用できるものを使うことができるという内容が入れば，筆者が推奨していることを表す文になる。よって正解は①となる。\n②,③,④はいずれも自然な文脈とはならないので不可。",
+            "evidence_sentences": [
+              "pe_s5",
+              "pe_s7",
+              "pe_s8"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "④",
+                "reason": "④はいずれも自然な文脈とはならないので不可。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 17,
+          "stem": {
+            "en": "What expression should you replace the question with, according to comment (3)? [17]",
+            "ja": "「コメント(3)に従い，疑問文の代わりにどのような表現にするべきか」[17]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "you should buy books that use less paper",
+              "ja": "より少ない紙を使用した本を買うべきです",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "you should change the way you read books",
+              "ja": "本を読む方法を変えるべきです",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "you should reduce the number of books you throw away",
+              "ja": "捨てる本の数を減らすべきです",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "you should think about reading fewer books",
+              "ja": "本を読む数を減らすことを考えるべきです",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。下線部(3)の2文後では「再生紙の使用を増やすことがこの業界の責任なのですが，本を買う代わりに図書館から本を借りることによって，あるいは印刷された本ではなく電子書籍を購入することによって，みなさんも貢献することができます」と述べられているが，それは本を読む方法を変えることによって私たちも紙の使用を減らすことに貢献できることを意味していると判断できる。よって，下線部(3)を②の「本を読む方法を変えるべきです」にすれば疑問文を肯定文の文体に変えてこの段落の主題を表現できる。\n①，③，④はいずれもこの段落で述べられている内容ではないので不可。",
+            "evidence_sentences": [
+              "pe_s9",
+              "pe_s11"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "④",
+                "reason": "④はいずれもこの段落で述べられている内容ではないので不可。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 18,
+          "stem": {
+            "en": "Which expression should you add, according to comment (4)? [18]",
+            "ja": "「コメント(4)に従い，どの表現を追加するべきか」[18]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "and avoid having letters delivered",
+              "ja": "また手紙が配達されるのを避けること",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "and change the banks you use",
+              "ja": "また使う銀行を変えること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "and have your bills delivered digitally",
+              "ja": "また請求書をデジタルで届けてもらうこと",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "and reduce the energy you consume",
+              "ja": "また消費するエネルギーを減らすこと",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。コメント(4)には「ここで3番目のポイントを要約してください」とある。(4)を含む段落の前までの段落構成は以下のようになっている（カッコ内の数字は段落番号を表す)。\n［1］主題「日常生活の中で紙の消費を減らすことができる」\n［2］例示1「使い捨ての清掃用品の使用量を減らしたり，そうしたものを使わないこと」\n［3］例示2「読書の仕方を変えること」\n［4］例示3「請求書や銀行明細書をデジタル版に変えること」\n以上から，この文章全体の主題である「紙の消費量を減らすこと」における3番目のポイントは第4段落の内容である「請求書や銀行明細書をデジタル版に変えること」であることがわかる。よって③が正解。",
+            "evidence_sentences": [
+              "pe_s12",
+              "pe_s16"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "draft",
+              "ja": "草稿"
+            },
+            {
+              "en": "work on ...",
+              "ja": "…に取り組む"
+            },
+            {
+              "en": "revision",
+              "ja": "改訂；修正"
+            },
+            {
+              "en": "based on ...",
+              "ja": "…に基づいて［た］"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            {
+              "en": "reduce",
+              "ja": "…を減らす"
+            },
+            {
+              "en": "environmental",
+              "ja": "環境の"
+            },
+            {
+              "en": "deforestation",
+              "ja": "森林伐採"
+            },
+            {
+              "en": "pollution",
+              "ja": "汚染"
+            },
+            {
+              "en": "make up ...",
+              "ja": "…を構成する"
+            },
+            {
+              "en": "waste",
+              "ja": "廃棄物；浪費"
+            },
+            {
+              "en": "landfill site",
+              "ja": "ごみ埋立地"
+            },
+            {
+              "en": "workplace",
+              "ja": "仕事場；職場"
+            },
+            {
+              "en": "disposable",
+              "ja": "使い捨ての"
+            },
+            {
+              "en": "single-use",
+              "ja": "使い捨ての"
+            },
+            {
+              "en": "tissue",
+              "ja": "ティッシュ"
+            },
+            {
+              "en": "particularly",
+              "ja": "特に；とりわけ"
+            },
+            {
+              "en": "spill",
+              "ja": "…をこぼす"
+            },
+            {
+              "en": "liquid",
+              "ja": "液体"
+            },
+            {
+              "en": "publishing industry",
+              "ja": "出版業界"
+            },
+            {
+              "en": "responsibility",
+              "ja": "責任"
+            },
+            {
+              "en": "recycled paper",
+              "ja": "再生紙"
+            },
+            {
+              "en": "electronic book",
+              "ja": "電子書籍"
+            },
+            {
+              "en": "printed version",
+              "ja": "印刷版"
+            },
+            {
+              "en": "bill",
+              "ja": "請求書"
+            },
+            {
+              "en": "bank statement",
+              "ja": "銀行取引明細書"
+            },
+            {
+              "en": "digital version",
+              "ja": "デジタル版"
+            },
+            {
+              "en": "delivery",
+              "ja": "配達"
+            },
+            {
+              "en": "access",
+              "ja": "…にアクセスする；…を入手する"
+            },
+            {
+              "en": "reliance",
+              "ja": "依存"
+            },
+            {
+              "en": "consume",
+              "ja": "…を消費する"
+            },
+            {
+              "en": "protect",
+              "ja": "…を保護する"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "expression",
+              "ja": "表現"
+            },
+            {
+              "en": "replace",
+              "ja": "…を置き換える"
+            },
+            {
+              "en": "as a result",
+              "ja": "結果として"
+            },
+            {
+              "en": "in addition",
+              "ja": "加えて"
+            },
+            {
+              "en": "in other words",
+              "ja": "言い換えると"
+            },
+            {
+              "en": "on the other hand",
+              "ja": "他方で"
+            },
+            {
+              "en": "reusable",
+              "ja": "再利用可能な"
+            },
+            {
+              "en": "topic sentence",
+              "ja": "主題文"
+            },
+            {
+              "en": "summarize",
+              "ja": "…を要約する"
+            },
+            {
+              "en": "digitally",
+              "ja": "デジタルで"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "points_per_question": 3,
+      "situation": {
+        "en": "Your teacher has told you to give a presentation on effective reading methods. You are reading two articles and thinking about presenting what you have learned in the next class.",
+        "ja": "あなたは先生から効果的な読書法についての発表をするように言われ，2つの記事を読んでいて，学んだことを次の授業で発表しようと考えています。"
+      },
+      "passages": [
+        {
+          "id": "rereading_article",
+          "title": {
+            "en": "Useful Practice: Rereading",
+            "ja": "役に立つ習慣：再読"
+          },
+          "subtitle": {
+            "en": "James King, Librarian at Mount City Middle School",
+            "ja": "ジェームズ・キング　マウントシティ中学校図書館司書"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "rr_s1",
+                "en": "Rereading is the act of reading a book, article, or any written material again after having already read it once.",
+                "ja": "再読とは，本や記事や何であれ書かれたものを，すでに一度読んだ後でもう一度読むことだ。"
+              },
+              {
+                "id": "rr_s2",
+                "en": "It is a common practice among readers who wish to gain a deeper understanding of a text, refresh their memory, or simply enjoy a book they love once again.",
+                "ja": "文章をより深く理解したい，記憶をよみがえらせたい，単に好きな本をもう一度読みたいといった読者たちの間では，一般的な習慣である。"
+              },
+              {
+                "id": "rr_s3",
+                "en": "Rereading is also beneficial for language learners.",
+                "ja": "再読は，言語学習者にとっても有益だ。"
+              },
+              {
+                "id": "rr_s4",
+                "en": "By rereading a text, learners can improve their vocabulary, comprehension, and fluency.",
+                "ja": "文章を再読することで，学習者は語彙力，理解力，流暢さを向上させることができる。"
+              },
+              {
+                "id": "rr_s5",
+                "en": "Rereading can also be used as a tool for academic or professional purposes, such as studying for an exam, writing a paper, or preparing for a presentation.",
+                "ja": "また，試験勉強や論文執筆プレゼンテーションの準備など，学術的・職業的な目的を達する手段としても再読は利用できる。"
+              }
+            ],
+            [
+              {
+                "id": "rr_s6",
+                "en": "When rereading a text, readers may notice things they missed during their first reading.",
+                "ja": "文章を再読すると，読者は最初に読んだときに見落としたことに気づくかもしれない。"
+              },
+              {
+                "id": "rr_s7",
+                "en": "This is because rereading allows the reader to focus on the details of the text rather than on the plot or overall structure.",
+                "ja": "これは，再読によって，読者が筋書きや全体的な構造ではなく，文章の細部に集中できるようになるからだ。"
+              },
+              {
+                "id": "rr_s8",
+                "en": "The reader may find new insights, connections, or meanings that were not apparent before.",
+                "ja": "読者は以前は明らかではなかった新たな理解やつながり，意味を見つけるかもしれない。"
+              },
+              {
+                "id": "rr_s9",
+                "en": "Additionally, rereading often helps readers identify patterns or themes that were not obvious during their initial reading.",
+                "ja": "さらに，再読することで，読者が最初に読んだときにははっきりしなかったパターンやテーマがわかることも多い。"
+              },
+              {
+                "id": "rr_s10",
+                "en": "Thus readers can also develop their critical thinking skills by analyzing the text and forming their own opinions and interpretations.",
+                "ja": "このようにして，文章を分析し，自分なりの意見や解釈を形成することで，読者は批判的思考力を養うこともできる。"
+              }
+            ],
+            [
+              {
+                "id": "rr_s11",
+                "en": "However, rereading also has its downsides.",
+                "ja": "しかし，再読にはデメリットもある。"
+              },
+              {
+                "id": "rr_s12",
+                "en": "It is time-consuming, especially for longer texts.",
+                "ja": "特に長い文章の場合，多くの時間が必要となる。"
+              },
+              {
+                "id": "rr_s13",
+                "en": "It can also become monotonous or boring because it is not active.",
+                "ja": "また，能動的でないため，単調になったり，退屈になったりすることもある。"
+              },
+              {
+                "id": "rr_s14",
+                "en": "Moreover, rereading is not necessarily effective in proportion to frequency, as the graph shows.",
+                "ja": "その上，グラフが示すように，再読は必ずしも頻度に比例して効果を発揮するわけではない。"
+              }
+            ],
+            [
+              {
+                "id": "rr_s15",
+                "en": "In conclusion, though it may not always be necessary or effective, rereading is a useful practice that helps readers gain a deeper understanding of a text, improve their language skills, and develop their critical thinking ability.",
+                "ja": "結論として，再読は必ずしも必要ではないし，効果的でもないかもしれないが，読者が文章をより深く理解し，言語能力を向上させ，批判的思考能力を開発するのに役立つ習慣である。"
+              }
+            ]
+          ],
+          "graph_image": {
+            "src": "images/s5_rereading_graph.png",
+            "alt": "Rereading and content comprehension",
+            "after_paragraph": 3
+          }
+        },
+        {
+          "id": "interactive_article",
+          "title": {
+            "en": "Effective Reading Strategy: Interactive Reading",
+            "ja": "効果的な読書戦略：インタラクティブ・リーディング"
+          },
+          "subtitle": {
+            "en": "Eric Brier, Professor at Mount City University",
+            "ja": "エリック・ブライアー　マウントシティ大学教授"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "ir_s1",
+                "en": "Interactive reading refers to the process of engaging with a text through active participation and dialogue.",
+                "ja": "インタラクティブ・リーディングは，積極的な参加と対話を通してテキストに取り組むプロセスのことをいう。"
+              },
+              {
+                "id": "ir_s2",
+                "en": "Unlike passive reading, where one simply consumes the words on the page, interactive reading requires the reader to think critically, ask questions, and form connections with the material.",
+                "ja": "ページ上の言葉をただ読むだけの受動的な読書とは異なり，インタラクティブ・リーディングでは，読者が批判的に考え，質問し，読むものとのつながりを形成することが求められる。"
+              }
+            ],
+            [
+              {
+                "id": "ir_s3",
+                "en": "To read interactively, one must approach the text with an open and curious mind.",
+                "ja": "インタラクティブに読むためには，偏見のない好奇心旺盛な精神で文章に向かう必要がある。"
+              },
+              {
+                "id": "ir_s4",
+                "en": "Rather than simply accept the information presented, the reader should actively seek to understand and interpret it.",
+                "ja": "提示された情報をただ受け入れるのではなく，読者は積極的にその情報を理解し，解釈しようとしなければならない。"
+              },
+              {
+                "id": "ir_s5",
+                "en": "This involves asking questions, making predictions, and connecting the material to one's own experiences and knowledge.",
+                "ja": "このようなことには，質問をしたり，予測を立てたり，読むものを自分の経験や知識と結びつけたりすることが必要だ。"
+              }
+            ],
+            [
+              {
+                "id": "ir_s6",
+                "en": "One effective way to engage in interactive reading is through annotation (making a mark or a note), as with the examples below.",
+                "ja": "インタラクティブ・リーディングをするための効果的な方法の1つに，下の例のようなアノテーション（印やメモをつけること）がある。"
+              },
+              {
+                "id": "ir_s7",
+                "en": "By doing so, the reader can better remember the material and make deeper connections to it.",
+                "ja": "そうすることで，読者はその内容をよりよく記憶し，より深く関わり合うことができる。"
+              },
+              {
+                "id": "ir_s8",
+                "en": "Annotation also helps the reader to identify key themes and ideas in the text, which can aid in comprehension.",
+                "ja": "また，アノテーションを行うことで，読者が文章中の重要なテーマやアイデアを特定することも助長され，理解度を高めることができる。"
+              }
+            ],
+            [
+              {
+                "id": "ir_s9",
+                "en": "Examples of annotation\nHighlighting: marking important parts with a colored pen\nUnderlining: drawing a line beneath key words or phrases\nMargin notes: writing comments or questions in the text\nSticky notes: attaching small notes",
+                "ja": "アノテーションの例\n目立たせる（Highlighting）：重要な部分にカラーペンで印をつける\n下線を引く（Underlining）：重要な単語やフレーズの下に線を引く\n余白ノート（Margin notes）：文章中にコメントや質問を書き込む\n付箋（Sticky notes）：小さなメモを貼る"
+              }
+            ],
+            [
+              {
+                "id": "ir_s10",
+                "en": "Another way to engage in interactive reading is through discussion with others, which involves book clubs, classroom discussions, or informal conversations with friends.",
+                "ja": "インタラクティブ・リーディングのもう1つの方法は，読書クラブ，教室での議論，友人との日常的な会話などを含む，他者との議論を通じて行うことだ。"
+              },
+              {
+                "id": "ir_s11",
+                "en": "By discussing the text with others, readers can gain new perspectives and insights, as well as reinforce their own understanding of the material.",
+                "ja": "他の人と文章について話し合うことで，読者は新しい視点や洞察を得ることができ，また読むものへの自分自身の理解を深めることができる。"
+              }
+            ],
+            [
+              {
+                "id": "ir_s12",
+                "en": "However, there are also some disadvantages to interactive reading.",
+                "ja": "しかし，インタラクティブ・リーディングにはいくつかのデメリットもある。"
+              },
+              {
+                "id": "ir_s13",
+                "en": "Firstly, it takes a lot of time, especially if the discussion or activities are extensive.",
+                "ja": "1つ目に，特に議論や活動が広範囲に及ぶ場合，多くの時間を要する。"
+              },
+              {
+                "id": "ir_s14",
+                "en": "This is not favorable for individuals with busy schedules or limited time.",
+                "ja": "これは，スケジュールが多忙な人や時間の限られた人には好ましくない。"
+              },
+              {
+                "id": "ir_s15",
+                "en": "Secondly, interactive reading can also be distracting to the reading process itself as it often shifts the focus away from the text and towards the discussion or activity.",
+                "ja": "2つ目に,インタラクティブ･リーディングは，テキストから議論や活動に焦点を移すことが多いため，読書プロセスそのものに対して注意が散漫になる可能性もある。"
+              },
+              {
+                "id": "ir_s16",
+                "en": "Lastly, the interpretation and analysis of the text may be influenced by the opinions and perspectives of the group, which can limit individual understanding and critical thinking.",
+                "ja": "最後に，テキストの解釈や分析が，集団の意見や見解に影響される可能性があり，個人の理解や批判的思考を制限する可能性がある。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 19,
+          "stem": {
+            "en": "King thinks that [19].",
+            "ja": "キングは[19]と考えている。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "getting insights at the first reading is important",
+              "ja": "最初に読んだときに理解を得ることが重要である",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "reading books brings us back to reality",
+              "ja": "本を読むことが現実に引き戻してくれる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "repetition can deepen our understanding of a text",
+              "ja": "繰り返すことで文章の理解を深めることができる",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "rereading the same text is very exciting",
+              "ja": "同じ文章を再読するのはとても刺激的である",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。キングは自身のレポートの第1段落から第2段落までで，再読することの利点について述べ，第3段落では再読の欠点を述べてはいるが，最終段落は，「再読は必ずしも必要ではないし，効果的でもないかもしれないが，読者が文章をより深く理解し，言語能力を向上させ，批判的思考能力を開発するのに役立つ習慣である」と結論づけているので，再読つまり繰り返し読むことで理解が深まるという内容の③が正解となる。\n①は再読を評価するキングの立場に矛盾している。②のようなことはキングのレポートでは述べられていない。④は第3段落第3文(It can also…)に「単調になったり，退屈になったりすることもある」と述べられているのと矛盾する。",
+            "evidence_sentences": [
+              "rr_s15"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①は再読を評価するキングの立場に矛盾している。②のようなことはキングのレポートでは述べられていない。"
+              },
+              {
+                "choice": "②",
+                "reason": "②のようなことはキングのレポートでは述べられていない。"
+              },
+              {
+                "choice": "④",
+                "reason": "④は第3段落第3文(It can also…)に「単調になったり，退屈になったりすることもある」と述べられているのと矛盾する。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 20,
+          "stem": {
+            "en": "In the reading method discussed by Brier, readers can [20].",
+            "ja": "ブライアーが論じる読書法では，読者は[20]ことができる。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "accept the information as it is",
+              "ja": "情報をそのまま受け入れる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "gain a new way of looking at things",
+              "ja": "ものの見方に対する新しい視点を得る",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "make their language skills better",
+              "ja": "言語能力をよりよくする",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "understand the text more quickly",
+              "ja": "文章をより速く理解する",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。プライアーは自身のレポートの第4段落最終文(By discussing the…)で,｢読者は新しい視点や洞察を得ることができ」と述べており，これと合致する②が正解となる。\n①は第2段落第2文(Rather than simply…)に「提示された情報をただ受け入れるのではなく」とあるのと矛盾する。③はキングのレポートの第1段落第4文(By rereading a…)に記述されている内容であり，プライアーの提唱する読書法に関することではない。④は，プライアーのレポートの最終段落第2文(Firstly, it takes…)に「多くの時間を要する」とあるのと矛盾する。",
+            "evidence_sentences": [
+              "ir_s11"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①は第2段落第2文(Rather than simply…)に「提示された情報をただ受け入れるのではなく」とあるのと矛盾する。"
+              },
+              {
+                "choice": "③",
+                "reason": "③はキングのレポートの第1段落第4文(By rereading a…)に記述されている内容であり，プライアーの提唱する読書法に関することではない。"
+              },
+              {
+                "choice": "④",
+                "reason": "④は，プライアーのレポートの最終段落第2文(Firstly, it takes…)に「多くの時間を要する」とあるのと矛盾する。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            21,
+            22
+          ],
+          "stem": {
+            "en": "Both reading strategies have their disadvantages. King says that rereading tends not to be very [21], while one disadvantage of interactive reading, Brier says, is that other people's views may affect the reader's [22] thinking. (Choose the best one for each box from options ①-⑥.)",
+            "ja": "両方の読書法には欠点がある。キングは，再読はあまり[21]ではない傾向があると述べ，一方ブライアーは，インタラクティブ・リーディングの欠点の1つとして，他人の見解が読者の[22]思考に影響する可能性があると述べている。（①〜⑥の選択肢から最もよいものをそれぞれ選べ。）"
+          },
+          "choices_21": [
+            {
+              "label": "①",
+              "en": "academic",
+              "ja": "学術的な"
+            },
+            {
+              "label": "②",
+              "en": "critical",
+              "ja": "批判的な"
+            },
+            {
+              "label": "③",
+              "en": "extensive",
+              "ja": "広範な"
+            },
+            {
+              "label": "④",
+              "en": "interesting",
+              "ja": "興味深い"
+            },
+            {
+              "label": "⑤",
+              "en": "logical",
+              "ja": "論理的な"
+            },
+            {
+              "label": "⑥",
+              "en": "positive",
+              "ja": "前向きな"
+            }
+          ],
+          "choices_22": [
+            {
+              "label": "①",
+              "en": "academic",
+              "ja": "学術的な"
+            },
+            {
+              "label": "②",
+              "en": "critical",
+              "ja": "批判的な"
+            },
+            {
+              "label": "③",
+              "en": "extensive",
+              "ja": "広範な"
+            },
+            {
+              "label": "④",
+              "en": "interesting",
+              "ja": "興味深い"
+            },
+            {
+              "label": "⑤",
+              "en": "logical",
+              "ja": "論理的な"
+            },
+            {
+              "label": "⑥",
+              "en": "positive",
+              "ja": "前向きな"
+            }
+          ],
+          "answer": {
+            "21": "④",
+            "22": "②"
+          },
+          "explanation": {
+            "ja": "正解は「 21 」が ④ (interesting), 「 22 」が ② (critical)。キングが再読の欠点として挙げていることはキングのレポートの第3段落にあり，「時間を要すること」,「単調で退屈であること」そして「再読回数に比例して効果があるわけではないこと」が述べられている。よって「 21 」は、[interesting] に決まる。一方プライアーがインタラクティブ・リーディングの欠点として挙げていることは，プライアーのレポートの最終段落に「長時間を要すること」,「読書そのものへの集中力が削がれること」そして「他人の意見や考えに左右され，理解や批判的思考が制限されることがあること」が述べられている。よって「 22 」は [critical] に決まる。",
+            "evidence_sentences": [
+              "rr_s13",
+              "ir_s16"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 23,
+          "stem": {
+            "en": "Both writers agree that effective reading requires [23].",
+            "ja": "両方の著者は，効果的な読書には[23]が必要であると同意している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a competitive environment",
+              "ja": "競争的な環境",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "considerable time",
+              "ja": "かなりの時間",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "high intelligence",
+              "ja": "高い知能",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "personal information",
+              "ja": "個人情報",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。前問の解説にもあるように，キングは自身のレポートの第3段落第2文(It is time-consuming…)で再読には時間がかかるということを述べ，プライアーは自身のレポートの最終段落第2文(Firstly, it takes…)でインタラクティブ・リーディングは多くの時間がかかると述べていることから正解は②となる。",
+            "evidence_sentences": [
+              "rr_s12",
+              "ir_s13"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 24,
+          "stem": {
+            "en": "Which additional information would be the best to further support Brier's argument for interactive reading? [24]",
+            "ja": "ブライアーのインタラクティブ・リーディングに関する主張をさらに支持するのに最も適した追加情報はどれか。[24]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "How to absorb as much information from a book as possible",
+              "ja": "本からできる限り多くの情報を吸収する方法",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The most effective way to make annotations while reading",
+              "ja": "読書中にアノテーションを行う最も効果的な方法",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "The reasons why many people don't read the same books again",
+              "ja": "多くの人が同じ本を再読しない理由",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Whether or not debating skills are important for your life",
+              "ja": "ディベートスキルが人生にとって重要かどうか",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。プライアーは自身のレポートの最終段落においてインタラクティブ･リーディングの欠点について述べてレポートを終えているが，プライアーのレポートの表題にもあるとおり，プライアーはインタラクティブ・リーディングに関して，効果的な読書戦略であると評価している。よって「プライアーの主張をさらに支持する」のに必要な情報は，プライアーがインタラクティブ・リーディングを行うためにするべきことの1つとしてアノテーションを挙げていることを考慮すると，選択肢の中では②の「アノテーションを行う最も効果的な方法」を加えれば良いとわかる。\n①に関しては多くの情報を吸収することがインタラクティブ・リーディングの目的や効果であるとは本文中に述べられてはいないので不適切。③はキングのレポートに関する内容である。④はプライアーのレポートの第4段落には他人と文章について議論するという内容は出てくるが，これはディベートスキルについて述べているわけではないので不適切。",
+            "evidence_sentences": [
+              "ir_s6",
+              "ir_s7",
+              "ir_s8"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "①",
+                "reason": "①に関しては多くの情報を吸収することがインタラクティブ・リーディングの目的や効果であるとは本文中に述べられてはいないので不適切。"
+              },
+              {
+                "choice": "③",
+                "reason": "③はキングのレポートに関する内容である。"
+              },
+              {
+                "choice": "④",
+                "reason": "④はプライアーのレポートの第4段落には他人と文章について議論するという内容は出てくるが，これはディベートスキルについて述べているわけではないので不適切。"
+              }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "presentation",
+              "ja": "発表；プレゼンテーション"
+            },
+            {
+              "en": "effective",
+              "ja": "効果的な"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            {
+              "en": "rereading",
+              "ja": "再読"
+            },
+            {
+              "en": "comprehension",
+              "ja": "理解（力）"
+            },
+            {
+              "en": "fluency",
+              "ja": "流暢さ"
+            },
+            {
+              "en": "academic",
+              "ja": "学術的な"
+            },
+            {
+              "en": "professional",
+              "ja": "職業的な；専門的な"
+            },
+            {
+              "en": "insight",
+              "ja": "洞察；理解"
+            },
+            {
+              "en": "apparent",
+              "ja": "明らかな"
+            },
+            {
+              "en": "identify",
+              "ja": "…を特定する"
+            },
+            {
+              "en": "pattern",
+              "ja": "パターン；傾向"
+            },
+            {
+              "en": "interpretation",
+              "ja": "解釈"
+            },
+            {
+              "en": "downside",
+              "ja": "欠点；デメリット"
+            },
+            {
+              "en": "time-consuming",
+              "ja": "時間のかかる"
+            },
+            {
+              "en": "monotonous",
+              "ja": "単調な"
+            },
+            {
+              "en": "in proportion to ...",
+              "ja": "…に比例して"
+            },
+            {
+              "en": "frequency",
+              "ja": "頻度"
+            },
+            {
+              "en": "interactive",
+              "ja": "双方向の；対話的な"
+            },
+            {
+              "en": "participation",
+              "ja": "参加"
+            },
+            {
+              "en": "dialogue",
+              "ja": "対話"
+            },
+            {
+              "en": "passive",
+              "ja": "受動的な"
+            },
+            {
+              "en": "curious",
+              "ja": "好奇心旺盛な"
+            },
+            {
+              "en": "prediction",
+              "ja": "予測"
+            },
+            {
+              "en": "annotation",
+              "ja": "注釈；アノテーション"
+            },
+            {
+              "en": "highlighting",
+              "ja": "ハイライト；目立たせること"
+            },
+            {
+              "en": "underlining",
+              "ja": "下線を引くこと"
+            },
+            {
+              "en": "margin notes",
+              "ja": "余白ノート"
+            },
+            {
+              "en": "sticky notes",
+              "ja": "付箋"
+            },
+            {
+              "en": "perspective",
+              "ja": "視点；見方"
+            },
+            {
+              "en": "reinforce",
+              "ja": "…を強化する"
+            },
+            {
+              "en": "disadvantage",
+              "ja": "不利な点；欠点"
+            },
+            {
+              "en": "extensive",
+              "ja": "広範な"
+            },
+            {
+              "en": "favorable",
+              "ja": "好ましい"
+            },
+            {
+              "en": "distracting",
+              "ja": "注意を散漫にする"
+            },
+            {
+              "en": "shift",
+              "ja": "…を移す"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "repetition",
+              "ja": "繰り返し"
+            },
+            {
+              "en": "deepen",
+              "ja": "…を深める"
+            },
+            {
+              "en": "considerable",
+              "ja": "かなりの"
+            },
+            {
+              "en": "absorb",
+              "ja": "…を吸収する"
+            },
+            {
+              "en": "debating skills",
+              "ja": "ディベートスキル"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 18,
+      "points_per_question": 3,
+      "situation": {
+        "en": "You are working on an essay about whether high school students should be allowed to have part-time jobs. You will go through the following steps.",
+        "ja": "あなたは高校生がアルバイトをすることを許されるべきかどうかについてのエッセイに取り組んでいます。以下の各ステップに従っていきます。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": {
+            "en": "Step 1: Read and understand various viewpoints about working students.",
+            "ja": "ステップ1 働いている学生に関するさまざまな見解を読んで理解する。"
+          }
+        },
+        {
+          "id": "authors_block",
+          "authors": [
+            {
+              "id": "author_a",
+              "label": {
+                "en": "Author A (Teacher)",
+                "ja": "筆者A（教師）"
+              },
+              "sentences": [
+                {
+                  "id": "s6a_s1",
+                  "en": "A few of the students in my high school class are now working part-time jobs.",
+                  "ja": "私が受け持つ高校のクラスの生徒の何人かが今アルバイトをしています。"
+                },
+                {
+                  "id": "s6a_s2",
+                  "en": "Some work in restaurants, some work in cafes, and one student works in a convenience store.",
+                  "ja": "レストランで働いている者もいれば，カフェで働く者も，またある生徒はコンビニエンスストアで働いています。"
+                },
+                {
+                  "id": "s6a_s3",
+                  "en": "Certainly, they can learn some important lessons about the real world, but I worry about their health.",
+                  "ja": "確かに，彼らは実世界に関していくつかの重要な教訓を学ぶことはできますが，私は彼らの健康を心配しています。"
+                },
+                {
+                  "id": "s6a_s4",
+                  "en": "Once they start earning money, they try to pick up more hours to earn even more, and this impacts their sleep.",
+                  "ja": "彼らはいったんお金を稼ぎ始めると，さらに多くのお金を稼ぐためにより多くの時間をかけようとし，これが彼らの睡眠に影響を及ぼします。"
+                },
+                {
+                  "id": "s6a_s5",
+                  "en": "There are not enough hours in the day for students to work, study, play, and rest.",
+                  "ja": "1日の間に，学生が働き，勉強し，遊び，休息を取るための十分な時間はないのです。"
+                }
+              ]
+            },
+            {
+              "id": "author_b",
+              "label": {
+                "en": "Author B (Parent)",
+                "ja": "筆者B（親）"
+              },
+              "sentences": [
+                {
+                  "id": "s6b_s1",
+                  "en": "My son worked in a cafe last year, but I had to ask him to quit.",
+                  "ja": "私の息子は去年，カフェで働いていましたが，私は彼に仕事をやめるよう求めざるを得ませんでした。"
+                },
+                {
+                  "id": "s6b_s2",
+                  "en": "At first, I was very proud that he was taking on lots of shifts and earning lots of money, but he started to become very stressed.",
+                  "ja": "初め私は，彼がたくさんの交代勤務時間を引き受け，たくさんのお金を稼ぐことをとても誇らしく思っていましたが，彼は非常にストレスを受けるようになりました。"
+                },
+                {
+                  "id": "s6b_s3",
+                  "en": "He was trying to pass the entrance exam for medical school, but he underestimated the amount of work he had to do.",
+                  "ja": "息子は医科大学の入試に合格しようと努力していましたが，自分がしなければならない仕事量を少なく見積りすぎていました。"
+                },
+                {
+                  "id": "s6b_s4",
+                  "en": "It was impossible for him to combine studying with work.",
+                  "ja": "勉強と仕事を両立させることは彼には不可能でした。"
+                },
+                {
+                  "id": "s6b_s5",
+                  "en": "I won't allow his sister to work part-time when she is a high school student.",
+                  "ja": "私は，彼の妹が高校時代にアルバイトをすることは許可しないでしょう。"
+                }
+              ]
+            },
+            {
+              "id": "author_c",
+              "label": {
+                "en": "Author C (Restaurant Owner)",
+                "ja": "筆者C（レストラン経営者）"
+              },
+              "sentences": [
+                {
+                  "id": "s6c_s1",
+                  "en": "I employ several high school students in my restaurant.",
+                  "ja": "私は自分のレストランで高校生を何人か雇っています。"
+                },
+                {
+                  "id": "s6c_s2",
+                  "en": "I value them as important members of staff.",
+                  "ja": "私は彼らをスタッフの重要なメンバーとして評価しています。"
+                },
+                {
+                  "id": "s6c_s3",
+                  "en": "They are eager, willing to learn, and they also work hard.",
+                  "ja": "彼らは熱心にそして進んで学び，また一生懸命に仕事をしています。"
+                },
+                {
+                  "id": "s6c_s4",
+                  "en": "I think working from a young age has taught them responsibility.",
+                  "ja": "私は，若い年から仕事をすることは彼らに責任というものを教えてきたと思っています。"
+                },
+                {
+                  "id": "s6c_s5",
+                  "en": "I have seen my young employees blossom into responsible adults.",
+                  "ja": "私は若い従業員たちが責任ある大人に成長するのを見てきました。"
+                },
+                {
+                  "id": "s6c_s6",
+                  "en": "Students who don't work seem childish to me.",
+                  "ja": "働いていない学生は私には子どもっぽく見えます。"
+                },
+                {
+                  "id": "s6c_s7",
+                  "en": "I also worked from a young age and it helped me become a successful businessman.",
+                  "ja": "私も若い年から働き，それは私が実業家として成功することに役立ちました。"
+                },
+                {
+                  "id": "s6c_s8",
+                  "en": "Not all people want or have the ability to succeed in an academic environment, so I think it is important that high school students have the opportunity to enter the world of work.",
+                  "ja": "すべての人たちが学業に関わる環境で成功する能力を望んでいたり，持っていたりするわけではないので，私は高校生が仕事の世界に入っていく機会を持つことは大事であると思うのです。"
+                }
+              ]
+            },
+            {
+              "id": "author_d",
+              "label": {
+                "en": "Author D (Police officer)",
+                "ja": "筆者D（警官）"
+              },
+              "sentences": [
+                {
+                  "id": "s6d_s1",
+                  "en": "I can understand why high school students want to work.",
+                  "ja": "私にはなぜ高校生が働きたいのかがわかります。"
+                },
+                {
+                  "id": "s6d_s2",
+                  "en": "They want to start earning money so they can socialize with their friends.",
+                  "ja": "彼らは，友人たちと付き合うためにお金を稼ぎ始めたいと思っているのです。"
+                },
+                {
+                  "id": "s6d_s3",
+                  "en": "I also believe it is good to learn about how society works.",
+                  "ja": "また，社会がどのように機能しているのかを学ぶことはよいことだと私は信じています。"
+                },
+                {
+                  "id": "s6d_s4",
+                  "en": "On the other hand, I am concerned about safety.",
+                  "ja": "一方，私は安全性については心配しています。"
+                },
+                {
+                  "id": "s6d_s5",
+                  "en": "Many young people have to walk home late at night after a shift at their work places.",
+                  "ja": "多くの若者は仕事場での交代勤務時間が終わった後，夜遅く歩いて帰宅しなければなりません。"
+                },
+                {
+                  "id": "s6d_s6",
+                  "en": "I have seen many car or bike accidents involving students who are too tired to concentrate after a hard day.",
+                  "ja": "私は，大変な1日の後であまりに疲れすぎていて集中できなくなっている学生を巻き込んだ車や自転車の事故を数多く見てきました。"
+                },
+                {
+                  "id": "s6d_s7",
+                  "en": "I have forbidden my own children from working until they graduate from high school and become university students.",
+                  "ja": "私は自分の子どもには高校を卒業して大学生になるまでは働くことを禁じています。"
+                }
+              ]
+            },
+            {
+              "id": "author_e",
+              "label": {
+                "en": "Author E (Student)",
+                "ja": "筆者E（学生）"
+              },
+              "sentences": [
+                {
+                  "id": "s6e_s1",
+                  "en": "I have always been a shy person, but my parents encouraged me to start working at a supermarket near my home.",
+                  "ja": "私はずっと内気な人間でしたが，私の両親が私に自宅近くのスーパーマーケットで働き始めることを勧めてくれました。"
+                },
+                {
+                  "id": "s6e_s2",
+                  "en": "I only work on weekends, but I have already become less quiet and more confident.",
+                  "ja": "私が働くのは週末だけですが，すでに寡黙ではなくなり，より自信を持つようになりました。"
+                },
+                {
+                  "id": "s6e_s3",
+                  "en": "I have to speak to customers and colleagues of all ages and backgrounds, so I think this job has helped me become a better communicator and a more responsible person.",
+                  "ja": "私はあらゆる年代の，そしてあらゆる背景を持ったお客さんや同僚たちと話さなければならないので，この仕事のおかげでよりうまくコミュニケーションを取り，より責任のある人間になれたと思います。"
+                },
+                {
+                  "id": "s6e_s4",
+                  "en": "I have also managed to save over $2,000, which I intend to use to pay my university fees next year.",
+                  "ja": "また何とか2,000ドルを越すお金を貯めることができ，私はそれを来年大学の授業料を支払うために使うつもりです。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "情報源A"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s6sa_s1",
+                "en": "One reason why many young university graduates struggle to find a suitable job immediately is that many jobs require several years of work experience.",
+                "ja": "多くの若い大学卒業生が適した仕事をすぐに見つけることに苦労している1つの理由は，多くの仕事が数年間の労働経験を要求しているということである。"
+              },
+              {
+                "id": "s6sa_s2",
+                "en": "However, that is exactly what new graduates lack.",
+                "ja": "しかし，それがまさに新たに卒業する者たちに欠けているものなのである。"
+              },
+              {
+                "id": "s6sa_s3",
+                "en": "A recent survey of jobs listed on a popular employment website showed that 35% of entry-level jobs required at least three years of relevant work experience.",
+                "ja": "人気のある就職のウェブサイトに列挙されている仕事に関する最近の調査が示すところでは，初歩的な仕事の35％が少なくとも3年間の関係のある労働経験を要求するものであった。"
+              },
+              {
+                "id": "s6sa_s4",
+                "en": "These are not technical or specialist jobs, they are jobs that require very few skills.",
+                "ja": "それらは技術的な，あるいは専門的な仕事ではなく，技術をほとんど要しない仕事である。"
+              },
+              {
+                "id": "s6sa_s5",
+                "en": "It is this requirement that prevents many capable young people from entering the job market.",
+                "ja": "多くの有能な若者が労働市場に参加することを妨げているのは，この要件なのである。"
+              },
+              {
+                "id": "s6sa_s6",
+                "en": "In times of recession, or when applying for jobs in competitive markets, a few years of work experience can make the difference.",
+                "ja": "不況の時代においては，あるいは競争の激しい市場で仕事を志望するときには，数年の仕事の経験が影響する可能性がある。"
+              },
+              {
+                "id": "s6sa_s7",
+                "en": "This is why teachers and parents should encourage teenagers to take on some work as early as possible.",
+                "ja": "そういうわけで，教師と親は10代の若者たちにできるだけ早い時期にいくらかの仕事を引き受けるよう勧めるべきなのである。"
+              },
+              {
+                "id": "s6sa_s8",
+                "en": "In particular, communication and customer service skills are popular with employers, so a part-time job in a customer-facing role is ideal.",
+                "ja": "特にコミュニケーションと顧客に対するサービスの能力は雇用者が好意的に受け止めるので，お客さんと面と向かう役割を担うアルバイトは理想的である。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "情報源B"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s6sb_s1",
+                "en": "A study found giving high school students part-time jobs had an effect on their likelihood of committing crimes.",
+                "ja": "ある研究によって，高校生にアルバイトをさせることは彼らが犯罪を犯す可能性に影響を及ぼすことがわかった。"
+              },
+              {
+                "id": "s6sb_s2",
+                "en": "Students in a poor, high-crime neighborhood were chosen randomly and given jobs.",
+                "ja": "貧しく犯罪の多い地域の学生が無作為に選ばれ，仕事を与えられた。"
+              },
+              {
+                "id": "s6sb_s3",
+                "en": "The graph below shows the change in numbers of arrests for violent crime and theft during and after the program.",
+                "ja": "以下のグラフはこの計画の間とその後における暴力犯罪と窃盗のために逮捕された数の変化を示している。"
+              }
+            ]
+          ],
+          "is_source_with_chart": true,
+          "chart_image": {
+            "src": "data/sundai/2025/round02/images/s6_source_b_chart.png",
+            "alt": "Cumulative Decrease in arrests - Violent crimes and Thefts"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 25,
+          "stem": {
+            "en": "Both Authors A and D mention that [25].",
+            "ja": "筆者AとDの両者は[25]と述べている。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "part-time jobs offer students the chance to experience the real world",
+              "ja": "アルバイトは学生に実世界を経験する機会を与える",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "students need to learn about the value of work and money from a young age",
+              "ja": "学生は若い年から仕事とお金の価値について学ぶ必要がある",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "they do not allow their own children to take part-time jobs after school",
+              "ja": "自分の子どもには放課後のアルバイトをすることを許可していない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "working in a part-time job improves motivation for high-school students",
+              "ja": "アルバイトで働くことは高校生のやる気を向上させる",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。教師である筆者Aは第3文(Certainly, they can…)で「確かに。彼ら［アルバイトをする高校生］は実世界に関していくつかの重要な教訓を学ぶことはできますが，私は彼らの健康を心配しています」と述べ，警官である筆者Dは高校生がアルバイトをするよい点として第3文(I also believe…)で「また，社会がどのように機能しているのかを学ぶことはよいことだと私は信じています」と述べている。以上から，筆者AとDは両者とも「アルバイトは学生に実世界を経験する機会を与える」ことに言及していることがわかるので，正解は①となる。",
+            "evidence_sentences": [
+              "s6a_s3",
+              "s6d_s3"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 26,
+          "stem": {
+            "en": "Author C says that [26].",
+            "ja": "筆者Cは[26]と述べている。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a part-time job is an especially positive experience for students who are not good at studying",
+              "ja": "アルバイトは特に勉強が得意でない学生にとって有益な経験である",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "he tries to employ high school students at his restaurant as they are cheap employees",
+              "ja": "高校生は安い従業員なので自分のレストランで雇おうとしている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "high school students are too young and too inexperienced to be valuable employees",
+              "ja": "高校生は若すぎて経験が少ないため価値ある従業員にはなれない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "if students start working at a young age, they are more likely to become businesspeople",
+              "ja": "学生が若い年から働き始めれば，実業家になる可能性が高い",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。レストラン経営者である筆者Cは最終文(Not all people…)で「すべての人たちが学業に関わる環境で成功する能力を望んでいたり，持っていたりするわけではないので．私は高校生が仕事の世界に入っていく機会を持つことは大事であると思うのです」と述べているが，これは人々の中には学業で成功する能力を望んでいたり持っていたりするわけではない者たち，すなわち勉強が得意でない学生たちもいて，そういった学生［高校生］にとって「仕事の世界に入っていく機会を持つことは大事である｣,言い換えれば「アルバイトは特に有益な経験である」ということを意味しているので，正解は①とわかる。",
+            "evidence_sentences": [
+              "s6c_s8"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            27,
+            28,
+            29
+          ],
+          "stem": {
+            "en": "Your position: High school students should be allowed to get part-time jobs.\n[27] and [28] support your position.\nThe main argument of the two authors: [29]\n\nOptions for [27] and [28] (the order does not matter):\n①A  ②B  ③C  ④D  ⑤E\n\nOptions for [29]:\n①It is important for students to start earning and saving money as soon as possible\n②One way to improve communication skills is to work with much older people\n③Working at a cafe, restaurant, or supermarket is a good way to make new friends\n④Working from a young age is a valuable experience because it teaches responsibility",
+            "ja": "あなたの立場：高校生はアルバイトの仕事をすることを許されるべきである。\n[27]と[28]はあなたの立場を支持する。\n2人の筆者の主な論拠：[29]\n\n[27]と[28]の選択肢（順不同）：\n①A  ②B  ③C  ④D  ⑤E\n\n[29]の選択肢：\n①学生にとってできるだけ早くお金を稼いで貯め始めることは重要である\n②コミュニケーション能力を向上させる方法の1つは年上の人と一緒に働くことである\n③カフェ，レストラン，スーパーマーケットで働くことは新しい友人を作るよい方法である\n④若い年から働くことは責任というものを教えてくれるので貴重な経験である"
+          },
+          "choices_27": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A"
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B"
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C"
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D"
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E"
+            }
+          ],
+          "choices_28": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A"
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B"
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C"
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D"
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E"
+            }
+          ],
+          "choices_29": [
+            {
+              "label": "①",
+              "en": "It is important for students to start earning and saving money as soon as possible",
+              "ja": "学生にとってできるだけ早くお金を稼いで貯め始めることは重要である"
+            },
+            {
+              "label": "②",
+              "en": "One way to improve communication skills is to work with much older people",
+              "ja": "コミュニケーション能力を向上させる方法の1つは年上の人と一緒に働くことである"
+            },
+            {
+              "label": "③",
+              "en": "Working at a cafe, restaurant, or supermarket is a good way to make new friends",
+              "ja": "カフェ，レストラン，スーパーマーケットで働くことは新しい友人を作るよい方法である"
+            },
+            {
+              "label": "④",
+              "en": "Working from a young age is a valuable experience because it teaches responsibility",
+              "ja": "若い年から働くことは責任というものを教えてくれるので貴重な経験である"
+            }
+          ],
+          "answer": {
+            "27": "③",
+            "28": "⑤",
+            "29": "④"
+          },
+          "explanation": {
+            "ja": "正解は「 27 」「 28 」が③と⑤（順不同），「 29 」が④。レストラン経営者である筆者Cは最終文(Not all people…)の後半で｢私は高校生が仕事の世界に入っていく機会を持つことは大事であると思うのです」と述べている。また学生である筆者Eは両親の勧めでアルバイトを始めたが，それが自分の性格や将来にとって有益であるとわかったことを第3文(I have to…)～最終文(I have also…)で「この仕事のおかげでよりうまくコミュニケーションを取り，より責任のある人間になれたと思います。また何とか2,000ドルを越すお金を貯めることができ，私はそれを来年大学の授業料を支払うために使うつもりです」と述べていることから，筆者CとEは「高校生はアルバイトの仕事をすることを許されるべきだ」という判断を支持する意見を述べていることがわかる。よって「 27 」と「 28 」には③(C)と⑤(E)が入るとわかる。\n\n「 29 」へのアプローチ：\n筆者Cは第4文(I think working…)で「私は，若い年から仕事をすることは彼らに責任というものを教えてきたと思っています」と述べ，筆者Eは第3文(I have to…)の後半で「この仕事のおかげでより責任のある人間になれたと思います」と述べていることから，筆者CとEの論拠は「若い年から働くことは，それが責任というものを教えてくれるので，貴重な経験である」ということであるとわかる。よって「 29 」は④となる。",
+            "evidence_sentences": [
+              "s6c_s4",
+              "s6c_s8",
+              "s6e_s3",
+              "s6e_s4"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 30,
+          "stem": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [30]",
+            "ja": "情報源Aに基づくと，理由2として最も適切なのは次のどれか。[30]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A part-time job as a high-school student will give young people an advantage in the job market even after graduating from university.",
+              "ja": "高校生としてのアルバイトは，若者に大学卒業後でさえも就職市場において有利さを与える。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Entry-level graduate jobs only employ people who worked in customer service jobs during high school.",
+              "ja": "初歩的な卒業生向けの仕事は，高校時代に接客業をした人のみを雇う。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Graduates who enter jobs in specialist careers are more likely to have worked as high school students.",
+              "ja": "専門的なキャリアの仕事に就く卒業生は，高校生として働いた経験がある可能性が高い。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Students are more likely to be successful at university if they have had some kind of work experience at high school.",
+              "ja": "学生は高校で何らかの労働経験があれば，大学でより成功する可能性が高い。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。情報源Aの第1文(One reason why…)では「多くの若い大学卒業生が適した仕事をすぐに見つけることに苦労している1つの理由は，多くの仕事が数年間の労働経験を要求しているということである」と述べつつ，第7文(In times of recession…)で「不況の時代においては，あるいは競争の激しい市場で仕事を志望するときには，数年の仕事の経験が影響する可能性がある」と述べ，さらに第8文(This is why…)で「そういうわけで，教師と親は10代の若者たちにできるだけ早い時期にいくらかの仕事を引き受けるよう勧めるべきなのである」と提言されている。10代の若者たちができるだけ早い時期に引き受ける仕事が高校生のアルバイトであり，それが大学卒業生が仕事を見つけることにおいて有利に働くことになると判断できるので，正解は①となる。",
+            "evidence_sentences": [
+              "s6sa_s1",
+              "s6sa_s6",
+              "s6sa_s7"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 31,
+          "stem": {
+            "en": "For reason 3, you have decided to write, \"Working part-time can improve youth crime situations.\" Based on Source B, which option supports this statement? [31]",
+            "ja": "理由3として「アルバイトは若者の犯罪状況を改善できる」と書くことにした。情報源Bに基づくと，この主張を支持する選択肢はどれか。[31]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Arrests for both theft and violent crime rise slightly during the working period, but crime rates start to improve a year later.",
+              "ja": "窃盗と暴力犯罪の両方の逮捕数は労働期間中にわずかに上昇するが，犯罪率は1年後に改善し始める。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Even after their part-time jobs finished, students who were employed were less likely to get arrested for both violent crime and theft.",
+              "ja": "アルバイトを終えた後でさえ，雇用を受けた学生は暴力犯罪と窃盗の両方において逮捕される可能性がより低くなっていた。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "While both types of crime drop during the working period, arrests for theft start to rise when the part-time work has finished.",
+              "ja": "労働期間中には両方の種類の犯罪が減少するが，アルバイトが終了すると窃盗の逮捕数が上昇し始める。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Working part-time can cut violent crime dramatically, but theft is not affected.",
+              "ja": "アルバイトは暴力犯罪を劇的に減らせるが，窃盗には影響しない。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。情報源Bのグラフより，「計画継続期間（アルバイトをしている期間）」が過ぎた後でも，暴力犯罪と窃盗における逮捕数（累積減少）が減少し続けていることがわかるので，「アルバイトを終えた後でさえ，雇用を受けた学生は暴力犯罪と窃盗の両方において逮捕される可能性がより低くなっていた」という内容の②が正解ということになる。",
+            "evidence_sentences": [
+              "s6sb_s1",
+              "s6sb_s3"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "essay",
+              "ja": "エッセイ；小論文"
+            },
+            {
+              "en": "allow",
+              "ja": "…を許可する"
+            },
+            {
+              "en": "part-time job",
+              "ja": "アルバイト"
+            },
+            {
+              "en": "step",
+              "ja": "ステップ；段階"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            {
+              "en": "pick up",
+              "ja": "…を手に入れる；増やす"
+            },
+            {
+              "en": "impact",
+              "ja": "…に影響を及ぼす"
+            },
+            {
+              "en": "quit",
+              "ja": "やめる"
+            },
+            {
+              "en": "shift",
+              "ja": "交代勤務（時間）"
+            },
+            {
+              "en": "stressed",
+              "ja": "ストレスを感じた"
+            },
+            {
+              "en": "entrance exam",
+              "ja": "入学試験"
+            },
+            {
+              "en": "underestimate",
+              "ja": "…を過小評価する"
+            },
+            {
+              "en": "combine",
+              "ja": "…を両立させる；結合する"
+            },
+            {
+              "en": "employ",
+              "ja": "…を雇う"
+            },
+            {
+              "en": "eager",
+              "ja": "熱心な"
+            },
+            {
+              "en": "responsibility",
+              "ja": "責任"
+            },
+            {
+              "en": "blossom",
+              "ja": "花開く；成長する"
+            },
+            {
+              "en": "childish",
+              "ja": "子どもっぽい"
+            },
+            {
+              "en": "academic",
+              "ja": "学業の"
+            },
+            {
+              "en": "socialize",
+              "ja": "交際する；付き合う"
+            },
+            {
+              "en": "concerned",
+              "ja": "心配している"
+            },
+            {
+              "en": "accident",
+              "ja": "事故"
+            },
+            {
+              "en": "forbid",
+              "ja": "…を禁じる"
+            },
+            {
+              "en": "encourage",
+              "ja": "…を勧める；励ます"
+            },
+            {
+              "en": "confident",
+              "ja": "自信のある"
+            },
+            {
+              "en": "colleague",
+              "ja": "同僚"
+            },
+            {
+              "en": "communicator",
+              "ja": "話し手；伝達者"
+            },
+            {
+              "en": "intend",
+              "ja": "…するつもりである"
+            },
+            {
+              "en": "graduate",
+              "ja": "卒業生；卒業する"
+            },
+            {
+              "en": "struggle",
+              "ja": "苦労する"
+            },
+            {
+              "en": "entry-level",
+              "ja": "初級の；入門的な"
+            },
+            {
+              "en": "relevant",
+              "ja": "関連する"
+            },
+            {
+              "en": "capable",
+              "ja": "有能な"
+            },
+            {
+              "en": "recession",
+              "ja": "不況"
+            },
+            {
+              "en": "competitive",
+              "ja": "競争の激しい"
+            },
+            {
+              "en": "customer-facing",
+              "ja": "顧客と面と向かう"
+            },
+            {
+              "en": "likelihood",
+              "ja": "可能性"
+            },
+            {
+              "en": "commit",
+              "ja": "（犯罪を）犯す"
+            },
+            {
+              "en": "randomly",
+              "ja": "無作為に"
+            },
+            {
+              "en": "arrest",
+              "ja": "逮捕"
+            },
+            {
+              "en": "violent crime",
+              "ja": "暴力犯罪"
+            },
+            {
+              "en": "theft",
+              "ja": "窃盗"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "viewpoint",
+              "ja": "視点；見解"
+            },
+            {
+              "en": "motivation",
+              "ja": "やる気；動機"
+            },
+            {
+              "en": "position",
+              "ja": "立場"
+            },
+            {
+              "en": "argument",
+              "ja": "論拠；主張"
+            },
+            {
+              "en": "advantage",
+              "ja": "有利さ"
+            },
+            {
+              "en": "specialist",
+              "ja": "専門的な"
+            },
+            {
+              "en": "dramatically",
+              "ja": "劇的に"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 15,
+      "points_per_question": 3,
+      "situation": {
+        "en": "In your English writing class, you need to choose and read a short story. You are reading the following story and summarizing it to help other students understand the storyline.",
+        "ja": "英語のライティングのクラスでショートストーリーを1つ選んで読まなくてはなりません。あなたは次の物語を読んで，他の生徒が話の流れを理解するのを助けるために物語を要約しています。"
+      },
+      "passages": [
+        {
+          "id": "story",
+          "title": {
+            "en": "The Restructuring that Changed Everything",
+            "ja": "すべてを変えたリストラ"
+          },
+          "subtitle": {
+            "en": "Isabella Andrews",
+            "ja": "イザベラ・アンドルーズ"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s7_s1",
+                "en": "\"Sit still, please,\" Emily says to her two daughters, smiling.",
+                "ja": "「お願いだからじっとして座っていてちょうだい」エミリーは笑顔で2人の娘たちに言った。"
+              },
+              {
+                "id": "s7_s2",
+                "en": "\"With you moving so much, I can't paint a picture of you.\"",
+                "ja": "「そんなに動いたら，あなたたちの絵を描けないわ」"
+              },
+              {
+                "id": "s7_s3",
+                "en": "\"I'm sorry, Mum,\" Marianne replies, with a gentle smile on her face.",
+                "ja": "「ごめんねお母さん」マリアンナが優しい笑顔を浮かべながら応えた。"
+              },
+              {
+                "id": "s7_s4",
+                "en": "\"Look how far I've come,\" Emily says to herself.",
+                "ja": "「ここまできたのね」エミリーは心の中でそう思った。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s5",
+                "en": "Five years ago today, Emily had to make an important but difficult decision about her career.",
+                "ja": "5年前の今日，エミリーは重要だが難しい，そんな仕事上の決断を迫られていた。"
+              },
+              {
+                "id": "s7_s6",
+                "en": "She had been working for a well-known advertising firm for six years.",
+                "ja": "彼女は有名な広告会社に6年ほど勤めてきた。"
+              },
+              {
+                "id": "s7_s7",
+                "en": "Unfortunately, in order to escape bankruptcy, the company was going through restructuring and her position was going to be eliminated.",
+                "ja": "運悪く，倒産を免れるために，その会社はリストラを行うことになり，彼女の役職はなくなってしまうことになっていた。"
+              },
+              {
+                "id": "s7_s8",
+                "en": "She was offered a new role within the company.",
+                "ja": "彼女は社内の新しい仕事をオファーされた。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s9",
+                "en": "Of course, she was grateful for the opportunity to stay with the company.",
+                "ja": "もちろん，会社に残る機会を与えられたことには感謝していた。"
+              },
+              {
+                "id": "s7_s10",
+                "en": "After all, it was far easier to work where she knew what she was doing.",
+                "ja": "だって，自分の仕事をよく理解している環境で働く方がはるかに簡単なのだから。"
+              },
+              {
+                "id": "s7_s11",
+                "en": "But at the same time, she couldn't help feeling she was being taken advantage of.",
+                "ja": "でも同時に，上手く利用されているように感じずにはいられなかった。"
+              },
+              {
+                "id": "s7_s12",
+                "en": "The new role would mean a significantly lower salary and she would have to work harder to earn as much as she used to.",
+                "ja": "新しい仕事を引き受けるということは，給料がはるかに下がり，以前と同じくらい稼ぐためにはより一生懸命に働かなくてはならないということを意味していた。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s13",
+                "en": "After contemplating for what felt like forever, Emily decided to turn down the offer and began job-searching.",
+                "ja": "永遠とも思えるくらいに長い時間じっくり考えた後，エミリーはオファーを断るという決断をして，職探しを始めた。"
+              },
+              {
+                "id": "s7_s14",
+                "en": "However, it was an incredibly difficult path.",
+                "ja": "とはいえ，信じられないくらいに険しい道のりだった。"
+              },
+              {
+                "id": "s7_s15",
+                "en": "She was met with one rejection after another, and her confidence began to fall.",
+                "ja": "次から次へと採用を断られ，彼女は自信をなくし始めた。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s16",
+                "en": "As if that wasn't bad enough, Emily had trouble communicating with her children at home.",
+                "ja": "この大変さにさらに追い打ちをかけるかのように，エミリーは家庭での子どもたちとのコミュニケーションにも苦労していた。"
+              },
+              {
+                "id": "s7_s17",
+                "en": "One day, when she got back home from one of the job interviews, she asked Sarah, her older daughter, what she had done at school, to which she didn't reply.",
+                "ja": "ある日就職面接の1つを終えて帰ってきたとき，長女であるサラに学校で何をしたの，と尋ねたら，無視されてしまった。"
+              },
+              {
+                "id": "s7_s18",
+                "en": "Totally shocked and disappointed, she asked her husband, Nick, why Sarah had behaved the way she did.",
+                "ja": "すっかりショックでがっかりしてしまい，夫のニックになんでサラはあんな態度をとったのか尋ねた。"
+              },
+              {
+                "id": "s7_s19",
+                "en": "\"It seems your whole life has been revolving around your work, and you've paid far less attention to our daughters than they deserve,\" he said.",
+                "ja": "「君の人生全ては仕事を中心に回っているみたいで，君が娘たちに払ってきた関心は，とても十分とは言えないね」と彼は言った。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s20",
+                "en": "Maybe he was right, she thought.",
+                "ja": "彼が言っていることはたぶんその通りだ，と彼女は思った。"
+              },
+              {
+                "id": "s7_s21",
+                "en": "Looking back, she had always told herself that it was her duty to make a decent amount of money for the sake of her daughters, but she now realized that all she was doing was making an excuse for not fulfilling her role as a mother.",
+                "ja": "振り返ってみると，彼女は娘たちのために十分なお金を稼ぐことが自分の責務だと自分に常に言い聞かせていたけれど，自分はただ母親としての役割を全うしないことの言い訳をしているだけだったとこの時気づいたのだった。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s22",
+                "en": "\"Do you remember you had a dream of becoming an artist?\" Nick said.",
+                "ja": "「アーティストになるという夢があったことを覚えている？」ニックは尋ねた。"
+              },
+              {
+                "id": "s7_s23",
+                "en": "\"They would often say that they wanted you to follow your dream.\"",
+                "ja": "「彼女たちはお母さんにその夢を追いかけてほしいとよく言っていたんだ」"
+              },
+              {
+                "id": "s7_s24",
+                "en": "Then, suddenly, she remembered how she had liked art but given up her long-held dream in favor of making money.",
+                "ja": "それを聞いたとたん，自分はとても芸術が好きだったけれど，お金を稼ぐために長年の夢を諦めたんだ，ということを彼女は思い出した。"
+              },
+              {
+                "id": "s7_s25",
+                "en": "\"If you still have a passion for art, isn't this a good time to pursue it? Don't worry about money.\"",
+                "ja": "「芸術への情熱がまだあるなら，それを追求するいい機会なんじゃない？お金のことは心配しなくていいから」"
+              },
+              {
+                "id": "s7_s26",
+                "en": "\"Thank you, Nick,\" she said, her eyes brimming with tears.",
+                "ja": "「ありがとう，ニック」そう言う彼女の眼には涙があふれていた。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s27",
+                "en": "The next day, Emily told her daughters how sorry she felt, apologizing for her complete failure as a mother.",
+                "ja": "次の日，エミリーは娘たちに母親としての役割を一切果たせてこなかったことを謝り，とても申し訳なく思っているということを伝えた。"
+              },
+              {
+                "id": "s7_s28",
+                "en": "Also she told them about her idea of drawing and painting pictures again.",
+                "ja": "そして，もう一度絵を描こうと思っているということも伝えた。"
+              },
+              {
+                "id": "s7_s29",
+                "en": "They looked confused at first, but soon their expressions softened.",
+                "ja": "彼女たちは最初は困惑したようだったが，すぐに2人の表情は和らいだ。"
+              },
+              {
+                "id": "s7_s30",
+                "en": "\"I guess it'd be good,\" Sarah said.",
+                "ja": "「いいんじゃないかな」とサラは言った。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s31",
+                "en": "After a lot of twists and turns, two years later, she eventually landed a job as an art director for a small advertising agency, which allowed her to combine her passion for art with her experience in advertising.",
+                "ja": "紆余曲折を経て，彼女は2年後，最終的に小さな広告会社のアートディレクターの職を得た。その仕事では，広告業界での経験と芸術への情熱をどちらも生かすことができた。"
+              },
+              {
+                "id": "s7_s32",
+                "en": "Her salary was not so good, but she found the work considerably more satisfying and fulfilling than in her previous job.",
+                "ja": "給料はそんなに良くないけれど，前職よりも，その仕事の方がはるかに満足のいく充実したものだと感じた。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s33",
+                "en": "Today, the construction of Emily's small home studio is finally complete.",
+                "ja": "今日，エミリーの小さなホームスタジオの工事がついに終了した。"
+              },
+              {
+                "id": "s7_s34",
+                "en": "Now, sitting in it with her beloved family, Emily is flooded with a sense of great happiness that would have been unattainable had she not made the difficult decision to change careers.",
+                "ja": "今，愛する家族とともにスタジオの中で座りながら，エミリーは大きな幸福感に浸っていた。仕事を変えるという難しい決断をしなかったら，こんな幸せは手に入らなかっただろう。"
+              },
+              {
+                "id": "s7_s35",
+                "en": "The restructuring, however hard it seemed at that time, was in fact a blessing.",
+                "ja": "たとえあの時はどんなに辛い状況に思えたにしても，実のところあのリストラは恩恵だったのだ。"
+              },
+              {
+                "id": "s7_s36",
+                "en": "Of that, she is absolutely sure.",
+                "ja": "そのことを，彼女は強く確信している。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "notes",
+          "is_notes": true,
+          "notes_title": {
+            "en": "The Restructuring that Changed Everything",
+            "ja": "すべてを変えたリストラ"
+          },
+          "story_outline": {
+            "start": {
+              "en": "Emily is offered a new position in the advertising company",
+              "ja": "エミリーは広告会社で新しい役職をオファーされる"
+            },
+            "slots": [
+              34,
+              35,
+              36,
+              37
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 32,
+          "stem": {
+            "en": "Choose the best option for [32].",
+            "ja": "[32]に入る最も適切な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "she might make less money than she deserved",
+              "ja": "本来彼女が値するよりも少ない給料しかもらえないかもしれない",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "she would be transferred to another branch",
+              "ja": "別の支社に転勤させられるかもしれない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the company might go bankrupt before long",
+              "ja": "会社がまもなく倒産するかもしれない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the job offered would be very boring",
+              "ja": "オファーされた仕事はとても退屈だろう",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。第3段落第4文(The new role…)に「給料がはるかに下がり，以前と同じくらい稼ぐためにはより一生懸命に働かなくてはならない」と書かれている。元々もらっている給料が「本来もらってしかるべき給料」と考えれば，結局「本来彼女が値するよりも少ない給料しかもらえない」ということになるので，①が正しい。",
+            "evidence_sentences": [
+              "s7_s12"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 33,
+          "stem": {
+            "en": "Choose the best option for [33].",
+            "ja": "[33]に入る最も適切な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "become a full-time mother to compensate for her past mistake",
+              "ja": "過去の過ちを埋め合わせるために専業主婦になる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "consult with their daughters about job hunting",
+              "ja": "就職活動について娘たちに相談する",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "stop looking for a job and take a good rest",
+              "ja": "仕事探しをやめてゆっくり休む",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "try pursuing what she originally wished to do",
+              "ja": "もともとやりたかったことを追求しようとする",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。第7段落でエミリーが芸術を愛しており，その分野で仕事に就くことがもともとの夢であったという趣旨のことが書かれている。さらに同段落第5文(\"If you still…)は「芸術へ情熱がまだあるなら，それを追求するいい機会なんじゃない？」というニックの発言であり，ここからニックは「アーティストになるというもともとの夢を追求すること」をエミリーに提案しているとわかるので,④が正しい。",
+            "evidence_sentences": [
+              "s7_s22",
+              "s7_s25"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "question_type": "ordering",
+          "stem": {
+            "en": "Choose four out of the five options (①-⑤) and rearrange them in the order they happened.\n[34] → [35] → [36] → [37]",
+            "ja": "①〜⑤の選択肢から4つを選び，出来事の順に並べ替えなさい。\n[34] → [35] → [36] → [37]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Emily decides to start job-hunting.",
+              "ja": "エミリーは職探しを始めることを決意する。"
+            },
+            {
+              "label": "②",
+              "en": "Emily paints her daughters' picture at home.",
+              "ja": "エミリーは家で娘たちの絵を描く。"
+            },
+            {
+              "label": "③",
+              "en": "Emily starts to work as a professional painter.",
+              "ja": "エミリーはプロの画家として働き始める。"
+            },
+            {
+              "label": "④",
+              "en": "Nick talks about Emily neglecting her duty as a mother.",
+              "ja": "ニックはエミリーが母親としての責任を怠っていることについて話す。"
+            },
+            {
+              "label": "⑤",
+              "en": "Sarah ignores Emily's question about her day at school.",
+              "ja": "サラはエミリーの学校での1日についての質問を無視する。"
+            }
+          ],
+          "answer_sequence": [
+            "①",
+            "⑤",
+            "④",
+            "②"
+          ],
+          "explanation": {
+            "ja": "正解は①→⑤→④→②。①は第4段落第1文(After contemplating for…)に「エミリーはオファーを断るという決断をして，職探しを始めた」とある部分が該当する。②は第1段落第2文(\"With you moving…)の「そんなに動いたら，あなたたちの絵を描けないわ」というエミリーの発言が該当箇所である。③に関しては本文に書かれていない。第9段落第1文(After a lot…)から，実際に就いた職はアートディレクターとあり，プロの画家ではない。④に関しては第5段落最終文(\"It seems your…)のニックの発言が該当する。⑤に関しては同じく第5段落第2文(One day, when…)の「長女であるサラに学校で何をしたの，と尋ねたら，無視されてしまった」という部分が該当する。\n本文は基本的に時系列に沿ってストーリーが展開しているが，第1段落と最終段落が現在を描き，第2段落から第9段落にかけては昔を振り返った描写になっている。よって，第1段落の②の内容は最後に来ることに注意し，その他は本文の登場順に並べれば良いことになる。よって，①→⑤→④→②が正しい。",
+            "evidence_sentences": [
+              "s7_s13",
+              "s7_s17",
+              "s7_s19",
+              "s7_s2"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "②",
+                "reason": "②の内容は最後に来ることに注意し，その他は本文の登場順に並べれば良いことになる。よって，①→⑤→④→②が正しい。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_numbers": [
+            38,
+            39
+          ],
+          "stem": {
+            "en": "Choose the best two options for [38] and [39]. (The order does not matter.)",
+            "ja": "[38]と[39]に入る最も適切な2つの選択肢を選びなさい。（順不同）"
+          },
+          "choices_38": [
+            {
+              "label": "①",
+              "en": "A good balance between work and family life is crucial.",
+              "ja": "仕事と家庭生活のバランスが重要である。"
+            },
+            {
+              "label": "②",
+              "en": "A restructuring is the best option for employees in a struggling company.",
+              "ja": "リストラは苦しんでいる会社の従業員にとって最善の選択肢である。"
+            },
+            {
+              "label": "③",
+              "en": "An unfortunate situation sometimes turns out to be beneficial.",
+              "ja": "不幸な状況が時として有益であることがある。"
+            },
+            {
+              "label": "④",
+              "en": "Pursuing your original goal leads to a higher salary in the end.",
+              "ja": "本来の目標を追求することは最終的により高い給料につながる。"
+            },
+            {
+              "label": "⑤",
+              "en": "Spending more time with children than at work is the key to success.",
+              "ja": "仕事よりも子どもと過ごす時間を増やすことが成功の鍵である。"
+            }
+          ],
+          "choices_39": [
+            {
+              "label": "①",
+              "en": "A good balance between work and family life is crucial.",
+              "ja": "仕事と家庭生活のバランスが重要である。"
+            },
+            {
+              "label": "②",
+              "en": "A restructuring is the best option for employees in a struggling company.",
+              "ja": "リストラは苦しんでいる会社の従業員にとって最善の選択肢である。"
+            },
+            {
+              "label": "③",
+              "en": "An unfortunate situation sometimes turns out to be beneficial.",
+              "ja": "不幸な状況が時として有益であることがある。"
+            },
+            {
+              "label": "④",
+              "en": "Pursuing your original goal leads to a higher salary in the end.",
+              "ja": "本来の目標を追求することは最終的により高い給料につながる。"
+            },
+            {
+              "label": "⑤",
+              "en": "Spending more time with children than at work is the key to success.",
+              "ja": "仕事よりも子どもと過ごす時間を増やすことが成功の鍵である。"
+            }
+          ],
+          "answer": {
+            "38": "①",
+            "39": "③"
+          },
+          "explanation": {
+            "ja": "正解は①と③。第5段落及び第6段落の内容から，エミリーが仕事に没頭するあまり母親としての責任を全うできていなかったことが読み取れる。続く第7段落で娘たちに謝罪をしたことで関係性が改善する方向性が読みとれる。そして第1段落および最終段落から仲睦まじい家族の描写と共に，エミリーが幸福感を感じていることが読み取れる。よって，仕事に没頭するだけではなく，家族生活との両立が大切であるというメッセージを読み取ることができるので,①は正しい。また最終段落第3文(The restructuring, however…)で「たとえあの時はどんなに辛い状況に思えたにしても，実のところあのリストラは恩恵だったのだ」と言っているが，これが③の選択肢と一致する。ストーリー全体の流れを考えても，難しい決断に迫られたが，それがあったからこそ仕事の面でも家庭の面でも良い方向に向かった，ということが読み取れるので,③は正しいと言える。",
+            "evidence_sentences": [
+              "s7_s19",
+              "s7_s21",
+              "s7_s34",
+              "s7_s35"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 40,
+          "stem": {
+            "en": "Choose the best option for [40].",
+            "ja": "[40]に入る最も適切な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "How distant my dream seems",
+              "ja": "私の夢はなんと遠くに見えることか",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "How much time I've wasted",
+              "ja": "なんと多くの時間を無駄にしたことか",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "What an exciting life I've had",
+              "ja": "なんとエキサイティングな人生を送ってきたか",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "What great progress I've made",
+              "ja": "なんと大きな進歩を遂げたことか",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。lookは疑問詞や感嘆詞が作る節を目的語にとって，命令文の形で「…を見てみなさい；注目しなさい；考えなさい」という意味で使う。how far l've comeは直訳すると「どれほど遠くに来たか」となるが，これは文字通り旅などで遠くに来たことを表現することもあるが，比喩的に「大変な道のりでずいぶん前進した」という，要するに「かなり進歩した；改善した」という意味合いで使われることも多い。ここでは，仕事で苦労していた過去や娘との関係性が悪かった過去に比べ，現在はとても充実している，ということを表している。よって全体で「見てよ，私はここまで頑張ってきたわ」ということを表している。この意味合いに合致する④が正解である。",
+            "evidence_sentences": [
+              "s7_s4"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "restructuring",
+              "ja": "リストラ；再構築"
+            },
+            {
+              "en": "advertising firm",
+              "ja": "広告会社"
+            },
+            {
+              "en": "bankruptcy",
+              "ja": "倒産；破産"
+            },
+            {
+              "en": "eliminate",
+              "ja": "…を排除する；なくす"
+            },
+            {
+              "en": "grateful",
+              "ja": "感謝している"
+            },
+            {
+              "en": "take advantage of",
+              "ja": "…を利用する"
+            },
+            {
+              "en": "significantly",
+              "ja": "大幅に"
+            },
+            {
+              "en": "contemplate",
+              "ja": "じっくり考える"
+            },
+            {
+              "en": "turn down",
+              "ja": "…を断る"
+            },
+            {
+              "en": "rejection",
+              "ja": "拒否；不採用"
+            },
+            {
+              "en": "revolve around",
+              "ja": "…を中心に回る"
+            },
+            {
+              "en": "deserve",
+              "ja": "…に値する"
+            },
+            {
+              "en": "decent",
+              "ja": "十分な；適切な"
+            },
+            {
+              "en": "for the sake of",
+              "ja": "…のために"
+            },
+            {
+              "en": "fulfill",
+              "ja": "…を全うする；果たす"
+            },
+            {
+              "en": "in favor of",
+              "ja": "…を優先して"
+            },
+            {
+              "en": "pursue",
+              "ja": "…を追求する"
+            },
+            {
+              "en": "brim with",
+              "ja": "…であふれる"
+            },
+            {
+              "en": "apologize",
+              "ja": "謝罪する"
+            },
+            {
+              "en": "soften",
+              "ja": "和らぐ"
+            },
+            {
+              "en": "twists and turns",
+              "ja": "紆余曲折"
+            },
+            {
+              "en": "land a job",
+              "ja": "仕事を得る"
+            },
+            {
+              "en": "considerably",
+              "ja": "かなり"
+            },
+            {
+              "en": "fulfilling",
+              "ja": "充実した"
+            },
+            {
+              "en": "unattainable",
+              "ja": "達成不可能な"
+            },
+            {
+              "en": "blessing",
+              "ja": "恩恵；祝福"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 14,
+      "situation": {
+        "en": "You are in a group of students preparing for an international presentation contest. You are using the following passage to create your part of the presentation about a popular mushroom.",
+        "ja": "あなたは国際的なプレゼンテーションコンテストの準備をしている学生グループに所属しています。あなたは，ある人気のキノコについてのプレゼンテーションの，自分の担当部分を作成するために次の文章を使用しています。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Fly Agaric",
+            "ja": "ハエキノコ（ベニテングダケ）"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s1",
+                "en": "The earth contains more species of organisms than animal species, including us humans.",
+                "ja": "地球上には私たち人間を含む動物種より多くの生物の種が存在している。"
+              },
+              {
+                "id": "s8_s2",
+                "en": "Typical examples are fungi, of which there are estimated to be 1.5 to 5 million species, compared to only about 1.5 million animal species.",
+                "ja": "代表的な例が菌類で，150万種程度しかいない動物種に対し，菌類は150万から500万種存在すると推定されている。"
+              },
+              {
+                "id": "s8_s3",
+                "en": "This is partly due to the fact that fungi are highly adapted to their environment and can live in a wider range of places than animals.",
+                "ja": "この理由の一部には，菌類が環境に非常に適応しており，動物よりも広い範囲で生息できるという事実がある。"
+              },
+              {
+                "id": "s8_s4",
+                "en": "Fungi are also able to reproduce both sexually and non-sexually, which gives them a greater capacity to evolve and diversify.",
+                "ja": "また，菌類は有性，無性のどちらでも繁殖することができるため，進化や多様化する能力がより高い。"
+              },
+              {
+                "id": "s8_s5",
+                "en": "Of all the fungi, perhaps the most familiar to us are mushrooms.",
+                "ja": "すべての菌類の中で，私たちに最も身近なものはおそらくキノコであろう。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s6",
+                "en": "When we were young, we may have seen red and white mushrooms in fairy tales and other stories.",
+                "ja": "幼い頃，私たちはおとぎ話やその他の物語で赤と白のキノコを見たことがあるかもしれない。"
+              },
+              {
+                "id": "s8_s7",
+                "en": "There are different opinions as to what these mushrooms are, but the most promising is fly agaric.",
+                "ja": "そのキノコが何なのかということに関してはさまざまな意見があるが，最も有力なのはハエキノコ（ベニテングダケ）だ。"
+              },
+              {
+                "id": "s8_s8",
+                "en": "It has a red pileus (cap) that is typically between 5-15 cm wide and a white stem that can grow up to 20 cm tall.",
+                "ja": "それは一般的に幅5cmから15cmの赤い菌傘（かさ）と，高さ20cmにまで成長することもある白い柄を持っている。"
+              },
+              {
+                "id": "s8_s9",
+                "en": "This makes it one of the most easily recognizable types of mushrooms.",
+                "ja": "このことにより，ハエキノコはキノコの中でも最も見分けがつきやすい種類の1つとなっている。"
+              },
+              {
+                "id": "s8_s10",
+                "en": "It is originally from northern Europe, but now it is found in many different regions around the world, ranging from temperate forests to the cold and damp forests of the northern areas.",
+                "ja": "その原産地は北欧だが，現在では温帯林から北部地域の寒くてじめじめした森まで，世界中のさまざまな地域で見られる。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s11",
+                "en": "Fly agaric has played an important role in many cultures and traditions, from being depicted in folklore and fairy tales to being used in religious ceremonies.",
+                "ja": "ハエキノコは，民話やおとぎ話に描かれたり宗教的な儀式に使われたりと，多くの文化や伝統の中で重要な役割を果たしてきた。"
+              },
+              {
+                "id": "s8_s12",
+                "en": "In some cultures, it was believed to have spiritual and healing powers.",
+                "ja": "一部の文化では霊的な力や癒しの力があると信じられていた。"
+              },
+              {
+                "id": "s8_s13",
+                "en": "The Vikings are said to have used it to feel brave before battle.",
+                "ja": "バイキングはそれを戦いの前に勇気を出すために使ったと言われている。"
+              },
+              {
+                "id": "s8_s14",
+                "en": "In Hindu texts, it is mentioned as \"soma\" and believed to have been used in religious rituals to communicate with the gods.",
+                "ja": "ヒンドゥー教の文書では，それは「ソーマ」という名で言及されており，神々と交信するための宗教儀式に用いられたと考えられている。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s15",
+                "en": "Fly agaric is attracting attention for its medicinal properties.",
+                "ja": "ハエキノコはその薬効で注目を集めている。"
+              },
+              {
+                "id": "s8_s16",
+                "en": "One of the chemicals that have been recently studied in fly agaric is ibotenic acid.",
+                "ja": "最近研究されているハエキノコ中の化学物質の1つはイボテン酸である。"
+              },
+              {
+                "id": "s8_s17",
+                "en": "This substance has been linked to learning and memory, and it could be helpful in treating various nervous disorders such as Parkinson's and Alzheimer's diseases.",
+                "ja": "この物質は学習や記憶に関連性があり，パーキンソン病やアルツハイマー病などさまざまな神経疾患の治療に役立つかもしれない。"
+              },
+              {
+                "id": "s8_s18",
+                "en": "In addition, fly agaric contains several substances that are being studied for their potential usefulness in the treatment of various organ diseases, including cancer and liver disease.",
+                "ja": "それに加えてハエキノコは，がんや肝臓病を含むさまざまな臓器疾患の治療に役立つ可能性に関して研究されている，いくつかの物質を含んでいる。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s19",
+                "en": "Fly agaric is also known as Amanita muscaria in scientific terms.",
+                "ja": "ハエキノコは学術的にはベニテングダケ（Amanita muscaria）としても知られている。"
+              },
+              {
+                "id": "s8_s20",
+                "en": "It is part of the genus Amanita, which includes other well-known species like death cap.",
+                "ja": "それはタマゴテングダケのような他の有名な種を含むテングダケ属の一種である。"
+              },
+              {
+                "id": "s8_s21",
+                "en": "Fly agaric is a type of fungus called mycorrhizal, which means that it needs a tree to survive.",
+                "ja": "ハエキノコは生存のために木を必要とすることを意味する菌根菌と呼ばれる菌類の一種である。"
+              },
+              {
+                "id": "s8_s22",
+                "en": "They need each other to exist because the tree absorbs nutrients from the soil through the fungus, while the fungus receives sugars and other nutrients from the tree.",
+                "ja": "木はこの菌を通して土から栄養を吸収し，一方でこの菌は木から糖分や他の栄養を受け取るので，それらは生存のためにお互いを必要としている。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s23",
+                "en": "The fly agaric fungus grows beneath the ground, and only the mushrooms, or fruiting bodies, can be seen above ground.",
+                "ja": "ハエキノコ菌は地中で成長し，地上ではキノコ，つまり子実体しか見ることができない。"
+              },
+              {
+                "id": "s8_s24",
+                "en": "It is considered to be an annual fungus, which usually grows once a year and then dies, but the mycelium remains underground and is able to produce new fruiting bodies the following year.",
+                "ja": "それは一年菌と考えられており，通常は1年に1度成長し，その後枯れるが，菌糸は地中に残り翌年には新しい子実体を作ることができる。"
+              },
+              {
+                "id": "s8_s25",
+                "en": "The growth and reproduction of fly agaric is closely tied to environmental factors such as temperature, moisture, and light.",
+                "ja": "ハエキノコの成長と繁殖は温度，水分，光などの環境因子と密接に関係している。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s26",
+                "en": "The body mechanics of the fly agaric are unique.",
+                "ja": "ハエキノコの構造は独特である。"
+              },
+              {
+                "id": "s8_s27",
+                "en": "It has a bright red pileus, which is covered with white spots called scales.",
+                "ja": "鱗片と呼ばれる白い斑点に覆われた真っ赤な菌傘がある。"
+              },
+              {
+                "id": "s8_s28",
+                "en": "It releases tiny single-celled structures called spores that spread into the environment to settle on new growth areas.",
+                "ja": "それは新しい生育場所に定着するため，周囲の環境に広まる胞子と呼ばれる小さな単細胞構造物を放出している。"
+              },
+              {
+                "id": "s8_s29",
+                "en": "The spores are white and located on the gills under the pileus.",
+                "ja": "胞子は白色で菌傘の下のひだのところにある。"
+              },
+              {
+                "id": "s8_s30",
+                "en": "The mushroom stands tall on a thick stem, which is usually white or cream in color, and has a cup-like structure at the base called a volva.",
+                "ja": "キノコは大抵白色かクリーム色の太い柄に支えられてまっすぐ立っており，根元にはつぼと呼ばれるカップ状の構造物がついている。"
+              },
+              {
+                "id": "s8_s31",
+                "en": "It also has a distinctive ring-like structure around the stem called the annulus, which also serves as one of the main characteristics of the mushroom.",
+                "ja": "また柄の周囲には，つばと呼ばれる特徴的な環状構造物があり，これもこのキノコの大きな特徴の1つとなっている。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s32",
+                "en": "Although fly agaric has cultural significance and potential medicinal benefits, it's important to remember that it is a poisonous mushroom.",
+                "ja": "ハエキノコには文化的な意義と潜在的な薬としての恩恵があるが，毒キノコであることを覚えておくことが重要だ。"
+              },
+              {
+                "id": "s8_s33",
+                "en": "Eating too much of it can lead to serious illness or even death.",
+                "ja": "それを食べすぎると重病や死に至ることもある。"
+              },
+              {
+                "id": "s8_s34",
+                "en": "Therefore, it's essential to be careful and seek advice from professionals before attempting to use fly agaric for any purpose.",
+                "ja": "したがって，ハエキノコをいかなる目的であれ活用しようとする前には注意し，専門家のアドバイスを求めることが不可欠だ。"
+              },
+              {
+                "id": "s8_s35",
+                "en": "Nevertheless, the unique qualities of this fungus will continue to fascinate and inspire scientists and mushroom fans alike.",
+                "ja": "それでもなお，この菌類の独特の性質は，科学者だけでなくキノコ好きな人も魅了し，彼らにインスピレーションを与え続けることだろう。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 41,
+          "stem": {
+            "en": "Which of the following should you not include for [41]?",
+            "ja": "[41]に含めるべきでないものはどれか。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "appears in folk and fairy tales",
+              "ja": "民話やおとぎ話に登場する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "approximately 5 million species have been found",
+              "ja": "約500万種が発見されている",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "found in both warm and cold forests",
+              "ja": "温暖な森と寒冷な森の両方で見られる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "used in religious ceremonies",
+              "ja": "宗教的な儀式で使われた",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "very easy to recognize",
+              "ja": "とても見分けがつきやすい",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。ハエキノコの｢基本的な情報」は，本文の第2段落から第3段落で述べられている。②はハエキノコの種類に関する内容だが，これについては本文では述べられていない。第1段落第2文(Typical examples are…)の中に, ｢150万から500万種」という表現があるが，これは菌類(fungi)全体のことであって，ハエキノコに関する記述ではないことに注意。したがって正解は②となる。",
+            "evidence_sentences": [
+              "s8_s2"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_numbers": [
+            42,
+            43
+          ],
+          "stem": {
+            "en": "For the Use as Medicine slide, select two features of the fly agaric which are most likely true. (The order does not matter.) [42][43]",
+            "ja": "「薬としての使用」スライドについて，ハエキノコの特徴として正しい可能性が最も高いものを2つ選びなさい（順不同）。[42][43]"
+          },
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "Fly agaric has been proved to have positive effects on stress and fatigue.",
+              "ja": "ハエキノコはストレスと疲労に良い効果があることが証明されている。"
+            },
+            {
+              "label": "②",
+              "en": "Fly agaric is studied for its possible usefulness in treating some nervous disorders.",
+              "ja": "ハエキノコはいくつかの神経疾患の治療に役立つ可能性について研究されている。"
+            },
+            {
+              "label": "③",
+              "en": "It was believed in some religions that fly agaric was a medicine brought by the gods.",
+              "ja": "一部の宗教ではハエキノコは神々がもたらした薬だと信じられていた。"
+            },
+            {
+              "label": "④",
+              "en": "Some substances in fly agaric might be effective against certain organ diseases.",
+              "ja": "ハエキノコに含まれるいくつかの物質は特定の臓器疾患に効果的かもしれない。"
+            },
+            {
+              "label": "⑤",
+              "en": "The Vikings are said to have eaten fly agaric to feel relaxed after fighting.",
+              "ja": "バイキングは戦いの後にリラックスするためにハエキノコを食べたと言われている。"
+            }
+          ],
+          "choices_43": [
+            {
+              "label": "①",
+              "en": "Fly agaric has been proved to have positive effects on stress and fatigue.",
+              "ja": "ハエキノコはストレスと疲労に良い効果があることが証明されている。"
+            },
+            {
+              "label": "②",
+              "en": "Fly agaric is studied for its possible usefulness in treating some nervous disorders.",
+              "ja": "ハエキノコはいくつかの神経疾患の治療に役立つ可能性について研究されている。"
+            },
+            {
+              "label": "③",
+              "en": "It was believed in some religions that fly agaric was a medicine brought by the gods.",
+              "ja": "一部の宗教ではハエキノコは神々がもたらした薬だと信じられていた。"
+            },
+            {
+              "label": "④",
+              "en": "Some substances in fly agaric might be effective against certain organ diseases.",
+              "ja": "ハエキノコに含まれるいくつかの物質は特定の臓器疾患に効果的かもしれない。"
+            },
+            {
+              "label": "⑤",
+              "en": "The Vikings are said to have eaten fly agaric to feel relaxed after fighting.",
+              "ja": "バイキングは戦いの後にリラックスするためにハエキノコを食べたと言われている。"
+            }
+          ],
+          "answer": {
+            "42": "②",
+            "43": "④"
+          },
+          "explanation": {
+            "ja": "正解は②と④。「薬としての使用」に関しては，第4段落で述べられている。②に関しては，第4段落第2文(One of the…)に「最近研究されているハエキノコ中の化学物質の1つはイボテン酸である」とあり，イボテン酸については続く第3文(This substance has…)で「学習や記憶に関連性があり，パーキンソン病やアルツハイマー病などさまざまな神経疾患の治療に役立つかもしれない」と述べられているので，本文の内容に一致していることがわかる。④については,第4段落最終文(In addition, fly…)で｢ハエキノコは，がんや肝臓病を含むさまざまな臓器疾患の治療に役立つ可能性に関して研究されている，いくつかの物質を含んでいる」とあるので，こちらも本文の内容に一致している。",
+            "evidence_sentences": [
+              "s8_s17",
+              "s8_s18"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 44,
+          "stem": {
+            "en": "Complete the missing labels on the illustration of a fly agaric for the Mechanism slide. [44]\n\n①(A) Annulus (B) Mycelium (C) Volva (D) Pileus (E) Gills\n②(A) Mycelium (B) Annulus (C) Pileus (D) Gills (E) Volva\n③(A) Mycelium (B) Gills (C) Pileus (D) Annulus (E) Volva\n④(A) Pileus (B) Mycelium (C) Volva (D) Gills (E) Annulus\n⑤(A) Volva (B) Pileus (C) Gills (D) Annulus (E) Mycelium",
+            "ja": "構造スライドのハエキノコのイラストの欠けたラベルを完成させなさい。[44]\n\n①(A) つば (B) 菌糸 (C) つぼ (D) 菌傘 (E) ひだ\n②(A) 菌糸 (B) つば (C) 菌傘 (D) ひだ (E) つぼ\n③(A) 菌糸 (B) ひだ (C) 菌傘 (D) つば (E) つぼ\n④(A) 菌傘 (B) 菌糸 (C) つぼ (D) ひだ (E) つば\n⑤(A) つぼ (B) 菌傘 (C) ひだ (D) つば (E) 菌糸"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "(A) Annulus (B) Mycelium (C) Volva (D) Pileus (E) Gills",
+              "ja": "(A) つば (B) 菌糸 (C) つぼ (D) 菌傘 (E) ひだ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "(A) Mycelium (B) Annulus (C) Pileus (D) Gills (E) Volva",
+              "ja": "(A) 菌糸 (B) つば (C) 菌傘 (D) ひだ (E) つぼ",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "(A) Mycelium (B) Gills (C) Pileus (D) Annulus (E) Volva",
+              "ja": "(A) 菌糸 (B) ひだ (C) 菌傘 (D) つば (E) つぼ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "(A) Pileus (B) Mycelium (C) Volva (D) Gills (E) Annulus",
+              "ja": "(A) 菌傘 (B) 菌糸 (C) つぼ (D) ひだ (E) つば",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "(A) Volva (B) Pileus (C) Gills (D) Annulus (E) Mycelium",
+              "ja": "(A) つぼ (B) 菌傘 (C) ひだ (D) つば (E) 菌糸",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。ハエキノコの｢構造」に関しては，第6段落及び第7段落で述べられている。\nまず,第6段落第2文(It is considered…)に「…菌糸(mycelium)は地中に残り翌年には新しい子実体を作ることができる」とあることから，Myceliumは地上からは見えない地中にある部分であることがわかる。したがってイラストの最も下にある(A)がMyceliumだと見当がつく。次に，第7段落第2文(It has a…)の「鱗片と呼ばれる白い斑点に覆われた真っ赤な菌傘(pileus)がある」という内容から, Pileusは一番上にある(C)の部分であることがわかる。その後，第7段落第4文(The spores are…)では「胞子は白色で菌傘の下のひだ(gills)のところにある」とあるので, Gillsは(D)の部分となり，続く第5文(The mushroom stands…)には「キノコは大抵白色かクリーム色の太い柄に支えられてまっすぐ立っており，根元にはつぼ(volva)と呼ばれるカップ状の構造物がついている」とあるので, Volvaは(E)であるとわかる。さらに，第7段落最終文(It also has…)で「また柄の周囲には，つば(annulus)と呼ばれる特徴的な環状構造物があり…」と述べられており, Annulusは(B)ということがわかる。以上の内容から，正解は②に決まる。",
+            "evidence_sentences": [
+              "s8_s24",
+              "s8_s27",
+              "s8_s29",
+              "s8_s30",
+              "s8_s31"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 45,
+          "stem": {
+            "en": "Which is the best statement for the final slide? [45]",
+            "ja": "最終スライドに最もふさわしい文はどれか。[45]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Fly agaric has traditionally been used as a medicine because it is agreeable to the human sense of taste.",
+              "ja": "ハエキノコは人間の味覚に合うため伝統的に薬として使われてきた。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Fly agaric should be more widely used on a daily basis because of its proven healing effects.",
+              "ja": "ハエキノコはその証明された治癒効果のため日常的により広く使われるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Fly agaric will most likely be used more because it is easily found due to its visual characteristics.",
+              "ja": "ハエキノコはその視覚的特徴のため見つけやすく，より多く使われるようになるだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "While fly agaric may be effective for some diseases, it can cause serious health problems if consumed in large quantities.",
+              "ja": "ハエキノコはいくつかの病気に効果的かもしれないが，大量に摂取すると深刻な健康問題を引き起こすこともある。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。「ハエキノコはいくつかの病気に効果があるかもしれない」という部分は，第4段落でハエキノコが病気の治療に有効である可能性があることが述べられていることに一致する。「大量に摂取すると深刻な健康問題を引き起こすこともありえる」については，最終段落第1文(Although fly agaric…)の「ハエキノコには文化的な意義と潜在的な薬としての恩恵があるが，毒キノコであることを覚えておくことが重要だ｣，続く第2文(Eating too much…)の「それを食べすぎると重病や死に至ることもある」という内容に一致している。",
+            "evidence_sentences": [
+              "s8_s17",
+              "s8_s18",
+              "s8_s32",
+              "s8_s33"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 46,
+          "stem": {
+            "en": "According to the passage, which statement is true? [46]",
+            "ja": "本文によると，正しい文はどれか。[46]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Fly agaric grows in a square shape mostly underground, with only the fruiting bodies visible above ground. This means that it is probably stronger than any other fungus.",
+              "ja": "ハエキノコは主に地中で四角い形で成長し，地上では子実体のみ見える。これは他のどの菌類よりも強いことを意味している。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The life cycle of fly agaric is generally not affected by the environment. This enables it to live even in the harsh environment of the northern hemisphere.",
+              "ja": "ハエキノコのライフサイクルは一般的に環境の影響を受けない。これにより北半球の厳しい環境でも生息できる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The mycelium can produce new fruiting bodies once a year; fly agaric normally reproduces itself several times a year.",
+              "ja": "菌糸は1年に1度新しい子実体を作ることができる。ハエキノコは通常1年に数回繁殖する。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Trees get nutrients from the soil through fly agaric, and the fly agaric obtains sugars and other nutrients from the trees, so they are dependent on each other for survival.",
+              "ja": "木はハエキノコを通じて土壌から栄養を得て，ハエキノコは木から糖分や他の栄養を得るので，両者の生存はお互いに依存している。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。第5段落最終文(They need each…)の「木はこの菌を通して土から栄養を吸収し，一方でこの菌は木から糖分や他の栄養を受け取るので，それらは生存のためにお互いを必要としている」という内容と一致する。",
+            "evidence_sentences": [
+              "s8_s22"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "organism",
+              "ja": "生物"
+            },
+            {
+              "en": "fungi (fungus)",
+              "ja": "菌類"
+            },
+            {
+              "en": "reproduce",
+              "ja": "繁殖する"
+            },
+            {
+              "en": "diversify",
+              "ja": "多様化する"
+            },
+            {
+              "en": "fairy tale",
+              "ja": "おとぎ話"
+            },
+            {
+              "en": "fly agaric",
+              "ja": "ハエキノコ；ベニテングダケ"
+            },
+            {
+              "en": "pileus",
+              "ja": "菌傘（かさ）"
+            },
+            {
+              "en": "stem",
+              "ja": "柄；茎"
+            },
+            {
+              "en": "recognizable",
+              "ja": "見分けがつく"
+            },
+            {
+              "en": "temperate",
+              "ja": "温帯の"
+            },
+            {
+              "en": "folklore",
+              "ja": "民話；民間伝承"
+            },
+            {
+              "en": "ceremony",
+              "ja": "儀式"
+            },
+            {
+              "en": "spiritual",
+              "ja": "霊的な"
+            },
+            {
+              "en": "medicinal",
+              "ja": "薬の；薬効のある"
+            },
+            {
+              "en": "ibotenic acid",
+              "ja": "イボテン酸"
+            },
+            {
+              "en": "nervous disorder",
+              "ja": "神経疾患"
+            },
+            {
+              "en": "mycorrhizal",
+              "ja": "菌根の"
+            },
+            {
+              "en": "nutrient",
+              "ja": "栄養素"
+            },
+            {
+              "en": "fruiting body",
+              "ja": "子実体"
+            },
+            {
+              "en": "mycelium",
+              "ja": "菌糸"
+            },
+            {
+              "en": "spore",
+              "ja": "胞子"
+            },
+            {
+              "en": "gill",
+              "ja": "ひだ"
+            },
+            {
+              "en": "volva",
+              "ja": "つぼ"
+            },
+            {
+              "en": "annulus",
+              "ja": "つば（環状構造）"
+            },
+            {
+              "en": "poisonous",
+              "ja": "有毒な"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

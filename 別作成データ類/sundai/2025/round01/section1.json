@@ -1,0 +1,74 @@
+{
+    "theme": "プリンスエドワード島（PEI）観光ツアー",
+    "theme_translation": "あなたはカナダにいる交換留学生で，ホームステイ先の家族はあなたを日帰り旅行に連れて行きたいと思っています。ホームステイ先の母親があなたに利用可能なツアーについての情報を提供してくれました。",
+    "passage": [
+        "Prince Edward Island (PEI) Sightseeing Tours\nChoose from three Maple Tours itineraries",
+        "The Montgomery Tour\nLearn about Lucy Maud Montgomery, the author of Anne of Green Gables, whose writing was inspired by the island's nature and people. Start the tour at the Cavendish United Church, built in 1901, where Montgomery was buried in 1940. Next, visit the Anne of Green Gables Museum and see items belonging to Montgomery. The museum was originally a house built by Montgomery's relatives in 1872. Finally, visit the school where Montgomery taught. The tour will be conducted by tour guides who were all brought up on PEI.",
+        "PEI Scenic Drive\nLet's experience the island's beautiful scenery and nature. Your local guide will pick you up directly from your accommodation. First, we will drive down Charlottetown's main street, passing Province House, completed in 1847, and the site of the Charlottetown Conference in 1864, which led to the formation of Canada. Then we will visit the Prince Edward Island National Park, before stopping at North Rustico, a lobster fishing village. Try some delicious lobster at a restaurant there.",
+        "Charlottetown Food Highlights Walking Tour\nLet's explore Charlottetown on foot. Your guide has lived on PEI his entire life, and he will introduce Charlottetown's historical sights, while pointing out delicious local food to sample. Start the tour at Peake's Wharf, by the sea. These warehouse buildings were built in 1872, and are now restaurants and gift shops. Try some ice cream before moving on to the Farmer's Market. Meet local farmers and buy delicious fresh produce. After wandering the streets, we'll eat at the Canton Café, the island's longest-running restaurant. The owners moved to Canada in the 1950s and opened their Chinese restaurant in 1970."
+    ],
+    "translations": [
+        "プリンスエドワード島（PEI）観光ツアー\nメイプルツアーズの3つの旅行計画から選択する",
+        "モンゴメリツアー\n『赤毛のアン』の作者であるルーシー・モード・モンゴメリ ― 彼女の著作はこの島の自然と人々に触発されました ― について学びます。1901年に建てられ，1940年にモンゴメリが埋葬されたキャベンディッシュ・ユナイテッド・チャーチからツアーは出発します。次に「赤毛のアン博物館」を訪れ，モンゴメリの所持品を見学します。博物館はもともとモンゴメリの親戚の人たちにより1872年に建てられた家屋でした。最後に，モンゴメリが教鞭を執った学校を訪問します。このツアーは，みんなこのPEIで育ったガイドたちが案内します。",
+        "PEIの景観を眺めながらのドライブ\nこの島の美しい風景と自然を体験しましょう。地元のガイドが宿泊先から直接あなたを車に乗せてくれます。まず，チャールストン大通りを通って，1847年完成のプロビンスハウスと，カナダの建国につながった1864年のシャーロットタウン会議跡地を通ります。それからプリンスエドワード島国立公園を訪れ，その後，ロブスター漁の村であるノースラスティコに立ち寄ります。そこのレストランでおいしいロブスターを食べてみてください。",
+        "シャーロットタウンの食のハイライトをめぐるウォーキングツアー\nシャーロットタウンを歩いて探検しましょう。ガイドは生まれてからずっとPEIで暮らしてきたので，おいしい地元の食べ物に目を留めて試食しながら，シャーロットタウンの史跡を紹介してくれます。海に近いピークスワーフからツアーに出発します。この倉庫群は1872年に建てられ，今ではレストランやギフトショップになっています。アイスクリームを食べてみてから，ファーマーズマーケットに移動しましょう。地元の農家に会って新鮮でおいしい農産物を手に入れてください。通りを散策してから，この島で最も長く営業しているレストランであるカントンカフェで食事をします。各オーナーは1950年代にカナダへと移住してきて，1970年にそれぞれの中華レストランを開きました。"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 2,
+            "question_text": "Prince Edward Island has [ 1 ].",
+            "choices": [
+                "a place where a historically important conference was held",
+                "a school that was founded by Canada's most famous female writer",
+                "the first Chinese restaurant that opened in Canada",
+                "warehouses that have been used to store goods since the 18th century"
+            ],
+            "answer": "1",
+            "evidence": [
+                "passing Province House, completed in 1847, and the site of the Charlottetown Conference in 1864, which led to the formation of Canada"
+            ],
+            "explanation": "正解は①。2つ目のツアーである「PEIの景観を眺めながらのドライブ」の第3文(First, we will ...)に「まず，チャールストン大通りを通って，1847年完成のプロビンスハウスと，カナダの建国につながった1864年のシャーロットタウン会議跡地を通ります」とあるが，シャーロットタウン会議跡地は選択肢①の「歴史的に重要な会議が開かれた場所」と考えられることから，正解は①となる。\n②に関しては，カナダの女性作家である『赤毛のアン』の作者ルーシー・モード・モンゴメリと彼女が教鞭を執った学校のことは1つ目のツアーである「モンゴメリツアー」で言及されているが，モンゴメリが学校を創立したとは述べられていないので不可。\n③に関しては，中華レストランは3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」で言及されているが，「カナダで開店した最初の中華レストラン」であるとは述べられていないので不可。\n④に関しては，倉庫群は3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」で言及されているが，その第4文(These warehouse buildings ...)で「この倉庫群は1872年に建てられ，今ではレストランやギフトショップになっています」と述べられていることから，今では商品を貯蔵するために使用されているわけではないことがわかるので不可。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 2,
+            "question_text": "On all three tours, you will [ 2 ].",
+            "choices": [
+                "be taken around by a guide who lives on the island",
+                "learn about famous people from the island",
+                "see the center of the largest city, Charlottetown",
+                "try various examples of local food"
+            ],
+            "answer": "1",
+            "evidence": [
+                "The tour will be conducted by tour guides who were all brought up on PEI.",
+                "Your local guide will pick you up directly from your accommodation.",
+                "Your guide has lived on PEI his entire life"
+            ],
+            "explanation": "正解は①。1つ目のツアーである「モンゴメリツアー」の最終文(The tour will ...)では「このツアーは，みんなこのPEIで育ったガイドたちが案内します」と述べられ，2つ目のツアーである「PEIの景観を眺めながらのドライブ」の第2文(Your local guide ...)では「地元のガイドが宿泊先から直接あなたを車に乗せてくれます」と，そして3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」の第2文(Your guide has ...)では「ガイドは生まれてからずっとPEIで暮らしてきたので，おいしい地元の食べ物に目を留めて試食しながら，シャーロットタウンの史跡を紹介してくれます」と述べられていることから，3つのツアーすべてにおいて地元出身のガイドが案内してくれることがわかる。よって正解は①となる。\n②に関しては，1つ目のツアーである「モンゴメリツアー」ではカナダの有名な女性作家である『赤毛のアン』の作者ルーシー・モード・モンゴメリについて学ぶことがわかるが，他の2つのツアーでは「この島の出身である有名な人々について学ぶ」ことが述べられていないので不可。\n③に関しては，1つ目の「モンゴメリツアー」がシャーロットタウンで行われるとの記述がないので不可。\n④に関しては，2つ目のツアーである「PEIの景観を眺めながらのドライブ」ではロブスターを食べること，また3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」では地元の食べ物やアイスクリームを試食することやカフェで食事をすることが述べられているが，1つ目のツアーである「モンゴメリツアー」では試食に関する記述はないので不可。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 2,
+            "question_text": "Which is the oldest building you will see on these tours? [ 3 ]",
+            "choices": [
+                "Province House",
+                "the Anne of Green Gables Museum",
+                "the Canton Café, Chinese restaurant",
+                "the Cavendish United Church"
+            ],
+            "answer": "1",
+            "evidence": [
+                "the Cavendish United Church, built in 1901",
+                "a house built by Montgomery's relatives in 1872",
+                "passing Province House, completed in 1847",
+                "opened their Chinese restaurant in 1970"
+            ],
+            "explanation": "正解は①。1つ目のツアーである「モンゴメリツアー」では，1901年に建てられたキャベンディッシュ・ユナイテッド・チャーチから出発することと，「赤毛のアン博物館」がもともとモンゴメリの親戚の人たちにより1872年に建てられた家屋であったことが述べられている。2つ目のツアーである「PEIの景観を眺めながらのドライブ」では，カナダの建国につながった，1847年完成のプロビンスハウスについて言及されている。そして3つ目のツアーである「シャーロットタウンの食のハイライトをめぐるウォーキングツアー」では，1970年に開店した中華レストランについての言及がある。以上の中で最も古い建物は1847年完成のプロビンスハウスであるとわかるので正解は①ということになる。"
+        }
+    ]
+}

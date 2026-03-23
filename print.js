@@ -7,14 +7,19 @@
  */
 
 const EXAM_PATHS = {
-  sundai_2025_01: 'data/sundai/2025/round01/data.json'
+  sundai_2025_01: 'data/sundai/2025/round01/data.json',
+  sundai_2025_02: 'data/sundai/2025/round02/data.json',
+  sundai_2025_03: 'data/sundai/2025/round03/data.json',
+  sundai_2025_04: 'data/sundai/2025/round04/data.json',
+  kakomon_2024: 'data/kakomon/2024/data.json'
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(location.search);
   const examId = params.get('exam') || 'sundai_2025_01';
   const mode = params.get('mode') || 'all';
-  const sectionNum = parseInt(params.get('section') || '0');
+  const sectionParam = params.get('section') || '0';
+  const sectionNum = /^\d+$/.test(sectionParam) ? parseInt(sectionParam) : sectionParam;
 
   const dataPath = EXAM_PATHS[examId];
   if (!dataPath) {
@@ -31,11 +36,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   let html = '';
 
-  if (mode === 'passage' && sectionNum > 0) {
-    const sec = data.sections.find(s => s.section_number === sectionNum);
+  if (mode === 'passage' && sectionNum) {
+    const sec = data.sections.find(s => String(s.section_number) === String(sectionNum));
     if (sec) html = renderPassagePage(sec, dataPath);
-  } else if (mode === 'questions' && sectionNum > 0) {
-    const sec = data.sections.find(s => s.section_number === sectionNum);
+  } else if (mode === 'questions' && sectionNum) {
+    const sec = data.sections.find(s => String(s.section_number) === String(sectionNum));
     if (sec) html = renderQuestionsPage(sec);
   } else {
     // all: 大問1問題→大問1設問→大問2問題→…
@@ -219,6 +224,13 @@ function renderPassagePage(sec, dataPath) {
         for (const s of passage.sentences) html += s.en + ' ';
         html += '</p>';
       }
+      if (passage.paragraphs) {
+        for (const para of passage.paragraphs) {
+          html += '<p class="print-paragraph">';
+          for (const sent of para) html += sent.en + ' ';
+          html += '</p>';
+        }
+      }
       if (passage.chart_image) {
         html += '<img class="print-img" src="' + passage.chart_image.src + '" alt="' + (passage.chart_image.alt || '') + '">';
       }
@@ -294,7 +306,9 @@ function renderPassagePage(sec, dataPath) {
           html += '<div><span class="print-answer-slot">' + slot + '</span></div>';
         }
         html += '</div>';
-        html += '<p class="print-paragraph">' + so.end.en + '</p>';
+        if (so.end) {
+          html += '<p class="print-paragraph">' + so.end.en + '</p>';
+        }
       }
       if (passage.about_sam) {
         const as_ = passage.about_sam;
@@ -316,6 +330,111 @@ function renderPassagePage(sec, dataPath) {
           html += '<li>' + item.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</li>';
         }
         html += '</ul>';
+      }
+      // Research sections
+      if (passage.research_sections) {
+        for (const rsec of passage.research_sections) {
+          html += '<p class="print-paragraph"><strong><em>' + rsec.heading.en + '</em></strong></p>';
+          html += '<ul style="list-style:disc;padding-left:22px;">';
+          for (const item of rsec.items) {
+            html += '<li>' + item.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</li>';
+          }
+          html += '</ul>';
+        }
+      }
+      // Event sequence
+      if (passage.event_sequence) {
+        const es = passage.event_sequence;
+        html += '<p class="print-paragraph"><strong><em>' + es.heading.en + '</em></strong></p>';
+        html += '<p class="print-paragraph">' + es.start.en + '</p>';
+        html += '<div style="margin:4px 0 4px 16px;padding-left:8px;border-left:2px solid #555;">';
+        for (const slot of es.slots) {
+          html += '<div><span class="print-answer-slot">' + slot + '</span></div>';
+        }
+        html += '</div>';
+      }
+      // Legacy section
+      if (passage.legacy_section) {
+        const ls = passage.legacy_section;
+        html += '<p class="print-paragraph"><strong><em>' + ls.heading.en + '</em></strong></p>';
+        html += '<p class="print-paragraph">' + ls.content.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</p>';
+      }
+      // Lessons
+      if (passage.lessons) {
+        const ll = passage.lessons;
+        html += '<p class="print-paragraph"><strong><em>' + ll.heading.en + '</em></strong></p>';
+        html += '<ul style="list-style:disc;padding-left:22px;">';
+        for (const item of ll.items) {
+          html += '<li>' + item.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</li>';
+        }
+        html += '</ul>';
+      }
+      // Note sections (大問7: 発表ノートの各セクション)
+      if (passage.note_sections) {
+        for (const ns of passage.note_sections) {
+          html += '<p class="print-paragraph"><strong><em>' + ns.heading.en + '</em></strong></p>';
+          if (ns.is_timeline) {
+            html += '<div style="margin:4px 0 4px 16px;padding-left:8px;border-left:2px solid #555;">';
+            for (const item of ns.items) {
+              if (item.is_slot) {
+                html += '<div><span class="print-answer-slot">' + item.en.replace(/[\[\]]/g, '') + '</span></div>';
+              } else {
+                html += '<div style="margin:4px 0;">' + item.en + '</div>';
+              }
+            }
+            html += '</div>';
+          } else {
+            html += '<ul style="list-style:disc;padding-left:22px;">';
+            for (const item of ns.items) {
+              html += '<li>' + item.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</li>';
+            }
+            html += '</ul>';
+          }
+        }
+      }
+      html += '</div>';
+
+    } else if (passage.is_poster) {
+      // Poster (大問8: ポスター表+イラスト)
+      const imgBase = dataPath.replace(/data\.json$/, '');
+      html += '<div class="print-passage" style="border:1px solid #333;padding:16px;">';
+      if (passage.poster_title) {
+        html += '<div style="text-align:center;margin-bottom:12px;"><span style="display:inline-block;font-weight:700;padding:4px 16px;background:#666;color:#fff;border-radius:16px;">' + passage.poster_title.en + '</span></div>';
+      }
+      if (passage.poster_intro_slot) {
+        html += '<p>' + passage.poster_intro_slot.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</p>';
+      }
+      if (passage.poster_section_label) {
+        html += '<div style="display:inline-block;border:1px solid #666;border-radius:14px;padding:2px 12px;font-weight:700;font-size:0.9rem;margin:8px 0;">' + passage.poster_section_label.en + '</div>';
+      }
+      if (passage.poster_table) {
+        const pt = passage.poster_table;
+        html += '<table class="print-poster-table" style="width:100%;border-collapse:collapse;margin:8px 0;font-size:0.88rem;"><tr>';
+        for (const h of pt.headers) {
+          html += '<th style="border:1px solid #666;padding:6px;text-align:left;background:#eee;">' + h + '</th>';
+        }
+        html += '</tr>';
+        for (const row of pt.rows) {
+          html += '<tr>';
+          html += '<td style="border:1px solid #666;padding:6px;text-align:center;">' + row.type_num + '</td>';
+          html += '<td style="border:1px solid #666;padding:6px;">' + row.cause.en;
+          if (row.cause_image) {
+            html += '<br><img src="' + imgBase + row.cause_image + '" alt="' + row.cause.en + '" style="max-width:50px;margin-top:4px;">';
+          }
+          html += '</td>';
+          html += '<td style="border:1px solid #666;padding:6px;">' + row.theory.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</td>';
+          html += '<td style="border:1px solid #666;padding:6px;">' + row.origins.en + '</td>';
+          html += '</tr>';
+        }
+        html += '</table>';
+      }
+      if (passage.poster_solutions_label) {
+        html += '<div style="display:inline-block;border:1px solid #666;border-radius:14px;padding:2px 12px;font-weight:700;font-size:0.9rem;margin:8px 0;">' + passage.poster_solutions_label.en + '</div>';
+        html += '<div style="border:1px solid #666;padding:10px;margin:4px 0;">';
+        for (const slot of passage.poster_solutions_slots) {
+          html += '<div>' + slot.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</div>';
+        }
+        html += '</div>';
       }
       html += '</div>';
 
@@ -350,12 +469,18 @@ function renderPassagePage(sec, dataPath) {
             }
           }
         } else {
-          for (const para of passage.paragraphs) {
+          for (let pi = 0; pi < passage.paragraphs.length; pi++) {
+            const para = passage.paragraphs[pi];
             html += '<p class="print-paragraph">';
             for (const sent of para) {
               html += sent.en + ' ';
             }
             html += '</p>';
+            // Graph image after specified paragraph (1-indexed)
+            if (passage.graph_image && passage.graph_image.after_paragraph === (pi + 1)) {
+              const imgBase = dataPath.replace(/data\.json$/, '');
+              html += '<img class="print-img" src="' + imgBase + passage.graph_image.src + '" alt="' + (passage.graph_image.alt || 'Graph') + '">';
+            }
           }
         }
       }

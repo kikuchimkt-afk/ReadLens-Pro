@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第6問 - 共通テスト英語問題DB</title>
+    <link rel="stylesheet" href="../../../../style.css">
+    <style>
+        .step-heading {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin: 24px 0 12px;
+            padding: 6px 12px;
+            background: var(--surface-2);
+            border-left: 4px solid var(--accent-blue);
+        }
+
+        .author-box {
+            border: 1px solid var(--border-color);
+            margin-bottom: 0;
+        }
+
+        .author-box+.author-box {
+            border-top: none;
+        }
+
+        .author-name {
+            font-weight: 700;
+            padding: 10px 16px;
+            background: var(--surface-2);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .author-text {
+            padding: 12px 16px;
+            line-height: 1.7;
+        }
+
+        .source-box {
+            border: 1px solid var(--border-color);
+            margin-bottom: 16px;
+            padding: 16px;
+        }
+
+        .source-title {
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .outline-box {
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            margin: 16px 0;
+        }
+
+        .outline-title {
+            font-weight: 700;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .outline-section {
+            font-weight: 700;
+            margin: 16px 0 6px;
+        }
+
+        .position-note {
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="exam-header">
+        <a href="../../../../index.html" class="back-btn">← 問題一覧に戻る</a>
+        <div class="exam-title">駿台実戦 2025 第4回</div>
+        <div class="score-display">配点: 18点</div>
+    </div>
+
+    <div class="exam-container" data-section="section6">
+        <h1 class="section-heading">第6問</h1>
+        <p class="section-points">配点 18点</p>
+
+        <div class="passage-intro">
+            <p>You are working on an essay about whether financial education (knowledge about personal finance) classes
+                should be taught in schools. You will follow the steps below.</p>
+            <div style="margin: 12px 0 0 32px;">
+                <p>Step 1: Read and understand various viewpoints about financial education.</p>
+                <p>Step 2: Take a position about whether or not financial education should be taught in schools.</p>
+                <p>Step 3: Create an outline for an essay using additional sources.</p>
+            </div>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="step-heading">[Step 1] Read various sources</div>
+
+        <div class="author-box">
+            <div class="author-name">Author A (Student)</div>
+            <div class="author-text">When I heard my school was going to introduce personal finance lessons, I was
+                annoyed, because we already have so much academic work. Despite that, I began to change my mind after a
+                few classes. I learned so much important information that will help me in my future. My parents are
+                immigrants from South America, and they work hard but they don't have much money. I want to build a
+                better future for myself and these classes have given me the knowledge to make wise decisions about my
+                money.</div>
+        </div>
+        <div class="author-box">
+            <div class="author-name">Author B (high school principal)</div>
+            <div class="author-text">I was thinking about adding personal finance lessons to our curriculum like some
+                schools in our district. However, we don't have enough time or qualified teachers available to do this
+                properly. I believe life skills such as personal finance should be taught at home. I understand that
+                some students don't have the opportunity to learn these skills from their family members. That is why
+                we'll have a counsellor who can speak to students about their individual problems including financial
+                matters.</div>
+        </div>
+        <div class="author-box">
+            <div class="author-name">Author C (parent)</div>
+            <div class="author-text">I have always taught my children about how to take care of their money. Even from a
+                young age, I gave them pocket money and opened savings accounts for them. When they start university, I
+                will help them get the best deal on a student loan, and encourage them to get a part-time job. This is
+                why I don't believe personal finance classes in school are necessary. I'm also concerned about who will
+                teach the subject. I think teachers generally aren't qualified to talk about financial issues for now.
+            </div>
+        </div>
+        <div class="author-box">
+            <div class="author-name">Author D (finance journalist)</div>
+            <div class="author-text">Before I answer this question, I have to ask what "financial education" is. What do
+                schools intend to teach? It is a very wide-ranging subject and much of the basics are common sense. I
+                believe even young children understand that they need to save money and not borrow money they can't pay
+                back. Of course, my job is to write about pensions and investments, but the information is constantly
+                changing. If you want to know where to put your money, I recommend reading the financial pages of a
+                newspaper, not asking a school teacher.</div>
+        </div>
+        <div class="author-box" style="margin-bottom: 24px;">
+            <div class="author-name">Author E (university counsellor)</div>
+            <div class="author-text">Due to my job, I know a large number of students start university in a bad
+                financial situation because they made a poor decision about which student loan to take out. Of course,
+                some students have very knowledgeable parents, or rich parents, so they don't get into trouble in this
+                way. On the other hand, some very intelligent students get into trouble because they simply weren't
+                prepared by their parents. I think that schools should help these students out by giving them the
+                knowledge that their parents or families can't give.</div>
+        </div>
+
+        <!-- Questions for Step 1 -->
+        <div class="question-block" data-question="section6_25">
+            <div class="question-label">問1</div>
+            <div class="question-text">Both Authors C and D mention that <span class="answer-box">25</span>.</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section6', 25, 1)"><span
+                        class="choice-number">①</span><span>it is too difficult to teach information about pensions and
+                        investments, so students should consult experts</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section6', 25, 2)"><span
+                        class="choice-number">②</span><span>students can learn more about finance by going to university
+                        and earning money in a part-time job</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section6', 25, 3)"><span
+                        class="choice-number">③</span><span>teachers may not have the knowledge or experience necessary
+                        to teach classes about personal finance</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section6', 25, 4)"><span
+                        class="choice-number">④</span><span>there is not enough time to teach personal finance in
+                        schools because of the students' busy schedule</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section6_26">
+            <div class="question-label">問2</div>
+            <div class="question-text">Author B implies that <span class="answer-box">26</span>.</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section6', 26, 1)"><span
+                        class="choice-number">①</span><span>she wants to add personal finance classes to the schedule
+                        but the teachers and students are against it</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section6', 26, 2)"><span
+                        class="choice-number">②</span><span>some students are at a disadvantage because their families
+                        do not teach them about personal finance</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section6', 26, 3)"><span
+                        class="choice-number">③</span><span>the students want to have personal finance classes but the
+                        teachers do not have the knowledge to teach it</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section6', 26, 4)"><span
+                        class="choice-number">④</span><span>young people are more likely to make risky decisions than
+                        adults, so should not handle money early</span></button>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-heading">[Step 2] Take a position</div>
+
+        <div class="question-block" data-question="section6_27">
+            <div class="question-label">問3</div>
+            <div class="question-text">Now that you understand the various viewpoints, you have taken a position on
+                teaching personal finance in schools, and have written it out as below. Choose the best options to
+                complete <span class="answer-box">27</span>, <span class="answer-box">28</span>, and <span
+                    class="answer-box">29</span>.</div>
+
+            <div class="outline-box" style="margin: 16px 0;">
+                <div class="position-note">Your position: Classes about personal finance should be taught in high
+                    schools.</div>
+                <ul style="padding-left: 20px;">
+                    <li>Authors <span class="answer-box">27</span> and <span class="answer-box">28</span> support your
+                        position.</li>
+                    <li>The main argument of the two authors: <span class="answer-box">29</span>.</li>
+                </ul>
+            </div>
+
+            <p style="margin: 12px 0 6px;">Options for <span class="answer-box">27</span> and <span
+                    class="answer-box">28</span> (the order does not matter):</p>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section6', 27, 1)"><span
+                        class="choice-number">①</span><span>A</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section6', 27, 2)"><span
+                        class="choice-number">②</span><span>B</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section6', 27, 3)"><span
+                        class="choice-number">③</span><span>C</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section6', 27, 4)"><span
+                        class="choice-number">④</span><span>D</span></button>
+                <button class="choice-btn" data-choice="5" onclick="selectAnswer('section6', 27, 5)"><span
+                        class="choice-number">⑤</span><span>E</span></button>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 4px;">※27に入る選択肢を選んでください</p>
+        </div>
+
+        <div class="question-block" data-question="section6_28">
+            <div class="question-label">問3（続き: 28の解答）</div>
+            <div class="question-text">28に入る選択肢を選んでください。</div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section6', 28, 1)"><span
+                        class="choice-number">①</span><span>A</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section6', 28, 2)"><span
+                        class="choice-number">②</span><span>B</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section6', 28, 3)"><span
+                        class="choice-number">③</span><span>C</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section6', 28, 4)"><span
+                        class="choice-number">④</span><span>D</span></button>
+                <button class="choice-btn" data-choice="5" onclick="selectAnswer('section6', 28, 5)"><span
+                        class="choice-number">⑤</span><span>E</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section6_29">
+            <div class="question-label">問3（続き: 29の解答）</div>
+            <div class="question-text">Options for <span class="answer-box">29</span></div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section6', 29, 1)"><span
+                        class="choice-number">①</span><span>Learning about money while at high school will allow
+                        students to get better careers in the future</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section6', 29, 2)"><span
+                        class="choice-number">②</span><span>Parents who are poor can learn about finance and money from
+                        their children, which improves their lives</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section6', 29, 3)"><span
+                        class="choice-number">③</span><span>Students who learn about finance at school are more
+                        motivated to study hard to improve their prospects</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section6', 29, 4)"><span
+                        class="choice-number">④</span><span>Teaching personal finance in school will reduce the
+                        inequality between students of different backgrounds</span></button>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-heading">[Step 3] Create an outline using sources A and B</div>
+
+        <!-- Source A -->
+        <div class="source-box">
+            <div class="source-title">Source A</div>
+            <p>One advantage of giving high school students classes in personal finance is that they are less likely to
+                engage in risky financial behavior later in life. One measure of this is the likelihood of taking out
+                payday loans. A payday loan is a loan that has a very high interest rate and needs to be repaid within a
+                short period of time, such as a couple of weeks. People who take out these loans and cannot pay them
+                back often get into legal trouble or even get involved in crime in order to find the money they need.
+                However, studies show that young people who took part in personal finance education while at school were
+                much less likely to become involved in taking out payday loans. They were also less likely to delay
+                repaying their debts such as credit card debt. We can assume that this will lead to fewer legal problems
+                and a lower likelihood of getting involved in crime when these students become adults and are
+                responsible for their own financial decisions.</p>
+        </div>
+
+        <!-- Source B -->
+        <div class="source-box">
+            <div class="source-title">Source B</div>
+            <p>A research study in the US tracked the credit scores of students in three states who had undergone
+                personal finance lessons at high school. Credit scores are important because they help banks and other
+                organizations determine how trustworthy a person is regarding money. People with high credit scores are
+                more likely to get good interest rates on loans and credit cards, and are more likely to be approved for
+                a home loan.</p>
+            <div style="margin: 16px 0;">
+                <p style="font-weight: 700; font-style: italic; text-align: center; margin-bottom: 12px;">The Effects of
+                    Financial Education on Credit Scores over Three Years</p>
+                <div
+                    style="border: 1px solid var(--border-color); padding: 20px 24px 12px; background: var(--surface-1);">
+                    <div style="display: flex; height: 220px;">
+                        <!-- Y-axis label (rotated) -->
+                        <div
+                            style="writing-mode: vertical-rl; transform: rotate(180deg); font-size: 0.75rem; color: var(--text-muted); display: flex; align-items: center; justify-content: center; padding-right: 6px;">
+                            Changes in Credit Scores</div>
+                        <!-- Y-axis numbers -->
+                        <div
+                            style="display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; padding-right: 6px; font-size: 0.72rem; width: 28px;">
+                            <span>35</span><span>30</span><span>25</span><span>20</span><span>15</span><span>10</span><span>5</span><span>0</span><span>-5</span><span>-10</span>
+                        </div>
+                        <!-- Chart area with gridlines -->
+                        <div style="flex: 1; position: relative; border-left: 2px solid #333;">
+                            <!-- Horizontal gridlines (9 lines from 30 down to -5, at the position between labels) -->
+                            <!-- Scale: -10 to 35 = 45 units. Each 5-unit step = 11.11% -->
+                            <div style="position:absolute;top:0%;left:0;right:0;border-top:1px solid #ccc;"></div>
+                            <div style="position:absolute;top:11.11%;left:0;right:0;border-top:1px solid #ccc;"></div>
+                            <div style="position:absolute;top:22.22%;left:0;right:0;border-top:1px solid #ccc;"></div>
+                            <div style="position:absolute;top:33.33%;left:0;right:0;border-top:1px solid #ccc;"></div>
+                            <div style="position:absolute;top:44.44%;left:0;right:0;border-top:1px solid #ccc;"></div>
+                            <div style="position:absolute;top:55.56%;left:0;right:0;border-top:1px solid #ccc;"></div>
+                            <div style="position:absolute;top:66.67%;left:0;right:0;border-top:1px solid #ccc;"></div>
+                            <!-- Zero line (bold) -->
+                            <div style="position:absolute;top:77.78%;left:0;right:0;border-top:2px solid #333;"></div>
+                            <div style="position:absolute;top:88.89%;left:0;right:0;border-top:1px solid #ccc;"></div>
+                            <div style="position:absolute;top:100%;left:0;right:0;border-top:1px solid #ccc;"></div>
+
+                            <!-- Bar groups -->
+                            <div
+                                style="display:flex; justify-content:space-around; height:100%; padding:0 16px; position:relative; z-index:1;">
+                                <!-- Georgia: Y1=-1, Y2=7, Y3=12 -->
+                                <div
+                                    style="display:flex; gap:2px; align-items:flex-end; height:100%; position:relative;">
+                                    <div
+                                        style="width:22px; height:2.22%; background:#222; position:absolute; bottom:calc(22.22% - 2.22%); left:0;">
+                                    </div>
+                                    <div
+                                        style="width:22px; height:15.56%; background:#777; position:absolute; bottom:22.22%; left:24px;">
+                                    </div>
+                                    <div
+                                        style="width:22px; height:26.67%; background:#bbb; position:absolute; bottom:22.22%; left:48px;">
+                                    </div>
+                                </div>
+                                <!-- Idaho: Y1=-4, Y2=9, Y3=17 -->
+                                <div
+                                    style="display:flex; gap:2px; align-items:flex-end; height:100%; position:relative;">
+                                    <div
+                                        style="width:22px; height:8.89%; background:#222; position:absolute; bottom:calc(22.22% - 8.89%); left:0;">
+                                    </div>
+                                    <div
+                                        style="width:22px; height:20.00%; background:#777; position:absolute; bottom:22.22%; left:24px;">
+                                    </div>
+                                    <div
+                                        style="width:22px; height:37.78%; background:#bbb; position:absolute; bottom:22.22%; left:48px;">
+                                    </div>
+                                </div>
+                                <!-- Texas: Y1=6, Y2=17, Y3=32 -->
+                                <div
+                                    style="display:flex; gap:2px; align-items:flex-end; height:100%; position:relative;">
+                                    <div
+                                        style="width:22px; height:13.33%; background:#222; position:absolute; bottom:22.22%; left:0;">
+                                    </div>
+                                    <div
+                                        style="width:22px; height:37.78%; background:#777; position:absolute; bottom:22.22%; left:24px;">
+                                    </div>
+                                    <div
+                                        style="width:22px; height:71.11%; background:#bbb; position:absolute; bottom:22.22%; left:48px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- X-axis labels -->
+                    <div
+                        style="display:flex; margin-left:52px; justify-content:space-around; font-size:0.82rem; margin-top:6px; font-weight:600;">
+                        <span>Georgia</span><span>Idaho</span><span>Texas</span>
+                    </div>
+                    <!-- Legend -->
+                    <div style="display:flex; gap:18px; justify-content:center; margin-top:10px; font-size:0.8rem;">
+                        <span><span
+                                style="display:inline-block;width:14px;height:14px;background:#222;margin-right:4px;vertical-align:middle;"></span>Year
+                            1</span>
+                        <span><span
+                                style="display:inline-block;width:14px;height:14px;background:#777;margin-right:4px;vertical-align:middle;"></span>Year
+                            2</span>
+                        <span><span
+                                style="display:inline-block;width:14px;height:14px;background:#bbb;margin-right:4px;vertical-align:middle;"></span>Year
+                            3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Outline -->
+        <div class="outline-box">
+            <div class="outline-title" style="font-weight: 700;">Schools should introduce personal finance classes for
+                their students.</div>
+            <div class="outline-section">Introduction</div>
+            <p style="margin-left: 16px;">In recent years, more schools in various countries around the world are
+                introducing classes about personal finance for their students. This is a good idea for the following
+                reasons.</p>
+            <div class="outline-section">Body</div>
+            <div style="margin-left: 16px;">
+                <p>Reason 1: (From Step 2)</p>
+                <p>Reason 2: (Based on Source A) …… <span class="answer-box">30</span></p>
+                <p>Reason 3: (Based on Source B) …… <span class="answer-box">31</span></p>
+            </div>
+            <div class="outline-section">Conclusion</div>
+            <p style="margin-left: 16px;">High school teachers should teach their students about money and personal
+                finance.</p>
+        </div>
+
+        <div class="question-block" data-question="section6_30">
+            <div class="question-label">問4</div>
+            <div class="question-text">Based on Source A, which of the following is the most appropriate for Reason 2?
+                <span class="answer-box">30</span>
+            </div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section6', 30, 1)"><span
+                        class="choice-number">①</span><span>Crime rates went down among students who had taken finance
+                        classes at school because they earned more money.</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section6', 30, 2)"><span
+                        class="choice-number">②</span><span>Students were less likely to use credit cards and loans
+                        after taking classes in personal finance at high school.</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section6', 30, 3)"><span
+                        class="choice-number">③</span><span>Those students who went into a legal or finance career were
+                        more likely to have had finance classes at high school.</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section6', 30, 4)"><span
+                        class="choice-number">④</span><span>Young people who had received financial education at school
+                        were less likely to make high-risk financial decisions.</span></button>
+            </div>
+        </div>
+
+        <div class="question-block" data-question="section6_31">
+            <div class="question-label">問5</div>
+            <div class="question-text">For Reason 3, you have decided to write, "Personal finance classes make students
+                more financially responsible." Based on Source B, which option best supports this statement? <span
+                    class="answer-box">31</span></div>
+            <div class="choices">
+                <button class="choice-btn" data-choice="1" onclick="selectAnswer('section6', 31, 1)"><span
+                        class="choice-number">①</span><span>All of the students in the three states managed to raise
+                        their credit scores after three years. However, Idaho was the least successful state in terms of
+                        teaching financial education.</span></button>
+                <button class="choice-btn" data-choice="2" onclick="selectAnswer('section6', 31, 2)"><span
+                        class="choice-number">②</span><span>In some states, there was a drop in credit scores a year
+                        after taking finance classes. This means that young people always make bad financial decisions
+                        that affect their long-term future.</span></button>
+                <button class="choice-btn" data-choice="3" onclick="selectAnswer('section6', 31, 3)"><span
+                        class="choice-number">③</span><span>In two of the states, there was a negative effect on credit
+                        scores because of taking finance classes. After that, their credit scores rose, which shows that
+                        credit scores always rise over time.</span></button>
+                <button class="choice-btn" data-choice="4" onclick="selectAnswer('section6', 31, 4)"><span
+                        class="choice-number">④</span><span>Three years after taking finance classes at schools,
+                        students in all three states had considerably improved their credit scores. This shows that they
+                        are making good financial decisions.</span></button>
+            </div>
+        </div>
+
+        <div class="submit-area">
+            <button class="submit-btn" id="submit-section6" onclick="gradeSection('section6')" disabled>採点する
+                (0/7)</button>
+        </div>
+
+        <div class="result-panel" id="result-section6">
+            <div class="result-score"></div>
+            <div class="result-label"></div>
+        </div>
+    </div>
+
+    <div class="exam-footer">
+        共通テスト英語問題データベース &copy; 2025 | 駿台実戦問題集 2025 第4回
+    </div>
+
+    <script src="../../../../app.js"></script>
+</body>
+
+</html>

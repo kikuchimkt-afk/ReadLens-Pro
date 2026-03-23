@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第2問 - 共通テスト英語問題DB</title>
+  <link rel="stylesheet" href="../../../../style.css">
+  <style>
+    .article-with-image { display: flex; gap: 16px; margin-bottom: 12px; }
+    .article-with-image .article-text { flex: 1; }
+    .article-with-image .article-img { flex: 0 0 140px; text-align: center; }
+    .article-with-image .article-img img { width: 130px; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .article-with-image { flex-direction: column; }
+      .article-with-image .article-img { flex: none; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="exam-header">
+    <a href="../../../../index.html" class="back-btn">← 問題一覧に戻る</a>
+    <div class="exam-title">駿台実戦 2025 第5回</div>
+    <div class="score-display">配点: 10点</div>
+  </div>
+
+  <div class="exam-container" data-section="section2">
+    <h1 class="section-heading">第2問</h1>
+    <p class="section-points">配点 10点（各2点×5問）</p>
+
+    <div class="passage-intro">
+      You and John, an exchange student from the UK, are the editors of a school English paper. He has written an article for the paper.
+    </div>
+
+    <div class="passage-box">
+      <div class="article-with-image">
+        <div class="article-text">
+          <p>Do you like using a tablet in class? The UK has been promoting ICT (Information and Communication Technology) education, but I don't think it's going smoothly. How about in Japan? Results of some surveys about Japanese high schools give us some answers.</p>
+        </div>
+        <div class="article-img">
+          <img src="../../../../images/sundai_2025_05/illust_tablet.png" alt="Tablet illustration">
+        </div>
+      </div>
+
+      <div class="info-box">
+        <p><span class="bullet">➤</span> The number of schools which didn't provide a tablet for each student was about five times as large as that of schools which did in 2018.</p>
+      </div>
+
+      <div class="info-box">
+        <p>In 2020, the situation was as follows:</p>
+        <p><span class="bullet">➤</span> The number of schools which didn't think of introducing tablets was more than three times as large as that of schools which did.</p>
+        <p><span class="bullet">➤</span> 43.8% of private high schools got tablets for each of their students, while only 5.4% of public ones provided each student with one.</p>
+        <p><span class="bullet">➤</span> There were many more private than public high schools which planned to give all students tablets.</p>
+      </div>
+
+      <p>As you know, in our school we are luckily provided with individual tablets. However, I wonder if they are properly and fully used by each student. Are the teachers skillful enough to use one? Are they trying to have each student make the most of his or her tablet in their everyday classes? I've got some information from the head teacher; four in ten of our math teachers are eager to promote ICT education. This is higher than the number of English teachers. Three in eleven of them are having their students use their tablets. And the lowest percentage goes to the Japanese teachers.</p>
+
+      <p>In fact, I wonder whether we will need to depend on such electronic tools more or not in the future. I think we've got to give questionnaires or something to the students and teachers at our school, and we may get hints about the usage of tablets which will lead to the improvement of the present situation.</p>
+    </div>
+
+    <!-- Questions -->
+    <div class="question-block" data-question="section2_4">
+      <div class="question-label">問1</div>
+      <div class="question-text">In terms of the ratios of your school's teachers who are trying ICT education eagerly, which shows the subject teachers' ranking from <strong><u>highest to lowest</u></strong>? <span class="answer-box">4</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section2', 4, 1)">
+          <span class="choice-number">①</span>
+          <span>English teachers — Japanese teachers — math teachers</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section2', 4, 2)">
+          <span class="choice-number">②</span>
+          <span>English teachers — math teachers — Japanese teachers</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section2', 4, 3)">
+          <span class="choice-number">③</span>
+          <span>Japanese teachers — English teachers — math teachers</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section2', 4, 4)">
+          <span class="choice-number">④</span>
+          <span>Japanese teachers — math teachers — English teachers</span>
+        </button>
+        <button class="choice-btn" data-choice="5" onclick="selectAnswer('section2', 4, 5)">
+          <span class="choice-number">⑤</span>
+          <span>math teachers — English teachers — Japanese teachers</span>
+        </button>
+        <button class="choice-btn" data-choice="6" onclick="selectAnswer('section2', 4, 6)">
+          <span class="choice-number">⑥</span>
+          <span>math teachers — Japanese teachers — English teachers</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section2_5">
+      <div class="question-label">問2</div>
+      <div class="question-text">John's comments on the current ICT education at his school show that <span class="answer-box">5</span>.</div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section2', 5, 1)">
+          <span class="choice-number">①</span>
+          <span>he feels ICT education in his own country is inferior</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section2', 5, 2)">
+          <span class="choice-number">②</span>
+          <span>he is satisfied with the effective way of using tablets at the school</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section2', 5, 3)">
+          <span class="choice-number">③</span>
+          <span>he is skeptical about whether tablets are being used effectively at the school</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section2', 5, 4)">
+          <span class="choice-number">④</span>
+          <span>he wants to see more kinds of online learning</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section2_6">
+      <div class="question-label">問3</div>
+      <div class="question-text">The statement that best reflects one finding from the survey is <span class="answer-box">6</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section2', 6, 1)">
+          <span class="choice-number">①</span>
+          <span>'I wish I were a public school student because I could get my own tablet.'</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section2', 6, 2)">
+          <span class="choice-number">②</span>
+          <span>'My school is public and isn't planning to promote ICT education now.'</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section2', 6, 3)">
+          <span class="choice-number">③</span>
+          <span>'One out of three schools provided tablets for each student in 2018.'</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section2', 6, 4)">
+          <span class="choice-number">④</span>
+          <span>'The majority of schools intend to improve their ICT education classes.'</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section2_7">
+      <div class="question-label">問4</div>
+      <div class="question-text">Which best summarises John's opinions about ICT education at his school? <span class="answer-box">7</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section2', 7, 1)">
+          <span class="choice-number">①</span>
+          <span>Some surveys are necessary to make the situation better.</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section2', 7, 2)">
+          <span class="choice-number">②</span>
+          <span>Tablets are not as useful as we expected.</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section2', 7, 3)">
+          <span class="choice-number">③</span>
+          <span>We have to hold classes for teachers to teach them how to use tablets.</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section2', 7, 4)">
+          <span class="choice-number">④</span>
+          <span>We need to make it easier for students to use tablets.</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="question-block" data-question="section2_8">
+      <div class="question-label">問5</div>
+      <div class="question-text">Which is the most suitable title for the article? <span class="answer-box">8</span></div>
+      <div class="choices">
+        <button class="choice-btn" data-choice="1" onclick="selectAnswer('section2', 8, 1)">
+          <span class="choice-number">①</span>
+          <span>Cost and Performance of Tablets</span>
+        </button>
+        <button class="choice-btn" data-choice="2" onclick="selectAnswer('section2', 8, 2)">
+          <span class="choice-number">②</span>
+          <span>Introducing Tablets and Their Future</span>
+        </button>
+        <button class="choice-btn" data-choice="3" onclick="selectAnswer('section2', 8, 3)">
+          <span class="choice-number">③</span>
+          <span>Strategy for Distributing Tablets to Public Schools</span>
+        </button>
+        <button class="choice-btn" data-choice="4" onclick="selectAnswer('section2', 8, 4)">
+          <span class="choice-number">④</span>
+          <span>Usefulness of and Problems with Tablets</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="submit-area">
+      <button class="submit-btn" id="submit-section2" onclick="gradeSection('section2')" disabled>採点する (0/5)</button>
+    </div>
+
+    <div class="result-panel" id="result-section2">
+      <div class="result-score"></div>
+      <div class="result-label"></div>
+    </div>
+  </div>
+
+  <div class="exam-footer">
+    共通テスト英語問題データベース &copy; 2025 | 駿台実戦問題集 2025 第5回
+  </div>
+
+  <script src="../../../../app.js"></script>
+</body>
+</html>

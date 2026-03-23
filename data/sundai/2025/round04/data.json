@@ -1,0 +1,3838 @@
+{
+  "exam_info": {
+    "title": "2025年駿台共通テスト実戦問題集",
+    "round": 4,
+    "round_label": "第4回",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 45,
+    "source_pdf_mondai": "第4回_問題.pdf",
+    "source_pdf_kaitou": "第4回_解答.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "situation": {
+        "en": "You are looking at an advertisement for an art gallery in Wellington, New Zealand and notice information about a competition for college students. You are considering taking part.",
+        "ja": "あなたはニュージーランドのウェリントンにある美術館の広告を見ており，大学生向けのコンクールに関する知らせに注目します。あなたは参加を検討しています。"
+      },
+      "passages": [
+        {
+          "id": "advertisement",
+          "title": {
+            "en": "College Students — Transform Your Trash!",
+            "ja": "大学生よ，ごみを一変させよ！"
+          },
+          "sentences": [
+            {
+              "id": "s1_s1",
+              "en": "Time to clean out your room and get rid of your trash? Read on!",
+              "ja": "部屋をきれいにしてごみを処分する時では？　以下を一読あれ！"
+            },
+            {
+              "id": "s1_s2",
+              "en": "Your task is to keep a seven-day diary of all the rubbish from your big clean-up and make something 'cool' or useful!",
+              "ja": "課題は，大掃除をして出たごみすべてについて7日間の日記をつけ，「クール」なものや実用品を作ること！"
+            },
+            {
+              "id": "s1_s3",
+              "en": "Rules of Entry",
+              "ja": "参加規則"
+            },
+            {
+              "id": "s1_s4",
+              "en": "Record your trash every day for one week between April 1 and May 19.",
+              "ja": "4月1日から5月19日までのうちの1週間，毎日ごみの記録を残してください。"
+            },
+            {
+              "id": "s1_s5",
+              "en": "Make a piece of art or something useful using your trash.",
+              "ja": "ごみを使ってアート作品か実用品を作ってください。"
+            },
+            {
+              "id": "s1_s6",
+              "en": "Take 3 to 5 pictures of your work after the seven days and upload them on the relevant link with your trash diary by 23:59 May 26.",
+              "ja": "7日間経った後に作品の写真を3枚から5枚撮って，5月26日23時59分までにごみの日誌と一緒に，対応するリンクにアップロードしてください。"
+            },
+            {
+              "id": "s1_s7",
+              "en": "Explain in under 30 words why you made your entry.",
+              "ja": "30語未満であなたの出品作の作製理由を説明してください。"
+            },
+            {
+              "id": "s1_s8",
+              "en": "Vote for the Best!",
+              "ja": "最高作品に投票を！"
+            },
+            {
+              "id": "s1_s9",
+              "en": "You can only vote once in each of the categories, and not for your own work.",
+              "ja": "各カテゴリーに1回のみ投票可で，自作への投票は不可とします。"
+            },
+            {
+              "id": "s1_s10",
+              "en": "Click the link to look at all the entries and vote from May 27 until the last day of the month at 20:00.",
+              "ja": "出品作すべてを見るにはリンクをクリックし，5月27日から5月の末日の20時までに投票してください。"
+            },
+            {
+              "id": "s1_s11",
+              "en": "Each vote costs 1.5 NZD, which will be donated to recycling awareness.",
+              "ja": "投票ごとにかかる1.5ニュージーランド・ドルは，リサイクル意識の向上のために役立てられます。"
+            },
+            {
+              "id": "s1_s12",
+              "en": "Winners",
+              "ja": "優勝者"
+            },
+            {
+              "id": "s1_s13",
+              "en": "The winner of the 'Art' category will have his/her piece exhibited in our gallery until January 5 next year!",
+              "ja": "「アート」カテゴリーの優勝者は，来年1月5日まで作品を当館で展示します！"
+            },
+            {
+              "id": "s1_s14",
+              "en": "The winner of the 'Something Useful' category will have his/her work reproduced by a professional local artist and sold in our gift shop!",
+              "ja": "「実用品」カテゴリーの優勝者は，作品を地元のプロのアーティストが複製して当館のギフトショップで売り出します！"
+            },
+            {
+              "id": "s1_s15",
+              "en": "Those in first, second and third place will each get two free tickets for our summer 'It's Trash?' exhibition!",
+              "ja": "1等，2等，3等入賞者にはそれぞれ，当館の夏の「それってごみなの？」展の無料入場券2枚をお贈りします！"
+            }
+          ],
+          "advertisement_sections": [
+            {
+              "type": "intro",
+              "sentence_ids": [
+                "s1_s1",
+                "s1_s2"
+              ]
+            },
+            {
+              "type": "bullet",
+              "heading": {
+                "en": "Rules of Entry",
+                "ja": "参加規則"
+              },
+              "heading_sentence_id": "s1_s3",
+              "sentence_ids": [
+                "s1_s4",
+                "s1_s5",
+                "s1_s6",
+                "s1_s7"
+              ],
+              "links": [
+                {
+                  "en": "→ Upload Art",
+                  "ja": "→ アートをアップロード"
+                },
+                {
+                  "en": "→ Upload Something Useful",
+                  "ja": "→ 実用品をアップロード"
+                }
+              ],
+              "links_after_sentence_id": "s1_s6"
+            },
+            {
+              "type": "bullet",
+              "heading": {
+                "en": "Vote for the Best!",
+                "ja": "最高作品に投票を！"
+              },
+              "heading_sentence_id": "s1_s8",
+              "sentence_ids": [
+                "s1_s9",
+                "s1_s10",
+                "s1_s11"
+              ],
+              "links": [
+                {
+                  "en": "→ Vote",
+                  "ja": "→ 投票"
+                }
+              ],
+              "links_after_sentence_id": "s1_s10"
+            },
+            {
+              "type": "text",
+              "heading": {
+                "en": "Winners",
+                "ja": "優勝者"
+              },
+              "heading_sentence_id": "s1_s12",
+              "sentence_ids": [
+                "s1_s13",
+                "s1_s14",
+                "s1_s15"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "question_text": {
+            "en": "You can upload your work between [1].",
+            "ja": "作品は[1]の間にアップロードできる。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "April 1 and May 19",
+              "ja": "4月1日から5月19日",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "April 8 and May 26",
+              "ja": "4月8日から5月26日",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "May 27 and May 31",
+              "ja": "5月27日から5月31日",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "June 1 and January 5",
+              "ja": "6月1日から1月5日",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。Rules of Entry（参加規則）の第1文 (Record your trash ...) ～第3文 (Take 3 to ...) に「4月1日から5月19日までのうちの1週間，毎日ごみの記録を残し」，「アート作品か実用品を作って」，「7日間経った後に作品の写真を3枚から5枚撮って，5月26日23時59分までにごみの日誌と一緒に，対応するリンクにアップロード」するように，とある。最も早くアップロードするには4月1日から7日までごみの記録を残した後で翌8日に行うことになり，締め切りは5月26日であるため，②が正解。",
+            "evidence_sentences": [
+              "s1_s4",
+              "s1_s6"
+            ]
+          },
+          "points": 2
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "question_text": {
+            "en": "When entering this competition you have to [2].",
+            "ja": "このコンクールに参加する際には，[2]ならない。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "buy something you want at the gift shop",
+              "ja": "ギフトショップで何か欲しい物を買わなければ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "collect different kinds of trash",
+              "ja": "さまざまな種類のごみを集めなければ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "create something with your unwanted things",
+              "ja": "自分の要らない物で何かを作らなければ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "vote for two different entries",
+              "ja": "2つの違う出品作に投票しなければ",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。コンクールに出品する作品は，本文冒頭の1文 (Your task is ...) にあるように「大掃除をして出たごみ」つまり「自分にとって要らない物」で作ることを求められているため，③が正解。\n他の選択肢の内容は広告に含まれない。",
+            "evidence_sentences": [
+              "s1_s2"
+            ]
+          },
+          "points": 2
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "question_text": {
+            "en": "If you come in second or third place you will be able to [3].",
+            "ja": "2等や3等に入賞すると[3]ことができる。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "meet an artist who works in Wellington",
+              "ja": "ウェリントンで働くアーティストに会う",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "select something from the gift shop",
+              "ja": "ギフトショップで何か選ぶ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "take someone to see a summer exhibition",
+              "ja": "夏の展覧会を見に誰かを連れて行く",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "visit the gallery whenever until January",
+              "ja": "1月までならいつでも美術館を訪ねる",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。Winners（優勝者）の第3文 (Those in first, ...) に「1等，2等，3等入賞者にはそれぞれ，当館の夏の『それってごみなの？』展の無料入場券2枚を」贈るとあるので，夏の展覧会を連れて1人伴って行くことができることになるため，③が正解。\n他の選択肢の内容は広告に含まれない。",
+            "evidence_sentences": [
+              "s1_s15"
+            ]
+          },
+          "points": 2
+        }
+      ]
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 10,
+      "points_per_question": 2,
+      "situation": {
+        "en": "You are a member of staff for your school English magazine. Paula, an assistant teacher from the UK, has submitted an article.",
+        "ja": "あなたはあなたの学校の英語雑誌のスタッフの一員です。イギリスから来た助教員のポーラが記事を投稿しました。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Do you believe in aliens?",
+            "ja": "宇宙人の存在を信じますか？"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s2_s1",
+                "en": "A recent survey showed people in Mexico in particular are believers, but not as many as Russia where around 70% of people think we humans are not the only intelligent lifeform.",
+                "ja": "最近の調査によれば，メキシコの人々はとりわけ信じがちですが，約70%の人々が我々人類だけが知的な生命体であるわけではないと信じているロシアほどではありません。"
+              },
+              {
+                "id": "s2_s2",
+                "en": "Whereas just under half of people in China think so, in Holland about one in four people would agree.",
+                "ja": "これに対し，中国でそう考えている人々は半分弱で，オランダで同意するのは4人に1人ほどのようです。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s3",
+                "en": "So, should we spend more time studying space?",
+                "ja": "では，宇宙についての研究にさらに時間をかけるべきなのでしょうか。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s4",
+                "en": "A well-known science magazine states the pros and cons of exploring space.",
+                "ja": "よく知られた科学雑誌が宇宙探索の良い点と悪い点を述べています。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "info_box",
+          "is_info_box": true,
+          "title": {
+            "en": "Advantages of space exploration are:",
+            "ja": "宇宙探索の利点とは："
+          },
+          "sentences": [
+            {
+              "id": "s2_s5",
+              "en": "Many technologies designed to let us go into space now improve our lives at home.",
+              "ja": "我々の宇宙行きを可能にするための多くのテクノロジーが，今や地球での我々の生活を向上させている。"
+            },
+            {
+              "id": "s2_s6",
+              "en": "Most of our studies are done from Earth, so we don't even need to travel outside our planet.",
+              "ja": "我々の研究の大部分は地球でなされているので，我々は地球外へと飛行する必要さえない。"
+            },
+            {
+              "id": "s2_s7",
+              "en": "It is important for finding another planet where humans can survive after using all of Earth's resources.",
+              "ja": "地球の資源のすべてを使ってしまった後で，人類が生き延びることのできる別の惑星を見つけるために重要である。"
+            },
+            {
+              "id": "s2_s8",
+              "en": "However, researching about space is incredibly expensive, and it is necessary to use a lot of natural resources as fuels.",
+              "ja": "しかし，宇宙に関する調査には途方もない費用がかかり，多くの天然資源を燃料として使用する必要がある。"
+            },
+            {
+              "id": "s2_s9",
+              "en": "We are also turning space into a huge trash can, with all the garbage we are leaving up there.",
+              "ja": "さらに我々は宇宙を，そこに我々が残すことになるあらゆるごみの入った巨大なごみ箱にしようとしている。"
+            }
+          ],
+          "advertisement_sections": [
+            {
+              "type": "bullet",
+              "sentence_ids": [
+                "s2_s5",
+                "s2_s6",
+                "s2_s7"
+              ]
+            },
+            {
+              "type": "text",
+              "sentence_ids": [
+                "s2_s8",
+                "s2_s9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "conclusion",
+          "paragraphs": [
+            [
+              {
+                "id": "s2_s10",
+                "en": "Men and younger generations tend to believe in aliens the most, perhaps because of their love of alien movies and the high-tech special effects today which seem so real.",
+                "ja": "男性や若い世代が宇宙人の存在を信じる傾向が最も強いのですが，これは彼らが，宇宙人の映画やとてもリアルな印象の今日のハイテクによる特殊効果を非常に好むためかもしれません。"
+              },
+              {
+                "id": "s2_s11",
+                "en": "Religious people often believe that humans are unique because they were created by God.",
+                "ja": "信心深い人々は往々にして，神によって創造されたがゆえに人類はかけがえがない，と信じています。"
+              },
+              {
+                "id": "s2_s12",
+                "en": "Though more than half of us think that there must be life beyond Earth, more than three out of five people, myself included, don't think anything is likely to be as intelligent as humans.",
+                "ja": "我々の半数以上が地球外に生命が存在するに違いないと考えてはいますが，私を含めて5人に3人以上が，人類と同じくらい知能が高いものがいそうだとは思っていません。"
+              },
+              {
+                "id": "s2_s13",
+                "en": "I wonder if it is worth trying to find out the truth.",
+                "ja": "真理を探り出そうと努める価値はあるのでしょうか。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "src": "images/s2_ufo.png",
+              "alt": "UFO illustration",
+              "position": "float-left",
+              "paragraph_index": 0
+            },
+            {
+              "src": "images/s2_aliens.png",
+              "alt": "Aliens illustration",
+              "position": "float-right",
+              "paragraph_index": 0
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "question_text": {
+            "en": "In terms of the ratio of people who believe in aliens, which shows the countries' ranking from highest to lowest? [4]",
+            "ja": "宇宙人の存在を信じる人々の比率に関して，最高から最低までの国別の順位を示すものはどれか [4]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "China — Holland — Russia",
+              "ja": "中国－オランダ－ロシア",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "China — Russia — Holland",
+              "ja": "中国－ロシア－オランダ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Holland — China — Russia",
+              "ja": "オランダ－中国－ロシア",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Holland — Russia — China",
+              "ja": "オランダ－ロシア－中国",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Russia — China — Holland",
+              "ja": "ロシア－中国－オランダ",
+              "is_correct": true
+            },
+            {
+              "label": "⑥",
+              "en": "Russia — Holland — China",
+              "ja": "ロシア－オランダ－中国",
+              "is_correct": false
+            }
+          ],
+          "answer": "⑤",
+          "explanation": {
+            "ja": "正解は⑤。ポーラの記事の第1段落第2文 (A recent survey ...) から，宇宙人の存在を信じるロシア人は約70%，最終文 (Whereas just under ...) から，中国人では半分をわずかに下回り，オランダ人では4人に1人ほどとわかるので，⑤が正解。",
+            "evidence_sentences": [
+              "s2_s1",
+              "s2_s2"
+            ]
+          },
+          "points": 2
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "question_text": {
+            "en": "According to the well-known scientific magazine, one advantage of exploring space is that [5].",
+            "ja": "よく知られたその科学雑誌によれば，宇宙探索の利点の1つは [5] ということである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "we can make life more exciting",
+              "ja": "我々は人生をより刺激的にできる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "we go to outer space more easily",
+              "ja": "我々は宇宙空間によりたやすく行く",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "we have more advanced technology",
+              "ja": "我々がより進歩した科学技術を手にしている",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "we will find a healthier planet",
+              "ja": "我々は健康により良い惑星を見つける",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。ポーラの記事に記載された科学記事からの引用の1つめの➤ (Many technologies designed ...) に，「我々の宇宙行きを可能にするための多くのテクノロジーが，今や地球での我々の生活を向上させている」とあるので，③が正解。\n他の選択肢は引用部分に含まれない内容。",
+            "evidence_sentences": [
+              "s2_s5"
+            ]
+          },
+          "points": 2
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "question_text": {
+            "en": "One way of thinking mentioned in Paula's article is [6].",
+            "ja": "ポーラの記事内で言及されているある考え方は，[6] というものである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "'Humans, made by God, are a special lifeform.'",
+              "ja": "「神によって創られた人類は特別な生命形態である」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "'Men like science fiction movies best.'",
+              "ja": "「男性はSF映画を最も好む」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "'More study on our own planet is necessary.'",
+              "ja": "「我々自身の惑星をさらに研究することが必要である」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "'Space is a good place to put trash.'",
+              "ja": "「宇宙はごみを捨てるのに適した場所である」",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。ポーラの記事の最終段落第2文 (Religious people often ...) に，信心深い人々について「神によって創造されたがゆえに人類はかけがえがない」という見解を取る場合が多いことが述べられているので，①が正解。\n②は最終段落第1文 (Men and younger ...) に「彼ら [＝男性や若い世代] が，宇宙人の映画や…を非常に好む」とは書かれているが，「SF映画全般を」「最も」好むという内容とはずれがあるため不適。③は本文に書かれていない内容。④の宇宙へのごみ投棄について書かれているのは，科学記事からの引用の最終文 (We are also ...) に見られる「我々は宇宙を…巨大なごみ箱にしようとしている」という懸念であるため，不適。",
+            "evidence_sentences": [
+              "s2_s11"
+            ],
+            "why_others_wrong": [
+              {
+                "label": "②",
+                "ja": "最終段落第1文に「彼らが宇宙人の映画や…を非常に好む」とはあるが，「SF映画全般を」「最も」好むという内容とはずれがあり不適。"
+              },
+              {
+                "label": "③",
+                "ja": "本文に書かれていない内容。"
+              },
+              {
+                "label": "④",
+                "ja": "科学記事からの引用の最終文に見られる「我々は宇宙を…巨大なごみ箱にしようとしている」という懸念であり，「適した場所」とは異なるため不適。"
+              }
+            ]
+          },
+          "points": 2
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "question_text": {
+            "en": "Which best summarises Paula's opinion about aliens? [7]",
+            "ja": "宇宙人についてのポーラの意見を最も正しく要約したものはどれか [7]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "It is unlikely that they exist.",
+              "ja": "それらは存在しそうにない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "People might never know the truth.",
+              "ja": "人々が真理を知ることは決してないかもしれない。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Real aliens are unlikely to be very intelligent.",
+              "ja": "実際の宇宙人はあまり知的ではありそうにない。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Whether you believe doesn't depend on your culture.",
+              "ja": "信じるか否かはその人の文化にはよらない。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。ポーラの記事の最終段落第3文 (Though more than ...) に「私を含めて5人に3人以上が，人類と同じくらい知能が高いものがいそうだとは思っていません」と書かれているので，③が正解。\n他の選択肢は本文に見られない内容。",
+            "evidence_sentences": [
+              "s2_s12"
+            ]
+          },
+          "points": 2
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 8,
+          "question_text": {
+            "en": "Which is the most suitable title for the article? [8]",
+            "ja": "記事に対する最も適切な題名はどれか [8]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "God or Science?",
+              "ja": "神かそれとも科学か",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Protecting Our Planet",
+              "ja": "我が惑星を守ること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Space — Should We Know More?",
+              "ja": "宇宙―我々はさらに多くを知るべきか",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The Human Imagination",
+              "ja": "人間の想像力",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。ポーラの記事の第2段落 (So, should we ...) の「宇宙についての研究にさらに時間をかけるべきなのでしょうか」という問いかけや，最終段落最終文 (I wonder if ...) の「真理を探り出そうと努める価値はあるのでしょうか」という疑問から，彼女が宇宙研究に対していささか懐疑的な立場を取っていることがわかるため，③が最も適切であると言える。\n他の選択肢は，それぞれポーラの記事といくらかは関連があるが，その全体の内容を表す題名としては不適切。",
+            "evidence_sentences": [
+              "s2_s3",
+              "s2_s13"
+            ]
+          },
+          "points": 2
+        }
+      ]
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_note": "問1: 3点*、問2: 3点、問3: 3点\n* は，全部正解の場合のみ点を与える。",
+      "situation": {
+        "en": "You are interested in joining a worthwhile project and have found a story in a catalogue about volunteering.",
+        "ja": "あなたはやりがいのある事業への参加に興味を持ち，ボランティア活動のカタログに載っているある話を見つけました。"
+      },
+      "passages": [
+        {
+          "id": "story",
+          "title": {
+            "en": "Building for the Future",
+            "ja": "未来に向けた建設"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s3_s1",
+                "en": "Last July, I headed to a small town in Romania, with seven other students from my school and two former students who graduated last year.",
+                "ja": "昨年の7月，私は同じ学校の他の7人の生徒に加え昨年の卒業生2人と共に，ルーマニアの小さな町へと向かった。"
+              },
+              {
+                "id": "s3_s2",
+                "en": "Our destination was a rural town in a poor part of this developing nation, and our goal was to help as volunteers for Habitat for Humanity.",
+                "ja": "我々が目指したのはこの発展途上国の貧困地域の田舎町で，目的は「人類のすみか」のためのボランティアとして支援することだった。"
+              },
+              {
+                "id": "s3_s3",
+                "en": "We would spend two weeks as part of a project designed to bring about permanent, lasting changes to a struggling community.",
+                "ja": "奮闘中の共同体に恒久的永続的変化をもたらすことを目指す事業の一部として，我々は2週間を過ごすことになっていた。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s4",
+                "en": "I had absolutely no building experience except for painting, which I finally put into practice the day before I left Romania.",
+                "ja": "私は塗装を除いては建築の経験は皆無だったが，その塗装はルーマニアを発つ前日にようやく行った。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s5",
+                "en": "After a short flight and a long bus ride through beautiful countryside, interrupted only by a group of sheep being driven along a narrow road, we arrived.",
+                "ja": "短時間飛行機に乗ってから，狭い道でヒツジの群れが追いたてられているのに足止めされることなく，美しい田園地帯を長いことバスに揺られた後，我々は到着した。"
+              },
+              {
+                "id": "s3_s6",
+                "en": "Not long after being shown the basic accommodation where we would stay, we were handed a hard protective hat and a schedule.",
+                "ja": "滞在することになる簡素な宿泊設備を案内されて間もなく，我々は頑丈な防護用のヘルメットとスケジュール表を手渡された。"
+              },
+              {
+                "id": "s3_s7",
+                "en": "Some 200 people from various parts of the world had been there weeks or days and would tell newcomers what to do.",
+                "ja": "そこには世界各地から約200人が数週間あるいは数日間滞在しており，新参者にすべきことを教えていた。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s8",
+                "en": "I arrived at the site to find neat holes dug in the ground, building materials organized and laid out with the necessary tools for the job, and a tent for breaks.",
+                "ja": "現場に到着してみると，穴が地面に整然と掘られ，仕事に必要な道具類と共に建築資材が整えて並べられており，休憩用のテントもあった。"
+              },
+              {
+                "id": "s3_s9",
+                "en": "The first day my team's task was to cut wood to a certain size, and then build an outside wall of a house with bricks.",
+                "ja": "初日の私のチームの仕事は，木材を決まった大きさに切った後レンガを使って家の外壁を作ることだった。"
+              },
+              {
+                "id": "s3_s10",
+                "en": "My motivation was soon lost when a team member began shouting at me.",
+                "ja": "ほどなく私が意欲を失ってしまったのは，チームのあるメンバーが私を怒鳴りつけ始めたときだった。"
+              },
+              {
+                "id": "s3_s11",
+                "en": "I'd measured the wood wrongly and the pieces were too small.",
+                "ja": "私は木材の測り方を間違えて小さく切り過ぎてしまったのである。"
+              },
+              {
+                "id": "s3_s12",
+                "en": "To make matters worse I'd been unprepared for the heat and had had to take a long break in the morning after feeling ill.",
+                "ja": "なお悪いことに，私は暑さに対して準備ができていなくて，具合が悪くなってから午前中に長い休憩を取らざるを得なかったのである。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s13",
+                "en": "Considering quitting, I found new drive when the angry woman from the first day calmly explained to me that any mistake could delay the completion of the homes for those waiting for them.",
+                "ja": "やめることも考えていたが，初日から腹を立てた女性に，どんな過ちでも家の完成を待ち望んでいる人々にとってはそれを遅らせることにもつながるのだ，と冷静に説明されて，あらためてやる気が湧いてきた。"
+              },
+              {
+                "id": "s3_s14",
+                "en": "I realized I needed to be more serious.",
+                "ja": "もっと真剣にならなければ，と気づかされたのである。"
+              },
+              {
+                "id": "s3_s15",
+                "en": "On the night before I started working, my team had been introduced to teen sisters who would get one of the homes and when our job was complete, I spoke to them.",
+                "ja": "働き始める前夜に，家の1軒に住まうことになっている十代の姉妹に我々は紹介されていたが，我々の仕事が完了したときに私は彼女たちと話をした。"
+              },
+              {
+                "id": "s3_s16",
+                "en": "They explained that they had lost their parents in farming accidents as small kids and had had to drop out of school to earn money, staying in a home packed with parentless kids.",
+                "ja": "彼女たちは，小さい時に両親を農作業中の事故で亡くして，金を稼ぐために学校を辞めざるを得ず，孤児であふれるホームに住んでいたのだ，と説明された。"
+              },
+              {
+                "id": "s3_s17",
+                "en": "Though a tough two weeks, as I saw their tears of happiness, it was all worth it.",
+                "ja": "きつい2週間だったが，彼女たちのうれし涙を見たとき十分に報われた。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "src": "images/s3_workers.png",
+              "alt": "Construction workers illustration",
+              "position": "float-right",
+              "paragraph_index": 0,
+              "max_width": 132
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "type": "ordering",
+          "answer_slots": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "points": 3,
+          "points_note": "完答で3点",
+          "question_text": {
+            "en": "Put the following events (①〜④) into the order they happened.\n[9] → [10] → [11] → [12]",
+            "ja": "次の出来事 (①〜④) を起こった順番に並べよ。\n[9] → [10] → [11] → [12]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Some sheep delayed the group.",
+              "ja": "ヒツジがグループを遅らせた。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The team first met two sisters who would get a home.",
+              "ja": "チームが，家を手に入れる姉妹に初めて会った。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The writer did some painting.",
+              "ja": "筆者が塗装を行った。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The writer got sick because of the hot weather.",
+              "ja": "暑い気候のために筆者が具合が悪くなった。",
+              "is_correct": false
+            }
+          ],
+          "answer": "① → ② → ④ → ③",
+          "correct_order": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "explanation": {
+            "ja": "正解は①→②→④→③。①は第2段落第1文 (After a short ...) より，筆者のグループが目的地の村に向かう移動中での出来事。②は第4段落第3文 (On the night ...) より，筆者が働き始める前夜のこと。③は第1段落最終文 (I had absolutely ...) より，筆者がルーマニアを発つ前日のこと。④は第3段落第2文 (The first day ...) および最終文 (To make matters ...) より，筆者が働き始めた日のこと。以上より，①→②→④→③が正解。",
+            "evidence_sentences": [
+              "s3_s5",
+              "s3_s15",
+              "s3_s4",
+              "s3_s12"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 13,
+          "points": 3,
+          "question_text": {
+            "en": "Why did one of the team members get so angry with the writer? [13]",
+            "ja": "なぜチームのメンバーの1人は，それほどまでに筆者に腹を立てたのか [13]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The writer behaved in too unfriendly a manner.",
+              "ja": "筆者があまりにも不愛想な態度を取った。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The writer didn't cut the wood to the right size.",
+              "ja": "筆者が木材を正しい大きさに切らなかった。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "The writer failed in health care.",
+              "ja": "筆者が健康管理に失敗した。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The writer lied about her building experience.",
+              "ja": "筆者が建築の経験について嘘をついた。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。第3段落第3文 (My motivation was ...) ，第4文 (I'd measured the ...) より，このメンバーが筆者を怒鳴りつけたのは，筆者が「木材の測り方を間違えて小さく切り過ぎてしまった」ことが理由であったため，②が正解。\n①，④については本文に言及のない内容。③については，第3段落最終文 (To make matters ...) に「なお悪いことに，私は暑さに対して準備ができていなくて，具合が悪くなってから午前中に長い休憩を取らざるを得なかった」とあるが，冒頭の「なお悪いことに」の含意は「怒鳴られて筆者が意欲を失ったことに加えて」ということであって，「筆者が体調を崩した」と「メンバーの1人の立腹」とは別のこととして描かれており，両者の間に因果関係はない。",
+            "evidence_sentences": [
+              "s3_s10",
+              "s3_s11"
+            ],
+            "why_others_wrong": [
+              {
+                "label": "①",
+                "ja": "本文に言及のない内容。"
+              },
+              {
+                "label": "③",
+                "ja": "第3段落最終文に「暑さに対して準備ができていなくて具合が悪くなった」とあるが，これは「怒鳴られて意欲を失ったことに加えて」の出来事であり，メンバーの立腹とは因果関係がない。"
+              },
+              {
+                "label": "④",
+                "ja": "本文に言及のない内容。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 14,
+          "points": 3,
+          "question_text": {
+            "en": "From this story, you learned that the project's aim was to [14].",
+            "ja": "この話から，事業の目標は [14] ことであったことがわかった。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "build a center for kids without parents",
+              "ja": "孤児のためのセンターを建設する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "help make basic homes more comfortable",
+              "ja": "質素な家をより快適にすることに助力する",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "provide people with long-term accommodation",
+              "ja": "人々に長期にわたる住居を供給する",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "teach people with little education new skills",
+              "ja": "わずかな教育しか受けていない人々に新たな技能を教える",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。第1段落第2文 (Our destination was ...) の「目的は『人類のすみか』のためのボランティアとして支援すること」，同段落第3文 (We would spend ...) の「奮闘中の共同体に恒久的永続的変化をもたらすことを目指す事業」，最終段落第1文 (Considering quitting, I ...) の「家の完成を待ち望んでいる人々」といった表現が見られることなどから総合的に判断して，③が正解であるとわかる。\n他の選択肢については，事業がそれらを目指していることを示す記述は特に見られず，いずれも不適。",
+            "evidence_sentences": [
+              "s3_s2",
+              "s3_s3",
+              "s3_s13"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "situation": {
+        "en": "In English class you are writing an essay on IT problems you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "英語の授業であなたは関心のあるIT問題についてのエッセイを書いています。これが最も新しい草稿です。あなたは今，先生からのコメントに基づいて，修正に取り組んでいます。"
+      },
+      "passages": [
+        {
+          "id": "essay",
+          "title": {
+            "en": "AI art generators should be used properly",
+            "ja": "画像生成AIは適切に用いるべきだ"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s4_s1",
+                "en": "In recent years, artificial intelligence (AI) has developed rapidly.",
+                "ja": "近年，人工知能（AI）が急速に発達してきました。"
+              },
+              {
+                "id": "s4_s2",
+                "en": "AI is used for many things, such as generating music, translating foreign languages, and analyzing data.",
+                "ja": "AIは，音楽を生成したり，外国語を翻訳したり，データを分析したりといった多くのことに用いられます。"
+              },
+              {
+                "id": "s4_s3",
+                "en": "AI can be used in many positive ways.",
+                "ja": "AIは多くの建設的な形で使用することが可能です。"
+              },
+              {
+                "id": "s4_s4",
+                "en": "However, many artists are worried about AI programs that generate art.",
+                "ja": "しかし，多くの美術家が美術作品を生成するAIプログラムに懸念を抱いています。"
+              },
+              {
+                "id": "s4_s5",
+                "en": "They believe these programs should be limited or restricted.",
+                "ja": "彼らはこうしたプログラムは制限されるか規制されるべきであると考えているのです。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s6",
+                "en": "First, AI art generators steal the work of real artists.",
+                "ja": "第一に，画像生成AIは実在する美術家の作品を盗用します。"
+              },
+              {
+                "id": "s4_s7",
+                "en": "These programs must be trained on thousands of examples of real art made by human artists.",
+                "ja": "こうしたプログラムは，人間の美術家によって制作された数千にも及ぶ本物の美術作品の実例をもとにして学習しなければなりません。",
+                "comment_marker": "(1)",
+                "marker_type": "caret"
+              },
+              {
+                "id": "s4_s8",
+                "en": "Many artists don't consent to AI programs using their art this way.",
+                "ja": "多くの美術家は，AIプログラムがそのようにして自分たちの美術作品を利用することを承諾していません。"
+              },
+              {
+                "id": "s4_s9",
+                "en": "They believe their work has been stolen and is being used illegally.",
+                "ja": "彼らは自分たちの作品が盗まれ，不法に利用されていると考えているのです。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s10",
+                "en": "Second, AI art takes jobs from real artists.",
+                "ja": "第二に，AI画像は実在する美術家の仕事を奪ってしまいます。"
+              },
+              {
+                "id": "s4_s11",
+                "en": "AI art generators can make photographs or pictures at a much lower price than a human artist and in much less time.",
+                "ja": "画像生成AIは，人間の美術家よりもはるかに安い価格で，しかもはるかに少ない時間で写真や絵を作成することができます。"
+              },
+              {
+                "id": "s4_s12",
+                "en": "This changes the demand for real artists and leaves them with less work.",
+                "ja": "こうしたことは実在する美術家に対する需要を変化させ，彼らの仕事を減らしてしまいます。",
+                "comment_marker": "(2)",
+                "underline_word": "changes",
+                "marker_type": "underline"
+              },
+              {
+                "id": "s4_s13",
+                "en": "In the future, this may cause artists to lose their jobs, even though they are highly skilled and have spent years perfecting their skills.",
+                "ja": "将来的には，たとえ美術家が高度な技術を有し，数年かけて自分の技術を完成させてきたのだとしても，そうしたことが原因で美術家は仕事を失ってしまうかもしれないのです。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s14",
+                "en": "Finally, let's consider learning art.",
+                "ja": "最後に，美術の学習について考えてみましょう。",
+                "comment_marker": "(3)",
+                "marker_type": "caret"
+              },
+              {
+                "id": "s4_s15",
+                "en": "Drawing, painting, and photography are all creative forms of expression, and are important to us as human beings.",
+                "ja": "線画や絵画や写真はみな創造的な表現形態であり，私たち人間にとって重要なものです。"
+              },
+              {
+                "id": "s4_s16",
+                "en": "Practicing art develops the small muscles in our hands and encourages imagination and creativity.",
+                "ja": "美術の練習は手の小さな筋肉を発達させ，想像力と創造性を促します。"
+              },
+              {
+                "id": "s4_s17",
+                "en": "If art becomes something we can make at the click of a button, we will lose this important part of our culture.",
+                "ja": "もし美術がボタンをクリックすることで作ることができるものになってしまうならば，私たちの文化におけるこの重要な要素を失うことになるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s18",
+                "en": "In conclusion, AI programs sample the work of artists without permission, they reduce work opportunities for artists, and they discourage people from making art themselves.",
+                "ja": "結論として，AIプログラムは許諾なしに美術家の作品の見本を取り，美術家の仕事の機会を減少させ，人々が自分で美術作品を制作しようとする気持ちをなくさせてしまいます。"
+              },
+              {
+                "id": "s4_s19",
+                "en": "Many artists believe that despite the advantages of AI art, it has a negative influence on our culture overall.",
+                "ja": "多くの美術家は，AI画像の利点にもかかわらず，それは私たちの文化全般に悪影響をもたらしていると考えています。",
+                "comment_marker": "(4)",
+                "marker_type": "caret",
+                "marker_position": "after"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "Can you tell me how the AI programs do that? Add more information here.",
+              "ja": "AIプログラムがどのようにしてそれを行うのかを私に教えてくれませんか？ ここにさらに情報を追加してください。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Changes the demand in what way? Be more specific.",
+              "ja": "どのように需要を変化させるのですか。もっと具体化してください。"
+            },
+            {
+              "marker": "(3)",
+              "en": "The topic sentence doesn't adequately summarize your point. Rewrite it.",
+              "ja": "主題文は論点を適切に要約していません。書き直してください。"
+            },
+            {
+              "marker": "(4)",
+              "en": "Add a concluding sentence here.",
+              "ja": "ここに結論となる文を追加してください。"
+            }
+          ],
+          "teacher_comment": {
+            "en": "This is very interesting. I had never thought about the problems with AI art generators before. Good work!",
+            "ja": "これは非常に興味深いものです。私はこれまで画像生成AIについて考えたことはありませんでした。よく頑張りました！"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 15,
+          "points": 3,
+          "question_text": {
+            "en": "Based on comment (1), which sentence should you insert here? [15]",
+            "ja": "コメント(1)に基づくと，ここにどの文を入れるべきか [15]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI programs analyze these images and sample them to make new ones.",
+              "ja": "AIプログラムはこれらの画像を分析し，それらの見本を取って新しい画像を作ります。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "AI programs can make original art without using other people's images.",
+              "ja": "AIプログラムは他者の画像を使用することなく，オリジナルの美術作品を制作することができます。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "AI programs use art or photography bought from professional artists.",
+              "ja": "AIプログラムはプロの美術家から購入した美術作品や写真を利用します。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "AI programs use pictures donated for free by human artists.",
+              "ja": "AIプログラムは人間の美術家から無料で寄付された絵画を利用します。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。コメント(1)には，「AIプログラムがどのようにしてそれを行うのかを私に教えてくれませんか？ ここにさらに情報を追加してください」とあるが，「それ」とは直前の2つの文で述べられている，人間の美術家によって制作された本物の美術作品をもとにして学習することで実在する美術家の作品を盗用することを指している。よってそのことを簡潔に言い換えた選択肢①「AIプログラムはこれらの画像を分析し，それらの見本を取って新しい画像を作ります」が空所(1)に追加されるべきであると判断できるので，正解は①となる。\n②，③，④はいずれもそうした内容とはなっていないので不可。",
+            "evidence_sentences": [
+              "s4_s6",
+              "s4_s7"
+            ],
+            "why_others_wrong": {
+              "②": "AIプログラムは他者の画像なしにオリジナルの作品を作れるという内容で，コメント(1)の「どのようにしてそれを行うのか」への回答にならない。",
+              "③": "プロの美術家から購入した作品を利用するという内容で，本文の「学習のために実例を使う」こととは異なる。",
+              "④": "無料で寄付された絵画を利用するという内容で，本文では美術家が承諾していないと述べているので矛盾する。"
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 16,
+          "points": 3,
+          "question_text": {
+            "en": "Based on comment (2), which word or expression should you use here instead? [16]",
+            "ja": "コメント(2)に基づくと，どの語あるいは表現をここで代わりに用いるべきか [16]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "expands",
+              "ja": "を拡張させ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "magnifies",
+              "ja": "を拡大させ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "reduces",
+              "ja": "を減少させ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "replaces",
+              "ja": "に取って代わり",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。コメント(2)には，「どのように需要を変化させるのですか。もっと具体化してください」とある。下線部(2)を含む文では「こうしたこと[画像生成AIが人間の美術家よりもはるかに安価かつはるかに少ない時間で写真や絵を作成することができること]は実在する美術家に対する需要(2)を変化させ，彼らの仕事を減らしてしまいます」とあることから，下線部(2)をより具体的に言い換えれば「実在する美術家に対する需要を減少させる」ことだと判断できる。よって正解は③となる。\n①，②，④はいずれもそうした意味にはなっていないので不可。",
+            "evidence_sentences": [
+              "s4_s11",
+              "s4_s12"
+            ],
+            "why_others_wrong": {
+              "①": "expands（拡張させ）は需要が増える意味で，文脈（仕事が減る）と矛盾する。",
+              "②": "magnifies（拡大させ）も需要が増大する意味で，続く「仕事を減らす」という文脈に合わない。",
+              "④": "replaces（に取って代わり）は需要を「置き換える」意味で，需要を変化させることの具体化にはならない。"
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 17,
+          "points": 3,
+          "question_text": {
+            "en": "Based on comment (3), which topic sentence should be inserted here? [17]",
+            "ja": "コメント(3)に基づくと，ここにどの主題文を入れるべきか [17]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI art generators are better at making drawings and photographs than humans",
+              "ja": "画像生成AIの絵や写真を制作する能力は人間を上回っています",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "an increase in AI art will discourage people from studying and practicing art",
+              "ja": "AI画像が増加していくと，人々は美術作品を研究したり，練習したりする気をなくしてしまうでしょう",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "children who use AI art use their imaginations in a way that is different from artists",
+              "ja": "AI画像を使用する子どもは，美術家とは違う方法で自分の想像力を使います",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "using AI art is a different form of creativity, so it should be encouraged",
+              "ja": "AI画像を使用することは異なる種類の創造性であるので，それは奨励されるべきです",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。コメント(3)には，「主題文は論点を適切に要約していません。書き直してください」とある。この段落の主題は，下線部(3)の後で述べられているように，美術は人間の想像力と創造性を促すが，画像生成AIの利用によってそうした人間の文化の重要な要素を失ってしまうことになるということだが，それは言い換えれば人間が美術作品を自分の力で研究したり制作したりする機会や動機を奪ってしまうと捉えることができる。よって正解は②となる。\n①，③，④はいずれもこの段落で述べられている内容ではないので不可。",
+            "evidence_sentences": [
+              "s4_s14",
+              "s4_s15",
+              "s4_s16",
+              "s4_s17"
+            ],
+            "why_others_wrong": {
+              "①": "画像生成AIの方が人間より絵や写真の制作能力が上だという内容で，この段落の論点（美術の学習機会が失われる）とは異なる。",
+              "③": "AI画像を使う子どもが美術家と違う想像力を使うという内容で，この段落で述べられている内容ではない。",
+              "④": "AI画像の使用は異なる種類の創造性だから奨励すべきという内容で，エッセイの主張（AIアートを制限すべき）と矛盾する。"
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 18,
+          "points": 3,
+          "question_text": {
+            "en": "Which sentence should you add, based on comment (4)? [18]",
+            "ja": "コメント(4)に基づくと，どの文を追加するべきか [18]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "As a result, artists should use AI art generators more carefully.",
+              "ja": "結果として，美術家は画像生成AIをもっと注意して利用するべきです。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Consequently, AI technology is still not effective enough.",
+              "ja": "その結果，AIテクノロジーはまだ十分に効果的ではありません。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "In summary, AI should be developed more.",
+              "ja": "要約すると，AIをもっと発達させるべきです。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Therefore, the use of AI art generators should be limited.",
+              "ja": "したがって，画像生成AIの使用は制限されるべきです。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。コメント(4)には，「ここに結論となる文を追加してください」とある。空所(4)の前には，多くの美術家はAIプログラムは私たちの文化全般に悪影響をもたらすと考えている，と述べられている。したがって，そうした悪影響をもたらすAIプログラムは制限されるべきである，と続けれは，結論として自然な内容となると判断できる。よって正解は④となる。ちなみに，第1段落(In recent years, ...)最終文でも「彼ら[多くの美術家]はこうしたプログラムは制限されるか規制されるべきであると考えているのです」という同じ趣旨のことが述べられている。\n①，②，③はいずれも自然な文脈とはならないので不可。",
+            "evidence_sentences": [
+              "s4_s18",
+              "s4_s19",
+              "s4_s5"
+            ],
+            "why_others_wrong": {
+              "①": "美術家がAIをもっと注意して利用すべきという内容で，エッセイの結論（使用制限）の趣旨とずれている。",
+              "②": "AIテクノロジーがまだ十分に効果的でないという内容で，エッセイで述べている問題点の結論としては不自然。",
+              "③": "AIをもっと発達させるべきという内容で，エッセイの主張（制限すべき）と完全に矛盾する。"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "situation": {
+        "en": "You are going to study at Wyatt University in the US from September and need accommodation. You are looking at the blogs of two students, Olivia and Rob, to see what options are available.",
+        "ja": "あなたは9月からアメリカのワイアット大学で勉強することになっていて，住まいが必要です。どのような選択肢があるかを確かめるために，オリビアとロブという2人の学生のブログを見ています。"
+      },
+      "passages": [
+        {
+          "id": "olivia_blog",
+          "title": {
+            "en": "See You at Wyatt University!",
+            "ja": "ワイアット大学で会いましょう！"
+          },
+          "subtitle": {
+            "en": "Posted by Olivia at 3:32 p.m. on July 17, 2022",
+            "ja": "投稿者：オリビア　2022年7月17日午後3時32分"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s5_o1",
+                "en": "Need a place to live for your college adventure?",
+                "ja": "大学での新生活のために住まいが必要ですか？"
+              },
+              {
+                "id": "s5_o2",
+                "en": "One thing to consider is what your rent includes, and other spending costs.",
+                "ja": "考えるべきことの1つが，家賃に何が含まれているのかとその他の出費です。"
+              },
+              {
+                "id": "s5_o3",
+                "en": "Look at the average amount of money students spent on necessities not included in their rents this year.",
+                "ja": "今年度に学生が家賃に含まれない必需品に使った平均金額をご覧ください。"
+              }
+            ],
+            [
+              {
+                "id": "s5_o4",
+                "en": "Naturally where, and the kind of place you live make a difference.",
+                "ja": "当然，住まいの所在地や部屋の種類によって違いがあります。"
+              },
+              {
+                "id": "s5_o5",
+                "en": "Living in a campus dormitory or a private campus room, you won't need to travel.",
+                "ja": "キャンパス内の寮や個室に住めば，移動は不要です。"
+              },
+              {
+                "id": "s5_o6",
+                "en": "If you stay with a family, freshly cooked food is usually included, but one problem is that you can't always expect privacy.",
+                "ja": "家庭に下宿すれば，普通は作りたての食事が込みですが，1つ問題なのは必ずしもプライバシーを期待できないことです。"
+              },
+              {
+                "id": "s5_o7",
+                "en": "I'd advise selecting a no-food plan in a private campus room for $95 a month less than a food plan.",
+                "ja": "私なら，食事付きより月に95ドル割安な，キャンパス内の個室の食事無しのプランを選ぶことを勧めます。"
+              },
+              {
+                "id": "s5_o8",
+                "en": "There aren't student discounts for buses, so I'd recommend a place in Zone 1 so you can walk to classes.",
+                "ja": "バスは学割が利かないので，私なら授業に歩いて行けるようゾーン1の部屋を推奨します。"
+              }
+            ],
+            [
+              {
+                "id": "s5_o9",
+                "en": "By the way, don't forget hidden savings or costs!",
+                "ja": "ところで，目に付かないところで節約できたり出費がかさんだりすることを忘れないように！"
+              },
+              {
+                "id": "s5_o10",
+                "en": "In off-campus accommodation, both apartments and families, the deposits are at least double those of accommodation in private campus rooms.",
+                "ja": "アパート，下宿ともキャンパス外の住まいには，キャンパス内の個室の住まいと比べて少なくとも倍の敷金がかかります。"
+              },
+              {
+                "id": "s5_o11",
+                "en": "If you live in an on-campus dormitory you must move out in summer, but that saves you money!",
+                "ja": "キャンパス内の寮に住む場合は夏の間は引き払わなくてはならないのですが，それでお金は節約できます。"
+              }
+            ]
+          ],
+          "info_box": {
+            "title": {
+              "en": "Added Costs — Be Aware!",
+              "ja": "追加の費用 — ご注意を！"
+            },
+            "image_src": "images/added_costs_icons.png",
+            "image_alt": "Added Costs Icons",
+            "after_paragraph": 1
+          }
+        },
+        {
+          "id": "rob_blog",
+          "title": {
+            "en": "Join Us at Wyatt!",
+            "ja": "我がワイアットにようこそ！"
+          },
+          "subtitle": {
+            "en": "Posted by Rob at 11:03 a.m. on July 18, 2022",
+            "ja": "投稿者：ロブ　2022年7月18日午前11時3分"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s5_r1",
+                "en": "I remember the tough time I had finding accommodation on starting at Wyatt University.",
+                "ja": "ワイアット大学での生活を始めるとき，住まい探しに苦労したのを覚えています。"
+              }
+            ],
+            [
+              {
+                "id": "s5_r2",
+                "en": "I spent my first year in a private campus room, where everything except laundry fees was included, though paying for food service separately is probably better.",
+                "ja": "僕は1年生の時は，洗濯代金以外全部込みのキャンパス内の個室で過ごしましたが，たぶん食事のサービスは別で支払うようにする方が良いでしょう。"
+              },
+              {
+                "id": "s5_r3",
+                "en": "I often missed meals because of studying or hanging out with friends.",
+                "ja": "僕は友達と一緒に勉強したりぶらついたりして食事に間に合わないことがよくあったんです。"
+              },
+              {
+                "id": "s5_r4",
+                "en": "And, from my room commuting to class was quick, but the bus service in Zones 2 and 3 is also efficient.",
+                "ja": "それから，僕の部屋からは授業にすぐ行けましたけれど，ゾーン2や3のバスの便も良いです。"
+              },
+              {
+                "id": "s5_r5",
+                "en": "The journey from Zone 3 is more time-consuming, and if you consider the extra price of buses and relatively small differences in rents between these two areas, I'd prefer to live nearer the city center.",
+                "ja": "ゾーン3からの通学の方が時間はかかりますし，バス代も余計にかかることと2つの地域の家賃の差が比較的少ないことを考えるなら，私なら町の中心部に近い方に住む方を選ぶでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "s5_r6",
+                "en": "If you pay each time you wash clothes, money disappears soon!",
+                "ja": "服を洗うたびに支払っていては，お金がすぐになくなってしまいます！"
+              },
+              {
+                "id": "s5_r7",
+                "en": "But if you live in an apartment house with three other students, you can pick up a washing machine for around $120 per person, and you'll save almost all laundry fees.",
+                "ja": "でも1軒のアパートに他の3人の学生と暮らすとしたら，洗濯機は1人あたり120ドルくらい払えば手に入れられて，洗濯代のほぼ全額を節約できます。"
+              },
+              {
+                "id": "s5_r8",
+                "en": "In the on-campus dormitory, everything is included except food and laundry, but this definitely isn't for someone who enjoys time alone!",
+                "ja": "キャンパス内の寮では食事と洗濯以外は何でも込みですが，1人の時間を楽しむ人には絶対向きません！"
+              }
+            ]
+          ],
+          "table": {
+            "title": {
+              "en": "Monthly Rent",
+              "ja": "月の家賃"
+            },
+            "headers": [
+              "Type",
+              "Zone 1\n(City Center)",
+              "Zone 2",
+              "Zone 3"
+            ],
+            "headers_ja": [
+              "タイプ",
+              "ゾーン1\n（市の中心地）",
+              "ゾーン2",
+              "ゾーン3"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Staying with Families A, B, and C",
+                  "$240 (A)",
+                  "$198 (B)",
+                  "$182 (C)"
+                ],
+                "cells_ja": [
+                  "家庭A, B, Cに下宿",
+                  "240ドル (A)",
+                  "198ドル (B)",
+                  "182ドル (C)"
+                ]
+              },
+              {
+                "cells": [
+                  "Campus dormitory",
+                  "$66",
+                  "—",
+                  "—"
+                ],
+                "cells_ja": [
+                  "キャンパス内の寮",
+                  "66ドル",
+                  "—",
+                  "—"
+                ],
+                "na_cells": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "cells": [
+                  "Private campus room with food included",
+                  "$270",
+                  "—",
+                  "—"
+                ],
+                "cells_ja": [
+                  "キャンパス内の食事付きの個室",
+                  "270ドル",
+                  "—",
+                  "—"
+                ],
+                "na_cells": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "cells": [
+                  "Off-campus students' apartments X, Y, and Z",
+                  "$220 (X)",
+                  "$170 (Y)",
+                  "$150 (Z)"
+                ],
+                "cells_ja": [
+                  "キャンパス外の学生用アパートX, Y, Z",
+                  "220ドル (X)",
+                  "170ドル (Y)",
+                  "150ドル (Z)"
+                ]
+              }
+            ],
+            "source_url": "https://helpwithaccommodationwu.example.com"
+          },
+          "footer_note": {
+            "en": "Don't forget deposits! If you live on-campus, it is $150 for the dormitory, and $300 for private rooms on moving in.",
+            "ja": "敷金のことを忘れないでください！ キャンパス内に住むには，寮では150ドル，個室では300ドル入居時にかかります。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 19,
+          "points": 3,
+          "question_text": {
+            "en": "Olivia recommends living close to the university because [19].",
+            "ja": "オリビアが大学の近くに住むことを勧めるのは [19] からである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "the city bus doesn't offer student rates",
+              "ja": "市バスは学生料金を提供していない",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "the city bus service is unreliable",
+              "ja": "市バスの便はあてにならない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "walking to class is good exercise",
+              "ja": "授業に歩いて行くのは良い運動になる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "you can save time commuting on foot",
+              "ja": "歩いて通学すると時間の節約になる",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。オリビアはブログの第2段落最終文 (There aren't student ...) で，「バスは学割が利かないので，私なら授業に歩いて行けるようゾーン1の部屋を推奨します」すると書いているため，①が正解。\n他の選択肢の内容はいずれも，彼女のブログには見られない。",
+            "evidence_sentences": [
+              "s5_o8"
+            ],
+            "why_others_wrong": {
+              "②": "バスの便があてにならないとは言っていない。学割がないことが理由。",
+              "③": "運動になるとは述べていない。",
+              "④": "時間の節約ではなく，バスに学割がないことが理由。"
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 20,
+          "points": 3,
+          "question_text": {
+            "en": "Rob suggests purchasing [20].",
+            "ja": "ロブは [20] 買うよう勧めている。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a washing machine with other students if possible",
+              "ja": "できれば他の学生たちと共同で洗濯機を",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "extra food because campus meals are small",
+              "ja": "キャンパスの食事は少ないので追加の食料を",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "some kind of wi-fi router for faster Internet access",
+              "ja": "インターネットへのアクセスを速めるために何かしらのwi-fiルーターを",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "your own desk so that you can study more easily",
+              "ja": "勉強しやすくするために自分専用の机を",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。ロブはブログの第3段落第1文 (If you pay ...) と第2文 (But if you ...) で，「服を洗うたびに支払っていては，お金がすぐになくなって」しまうが「1軒のアパートに他の3人の学生と暮らすとしたら，洗濯機は1人あたり120ドルくらい払えば手に入れられて，洗濯代のほぼ全額を節約」できると，洗濯機を共同購入するメリットを強調しているので，①が正解。\n他の選択肢の内容はいずれも，ロブのブログには見られない。",
+            "evidence_sentences": [
+              "s5_r6",
+              "s5_r7"
+            ],
+            "why_others_wrong": {
+              "②": "キャンパスの食事が少ないとは述べていない。",
+              "③": "wi-fiルーターの購入は言及していない。",
+              "④": "机の購入については言及していない。"
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "points": 3,
+          "question_text": {
+            "en": "Both Olivia and Rob recommend that you [21].",
+            "ja": "オリビアとロブは共に [21] を勧めている。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "choose accommodation in Zone 2",
+              "ja": "ゾーン2の住まいを選ぶこと",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "choose accommodation without food included",
+              "ja": "食事込みではない住まいを選ぶこと",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "live with a family if possible",
+              "ja": "可能なら家庭に下宿すること",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "live with roommates you can get along well with",
+              "ja": "うまくやっていけるルームメイトと暮らすこと",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。オリビアはブログの第2段落第4文 (I'd advise selecting ...) に「食事付きより月に95ドル割安な，キャンパス内の個室の食事無しのプランを選ぶこと」を勧めている。またロブのブログの第2段落第1文 (I spent my ...) には，彼が「1年生の時は，洗濯代金以外全部込みのキャンパス内の個室で過ごし」たが「たぶん食事のサービスは別で支払うようにする方が良い」と書いている。続く第2文 (I often missed ...) には，彼が「食事に間に合わないことがよくあった」ことがその理由として挙げられている。以上より②が正解。",
+            "evidence_sentences": [
+              "s5_o7",
+              "s5_r2",
+              "s5_r3"
+            ],
+            "why_others_wrong": {
+              "①": "ロブはブログの第2段落最終文で「私なら（ゾーン2とゾーン3のうちで）町の中心部に近い方（であるゾーン2）に住む方を選ぶ」と書いているが，オリビアはゾーン2を推すコメントは特に書いていないので不適。",
+              "③": "オリビアのブログの第2段落第3文 (If you stay ...) に，「普通は作りたての食事が込み」だが「1つ問題なのは必ずしもプライバシーを期待できない」と，メリットとデメリットの両方が挙げてあり，一概に彼女によって勧められているとは言い難い。また，ロブのブログには一切言及がないため，やはり不適。",
+              "④": "2人のブログいずれにも見られない内容。"
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 22,
+          "points": 3,
+          "question_text": {
+            "en": "If you want your privacy ensured but wish to pay the cheapest monthly rent, you should choose to [22] among the four options.",
+            "ja": "もしあなたが自分のプライバシーを確保したいが，月々の家賃は最も安くしたいなら，4つの選択肢のうちで [22] ことを選ぶべきである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "live in a campus dormitory",
+              "ja": "キャンパス内の寮に住む",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "live in a campus private room without food included",
+              "ja": "食事無しでキャンパス内の個室に住む",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "live in off-campus student's apartment Y",
+              "ja": "キャンパス外の学生用アパートYに住む",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "live with Family C",
+              "ja": "家庭Cに下宿する",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。①については，ロブのブログの第3段落最終文 (In the on-campus ...) に「1人の時間を楽しむ人には絶対」向かないとあるように，また④についても，オリビアのブログの第2段落第3文 (If you stay ...) に「必ずしもプライバシーを期待できない」とあるように，それぞれプライバシーの確保は難しいため，これらは候補から外れる。②については，ロブのブログの表とオリビアのブログの第2段落第4文 (I'd advise selecting ...) の「食事付きより月に95ドル割安な，キャンパス内の個室の食事無しのプラン」という記述より，家賃は270 - 95 = 175（ドル）となる。これに対し③の家賃はロブのブログの表より170ドルなので，これが正解となる。",
+            "evidence_sentences": [
+              "s5_r8",
+              "s5_o6",
+              "s5_o7"
+            ],
+            "why_others_wrong": {
+              "①": "寮は「1人の時間を楽しむ人には絶対向かない」とあり，プライバシーが確保できない。",
+              "②": "食事無しの個室は270-95=175ドルで，アパートYの170ドルより高い。",
+              "④": "家庭への下宿は「必ずしもプライバシーを期待できない」。"
+            }
+          }
+        },
+        {
+          "question_id": "問5a",
+          "answer_number": 23,
+          "points": 2,
+          "question_text": {
+            "en": "Among the four options, [23] is likely to be your choice if you want to pay the least deposit.",
+            "ja": "4つの選択肢のうちで，払う敷金を一番安くしたければ [23] を選ぶことになりそうである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Campus dormitory",
+              "ja": "キャンパス内の寮",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Off-campus students' apartment X",
+              "ja": "キャンパス外の学生用アパートX",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Private campus room with food included",
+              "ja": "食事付きのキャンパス内の個室",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Staying with Family A",
+              "ja": "家庭Aでの下宿",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。敷金については，ロブのブログの最終段落最終文 (If you live ...) に「キャンパス内に住むには，寮では150ドル，個室では300ドル」必要になることが，オリビアのブログの最終段落第2文 (In off-campus accommodation, ...) に「キャンパス外の住まいには，キャンパス内の個室の住まいと比べて少なくとも倍の敷金がかかる」ことが書かれているため，①が正解。",
+            "evidence_sentences": [
+              "s5_o10",
+              "s5_r8"
+            ],
+            "why_others_wrong": {
+              "②": "キャンパス外は個室の倍以上（600ドル以上）の敷金がかかる。",
+              "③": "個室は300ドルで，寮の150ドルより高い。",
+              "④": "家庭も個室の倍以上の敷金がかかる。"
+            }
+          }
+        },
+        {
+          "question_id": "問5b",
+          "answer_number": 24,
+          "points": 2,
+          "question_text": {
+            "en": "If you need to live in a place in Zone 1 for the whole year, the monthly rent is likely to be the most inexpensive by living in [24].",
+            "ja": "ゾーン1にある部屋に丸1年住む必要があるなら，[24] に住むことで月々の家賃が最も廉価になりそうである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Campus dormitory",
+              "ja": "キャンパス内の寮",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Off-campus students' apartment X",
+              "ja": "キャンパス外の学生用アパートX",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Private campus room with food included",
+              "ja": "食事付きのキャンパス内の個室",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Staying with Family A",
+              "ja": "家庭Aでの下宿",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。ゾーン1にある住まいの月々の家賃は，ロブのブログの表を見れば①が66ドルで最も安いことがわかるが，オリビアのブログの最終段落最終文 (If you live ...) に「キャンパス内の寮に住む場合は夏の間は引き払わなくてはならない」とあり「丸1年住む」を満たさないことになるので，次に安い220ドルの②が正解。",
+            "evidence_sentences": [
+              "s5_o11"
+            ],
+            "why_others_wrong": {
+              "①": "寮は66ドルで最安だが，夏の間は引き払わなければならず「丸1年住む」条件を満たさない。",
+              "③": "270ドルで最も高い。",
+              "④": "240ドルで②より高い。"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 18,
+      "situation": {
+        "en": "You are working on an essay about whether financial education (knowledge about personal finance) classes should be taught in schools. You will follow the steps below.",
+        "ja": "あなたは金融教育（個人的財政に関する知識）の授業が学校で教えられるべきかどうかについてのエッセイに取り組んでいます。以下の各ステップに従っていきます。"
+      },
+      "steps": [
+        {
+          "label": "Step 1",
+          "en": "Read and understand various viewpoints about financial education.",
+          "ja": "金融教育に関するさまざまな見解を読んで理解する。"
+        },
+        {
+          "label": "Step 2",
+          "en": "Take a position about whether or not financial education should be taught in schools.",
+          "ja": "金融教育が学校で教えられるべきかどうかについての判断を下す。"
+        },
+        {
+          "label": "Step 3",
+          "en": "Create an outline for an essay using additional sources.",
+          "ja": "追加の情報源を使って，エッセイの概要を作成する。"
+        }
+      ],
+      "passages": [
+        {
+          "id": "step1_authors",
+          "step_label": {
+            "en": "[Step 1] Read various sources",
+            "ja": "[ステップ1] さまざまな情報源を読む"
+          },
+          "authors": [
+            {
+              "name": {
+                "en": "Author A (Student)",
+                "ja": "筆者A（生徒）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s6_a1",
+                    "en": "When I heard my school was going to introduce personal finance lessons, I was annoyed, because we already have so much academic work.",
+                    "ja": "私の学校が個人的財政の授業を導入する予定であると聞いた時，私たちにはすでに非常に多くの学業が課されているので，私は苛立ちを覚えました。"
+                  },
+                  {
+                    "id": "s6_a2",
+                    "en": "Despite that, I began to change my mind after a few classes.",
+                    "ja": "それにもかかわらず，何回か授業を受けた後で気持ちが変わり始めました。"
+                  },
+                  {
+                    "id": "s6_a3",
+                    "en": "I learned so much important information that will help me in my future.",
+                    "ja": "私は，将来私の役に立つことになる非常に多くの重要な情報を学んだのです。"
+                  },
+                  {
+                    "id": "s6_a4",
+                    "en": "My parents are immigrants from South America, and they work hard but they don't have much money.",
+                    "ja": "私の両親は南米からの移民で懸命に働いていますが，それほど多くのお金を持ってはいません。"
+                  },
+                  {
+                    "id": "s6_a5",
+                    "en": "I want to build a better future for myself and these classes have given me the knowledge to make wise decisions about my money.",
+                    "ja": "私は自分でよりよい将来を築きたいと思っており，この授業は私に自分のお金に関する賢明な決断をするための知識を与えてくれたのです。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author B (high school principal)",
+                "ja": "筆者B（高等学校校長）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s6_b1",
+                    "en": "I was thinking about adding personal finance lessons to our curriculum like some schools in our district.",
+                    "ja": "私は，この地域の一部の学校と同様に，カリキュラムに個人的財政の授業を加えることを考えていました。"
+                  },
+                  {
+                    "id": "s6_b2",
+                    "en": "However, we don't have enough time or qualified teachers available to do this properly.",
+                    "ja": "しかし，私たちにはそれを適切に行うための十分な時間はなく，教える資格を取得していて，時間の空いている教師も十分にはいません。"
+                  },
+                  {
+                    "id": "s6_b3",
+                    "en": "I believe life skills such as personal finance should be taught at home.",
+                    "ja": "私は，個人的財政といった，生きていく上での技術は家庭で教えられるべきだと考えています。"
+                  },
+                  {
+                    "id": "s6_b4",
+                    "en": "I understand that some students don't have the opportunity to learn these skills from their family members.",
+                    "ja": "生徒の中には家族からこうした能力を学ぶ機会を持っていない者もいることは理解しています。"
+                  },
+                  {
+                    "id": "s6_b5",
+                    "en": "That is why we'll have a counsellor who can speak to students about their individual problems including financial matters.",
+                    "ja": "そういうわけで，私たちは財政的な問題を含めた個人的な問題について生徒たちに話すことができるカウンセラーを置くことになるでしょう。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author C (parent)",
+                "ja": "筆者C（親）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s6_c1",
+                    "en": "I have always taught my children about how to take care of their money.",
+                    "ja": "私は自分の子どもたちにお金の管理の仕方についてずっと教えてきました。"
+                  },
+                  {
+                    "id": "s6_c2",
+                    "en": "Even from a young age, I gave them pocket money and opened savings accounts for them.",
+                    "ja": "幼い年齢からでさえ，私は子どもたちにお小遣いを与え，子どもたちのために普通預金口座を開設しました。"
+                  },
+                  {
+                    "id": "s6_c3",
+                    "en": "When they start university, I will help them get the best deal on a student loan, and encourage them to get a part-time job.",
+                    "ja": "子どもたちが大学生活を始めるときに，私は彼らがもっともよい奨学金の契約を獲得する力になるつもりですし，子どもたちがアルバイトをすることを勧めます。"
+                  },
+                  {
+                    "id": "s6_c4",
+                    "en": "This is why I don't believe personal finance classes in school are necessary.",
+                    "ja": "したがって，私は学校での個人的財政の授業は必要ないと思っています。"
+                  },
+                  {
+                    "id": "s6_c5",
+                    "en": "I'm also concerned about who will teach the subject.",
+                    "ja": "また私は誰がその教科を教えることになるのかということについて懸念を持っています。"
+                  },
+                  {
+                    "id": "s6_c6",
+                    "en": "I think teachers generally aren't qualified to talk about financial issues for now.",
+                    "ja": "一般に今のところ教師は財政問題について話をする資格を取得してはいないと思っています。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author D (finance journalist)",
+                "ja": "筆者D（金融ジャーナリスト）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s6_d1",
+                    "en": "Before I answer this question, I have to ask what \"financial education\" is.",
+                    "ja": "この質問に答える前に，「金融教育」とは何かということを問わねばなりません。"
+                  },
+                  {
+                    "id": "s6_d2",
+                    "en": "What do schools intend to teach?",
+                    "ja": "学校は何を教えるつもりなのでしょうか。"
+                  },
+                  {
+                    "id": "s6_d3",
+                    "en": "It is a very wide-ranging subject and much of the basics are common sense.",
+                    "ja": "これは非常に広範囲にわたる科目であり，基本原理の多くは常識なのです。"
+                  },
+                  {
+                    "id": "s6_d4",
+                    "en": "I believe even young children understand that they need to save money and not borrow money they can't pay back.",
+                    "ja": "私は，幼い子どもたちでさえお金を貯め，返すことができないお金は借りない必要があることは理解していると思います。"
+                  },
+                  {
+                    "id": "s6_d5",
+                    "en": "Of course, my job is to write about pensions and investments, but the information is constantly changing.",
+                    "ja": "もちろん，私の仕事は年金や投資について書くことですが，そうした情報は絶えず変化しています。"
+                  },
+                  {
+                    "id": "s6_d6",
+                    "en": "If you want to know where to put your money, I recommend reading the financial pages of a newspaper, not asking a school teacher.",
+                    "ja": "自分のお金をどこに預けるべきかを知りたいと思うなら，学校の教師に訊くのではなく，新聞の金融欄を読むことを勧めます。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author E (university counsellor)",
+                "ja": "筆者E（大学のカウンセラー）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s6_e1",
+                    "en": "Due to my job, I know a large number of students start university in a bad financial situation because they made a poor decision about which student loan to take out.",
+                    "ja": "仕事柄，私は，どの奨学金を利用するかということに関して間違った判断をしたために，多くの学生がひどい財政状態で大学生活を始めていることを知っています。"
+                  },
+                  {
+                    "id": "s6_e2",
+                    "en": "Of course, some students have very knowledgeable parents, or rich parents, so they don't get into trouble in this way.",
+                    "ja": "もちろん，一部の学生には非常に見識のある親や裕福な親がいるために，そのように困ったことにはなりません。"
+                  },
+                  {
+                    "id": "s6_e3",
+                    "en": "On the other hand, some very intelligent students get into trouble because they simply weren't prepared by their parents.",
+                    "ja": "一方，非常に頭のよい学生の中には，単に親が準備をしてくれなかったがゆえに困ったことになってしまう者もいます。"
+                  },
+                  {
+                    "id": "s6_e4",
+                    "en": "I think that schools should help these students out by giving them the knowledge that their parents or families can't give.",
+                    "ja": "私は，彼らに親や家族が与えることができない知識を学校が与えることによってこうした学生を援助するべきだと思います。"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "step2_position",
+          "step_label": {
+            "en": "[Step 2] Take a position",
+            "ja": "[ステップ2] 判断を下す"
+          },
+          "position": {
+            "title": {
+              "en": "Your position: Classes about personal finance should be taught in high schools.",
+              "ja": "あなたの判断：高校で個人的財政に関する授業は教えられるべきだ。"
+            },
+            "bullets": [
+              {
+                "en": "Authors [27] and [28] support your position.",
+                "ja": "筆者 [27] と [28] があなたの判断を支持している。"
+              },
+              {
+                "en": "The main argument of the two authors: [29].",
+                "ja": "その2人の筆者の主要な論拠: [29]。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "step3_sources",
+          "step_label": {
+            "en": "[Step 3] Create an outline using sources A and B",
+            "ja": "[ステップ3] 情報源AとBを使って，概要を作成する。"
+          },
+          "sources": [
+            {
+              "name": {
+                "en": "Source A",
+                "ja": "情報源A"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s6_sa1",
+                    "en": "One advantage of giving high school students classes in personal finance is that they are less likely to engage in risky financial behavior later in life.",
+                    "ja": "高校生に個人的財政に関する授業を提供する1つの利点は，のちの人生においてリスクを伴う経済活動に従事する可能性が減少するということだ。"
+                  },
+                  {
+                    "id": "s6_sa2",
+                    "en": "One measure of this is the likelihood of taking out payday loans.",
+                    "ja": "その目安の1つとなるものは，給料日ローンを借りる可能性である。"
+                  },
+                  {
+                    "id": "s6_sa3",
+                    "en": "A payday loan is a loan that has a very high interest rate and needs to be repaid within a short period of time, such as a couple of weeks.",
+                    "ja": "給料日ローンとは，非常に高い金利で，数週間といった短い期間内にすぐ返済することを必要とするローンである。"
+                  },
+                  {
+                    "id": "s6_sa4",
+                    "en": "People who take out these loans and cannot pay them back often get into legal trouble or even get involved in crime in order to find the money they need.",
+                    "ja": "こうしたローンを借りて返却できない人々は，法律上の問題に陥るか，必要なお金を手に入れるために犯罪に巻き込まれてしまうことさえある。"
+                  },
+                  {
+                    "id": "s6_sa5",
+                    "en": "However, studies show that young people who took part in personal finance education while at school were much less likely to become involved in taking out payday loans.",
+                    "ja": "しかし，さまざまな研究は，学生時代に個人的財政の教育に参加した若者は給料日ローンを借りることに関わる可能性がはるかに低いことを示している。"
+                  },
+                  {
+                    "id": "s6_sa6",
+                    "en": "They were also less likely to delay repaying their debts such as credit card debt.",
+                    "ja": "またそうした学生は，クレジットカードによる借り入れといった借金の返済を遅らせる可能性も低かった。"
+                  },
+                  {
+                    "id": "s6_sa7",
+                    "en": "We can assume that this will lead to fewer legal problems and a lower likelihood of getting involved in crime when these students become adults and are responsible for their own financial decisions.",
+                    "ja": "これは，こうした生徒が大人になって自分の財政的決断に対する責任を持つようになったときに，法律上の問題が減少し，犯罪に巻き込まれる可能性が減ることにつながると想定することができる。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Source B",
+                "ja": "情報源B"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s6_sb1",
+                    "en": "A research study in the US tracked the credit scores of students in three states who had undergone personal finance lessons at high school.",
+                    "ja": "米国における最近の研究は，3つの州における，高校で個人的財政の授業を受けた学生のクレジットスコアを追跡した。"
+                  },
+                  {
+                    "id": "s6_sb2",
+                    "en": "Credit scores are important because they help banks and other organizations determine how trustworthy a person is regarding money.",
+                    "ja": "クレジットスコアは，それが銀行やそれ以外の機関が，ある人がお金に関してどれだけ信用できるかを特定するのに役立つために，重要なものである。"
+                  },
+                  {
+                    "id": "s6_sb3",
+                    "en": "People with high credit scores are more likely to get good interest rates on loans and credit cards, and are more likely to be approved for a home loan.",
+                    "ja": "クレジットスコアが高い人はローンやクレジットカードでよい金利を得る可能性が高くなり，住宅ローンの認可を受ける可能性が高くなる。"
+                  }
+                ]
+              ],
+              "graph_image": {
+                "src": "images/credit_scores_graph.png",
+                "alt": "The Effects of Financial Education on Credit Scores over Three Years",
+                "after_paragraph": 1
+              }
+            }
+          ],
+          "outline": {
+            "title": {
+              "en": "Schools should introduce personal finance classes for their students.",
+              "ja": "学校は生徒に向けた個人的財政の授業を導入するべきだ"
+            },
+            "sections": [
+              {
+                "label": {
+                  "en": "Introduction",
+                  "ja": "序論"
+                },
+                "content": {
+                  "en": "In recent years, more schools in various countries around the world are introducing classes about personal finance for their students. This is a good idea for the following reasons.",
+                  "ja": "近年，世界中のより多くの学校でさまざまな国で生徒に向けた個人的財政に関する授業が導入されている。これは以下の理由ですぐれた案である。"
+                }
+              },
+              {
+                "label": {
+                  "en": "Body",
+                  "ja": "本論"
+                },
+                "reasons": [
+                  {
+                    "label": "Reason 1",
+                    "text": {
+                      "en": "(From Step 2)",
+                      "ja": "（ステップ2から）"
+                    }
+                  },
+                  {
+                    "label": "Reason 2",
+                    "text": {
+                      "en": "(Based on Source A) …… [30]",
+                      "ja": "（情報源Aに基づく）…… [30]"
+                    }
+                  },
+                  {
+                    "label": "Reason 3",
+                    "text": {
+                      "en": "(Based on Source B) …… [31]",
+                      "ja": "（情報源Bに基づく）…… [31]"
+                    }
+                  }
+                ]
+              },
+              {
+                "label": {
+                  "en": "Conclusion",
+                  "ja": "結論"
+                },
+                "content": {
+                  "en": "High school teachers should teach their students about money and personal finance.",
+                  "ja": "高校の教師はお金と個人的財政に関して生徒たちに教えるべきだ。"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 25,
+          "points": 3,
+          "step": 1,
+          "question_text": {
+            "en": "Both Authors C and D mention that [25].",
+            "ja": "筆者CとDは両者とも [25] と言及している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "it is too difficult to teach information about pensions and investments, so students should consult experts",
+              "ja": "年金や投資についての情報を教えることはあまりに難しいので，生徒は専門家に相談するべきである",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "students can learn more about finance by going to university and earning money in a part-time job",
+              "ja": "生徒は大学に行きアルバイトでお金を稼ぐことによって，財政に関してもっと多くのことを学ぶことができる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "teachers may not have the knowledge or experience necessary to teach classes about personal finance",
+              "ja": "教師は，個人的財政についての授業を教えるのに必要な知識や経験を持っていないかもしれない",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "there is not enough time to teach personal finance in schools because of the students' busy schedule",
+              "ja": "生徒のスケジュールが忙しいので，学校で個人的財政を教えるための十分な時間がない",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。親である筆者Cは最終文 (I think teachers ...) で「一般に今のところ教師は財政問題について話をする資格を取得してはいないと思っています」と述べており，金融ジャーナリストである筆者Dは最終文 (If you want ...) で「自分のお金をどこに預けるべきかを知りたいと思うなら，学校の教師に訊くのではなく，新聞の金融欄を読むことを勧めます」と述べていることから，両者とも選択肢③の「教師は，個人的財政についての授業を教えるのに必要な知識や経験を持っていないかもしれない」ということに言及しているとみなすことができる。",
+            "evidence_sentences": [
+              "s6_c6",
+              "s6_d6"
+            ],
+            "why_others_wrong": {
+              "①": "いずれも筆者CとDが述べている内容とはなっていないので不可。",
+              "②": "いずれも筆者CとDが述べている内容とはなっていないので不可。",
+              "④": "いずれも筆者CとDが述べている内容とはなっていないので不可。"
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 26,
+          "points": 3,
+          "step": 1,
+          "question_text": {
+            "en": "Author B implies that [26].",
+            "ja": "筆者Bは [26] と示唆している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "she wants to add personal finance classes to the schedule but the teachers and students are against it",
+              "ja": "彼女は個人的財政の授業を時間割に加えたいと思っているが，教師と生徒が反対している",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "some students are at a disadvantage because their families do not teach them about personal finance",
+              "ja": "生徒の中には，家族が個人的財政について教えていないために，不利な立場に置かれている者もいる",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "the students want to have personal finance classes but the teachers do not have the knowledge to teach it",
+              "ja": "生徒たちは個人的財政の授業を受けたいと思っているが，教師たちがそれを教えるための知識を持っていない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "young people are more likely to make risky decisions than adults, so should not handle money early",
+              "ja": "若者は大人よりもリスクを伴う決断をしてしまう可能性が高いので，若い頃はお金を扱うべきではない",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。高等学校校長である筆者Bは第3文 (I believe life ...) 〜第4文 (I understand that ...) で，個人的財政は家庭で教えられるべきものであると考えているが，生徒の中にはそうした能力を家庭では学べない者もいることも理解している，と述べている。続く最終文 (That is why ...) における「そういうわけで，私たちは財政的な問題を含めた個人的な問題について生徒たちに話すことができるカウンセラーを置くことになるでしょう」という発言は，個人的財政を家庭で学ぶ生徒に比べて，そうしたことを家庭で学べない生徒が不利な立場に置かれてしまいかねないことに対する対応策を考えてのことであると判断できる。",
+            "evidence_sentences": [
+              "s6_b3",
+              "s6_b4",
+              "s6_b5"
+            ],
+            "why_others_wrong": {
+              "①": "後半の「教師と生徒が反対している」ということが筆者Bが述べている内容とはなっていないので不可。",
+              "③": "前半の「生徒は個人的財政の授業を受けたいと思っている」ということが筆者Bが述べている内容とはなっていないので不可。",
+              "④": "筆者Bが述べている内容とはなっていないので不可。"
+            }
+          }
+        },
+        {
+          "question_id": "問3a",
+          "answer_number": 27,
+          "points": 3,
+          "points_note": "順不同・両方正解で3点",
+          "step": 2,
+          "question_text": {
+            "en": "Now that you understand the various viewpoints, you have taken a position on teaching personal finance in schools, and have written it out as below. Choose the best options to complete [27], [28], and [29].\n\nOptions for [27] and [28] (the order does not matter):",
+            "ja": "さまざまな見解を理解したので，学校で個人的財政を教えることに関して判断を下し，それを以下のように書き出した。[27]，[28]，[29] を完成させるのにもっとも適切な選択肢を選びなさい。\n\n[27] と [28] に入る選択肢（順序は問わない）："
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": true
+            }
+          ],
+          "answer": "①",
+          "paired_answer": {
+            "answer_number": 28,
+            "answer": "⑤",
+            "order_independent": true
+          },
+          "explanation": {
+            "ja": "正解は①と⑤。生徒である筆者Aは第1文 (When I heard ...) 〜第3文 (I learned so ...) で，学校で個人的財政の授業が導入された時，最初はすでに多くの授業があることから苛立ちを覚えたが，何回か財政の授業を受けた後で気持ちが変わり，将来に役立つ重要なことを学んだ，と述べ，最終文 (I want to ...) 後半でも「この授業は私に自分のお金に関する賢明な決断をするための知識を与えてくれたのです」と結論づけることで，学校で財政の授業を受けることの重要性を強調している。また大学のカウンセラーである筆者Eは第1文 (Due to my ...) 〜第2文 (Of course, some ...) で，学生の中にはお金の面で困った状況に陥っている者がいる，と述べ，その対応策として最終文 (I think that ...) で「私は，彼らに親や家族が与えることができない知識を学校が与えることによってこうした学生を援助するべきだと思います」と提言している。",
+            "evidence_sentences": [
+              "s6_a1",
+              "s6_a2",
+              "s6_a3",
+              "s6_a5",
+              "s6_e1",
+              "s6_e3",
+              "s6_e4"
+            ]
+          }
+        },
+        {
+          "question_id": "問3b",
+          "answer_number": 28,
+          "points": 0,
+          "points_note": "問3aと合わせて採点",
+          "step": 2,
+          "question_text": {
+            "en": "[28] (the order does not matter):",
+            "ja": "[28] に入る選択肢（順序は問わない）："
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": true
+            }
+          ],
+          "answer": "⑤",
+          "explanation": {
+            "ja": "問3aの解説を参照。27と28にはA(①)とE(⑤)が順不同で入る。"
+          }
+        },
+        {
+          "question_id": "問3c",
+          "answer_number": 29,
+          "points": 3,
+          "step": 2,
+          "question_text": {
+            "en": "Options for [29]:",
+            "ja": "[29] に入る選択肢："
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Learning about money while at high school will allow students to get better careers in the future",
+              "ja": "高校時代にお金について学ぶことで，生徒は将来よりよい仕事を手にすることができるだろう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Parents who are poor can learn about finance and money from their children, which improves their lives",
+              "ja": "貧しい親は財政やお金について子どもから学ぶことができ，それが親の生活を改善していく",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Students who learn about finance at school are more motivated to study hard to improve their prospects",
+              "ja": "学校で財政について学ぶ生徒は，自分の将来の見込みを向上させるために一生懸命勉強しようという動機が高くなる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Teaching personal finance in school will reduce the inequality between students of different backgrounds",
+              "ja": "学校で個人的財政を教えることはさまざまな背景を持つ生徒間の不平等を減少させるだろう",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。筆者Aは第4文 (My parents are ...) で，自分の両親が南米からの移民で経済的に苦労していることを述べ，続く最終文 (I want to ...) で，自分は自分の力でよりよい将来を築きたいと考えており，そうしたお金に関する賢明な決断をするための知識を高校の財政の授業が与えてくれた，と述べていることから，経済的に不利な背景を持っていても高校の授業がそうした状況を克服することに役立ち，生徒間の不平等を減少させることにつながると推測できる。また筆者Eは第1文 (Due to my ...) 〜第2文 (Of course, some ...) で，家庭でのお金に関する教育の有無によって大学生活において経済的不均衡が存在することを指摘し，上でも述べたように，その対応策として最終文 (I think that ...) で「私は，彼らに親や家族が与えることができない知識を学校が与えることによってこうした学生を援助するべきだと思います」と述べることで，学生間の経済的不均衡を減少させるための提言を行っていると考えることができる。"
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 30,
+          "points": 3,
+          "step": 3,
+          "question_text": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [30]",
+            "ja": "情報源Aに基づけば，以下のどれが理由2としてもっとも適切か [30]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Crime rates went down among students who had taken finance classes at school because they earned more money.",
+              "ja": "高校で財政の授業を受けた学生はより多くのお金を稼いだため，そうした学生間で犯罪率は下降した。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Students were less likely to use credit cards and loans after taking classes in personal finance at high school.",
+              "ja": "学生は高校で個人的財政の授業を受けた後では，クレジットカードやローンを利用する可能性が低くなった。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Those students who went into a legal or finance career were more likely to have had finance classes at high school.",
+              "ja": "法律や金融に関わる仕事に入っていく学生は，高校で財政の授業を受けた可能性が高かった。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Young people who had received financial education at school were less likely to make high-risk financial decisions.",
+              "ja": "学校で財政教育を受けた若者は，リスクの高い財政上の決断をする可能性が低かった。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。情報源Aの第1文 (One advantage of ...) で「高校生に個人的財政に関する授業を提供する1つの利点は，のちの人生においてリスクを伴う経済活動に従事する可能性が減少するということだ」という主張がなされ，その後で具体例として給料日ローンやクレジットカードローンの状況を述べて，最終文 (We can assume ...) で「これ [個人的財政教育を受けた者は借金などの問題に巻き込まれる可能性が低くなったこと] は，こうした生徒が大人になって自分の財政的決断に対する責任を持つようになったときに，法律上の問題が減少し，犯罪に巻き込まれる可能性が減ることにつながると想定することができる」と最初に述べられた主張を繰り返すことでその内容を強調している。",
+            "evidence_sentences": [
+              "s6_sa1",
+              "s6_sa7"
+            ],
+            "why_others_wrong": {
+              "①": "情報源Aで述べている内容とはなっていないので不可。",
+              "②": "情報源Aの第5文 (However, studies show ...) で「学生時代に個人的財政の教育に参加した若者は給料日ローンを借りることに関わる可能性がはるかに低い」とは述べられているが，クレジットカード自体の利用の可能性については言及されていないので不可。",
+              "③": "情報源Aで述べている内容とはなっていないので不可。"
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 31,
+          "points": 3,
+          "step": 3,
+          "question_text": {
+            "en": "For Reason 3, you have decided to write, \"Personal finance classes make students more financially responsible.\" Based on Source B, which option best supports this statement? [31]",
+            "ja": "理由3として，あなたは「個人的財政の授業を受けると，学生は財政に関しより責任を持つようになる」と書くことにした。情報源Bに基づけば，どの選択肢がこの記述をもっともよく支持しているか [31]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "All of the students in the three states managed to raise their credit scores after three years. However, Idaho was the least successful state in terms of teaching financial education.",
+              "ja": "3つの州における学生のすべてが，3年後に何とかクレジットスコアを上昇させることができた。しかし，財政教育を教えるという点ではアイダホはもっともうまくいっていない州だった。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "In some states, there was a drop in credit scores a year after taking finance classes. This means that young people always make bad financial decisions that affect their long-term future.",
+              "ja": "一部の州では，財政の授業を受けた1年後にクレジットスコアが下がった。これはつまり，若者は常に，自分の長期的未来に影響を及ぼすまずい財政的決断をしているということである。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "In two of the states, there was a negative effect on credit scores because of taking finance classes. After that, their credit scores rose, which shows that credit scores always rise over time.",
+              "ja": "2つの州において，財政の授業を受けたことによる，クレジットスコアに対する悪影響があった。その後，それらのクレジットスコアは上昇したのだが，それはクレジットスコアは時間の経過と共に常に上昇するということを示している。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Three years after taking finance classes at schools, students in all three states had considerably improved their credit scores. This shows that they are making good financial decisions.",
+              "ja": "学校で財政の授業を受けた3年後，3つの州すべての学生たちはクレジットスコアをかなり向上させた。このことは，彼らが適切な財政的決断を行っていることを示している。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。グラフから3つの州すべてにおいて，高校で個人的財政の授業を受けた1年後から3年後にかけてクレジットカードスコアは劇的に上昇していることがわかるので，正解は④となる。",
+            "why_others_wrong": {
+              "①": "いずれも情報源Bで述べられている内容およびグラフからわかる内容ではないので不可。",
+              "②": "いずれも情報源Bで述べられている内容およびグラフからわかる内容ではないので不可。",
+              "③": "いずれも情報源Bで述べられている内容およびグラフからわかる内容ではないので不可。"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 15,
+      "situation": {
+        "en": "In your English class, you will give a presentation about a professional inventor. You found the following article and prepared notes for your presentation.",
+        "ja": "あなたは英語の授業で，プロの発明家について発表することになっています。以下の記事を見つけて，発表用の草案を準備しました。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Maria Beasley",
+            "ja": "マリア・ビーズリー"
+          },
+          "portrait_image": {
+            "src": "images/s7_portrait.png",
+            "alt": "Maria Beasley",
+            "float": "right"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s7_p1s1",
+                "en": "Many people at sea have been saved by lifeboats — boats whose purpose is to rescue people in trouble on our oceans.",
+                "ja": "海で多くの人々が救命ボート，つまり海難に遭った人々を救助する目的のボートに救われてきた。"
+              },
+              {
+                "id": "s7_p1s2",
+                "en": "In 1790 after a boat sank near the coast of England, a local businessman who saw the disaster decided something had to be done.",
+                "ja": "1790年に，イングランド沿岸近くで一隻の船が沈んだ後，その惨事を目撃した地元のある実業家が何事かをなさなければ，と決断した。"
+              },
+              {
+                "id": "s7_p1s3",
+                "en": "He designed a rescue boat made partly of a light wood, which would be difficult to turn upside-down.",
+                "ja": "彼は一部が軽い木材で出来た，転覆しにくい救命ボートを設計した。"
+              },
+              {
+                "id": "s7_p1s4",
+                "en": "Though it did save many people, there was one huge problem.",
+                "ja": "それは実際に多くの人々を救ったが，1つ大きな問題があった。"
+              },
+              {
+                "id": "s7_p1s5",
+                "en": "It was only useful for accidents near land.",
+                "ja": "陸地近くの事故にしか役立たなかったのである。"
+              }
+            ],
+            [
+              {
+                "id": "s7_p2s1",
+                "en": "Around 1840, Maria Beasley was born in the USA to a miller — someone who processes flour.",
+                "ja": "1840年頃にアメリカでマリア・ビーズリーが水車屋，つまり小麦粉の製造業者の元に生まれた。"
+              },
+              {
+                "id": "s7_p2s2",
+                "en": "She was extremely interested in her father's machines and would examine how they worked.",
+                "ja": "彼女は父親の持つ機械に大いに興味を持ち，それらがどのように作動するのかを繰り返し検証した。"
+              },
+              {
+                "id": "s7_p2s3",
+                "en": "When she was thirteen, she successfully designed and made a boat to use on a lake, and perhaps this later inspired her to improve designs of lifeboats in 1880.",
+                "ja": "13歳の時に，彼女は湖を帆走する船の設計と製作に成功したが，これが後の1880年に救命ボートの設計を改良するきっかけになったのかもしれない。"
+              }
+            ],
+            [
+              {
+                "id": "s7_p3s1",
+                "en": "Visiting one of her grandfathers, who owned a drink factory, during her school summer vacation, she became fascinated by the wooden barrels made for transportation and learned about the barrel-making machines.",
+                "ja": "酒造りの工場を所有していた祖父のうちの1人の元を学校の夏休みに訪れた彼女は，輸送用の木製の樽に関心をひきつけられ，樽の製造機について学んだ。"
+              },
+              {
+                "id": "s7_p3s2",
+                "en": "This curiosity later led her to invent a tool to speed up the barrel-making process, which she patented in 1881 and 1882.",
+                "ja": "この興味が元になって後年，彼女は樽の製造過程を速める道具を発明し，1881年と1882年にその特許を取得した。"
+              },
+              {
+                "id": "s7_p3s3",
+                "en": "Due to its ability to produce more barrels, and so naturally to sell more product, business owners from everywhere wanted this machine.",
+                "ja": "樽の製造量を増やすことと，それにより当然ながら製品の販売高を上げることが可能になったため，各地の事業者がこの機械を手に入れたがった。"
+              },
+              {
+                "id": "s7_p3s4",
+                "en": "Making various improvements to the machine over the years, her business flourished, and she sold it for about $1.4 million dollars about ten years before she died.",
+                "ja": "数年越しにさまざまな改良を機械に加えつつ彼女の事業は繁盛し，彼女が死の10年ほど前にそれを売却した際には約140万ドルを手にした。"
+              },
+              {
+                "id": "s7_p3s5",
+                "en": "That's more than $40 million today!",
+                "ja": "今日で言えば，何と4千万ドル以上になる。"
+              }
+            ],
+            [
+              {
+                "id": "s7_p4s1",
+                "en": "Beasley probably decided to make a career of her love of engineering when she moved to the city of Philadelphia for her sons' education.",
+                "ja": "息子たちの教育のためにフィラデルフィア市に引っ越した時，おそらくビーズリーは工学技術への愛着で身を立てる決心をしたのだろう。"
+              },
+              {
+                "id": "s7_p4s2",
+                "en": "This city held a world fair in 1876 for nations worldwide to show off their latest achievements.",
+                "ja": "この都市で1876年に，世界の国々が最新の業績を誇示する万国博覧会が開かれた。"
+              },
+              {
+                "id": "s7_p4s3",
+                "en": "She was a frequent visitor, and it inspired her to invent a foot warmer and a roasting pan at the end of that same decade.",
+                "ja": "彼女は頻繁に訪れて，1870年代の終わりに足温器やロースト用鉄板を発明する着想を得た。"
+              }
+            ],
+            [
+              {
+                "id": "s7_p5s1",
+                "en": "In 1895, Beasley was living in Chicago when a major rail project to link both coasts of America by rail through Chicago was announced.",
+                "ja": "1895年にビーズリーはシカゴに住んでいたが，鉄道によりアメリカの東西海岸をシカゴ経由で結ぶ一大鉄道事業が発表された。"
+              },
+              {
+                "id": "s7_p5s2",
+                "en": "Beasley became involved, exploring ways to make trains faster and, more importantly, safer.",
+                "ja": "ビーズリーもこれに携わることになり，列車の速度と，さらに重要なこととしては安全性を向上させる方法を探求した。"
+              },
+              {
+                "id": "s7_p5s3",
+                "en": "Beasley was acknowledged as the key designer of the new trains, whose shape allowed them to move faster and made them less likely to come off the rails at high speeds.",
+                "ja": "ビーズリーは，速度の上昇を可能にしつつ，高速での脱線の可能性を低減する形状の新たな列車の主要な設計者として承認を受けた。"
+              },
+              {
+                "id": "s7_p5s4",
+                "en": "Built with windows that allowed the train drivers to see more clearly, they were safer forms of transport than previous models.",
+                "ja": "運転手の視野をより鮮明化できる窓を備えたその列車は，従来型と比べて安全性の高い輸送形態となった。"
+              }
+            ],
+            [
+              {
+                "id": "s7_p6s1",
+                "en": "Nevertheless, Beasley is most remembered for her lifeboat designs.",
+                "ja": "しかしながら，ビーズリーが最も人の記憶に残っているのは，その救命ボートの設計によってである。"
+              },
+              {
+                "id": "s7_p6s2",
+                "en": "Her boats were strong in rough seas and apparently fireproof.",
+                "ja": "彼女のボートは荒海にあって堅牢であり，明らかに耐火性を備えていた。"
+              },
+              {
+                "id": "s7_p6s3",
+                "en": "They could be folded, which meant that they were much easier to store on ships.",
+                "ja": "折り畳み可能であるため，船への収納ははるかに容易になった。"
+              },
+              {
+                "id": "s7_p6s4",
+                "en": "In the late 1800s and early 1900s immigration by ship to the US by people in search of better lives was booming, and there is no doubt that Beasley's lifeboats and train improvements saved hundreds of lives.",
+                "ja": "1800年代の終わりから1900年代の初めにかけて，生活の向上を求める人々による船でのアメリカへの移住が急増しており，ビーズリーの救命ボートと列車の改良によって何百人もの命が救われたことは間違いない。"
+              }
+            ],
+            [
+              {
+                "id": "s7_p7s1",
+                "en": "Maria Beasley's family strongly supported her.",
+                "ja": "マリア・ビーズリーの家族は彼女の強力な支えとなった。"
+              },
+              {
+                "id": "s7_p7s2",
+                "en": "In an era in which wives' earnings and possessions legally belonged to their husbands, her husband John refused to take credit.",
+                "ja": "妻の収入や所有物が法的には夫に帰属した時代にあって，夫のジョンは功績を我が物にすることを拒んだ。"
+              },
+              {
+                "id": "s7_p7s3",
+                "en": "Her son worked closely with her before she died in 1913.",
+                "ja": "息子は1913年に彼女が亡くなるまでは身近で一緒に働いた。"
+              },
+              {
+                "id": "s7_p7s4",
+                "en": "Her determination to make life-changing machines was extraordinary, and her works were displayed at a Chicago world fair in 1893.",
+                "ja": "人生を一変させる機械を作るという彼女の決意は並外れたものであり，その作品は1893年のシカゴ万国博覧会で展示された。"
+              },
+              {
+                "id": "s7_p7s5",
+                "en": "It is hard to believe that she started out as a dressmaker!",
+                "ja": "彼女が初めは洋裁師だったということは信じ難いことである。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "notes",
+          "is_notes": true,
+          "notes_title": {
+            "en": "Maria Beasley (Around 1840~1913)",
+            "ja": "マリア・ビーズリー（1840年頃〜1913年）"
+          },
+          "subtitle_slot": {
+            "en": "— [32] —",
+            "ja": "— [32] —"
+          },
+          "note_sections": [
+            {
+              "heading": {
+                "en": "From Birth to School Days",
+                "ja": "誕生から学生時代"
+              },
+              "items": [
+                {
+                  "en": "— born to a miller",
+                  "ja": "— 水車屋の元に生まれる"
+                },
+                {
+                  "en": "— [33]",
+                  "ja": "— [33]"
+                },
+                {
+                  "en": "— [34]",
+                  "ja": "— [34]"
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Sequence of Life Events",
+                "ja": "人生における重要な出来事の順序"
+              },
+              "is_timeline": true,
+              "items": [
+                {
+                  "en": "A world fair caused her engineering interest.",
+                  "ja": "万国博覧会が彼女に工学的興味を引き起こした。"
+                },
+                {
+                  "en": "[35]",
+                  "ja": "[35]",
+                  "is_slot": true
+                },
+                {
+                  "en": "Beasley got a patent for her barrel-making machine.",
+                  "ja": "ビーズリーは樽の製造機の特許を獲得した。"
+                },
+                {
+                  "en": "[36]",
+                  "ja": "[36]",
+                  "is_slot": true
+                },
+                {
+                  "en": "[37]",
+                  "ja": "[37]",
+                  "is_slot": true
+                },
+                {
+                  "en": "[38]",
+                  "ja": "[38]",
+                  "is_slot": true
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Train Design",
+                "ja": "列車の設計"
+              },
+              "items": [
+                {
+                  "en": "— The trains Beasley designed [39].",
+                  "ja": "— ビーズリーの設計した列車は，[39]。"
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Lifeboat Design",
+                "ja": "救命ボートの設計"
+              },
+              "items": [
+                {
+                  "en": "— Early lifeboats were only useful for accidents near land.",
+                  "ja": "— 初期の救命ボートは陸地近くの事故にしか役立たなかった。"
+                },
+                {
+                  "en": "— [40]",
+                  "ja": "— [40]"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 32,
+          "points": 3,
+          "question_text": {
+            "en": "Which is the best subtitle for your presentation? [32]",
+            "ja": "あなたの発表の最も良い副題はどれか [32]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Amazing Family and Life-changing Designs",
+              "ja": "驚嘆すべき家族と人生を一変させる設計",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Engineering Designs to Save Lives",
+              "ja": "人命救助のための工学設計",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Inventions of Various Shapes and Sizes",
+              "ja": "さまざまな形や大きさの発明品",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Selfish Businesswoman and Inventor",
+              "ja": "利己的な女性実業家にして発明家",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。第6段落第1文 (Nevertheless, Beasley is ...) にあるように，ビーズリーは何より救命ボートの設計者として名高く，また第5段落第3文 (Beasley was acknowledged ...) にあるように，その列車の設計の改善も安全性の向上に寄与したため，第6段落最終文 (In the late ...) の「ビーズリーの救命ボートと列車の改良によって何百人もの命が救われたことは間違いない」といった評価が下されているので，②が正解。",
+            "evidence_sentences": [
+              "s7_p6s1",
+              "s7_p5s3",
+              "s7_p6s4"
+            ],
+            "why_others_wrong": {
+              "①": "最終段落第4文 (Her determination to ...) に「人生を一変させる機械を作る」という彼女の決意，という表現が見られ，本文全体の内容から彼女がそれを成し遂げたと評価できるが，その家族に関しては最終段落第1文〜第3文に，「彼女の強力な支えとなった」ことに関しての記述があるのみで，「驚嘆すべき」という評価につながる内容は見当たらない。",
+              "③": "ボート，樽の製造機，足温器，ロースト用鉄板，列車，という本文に挙げられている彼女の発明品の形や大きさが多様であることに間違いはないが，そのこと自体が重要な意味を持つ，というニュアンスは本文のどこにも感じられず，副題に相応しいとは決して言えない。",
+              "④": "「利己的な」の1語が本文からはまったく読み取れないため，やはり不適である。"
+            }
+          }
+        },
+        {
+          "question_id": "問2a",
+          "answer_number": 33,
+          "points": 3,
+          "points_note": "順不同・両方正解で3点",
+          "question_text": {
+            "en": "Choose the best two options for [33] and [34] to complete From Birth to School Days. (The order does not matter.)",
+            "ja": "「誕生から学生時代」を完成させるために，[33] と [34] に最も適した2つの選択肢を選べ（順序は問わない。）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "built her own boat for sailing on a lake",
+              "ja": "湖を帆走するための自分自身のボートを作製した",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "entered and won a nationwide invention competition",
+              "ja": "国家規模の発明コンクールに参加し優勝した",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "helped some sailors who were in trouble",
+              "ja": "面倒に遭っている船員たちに助力した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "hit on a totally new way of processing flour",
+              "ja": "小麦粉を精製する全く新しい方法を思いついた",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "studied the machines at a relative's business",
+              "ja": "親類の会社で機械を研究した",
+              "is_correct": true
+            }
+          ],
+          "answer": "①",
+          "paired_answer": {
+            "answer_number": 34,
+            "answer": "⑤",
+            "order_independent": true
+          },
+          "explanation": {
+            "ja": "正解は①と⑤。①は第2段落最終文 (When she was ...) の「13歳の時に，彼女は湖を帆走する船の設計と製作に成功した」という内容に，⑤は第3段落第1文 (Visiting one of ...) の「工場を所有していた祖父のうちの1人の元を学校の夏休みに訪れた彼女は，…樽の製造機について学んだ」という内容に，それぞれ合っているため，①・⑤が正解。他の選択肢の内容は，いずれも本文に見られない。",
+            "evidence_sentences": [
+              "s7_p2s3",
+              "s7_p3s1"
+            ]
+          }
+        },
+        {
+          "question_id": "問2b",
+          "answer_number": 34,
+          "points": 0,
+          "points_note": "問2aと合わせて採点",
+          "question_text": {
+            "en": "[34] (the order does not matter):",
+            "ja": "[34] に入る選択肢（順序は問わない）："
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "built her own boat for sailing on a lake",
+              "ja": "湖を帆走するための自分自身のボートを作製した",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "entered and won a nationwide invention competition",
+              "ja": "国家規模の発明コンクールに参加し優勝した",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "helped some sailors who were in trouble",
+              "ja": "面倒に遭っている船員たちに助力した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "hit on a totally new way of processing flour",
+              "ja": "小麦粉を精製する全く新しい方法を思いついた",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "studied the machines at a relative's business",
+              "ja": "親類の会社で機械を研究した",
+              "is_correct": true
+            }
+          ],
+          "answer": "⑤",
+          "explanation": {
+            "ja": "問2aの解説を参照。33と34には①と⑤が順不同で入る。"
+          }
+        },
+        {
+          "question_id": "問3a",
+          "answer_number": 35,
+          "points": 3,
+          "points_note": "完答で3点",
+          "question_text": {
+            "en": "Choose four out of the five events (①〜⑤) in the order they happened to complete Sequence of Life Events.\n[35] → [36] → [37] → [38]",
+            "ja": "「人生における重要な出来事の順序」を完成させるために，5つの出来事（①〜⑤）のうち4つを起きた順に選べ。\n[35] → [36] → [37] → [38]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A rail project hired Beasley to improve the design of trains.",
+              "ja": "ある鉄道の事業が列車の設計を改善するためにビーズリーを雇った。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Beasley moved to Philadelphia in order to educate her sons there.",
+              "ja": "ビーズリーは息子の教育をフィラデルフィアで行うために当地に引っ越した。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Beasley sold her business for a fortune.",
+              "ja": "ビーズリーは大金と引き換えに自分の事業を売却した。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Some of Beasley's inventions were displayed at a world fair.",
+              "ja": "ビーズリーの発明品のいくつかが万国博覧会で展示された。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "The design of lifeboats was made better by Beasley.",
+              "ja": "救命ボートの設計がビーズリーによって改良された。",
+              "is_correct": true
+            }
+          ],
+          "answer": "⑤",
+          "sequence_answers": {
+            "35": "⑤",
+            "36": "④",
+            "37": "①",
+            "38": "③"
+          },
+          "explanation": {
+            "ja": "正解は⑤→④→①→③。人生における重要な出来事の順序の空所になっていない2つの出来事と，ここでの選択肢5つを時系列に沿って並べると，次のようになる。\n1. 第4段落第1文 (Beasley probably decided ...) に「息子たちの教育のためにフィラデルフィア市に引っ越した」と記述のある②。\n2. 第4段落第2文 (This city held ...)，最終文 (She was a ...) の「この都市[=フィラデルフィア]で1876年に，世界の国々が最新の業績を誇示する万国博覧会が開かれた」，「彼女は頻繁に訪れて，1870年代の終わりに足温器やロースト用鉄板を発明する着想を得た」という記述に当たる，「万国博覧会が彼女に工学的興味を引き起こした」。\n3. 第2段落最終文 (When she was ...) に「1880年に救命ボートの設計を改良する」と記述のある⑤。→ [35]\n4. 第3段落第2文 (This curiosity later ...) に「彼女は樽の製造過程を速める道具を発明し，1881年と1882年にその特許を取得した」と記述のある「ビーズリーは樽の製造機の特許を獲得した」。\n5. 最終段落第4文 (Her determination to ...) に「その作品は1893年のシカゴ万国博覧会で展示された」という記述のある④。→ [36]\n6. 第5段落第1文 (In 1895, Beasley ...)，第2文 (Beasley became involved ...) 「1895年に…一大鉄道事業が発表された。ビーズリーもこれに携わることに」なった，という記述の内容に当たる①。→ [37]\n7. 第3段落第4文 (Making various improvements ...) の「彼女が死の10年ほど前にそれ[=樽の製造業]を売却した」，最終段落第3文 (Her son worked ...) の「1913年に彼女が亡くなる」との記述から，1903年頃のことと推定できる③。→ [38]"
+          }
+        },
+        {
+          "question_id": "問3b",
+          "answer_number": 36,
+          "points": 0,
+          "points_note": "問3aと合わせて完答採点",
+          "question_text": {
+            "en": "[36]:",
+            "ja": "[36]:"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A rail project hired Beasley to improve the design of trains.",
+              "ja": "ある鉄道の事業が列車の設計を改善するためにビーズリーを雇った。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Beasley moved to Philadelphia in order to educate her sons there.",
+              "ja": "ビーズリーは息子の教育をフィラデルフィアで行うために当地に引っ越した。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Beasley sold her business for a fortune.",
+              "ja": "ビーズリーは大金と引き換えに自分の事業を売却した。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Some of Beasley's inventions were displayed at a world fair.",
+              "ja": "ビーズリーの発明品のいくつかが万国博覧会で展示された。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "The design of lifeboats was made better by Beasley.",
+              "ja": "救命ボートの設計がビーズリーによって改良された。",
+              "is_correct": false
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "問3aの解説を参照。"
+          }
+        },
+        {
+          "question_id": "問3c",
+          "answer_number": 37,
+          "points": 0,
+          "points_note": "問3aと合わせて完答採点",
+          "question_text": {
+            "en": "[37]:",
+            "ja": "[37]:"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A rail project hired Beasley to improve the design of trains.",
+              "ja": "ある鉄道の事業が列車の設計を改善するためにビーズリーを雇った。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Beasley moved to Philadelphia in order to educate her sons there.",
+              "ja": "ビーズリーは息子の教育をフィラデルフィアで行うために当地に引っ越した。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Beasley sold her business for a fortune.",
+              "ja": "ビーズリーは大金と引き換えに自分の事業を売却した。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Some of Beasley's inventions were displayed at a world fair.",
+              "ja": "ビーズリーの発明品のいくつかが万国博覧会で展示された。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "The design of lifeboats was made better by Beasley.",
+              "ja": "救命ボートの設計がビーズリーによって改良された。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "問3aの解説を参照。"
+          }
+        },
+        {
+          "question_id": "問3d",
+          "answer_number": 38,
+          "points": 0,
+          "points_note": "問3aと合わせて完答採点",
+          "question_text": {
+            "en": "[38]:",
+            "ja": "[38]:"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A rail project hired Beasley to improve the design of trains.",
+              "ja": "ある鉄道の事業が列車の設計を改善するためにビーズリーを雇った。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Beasley moved to Philadelphia in order to educate her sons there.",
+              "ja": "ビーズリーは息子の教育をフィラデルフィアで行うために当地に引っ越した。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Beasley sold her business for a fortune.",
+              "ja": "ビーズリーは大金と引き換えに自分の事業を売却した。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Some of Beasley's inventions were displayed at a world fair.",
+              "ja": "ビーズリーの発明品のいくつかが万国博覧会で展示された。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "The design of lifeboats was made better by Beasley.",
+              "ja": "救命ボートの設計がビーズリーによって改良された。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "問3aの解説を参照。"
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 39,
+          "points": 3,
+          "question_text": {
+            "en": "Choose the best option for [39] to complete Train Design.",
+            "ja": "「列車の設計」を完成させるために，[39] に最も適した選択肢を選べ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "had better engines that didn't overheat after long hours of use",
+              "ja": "長時間使用した後で過熱しない，より良いエンジンを備えていた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "had stronger windows that would rarely break if hit with something",
+              "ja": "何かが当たってもほとんど割れることのない，より強度の高い窓を備えていた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "were able to stay firmly on train tracks when moving at high speeds",
+              "ja": "高速で運転中に線路にしっかり留まることができた",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "were far less dangerous than other types of public transport",
+              "ja": "他の種類の公共交通と比べてはるかに危険度が低かった",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。彼女が設計したのは，第5段落第3文 (Beasley was acknowledged ...) に述べられている「高速での脱線の可能性を低減する形状の新たな列車」であったため，③が正解。",
+            "evidence_sentences": [
+              "s7_p5s3"
+            ],
+            "why_others_wrong": {
+              "①": "本文中に関連する記述はない。",
+              "②": "本文中に関連する記述はない。",
+              "④": "第5段落最終文 (Built with windows ...) に「従来型と比べて安全性の高い輸送形態となった」という記述はあるが「他の種類の公共交通」との比較はなされていない。"
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 40,
+          "points": 3,
+          "question_text": {
+            "en": "Choose the best option for [40] to complete Lifeboat Design.",
+            "ja": "「救命ボートの設計」を完成させるために，[40] に最も適した選択肢を選べ。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Her boats could also help put out fires.",
+              "ja": "彼女のボートは消火を手助けするのにも使えた。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Her boats' size could be reduced for storage.",
+              "ja": "彼女のボートは保管用に小さくできた。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "New US citizens arrived on her boats.",
+              "ja": "新たなアメリカ市民が彼女のボートで到着した。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The design of her lifeboats remains unchanged until today.",
+              "ja": "彼女の救命ボートの設計は今日まで変更されていない。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。第6段落第3文 (They could be ...) の「折り畳み可能であるため，船への収納ははるかに容易になった」という記述内容に合っているため，②が正解。",
+            "evidence_sentences": [
+              "s7_p6s3"
+            ],
+            "why_others_wrong": {
+              "①": "第6段落第2文 (Her boats were ...) に「耐火性を備えていた」との記述はあるが，「耐火性」と「消火にとっての有効性」は別物である。",
+              "③": "彼女が設計したのは海難が起きた際という非常時用の救命ボートであって，航海用ではないため，不適。",
+              "④": "このような内容の記述も本文中に見られない。"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 14,
+      "situation": {
+        "en": "You are in a group of students preparing a poster for a presentation contest with the theme \"Popular health concerns in society.\" You have been using the following passage to create the poster.",
+        "ja": "あなたは「社会における健康に関する一般的な懸念事項」というテーマの発表コンテストにむけたポスターを準備する生徒のグループの一員です。ポスターを作成するのに以下の文章を使用してきました。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Doing Battle with Allergies",
+            "ja": "アレルギーと戦う"
+          },
+          "subtitle": {
+            "en": "— A Common Health Worry Today —",
+            "ja": "〜今日の健康に関する一般的懸念〜"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_p1s1",
+                "en": "Nowadays millions of people suffer from allergies.",
+                "ja": "今日，何百万もの人々がアレルギーに苦しんでいる。"
+              },
+              {
+                "id": "s8_p1s2",
+                "en": "Indeed, allergies are a modern phenomenon, and the number of people having to deal with them — whether they are chemical, plant, food, or medicine-related — is growing higher as cities spread and industry progresses.",
+                "ja": "実際，アレルギーは現代的な現象であり，化学物質，植物性，食品性，薬品のいずれに関連するかを問わず，対処に迫られる人の数は，都市の拡大や産業の進展につれて増加している。"
+              },
+              {
+                "id": "s8_p1s3",
+                "en": "In remote areas of Africa and South America, it is still rare to find someone with allergies.",
+                "ja": "アフリカや南米の辺鄙な地域では，アレルギーを持つ人は今でも滅多に見られない。"
+              },
+              {
+                "id": "s8_p1s4",
+                "en": "Though they are seldom life-threatening, they can make us miserable.",
+                "ja": "アレルギーが生命にかかわる場合は稀だが，我々を悲惨な状態に追い込まれることもある。"
+              },
+              {
+                "id": "s8_p1s5",
+                "en": "Around 6% of young kids in the USA have a food allergy, and today manufacturers are required by law to print on packaging when something contains ingredients that harm many of us — namely nuts, milk, eggs, fish, soy and flour.",
+                "ja": "アメリカの幼い子どもの6%ほどに食品アレルギーが見られ，今日では食品が我々の多くに対して害を及ぼす材料，つまりナッツやミルク，玉子，魚類，大豆，小麦を含む場合は，包装に印刷するよう製造業者は法的に要求されている。"
+              },
+              {
+                "id": "s8_p1s6",
+                "en": "Some children with severe allergies must eat at different tables from their classmates or even be educated at home in order to avoid them getting sick from an item in another child's lunch.",
+                "ja": "深刻なアレルギーを持つ子どもは，他の子どもの昼食に含まれる品目が原因で不調をきたすことを避けるために，クラスメートとは別のテーブルで食事をしたり，さらには家庭で教育を受けたりせざるを得ない。"
+              }
+            ],
+            [
+              {
+                "id": "s8_p2s1",
+                "en": "So why are we developing allergies to everyday things?",
+                "ja": "では，ありふれた物質に対してなぜアレルギーが出てしまうのだろうか。"
+              },
+              {
+                "id": "s8_p2s2",
+                "en": "The reason is, unfortunately, unclear.",
+                "ja": "原因は残念ながら明確ではない。"
+              },
+              {
+                "id": "s8_p2s3",
+                "en": "One day the body meets a harmless ingredient, such as flour in a cake, and for some reason flags it as an enemy.",
+                "ja": "ある日，身体がケーキの中の小麦のような無害な食材に出会い，何らかの理由でそれに敵の印を付ける。"
+              },
+              {
+                "id": "s8_p2s4",
+                "en": "At first nothing happens, but the body, remembering it, starts making plans to do battle.",
+                "ja": "最初は何も起きないが，身体はこれを覚えていて，戦闘を行うべく計画を練り始める。"
+              },
+              {
+                "id": "s8_p2s5",
+                "en": "Our immune systems, which protect us from poisons and illnesses, begin producing 'soldiers' that attach to cells and wait for the offensive material to enter the body again.",
+                "ja": "我々を毒や病気から保護する免疫系が，細胞に付着して攻撃的物質が再び身体に侵入するのを待ち受ける「兵隊」を製造し始める。"
+              },
+              {
+                "id": "s8_p2s6",
+                "en": "When it does, even months later, the 'soldiers' fight it with chemicals, which actually irritate our skin, or make us cough or our noses run.",
+                "ja": "実際に侵入が起きると，数カ月経ってからであっても「兵隊」は化学物質で応戦するのだが，実際には我々の皮膚に炎症が起きたり，咳や鼻水が出たりする。"
+              },
+              {
+                "id": "s8_p2s7",
+                "en": "The battle, and our physical reaction, can become more intense over time.",
+                "ja": "戦闘と我々の肉体的反応は，時を経て激しさを増すこともある。"
+              }
+            ],
+            [
+              {
+                "id": "s8_p3s1",
+                "en": "Though allergies can be passed down from parents, the rise in the number of sufferers is so rapid that this clearly isn't the only cause.",
+                "ja": "アレルギーは親から遺伝する場合もあるが，患者数の増加がこれほど急速なのだからこれが唯一の原因ではないのは明らかである。"
+              },
+              {
+                "id": "s8_p3s2",
+                "en": "Our environments and behavior must have something to do with the increase.",
+                "ja": "我々の環境や行動が，この増加と何らかの関係があるに違いないのである。"
+              },
+              {
+                "id": "s8_p3s3",
+                "en": "There are theories that babies who are raised on factory milk-substitutes may be more at risk of getting allergies than those who drink their mother's milk.",
+                "ja": "工場生産されたミルクの代替品で育てられた乳児は，母乳を飲む乳児と比べてアレルギーにかかる危険性が高い可能性がある，という仮説がある。"
+              },
+              {
+                "id": "s8_p3s4",
+                "en": "The same could be true for consuming processed foods more than natural foods like fruits and vegetables.",
+                "ja": "同様なことが，果物や野菜などの天然の食材よりも多くの調整された食材を消費する場合にもあてはまる可能性がある。"
+              },
+              {
+                "id": "s8_p3s5",
+                "en": "Some scientists argue that children living near busy roads may have worse allergies, most likely due to what passing traffic puts into the air.",
+                "ja": "交通量の多い道路近くに住んでいる子どもの方が，おそらくは往来する車両が空中に放出する物質が原因で，アレルギーは酷くなる場合がある，と論じる科学者もいる。"
+              }
+            ],
+            [
+              {
+                "id": "s8_p4s1",
+                "en": "Being too clean, ironically, is also presumably a factor.",
+                "ja": "皮肉なことだが，あまりに清潔過ぎることもおそらく一因となるのである。"
+              },
+              {
+                "id": "s8_p4s2",
+                "en": "Technology provides us with effective medicines, spotless hospitals, and solid homes that not only keep cold and bad weather out but also guard us from dirt.",
+                "ja": "科学技術は，我々に有効な薬品と清潔な病院，寒さや悪天候を排除するばかりか，我々を汚れから防御もする堅牢な住宅をもたらしている。"
+              },
+              {
+                "id": "s8_p4s3",
+                "en": "Not playing in nature or getting dirty can mean children's developing bodies lose the chance to practice attacking things that damage our health and therefore grow lazy and become insufficiently prepared.",
+                "ja": "自然の中で遊んだり汚れたりしないということは，子どもの発育期の身体が我々の健康を害するものを攻撃するものの練習の機会を失い，怠惰になって十分な準備が叶わない，ということにもなりかねない。"
+              },
+              {
+                "id": "s8_p4s4",
+                "en": "When cases of people with plant-related allergies began to surface in 1819, none of them were uneducated poor people.",
+                "ja": "植物関連のアレルギーを持つ人々の症例が1819年に初めて表面化したとき，無学の貧しい者は1人として含まれなかった。"
+              },
+              {
+                "id": "s8_p4s5",
+                "en": "Today even families in developed nations who aren't wealthy can lead clean lives, and the dirt we need to encounter, such as soil from fields and animal waste is practically nowhere in urban areas.",
+                "ja": "今日では，先進国の富裕ではない家族でも清潔な生活を送ることが可能であり，畑の土壌や動物の排泄物など我々が出会う必要のある汚れは，都市部ではほとんどどこにも見られなくなっている。"
+              }
+            ],
+            [
+              {
+                "id": "s8_p5s1",
+                "en": "Some scientists believe that exposing kids to the right kinds of dirt at a young age could be a key solution, though with evolution and our forever changing bodies, this could do more harm when we get older and live cleanly.",
+                "ja": "子どもを然るべき種類の汚れに幼い時期にさらすことが重要な解決法になり得る，と考える科学者もいるが，進化と絶えず変化する我々の身体のことを考えれば，年齢を重ねて清潔に暮らすときには，それによってもたらされる害が増える可能性もある。"
+              },
+              {
+                "id": "s8_p5s2",
+                "en": "While some professionals believe we should expose children to popular sources of allergies like flour as much as possible when young to build up their defenses, others feel we should distance them from them totally.",
+                "ja": "防御機構を身につけさせるために，子どもを幼い時に小麦粉など一般的なアレルギー源にできるだけ多くさらすべきであると考える専門家もいる一方で，そうしたものから子どもを完全に遠ざけるべきだと考える専門家もいる。"
+              },
+              {
+                "id": "s8_p5s3",
+                "en": "Obviously, we don't know enough yet.",
+                "ja": "我々の知識が未だに不十分であることは明らかなのである。"
+              },
+              {
+                "id": "s8_p5s4",
+                "en": "We are more aware of allergies now, though, and many hotels offer rooms with special fans to keep air free of dust and wash sheets with products that don't contain substances likely to hurt our skin.",
+                "ja": "しかし現在，我々のアレルギーへの意識は高まっており，空気中の埃を除去する特殊な換気扇を備えた部屋を提供し，皮膚を傷めやすい物質を含まない製品でシーツを洗うホテルも多い。"
+              },
+              {
+                "id": "s8_p5s5",
+                "en": "Through engineering genetics, we can take some ingredients out of foods without changing the taste.",
+                "ja": "遺伝子操作を行うことで，味を変えずに食品からいくつかの成分を取り除くことも可能である。"
+              },
+              {
+                "id": "s8_p5s6",
+                "en": "But how much should we change nature through science?",
+                "ja": "しかし我々は，科学を用いてどこまで自然に手を加えるべきなのだろうか。"
+              },
+              {
+                "id": "s8_p5s7",
+                "en": "And even if we do, what new things will our bodies object to in the future?",
+                "ja": "そして手を加えたとしても，将来いかなる新たな物質を我々の身体が拒絶するようになるのだろうか。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "poster",
+          "is_poster": true,
+          "poster_title": {
+            "en": "Why do allergies occur?",
+            "ja": "なぜアレルギーが起きるのか？"
+          },
+          "poster_intro_slot": {
+            "en": "[41]",
+            "ja": "[41]"
+          },
+          "poster_section_label": {
+            "en": "Suggested causes for various allergies",
+            "ja": "さまざまなアレルギーの原因とおぼしきもの"
+          },
+          "poster_table": {
+            "headers": [
+              "Type",
+              "Cause",
+              "Theory",
+              "Origins"
+            ],
+            "rows": [
+              {
+                "type_num": "1",
+                "cause": {
+                  "en": "Diet",
+                  "ja": "食事"
+                },
+                "cause_image": "images/s8_diet.png",
+                "theory": {
+                  "en": "Children who consume manufactured foods [42] may be at high risk.",
+                  "ja": "加工食品を消費し，[42] 子どもは危険が大きい可能性がある。"
+                },
+                "origins": {
+                  "en": "foods, drinks, etc.",
+                  "ja": "食品，飲料など"
+                }
+              },
+              {
+                "type_num": "2",
+                "cause": {
+                  "en": "Transportation",
+                  "ja": "交通"
+                },
+                "cause_image": "images/s8_transportation.png",
+                "theory": {
+                  "en": "In areas where there is a lot of traffic, children's allergies may get worse.",
+                  "ja": "交通量の多い地域では，子どものアレルギーは悪化する可能性がある。"
+                },
+                "origins": {
+                  "en": "chemicals in gasoline, etc.",
+                  "ja": "ガソリンに含まれる化学物質など"
+                }
+              },
+              {
+                "type_num": "3",
+                "cause": {
+                  "en": "Nature",
+                  "ja": "自然"
+                },
+                "cause_image": "images/s8_nature.png",
+                "theory": {
+                  "en": "Lack of contact with dirt and waste may [43].",
+                  "ja": "汚れや排泄物との接触の欠如は [43] 可能性がある。"
+                },
+                "origins": {
+                  "en": "soil, animals, etc.",
+                  "ja": "土壌，動物など"
+                }
+              }
+            ]
+          },
+          "poster_solutions_label": {
+            "en": "Possible solutions to allergies:",
+            "ja": "アレルギーの解決策の候補："
+          },
+          "poster_solutions_slots": [
+            "[44]",
+            "[45]"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 41,
+          "points": 4,
+          "question_text": {
+            "en": "Under the first poster heading, your group wants to introduce the reason why allergies occur, as explained in the passage. Which of the following is most appropriate? [41]",
+            "ja": "ポスターの最初の見出しの下に，アレルギーがなぜ起きるかの理由を本文で説明されているように紹介したい。以下のうち最も適切なのはどれか [41]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "They appear because of more newly developed medicines being used in modern life.",
+              "ja": "それらは，現代の生活にはより多くの新たに開発された薬品が使われているために起きる。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "They are unexplained violent reactions by our bodies to supposedly safe things.",
+              "ja": "それらは我々の身体による，おそらくは安全なものに対する説明のつかない激しい反応である。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "They begin when we suddenly make complete changes to our living environments.",
+              "ja": "それらは，我々が生活環境に突然完全な変化をもたらすときに始まる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "They develop when technology advances so much that it causes changes in our brains.",
+              "ja": "それらは，テクノロジーがあまりにも大きく進歩して我々の脳内に変化をもたらす際に起きる。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。問われているのは「なぜアレルギーが起きるのか」の「理由」に当たるもの。文章の第2段落第2文 (The reason is, ...) 〜第6文 (When it does, ...) の，アレルギーの「原因は残念ながら明確ではない」が，「身体が…無害な食材に出会い，何らかの理由でそれに敵の印を付け」，その物質が再び身体に侵入した場合，それに備えて身体が製造した「兵隊」が「化学物質で応戦する」という内容に一致するため，②が正解。",
+            "evidence_sentences": [
+              "s8_p2s2",
+              "s8_p2s3",
+              "s8_p2s6"
+            ],
+            "why_others_wrong": {
+              "①": "第1段落第2文 (Indeed, allergies are ...) から薬品関係のアレルギーが存在することは読み取れるが，「新たに開発された」薬品の増加とアレルギーとの関連についての記述は見られない。",
+              "③": "本文に見られない内容。",
+              "④": "本文に見られない内容。"
+            }
+          }
+        },
+        {
+          "question_id": "問2a",
+          "answer_number": 42,
+          "points": 3,
+          "question_text": {
+            "en": "You have been asked to write theories for possible allergy cause Type 1 and 3. Choose the best options for [42] and [43].\n\nType 1 [42]:",
+            "ja": "あなたは，アレルギーの原因となり得るタイプ1と3に対する仮説を書くことを求められた。[42] と [43] に対する最も適切な選択肢を選べ。\n\nタイプ1 [42]："
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "and drink processed baby milk",
+              "ja": "また調整された乳幼児用ミルクを飲む",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "and eat lots of sweets",
+              "ja": "また多くの甘い菓子を食べる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "but avoid nutritious juices",
+              "ja": "しかし栄養価の高いジュースは避ける",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "but no nuts or fish",
+              "ja": "しかしナッツや魚はまったく食べない",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。空所に入れるべきものは，食事を原因とするアレルギーの仮説を完成させるのに最も適切な選択肢。第3段落第3文 (There are theories ...) ，第4文 (The same could ...) の「工場生産されたミルクの代替品で育てられた乳児は，母乳を飲む乳児と比べてアレルギーにかかる危険性が高い可能性がある，という仮説がある」，「同様なことが，果物や野菜などの天然の食材よりも多くの調整された食材を消費する場合にもあてはまる可能性がある」という内容に一致するため，①が正解。",
+            "evidence_sentences": [
+              "s8_p3s3",
+              "s8_p3s4"
+            ],
+            "why_others_wrong": {
+              "②": "「甘い菓子」についての記述は見られない。",
+              "③": "「ジュース」についての記述は見られない。",
+              "④": "「ナッツ」「魚類」については，第1段落第5文 (Around 6% of ...) で「包装に印刷するよう製造業者は法的に要求されている」食材として挙げられているが，幼児期に摂取しないことがアレルギーの危険性を高める可能性があるとは述べられていない。"
+            }
+          }
+        },
+        {
+          "question_id": "問2b",
+          "answer_number": 43,
+          "points": 3,
+          "question_text": {
+            "en": "Type 3 [43]:",
+            "ja": "タイプ3 [43]："
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "cause us to be unaware of their dangers",
+              "ja": "我々をそれらの危険に気づかなくする",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "deny us enough fresh country air",
+              "ja": "我々を新鮮な郊外の空気に十分に触れられなくする",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "lead to our difficulties in standing cold temperatures",
+              "ja": "我々が低い気温に耐えることを困難にする",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "make us vulnerable to unhealthy elements",
+              "ja": "我々を健康に悪い要素に対して脆くする",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。空所に入れるべきものは，自然を原因とするアレルギーの仮説を完成させるのに最も適切な選択肢。第4段落第3文 (Not playing in ...) の「自然の中で遊んだり汚れたりしないということは，子どもの発育期の身体が我々の健康を害するものを攻撃するものの練習の機会を失い，怠惰になって十分な準備が叶わない，ということにもなりかねない」という内容に一致すると言えるため，④が正解。",
+            "evidence_sentences": [
+              "s8_p4s3"
+            ],
+            "why_others_wrong": {
+              "①": "他の選択肢の内容に相当する記述は，本文に見られない。",
+              "②": "他の選択肢の内容に相当する記述は，本文に見られない。",
+              "③": "他の選択肢の内容に相当する記述は，本文に見られない。"
+            }
+          }
+        },
+        {
+          "question_id": "問3a",
+          "answer_number": 44,
+          "points": 4,
+          "points_note": "順不同・両方正解で4点",
+          "question_text": {
+            "en": "You are making statements about possible ways allergies could be tackled. According to the article, which two of the following are appropriate? (The order does not matter.) [44] ・ [45]",
+            "ja": "あなたはアレルギーに立ち向かい得る方法となり得るものについて記述している。記事によれば以下のうちどの2つが適切か（順序は問わない）[44] ・ [45]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Children ought to be kept away from foods that are often the cause of allergies.",
+              "ja": "子どもは，アレルギー源になることの多い食品から遠ざけられるべきだ。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Families with young children ought to put air-cleaning appliances in bedrooms.",
+              "ja": "幼い子どものいる家庭は，寝室に空気清浄機を備えるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "People should have the chance to encounter the right type of dirt early in life.",
+              "ja": "人々は，幼い時期に適切な種類の汚いものに出会う機会を持つべきだ。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Plants and foods that commonly make children feel ill should be scientifically altered.",
+              "ja": "一般に子どもが具合を悪くする植物や食品は，科学的に改変すべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Special bed sheets made from natural materials should be sold for children.",
+              "ja": "天然素材でできた特別なベッドシーツが，子ども向けに売られるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Vitamins that help children develop healthily ought to be added to certain foods.",
+              "ja": "子どもの健全な発達を促すビタミンが，ある種の食品に加えられるべきだ。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "paired_answer": {
+            "answer_number": 45,
+            "answer": "③",
+            "order_independent": true
+          },
+          "explanation": {
+            "ja": "正解は①・③。最終段落第2文 (While some professionals ...) には，「そうしたもの[=一般的なアレルギー源]から子どもを完全に遠ざけるべきだと考える」専門家が存在すると書かれているので，①は正解。また第4段落最終文 (Today even families ...) の「畑の土壌や動物の排泄物など我々が出会う必要のある汚れ」という表現や，最終段落第1文 (Some scientists believe ...) に「子どもを然るべき種類の汚れに幼い時期にさらすことが重要な解決法になり得る，と考える科学者」もいることが述べられていることなどから，③も正解。",
+            "evidence_sentences": [
+              "s8_p5s2",
+              "s8_p4s5",
+              "s8_p5s1"
+            ],
+            "why_others_wrong": {
+              "②": "「空気清浄機」「特別なベッドシーツ」については，最終段落第4文 (We are more ...) に「現在，…空気中の埃を除去する特殊な換気扇を備えた部屋を提供し，皮膚を傷めやすい物質を含まない製品でシーツを洗うホテルも多い」と述べられているが，「子どものいる家庭」や「子ども向け」という内容につながる記述はない。",
+              "④": "「食品の科学的改変」については，最終段落第5文 (Through engineering genetics, ...) に「遺伝子操作を行うことで，味を変えずに食品からいくつかの成分を取り除くことも可能である」と述べられているが，やはり「子ども」との関連性について触れられてはいないし，改変が推奨されるという方向での記述も見られない。",
+              "⑤": "②の解説を参照。",
+              "⑥": "「ビタミンの添加」については，本文に関連する記述はない。"
+            }
+          }
+        },
+        {
+          "question_id": "問3b",
+          "answer_number": 45,
+          "points": 0,
+          "points_note": "問3aと合わせて採点",
+          "question_text": {
+            "en": "[45] (the order does not matter):",
+            "ja": "[45] に入る選択肢（順序は問わない）："
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Children ought to be kept away from foods that are often the cause of allergies.",
+              "ja": "子どもは，アレルギー源になることの多い食品から遠ざけられるべきだ。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Families with young children ought to put air-cleaning appliances in bedrooms.",
+              "ja": "幼い子どものいる家庭は，寝室に空気清浄機を備えるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "People should have the chance to encounter the right type of dirt early in life.",
+              "ja": "人々は，幼い時期に適切な種類の汚いものに出会う機会を持つべきだ。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Plants and foods that commonly make children feel ill should be scientifically altered.",
+              "ja": "一般に子どもが具合を悪くする植物や食品は，科学的に改変すべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Special bed sheets made from natural materials should be sold for children.",
+              "ja": "天然素材でできた特別なベッドシーツが，子ども向けに売られるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Vitamins that help children develop healthily ought to be added to certain foods.",
+              "ja": "子どもの健全な発達を促すビタミンが，ある種の食品に加えられるべきだ。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "問3aの解説を参照。44と45には①と③が順不同で入る。"
+          }
+        }
+      ]
+    }
+  ]
+}

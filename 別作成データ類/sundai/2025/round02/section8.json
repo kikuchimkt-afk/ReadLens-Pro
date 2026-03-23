@@ -1,0 +1,95 @@
+{
+    "theme": "ハエキノコ",
+    "theme_translation": "あなたは国際的なプレゼンテーションコンテストの準備をしている学生グループに所属しています。あなたは，ある人気のキノコについてのプレゼンテーションの，自分の担当部分を作成するために次の文章を使用しています。",
+    "passage": [
+        "The earth contains more species of organisms than animal species, including us humans. Typical examples are fungi, of which there are estimated to be 1.5 to 5 million species, compared to only about 1.5 million animal species. This is partly due to the fact that fungi are highly adapted to their environment and can live in a wider range of places than animals. Fungi are also able to reproduce both sexually and non-sexually, which gives them a greater capacity to evolve and diversify. Of all the fungi, perhaps the most familiar to us are mushrooms.",
+        "When we were young, we may have seen red and white mushrooms in fairy tales and other stories. There are different opinions as to what these mushrooms are, but the most promising is fly agaric. It has a red pileus (cap) that is typically between 5-15 cm wide and a white stem that can grow up to 20 cm tall. This makes it one of the most easily recognizable types of mushrooms. It is originally from northern Europe, but now it is found in many different regions around the world, ranging from temperate forests to the cold and damp forests of the northern areas.",
+        "Fly agaric has played an important role in many cultures and traditions, from being depicted in folklore and fairy tales to being used in religious ceremonies. In some cultures, it was believed to have spiritual and healing powers. The Vikings are said to have used it to feel brave before battle. In Hindu texts, it is mentioned as \"soma\" and believed to have been used in religious rituals to communicate with the gods.",
+        "Fly agaric is attracting attention for its medicinal properties. One of the chemicals that have been recently studied in fly agaric is ibotenic acid. This substance has been linked to learning and memory, and it could be helpful in treating various nervous disorders such as Parkinson's and Alzheimer's diseases. In addition, fly agaric contains several substances that are being studied for their potential usefulness in the treatment of various organ diseases, including cancer and liver disease.",
+        "Fly agaric is also known as Amanita muscaria in scientific terms. It is part of the genus Amanita, which includes other well-known species like death cap. Fly agaric is a type of fungus called mycorrhizal, which means that it needs a tree to survive. They need each other to exist because the tree absorbs nutrients from the soil through the fungus, while the fungus receives sugars and other nutrients from the tree.",
+        "The fly agaric fungus grows beneath the ground, and only the mushrooms, or fruiting bodies, can be seen above ground. It is considered to be an annual fungus, which usually grows once a year and then dies, but the mycelium remains underground and is able to produce new fruiting bodies the following year. The growth and reproduction of fly agaric is closely tied to environmental factors such as temperature, moisture, and light.",
+        "The body mechanics of the fly agaric are unique. It has a bright red pileus, which is covered with white spots called scales. It releases tiny single-celled structures called spores that spread into the environment to settle on new growth areas. The spores are white and located on the gills under the pileus. The mushroom stands tall on a thick stem, which is usually white or cream in color, and has a cup-like structure at the base called a volva. It also has a distinctive ring-like structure around the stem called the annulus, which also serves as one of the main characteristics of the mushroom.",
+        "Although fly agaric has cultural significance and potential medicinal benefits, it's important to remember that it is a poisonous mushroom. Eating too much of it can lead to serious illness or even death. Therefore, it's essential to be careful and seek advice from professionals before attempting to use fly agaric for any purpose. Nevertheless, the unique qualities of this fungus will continue to fascinate and inspire scientists and mushroom fans alike.",
+        "Your presentation slides:\n1. Basic Information\n- 5 cm to 15 cm in diameter\n- up to 20 cm in height\n- [ 41 ]\nFly Agaric: Red and White Mushroom Known Worldwide\n2. Use as Medicine\n- [ 42 ]\n- [ 43 ]\n3. Classification\n- Amanita muscaria\n- mycorrhizal\n- annual\n4. Mechanism [ 44 ]\n(A) ~ (E) Labels\n5. Final Statement\n[ 45 ]"
+    ],
+    "translations": [
+        "地球上には私たち人間を含む動物種より多くの生物の種が存在している。代表的な例が菌類で, 150万種程度しかいない動物種に対し，菌類は150万から500万種存在すると推定されている。この理由の一部には，菌類が環境に非常に適応しており，動物よりも広い範囲で生息できるという事実がある。また‘菌類は有性，無性のどちらでも繁殖することができるため，進化や多様化する能力がより高い。すべての菌類の中で，私たちに最も身近なものはおそらくキノコであろう。",
+        "幼い頃，私たちはおとぎ話やその他の物語で赤と白のキノコを見たことがあるかもしれない。そのキノコが何なのかということに関してはさまざまな意見があるが，最も有力なのはハエキノコ(ベニテングダケ)だ。それは一般的に幅5cmから15 cmの赤い菌傘（かさ）と，高さ20 cmにまで成長することもある白い柄を持っている。このことにより，ハエキノコはキノコの中でも最も見分けがつきやすい種類の1つとなっている。その原産地は北欧だが，現在では温帯林から北部地域の寒くてじめじめした森まで，世界中のさまざまな地域で見られる。",
+        "ハエキノコは，民話やおとぎ話に描かれたり宗教的な儀式に使われたりと，多くの文化や伝統の中で重要な役割を果たしてきた。一部の文化では霊的な力や癒しの力があると信じられていた。バイキングはそれを戦いの前に勇気を出すために使ったと言われている。ヒンドゥー教の文書では，それは「ソーマ」という名で言及されており，神々と交信するための宗教儀式に用いられたと考えられている。",
+        "ハエキノコはその薬効で注目を集めている。最近研究されているハエキノコ中の化学物質の1つはイボテン酸である。この物質は学習や記憶に関連性があり，パーキンソン病やアルツハイマー病などさまざまな神経疾患の治療に役立つかもしれない。それに加えてハエキノコは，がんや肝臓病を含むさまざまな臓器疾患の治療に役立つ可能性に関して研究されている，いくつかの物質を含んでいる。",
+        "ハエキノコは学術的にはベニテングダケ(Amanita muscaria)としても知られている。それはタマゴテングダケのような他の有名な種を含むテングダケ属の一種である。ハエキノコは生存のために木を必要とすることを意味する菌根菌と呼ばれる菌類の一種である。木はこの菌を通して土から栄養を吸収し，一方でこの菌は木から糖分や他の栄養を受け取るので，それらは生存のためにお互いを必要としている。",
+        "ハエキノコ菌は地中で成長し，地上ではキノコ，つまり子実体しか見ることができない。それは一年菌と考えられており，通常は1年に1度成長し，その後枯れるが，菌糸は地中に残り翌年には新しい子実体を作ることができる。ハエキノコの成長と繁殖は温度，水分，光などの環境因子と密接に関係している。",
+        "ハエキノコの構造は独特である。鱗片と呼ばれる白い斑点に覆われた真っ赤な菌傘がある。それは新しい生育場所に定着するため，周囲の環境に広まる胞子と呼ばれる小さな単細胞構造物を放出している。胞子は白色で菌傘の下のひだのところにある。キノコは大抵白色かクリーム色の太い柄に支えられてまっすぐ立っており，根元にはつぼと呼ばれるカップ状の構造物がついている。また柄の周囲には，つばと呼ばれる特徴的な環状構造物があり，これもこのキノコの大きな特徴の1つとなっている。",
+        "ハエキノコには文化的な意義と潜在的な薬としての恩恵があるが，毒キノコであることを覚えておくことが重要だ。それを食べすぎると重病や死に至ることもある。したがって，ハエキノコをいかなる目的であれ活用しようとする前には注意し，専門家のアドバイスを求めることが不可欠だ。それでもなお，この菌類の独特の性質は，科学者だけでなくキノコ好きな人も魅了し，彼らにインスピレーションを与え続けることだろう。",
+        "あなたのプレゼンテーションのスライド\n1．基本的な情報\n・直径は5cmから15 cm\n・高さは最大で20 cm\n「 41 」\nハエキノコ：\n世界中で知られている\n赤と白のキノコ\n2．薬としての使用\n「 42 」\n「 43 」\n3．分類\n・ベニテングダケ\n・菌根類\n・一年菌\n4．構造「 44 」\n(A)〜(E) 各部名称\n5．最後に\n「 45 」"
+    ],
+    "questions": [
+        {
+            "id": "41",
+            "question_number": "1",
+            "points": 2,
+            "question_text": "Which of the following should you not include for [ 41 ]?",
+            "choices": [
+                "appears in folk and fairy tales",
+                "approximately 5 million species have been found",
+                "found in both warm and cold forests",
+                "used in religious ceremonies",
+                "very easy to recognize"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。ハエキノコの｢基本的な情報」は，本文の第2段落から第3段落で述べられている。②はハエキノコの種類に関する内容だが，これについては本文では述べられていない。第1段落第2文(Typical examples are…)の中に, ｢150万から500万種」という表現があるが，これは菌類(fungi)全体のことであって，ハエキノコに関する記述ではないことに注意。したがって正解は②となる。"
+        },
+        {
+            "id": "42_43",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "For the Use as Medicine slide, select two features of the fly agaric which are most likely true. (The order does not matter.) [ 42 ][ 43 ]",
+            "choices": [
+                "Fly agaric has been proved to have positive effects on stress and fatigue.",
+                "Fly agaric is studied for its possible usefulness in treating some nervous disorders.",
+                "It was believed in some religions that fly agaric was a medicine brought by the gods.",
+                "Some substances in fly agaric might be effective against certain organ diseases.",
+                "The Vikings are said to have eaten fly agaric to feel relaxed after fighting."
+            ],
+            "answer": "2-4",
+            "explanation": "正解は②と④。「薬としての使用」に関しては，第4段落で述べられている。②に関しては，第4段落第2文(One of the…)に「最近研究されているハエキノコ中の化学物質の1つはイボテン酸である」とあり，イボテン酸については続く第3文(This substance has…)で「学習や記憶に関連性があり，パーキンソン病やアルツハイマー病などさまざまな神経疾患の治療に役立つかもしれない」と述べられているので，本文の内容に一致していることがわかる。④については,第4段落最終文(In addition, fly…)で｢ハエキノコは，がんや肝臓病を含むさまざまな臓器疾患の治療に役立つ可能性に関して研究されている，いくつかの物質を含んでいる」とあるので，こちらも本文の内容に一致している。"
+        },
+        {
+            "id": "44",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "Complete the missing labels on the illustration of a fly agaric for the Mechanism slide. [ 44 ]\nOptions:\n1: (A) Annulus (B) Mycelium (C) Volva (D) Pileus (E) Gills\n2: (A) Mycelium (B) Annulus (C) Pileus (D) Gills (E) Volva\n3: (A) Mycelium (B) Gills (C) Pileus (D) Annulus (E) Volva\n4: (A) Pileus (B) Mycelium (C) Volva (D) Gills (E) Annulus\n5: (A) Volva (B) Pileus (C) Gills (D) Annulus (E) Mycelium",
+            "choices": [],
+            "answer": "2",
+            "explanation": "正解は②。ハエキノコの｢構造」に関しては，第6段落及び第7段落で述べられている。\nまず,第6段落第2文(It is considered…)に「…菌糸(mycelium)は地中に残り翌年には新しい子実体を作ることができる」とあることから，Myceliumは地上からは見えない地中にある部分であることがわかる。したがってイラストの最も下にある(A)がMyceliumだと見当がつく。次に，第7段落第2文(It has a…)の「鱗片と呼ばれる白い斑点に覆われた真っ赤な菌傘(pileus)がある」という内容から, Pileusは一番上にある(C)の部分であることがわかる。その後，第7段落第4文(The spores are…)では「胞子は白色で菌傘の下のひだ(gills)のところにある」とあるので, Gillsは(D)の部分となり，続く第5文(The mushroom stands…)には「キノコは大抵白色かクリーム色の太い柄に支えられてまっすぐ立っており，根元にはつぼ(volva)と呼ばれるカップ状の構造物がついている」とあるので, Volvaは(E)であるとわかる。さらに，第7段落最終文(It also has…)で「また柄の周囲には，つば(annulus)と呼ばれる特徴的な環状構造物があり…」と述べられており, Annulusは(B)ということがわかる。以上の内容から，正解は②に決まる。"
+        },
+        {
+            "id": "45",
+            "question_number": "4",
+            "points": 3,
+            "question_text": "Which is the best statement for the final slide? [ 45 ]",
+            "choices": [
+                "Fly agaric has traditionally been used as a medicine because it is agreeable to the human sense of taste.",
+                "Fly agaric should be more widely used on a daily basis because of its proven healing effects.",
+                "Fly agaric will most likely be used more because it is easily found due to its visual characteristics.",
+                "While fly agaric may be effective for some diseases, it can cause serious health problems if consumed in large quantities."
+            ],
+            "answer": "4",
+            "explanation": "正解は④。「ハエキノコはいくつかの病気に効果があるかもしれない」という部分は，第4段落でハエキノコが病気の治療に有効である可能性があることが述べられていることに一致する。「大量に摂取すると深刻な健康問題を引き起こすこともありえる」については，最終段落第1文(Although fly agaric…)の「ハエキノコには文化的な意義と潜在的な薬としての恩恵があるが，毒キノコであることを覚えておくことが重要だ｣，続く第2文(Eating too much…)の「それを食べすぎると重病や死に至ることもある」という内容に一致している。"
+        },
+        {
+            "id": "46",
+            "question_number": "5",
+            "points": 3,
+            "question_text": "According to the passage, which statement is true? [ 46 ]",
+            "choices": [
+                "Fly agaric grows in a square shape mostly underground, with only the fruiting bodies visible above ground. This means that it is probably stronger than any other fungus.",
+                "The life cycle of fly agaric is generally not affected by the environment. This enables it to live even in the harsh environment of the northern hemisphere.",
+                "The mycelium can produce new fruiting bodies once a year; fly agaric normally reproduces itself several times a year.",
+                "Trees get nutrients from the soil through fly agaric, and the fly agaric obtains sugars and other nutrients from the trees, so they are dependent on each other for survival."
+            ],
+            "answer": "4",
+            "explanation": "正解は④。第5段落最終文(They need each…)の「木はこの菌を通して土から栄養を吸収し，一方でこの菌は木から糖分や他の栄養を受け取るので，それらは生存のためにお互いを必要としている」という内容と一致する。"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "section": 3,
+    "theme": "You share an apartment with other exchange students. Your kitchen is messy, so you have decided to clean and organize it. You read the following article written by an expert home organizer.",
+    "theme_translation": "あなたは他の交換留学生たちとアパートをシェアしています。自分たちの台所が散らかっているので，掃除をして整理することに決めました。あなたはベテランのホームオーガナイザーが書いた次の記事を読みます。",
+    "passage": [
+        "<strong class=\"center d-block mb-3\">Maximizing Kitchen Efficiency</strong>",
+        "When I first returned to work after having my children, I realized that I needed to make my life as organized and efficient as possible, to stay on schedule, and to maximize the time I could spend with my children. I noticed that so much of my time involved preparing food, so I decided to organize my kitchen first. Here is how I succeeded in making my kitchen easier to use, and decreasing the amount of time I spent cooking and tidying up.",
+        "The first step to organizing a kitchen is to get rid of clutter. I decided that any items such as plates, dishes or pans that I hadn't used for a year could be sold, recycled, or thrown away. This freed up a lot of storage space. Next, I put all the equipment I use most often near the places I use it. For example, frying pans that I use daily I put in the shelves to the right of the cooker. As a right-handed person, this means I can easily pull the pans out with my right hand and use them on the cooker immediately. Coffee cups were placed next to the coffee machine, while storage containers were put on the shelf above the fridge.",
+        "After that, I focused on food. Sometimes when food is in boxes or packages, it is difficult to see how much is left. I often felt disappointed when I realized a package was almost empty and I had forgotten to buy a replacement. To solve that problem, I bought clear glass jars for items such as cereal, flour, pasta, and sugar so that I can easily see how much is left. Now, I use my smartphone to take a photo of my shelves before I go to the store so that I can easily check what I need to buy.",
+        "Finally, I made a virtual library of my favorite recipes. I often wrote down good meal ideas on scraps of paper or in notepads, but this not only created a pile of paper, it also made it difficult to find what I wanted quickly. Instead, I photographed all my recipes and stored them on my tablet. I threw away all the old paper and now everything is available at the touch of a button. I can even e-mail them to my husband when it's his turn to cook!"
+    ],
+    "translations": [
+        "キッチン効率の最大化",
+        "出産後，初めて仕事に復帰したとき，私は生活をできるだけ整理し効率的にして，物事を予定通りに進め，子どもたちと過ごせる時間を最大にする必要があると感じました。自分の時間のなかなりの部分が食事の準備に関わっていることに気づいたので，まずキッチンを整理することに決めました。次のように，私はキッチンを使いやすくして，料理や片付けに使う時間を減らすことに成功しました。",
+        "キッチンを片付ける第一段階は，ごちゃごちゃしたものを処分することです。私は1年間使っていない平皿，大皿，なべなどは，どんなものでも売るかリサイクルするか捨てるかしてよいと決めました。これで収納スペースがたくさんできました。次に，いちばんよく使う器具は全部，私がそれを使う場所の近くに置きました。たとえば，私が毎日使うフライパンはコンロの右にある棚に入れました。私のような右利きの人は，こうすれば簡単に右手でフライパンを取り出し，すぐにコンロの上で使えることになります。コーヒーカップはコーヒーメーカーの隣に置き，一方で，収納容器は冷蔵庫の上の棚に入れました。",
+        "その後で，食料品に目を向けました。食料品が箱やパッケージに入っていると，どれくらい残っているのかわかりにくいことがあります。パッケージがほぼ空っぽで，新しいのを買っておくのを忘れていたことに気づいてがっかりすることがよくありました。その問題を解決するために，私は残りの量が簡単にわかるように，シリアル，小麦粉，パスタ，砂糖などを入れるための透明なガラスのびんを買いました。今では，買わなければいけないものをチェックしやすいように，お店に行く前にスマートフォンを使って棚の写真を撮ります。",
+        "最後に，自分の好きなレシピのバーチャル図書館を作りました。私はよく，紙の切れ端やメモ帳に料理のよいアイディアを書いていたのですが，これだと紙の山ができるだけでなく，自分が欲しいものをすぐに見つけるのが難しかったのです。その代わりに，私は自分のレシピを全部写真に撮って，タブレットに保存しました。古い紙は全部捨てて，今ではボタンをタッチすれば，どれでも見ることができるのです。夫が料理担当のときには，メールでそれを送ることもできます！"
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question_number": "1",
+            "points": 3,
+            "question_text": "Put the following events (① ~ ④) into the order they happened.<br><span class=\"box\"> 9 </span> \u2192 <span class=\"box\"> 10 </span> \u2192 <span class=\"box\"> 11 </span> \u2192 <span class=\"box\"> 12 </span>",
+            "choices": [
+                "The writer changed the location of her utensils.",
+                "The writer created digital copies of her recipes.",
+                "The writer disposed of unused equipment.",
+                "The writer purchased transparent containers."
+            ],
+            "answer": "3-1-4-2",
+            "explanation": "正解は③ → ① → ④ → ②。キッチンの片付けについては時系列で書かれているので，順に追っていけばよい。第2段落第1, 2文 (The first step ... / I decided that ...) から，筆者はまず「1年間使っていないごちゃごちゃしたものを処分した」ことがわかる。続く第4文 (Next, I put ...) 以降には，道具を効率的に使えるように「置き場所を変えた」と書かれている。第3段落第4文 (To solve that ...) では，中身が見えないために残りの量がわからない問題を解決するために「透明なガラスのびんを買った」とある。最終段落第1文 (Finally, I made ...) では，「自分の好きなレシピのバーチャル図書館を作った」と書かれている。したがって，正解は③ → ① → ④ → ② となる。"
+        },
+        {
+            "id": "2",
+            "question_number": "2",
+            "points": 3,
+            "question_text": "If you follow the writer's advice to create an efficient kitchen, you should <span class=\"box\"> 13 </span>.",
+            "choices": [
+                "avoid throwing away items that are rarely used",
+                "make sure items are stored in logical locations",
+                "use things for a year before getting rid of them",
+                "wait until food has run out before buying it"
+            ],
+            "answer": "2",
+            "explanation": "正解は②。キッチンの効率性を高めることとして，第2段落第4文 (Next, I put ...) に「いちばんよく使う器具は使う場所の近くに置く」とあり，そのあとに具体例が書かれている。\\n①と③は第2段落第1, 2文 (The first step ... / I decided that ...) の「1年間使っていないごちゃごちゃしたものを処分した」に一致しない。④のようなことも筆者は述べていない。"
+        },
+        {
+            "id": "3",
+            "question_number": "3",
+            "points": 3,
+            "question_text": "From this article, you understand that the writer <span class=\"box\"> 14 </span>.",
+            "choices": [
+                "spends less money on groceries than before",
+                "wants her husband to do more cooking",
+                "wastes less time in the kitchen these days",
+                "would like her children to help with housework"
+            ],
+            "answer": "3",
+            "explanation": "正解は③。記事のタイトルや第1段落最終文 (Here is how ...) からもわかるように，この記事は「キッチンを使いやすくして，料理や片付けに使う時間を減らすことに成功した方法」について書いてある。したがって，そこから推測できる③が正解。\\n①の食料品については第3段落 (After that, I ...) で残りの量をわかりやすくするためにした工夫のことは書かれているが，それにより食料品にかかるお金が減ることには言及されていない。②は，最終段落最終文 (I can even ...) で筆者の夫について触れられているが，夫にもっと料理をしてほしいとは述べていない。④は，キッチンを効率化するきっかけとして第1段落第1文 (When I first ...) に子どもたちのことが出てくるが，子どもたちに家事を手伝ってほしいとは書かれていない。"
+        }
+    ]
+}
