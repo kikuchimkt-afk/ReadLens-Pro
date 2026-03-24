@@ -384,16 +384,28 @@ function renderPassage() {
               }
             }
           }
-          html += '<p class="passage-paragraph">';
-          for (const sent of para) {
-            html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+          // Check if para is an object {id, en, ja} (6A/6B paragraph format) or an array of sentences
+          if (!Array.isArray(para) && para.id && para.en) {
+            // Object paragraph: render as a single paragraph block
+            html += '<p class="passage-paragraph">';
+            html += `<span class="sentence" data-sid="${para.id}">${para.en}</span>`;
+            html += '</p>';
+            html += '<div class="passage-ja-block">';
+            html += `<div class="sentence-ja" data-sid-ja="${para.id}">${para.ja}</div>`;
+            html += '</div>';
+          } else {
+            // Array of sentences (legacy format)
+            html += '<p class="passage-paragraph">';
+            for (const sent of para) {
+              html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+            }
+            html += '</p>';
+            html += '<div class="passage-ja-block">';
+            for (const sent of para) {
+              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</div>`;
+            }
+            html += '</div>';
           }
-          html += '</p>';
-          html += '<div class="passage-ja-block">';
-          for (const sent of para) {
-            html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</div>`;
-          }
-          html += '</div>';
           html += '</div>';
           html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
           html += '</div>';

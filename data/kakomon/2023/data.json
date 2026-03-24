@@ -1,0 +1,1811 @@
+{
+  "exam_info": {
+    "title": "大学入学共通テスト 英語（リーディング）",
+    "year": "2023",
+    "round": "本試験",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_points": 100,
+    "total_answer_numbers": 49,
+    "source_pdf": {
+      "mondai": "2023_本試験_英語リーディング.pdf",
+      "kaitou": "2023_本試験_英語リーディング_解答.pdf"
+    },
+    "format": "6AB",
+    "section_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      "6A",
+      "6B"
+    ]
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 10,
+      "points_per_question": 2,
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "passage_images": [
+        "images/mondai_p02.png",
+        "images/mondai_p03.png",
+        "images/mondai_p04.png",
+        "images/mondai_p05.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p02.png",
+        "images/kaitou_p03.png"
+      ],
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You are studying in the US, and as an afternoon activity you need to choose one of two performances to go and see.  Your teacher gives you this handout.",
+            "ja": ""
+          },
+          "passages": [
+            {
+              "id": "handout_1a",
+              "title": {
+                "en": "Performances for Friday",
+                "ja": ""
+              },
+              "paragraphs": []
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 1,
+              "stem": {
+                "en": "What are you told to do after reading the handout? [1]",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "Complete and hand in the bottom part.",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "Find out more about the performances.",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "Talk to your teacher about your decision.",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "Write your name and explain your choice.",
+                  "ja": ""
+                }
+              ],
+              "answer": 1,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 2,
+              "stem": {
+                "en": "Which is true about both performances? [2]",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "No drinks can be purchased before the show.",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "Some T-shirts will be given as gifts.",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "They will finish at the same time.",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "You can meet performers at the theaters.",
+                  "ja": ""
+                }
+              ],
+              "answer": 4,
+              "points": 2,
+              "explanation": null
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You are a senior high school student interested in improving your English during the summer vacation.  You find a website for an intensive English summer camp run by an international school.",
+            "ja": ""
+          },
+          "passages": [
+            {
+              "id": "website_1b",
+              "title": {
+                "en": "GIS Intensive English Summer Camp",
+                "ja": ""
+              },
+              "paragraphs": []
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 3,
+              "stem": {
+                "en": "All GIS instructors have [3].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "been in Japan since 1989",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "won international competitions",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "worked in other countries",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "written some popular books",
+                  "ja": ""
+                }
+              ],
+              "answer": 3,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 4,
+              "stem": {
+                "en": "On the last day of the camp, campers will [4].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "assess each other's performances",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "compete to receive the best prize",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "make presentations about the future",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "show what they learned at the camp",
+                  "ja": ""
+                }
+              ],
+              "answer": 4,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 5,
+              "stem": {
+                "en": "What will happen after submitting your camp application? [5]",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "You will call the English instructors.",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "You will take a written English test.",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "Your English level will be checked.",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "Your English speech topic will be sent.",
+                  "ja": ""
+                }
+              ],
+              "answer": 3,
+              "points": 2,
+              "explanation": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 20,
+      "points_per_question": 2,
+      "pdf_pages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "passage_images": [
+        "images/mondai_p06.png",
+        "images/mondai_p07.png",
+        "images/mondai_p08.png",
+        "images/mondai_p09.png",
+        "images/mondai_p10.png",
+        "images/mondai_p11.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p03.png",
+        "images/kaitou_p04.png",
+        "images/kaitou_p05.png",
+        "images/kaitou_p06.png"
+      ],
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You want to buy a good pair of shoes as you walk a long way to school and often get sore feet.  You are searching on a UK website and find this advertisement.",
+            "ja": ""
+          },
+          "passages": [
+            {
+              "id": "ad_2a",
+              "title": {
+                "en": "Navi 55 presents the new Smart Support shoe line",
+                "ja": ""
+              },
+              "paragraphs": []
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 6,
+              "stem": {
+                "en": "You are reading the UK website to [6].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "buy shoes that have a good design",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "find comfortable shoes for school",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "get shoes for your favourite sport",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "learn about the newest technology",
+                  "ja": ""
+                }
+              ],
+              "answer": 2,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 7,
+              "stem": {
+                "en": "A feature of Smart Support shoes is that they [7].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "adjust to the shape of each wearer's feet",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "are available in a variety of sizes",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "can be used for different sports",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "track the wearer's body temperature",
+                  "ja": ""
+                }
+              ],
+              "answer": 2,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 8,
+              "stem": {
+                "en": "The shoes have the following advantages EXCEPT [8].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "giving the wearer directions",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "keeping the wearer's body healthy",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "motivating the wearer to walk more",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "recording the wearer's walking data",
+                  "ja": ""
+                }
+              ],
+              "answer": 2,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問4",
+              "answer_number": 9,
+              "stem": {
+                "en": "Smart Support shoes would NOT be suitable for [9].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "a person who likes jogging in a park",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "a person who walks around a campus",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "an elderly person who walks regularly",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "an office worker who commutes by train",
+                  "ja": ""
+                }
+              ],
+              "answer": 4,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問5",
+              "answer_number": 10,
+              "stem": {
+                "en": "From the reviews you learn that [10].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "the app does not always work effectively",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "the Route Memory has several problems",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "the shoes are too expensive to buy",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "the shoes eventually become uncomfortable",
+                  "ja": ""
+                }
+              ],
+              "answer": 1,
+              "points": 2,
+              "explanation": null
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You are on the student council at school.  The following passage is about a programme that another school tried.",
+            "ja": ""
+          },
+          "passages": [
+            {
+              "id": "article_2b",
+              "title": {
+                "en": "The Commuting Challenge",
+                "ja": ""
+              },
+              "paragraphs": []
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 11,
+              "stem": {
+                "en": "The aim of the Commuting Challenge was to help students to [11].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "commute more quickly",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "improve their test scores",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "manage English classes better",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "use their time better",
+                  "ja": ""
+                }
+              ],
+              "answer": 4,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 12,
+              "stem": {
+                "en": "One fact about the Commuting Challenge is that [12].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "fewer than 10% of the participants were first-years",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "it was held for two months during the winter",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "students had to use portable devices on buses",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "the majority of participants travelled by train",
+                  "ja": ""
+                }
+              ],
+              "answer": 1,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 13,
+              "stem": {
+                "en": "From the feedback, [13] were activities reported by participants.",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "A and B",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "A and C",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "A and D",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "B and C",
+                  "ja": ""
+                },
+                {
+                  "label": "⑤",
+                  "en": "B and D",
+                  "ja": ""
+                },
+                {
+                  "label": "⑥",
+                  "en": "C and D",
+                  "ja": ""
+                }
+              ],
+              "answer": 1,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問4",
+              "answer_number": 14,
+              "stem": {
+                "en": "One of the participants' opinions about the Commuting Challenge is that [14].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "it could have included students who walk to school",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "the train was a good place to read books",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "there were plenty of audio materials for studying",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "watching videos for fun helped time pass quickly",
+                  "ja": ""
+                }
+              ],
+              "answer": 1,
+              "points": 2,
+              "explanation": null
+            },
+            {
+              "question_id": "問5",
+              "answer_number": 15,
+              "stem": {
+                "en": "The author's question is answered by [15].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "HS",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "JH",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "KF",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "MN",
+                  "ja": ""
+                },
+                {
+                  "label": "⑤",
+                  "en": "SS",
+                  "ja": ""
+                }
+              ],
+              "answer": 2,
+              "points": 2,
+              "explanation": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 15,
+      "pdf_pages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "passage_images": [
+        "images/mondai_p12.png",
+        "images/mondai_p13.png",
+        "images/mondai_p14.png",
+        "images/mondai_p15.png",
+        "images/mondai_p16.png",
+        "images/mondai_p17.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p06.png",
+        "images/kaitou_p07.png",
+        "images/kaitou_p08.png"
+      ],
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You are studying at Camberford University, Sydney.  You are going on a class camping trip and are reading the camping club's newsletter to prepare.",
+            "ja": ""
+          },
+          "passages": [
+            {
+              "id": "newsletter_3a",
+              "title": {
+                "en": "Going camping? Read me!!!",
+                "ja": ""
+              },
+              "paragraphs": []
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 16,
+              "stem": {
+                "en": "From the camping club's newsletter, you learn that to keep warm during the night you should [16].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "buy a bigger sleeping bag",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "fill gaps in your sleeping bag",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "put more clothes on before sleeping",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "sit closer to the fire before going to bed",
+                  "ja": ""
+                }
+              ],
+              "answer": 2,
+              "points": 3,
+              "explanation": null
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 17,
+              "stem": {
+                "en": "One thing you learn is that [17].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "heavy items should be in the bottom of the bag",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "items for cooking should go in the top section",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "the \"brain\" of the backpack is an extra pocket",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "the lightest things should be placed in the middle",
+                  "ja": ""
+                }
+              ],
+              "answer": 3,
+              "points": 3,
+              "explanation": null
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "Your English club will make an \"adventure room\" for the school festival.  To get some ideas, you are reading a blog about a room a British man created.",
+            "ja": ""
+          },
+          "passages": [
+            {
+              "id": "blog_3b",
+              "title": {
+                "en": "Create Your Own \"Home Adventure\"",
+                "ja": ""
+              },
+              "paragraphs": []
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 18,
+              "stem": {
+                "en": "Put the following events (①-⑤) into the order in which they happened.",
+                "ja": ""
+              },
+              "question_type": "ordering",
+              "events": [
+                {
+                  "label": "①",
+                  "en": "A box was found in the kitchen."
+                },
+                {
+                  "label": "②",
+                  "en": "A box was opened with a code."
+                },
+                {
+                  "label": "③",
+                  "en": "A picture was taken of a celebration."
+                },
+                {
+                  "label": "④",
+                  "en": "A secret was found in old books."
+                },
+                {
+                  "label": "⑤",
+                  "en": "Furniture was rearranged for the game."
+                }
+              ],
+              "answer_numbers": [
+                18,
+                19,
+                20,
+                21
+              ],
+              "answer": {
+                "18": "⑤",
+                "19": "④",
+                "20": "②",
+                "21": "①"
+              },
+              "points": 3,
+              "all_correct_only": true,
+              "explanation": null
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 22,
+              "stem": {
+                "en": "From the blog, you learn that [22].",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "adventure rooms should be challenging only for children",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "one key to success is to use all your rooms",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "you should design the puzzles before deciding on a theme",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "you should make the last puzzle the easiest one",
+                  "ja": ""
+                }
+              ],
+              "answer": 3,
+              "points": 3,
+              "explanation": null
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 23,
+              "stem": {
+                "en": "What would be the best subtitle for the blog? [23]",
+                "ja": ""
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "Design an Adventure Room for a School Festival",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "Tips on Creating a Fun Game at Home",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "Visit an Adventure Room in the UK",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "What Is an Adventure Room Experience Like?",
+                  "ja": ""
+                }
+              ],
+              "answer": 2,
+              "points": 3,
+              "explanation": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 16,
+      "pdf_pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "passage_images": [
+        "images/mondai_p18.png",
+        "images/mondai_p19.png",
+        "images/mondai_p20.png",
+        "images/mondai_p21.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p08.png",
+        "images/kaitou_p09.png",
+        "images/kaitou_p10.png"
+      ],
+      "situation": {
+        "en": "Your teacher has asked you to read two articles about effective ways to study.  You will discuss what you learned in your next class.",
+        "ja": ""
+      },
+      "passages": [
+        {
+          "id": "article_4a",
+          "title": {
+            "en": "How to Study Effectively: Contextual Learning!",
+            "ja": ""
+          },
+          "author": "Tim Oxford, Science Teacher, Stone City Junior High School",
+          "paragraphs": []
+        },
+        {
+          "id": "article_4b",
+          "title": {
+            "en": "How to Study Effectively: Retrieval Practice!",
+            "ja": ""
+          },
+          "author": "Susan Jacks, English Teacher, Lake City Junior High School",
+          "paragraphs": []
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 24,
+          "stem": {
+            "en": "Tim Oxford suggests that students should learn by [24].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "experiencing things directly",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "reading textbooks many times",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "testing themselves on facts",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "writing notes from memory",
+              "ja": ""
+            }
+          ],
+          "answer": 1,
+          "points": 3,
+          "explanation": null
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 25,
+          "stem": {
+            "en": "Susan Jacks says that a study technique many students use is [25].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "answering questions about the content",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "going over the material repeatedly",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "highlighting the important parts",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "organising facts into smaller groups",
+              "ja": ""
+            }
+          ],
+          "answer": 1,
+          "points": 3,
+          "explanation": null
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 26,
+          "stem": {
+            "en": "Tim and Susan share a similar opinion.  They both think [26].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "rereading is the best way to improve test results",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "students need to find more effective study methods",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "students should study for tests by using workbooks",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "testing in class is useful for student motivation",
+              "ja": ""
+            }
+          ],
+          "answer": 2,
+          "points": 2,
+          "explanation": null
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 27,
+          "stem": {
+            "en": "One difference between the two teachers is that [27].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "only Tim believes his approach has a weakness",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "only Tim got ideas from reading educational research",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "only Susan has seen students change their opinions",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "only Susan reports getting positive results quickly",
+              "ja": ""
+            },
+            {
+              "label": "⑤",
+              "en": "only Susan has doubts about the effectiveness of her method",
+              "ja": ""
+            }
+          ],
+          "answer": 5,
+          "points": 2,
+          "explanation": null
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 28,
+          "stem": {
+            "en": "Based on the two articles, the teachers would both agree that [28].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "drills are a waste of time and should be avoided",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "it is important for students to enjoy lessons",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "students need more time to study for tests",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "teachers should try new ways to help students learn",
+              "ja": ""
+            }
+          ],
+          "answer": 1,
+          "points": 3,
+          "explanation": null
+        },
+        {
+          "question_id": "問6",
+          "answer_number": 29,
+          "stem": {
+            "en": "If you were going to study for a geography test, based on what Tim says, you would [29].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "find the place on a map and try to picture being there",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "repeatedly read the textbook and your notes",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "use flashcards to test your knowledge",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "write a summary of what you've learned from memory",
+              "ja": ""
+            }
+          ],
+          "answer": 2,
+          "points": 3,
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 15,
+      "pdf_pages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "passage_images": [
+        "images/mondai_p22.png",
+        "images/mondai_p23.png",
+        "images/mondai_p24.png",
+        "images/mondai_p25.png",
+        "images/mondai_p26.png",
+        "images/mondai_p27.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p10.png",
+        "images/kaitou_p11.png",
+        "images/kaitou_p12.png",
+        "images/kaitou_p13.png"
+      ],
+      "situation": {
+        "en": "Your English teacher has told everyone in your class to find an inspirational story and present it to a discussion group, using notes.  You have found a story written by a high school student in the UK.",
+        "ja": ""
+      },
+      "passages": [
+        {
+          "id": "story_5",
+          "title": {
+            "en": "Lessons from Table Tennis",
+            "ja": ""
+          },
+          "author": "Ben Carter",
+          "paragraphs": []
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 30,
+          "stem": {
+            "en": "Choose the best option for [30].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "believed it would help him communicate",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "hoped to become popular at school",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "thought he could win games easily",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "wanted to avoid playing a team sport",
+              "ja": ""
+            }
+          ],
+          "answer": 4,
+          "points": 3,
+          "explanation": null
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 31,
+          "stem": {
+            "en": "Choose the best option for [31].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "asked him what he enjoyed about communication",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "encouraged him to be more confident",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "helped him learn the social skills he needed",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "told him what he should have said to his school friends",
+              "ja": ""
+            }
+          ],
+          "answer": 3,
+          "points": 3,
+          "explanation": null
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 32,
+          "stem": {
+            "en": "Choose four out of the five options (①~⑤) and rearrange them in the order they happened. [32] → [33] → [34] → [35]",
+            "ja": ""
+          },
+          "question_type": "ordering",
+          "events": [
+            {
+              "label": "①",
+              "en": "Became a table tennis champion"
+            },
+            {
+              "label": "②",
+              "en": "Discussed with his teacher how to play well"
+            },
+            {
+              "label": "③",
+              "en": "Refused a party in his honour"
+            },
+            {
+              "label": "④",
+              "en": "Started to study his opponents"
+            },
+            {
+              "label": "⑤",
+              "en": "Talked to his brother about table tennis"
+            }
+          ],
+          "answer_numbers": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "answer": {
+            "32": "②",
+            "33": "④",
+            "34": "⑤",
+            "35": "③"
+          },
+          "points": 3,
+          "all_correct_only": true,
+          "explanation": null
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 36,
+          "stem": {
+            "en": "Choose the best option for [36].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "asked his friend questions to find out more about his motivation",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "invited Mr Trent and other classmates to the party to show appreciation",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "tried to understand his friend's point of view to act appropriately",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "worked hard to be a better team player for successful communication",
+              "ja": ""
+            }
+          ],
+          "answer": 3,
+          "points": 3,
+          "explanation": null
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 37,
+          "stem": {
+            "en": "Choose the best two options for [37] and [38].  (The order does not matter.)",
+            "ja": ""
+          },
+          "answer_numbers": [
+            37,
+            38
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "Advice from people around us can help us change.",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "Confidence is important for being a good communicator.",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "It is important to make our intentions clear to our friends.",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "The support that teammates provide one another is helpful.",
+              "ja": ""
+            },
+            {
+              "label": "⑤",
+              "en": "We can apply what we learn from one thing to another.",
+              "ja": ""
+            }
+          ],
+          "answer": {
+            "37": 1,
+            "38": 5
+          },
+          "points": 3,
+          "all_correct_only": true,
+          "unordered": true,
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "section_number": "6A",
+      "title": "第6問 A",
+      "points": 12,
+      "pdf_pages": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "passage_images": [
+        "images/mondai_p28.png",
+        "images/mondai_p29.png",
+        "images/mondai_p30.png",
+        "images/mondai_p31.png",
+        "images/mondai_p32.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p14.png",
+        "images/kaitou_p15.png",
+        "images/kaitou_p16.png",
+        "images/kaitou_p17.png",
+        "images/kaitou_p18.png"
+      ],
+      "situation": {
+        "en": "You are in a discussion group in school.  You have been asked to summarize the following article.  You will speak about it, using only notes.",
+        "ja": ""
+      },
+      "passages": [
+        {
+          "id": "article_6a",
+          "title": {
+            "en": "Collecting",
+            "ja": ""
+          },
+          "paragraphs": []
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 39,
+          "stem": {
+            "en": "Choose the best option for [39].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a great place for people to sell things to collectors at a high price is a yard sale",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "people can evaluate items incorrectly and end up paying too much money for junk",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "something not important to one person may be of value to someone else",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "things once collected and thrown in another person's yard may be valuable to others",
+              "ja": ""
+            }
+          ],
+          "answer": 3,
+          "points": 3,
+          "explanation": null
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 40,
+          "stem": {
+            "en": "Choose the best option for [40].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "About two thirds of children do not collect ordinary things.",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "Almost one third of adults start collecting things for pleasure.",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "Approximately 10% of kids have collections similar to their friends.",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "Roughly 30% of people keep collecting into adulthood.",
+              "ja": ""
+            }
+          ],
+          "answer": 4,
+          "points": 3,
+          "explanation": null
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 41,
+          "stem": {
+            "en": "Choose the best options for [41] and [42].  (The order does not matter.)",
+            "ja": ""
+          },
+          "answer_numbers": [
+            41,
+            42
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "desire to advance technology",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "fear of missing unexpected opportunities",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "filling a sense of emptiness",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "reminder of precious events",
+              "ja": ""
+            },
+            {
+              "label": "⑤",
+              "en": "reusing objects for the future",
+              "ja": ""
+            },
+            {
+              "label": "⑥",
+              "en": "seeking some sort of profit",
+              "ja": ""
+            }
+          ],
+          "answer": {
+            "41": 4,
+            "42": 6
+          },
+          "points": 3,
+          "all_correct_only": true,
+          "unordered": true,
+          "explanation": null
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "stem": {
+            "en": "Choose the best option for [43].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Collections will likely continue to change in size and shape.",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "Collectors of mint-condition games will have more digital copies of them.",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "People who have lost their passion for collecting will start again.",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "Reasons for collecting will change because of advances in technology.",
+              "ja": ""
+            }
+          ],
+          "answer": 1,
+          "points": 3,
+          "explanation": null
+        }
+      ]
+    },
+    {
+      "section_number": "6B",
+      "title": "第6問 B",
+      "points": 12,
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "passage_images": [
+        "images/mondai_p33.png",
+        "images/mondai_p34.png",
+        "images/mondai_p35.png",
+        "images/mondai_p36.png",
+        "images/mondai_p37.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p19.png",
+        "images/kaitou_p20.png",
+        "images/kaitou_p21.png",
+        "images/kaitou_p22.png"
+      ],
+      "situation": {
+        "en": "You are in a student group preparing for an international science presentation contest.  You are using the following passage to create your part of the presentation on extraordinary creatures.",
+        "ja": ""
+      },
+      "passages": [
+        {
+          "id": "article_6b",
+          "title": {
+            "en": "Tardigrades",
+            "ja": ""
+          },
+          "paragraphs": []
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 44,
+          "stem": {
+            "en": "Choose the best option for [44].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "are made stronger through radiation",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "can live in harsh environments",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "come back to life with water",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "use very little oxygen to survive",
+              "ja": ""
+            }
+          ],
+          "answer": 4,
+          "points": 2,
+          "explanation": null
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 45,
+          "stem": {
+            "en": "Choose the best options for [45] and [46].  (The order does not matter.)",
+            "ja": ""
+          },
+          "answer_numbers": [
+            45,
+            46
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "Beetles can survive colder temperatures than desert ants.",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "Desert ants are more heat-resistant than tardigrades.",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "Pompeii worms like higher temperatures than tardigrades.",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "Tardigrades can tolerate hotter conditions than Pompeii worms.",
+              "ja": ""
+            },
+            {
+              "label": "⑤",
+              "en": "Tardigrades can withstand colder temperatures than beetles.",
+              "ja": ""
+            }
+          ],
+          "answer": {
+            "45": 1,
+            "46": 5
+          },
+          "points": 3,
+          "all_correct_only": true,
+          "unordered": true,
+          "explanation": null
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 47,
+          "stem": {
+            "en": "Choose the best option for [47].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "All the tardigrades on the spacecraft survived the crash.",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "It is not certain whether any tardigrades survived the crash.",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "Some tardigrades could have survived the crash landing.",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "The impact was too great for any tardigrade to survive.",
+              "ja": ""
+            }
+          ],
+          "answer": 3,
+          "points": 2,
+          "explanation": null
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 48,
+          "stem": {
+            "en": "Choose the best option for [48].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Because they are so tiny, they are likely to be found everywhere on earth.",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "It is probable that they are living on the moon right now.",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "Perhaps they are the toughest creatures on and possibly beyond earth.",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "Their discovery has led to the development of new technologies.",
+              "ja": ""
+            }
+          ],
+          "answer": 4,
+          "points": 2,
+          "explanation": null
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 49,
+          "stem": {
+            "en": "Choose the best option for [49].",
+            "ja": ""
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Humans could one day use tardigrade-related science to help space travel.",
+              "ja": ""
+            },
+            {
+              "label": "②",
+              "en": "Research has shown that tardigrades are stronger than all other insects.",
+              "ja": ""
+            },
+            {
+              "label": "③",
+              "en": "Tardigrades are the oldest creatures on the planet, surviving for millions of years.",
+              "ja": ""
+            },
+            {
+              "label": "④",
+              "en": "Tardigrades will almost certainly be found living on other planets in the future.",
+              "ja": ""
+            }
+          ],
+          "answer": 4,
+          "points": 3,
+          "explanation": null
+        }
+      ]
+    }
+  ]
+}
