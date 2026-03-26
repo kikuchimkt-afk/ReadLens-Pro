@@ -1,0 +1,397 @@
+{
+  "section_number": 1,
+  "title": "第1問",
+  "points": 10,
+  "pdf_pages": [
+    2,
+    3,
+    4
+  ],
+  "passage_images": [
+    "images/mondai_p2.png",
+    "images/mondai_p3.png",
+    "images/mondai_p4.png"
+  ],
+  "explanation_images": [
+    "images/kaitou_p2.png",
+    "images/kaitou_p3.png"
+  ],
+  "sub_sections": [
+    {
+      "sub_section": "A",
+      "situation": {
+        "en": "Your dormitory roommate Julie has sent a text message to your mobile phone with a request.",
+        "ja": "寮のルームメートのジュリーがあなたの携帯電話にお願いごとを書いたテキストメッセージを送信しました。"
+      },
+      "passages": [
+        {
+          "id": "messages",
+          "paragraphs": [
+            [
+              {
+                "id": "1a_s1",
+                "en": "HELP!!!",
+                "ja": "助けて！！！"
+              },
+              {
+                "id": "1a_s2",
+                "en": "Last night I saved my history homework on a USB memory stick.",
+                "ja": "昨日の夜，歴史の宿題をUSBメモリに保存したの。"
+              },
+              {
+                "id": "1a_s3",
+                "en": "I was going to print it out at the university library this afternoon, but I forgot to bring the USB with me.",
+                "ja": "今日の午後，大学の図書館でそれを印刷するつもりだったのだけど，そのUSBを持ってくるのを忘れたの。"
+              },
+              {
+                "id": "1a_s4",
+                "en": "I must hand in the paper to my teacher by 4 p.m. today.",
+                "ja": "今日の午後4時までに先生に原稿を提出しなくちゃいけないのよ。"
+              },
+              {
+                "id": "1a_s5",
+                "en": "Can you bring my USB to the library?",
+                "ja": "私のUSBを図書館に持ってきてくれない？"
+              },
+              {
+                "id": "1a_s6",
+                "en": "It's on my desk, on top of the history books.",
+                "ja": "私の机の上の歴史の本の上にあると思う。"
+              },
+              {
+                "id": "1a_s7",
+                "en": "I don't need the books. Just the USB.",
+                "ja": "本は必要ないわ。USBだけでいいの。"
+              }
+            ],
+            [
+              {
+                "id": "1a_s8",
+                "en": "Sorry Julie, I couldn't find it.",
+                "ja": "ごめんねジュリー，見つからなかったわ。"
+              },
+              {
+                "id": "1a_s9",
+                "en": "The history books were there, but no USB memory stick.",
+                "ja": "歴史の本はあったけど，USBメモリはなかった。"
+              },
+              {
+                "id": "1a_s10",
+                "en": "I searched everywhere, under the desk too.",
+                "ja": "全部探したわ，机の下もよ。"
+              },
+              {
+                "id": "1a_s11",
+                "en": "Are you sure you don't have it?",
+                "ja": "あなた，本当にそれ持ってないの？"
+              },
+              {
+                "id": "1a_s12",
+                "en": "Just in case, I'll bring a laptop computer.",
+                "ja": "念のため，ノートパソコンを持って行くわ。"
+              }
+            ],
+            [
+              {
+                "id": "1a_s13",
+                "en": "You were right!",
+                "ja": "あなたの言うとおりだった！"
+              },
+              {
+                "id": "1a_s14",
+                "en": "I had it with me.",
+                "ja": "私が持っていたわ。"
+              },
+              {
+                "id": "1a_s15",
+                "en": "It was at the bottom of my bag.",
+                "ja": "カバンの底にあったの。"
+              },
+              {
+                "id": "1a_s16",
+                "en": "What a relief!",
+                "ja": "ああホッとした！"
+              },
+              {
+                "id": "1a_s17",
+                "en": "Thanks anyway. :)",
+                "ja": "とにかくありがとう。☺"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "What is Julie's request?",
+            "ja": "「ジュリーのお願いは何ですか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "To bring her USB memory stick.",
+              "ja": "「彼女のUSBメモリを持ってくること」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "To hand in her history homework.",
+              "ja": "「彼女の歴史の宿題を提出すること」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "To lend her a USB memory stick.",
+              "ja": "「彼女にUSBメモリを貸すこと」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "To print out her history homework.",
+              "ja": "「彼女の歴史の宿題を印刷すること」",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。ジュリーのお願いを答える問題なので，ジュリーのメッセージに書かれていると見当がつく。ジュリーの最初のメッセージの第5文でCan you bring my USB to the library?（私のUSBを図書館に持ってきてくれない？）と依頼を表す構文を用いて，「私のUSBを図書館に持ってきてくれない？」と言っているので，①が正解。「貸してほしい」わけではないので，③は不適当。ジュリーの最初のメッセージの第3文に「大学の図書館でそれを印刷するつもりだった」，第4文に「今日の午後4時までに先生に原稿を提出しなくちゃいけない」とあることから，これらはジュリー自身で行うことだとわかる。したがって，②と④も不適当。",
+            "evidence_sentences": [
+              "1a_s5"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "How would you respond to Julie's second message?",
+            "ja": "「あなたはジュリーの2つ目のメッセージにどのように返信するでしょうか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Don't worry. You'll find it.",
+              "ja": "「心配しないで。見つかるわ。」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "That's great to hear.",
+              "ja": "「それを聞いてうれしいわ。」",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Try looking in your bag.",
+              "ja": "「もう一度バッグの中を見て。」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "You must be disappointed.",
+              "ja": "「きっとがっかりしているわね。」",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。ジュリーの2つ目のメッセージを要約すると「USBメモリが自分のカバンの底にあった。」ということなので，②が正解。①，③，④は，いずれもUSBメモリが見つからなかった場合に考えられる返信なので不適当。",
+            "evidence_sentences": [
+              "1a_s15"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sub_section": "B",
+      "situation": {
+        "en": "Your favorite musician is planning to have a concert in Japan, so you are thinking about joining the fan club. You are visiting the official fan club website.",
+        "ja": "大好きなミュージシャンが日本でコンサートを行う予定なので，あなたはファンクラブへの入会を考えています。あなたは公式ファンクラブサイトを訪れています。"
+      },
+      "passages": [
+        {
+          "id": "fanclub_page",
+          "title": {
+            "en": "Tyler Quick Fan Club",
+            "ja": "タイラー・クイック ファンクラブ"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "1b_s1",
+                "en": "Being a member of the Tyler Quick (TQ) Fan Club is so much fun!",
+                "ja": "タイラー・クイック（TQ）ファンクラブの会員になると楽しいことがいっぱいです！"
+              },
+              {
+                "id": "1b_s2",
+                "en": "You can keep up with the latest news and take part in lots of exciting fan club events.",
+                "ja": "最新ニュースを知ることや，たくさんのわくわくするファンクラブ会員向けイベントに参加することができます。"
+              },
+              {
+                "id": "1b_s3",
+                "en": "All new members receive a New Member's Pack.",
+                "ja": "新会員は皆，新会員パックを受け取ります。"
+              },
+              {
+                "id": "1b_s4",
+                "en": "It contains a membership card, a free signed poster, and a copy of TQ's third album Speeding Up.",
+                "ja": "そのパックには，会員証，無料のサイン入りポスター，TQの3枚目のアルバム Speeding Up が入っています。"
+              },
+              {
+                "id": "1b_s5",
+                "en": "The New Member's Pack will be sent after you join the fan club, and it will arrive a week or so after you join.",
+                "ja": "新会員パックはファンクラブ入会後，自宅に発送され，1週間程度でご自宅に届く予定です。"
+              }
+            ],
+            [
+              {
+                "id": "1b_s6",
+                "en": "TQ is loved around the world.",
+                "ja": "TQは世界中で愛されています。"
+              },
+              {
+                "id": "1b_s7",
+                "en": "You can join from any country and a membership card is valid for one year.",
+                "ja": "どの国からでも加入することができ，会員証は1年間お使いいただけます。"
+              },
+              {
+                "id": "1b_s8",
+                "en": "The TQ Fan Club has three membership options: Pacer, Speeder, and Zoomer.",
+                "ja": "TQファンクラブには，Pacer, Speeder, Zoomerの3種類の会員資格があります。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 3,
+          "stem": {
+            "en": "The New Member's Pack is [ 3 ].",
+            "ja": "「新会員パックは[ 3 ]。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "contains TQ's first album",
+              "ja": "「TQのファーストアルバムを含んでいます」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "delivered on May 10",
+              "ja": "「5月10日に配達されます」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "costs $10 for shipping",
+              "ja": "「10ドルの配送料がかかります」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "takes about 7 days to arrive",
+              "ja": "「到着に約7日かかります」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。本文第1段落の最終文に，The New Member's Pack … will arrive a week or so after you join the fan club.（新会員パックはファンクラブ入会後…1週間程度で届く予定です。）とある。a week or so「1週間程度」= about seven days「約7日」なので，④が正解。本文第1段落第4文に，It contains … a copy of TQ's third album Speeding Up（それにはTQの3枚目のアルバムが含まれます）とあり，ファーストアルバムではないので，①は不適当。Check it out! の1つ目にMay 10（5月10日）とあるが，これは会費の割引が受けられる期限なので，②も不適当。同じくCheck it outの2つ目に新会員パックの配送料について書いてあるが，10ドルではなく4ドルなので，③も不適当。",
+            "evidence_sentences": [
+              "1b_s5"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 4,
+          "stem": {
+            "en": "As a new Pacer member, what can you get?",
+            "ja": "「新しくPacer会員になると，何を得られますか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Concert ticket discounts and a calendar.",
+              "ja": "「コンサートチケットの割引とカレンダー」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Regular emails and invitations to a signing event.",
+              "ja": "「定期メールとサイン会への招待」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Tour information and monthly postcards.",
+              "ja": "「ツアー情報と毎月のはがき」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Video messages and access to the online magazine.",
+              "ja": "「ビデオメッセージとオンラインマガジンへのアクセス」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。表に注目する。Pacerの特典の中で月の印がついている項目は「定期メールとオンラインマガジンのパスワード」「コンサートツアー日程の先取り情報」「毎週のTQビデオメッセージ」なので，④が正解。③の「はがき」はSpeederまたはZoomer会員に，①と②の「サイン会への招待」はZoomer会員にならないと受けられないので不適当。",
+            "evidence_sentences": [
+              "1b_s8"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 5,
+          "stem": {
+            "en": "After one year of fan club membership, you can [ 5 ].",
+            "ja": "「ファンクラブ会員になって1年後，[ 5 ]ことができます。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "become a Zoomer member for $50",
+              "ja": "「50ドルの費用でZoomer会員になる」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "get a New Member's Pack for $4",
+              "ja": "「4ドルで新会員パックを得る」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "renew your membership at half price",
+              "ja": "「会員資格を半額で更新する」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "upgrade your membership for free",
+              "ja": "「無料で会員資格をアップグレードする」",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。Check it out! の3つ目に，At the end of your 1st year, you can either renew or upgrade at a 50% discount.（初年度の終わりに，50%割引で更新またはアップグレードできます。）とあるので，③が正解。更新もアップグレードも半額なので，①と④は不適当。問1で見たように，新会員パックはファンクラブ入会後1週間程度で届く予定であり，1年後ではないので，②も不適当。",
+            "evidence_sentences": [
+              "1b_s7"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

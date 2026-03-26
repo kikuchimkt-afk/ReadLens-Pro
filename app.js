@@ -107,6 +107,12 @@ const SECTION_DEFAULTS = {
   6: { desc: "複数意見統合", points: 18 },
   7: { desc: "長文読解", points: 15 },
   8: { desc: "長文読解", points: 14 },
+  '1A': { desc: "短文読解", points: 3 },
+  '1B': { desc: "短文読解", points: 3 },
+  '2A': { desc: "事実把握", points: 10 },
+  '2B': { desc: "事実把握", points: 10 },
+  '3A': { desc: "概要把握", points: 6 },
+  '3B': { desc: "概要把握", points: 9 },
   '6A': { desc: "長文読解", points: 12 },
   '6B': { desc: "長文読解", points: 12 }
 };
