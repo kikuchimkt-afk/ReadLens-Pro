@@ -11,7 +11,11 @@ const EXAM_PATHS = {
   sundai_2025_02: 'data/sundai/2025/round02/data.json',
   sundai_2025_03: 'data/sundai/2025/round03/data.json',
   sundai_2025_04: 'data/sundai/2025/round04/data.json',
-  kakomon_2024: 'data/kakomon/2024/data.json'
+  kakomon_2025: 'data/kakomon/2025/data.json',
+  kakomon_2024: 'data/kakomon/2024/data.json',
+  kakomon_2023: 'data/kakomon/2023/data.json',
+  kakomon_2022: 'data/kakomon/2022/data.json',
+  kakomon_2021_1: 'data/kakomon/2021_1/data.json'
 };
 
 document.addEventListener('DOMContentLoaded', async () => {

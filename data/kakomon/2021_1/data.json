@@ -1,0 +1,901 @@
+{
+  "exam_info": {
+    "year": 2021,
+    "round": "第1日程",
+    "title": "大学入学共通テスト 英語（リーディング）",
+    "total_points": 100,
+    "time_minutes": 80
+  },
+  "sections": [
+    {
+      "section_number": "6A",
+      "title": "第6問 A",
+      "points": 12,
+      "pdf_pages": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "passage_images": [
+        "images/mondai_p28.png",
+        "images/mondai_p29.png",
+        "images/mondai_p30.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p17.png",
+        "images/kaitou_p18.png",
+        "images/kaitou_p19.png"
+      ],
+      "situation": {
+        "en": "You are working on a class project about safety in sports and found the following article. You are reading it and making a poster to present your findings to your classmates.",
+        "ja": "あなたはスポーツの安全性に関するクラスのプロジェクトに取り組んでおり，次の記事を見つけました。あなたはそれを読み，クラスメートに気づいたことを伝えるためにポスターを作っています。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Making Ice Hockey Safer",
+            "ja": "アイスホッケーをもっと安全に"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "6a_s1",
+                "en": "Ice hockey is a team sport enjoyed by a wide variety of people around the world.",
+                "ja": "アイスホッケーは世界中でさまざまな人に楽しまれているチームスポーツだ。"
+              },
+              {
+                "id": "6a_s2",
+                "en": "The object of the sport is to move a hard rubber disk called a \"puck\" into the other team's net with a hockey stick.",
+                "ja": "このスポーツの目的は，「パック」と呼ばれる硬いゴム製の円盤をホッケースティックで相手チームのネットに入れることだ。"
+              },
+              {
+                "id": "6a_s3",
+                "en": "Two teams with six players on each team engage in this fast-paced sport on a hard and slippery ice rink.",
+                "ja": "各チームに6人の選手がいる2つのチームが，硬くて滑りやすいアイスリンクでこのペースの速いスポーツをする。"
+              },
+              {
+                "id": "6a_s4",
+                "en": "Players may reach a speed of 30 kilometers per hour sending the puck into the air.",
+                "ja": "選手がパックを空中に打つ時，時速30キロに達することもある。"
+              },
+              {
+                "id": "6a_s5",
+                "en": "At this pace, both the players and the puck can be a cause of serious danger.",
+                "ja": "この速度では，選手もパックも重大な危険の原因になる可能性があるのだ。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s6",
+                "en": "The speed of the sport and the slippery surface of the ice rink make it easy for players to fall down or bump into each other resulting in a variety of injuries.",
+                "ja": "そのスポーツのスピードとアイスリンク表面の滑りやすさは，選手の転倒や，選手同士の衝突を容易に引き起こし，結果としていろいろなケガにつながる。"
+              },
+              {
+                "id": "6a_s7",
+                "en": "In an attempt to protect players, equipment such as helmets, gloves, and pads for the shoulders, elbows, and legs, has been introduced over the years.",
+                "ja": "長年にわたり，選手を守ろうとする試みにおいて，ヘルメット，グローブ，肩やひじや脚のパッドのような装備品が導入されてきている。"
+              },
+              {
+                "id": "6a_s8",
+                "en": "Despite these efforts, ice hockey has a high rate of concussions.",
+                "ja": "しかしこのような努力にもかかわらず，アイスホッケーが脳しんとうにつながる確率は高い。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s9",
+                "en": "A concussion is an injury to the brain that affects the way it functions; it is caused by either direct or indirect impact to the head, face, neck, or elsewhere and can sometimes cause temporary loss of consciousness.",
+                "ja": "脳しんとうは，脳の機能に影響を与える脳の負傷だ。"
+              },
+              {
+                "id": "6a_s10",
+                "en": "In less serious cases, for a short time, players may be unable to walk straight or see clearly, or they may experience ringing in the ears.",
+                "ja": "それは頭，顔，首などの部位への直接的または間接的な衝撃によって起こり，ときには一時的な意識喪失を起こすこともある。"
+              },
+              {
+                "id": "6a_s11",
+                "en": "Some believe they just have a slight headache and do not realize they have injured their brains.",
+                "ja": "あまり深刻でない場合でも，短い時間，選手はまっすぐ歩けなかったり，はっきりと見えなくなったり，耳鳴りを経験することもある。選手の中には軽い頭痛だと思って，自分が脳を負傷していることに気づかない人もいる。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s12",
+                "en": "In addition to not realizing the seriousness of the injury, players tend to worry about what their coach will think.",
+                "ja": "負傷の深刻さに気づかないことに加え，選手はコーチがどう思うかを心配する傾向にある。"
+              },
+              {
+                "id": "6a_s13",
+                "en": "In the past, coaches preferred tough players who played in spite of the pain.",
+                "ja": "昔は，コーチは痛みにもかかわらずプレーするタフな選手をより好んだ。"
+              },
+              {
+                "id": "6a_s14",
+                "en": "In other words, while it would seem logical for an injured player to stop playing after getting hurt, many did not.",
+                "ja": "言い換えると，負傷した選手は負傷直後にプレーをやめるのが論理的であると思われるのに，多くはそうしなかったのだ。"
+              },
+              {
+                "id": "6a_s15",
+                "en": "Recently, however, it has been found that concussions can have serious effects that last a lifetime.",
+                "ja": "しかし最近，脳しんとうはその人の一生涯にわたって深刻な影響をおよぼす可能性があるとわかってきた。"
+              },
+              {
+                "id": "6a_s16",
+                "en": "People with a history of concussion may have trouble concentrating or sleeping.",
+                "ja": "脳しんとうの病歴のある人は，集中力や睡眠に問題を抱えるかもしれないのだ。"
+              },
+              {
+                "id": "6a_s17",
+                "en": "Moreover, they may suffer from psychological problems such as depression and mood changes.",
+                "ja": "さらに，彼らはうつ病や情緒不安定のような精神的問題に苦しむかもしれないのだ。"
+              },
+              {
+                "id": "6a_s18",
+                "en": "In some cases, players may develop smell and taste disorders.",
+                "ja": "いくつかのケースでは，選手は嗅覚と味覚に障害を発症するかもしれないのだ。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s19",
+                "en": "The National Hockey League (NHL), consisting of teams in Canada and the United States, has been making stricter rules and guidelines to deal with concussions.",
+                "ja": "カナダとアメリカのチームで構成されるナショナル・ホッケー・リーグ（NHL）は，脳しんとうに対処するためにより厳しいルールとガイドラインを作ってきた。"
+              },
+              {
+                "id": "6a_s20",
+                "en": "For example, in 2001, the NHL introduced the wearing of visors—pieces of clear plastic attached to the helmet that protect the face.",
+                "ja": "たとえば，2001年，NHLはバイザー――つまりヘルメットに取りつけられた顔を保護する透明なプラスチック片を着用することを導入した。"
+              },
+              {
+                "id": "6a_s21",
+                "en": "At first, it was optional and many players chose not to wear them.",
+                "ja": "最初，それは任意で，多くの選手は着用しないことを選んだ。"
+              },
+              {
+                "id": "6a_s22",
+                "en": "Since 2013, however, it has been required.",
+                "ja": "しかし2013年から，それは義務化された。"
+              },
+              {
+                "id": "6a_s23",
+                "en": "In addition, in 2004, the NHL began to give more severe penalties, such as suspensions and fines, to players who hit another player in the head deliberately.",
+                "ja": "加えて，2004年，NHLは故意に他の選手の頭部を殴打した選手に対し，出場停止や罰金などのより厳しいペナルティーを与え始めた。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s24",
+                "en": "The NHL also introduced a concussion spotters system in 2015.",
+                "ja": "2015年，NHLは脳しんとうスポッター（監視員）システムも導入した。"
+              },
+              {
+                "id": "6a_s25",
+                "en": "In this system, NHL officials with access to live streaming and video replay watch for visible indications of concussion during each game.",
+                "ja": "このシステムは，ライブ配信やリプレイ映像にアクセスするNHLの公式スタッフが試合中に脳しんとうの見た目にわかる兆候を監視するのだ。"
+              },
+              {
+                "id": "6a_s26",
+                "en": "At first, two concussion spotters, who had no medical training, monitored the game in the arena.",
+                "ja": "最初は，医学的訓練を受けていない2人の脳しんとうスポッターがアリーナで試合を監視していた。"
+              },
+              {
+                "id": "6a_s27",
+                "en": "The following year, one to four concussion spotters with medical training were added.",
+                "ja": "その翌年，医療研修を受けた1〜4人の脳しんとうスポッターが追加された。"
+              },
+              {
+                "id": "6a_s28",
+                "en": "They monitored each game from the League's head office in New York.",
+                "ja": "彼らはニューヨークのリーグ本部オフィスから各試合を監視した。"
+              },
+              {
+                "id": "6a_s29",
+                "en": "If a spotter thinks that a player has suffered a concussion, the player is removed from the game and is taken to a \"quiet room\" for an examination by a medical doctor.",
+                "ja": "もしスポッターが，ある選手が脳しんとうを起こしているとみなすと，その選手は試合から外され，「安静室」に連れて行かれて医者の検査を受ける。"
+              },
+              {
+                "id": "6a_s30",
+                "en": "The player is not allowed to return to the game until the doctor gives permission.",
+                "ja": "医者が許可を出すまで，その選手は試合に戻ることを許されないのだ。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s31",
+                "en": "The NHL has made much progress in making ice hockey a safer sport.",
+                "ja": "アイスホッケーをより安全なスポーツにすることにおいて，NHLは大きな進歩を成し遂げてきた。"
+              },
+              {
+                "id": "6a_s32",
+                "en": "As more is learned about the causes and effects of concussions, the NHL will surely take further measures to ensure player safety.",
+                "ja": "脳しんとうの原因や影響がより明らかになるにつれて，選手の安全を確実にするためにNHLがさらに対策を講じることは確かであろう。"
+              },
+              {
+                "id": "6a_s33",
+                "en": "Better safety might lead to an increase in the number of ice hockey players and fans.",
+                "ja": "より高い安全性はアイスホッケー選手とファンの増加につながるであろう。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "notes",
+          "title": {
+            "en": "Your poster:",
+            "ja": "あなたのポスター："
+          },
+          "type": "handout",
+          "paragraphs": [
+            [
+              {
+                "id": "6a_s_p1",
+                "en": "Making Ice Hockey Safer",
+                "ja": "アイスホッケーをもっと安全に"
+              }
+            ],
+            [
+              {
+                "id": "6a_s_p2",
+                "en": "What is ice hockey?",
+                "ja": "アイスホッケーとは？"
+              },
+              {
+                "id": "6a_s_p3",
+                "en": "• Players score by putting a \"puck\" in the other team's net",
+                "ja": "• 選手が「パック」を相手チームのゴールネットに入れることで得点する。"
+              },
+              {
+                "id": "6a_s_p4",
+                "en": "• Six players on each team",
+                "ja": "• 各チーム6人"
+              },
+              {
+                "id": "6a_s_p5",
+                "en": "• Sport played on ice at a high speed",
+                "ja": "• 氷の上で高速でプレーされるスポーツ"
+              }
+            ],
+            [
+              {
+                "id": "6a_s_p6",
+                "en": "Main Problem: A High Rate of Concussions",
+                "ja": "主な問題：脳しんとうの高い発生率"
+              }
+            ],
+            [
+              {
+                "id": "6a_s_p7",
+                "en": "Definition of a concussion",
+                "ja": "脳しんとうの定義"
+              },
+              {
+                "id": "6a_s_p8",
+                "en": "An injury to the brain that affects the way it functions",
+                "ja": "脳の機能に影響を及ぼす脳の負傷"
+              }
+            ],
+            [
+              {
+                "id": "6a_s_p9",
+                "en": "Effects",
+                "ja": "脳しんとうの影響"
+              },
+              {
+                "id": "6a_s_p10",
+                "en": "Short-term\n• Loss of consciousness\n• Difficulty walking straight\n• [ 39 ]\n• Ringing in the ears",
+                "ja": "短期的\n• 意識の喪失\n• まっすぐ歩けない\n• [ 39 ]\n• 耳鳴り"
+              },
+              {
+                "id": "6a_s_p11",
+                "en": "Long-term\n• Problems with concentration\n• [ 40 ]\n• Psychological problems\n• Smell and taste disorders",
+                "ja": "長期的\n• 集中力の不足\n• [ 40 ]\n• 精神的な問題\n• 嗅覚と味覚の障害"
+              }
+            ],
+            [
+              {
+                "id": "6a_s_p12",
+                "en": "Solutions",
+                "ja": "解決策"
+              },
+              {
+                "id": "6a_s_p13",
+                "en": "National Hockey League (NHL)",
+                "ja": "ナショナル・ホッケー・リーグ（NHL）"
+              },
+              {
+                "id": "6a_s_p14",
+                "en": "• Requires helmets with visors",
+                "ja": "• バイザー付きヘルメット着用を義務づける"
+              },
+              {
+                "id": "6a_s_p15",
+                "en": "• Gives severe penalties to dangerous players",
+                "ja": "• 危険な選手に重いペナルティーを与える"
+              },
+              {
+                "id": "6a_s_p16",
+                "en": "• Has introduced concussion spotters to [ 41 ]",
+                "ja": "• [ 41 ] ために脳しんとうスポッターを導入した"
+              }
+            ],
+            [
+              {
+                "id": "6a_s_p17",
+                "en": "Summary",
+                "ja": "要約"
+              },
+              {
+                "id": "6a_s_p18",
+                "en": "Ice hockey players have a high risk of suffering from concussions. Therefore, the NHL has [ 42 ].",
+                "ja": "アイスホッケー選手は脳しんとうを起こす危険性が高い。それゆえ，NHLは [ 42 ]。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 39,
+          "stem": {
+            "en": "Choose the best option for [ 39 ] on your poster.",
+            "ja": "「あなたのポスターの [ 39 ] に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Aggressive behavior",
+              "ja": "攻撃的なふるまい",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Difficulty thinking",
+              "ja": "思考困難",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Personality changes",
+              "ja": "人格の変化",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Unclear vision",
+              "ja": "視界不良",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "[ 39 ] には，脳しんとうの短期的な影響が入る。本文第3段落第2文に，In less serious cases, for a short time, players may be unable to walk straight or see clearly... (あまり深刻でなくても，短い時間，選手はまっすぐ歩けなかったり，はっきりと見えなくなったり...) とあるので，unable to see clearly を unclear vision と言い換えた④が正解。①，②，③のような症状は本文に述べられていないので，不適当。",
+            "evidence_sentences": [
+              "6a_s10"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 40,
+          "stem": {
+            "en": "Choose the best option for [ 40 ] on your poster.",
+            "ja": "「あなたのポスターの [ 40 ] に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Loss of eyesight",
+              "ja": "視力の喪失",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Memory problems",
+              "ja": "記憶障害",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Sleep disorders",
+              "ja": "睡眠障害",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Unsteady walking",
+              "ja": "歩行不安定",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "[ 40 ] には，脳しんとうの長期的な影響が入る。第4段落第5文に，People with a history of concussion may have trouble concentrating or sleeping. (脳しんとうの病歴のある人は，集中力や睡眠に問題を抱えるかもしれないのだ。) とあるので，have trouble sleeping を sleep disorders と言い換えた③が正解。④の歩行不安定は，問1で見たように短期的な影響。したがって，④は不適当。①と②のような症状は本文で述べられていないので，不適当。",
+            "evidence_sentences": [
+              "6a_s18"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 41,
+          "stem": {
+            "en": "Choose the best option for [ 41 ] on your poster.",
+            "ja": "「あなたのポスターの [ 41 ] に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "allow players to return to the game",
+              "ja": "選手が試合に戻ることを許可する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "examine players who have a concussion",
+              "ja": "脳しんとうを起こしている選手を検査する",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "fine players who cause concussions",
+              "ja": "脳しんとうを起こしている選手に罰金を科す",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "identify players showing signs of a concussion",
+              "ja": "脳しんとうの兆候を示す選手を特定する",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "[ 41 ] には，NHLが脳しんとうスポッター（監視員）を導入した目的が入る。脳しんとうスポッターの導入については，第6段落で述べられている。その役割については第6文に，If a spotter thinks that a player has suffered a concussion, the player is removed from the game and is taken to a \"quiet room\" for an examination by a medical doctor. (もしスポッターが，ある選手が脳しんとうを起こしているとみなすと，その選手は試合から除外され，「安静室」に連れて行かれて医者の検査を受ける。) と述べられている。したがって，④が正解。スポッターの役割は選手の特定のみで，検査をするのは医者なので，②は不適当。続く第7文に，The player is not allowed to return to the game until the doctor gives permission. (医者が許可を出すまで，その選手は試合に戻ることを許されないのだ。) とあり，選手が試合に戻る許可を与えるのはスポッターではなく，医者なので，①も不適当。第5段落最終文に，the NHL began to give more severe penalties, such as suspensions and fines, to players who hit another player in the head deliberately (NHLは故意にほかの選手の頭部を殴打した選手に対し，出場停止や罰金などのより厳しい罰を与えることを始めた) とあり，罰金を科されるのは脳しんとうを起こした選手ではなく，故意に危険なプレーをした選手なので，③も不適当。",
+            "evidence_sentences": [
+              "6a_s28",
+              "6a_s29"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 42,
+          "stem": {
+            "en": "Choose the best option for [ 42 ] on your poster.",
+            "ja": "「あなたのポスターの [ 42 ] に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "been expecting the players to become tougher",
+              "ja": "選手がもっとタフになることを期待し続けてきた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "been implementing new rules and guidelines",
+              "ja": "新しい規則やガイドラインを施行し続けてきた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "given medical training to coaches",
+              "ja": "コーチに医療研修をした",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "made wearing of visors optional",
+              "ja": "バイザーの着用を任意にした",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "ポスターの該当箇所では，NHLが行ってきた脳しんとう対策を述べている。第5段落第1文に，The National Hockey League (NHL) ... has been making stricter rules and guidelines to deal with concussions. (ナショナル・ホッケー・リーグ（NHL）は，脳しんとうに対処するためにより厳しいルールとガイドラインを作ってきた。) とあり，その例として，第5段落ではバイザーとペナルティーの導入について，第6段落では脳しんとうスポッターの導入について述べている。したがって，②が正解。①については，第4段落第2文に，coaches preferred tough players who played in spite of the pain (コーチは痛みにもかかわらずプレーするタフな選手をより好んだ) とあり，選手がタフになるのを期待したのはNHLではなく，コーチだったので，不適当。③については，第6段落第4文に，one to four concussion spotters with medical training were added (医療研修を受けた1〜4人の脳しんとうスポッターが追加された) とあり，医療研修を受けたのは脳しんとうスポッターであり，コーチではないので，③も不適当。④については，第5段落第2〜4文ではバイザー導入について，「2001年のバイザー導入時は，着用は任意だったため，着用しない選手が多かったが，2013年からは着用が義務化された」と述べているので，④も不適当。",
+            "evidence_sentences": [
+              "6a_s21"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": "6B",
+      "title": "第6問 B",
+      "points": 12,
+      "pdf_pages": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "passage_images": [
+        "images/mondai_p32.png",
+        "images/mondai_p33.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p20.png",
+        "images/kaitou_p21.png",
+        "images/kaitou_p22.png"
+      ],
+      "situation": {
+        "en": "You are studying nutrition in health class. You are going to read the following passage from a textbook to learn more about various sweeteners.",
+        "ja": "あなたは保健の授業で栄養について勉強しています。さまざまな甘味料についてもっと学ぶため，教科書から次の文章を読む予定です。"
+      },
+      "passages": [
+        {
+          "id": "textbook",
+          "title": {
+            "en": "Sweeteners",
+            "ja": "甘味料"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "6b_s1",
+                "en": "Cake, candy, soft drinks—most of us love sweet things.",
+                "ja": "ケーキ，キャンディー，清涼飲料水――我々のほとんどは甘い物が大好きだ。"
+              },
+              {
+                "id": "6b_s2",
+                "en": "In fact, young people say \"Sweet!.\" to mean something is \"good\" in English.",
+                "ja": "事実，英語では若者が何かが「良い」ということを言うのに，「スイート！"
+              },
+              {
+                "id": "6b_s3",
+                "en": "When we think of sweetness, we imagine ordinary white sugar from sugar cane or sugar beet plants.",
+                "ja": "」と言う。"
+              },
+              {
+                "id": "6b_s4",
+                "en": "Scientific discoveries, however, have changed the world of sweeteners.",
+                "ja": "我々が甘さについて考えるとき，サトウキビやテンサイから作られる普通の白砂糖を想像する。"
+              },
+              {
+                "id": "6b_s5",
+                "en": "We can now extract sugars from many other plants.",
+                "ja": "しかしながら，科学的発見が甘味料の世界を一変させてしまった。"
+              },
+              {
+                "id": "6b_s6",
+                "en": "The most obvious example is corn.",
+                "ja": "今や多くのほかの植物から砂糖を抽出することが可能だ。"
+              },
+              {
+                "id": "6b_s7",
+                "en": "Corn is abundant, inexpensive, and easy to process.",
+                "ja": "最も分かりやすい例はトウモロコシである。"
+              },
+              {
+                "id": "6b_s8",
+                "en": "High fructose corn syrup (HFCS) is about 1.2 times sweeter than regular sugar, but quite high in calories.",
+                "ja": "トウモロコシは豊富で，安く，加工が簡単だ。"
+              },
+              {
+                "id": "6b_s9",
+                "en": "Taking science one step further, over the past 70 years scientists have developed a wide variety of artificial sweeteners.",
+                "ja": "高果糖コーンシロップ（HFCS）は普通の砂糖より1.2倍ほど甘く，非常に高カロリーである。 科学をさらに一歩深めることで，この70年間にわたって，科学者はさまざまな人工甘味料を開発してきた。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s10",
+                "en": "A recent US National Health and Nutrition Examination Survey concluded that 14.6% of the average American's energy intake is from \"added sugar,\" which refers to sugar that is not derived from whole foods.",
+                "ja": "最近の米国国民健康栄養調査は，平均的なアメリカ人のエネルギー摂取量の14.6%が「添加糖」，つまり自然食品に由来しない糖によるものであると結論づけた。"
+              },
+              {
+                "id": "6b_s11",
+                "en": "A banana, for example, is a whole food, while a cookie contains added sugar.",
+                "ja": "たとえば，バナナは自然食品だが，一方クッキーには添加糖が入っている。"
+              },
+              {
+                "id": "6b_s12",
+                "en": "More than half of added sugar calories are from sweetened drinks and desserts.",
+                "ja": "添加糖のカロリーの半分以上は甘い飲み物やデザートからきている。"
+              },
+              {
+                "id": "6b_s13",
+                "en": "Lots of added sugar can have negative effects on our bodies, including excessive weight gain and other health problems.",
+                "ja": "大量の添加糖は肥満や他の健康問題を含む悪影響を我々の体に及ぼす。"
+              },
+              {
+                "id": "6b_s14",
+                "en": "For this reason, many choose low-calorie substitutes for drinks, snacks, and desserts.",
+                "ja": "この理由のため，多くの人々は飲み物，お菓子，デザートに低カロリーの代替品を選んでいるのだ。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s15",
+                "en": "Natural alternatives to white sugar include brown sugar, honey, and maple syrup, but they also tend to be high in calories.",
+                "ja": "白砂糖の天然の代替品には黒砂糖，はちみつ，メープルシロップがあるが，それらもまたカロリーが高い傾向にある。"
+              },
+              {
+                "id": "6b_s16",
+                "en": "Consequently, alternative \"low-calorie sweeteners\" (LCSs), mostly artificial chemical combinations, have become popular.",
+                "ja": "その結果，他の「低カロリー甘味料」（LCSs）が，それらはほとんどが人工化学合成物質であるが，人気を集めてきた。"
+              },
+              {
+                "id": "6b_s17",
+                "en": "The most common LCSs today are aspartame, Ace-K, stevia, and sucralose.",
+                "ja": "今日の最も一般的なLCSsはアスパルテーム，Ace-K（アセスルファムカリウム），ステビア，スクラロースである。"
+              },
+              {
+                "id": "6b_s18",
+                "en": "Not all LCSs are artificial—stevia comes from plant leaves.",
+                "ja": "すべてのLCSsが人工物というわけではない――ステビアは植物の葉由来である。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s19",
+                "en": "Alternative sweeteners can be hard to use in cooking because some cannot be heated and most are far sweeter than white sugar.",
+                "ja": "代替甘味料は，加熱できないものがあり，またはとんどが白砂糖よりもずっと甘いので，料理に使うことが難しいかもしれない。"
+              },
+              {
+                "id": "6b_s20",
+                "en": "Aspartame and Ace-K are 200 times sweeter than sugar.",
+                "ja": "アスパルテームとAce-Kは砂糖の200倍甘い。"
+              },
+              {
+                "id": "6b_s21",
+                "en": "Stevia is 300 times sweeter, and sucralose has twice the sweetness of stevia.",
+                "ja": "ステビアは砂糖の300倍甘く，スクラロースはステビアの2倍甘い。"
+              },
+              {
+                "id": "6b_s22",
+                "en": "Some new sweeteners are even more intense.",
+                "ja": "新しい甘味料の中にはもっと強烈なものもある。"
+              },
+              {
+                "id": "6b_s23",
+                "en": "A Japanese company recently developed \"Advantame,\" which is 20,000 times sweeter than sugar.",
+                "ja": "ある日本の企業は最近「アドバンテーム」を開発したが，それは砂糖の2万倍の甘さなのだ。"
+              },
+              {
+                "id": "6b_s24",
+                "en": "Only a tiny amount of this substance is required to sweeten something.",
+                "ja": "何かを甘くするのにこの物質はごくわずかしか必要ではないのである。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s25",
+                "en": "When choosing sweeteners, it is important to consider health issues.",
+                "ja": "甘味料を選ぶときには，健康問題を考慮することが大切だ。"
+              },
+              {
+                "id": "6b_s26",
+                "en": "Making desserts with lots of white sugar, for example, results in high-calorie dishes that could lead to weight gain.",
+                "ja": "たとえば，大量の白砂糖を使用してデザートを作れば，結果として体重増加につながるかもしれない高カロリー料理ができてしまう。"
+              },
+              {
+                "id": "6b_s27",
+                "en": "There are those who prefer LCSs for this very reason.",
+                "ja": "まさにこの理由のためにLCSsを好む人々がいるのだ。"
+              },
+              {
+                "id": "6b_s28",
+                "en": "Apart from calories, however, some research links consuming artificial LCSs with various other health concerns.",
+                "ja": "しかしカロリーは別として，人工LCSsの摂取をさまざまな他の健康不安に関連づける調査もある。"
+              },
+              {
+                "id": "6b_s29",
+                "en": "Some LCSs contain strong chemicals suspected of causing cancer, while others have been shown to affect memory and brain development, so they can be dangerous, especially for young children, pregnant women, and the elderly.",
+                "ja": "発がん性を疑わせる強い化学物質を含むものや，記憶力や脳の発達に影響を与えることを示すLCSsもあるので，それらは特に幼い子ども，妊娠中の女性，お年寄りには危険かもしれないのだ。"
+              },
+              {
+                "id": "6b_s30",
+                "en": "There are a few relatively natural alternative sweeteners, like xylitol and sorbitol, which are low in calories.",
+                "ja": "キシリトールやソルビトールなど，低カロリーで比較的自然の代替甘味料も多少ある。"
+              },
+              {
+                "id": "6b_s31",
+                "en": "Unfortunately, these move through the body extremely slowly, so consuming large amounts can cause stomach trouble.",
+                "ja": "残念ながら，これらは体を通り抜けるのが極めて遅いため，大量に摂取すると胃の不調を起こす可能性がある。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s32",
+                "en": "When people want something sweet, even with all the information, it is difficult for them to decide whether to stick to common higher calorie sweeteners like sugar or to use LCSs.",
+                "ja": "甘い物が欲しいとき，たとえすべての情報を持っていたとしても，砂糖のような一般的な高カロリー甘味料にこだわるか，LCSsを使用するかを決めるのは困難である。"
+              },
+              {
+                "id": "6b_s33",
+                "en": "Many varieties of gum and candy today contain one or more artificial sweeteners; nonetheless, some people who would not put artificial sweeteners in hot drinks may still buy such items.",
+                "ja": "今日，多くの種類のガムやキャンディーには1つ以上の人工甘味料が含まれている。"
+              },
+              {
+                "id": "6b_s34",
+                "en": "Individuals need to weigh the options and then choose the sweeteners that best suit their needs and circumstances.",
+                "ja": "それにもかかわらず，人工甘味料を温かい飲み物に決して入れない人でも，そのような商品を購入しているかもしれない。 各人がそれらの甘味料を比較検討し，自分のニーズと状況にかなった甘味料を選択する必要があるのだ。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 43,
+          "stem": {
+            "en": "You learn that modern science has changed the world of sweeteners by [ 43 ]",
+            "ja": "「あなたは現代科学が [ 43 ] によって甘味料の世界を一変させてしまったことを学んだ。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "discovering new, sweeter white sugar types",
+              "ja": "より甘い新種の白砂糖を発見したこと",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "measuring the energy intake of Americans",
+              "ja": "アメリカ人のエネルギー摂取量を測定すること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "providing a variety of new options",
+              "ja": "さまざまな新しい選択肢を提供すること",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "using many newly-developed plants from the environment",
+              "ja": "自然環境から新たに開発されたたくさんの植物を使用すること",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "設問は，第1段落第4文の Scientific discoveries ... have changed the world of sweeteners. (科学的発見が甘味料の世界を一変させてしまった。) の言い換えなので，「科学的発見」は何かを探す。まずは第1段落第5文に，We can now extract sugars from many other plants. (今や多くのほかの植物から砂糖を抽出することが可能だ。) とあるように，「サトウキビやテンサイから作る白砂糖以外にも，トウモロコシのような他の植物から甘味料が作れるようになったこと」が1つである。次に，第1段落最終文に，Taking science one step further, over the past 70 years scientists have developed a wide variety of artificial sweeteners. (科学をさらに一歩深めることで，この70年間にわたって，科学者はさまざまな人工甘味料を開発してきた。) とあるように，「人工甘味料を開発したこと」である。したがって，従来の白砂糖以外のこれらの新しい甘味料を「さまざまな新しい選択肢の提供」と言い換えている③が正解。",
+            "evidence_sentences": [
+              "6b_s5",
+              "6b_s9"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 44,
+          "stem": {
+            "en": "You are summarizing the information you have just studied. How should the table be finished? [ 44 ]",
+            "ja": "「あなたは今勉強したことを要約している。どのように表を完成させるべきか。」"
+          },
+          "graph_image": "images/mondai_p34_graph.png",
+          "choices": [
+            {
+              "label": "①",
+              "en": "(A) Stevia, (B) Sucralose, (C) Ace-K, Aspartame, (D) HFCS",
+              "ja": "(A) ステビア, (B) スクラロース, (C) Ace-K, アスパルテーム, (D) HFCS",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "(A) Stevia, (B) Sucralose, (C) HFCS, (D) Ace-K, Aspartame",
+              "ja": "(A) ステビア, (B) スクラロース, (C) HFCS, (D) Ace-K, アスパルテーム",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "(A) Sucralose, (B) Stevia, (C) Ace-K, Aspartame, (D) HFCS",
+              "ja": "(A) スクラロース, (B) ステビア, (C) Ace-K, アスパルテーム, (D) HFCS",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "(A) Sucralose, (B) Stevia, (C) HFCS, (D) Ace-K, Aspartame",
+              "ja": "(A) スクラロース, (B) ステビア, (C) HFCS, (D) Ace-K, アスパルテーム",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "甘味料を甘いものから順に並べる問題。各甘味についての記述は以下の通り。\n・HFCS: 第1段落第8文: High fructose corn syrup (HFCS) is about 1.2 times sweeter than regular sugar (高果糖コーンシロップ（HFCS）は普通の砂糖より1.2倍ほど甘い)\n・Ace-K, アスパルテーム: 第4段落第2文: Aspartame and Ace-K are 200 times sweeter than sugar. (アスパルテームとAce-Kは砂糖の200倍甘い。)\n・ステビア: 第4段落第3文: Stevia is 300 times sweeter (than sugar) (ステビアは（砂糖の）300倍甘い)\n・スクラロース: 第4段落第3文: sucralose has twice the sweetness of stevia (スクラロースはステピアの2倍甘い)\nしたがって，甘い順に，スクラロース→ステビア→Ace-K, アスパルテーム→HFCSとなるので，③が正解。",
+            "evidence_sentences": [
+              "6b_s8",
+              "6b_s21",
+              "6b_s22"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": "45, 46",
+          "stem": {
+            "en": "According to the article you read, which of the following are true? (Choose two options. The order does not matter.) [ 45 ] ・ [ 46 ]",
+            "ja": "「あなたが読んだ記事によると，次のうち正しいのはどれか。」（2つの選択肢を選びなさい。順不同。）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Alternative sweeteners have been proven to cause weight gain.",
+              "ja": "代替甘味料は体重増加を引き起こすことが証明されている。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Americans get 14.6% of their energy from alternative sweeteners.",
+              "ja": "アメリカ人は代替甘味料から14.6%のエネルギーを得ている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "It is possible to get alternative sweeteners from plants.",
+              "ja": "植物から代替甘味料を得ることは可能だ。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Most artificial sweeteners are easy to cook with.",
+              "ja": "大部分の人工甘味料は料理に使うことが簡単だ。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Sweeteners like xylitol and sorbitol are not digested quickly.",
+              "ja": "キシリトールやソルビトールのような甘味料は素早く消化されない。",
+              "is_correct": true
+            }
+          ],
+          "answer": "③, ⑤",
+          "explanation": {
+            "ja": "第3段落最終文，Not all LCSs are artificial - stevia comes from plant leaves. (すべてのLCSsが人工物というわけではない――ステビアは植物の葉由来である。) から，植物から代替甘味料が得られることがわかるので，③は正解。第5段落第7文では，キシリトールやソルビトールなどの代替甘味料について，these move through the body extremely slowly, so consuming large amounts can cause stomach trouble (これらは体を通り抜けるのが極めて遅いため，大量に摂取すると胃の不調を起こす可能性がある) とあるので，これを are not digested quickly (素早く消化されない) と言い換えた⑤も正解。",
+            "evidence_sentences": [
+              "6b_s19",
+              "6b_s32"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 47,
+          "stem": {
+            "en": "To describe the author's position, which of the following is most appropriate? [ 47 ]",
+            "ja": "「筆者の立場を述べるにあたり，次のうち最も適切なものはどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The author argues against the use of artificial sweeteners in drinks and desserts.",
+              "ja": "筆者は飲み物やデザートに人工甘味料を使用することに反対だ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The author believes artificial sweeteners have successfully replaced traditional ones.",
+              "ja": "筆者は人工甘味料が従来の甘味料に取って代わることに成功したと信じている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The author states that it is important to invent much sweeter products for future use.",
+              "ja": "筆者は将来的な使用のためにもっと甘い製品を開発することが重要だと述べている。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The author suggests people focus on choosing sweeteners that make sense for them.",
+              "ja": "筆者は，自分が納得する甘味料を選ぶことに焦点を当てるよう提案している。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "筆者は本文最終文で，Individuals need to weigh the options and then choose the sweeteners that best suit their needs and circumstances. (各人がそれらの甘味料を比較検討し，自分のニーズと状況にかなったものを選択する必要があるのだ。) と，全体の結論として自分の意見を述べている。これを言い換えた④が正解。第5段落第1〜5文で，筆者は人工甘味料であるLCSsの利点と懸念点の両方を挙げている。利点は，白砂糖に比べて低カロリーであること。懸念点は，がんや記憶力や脳の発達に影響を与える可能性があることだ。一方的な立場に偏っていないことから，①や②は不適当。③について，本文ではより甘い製品の開発が重要だとは述べられていないので，不適当。",
+            "evidence_sentences": [
+              "6b_s36"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

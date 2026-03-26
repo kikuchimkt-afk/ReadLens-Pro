@@ -46,6 +46,16 @@ const EXAM_REGISTRY = [
     icon: "📕"
   },
   {
+    id: "kakomon_2025",
+    publisher: "共通テスト",
+    series: "過去問",
+    year: 2025,
+    round: "本試験",
+    label: "共通テスト 2025年度 本試験",
+    dataPath: "data/kakomon/2025/data.json",
+    icon: "🏛"
+  },
+  {
     id: "kakomon_2024",
     publisher: "共通テスト",
     series: "過去問",
@@ -53,6 +63,36 @@ const EXAM_REGISTRY = [
     round: "本試験",
     label: "共通テスト 2024年度 本試験",
     dataPath: "data/kakomon/2024/data.json",
+    icon: "🏫"
+  },
+  {
+    id: "kakomon_2023",
+    publisher: "共通テスト",
+    series: "過去問",
+    year: 2023,
+    round: "本試験",
+    label: "共通テスト 2023年度 本試験",
+    dataPath: "data/kakomon/2023/data.json",
+    icon: "🏫"
+  },
+  {
+    id: "kakomon_2022",
+    publisher: "共通テスト",
+    series: "過去問",
+    year: 2022,
+    round: "本試験",
+    label: "共通テスト 2022年度 本試験",
+    dataPath: "data/kakomon/2022/data.json",
+    icon: "🏫"
+  },
+  {
+    id: "kakomon_2021_1",
+    publisher: "共通テスト",
+    series: "過去問",
+    year: 2021,
+    round: "第1日程",
+    label: "共通テスト 2021年度 第1日程",
+    dataPath: "data/kakomon/2021_1/data.json",
     icon: "🏫"
   }
 ];
@@ -78,8 +118,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   try {
     let html = '';
-    for (const exam of EXAM_REGISTRY) {
-      html += await renderExamBlock(exam);
+    for (let i = 0; i < EXAM_REGISTRY.length; i++) {
+      html += await renderExamBlock(EXAM_REGISTRY[i], i);
     }
     loading.style.display = 'none';
     app.insertAdjacentHTML('beforeend', html);
@@ -90,7 +130,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // ===== 問題集ブロックの描画 =====
-async function renderExamBlock(exam) {
+async function renderExamBlock(exam, index) {
   let data = null;
   try {
     const resp = await fetch(exam.dataPath);
@@ -138,15 +178,18 @@ async function renderExamBlock(exam) {
     `;
   }
 
+  const isOpen = index === 0 ? 'open' : '';
   return `
     <section class="exam-block">
-      <div class="exam-block-header">
-        <h2 class="exam-block-title"><span class="icon">${exam.icon}</span>${exam.label}</h2>
-        <a href="print.html?exam=${exam.id}&mode=all" class="btn-print-all" title="全問題を印刷">🖨 全問題印刷</a>
-      </div>
-      <div class="section-grid">
-        ${cardsHtml}
-      </div>
+      <details class="exam-details" ${isOpen}>
+        <summary class="exam-block-header">
+          <h2 class="exam-block-title"><span class="icon">${exam.icon}</span>${exam.label}</h2>
+          <a href="print.html?exam=${exam.id}&mode=all" class="btn-print-all" onclick="event.stopPropagation()" title="全問題を印刷">🖨 全問題印刷</a>
+        </summary>
+        <div class="section-grid">
+          ${cardsHtml}
+        </div>
+      </details>
     </section>
   `;
 }

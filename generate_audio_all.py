@@ -1,0 +1,149 @@
+import json
+import os
+import asyncio
+import sys
+import re
+import tempfile
+
+async def generate_audio_for_file(data_file):
+    audio_dir = os.path.join(os.path.dirname(data_file), "audio")
+    os.makedirs(audio_dir, exist_ok=True)
+    
+    with open(data_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    voice = 'en-US-JennyNeural'
+    
+    tasks = [] # (filename, text)
+    
+    def extract_text(sentences_or_para):
+        if not sentences_or_para:
+            return ""
+        if isinstance(sentences_or_para, dict):
+            # object paragraph {id, en, ja}
+            return sentences_or_para.get("en", "")
+        else:
+            # list of sentences
+            return " ".join([s.get("en", "") for s in sentences_or_para if isinstance(s, dict) and "en" in s])
+
+    # handle flattened subsections if any
+    for section in data.get('sections', []):
+        sec_num = section.get('section_number')
+        subsections = section.get('subsections', [])
+        
+        passages = section.get('passages', [])
+        if subsections:
+            passages = []
+            for sub in subsections:
+                if 'passages' in sub:
+                    passages.extend(sub['passages'])
+
+        for passage in passages:
+            passage_id = passage.get('id', '')
+            if not passage_id or passage.get('is_notes'):
+                continue
+
+            # 1. passage.authors
+            if 'authors' in passage:
+                for author in passage['authors']:
+                    author_id = author['name']['en'].split('(')[0].strip().replace(' ', '_').lower()
+                    for pi, para in enumerate(author.get('paragraphs', [])):
+                        text = extract_text(para)
+                        if text.strip():
+                            filename = f"s{sec_num}_{author_id}_p{pi+1}.mp3"
+                            tasks.append((filename, text))
+
+            # 2. passage.sources
+            if 'sources' in passage:
+                for source in passage['sources']:
+                    source_id = source['name']['en'].replace(' ', '_').lower()
+                    for pi, para in enumerate(source.get('paragraphs', [])):
+                        text = extract_text(para)
+                        if text.strip():
+                            filename = f"s{sec_num}_{source_id}_p{pi+1}.mp3"
+                            tasks.append((filename, text))
+
+            # 3. paragraphs
+            if 'paragraphs' in passage:
+                has_comments = bool(passage.get('margin_comments'))
+                blocks = passage.get('block_separators', [])
+                
+                if blocks and not has_comments:
+                    # grouped by block
+                    block_start = 0
+                    block_num = 1
+                    for bi in range(len(blocks) + 1):
+                        block_end = blocks[bi] if bi < len(blocks) else len(passage['paragraphs']) - 1
+                        
+                        text_parts = []
+                        for pi in range(block_start, block_end + 1):
+                            if pi < len(passage['paragraphs']):
+                                text_parts.append(extract_text(passage['paragraphs'][pi]))
+                        
+                        text = " ".join(text_parts).strip()
+                        if text:
+                            filename = f"s{sec_num}_{passage_id}_p{block_num}.mp3"
+                            tasks.append((filename, text))
+                        
+                        block_start = block_end + 1
+                        block_num += 1
+                else:
+                    # normal paragraphs
+                    for pi, para in enumerate(passage['paragraphs']):
+                        text = extract_text(para)
+                        if text.strip():
+                            filename = f"s{sec_num}_{passage_id}_p{pi+1}.mp3"
+                            tasks.append((filename, text))
+
+            # 4. sentences and advertisement_sections
+            if 'sentences' in passage and 'authors' not in passage and 'sources' not in passage and 'paragraphs' not in passage:
+                text = extract_text(passage['sentences'])
+                if text.strip():
+                    filename = f"s{sec_num}_{passage_id}.mp3"
+                    tasks.append((filename, text))
+                    
+    print(f"[{data_file}] Found {len(tasks)} audio tasks.")
+    
+    # Generate MP3s
+    for filename, text in tasks:
+        # cleanup text for tts
+        clean_text = re.sub(r'\[\s*\d+\s*\]', '', text).strip()
+        clean_text = re.sub(r'\(\s*\d+\s*\)', '', clean_text).strip()
+        
+        if not clean_text:
+            continue
+            
+        out = os.path.join(audio_dir, filename)
+        if os.path.exists(out) and os.path.getsize(out) > 0:
+            print(f"  Skip existing: {filename}")
+            continue
+            
+        print(f"  Generating: {filename}...")
+        
+        with tempfile.NamedTemporaryFile('w', encoding='utf-8', delete=False) as tf:
+            tf.write(clean_text)
+            temp_path = tf.name
+            
+        proc = await asyncio.create_subprocess_shell(
+            f'edge-tts --voice "{voice}" --f "{temp_path}" --write-media "{out}"',
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE
+        )
+        await proc.communicate()
+        os.remove(temp_path)
+        
+        size = os.path.getsize(out) if os.path.exists(out) else 0
+        if size == 0:
+            print(f"  FAILED: {filename}")
+        else:
+            print(f"  OK: {size} bytes")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python generate_audio_all.py <path_to_data_json> ...")
+        sys.exit(1)
+    
+    for arg in sys.argv[1:]:
+        print(f"Processing {arg}...")
+        asyncio.run(generate_audio_for_file(arg))
+        print(f"Finished {arg}")

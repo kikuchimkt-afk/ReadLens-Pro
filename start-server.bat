@@ -19,6 +19,7 @@ echo   URL: http://127.0.0.1:%PORT%
 echo   Press Ctrl+C to stop
 echo.
 
-:: Serve the directory where this batch file is located
-npx -y http-server "%~dp0." -p %PORT% --cors -c-1
+:: Use Python http.server (more reliable with Japanese paths)
+cd /d "%~dp0"
+python -m http.server %PORT% --bind 127.0.0.1
 pause

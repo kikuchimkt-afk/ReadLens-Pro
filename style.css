@@ -104,11 +104,32 @@ body {
   box-shadow: var(--glass-shadow);
 }
 
+.exam-details > summary {
+  list-style: none;
+  cursor: pointer;
+  outline: none;
+}
+.exam-details > summary::-webkit-details-marker {
+  display: none;
+}
+.exam-details[open] summary {
+  margin-bottom: 18px;
+}
 .exam-block-header {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 18px;
+  position: relative;
+}
+.exam-block-header::after {
+  content: '▼';
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-left: auto;
+  transition: transform 0.25s ease;
+}
+.exam-details[open] .exam-block-header::after {
+  transform: rotate(180deg);
 }
 .exam-block-header .exam-block-title {
   margin-bottom: 0;

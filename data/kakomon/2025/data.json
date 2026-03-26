@@ -1,0 +1,3671 @@
+{
+  "exam_info": {
+    "title": "共通テスト 2025年度 本試験",
+    "year": 2025,
+    "round": "本試験",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_points": 100,
+    "total_answer_numbers": 44,
+    "average_score": 57.69,
+    "examinees": 453668,
+    "source_pdf": {
+      "mondai": "2025年_本試験_問題.pdf",
+      "kaitou": "2025年_本試験_解説.pdf"
+    },
+    "format": "8",
+    "section_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "situation": {
+        "en": "Your host family in the US is planning to buy a small aquarium. You found this helpful pamphlet.",
+        "ja": "アメリカのあなたのホストファミリーが小さな水槽を買おうと考えています。あなたは役に立つこのパンフレットを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": {
+            "en": "Beginners!\nDecorate Your Freshwater Aquarium",
+            "ja": "初心者のみなさん！\n淡水魚用の水槽を飾りましょう"
+          },
+          "subtitle": {
+            "en": "Start your wonderful hobby of keeping fish by following these three easy steps!",
+            "ja": "これら3つの簡単なステップに従って，魚を飼うという素晴らしい趣味を始めましょう！"
+          }
+        },
+        {
+          "id": "step1",
+          "title": {
+            "en": "1. Consider what kind of fish you want",
+            "ja": "1．どんな種類の魚を飼いたいか考えます"
+          },
+          "sentences": [
+            {
+              "id": "s1_s1",
+              "en": "Some fish need open spaces for swimming, while others want places to hide.",
+              "ja": "泳ぐために何もないスペースが必要な魚もいれば，隠れる場所が必要な魚もいます。"
+            },
+            {
+              "id": "s1_s2",
+              "en": "Also, some fish need sand to cover themselves in.",
+              "ja": "また，中には自分の体を隠すための砂が必要な魚もいます。"
+            },
+            {
+              "id": "s1_s3",
+              "en": "For other non-hiding fish, small stones can be used.",
+              "ja": "それ以外の隠れる習性のない魚には，小石を使うことができます。"
+            }
+          ]
+        },
+        {
+          "id": "step2",
+          "title": {
+            "en": "2. Select decorations",
+            "ja": "2．デコレーションを選びます"
+          },
+          "sentences": [
+            {
+              "id": "s1_s4",
+              "en": "Natural and artificial decorations are necessary to keep fish in good health and should cover 50-70% of the area.",
+              "ja": "魚を健康に保つには天然と人工のデコレーションが必要で，水槽の50〜70%を占めるようにしましょう。"
+            },
+            {
+              "id": "s1_s5",
+              "en": "Fish from fast-moving or deep water need solid objects such as small rocks and logs.",
+              "ja": "流れが速いかあるいは深い水に住む魚は，小さな岩や丸太など固い物が必要です。"
+            },
+            {
+              "id": "s1_s6",
+              "en": "Those from slow-moving or shallow water prefer soft objects like plants.",
+              "ja": "流れが遅いか浅い水に住む魚は，植物などの柔らかい物をより好みます。"
+            },
+            {
+              "id": "s1_s7",
+              "en": "Avoid any plastic or rubber items not intended for aquariums.",
+              "ja": "水槽用に作られた物でないプラスチックやゴム製の物は避けてください。"
+            },
+            {
+              "id": "s1_s8",
+              "en": "Clean all decorations carefully to make sure there is nothing harmful on them.",
+              "ja": "必ず有害な物が付着していないように，どのデコレーションも注意深く掃除してください。"
+            }
+          ]
+        },
+        {
+          "id": "step3",
+          "title": {
+            "en": "3. Position decorations",
+            "ja": "3．デコレーションの位置を決めます"
+          },
+          "sentences": [
+            {
+              "id": "s1_s9",
+              "en": "Fish need room to move.",
+              "ja": "魚は動くためのスペースが必要です。"
+            },
+            {
+              "id": "s1_s10",
+              "en": "Leave space around the edges of the tank.",
+              "ja": "水槽の隅にはスペースを残しておいてください。"
+            },
+            {
+              "id": "s1_s11",
+              "en": "Place tall decorations and plants at the back, and put short ones at the front.",
+              "ja": "背の高いデコレーションや植物は後ろに，背の低いものは手前に置いてください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "The customers most likely to benefit from this pamphlet are [1].",
+            "ja": "「このパンフレットから利益を得る可能性が最も高いのは[1]である」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "aquarium lovers who are looking for discount prices",
+              "ja": "割引き価格を探している水槽愛好家",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "experienced fish lovers who need specialized advice",
+              "ja": "専門的なアドバイスを必要としている経験豊かな魚の愛好家",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "fish fans who want different methods of feeding their fish",
+              "ja": "魚への様々なエサのやり方を知りたい魚の愛好家",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "newcomers who need to be informed about their aquarium",
+              "ja": "水槽について教えてもらう必要のある初心者",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。パンフレットの最初に「初心者のみなさん！」とあること，および，このパンフレットは初めて水槽で魚を飼う人のための基本的な内容であることより，④が正解。",
+            "evidence_sentences": [
+              "s1_s1"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "When arranging decorations to keep your fish in good health, it is a good idea to [2].",
+            "ja": "「魚を健康に保つためにデコレーションを並べる際には，[2]ことが良い考えである」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "avoid using solid and soft objects",
+              "ja": "固い物や柔らかい物を使うことを避ける",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "provide the right amount of open space",
+              "ja": "適切な量の何もないスペースを与える",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "reuse your old toothbrush as a decoration",
+              "ja": "デコレーションとして使い古しの歯ブラシを再利用する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "wash decorations briefly and roughly",
+              "ja": "デコレーションを短い時間で大ざっぱに洗う",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。2．デコレーションを選びますの第1文「魚を健康に保つには天然と人工のデコレーションが必要で，水槽の50〜70%を占めるようにしましょう」と3．デコレーションの位置を決めますの第1〜2文「魚は動くためのスペースが必要です。水槽の隅にはスペースを残しておいてください」より，②が正解。",
+            "evidence_sentences": [
+              "s1_s4",
+              "s1_s9",
+              "s1_s10"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "According to the pamphlet, which picture best shows how to decorate for fish from slow-moving water? [3]",
+            "ja": "「パンフレットによると，流れが遅い水に住む魚のための飾りつけの仕方を最も良く示す絵はどれか」[3]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "(Picture 1)",
+              "ja": "（絵1）",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "(Picture 2)",
+              "ja": "（絵2）",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "(Picture 3)",
+              "ja": "（絵3）",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "(Picture 4)",
+              "ja": "（絵4）",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。2．デコレーションを選びますの第1文「魚を健康に保つには天然と人工のデコレーションが必要で，水槽の50〜70%を占めるようにしましょう」，第3文「流れが遅いか浅い水に住む魚は，植物などの柔らかい物をより好みます」と「天然の物・人工の物」を表す絵，および，3．デコレーションの位置を決めますの第2〜最終文「水槽の隅にはスペースを残しておいてください。背の高いデコレーションや植物は後ろに，背の低いものは手前に置いてください」より，④が正解。",
+            "evidence_sentences": [
+              "s1_s4",
+              "s1_s6",
+              "s1_s10",
+              "s1_s11"
+            ]
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p01.png",
+        "images/mondai_p02.png",
+        "images/mondai_p03.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p04.png",
+        "images/kaitou_p05.png"
+      ],
+      "pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "aquarium",
+              "ja": "水槽／水族館"
+            },
+            {
+              "en": "Some ~, while others ...",
+              "ja": "～もあれば…もある"
+            },
+            {
+              "en": "artificial",
+              "ja": "人工的な"
+            },
+            {
+              "en": "solid",
+              "ja": "固い"
+            },
+            {
+              "en": "shallow",
+              "ja": "浅い"
+            },
+            {
+              "en": "not intended for A",
+              "ja": "Aのために作られたものでない"
+            },
+            {
+              "en": "make sure (that) SV ...",
+              "ja": "必ず…であるようにする"
+            },
+            {
+              "en": "position O",
+              "ja": "Oの位置を決める"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 12,
+      "points_per_question": 3,
+      "situation": {
+        "en": "Your teacher asks you to write a report about the future of transportation. To prepare, you read a blog written by a British author about the topic.",
+        "ja": "あなたは輸送の未来についてレポートを書くよう先生から求められています。準備のために，このトピックに関してイギリス人の執筆者によって書かれたブログを読みます。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": {
+            "en": "Flying Vehicles",
+            "ja": "空飛ぶクルマ"
+          },
+          "subtitle": {
+            "en": "10 December 2024\nJonah Markowski\nBristol, UK",
+            "ja": "2024年12月10日\nジョナ・マーコウスキ\nイギリス・ブリストル"
+          }
+        },
+        {
+          "id": "blog",
+          "paragraphs": [
+            [
+              {
+                "id": "s2_s1",
+                "en": "Yesterday, I attended a forum in northern Japan called Flying Vehicles: Today and Tomorrow.",
+                "ja": "昨日，私は日本の北部で行われた「空飛ぶクルマの現在と未来」というフォーラムに出席しました。"
+              },
+              {
+                "id": "s2_s2",
+                "en": "Modern transportation problems and solutions were discussed by three guest speakers.",
+                "ja": "現代の輸送問題と解決策について，3人のゲストスピーカーが議論しました。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s3",
+                "en": "All the speakers agreed on three points.",
+                "ja": "全員のスピーカーが，3つの点について意見が一致しました。"
+              },
+              {
+                "id": "s2_s4",
+                "en": "First, flying vehicles should be electrically powered in general.",
+                "ja": "第1に，一般に空飛ぶクルマは電気で動くものでなければならない。"
+              },
+              {
+                "id": "s2_s5",
+                "en": "Air pollution can be reduced by increasing the use of zero-emission technologies.",
+                "ja": "ゼロエミッション・テクノロジーの利用を増やすことによって，大気汚染を減らすことができる。"
+              },
+              {
+                "id": "s2_s6",
+                "en": "Second, emergency services would be improved.",
+                "ja": "第2に，緊急サービスが向上するでしょう。"
+              },
+              {
+                "id": "s2_s7",
+                "en": "Flying ambulances would be faster in large cities with heavy traffic.",
+                "ja": "交通量の多い大都市では，空飛ぶ救急車の方が速いでしょう。"
+              },
+              {
+                "id": "s2_s8",
+                "en": "Also, they would be better for servicing small towns far from hospitals.",
+                "ja": "また，病院から遠く離れた小さな町へのサービスの提供にもより良いでしょう。"
+              },
+              {
+                "id": "s2_s9",
+                "en": "Finally, from a safety point of view, they said that flying technology would need to be well tested and controlled to avoid accidents in the air.",
+                "ja": "最後に，安全の観点から見ると，空の事故を避けるために，空飛ぶテクノロジーは十分テストされ規制される必要があるだろう，と彼らは発言しました。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s10",
+                "en": "At the end of the forum, the speakers discussed flying taxis.",
+                "ja": "フォーラムの最後に，スピーカーたちは空飛ぶタクシーについて議論しました。"
+              },
+              {
+                "id": "s2_s11",
+                "en": "According to one of the speakers, recent reports show that some countries are already developing this technology.",
+                "ja": "1人のスピーカーによると，最近の報告では，すでにこのテクノロジーを開発しているいくつかの国があるとのことです。"
+              },
+              {
+                "id": "s2_s12",
+                "en": "A few of them are even testing flying taxi services in the middle of their major cities.",
+                "ja": "その中の数か国では，大都市の真ん中で空飛ぶタクシーサービスのテストさえ行っています。"
+              },
+              {
+                "id": "s2_s13",
+                "en": "Then, someone in the audience asked if flying taxis would soon be available around the world.",
+                "ja": "そして，聴衆の中のある人が，空飛ぶタクシーは世界中で間もなく乗れるようになるのかと尋ねました。"
+              },
+              {
+                "id": "s2_s14",
+                "en": "Two of the speakers answered, \"Yes,\" but they disagreed about the timing.",
+                "ja": "2人のスピーカーが「はい」と答えましたが，タイミングについては意見が異なりました。"
+              },
+              {
+                "id": "s2_s15",
+                "en": "One of them said, \"In 5 years,\" and the other said, \"In 15 years.\"",
+                "ja": "その1人は「今から5年後に」と言い，もう一方の人は「15年後に」と言いました。"
+              },
+              {
+                "id": "s2_s16",
+                "en": "The third speaker answered, \"No, because the operating costs of flying taxis are too high.\"",
+                "ja": "3人目のスピーカーは，「いいえ，なぜなら空飛ぶタクシーの運営費用は高すぎるからです」と答えました。"
+              },
+              {
+                "id": "s2_s17",
+                "en": "I look forward to seeing which guest speaker's prediction turns out to be correct.",
+                "ja": "私は，どのゲストスピーカーの予測が正しいとわかるのか見るのが楽しみです。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s18",
+                "en": "Next week's blog is about self-driving cars. It's going to be a fantastic post!",
+                "ja": "来週のブログは自動運転車についてです。素晴らしい投稿メッセージですよ！"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "Which of the following did all the guest speakers agree on? [4]",
+            "ja": "「すべてのゲストスピーカーの意見が一致したのは次のうちのどれか」[4]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Flying vehicles are widely accepted as being safe.",
+              "ja": "空飛ぶクルマは安全だと広く受け入れられている。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Flying vehicles will improve responses to emergencies.",
+              "ja": "空飛ぶクルマは緊急時への対応を改善するだろう。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Modern transportation problems are difficult to solve.",
+              "ja": "現代の輸送問題は解決するのが困難である。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Zero-emission technologies cannot be applied to flying vehicles.",
+              "ja": "ゼロエミッション・テクノロジーを空飛ぶクルマに応用することはできない。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。第2段落第1文「全員のスピーカーが，3つの点について意見が一致しました」と，同段落第4〜6文「第2に，緊急サービスが向上するでしょう。交通量の多い大都市では，空飛ぶ救急車の方が速いでしょう。また，病院から遠く離れた小さな町へのサービスの提供にもより良いでしょう」より，②が正解。",
+            "evidence_sentences": [
+              "s2_s3",
+              "s2_s6",
+              "s2_s7",
+              "s2_s8"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "Flying vehicles will most likely [5].",
+            "ja": "「空飛ぶクルマはおそらく[5]だろう」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "be used in small towns rather than large cities",
+              "ja": "大都市よりもむしろ小都市で用いられる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "increase the number of traffic jams near hospitals",
+              "ja": "病院の近くの渋滞を増加させる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "prevent solutions to environmental problems",
+              "ja": "環境問題の解決を妨げる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "require proper assessment and regulation",
+              "ja": "適切な評価と規制が必要となる",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。第2段落最終文「最後に，安全の観点から見ると，空の事故を避けるために，空飛ぶテクノロジーは十分テストされ規制される必要があるだろう，と彼らは発言しました」より，④が正解。",
+            "evidence_sentences": [
+              "s2_s9"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "One guest speaker's opinion is that [6].",
+            "ja": "「1人のゲストスピーカーの意見は[6]ということである」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "flying taxi centers will be based in rural areas",
+              "ja": "空飛ぶタクシーのセンターは田舎の地域に拠点を置くことになるだろう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "flying taxi technology is already being tested",
+              "ja": "空飛ぶタクシーのテクノロジーはすでにテストが行われている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "flying taxis are already widespread",
+              "ja": "空飛ぶタクシーはすでに普及している",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "flying taxis are too expensive to operate",
+              "ja": "空飛ぶタクシーは運営するにはお金がかかりすぎる",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。最終段落第7文「3人目のスピーカーは，『いいえ，なぜなら空飛ぶタクシーの運営費用は高すぎるからです』と答えました」より，④が正解。②は，第3段落第3文「その中の数か国では，大都市の真ん中で空飛ぶタクシーサービスのテストさえ行っています」に関連するが，意見ではなく事実なので，不可。",
+            "evidence_sentences": [
+              "s2_s16"
+            ],
+            "why_others_wrong": [
+              {
+                "choice": "②",
+                "reason": "第3段落第3文「その中の数か国では，大都市の真ん中で空飛ぶタクシーサービスのテストさえ行っています」に関連するが，意見ではなく事実なので，不可。"
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "What is mentioned in the blog? [7]",
+            "ja": "「ブログで述べられているのは次のうちのどれか」[7]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The cost of flying ambulance services",
+              "ja": "空飛ぶ救急車サービスにかかる費用",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The transport of planes using solar power",
+              "ja": "太陽光発電を使った飛行機による輸送",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The parking space for flying taxis",
+              "ja": "空飛ぶタクシーのための駐車場",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The test flights of flying taxi services in cities",
+              "ja": "空飛ぶタクシーサービスの都会でのテスト飛行",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。最終段落第3文「その中の数か国では，大都市の真ん中で空飛ぶタクシーサービスのテストさえ行っています」より，④が正解。",
+            "evidence_sentences": [
+              "s2_s12"
+            ]
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p04.png",
+        "images/mondai_p05.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p06.png",
+        "images/kaitou_p07.png"
+      ],
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "flying vehicle",
+              "ja": "空飛ぶクルマ：電動・垂直離着陸などの特徴を持つ，持続可能な次世代の空の移動手段のこと。"
+            },
+            {
+              "en": "zero-emission",
+              "ja": "ゼロエミッション：人間の活動から生じる二酸化炭素などの排出をゼロに近づける取り組みのこと。"
+            },
+            {
+              "en": "from a ~ point of view",
+              "ja": "～な観点から見れば"
+            },
+            {
+              "en": "audience",
+              "ja": "聴衆／視聴者"
+            },
+            {
+              "en": "disagree about A",
+              "ja": "Aについて意見が一致しない"
+            },
+            {
+              "en": "look forward to doing",
+              "ja": "～するのが楽しみだ"
+            },
+            {
+              "en": "turn out to be ~",
+              "ja": "（結局）～だとわかる"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "situation": {
+        "en": "You are an exchange student at a UK high school, and your teacher asked you to find an interesting story. You found this story to share in class next week.",
+        "ja": "あなたはイギリスの高校に通う交換留学生で，興味深いストーリーを見つけるよう先生に求められました。あなたは来週クラスで共有するためのこのストーリーを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": {
+            "en": "THE CONTEST",
+            "ja": "コンテスト"
+          }
+        },
+        {
+          "id": "story",
+          "paragraphs": [
+            [
+              {
+                "id": "s3_s1",
+                "en": "\"One more time, with feeling!\" I encouraged my band.",
+                "ja": "「もう一度，気持ちをこめて！」私はバンドを励ました。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s2",
+                "en": "We are capable musicians.",
+                "ja": "私たちは優れた音楽家です。"
+              },
+              {
+                "id": "s3_s3",
+                "en": "In fact, our keyboardist, Yuki, is a classically-trained pianist who regularly performs in front of audiences.",
+                "ja": "実際，キーボード奏者のユキはクラシック音楽の教育を受けたピアニストで，定期的に聴衆の前で演奏しています。"
+              },
+              {
+                "id": "s3_s4",
+                "en": "Kei, our bassist, has a huge number of followers because of the popular videos she uploads.",
+                "ja": "ベーシストのケイは，アップロードする人気あるビデオのために，大勢のフォロワーがいます。"
+              },
+              {
+                "id": "s3_s5",
+                "en": "However, the Ultimate Music Contest was only a few weeks away and I was kind of regretting that we had entered it.",
+                "ja": "ところが，アルティメット音楽コンテストはわずか数週間後で，私は応募したことを少し後悔し始めていました。"
+              },
+              {
+                "id": "s3_s6",
+                "en": "I was worried that my band Cat's Curry wouldn't be ready.",
+                "ja": "私のバンド，キャッツ・カリーは，それまでに準備ができないのではないかと心配していたのです。"
+              },
+              {
+                "id": "s3_s7",
+                "en": "Something felt wrong, but I couldn't figure it out.",
+                "ja": "何かがおかしいと感じてはいたのですが，それが何だかわかりませんでした。"
+              },
+              {
+                "id": "s3_s8",
+                "en": "We continued to practise until our rehearsal time was up.",
+                "ja": "私たちは練習時間が終わるまで練習し続けました。"
+              },
+              {
+                "id": "s3_s9",
+                "en": "As band leader, I felt additional pressure about the contest.",
+                "ja": "バンドリーダーとして，私はコンテストに関して余計にプレッシャーを感じていました。"
+              },
+              {
+                "id": "s3_s10",
+                "en": "\"Tomo, you're too worried. Everything will be OK,\" Ren, our drummer, said as she smiled at me and waved goodbye.",
+                "ja": "「トモ，あなたは心配しすぎよ。何もかもうまく行くわ」とドラマーのレンは言い，私を見て微笑み，手を振ってさよならをしました。"
+              },
+              {
+                "id": "s3_s11",
+                "en": "\"I hope so,\" I thought to myself.",
+                "ja": "「そうだといいけど」と私は心の中で思いました。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s12",
+                "en": "Back at home, I watched the video I had taken of our rehearsal.",
+                "ja": "家に帰ると，私は練習の様子を録画したビデオを見ました。"
+              },
+              {
+                "id": "s3_s13",
+                "en": "As I listened to Sayonara, and Thanks for Everything, I thought my ears were playing tricks on me.",
+                "ja": "「さよなら，そして全てにありがとう」に耳を澄ますと，耳が私に錯覚を起こさせているように思いました。"
+              },
+              {
+                "id": "s3_s14",
+                "en": "I carefully listened a few more times.",
+                "ja": "私はさらに数回，注意深く聴きました。"
+              },
+              {
+                "id": "s3_s15",
+                "en": "Although it was hard to notice, we were slightly out of rhythm.",
+                "ja": "気づきにくいのですが，私たちは少しリズムがずれていました。"
+              },
+              {
+                "id": "s3_s16",
+                "en": "\"How could that be?\" I wondered.",
+                "ja": "「どうして，こんなことが？」と私は不思議に思いました。"
+              },
+              {
+                "id": "s3_s17",
+                "en": "As I continued to listen, I paid extra attention to each instrument.",
+                "ja": "聴き続けるなか，私はそれぞれの楽器にさらに注意を向けました。"
+              },
+              {
+                "id": "s3_s18",
+                "en": "\"I've got it!\" I thought excitedly.",
+                "ja": "「わかったわ！」私は興奮の中で思いました。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s19",
+                "en": "At the next practice, I played back the recording and waited for everyone's reaction.",
+                "ja": "次の練習のとき，私は録音したものを再生して，みんなの反応を待ちました。"
+              },
+              {
+                "id": "s3_s20",
+                "en": "\"I've been practising every day!\"",
+                "ja": "「私は毎日，練習してきた！」"
+              },
+              {
+                "id": "s3_s21",
+                "en": "\"These songs aren't even difficult...\"",
+                "ja": "「これらの歌は難しくさえない…」"
+              },
+              {
+                "id": "s3_s22",
+                "en": "\"What's the matter?\"",
+                "ja": "「何が問題なの？」"
+              }
+            ],
+            [
+              {
+                "id": "s3_s23",
+                "en": "They didn't understand the problem, so I explained my discovery, \"Each of us is showing off. We're playing for ourselves, not for the band!\"",
+                "ja": "彼らは問題が理解できなかったので，私が見つけたことを説明しました。「私たち1人1人が自分を目立たせようとしてる。バンドのためではなく，自分のために演奏しているの！」"
+              },
+              {
+                "id": "s3_s24",
+                "en": "From that day on, our focus shifted and the band took a step forward on its musical journey.",
+                "ja": "その日以来，私たちの焦点は変わり，バンドは音楽の旅において一歩前進したのです。"
+              },
+              {
+                "id": "s3_s25",
+                "en": "Like the saying goes, \"The whole is greater than the sum of the parts.\"",
+                "ja": "ことわざにも言うように，「全体は部分の総和に勝る」のです。"
+              },
+              {
+                "id": "s3_s26",
+                "en": "Although Cat's Curry did not win the contest, we all felt it was the best performance of our lives.",
+                "ja": "キャッツ・カリーはコンテストには優勝しませんでしたが，それが人生最高の演奏だったと私たちみんなが感じました。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 8,
+          "stem": {
+            "en": "Which person is telling the story? [8]",
+            "ja": "「このストーリーを話しているのは誰か」[8]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Kei",
+              "ja": "ケイ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Ren",
+              "ja": "レン",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Tomo",
+              "ja": "トモ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Yuki",
+              "ja": "ユキ",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。第2段落第9文「『トモ，あなたは心配しすぎよ。何もかもうまく行くわ』とドラマーのレンは言い，私を見て微笑み，手を振ってさよならをしました」より，このストーリーの語り手はトモだとわかる。よって，③が正解。",
+            "evidence_sentences": [
+              "s3_s10"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 9,
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "stem": {
+            "en": "Choose four out of the five options (①〜⑤) and put them in the order they happened. [9]→[10]→[11]→[12]",
+            "ja": "「5つの選択肢（①〜⑤）のうちから4つを選び，起こった順に並べよ」[9]→[10]→[11]→[12]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The band changed its attitude.",
+              "ja": "バンドの姿勢に変化が生じた。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The band decided to practise more often.",
+              "ja": "バンドがより頻繁に練習することに決めた。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The band leader identified the problem.",
+              "ja": "バンドリーダーが問題を突き止めた。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The band leader was concerned about the band.",
+              "ja": "バンドリーダーがバンドのことを心配していた。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "The band registered for a contest.",
+              "ja": "バンドがコンテストに申し込んだ。",
+              "is_correct": false
+            }
+          ],
+          "answers_9_10_11_12": [
+            "⑤",
+            "④",
+            "③",
+            "①"
+          ],
+          "explanation": {
+            "ja": "正解は⑤→④→③→①。第2段落第4文「ところが，アルティメット音楽コンテストはわずか数週間後で，私は応募したことを少し後悔し始めていました」より[9]は⑤，同段落第5文「私のバンド，キャッツ・カリーは，それまでに準備ができないのではないかと心配していたのです」より[10]は④，第3段落第6〜最終文「聴き続けるなか，私はそれぞれの楽器にさらに注意を向けました。『わかったわ！』私は興奮の中で思いました」より[11]は③，第5段落第3文「その日以来，私たちの焦点は変わり，バンドは音楽の旅において一歩前進したのです」より，[12]は①が正解。",
+            "evidence_sentences": [
+              "s3_s5",
+              "s3_s6",
+              "s3_s17",
+              "s3_s18",
+              "s3_s24"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "How did the band most likely feel after the competition? [13]",
+            "ja": "「コンテストの後，バンドはおそらくどう感じたか」[13]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Awful",
+              "ja": "不快な",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Embarrassed",
+              "ja": "当惑した",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Independent",
+              "ja": "独立した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Satisfied",
+              "ja": "満足した",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。最終段落最終文「キャッツ・カリーはコンテストには優勝しませんでしたが，それが人生最高の演奏だったと私たちみんなが感じました」より，④が正解。",
+            "evidence_sentences": [
+              "s3_s26"
+            ]
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p07.png",
+        "images/mondai_p08.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p08.png",
+        "images/kaitou_p09.png"
+      ],
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "capable",
+              "ja": "優れた／有能な"
+            },
+            {
+              "en": "only a few weeks away",
+              "ja": "ほんの数週間後で"
+            },
+            {
+              "en": "kind of ~",
+              "ja": "少し～／やや～"
+            },
+            {
+              "en": "enter O",
+              "ja": "O（コンテストなど）に応募する"
+            },
+            {
+              "en": "figure out O / figure O out",
+              "ja": "Oがわかる／Oを理解する"
+            },
+            {
+              "en": "think to oneself",
+              "ja": "心の中で思う"
+            },
+            {
+              "en": "play a trick on A",
+              "ja": "Aに錯覚を起こさせる／Aをだます"
+            },
+            {
+              "en": "out of rhythm",
+              "ja": "リズムがずれて"
+            },
+            {
+              "en": "I've got it!",
+              "ja": "わかった！"
+            },
+            {
+              "en": "play back O / play O back",
+              "ja": "O（ビデオなど）を再生する"
+            },
+            {
+              "en": "show off",
+              "ja": "ひけらかす／見せびらかす"
+            },
+            {
+              "en": "from A on",
+              "ja": "Aからずっと"
+            },
+            {
+              "en": "take a step forward",
+              "ja": "一歩前進する"
+            },
+            {
+              "en": "like the saying goes",
+              "ja": "ことわざにも言うように"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "situation": {
+        "en": "You are taking an English class. Your teacher has asked you to read another student's essay and provide feedback.",
+        "ja": "英語のクラスで，あなたは現代社会のライフスタイルに関係のあるトピックについてエッセーを書いています。これはあなたのごく最近の草稿です。あなたは現在，先生からのコメントに基づいて修正に取り組んでいます。"
+      },
+      "passages": [
+        {
+          "id": "essay",
+          "title": {
+            "en": "Try a Slow Life",
+            "ja": "スローライフを試してみよう"
+          },
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "Add an appropriate connecting word.",
+              "ja": "適切なつなぎの言葉を加えてください。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Add a concluding sentence to improve this paragraph.",
+              "ja": "この段落を良くするために結びの文を加えてください。"
+            },
+            {
+              "marker": "(3)",
+              "en": "The underlined part isn't your main argument. Rewrite it.",
+              "ja": "下線を引いた部分はあなたの中心的主張ではありません。書き換えてください。"
+            },
+            {
+              "marker": "(4)",
+              "en": "The underlined part doesn't describe your essay content well. Change it.",
+              "ja": "下線を引いた部分はあなたのエッセーの内容をうまく説明していません。変えてください。"
+            }
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "s4_s1",
+                "en": "In modern society, people are always busy and this fast pace of living can be stressful.",
+                "ja": "現代社会において人々は常に忙しく，この速い生活のペースがストレスになることもある。"
+              },
+              {
+                "id": "s4_s2",
+                "en": "The movement toward a slow life has shown us that you don't have to be busy all the time.",
+                "ja": "スローライフを目指す運動は，人はいつも忙しくしていなくてもよいのだと私たちに示している。"
+              },
+              {
+                "id": "s4_s3",
+                "en": "Instead, you can slow down and notice things that are truly meaningful to you.",
+                "ja": "その代わりに，生活のペースをゆっくりにすれば，自分にとって本当に意味のあることに気づくことができる。"
+              },
+              {
+                "id": "s4_s4",
+                "en": "By taking your time and being completely focused on these things, you can improve the quality of your work and life.",
+                "ja": "時間を取り，これらのことに完全に焦点を当てることによって，仕事と生活の質を高めることができる。"
+              },
+              {
+                "id": "s4_s5",
+                "en": "This essay will describe some ways to do this.",
+                "ja": "このエッセーでは，このことをするためのいくつかの方法について述べる。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s6",
+                "en": "One key point of the slow life is to own fewer belongings.",
+                "ja": "スローライフのカギとなる1つのポイントは，持ち物を少なくするということだ。"
+              },
+              {
+                "id": "s4_s7",
+                "en": "This makes it easier to concentrate on everyday activities.",
+                "ja": "これによって日々の活動に集中しやすくなる。",
+                "comment_marker": "(1)",
+                "marker_position": "after"
+              },
+              {
+                "id": "s4_s8",
+                "en": "Many people today tend to buy more than they can consume.",
+                "ja": "現代の多くの人は消費できないほど多くの物を買う傾向がある。"
+              },
+              {
+                "id": "s4_s9",
+                "en": "Do you really need five pairs of the latest sneakers?",
+                "ja": "最新モデルのスニーカーを5足も買う必要が本当にあるだろうか？"
+              },
+              {
+                "id": "s4_s10",
+                "en": "Slow-lifers would recommend reducing possessions and buying only necessary items.",
+                "ja": "スローライフを行う人なら，持ち物を減らして必要な物だけを買うことを勧めるだろう。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s11",
+                "en": "Another recommendation is to think about your communication style and manner in your public and private life.",
+                "ja": "もう1つの提案は，公私の生活においての，コミュニケーション・スタイルとその態度について考えることだ。"
+              },
+              {
+                "id": "s4_s12",
+                "en": "Sadly, one study has found that around 90% of people check smartphones during face-to-face conversations, which may appear impolite and affect relationships negatively.",
+                "ja": "残念なことに，ある研究によると，面と向かっての会話の間におよそ90%の人がスマートフォンをチェックしているということだが，これは失礼な感じを与え，人間関係にマイナスの影響を及ぼすかもしれない。",
+                "comment_marker": "(2)",
+                "marker_position": "after"
+              }
+            ],
+            [
+              {
+                "id": "s4_s13",
+                "en": "The final aspect of slow living is to take 10 to 15 minutes to reflect on your day.",
+                "ja": "スローライフについての最後の側面は，10分から15分取って1日を振り返ることだ。"
+              },
+              {
+                "id": "s4_s14",
+                "en": "Try to recollect people and events that were significant.",
+                "ja": "重要だった人々や出来事について思い出してみよう。"
+              },
+              {
+                "id": "s4_s15",
+                "en": "By mentally highlighting them, you can find fulfillment in daily tasks.",
+                "ja": "頭の中でそれらを際立たせることによって，日々の活動に充実感を見つけることができる。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s16",
+                "en": "In summary, through a slow life, you can relax.",
+                "ja": "要約すると，スローライフによってリラックスすることができるのだ。",
+                "underline_word": "you can relax",
+                "comment_marker": "(3)"
+              },
+              {
+                "id": "s4_s17",
+                "en": "Even small changes can improve your life.",
+                "ja": "小さな変化であっても生活を向上させることができる。"
+              },
+              {
+                "id": "s4_s18",
+                "en": "Avoid having non-essential items, spend quality time with people around you, and remember what you talked about with your friends.",
+                "ja": "不必要な物を持つことを避け，周りの人と質の高い時間を過ごし，友達と話したことを思い出そう。",
+                "underline_word": "remember what you talked about with your friends",
+                "comment_marker": "(4)"
+              },
+              {
+                "id": "s4_s19",
+                "en": "By doing these things, you will have a chance to live a better and more rewarding life.",
+                "ja": "これらのことをすることによって，より良く，より価値のある生活をする機会を持つことができるだろう。"
+              }
+            ]
+          ],
+          "teacher_comment": {
+            "en": "You have really improved your essay. Keep working on it. I'm going to follow your suggestions to slow down and hopefully improve the quality of my life. ☺",
+            "ja": "あなたのエッセーはとても良くなりました。このまま取り組み続けてください。私も生活のペースをゆっくりにするというあなたの提案に従って，生活の質を高めることができればいいなと思います。☺"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on Comment (1), which is the best word to add? [14]",
+            "ja": "「コメント(1)に基づくと，加えるのに最も良い語はどれか」[14]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "However",
+              "ja": "ところが",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Moreover",
+              "ja": "さらに",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Otherwise",
+              "ja": "さもなければ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Therefore",
+              "ja": "そのため",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。(1)の前には「これ（＝持ち物を少なくすること）によって日々の活動に集中しやすくなる」，後ろには「現代の多くの人は消費できないほど多くの物を買う傾向がある」とあり，前後が逆接の関係となっているので，①が正解。",
+            "evidence_sentences": [
+              "s4_s7",
+              "s4_s8"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on Comment (2), which is the best sentence to add? [15]",
+            "ja": "「コメント(2)に基づくと，加えるのに最も良い文はどれか」[15]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Limit the time you spend having conversations with people.",
+              "ja": "人と会話をするのに費やす時間を制限しよう。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Send messages with your phone just once or twice a day.",
+              "ja": "電話でメッセージを送るのは，1日にほんの1回か2回にしよう。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Try to focus your attention on the person you are talking with.",
+              "ja": "今話している相手に注意を集中しよう。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Use your phone to find real friends through social media.",
+              "ja": "電話を使い，ソーシャルメディアを通じて本当の友達を見つけよう。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。(2)の前には，「会話中にスマートフォンをチェックすることは，人間関係にマイナスの影響を及ぼすかもしれない」とあるので，これに関連する③が正解。",
+            "evidence_sentences": [
+              "s4_s12"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on Comment (3), which is the best replacement for the underlined part? [16]",
+            "ja": "「コメント(3)に基づくと，下線部と取り替えるのに最も良い表現はどれか」[16]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "feel satisfaction in your work and personal life",
+              "ja": "仕事や個人の生活で満足を感じることができる",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "finish your work tasks in a shorter time",
+              "ja": "短時間で仕事を終えることができる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "reduce stress by sharing your tasks with others",
+              "ja": "他の人と仕事を共有することによってストレスを減らすことができる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "focus on results rather than processes",
+              "ja": "プロセスよりもむしろ結果に焦点を当てることができる",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。最終段落は，これまでに述べられてきたことの要約になっている。下線部(3)は第1段落の要約であり，同段落第4文「時間を取り，これらのことに完全に焦点を当てることによって，仕事と生活の質を高めることができる」より，①が正解。",
+            "evidence_sentences": [
+              "s4_s4"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on Comment (4), which is the best replacement for the underlined part? [17]",
+            "ja": "「コメント(4)に基づくと，下線部と取り替えるのに最も良い表現はどれか」[17]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "make plans for the day's activities as soon as you wake up",
+              "ja": "起床したらすぐにその日の活動の計画を立てよう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "try to recall terrible things that happened in your life",
+              "ja": "人生で起こったひどい出来事を思い出そう",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "recall the impressive parts of your day",
+              "ja": "その日の印象深い部分を回想しよう",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "throw away unnecessary things before sleeping",
+              "ja": "寝る前に不必要な物を捨てよう",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。下線部(4)は第4段落の要約であり，同段落第1〜2文「スローライフについての最後の側面は，10分から15分取って1日を振り返ることだ。重要だった人々や出来事について思い出してみよう」より，③が正解。",
+            "evidence_sentences": [
+              "s4_s13",
+              "s4_s14"
+            ]
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p09.png",
+        "images/mondai_p10.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p10.png",
+        "images/kaitou_p11.png"
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "movement toward A",
+              "ja": "Aを目指す運動"
+            },
+            {
+              "en": "slow down",
+              "ja": "（生活の）ペースをゆっくりにする"
+            },
+            {
+              "en": "be focused on A",
+              "ja": "Aに焦点を当てる／集中する"
+            },
+            {
+              "en": "belongings",
+              "ja": "持ち物"
+            },
+            {
+              "en": "make it easier to do",
+              "ja": "～しやすくする（it は to do を受ける形式目的語）"
+            },
+            {
+              "en": "latest",
+              "ja": "最新の"
+            },
+            {
+              "en": "face-to-face",
+              "ja": "面と向かっての"
+            },
+            {
+              "en": "reflect on A",
+              "ja": "Aについて振り返る／よく考える"
+            },
+            {
+              "en": "in summary",
+              "ja": "要約すると"
+            },
+            {
+              "en": "rewarding",
+              "ja": "価値のある／報いのある"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "situation": {
+        "en": "You are a student group representative at a university. You are helping to plan a conference. You received two emails and a schedule from your group members.",
+        "ja": "あなたはアメリカで学ぶ交換留学生です。大学のコミュニティー・ボランティア・プログラムの一環として，地元の企業のための特別カンファレンスの運営の手伝いをします。担当の教授にこのメールを書き，返信を受け取りました。"
+      },
+      "passages": [
+        {
+          "id": "student_email",
+          "title": {
+            "en": "Event Plan",
+            "ja": "イベントプラン"
+          },
+          "date": "October 15, 2024",
+          "from": "Student group representative (University Volunteer Program)",
+          "to": "Professor Ryan",
+          "paragraphs": [
+            [
+              {
+                "id": "s5_s1",
+                "en": "I am very happy to be the representative for the volunteer program.",
+                "ja": "私はボランティア・プログラムの代表になれて大変光栄です。"
+              },
+              {
+                "id": "s5_s2",
+                "en": "You mentioned that this event is to promote the local economy.",
+                "ja": "このイベントは地元の経済を促進するためのものだと，先生はおっしゃいました。"
+              },
+              {
+                "id": "s5_s3",
+                "en": "I hope to work as a civil servant in the local development division after graduation, so this experience is very valuable for me.",
+                "ja": "卒業後は地元の開発部門で公務員として働くことを希望しているので，この経験は私にとって大変貴重です。"
+              },
+              {
+                "id": "s5_s4",
+                "en": "The conference schedule you requested is below.",
+                "ja": "先生が要請なさったカンファレンス・スケジュールは以下の通りです。"
+              }
+            ],
+            [
+              {
+                "id": "s5_s5",
+                "en": "I would like you to confirm the following points:",
+                "ja": "以下の点についてご確認お願いします："
+              },
+              {
+                "id": "s5_s6",
+                "en": "The conference will start at 9:45 a.m. and end at 4:45 p.m.",
+                "ja": "カンファレンスは午前9時45分に開始し，午後4時45分に終了する。"
+              },
+              {
+                "id": "s5_s7",
+                "en": "The registration will close seven days before the event.",
+                "ja": "申し込みはイベントの7日前に締め切る。"
+              },
+              {
+                "id": "s5_s8",
+                "en": "The conference will be held in the Main Hall.",
+                "ja": "カンファレンスはメインホールで行われる。"
+              },
+              {
+                "id": "s5_s9",
+                "en": "Participants will park in the university parking area.",
+                "ja": "参加者は大学の駐車場に車を停める。"
+              }
+            ],
+            [
+              {
+                "id": "s5_s10",
+                "en": "Below is a list of things that still need to be decided:",
+                "ja": "以下はまだ決定する必要のある事柄のリストです："
+              },
+              {
+                "id": "s5_s11",
+                "en": "Can we use the cafeteria for the lunch time reception?",
+                "ja": "昼食時のレセプションにカフェテリアは使えますか？"
+              },
+              {
+                "id": "s5_s12",
+                "en": "Have you received the speech titles for the mayor and the two remaining presenters?",
+                "ja": "先生は市長と残りの2人のプレゼンターの講演タイトルを受け取りましたか？"
+              },
+              {
+                "id": "s5_s13",
+                "en": "How will we arrange the tables and chairs for the debate?",
+                "ja": "ディベート用のテーブルと椅子はどのように並べますか？"
+              }
+            ],
+            [
+              {
+                "id": "s5_s14",
+                "en": "The number of volunteers that can help with the conference isn't set yet. I'll send you the list as soon as possible.",
+                "ja": "カンファレンスを手伝うことのできるボランティアの人数はまだ決まっていません。できるだけ早くリストを送ります。"
+              },
+              {
+                "id": "s5_s15",
+                "en": "This is my first time being on a committee like this, and I am rather anxious, so I would appreciate any advice you have.",
+                "ja": "このような委員会に参加するのはこれが初めてで，かなり不安なので，どんなアドバイスでもいただければありがたいです。"
+              },
+              {
+                "id": "s5_s16",
+                "en": "I'm looking forward to assisting and attending the presentations.",
+                "ja": "プレゼンテーションの手伝いと参加を楽しみにしています。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "professor_reply",
+          "title": {
+            "en": "Re: Event Plan",
+            "ja": "Re: イベントプラン"
+          },
+          "date": "October 17, 2024",
+          "from": "Henry Ryan",
+          "to": "Dear representative and group members",
+          "paragraphs": [
+            [
+              {
+                "id": "s5_s17",
+                "en": "Thank you for making the draft. You've done a really good job.",
+                "ja": "草稿を作成してくれてありがとう。大変よくできていますよ。"
+              }
+            ],
+            [
+              {
+                "id": "s5_s18",
+                "en": "The time schedule and order of events look good to me.",
+                "ja": "タイムスケジュールとイベントの順序についてはこれで良さそうです。"
+              },
+              {
+                "id": "s5_s19",
+                "en": "The Main Hall worked really well as a venue last time.",
+                "ja": "前回，メインホールは開催会場として大変好都合でした。"
+              },
+              {
+                "id": "s5_s20",
+                "en": "It has a good capacity for this type of event.",
+                "ja": "このようなイベントのための十分な収容能力があります。"
+              },
+              {
+                "id": "s5_s21",
+                "en": "As a university staff member, I can reserve it for free.",
+                "ja": "私は大学の職員なので，無料で予約することができます。"
+              },
+              {
+                "id": "s5_s22",
+                "en": "Closing the registration seven days before the conference is too short.",
+                "ja": "カンファレンスの7日前に申し込みを締め切るのは期間が短すぎます。"
+              },
+              {
+                "id": "s5_s23",
+                "en": "It doesn't give us time to prepare materials and send out information.",
+                "ja": "私たちが資料を準備したり情報を送ったりする時間がありません。"
+              },
+              {
+                "id": "s5_s24",
+                "en": "You also mentioned parking.",
+                "ja": "駐車についても書いていましたね。"
+              },
+              {
+                "id": "s5_s25",
+                "en": "The university parking lot will be open for the event, so participants can use it without having a permit.",
+                "ja": "大学の駐車場はこのイベントのために開放されるので，参加者は許可なしでそこを利用することができます。"
+              }
+            ],
+            [
+              {
+                "id": "s5_s26",
+                "en": "With regard to the information you requested, I have received the remaining two presentation titles.",
+                "ja": "ご要望の情報については，残りの2人の講演タイトルを受け取りました。"
+              },
+              {
+                "id": "s5_s27",
+                "en": "One presenter is a local businessperson, who will talk about changes she has made in her company.",
+                "ja": "1人のプレゼンターは地元のビジネスパーソンで，自分の会社で彼女が行った修正について講演します。"
+              },
+              {
+                "id": "s5_s28",
+                "en": "The other presenter is a local chef.",
+                "ja": "もう1人のプレゼンターは地元のシェフです。"
+              },
+              {
+                "id": "s5_s29",
+                "en": "She will introduce recipes using locally grown mushrooms.",
+                "ja": "彼女は地元で育ったマッシュルームを使ったレシピを紹介します。"
+              },
+              {
+                "id": "s5_s30",
+                "en": "I will update their presentation details on the schedule and send it back to you.",
+                "ja": "プレゼンテーションの詳細についてはスケジュール上で最新のものにして，あなたに返信します。"
+              },
+              {
+                "id": "s5_s31",
+                "en": "Also, the mayor has provided a title for his closing speech, \"Our town, our future.\"",
+                "ja": "また，市長から，閉会の辞のタイトルが「私たちの町，私たちの未来」になるとご連絡がありました。"
+              },
+              {
+                "id": "s5_s32",
+                "en": "As for lunch, the cafeteria staff don't work on weekends, so we need to rethink it.",
+                "ja": "昼食については，カフェテリアのスタッフは週末に休暇をとるので，考え直す必要があります。"
+              },
+              {
+                "id": "s5_s33",
+                "en": "Do you have any suggestions?",
+                "ja": "何かご提案はありますか？"
+              }
+            ],
+            [
+              {
+                "id": "s5_s34",
+                "en": "I have attached a diagram for the debate seating arrangements.",
+                "ja": "ディベートの席の並べ方についての図を添付しました。"
+              },
+              {
+                "id": "s5_s35",
+                "en": "You will notice that there needs to be a small desk for the moderator in the center.",
+                "ja": "ご覧になってわかるように，中央に司会用の小さい机が必要です。"
+              },
+              {
+                "id": "s5_s36",
+                "en": "There should be one table on each side of the moderator, and these tables should face slightly inward.",
+                "ja": "司会の両側にテーブルが1つずつ必要ですが，これらのテーブルはやや内側に向けて置きましょう。"
+              },
+              {
+                "id": "s5_s37",
+                "en": "As we have two debaters on each team, use the long tables.",
+                "ja": "それぞれのチームに2人ずつディベーターがいるので，長テーブルを使ってください。"
+              },
+              {
+                "id": "s5_s38",
+                "en": "There isn't a lot of time to set up the stage for the debate, so you will need a few people to help carry the tables and chairs.",
+                "ja": "ディベートのためのステージを用意する時間はあまりないので，テーブルと椅子を運ぶのを手伝ってくれる人が，数人必要です。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 18,
+          "stem": {
+            "en": "Based on your email, what is your overall worry about being on the volunteer program? [18]",
+            "ja": "「あなたのメールに基づくと，ボランティア・プログラムに参加することについての全体的な心配は何か」[18]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A lack of event organizing experience",
+              "ja": "イベントの運営をした経験がないこと",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Concerns about your presentation skills",
+              "ja": "プレゼンテーション技能についての懸念",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The possibility of future employment",
+              "ja": "将来の就職についての可能性",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Your ability in writing English emails",
+              "ja": "英語でメールを書く能力",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。あなたのメールの最後の部分「このような委員会に参加するのはこれが初めてで，かなり不安なので，どんなアドバイスでもいただければありがたいです」より，①が正解。",
+            "evidence_sentences": [
+              "s5_s15"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 19,
+          "answer_numbers": [
+            19,
+            20
+          ],
+          "stem": {
+            "en": "Which of these titles best match Professor Ryan's descriptions for Presentation 2 ([19]) and Presentation 4 ([20]) based on the morning and afternoon themes?",
+            "ja": "「午前と午後のテーマに基づくと，プレゼンテーション2([19])とプレゼンテーション4([20])についてのライアン教授の説明に最も良く合うのは，これらのタイトルのうちのどれか」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Building a memorial statue of our town hero",
+              "ja": "私たちの町のヒーローの記念像を建てること",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Dealing with local volunteers",
+              "ja": "地元のボランティアと関わること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Organizing cross-cultural events",
+              "ja": "異文化交流のイベントを運営すること",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Rediscovering the benefits of local food",
+              "ja": "地元の食べ物の良い点を再発見すること",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Renovating the village church",
+              "ja": "村の教会を改修すること",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Updating a traditional business model",
+              "ja": "従来のビジネスモデルを新しいものにすること",
+              "is_correct": false
+            }
+          ],
+          "answers_19_20": [
+            "⑥",
+            "④"
+          ],
+          "explanation": {
+            "ja": "正解は[19]⑥，[20]④。プレゼンテーション2は午前11時15分からなので，テーマは「地元の伝統を変える」である。また，ライアン教授の第3段落第2文「1人のプレゼンターは地元のビジネスパーソンで，自分の会社で彼女が行った修正について講演します」より，[19]は⑥が正解。プレゼンテーション4は午後2時15分からなので，テーマは「地元の伝統を守る」である。また，上記と同段落第3〜4文「もう1人のプレゼンターは地元のシェフです。彼女は地元で育ったマッシュルームを使ったレシピを紹介します」より，[20]は④が正解。",
+            "evidence_sentences": [
+              "s5_s27",
+              "s5_s28",
+              "s5_s29"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "stem": {
+            "en": "Referring to Professor Ryan's reply, which of the following needs to be reconsidered? [21]",
+            "ja": "「ライアン教授の返信を参照すると，再検討する必要があるのは次のうちのどれか」[21]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Conference registration",
+              "ja": "カンファレンスの申し込み",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Main Hall as the venue",
+              "ja": "メインホールを開催会場とすること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Mayor's speech title",
+              "ja": "市長の講演のタイトル",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Opening and closing times",
+              "ja": "開会と閉会の時間",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。ライアン教授の第2段落第5文「カンファレンスの7日前に申し込みを締め切るのは期間が短すぎます」より，①が正解。",
+            "evidence_sentences": [
+              "s5_s22"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 22,
+          "stem": {
+            "en": "Which diagram best represents Professor Ryan's debate seating plan? [22]",
+            "ja": "「ディベートのためのライアン教授の席順のプランを最もよく表すのはどの図か」[22]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "(Diagram 1)",
+              "ja": "（図1）",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "(Diagram 2)",
+              "ja": "（図2）",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "(Diagram 3)",
+              "ja": "（図3）",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "(Diagram 4)",
+              "ja": "（図4）",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "(Diagram 5)",
+              "ja": "（図5）",
+              "is_correct": false
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。ライアン教授の第4段落第2〜4文によると，教授のプランは，(1)中央に司会用の小さい机がある，(2)司会の両側にテーブルを1つずつ，やや内側に向けて置く，(3)それぞれのチームの2人のディベーター用に長テーブルを置く，の3点である。よって，以上を満たす④が正解。",
+            "evidence_sentences": [
+              "s5_s35",
+              "s5_s36",
+              "s5_s37"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 23,
+          "stem": {
+            "en": "You write another email to Professor Ryan. In your reply, which two pieces of information would you most likely include? [23]",
+            "ja": "「あなたはもう一度ライアン教授にメールを送る。返信の中で，あなたが含める可能性が最も高いのは，どの2つの情報か」[23]"
+          },
+          "choices": [
+            {
+              "label": "A",
+              "en": "The cost of renting the conference venue",
+              "ja": "カンファレンス会場を借りる費用",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "en": "A local restaurant that can provide food",
+              "ja": "食べ物を提供することのできる地元のレストラン",
+              "is_correct": true
+            },
+            {
+              "label": "C",
+              "en": "The names of volunteers that can be arranged",
+              "ja": "手配することのできるボランティアの名前",
+              "is_correct": true
+            },
+            {
+              "label": "D",
+              "en": "The number of parking permits needed",
+              "ja": "必要な駐車許可証の数",
+              "is_correct": false
+            }
+          ],
+          "answer_options": [
+            {
+              "label": "①",
+              "combo": "A and B",
+              "ja": "AとB",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "combo": "A and C",
+              "ja": "AとC",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "combo": "A and D",
+              "ja": "AとD",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "combo": "B and C",
+              "ja": "BとC",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "combo": "B and D",
+              "ja": "BとD",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "combo": "C and D",
+              "ja": "CとD",
+              "is_correct": false
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。ライアン教授の第3段落第7〜最終文「昼食については，カフェテリアのスタッフは週末に休暇をとるので，考え直す必要があります。何かご提案はありますか？」より，Bは当てはまる。第4段落最終文「ディベートのためのステージを用意する時間はあまりないので，テーブルと椅子を運ぶのを手伝ってくれる人が，数人必要です」とあなたの第4段落「カンファレンスを手伝うことのできるボランティアの人数はまだ決まっていません。できるだけ早くリストを送ります」より，Cも当てはまる。よって，④が正解。",
+            "evidence_sentences": [
+              "s5_s32",
+              "s5_s33",
+              "s5_s38",
+              "s5_s14"
+            ]
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p11.png",
+        "images/mondai_p12.png",
+        "images/mondai_p13.png",
+        "images/mondai_p14.png",
+        "images/mondai_p15.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p12.png",
+        "images/kaitou_p13.png",
+        "images/kaitou_p14.png",
+        "images/kaitou_p15.png"
+      ],
+      "pdf_pages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "representative",
+              "ja": "代表"
+            },
+            {
+              "en": "civil servant",
+              "ja": "公務員"
+            },
+            {
+              "en": "opening address",
+              "ja": "開会の辞"
+            },
+            {
+              "en": "hand down O / hand O down",
+              "ja": "Oを（次の世代などに）伝える"
+            },
+            {
+              "en": "registration",
+              "ja": "申し込み／登録"
+            },
+            {
+              "en": "with regards",
+              "ja": "敬具（手紙の結びに用いる）"
+            },
+            {
+              "en": "work",
+              "ja": "うまくいく"
+            },
+            {
+              "en": "capacity",
+              "ja": "収容能力"
+            },
+            {
+              "en": "parking lot",
+              "ja": "駐車場"
+            },
+            {
+              "en": "with regard to A",
+              "ja": "Aについては"
+            },
+            {
+              "en": "update O",
+              "ja": "Oを最新のものにする"
+            },
+            {
+              "en": "face",
+              "ja": "（ある方向を）向く"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 12,
+      "situation": {
+        "en": "Your friend, Harry, wants to be a professional writer. He has written a story about two new heroes for a writing contest. You read it and then give him feedback.",
+        "ja": "あなたの友人のハリーはプロの作家になりたいと思っています。彼はライティングコンテストのために，2人の新しいヒーローについてのストーリーを書きました。あなたはそれを読んで，彼に感想を書きます。"
+      },
+      "passages": [
+        {
+          "id": "story",
+          "title": {
+            "en": "Bluebird and Melody: Real Heroes",
+            "ja": "ブルーバードとメロディー：真のヒーローたち"
+          },
+          "author": {
+            "en": "Harry Okazaki",
+            "ja": "ハリー・オカザキ"
+          },
+          "full_translation": "誰もが僕のことを，世界中で有名なスーパーヒーローのブルーバードだと知っている。以前は名前だけのスーパーヒーローだったが，今はその名にふさわしいヒーローだ。僕の物語を話して聞かせよう。\n\n僕はものすごく人気のあるスーパーヒーローグループ「チームヒーロー」の，6人のメンバーの1人を務めていた。僕たちのスローガンは「人類のためのヒーローたち！」だった。でも，僕たちは人類に尽くすよりもむしろ，馬鹿げたテレビ番組のスターだった。自分自身の名声におぼれて，僕は自分がにせのスーパーヒーローだということに気づいていなかったのだ。\n\n♦♦♦♦♦\n\nある日，僕たちは，僕たちの毎日の良い行いについてのリアリティーショー，「ヒーローの毎日」の撮影をしていた。ところが，現実では僕たちは俳優で，自分たちが世界を助けているふりをしていたのだ。あるエピソードでは，僕は街の排水口に迷い込んだ1匹のネコを救うことになっていた。僕が空中を飛んでいると，少女の泣き声が聞こえた。僕は一瞬で彼女のところへ飛び降りた。彼女は泣きながら，飼いネコのウィスカーズが排水口に入ってしまったと僕に訴えた。実際には，テレビのクルーメンバーの1人が，ネコと一緒に地下の排水口で待っていたのだ。\n\n「何も心配はないよ！僕がウィスカーズを救い出してあげる！」僕はそう言うと，排水口のふたを素早く開けて地下に入った。驚いたことに，クルーメンバーはウィスカーズを見失ってしまったと言って，僕にネコを見つけてほしいと頼んだ。僕はウィスカーズの名前を呼びながら歩き回ったが，ネコは出て来なかった。\n\n突然，チームヒーローの最も新しいメンバーのメロディーが，どこからともなく現れた。メロディーは神秘的で，目の周りにマスクをつけていて，本当の正体は知られていない。1秒もしないうちに地球上のどの場所にもテレポートできるため，彼女の思いがけない登場はいつも驚きなのだ。彼女は言った。「ウィスカーズは，あなたが信用できないと思ってる。説得して，出て来させてみせるわ」どんな音でも再現できるメロディーがネコの鳴き声をまねると，ウィスカーズが現れた。\n\n僕はネコを手に取り，通りに戻ると僕は見物人たちから喝采を受けた。ウィスカーズと少女と一緒に写真のポーズを取りながら，僕は自分がきっとマヌケな顔をしているだろうと考えていた。すると突然，ある声が耳に飛び込んできた。「有名人であろうとしているあなたは，本当にマヌケ顔よ」それはメロディーの声だとわかったが，彼女はすでに姿を消していた。\n\n♦♦♦♦♦\n\n僕はニューヨーク州のアルガニー州立公園で育った。両親はどちらも公園管理人で，公園をパトロールして困っているハイカーを助けていた。僕は12歳のとき，自分の超能力に気づいた。木に登っていたら枝が折れたのに，落ちないで，僕は宙に浮かんだのだ。このことを両親に話すと，母は，「すると，あなたは我が家では飛ぶ人だったのね」と言っただけだった。そして，母は，「あなたには超能力を持つ姉がいるのよ」と衝撃的なことを言った。姉の能力は人類を助けることができるので，両親は姉を非凡な才能を持つ子供のための特別な施設へ入れるように言われたことを知った。「いつか，そのときが来たら，お姉さんに会うことになるわ。今は，彼女を決してあそこへ行かせるべきではなかったとわかってる。あなたにはそういうことが起こらないようにするわ」と母は言った。\n\n僕はハイカーを救うことによって自分の能力を使おうと決めた。僕は飛んで何マイルも先を見ることができるし，どの公園管理人よりも素早く，困っているハイカーを見つけたり助けたりすることができた。僕は「アメージング・パークレンジャーボーイ」として知られるようになった。僕が成し遂げたことのおかげで，やがてチームヒーローが僕を採用してくれた。参加すると同時に僕にはブルーバードという名前が与えられ，これからはもっと大きくてもっと良いことをするのだと言われた。\n\n♦♦♦♦♦\n\nウィスカーズの事件の後，僕は飛んで家に帰った。僕の電話の通知音が鳴った。そこには，「メロディーがチームヒーローを去ると決めた」と書かれていた。僕は家のオフィスで，誰かが動き回っているのが聞こえた。玄関を開けると，一瞬，人の姿が見えてすぐに消えてしまった。僕の机の上にメモがあった。\n\n[メモ]\nブルーバード\nファミリービジネスを始めましょう。「真のヒーローたち」の共同設立者として加わって。\n\nそのメモを読んで，メロディーが誰なのかわかった。そのとき以来，メロディーと僕は一緒に活動しながら，両親が自慢とする子供たちであり続けている。"
+        },
+        {
+          "id": "reader_response",
+          "title": {
+            "en": "Email response to Harry",
+            "ja": "メールによるハリーへの感想"
+          },
+          "full_translation": "やあ，ハリー，\n\n君のストーリー，気に入ったよ！ブルーバードが人間としての成長の様々な段階を経ていく様が，ホントに良かった（以下参照）。\n[24]⑤ 彼は普通の男の子である。→[25]④ 彼はスーパー・パークレンジャーである。→[26]② 彼は俳優である。→[27]① 彼は再びヒーローになる。\n\nメロディーはユニークな超能力を持っていてすごく魅力的だった。\n彼女は[28]④ことができるね。\n\nそれに，ブルーバードのお母さんが「あなたにはそういうことが起こらないようにするわ」と言ったとき感動した。お母さんは，「私たちは[29]③ あなたを常に私たちの元に置いておくつもり」と言いたかったんだね。\n\nまた一方で，いくつかの細かい点を加えることによって，ストーリーをさらにもう少し良くすることができると思う。述べられたり示唆されたりしていない，[30]③ メロディーがどのようにして自分に超能力があることを知ったかや[31]④ メロディーがチームヒーローに加わった理由について書くこともできるね。これらの細かい点を加えれば登場人物に深みが出るし，ストーリーがもっと面白くなるだろうね。\n\n頑張って！"
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 24,
+          "answer_numbers": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "stem": {
+            "en": "Choose four out of the five descriptions (①〜⑤) and put them in the order they happened. [24]→[25]→[26]→[27]",
+            "ja": "「5つの記述（①〜⑤）のうち4つを選び，起きた順に並べよ」[24]→[25]→[26]→[27]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "He becomes a hero again.",
+              "ja": "彼は再びヒーローになる。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "He is an actor.",
+              "ja": "彼は俳優である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "He is a professional writer.",
+              "ja": "彼はプロの作家である。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "He is a super park ranger.",
+              "ja": "彼はスーパー・パークレンジャーである。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "He is an ordinary boy.",
+              "ja": "彼は普通の男の子である。",
+              "is_correct": false
+            }
+          ],
+          "answers_24_25_26_27": [
+            "⑤",
+            "④",
+            "②",
+            "①"
+          ],
+          "explanation": {
+            "ja": "正解は⑤→④→②→①。本問は第1区分（Everyone knows …）から始まり，第2区分（One day, …）へと進むが，この第1〜2区分は主人公ブルーバードの現在から少し前のことについて書かれている。第3区分（I grew up …）はブルーバードの子供時代に戻り，ここが最も昔の話である。最終区分（After the …）は現在について述べられており，第1〜2区分から続く部分である。\n\n第3区分第1段落第3文に「僕は12歳のとき，自分の超能力に気づいた」とあることにより，それまでは普通の男の子だったとわかるので，先頭の[24]には⑤が入る。同区分第2段落第3文「僕は『アメージング・パークレンジャーボーイ』として知られるようになった」より，[25]には④が入る。第1区分第2段落第3文「でも，僕たちは人類に尽くすよりもむしろ，馬鹿げたテレビ番組のスターだった」より，[26]には②が入る。最終区分の最終文には，「そのとき以来，メロディーと僕は一緒に活動しながら，両親が自慢とする子供たちであり続けている」とあるが，これは姉であるメロディーとブルーバードが，メロディーのメッセージにある「真のヒーローたち」として活動していることを表している。よって，[27]には①が入る。",
+            "evidence_sentences": []
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 28,
+          "stem": {
+            "en": "Choose the correct combination of Melody's superabilities. [28]",
+            "ja": "「メロディーの超能力として正しい組合せを選べ」[28]"
+          },
+          "choices": [
+            {
+              "label": "A",
+              "en": "Fly at extremely high altitudes",
+              "ja": "非常に高い高度を飛ぶ",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "en": "Perfectly imitate sounds",
+              "ja": "音を完全にまねる",
+              "is_correct": true
+            },
+            {
+              "label": "C",
+              "en": "Read the minds of animals and humans",
+              "ja": "動物や人間の心を読む",
+              "is_correct": true
+            },
+            {
+              "label": "D",
+              "en": "See extremely long distances",
+              "ja": "極めて長い距離が見える",
+              "is_correct": false
+            },
+            {
+              "label": "E",
+              "en": "Talk to people using telepathy",
+              "ja": "テレパシーを使って人に話しかける",
+              "is_correct": true
+            },
+            {
+              "label": "F",
+              "en": "Move to different places in an instant",
+              "ja": "一瞬で異なる場所へ移動する",
+              "is_correct": true
+            }
+          ],
+          "answer_options": [
+            {
+              "label": "①",
+              "combo": "A, B, D and F",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "combo": "A, C, D and E",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "combo": "B, C, D and E",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "combo": "B, C, E and F",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。第2区分第3段落第3文「1秒もしないうちに地球上のどの場所にもテレポートできるため，彼女の思いがけない登場はいつも驚きなのだ」よりFは当てはまる。同段落最終文「どんな音でも再現できるメロディーがネコの鳴き声をまねると，ウィスカーズが現れた」より，Bも当てはまる。同区分第4段落第2～最終文「ウィスカーズと少女と一緒に写真のポーズを取りながら，僕は自分がきっとマヌケな顔をしているだろうと考えていた。すると突然，ある声が耳に飛び込んできた。『有名人であろうとしているあなたは，本当にマヌケ顔よ』それはメロディーの声だとわかったが，彼女はすでに姿を消していた」より，CとEが当てはまる。よって，④が正解。",
+            "evidence_sentences": []
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 29,
+          "stem": {
+            "en": "Choose the most appropriate option to fill in [29].",
+            "ja": "「[29]に入れるのに最も適切な選択肢を選べ」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "control your abilities",
+              "ja": "あなたの能力をコントロールする",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "hire you as a superhero",
+              "ja": "スーパーヒーローとしてあなたを雇う",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "always keep you with us",
+              "ja": "あなたを常に私たちの元に置いておく",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "make sure you don't commit crimes",
+              "ja": "必ずあなたが罪を犯さないようにしておく",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。第3区分第1段落第8文には，ブルーバードの両親が彼の姉を特別な施設に入れたことが書かれている。そして，その後の第10〜最終文で，ブルーバードの母は，「今は，彼女を決してあそこへ行かせるべきではなかったとわかってる。あなたにはそういうことが起こらないようにするわ」と言っているので，\"We won't let that happen to you\" は「あなたを特別な施設には入れない」，つまり「自分たちの元に置いておく」の意味であるとわかる。よって，③が正解。",
+            "evidence_sentences": []
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 30,
+          "answer_numbers": [
+            30,
+            31
+          ],
+          "stem": {
+            "en": "Choose the most appropriate options for [30] and [31]. (The order does not matter.)",
+            "ja": "「[30]と[31]に入れるのに最も適切な選択肢を選べ。（順不同。）」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Bluebird's childhood experience",
+              "ja": "ブルーバードの子供時代の経験",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Bluebird's thoughts about the reality show",
+              "ja": "リアリティーショーに対するブルーバードの考え",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "how Melody learned she had superabilities",
+              "ja": "メロディーがどのようにして自分に超能力があることを知ったか",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "why Melody joined Team Hero",
+              "ja": "メロディーがチームヒーローに加わった理由",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "the relationship between Bluebird and Melody",
+              "ja": "ブルーバードとメロディーの関係",
+              "is_correct": false
+            }
+          ],
+          "answers_30_31": [
+            "③",
+            "④"
+          ],
+          "explanation": {
+            "ja": "正解は③と④。①は，第3区分第1〜2段落，②は，第2区分第1段落，⑤は，最終区分最終段落に述べられているが，③，④については述べられていない。よって，③と④が正解。",
+            "evidence_sentences": []
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p16.png",
+        "images/mondai_p17.png",
+        "images/mondai_p18.png",
+        "images/mondai_p19.png",
+        "images/mondai_p20.png",
+        "images/mondai_p21.png",
+        "images/mondai_p22.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p16.png",
+        "images/kaitou_p17.png",
+        "images/kaitou_p18.png",
+        "images/kaitou_p19.png"
+      ],
+      "pdf_pages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "in name",
+              "ja": "名ばかりの"
+            },
+            {
+              "en": "deserve O",
+              "ja": "Oに値する"
+            },
+            {
+              "en": "serve as A",
+              "ja": "Aとして務めている"
+            },
+            {
+              "en": "be caught up in A",
+              "ja": "Aに巻き込まれる／動けなくなっている"
+            },
+            {
+              "en": "pretend that SV ...",
+              "ja": "…だというふりをする／…ごっこをする"
+            },
+            {
+              "en": "in an instant",
+              "ja": "一瞬で／すぐに"
+            },
+            {
+              "en": "to one's surprise",
+              "ja": "～が驚いたことに"
+            },
+            {
+              "en": "out of nowhere",
+              "ja": "どこからともなく"
+            },
+            {
+              "en": "in less than a second",
+              "ja": "1秒もしないうちに"
+            },
+            {
+              "en": "convince O to do",
+              "ja": "Oを説得して～させる"
+            },
+            {
+              "en": "extraordinary",
+              "ja": "非凡な"
+            },
+            {
+              "en": "co-founder",
+              "ja": "共同設立者"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 16,
+      "situation": {
+        "en": "You are preparing a presentation for a science project on animal habits. You found some interesting information in the article below and are now making your outline.",
+        "ja": "あなたは動物の習慣に関する科学プロジェクトのためのプレゼンテーションの準備をしています。以下の記事に興味深い情報を見つけ，現在，そのアウトラインを作っています。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "How Animals Sleep",
+            "ja": "動物の睡眠パターン"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s7_s1",
+                "en": "If you ever spend a day at home, you may notice that your pet cat sleeps a lot during the daytime and is highly active in the evening and early morning.",
+                "ja": "もし1日中家で過ごすことがあるとすれば，ペットのネコが昼間にはたくさん眠り，夕方や早朝には非常に活動的であることに気づくかもしれない。"
+              },
+              {
+                "id": "s7_s2",
+                "en": "In contrast, humans are awake for most of the day and evening, and sleep for long hours at night.",
+                "ja": "それと対照的に，人間は日中や夕方の時間のほとんどを起きていて，夜には長時間眠る。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s3",
+                "en": "Sleep is vital to an animal's physical and mental health, and for its body to function efficiently.",
+                "ja": "睡眠は動物の肉体的および精神的健康にとって，また体が効率的に機能するために欠かせないものである。"
+              },
+              {
+                "id": "s7_s4",
+                "en": "For animals with a brain and a central nervous system, sleep is generally defined as an altered state of consciousness characterized by a certain body posture, a general decrease in physical activity, and a slower reaction speed.",
+                "ja": "脳と中枢神経系を持つ動物にとって，睡眠は一般的に，特定の体の姿勢，閉じた目，肉体的活動の一般的な減少，そしてより遅い反応速度に特徴づけられる，意識の変化した状態と定義される。"
+              },
+              {
+                "id": "s7_s5",
+                "en": "Sleep also gives the brain's neurons a chance to reset, revitalizing the body.",
+                "ja": "睡眠はまた脳のニューロンにリセットする機会を与え，体が活性化される。"
+              },
+              {
+                "id": "s7_s6",
+                "en": "Although most creatures experience sleep, its type and pattern depend on the species.",
+                "ja": "ほとんどの生物が睡眠状態を経験するが，種によってそのタイプとパターンは異なる。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s7",
+                "en": "Various sleep patterns during a 24-hour cycle have been identified in different types of animals.",
+                "ja": "24時間サイクルの間の様々な睡眠パターンが，様々なタイプの動物で確認されている。"
+              },
+              {
+                "id": "s7_s8",
+                "en": "Three common patterns are called monophasic, biphasic, and polyphasic.",
+                "ja": "3つの一般的なパターンは単相性，二相性，多相性と呼ばれる。"
+              },
+              {
+                "id": "s7_s9",
+                "en": "Monophasic sleep, experienced by humans and most large animals, occurs when they are mostly active and mostly asleep in long blocks of time.",
+                "ja": "単相性の睡眠は人間や体が大きめの多くの動物が経験するもので，長時間起きて活動し，長時間眠る場合に起こる。"
+              },
+              {
+                "id": "s7_s10",
+                "en": "Some birds, insects, and mammals use a kind of biphasic sleep, in which the animals have two periods of being awake and asleep, one of which is long and the other more like a nap.",
+                "ja": "いくつかの鳥，昆虫，哺乳動物はある種の二相性睡眠を利用し，この種の動物には覚醒と睡眠が2回あり，1回の睡眠は長く，もう一方はうたた寝に近い。"
+              },
+              {
+                "id": "s7_s11",
+                "en": "Dogs and cats are polyphasic, meaning their sleep times are spread between four to six periods.",
+                "ja": "イヌやネコは多相性で，それは1日の間に睡眠と覚醒の時間が4～6回あることを意味する。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s12",
+                "en": "Depending on the animal's size, physical needs, and diet, there is variety in sleep patterns.",
+                "ja": "動物の大きさ，肉体的な必要，食事によって，睡眠のパターンには多様性がある。"
+              },
+              {
+                "id": "s7_s13",
+                "en": "Smaller animals like squirrels and mice tend to use up their energy by moving quickly and often.",
+                "ja": "リスやハツカネズミなど小さめの動物は素早く頻繁に動くことによって，エネルギーを使い切ってしまう傾向がある。"
+              },
+              {
+                "id": "s7_s14",
+                "en": "As a result, they need to sleep more frequently, but in short amounts of time.",
+                "ja": "その結果，より頻繁に，しかし短時間ずつ寝ることが必要となる。"
+              },
+              {
+                "id": "s7_s15",
+                "en": "Lions are carnivorous animals and have longer sleeping times because their food sources satisfy their hunger for longer periods.",
+                "ja": "ライオンは肉食性の動物で，食物源がより長い時間空腹を満たすので，睡眠時間が長い。"
+              },
+              {
+                "id": "s7_s16",
+                "en": "Large herbivores like wild horses, on the other hand, sleep less than meat-eating animals because their plant-based diet has relatively few calories, resulting in the need to spend most of their time searching for food.",
+                "ja": "一方，野生のウマなど大型の草食動物においては，植物をベースとした食事が比較的カロリーが低いので，肉食動物より睡眠時間が短く，その結果，ほとんどの時間を食べ物を探すのに費やすことが必要となる。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s17",
+                "en": "Safety is another variable in sleep patterns.",
+                "ja": "安全は睡眠パターンを変化させるもう1つの要素である。"
+              },
+              {
+                "id": "s7_s18",
+                "en": "Animals that can create safe spaces tend to enjoy longer periods of sleep, but those that might need to stay alert sleep less.",
+                "ja": "安全な空間を作ることのできる動物はより長い睡眠時間を持つ傾向があるが，警戒を怠らないでいる必要があるかもしれない動物はより睡眠時間が短い。"
+              },
+              {
+                "id": "s7_s19",
+                "en": "Apes sleep on platforms, high above the jungle floor, which keep them away from attackers.",
+                "ja": "類人猿はジャングルの地面から高いところで眠るが，これによって攻撃者から遠ざかる。"
+              },
+              {
+                "id": "s7_s20",
+                "en": "Some smaller animals such as rabbits create shelters by digging into the ground where it is difficult for predators to find them.",
+                "ja": "ウサギなどいくつかの小さめの動物は地面に穴を掘って隠れ場所を作り，これにより捕食動物は彼らを見つけることが難しくなる。"
+              },
+              {
+                "id": "s7_s21",
+                "en": "As a result, they feel safer and sleep longer.",
+                "ja": "その結果，彼らはより安全に感じ，睡眠時間も長くなる。"
+              },
+              {
+                "id": "s7_s22",
+                "en": "In contrast, elephants often travel long distances and may feel exposed to danger from hunters or other animals, contributing to their short sleeping times.",
+                "ja": "それと対照的に，ゾウはしばしば長距離を移動し，狩猟者や他の動物からの危険にさらされていると感じる場合があるので，これによって睡眠時間は短くなる。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s23",
+                "en": "The animal sleep patterns discussed so far tend to be typical.",
+                "ja": "これまで論じてきた動物の睡眠パターンは典型的なものである。"
+              },
+              {
+                "id": "s7_s24",
+                "en": "A pattern that may be less easily noticed in our daily lives is called unihemispheric sleep.",
+                "ja": "私たちの日常生活であまり簡単には気づかないかもしれないパターンは，半脳睡眠と呼ばれる。"
+              },
+              {
+                "id": "s7_s25",
+                "en": "In this type of sleep, some animals traveling in a group keep one eye open.",
+                "ja": "このタイプの睡眠においては，集団で移動する動物の中には片目を開けて眠るものもいる。"
+              },
+              {
+                "id": "s7_s26",
+                "en": "While one side of the animal's brain sleeps, the other side stays awake and alert to its surroundings.",
+                "ja": "動物の脳の片側が眠っている間，もう一方の側は起きていて，周りの状況に警戒している。"
+              },
+              {
+                "id": "s7_s27",
+                "en": "In this way, the animal can experience the reviving effects of sleep while also watching out for threats.",
+                "ja": "このようにして，この種の動物は危険に注意しながらも，体を回復させる睡眠の効果を経験することができる。"
+              },
+              {
+                "id": "s7_s28",
+                "en": "This unihemispheric sleep occurs in some bird species when they are flying long distances in groups.",
+                "ja": "この半脳睡眠は鳥のいくつかの種において，集団で長距離を飛ぶときに起こる。"
+              },
+              {
+                "id": "s7_s29",
+                "en": "Birds flying at the outer edge of the group use this type of sleep to help protect the other members that sleep with both eyes closed.",
+                "ja": "集団の外縁を飛んでいる鳥はこのタイプの睡眠を利用して，両目を閉じて眠る他のメンバーを守るのに役立てる。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s30",
+                "en": "Besides the types of sleep explained above, there are patterns that can be considered to be sleep-like activities.",
+                "ja": "上で説明したタイプの睡眠の他にも，睡眠のような活動だと考えられるパターンがある。"
+              },
+              {
+                "id": "s7_s31",
+                "en": "Hibernation, which can be observed in black bears, is a long, inactive period when food is scarce or the weather is severe.",
+                "ja": "冬眠はアメリカグマに見られるが，食べ物が乏しい，あるいは天気が厳しいときの長くて，活動しない期間である。"
+              },
+              {
+                "id": "s7_s32",
+                "en": "During this time, the animal's body temperature drops, its heart rate and breathing slow down, and it may appear dead.",
+                "ja": "この期間には，動物の体温は下がり，心拍数や呼吸が遅くなるので，死んでいるように見えるかもしれない。"
+              },
+              {
+                "id": "s7_s33",
+                "en": "Creatures such as jellyfish that have no central nervous system also experience times of extreme relaxation where they remain in a less responsive state.",
+                "ja": "中枢神経系を持たないクラゲなどの生物もまた，反応が低い状態のままである，極度のくつろぎの時間を経験する。"
+              }
+            ],
+            [
+              {
+                "id": "s7_s34",
+                "en": "As shown above, sleep plays an important role in the lives of animals and it is much more complex than simply closing the eyes.",
+                "ja": "上に示したように，睡眠は動物の生活において重要な役割を果たし，ただ目を閉じるよりもずっと複雑なことなのである。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "outline",
+          "title": {
+            "en": "Your presentation outline",
+            "ja": "プレゼンテーション用アウトライン"
+          },
+          "content_type": "presentation_outline",
+          "sections": [
+            {
+              "title": {
+                "en": "How Animals Sleep",
+                "ja": "動物はどのように眠るか"
+              },
+              "points": [
+                {
+                  "heading": {
+                    "en": "Importance of Sleep [32]",
+                    "ja": "睡眠の重要性 [32]"
+                  },
+                  "items": [
+                    {
+                      "en": "A. To alter body temperature",
+                      "ja": "A. 体温を変化させる"
+                    },
+                    {
+                      "en": "B. To maintain overall health",
+                      "ja": "B. 全体的な健康を保つ"
+                    },
+                    {
+                      "en": "C. To refresh the animal's body",
+                      "ja": "C. 動物の体をリフレッシュさせる"
+                    },
+                    {
+                      "en": "D. To reset the brain neurons",
+                      "ja": "D. 脳のニューロンをリセットさせる"
+                    }
+                  ]
+                },
+                {
+                  "heading": {
+                    "en": "Biphasic Sleep Pattern (in each 24-hour cycle) [33]",
+                    "ja": "二相性の睡眠パターン（24時間サイクルごとに）[33]"
+                  },
+                  "type": "chart_selection",
+                  "items": [
+                    {
+                      "en": "Pie charts mapping awake and asleep periods.",
+                      "ja": "覚醒と睡眠の割合を示す円グラフ。"
+                    }
+                  ]
+                },
+                {
+                  "heading": {
+                    "en": "Some Conditions Affecting Sleep Patterns",
+                    "ja": "睡眠パターンに影響を及ぼすいくつかの条件"
+                  },
+                  "items": [
+                    {
+                      "en": "- Animals [34]",
+                      "ja": "- [34]動物"
+                    },
+                    {
+                      "en": "- Animals [35]",
+                      "ja": "- [35]動物"
+                    }
+                  ]
+                },
+                {
+                  "heading": {
+                    "en": "Unihemispheric Sleep",
+                    "ja": "半脳睡眠"
+                  },
+                  "items": [
+                    {
+                      "en": "- Some birds [36]",
+                      "ja": "- いくつかの鳥は[36]"
+                    }
+                  ]
+                },
+                {
+                  "heading": {
+                    "en": "[37]",
+                    "ja": "[37]"
+                  },
+                  "items": [
+                    {
+                      "en": "- Black bear hibernation",
+                      "ja": "- アメリカグマの冬眠"
+                    },
+                    {
+                      "en": "- Jellyfish relaxation",
+                      "ja": "- クラゲのくつろぎ"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 32,
+          "stem": {
+            "en": "Under the heading, \"Importance of Sleep,\" you spotted an error in your presentation outline. Which of the following should you remove? [32]",
+            "ja": "「『睡眠の重要性』の見出しの下に，あなたはプレゼンテーション用アウトラインに1つの誤りを見つけた。以下のどれを取り除くべきか」[32]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。睡眠の重要性として，「動物の体温を変化させる」ことについては述べられていないので，①が正解。②は，第2段落第1文「睡眠は動物の肉体的および精神的健康にとって，また体が効率的に機能するために欠かせないものである」，③と④は，同段落第3文「睡眠はまた脳のニューロンにリセットする機会を与え，体が活性化される」に述べられているので，不可。",
+            "evidence_sentences": [
+              "s7_s3",
+              "s7_s5"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 33,
+          "stem": {
+            "en": "You want to use a figure for the biphasic sleep pattern mentioned in the article. Choose the best option for [33].",
+            "ja": "「あなたは記事で述べられた二相性睡眠パターンのためにグラフを使いたい。[33]に入れるのに最も適切なものを選べ」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "(Diagram 1)",
+              "ja": "（グラフ1）",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "(Diagram 2)",
+              "ja": "（グラフ2）",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "(Diagram 3)",
+              "ja": "（グラフ3）",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "(Diagram 4)",
+              "ja": "（グラフ4）",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。第3段落第4文「いくつかの鳥，昆虫，哺乳動物はある種の二相性睡眠を利用し，この種の動物には覚醒と睡眠が2回あり，1回の睡眠は長く，もう一方はうたた寝に近い」より，覚醒と睡眠が2回ずつあり，一方の睡眠が他方よりも長いことを示している④が正解。",
+            "evidence_sentences": [
+              "s7_s10"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 34,
+          "answer_numbers": [
+            34,
+            35
+          ],
+          "stem": {
+            "en": "Choose the best options for [34] and [35]. (The order does not matter.)",
+            "ja": "「[34]と[35]に入れるのに最も適切なものを選べ。（順不同）」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "which burn up energy rapidly tend to sleep more often",
+              "ja": "エネルギーを急速に燃やす動物はより頻繁に眠る傾向が高い",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "which continually search for food need longer sleep",
+              "ja": "絶えず食べ物を探す動物はより長い睡眠が必要である",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "whose diet has fewer calories can sleep more easily",
+              "ja": "食事のカロリーが低めの動物はより簡単に眠ることができる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "whose food keeps their stomachs full usually sleep longer",
+              "ja": "食べ物によって満腹感が保たれる動物はたいてい睡眠がより長い",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "whose homes are difficult to get to typically sleep less",
+              "ja": "住みかが突き止めにくい動物は睡眠がより短い",
+              "is_correct": false
+            }
+          ],
+          "answers_34_35": [
+            "①",
+            "④"
+          ],
+          "explanation": {
+            "ja": "正解は①と④。第4段落第2〜3文「リスやハツカネズミなど小さめの動物は素早く頻繁に動くことによって，エネルギーを使い切ってしまう傾向がある。その結果，より頻繁に，しかし短時間ずつ寝ることが必要となる」より，①は当てはまる。同段落第4文「ライオンは肉食性の動物で，食物源がより長い時間空腹を満たすので，睡眠時間が長い」より，④も当てはまる。",
+            "evidence_sentences": [
+              "s7_s13",
+              "s7_s14",
+              "s7_s15"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 36,
+          "stem": {
+            "en": "Choose the best option for [36].",
+            "ja": "「[36]に入れるのに最も適切な選択肢を選べ」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "can be partially asleep and partially awake while in flight",
+              "ja": "飛行中にその一部は眠っていて，また一部は起きていることがある",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "can have half of their brain sleep, leading to increased heart rate",
+              "ja": "脳の半分が眠り，心拍数の上昇につながることがある",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "can keep both eyes open constantly to watch out for enemies",
+              "ja": "敵を警戒するために絶えず両目を開いていることがある",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "can protect the outside members from inside the group",
+              "ja": "外側のメンバーを集団の内側から守ることがある",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。第6段落第6〜最終文「この半脳睡眠は鳥のいくつかの種において，集団で長距離を飛ぶときに起こる。集団の外縁を飛んでいる鳥はこのタイプの睡眠を利用して，両目を閉じて眠る他のメンバーを守るのに役立てる」より，①が正解。",
+            "evidence_sentences": [
+              "s7_s28",
+              "s7_s29"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 37,
+          "stem": {
+            "en": "Choose the best heading for [37].",
+            "ja": "「[37]に入れるのに最も適切な見出しを選べ」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Common Patterns of Sleep",
+              "ja": "一般的な睡眠パターン",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Natural Sleep Methods",
+              "ja": "自然な睡眠の仕方",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Reasons for Sleep",
+              "ja": "睡眠をとる理由",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "States Similar to Sleep",
+              "ja": "睡眠とよく似た状態",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。アメリカグマの冬眠やクラゲのくつろぎは，第7段落第1文「上で説明したタイプの睡眠の他にも，睡眠のような活動だと考えられるパターンがある」にあるように，「睡眠とよく似た状態」として紹介されているので，④が正解。",
+            "evidence_sentences": [
+              "s7_s30",
+              "s7_s31",
+              "s7_s33"
+            ]
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p23.png",
+        "images/mondai_p24.png",
+        "images/mondai_p25.png",
+        "images/mondai_p26.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p20.png",
+        "images/kaitou_p21.png",
+        "images/kaitou_p22.png",
+        "images/kaitou_p23.png"
+      ],
+      "pdf_pages": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "central nervous system",
+              "ja": "中枢神経系"
+            },
+            {
+              "en": "define A as B",
+              "ja": "AをBだと定義する"
+            },
+            {
+              "en": "nap",
+              "ja": "うたた寝／昼寝"
+            },
+            {
+              "en": "depending on A",
+              "ja": "Aによって"
+            },
+            {
+              "en": "result in A",
+              "ja": "A（結果）を生じる"
+            },
+            {
+              "en": "carnivorous",
+              "ja": "肉食の"
+            },
+            {
+              "en": "herbivore",
+              "ja": "草食動物"
+            },
+            {
+              "en": "alert",
+              "ja": "警戒して"
+            },
+            {
+              "en": "predator",
+              "ja": "捕食者"
+            },
+            {
+              "en": "exposed to A",
+              "ja": "Aにさらされて"
+            },
+            {
+              "en": "contribute to A",
+              "ja": "Aの役に立つ"
+            },
+            {
+              "en": "so far",
+              "ja": "これまで(のところ)"
+            },
+            {
+              "en": "watch out for A",
+              "ja": "Aに警戒する"
+            },
+            {
+              "en": "play a ~ role in A",
+              "ja": "Aにおいて～な役割を果たす"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 17,
+      "situation": {
+        "en": "You are in a group discussion about space exploration. Each group member has read a different person's opinion. You are now sharing what you learned.",
+        "ja": "あなたは宇宙探査についてのエッセーに取り組んでいます。以下のステップに従います：\nステップ1：宇宙探査についてインターネットで集められた様々な意見を読む\nステップ2：宇宙探査について1つの立場を取る\nステップ3：追加資料を使ってエッセーのアウトラインを作る"
+      },
+      "passages": [
+        {
+          "id": "opinions",
+          "title": {
+            "en": "[Step 1] Read a range of opinions",
+            "ja": "［ステップ1］様々な意見を読む"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s1",
+                "en": "Apu (university professor)",
+                "ja": "アプ（大学教授）"
+              },
+              {
+                "id": "s8_s2",
+                "en": "The exploration of space requires a lot of research time and money.",
+                "ja": "宇宙探査には多くの研究時間と費用が必要です。"
+              },
+              {
+                "id": "s8_s3",
+                "en": "All this research has led to many new inventions and boosted humanity's scientific and technical knowledge.",
+                "ja": "この調査はどれも多くの新たな発明につながり，人類の科学的またはテクノロジーの知識を増大させています。"
+              },
+              {
+                "id": "s8_s4",
+                "en": "While laser eye surgery, solar cells, freeze-dried food, and wireless headsets are just a few examples that have come out of space research, perhaps the invention that has proven the most useful in modern life is the computer mouse.",
+                "ja": "レーザー眼科手術，太陽電池，フリーズドライ食品，そして無線ヘッドセットは宇宙探査から生まれたほんのいくつかの例ですが，おそらく現代生活において最も役に立っている発明はコンピュータのマウスでしょう。"
+              },
+              {
+                "id": "s8_s5",
+                "en": "This was developed in the 1960s on a NASA research project.",
+                "ja": "これはNASAの研究プロジェクトにより1960年代に開発されました。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s6",
+                "en": "Christine (company CEO)",
+                "ja": "クリスティーン（会社のCEO）"
+              },
+              {
+                "id": "s8_s7",
+                "en": "Much space exploration relies on international cooperation, a good example being the International Space Station, launched in 1998.",
+                "ja": "多くの宇宙探査は国際協力に依存しており，その良い例が1998年に開始された国際宇宙ステーションです。"
+              },
+              {
+                "id": "s8_s8",
+                "en": "The main reasons for this cooperation are to share the huge costs involved and to improve national prestige.",
+                "ja": "この協力の主な理由は探査に伴う巨額の費用を共有し，国家的威信を高めることです。"
+              },
+              {
+                "id": "s8_s9",
+                "en": "More recently, private companies have begun exploring space, though mostly for commercial reasons.",
+                "ja": "もっと最近では，主に商業的な理由ではありますが，民間企業が宇宙探査を始めています。"
+              },
+              {
+                "id": "s8_s10",
+                "en": "In the future, it is possible that countries or corporations will try to colonize parts of the moon or Mars.",
+                "ja": "将来は，国や企業が月や火星の一部に植民地を建設しようとすることもあり得ます。"
+              },
+              {
+                "id": "s8_s11",
+                "en": "While financial cooperation and raising prestige are welcome, improper commercial or military use of outer space is not.",
+                "ja": "資金協力や威信の向上は歓迎ですが，宇宙の不適切な商業的あるいは軍事的利用は歓迎されません。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s12",
+                "en": "Meilin (journalist)",
+                "ja": "メイリン（ジャーナリスト）"
+              },
+              {
+                "id": "s8_s13",
+                "en": "As the famous physicist, Stephen Hawking, once said, it is probably dangerous to broadcast into deep space evidence of the existence of humans here on Earth.",
+                "ja": "有名な物理学者スティーブン・ホーキングはかつて，この地球に人類が存在している証拠を遠い宇宙に知らせることはおそらく危険であろう，と述べました。"
+              },
+              {
+                "id": "s8_s14",
+                "en": "If our nearest intelligent aliens are anything like us, then they will seek to conquer Earth and humanity.",
+                "ja": "もし最も近くの知的生命体が私たちに似ているなら，彼らは地球や人類を征服しようとするでしょう。"
+              },
+              {
+                "id": "s8_s15",
+                "en": "For me, this is the greatest threat associated with space exploration.",
+                "ja": "これは私には，宇宙探査から連想される最大の脅威です。"
+              },
+              {
+                "id": "s8_s16",
+                "en": "The deeper into space we travel, the greater the likelihood Earth will be discovered by an aggressive alien civilization.",
+                "ja": "私たちが宇宙の奥深くへ行けば行くほど，地球が攻撃的な生命体の文明に発見される可能性は大きくなるのです。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s17",
+                "en": "Naomi (lawyer)",
+                "ja": "ナオミ（弁護士）"
+              },
+              {
+                "id": "s8_s18",
+                "en": "Historically, jobs working at sea were likely the least safe, with the highest rates of death in the workplace.",
+                "ja": "歴史的には，海で行う仕事はおそらく最も安全でなく，仕事場での死亡率が最も高かったでしょう。"
+              },
+              {
+                "id": "s8_s19",
+                "en": "In modern times, space is no different, if not worse.",
+                "ja": "現代では，宇宙はそれより悪いとは言いませんが，それと全く変わりません。"
+              },
+              {
+                "id": "s8_s20",
+                "en": "Once we are just 10,000 meters or so above the surface of the Earth, there is little oxygen and the temperature is too low for human survival.",
+                "ja": "地表からわずか1万メートルかそこら上へ行くと，酸素はほとんどなく，温度は人間が生存するには低すぎます。"
+              },
+              {
+                "id": "s8_s21",
+                "en": "Since the first person went into space in 1961, 19 of 652 astronauts have died on the job: a fatality rate of 2.9%.",
+                "ja": "1961年に人類最初の人が宇宙に行って以来，宇宙飛行士652人のうち19人が仕事中に命を落としており，その死亡率は2.9%です。"
+              },
+              {
+                "id": "s8_s22",
+                "en": "No other business or industry would tolerate such a high level of danger. Why should the space industry?",
+                "ja": "これほど高い危険度に耐えられるビジネスや産業は他にないでしょう。なぜ宇宙産業を行うべきなのでしょうか？"
+              }
+            ],
+            [
+              {
+                "id": "s8_s23",
+                "en": "Victor (financial analyst)",
+                "ja": "ヴィクター（金融アナリスト）"
+              },
+              {
+                "id": "s8_s24",
+                "en": "Space exploration has contributed hugely to economic growth.",
+                "ja": "宇宙探査は経済成長に大きく貢献してきました。"
+              },
+              {
+                "id": "s8_s25",
+                "en": "In the USA, NASA provided work for nearly 340,000 people in 2021, mostly at above-average salaries, and it is estimated that it has contributed $7.7 billion in taxes to the US government.",
+                "ja": "アメリカでは，NASAが2021年にはほぼ34万人の人に仕事を提供しましたが，大部分は平均を超える給料で，アメリカ政府に77億ドルの税収を提供していると見積もられています。"
+              },
+              {
+                "id": "s8_s26",
+                "en": "Space is also being explored by other countries, such as China, India, Japan, and Russia.",
+                "ja": "宇宙はまた，中国，インド，日本，ロシアなど他の国によっても探査されています。"
+              },
+              {
+                "id": "s8_s27",
+                "en": "In the future, further economic growth will be ensured by more private firms entering the space race and by the rise of space tourism, space mining, space colonization, and space militarization.",
+                "ja": "将来，より多くの民間企業の宇宙競争への参入，そして，宇宙旅行の増加，宇宙での採掘，宇宙の植民地化，宇宙の軍事利用によって，経済成長はさらに確実になるでしょう。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "position",
+          "title": {
+            "en": "[Step 2] Take a position",
+            "ja": "［ステップ2］1つの立場を取る"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s28",
+                "en": "Now that you have understood the various opinions, you have taken a position on space exploration and written some notes below.",
+                "ja": "あなたは様々な意見を理解したので，宇宙探査について1つの立場を取り，以下にいくつかのメモを書いた。"
+              },
+              {
+                "id": "s8_s29",
+                "en": "POSITION: Space exploration is not a good idea.",
+                "ja": "立場：宇宙探査は良い考えではない。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "outline",
+          "title": {
+            "en": "[Step 3] Create an outline of your essay",
+            "ja": "［ステップ3］あなたのエッセーのアウトラインを作る"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s30",
+                "en": "Essay outline",
+                "ja": "エッセーのアウトライン"
+              },
+              {
+                "id": "s8_s31",
+                "en": "A Reconsideration of Space Exploration",
+                "ja": "宇宙探査の再考"
+              },
+              {
+                "id": "s8_s32",
+                "en": "Introduction",
+                "ja": "導入"
+              },
+              {
+                "id": "s8_s33",
+                "en": "Space exploration is without doubt on the frontline of science, but it should not be a priority for the following three reasons.",
+                "ja": "宇宙探査が科学の最前線であることは疑いがないが，以下の3つの点から最優先事項であるべきではない。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s34",
+                "en": "Body",
+                "ja": "本論"
+              },
+              {
+                "id": "s8_s35",
+                "en": "REASON 1 from Step 2, based on evidence from the opinions in Step 1",
+                "ja": "理由1はステップ2からのもので，ステップ1の意見からの証拠に基づく"
+              },
+              {
+                "id": "s8_s36",
+                "en": "REASON 2 ([ 43 ]), based on evidence from Source A",
+                "ja": "理由2（[ 43 ]）は資料Aからの証拠に基づく"
+              },
+              {
+                "id": "s8_s37",
+                "en": "REASON 3, based on evidence ([ 44 ]) from Source B",
+                "ja": "理由3は資料Bからの証拠（[ 44 ]）に基づく"
+              }
+            ],
+            [
+              {
+                "id": "s8_s38",
+                "en": "Conclusion",
+                "ja": "結論"
+              },
+              {
+                "id": "s8_s39",
+                "en": "Upon consideration of all its aspects, we should perhaps prioritize other things over exploring space.",
+                "ja": "全ての側面を考慮すると，私たちはおそらく宇宙探査以外の事柄を優先すべきであろう。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "資料A"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s40",
+                "en": "Although you may not make a direct connection between space exploration and environmental problems, a connection does exist.",
+                "ja": "宇宙探査と環境問題を直接結びつけては考えないかもしれないが，つながりは確かに存在する。"
+              },
+              {
+                "id": "s8_s41",
+                "en": "First, the CO2 emissions of spacecraft are not insignificant.",
+                "ja": "第1に，宇宙船の二酸化炭素の排出量は取るに足りないことではない。"
+              },
+              {
+                "id": "s8_s42",
+                "en": "It is estimated that one spacecraft launch emits 200-300 tons of CO2 and other harmful gases into the Earth's atmosphere.",
+                "ja": "推計では，1回の宇宙船の打ち上げで200～300トンの二酸化炭素やその他有害な気体が，地球の大気に放出されるということである。"
+              },
+              {
+                "id": "s8_s43",
+                "en": "More and more spacecraft are being sent into space, which is damaging for the Earth.",
+                "ja": "ますます多くの宇宙船が宇宙に送られており，これが地球に害を及ぼしている。"
+              },
+              {
+                "id": "s8_s44",
+                "en": "The contribution to the greenhouse effect of these craft's CO2 emissions is causing the Earth's temperature to rise.",
+                "ja": "これらの宇宙船から排出される二酸化炭素が引き起こす温室効果は，地球の温度が上がる原因となっている。"
+              },
+              {
+                "id": "s8_s45",
+                "en": "Second, space exploration is damaging the thermosphere (the space environment close to the Earth).",
+                "ja": "第2に，宇宙探査は熱圏（地球に近い宇宙環境）に害を及ぼしている。"
+              },
+              {
+                "id": "s8_s46",
+                "en": "The quantity of space debris, the junked parts of spacecraft or artificial satellites, is on the rise.",
+                "ja": "宇宙船や人工衛星の廃棄部品である宇宙ゴミの量は増加している。"
+              },
+              {
+                "id": "s8_s47",
+                "en": "NASA estimates that, in the thermosphere, there are currently around 23,000 pieces of space debris which are larger than a softball and travel at speeds of up to 28,000 km/h.",
+                "ja": "NASAの推計によると，現在熱圏には，ソフトボールより大きい宇宙ゴミがおよそ2万3000個あり，最高，時速2万8000キロの速度で移動している。"
+              },
+              {
+                "id": "s8_s48",
+                "en": "This poses a risk to future spaceflight, and may even be a potential obstacle to astronomical observation.",
+                "ja": "これが将来の宇宙飛行に危険をもたらし，天文観測への障害にさえなる可能性があるかもしれない。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "資料B"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s49",
+                "en": "Space exploration is becoming increasingly expensive, and in 2022, it was reported that the total spending by all governments correctly worldwide exceeded $100 billion.",
+                "ja": "宇宙探査にはますますお金がかかるようになっており，2022年には，世界中の全政府によって費やされた総額は1000億ドルを超えたと報告されている。"
+              },
+              {
+                "id": "s8_s50",
+                "en": "The following graph compares this expense with the estimated annual budgets that might be required to tackle some of the world's most important probklems, as estimated by international organizations.",
+                "ja": "下のグラフはこの費用と，世界の最重要問題のいくつかに取り組むために必要となるであろう年間予算を比較しており，これは国際機関によって推計されたものである。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 38,
+          "stem": {
+            "en": "Which of the following best expresses Meilin's opinion? [38]",
+            "ja": "「メイリンの意見を最もよく表すのは次のうちのどれか」[38]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Caution is critical.",
+              "ja": "注意はきわめて重要である。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Invention is invaluable.",
+              "ja": "発明は非常に価値がある。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Science is superior.",
+              "ja": "科学はより優れている。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Trust is treasure.",
+              "ja": "信頼は大切なものだ。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。メイリンは，スティーブン・ホーキングの言葉を引き合いに出して，「宇宙探査は宇宙の知的生命体からの攻撃を受ける可能性があるので注意すべきである」と述べている。よって，①が正解。",
+            "evidence_sentences": [
+              "s8_s13",
+              "s8_s14",
+              "s8_s15"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 39,
+          "stem": {
+            "en": "Both Christine and Victor mention that space exploration [39].",
+            "ja": "「クリスティーンとヴィクターはどちらも宇宙探査は[39]と述べている。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "has economic impacts and provides opportunities for private corporations to make money",
+              "ja": "経済的影響を及ぼし，民間企業が利益を得る機会を提供する",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "is gaining popularity and that salaries for people working in the industry are above average",
+              "ja": "人気を博しつつあり，この産業で働く人々の給料は平均を超えている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "is politically challenging as it requires coordination among countries with different policies",
+              "ja": "政策の異なる国々の間の調和が必要となるので，政治的に難しい",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "needs global cooperation, especially to operate the International Space Station successfully",
+              "ja": "特に国際宇宙ステーションをうまく運営するためには，世界的協力が必要である",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。クリスティーンは第2〜4文で「国際宇宙ステーションに関して各国が探査の費用を共有していることや，民間企業が月や火星の植民地化を進めていること」について述べ，ヴィクターは第1〜最終文で「NASAが多くの人に仕事を提供していることや，民間企業が宇宙関係の様々な分野へ参入していること」について述べている。よって，①が正解。",
+            "evidence_sentences": [
+              "s8_s8",
+              "s8_s9",
+              "s8_s24",
+              "s8_s27"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 40,
+          "answer_numbers": [
+            40,
+            41,
+            42
+          ],
+          "stem": {
+            "en": "Now that you have understood the various opinions, you have taken a position on space exploration and written some notes below. Choose the best options to complete [40]—[42]. (You must have all of [40]—[42] correct to get points.)",
+            "ja": "「あなたは様々な意見を理解したので，宇宙探査について1つの立場を取り，以下にいくつかのメモを書いた。[40]—[42]を完成させるために最も適切な選択肢を選べ。（点数獲得のためには[40]—[42]の全てが正しくなければならない。）」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Apu's",
+              "ja": "アプ",
+              "is_correct": false,
+              "group": "40_41"
+            },
+            {
+              "label": "②",
+              "en": "Christine's",
+              "ja": "クリスティーン",
+              "is_correct": false,
+              "group": "40_41"
+            },
+            {
+              "label": "③",
+              "en": "Meilin's",
+              "ja": "メイリン",
+              "is_correct": true,
+              "group": "40_41"
+            },
+            {
+              "label": "④",
+              "en": "Naomi's",
+              "ja": "ナオミ",
+              "is_correct": true,
+              "group": "40_41"
+            },
+            {
+              "label": "⑤",
+              "en": "Victor's",
+              "ja": "ヴィクター",
+              "is_correct": false,
+              "group": "40_41"
+            },
+            {
+              "label": "①",
+              "en": "military conflict in outer space is something we should try hard to avoid",
+              "ja": "宇宙での軍事的衝突は，私たちが避けようと懸命に努めるべきことである",
+              "is_correct": false,
+              "group": "42"
+            },
+            {
+              "label": "②",
+              "en": "space exploration exposes people to a lot of danger and is too risky",
+              "ja": "宇宙探査は人々を多くの危険にさらし，あまりに危険すぎる",
+              "is_correct": true,
+              "group": "42"
+            },
+            {
+              "label": "③",
+              "en": "the possibility of alien invasion is too great to be ignored and must be addressed",
+              "ja": "宇宙の生命体の侵入の可能性は無視できないほど大きく，それに取り組まなければならない",
+              "is_correct": false,
+              "group": "42"
+            },
+            {
+              "label": "④",
+              "en": "the risk of death for people in the industry is extremely high compared with other jobs",
+              "ja": "この産業での人々が死亡する危険は，他の仕事と比べてきわめて高い",
+              "is_correct": false,
+              "group": "42"
+            }
+          ],
+          "answers_40_41_42": [
+            "③",
+            "④",
+            "②"
+          ],
+          "explanation": {
+            "ja": "正解は③，④，②。メイリンは，スティーブン・ホーキングの言葉を引き合いに出して，「宇宙探査は宇宙の知的生命体からの攻撃を受ける可能性があるので注意すべきである」と述べているので，当てはまる。ナオミは，「宇宙での仕事は大変危険であり，宇宙飛行士の死亡率はきわめて高い」と述べているので，当てはまる。よって，③と④が正解。[42]に入る選択肢：メイリンは「宇宙の知的生命体が地球を攻撃してくる危険性」について述べており，ナオミは「宇宙飛行士の死亡率がきわめて高いこと」について述べているので，②が正解。",
+            "evidence_sentences": [
+              "s8_s14",
+              "s8_s16",
+              "s8_s21",
+              "s8_s22"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "stem": {
+            "en": "REASON 2 ([43]), based on evidence from Source A",
+            "ja": "「資料Aに基づくと，理由2に最も適切なのは次のうちのどれか？[43]」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The amount of carbon dioxide created by spacecraft varies quite a lot, harming space.",
+              "ja": "宇宙船によって生じる二酸化炭素の排出量は大変多く，宇宙を害している。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Updating spacecraft to be equipped with new engines that emit fewer harmful gases is difficult.",
+              "ja": "宇宙船を，放出される有害ガスがより少ない新しいエンジンを搭載した最新のものにすることは難しい。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Space debris poses a danger to humans because of the possibility of collisions with airplanes.",
+              "ja": "宇宙ゴミは飛行機と衝突する可能性があるので人間に危険をもたらす。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Space exploration is polluting both the Earth's environment and that of the thermosphere.",
+              "ja": "宇宙探査は地球と熱圏のどちらの環境も汚染している。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "正解は④。資料Aの第2〜5文には，「宇宙船が排出する二酸化炭素が地球に害を及ぼしていること」，第6〜最終文には，「宇宙ゴミが増加して熱圏に害を及ぼしていること」が述べられているので，④が正解。",
+            "evidence_sentences": [
+              "s8_s41",
+              "s8_s44",
+              "s8_s45",
+              "s8_s46"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 44,
+          "stem": {
+            "en": "REASON 3, based on evidence ([44]) from Source B",
+            "ja": "「理由3のために，あなたは『宇宙探査にかかる費用は多いので，その代わりにそのお金を世界の大きな問題を解決するために使うことができる』と書こうと決めた。資料Bに基づくと，この言葉を最も支持するのはどの選択肢か？[44]」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Depending on the amount of money governments around the world spend on space exploration, it could be possible to not only decrease hunger but also provide primary education in developing countries.",
+              "ja": "世界中の政府が宇宙探査に使うお金の額によって，発展途上国で空腹を減らすだけでなく，初等教育が得られるようにすることができる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Data shows that securing clean water for people in developing countries is less expensive than global government exploration of space.",
+              "ja": "データでは，世界中の政府が宇宙探査をするよりも，発展途上国の人々のために清潔な水を確保する方が，お金がかからないことを示している。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "With less than half of the money governments spend on space exploration, it would be possible to deal with the problem of educational inequality in developing nations.",
+              "ja": "政府が宇宙探査に費やす半分未満のお金で，発展途上国における教育の不平等問題に取り組むことが可能だろう。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The money currently invested in space exploration could provide enough food, basic education, and enough clean water in developing countries.",
+              "ja": "現在，宇宙探査に投資されているお金によって，発展途上国において十分な食料，基本的教育，そして十分な清潔な水を供給することができるだろう。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。資料Bのグラフより，現在，世界中の政府が宇宙探査に投資している額は1030億ドルで，基本的教育の提供と空腹の緩和に必要とされる額は，それぞれ540億ドルと400億ドルである。よって，①が正解。",
+            "evidence_sentences": []
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p27.png",
+        "images/mondai_p28.png",
+        "images/mondai_p29.png",
+        "images/mondai_p30.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p24.png",
+        "images/kaitou_p25.png",
+        "images/kaitou_p26.png",
+        "images/kaitou_p27.png"
+      ],
+      "pdf_pages": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "boost O",
+              "ja": "Oを高める"
+            },
+            {
+              "en": "solar cell",
+              "ja": "太陽電池"
+            },
+            {
+              "en": "rely on A",
+              "ja": "Aに依存する／頼る"
+            },
+            {
+              "en": "launch O",
+              "ja": "Oを始める"
+            },
+            {
+              "en": "A involved",
+              "ja": "それに関わるA"
+            },
+            {
+              "en": "prestige",
+              "ja": "威信／名声"
+            },
+            {
+              "en": "colonize O",
+              "ja": "Oに植民地を建設する"
+            },
+            {
+              "en": "broadcast O",
+              "ja": "Oを伝える／放送する"
+            },
+            {
+              "en": "conquer O",
+              "ja": "Oを征服する"
+            },
+            {
+              "en": "associated with A",
+              "ja": "Aから連想される／Aに関わる"
+            },
+            {
+              "en": "if not ~",
+              "ja": "～とは言わないが／～ではないにせよ"
+            },
+            {
+              "en": "fatality rate",
+              "ja": "死亡率"
+            },
+            {
+              "en": "without doubt",
+              "ja": "疑いなく"
+            },
+            {
+              "en": "prioritize A over B",
+              "ja": "BよりもAを優先する"
+            },
+            {
+              "en": "insignificant",
+              "ja": "取るに足りない"
+            },
+            {
+              "en": "atmosphere",
+              "ja": "大気"
+            },
+            {
+              "en": "debris",
+              "ja": "ゴミ"
+            },
+            {
+              "en": "on the rise",
+              "ja": "増加して"
+            },
+            {
+              "en": "up to A",
+              "ja": "最高Aまで"
+            },
+            {
+              "en": "pose O",
+              "ja": "O（危険など）を引き起こす"
+            },
+            {
+              "en": "obstacle to A",
+              "ja": "Aへの障害"
+            },
+            {
+              "en": "compare A with B",
+              "ja": "AをBと比較する"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

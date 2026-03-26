@@ -6,7 +6,7 @@ Write-Host "  ============================================" -ForegroundColor Cya
 Write-Host ""
 
 $port = 8091
-$appDir = "g:\マイドライブ\ReadLens Pro"
+$appDir = $PSScriptRoot
 
 # Kill existing process on port
 $existing = Get-NetTCPConnection -LocalPort $port -ErrorAction SilentlyContinue
@@ -21,4 +21,4 @@ Write-Host "  Press Ctrl+C to stop" -ForegroundColor Gray
 Write-Host ""
 
 Set-Location $appDir
-npx -y http-server $appDir -p $port --cors -c-1
+python -m http.server $port --bind 127.0.0.1

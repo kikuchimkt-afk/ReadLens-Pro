@@ -1,0 +1,1347 @@
+{
+  "exam_info": {
+    "title": "大学入学共通テスト 英語（リーディング）",
+    "year": 2022,
+    "round": "本試験",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_points": 100,
+    "total_answer_numbers": 49,
+    "format": "6AB",
+    "section_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      "6A",
+      "6B"
+    ]
+  },
+  "sections": [
+    {
+      "section_number": "6A",
+      "title": "第6問 A",
+      "points": 12,
+      "pdf_pages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "passage_images": [
+        "images/mondai_p26.png",
+        "images/mondai_p27.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p18.png",
+        "images/kaitou_p19.png",
+        "images/kaitou_p20.png"
+      ],
+      "situation": {
+        "en": "Your study group is learning about \"how time of day affects people.\" You have found an article you want to share. Complete the summary notes for your next meeting.",
+        "ja": "あなたの学習グループは「1日の時間が人々にどのように影響するか」について学んでいる。あなたは共有したい記事を見つけた。次のミーティングのために要約メモを完成させなさい。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "When Does the Day Begin for You?",
+            "ja": "あなたにとって1日の始まりはいつですか？"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "6a_s1",
+                "en": "When asked \"Are you a morning person?\" some reply \"No, I'm a night owl.\"",
+                "ja": "「あなたは朝型ですか？」と尋ねられると「いいえ，私は夜型（夜更かしする人）です」と答える人がいる。"
+              },
+              {
+                "id": "6a_s2",
+                "en": "Such people can concentrate and create at night.",
+                "ja": "そのような人々は夜に集中して創造することができる。"
+              },
+              {
+                "id": "6a_s3",
+                "en": "At the other end of the clock, a well-known proverb claims: \"The early bird catches the worm,\" which means that waking early is the way to get food, win prizes, and reach goals.",
+                "ja": "時計の反対側で，よく知られたことわざに「早起き鳥は虫を捕らえる（早起きは三文の徳）」とあるが，それは，早く起きることは，食料を手に入れ，賞を獲得し，目的を達成するための方法だという意味である。"
+              },
+              {
+                "id": "6a_s4",
+                "en": "The lark is a morning singer, so early birds, the opposite of owls, are larks.",
+                "ja": "ヒバリは朝に鳴く鳥なので，フクロウの反対である早起き鳥は「ヒバリ」なのである。"
+              },
+              {
+                "id": "6a_s5",
+                "en": "Creatures active during the day are \"diurnal\" and those emerging at night are \"nocturnal.\"",
+                "ja": "昼間に活発な生物は「昼行性」であり，夜現れる生物は「夜行性」である。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s6",
+                "en": "Yet another proverb states: \"Early to bed, early to rise makes a man healthy, wealthy, and wise.\"",
+                "ja": "さらにもう一つのことわざに「早寝早起きは人を健康にし，裕福にし，賢くする」とある。"
+              },
+              {
+                "id": "6a_s7",
+                "en": "Larks may jump out of bed and welcome the morning with a big breakfast, while owls hit the snooze button, getting ready at the last minute, usually without breakfast.",
+                "ja": "ヒバリはベッドから勢いよく起きて，たっぷりの朝食をとって朝を迎えるかもしれない一方で，フクロウはスヌーズボタンを押し，ギリギリになってから準備をし，たいてい朝食をとらない。"
+              },
+              {
+                "id": "6a_s8",
+                "en": "They may have fewer meals, but they eat late in the day.",
+                "ja": "彼らは食事の回数が少ないかもしれないが，1日の遅い時間に食べるのだ。"
+              },
+              {
+                "id": "6a_s9",
+                "en": "Not exercising after meals can cause weight gain.",
+                "ja": "食後に運動をしないことは，体重増加を引き起こす可能性がある。"
+              },
+              {
+                "id": "6a_s10",
+                "en": "Perhaps larks are healthier.",
+                "ja": "おそらくヒバリの方が健康なのだろう。"
+              },
+              {
+                "id": "6a_s11",
+                "en": "Owls must work or learn on the lark schedule.",
+                "ja": "フクロウはヒバリのスケジュールで仕事や学習をしなければならない。"
+              },
+              {
+                "id": "6a_s12",
+                "en": "Most schooling occurs before 4:00 p.m., so young larks may perform certain tasks better.",
+                "ja": "たいていの学校教育は午後4時より前に行われるので，若いヒバリの方が特定の課題をより上手にこなすかもしれない。"
+              },
+              {
+                "id": "6a_s13",
+                "en": "Business deals made early in the day may make some larks wealthier.",
+                "ja": "1日の早い時間帯に行われる商売上の取引は，一部のヒバリたちをより裕福にするかもしれない。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s14",
+                "en": "What makes one person a lark and another an owl?",
+                "ja": "ある人をヒバリにし，別の人をフクロウにするものは何だろうか？"
+              },
+              {
+                "id": "6a_s15",
+                "en": "One theory suggests preference for day or night has to do with time of birth.",
+                "ja": "ある学説は，昼か夜かの好みは出生時刻と関係があると示唆する。"
+              },
+              {
+                "id": "6a_s16",
+                "en": "In 2010, Cleveland State University researchers found evidence that not only does a person's internal clock start at the moment of birth, but that those born at night might have lifelong challenges performing during daytime hours.",
+                "ja": "2010年，クリーブランド州立大学の研究者たちは，人の体内時計は誕生の瞬間に始まるだけでなく，夜に生まれた人たちは，昼間の時間帯に活動することが生涯の課題となるかもしれない，という証拠を発見した。"
+              },
+              {
+                "id": "6a_s17",
+                "en": "Usually, their world experience begins with darkness.",
+                "ja": "通常，彼らの世界体験は暗闇から始まるのだ。"
+              },
+              {
+                "id": "6a_s18",
+                "en": "Since traditional study time and office work happen in daylight, we assume that day begins in the morning.",
+                "ja": "伝統的な勉強時間とオフィスワークは日中に行われるため，私たちは1日が朝に始まると想定する。"
+              },
+              {
+                "id": "6a_s19",
+                "en": "People asleep are not first in line, and might miss chances.",
+                "ja": "眠っている人々は順番乗りではないので，チャンスを逃すかもしれない。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s20",
+                "en": "Does everyone follow the system of beginning days in the morning?",
+                "ja": "すべての人が，朝に1日が始まるシステムに従っているのだろうか。"
+              },
+              {
+                "id": "6a_s21",
+                "en": "The Jewish people, an approximately 6,000-year-old religious group, believe a day is measured from sundown until the following sundown—from eve to eve.",
+                "ja": "約6000年の歴史を持つ宗教団体であるユダヤ教徒は，1日は日没から翌日の日没まで，つまり夕方から夕方までで分けられていると信じている。"
+              },
+              {
+                "id": "6a_s22",
+                "en": "Christians continue this tradition with Christmas Eve.",
+                "ja": "キリスト教徒はクリスマスイブに関してこの伝統を続けている。"
+              },
+              {
+                "id": "6a_s23",
+                "en": "The Chinese use their system of 12 animals not only to mark years, but to separate each two-hour period of the day.",
+                "ja": "中国では，十二支（12の動物）の仕組みを，年を示すだけでなく，1日を2時間ごとに区切るためにも使う。"
+              },
+              {
+                "id": "6a_s24",
+                "en": "The hour of the rat, the first period, is from 11:00 p.m. to 1:00 a.m.",
+                "ja": "最初の時間であるネズミの時間は午後11時から午前1時までだ。"
+              },
+              {
+                "id": "6a_s25",
+                "en": "Chinese culture also begins the day at night.",
+                "ja": "中国の文化も1日を夜に始める。"
+              },
+              {
+                "id": "6a_s26",
+                "en": "In other words, ancient customs support how owls view time.",
+                "ja": "つまり，フクロウの時間の捉え方を古代の習慣が支持しているのだ。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s27",
+                "en": "Research indicates owls are smarter and more creative.",
+                "ja": "研究によると，フクロウはより賢く，より創造的であることが示されている。"
+              },
+              {
+                "id": "6a_s28",
+                "en": "So, perhaps larks are not always wiser!",
+                "ja": "だからおそらく，ヒバリの方が必ずしも賢いとは限らないのだ！"
+              },
+              {
+                "id": "6a_s29",
+                "en": "That is to say, larks win \"healthy\" and sometimes \"wealthy,\" but they may lose \"wise.\"",
+                "ja": "つまり，ヒバリは「健康」と，時には「富」で勝つが，「賢さ」では負けるかもしれない。"
+              },
+              {
+                "id": "6a_s30",
+                "en": "In an early report, Richard D. Roberts and Patrick C. Kyllonen state that owls tend to be more intelligent.",
+                "ja": "初期の報告では，リチャード・D・ロバーツとパトリック・C・カイロネンがフクロウはより知的である傾向があると述べている。"
+              },
+              {
+                "id": "6a_s31",
+                "en": "A later, comprehensive study by Franzis Preckel, for which Roberts was one of the co-authors, came to the same conclusion.",
+                "ja": "その後の，ロバーツも共同執筆者の1人として参加した，フランツ・プレッケルによる総合的な研究は，同じ結論に至った。"
+              },
+              {
+                "id": "6a_s32",
+                "en": "It is not all good news for owls, though.",
+                "ja": "しかし，それはフクロウにとって良いニュースばかりではない。"
+              },
+              {
+                "id": "6a_s33",
+                "en": "Not only can schoolwork be a challenge, but they may miss daytime career opportunities and are more likely to enjoy the bad habits of \"nightlife,\" playing at night while larks sleep.",
+                "ja": "学業が大変なだけでなく，彼らは昼間の仕事のチャンスを逃したり，ヒバリが寝ている夜に遊ぶ「夜遊び」という悪い習慣を楽しんだりする可能性がより高いのだ。"
+              },
+              {
+                "id": "6a_s34",
+                "en": "Nightlife tends to be expensive.",
+                "ja": "夜遊びはお金がかかる傾向がある。"
+              },
+              {
+                "id": "6a_s35",
+                "en": "A University of Barcelona study suggests larks are precise, seek perfection, and feel little stress.",
+                "ja": "バルセロナ大学の研究によると，ヒバリは几帳面で，完璧を求め，ストレスをあまり感じないと言う。"
+              },
+              {
+                "id": "6a_s36",
+                "en": "Owls seek new adventures and exciting leisure activities, yet they often have trouble relaxing.",
+                "ja": "フクロウは新しい冒険や刺激的な余暇活動を求めるが，リラックスするのに苦労することが多い。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s37",
+                "en": "Can people change?",
+                "ja": "人は変わることができるのか？"
+              },
+              {
+                "id": "6a_s38",
+                "en": "While the results are not all in, studies of young adults seem to say no, we are hard-wired.",
+                "ja": "まだすべての結果が出たわけではないが，若者を対象とした研究の結果によると，答えはいいえで，私たちは変化しにくいようだ。"
+              },
+              {
+                "id": "6a_s39",
+                "en": "So, as young people grow and acquire more freedom, they end up returning to their lark or owl nature.",
+                "ja": "だから，若者が成長し，より多くの自由を手に入れると，結局はヒバリやフクロウの性質に戻るのだ。"
+              },
+              {
+                "id": "6a_s40",
+                "en": "However, concerns arise that this categorization may not fit everyone.",
+                "ja": "しかし，この分類がすべての人に当てはまらないかもしれないという懸念が生じる。"
+              },
+              {
+                "id": "6a_s41",
+                "en": "In addition to time of birth possibly being an indication, a report published in Nature Communications suggests that DNA may also affect our habits concerning time.",
+                "ja": "「ネイチャー・コミュニケーション」誌に掲載された報告は，出生時刻がその兆候になる可能性に加えて，DNAも時間に関する習慣に影響を与えているかもしれないと示唆している。"
+              },
+              {
+                "id": "6a_s42",
+                "en": "Other works focus on changes occurring in some people due to aging or illness.",
+                "ja": "別の研究は，加齢や病気によって人々に生じている変化を重視している。"
+              },
+              {
+                "id": "6a_s43",
+                "en": "New research in this area appears all the time.",
+                "ja": "この分野では，常に新しい研究が現れている。"
+              },
+              {
+                "id": "6a_s44",
+                "en": "A study of university students in Russia suggests that there are six types, so owls and larks may not be the only birds around!",
+                "ja": "ロシアの大学生の研究では，6つのタイプがあることが示唆されている，だから周囲にいる鳥はフクロウとヒバリだけではないのかもしれない！"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "notes",
+          "title": {
+            "en": "Your summary notes:",
+            "ja": "あなたの要約メモ："
+          },
+          "type": "handout",
+          "paragraphs": [
+            [
+              {
+                "id": "6a_s45",
+                "en": "When Does the Day Begin for You?",
+                "ja": "あなたにとって1日の始まりはいつですか？"
+              }
+            ],
+            [
+              {
+                "id": "6a_s46",
+                "en": "Vocabulary",
+                "ja": "語彙"
+              },
+              {
+                "id": "6a_s47",
+                "en": "Definition of diurnal: [ 39 ]",
+                "ja": "昼行性の定義：[ 39 ]"
+              },
+              {
+                "id": "6a_s48",
+                "en": "⇔ opposite: nocturnal",
+                "ja": "⇔反対語：夜行性"
+              }
+            ],
+            [
+              {
+                "id": "6a_s49",
+                "en": "The Main Points",
+                "ja": "主なポイント"
+              },
+              {
+                "id": "6a_s50",
+                "en": "Not all of us fit easily into the common daytime schedule, but we are forced to follow it, especially when we are children.",
+                "ja": "私たち皆が，一般的な日中のスケジュールに容易に適応するわけではないが，特に子供の頃は，それに従うことを強いられている。"
+              },
+              {
+                "id": "6a_s51",
+                "en": "Some studies indicate that the most active time for each of us is part of our nature.",
+                "ja": "いくつかの研究は，私たちそれぞれにとって最も活動的な時間帯は，私たちの生来の性質の一部であることを示している。"
+              },
+              {
+                "id": "6a_s52",
+                "en": "Basically, [ 40 ].",
+                "ja": "基本的に[ 40 ]。"
+              },
+              {
+                "id": "6a_s53",
+                "en": "Perspectives keep changing with new research.",
+                "ja": "新しい研究によって，見方は変化し続けている。"
+              }
+            ],
+            [
+              {
+                "id": "6a_s54",
+                "en": "Interesting Details",
+                "ja": "興味深い点"
+              },
+              {
+                "id": "6a_s55",
+                "en": "The Jewish and Christian religions, as well as Chinese time division, are referred to in the article in order to [ 41 ].",
+                "ja": "[ 41 ]ために，中国の時間区分と同様に，ユダヤ教とキリスト教が記事で言及されている。"
+              },
+              {
+                "id": "6a_s56",
+                "en": "Some studies show that [ 42 ] may set a person's internal clock and may be the explanation for differences in intelligence and [ 43 ].",
+                "ja": "いくつかの研究によると，[ 42 ]は人の体内時計を設定する可能性があり，知性と[ 43 ]の違いの説明になるかもしれない。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 39,
+          "stem": {
+            "en": "Choose the best option for [ 39 ].",
+            "ja": "「[ 39 ]に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "achieves goals quickly",
+              "ja": "素早く目的を達成する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "likes keeping pet birds",
+              "ja": "ペットの鳥を飼うことを好む",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "lively in the daytime",
+              "ja": "昼間に元気な",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "skillful in finding food",
+              "ja": "食料を入手することに熟練している",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。[ 39 ]にはdiurnal (昼行性) という語の定義が入る。本文第1段落最終文に, Creatures active during the day are \"diurnal\" (昼間に活発な生物は「昼行性」である) と書かれている。active を lively in the daytime に言い換えた③が正解。①, ②, ④の内容は, 「昼行性」という言葉の説明として書かれていないので, 不適当。",
+            "evidence_sentences": [
+              "6a_s5"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 40,
+          "stem": {
+            "en": "Choose the best option for [ 40 ].",
+            "ja": "「[ 40 ]に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a more flexible time and performance schedule will be developed in the future",
+              "ja": "将来は，より柔軟な時間や仕事のスケジュールが開発されるだろう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "enjoying social activities in the morning becomes more important as we age",
+              "ja": "年齢を重ねるごとに，午前中に社会活動を楽しむことがより重要になる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "it might be hard for us to change what time of day we perform best",
+              "ja": "1日の中で最も能力を発揮できる時間帯を変えるのは難しいかもしれない",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "living on the owl schedule will eventually lead to social and financial benefits",
+              "ja": "フクロウのスケジュールで生活することは，やがて社会的，経済的な利益につながるだろう",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "正解は③。[ 40 ]は，メモのThe Main Pointsの3つ目。1つ目には，「特に子供の頃は，皆が昼型のスケジュールに合わせることを強いられる」(第2段落後半の内容)，2つ目には「それぞれの活動的な時間帯は私たちの生来の性質の一部である」とある。この2つ目のポイントは，第3段落の「昼型か夜型かは出生時刻に関係している」「夜に生まれた人は昼間に行動することが一生の苦手である」といった内容をまとめたものである。4つ目のポイントは「新しい研究」についてで，これは第6段落後半の内容。これ以外の主なポイントを探す。「より柔軟な時間や仕事のスケジュールが開発される」という記述は本文中にないので①は不適当。「午前中に社会活動を楽しむことが重要」なのは，学校教育において始まることで，年齢が上がるにつれて重要性が増すといったことは言及されていないので，②も不適当。③については，本文第6段落第1文でCan people change? (人は(昼型，夜型を)変わることができるのか？) と問いかけ，次の文でno, we are hard-wired. (答えはいいえで，私たちは変化しにくいようだ。) と答えている。hard-wired は「(生まれつき備わっているものは) 変化しにくい」という意味だが，知らなくても次の文を読めば理解できる。次の第6段落第3文にSo, as young people grow and acquire more freedom, they end up returning to their lark or owl nature. (だから若者が成長し，より多くの自由を手に入れると，結局はヒバリやフクロウの性質に戻るのだ。) とある。つまり，「人は昼型か夜型かを変えることはできない。それは生まれつき備わっているもので，無理やり変えようとしても生まれ持った時間帯の型に戻る」ということだから，③が正解。④については，第2段落最終文にBusiness deals made early in the day may make some larks wealthier. (1日の早い時間帯に行われる商売上の取引は，ヒバリたちをより裕福にするかもしれない。) とあるように，「経済的な利益を得る」可能性が高いのは，ヒバリのスケジュールで生活している人だから，④も不適当。",
+            "evidence_sentences": [
+              "6a_s37",
+              "6a_s38",
+              "6a_s39"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 41,
+          "stem": {
+            "en": "Choose the best option for [ 41 ].",
+            "ja": "「[ 41 ]に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "explain that certain societies have long believed that a day begins at night",
+              "ja": "特定の社会は，1日は夜に始まると長く信じてきたと説明する",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "indicate that nocturnal people were more religious in the past",
+              "ja": "夜型の人々は，昔はより信仰心が強かったことを示す",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "say that people have long thought they miss chances due to morning laziness",
+              "ja": "朝に怠惰なせいでチャンスを逃すと，人々は長く考えてきたと言う",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "support the idea that owls must go to work or school on the lark schedule",
+              "ja": "フクロウはヒバリのスケジュールで仕事や学校に行かなければならないという考えを支持する",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "正解は①。中国，ユダヤ教，キリスト教の時間区分が，記事で言及されている理由を答える問題。関連する記述は第4段落にある。それぞれの時間の概念を見ると，第2文にThe Jewish people ... believe a day is measured from sundown until the following sundown (ユダヤ教徒は，1日は日没から翌日の日没までで分けられていると信じている)，第3文にChristians continue this tradition with Christmas Eve. (キリスト教徒はクリスマスイブに関してこの伝統を続けている。)，第6文にChinese culture also begins the day at night. (中国の文化も1日を夜に始める。) と書いてある。この長い歴史を持つ3つの社会に共通するのは「1日は夜に始まると長く信じてきた」ということだから，①が正解。夜型の人々と信仰心の強さの関係については書かれていないので②は不適当。「朝に怠惰なせいでチャンスを逃すかもしれない」「フクロウがヒバリのスケジュールで仕事をしたり，勉強したりしなければならない」は第2段落第6文に書かれているが，いずれも，3つの宗教が記事で言及されている理由とは関係ないので，③と④も不適当。",
+            "evidence_sentences": [
+              "6a_s21",
+              "6a_s22",
+              "6a_s25"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 42,
+          "answer_numbers": [
+            42,
+            43
+          ],
+          "stem": {
+            "en": "Choose the best options for [ 42 ] and [ 43 ].",
+            "ja": "「[ 42 ]と[ 43 ]に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "amount of sleep",
+              "ja": "睡眠の量",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "appearance",
+              "ja": "外見",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "behavior",
+              "ja": "行動",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "cultural background",
+              "ja": "文化的背景",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "religious beliefs",
+              "ja": "宗教的信念",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "time of birth",
+              "ja": "出生時刻",
+              "is_correct": true
+            }
+          ],
+          "answers_42_43": [
+            "⑥",
+            "③"
+          ],
+          "explanation": {
+            "ja": "正解は⑥と③。空所を含む文の意味は「いくつかの研究によると [ 42 ] は人の体内時計を設定する可能性があり，知性と [ 43 ] の違いの説明になるかもしれない。」「体内時計」に関する記述を探すと，第3段落第2・3文にOne theory suggests preference for day or night has to do with time of birth. ... researchers found evidence that not only does a person's internal clock start at the moment of birth ... (ある学説は，昼か夜かの好みは出生時刻と関係があると示唆する…研究者たちは，人の体内時計は誕生の瞬間に始まるだけでなく…証拠を発見した) とある。つまり，出生時に体内時計が設定されるのだから，[ 42 ]には⑥「出生時刻」を入れる。[ 43 ]には，体内時計，つまり昼型か夜型かによってもたらされる違いが入る。昼型，夜型は，この記事の中ではlarks (ヒバリ)，owls (フクロウ) で表されている。(larks, owlsとイタリック体(斜体)になっているのは，そこに昼型，夜型という意味を込めているため。) 違いの1つとしてintelligence (知性) はすでに挙げてあるので，それ以外の違いを探す。第5段落第7文にthey (= owls) ... are more likely to enjoy the bad habits of \"nightlife,\" playing at night while larks sleep (ヒバリが寝ている間に，フクロウは夜に遊ぶ「夜遊び」の悪い習慣を楽しんだりする可能性が高い) と書かれている。また，同段落第9・10文に... larks are precise, seek perfection, and feel little stress. Owls seek new adventures and exciting leisure activities, yet they often have trouble relaxing. (ヒバリは几帳面で，完璧を求め，ストレスをあまり感じない。フクロウは新しい冒険や刺激的な余暇活動を求めるが，リラックスするのに苦労することが多い。) と書かれている。このように，昼型と夜型には行動の違いがみられるので，③「行動」が正解。「睡眠の量」「外見」については本文に書かれていないので，①と②は不適当。また，「文化的背景」「宗教的信念」も，体内時計と関連するとは書かれていないので，④と⑤も不適当。",
+            "evidence_sentences": [
+              "6a_s15",
+              "6a_s16",
+              "6a_s33",
+              "6a_s35",
+              "6a_s36"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "ja": "〜に影響を与える",
+              "en": "affect"
+            },
+            {
+              "ja": "夜型（人間）（owlは「フクロウ」）",
+              "en": "night owl"
+            },
+            {
+              "ja": "ことわざ",
+              "en": "proverb"
+            },
+            {
+              "ja": "「ヒバリ」（この文章ではlark（イタリック体で）「昼型の人」を表す）",
+              "en": "lark"
+            },
+            {
+              "ja": "現れる",
+              "en": "emerge"
+            },
+            {
+              "ja": "ギリギリになってから",
+              "en": "at the last minute"
+            },
+            {
+              "ja": "学校教育",
+              "en": "schooling"
+            },
+            {
+              "ja": "生じる",
+              "en": "occur"
+            },
+            {
+              "ja": "課題",
+              "en": "task"
+            },
+            {
+              "ja": "商売上の取引",
+              "en": "business deal"
+            },
+            {
+              "ja": "学説",
+              "en": "theory"
+            },
+            {
+              "ja": "好み",
+              "en": "preference"
+            },
+            {
+              "ja": "〜と関係がある",
+              "en": "have to do with ~"
+            },
+            {
+              "ja": "体内時計",
+              "en": "internal clock"
+            },
+            {
+              "ja": "一生の",
+              "en": "lifelong"
+            },
+            {
+              "ja": "〜と思いこむ",
+              "en": "assume"
+            },
+            {
+              "ja": "宗教の",
+              "en": "religious"
+            },
+            {
+              "ja": "〜を測って分ける",
+              "en": "measure"
+            },
+            {
+              "ja": "伝統",
+              "en": "tradition"
+            },
+            {
+              "ja": "〜ということを示す",
+              "en": "indicate"
+            },
+            {
+              "ja": "総合的な",
+              "en": "comprehensive"
+            },
+            {
+              "ja": "きちんとした",
+              "en": "precise"
+            },
+            {
+              "ja": "…するのに苦労する",
+              "en": "have trouble doing"
+            },
+            {
+              "ja": "変化しにくい；生まれつき備わっている",
+              "en": "hard-wired"
+            },
+            {
+              "ja": "結局〜になる",
+              "en": "end up ~"
+            },
+            {
+              "ja": "懸念（事項）",
+              "en": "concern"
+            },
+            {
+              "ja": "生じる",
+              "en": "arise"
+            },
+            {
+              "ja": "〜に加えて",
+              "en": "in addition to ~"
+            },
+            {
+              "ja": "兆候",
+              "en": "indication"
+            },
+            {
+              "ja": "〜を重視する",
+              "en": "focus on ~"
+            },
+            {
+              "ja": "定義",
+              "en": "definition"
+            },
+            {
+              "ja": "Aに…することを強いる",
+              "en": "force A to do"
+            },
+            {
+              "ja": "見方",
+              "en": "perspective"
+            },
+            {
+              "ja": "（分割された）区分",
+              "en": "division"
+            },
+            {
+              "ja": "柔軟な",
+              "en": "flexible"
+            },
+            {
+              "ja": "やがて",
+              "en": "eventually"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": "6B",
+      "title": "第6問 B",
+      "points": 12,
+      "pdf_pages": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "passage_images": [
+        "images/mondai_p30.png",
+        "images/mondai_p31.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p20.png",
+        "images/kaitou_p21.png",
+        "images/kaitou_p22.png",
+        "images/kaitou_p23.png"
+      ],
+      "situation": {
+        "en": "You are in a student group preparing a poster for a scientific presentation contest with the theme \"What we should know in order to protect the environment.\" You have been using the following passage to create the poster.",
+        "ja": "あなたは，『環境を守るために知っておくべきこと』というテーマで，科学プレゼンテーションコンテストのためのポスターを準備している学生グループに所属しています。あなたは，ポスターを作るために次の抜粋を使っています。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Recycling Plastic\n—What You Need to Know—",
+            "ja": "プラスチックのリサイクル\n―知っておく必要があること―"
+          },
+          "graph_image": {
+            "src": "images/mondai_p30_fig1.png",
+            "alt": "Figure 1. Plastic recycling symbols",
+            "after_paragraph": 1
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "6b_s1",
+                "en": "The world is full of various types of plastic.",
+                "ja": "世界はさまざまな種類のプラスチックで満ちている。"
+              },
+              {
+                "id": "6b_s2",
+                "en": "Look around, and you will see dozens of plastic items.",
+                "ja": "周りを見回すと，多数のプラスチック製品が見えるだろう。"
+              },
+              {
+                "id": "6b_s3",
+                "en": "Look closer and you will notice a recycling symbol on them.",
+                "ja": "もっと近づいて見なさい。そうすればリサイクルマークがついていることに気づくだろう。"
+              },
+              {
+                "id": "6b_s4",
+                "en": "In Japan, you might have seen the first symbol in Figure 1 below, but the United States and Europe have a more detailed classification.",
+                "ja": "日本では，下の図1の1つ目のマークを見たことがあるかもしれないが，アメリカ合衆国やヨーロッパにはもっと詳細な分類がある。"
+              },
+              {
+                "id": "6b_s5",
+                "en": "These recycling symbols look like a triangle of chasing pointers, or sometimes a simple triangle with a number from one to seven inside.",
+                "ja": "これらのリサイクルマークには，矢印を追いかける三角形のようなものや，時には単純な三角形で，1から7までの数字が中に書かれているものがある。"
+              },
+              {
+                "id": "6b_s6",
+                "en": "This system was started in 1988 by the Society of the Plastics Industry in the US, but since 2008 it has been administered by an international standards organization, ASTM (American Society for Testing and Materials) International.",
+                "ja": "このシステムは1988年に合衆国のプラスチック産業会によって始められたが，2008年以降は国際標準化団体であるASTM（アメリカ材料試験協会）インターナショナルによって運営されている。"
+              },
+              {
+                "id": "6b_s7",
+                "en": "Recycling symbols provide important data about the chemical composition of plastic used and its recyclability.",
+                "ja": "リサイクルマークは，使用されているプラスチックの化学成分とリサイクル性に関する重要なデータを提供する。"
+              },
+              {
+                "id": "6b_s8",
+                "en": "However, a plastic recycling symbol on an object does not always mean that the item can be recycled.",
+                "ja": "しかし，物に表示されているプラスチックリサイクルマークは，必ずしもその製品がリサイクルできることを意味しているとは限らない。"
+              },
+              {
+                "id": "6b_s9",
+                "en": "It only shows what type of plastic it is made from and that it might be recyclable.",
+                "ja": "それがどのような種類のプラスチックから作られているか，そしてリサイクルできる可能性があるかもしれないことを示しているに過ぎない。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s10",
+                "en": "So, what do these numbers mean?",
+                "ja": "では，これらの数字は何を意味するのだろうか。"
+              },
+              {
+                "id": "6b_s11",
+                "en": "One group (numbers 2, 4, and 5) is considered to be safe for the human body, while the other group (numbers 1, 3, 6, and 7) could be problematic in certain circumstances.",
+                "ja": "一つのグループ（2番，4番，5番）は人体に安全だとみなされる一方，もう一方のグループ（1番，3番，6番，7番）は，ある特定の状況では問題のある恐れがある。"
+              },
+              {
+                "id": "6b_s12",
+                "en": "Let us look at the safer group first.",
+                "ja": "まず，安全性の高いグループを見ていこう。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s13",
+                "en": "High-density Polyethylene is a recycle-type 2 plastic and is commonly called HDPE.",
+                "ja": "高密度ポリエチレンは，リサイクルタイプ2のプラスチックで，通常HDPEと呼ばれている。"
+              },
+              {
+                "id": "6b_s14",
+                "en": "It is non-toxic and can be used in the human body for heart valves and artificial joints.",
+                "ja": "無毒で，心臓弁や人工関節など人体に使われることもある。"
+              },
+              {
+                "id": "6b_s15",
+                "en": "It is strong and can be used at temperatures as low as -40°C and as high as 100°C.",
+                "ja": "強度があり，-40℃の低温から100℃の高温で使用できる。"
+              },
+              {
+                "id": "6b_s16",
+                "en": "HDPE can be reused without any harm and is also suitable for beer-bottle cases, milk jugs, chairs, and toys.",
+                "ja": "HDPEは害なく再利用でき，ビール瓶のケース，牛乳用の容器，椅子，玩具などにも適している。"
+              },
+              {
+                "id": "6b_s17",
+                "en": "Type 2 products can be recycled several times.",
+                "ja": "タイプ2の製品は数回のリサイクルができる。"
+              },
+              {
+                "id": "6b_s18",
+                "en": "Type 4 products are made from Low-density Polyethylene (LDPE).",
+                "ja": "タイプ4の製品は，低密度ポリエチレン(LDPE)から作られている。"
+              },
+              {
+                "id": "6b_s19",
+                "en": "They are safe to use and are flexible.",
+                "ja": "安全に使用でき，柔軟性がある。"
+              },
+              {
+                "id": "6b_s20",
+                "en": "LDPE is used for squeezable bottles, and bread wrapping.",
+                "ja": "LDPEは，絞り出し式のボトルやパンの包装に使われている。"
+              },
+              {
+                "id": "6b_s21",
+                "en": "Currently, very little Type 4 plastic is recycled.",
+                "ja": "現在，タイプ4のプラスチックはほとんどリサイクルされていない。"
+              },
+              {
+                "id": "6b_s22",
+                "en": "Polypropylene (PP), a Type 5 material, is the second-most widely produced plastic in the world.",
+                "ja": "ポリプロピレン(PP)はタイプ5の素材で，世界で2番目に広範囲に渡って生産されているプラスチックだ。"
+              },
+              {
+                "id": "6b_s23",
+                "en": "It is light, non-stretching, and has a high resistance to impact, heat, and freezing.",
+                "ja": "軽くて伸びず，衝撃・熱・凍結に高い耐性を持つ。"
+              },
+              {
+                "id": "6b_s24",
+                "en": "It is suitable for furniture, food containers, and polymer banknotes such as the Australian dollar.",
+                "ja": "家具や食品容器，オーストラリアドルのようなポリマー紙幣に適している。"
+              },
+              {
+                "id": "6b_s25",
+                "en": "Only 3% of Type 5 is recycled.",
+                "ja": "タイプ5のわずか3%しかリサイクルされていない。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s26",
+                "en": "Now let us look at the second group, Types 1, 3, 6, and 7.",
+                "ja": "今度は2つ目のグループ，タイプ1，3，6，7を見よう。"
+              },
+              {
+                "id": "6b_s27",
+                "en": "These are more challenging because of the chemicals they contain or the difficulty in recycling them.",
+                "ja": "これらは，含有する化学物質やリサイクルの難しさから，難易度が高い。"
+              },
+              {
+                "id": "6b_s28",
+                "en": "Recycle-type 1 plastic is commonly known as PETE (Polyethylene Terephthalate), and is used mainly in food and beverage containers.",
+                "ja": "リサイクルタイプ1のプラスチックは，一般的にPETE（ポリエチレンテレフタレート）として知られ，主に食品や飲料の容器に使用されている。"
+              },
+              {
+                "id": "6b_s29",
+                "en": "PETE containers - or PET as it is often written in Japan - should only be used once as they are difficult to clean thoroughly.",
+                "ja": "PETE容器は，日本ではたいていPETと書かれるものだが，完全に洗浄するのが難しいため，使用は1回だけにすべきだ。"
+              },
+              {
+                "id": "6b_s30",
+                "en": "Also, they should not be heated above 70°C as this can cause some containers to soften and change shape.",
+                "ja": "また，熱は容器が軟化し変形する原因になることがあるので，70℃以上に加熱してはいけない。"
+              },
+              {
+                "id": "6b_s31",
+                "en": "Uncontaminated PETE is easy to recycle and can be made into new containers, clothes, or carpets, but if PETE is contaminated with Polyvinyl Chloride (PVC), it can make it unrecyclable.",
+                "ja": "汚染されていないPETEはリサイクルしやすく，新しい容器や衣類，カーペットに作り替えることができる。しかし，PETEにポリ塩化ビニル(PVC)が混入して汚染されると，そのせいでリサイクルできなくなることがある。"
+              },
+              {
+                "id": "6b_s32",
+                "en": "PVC, Type 3, is thought to be one of the least recyclable plastics known.",
+                "ja": "タイプ3のPVCは，知られている中で最もリサイクル性の低いプラスチックの1つと考えられている。"
+              },
+              {
+                "id": "6b_s33",
+                "en": "It should only be disposed of by professionals and never set fire to at home or in the garden.",
+                "ja": "廃棄は専門家だけが行うべきで，家庭や庭で火をつけてはいけない。"
+              },
+              {
+                "id": "6b_s34",
+                "en": "Type 3 plastic is found in shower curtains, pipes, and flooring.",
+                "ja": "タイプ3のプラスチックは，シャワーカーテン，パイプ，床材に見られる。"
+              },
+              {
+                "id": "6b_s35",
+                "en": "Type 6, Polystyrene (PS) or Styrofoam as it is often called, is hard to recycle and catches fire easily.",
+                "ja": "タイプ6のポリスチレン(PS)はしばしば発泡スチロールと呼ばれるものだが，リサイクルするのが難しく，引火しやすい。"
+              },
+              {
+                "id": "6b_s36",
+                "en": "However, it is cheap to produce and lightweight.",
+                "ja": "しかし，製造コストが安く，軽い。"
+              },
+              {
+                "id": "6b_s37",
+                "en": "It is used for disposable drinking cups, instant noodle containers, and other food packaging.",
+                "ja": "使い捨ての飲料用カップやインスタント麺の容器や，その他の食品包装に使われている。"
+              },
+              {
+                "id": "6b_s38",
+                "en": "Type 7 plastics (acrylics, nylons, and polycarbonates) are difficult to recycle.",
+                "ja": "タイプ7のプラスチック（アクリル，ナイロン，ポリカーボネート）はリサイクルするのが難しい。"
+              },
+              {
+                "id": "6b_s39",
+                "en": "Type 7 plastics are often used in the manufacture of vehicle parts such as seats, dashboards, and bumpers.",
+                "ja": "タイプ7のプラスチックは，シート，ダッシュボード，バンパーのような自動車部品の製造によく使用されている。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s40",
+                "en": "Currently, only about 20% of plastic is recycled, and approximately 55% ends up in a landfill.",
+                "ja": "現在，プラスチックは約20%しかリサイクルされておらず，約55%が最後には埋め立てゴミ処理地に行き着く。"
+              },
+              {
+                "id": "6b_s41",
+                "en": "Therefore, knowledge about different types of plastic could help reduce waste and contribute to an increased awareness of the environment.",
+                "ja": "そのため，さまざまな種類のプラスチックについての知識が，ゴミを減らすことに役立ち，環境に対する意識を高めることに貢献できるだろう。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "draft_poster",
+          "title": {
+            "en": "Your presentation poster draft:",
+            "ja": "あなたのプレゼンテーションポスターの下書き："
+          },
+          "type": "handout",
+          "paragraphs": [
+            [
+              {
+                "id": "6b_s42",
+                "en": "Do you know the plastic recycling symbols?",
+                "ja": "プラスチックリサイクルマークを知っていますか？"
+              }
+            ],
+            [
+              {
+                "id": "6b_s43",
+                "en": "What are plastic recycling symbols?",
+                "ja": "プラスチックリサイクルマークとは何？"
+              },
+              {
+                "id": "6b_s44",
+                "en": "[ 44 ]",
+                "ja": "[ 44 ]"
+              }
+            ],
+            [
+              {
+                "id": "6b_s45",
+                "en": "Types of plastic and recycling information",
+                "ja": "プラスチックのタイプとリサイクル情報"
+              }
+            ],
+            [
+              {
+                "id": "6b_s46",
+                "en": "Type | Symbol | Description | Products",
+                "ja": "タイプ | マーク | 説明 | 製品"
+              },
+              {
+                "id": "6b_s47",
+                "en": "1 | PETE | This type of plastic is common and generally easy to recycle. | drink bottles, food containers, etc.",
+                "ja": "1 | PETE | このタイプのプラスチックは一般的で，通常リサイクルしやすい。 | 飲料の瓶，食品容器など。"
+              },
+              {
+                "id": "6b_s48",
+                "en": "2 | HDPE | This type of plastic is easily recycled [ 45 ]. | heart valves, artificial joints, chairs, toys, etc.",
+                "ja": "2 | HDPE | このタイプのプラスチックはリサイクルしやすく，[ 45 ]。 | 心臓弁，人工関節，椅子，玩具など。"
+              },
+              {
+                "id": "6b_s49",
+                "en": "3 | PVC | This type of plastic is [ 46 ]. | shower curtains, pipes, flooring, etc.",
+                "ja": "3 | PVC | このタイプのプラスチックは[ 46 ]。 | シャワーカーテン，パイプ，床材など。"
+              }
+            ],
+            [
+              {
+                "id": "6b_s50",
+                "en": "Plastics with common properties",
+                "ja": "共通の性質を持つプラスチック"
+              },
+              {
+                "id": "6b_s51",
+                "en": "[ 47 ] [ 48 ]",
+                "ja": "[ 47 ] [ 48 ]"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 44,
+          "stem": {
+            "en": "Under the first poster heading, your group wants to introduce the plastic recycling symbols as explained in the passage. Which of the following is the most appropriate? [ 44 ]",
+            "ja": "「最初のポスターの見出しの下で，あなたのグループは抜粋部分で説明されたように，プラスチックリサイクルマークを紹介したいと考えています。以下のうちどれが最も適切ですか。」[ 44 ]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "They are symbols that rank the recyclability of plastics and other related problems.",
+              "ja": "それらはプラスチックのリサイクル性とその他の関連する問題に順位を付けたマークだ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "They provide information on the chemical make-up and recycling options of the plastic.",
+              "ja": "それらはプラスチックの化学組成やリサイクルの選択肢に関する情報を提供する。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "They tell the user which standards organization gave them certificates for general use.",
+              "ja": "それらはどの標準化団体が一般的使用を認証したのかを使用者に教える。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "They were introduced by ASTM and developed by the Society of the Plastics Industry.",
+              "ja": "それらはASTMによって導入され，プラスチック産業会によって発展させられた。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "正解は②。[ 44 ]の上には「プラスチックリサイクルマークとは何？」と書かれているので，[ 44 ]にはプラスチックリサイクルマークの持つ意味が入ると考えられる。本文第1段落第7文にRecycling symbols provide important data about the chemical composition of plastic used and its recyclability. (リサイクルマークは，使用されているプラスチックの化学成分とリサイクル性に関する重要なデータを提供する。) と書かれている。文中のchemical composition を chemical make-up, recyclability を recycling optionsと言い換えた②が正解。リサイクルマークの中に数字があるが，リサイクルの順位ではないので①は不適当。マークから認証団体がわかるという記述はないので③は不適当。また，第1段落第6文によると，リサイクルマークを導入したのがプラスチック産業会で，発展させたのはASTMであるから，④に書かれている内容は逆である。",
+            "evidence_sentences": [
+              "6b_s7",
+              "6b_s6"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 45,
+          "answer_numbers": [
+            45,
+            46
+          ],
+          "stem": {
+            "en": "You have been asked to write descriptions of Type 2 and Type 3 plastics. Choose the best options for [ 45 ] and [ 46 ].",
+            "ja": "「あなたはタイプ2とタイプ3のプラスチックの説明を書くように頼まれています。[ 45 ]と[ 46 ]に最も適する選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "and commonly known as a single-use plastic",
+              "ja": "そして，一般に使い捨てのプラスチックとして知られている",
+              "is_correct": false,
+              "group": "45"
+            },
+            {
+              "label": "②",
+              "en": "and used at a wide range of temperatures",
+              "ja": "そして，広い温度範囲で使用される",
+              "is_correct": true,
+              "group": "45"
+            },
+            {
+              "label": "③",
+              "en": "but harmful to humans",
+              "ja": "しかし，人間に有害である",
+              "is_correct": false,
+              "group": "45"
+            },
+            {
+              "label": "④",
+              "en": "but unsuitable for drink containers",
+              "ja": "しかし，飲料容器には不適当である",
+              "is_correct": false,
+              "group": "45"
+            },
+            {
+              "label": "①",
+              "en": "difficult to recycle and should not be burned in the yard",
+              "ja": "リサイクルが難しく，庭で燃やしてはいけない",
+              "is_correct": true,
+              "group": "46"
+            },
+            {
+              "label": "②",
+              "en": "flammable; however, it is soft and cheap to produce",
+              "ja": "可燃性だが，柔らかくて製造コストが安い",
+              "is_correct": false,
+              "group": "46"
+            },
+            {
+              "label": "③",
+              "en": "known to be a non-toxic product",
+              "ja": "毒性がない製品として知られている",
+              "is_correct": false,
+              "group": "46"
+            },
+            {
+              "label": "④",
+              "en": "well known for being easily recyclable",
+              "ja": "リサイクルしやすいことでよく知られている",
+              "is_correct": false,
+              "group": "46"
+            }
+          ],
+          "answers_45_46": [
+            "②",
+            "①"
+          ],
+          "explanation": {
+            "ja": "正解は②と①。タイプ2のプラスチック（HDPE）の説明は第3段落前半にある。第3文のIt is strong and can be used at temperatures as low as -40°C and as high as 100°C. (強度があり，-40℃の低温から100℃の高温まで使用できる。) をused at a wide range of temperatures (広い温度範囲で使用される) と言い換えた②が正解。第2文にnon-toxic and can be used in the human body (無毒で，人体で使われることもある) とあるので，③は不適当。第4文にHDPE can be reused without any harm and is also suitable for beer-bottle cases, milk jugs (HDPEは害なく再利用でき，ビール瓶のケース，牛乳用の容器にも適している) とあるので，①，④も不適当。タイプ3（PVC）の説明は第4段落第7〜9文にある。第7・8文のPVC, Type 3, is thought to be one of the least recyclable plastics known. It (=PVC) should ... never (be) set fire to at home or in the garden. (タイプ3のPVCは，知られている中で最もリサイクル性の低いプラスチックの1つと考えられている。PVCは家庭や庭で火をつけてはいけない。) に一致する①が正解。④はこの内容と反対のことなので不適当。また，タイプ3の特徴として「柔らかくて製造コストが安い」「毒性がない」は書かれていないので，②と③も不適当。",
+            "evidence_sentences": [
+              "6b_s15",
+              "6b_s32",
+              "6b_s33"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 47,
+          "answer_numbers": [
+            47,
+            48
+          ],
+          "stem": {
+            "en": "You are making statements about some plastics which share common properties. According to the article, which two of the following are appropriate? (The order does not matter.) [ 47 ] [ 48 ]",
+            "ja": "「あなたは，共通の性質を持ついくつかのプラスチックについて発表をすることになっています。記事によると，次のうち適切なもの2つはどれですか。(順不同。)」[ 47 ] [ 48 ]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Boiling water (100°C) can be served in Type 1 and Type 6 plastic containers.",
+              "ja": "沸騰したお湯(100℃)をタイプ1とタイプ6のプラスチック容器に入れて出すことができる。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "It is easy to recycle products with Type 1, 2, and 3 logos.",
+              "ja": "タイプ1，2，3のロゴがある製品は，リサイクルしやすい。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Products with the symbols 1, 2, 4, 5, and 6 are suitable for food or drink containers.",
+              "ja": "1，2，4，5，6のマークがある製品は，食品や飲料の容器に適している。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Products with Type 5 and Type 6 markings are light in weight.",
+              "ja": "タイプ5，タイプ6の表示がある製品は軽量である。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Type 4 and 5 plastics are heat resistant and are widely recycled.",
+              "ja": "タイプ4と5のプラスチックは耐熱性があり，広くリサイクルされている。",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Type 6 and 7 plastics are easy to recycle and environmentally friendly.",
+              "ja": "タイプ6と7のプラスチックはリサイクルしやすく，環境に優しい。",
+              "is_correct": false
+            }
+          ],
+          "answers_47_48": [
+            "③",
+            "④"
+          ],
+          "explanation": {
+            "ja": "正解は③と④(順不同)。選択肢の内容が本文に一致するか見ていこう。タイプ1のPETEについて，第4段落第5文にthey (=PETE containers) should not be heated above 70°C (PETE容器は70℃以上に加熱してはいけない) とあるので①は不適当。問2で見たように，タイプ3(PVC) の製品はリサイクルが難しいので②も不適当。③については，第4段落第3文 Recycle-type 1 plastic ... is used mainly in food and beverage containers. (リサイクルタイプ1のプラスチックは…主に食品や飲料の容器に使用されている。)，第3段落第4文 HDPE ... is also suitable for beer-bottle cases, milk jugs (HDPE（＝タイプ2）はビール瓶のケース，牛乳用の容器などにも適している)，第3段落第8文 LDPE is used for squeezable bottles, and bread wrapping. (LDPE（＝タイプ4）は，絞り出し式のボトルやパンの包装に使われている。)，第3段落第12文 It (=Type 5) is suitable for furniture, food containers, ... (タイプ5は家具や食品容器に適している)，第4段落第12文 It (=Type 6) is used for disposable drinking cups, instant noodle containers, and other food packaging. (タイプ6は使い捨ての飲料用カップやインスタント麺の容器や，その他の食品包装に使われている。) と，タイプ1，2，4，5，6のすべてが飲料や食品の容器に使われていると書かれており，③は正解。④については，第3段落第11文にIt (=a Type 5 material) is light (タイプ5の素材は軽い)，第4段落第11文にit (=Type 6) is cheap to produce and lightweight (タイプ6は製造コストが安く，軽い) と書かれており，④も正解。⑤については，タイプ5は耐熱性があるということは，第3段落第11文にIt (=Type 5) ... has a high resistance to impact, heat, and freezing (タイプ5は，衝撃・熱・凍結に高い耐性を持つ) と書いてあるが，タイプ4の耐熱性に関する記述はない。リサイクルについては，第3段落第9文にvery little Type 4 plastic is recycled (タイプ4のプラスチックはほとんどリサイクルされていない)，第3段落最終文にOnly 3% of Type 5 is recycled. (タイプ5のわずか3%しかリサイクルされていない。) とあるので⑤は不適当。⑥については，第4段落第10文にType 6 ... is hard to recycle (タイプ6はリサイクルするのが難しい)，同段落第13文にType 7 plastics ... are difficult to recycle. (タイプ7のプラスチックはリサイクルするのが難しい。) とあるので，⑥も不適当。したがって③と④が正解。",
+            "evidence_sentences": [
+              "6b_s30",
+              "6b_s28",
+              "6b_s16",
+              "6b_s20",
+              "6b_s24",
+              "6b_s37",
+              "6b_s23",
+              "6b_s36",
+              "6b_s35",
+              "6b_s38"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "ja": "テーマ",
+              "en": "theme"
+            },
+            {
+              "ja": "抜粋；一節",
+              "en": "passage"
+            },
+            {
+              "ja": "多数の〜",
+              "en": "dozens of ~"
+            },
+            {
+              "ja": "詳細な",
+              "en": "detailed"
+            },
+            {
+              "ja": "分類；区分",
+              "en": "classification"
+            },
+            {
+              "ja": "〜を管理〔運営〕する",
+              "en": "administer"
+            },
+            {
+              "ja": "化学成分",
+              "en": "chemical composition"
+            },
+            {
+              "ja": "リサイクル（可能）性",
+              "en": "recyclability"
+            },
+            {
+              "ja": "問題のある",
+              "en": "problematic"
+            },
+            {
+              "ja": "高密度の",
+              "en": "high-density"
+            },
+            {
+              "ja": "無毒な；毒のない",
+              "en": "non-toxic"
+            },
+            {
+              "ja": "人工関節",
+              "en": "artificial joint"
+            },
+            {
+              "ja": "低密度の",
+              "en": "low-density"
+            },
+            {
+              "ja": "耐性；抗力",
+              "en": "resistance"
+            },
+            {
+              "ja": "衝撃",
+              "en": "impact"
+            },
+            {
+              "ja": "容器",
+              "en": "container"
+            },
+            {
+              "ja": "紙幣",
+              "en": "banknote"
+            },
+            {
+              "ja": "完全に",
+              "en": "thoroughly"
+            },
+            {
+              "ja": "Aに…させる原因となる",
+              "en": "cause A to do"
+            },
+            {
+              "ja": "汚染されていない",
+              "en": "uncontaminated"
+            },
+            {
+              "ja": "〜で汚染される",
+              "en": "be contaminated with ~"
+            },
+            {
+              "ja": "埋め立てゴミ処理地",
+              "en": "landfill"
+            },
+            {
+              "ja": "特性；性質",
+              "en": "property"
+            },
+            {
+              "ja": "見出し",
+              "en": "heading"
+            },
+            {
+              "ja": "適切な",
+              "en": "appropriate"
+            },
+            {
+              "ja": "化学組成",
+              "en": "chemical make-up"
+            },
+            {
+              "ja": "広範囲の〜",
+              "en": "a wide range of ~"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
