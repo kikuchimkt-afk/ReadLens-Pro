@@ -302,6 +302,35 @@ function renderPassage() {
       }
     }
 
+    // Sections format: §1〜§6 with sentences inside each section (e.g., 2024 Section 5)
+    if (passage.sections) {
+      for (let si = 0; si < passage.sections.length; si++) {
+        const section = passage.sections[si];
+        const sectionAudioFile = `${audioBase}s${secNum}_${passage.id}_${section.id}.mp3`;
+
+        // ◆◆◆◆◆ separator between sections
+        if (si > 0) {
+          html += '<div class="section-separator">◆◆◆◆◆</div>';
+        }
+
+        html += '<div class="para-audio-row">';
+        html += '<div class="para-content">';
+        html += '<p class="passage-paragraph">';
+        for (const sent of section.sentences) {
+          html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+        }
+        html += '</p>';
+        html += '<div class="passage-ja-block">';
+        for (const sent of section.sentences) {
+          html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</div>`;
+        }
+        html += '</div>';
+        html += '</div>';
+        html += `<button class="btn-audio" data-audio="${sectionAudioFile}" title="読み上げ">🔊</button>`;
+        html += '</div>';
+      }
+    }
+
     // Paragraphs: multiple <p> blocks with per-paragraph audio buttons
     if (passage.paragraphs) {
       // If margin_comments exist, use two-column table layout
