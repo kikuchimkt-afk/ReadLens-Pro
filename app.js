@@ -122,13 +122,33 @@ document.addEventListener('DOMContentLoaded', async () => {
   const app = document.getElementById('app');
   const loading = document.getElementById('loading');
 
+  // 最後に開いていたexam IDを取得（ビューアからの復帰用）
+  const lastExamId = localStorage.getItem('readlens_last_exam') || '';
+
   try {
     let html = '';
     for (let i = 0; i < EXAM_REGISTRY.length; i++) {
-      html += await renderExamBlock(EXAM_REGISTRY[i], i);
+      html += await renderExamBlock(EXAM_REGISTRY[i], i, lastExamId);
     }
     loading.style.display = 'none';
     app.insertAdjacentHTML('beforeend', html);
+
+    // アコーディオン開閉時にlocalStorageを更新
+    app.querySelectorAll('.exam-details').forEach(details => {
+      details.addEventListener('toggle', () => {
+        if (details.open) {
+          localStorage.setItem('readlens_last_exam', details.dataset.examId);
+        }
+      });
+    });
+
+    // 最後に開いていた回までスクロール
+    if (lastExamId) {
+      const target = app.querySelector(`.exam-details[data-exam-id="${lastExamId}"]`);
+      if (target) {
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+      }
+    }
   } catch (err) {
     loading.textContent = 'データの読み込みに失敗しました。';
     console.error(err);
@@ -136,7 +156,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // ===== 問題集ブロックの描画 =====
-async function renderExamBlock(exam, index) {
+async function renderExamBlock(exam, index, lastExamId) {
   let data = null;
   try {
     const resp = await fetch(exam.dataPath);
@@ -167,7 +187,7 @@ async function renderExamBlock(exam, index) {
           <a href="print.html?exam=${exam.id}&mode=questions&section=${num}" class="card-print-link" onclick="event.stopPropagation()" title="設問を印刷">📝設問</a>
         </div>` : '';
 
-    const clickHandler = isReady ? `onclick="location.href='viewer.html?exam=${exam.id}&section=${num}'"` : '';
+    const clickHandler = isReady ? `onclick="localStorage.setItem('readlens_last_exam','${exam.id}');location.href='viewer.html?exam=${exam.id}&section=${num}'"` : '';
 
     cardsHtml += `
       <div class="section-card${isReady ? '' : ' section-card--disabled'}"
@@ -184,10 +204,11 @@ async function renderExamBlock(exam, index) {
     `;
   }
 
-  const isOpen = index === 0 ? 'open' : '';
+  // 最後に見ていたexam IDと一致なら開く、なければ最初の項目を開く
+  const isOpen = lastExamId ? (exam.id === lastExamId ? 'open' : '') : (index === 0 ? 'open' : '');
   return `
     <section class="exam-block">
-      <details class="exam-details" ${isOpen}>
+      <details class="exam-details" data-exam-id="${exam.id}" ${isOpen}>
         <summary class="exam-block-header">
           <h2 class="exam-block-title"><span class="icon">${exam.icon}</span>${exam.label}</h2>
           <a href="print.html?exam=${exam.id}&mode=all" class="btn-print-all" onclick="event.stopPropagation()" title="全問題を印刷">🖨 全問題印刷</a>
