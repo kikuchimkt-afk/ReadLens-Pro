@@ -1,0 +1,520 @@
+{
+  "section_number": 4,
+  "title": "第4問",
+  "points": 16,
+  "situation": {
+    "en": "You are a new student at Robinson University in the US. You are reading the blogs of two students, Len and Cindy, to find out where you can buy things for your apartment.",
+    "ja": "あなたはアメリカ合衆国のロビンソン大学の新入生です。あなたは自分のアパートで必要なものをどこで購入できるかを調べるために，2人の学生，レンとシンディのブログを読んでいます。"
+  },
+  "passages": [
+    {
+      "id": "len_blog",
+      "title": {
+        "en": "New to Robinson University?\nPosted by Len at 4:51 p.m. on August 4, 2021",
+        "ja": "ロビンソン大学の新入生ですか？\n投稿者：レン　2021年8月4日午後4時51分"
+      },
+      "paragraphs": [
+        [
+          {
+            "id": "4_s1",
+            "en": "Getting ready for college? Do you need some home appliances or electronics, but don't want to spend too much money?",
+            "ja": "大学入学の準備をしていますか？家庭用電化製品や電子機器が必要だけど，あまりお金をかけたくないのではないですか？"
+          },
+          {
+            "id": "4_s2",
+            "en": "There's a great store close to the university called Second Hand.",
+            "ja": "大学の近くにセカンドハンドという素晴らしい店があります。"
+          },
+          {
+            "id": "4_s3",
+            "en": "It sells used goods such as televisions, vacuum cleaners, and microwaves.",
+            "ja": "テレビ，掃除機，電子レンジなどの中古品を売っています。"
+          },
+          {
+            "id": "4_s4",
+            "en": "A lot of students like to buy and sell their things at the store.",
+            "ja": "多くの学生は，この店で買い物をしたり，自分のものを売ったりするのが好きです。"
+          },
+          {
+            "id": "4_s5",
+            "en": "Here are some items that are on sale now.",
+            "ja": "ここに現在売り出し中の商品のいくつかを挙げます。"
+          },
+          {
+            "id": "4_s6",
+            "en": "Most of them are priced very reasonably, but stock is limited, so hurry!",
+            "ja": "ほとんどがとても手頃な価格ですが，在庫に限りがあるので，急いで！"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "len_table",
+      "type": "handout",
+      "title": {
+        "en": "Second Hand  Sale for New Students!",
+        "ja": "セカンドハンド  新入生向けセール"
+      },
+      "sentences": [
+        {
+          "id": "4_s7",
+          "en": "Television: $250 (2016 model, 50 in.)\nMicrowave: $85 (2019 model, 1.1 cu. ft. 900 watts)\nVacuum Cleaner: $30 (2017 model, W 9 in. x L 14 in. x H 12 in.)\nRice Cooker: $40 (2018 model, W 11 in. x D 14 in. x H 8 in.)\nKettle: $5 (2018 model, 1l)",
+          "ja": "テレビ：250ドル（2016年モデル，50インチ）\n電子レンジ：85ドル（2019年モデル，1.1立方フィート 900ワット）\n掃除機：30ドル（2017年モデル，幅9×長さ14×高さ12インチ）\n炊飯器：40ドル（2018年モデル，幅11×奥行14×高さ8インチ）\n湯沸かし：5ドル（2018年モデル，1l）"
+        }
+      ],
+      "no_divider": true
+    },
+    {
+      "id": "len_footer",
+      "sentences": [
+        {
+          "id": "4_s8",
+          "en": "https://secondhand.web",
+          "ja": "https://secondhand.web"
+        },
+        {
+          "id": "4_s9",
+          "en": "Purchasing used goods is eco-friendly. Plus, by buying from Second Hand you'll be supporting a local business. The owner is actually a graduate of Robinson University!",
+          "ja": "中古品を購入することは，環境に優しいです。さらに，セカンドハンドで購入することで，地元のビジネスを支えることになるのです。実はオーナーはロビンソン大学の卒業生です！"
+        }
+      ],
+      "no_divider": true
+    },
+    {
+      "id": "cindy_blog",
+      "title": {
+        "en": "Welcome to Robinson University!\nPosted by Cindy at 11:21 a.m. on August 5, 2021",
+        "ja": "ロビンソン大学へようこそ！\n投稿者：シンディ　2021年8月5日午前11時21分"
+      },
+      "paragraphs": [
+        [
+          {
+            "id": "4_s10",
+            "en": "Are you starting at Robinson University soon? You may be preparing to buy some household appliances or electronics for your new life.",
+            "ja": "まもなくロビンソン大学での学生生活を始めるところですか？新生活のために家電製品や電子機器を買う準備をしているところかもしれませんね。"
+          }
+        ],
+        [
+          {
+            "id": "4_s11",
+            "en": "You're going to be here for four years, so buy your goods new!",
+            "ja": "ここには4年間いることになるのですから，新品を買いましょう！"
+          },
+          {
+            "id": "4_s12",
+            "en": "In my first year, I bought all of my appliances at a shop selling used goods near the university because they were cheaper than brand-new ones.",
+            "ja": "私は初年度に，新品より安かったから，大学の近くの中古品を売っている店ですべての家電を買いました。"
+          },
+          {
+            "id": "4_s13",
+            "en": "However, some of them stopped working after just one month, and they did not have warranties.",
+            "ja": "けれども，中にはたった1か月で動かなくなったものもあり，保証が付いていませんでした。"
+          },
+          {
+            "id": "4_s14",
+            "en": "I had to replace them quickly and could not shop around, so I just bought everything from one big chain store.",
+            "ja": "すぐに交換しなければならず，あちこちの店の商品を見て回ることができなかったので，大手チェーン店の1店舗だけで全部買いました。"
+          },
+          {
+            "id": "4_s15",
+            "en": "I wish I had been able to compare the prices at two or more shops beforehand.",
+            "ja": "事前に2つ以上の店で値段を比較できればよかったのにと思います。"
+          }
+        ],
+        [
+          {
+            "id": "4_s16",
+            "en": "The website called save4unistu.com is very useful for comparing the prices of items from different stores before you go shopping.",
+            "ja": "save4unistu.comというウェブサイトは，買い物に行く前にいろいろな店の商品の値段を比較するのにとても便利です。"
+          },
+          {
+            "id": "4_s17",
+            "en": "The following table compares current prices for the most popular new items from three big stores.",
+            "ja": "次の表は，3つの大型店の最も人気がある新商品の現在の価格を比較したものです。"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cindy_table",
+      "type": "handout",
+      "title": {
+        "en": "Price Comparison Table",
+        "ja": "価格比較表"
+      },
+      "sentences": [
+        {
+          "id": "4_s18",
+          "en": "Item | Cut Price | Great Buy | Value Saver\nRice Cooker (W 11 in. x D 14 in. x H 8 in.) | $115 | $120 | $125\nTelevision (50 in.) | $300 | $295 | $305\nKettle (1l) | $15 | $18 | $20\nMicrowave (1.1 cu. ft. 900 watts) | $88 | $90 | $95\nVacuum Cleaner (W 9 in. x L 14 in. x H 12 in.) | $33 | $35 | $38",
+          "ja": "商品 | カットプライス | グレートバイ | バリューセイバー\n炊飯器（幅11×奥行14×高さ8インチ） | 115ドル | 120ドル | 125ドル\nテレビ（50インチ） | 300ドル | 295ドル | 305ドル\n湯沸かし（1l） | 15ドル | 18ドル | 20ドル\n電子レンジ（1.1立方フィート 900ワット） | 88ドル | 90ドル | 95ドル\n掃除機（幅9×長さ14×高さ12インチ） | 33ドル | 35ドル | 38ドル"
+        }
+      ],
+      "no_divider": true
+    },
+    {
+      "id": "cindy_footer",
+      "paragraphs": [
+        [
+          {
+            "id": "4_s19",
+            "en": "https://save4unistu.com",
+            "ja": "https://save4unistu.com"
+          }
+        ],
+        [
+          {
+            "id": "4_s20",
+            "en": "Note that warranties are available for all items. So, if anything stops working, replacing it will be straightforward.",
+            "ja": "注目すべきことは，すべての商品に保証を付けられることです。だから，何かが動かなくなった場合に，それを交換することは簡単でしょう。"
+          },
+          {
+            "id": "4_s21",
+            "en": "Value Saver provides one-year warranties on all household goods for free. If the item is over $300, the warranty is extended by four years.",
+            "ja": "バリューセイバーは，すべての家庭用品に1年間の保証を無料で提供します。300ドル以上の商品であれば，保証は4年延長されます。"
+          },
+          {
+            "id": "4_s22",
+            "en": "Great Buy provides one-year warranties on all household goods, and students with proof of enrollment at a school get 10% off the prices listed on the table above.",
+            "ja": "グレートバイは，すべての家庭用品に1年間の保証を提供し，学校の入学証明がある学生は，上の表に載っている価格から10%の割引を受けられます。"
+          },
+          {
+            "id": "4_s23",
+            "en": "Warranties at Cut Price are not provided for free. You have to pay $10 per item for a five-year warranty.",
+            "ja": "カットプライスでは保証は無料で提供されません。5年保証には，1点につき10ドルを払わなければなりません。"
+          }
+        ],
+        [
+          {
+            "id": "4_s24",
+            "en": "Things go fast! Don't wait or you'll miss out!",
+            "ja": "商品はすぐに売り切れます。待っていたら買い損ねますよ！"
+          }
+        ]
+      ],
+      "no_divider": true
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "問1",
+      "answer_number": 24,
+      "stem": {
+        "en": "Len recommends buying used goods because [24].",
+        "ja": "「[24]という理由で，レンは中古品を買うことを勧めています。」"
+      },
+      "choices": [
+        {
+          "label": "①",
+          "en": "it will help the university",
+          "ja": "大学の役に立つ",
+          "is_correct": false
+        },
+        {
+          "label": "②",
+          "en": "most of the items are good for the environment",
+          "ja": "ほとんどの商品が環境によい",
+          "is_correct": false
+        },
+        {
+          "label": "③",
+          "en": "they are affordable for students",
+          "ja": "学生にとって手頃な価格だ",
+          "is_correct": true
+        },
+        {
+          "label": "④",
+          "en": "you can find what you need in a hurry",
+          "ja": "必要なものを急いで見つけることができる",
+          "is_correct": false
+        }
+      ],
+      "answer": "③",
+      "explanation": {
+        "ja": "レンの中古品購入を勧めるブログを読むと，第1段落第2文でdon't want to spend too much money?（あまりお金をかけたくないのではないですか？）と問いかけている。さらに中古品店の紹介をしたあと第1段落第7文でMost of them are priced very reasonably（ほとんどがとても手頃な価格です）と書いている。したがって，「学生にとって手頃な価格だ」という③が正解。reasonableとaffordableは価格に関して使う時は，どちらも「手頃な」という意味になる。第2段落第2文に「セカンドハンドで買うことは地元のビジネスを支えることになる」とあるが，支えるのは大学ではないので，①は不適当。第2段落第1文にPurchasing used goods is eco-friendly.（中古品を購入することは，環境に優しいです。）とあるが，「中古品を購入する」という行為が環境に優しいのであり，商品そのものが環境によいのではない。したがって，②も不適当。また，第1段落最終文に「在庫に限りがあるので，急いで！」とあるが，「急いで見つけることができる」とは書かれていないので，④も不適当。",
+        "evidence_sentences": [
+          "4_s1",
+          "4_s6"
+        ]
+      },
+      "points": 3
+    },
+    {
+      "question_id": "問2",
+      "answer_number": 25,
+      "stem": {
+        "en": "Cindy suggests buying [25].",
+        "ja": "「シンディは[25]買うことを提案しています。」"
+      },
+      "choices": [
+        {
+          "label": "①",
+          "en": "from a single big chain store because it saves time",
+          "ja": "時間の節約になるので，大きなチェーン店の1店舗から",
+          "is_correct": false
+        },
+        {
+          "label": "②",
+          "en": "from the website because it offers the best prices",
+          "ja": "最適価格を提示しているので，ウェブサイトから",
+          "is_correct": false
+        },
+        {
+          "label": "③",
+          "en": "new items that have warranties for replacement",
+          "ja": "交換のための保証が付いている新しい商品を",
+          "is_correct": true
+        },
+        {
+          "label": "④",
+          "en": "used items because they are much cheaper than new items",
+          "ja": "新品よりもずっと安いので，中古商品を",
+          "is_correct": false
+        }
+      ],
+      "answer": "③",
+      "explanation": {
+        "ja": "シンディのブログを読むと，第2段落第1文でbuy your goods new!（新品を買いましょう！）と提案している。続けて，「中古品を買ったら，短期間で動かなくなったが，保証が付いていなかったため，買い替えなければならなかった」という体験を書いている。また，価格比較のウェブサイトの紹介のあと，第4段落の最初にNote that warranties are available for all items. So, if anything stops working, replacing it will be straightforward.（注目すべきことは，すべての商品に保証を付けられることです。だから，何かが動かなくなったら，それを交換することは簡単でしょう。）と書いている。つまり「保証がついていて，故障したら交換してもらえる新品の購入を勧めている」のだから，③が正解。第2段落第4文に「大きなチェーン店の1店舗だけで全部買いました」と書いてあるが，「事前に2つ以上の店で値段を比較できればよかったのに」と，不満を述べているので①は不適当。紹介しているウェブサイトは，価格比較サイトであり，販売はしていないので②も不適当。また，シンディは新品を買うことを勧めているので④も不適当。",
+        "evidence_sentences": [
+          "4_s11",
+          "4_s13",
+          "4_s20"
+        ]
+      },
+      "points": 3
+    },
+    {
+      "question_id": "問3",
+      "answer_number": 26,
+      "stem": {
+        "en": "Both Len and Cindy recommend that you [26].",
+        "ja": "「レンとシンディの両方は，あなたが[26]ことを勧めています。」"
+      },
+      "choices": [
+        {
+          "label": "①",
+          "en": "buy from the store near your university",
+          "ja": "大学の近くの店から買う",
+          "is_correct": false
+        },
+        {
+          "label": "②",
+          "en": "buy your appliances as soon as you can",
+          "ja": "電化製品をできるだけ早く買う",
+          "is_correct": true
+        },
+        {
+          "label": "③",
+          "en": "choose a shop offering a student discount",
+          "ja": "学生割引を提供する店を選ぶ",
+          "is_correct": false
+        },
+        {
+          "label": "④",
+          "en": "choose the items with warranties",
+          "ja": "保証がついている商品を選ぶ",
+          "is_correct": false
+        }
+      ],
+      "answer": "②",
+      "explanation": {
+        "ja": "レンは第1段落最終文にstock is limited, so hurry!（在庫に限りがありますので，急いで！），シンディは最終段落の最後にThings go fast! Don't wait or you'll miss out!（商品はすぐに売り切れます。待っていたら買い損ねますよ！）と書いている。2人ともすぐに買いに行くことを勧めているので，②が正解。大学の近くの店（セカンドハンド）で買うことを勧めているのはレンだけなので，①は不適当。学生割引について紹介したのはシンディだけなので③も不適当。保証がついている商品を買うことを勧めているのもシンディだけなので④も不適当。",
+        "evidence_sentences": [
+          "4_s6",
+          "4_s24"
+        ]
+      },
+      "points": 3
+    },
+    {
+      "question_id": "問4",
+      "answer_number": 27,
+      "stem": {
+        "en": "If you want to buy new appliances at the best possible prices, you should [27].",
+        "ja": "「新しい電化製品を最善の価格で買いたいなら，[27]べきです。」"
+      },
+      "choices": [
+        {
+          "label": "①",
+          "en": "access the URL in Cindy's post",
+          "ja": "シンディの投稿のURLにアクセスする",
+          "is_correct": true
+        },
+        {
+          "label": "②",
+          "en": "access the URL in Len's post",
+          "ja": "レンの投稿のURLにアクセスする",
+          "is_correct": false
+        },
+        {
+          "label": "③",
+          "en": "contact one big chain store",
+          "ja": "大きなチェーン店の1店舗に問い合わせる",
+          "is_correct": false
+        },
+        {
+          "label": "④",
+          "en": "contact shops close to the campus",
+          "ja": "キャンパスに近い店に問い合わせる",
+          "is_correct": false
+        }
+      ],
+      "answer": "①",
+      "explanation": {
+        "ja": "問2で見たように，新品の電化製品の購入を勧めているのはシンディ。シンディは，自分の場合はすぐに壊れた電化製品を取り換える必要があり，購入前に複数の店の値段を比較できなかったが，そうできればよかったのにと述べ，この経験を踏まえて，新入生に価格比較サイトを紹介している。サイトについては，第3段落の最初にThe website called save4unistu.com is very useful for comparing the prices of items from different stores before you go shopping.（save4unistu.comというウェブサイトは，買い物に行く前にいろいろな店の商品の値段を比較するのにとても便利です。）とあり，新入生は買い物に行く前に，最安値で新品を買えるのはどの店かという情報をこのサイトから得ることができることがわかる。したがって①が正解。レンが紹介しているのは中古品のお店のサイトだから，②は不適当。大きなチェーン店やキャンパス近くの複数の店に問い合わせることに関するアドバイスは，どちらの投稿にもないので，③，④も不適当。",
+        "evidence_sentences": [
+          "4_s16"
+        ]
+      },
+      "points": 3
+    },
+    {
+      "question_id": "問5",
+      "answer_number": 28,
+      "answer_numbers": [
+        28,
+        29
+      ],
+      "stem": {
+        "en": "You have decided to buy a microwave from [28] because it is the cheapest. You have also decided to buy a television from [29] because it is the cheapest with a five-year warranty. (Choose one for each box from options ①～④.)",
+        "ja": "「あなたは，最安値なので，電子レンジを[28]で買うことに決めました。あなたはまた，テレビを[29]で買うことに決めました。5年保証を付けた最安値だからです。（それぞれの空所に，①～④の選択肢から1つずつ選びなさい。）」"
+      },
+      "choices": [
+        {
+          "label": "①",
+          "en": "Cut Price",
+          "ja": "カットプライス",
+          "is_correct": false,
+          "group": "28"
+        },
+        {
+          "label": "②",
+          "en": "Great Buy",
+          "ja": "グレートバイ",
+          "is_correct": true,
+          "group": "28"
+        },
+        {
+          "label": "③",
+          "en": "Second Hand",
+          "ja": "セカンドハンド",
+          "is_correct": false,
+          "group": "28"
+        },
+        {
+          "label": "④",
+          "en": "Value Saver",
+          "ja": "バリューセイバー",
+          "is_correct": false,
+          "group": "28"
+        },
+        {
+          "label": "①",
+          "en": "Cut Price",
+          "ja": "カットプライス",
+          "is_correct": false,
+          "group": "29"
+        },
+        {
+          "label": "②",
+          "en": "Great Buy",
+          "ja": "グレートバイ",
+          "is_correct": false,
+          "group": "29"
+        },
+        {
+          "label": "③",
+          "en": "Second Hand",
+          "ja": "セカンドハンド",
+          "is_correct": false,
+          "group": "29"
+        },
+        {
+          "label": "④",
+          "en": "Value Saver",
+          "ja": "バリューセイバー",
+          "is_correct": true,
+          "group": "29"
+        }
+      ],
+      "answers_28_29": [
+        "②",
+        "④"
+      ],
+      "explanation": {
+        "ja": "電子レンジについては，保証のことを考える必要はないので，レンとシンディの2人が掲載しているそれぞれの表の価格を比較する。一見したところセカンドハンドの85ドルが一番安いが，シンディの注意書きに注目。第4段落第5文にGreat Buy ... students with proof of enrollment at a school get 10% off the prices listed on the table above（グレートバイは…入学証明がある学生は，上の表の価格から10%の割引を受けられます）と書かれている。グレートバイの価格90ドルから10%引くと81ドルとなり，これが最安値なので，②が正解。テレビには5年保証を付けるので，レンの表の価格は除外する。次に，シンディの表の3店舗のテレビの価格を，第4段落にある保証に関する情報とあわせて確認する。バリューセイバーの保証については，第3・4文にValue Saver provides one-year warranties on all household goods for free. If the item is over $300, the warranty is extended by four years.（バリューセイバーは，すべての家庭用品に1年間の保証を無料で提供します。300ドル以上の商品であれば，保証は4年延長されます。）とある。つまり，バリューセイバーの305ドルのテレビには無料で5年間の保証が付くことになる。グレートバイの保証については，第5文のGreat Buy provides one-year warranties on all household goods（グレートバイは，すべての家庭用品に1年間の保証を提供）から1年間の無料保証はあることはわかるが，5年保証についての記述はないので，5年保証は提供していないと考えられる。よってグレートバイは除外する。カットプライスの保証については，最終文にYou have to pay $10 per item for a five-year warranty.（5年保証には，1点につき10ドルを払わなければなりません。）とある。カットプライスで購入する場合，テレビ代金300ドルに10ドルを追加しなければならないので，310ドルとなり，バリューセイバーの305ドルより高くなる。したがって，5年保証を付けた最安値はバリューセイバーで，④が正解。",
+        "evidence_sentences": [
+          "4_s22",
+          "4_s21",
+          "4_s23"
+        ]
+      },
+      "points": 4
+    }
+  ],
+  "vocabulary": {
+    "passage": {
+      "items": [
+        {
+          "en": "home appliance",
+          "ja": "「家庭用電化製品」"
+        },
+        {
+          "en": "electronics",
+          "ja": "「電子機器」"
+        },
+        {
+          "en": "cu.ft.",
+          "ja": "= cubic feet「立方フィート」"
+        },
+        {
+          "en": "purchase",
+          "ja": "「～を購入する」"
+        },
+        {
+          "en": "graduate",
+          "ja": "「卒業生」"
+        },
+        {
+          "en": "brand-new",
+          "ja": "「新品の」"
+        },
+        {
+          "en": "warranty",
+          "ja": "「保証（書）」"
+        },
+        {
+          "en": "Note that ...",
+          "ja": "「注目すべきは…である」"
+        },
+        {
+          "en": "straightforward",
+          "ja": "「簡単な」"
+        },
+        {
+          "en": "extend",
+          "ja": "「～を延長する」"
+        },
+        {
+          "en": "proof",
+          "ja": "「証拠；証明」"
+        },
+        {
+          "en": "enrollment",
+          "ja": "「入学」"
+        },
+        {
+          "en": "go fast",
+          "ja": "「すぐに売り切れる」"
+        },
+        {
+          "en": "miss out",
+          "ja": "「逃す」"
+        },
+        {
+          "en": "affordable",
+          "ja": "問1③「手頃な（価格の）」"
+        }
+      ]
+    }
+  }
+}

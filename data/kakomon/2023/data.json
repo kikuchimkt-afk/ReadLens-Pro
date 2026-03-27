@@ -58,7 +58,81 @@
                 "en": "Performances for Friday",
                 "ja": "金曜日の公演"
               },
-              "paragraphs": []
+              "paragraphs": [
+                [
+                  {
+                    "id": "1a_s1",
+                    "en": "Performances for Friday",
+                    "ja": "金曜日の公演"
+                  }
+                ],
+                [
+                  {
+                    "id": "1a_s2",
+                    "en": "Palace Theater — Together Wherever",
+                    "ja": "パレスシアター — 『どこでもいっしょ』"
+                  },
+                  {
+                    "id": "1a_s3",
+                    "en": "A romantic play that will make you laugh and cry",
+                    "ja": "笑って泣けるロマンチックな劇"
+                  },
+                  {
+                    "id": "1a_s4",
+                    "en": "From 2:00 p.m. (no breaks and a running time of one hour and 45 minutes)",
+                    "ja": "午後2時から（休憩なし，上演時間1時間45分）"
+                  },
+                  {
+                    "id": "1a_s5",
+                    "en": "Actors available to talk in the lobby after the performance",
+                    "ja": "公演のあと，ロビーにて俳優と話ができます"
+                  },
+                  {
+                    "id": "1a_s6",
+                    "en": "No food or drinks available",
+                    "ja": "飲食物は入手できません"
+                  },
+                  {
+                    "id": "1a_s7",
+                    "en": "Free T-shirts for five lucky people",
+                    "ja": "ラッキーな5人にTシャツを無料プレゼント"
+                  }
+                ],
+                [
+                  {
+                    "id": "1a_s8",
+                    "en": "Grand Theater — The Guitar Queen",
+                    "ja": "グランドシアター — 『ギター・クイーン』"
+                  },
+                  {
+                    "id": "1a_s9",
+                    "en": "A rock musical featuring colorful costumes",
+                    "ja": "カラフルな衣装を呼び物にするロックミュージカル"
+                  },
+                  {
+                    "id": "1a_s10",
+                    "en": "Starts at 1:00 p.m. (three hours long including two 15-minute breaks)",
+                    "ja": "午後1時開演（15分休憩2回を含む3時間の公演）"
+                  },
+                  {
+                    "id": "1a_s11",
+                    "en": "Opportunity to greet the cast in their costumes before the show starts",
+                    "ja": "ショーが始まる前，衣装を着たキャストに挨拶する機会があります"
+                  },
+                  {
+                    "id": "1a_s12",
+                    "en": "Light refreshments (snacks & drinks), original T-shirts, and other goods sold in the lobby",
+                    "ja": "ロビーにて軽食（スナックと飲み物），オリジナルTシャツとその他のグッズを販売"
+                  }
+                ],
+                [
+                  {
+                    "id": "1a_s13",
+                    "en": "Instructions: Which performance would you like to attend? Fill in the form below and hand it in to your teacher today.",
+                    "ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して，本日，先生に渡してください。"
+                  }
+                ]
+              ]
             }
           ],
           "questions": [
@@ -96,7 +170,7 @@
               "explanation": {
                 "ja": "「プリントを読んだあと，何をするように指示されているか。」\n① 「下部のすべての項目に記入し，提出する。」\n② 「公演についてもっと調べる。」≫本文にない。\n③ 「自分の決定を先生に話す。」≫話すのではなく用紙で提出する。\n④ 「自分の名前を書いて，自分の選択を説明する。」≫チェックマークを入れるだけで，説明する必要はない。\n\n本文・全訳の問1から①が正解。設問では the form below（以下のフォーム）を the bottom part（下部）と言い換えている。",
                 "evidence_sentences": [
-                  "Instructions: Which performance would you like to attend? Fill in the form below and hand it in to your teacher today."
+                  "1a_s13"
                 ]
               }
             },
@@ -134,8 +208,8 @@
               "explanation": {
                 "ja": "「両公演について，正しいものはどれか。」\n① 「公演前に飲み物を購入できない。」≫「どこでもいっしょ」のみに該当。\n② 「いくつかのTシャツがプレゼントとしてもらえる。」≫「どこでもいっしょ」のみに該当。\n③ 「同じ時刻に終わる。」≫「どこでもいっしょ」は午後3時45分，「ギター・クイーン」は午後4時に終了する。\n④ 「劇場で出演者に会うことができる。」\n\n本文・全訳の問2(1)，問2(2)から④が正解。どちらの公演も，出演者と会う機会が用意されている。",
                 "evidence_sentences": [
-                  "Actors available to talk in the lobby after the performance",
-                  "Opportunity to greet the cast in their costumes before the show starts"
+                  "1a_s5",
+                  "1a_s11"
                 ]
               }
             }
@@ -154,7 +228,56 @@
                 "en": "GIS Intensive English Summer Camp",
                 "ja": "GIS 集中英語サマーキャンプ"
               },
-              "paragraphs": []
+              "paragraphs": [
+                [
+                  {
+                    "id": "1b_s1",
+                    "en": "Galley International School (GIS) has provided intensive English summer camps for senior high school students in Japan since 1989. Spend two weeks in an all-English environment!",
+                    "ja": "ギャリー・インターナショナル・スクール（GIS）は，1989年から日本の高校生のために集中英語サマーキャンプを提供してきました。2週間をオールイングリッシュの環境で過ごしましょう！"
+                  }
+                ],
+                [
+                  {
+                    "id": "1b_s2",
+                    "en": "Dates: August 1-14, 2023",
+                    "ja": "日程：2023年8月1日〜14日"
+                  },
+                  {
+                    "id": "1b_s3",
+                    "en": "Location: Lake Kawaguchi Youth Lodge, Yamanashi Prefecture",
+                    "ja": "場所：山梨県 河口湖ユースロッジ"
+                  },
+                  {
+                    "id": "1b_s4",
+                    "en": "Cost: 120,000 yen, including food and accommodation (additional fees for optional activities such as kayaking and canoeing)",
+                    "ja": "費用：12万円（食事と宿泊込み。カヤックやカヌーなどの任意の活動には追加料金がかかります）"
+                  }
+                ],
+                [
+                  {
+                    "id": "1b_s5",
+                    "en": "FOREST: You'll master basic grammar structures, make short speeches on simple topics, and get pronunciation tips. Your instructors have taught English for over 20 years in several countries. On the final day of the camp, you'll take part in a speech contest while all the other campers listen.",
+                    "ja": "フォレスト：基本的な文法構造を習得し，簡単なトピックについて短いスピーチを行い，発音のコツを学びます。講師はこれまで複数の国で20年以上英語を教えてきました。キャンプ最終日，他のすべてのキャンプ参加者が聞く中でスピーチコンテストに参加します。"
+                  },
+                  {
+                    "id": "1b_s6",
+                    "en": "MOUNTAIN: You'll work in a group to write and perform a skit in English. Instructors for this course have worked at theater schools in New York City, London, and Sydney. You'll perform your skit for all the campers to enjoy on August 14.",
+                    "ja": "マウンテン：グループで英語のコント（寸劇）を作成し，演じます。このコースの講師はニューヨーク，ロンドン，シドニーの演劇学校で勤務経験があります。8月14日にすべてのキャンプ参加者の前でコントを演じます。"
+                  },
+                  {
+                    "id": "1b_s7",
+                    "en": "SKY: You'll learn debating skills and critical thinking in this course. Your instructors have been to many countries to coach debate teams and some have published best-selling textbooks on the subject. You'll do a short debate in front of all the other campers on the last day. (Note: Only those with an advanced level of English will be accepted.)",
+                    "ja": "スカイ：このコースではディベートのスキルと批判的思考を学びます。講師は多くの国でディベートチームを指導しており，その分野のベストセラー教科書を出版している人もいます。最終日に他のすべてのキャンプ参加者の前で短いディベートを行います。（注意：上級レベルの英語力がある方のみ受け付けます。）"
+                  }
+                ],
+                [
+                  {
+                    "id": "1b_s8",
+                    "en": "Application — Step 1: Fill in the online application HERE by May 20, 2023. Step 2: We'll contact you to set up an interview to assess your English ability and ask about your course preference. Step 3: You'll be assigned to a course.",
+                    "ja": "申し込み — ステップ1：2023年5月20日までにこちらからオンライン申し込みフォームに記入してください。ステップ2：英語力を評価する面接を設定するためにご連絡し，コースの希望をお伺いします。ステップ3：コースに配属されます。"
+                  }
+                ]
+              ]
             }
           ],
           "questions": [
@@ -192,9 +315,9 @@
               "explanation": {
                 "ja": "「GISの講師は全員[3]。」\n① 「1989年から日本に滞在している」≫GISはキャンプを1989年から行っているが，講師全員が当時からいるとは限らない。\n② 「国際的なコンテストで優勝したことがある」≫本文にない。\n③ 「海外で働いたことがある」\n④ 「人気書籍を執筆したことがある」≫スカイコースの一部の講師のみ該当する。\n\n本文・全訳の問1(1)，問1(2)，問1(3)から③が正解。各コースの講師は海外で英語や演劇，ディベートの指導をした経験がある。",
                 "evidence_sentences": [
-                  "Your instructors have taught English for over 20 years in several countries.",
-                  "Instructors for this course have worked at theater schools in New York City, London, and Sydney.",
-                  "Your instructors have been to many countries to coach debate teams"
+                  "1b_s5",
+                  "1b_s6",
+                  "1b_s7"
                 ]
               }
             },
@@ -232,9 +355,9 @@
               "explanation": {
                 "ja": "「キャンプ最終日，キャンプ参加者は[4]。」\n① 「互いのパフォーマンスを評価し合う」≫発表するが，評価するとは書いていない。\n② 「最優秀賞を得るために競う」≫フォレストコースにはコンテストがあるが，他のコースでは賞のために競わない。\n③ 「将来についての発表をする」≫発表するのは，将来についてではない。\n④ 「キャンプで学んだことを発表する」\n\n本文・全訳の問2(1)，問2(2)，問2(3)，問2(4)から④が正解。最終日（＝8月14日）に，それぞれのコースで学習したことを，キャンプ参加者全員の前で発表すると書かれている。",
                 "evidence_sentences": [
-                  "On the final day of the camp, you'll take part in a speech contest while all the other campers listen.",
-                  "You'll perform your skit for all the campers to enjoy on August 14.",
-                  "You'll do a short debate in front of all the other campers on the last day."
+                  "1b_s5",
+                  "1b_s6",
+                  "1b_s7"
                 ]
               }
             },
@@ -272,7 +395,7 @@
               "explanation": {
                 "ja": "「キャンプの申し込みを提出したあとで，何が起こりますか。」\n① 「英語講師に電話連絡する。」≫本文にない。\n② 「英語の筆記試験を受ける。」≫筆記試験ではなく面接試験である。\n③ 「英語レベルがチェックされる。」\n④ 「英語スピーチのトピックが送られる。」≫本文にない。\n\n本文・全訳の問3から③が正解。面接による英語の能力テストがある。",
                 "evidence_sentences": [
-                  "We'll contact you to set up an interview to assess your English ability and ask about your course preference."
+                  "1b_s8"
                 ]
               }
             }
@@ -321,7 +444,88 @@
                 "en": "Navi 55 presents the new Smart Support shoe line",
                 "ja": "Navi 55が新しいSmart Supportの靴を発表"
               },
-              "paragraphs": []
+              "paragraphs": [
+                [
+                  {
+                    "id": "2a_s1",
+                    "en": "Navi 55 presents the new Smart Support shoe line",
+                    "ja": "Navi 55が新しいSmart Supportの靴を発表"
+                  }
+                ],
+                [
+                  {
+                    "id": "2a_s2",
+                    "en": "Smart Support shoes are strong, long-lasting, and reasonably priced. They are available in three colours and styles.",
+                    "ja": "Smart Supportの靴は，丈夫で長持ちし，手頃な価格です。3色3スタイルで展開しています。"
+                  }
+                ],
+                [
+                  {
+                    "id": "2a_s3",
+                    "en": "Smart Support shoes have a nano-chip which analyses the shape of your feet when connected to the iSupport application. Download the app onto your smartphone, PC, tablet, and/or smartwatch. Then, while wearing the shoes, let the chip collect the data about your feet. The inside of the shoe will automatically adjust to give correct, personalised foot support. As with other Navi 55 products, the shoes have our popular Route Memory function.",
+                    "ja": "Smart Supportの靴にはナノチップが搭載されており，iSupportアプリケーションに接続すると足の形を分析します。スマートフォン，PC，タブレット，スマートウォッチにアプリをダウンロードしてください。靴を履いた状態でチップに足のデータを収集させます。靴の内部が自動的に調整され，各個人に合った正しい足のサポートを提供します。他のNavi 55製品と同様に，我々の人気のルートメモリー機能も搭載しています。"
+                  }
+                ],
+                [
+                  {
+                    "id": "2a_s4",
+                    "en": "Better Balance: Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain.",
+                    "ja": "より良いバランス：立ち方を調整し，個人対応のサポートが足，脚，背中を痛みから守ります。"
+                  },
+                  {
+                    "id": "2a_s5",
+                    "en": "Promotes Exercise: As they are so comfortable, you will be willing to walk regularly.",
+                    "ja": "運動を促進：とても快適なので，定期的に歩くようになるでしょう。"
+                  },
+                  {
+                    "id": "2a_s6",
+                    "en": "Route Memory: The chip records your daily route, distance, and pace as you walk.",
+                    "ja": "ルートメモリー：歩くと，チップが毎日のルート，距離，ペースを記録します。"
+                  },
+                  {
+                    "id": "2a_s7",
+                    "en": "Route Options: View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions.",
+                    "ja": "ルートオプション：デバイスで現在地を表示したり，イヤホンで自動的に道案内を再生したり，スマートウォッチで道案内を読んだりできます。"
+                  }
+                ],
+                [
+                  {
+                    "id": "2a_s8",
+                    "en": "I like the choices for getting directions, and prefer using audio guidance to visual guidance.",
+                    "ja": "道案内の選択肢が気に入っています。視覚的な案内よりもオーディオ案内を使う方が好きです。"
+                  },
+                  {
+                    "id": "2a_s9",
+                    "en": "I lost 2 kg in a month!",
+                    "ja": "1カ月で2kg痩せました！"
+                  },
+                  {
+                    "id": "2a_s10",
+                    "en": "I love my pair now, but it took me several days to get used to them.",
+                    "ja": "今では自分のペアが大好きですが，慣れるのに数日かかりました。"
+                  },
+                  {
+                    "id": "2a_s11",
+                    "en": "As they don't slip in the rain, I wear mine all year round.",
+                    "ja": "雨でも滑らないので，一年中履いています。"
+                  },
+                  {
+                    "id": "2a_s12",
+                    "en": "They are so light and comfortable I even wear them when cycling.",
+                    "ja": "とても軽くて快適なので，自転車に乗る時も履いています。"
+                  },
+                  {
+                    "id": "2a_s13",
+                    "en": "Easy to get around! I don't need to worry about getting lost.",
+                    "ja": "移動が楽になりました！道に迷う心配がありません。"
+                  },
+                  {
+                    "id": "2a_s14",
+                    "en": "They look great. The app's basic features are easy to use, but I wouldn't pay for the optional advanced ones.",
+                    "ja": "見た目が素晴らしいです。アプリの基本機能は使いやすいですが，有料の高度な機能にはお金を払いたくはないです。"
+                  }
+                ]
+              ]
             }
           ],
           "questions": [
@@ -359,7 +563,7 @@
               "explanation": {
                 "ja": "「メーカーの発表によると，新しい靴を最もよく説明しているのはどれか。」\n① 「安い夏用の靴」≫「夏用」と書かれていない。\n② 「ハイテクな普段用の靴」\n③ 「軽い快適なスポーツシューズ」≫「スポーツ用」と書かれていない。\n④ 「洗練されたカラフルなサイクリングシューズ」≫メーカーの発表ではサイクリング用と書いていない。\n\n本文・全訳の問1に靴の機能が書かれているが，靴に搭載されたナノチップからアプリにデータを送るハイテクな靴である。したがって②が正解。",
                 "evidence_sentences": [
-                  "Smart Support shoes have a nano-chip which analyses the shape of your feet when connected to the iSupport application."
+                  "2a_s3"
                 ]
               }
             },
@@ -397,7 +601,7 @@
               "explanation": {
                 "ja": "「この靴が提供するどの利点があなたには最も魅力がありそうか。」\n① 「定期的な運動をもっとするようになる」≫足の痛みという問題の解決にならない。\n② 「個人対応の足のサポートをする」\n③ 「歩く速さを知る」≫問題の解決にならない。\n④ 「履いているとかっこよく見える」≫見た目が素晴らしいというコメントはあるが，問題の解決にならない。\n\n本文・全訳の問2(1)で挙げた「足の痛み」というあなたの問題の解決に役立つ利点は問2(2)のBetter Balanceなので，②が正解。",
                 "evidence_sentences": [
-                  "Better Balance: Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain."
+                  "2a_s4"
                 ]
               }
             },
@@ -435,7 +639,7 @@
               "explanation": {
                 "ja": "「顧客が述べた意見は[8]である。」\n① 「アプリが早歩きを促す」≫コメントにない。\n② 「アプリの無料機能は使いやすい」\n③ 「靴は購入する価値がある」≫コメントにない。\n④ 「靴が自転車をこぐスピードを上げる」≫自転車に乗る時も靴を履くと言っているだけ。\n\n本文・全訳の問3から②が正解。この顧客は有料機能を使っていないのだから，文中の「基本的な機能」＝「無料機能」と言える。",
                 "evidence_sentences": [
-                  "They look great. The app's basic features are easy to use, but I wouldn't pay for the optional advanced ones."
+                  "2a_s14"
                 ]
               }
             },
@@ -473,8 +677,8 @@
               "explanation": {
                 "ja": "「ある顧客のコメントはオーディオ装置の使用について言及している。このコメントはどの利点に基づいているか。」\n① 「より良いバランス」\n② 「運動を促進する」\n③ 「ルートメモリー」\n④ 「ルートオプション」\n\n本文・全訳の問4(2)で，顧客が道案内にオーディオ案内を使うのが好きだとコメントしている。これに相当するのは，問4(1)のルートオプションの中のイヤホンで聞く道案内なので，④が正解。",
                 "evidence_sentences": [
-                  "Route Options: View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions.",
-                  "I like the choices for getting directions, and prefer using audio guidance to visual guidance."
+                  "2a_s7",
+                  "2a_s8"
                 ]
               }
             },
@@ -512,7 +716,7 @@
               "explanation": {
                 "ja": "「顧客の意見によると，[10]が薦められている。」\n① 「靴を履き慣れるのに時間の余裕をみること」\n② 「体重を減らすのに役立つウォッチを買うこと」≫体重が減ったコメントはあるが，ウォッチに言及していない。\n③ 「靴を履く前にアプリに接続すること」≫コメントにない。\n④ 「iサポートの高度な機能のためにお金を払うこと」≫「高度な機能は買わない」と言っている。\n\n本文・全訳の問5に書かれている経験から，①のアドバイスを汲み取ることができる。get used toは「～に慣れる」の意味。",
                 "evidence_sentences": [
-                  "I love my pair now, but it took me several days to get used to them."
+                  "2a_s10"
                 ]
               }
             }
@@ -531,7 +735,82 @@
                 "en": "The Commuting Challenge",
                 "ja": "通学チャレンジ"
               },
-              "paragraphs": []
+              "paragraphs": [
+                [
+                  {
+                    "id": "2b_s1",
+                    "en": "Most students come to my school by bus or train.",
+                    "ja": "ほとんどの生徒はバスか電車で通学しています。"
+                  },
+                  {
+                    "id": "2b_s2",
+                    "en": "I often see a lot of students playing games on their phones or chatting.",
+                    "ja": "携帯でゲームをしたりおしゃべりしたりしている生徒をよく見かけます。"
+                  },
+                  {
+                    "id": "2b_s3",
+                    "en": "However, they could also use this time for reading or doing homework.",
+                    "ja": "しかし，この時間を読書や宿題にも使えるはずです。"
+                  },
+                  {
+                    "id": "2b_s4",
+                    "en": "We started this activity to help students use their commuting time more effectively.",
+                    "ja": "私たちは生徒が通学時間をより効果的に使えるようにこの活動を始めました。"
+                  },
+                  {
+                    "id": "2b_s5",
+                    "en": "Students had to complete a commuting activity chart from January 17th to February 17th.",
+                    "ja": "生徒たちは1月17日から2月17日まで通学活動記録表に記入しなければなりませんでした。"
+                  },
+                  {
+                    "id": "2b_s6",
+                    "en": "A total of 300 students participated.",
+                    "ja": "合計300人の生徒が参加しました。"
+                  },
+                  {
+                    "id": "2b_s7",
+                    "en": "More than two thirds of them were second-years; about a quarter were third-years; only 15 first-years participated.",
+                    "ja": "3分の2以上が2年生で，約4分の1が3年生，1年生はわずか15人の参加でした。"
+                  },
+                  {
+                    "id": "2b_s8",
+                    "en": "How come so few first-years participated?",
+                    "ja": "なぜこんなに1年生の参加が少なかったのでしょうか。"
+                  },
+                  {
+                    "id": "2b_s9",
+                    "en": "Based on the feedback (given below), there seems to be an answer to this question:",
+                    "ja": "以下のフィードバックに基づくと，この質問への答えがあるようです："
+                  }
+                ],
+                [
+                  {
+                    "id": "2b_s10",
+                    "en": "HS: Thanks to this project, I got the highest score ever in an English vocabulary test. It was easy to set small goals to complete on my way.",
+                    "ja": "HS：このプロジェクトのおかげで，英語の語彙テストで過去最高の点数を取りました。通学中にこなす小さな目標を設定するのは簡単でした。"
+                  },
+                  {
+                    "id": "2b_s11",
+                    "en": "KF: My friend was sad because she couldn't participate. She lives nearby and walks to school. There should have been other ways to take part.",
+                    "ja": "KF：友達が参加できなくて悲しそうでした。彼女は近くに住んでいて徒歩で通学しています。他の参加方法があるべきでした。"
+                  },
+                  {
+                    "id": "2b_s12",
+                    "en": "SS: My train is always crowded and I have to stand, so there is no space to open a book or a tablet. I only used audio materials, but there were not nearly enough.",
+                    "ja": "SS：電車はいつも混んでいて立たなければならないので，本やタブレットを開くスペースがありません。オーディオ教材だけを使いましたが，全く十分ではありませんでした。"
+                  },
+                  {
+                    "id": "2b_s13",
+                    "en": "JH: I kept a study log, which made me realise how I used my time. For some reason most of my first-year classmates didn't seem to know about this challenge.",
+                    "ja": "JH：学習記録をつけたことで，自分の時間の使い方がわかりました。なぜかわかりませんが，1年生のクラスメイトのほとんどがこのチャレンジを知らないようでした。"
+                  },
+                  {
+                    "id": "2b_s14",
+                    "en": "MN: I spent most of the time on the bus watching videos, and it helped me to understand classes better. I felt the time went very fast.",
+                    "ja": "MN：バスの中でほとんどの時間を動画視聴に費やしましたが，授業の理解に役立ちました。時間がとても速く過ぎたと感じました。"
+                  }
+                ]
+              ]
             }
           ],
           "questions": [
@@ -569,7 +848,7 @@
               "explanation": {
                 "ja": "「通学チャレンジの目的は，生徒が[11]のを助けることであった。」\n① 「もっとはやく通学する」≫本文にない。\n② 「テストの点数を上げる」≫目的ではなく，ある生徒の結果である。\n③ 「英語の授業をもっとうまく運営する」≫本文にない。\n④ 「時間をよりよく使う」\n\n本文・全訳の問1から④が正解。文中のthis activityは「通学チャレンジ」を指す。",
                 "evidence_sentences": [
-                  "We started this activity to help students use their commuting time more effectively."
+                  "2b_s4"
                 ]
               }
             },
@@ -607,8 +886,8 @@
               "explanation": {
                 "ja": "「通学チャレンジに関する1つの事実は[12]ことである。」\n① 「参加者のうち10%未満が1年生だった」\n② 「冬の間に2カ月間行われた」≫実施期間は1カ月。\n③ 「生徒はバスで携帯機器を使わなければならなかった」≫本文にない。\n④ 「参加者の大多数が電車で行った」≫参加者の交通手段の割合については本文にない。\n\n本文・全訳の問2(1)，問2(2)によると，参加者300人のうち15人が1年生なので，5%に相当する。これは①が正解。",
                 "evidence_sentences": [
-                  "A total of 300 students participated.",
-                  "More than two thirds of them were second-years; about a quarter were third-years; only 15 first-years participated."
+                  "2b_s6",
+                  "2b_s7"
                 ]
               }
             },
@@ -656,8 +935,8 @@
               "explanation": {
                 "ja": "「フィードバックによると，[13]は参加者に報告された活動である。」\nA「学習記録をつけること」\nB「言語を学習すること」\nC「タブレットでメモを取ること」≫本文にない。\nD「携帯電話で授業の記録を読むこと」≫本文にない。\n\n本文・全訳の問3-AはAの内容に一致し，問3-BはBの内容に一致する。したがって①が正解。",
                 "evidence_sentences": [
-                  "Thanks to this project, I got the highest score ever in an English vocabulary test.",
-                  "I kept a study log, which made me realise how I used my time."
+                  "2b_s10",
+                  "2b_s13"
                 ]
               }
             },
@@ -695,7 +974,7 @@
               "explanation": {
                 "ja": "「通学チャレンジについての参加者の意見の1つは[14]。」\n① 「徒歩で通学している生徒を含めることができただろう」\n② 「電車は本を読むのに良い場所だった」≫SSが電車で本を読めなかったと言っている。\n③ 「学習のためのオーディオ教材がたくさんあった」≫SSがオーディオ教材は十分なかったと言っている。\n④ 「娯楽のためにビデオを見ることは時間が速く過ぎるのを助けた」≫MNが見ていたのは娯楽用ではなく，授業の理解に役立つもの。\n\n本文・全訳の問4から①が正解。KFのコメントのshould haveは過去に対する後悔や不満を表し，「～できただろう」の意味。",
                 "evidence_sentences": [
-                  "My friend was sad because she couldn't participate. She lives nearby and walks to school. There should have been other ways to take part."
+                  "2b_s11"
                 ]
               }
             },
@@ -738,8 +1017,8 @@
               "explanation": {
                 "ja": "「筆者の質問は[15]に答えられている。」\n① 「HS」\n② 「JH」\n③ 「KF」\n④ 「MN」\n⑤ 「SS」\n\n筆者の質問は，本文・全訳の問5(1)にある。そこには「1年生の参加がそんなに少ないのか？」と書かれている。答えは問5(2)にあるので，②が正解。",
                 "evidence_sentences": [
-                  "How come so few first-years participated?",
-                  "For some reason most of my first-year classmates didn't seem to know about this challenge."
+                  "2b_s8",
+                  "2b_s13"
                 ]
               }
             }
@@ -786,7 +1065,63 @@
                 "en": "Going camping? Read me!!!",
                 "ja": "キャンプに行く？読んで！！！"
               },
-              "paragraphs": []
+              "paragraphs": [
+                {
+                  "id": "3a_s1",
+                  "en": "Hi, I'm Kaitlyn. I want to share two practical camping lessons from my recent club trip.",
+                  "ja": "こんにちは，ケイトリンです。最近のクラブ旅行から学んだ2つの実用的なキャンプの教訓を共有したいと思います。"
+                },
+                {
+                  "id": "3a_s2",
+                  "en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+                  "ja": "最初に，バックパックを3つの主要な部分に分け，最も重いものを中間の区画に入れてバランスをとることです。"
+                },
+                {
+                  "id": "3a_s3",
+                  "en": "Next, more frequently used daily necessities should be placed in the top section.",
+                  "ja": "次に，より頻繁に使う日用品は上の区画に入れるべきです。"
+                },
+                {
+                  "id": "3a_s4",
+                  "en": "That means putting your sleeping bag at the bottom; food, cookware and tent in the middle; and your clothes at the top.",
+                  "ja": "つまり，寝袋は一番下，食料，調理器具，テントは真ん中，服は一番上に入れることになります。"
+                },
+                {
+                  "id": "3a_s5",
+                  "en": "Most good backpacks come with a \"brain\" (an additional pouch) for small easy-to-reach items.",
+                  "ja": "たいていの良いバックパックには「ブレイン」（追加のポーチ）が付いており，すぐに取り出せる小物を入れます。"
+                },
+                {
+                  "id": "3a_s6",
+                  "en": "Last year, in the evening, we had fun cooking and eating outdoors.",
+                  "ja": "去年の夕方，私たちは楽しく屋外で料理をして食事をしました。"
+                },
+                {
+                  "id": "3a_s7",
+                  "en": "I had been sitting close to our campfire, but by the time I got back to the tent I was freezing.",
+                  "ja": "私はキャンプファイヤーの近くに座っていましたが，テントに戻った時にはとても寒くなっていました。"
+                },
+                {
+                  "id": "3a_s8",
+                  "en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+                  "ja": "寝る前に服を重ね着しましたが，それでも寒かったです。"
+                },
+                {
+                  "id": "3a_s9",
+                  "en": "Then, my friend told me to take off my outer layers and stuff them into my sleeping bag to fill up some of the empty space.",
+                  "ja": "すると，友人が上着を脱いで寝袋に詰めて空間を埋めるように言ってくれました。"
+                },
+                {
+                  "id": "3a_s10",
+                  "en": "This stuffing method was new to me, and surprisingly kept me warm all night!",
+                  "ja": "この詰め物の方法は私にとって初めてでしたが，驚くほど一晩中暖かくしてくれました！"
+                },
+                {
+                  "id": "3a_s11",
+                  "en": "I hope my advice helps you stay warm and comfortable. Enjoy your camping trip!",
+                  "ja": "私のアドバイスがあなたの暖かさと快適さに役立つことを願っています。キャンプを楽しんでください！"
+                }
+              ]
             }
           ],
           "questions": [
@@ -824,7 +1159,10 @@
               "explanation": {
                 "ja": "「ケイトリンのアドバイスを受け入れるなら，バックパックをどのように詰めるべきか。」\n\n本文・全訳の問1から②が正解。選択肢では食料，皿，カップ，テントを「cookware」，衣類を「上着，シャツ，ズボン」と具体的に書いている。また救急セットと地図は，ブレインに入れる「小さな便利な物」と考える。",
                 "evidence_sentences": [
-                  "That means putting your sleeping bag at the bottom; food, cookware and tent in the middle; and your clothes at the top."
+                  "3a_s2",
+                  "3a_s3",
+                  "3a_s4",
+                  "3a_s5"
                 ]
               }
             },
@@ -862,7 +1200,8 @@
               "explanation": {
                 "ja": "「ケイトリンによると，[17]が一晩中暖かく過ごす最適な方法だ。」\n① 「テントから外に出るのを避けること」≫本文にない。\n② 「キャンプファイアの横で温かい食事をとること」≫この方法を実行したが，凍えたと書いてある。\n③ 「寝袋の隙間を埋めること」\n④ 「余分な服を全部着ること」≫この方法を実行したが，まだ寒かったと書いてある。\n\n本文・全訳の問2から③が正解。本文のempty spaceを③ではgapと言い換えている。",
                 "evidence_sentences": [
-                  "Then, my friend told me to take off my outer layers and stuff them into my sleeping bag to fill up some of the empty space. This stuffing method was new to me, and surprisingly kept me warm all night!"
+                  "3a_s9",
+                  "3a_s10"
                 ]
               }
             }
@@ -881,7 +1220,58 @@
                 "en": "Create Your Own \"Home Adventure\"",
                 "ja": "自分の「ホームアドベンチャー」を作ろう"
               },
-              "paragraphs": []
+              "paragraphs": [
+                {
+                  "id": "3b_s1",
+                  "en": "Last year, I took part in an \"adventure room\" experience. I really enjoyed it, so I created one for my children. Here are some tips on making your own.",
+                  "ja": "去年，「冒険部屋」の体験に参加しました。とても楽しかったので，自分の子供たちのために作ってみました。自分で作るためのヒントを紹介します。"
+                },
+                {
+                  "id": "3b_s2",
+                  "en": "First, pick a theme. My sons are huge Sherlock Holmes fans, so I decided on a detective mystery. I rearranged the furniture in our family room, and added some old paintings and lamps I had to set the scene.",
+                  "ja": "最初に，テーマを選びます。息子たちはシャーロック・ホームズの大ファンなので，探偵ミステリーに決めました。リビングルームの家具を並べ替え，手持ちの古い絵画やランプを追加して雰囲気を演出しました。"
+                },
+                {
+                  "id": "3b_s3",
+                  "en": "Next, create a storyline. Ours was The Case of the Missing Chocolates. My children would be \"detectives\" searching for clues to locate the missing sweets.",
+                  "ja": "次にストーリーラインを作ります。私たちのストーリーは『消えたチョコレート事件』でした。子供たちは行方不明のスイーツの手がかりを探す「探偵」になります。"
+                },
+                {
+                  "id": "3b_s4",
+                  "en": "The third step is to design puzzles and challenges. A useful idea is to work backwards from the solution. If the task is to open a box locked with a three-digit padlock, think of ways to hide a three-digit code.",
+                  "ja": "3番目のステップは，パズルや課題を設計することです。解答から逆に考えるのが有用なアイデアです。3桁の南京錠でロックされた箱を開けるのが課題だとしたら，3桁のコードを隠す方法を考えます。"
+                },
+                {
+                  "id": "3b_s5",
+                  "en": "Old books are fantastic for hiding messages in. I had tremendous fun underlining words on different pages to form mystery sentences.",
+                  "ja": "古い本はメッセージを隠すのにぴったりです。異なるページの単語に下線を引いてミステリーの文を作るのはとても楽しかったです。"
+                },
+                {
+                  "id": "3b_s6",
+                  "en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+                  "ja": "パズルは最終目標に近づくにつれて徐々に難しくなるべきであることを忘れないでください。"
+                },
+                {
+                  "id": "3b_s7",
+                  "en": "To get into the spirit, I then had the children wear costumes. My eldest son was excited when I handed him a magnifying glass, and immediately began acting like Sherlock Holmes. After that, the children started to search for the first clue.",
+                  "ja": "雰囲気を出すために，子供たちに衣装を着させました。長男に虫眼鏡を渡すと喜び，すぐにシャーロック・ホームズのように振る舞い始めました。その後，子供たちは最初の手がかりを探し始めました。"
+                },
+                {
+                  "id": "3b_s8",
+                  "en": "This \"adventure room\" was designed specifically for my family, so I made some of the challenges personal. For the final task, I took a couple of small cups and put a plastic sticker in each one, then filled them with yogurt.",
+                  "ja": "この「冒険部屋」は私の家族のために特別に設計したので，いくつかの課題を個人的なものにしました。最後の課題では，小さなカップを2つ取り，それぞれにプラスチックのシールを入れ，ヨーグルトを注ぎました。"
+                },
+                {
+                  "id": "3b_s9",
+                  "en": "The \"detectives\" had to eat their way to the bottom to reveal the clues. Neither of my kids would eat yogurt, so this truly was tough for them.",
+                  "ja": "「探偵」たちは手がかりを得るため底までヨーグルトを食べなければなりませんでした。子供たちはどちらもヨーグルトを食べないので，これは本当に大変でした。"
+                },
+                {
+                  "id": "3b_s10",
+                  "en": "During the adventure, my children were totally focused, and they enjoyed themselves so much that we will have another one next month.",
+                  "ja": "冒険の間，子供たちは完全に集中していて，とても楽しんだので，来月もう1回やることになりました。"
+                }
+              ]
             }
           ],
           "questions": [
@@ -932,10 +1322,11 @@
               "explanation": {
                 "ja": "「次の出来事（①～⑤）を起こった順に並べなさい。」\n① 「子供たちが好きではない食べ物を食べた。」→[21]\n② 「子供たちはお菓子の捜索を始めた。」→[20]\n③ 「父親は家のリビングルームを飾りつけた。」→[18]\n④ 「父親は息子たちに着る服を与えた。」→[19]\n\n本文・全訳の問1⓪を参照。本文のfamily roomを③ではliving room，costumesを④ではsome clothes to wearと言い換えている。また問1⓪の内容を簡潔にまとめると，「課題解決のために，子供たちが好きではないヨーグルトを食べた」ということ。",
                 "evidence_sentences": [
-                  "I rearranged the furniture in our family room, and added some old paintings and lamps I had to set the scene.",
-                  "To get into the spirit, I then had the children wear costumes.",
-                  "After that, the children started to search for the first clue.",
-                  "I took a couple of small cups and put a plastic sticker in each one, then filled them with yogurt. The \"detectives\" had to eat their way to the bottom to reveal the clues."
+                  "3b_s2",
+                  "3b_s7",
+                  "3b_s3",
+                  "3b_s8",
+                  "3b_s9"
                 ]
               }
             },
@@ -973,7 +1364,7 @@
               "explanation": {
                 "ja": "「あなたが自分の『アドベンチャールーム』を作るためにこの父親のアドバイスに従うなら，[22]べきだ。」\n① 「3文字の単語に集中する」≫本文にない。\n② 「秘密のメッセージをランプの下に置く」≫メッセージを隠すのは古い本の中がよいと言っている。\n③ 「課題を徐々に難しくする」\n④ 「シャーロック・ホームズのように振る舞う練習をする」≫本文にない。\n\n本文・全訳の問2と同じ内容の③が正解。",
                 "evidence_sentences": [
-                  "Remember that the puzzles should get progressively more difficult near the final goal."
+                  "3b_s6"
                 ]
               }
             },
@@ -1011,8 +1402,7 @@
               "explanation": {
                 "ja": "「この話から，この父親が[23]と理解できる。」\n① 「お菓子を探すことに集中するようになった」≫お菓子探しに集中したのは父ではなく子供たち。\n② 「特別に子供たちのために体験を作った」\n③ 「アドベンチャーゲームを準備するのに少し苦労した」≫楽しんだと言っているが，苦労したとは言っていない。\n④ 「部屋を飾りつけるのにたくさんお金をかけた」≫持っている古い絵画やランプを使ったと言ってある。\n\n本文・全訳の問3(1)，問3(2)に書いてあるように，自分の子供のために特別なアドベンチャールームを作ったので，②が正解。",
                 "evidence_sentences": [
-                  "Last year, I took part in an \"adventure room\" experience. I really enjoyed it, so I created one for my children.",
-                  "This \"adventure room\" was designed specifically for my family, so I made some of the challenges personal."
+                  "3b_s8"
                 ]
               }
             }
@@ -1053,7 +1443,63 @@
             "ja": ""
           },
           "author": "Tim Oxford, Science Teacher, Stone City Junior High School",
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "id": "4_s1",
+              "en": "As a science teacher, I am always concerned about how to help students who struggle to learn.",
+              "ja": "理科の教師として，学習に苦労している生徒をどう助けるかについていつも気にかけています。"
+            },
+            {
+              "id": "4_s2",
+              "en": "Recently, I found that their main way of learning was to study new information repeatedly until they could recall it all.",
+              "ja": "最近，彼らの主な学習方法は，すべてを想起できるまで新しい情報を繰り返し学習することであることがわかりました。"
+            },
+            {
+              "id": "4_s3",
+              "en": "For example, when they studied for a test, they would use a workbook like the example below and repeatedly say the terms that go in the blanks: \"Obsidian is igneous, dark, and glassy. Obsidian is igneous, dark, and glassy. . . .\"",
+              "ja": "例えば，テスト勉強をする際に，彼らは下の例のようなワークブックを使い，空欄に入る用語を繰り返し唱えるのです。「黒曜石は火成岩で，暗く，ガラス質だ。黒曜石は火成岩で，暗く，ガラス質だ。…」"
+            },
+            {
+              "id": "4_s4",
+              "en": "These students would feel as if they had learned the information, but would quickly forget it and get low scores on the test.",
+              "ja": "こうした生徒は，情報を覚えたように感じますが，すぐに忘れてテストで低い点数を取ってしまいます。"
+            },
+            {
+              "id": "4_s5",
+              "en": "Also, this sort of repetitive learning is dull and demotivating.",
+              "ja": "また，この種の繰り返し学習はつまらなく，やる気をなくさせます。"
+            },
+            {
+              "id": "4_s6",
+              "en": "To help them learn, I tried applying \"contextual learning.\" In this kind of learning, new knowledge is constructed through students' own experiences.",
+              "ja": "彼らの学習を助けるために，「文脈的学習」を試みました。この種の学習では，新しい知識は生徒自身の経験を通して構築されます。"
+            },
+            {
+              "id": "4_s7",
+              "en": "For my science class, students learned the properties of different kinds of rocks. Rather than having them memorize the terms from a workbook, I brought a big box of various rocks to the class.",
+              "ja": "私の理科の授業では，生徒たちはさまざまな岩石の特性を学びました。ワークブックの用語を暗記させる代わりに，さまざまな岩石の大きな箱をクラスに持ち込みました。"
+            },
+            {
+              "id": "4_s8",
+              "en": "Students examined the rocks and identified their names based on the characteristics they observed.",
+              "ja": "生徒は岩石を調べ，観察した特徴に基づいてその名前を特定しました。"
+            },
+            {
+              "id": "4_s9",
+              "en": "Thanks to this experience, I think these students will always be able to describe the properties of the rocks they studied.",
+              "ja": "この経験のおかげで，これらの生徒たちは学んだ岩石の特性をいつでも記述できるようになるだろうと思います。"
+            },
+            {
+              "id": "4_s10",
+              "en": "One issue, however, is that we don't always have the time to do contextual learning, so students will still study by doing drills.",
+              "ja": "しかし，1つの問題は，文脈的学習をするための時間が常にあるわけではないので，生徒たちは依然としてドリルで学習することです。"
+            },
+            {
+              "id": "4_s11",
+              "en": "I don't think this is the best way. I'm still searching for ways to improve their learning.",
+              "ja": "これが最善の方法だとは思いません。生徒の学習を改善する方法をまだ探しています。"
+            }
+          ]
         },
         {
           "id": "article_4b",
@@ -1062,7 +1508,73 @@
             "ja": ""
           },
           "author": "Susan Jacks, English Teacher, Lake City Junior High School",
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "id": "4_s12",
+              "en": "Mr. Oxford's thoughts on contextual learning were insightful. I agree that it can be beneficial.",
+              "ja": "オックスフォード氏の文脈的学習についての考えは洞察に富んでいました。それが有益であることに同意します。"
+            },
+            {
+              "id": "4_s13",
+              "en": "Repetition, though, can also work well. However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+              "ja": "しかし，繰り返しもうまくいくことがあります。ただし，彼が論じた繰り返し学習の戦略は「集中学習」と呼ばれますが，効果的ではありません。"
+            },
+            {
+              "id": "4_s14",
+              "en": "There is another kind of repetitive learning called \"spaced learning,\" in which students memorize new information and then review it over longer intervals.",
+              "ja": "「間隔学習」と呼ばれる別の種類の繰り返し学習があり，生徒が新しい情報を覚えてからより長い間隔をあけて復習する方法です。"
+            },
+            {
+              "id": "4_s15",
+              "en": "The interval between studying is the key difference.",
+              "ja": "学習の間の間隔が重要な違いです。"
+            },
+            {
+              "id": "4_s16",
+              "en": "In Mr. Oxford's example, his students probably used their workbooks to study over a short period of time. In this case, they might have paid less attention to the content as they continued to review it.",
+              "ja": "オックスフォード氏の例では，彼の生徒たちはおそらく短期間にワークブックを使って勉強したのでしょう。この場合，復習を続けるにつれて内容にあまり注意を払わなくなった可能性があります。"
+            },
+            {
+              "id": "4_s17",
+              "en": "The reason for this is that the content was no longer new and could easily be ignored.",
+              "ja": "この理由は，内容がもはや新しくなく，簡単に無視されうるからです。"
+            },
+            {
+              "id": "4_s18",
+              "en": "In contrast, when the intervals are longer, the students' memory of the content is weaker. Therefore, they pay more attention because they have to make a greater effort to recall what they had learned before.",
+              "ja": "対照的に，間隔が長いと，生徒の内容の記憶はより弱くなります。そのため，以前学んだことを想起するためにより大きな努力をしなければならないため，より注意を払うようになります。"
+            },
+            {
+              "id": "4_s19",
+              "en": "For example, if students study with their workbooks, wait three days, and then study again, they are likely to learn the material better.",
+              "ja": "例えば，生徒がワークブックで勉強し，3日間待ってから再度勉強すれば，教材をよりよく学べる可能性が高いです。"
+            },
+            {
+              "id": "4_s20",
+              "en": "Previous research has provided evidence for the advantages of spaced learning. In one experiment, students in Groups A and B tried to memorize the names of 50 animals.",
+              "ja": "以前の研究は，間隔学習の利点を裏付ける証拠を提供しています。ある実験で，グループAとBの生徒は50匹の動物の名前を暗記しようとしました。"
+            },
+            {
+              "id": "4_s21",
+              "en": "Both groups studied four times, but Group A studied at one-day intervals while Group B studied at one-week intervals.",
+              "ja": "両グループとも4回勉強しましたが，グループAは1日間隔で，グループBは1週間間隔で勉強しました。"
+            },
+            {
+              "id": "4_s22",
+              "en": "As the figure to the right shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group.",
+              "ja": "右の図が示すように，最後の学習セッションの28日後，テストで想起された名前の平均割合は，間隔学習グループの方が高かったです。"
+            },
+            {
+              "id": "4_s23",
+              "en": "I understand that students often need to learn a lot of information in a short period of time, and long intervals between studying might not be practical.",
+              "ja": "生徒は短期間に多くの情報を学ぶ必要があることが多く，学習の間を長い間隔にに取ることは現実的でないかもしれないことは理解しています。"
+            },
+            {
+              "id": "4_s24",
+              "en": "You should understand, though, that massed learning might not be good for long-term recall.",
+              "ja": "しかし，集中学習は長期的な想起には良くないかもしれないことを理解しておくべきです。"
+            }
+          ]
         }
       ],
       "questions": [
@@ -1100,7 +1612,7 @@
           "explanation": {
             "ja": "「オックスフォード氏は[24]と信じている。」\n① 「連続した反復練習は退屈だ」\n② 「用語の説明を読むことが役立つ」≫本文にない。\n③ 「生徒は理科に関心がない」≫本文にない。\n④ 「ワークブックで学習することが成功につながる」≫オックスフォード氏の考えと反対の内容である。\n\n選択肢①のcontinuous drillingは本文のrepetitive learningを指す。本文・全訳の問1を言い換えた①が正解。",
             "evidence_sentences": [
-              "Also, this sort of repetitive learning is dull and demotivating."
+              "4_s5"
             ]
           }
         },
@@ -1138,7 +1650,9 @@
           "explanation": {
             "ja": "「リー氏が考察した研究では，生徒が最後の学習時間の[25]後にテストを受けた。」\n① 「4週間」\n② 「直」\n③ 「1日」\n④ 「1週間」\n\n本文・全訳の問2に書かれている28 daysをfour weeksと言い換えた①が正解。",
             "evidence_sentences": [
-              "As the figure to the right shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group."
+              "4_s20",
+              "4_s21",
+              "4_s22"
             ]
           }
         },
@@ -1176,8 +1690,8 @@
           "explanation": {
             "ja": "「リー氏は，[26]間隔をあけた学習を含む，間隔学習を紹介しているが，それはオックスフォード氏が考察した[27]学習のデメリットを克服するためである。」\n① 「文脈的」\n② 「長期の」→[26]\n③ 「固定された」\n④ 「不定期の」\n⑤ 「集中した」→[27]\n⑥ 「実用的な」\n\nリー氏は，本文・全訳の問3(1)で，オックスフォード氏がとりあげたのは，反復学習法の中でも効果的でないmassed learning「集中学習」であると述べているので，[27]には⑤のmassedが入る。さらにリー氏は本文・全訳の問3(2)で，反復学習法には，復習の間隔を長くする「間隔学習」もあると述べている。したがって，[26]には②のextendedが入る。",
             "evidence_sentences": [
-              "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
-              "There is another kind of repetitive learning called \"spaced learning,\" in which students memorize new information and then review it over longer intervals."
+              "4_s14",
+              "4_s13"
             ]
           }
         },
@@ -1220,8 +1734,8 @@
           "explanation": {
             "ja": "「リー氏は，[26]間隔をあけた学習を含む，間隔学習を紹介しているが，それはオックスフォード氏が考察した[27]学習のデメリットを克服するためである。」\n① 「文脈的」\n② 「長期の」→[26]\n③ 「固定された」\n④ 「不定期の」\n⑤ 「集中した」→[27]\n⑥ 「実用的な」\n\nリー氏は，本文・全訳の問3(1)で，オックスフォード氏がとりあげたのは，反復学習法の中でも効果的でないmassed learning「集中学習」であると述べているので，[27]には⑤のmassedが入る。さらにリー氏は本文・全訳の問3(2)で，反復学習法には，復習の間隔を長くする「間隔学習」もあると述べている。したがって，[26]には②のextendedが入る。",
             "evidence_sentences": [
-              "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
-              "There is another kind of repetitive learning called \"spaced learning,\" in which students memorize new information and then review it over longer intervals."
+              "4_s6",
+              "4_s14"
             ]
           }
         },
@@ -1259,8 +1773,8 @@
           "explanation": {
             "ja": "「両方の筆者は，[28]が新しい情報を覚えるのに役立つと同意している。」\n① 「体験学習」\n② 「適切な休憩をとること」≫本文にない。\n③ 「長期間の注目」≫本文にない。\n④ 「ワークブックを用いた学習」≫オックスフォード氏は反対し，リー氏は適切な方法での使用に同意している。\n\n本文・全訳の問4(1)に書かれているように，オックスフォード氏は「文脈的学習」という言葉を使っているが，その内容は「体験に基づいた学習」である。また，問4(2)にあるように，リー氏もその効果を認めている。したがって，①が正解。",
             "evidence_sentences": [
-              "To help them learn, I tried applying \"contextual learning.\" In this kind of learning, new knowledge is constructed through students' own experiences.",
-              "Mr. Oxford's thoughts on contextual learning were insightful. I agree that it can be beneficial."
+              "4_s22",
+              "4_s23"
             ]
           }
         },
@@ -1298,7 +1812,9 @@
           "explanation": {
             "ja": "「どの追加情報が，リー氏の間隔学習に関する主張をさらに裏付けるのに最適か。」\n① 「科学の授業を魅力的にする主な要因」≫これは体験学習に関するものである。\n② 「間隔学習の最も効果的な間隔の長さ」\n③ 「生徒のワークブックが視覚教材を含むかどうか」≫本文にない。\n④ 「なぜオックスフォード氏の生徒が情報をうまく記憶できなかったか」≫すでにリー氏の記事に書かれている。\n\nリー氏はなぜ間隔学習が効果的なのかを説明したあと，本文・全訳の問5に，実験で間隔を1週間あけたグループの方が，1日あけたグループよりも，より良い学習結果が出たと紹介している。最も効果的な間隔に関する追加情報は，間隔学習の効果性を述べるリー氏の主張を裏付けることができるので，②が正解。",
             "evidence_sentences": [
-              "Previous research has provided evidence for the advantages of spaced learning. In one experiment, students in Groups A and B tried to memorize the names of 50 animals. Both groups studied four times, but Group A studied at one-day intervals while Group B studied at one-week intervals."
+              "4_s20",
+              "4_s21",
+              "4_s22"
             ]
           }
         }
@@ -1342,7 +1858,88 @@
             "ja": ""
           },
           "author": "Ben Carter",
-          "paragraphs": []
+          "paragraphs": [
+            {
+              "id": "5_s1",
+              "en": "The ball flew at lightning speed to my backhand. It was completely unexpected and I had no time to react. I lost the point and the match. Defeat. . . Again!",
+              "ja": "ボールが電光石火の速さでバックハンドに飛んできた。まったく予想外で，反応する時間がなかった。ポイントを失い，試合にも負けた。敗北…また！"
+            },
+            {
+              "id": "5_s2",
+              "en": "This is how it was in the first few months when I started playing table tennis. It was frustrating, but I now know that the sport taught me more than simply how to be a better athlete.",
+              "ja": "卓球を始めた最初の数カ月間はこんな感じだった。悔しかったが，このスポーツが単に良い選手になる方法以上のことを教えてくれたと今ではわかっている。"
+            },
+            {
+              "id": "5_s3",
+              "en": "In middle school, I loved football. I was one of the top scorers, but I didn't get along with my teammates. The coach often said that I should be more of a team player. I knew I should work on the problem, but communication was just not my strong point.",
+              "ja": "中学校では，サッカーが大好きだった。得点王の一人だったが，チームメイトとうまくやれなかった。コーチはよく，もっとチームプレーヤーになるべきだと言っていた。問題に取り組むべきだとわかっていたが，コミュニケーションは単に自分の得意なことではなかった。"
+            },
+            {
+              "id": "5_s4",
+              "en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that.",
+              "ja": "家族が新しい町に引っ越した時，サッカー部を辞めなければならなかった。どのみちサッカーをやめようと決めていたので，悲しくはなかった。新しい学校には体育の先生のトレント先生がコーチを務める卓球部があり，そこに入った。"
+            },
+            {
+              "id": "5_s5",
+              "en": "To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+              "ja": "正直に言うと，個人で競技する方が自分には楽だろうと思って卓球を選んだ。"
+            },
+            {
+              "id": "5_s6",
+              "en": "At first, I lost more games than I won. I was frustrated and often went straight home after practice, not speaking to anyone.",
+              "ja": "最初は，勝つよりも負ける試合の方が多かった。悔しくて，練習後は誰とも話さずにまっすぐ帰宅することが多かった。"
+            },
+            {
+              "id": "5_s7",
+              "en": "One day, however, Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game. What do you think you need to do?\" \"I don't know,\" I replied, \"focus on the ball more?\" \"Yes,\" Mr Trent continued, \"but you also need to study your opponent's moves and adjust your play accordingly. Remember, your opponent is a person, not a ball.\" This made a deep impression on me.",
+              "ja": "しかしある日，トレント先生が私に言った。「君は良い選手になれるよ，ベン。でも自分の試合についてもっと考える必要がある。何をすべきだと思う？」「わかりません」と私は答えた。「もっとボールに集中する？」「そうだ」とトレント先生は続けた。「でも相手の動きを研究し，それに合わせてプレーを調整する必要もある。忘れるな，相手はボールではなく人間だ。」これは私に深い印象を残した。"
+            },
+            {
+              "id": "5_s8",
+              "en": "I deliberately modified my style of play, paying closer attention to my opponent's moves. It was not easy, and took a lot of concentration.",
+              "ja": "意図的にプレースタイルを変え，相手の動きにもっと注意を払うようにした。簡単ではなく，多大な集中力を要した。"
+            },
+            {
+              "id": "5_s9",
+              "en": "My efforts paid off, however, and my play improved. My confidence grew and I started staying behind more after practice.",
+              "ja": "しかし，努力は実り，プレーは上達した。自信がつき，練習後にもっと残るようになった。"
+            },
+            {
+              "id": "5_s10",
+              "en": "I was turning into a star player and my classmates tried to talk to me more than before. I thought that I was becoming popular, but our conversations seemed to end before they really got started. Although my play might have improved, my communication skills obviously hadn't.",
+              "ja": "スター選手になりつつあり，クラスメイトは以前よりも話しかけてくるようになった。人気者になったと思ったが，会話は本当に始まる前に終わってしまうようだった。プレーは向上したかもしれないが，コミュニケーション能力は明らかに向上していなかった。"
+            },
+            {
+              "id": "5_s11",
+              "en": "My older brother Patrick was one of the few people I could communicate with well. One day, I tried to explain my problems with communication to him, but couldn't make him understand. We switched to talking about table tennis.",
+              "ja": "兄のパトリックは，私がうまくコミュニケーションを取れる数少ない人の一人だった。ある日，コミュニケーションの問題を説明しようとしたが，理解してもらえなかった。話題を卓球に切り替えた。"
+            },
+            {
+              "id": "5_s12",
+              "en": "\"What do you actually enjoy about it?\" he asked me curiously. I said I loved analysing my opponent's movements and making instant decisions about the next move. Patrick looked thoughtful. \"That sounds like the kind of skill we use when we communicate,\" he said.",
+              "ja": "「実際に卓球の何が楽しいの？」と兄は不思議そうに聞いた。相手の動きを分析し，次の一手について即座に判断を下すのが好きだと言った。パトリックは考え深い顔をした。「それはコミュニケーションで使うスキルのように聞こえるね」と彼は言った。"
+            },
+            {
+              "id": "5_s13",
+              "en": "At that time, I didn't understand, but soon after our conversation, I won a silver medal in a table tennis tournament. My classmates seemed really pleased. One of them, George, came running over. \"Hey, Ben!\" he said, \"Let's have a party to celebrate!\" Without thinking, I replied, \"I can't. I've got practice.\" He looked a bit hurt and walked off without saying anything else.",
+              "ja": "あの時は理解しなかったが，会話の後すぐに，卓球の大会で銀メダルを獲得した。クラスメイトはとても喜んでいるようだった。そのうちの一人のジョージが走り寄ってきた。「ヘイ，ベン！お祝いにパーティーしようよ！」深く考えず私は答えた。「できないよ。練習があるから。」彼は少し傷ついた表情をして，何も言わずに立ち去った。"
+            },
+            {
+              "id": "5_s14",
+              "en": "Why was he upset? I thought about this incident for a long time. Why did he suggest a party? Should I have said something different? A lot of questions came to my mind, but then I realised that he was just being kind.",
+              "ja": "なぜ彼は怒ったのか？このことについて長い間考えた。なぜパーティーを提案したのか？何か違うことを言うべきだったのか？多くの疑問が頭に浮かんだが，彼はただ親切にしてくれていただけだと気づいた。"
+            },
+            {
+              "id": "5_s15",
+              "en": "If I'd said, \"Great idea. Thank you! Let me talk to Mr Trent and see if I can get some time off practice,\" then maybe the outcome would have been better. At that moment Patrick's words made sense. Without attempting to grasp someone's intention, I wouldn't know how to respond.",
+              "ja": "もし「いいね。ありがとう！トレント先生に話して練習を少し休めるか聞いてみるよ」と言っていたら，結果は違っていたかもしれない。あの瞬間，パトリックの言葉に合点がいった。相手の意図を理解しようとしなければ，どう返事してよいかわからないのだ。"
+            },
+            {
+              "id": "5_s16",
+              "en": "I'm still not the best communicator in the world, but I definitely feel more confident in my communication skills now than before. Next year, my friends and I are going to co-ordinate the table tennis league with other schools.",
+              "ja": "まだ世界一のコミュニケーターではないが，以前よりもコミュニケーション能力に自信を持てるようになったのは確かだ。来年，友人たちと他校と卓球リーグを共同運営する予定だ。"
+            }
+          ]
         }
       ],
       "questions": [
@@ -1380,8 +1977,7 @@
           "explanation": {
             "ja": "「[30]に最も適切な選択肢を選びなさい。」\n① 「コミュニケーションに役立つだろうと信じた」≫コミュニケーションが苦手だから卓球クラブに入った。\n② 「学校で人気者になりたかった」≫人気が出たのは，入部の目的ではなく結果である。\n③ 「簡単に試合に勝てると考えた」≫本文にない。\n④ 「チームスポーツをすることを避けたかった」\n\n本文・全訳の問1(1)にあるように，ベンはチームスポーツが得意でなかった。だから問1(2)にあるように，個人スポーツを選んだ。したがって④が正解。",
             "evidence_sentences": [
-              "I was one of the top scorers, but I didn't get along with my teammates.",
-              "To be honest, I chose table tennis because I thought it would be easier for me to play individually."
+              "5_s5"
             ]
           }
         },
@@ -1419,8 +2015,7 @@
           "explanation": {
             "ja": "「[31]に最も適切な選択肢を選びなさい。」\n① 「コミュニケーションについて何を楽しんでいるかたずねた」≫卓球の何が楽しいのかをたずねた。\n② 「もっと自信を持つよう励ました」≫本文にない。\n③ 「彼が必要とする社交術を学ぶよう助けた」\n④ 「学校の友達に何と言うべきだったのか教えた」≫パトリックは教えていない。ベンが自分で考えた。\n\n本文・全訳の問2(1)に書かれているように，パトリックは卓球とコミュニケーションの共通点を教えている。ベンはすぐには理解できなかったが，問2(2)でその意味がわかり，その後コミュニケーションが上達している。communication skillsをsocial skillsと言い換えた③が正解。",
             "evidence_sentences": [
-              "\"That sounds like the kind of skill we use when we communicate,\" he said.",
-              "At that moment Patrick's words made sense. Without attempting to grasp someone's intention, I wouldn't know how to respond."
+              "5_s12"
             ]
           }
         },
@@ -1471,10 +2066,10 @@
           "explanation": {
             "ja": "「5つの選択肢（①～⑤）から4つを選び，起こった順に並べなさい。」\n① 「卓球のチャンピオンになった」≫銀メダルをとったが，チャンピオンにはなっていない。\n② 「先生と上手にプレーする方法を話し合った」→[32]\n③ 「彼を祝うパーティを断った」→[35]\n④ 「対戦相手を研究し始めた」→[33]\n⑤ 「卓球について兄と話した」→[34]\n\nベンの文章では，起こったことが順に書かれている。②～⑤に該当する部分は本文・全訳の問3⓪から問3⓪である。",
             "evidence_sentences": [
-              "One day, however, Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game.\"",
-              "I deliberately modified my style of play, paying closer attention to my opponent's moves.",
-              "We switched to talking about table tennis.",
-              "Without thinking, I replied, \"I can't. I've got practice.\""
+              "5_s7",
+              "5_s8",
+              "5_s13",
+              "5_s15"
             ]
           }
         },
@@ -1512,8 +2107,7 @@
           "explanation": {
             "ja": "「[36]に最も適切な選択肢を選びなさい。」\n① 「友人の動機をもっと知るために質問する」≫質問するべきだったとは書いていなかった。\n② 「感謝の気持ちを表すために，トレント先生と他のクラスメイトをパーティに招待する」≫本文にない。\n③ 「適切に行動できるように，友人の考え方を理解しようとする」\n④ 「上手なコミュニケーションのため，より良いチームプレーヤーになるよう懸命に練習する」≫本文にない。\n\nジョージとの会話のあとでベンが考え，その結果が本文・全訳の問4にある。やるべきことはジョージの気持ちを理解し，適切な行動を取る（練習を休めるか先生にたずねる）ことだったので，③が正解。",
             "evidence_sentences": [
-              "then I realised that he was just being kind. If I'd said, \"Great idea. Thank you! Let me talk to Mr Trent and see if I can get some time off practice,\" then maybe the outcome would have been better.",
-              "Without attempting to grasp someone's intention, I wouldn't know how to respond."
+              "5_s15"
             ]
           }
         },
@@ -1565,9 +2159,8 @@
           "explanation": {
             "ja": "「[37]と[38]に最も適切な選択肢を選びなさい。（順不同）」\n① 「周囲の人からのアドバイスは私たちが変わる助けになることができる。」\n② 「上手なコミュニケーションができる人になるには，自信が重要だ。」≫コミュニケーションができるようになってから自信がついたのであり，上手なコミュニケーションのために自信を持つのではない。\n③ 「友人に自分の意図を明確に伝えることが重要だ。」≫自分の意図を明確に伝えることではなく，相手の意図を理解する事が大切だと書かれている。\n④ 「チームメイトがお互いに提供するサポートは役に立つ。」≫本文にない。\n⑤ 「1つのことから学んだことを別のことに当てはめることができる。」\n\n本文・全訳の問5⓪-1のトレント先生のアドバイスがベンの卓球を上達させ，問5⓪-2＝問5⓪のパトリックのアドバイスが，ベンのコミュニケーションスキルを上達させたので，①が正解。また，パトリックのアドバイスは，相手の動きに合わせて自分のプレーを調整する卓球の技術をコミュニケーションに適用することであり，ベンは実体験を通じてこのことが理解できている。したがって，⑤が正解。",
             "evidence_sentences": [
-              "Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game.\"",
-              "\"That sounds like the kind of skill we use when we communicate,\" he said.",
-              "Without attempting to grasp someone's intention, I wouldn't know how to respond."
+              "5_s15",
+              "5_s16"
             ]
           }
         }
@@ -1673,7 +2266,7 @@
           "explanation": {
             "ja": "「[39]に最も適切な選択肢を選びなさい。」\n① 「人々が物をコレクターに高額で物を売るのに絶好の場所はヤードセールだ」≫本文にない。\n② 「人々は品物を間違って評価し，がらくたに高いお金を払うことになる可能性がある」≫本文にない。\n③ 「ある人にとっては重要でない物でも，誰か他の人にとっては価値のある物かもしれない」\n④ 「一度は収集して他の人の庭に捨てられた物が，他の人にとっては貴重かもしれない」≫「捨てられた物」ではなく「がらくた」が他人には貴重かもしれない。\n\n本文・全訳の問1のtrashとtreasureを具体的な説明で言い換えた③が正解。",
             "evidence_sentences": [
-              "One person's trash can be another person's treasure."
+              "6a_p1"
             ]
           }
         },
@@ -1711,7 +2304,7 @@
           "explanation": {
             "ja": "「[40]に最も適切な選択肢を選びなさい。」\n① 「子供の約3分の2は普通の物を集めない。」≫10歳以下の子供の90%が何かを集めている。\n② 「大人の約3分の1が楽しみのために収集を始める。」≫収集を続ける大人が約3分の1。\n③ 「子供のおよそ10%は友達とよく似たコレクションを持っている。」≫本文にない。\n④ 「大体30%の人が，大人になっても収集を続ける。」\n\n本文・全訳の問2参照。「約3分の1」を「大体30%」と言い換えた④が正解。",
             "evidence_sentences": [
-              "Even after becoming adults, people continue collecting stuff. Researchers in the field generally agree that approximately one third of adults maintain this behavior."
+              "6a_p2"
             ]
           }
         },
@@ -1768,8 +2361,8 @@
           "explanation": {
             "ja": "「[41]と[42]に最も適切な選択肢を選びなさい。（順不同）」\n① 「科学技術を進歩させるという願望」≫本文にない。\n② 「思いがけない機会を逃すことへの不安」≫本文にない。\n③ 「むなしさを満たすこと」≫本文にない。\n④ 「貴重な出来事を思い出させる物」\n⑤ 「将来のための物の再使用」≫本文にない。\n⑥ 「ある種の利益追求」\n\n本文・全訳の問3⓪にあげられた収集品は，家族や特別な出来事の思い出にまつわる物であり，これは④に当てはまる。問3⓪には投資として金銭的価値が出そうな物を集めることが書かれており，⑥に一致する。",
             "evidence_sentences": [
-              "Some save greeting cards from friends and family, dried flowers from special events, seashells from a day at the beach, old photos, and so on.",
-              "while others collect objects specifically as an investment."
+              "6a_p2",
+              "6a_p4"
             ]
           }
         },
@@ -1807,8 +2400,7 @@
           "explanation": {
             "ja": "「[43]に最も適切な選択肢を選びなさい。」\n① 「コレクションは規模や形態が変化し続けると思われる。」\n② 「新品同様のゲームのコレクターは，より多くのデジタルコピーを所有することになるだろう。」≫本文にない。\n③ 「収集への情熱を失った人が再開するだろう。」≫本文にない。\n④ 「科学技術の進歩で，収集の理由は変わるだろう。」≫収集の理由は変わらないだろうと書かれている。\n\n本文・全訳の問4参照。科学技術の進化によって，デジタル・ライブラリーのような，30年前には想像もできなかった新しいコレクションが可能になったように，将来のコレクションの「形態と規模」は，科学技術によって想像できないほど変化するだろうと言っている。したがって①が正解。",
             "evidence_sentences": [
-              "advances in technology will have an influence on collections.",
-              "It is unclear, though, what other impacts technology will have on collections. Can you even imagine the form and scale that the next generation's collections will take?"
+              "6a_p5"
             ]
           }
         }
@@ -1918,10 +2510,8 @@
           "explanation": {
             "ja": "「[44]に含むべきでないのは次のうちどれか。」\n① 「8本の短い脚」≫体の両側にそれぞれ4本の短い脚。\n② 「目が見えないか見えるかのどちらか」≫本文に当てはまる。\n③ 「植物を食べる，または生き物を食べる」≫本文に当てはまる。\n④ 「16種類の異なる足のタイプ」\n⑤ 「歯ではなく2本の口針」≫本文に当てはまる。\n\n本文・全訳の問1⓪，②，⑤によると，④以外はすべて本文にある。したがって，含むべきでないのは④。足のタイプは，粘着性パッドのある種と爪のある種の2種類。16種類なのは爪。",
             "evidence_sentences": [
-              "They have four short legs on each side of their bodies.",
-              "All tardigrades have a place for eyes, but not all species have eyes.",
-              "Basically, tardigrades can be divided into those that eat plant matter, and those that eat other creatures.",
-              "There are 16 known claw variations, which help identify those species with claws."
+              "6b_p4",
+              "6b_p5"
             ]
           }
         },
@@ -1973,8 +2563,8 @@
           "explanation": {
             "ja": "「生き残るための秘訣のスライド用に，クマムシが生き残るために最も役立つ特徴を2つ選びなさい。（順不同）」\n① 「乾燥した環境では，代謝が通常の1%未満に落ちる。」\n② 「乾眠状態のクマムシは151℃を超える温度でも生存できる。」≫151℃まで生きることができると書いてあるが，それ以上についてはわからない。\n③ 「乾眠状態は，クマムシの体内の水分が0.01%を超えると終わる。」≫体内の水分が3%以下で乾眠になると書いてある。\n④ 「サメのような口のおかげで，他の生物を食べやすくなる。」≫サメのような口をしたクマムシは，植物を食べる。\n⑤ 「非常に厳しいレベルの放射に耐える能力がある。」\n\n本文・全訳の問2⓪に代謝は通常の0.01%まで低下するとあり，0.01%は1%未満に含まれるので①が正解。問2⓪に一致するので⑤も正解。1,000倍を⑤では「非常に厳しい」と言い換えている。",
             "evidence_sentences": [
-              "They lose all but three percent of their body's water and their metabolism slows down to 0.01% of its normal speed.",
-              "This means that for 10 days most were able to survive X-rays and ultraviolet radiation 1,000 times more intense than here on earth."
+              "6b_p2",
+              "6b_p3"
             ]
           }
         },
@@ -2012,9 +2602,8 @@
           "explanation": {
             "ja": "「消化器官のスライド用に，クマムシのイラストの抜けている名前を完成させなさい。」\n① 「(A)食道 (B)咽頭 (C)中腸 (D)口針 (E)唾液腺」\n② 「(A)咽頭 (B)口針 (C)唾液腺 (D)食道 (E)中腸」\n③ 「(A)唾液腺 (B)食道 (C)中腸 (D)口針 (E)咽頭」\n④ 「(A)中腸 (B)唾液腺 (C)口針 (D)食道 (E)咽頭」\n⑤ 「(A)口針 (B)唾液腺 (C)咽頭 (D)中腸 (E)食道」\n\n本文・全訳の問3(1)から，Dの尖ったものが口針だとわかる。問3(2)から，口からつながる咽頭はE，咽頭の上のAが唾液腺，咽頭の先の管(B)が食道，さらに食べ物は中腸（＝C）に届き，肛門に行くことがわかる。よって③が正解。",
             "evidence_sentences": [
-              "The mouths of tardigrades do not have teeth. They do, however, have two sharp needles, called stylets",
-              "Both types of tardigrade have rather simple digestive systems. The mouth leads to the pharynx (throat), where digestive juices and food are mixed. Located above the pharynx is a salivary gland.",
-              "After the pharynx, there is a tube which transports food toward the gut. This tube is called the esophagus. The middle gut, a simple stomach/intestine type of organ, digests the food and absorbs the nutrients."
+              "6b_p5",
+              "6b_p6"
             ]
           }
         },
@@ -2052,9 +2641,8 @@
           "explanation": {
             "ja": "「最後のスライドに最適な意見はどれか。」\n① 「クマムシは何千年もの間，地上と宇宙で最も過酷な環境を生き延びてきた。クマムシは人類より長生きするだろう。」≫地球に5億4千万年いる。宇宙に行ったのは2007年以降である。\n② 「クマムシは宇宙から来て，ホッキョクギツネやフタコブラクダの限界を超えた気温でも生きられる。だからきっと人類よりも強いだろう。」≫宇宙から来たとは，本文に書かれていない。\n③ 「クマムシは，疑いなく地球で最も強い生き物だ。山の頂上，海の底，温泉の湯で生きることができ，月でも繁栄できる。」≫月で繁栄できるかどうかは不明。\n④ 「クマムシは地球上で最も過酷な状況を生き抜いてきて，少なくとも一度は宇宙へ旅した。この注目に値する生物は人類より長生きするだろう。」\n\n本文・全訳の問4(1)，問4(2)に書かれているように，クマムシは地球の過酷な状況で生きている。また，問4(3)にあるように，宇宙にも行っている。この2点に一致する④が正解。文の後半部分は本文にないが，クマムシの強さから導かれるスライド作成者の意見である。",
             "evidence_sentences": [
-              "They live almost everywhere, from 6,000-meter-high mountains to 4,600 meters below the ocean's surface.",
-              "When tardigrades are in a state of tun, they are so tough that they can survive in temperatures as low as -272°C and as high as 151°C.",
-              "In 2007, a team of European researchers sent a number of living tardigrades into space on the outside of a rocket for 10 days."
+              "6b_p2",
+              "6b_p3"
             ]
           }
         },
@@ -2092,8 +2680,7 @@
           "explanation": {
             "ja": "「クマムシを宇宙に送ることについて，何が推察できるか。」\n① 「クマムシが宇宙で生きていけるかどうかを解明することは，一度も重要だと考えられなかった。」≫宇宙に送り，生存できるか実験をしている。\n② 「クマムシは，数百万年間地球上にいる他の生物より強いことが研究から示されている。」≫他の生物ができるかどうかは記述がない。\n③ 「イスラエルの研究者は，これほど多くのクマムシが過酷な宇宙の環境を生き抜くとは予期していなかった。」≫クマムシを宇宙に送って生存を確認して驚いたのはヨーロッパの研究者。\n④ 「クマムシが月面で生存できるかどうか誰も調べに行っていない理由が，筆者の関心を引いた。」\n\n最初に，本文と一致している部分を確認する。本文・全訳の問5に，クマムシは事故で月に残されたが，誰も生存を調べるために採集に行っていないことが書かれ，筆者は「残念だ」と感じている。ここから筆者の「なぜ誰も調べに行っていないのか」と嘆く気持ちが推察できる。したがって④が正解。",
             "evidence_sentences": [
-              "an Israeli spacecraft crashed onto the moon and thousands of tardigrades in a state of tun were spilled onto its surface.",
-              "Whether these are still alive or not is unknown as no one has gone to collect them — which is a pity."
+              "6b_p3"
             ]
           }
         }

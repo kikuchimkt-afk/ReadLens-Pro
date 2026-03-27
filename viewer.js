@@ -998,8 +998,12 @@ function findSentenceJa(sid) {
     }
     if (passage.paragraphs) {
       for (const para of passage.paragraphs) {
-        const sent = para.find(s => s.id === sid);
-        if (sent) return sent.ja;
+        if (Array.isArray(para)) {
+          const sent = para.find(s => s.id === sid);
+          if (sent) return sent.ja;
+        } else if (para && para.id === sid) {
+          return para.ja;
+        }
       }
     }
   }
@@ -1166,21 +1170,23 @@ function renderQuestions() {
 
     // Stem (support both "stem" and "question_text" field names)
     const stemObj = q.stem || q.question_text;
-    const stemEn = stemObj.en.replace(
-      /\[(\d+)\]/g,
-      '<span class="answer-slot">$1</span>'
-    );
-    html += `<div class="question-stem">${stemEn}</div>`;
+    if (stemObj && stemObj.en) {
+      const stemEn = stemObj.en.replace(
+        /\[(\d+)\]/g,
+        '<span class="answer-slot">$1</span>'
+      );
+      html += `<div class="question-stem">${stemEn}</div>`;
+    }
 
     // Stem ja (hidden by default)
-    if (stemObj.ja) {
+    if (stemObj && stemObj.ja) {
       html += `<div class="choice-text-ja" style="margin-bottom:10px; margin-top:-8px;">${stemObj.ja}</div>`;
     }
 
     // Choices — ordering vs normal
     if (q.question_type === 'ordering') {
       // Ordering slots row
-      const slotCount = q.answer_sequence.length;
+      const slotCount = q.answer_sequence ? q.answer_sequence.length : (q.choices ? q.choices.length : 0);
       html += '<div class="ordering-slots" data-qid="' + q.question_id + '">';
       for (let si = 0; si < slotCount; si++) {
         if (si > 0) html += '<span class="ordering-arrow">→</span>';
@@ -1189,11 +1195,12 @@ function renderQuestions() {
       html += '</div>';
 
       // Ordering choice buttons
+      const orderingChoices = q.choices || q.events || [];
       html += '<div class="ordering-choices" data-qid="' + q.question_id + '">';
-      for (const choice of q.choices) {
+      for (const choice of orderingChoices) {
         html += '<button class="ordering-btn" data-qid="' + q.question_id + '" data-label="' + choice.label + '">'
           + '<span class="ordering-btn-label">' + choice.label + '</span>'
-          + '<span class="ordering-btn-text">' + choice.en + '</span>'
+          + '<span class="ordering-btn-text">' + (choice.en || '') + '</span>'
           + '<div class="choice-text-ja">' + (choice.ja || '') + '</div>'
           + '</button>';
       }

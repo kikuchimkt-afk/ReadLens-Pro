@@ -1,0 +1,522 @@
+{
+  "section_number": 1,
+  "title": "第1問",
+  "points": 10,
+  "points_per_question": 2,
+  "subsections": [
+    {
+      "label": "A",
+      "situation": {
+        "en": "You are studying about Brazil in the international club at your senior high school. Your teacher asked you to do research on food in Brazil. You find a Brazilian cookbook and read about fruits used to make desserts.",
+        "ja": "あなたは，高校の国際クラブでブラジルについて勉強しています。先生があなたにブラジルの食べ物について調査するように言いました。あなたはブラジルの料理の本を見つけ，デザートを作るのに使われる果物について読みます。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": {
+            "en": "Popular Brazilian Fruits",
+            "ja": "人気があるブラジルの果物"
+          },
+          "no_divider": true
+        },
+        {
+          "id": "cupuacu",
+          "title": {
+            "en": "Cupuaçu",
+            "ja": "クプアス"
+          },
+          "sentences": [
+            {
+              "id": "1a_s1",
+              "en": "Smells and tastes like chocolate",
+              "ja": "チョコレートのような香りと味がする"
+            },
+            {
+              "id": "1a_s2",
+              "en": "Great for desserts, such as cakes, and with yogurt",
+              "ja": "ケーキのようなデザートに，また，ヨーグルトと食べるのに最適"
+            },
+            {
+              "id": "1a_s3",
+              "en": "Brazilians love the chocolate-flavored juice of this fruit.",
+              "ja": "ブラジル人はこの果物のチョコレート風味のジュースが大好き。"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "jabuticaba",
+          "title": {
+            "en": "Jabuticaba",
+            "ja": "ジャボチカバ"
+          },
+          "sentences": [
+            {
+              "id": "1a_s4",
+              "en": "Looks like a grape",
+              "ja": "ブドウのように見える"
+            },
+            {
+              "id": "1a_s5",
+              "en": "Eat them within three days of picking for a sweet flavor.",
+              "ja": "甘い味を味わうなら収穫から3日以内に食べなさい。"
+            },
+            {
+              "id": "1a_s6",
+              "en": "After they get sour, use them for making jams, jellies, and cakes.",
+              "ja": "酸味が出たあとは，ジャムやゼリー，ケーキ作りに利用しなさい。"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "pitanga",
+          "title": {
+            "en": "Pitanga",
+            "ja": "ピタンガ"
+          },
+          "sentences": [
+            {
+              "id": "1a_s7",
+              "en": "Comes in two varieties, red and green",
+              "ja": "赤と緑の2つの品種がある"
+            },
+            {
+              "id": "1a_s8",
+              "en": "Use the sweet red one for making cakes.",
+              "ja": "甘い赤い果実をケーキ作りに使いなさい。"
+            },
+            {
+              "id": "1a_s9",
+              "en": "The sour green one is only for jams and jellies.",
+              "ja": "酸味のある緑色の果実はジャムとゼリーのみに適している。"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "buriti",
+          "title": {
+            "en": "Buriti",
+            "ja": "ブリチ"
+          },
+          "sentences": [
+            {
+              "id": "1a_s10",
+              "en": "Orange inside, similar to a peach or a mango",
+              "ja": "中身はオレンジ色で，桃やマンゴーに似ている"
+            },
+            {
+              "id": "1a_s11",
+              "en": "Tastes very sweet, melts in your mouth",
+              "ja": "味はとても甘く，口の中で溶ける"
+            },
+            {
+              "id": "1a_s12",
+              "en": "Best for ice cream, cakes, and jams",
+              "ja": "アイスクリーム，ケーキ，ジャムに最適"
+            }
+          ],
+          "no_divider": true
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "Both cupuaçu and buriti can be used to make [1].",
+            "ja": "「クプアスとブリチの両方は[1]を作るのに使えます。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a cake",
+              "ja": "ケーキ",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "chocolate",
+              "ja": "チョコレート",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "ice cream",
+              "ja": "アイスクリーム",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "yogurt",
+              "ja": "ヨーグルト",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "クプアスとブリチに共通する使われ方を表から探す。クプアスの説明の2つ目にGreat for desserts, such as cakes, and with yogurt（ケーキのようなデザートに最適），ブリチの説明の3つ目にBest for ice cream, cakes, and jams（アイスクリーム，ケーキ，ジャムに最適）とある。どちらもケーキに最適なので①が正解。クプアスの説明に「チョコレートのような香りと味」「ヨーグルトと食べるのに最適」とあるが，材料としての使われ方ではないので②，④は不適当。またアイスクリームの材料に適しているのはブリチだけなので③も不適当。",
+            "evidence_sentences": [
+              "1a_s2",
+              "1a_s12"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "If you want to make a sour cake, the best fruit to use is [2].",
+            "ja": "「酸味のあるケーキを作りたかったら，使うのに最適な果物は[2]です。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "buriti",
+              "ja": "ブリチ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "cupuaçu",
+              "ja": "クプアス",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "jabuticaba",
+              "ja": "ジャボチカバ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "pitanga",
+              "ja": "ピタンガ",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "果物の説明にsour（酸味がある）と書かれている箇所を探すと，ジャボチカバの説明の3つ目にAfter they get sour, use them for making jams, jellies, and cakes.（酸味が出たあとは，ジャムやゼリー，ケーキ作りに利用しなさい。），ピタンガの説明の3つ目にThe sour green one is only for jams and jellies.（酸味のある緑色の果実はジャムとゼリーのみに適している。）とある。酸味のあるケーキ作りに適しているのはジャボチカバであるから，③が正解。酸味のある緑色のピタンガはジャムとゼリーにしか使えないので④は不適当。①のブリチはとても甘く，②のクプアスはチョコレート風味なので，どちらも不適当。",
+            "evidence_sentences": [
+              "1a_s6",
+              "1a_s9"
+            ]
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p02.png",
+        "images/mondai_p03.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p02.png"
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "come in ~ varieties",
+              "ja": "「～個の品種がある」"
+            },
+            {
+              "en": "melt",
+              "ja": "「溶ける」"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "B",
+      "situation": {
+        "en": "You are looking at the website for the City Zoo in Toronto, Canada and you find an interesting contest announcement. You are thinking about entering the contest.",
+        "ja": "あなたはカナダのトロントにある市立動物園のウェブサイトを見ていて，おもしろいコンテストの告知を見つけます。あなたはこのコンテストに参加しようと考えています。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": {
+            "en": "Contest!\nName a Baby Giraffe",
+            "ja": "コンテスト！\n赤ちゃんキリンに名前をつけて"
+          },
+          "subtitle": {
+            "en": "Let's welcome our newest animal to the City Zoo!",
+            "ja": "市立動物園にやってきた一番新しい動物を歓迎しましょう！"
+          },
+          "no_divider": true
+        },
+        {
+          "id": "announcement",
+          "sentences": [
+            {
+              "id": "1b_s1",
+              "en": "A healthy baby giraffe was born on May 26 at the City Zoo.",
+              "ja": "5月26日に市立動物園で元気な赤ちゃんキリンが生まれました。"
+            },
+            {
+              "id": "1b_s2",
+              "en": "He's already walking and running around!",
+              "ja": "赤ちゃんはもう歩いたり走り回ったりしています！"
+            },
+            {
+              "id": "1b_s3",
+              "en": "He weighs 66 kg and is 180 cm tall.",
+              "ja": "体重は66kgで身長は180cmです。"
+            },
+            {
+              "id": "1b_s4",
+              "en": "Your mission is to help his parents, Billy and Noelle, pick a name for their baby.",
+              "ja": "あなたのミッションは両親のビリーとノエルを手伝い，赤ちゃんの名前を選ぶことです。"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "how_to_enter",
+          "title": {
+            "en": "How to Enter",
+            "ja": "参加方法"
+          },
+          "sentences": [
+            {
+              "id": "1b_s5",
+              "en": "Click on the link here to submit your idea for his name and follow the directions.",
+              "ja": "名前の案を投稿するには，こちらのリンクをクリックし，指示に従ってください。"
+            },
+            {
+              "id": "1b_s6",
+              "en": "Names are accepted starting at 12:00 a.m. on June 1 until 11:59 p.m. on June 7.",
+              "ja": "名前は6月1日午前0時から6月7日午後11時59分まで受け付けます。"
+            },
+            {
+              "id": "1b_s7",
+              "en": "Watch the baby giraffe on the live web camera to help you get ideas.",
+              "ja": "アイディアを得るのに役立てるため，ライブウェブカメラで赤ちゃんキリンを見てください。"
+            },
+            {
+              "id": "1b_s8",
+              "en": "Each submission is $5. All money will go towards feeding the growing baby giraffe.",
+              "ja": "1投稿につき5ドルです。すべてのお金は，成長する赤ちゃんキリンのエサ代に使われます。"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "schedule",
+          "title": {
+            "en": "Contest Schedule",
+            "ja": "コンテストのスケジュール"
+          },
+          "sentences": [
+            {
+              "id": "1b_s9",
+              "en": "June 8: The zoo staff will choose five finalists from all the entries. These names will be posted on the zoo's website by 5:00 p.m.",
+              "ja": "6月8日：全参加作品の中から，動物園スタッフが5つの最終候補を選出します。これらの名前は午後5時までに動物園のウェブサイトに掲載されます。"
+            },
+            {
+              "id": "1b_s10",
+              "en": "June 9: How will the parents decide on the winning name? Click on the live stream link between 11:00 a.m. and 12:00 p.m. to find out! Check our website for the winning name after 12:00 p.m.",
+              "ja": "6月9日：親キリンはどのように最優秀の名前を決めるのでしょうか？それを見るには，午前11時から正午の間にライブ配信リンクをクリックしてください！最優秀の名前を見るには，正午以降にウェブサイトを確認してください。"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "prizes",
+          "title": {
+            "en": "Prizes",
+            "ja": "賞品"
+          },
+          "sentences": [
+            {
+              "id": "1b_s11",
+              "en": "All five contest finalists will receive free one-day zoo passes valid until the end of July.",
+              "ja": "5人のすべてのコンテスト最終候補者には，7月末まで有効な，無料の動物園1日入場券が贈られます。"
+            },
+            {
+              "id": "1b_s12",
+              "en": "The one who submitted the winning name will also get a special photo of the baby giraffe with his family, as well as a private Night Safari Tour!",
+              "ja": "最優秀の名前を投稿した人には，赤ちゃんキリンとその家族の特別な写真，そしてプライベートのナイトサファリツアーも贈られます！"
+            }
+          ],
+          "no_divider": true
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 3,
+          "stem": {
+            "en": "You can enter this contest between [3].",
+            "ja": "「あなたはこのコンテストに[3]の間に参加できます。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "May 26 and May 31",
+              "ja": "5月26日から5月31日",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "June 1 and June 7",
+              "ja": "6月1日から6月7日",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "June 8 and June 9",
+              "ja": "6月8日から6月9日",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "June 10 and July 31",
+              "ja": "6月10日から7月31日",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "How to Enter（参加方法）の1つ目からわかるように，このウェブサイトでは「コンテストに参加する」＝「赤ちゃんキリンの名前を投稿する」ことを意味する。参加方法の2つ目にNames are accepted starting at 12:00 a.m. on June 1 until 11:59 p.m. on June 7.（名前は6月1日午前0時から6月7日午後11時59分まで受け付けます。）と書かれているので，②が正解。",
+            "evidence_sentences": [
+              "1b_s6"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 4,
+          "stem": {
+            "en": "When submitting your idea for the baby giraffe's name, you must [4].",
+            "ja": "「赤ちゃんキリンの名前の案を投稿する時，あなたは[4]ことをしなければなりません。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "buy a day pass",
+              "ja": "1日入場券を買う",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "pay the submission fee",
+              "ja": "投稿料を支払う",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "spend five dollars at the City Zoo",
+              "ja": "市立動物園で5ドル使う",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "watch the giraffe through the website",
+              "ja": "ウェブサイトを通してキリンを見る",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "参加方法の4つ目Each submission is $5.（1投稿につき5ドルです。）から，キリンの名前を投稿するには投稿料が必要であるとわかる。したがって②が正解。①と③についてはウェブサイトに書かれていないので不適当。参加方法の3つ目で「アイディアを得るのに役立てるため，ライブウェブカメラで赤ちゃんキリンを見てください。」と勧めているが，これは義務ではないので不適当。",
+            "evidence_sentences": [
+              "1b_s8"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 5,
+          "stem": {
+            "en": "If the name you submitted is included among the five finalists, you will [5].",
+            "ja": "「あなたが投稿した名前が5つの最終候補に含まれたら，あなたは[5]でしょう。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "get free entry to the zoo for a day",
+              "ja": "動物園への1日無料入場許可を得る",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "have free access to the live website",
+              "ja": "ライブウェブサイトに無料でアクセスする",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "meet and feed the baby giraffe",
+              "ja": "赤ちゃんキリンに会ってエサをやる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "take a picture with the giraffe's family",
+              "ja": "キリンの家族と写真を撮る",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "Prizes（賞品）の説明の1つ目にAll five contest finalists will receive free one-day zoo passes（5人のすべてのコンテスト最終候補者には無料の動物園1日入場券が贈られます）とある。free one-day zoo pass＝free entry to the zoo for a dayと言い換えた①が正解。ライブウェブカメラには誰でもアクセスできるので②は不適当。③の内容は本文に書かれていないので不適当。赤ちゃんキリンとその家族の写真は，最優秀に選ばれればもらえるが，5人の最終候補者がもらえるものではないし，そもそもキリンと一緒に写真を撮るという賞品はないので，④は不適当。",
+            "evidence_sentences": [
+              "1b_s11"
+            ]
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p04.png",
+        "images/mondai_p05.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p02.png",
+        "images/kaitou_p03.png"
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "mission",
+              "ja": "「ミッション；使命」"
+            },
+            {
+              "en": "submit",
+              "ja": "「～を投稿する」"
+            },
+            {
+              "en": "12:00 a.m.",
+              "ja": "「午前0時（深夜の0時）」"
+            },
+            {
+              "en": "go toward ~",
+              "ja": "「（金が）～に使われる」"
+            },
+            {
+              "en": "12:00 p.m.",
+              "ja": "「午後0時（正午）」"
+            },
+            {
+              "en": "valid until ~",
+              "ja": "「～まで有効な」"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "passage_images": [
+    "images/mondai_p02.png",
+    "images/mondai_p03.png",
+    "images/mondai_p04.png",
+    "images/mondai_p05.png"
+  ],
+  "explanation_images": [
+    "images/kaitou_p02.png",
+    "images/kaitou_p03.png"
+  ]
+}

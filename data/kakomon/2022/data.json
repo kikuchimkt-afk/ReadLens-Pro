@@ -20,6 +20,2945 @@
   },
   "sections": [
     {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 10,
+      "points_per_question": 2,
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You are studying about Brazil in the international club at your senior high school. Your teacher asked you to do research on food in Brazil. You find a Brazilian cookbook and read about fruits used to make desserts.",
+            "ja": "あなたは，高校の国際クラブでブラジルについて勉強しています。先生があなたにブラジルの食べ物について調査するように言いました。あなたはブラジルの料理の本を見つけ，デザートを作るのに使われる果物について読みます。"
+          },
+          "passages": [
+            {
+              "id": "header",
+              "title": {
+                "en": "Popular Brazilian Fruits",
+                "ja": "人気があるブラジルの果物"
+              },
+              "no_divider": true
+            },
+            {
+              "id": "cupuacu",
+              "title": {
+                "en": "Cupuaçu",
+                "ja": "クプアス"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s1",
+                  "en": "Smells and tastes like chocolate",
+                  "ja": "チョコレートのような香りと味がする"
+                },
+                {
+                  "id": "1a_s2",
+                  "en": "Great for desserts, such as cakes, and with yogurt",
+                  "ja": "ケーキのようなデザートに，また，ヨーグルトと食べるのに最適"
+                },
+                {
+                  "id": "1a_s3",
+                  "en": "Brazilians love the chocolate-flavored juice of this fruit.",
+                  "ja": "ブラジル人はこの果物のチョコレート風味のジュースが大好き。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "jabuticaba",
+              "title": {
+                "en": "Jabuticaba",
+                "ja": "ジャボチカバ"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s4",
+                  "en": "Looks like a grape",
+                  "ja": "ブドウのように見える"
+                },
+                {
+                  "id": "1a_s5",
+                  "en": "Eat them within three days of picking for a sweet flavor.",
+                  "ja": "甘い味を味わうなら収穫から3日以内に食べなさい。"
+                },
+                {
+                  "id": "1a_s6",
+                  "en": "After they get sour, use them for making jams, jellies, and cakes.",
+                  "ja": "酸味が出たあとは，ジャムやゼリー，ケーキ作りに利用しなさい。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "pitanga",
+              "title": {
+                "en": "Pitanga",
+                "ja": "ピタンガ"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s7",
+                  "en": "Comes in two varieties, red and green",
+                  "ja": "赤と緑の2つの品種がある"
+                },
+                {
+                  "id": "1a_s8",
+                  "en": "Use the sweet red one for making cakes.",
+                  "ja": "甘い赤い果実をケーキ作りに使いなさい。"
+                },
+                {
+                  "id": "1a_s9",
+                  "en": "The sour green one is only for jams and jellies.",
+                  "ja": "酸味のある緑色の果実はジャムとゼリーのみに適している。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "buriti",
+              "title": {
+                "en": "Buriti",
+                "ja": "ブリチ"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s10",
+                  "en": "Orange inside, similar to a peach or a mango",
+                  "ja": "中身はオレンジ色で，桃やマンゴーに似ている"
+                },
+                {
+                  "id": "1a_s11",
+                  "en": "Tastes very sweet, melts in your mouth",
+                  "ja": "味はとても甘く，口の中で溶ける"
+                },
+                {
+                  "id": "1a_s12",
+                  "en": "Best for ice cream, cakes, and jams",
+                  "ja": "アイスクリーム，ケーキ，ジャムに最適"
+                }
+              ],
+              "no_divider": true
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 1,
+              "stem": {
+                "en": "Both cupuaçu and buriti can be used to make [1].",
+                "ja": "「クプアスとブリチの両方は[1]を作るのに使えます。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "a cake",
+                  "ja": "ケーキ",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "chocolate",
+                  "ja": "チョコレート",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "ice cream",
+                  "ja": "アイスクリーム",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "yogurt",
+                  "ja": "ヨーグルト",
+                  "is_correct": false
+                }
+              ],
+              "answer": "①",
+              "explanation": {
+                "ja": "クプアスとブリチに共通する使われ方を表から探す。クプアスの説明の2つ目にGreat for desserts, such as cakes, and with yogurt（ケーキのようなデザートに最適），ブリチの説明の3つ目にBest for ice cream, cakes, and jams（アイスクリーム，ケーキ，ジャムに最適）とある。どちらもケーキに最適なので①が正解。クプアスの説明に「チョコレートのような香りと味」「ヨーグルトと食べるのに最適」とあるが，材料としての使われ方ではないので②，④は不適当。またアイスクリームの材料に適しているのはブリチだけなので③も不適当。",
+                "evidence_sentences": [
+                  "1a_s2",
+                  "1a_s12"
+                ]
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 2,
+              "stem": {
+                "en": "If you want to make a sour cake, the best fruit to use is [2].",
+                "ja": "「酸味のあるケーキを作りたかったら，使うのに最適な果物は[2]です。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "buriti",
+                  "ja": "ブリチ",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "cupuaçu",
+                  "ja": "クプアス",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "jabuticaba",
+                  "ja": "ジャボチカバ",
+                  "is_correct": true
+                },
+                {
+                  "label": "④",
+                  "en": "pitanga",
+                  "ja": "ピタンガ",
+                  "is_correct": false
+                }
+              ],
+              "answer": "③",
+              "explanation": {
+                "ja": "果物の説明にsour（酸味がある）と書かれている箇所を探すと，ジャボチカバの説明の3つ目にAfter they get sour, use them for making jams, jellies, and cakes.（酸味が出たあとは，ジャムやゼリー，ケーキ作りに利用しなさい。），ピタンガの説明の3つ目にThe sour green one is only for jams and jellies.（酸味のある緑色の果実はジャムとゼリーのみに適している。）とある。酸味のあるケーキ作りに適しているのはジャボチカバであるから，③が正解。酸味のある緑色のピタンガはジャムとゼリーにしか使えないので④は不適当。①のブリチはとても甘く，②のクプアスはチョコレート風味なので，どちらも不適当。",
+                "evidence_sentences": [
+                  "1a_s6",
+                  "1a_s9"
+                ]
+              }
+            }
+          ],
+          "passage_images": [
+            "images/mondai_p02.png",
+            "images/mondai_p03.png"
+          ],
+          "explanation_images": [
+            "images/kaitou_p02.png"
+          ],
+          "vocabulary": {
+            "passage": {
+              "items": [
+                {
+                  "en": "come in ~ varieties",
+                  "ja": "「～個の品種がある」"
+                },
+                {
+                  "en": "melt",
+                  "ja": "「溶ける」"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You are looking at the website for the City Zoo in Toronto, Canada and you find an interesting contest announcement. You are thinking about entering the contest.",
+            "ja": "あなたはカナダのトロントにある市立動物園のウェブサイトを見ていて，おもしろいコンテストの告知を見つけます。あなたはこのコンテストに参加しようと考えています。"
+          },
+          "passages": [
+            {
+              "id": "header",
+              "title": {
+                "en": "Contest!\nName a Baby Giraffe",
+                "ja": "コンテスト！\n赤ちゃんキリンに名前をつけて"
+              },
+              "subtitle": {
+                "en": "Let's welcome our newest animal to the City Zoo!",
+                "ja": "市立動物園にやってきた一番新しい動物を歓迎しましょう！"
+              },
+              "no_divider": true
+            },
+            {
+              "id": "announcement",
+              "sentences": [
+                {
+                  "id": "1b_s1",
+                  "en": "A healthy baby giraffe was born on May 26 at the City Zoo.",
+                  "ja": "5月26日に市立動物園で元気な赤ちゃんキリンが生まれました。"
+                },
+                {
+                  "id": "1b_s2",
+                  "en": "He's already walking and running around!",
+                  "ja": "赤ちゃんはもう歩いたり走り回ったりしています！"
+                },
+                {
+                  "id": "1b_s3",
+                  "en": "He weighs 66 kg and is 180 cm tall.",
+                  "ja": "体重は66kgで身長は180cmです。"
+                },
+                {
+                  "id": "1b_s4",
+                  "en": "Your mission is to help his parents, Billy and Noelle, pick a name for their baby.",
+                  "ja": "あなたのミッションは両親のビリーとノエルを手伝い，赤ちゃんの名前を選ぶことです。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "how_to_enter",
+              "title": {
+                "en": "How to Enter",
+                "ja": "参加方法"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s5",
+                  "en": "Click on the link here to submit your idea for his name and follow the directions.",
+                  "ja": "名前の案を投稿するには，こちらのリンクをクリックし，指示に従ってください。"
+                },
+                {
+                  "id": "1b_s6",
+                  "en": "Names are accepted starting at 12:00 a.m. on June 1 until 11:59 p.m. on June 7.",
+                  "ja": "名前は6月1日午前0時から6月7日午後11時59分まで受け付けます。"
+                },
+                {
+                  "id": "1b_s7",
+                  "en": "Watch the baby giraffe on the live web camera to help you get ideas.",
+                  "ja": "アイディアを得るのに役立てるため，ライブウェブカメラで赤ちゃんキリンを見てください。"
+                },
+                {
+                  "id": "1b_s8",
+                  "en": "Each submission is $5. All money will go towards feeding the growing baby giraffe.",
+                  "ja": "1投稿につき5ドルです。すべてのお金は，成長する赤ちゃんキリンのエサ代に使われます。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "schedule",
+              "title": {
+                "en": "Contest Schedule",
+                "ja": "コンテストのスケジュール"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s9",
+                  "en": "June 8: The zoo staff will choose five finalists from all the entries. These names will be posted on the zoo's website by 5:00 p.m.",
+                  "ja": "6月8日：全参加作品の中から，動物園スタッフが5つの最終候補を選出します。これらの名前は午後5時までに動物園のウェブサイトに掲載されます。"
+                },
+                {
+                  "id": "1b_s10",
+                  "en": "June 9: How will the parents decide on the winning name? Click on the live stream link between 11:00 a.m. and 12:00 p.m. to find out! Check our website for the winning name after 12:00 p.m.",
+                  "ja": "6月9日：親キリンはどのように最優秀の名前を決めるのでしょうか？それを見るには，午前11時から正午の間にライブ配信リンクをクリックしてください！最優秀の名前を見るには，正午以降にウェブサイトを確認してください。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "prizes",
+              "title": {
+                "en": "Prizes",
+                "ja": "賞品"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s11",
+                  "en": "All five contest finalists will receive free one-day zoo passes valid until the end of July.",
+                  "ja": "5人のすべてのコンテスト最終候補者には，7月末まで有効な，無料の動物園1日入場券が贈られます。"
+                },
+                {
+                  "id": "1b_s12",
+                  "en": "The one who submitted the winning name will also get a special photo of the baby giraffe with his family, as well as a private Night Safari Tour!",
+                  "ja": "最優秀の名前を投稿した人には，赤ちゃんキリンとその家族の特別な写真，そしてプライベートのナイトサファリツアーも贈られます！"
+                }
+              ],
+              "no_divider": true
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 3,
+              "stem": {
+                "en": "You can enter this contest between [3].",
+                "ja": "「あなたはこのコンテストに[3]の間に参加できます。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "May 26 and May 31",
+                  "ja": "5月26日から5月31日",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "June 1 and June 7",
+                  "ja": "6月1日から6月7日",
+                  "is_correct": true
+                },
+                {
+                  "label": "③",
+                  "en": "June 8 and June 9",
+                  "ja": "6月8日から6月9日",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "June 10 and July 31",
+                  "ja": "6月10日から7月31日",
+                  "is_correct": false
+                }
+              ],
+              "answer": "②",
+              "explanation": {
+                "ja": "How to Enter（参加方法）の1つ目からわかるように，このウェブサイトでは「コンテストに参加する」＝「赤ちゃんキリンの名前を投稿する」ことを意味する。参加方法の2つ目にNames are accepted starting at 12:00 a.m. on June 1 until 11:59 p.m. on June 7.（名前は6月1日午前0時から6月7日午後11時59分まで受け付けます。）と書かれているので，②が正解。",
+                "evidence_sentences": [
+                  "1b_s6"
+                ]
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 4,
+              "stem": {
+                "en": "When submitting your idea for the baby giraffe's name, you must [4].",
+                "ja": "「赤ちゃんキリンの名前の案を投稿する時，あなたは[4]ことをしなければなりません。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "buy a day pass",
+                  "ja": "1日入場券を買う",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "pay the submission fee",
+                  "ja": "投稿料を支払う",
+                  "is_correct": true
+                },
+                {
+                  "label": "③",
+                  "en": "spend five dollars at the City Zoo",
+                  "ja": "市立動物園で5ドル使う",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "watch the giraffe through the website",
+                  "ja": "ウェブサイトを通してキリンを見る",
+                  "is_correct": false
+                }
+              ],
+              "answer": "②",
+              "explanation": {
+                "ja": "参加方法の4つ目Each submission is $5.（1投稿につき5ドルです。）から，キリンの名前を投稿するには投稿料が必要であるとわかる。したがって②が正解。①と③についてはウェブサイトに書かれていないので不適当。参加方法の3つ目で「アイディアを得るのに役立てるため，ライブウェブカメラで赤ちゃんキリンを見てください。」と勧めているが，これは義務ではないので不適当。",
+                "evidence_sentences": [
+                  "1b_s8"
+                ]
+              }
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 5,
+              "stem": {
+                "en": "If the name you submitted is included among the five finalists, you will [5].",
+                "ja": "「あなたが投稿した名前が5つの最終候補に含まれたら，あなたは[5]でしょう。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "get free entry to the zoo for a day",
+                  "ja": "動物園への1日無料入場許可を得る",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "have free access to the live website",
+                  "ja": "ライブウェブサイトに無料でアクセスする",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "meet and feed the baby giraffe",
+                  "ja": "赤ちゃんキリンに会ってエサをやる",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "take a picture with the giraffe's family",
+                  "ja": "キリンの家族と写真を撮る",
+                  "is_correct": false
+                }
+              ],
+              "answer": "①",
+              "explanation": {
+                "ja": "Prizes（賞品）の説明の1つ目にAll five contest finalists will receive free one-day zoo passes（5人のすべてのコンテスト最終候補者には無料の動物園1日入場券が贈られます）とある。free one-day zoo pass＝free entry to the zoo for a dayと言い換えた①が正解。ライブウェブカメラには誰でもアクセスできるので②は不適当。③の内容は本文に書かれていないので不適当。赤ちゃんキリンとその家族の写真は，最優秀に選ばれればもらえるが，5人の最終候補者がもらえるものではないし，そもそもキリンと一緒に写真を撮るという賞品はないので，④は不適当。",
+                "evidence_sentences": [
+                  "1b_s11"
+                ]
+              }
+            }
+          ],
+          "passage_images": [
+            "images/mondai_p04.png",
+            "images/mondai_p05.png"
+          ],
+          "explanation_images": [
+            "images/kaitou_p02.png",
+            "images/kaitou_p03.png"
+          ],
+          "vocabulary": {
+            "passage": {
+              "items": [
+                {
+                  "en": "mission",
+                  "ja": "「ミッション；使命」"
+                },
+                {
+                  "en": "submit",
+                  "ja": "「～を投稿する」"
+                },
+                {
+                  "en": "12:00 a.m.",
+                  "ja": "「午前0時（深夜の0時）」"
+                },
+                {
+                  "en": "go toward ~",
+                  "ja": "「（金が）～に使われる」"
+                },
+                {
+                  "en": "12:00 p.m.",
+                  "ja": "「午後0時（正午）」"
+                },
+                {
+                  "en": "valid until ~",
+                  "ja": "「～まで有効な」"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p02.png",
+        "images/mondai_p03.png",
+        "images/mondai_p04.png",
+        "images/mondai_p05.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p02.png",
+        "images/kaitou_p03.png"
+      ]
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 20,
+      "points_per_question": 2,
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You are on a Future Leader summer programme, which is taking place on a university campus in the UK. You are reading the information about the library so that you can do your coursework.",
+            "ja": "あなたは「未来のリーダー」というサマープログラムに参加していて，それはイギリスにある大学のキャンパスで開催されています。あなたは学習課題ができるように図書館についての情報を読んでいます。"
+          },
+          "passages": [
+            {
+              "id": "header",
+              "title": {
+                "en": "Abermouth University Library\nOpen from 8 am to 9 pm\n2022 Handout",
+                "ja": "アバーマウス大学図書館\n開館時間：午前8時～午後9時\n2022年配布資料"
+              },
+              "no_divider": true
+            },
+            {
+              "id": "library_card",
+              "title": {
+                "en": "Library Card",
+                "ja": "図書館カード"
+              },
+              "sentences": [
+                {
+                  "id": "2a_s1",
+                  "en": "Your student ID card is also your library card and photocopy card. It is in your welcome pack.",
+                  "ja": "学生証は図書館カードとコピーカードでもあります。ウェルカムパックの中に入っています。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "borrowing",
+              "title": {
+                "en": "Borrowing Books",
+                "ja": "本を借りること"
+              },
+              "sentences": [
+                {
+                  "id": "2a_s2",
+                  "en": "You can borrow a maximum of eight books at one time for seven days.",
+                  "ja": "1度に最大8冊の本を7日間借りることができます。"
+                },
+                {
+                  "id": "2a_s3",
+                  "en": "To check books out, go to the Information Desk, which is on the first floor.",
+                  "ja": "本を借りるには，2階にあるインフォメーションデスクに行ってください。"
+                },
+                {
+                  "id": "2a_s4",
+                  "en": "If books are not returned by the due date, you will not be allowed to borrow library books again for three days from the day the books are returned.",
+                  "ja": "期限までに本が返却されない場合，本が返却された日から3日間，図書館の本を再び借りることは認められません。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "computers",
+              "title": {
+                "en": "Using Computers",
+                "ja": "コンピュータ使用"
+              },
+              "sentences": [
+                {
+                  "id": "2a_s5",
+                  "en": "Computers with Internet connections are in the Computer Workstations by the main entrance on the first floor.",
+                  "ja": "インターネット接続があるコンピュータは，2階の正面玄関横のコンピュータ・ワークステーションにあります。"
+                },
+                {
+                  "id": "2a_s6",
+                  "en": "Students may bring their own laptop computers and tablets into the library, but may use them only in the Study Area on the second floor.",
+                  "ja": "学生は自分のノートパソコンやタブレット端末を図書館に持ち込むことができますが，3階の学習エリアでのみ使用できます。"
+                },
+                {
+                  "id": "2a_s7",
+                  "en": "Students are asked to work quietly, and also not to reserve seats for friends.",
+                  "ja": "学生は静かに取り組むこと，また友人のために席を確保しないことが求められます。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "orientations",
+              "title": {
+                "en": "Library Orientations",
+                "ja": "図書館オリエンテーション"
+              },
+              "sentences": [
+                {
+                  "id": "2a_s8",
+                  "en": "On Tuesdays at 10 am, 20-minute library orientations are held in the Reading Room on the third floor.",
+                  "ja": "毎週火曜日の午前10時に，4階の読書室で20分間の図書館オリエンテーションが開かれます。"
+                },
+                {
+                  "id": "2a_s9",
+                  "en": "Talk to the Information Desk staff for details.",
+                  "ja": "詳細については，インフォメーションデスクのスタッフに相談してください。"
+                }
+              ],
+              "no_divider": true
+            },
+            {
+              "id": "comments",
+              "title": {
+                "en": "Comments from Past Students",
+                "ja": "卒業生からのコメント"
+              },
+              "sentences": [
+                {
+                  "id": "2a_s10",
+                  "en": "The library orientation was really good. The materials were great, too!",
+                  "ja": "図書館オリエンテーションは本当によかったです。資料も素晴らしかったです！"
+                },
+                {
+                  "id": "2a_s11",
+                  "en": "The Study Area can get really crowded. Get there as early as possible to get a seat!",
+                  "ja": "学習エリアはとても混み合うことがあります。席を確保するためにはできるだけ早く行ってください！"
+                },
+                {
+                  "id": "2a_s12",
+                  "en": "The Wi-Fi inside the library is quite slow, but the one at the coffee shop next door is good. By the way, you cannot bring any drinks into the library.",
+                  "ja": "図書館内のWi-Fiはかなり遅いけれど，隣のコーヒーショップのWi-Fiは申し分ありません。ちなみに，図書館には飲み物を一切持ち込めません。"
+                },
+                {
+                  "id": "2a_s13",
+                  "en": "The staff at the Information Desk answered all my questions. Go there if you need any help!",
+                  "ja": "インフォメーションデスクのスタッフは私の質問にすべて答えてくれました。何か手助けが必要なら，そこへ行ってください！"
+                },
+                {
+                  "id": "2a_s14",
+                  "en": "On the ground floor there are some TVs for watching the library's videos. When watching videos, you need to use your own earphones or headphones. Next to the TVs there are photocopiers.",
+                  "ja": "1階には図書館オリエンテーションのビデオを見るためのテレビが数台あります。ビデオを見る時は，自分のイヤホンかヘッドホンを使う必要があります。テレビの隣にコピー機があります。"
+                }
+              ],
+              "no_divider": true
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 6,
+              "stem": {
+                "en": "[6] are two things you can do at the library.\n\nA : bring in coffee from the coffee shop\nB : save seats for others in the Study Area\nC : use the photocopiers on the second floor\nD : use your ID to make photocopies\nE : use your laptop in the Study Area",
+                "ja": "「[6]は，あなたが図書館でできる2つのことです。」\nA「コーヒーショップからコーヒーを持ち込む」\nB「学習エリアで他の人のために席をとる」\nC「3階でコピー機を使う」\nD「コピーをとるために学生証を使う」\nE「学習エリアで自分のノートパソコンを使う」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "A and B",
+                  "ja": "AとB",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "A and C",
+                  "ja": "AとC",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "B and E",
+                  "ja": "BとE",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "C and D",
+                  "ja": "CとD",
+                  "is_correct": false
+                },
+                {
+                  "label": "⑤",
+                  "en": "D and E",
+                  "ja": "DとE",
+                  "is_correct": true
+                }
+              ],
+              "answer": "⑤",
+              "explanation": {
+                "ja": "AからEの行動が図書館で許可されているか，資料を見ていく。Comments from Past Studentsの3つ目にyou cannot bring any drinks into the library（図書館には飲み物を一切持ち込めません）とあるので，Aは不可。Using Computersの最終文にStudents are asked ... not to reserve seats for friends（学生は…友人のために席を確保しないことが求められます）と書かれているのでBは不可。コピー機については，Comments from Past Studentsの最後の項目にOn the ground floor there are some TVs ... Next to the TVs there are photocopiers.（1階にテレビが数台あり…テレビの隣にコピー機があります）と書いてあるので，Cは階数が正しくない。Library Cardの説明にYour student ID card is also your library card and photocopy card.（学生証は図書館カードとコピーカードでもあります）と書かれているので，Dは可。また，Using Computersの第2文にStudents may bring their own laptop computers and tablets into the library, but may use them only in the Study Area on the second floor（学生は自分のノートパソコンやタブレット端末を図書館に持ち込むことができますが，学習エリアでのみ使用できます）とあるので，Eも可。したがって⑤が正解。",
+                "evidence_sentences": [
+                  "2a_s12",
+                  "2a_s7",
+                  "2a_s14",
+                  "2a_s1",
+                  "2a_s6"
+                ]
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 7,
+              "stem": {
+                "en": "You are at the main entrance of the library and want to go to the orientation. You need to [7].",
+                "ja": "「あなたは図書館の正面玄関にいて，オリエンテーションに行きたいと思っています。あなたは[7]必要があります。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "go down one floor",
+                  "ja": "1つ下の階に下りる",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "go up one floor",
+                  "ja": "1つ上の階に上がる",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "go up two floors",
+                  "ja": "2つ上の階に上がる",
+                  "is_correct": true
+                },
+                {
+                  "label": "④",
+                  "en": "stay on the same floor",
+                  "ja": "同じ階にとどまる",
+                  "is_correct": false
+                }
+              ],
+              "answer": "③",
+              "explanation": {
+                "ja": "本文中から正面玄関とオリエンテーションの場所に関する記述を探す。Using Computersの第1文にthe Computer Workstations by the main entrance on the first floor（2階の正面玄関横のコンピュータ・ワークステーション）という説明があるので，正面玄関は2階。Library Orientationsの第1文にlibrary orientations are held in the Reading Room on the third floor（4階の読書室で図書館オリエンテーションが開かれます）と書かれているので，2階から4階まで上がればよいことがわかる。③が正解。",
+                "evidence_sentences": [
+                  "2a_s5",
+                  "2a_s8"
+                ]
+              }
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 8,
+              "stem": {
+                "en": "[8] near the main entrance to the library.",
+                "ja": "「図書館の正面玄関の近くに[8]。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "The Computer Workstations are",
+                  "ja": "コンピュータ・ワークステーションがある",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "The Reading Room is",
+                  "ja": "読書室がある",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "The Study Area is",
+                  "ja": "学習エリアがある",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "The TVs are",
+                  "ja": "テレビがある",
+                  "is_correct": false
+                }
+              ],
+              "answer": "①",
+              "explanation": {
+                "ja": "Using Computersの第1文にthe Computer Workstations by the main entrance（正面玄関横のコンピュータ・ワークステーション）という説明があるので，①が正解。また，問2で見たように，正面玄関は2階で，オリエンテーションを行う読書室は4階なので②は不適当。Using Computersの第2文the Study Area on the second floor（3階の学習エリア）から③も不適当，Comments from Past Studentsの最終コメントのOn the ground floor there are some TVs（1階にはテレビがあります）から④も不適当。",
+                "evidence_sentences": [
+                  "2a_s5"
+                ]
+              }
+            },
+            {
+              "question_id": "問4",
+              "answer_number": 9,
+              "stem": {
+                "en": "If you borrowed three books on 2 August and returned them on 10 August, you could [9].",
+                "ja": "「もしあなたが8月2日に本を3冊借りて，それらを8月10日に返却したら，あなたは[9]。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "borrow eight more books on 10 August",
+                  "ja": "8月10日にさらに8冊借りることができる",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "borrow seven more books on 10 August",
+                  "ja": "8月10日にさらに7冊借りることができる",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "not borrow any more books before 13 August",
+                  "ja": "8月13日までこれ以上本を借りることができない",
+                  "is_correct": true
+                },
+                {
+                  "label": "④",
+                  "en": "not borrow any more books before 17 August",
+                  "ja": "8月17日までこれ以上本を借りることができない",
+                  "is_correct": false
+                }
+              ],
+              "answer": "③",
+              "explanation": {
+                "ja": "まず，本の貸し出しルールを確認しよう。Borrowing Booksの第1文にYou can borrow a maximum of eight books at one time for seven days.（1度に最大8冊の本を7日間借りることができます。）さらに第3文にはIf books are not returned by the due date, you will not be allowed to borrow library books again for three days from the day the books are returned.（期限までに本が返却されない場合，本が返却された日から3日間，本を再び借りることは認められません。）と書かれている。次に問題文の事例に戻ると，8月2日に本を借りたのだから，返却期限は8月9日であるが，8月10日に返却しているので，返却期限を過ぎていることがわかる。その場合，本を返却した8月10日から3日間は本を借りられないのだから，「8月13日までこれ以上本を借りることができない」の③が正解。また，貸し出し禁止期間に誤りがあるので④も不適当。",
+                "evidence_sentences": [
+                  "2a_s2",
+                  "2a_s4"
+                ]
+              }
+            },
+            {
+              "question_id": "問5",
+              "answer_number": 10,
+              "stem": {
+                "en": "One fact stated by a previous student is that [10].",
+                "ja": "「卒業生が述べた1つの事実は[10]ということです。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "headphones or earphones are necessary when watching videos",
+                  "ja": "ビデオを見る時，ヘッドホンまたはイヤホンが必要だ",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "the library is open until 9 pm",
+                  "ja": "図書館は午後9時まで開いている",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "the library orientation handouts are wonderful",
+                  "ja": "図書館のオリエンテーション資料は素晴らしい",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "the Study Area is often empty",
+                  "ja": "学習エリアはたいてい空いている",
+                  "is_correct": false
+                }
+              ],
+              "answer": "①",
+              "explanation": {
+                "ja": "「事実」は何かを答える問題なので，個人の主観の入った「意見」を述べているものは不適当である。Comments from Past Studentsの最終コメント第2文にWhen watching videos, you need to use your own earphones or headphones.（ビデオを見る時は，自分のイヤホンかヘッドホンを使う必要があります。）という客観的事実が書かれている。これは，need to use ~ を ~ are necessaryと言い換えた①の内容と一致する。「図書館が午後9時まで開いている」ことは事実だが，これは卒業生のコメントではなく図書館の資料に書かれたことなので，②は不適当。卒業生の最初のコメントにThe materials were great, too!（資料も素晴らしかったです！）とあるが，これは個人の感想であり，客観的事実ではないので③も不適当。また，2つ目のコメントのThe Study Area can get really crowded.（学習エリアはとても混み合うことがあります。）は④と正反対の内容なので，④も不適当。",
+                "evidence_sentences": [
+                  "2a_s14"
+                ]
+              }
+            }
+          ],
+          "passage_images": [
+            "images/mondai_p06.png",
+            "images/mondai_p07.png",
+            "images/mondai_p08.png"
+          ],
+          "explanation_images": [
+            "images/kaitou_p04.png",
+            "images/kaitou_p05.png"
+          ],
+          "vocabulary": {
+            "passage": {
+              "items": [
+                {
+                  "en": "ground floor",
+                  "ja": "イギリスでは建物の1階をground floorと呼び，その上の階からfirst floor（2階），second floor（3階）…と数えていく。"
+                },
+                {
+                  "en": "handout",
+                  "ja": "「配布資料」"
+                },
+                {
+                  "en": "check ~ out",
+                  "ja": "「～を借りる」"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You are the editor of a school English paper. David, an exchange student from the UK, has written an article for the paper.",
+            "ja": "あなたは学校の英字新聞の編集者です。イギリスから来た交換留学生のデイビッドが新聞に記事を書きました。"
+          },
+          "passages": [
+            {
+              "id": "article",
+              "paragraphs": [
+                [
+                  {
+                    "id": "2b_s1",
+                    "en": "Do you like animals? The UK is known as a nation of animal-lovers; two in five UK homes have pets.",
+                    "ja": "あなたは動物が好きですか。イギリスは動物愛好家の国として知られており，5軒に2軒のイギリスの家庭がペットを飼っています。"
+                  },
+                  {
+                    "id": "2b_s2",
+                    "en": "This is lower than in the US, where more than half of homes have pets.",
+                    "ja": "これはアメリカ合衆国よりも低い割合で，アメリカでは半数以上の家庭でペットを飼っています。"
+                  },
+                  {
+                    "id": "2b_s3",
+                    "en": "However, Australia has the highest percentage of homes with pets!",
+                    "ja": "しかし，オーストラリアがペットを飼っている家庭の割合が最も高いのです！"
+                  }
+                ],
+                [
+                  {
+                    "id": "2b_s4",
+                    "en": "Why is this so? Results of a survey done in Australia give us some answers.",
+                    "ja": "なぜこのようになるのでしょう。オーストラリアで行われた調査の結果が，その答えを教えてくれます。"
+                  }
+                ],
+                [
+                  {
+                    "id": "2b_s5",
+                    "en": "Pet owners mention the following advantages of living with pets:",
+                    "ja": "ペットを飼っている人は，次のようなペットと暮らすことのメリットを述べています。"
+                  },
+                  {
+                    "id": "2b_s6",
+                    "en": "The love, happiness, and friendship pets give (90%);",
+                    "ja": "ペットが与えてくれる愛情，幸福感，友情（90%）；"
+                  },
+                  {
+                    "id": "2b_s7",
+                    "en": "The feeling of having another family member (over 60% of dog and cat owners);",
+                    "ja": "もう1人の家族を持つ感覚（犬や猫の飼い主の60%以上）；"
+                  },
+                  {
+                    "id": "2b_s8",
+                    "en": "The happy times pets bring. Most owners spend 3-4 hours with their 'fur babies' every day and around half of all dog and cat owners let their pets sleep with them!",
+                    "ja": "ペットがもたらす楽しい時間。ほとんどの飼い主は，毎日3～4時間「毛がふさふさの赤ちゃん」と過ごし，犬と猫の全飼い主の約半数は，ペットを一緒に寝かせています！"
+                  }
+                ],
+                [
+                  {
+                    "id": "2b_s9",
+                    "en": "One disadvantage is that pets have to be cared for when owners go away. It may be difficult to organise care for them; 25% of owners take their pets on holidays or road trips.",
+                    "ja": "デメリットは，飼い主が留守の間，ペットの世話をしてもらわなければならないことです。ペットの世話を手配するのは難しいかもしれません。飼い主の25%は，休暇や車での長旅にペットを連れて行きます。"
+                  }
+                ],
+                [
+                  {
+                    "id": "2b_s10",
+                    "en": "These results suggest that keeping pets is a good thing. On the other hand, since coming to Japan, I have seen other problems such as space, time, and cost.",
+                    "ja": "これらの結果は，ペットを飼うことはよいことだと示唆しています。その一方で，日本に来て以来，スペースや時間，費用などの他の問題も目にしてきました。"
+                  },
+                  {
+                    "id": "2b_s11",
+                    "en": "Still, I know people here who are content living in small flats with pets.",
+                    "ja": "それでも，狭いアパートでペットと暮らすことに満足している日本の人々もいることを知っています。"
+                  },
+                  {
+                    "id": "2b_s12",
+                    "en": "Recently, I heard that little pigs are becoming popular as pets in Japan.",
+                    "ja": "最近，日本では小ブタがペットとして人気が出ていると聞きました。"
+                  },
+                  {
+                    "id": "2b_s13",
+                    "en": "Some people take their pig(s) for a walk, which must be fun, but I wonder how easy it is to keep pigs inside homes.",
+                    "ja": "ブタを散歩させている人もいて，それは楽しいにちがいありませんが，ブタを家の中で飼うのは易しいのだろうかと不思議に思います。"
+                  }
+                ]
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 11,
+              "stem": {
+                "en": "In terms of the ratios for homes with pets, which shows the countries' ranking from highest to lowest? [11]",
+                "ja": "「ペットがいる家庭の割合に関して，最も高い国から最も低い国への国の順位を表したものはどれですか。」[11]"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "Australia — the UK — the US",
+                  "ja": "オーストラリア→イギリス→合衆国",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "Australia — the US — the UK",
+                  "ja": "オーストラリア→合衆国→イギリス",
+                  "is_correct": true
+                },
+                {
+                  "label": "③",
+                  "en": "The UK — Australia — the US",
+                  "ja": "イギリス→オーストラリア→合衆国",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "The UK — the US — Australia",
+                  "ja": "イギリス→合衆国→オーストラリア",
+                  "is_correct": false
+                },
+                {
+                  "label": "⑤",
+                  "en": "The US — Australia — the UK",
+                  "ja": "合衆国→オーストラリア→イギリス",
+                  "is_correct": false
+                },
+                {
+                  "label": "⑥",
+                  "en": "The US — the UK — Australia",
+                  "ja": "合衆国→イギリス→オーストラリア",
+                  "is_correct": false
+                }
+              ],
+              "answer": "②",
+              "explanation": {
+                "ja": "ペットを飼っている家庭の割合は，本文第1段落に書かれている。第1文：two in five UK homes have pets（イギリスで5軒に2軒の家庭がペットを飼っています），第2文：This is lower than in the US（これ（＝イギリスの割合）は合衆国よりも低い），第3文：Australia has the highest percentage of homes with pets（オーストラリアがペットを飼っている家庭の割合が最も高い）。以上の文から，ペットを飼育する家庭の割合が高いのはオーストラリア→合衆国→イギリスの順だとわかるので，②が正解。",
+                "evidence_sentences": [
+                  "2b_s1",
+                  "2b_s2",
+                  "2b_s3"
+                ]
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 12,
+              "stem": {
+                "en": "According to David's report, one advantage of having pets is that [12].",
+                "ja": "「デイビッドの記事によると，ペットを飼うことのメリットは[12]ということです。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "you can save money",
+                  "ja": "お金を節約することができる",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "you can sleep longer",
+                  "ja": "もっと長く眠ることができる",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "you will become popular",
+                  "ja": "人気者になる",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "your life can be more enjoyable",
+                  "ja": "生活がもっと楽しいものになり得る",
+                  "is_correct": true
+                }
+              ],
+              "answer": "④",
+              "explanation": {
+                "ja": "デイビッドの記事第3段落にadvantages of living with pets（ペットと暮らすことのメリット）が3つ挙げられている。3つ目にThe happy times pets bring.（ペットがもたらす楽しい時間。）とある。つまり「ペットを飼うことで生活が楽しくなる」のだから，④が正解。費用は最終段落第2文に，日本でペットを飼うことの問題点として挙げられているので，①は不適当。第3段落の3つ目に「犬・猫の飼い主の半数がペットと寝る」とあるが，「もっと長く眠る」とは書いていないので②も不適当。「飼い主が人気者になる」という記述はないので③も不適当。",
+                "evidence_sentences": [
+                  "2b_s8"
+                ]
+              }
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 13,
+              "stem": {
+                "en": "The statement that best reflects one finding from the survey is [13].",
+                "ja": "「調査からわかったことを最もよく示している発言は[13]です。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "'I feel uncomfortable when I watch TV with my cat.'",
+                  "ja": "「私は，猫と一緒にテレビを見ていると落ち着かない」",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "'I spend about three hours with my pet every day.'",
+                  "ja": "「私は毎日，約3時間ペットと一緒に過ごしている」",
+                  "is_correct": true
+                },
+                {
+                  "label": "③",
+                  "en": "'Most pets like going on car trips.'",
+                  "ja": "「ほとんどのペットは車での旅行に行くのが好きだ」",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "'Pets need a room of their own.'",
+                  "ja": "「ペットは自分専用の部屋が必要だ」",
+                  "is_correct": false
+                }
+              ],
+              "answer": "②",
+              "explanation": {
+                "ja": "第3段落「ペットと暮らすメリット」の3つ目に，Most owners spend 3-4 hours with their 'fur babies' every day（ほとんどの飼い主は，毎日3～4時間「毛がふさふさの赤ちゃん」と過ごし）とある。この'fur babies'はペットのことを指す。したがって，3-4 hoursをabout three hoursと言い換えた②が正解。「猫とテレビを見る」という記述はないので①は不適当。第4段落第2文に「飼い主の25%は，休暇や車での長旅にペットを連れて行きます」とあるが，ペットが車の旅を好むとは書いていないので③も不適当。本文でペット専用の部屋についてふれていないので④も不適当。",
+                "evidence_sentences": [
+                  "2b_s8"
+                ]
+              }
+            },
+            {
+              "question_id": "問4",
+              "answer_number": 14,
+              "stem": {
+                "en": "Which best summarises David's opinions about having pets in Japan? [14]",
+                "ja": "「日本でペットを飼うことに関するデイビッドの意見を最もよく要約しているのはどれですか。」[14]"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "It is not troublesome to keep pets.",
+                  "ja": "ペットを飼うことは困難ではない",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "People might stop keeping pets.",
+                  "ja": "人々はペットを飼うのをやめるかもしれない",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "Pet owners have more family members.",
+                  "ja": "ペットの飼い主はより多くの家族がいる",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "Some people are happy to keep pets inside their homes.",
+                  "ja": "家の中でペットを飼うことを幸せだと感じている人々がいる",
+                  "is_correct": true
+                }
+              ],
+              "answer": "④",
+              "explanation": {
+                "ja": "デイビッドが，日本でペットを飼うことに言及している最終段落の概要は以下の通り。・第1文：オーストラリアでの調査は，ペットを飼うのはよいことだと示している。・第2文：日本でペットを飼う問題点はスペースや時間，費用である。・第3文：それでも狭いアパートでペットと暮らすことに満足している日本の人々もいる。・第4～5文：小ブタがペットとして人気が出てきた。この段落を通してデイビッドが言いたいのは，「日本でペットを飼うには，スペースや時間，費用といった問題点はあるが，オーストラリアの調査結果と同様に，日本でも家でペットと暮らすことに満足している人々がいる」ということである。したがって，④が正解。①は第2文の内容に反するため不適当。ペットを飼うのをやめる人や家族の人数については言及していないので，②と③も不適当。",
+                "evidence_sentences": [
+                  "2b_s10",
+                  "2b_s11"
+                ]
+              }
+            },
+            {
+              "question_id": "問5",
+              "answer_number": 15,
+              "stem": {
+                "en": "Which is the most suitable title for the article? [15]",
+                "ja": "「この記事に最もふさわしいタイトルはどれですか。」[15]"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "Does Your Pet Sleep on Your Bed?",
+                  "ja": "ペットはあなたのベッドで寝ていますか？",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "What Does Keeping Pets Give Us?",
+                  "ja": "ペットを飼うことは何を私たちに与えてくれるでしょうか？",
+                  "is_correct": true
+                },
+                {
+                  "label": "③",
+                  "en": "What Pet Do You Have?",
+                  "ja": "どんなペットを飼っていますか？",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "Why Not Keep a Pet Pig?",
+                  "ja": "ペットのブタを飼うのはいかがですか？",
+                  "is_correct": false
+                }
+              ],
+              "answer": "②",
+              "explanation": {
+                "ja": "記事の段落ごとの概要は以下の通り。・第1段落：イギリス・合衆国・オーストラリアのペットを飼っている家庭の割合の中で，オーストラリアの割合が一番高い。・第2段落：オーストラリアのペットオーナーの調査の紹介。・第3段落：（調査結果より）ペットと暮らすメリット――ペットが与えてくれる愛情，幸福感，友情。もう1人の家族を持つ感覚。ペットがもたらす楽しい時間。・第4段落：（調査結果より）ペットを飼うことのデメリット――留守の間のペットの世話。・第5段落：（デイビッドの意見）調査は，ペットを飼うのはよいことだと示している。日本でペットを飼うことには問題点もあるが，日本の人々はペットとの生活に満足している。第1段落から第4段落で，ペットオーナーが多い国，オーストラリアの調査の紹介と，調査結果としてペットを飼うメリット・デメリットを，デイビッドは紹介している。第5段落第1文のThese results suggest that keeping pets is a good thing.（これら（＝オーストラリアの調査）の結果は，ペットを飼うことはよいことだと示唆しています。）が，デイビッドの出した結論。デイビッドは，ペットを飼うメリットの方が大きいと考えていることがわかる。したがって，タイトルとしてはペットを飼うメリットを読者に問いかける，②「ペットを飼うことは何を私たちに与えてくれるでしょうか？」が正解。本文に，ペットと寝ること，ペットの種類，ブタをペットにすることについての記述もあるが，記事全体を通しての主題ではないので，①，③，④は不適当。",
+                "evidence_sentences": [
+                  "2b_s10"
+                ]
+              }
+            }
+          ],
+          "passage_images": [
+            "images/mondai_p09.png",
+            "images/mondai_p10.png",
+            "images/mondai_p11.png"
+          ],
+          "explanation_images": [
+            "images/kaitou_p06.png",
+            "images/kaitou_p07.png"
+          ],
+          "vocabulary": {
+            "passage": {
+              "items": [
+                {
+                  "en": "editor",
+                  "ja": "「編集者」"
+                },
+                {
+                  "en": "nation",
+                  "ja": "「国家」"
+                },
+                {
+                  "en": "care for ~",
+                  "ja": "「～の世話をする」"
+                },
+                {
+                  "en": "be content doing",
+                  "ja": "「…することに満足している」"
+                },
+                {
+                  "en": "ratio",
+                  "ja": "問1「割合」"
+                },
+                {
+                  "en": "statement",
+                  "ja": "問3「発言」"
+                },
+                {
+                  "en": "reflect",
+                  "ja": "問3「～を示す」"
+                },
+                {
+                  "en": "troublesome",
+                  "ja": "問4①「困難な」"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p06.png",
+        "images/mondai_p07.png",
+        "images/mondai_p08.png",
+        "images/mondai_p09.png",
+        "images/mondai_p10.png",
+        "images/mondai_p11.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p04.png",
+        "images/kaitou_p05.png",
+        "images/kaitou_p06.png",
+        "images/kaitou_p07.png"
+      ]
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 15,
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You are interested in how Japanese culture is represented in other countries. You are reading a young UK blogger's post.",
+            "ja": "あなたは日本の文化が，他の国でどのように説明されているかに興味があります。あなたはイギリスの若手ブロガーの記事を読んでいます。"
+          },
+          "passages": [
+            {
+              "id": "blog_post",
+              "title": {
+                "en": "Emily Sampson\nMonday, 5 July, 8.00 pm",
+                "ja": "エミリー・サンプソン\n7月5日 月曜日 午後8時"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "3a_s1",
+                    "en": "On the first two Sundays in July every year, there is an intercultural event in Winsfield called A Slice of Japan.",
+                    "ja": "毎年7月の第1，第2日曜日に，ウィンズフィールドで「日本の一面」という異文化交流イベントがあります。"
+                  },
+                  {
+                    "id": "3a_s2",
+                    "en": "I had a chance to go there yesterday.",
+                    "ja": "昨日，私はそこに行く機会がありました。"
+                  },
+                  {
+                    "id": "3a_s3",
+                    "en": "It is definitely worth visiting!",
+                    "ja": "これは間違いなく行く価値があります！"
+                  },
+                  {
+                    "id": "3a_s4",
+                    "en": "There were many authentic food stands called yatai, hands-on activities, and some great performances.",
+                    "ja": "たくさんの屋台と呼ばれる伝統的な食べ物の出店，体験型のアクティビティ，それからいくつかの素晴らしい公演もありました。"
+                  },
+                  {
+                    "id": "3a_s5",
+                    "en": "The yatai served green-tea ice cream, takoyaki, and yakitori.",
+                    "ja": "屋台では，抹茶アイス，たこ焼き，焼き鳥を出していました。"
+                  },
+                  {
+                    "id": "3a_s6",
+                    "en": "I tried green-tea ice cream and takoyaki.",
+                    "ja": "私は抹茶アイスとたこ焼きを食べてみました。"
+                  },
+                  {
+                    "id": "3a_s7",
+                    "en": "The takoyaki was especially delicious.",
+                    "ja": "たこ焼きが特においしかったです。"
+                  },
+                  {
+                    "id": "3a_s8",
+                    "en": "You should try some!",
+                    "ja": "あなたもぜひ食べてみてください！"
+                  }
+                ],
+                [
+                  {
+                    "id": "3a_s9",
+                    "en": "I saw three performances.",
+                    "ja": "私は3つの公演を見ました。"
+                  },
+                  {
+                    "id": "3a_s10",
+                    "en": "One of them was a rakugo comedy given in English.",
+                    "ja": "そのうちの1つは英語で行われた落語というコメディでした。"
+                  },
+                  {
+                    "id": "3a_s11",
+                    "en": "Some people were laughing, but somehow I didn't find it funny.",
+                    "ja": "笑っている人もいましたが，どういうわけか私はおもしろいと思いませんでした。"
+                  },
+                  {
+                    "id": "3a_s12",
+                    "en": "It may be because I don't know much about Japanese culture.",
+                    "ja": "私が日本の文化をあまり知らないからかもしれません。"
+                  },
+                  {
+                    "id": "3a_s13",
+                    "en": "For me, the other two, the taiko and the koto, were the highlights.",
+                    "ja": "私にとっては，残りの2つ，太鼓と琴がハイライトでした。"
+                  },
+                  {
+                    "id": "3a_s14",
+                    "en": "The taiko were powerful, and the koto was relaxing.",
+                    "ja": "太鼓は迫力があり，琴はリラックスした気分になるものでした。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3a_s15",
+                    "en": "I attended a workshop and a cultural experience, which were fun.",
+                    "ja": "私はワークショップと文化体験に参加しましたが，楽しかったです。"
+                  },
+                  {
+                    "id": "3a_s16",
+                    "en": "In the workshop, I learnt how to make onigiri.",
+                    "ja": "ワークショップでは，おにぎりの作り方を習いました。"
+                  },
+                  {
+                    "id": "3a_s17",
+                    "en": "Although the shape of the one I made was a little odd, it tasted good.",
+                    "ja": "私が作ったものは形が少し変でしたが，おいしかったです。"
+                  },
+                  {
+                    "id": "3a_s18",
+                    "en": "The nagashi-somen experience was really interesting!",
+                    "ja": "流しそうめん体験は本当におもしろかったです！"
+                  },
+                  {
+                    "id": "3a_s19",
+                    "en": "It involved trying to catch cooked noodles with chopsticks as they slid down a bamboo water slide.",
+                    "ja": "水が流れる滑り台を，ゆでた麺が滑り落ちてくるところを，箸でつかむ体験が含まれていました。"
+                  },
+                  {
+                    "id": "3a_s20",
+                    "en": "It was very difficult to catch them.",
+                    "ja": "麺をつかむのはとても難しかったです。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3a_s21",
+                    "en": "If you want to experience a slice of Japan, this festival is for you!",
+                    "ja": "日本の一面を体験したかったら，このフェスティバルはぴったりです！"
+                  },
+                  {
+                    "id": "3a_s22",
+                    "en": "I took a picture of the flyer. Check it out.",
+                    "ja": "チラシの写真を撮りました。見てくださいね。"
+                  }
+                ]
+              ]
+            },
+            {
+              "id": "flyer",
+              "title": {
+                "en": "A Slice of Japan\nThe Culture Park, Winsfield\nHeld on first & second Sundays in July (9.00 am - 4.00 pm)",
+                "ja": "日本の一面\nウィンズフィールド，文化公園\n7月第1・第2日曜日（午前9時～午後4時）開催"
+              },
+              "type": "handout",
+              "sentences": [
+                {
+                  "id": "3a_s23",
+                  "en": "Food Stands: Green-tea ice cream, Takoyaki (octopus snack), Yakitori (chicken skewers)",
+                  "ja": "食べ物屋台：抹茶アイスクリーム，たこ焼き（タコ入りおやつ），焼き鳥（鶏肉の串刺し）"
+                },
+                {
+                  "id": "3a_s24",
+                  "en": "Hands-on Activities: Nagashi-somen (noodles) Experience, Onigiri (rice balls) Workshop",
+                  "ja": "体験型アクティビティ：流しそうめん（麺）体験，おにぎり（握り飯）ワークショップ"
+                },
+                {
+                  "id": "3a_s25",
+                  "en": "Traditional Performances: Koto (harp), Taiko (drums), Rakugo (comic storytelling)",
+                  "ja": "伝統文化公演：琴（ハープ），太鼓（ドラム），落語（喜劇の語り）"
+                }
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 16,
+              "stem": {
+                "en": "In Emily's blog, you read that she [16].",
+                "ja": "「エミリーのブログで，あなたはエミリーが[16]ということを読みました。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "enjoyed Japanese traditional music",
+                  "ja": "日本の伝統的な音楽を楽しんだ",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "learnt how to play Japanese drums",
+                  "ja": "日本のドラムの演奏方法を習った",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "made a water slide from bamboo",
+                  "ja": "水が流れる滑り台を竹で作った",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "was able to try all the yatai foods",
+                  "ja": "すべての屋台の食べ物を試すことができた",
+                  "is_correct": false
+                }
+              ],
+              "answer": "①",
+              "explanation": {
+                "ja": "ブログの第2段落第5・6文で，エミリーはFor me, the other two, the taiko and the koto, were the highlights. The taiko were powerful, and the koto was relaxing.（私にとっては，残りの2つ，太鼓と琴がハイライトでした。太鼓は迫力があり，琴はリラックスした気分になるものでした。）と，太鼓と琴の演奏を楽しんだことを書いている。したがって，①が正解。太鼓の演奏を楽しんだが，演奏方法を習ったという記述はないので②は不適当。第3段落後半に流しそうめん体験について書いてあるが，水が流れる滑り台は作っていないので，③も不適当。屋台については第1段落第4文以降に書かれている。抹茶アイスクリーム，たこ焼き，焼き鳥のうち，エミリーはアイスクリームとたこ焼きしか食べていないので，「すべて食べた」という④は不適当。",
+                "evidence_sentences": [
+                  "3a_s13",
+                  "3a_s14"
+                ]
+              },
+              "points": 3
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 17,
+              "stem": {
+                "en": "Emily was most likely [17] when she was listening to the rakugo comedy.",
+                "ja": "「エミリーは落語を聞いていた時に[17]可能性が最も高いです。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "confused",
+                  "ja": "よくわからなかった",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "convinced",
+                  "ja": "納得した",
+                  "is_correct": false
+                },
+                {
+                  "label": "③",
+                  "en": "excited",
+                  "ja": "わくわくした",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "relaxed",
+                  "ja": "リラックスした",
+                  "is_correct": false
+                }
+              ],
+              "answer": "①",
+              "explanation": {
+                "ja": "落語の感想は，第2段落第2～4文にOne of them was a rakugo comedy given in English. ... but somehow I didn't find it funny. It may be because I don't know much about Japanese culture.（そのうちの1つは英語で行われた落語でした。…どういうわけか私はおもしろいと思いませんでした。私が日本の文化をあまり知らないからかもしれません。）と書かれている。エミリーは落語のおもしろさがわからなかったのだから，①が正解で，その他の選択肢②，③，④は不適当。",
+                "evidence_sentences": [
+                  "3a_s10",
+                  "3a_s11",
+                  "3a_s12"
+                ]
+              },
+              "points": 3
+            }
+          ],
+          "vocabulary": {
+            "passage": {
+              "items": [
+                {
+                  "en": "represent",
+                  "ja": "「～を説明する」"
+                },
+                {
+                  "en": "a slice of ~",
+                  "ja": "「～の一面」"
+                },
+                {
+                  "en": "authentic",
+                  "ja": "「伝統的な；本物の」"
+                },
+                {
+                  "en": "hands-on",
+                  "ja": "「実際に参加できる」"
+                },
+                {
+                  "en": "Check it out.",
+                  "ja": "「これを見て。」"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You enjoy outdoor sports and have found an interesting story in a mountain climbing magazine.",
+            "ja": "あなたはアウトドアスポーツを楽しんでいて，登山雑誌で興味深い記事を見つけました。"
+          },
+          "passages": [
+            {
+              "id": "article",
+              "title": {
+                "en": "Attempting the Three Peaks Challenge",
+                "ja": "スリー・ピークス・チャレンジの試み"
+              },
+              "subtitle": {
+                "en": "By John Highland",
+                "ja": "ジョン・ハイランド"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "3b_s1",
+                    "en": "Last September, a team of 12 of us, 10 climbers and two minibus drivers, participated in the Three Peaks Challenge, which is well known for its difficulty among climbers in Britain.",
+                    "ja": "昨年9月，登山家10名とミニバス運転手2名から成る私たち12名のチームは，スリー・ピークス・チャレンジに参加しました。それはイギリスの登山家の間でその難しさでよく知られているものです。"
+                  },
+                  {
+                    "id": "3b_s2",
+                    "en": "The goal is to climb the highest mountain in Scotland (Ben Nevis), in England (Scafell Pike), and in Wales (Snowdon) within 24 hours, including approximately 10 hours of driving between the mountains.",
+                    "ja": "目標は，スコットランドの最高峰（ベン・ネヴィス），イングランドの最高峰（スカーフェル・パイク），ウェールズの最高峰（スノードン）に，山と山との間の約10時間の車の移動も含めて，24時間以内に登ることです。"
+                  },
+                  {
+                    "id": "3b_s3",
+                    "en": "To prepare for this, we trained on and off for several months and planned the route carefully.",
+                    "ja": "準備のために，私たちは数か月間断続的にトレーニングをし，慎重にルートを計画しました。"
+                  },
+                  {
+                    "id": "3b_s4",
+                    "en": "Our challenge would start at the foot of Ben Nevis and finish at the foot of Snowdon.",
+                    "ja": "私たちの挑戦は，ベン・ネヴィスの麓から始まり，スノードンの麓で終了する予定でした。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3b_s5",
+                    "en": "We began our first climb at six o'clock on a beautiful autumn morning.",
+                    "ja": "美しい秋の朝6時，私たちは最初の登山を開始しました。"
+                  },
+                  {
+                    "id": "3b_s6",
+                    "en": "Thanks to our training, we reached the summit in under three hours.",
+                    "ja": "トレーニングのおかげで，3時間足らずで頂上に到着しました。"
+                  },
+                  {
+                    "id": "3b_s7",
+                    "en": "On the way down, however, I realised I had dropped my phone.",
+                    "ja": "しかし下山途中で，私は携帯電話を落としたことに気づきました。"
+                  },
+                  {
+                    "id": "3b_s8",
+                    "en": "Fortunately, I found it with the help of the team, but we lost 15 minutes.",
+                    "ja": "幸いにもチームの協力で見つけましたが，15分無駄にしてしまいました。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3b_s9",
+                    "en": "We reached our next destination, Scafell Pike, early that evening.",
+                    "ja": "次の目的地であるスカーフェル・パイクには，その日の夕方に到着しました。"
+                  },
+                  {
+                    "id": "3b_s10",
+                    "en": "After six hours of rest in the minibus, we started our second climb full of energy.",
+                    "ja": "ミニバスでの6時間の休息のあとで，私たちは元気よく2回目の登山を開始しました。"
+                  },
+                  {
+                    "id": "3b_s11",
+                    "en": "As it got darker, though, we had to slow down.",
+                    "ja": "しかし，暗くなるにつれ，ペースを落とさざるを得なくなりました。"
+                  },
+                  {
+                    "id": "3b_s12",
+                    "en": "It took four-and-a-half hours to complete Scafell Pike.",
+                    "ja": "スカーフェル・パイク登山を完了するのに4時間半かかりました。"
+                  },
+                  {
+                    "id": "3b_s13",
+                    "en": "Again, it took longer than planned, and time was running out.",
+                    "ja": "ここでもまた計画したよりも時間がかかり，時間は残り少なくなっていきました。"
+                  },
+                  {
+                    "id": "3b_s14",
+                    "en": "However, because the traffic was light, we were right on schedule when we started our final climb.",
+                    "ja": "けれども，交通量が少なかったので，最後の登山を始めた時，ちょうど予定通りでした。"
+                  },
+                  {
+                    "id": "3b_s15",
+                    "en": "Now we felt more confident we could complete the challenge within the time limit.",
+                    "ja": "その時，私たちは制限時間内にチャレンジを達成できると確信を強めました。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3b_s16",
+                    "en": "Unfortunately, soon after we started the final climb, it began to rain heavily and we had to slow down again.",
+                    "ja": "不運にも，最後の登山を始めてすぐに雨が激しく降り出し，再びペースダウンをせざるを得なくなりました。"
+                  },
+                  {
+                    "id": "3b_s17",
+                    "en": "It was slippery and very difficult to see ahead.",
+                    "ja": "滑りやすく，前方を見るのがとても困難でした。"
+                  },
+                  {
+                    "id": "3b_s18",
+                    "en": "At 4.30 am, we realised that we could no longer finish in 24 hours.",
+                    "ja": "午前4時30分に，もはや24時間ではゴールできないとわかりました。"
+                  },
+                  {
+                    "id": "3b_s19",
+                    "en": "Nevertheless, we were still determined to climb the final mountain.",
+                    "ja": "それにもかかわらず，私たちはまだ，最後の山を登る決心をしていました。"
+                  },
+                  {
+                    "id": "3b_s20",
+                    "en": "The rain got heavier and heavier, and two members of the team decided to return to the minibus.",
+                    "ja": "雨はますます強くなり，チームのメンバー2人がミニバスに戻ると決めました。"
+                  },
+                  {
+                    "id": "3b_s21",
+                    "en": "Exhausted and miserable, the rest of us were also ready to go back down, but then the sky cleared, and we saw that we were really close to the top of the mountain.",
+                    "ja": "疲れきって，みじめで，私たち残りのメンバーも下山する準備をしていました。しかしその時，空が晴れ渡り，私たちは山頂のすぐ近くにいるとわかりました。"
+                  },
+                  {
+                    "id": "3b_s22",
+                    "en": "Suddenly, we were no longer tired.",
+                    "ja": "突然私たちはもう疲れを感じなくなりました。"
+                  },
+                  {
+                    "id": "3b_s23",
+                    "en": "Even though we weren't successful with the time challenge, we were successful with the climb challenge.",
+                    "ja": "私たちはタイムチャレンジには成功しなかったけれども，登山チャレンジには成功したのです。"
+                  },
+                  {
+                    "id": "3b_s24",
+                    "en": "We had done it. What a feeling that was!",
+                    "ja": "私たちはやり遂げたのです。何ともよい気持ちでした！"
+                  }
+                ]
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 18,
+              "answer_numbers": [
+                18,
+                19,
+                20,
+                21
+              ],
+              "type": "ordering",
+              "stem": {
+                "en": "Put the following events (①～④) into the order they happened.\n[18] → [19] → [20] → [21]",
+                "ja": "「次の出来事（①～④）を起こった順に並べなさい。」\n[18]→[19]→[20]→[21]"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "All members reached the top of the highest mountain in Scotland.",
+                  "ja": "メンバー全員がスコットランドの最高峰の頂上に着いた。",
+                  "is_correct": true
+                },
+                {
+                  "label": "②",
+                  "en": "Some members gave up climbing Snowdon.",
+                  "ja": "何人かのメンバーはスノードン登頂を断念した。",
+                  "is_correct": true
+                },
+                {
+                  "label": "③",
+                  "en": "The group travelled by minibus to Wales.",
+                  "ja": "グループはミニバスでウェールズへ移動した。",
+                  "is_correct": true
+                },
+                {
+                  "label": "④",
+                  "en": "The team members helped to find the writer's phone.",
+                  "ja": "チームのメンバーは，筆者の電話を見つけるのを手伝った。",
+                  "is_correct": true
+                }
+              ],
+              "answer": "①→④→③→②",
+              "answers_ordering": [
+                "①",
+                "④",
+                "③",
+                "②"
+              ],
+              "explanation": {
+                "ja": "まず第1段落から，登山の計画を確認しておこう。最終文のOur challenge would start at the foot of Ben Nevis and finish at the foot of Snowdon.（私たちの挑戦は，ベン・ネヴィスの麓から始まり，スノードンの麓で終了する予定でした。）から，スコットランドの最高峰（ベン・ネヴィス）→イングランドの最高峰（スカーフェル・パイク）→ウェールズの最高峰（スノードン）の順に，ミニバスで移動しながら登ることがわかる。登山の様子は第2段落以降に書かれている。第2段落第1文We began our first climb（私たちは最初の登山を開始），第2文we reached the summit（頂上に到着）から，最初の出来事は①「スコットランド最高峰の頂上に着いた」と判断する。下山中の出来事が，第3文・第4文にI had dropped my phone（私は携帯電話を落とした），I found it with the help of the team（チームの協力で見つけた）とあり，これは④の内容に一致する。第3段落前半にはイングランドのスカーフェル・パイクへミニバスで移動し登頂したことが書かれているが，この部分に関連する選択肢はない。第3段落第6文にbecause the traffic was light, we were right on schedule when we started our final climb（交通量が少なかったので，最後の登山を始めた時，ちょうど予定通りでした）とあり，最後の目的地ウェールズのスノードンにミニバスで移動したことがわかる。したがって，次の出来事は③「グループはミニバスでウェールズ（＝スノードン）へ移動した。」である。スノードン登山の記録は第4段落にあるが，第5文にtwo members of the team decided to return to the minibus（チームのメンバー2人がミニバスに戻ると決めました）と書かれている。これは「2人のメンバーがスノードン登頂を断念した」ということを意味するので，②と一致する。したがって，正解は①→④→③→②。",
+                "evidence_sentences": [
+                  "3b_s4",
+                  "3b_s6",
+                  "3b_s8",
+                  "3b_s14",
+                  "3b_s20"
+                ]
+              },
+              "points": 3
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 22,
+              "stem": {
+                "en": "What was the reason for being behind schedule when they completed Scafell Pike? [22]",
+                "ja": "「スカーフェル・パイクを踏破した時，予定よりも遅れていた理由は何ですか。」[22]"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "It took longer than planned to reach the top of Ben Nevis.",
+                  "ja": "ベン・ネヴィスの頂上に着くのに計画よりも時間がかかった。",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "It was difficult to make good progress in the dark.",
+                  "ja": "暗闘の中で順調に進むのが困難だった。",
+                  "is_correct": true
+                },
+                {
+                  "label": "③",
+                  "en": "The climbers took a rest in order to save energy.",
+                  "ja": "登山家たちはエネルギーの消耗を防ぐために休息をとった。",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "The team had to wait until the conditions improved.",
+                  "ja": "状況が良くなるまで，チームは待たなければならなかった。",
+                  "is_correct": false
+                }
+              ],
+              "answer": "②",
+              "explanation": {
+                "ja": "スカーフェル・パイク登山の記録は第3段落にある。第5文にit took longer than planned（計画したよりも時間がかかった）とあるので，その理由を探すと，第3文にAs it got darker, though, we had to slow down.（暗くなるにつれ，ペースを落とさざるを得なくなりました。）と書いてある。暗くなって順調に前に進むのが困難になったのだから，②が正解。第2段落で「ベン・ネヴィスの下山が予定より15分遅れた」とあるが，ベン・ネヴィスの頂上に着くのに予定より時間がかかったという記述がないので①は不適当。第3段落第2文に「ミニバスで休息をとった」とあるが，これは移動時間に体を休めることができたということで，予定より遅れた理由ではないので③も不適当。また，「状況が良くなるまで待った」という記述もないので④も不適当。",
+                "evidence_sentences": [
+                  "3b_s11",
+                  "3b_s13"
+                ]
+              },
+              "points": 3
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 23,
+              "stem": {
+                "en": "From this story, you learnt that the writer [23].",
+                "ja": "「この話から，あなたは筆者が[23]ことがわかりました。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "didn't feel a sense of satisfaction",
+                  "ja": "達成感を感じなかった",
+                  "is_correct": false
+                },
+                {
+                  "label": "②",
+                  "en": "reached the top of all three mountains",
+                  "ja": "3つの山のすべての頂上に到達した",
+                  "is_correct": true
+                },
+                {
+                  "label": "③",
+                  "en": "successfully completed the time challenge",
+                  "ja": "タイムチャレンジを首尾よく達成した",
+                  "is_correct": false
+                },
+                {
+                  "label": "④",
+                  "en": "was the second driver of the minibus",
+                  "ja": "ミニバスの第2運転手だった",
+                  "is_correct": false
+                }
+              ],
+              "answer": "②",
+              "explanation": {
+                "ja": "スリー・ピークス・チャレンジについて，第2段落・第3段落で2つの山に登頂したことが書かれている。最終段落第5文に，最後の山，スノードンで2人が登頂を断念したと書かれているが，第8文we were successful with the climb challenge（登山チャレンジには成功したのです）から，筆者は3つの山すべてに登頂したとわかる。したがって，②が正解。記事の最後にWe had done it. What a feeling that was!（私たちはやり遂げたのです。何ともよい気持ちでした！）と書いていることから，筆者は達成感を感じていると考えられるので，①は不適当。最終段落第8文にwe weren't successful with the time challenge（タイムチャレンジには成功しなかった）とあるので，③も不適当。第1段落第1文から，チームには登山家以外に2人のミニバスの運転手がいることがわかるが，筆者は登山家なので④も不適当。",
+                "evidence_sentences": [
+                  "3b_s23",
+                  "3b_s24"
+                ]
+              },
+              "points": 3
+            }
+          ],
+          "vocabulary": {
+            "passage": {
+              "items": [
+                {
+                  "en": "attempt",
+                  "ja": "「～を試みる」"
+                },
+                {
+                  "en": "participate in ~",
+                  "ja": "「～に参加する」"
+                },
+                {
+                  "en": "on and off",
+                  "ja": "「断続的に」"
+                },
+                {
+                  "en": "summit",
+                  "ja": "「頂上」"
+                },
+                {
+                  "en": "slippery",
+                  "ja": "「滑りやすい」"
+                },
+                {
+                  "en": "no longer ~",
+                  "ja": "「もはや～でない」"
+                },
+                {
+                  "en": "nevertheless",
+                  "ja": "「それにもかかわらず」"
+                },
+                {
+                  "en": "be determined to do",
+                  "ja": "「…しようと決心している」"
+                },
+                {
+                  "en": "make good progress",
+                  "ja": "問2②「順調に進む」"
+                },
+                {
+                  "en": "sense of satisfaction",
+                  "ja": "問3①「達成感」"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 16,
+      "situation": {
+        "en": "You are a new student at Robinson University in the US. You are reading the blogs of two students, Len and Cindy, to find out where you can buy things for your apartment.",
+        "ja": "あなたはアメリカ合衆国のロビンソン大学の新入生です。あなたは自分のアパートで必要なものをどこで購入できるかを調べるために，2人の学生，レンとシンディのブログを読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "len_blog",
+          "title": {
+            "en": "New to Robinson University?\nPosted by Len at 4:51 p.m. on August 4, 2021",
+            "ja": "ロビンソン大学の新入生ですか？\n投稿者：レン　2021年8月4日午後4時51分"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "4_s1",
+                "en": "Getting ready for college? Do you need some home appliances or electronics, but don't want to spend too much money?",
+                "ja": "大学入学の準備をしていますか？家庭用電化製品や電子機器が必要だけど，あまりお金をかけたくないのではないですか？"
+              },
+              {
+                "id": "4_s2",
+                "en": "There's a great store close to the university called Second Hand.",
+                "ja": "大学の近くにセカンドハンドという素晴らしい店があります。"
+              },
+              {
+                "id": "4_s3",
+                "en": "It sells used goods such as televisions, vacuum cleaners, and microwaves.",
+                "ja": "テレビ，掃除機，電子レンジなどの中古品を売っています。"
+              },
+              {
+                "id": "4_s4",
+                "en": "A lot of students like to buy and sell their things at the store.",
+                "ja": "多くの学生は，この店で買い物をしたり，自分のものを売ったりするのが好きです。"
+              },
+              {
+                "id": "4_s5",
+                "en": "Here are some items that are on sale now.",
+                "ja": "ここに現在売り出し中の商品のいくつかを挙げます。"
+              },
+              {
+                "id": "4_s6",
+                "en": "Most of them are priced very reasonably, but stock is limited, so hurry!",
+                "ja": "ほとんどがとても手頃な価格ですが，在庫に限りがあるので，急いで！"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "len_table",
+          "type": "handout",
+          "title": {
+            "en": "Second Hand  Sale for New Students!",
+            "ja": "セカンドハンド  新入生向けセール"
+          },
+          "sentences": [
+            {
+              "id": "4_s7",
+              "en": "Television: $250 (2016 model, 50 in.)\nMicrowave: $85 (2019 model, 1.1 cu. ft. 900 watts)\nVacuum Cleaner: $30 (2017 model, W 9 in. x L 14 in. x H 12 in.)\nRice Cooker: $40 (2018 model, W 11 in. x D 14 in. x H 8 in.)\nKettle: $5 (2018 model, 1l)",
+              "ja": "テレビ：250ドル（2016年モデル，50インチ）\n電子レンジ：85ドル（2019年モデル，1.1立方フィート 900ワット）\n掃除機：30ドル（2017年モデル，幅9×長さ14×高さ12インチ）\n炊飯器：40ドル（2018年モデル，幅11×奥行14×高さ8インチ）\n湯沸かし：5ドル（2018年モデル，1l）"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "len_footer",
+          "sentences": [
+            {
+              "id": "4_s8",
+              "en": "https://secondhand.web",
+              "ja": "https://secondhand.web"
+            },
+            {
+              "id": "4_s9",
+              "en": "Purchasing used goods is eco-friendly. Plus, by buying from Second Hand you'll be supporting a local business. The owner is actually a graduate of Robinson University!",
+              "ja": "中古品を購入することは，環境に優しいです。さらに，セカンドハンドで購入することで，地元のビジネスを支えることになるのです。実はオーナーはロビンソン大学の卒業生です！"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "cindy_blog",
+          "title": {
+            "en": "Welcome to Robinson University!\nPosted by Cindy at 11:21 a.m. on August 5, 2021",
+            "ja": "ロビンソン大学へようこそ！\n投稿者：シンディ　2021年8月5日午前11時21分"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "4_s10",
+                "en": "Are you starting at Robinson University soon? You may be preparing to buy some household appliances or electronics for your new life.",
+                "ja": "まもなくロビンソン大学での学生生活を始めるところですか？新生活のために家電製品や電子機器を買う準備をしているところかもしれませんね。"
+              }
+            ],
+            [
+              {
+                "id": "4_s11",
+                "en": "You're going to be here for four years, so buy your goods new!",
+                "ja": "ここには4年間いることになるのですから，新品を買いましょう！"
+              },
+              {
+                "id": "4_s12",
+                "en": "In my first year, I bought all of my appliances at a shop selling used goods near the university because they were cheaper than brand-new ones.",
+                "ja": "私は初年度に，新品より安かったから，大学の近くの中古品を売っている店ですべての家電を買いました。"
+              },
+              {
+                "id": "4_s13",
+                "en": "However, some of them stopped working after just one month, and they did not have warranties.",
+                "ja": "けれども，中にはたった1か月で動かなくなったものもあり，保証が付いていませんでした。"
+              },
+              {
+                "id": "4_s14",
+                "en": "I had to replace them quickly and could not shop around, so I just bought everything from one big chain store.",
+                "ja": "すぐに交換しなければならず，あちこちの店の商品を見て回ることができなかったので，大手チェーン店の1店舗だけで全部買いました。"
+              },
+              {
+                "id": "4_s15",
+                "en": "I wish I had been able to compare the prices at two or more shops beforehand.",
+                "ja": "事前に2つ以上の店で値段を比較できればよかったのにと思います。"
+              }
+            ],
+            [
+              {
+                "id": "4_s16",
+                "en": "The website called save4unistu.com is very useful for comparing the prices of items from different stores before you go shopping.",
+                "ja": "save4unistu.comというウェブサイトは，買い物に行く前にいろいろな店の商品の値段を比較するのにとても便利です。"
+              },
+              {
+                "id": "4_s17",
+                "en": "The following table compares current prices for the most popular new items from three big stores.",
+                "ja": "次の表は，3つの大型店の最も人気がある新商品の現在の価格を比較したものです。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "cindy_table",
+          "type": "handout",
+          "title": {
+            "en": "Price Comparison Table",
+            "ja": "価格比較表"
+          },
+          "sentences": [
+            {
+              "id": "4_s18",
+              "en": "Item | Cut Price | Great Buy | Value Saver\nRice Cooker (W 11 in. x D 14 in. x H 8 in.) | $115 | $120 | $125\nTelevision (50 in.) | $300 | $295 | $305\nKettle (1l) | $15 | $18 | $20\nMicrowave (1.1 cu. ft. 900 watts) | $88 | $90 | $95\nVacuum Cleaner (W 9 in. x L 14 in. x H 12 in.) | $33 | $35 | $38",
+              "ja": "商品 | カットプライス | グレートバイ | バリューセイバー\n炊飯器（幅11×奥行14×高さ8インチ） | 115ドル | 120ドル | 125ドル\nテレビ（50インチ） | 300ドル | 295ドル | 305ドル\n湯沸かし（1l） | 15ドル | 18ドル | 20ドル\n電子レンジ（1.1立方フィート 900ワット） | 88ドル | 90ドル | 95ドル\n掃除機（幅9×長さ14×高さ12インチ） | 33ドル | 35ドル | 38ドル"
+            }
+          ],
+          "no_divider": true
+        },
+        {
+          "id": "cindy_footer",
+          "paragraphs": [
+            [
+              {
+                "id": "4_s19",
+                "en": "https://save4unistu.com",
+                "ja": "https://save4unistu.com"
+              }
+            ],
+            [
+              {
+                "id": "4_s20",
+                "en": "Note that warranties are available for all items. So, if anything stops working, replacing it will be straightforward.",
+                "ja": "注目すべきことは，すべての商品に保証を付けられることです。だから，何かが動かなくなった場合に，それを交換することは簡単でしょう。"
+              },
+              {
+                "id": "4_s21",
+                "en": "Value Saver provides one-year warranties on all household goods for free. If the item is over $300, the warranty is extended by four years.",
+                "ja": "バリューセイバーは，すべての家庭用品に1年間の保証を無料で提供します。300ドル以上の商品であれば，保証は4年延長されます。"
+              },
+              {
+                "id": "4_s22",
+                "en": "Great Buy provides one-year warranties on all household goods, and students with proof of enrollment at a school get 10% off the prices listed on the table above.",
+                "ja": "グレートバイは，すべての家庭用品に1年間の保証を提供し，学校の入学証明がある学生は，上の表に載っている価格から10%の割引を受けられます。"
+              },
+              {
+                "id": "4_s23",
+                "en": "Warranties at Cut Price are not provided for free. You have to pay $10 per item for a five-year warranty.",
+                "ja": "カットプライスでは保証は無料で提供されません。5年保証には，1点につき10ドルを払わなければなりません。"
+              }
+            ],
+            [
+              {
+                "id": "4_s24",
+                "en": "Things go fast! Don't wait or you'll miss out!",
+                "ja": "商品はすぐに売り切れます。待っていたら買い損ねますよ！"
+              }
+            ]
+          ],
+          "no_divider": true
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 24,
+          "stem": {
+            "en": "Len recommends buying used goods because [24].",
+            "ja": "「[24]という理由で，レンは中古品を買うことを勧めています。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "it will help the university",
+              "ja": "大学の役に立つ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "most of the items are good for the environment",
+              "ja": "ほとんどの商品が環境によい",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "they are affordable for students",
+              "ja": "学生にとって手頃な価格だ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "you can find what you need in a hurry",
+              "ja": "必要なものを急いで見つけることができる",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "レンの中古品購入を勧めるブログを読むと，第1段落第2文でdon't want to spend too much money?（あまりお金をかけたくないのではないですか？）と問いかけている。さらに中古品店の紹介をしたあと第1段落第7文でMost of them are priced very reasonably（ほとんどがとても手頃な価格です）と書いている。したがって，「学生にとって手頃な価格だ」という③が正解。reasonableとaffordableは価格に関して使う時は，どちらも「手頃な」という意味になる。第2段落第2文に「セカンドハンドで買うことは地元のビジネスを支えることになる」とあるが，支えるのは大学ではないので，①は不適当。第2段落第1文にPurchasing used goods is eco-friendly.（中古品を購入することは，環境に優しいです。）とあるが，「中古品を購入する」という行為が環境に優しいのであり，商品そのものが環境によいのではない。したがって，②も不適当。また，第1段落最終文に「在庫に限りがあるので，急いで！」とあるが，「急いで見つけることができる」とは書かれていないので，④も不適当。",
+            "evidence_sentences": [
+              "4_s1",
+              "4_s6"
+            ]
+          },
+          "points": 3
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 25,
+          "stem": {
+            "en": "Cindy suggests buying [25].",
+            "ja": "「シンディは[25]買うことを提案しています。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "from a single big chain store because it saves time",
+              "ja": "時間の節約になるので，大きなチェーン店の1店舗から",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "from the website because it offers the best prices",
+              "ja": "最適価格を提示しているので，ウェブサイトから",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "new items that have warranties for replacement",
+              "ja": "交換のための保証が付いている新しい商品を",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "used items because they are much cheaper than new items",
+              "ja": "新品よりもずっと安いので，中古商品を",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "シンディのブログを読むと，第2段落第1文でbuy your goods new!（新品を買いましょう！）と提案している。続けて，「中古品を買ったら，短期間で動かなくなったが，保証が付いていなかったため，買い替えなければならなかった」という体験を書いている。また，価格比較のウェブサイトの紹介のあと，第4段落の最初にNote that warranties are available for all items. So, if anything stops working, replacing it will be straightforward.（注目すべきことは，すべての商品に保証を付けられることです。だから，何かが動かなくなったら，それを交換することは簡単でしょう。）と書いている。つまり「保証がついていて，故障したら交換してもらえる新品の購入を勧めている」のだから，③が正解。第2段落第4文に「大きなチェーン店の1店舗だけで全部買いました」と書いてあるが，「事前に2つ以上の店で値段を比較できればよかったのに」と，不満を述べているので①は不適当。紹介しているウェブサイトは，価格比較サイトであり，販売はしていないので②も不適当。また，シンディは新品を買うことを勧めているので④も不適当。",
+            "evidence_sentences": [
+              "4_s11",
+              "4_s13",
+              "4_s20"
+            ]
+          },
+          "points": 3
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 26,
+          "stem": {
+            "en": "Both Len and Cindy recommend that you [26].",
+            "ja": "「レンとシンディの両方は，あなたが[26]ことを勧めています。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "buy from the store near your university",
+              "ja": "大学の近くの店から買う",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "buy your appliances as soon as you can",
+              "ja": "電化製品をできるだけ早く買う",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "choose a shop offering a student discount",
+              "ja": "学生割引を提供する店を選ぶ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "choose the items with warranties",
+              "ja": "保証がついている商品を選ぶ",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "レンは第1段落最終文にstock is limited, so hurry!（在庫に限りがありますので，急いで！），シンディは最終段落の最後にThings go fast! Don't wait or you'll miss out!（商品はすぐに売り切れます。待っていたら買い損ねますよ！）と書いている。2人ともすぐに買いに行くことを勧めているので，②が正解。大学の近くの店（セカンドハンド）で買うことを勧めているのはレンだけなので，①は不適当。学生割引について紹介したのはシンディだけなので③も不適当。保証がついている商品を買うことを勧めているのもシンディだけなので④も不適当。",
+            "evidence_sentences": [
+              "4_s6",
+              "4_s24"
+            ]
+          },
+          "points": 3
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 27,
+          "stem": {
+            "en": "If you want to buy new appliances at the best possible prices, you should [27].",
+            "ja": "「新しい電化製品を最善の価格で買いたいなら，[27]べきです。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "access the URL in Cindy's post",
+              "ja": "シンディの投稿のURLにアクセスする",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "access the URL in Len's post",
+              "ja": "レンの投稿のURLにアクセスする",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "contact one big chain store",
+              "ja": "大きなチェーン店の1店舗に問い合わせる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "contact shops close to the campus",
+              "ja": "キャンパスに近い店に問い合わせる",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "問2で見たように，新品の電化製品の購入を勧めているのはシンディ。シンディは，自分の場合はすぐに壊れた電化製品を取り換える必要があり，購入前に複数の店の値段を比較できなかったが，そうできればよかったのにと述べ，この経験を踏まえて，新入生に価格比較サイトを紹介している。サイトについては，第3段落の最初にThe website called save4unistu.com is very useful for comparing the prices of items from different stores before you go shopping.（save4unistu.comというウェブサイトは，買い物に行く前にいろいろな店の商品の値段を比較するのにとても便利です。）とあり，新入生は買い物に行く前に，最安値で新品を買えるのはどの店かという情報をこのサイトから得ることができることがわかる。したがって①が正解。レンが紹介しているのは中古品のお店のサイトだから，②は不適当。大きなチェーン店やキャンパス近くの複数の店に問い合わせることに関するアドバイスは，どちらの投稿にもないので，③，④も不適当。",
+            "evidence_sentences": [
+              "4_s16"
+            ]
+          },
+          "points": 3
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 28,
+          "answer_numbers": [
+            28,
+            29
+          ],
+          "stem": {
+            "en": "You have decided to buy a microwave from [28] because it is the cheapest. You have also decided to buy a television from [29] because it is the cheapest with a five-year warranty. (Choose one for each box from options ①～④.)",
+            "ja": "「あなたは，最安値なので，電子レンジを[28]で買うことに決めました。あなたはまた，テレビを[29]で買うことに決めました。5年保証を付けた最安値だからです。（それぞれの空所に，①～④の選択肢から1つずつ選びなさい。）」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Cut Price",
+              "ja": "カットプライス",
+              "is_correct": false,
+              "group": "28"
+            },
+            {
+              "label": "②",
+              "en": "Great Buy",
+              "ja": "グレートバイ",
+              "is_correct": true,
+              "group": "28"
+            },
+            {
+              "label": "③",
+              "en": "Second Hand",
+              "ja": "セカンドハンド",
+              "is_correct": false,
+              "group": "28"
+            },
+            {
+              "label": "④",
+              "en": "Value Saver",
+              "ja": "バリューセイバー",
+              "is_correct": false,
+              "group": "28"
+            },
+            {
+              "label": "①",
+              "en": "Cut Price",
+              "ja": "カットプライス",
+              "is_correct": false,
+              "group": "29"
+            },
+            {
+              "label": "②",
+              "en": "Great Buy",
+              "ja": "グレートバイ",
+              "is_correct": false,
+              "group": "29"
+            },
+            {
+              "label": "③",
+              "en": "Second Hand",
+              "ja": "セカンドハンド",
+              "is_correct": false,
+              "group": "29"
+            },
+            {
+              "label": "④",
+              "en": "Value Saver",
+              "ja": "バリューセイバー",
+              "is_correct": true,
+              "group": "29"
+            }
+          ],
+          "answers_28_29": [
+            "②",
+            "④"
+          ],
+          "explanation": {
+            "ja": "電子レンジについては，保証のことを考える必要はないので，レンとシンディの2人が掲載しているそれぞれの表の価格を比較する。一見したところセカンドハンドの85ドルが一番安いが，シンディの注意書きに注目。第4段落第5文にGreat Buy ... students with proof of enrollment at a school get 10% off the prices listed on the table above（グレートバイは…入学証明がある学生は，上の表の価格から10%の割引を受けられます）と書かれている。グレートバイの価格90ドルから10%引くと81ドルとなり，これが最安値なので，②が正解。テレビには5年保証を付けるので，レンの表の価格は除外する。次に，シンディの表の3店舗のテレビの価格を，第4段落にある保証に関する情報とあわせて確認する。バリューセイバーの保証については，第3・4文にValue Saver provides one-year warranties on all household goods for free. If the item is over $300, the warranty is extended by four years.（バリューセイバーは，すべての家庭用品に1年間の保証を無料で提供します。300ドル以上の商品であれば，保証は4年延長されます。）とある。つまり，バリューセイバーの305ドルのテレビには無料で5年間の保証が付くことになる。グレートバイの保証については，第5文のGreat Buy provides one-year warranties on all household goods（グレートバイは，すべての家庭用品に1年間の保証を提供）から1年間の無料保証はあることはわかるが，5年保証についての記述はないので，5年保証は提供していないと考えられる。よってグレートバイは除外する。カットプライスの保証については，最終文にYou have to pay $10 per item for a five-year warranty.（5年保証には，1点につき10ドルを払わなければなりません。）とある。カットプライスで購入する場合，テレビ代金300ドルに10ドルを追加しなければならないので，310ドルとなり，バリューセイバーの305ドルより高くなる。したがって，5年保証を付けた最安値はバリューセイバーで，④が正解。",
+            "evidence_sentences": [
+              "4_s22",
+              "4_s21",
+              "4_s23"
+            ]
+          },
+          "points": 4,
+          "answer": "② ④"
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "home appliance",
+              "ja": "「家庭用電化製品」"
+            },
+            {
+              "en": "electronics",
+              "ja": "「電子機器」"
+            },
+            {
+              "en": "cu.ft.",
+              "ja": "= cubic feet「立方フィート」"
+            },
+            {
+              "en": "purchase",
+              "ja": "「～を購入する」"
+            },
+            {
+              "en": "graduate",
+              "ja": "「卒業生」"
+            },
+            {
+              "en": "brand-new",
+              "ja": "「新品の」"
+            },
+            {
+              "en": "warranty",
+              "ja": "「保証（書）」"
+            },
+            {
+              "en": "Note that ...",
+              "ja": "「注目すべきは…である」"
+            },
+            {
+              "en": "straightforward",
+              "ja": "「簡単な」"
+            },
+            {
+              "en": "extend",
+              "ja": "「～を延長する」"
+            },
+            {
+              "en": "proof",
+              "ja": "「証拠；証明」"
+            },
+            {
+              "en": "enrollment",
+              "ja": "「入学」"
+            },
+            {
+              "en": "go fast",
+              "ja": "「すぐに売り切れる」"
+            },
+            {
+              "en": "miss out",
+              "ja": "「逃す」"
+            },
+            {
+              "en": "affordable",
+              "ja": "問1③「手頃な（価格の）」"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 15,
+      "situation": {
+        "en": "In your English class, you will give a presentation about a great inventor. You found the following article and prepared notes for your presentation.",
+        "ja": "英語の授業で，あなたは偉大な発明家についてプレゼンテーションをすることになりました。あなたは以下の記事を見つけ，プレゼンテーションのためのメモを準備しました。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "paragraphs": [
+            [
+              {
+                "id": "5_s1",
+                "en": "Who invented television? It is not an easy question to answer.",
+                "ja": "テレビを発明したのは誰ですか。それは簡単に答えられる質問ではありません。"
+              },
+              {
+                "id": "5_s2",
+                "en": "In the early years of the 20th century, there was something called a mechanical television system, but it was not a success.",
+                "ja": "20世紀初頭，機械式テレビシステムと呼ばれるものがありましたが，成功は収めていませんでした。"
+              },
+              {
+                "id": "5_s3",
+                "en": "Inventors were also competing to develop an electronic television system, which later became the basis of what we have today.",
+                "ja": "発明家たちはまた，電子式テレビシステムの開発をしようと競っており，そのシステムがのちに，私たちが今日持っているものの土台となりました。"
+              },
+              {
+                "id": "5_s4",
+                "en": "In the US, there was a battle over the patent for the electronic television system, which attracted people's attention because it was between a young man and a giant corporation.",
+                "ja": "アメリカ合衆国では，電子式テレビシステムの特許を巡る争いがあり，それは1人の青年と巨大な企業の間のものであったので，人々の注目を集めました。"
+              },
+              {
+                "id": "5_s5",
+                "en": "This patent would give the inventor the official right to be the only person to develop, use, or sell the system.",
+                "ja": "この特許は，そのシステムを開発し，使用し，販売する唯一の人間であるという公的な権利をその発明者に与えるものでした。"
+              }
+            ],
+            [
+              {
+                "id": "5_s6",
+                "en": "Philo Taylor Farnsworth was born in a log cabin in Utah in 1906.",
+                "ja": "フィロ・テイラー・ファーンズワースは，1906年，ユタ州の丸太小屋に生まれました。"
+              },
+              {
+                "id": "5_s7",
+                "en": "His family did not have electricity until he was 12 years old, and he was excited to find a generator—a machine that produces electricity—when they moved into a new home.",
+                "ja": "彼が12歳になるまで家庭には電気がありませんでした。だから新しい家に引っ越した時，彼は発電機——電気をつくる機械——を見つけて興奮しました。"
+              },
+              {
+                "id": "5_s8",
+                "en": "He was very interested in mechanical and electrical technology, reading any information he could find on the subject.",
+                "ja": "彼は機械技術や電気技術にとても興味を持ち，その分野に関して自分が見つけることができるどんな情報でも読みました。"
+              },
+              {
+                "id": "5_s9",
+                "en": "He would often repair the old generator and even changed his mother's hand-powered washing machine into an electricity-powered one.",
+                "ja": "彼はよく古い発電機を修理し，母親の手回し洗濯機を電動洗濯機に変えたことさえありました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s10",
+                "en": "One day, while working in his father's potato field, he looked behind him and saw all the straight parallel rows of soil that he had made.",
+                "ja": "ある日，父親のジャガイモ畑で働いている時，後ろを振り返ると，自分が耕したまっすぐ平行に並んだ土の列がすべて見えました。"
+              },
+              {
+                "id": "5_s11",
+                "en": "Suddenly, it occurred to him that it might be possible to create an electronic image on a screen using parallel lines, just like the rows in the field.",
+                "ja": "突然，彼は，畑の畝と同じような平行な線を使って，スクリーン上に電子画像を作ることができるかもしれないという考えが浮かびました。"
+              },
+              {
+                "id": "5_s12",
+                "en": "In 1922, during the spring semester of his first year at high school, he presented this idea to his chemistry teacher, Justin Tolman, and asked for advice about his concept of an electronic television system.",
+                "ja": "1922年，高校1年生の春学期の間に，化学の教師ジャスティン・トールマンにこの考えを提示し，自分の電子テレビシステムの構想についてアドバイスを求めました。"
+              },
+              {
+                "id": "5_s13",
+                "en": "With sketches and diagrams on blackboards, he showed the teacher how it might be accomplished, and Tolman encouraged him to develop his ideas.",
+                "ja": "黒板に描いたスケッチと図を用いて，彼がどうすればそれが完成するかもしれないかを先生に説明すると，トールマンはそのアイディアを発展させるように彼を励ましました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s14",
+                "en": "On September 7, 1927, Farnsworth succeeded in sending his first electronic image.",
+                "ja": "1927年9月7日，ファーンズワースは最初の電子画像の送信に成功しました。"
+              },
+              {
+                "id": "5_s15",
+                "en": "In the following years, he further improved the system so that it could successfully broadcast live images.",
+                "ja": "その後数年，ライブ映像をうまく送信できるように，彼はさらにシステムを改良しました。"
+              },
+              {
+                "id": "5_s16",
+                "en": "The US government gave him a patent for this system in 1930.",
+                "ja": "1930年に，アメリカ政府は彼にこのシステムの特許を与えました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s17",
+                "en": "However, Farnsworth was not the only one working on such a system.",
+                "ja": "しかし，このようなシステムを研究していたのは，ファーンズワースだけではありませんでした。"
+              },
+              {
+                "id": "5_s18",
+                "en": "A giant company, RCA (Radio Corporation of America), also saw a bright future for television and did not want to miss the opportunity.",
+                "ja": "巨大企業であるRCA社（ラジオ・コーポレーション・オブ・アメリカ）も，テレビに明るい未来を見ており，この機会を逃したくないと思っていたのです。"
+              },
+              {
+                "id": "5_s19",
+                "en": "They recruited Vladimir Zworykin, who had already worked on an electronic television system and had earned a patent as early as 1923.",
+                "ja": "彼らはウラジミール・ツヴォルキンを採用しましたが，彼はすでに電子テレビシステムに取り組み，早くも1923年に特許を取得していました。"
+              },
+              {
+                "id": "5_s20",
+                "en": "Yet, in 1931, they offered Farnsworth a large sum of money to sell them his patent as his system was superior to that of Zworykin's.",
+                "ja": "しかし，ファーンズワースのシステムの方がツヴォルキンのものより優れていたので，1931年に，彼らはファーンズワースに多額のお金を申し出ました。"
+              },
+              {
+                "id": "5_s21",
+                "en": "He refused this offer, which started a patent war between Farnsworth and RCA.",
+                "ja": "彼はこの申し出を断り，そのためファーンズワースとRCA社の特許戦争が始まりました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s22",
+                "en": "The company took legal action against Farnsworth, claiming that Zworykin's 1923 patent had priority even though he had never made a working version of his system.",
+                "ja": "まだそのシステムを実際に使えるものにしたことはなかったけれども，ツヴォルキンの1923年の特許に優先権があると主張して，RCA社がファーンズワースに対して法的措置に出ました。"
+              },
+              {
+                "id": "5_s23",
+                "en": "Farnsworth lost the first two rounds of the court case.",
+                "ja": "ファーンズワースは，最初の2回の裁判で敗訴しました。"
+              },
+              {
+                "id": "5_s24",
+                "en": "However, in the final round, the teacher who had copied Farnsworth's blackboard drawings gave evidence that Farnsworth did have the idea of an electronic television system at least a year before Zworykin's patent was issued.",
+                "ja": "しかし，最終の裁判では，ファーンズワースの黒板の図面を描き写した教師が，ツヴォルキンの特許が交付される少なくとも1年前には，ファーンズワースが電子テレビシステムの構想を得ていたことの証拠を出しました。"
+              },
+              {
+                "id": "5_s25",
+                "en": "In 1934, a judge approved Farnsworth's patent claim on the strength of handwritten notes made by his old high school teacher, Tolman.",
+                "ja": "1934年，高校時代の恩師トールマンの手書きのメモの力によって，ファーンズワースの特許請求を判事が承認しました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s26",
+                "en": "Farnsworth died in 1971 at the age of 64.",
+                "ja": "ファーンズワースは，1971年に64歳で亡くなりました。"
+              },
+              {
+                "id": "5_s27",
+                "en": "He held about 300 US and foreign patents, mostly in radio and television, and in 1999, TIME magazine included Farnsworth in Time 100: The Most Important People of the Century.",
+                "ja": "ラジオやテレビを中心にアメリカと外国の約300の特許を持ち，1999年には『タイム』誌が「タイムの100人：今世紀の最重要人物」にファーンズワースを挙げました。"
+              },
+              {
+                "id": "5_s28",
+                "en": "In an interview after his death, Farnsworth's wife Pem recalled Neil Armstrong's moon landing being broadcast.",
+                "ja": "彼の死後に行われたインタビューで，ファーンズワースの妻ペムは，ニール・アームストロングの月面着陸が放送されたことを思い出しました。"
+              },
+              {
+                "id": "5_s29",
+                "en": "Watching the television with her, Farnsworth had said, \"Pem, this has made it all worthwhile.\"",
+                "ja": "一緒にテレビを見ながら，ファーンズワースは言いました。「ペム，これですべてが価値のあるものになったよ」と。"
+              },
+              {
+                "id": "5_s30",
+                "en": "His story will always be tied to his teenage dream of sending moving pictures through the air and those blackboard drawings at his high school.",
+                "ja": "ファーンズワースの物語は，空気を通して写真を送りたいというティーンエイジャーの頃の夢と，高校で黒板に描いた図面にいつも結びついているのです。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 30,
+          "stem": {
+            "en": "Which is the best subtitle for your presentation? [30]",
+            "ja": "「あなたのプレゼンテーションに最もふさわしい副題はどれですか。」[30]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A Young Inventor Against a Giant Company",
+              "ja": "巨大企業に立ち向かった若い発明家",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "From High School Teacher to Successful Inventor",
+              "ja": "高校教師から成功した発明家へ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Never-Ending Passion for Generating Electricity",
+              "ja": "発電への決して終わらない情熱",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The Future of Electronic Television",
+              "ja": "電子テレビの未来",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "記事の段落ごとの概要は以下の通り。・第1段落：アメリカ合衆国では，1人の青年と巨大な企業の間で電子テレビシステムの特許を巡る争いがあった。・第2段落：ファーンズワースは，少年時代に機械技術や電気技術にとても興味を持ち，機械の修理や改良をした。・第3段落：彼は畑の畝から電子テレビシステムの着想を得て，その構想をスケッチや図を使って高校教師に話した。・第4段落：1927年ファーンズワースは最初の電子画像の送信に成功し，1930年に電子テレビシステムの特許を取った。・第5段落：巨大企業であるRCA社は，社員のツヴォルキンの電子テレビシステムより，ファーンズワースのシステムの方が優れていたので，特許買い取りの提案をファーンズワースにした。ファーンズワースが拒否したので，ファーンズワースとRCA社の特許戦争が始まった。・第6段落：最初の2回の裁判では，ファーンズワースは敗訴した。しかし最終の裁判では，高校の恩師の証言でファーンズワースが勝訴した。・第7段落：ファーンズワースは，亡くなるまでにラジオやテレビを中心に約300の特許を持ち，「タイムの100人」にも選ばれた。全体を通して書かれているのは，ファーンズワースが電子テレビシステムの発明に取り組んだことと，その特許について大企業のRCA社と争ったことである。したがって，①が正解。ファーンズワースは高校教師ではないので②は不適当。また，発電に関しては，発電機が子供時代に機械や電気技術に興味を持つきっかけとなったエピソードに出てくるだけなので，③も不適当。記事の中心はファーンズワースであり，テレビの未来ではないので④も不適当。",
+            "evidence_sentences": [
+              "5_s4"
+            ]
+          },
+          "points": 3
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 31,
+          "answer_numbers": [
+            31,
+            32
+          ],
+          "type": "multi_select",
+          "stem": {
+            "en": "Choose the best two options for [31] and [32] to complete Early Days. (The order does not matter.)",
+            "ja": "「『子供時代』を完成させるのに最も合う2つの選択肢を選びなさい。（順不同。）」[31][32]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "bought a generator to provide his family with electricity",
+              "ja": "家族に電気を供給するために発電機を購入した",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "built a log cabin that had electricity with the help of his father",
+              "ja": "父親の助けを借りて，電気の通った丸太小屋を建てた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "enjoyed reading books on every subject in school",
+              "ja": "学校では，あらゆる教科の本を読むのを楽しんだ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "fixed and improved household equipment for his family",
+              "ja": "家族のために，家庭用機器の修理や改良をした",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "got the idea for an electronic television system while working in a field",
+              "ja": "畑仕事中に電子テレビシステムの着想を得た",
+              "is_correct": true
+            }
+          ],
+          "answer": "④⑤（順不同）",
+          "explanation": {
+            "ja": "子供時代のエピソードは第2・3段落に書かれている。第2段落最終文にHe would often repair the old generator and even changed his mother's hand-powered washing machine into an electricity-powered one.（彼はよく古い発電機を修理し，母親の手回し洗濯機を電動洗濯機に変えたことさえありました。）とある。generatorやwashing machineをhousehold equipmentと言い換えた④が正解。また，第3段落第1・2文One day, while working in his father's potato field, ... it occurred to him that it might be possible to create an electronic image on a screen using parallel lines, just like the rows in the field.（父親のジャガイモ畑で働いている時 … 畑の畝と同じような平行な線を使って，スクリーン上に電子画像を作ることができるかもしれないと思いついた。）の内容を簡潔にまとめた⑤も正解。「発電機」は買ったのではなく，引っ越し先の新しい家にあった（第2段落第2文）ので①は不適当。「丸太小屋」を建てたのではなく，「丸太小屋」で生まれた（第2段落第1文）ので②も不適当。「あらゆる教科の本を読んだ」のではなく，「機械技術や電気技術の分野に関してどんな情報でも読んだ」（第2段落第3文）ので③も不適当。",
+            "evidence_sentences": [
+              "5_s9",
+              "5_s10",
+              "5_s11"
+            ]
+          },
+          "points": 3
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 33,
+          "answer_numbers": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "type": "ordering",
+          "stem": {
+            "en": "Choose four out of the five events (①～⑤) in the order they happened to complete Sequence of Key Events.\n[33] → [34] → [35] → [36]",
+            "ja": "「『一連の重大な出来事』を起こった順番に完成させるために，5つの出来事（①～⑤）から4つを選びなさい。」\n[33]→[34]→[35]→[36]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Farnsworth rejected RCA's offer.",
+              "ja": "ファーンズワースがRCA社の申し出を拒絶した。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Farnsworth shared his idea with his high school teacher.",
+              "ja": "ファーンズワースが自分の着想を高校教師と共有した。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "RCA won the first stage of the battle.",
+              "ja": "RCA社が最初の段階の訴訟に勝った。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The US government gave Farnsworth the patent.",
+              "ja": "アメリカ合衆国政府がファーンズワースに特許を与えた。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Zworykin was granted a patent for his television system.",
+              "ja": "ツヴォルキンがテレビシステムの特許を与えられた。",
+              "is_correct": true
+            }
+          ],
+          "answer": "②→⑤→④→①",
+          "answers_ordering": [
+            "②",
+            "⑤",
+            "④",
+            "①"
+          ],
+          "explanation": {
+            "ja": "まずメモを見ると，[36]のあとに「RCA社がファーンズワースを告訴した。」とあるので，それよりもあとの出来事，選択肢③の「RCA社が最初の段階の訴訟に勝った」は除外できる。残りの選択肢の出来事が起こった年を本文中から探すと以下のようになる。①：第5段落第4・5文 in 1931, they (=RCA) offered Farnsworth a large sum of money to sell them his patent ... He (=Farnsworth) refused this offer（1931年に，RCAは特許を売ってくれるように，ファーンズワースに多額のお金を申し出た …ファーンズワースはこの申し出を断った）②：第3段落第3文 In 1922 ... at high school, he (=Farnsworth) presented this idea to his chemistry teacher（1922年，高校でファーンズワースは化学の教師にこの考えを提示した）④：第4段落第3文 The US government gave him (= Farnsworth) a patent for this system in 1930（1930年に，アメリカ政府はファーンズワースにこのシステムの特許を与えた）⑤：第5段落第3文 Vladimir Zworykin, who had already worked on an electronic television system and had earned a patent as early as 1923（ウラジミール・ツヴォルキンはすでに電子テレビシステムに取り組み，早くも1923年に特許を取得していた）したがって，正解は②→⑤→④→①。",
+            "evidence_sentences": [
+              "5_s12",
+              "5_s19",
+              "5_s16",
+              "5_s21"
+            ]
+          },
+          "points": 3
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 37,
+          "stem": {
+            "en": "Choose the best option to complete Outcome. [37]\n- Farnsworth won the patent battle against RCA thanks to [37].",
+            "ja": "「『結果』を完成させるのに最も合う選択肢を選びなさい。」[37]\n「ファーンズワースは[37]のおかげで，RCA社との特許争いに勝った。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "acknowledging that a rival's technology was inferior",
+              "ja": "ライバルの技術が劣っていることを認めたこと",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "financial assistance provided by Tolman",
+              "ja": "トールマンによって提供された経済的援助",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "sketches that a teacher had kept for many years",
+              "ja": "教師が長年保存していたスケッチ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "withdrawal from the lawsuit by RCA",
+              "ja": "RCA社の訴訟からの撤退",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "空所[37]には，ファーンズワースがRCA社との裁判に勝った要因が入る。ファーンズワースの勝訴について，第6段落第3・4文にin the final round, the teacher who had copied Farnsworth's blackboard drawings gave evidence that Farnsworth did have the idea of an electronic television system at least a year before Zworykin's patent was issued. In 1934, a judge approved Farnsworth's patent claim on the strength of handwritten notes made by his old high school teacher, Tolman.（最終の裁判では，ファーンズワースの黒板の図面を描き写した教師が，ツヴォルキンの特許が交付される少なくとも1年前には，ファーンズワースが電子テレビシステムの構想を得ていたことの証拠を出しました。1934年，高校時代の恩師トールマンの手書きのメモの力によって，ファーンズワースの特許請求を判事が承認しました。）と書かれている。勝訴の決め手は，高校時代の教師が長年保存していた黒板の図面のスケッチなのだから，③が正解。技術力が特許裁判の決め手になったという記述はないので①は不適当。教師のトールマンが経済的援助をしたという記述はないので②も不適当。また，RCA社が訴訟からの撤退をせずまで訴訟を続けたので④も不適当。",
+            "evidence_sentences": [
+              "5_s24",
+              "5_s25"
+            ]
+          },
+          "points": 3
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 38,
+          "stem": {
+            "en": "Choose the best option to complete Achievements and Recognition. [38]",
+            "ja": "「『功績と評価』を完成させるのに最も合う選択肢を選びなさい。」[38]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "His work at RCA was recognised, and the couple were honoured.",
+              "ja": "RCA社での功績が認められ，夫妻で表彰された。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "He appeared on TV when Armstrong's first moon landing was broadcast.",
+              "ja": "アームストロングの最初の月面着陸が放送された時，テレビに出演した。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Thanks to his invention, we can watch historic events live on TV.",
+              "ja": "彼の発明のおかげで，私たちは歴史的な出来事を生放送で見ることができるようになった。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Many teenagers have been chasing their dreams since seeing him on TV.",
+              "ja": "多くのティーンエイジャーが，彼をテレビで見てから，夢を追いかけてきた。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "ファーンズワースの功績と評価は，第7段落に書かれており，第2文の内容をまとめたのが「功績と評価」の1つ目と2つ目である。続く第3・4文にFarnsworth's wife Pem recalled Neil Armstrong's moon landing being broadcast. Watching the television with her, Farnsworth had said, \"Pem, this has made it all worthwhile.\"（ファーンズワースの妻ペムは，ニール・アームストロングの月面着陸が放送されたことを思い出しました。一緒にテレビを見ながら，ファーンズワースは言いました。「ペム，これですべてが価値のあるものになったよ」と。）とある。つまり，ファーンズワースは「月面着陸」という「歴史的な出来事」を自分が発明したテレビで見て，報われたと感じたのである。そしてそれは，ファーンズワースの発明のおかげで，今私たちは「歴史的な出来事」をテレビの生放送で見ることができるようになったと言える。したがって，③が正解。ファーンズワースはRCA社で働いていないし，夫妻で表彰されたという記述もないので①は不適当。「アームストロングの月面着陸をテレビに出演した」のではなく，テレビで見ていたので②は不適当。ティーンエイジャーが彼をテレビで見てから夢を追いかけてきたという記述はないので④も不適当。",
+            "evidence_sentences": [
+              "5_s28",
+              "5_s29"
+            ]
+          },
+          "points": 3
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            {
+              "en": "compete",
+              "ja": "「競争する」"
+            },
+            {
+              "en": "patent",
+              "ja": "「特許」"
+            },
+            {
+              "en": "corporation",
+              "ja": "「企業」"
+            },
+            {
+              "en": "generator",
+              "ja": "「発電機」"
+            },
+            {
+              "en": "mechanical",
+              "ja": "「機械の」"
+            },
+            {
+              "en": "parallel",
+              "ja": "「平行な」"
+            },
+            {
+              "en": "semester",
+              "ja": "「学期」"
+            },
+            {
+              "en": "sketch",
+              "ja": "「スケッチ」"
+            },
+            {
+              "en": "accomplish",
+              "ja": "「成し遂げる」"
+            },
+            {
+              "en": "broadcast",
+              "ja": "「放送する」"
+            },
+            {
+              "en": "recruit",
+              "ja": "「採用する」"
+            },
+            {
+              "en": "superior",
+              "ja": "「優れた」"
+            },
+            {
+              "en": "legal action",
+              "ja": "「法的措置」"
+            },
+            {
+              "en": "priority",
+              "ja": "「優先権」"
+            },
+            {
+              "en": "evidence",
+              "ja": "「証拠」"
+            },
+            {
+              "en": "issue",
+              "ja": "「交付する」"
+            },
+            {
+              "en": "approve",
+              "ja": "「承認する」"
+            },
+            {
+              "en": "worthwhile",
+              "ja": "「価値のある」"
+            }
+          ]
+        }
+      }
+    },
+    {
       "section_number": "6A",
       "title": "第6問 A",
       "points": 12,
