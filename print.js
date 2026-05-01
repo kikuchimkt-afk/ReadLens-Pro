@@ -7,6 +7,7 @@
  */
 
 const EXAM_PATHS = {
+  sundai_2026_01: 'data/sundai/2026/round01/data.json',
   sundai_2025_01: 'data/sundai/2025/round01/data.json',
   sundai_2025_02: 'data/sundai/2025/round02/data.json',
   sundai_2025_03: 'data/sundai/2025/round03/data.json',

@@ -1,0 +1,868 @@
+{
+  "exam_info": {
+    "title": "2026年度 駿台 共通テスト実戦問題集",
+    "publisher": "駿台",
+    "year": 2026,
+    "round": 1,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 47,
+    "implemented_sections": [
+      1,
+      2
+    ],
+    "source_pdf_mondai": "第1回_問題.pdf",
+    "source_pdf_kaitou": "第1回_解説.pdf",
+    "data_policy": "本文・選択肢・解説は駿台『2026年駿台実戦問題集 英語リーディング』第1回・問題冊子および解説冊子を逐語転載する。学習者向けの補足は instructor_note に分離して「講師からの＋α」として控えめに表示する。"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（パンフレット）",
+      "situation": {
+        "en": "You went shopping for plants at a garden centre in the UK with your host family and found this interesting pamphlet.",
+        "ja": "あなたは，ホストファミリーの人たちと一緒にイギリスの園芸用品店へ植物を買いに行き，以下の興味深いパンフレットを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": {
+            "en": "A Guide to Exotic Plants for Kids",
+            "ja": "子ども向け外来植物ガイド"
+          },
+          "subtitle": {
+            "en": "Tips for growing insect-eating plants",
+            "ja": "食虫植物を育てるためのヒント"
+          },
+          "sentences": [
+            {
+              "id": "hd_title",
+              "en": "A Guide to Exotic Plants for Kids",
+              "ja": "子ども向け外来植物ガイド",
+              "role": "title"
+            },
+            {
+              "id": "hd_subtitle",
+              "en": "Tips for growing insect-eating plants",
+              "ja": "食虫植物を育てるためのヒント",
+              "role": "subtitle"
+            }
+          ]
+        },
+        {
+          "id": "section1_light",
+          "title": {
+            "en": "1. Light and Temperature",
+            "ja": "1．光と温度"
+          },
+          "image": {
+            "src": "data/sundai/2026/round01/images/q01_illus_venus_flytrap.png",
+            "alt": "ヴィーナスフライトラップの挿絵",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "lt_s1",
+              "en": "The best insect-eating plants for beginners are the Venus flytrap and the Trumpet pitcher.",
+              "ja": "初心者に最も適した食虫植物はヴィーナスフライトラップとトランペットピッチャーです。"
+            },
+            {
+              "id": "lt_s2",
+              "en": "Both grow inside or outside, but if grown inside, they should be placed by a window in direct sunlight.",
+              "ja": "どちらも屋内・屋外で生育しますが，屋内で育てる場合，直接日の当たる窓のそばに置くのがよいでしょう。"
+            }
+          ]
+        },
+        {
+          "id": "section2_water",
+          "title": {
+            "en": "2. Water and Food",
+            "ja": "2．水と食べ物"
+          },
+          "image": {
+            "src": "data/sundai/2026/round01/images/q01_illus_trumpet_pitcher.png",
+            "alt": "トランペットピッチャーの挿絵",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "wf_s1",
+              "en": "Give both plants rainwater, not tap water.",
+              "ja": "どちらの植物も水道水ではなく，雨水を与えてください。"
+            },
+            {
+              "id": "wf_s2",
+              "en": "Trumpet pitchers grow best in very wet conditions, so place a tray of water under them to keep the soil constantly wet.",
+              "ja": "トランペットピッチャーはとても湿潤な状態で最もよく生育するので，土を絶えず湿らせておくために，水を入れたトレイを下に置いてください。"
+            },
+            {
+              "id": "wf_s3",
+              "en": "Venus flytraps only need watering if the soil feels dry.",
+              "ja": "ヴィーナスフライトラップは土が乾いた感じがする場合だけ，水をやる必要があります。"
+            },
+            {
+              "id": "wf_s4",
+              "en": "Venus flytraps catch flies using their leaves, while insects drop into the “trumpet” part of Trumpet pitchers.",
+              "ja": "ヴィーナスフライトラップは葉を使ってハエを捕らえますが，トランペットピッチャーは虫が「トランペット」部分の中に落ちます。"
+            },
+            {
+              "id": "wf_s5",
+              "en": "If the Venus flytrap cannot catch enough flies, you may feed it one fly every two weeks.",
+              "ja": "ヴィーナスフライトラップが十分なハエを捕らえることができない場合は，2週間ごとにハエを1匹餌として与えてもよいでしょう。"
+            }
+          ]
+        },
+        {
+          "id": "section3_winter",
+          "title": {
+            "en": "3. Winter Care",
+            "ja": "3．冬の手入れ"
+          },
+          "image": {
+            "src": "data/sundai/2026/round01/images/q01_illus_trap_with_fly.png",
+            "alt": "ハエを捕らえたヴィーナスフライトラップの挿絵",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "wc_s1",
+              "en": "Both plants shed leaves in autumn.",
+              "ja": "両方の植物とも秋になると葉を落とします。"
+            },
+            {
+              "id": "wc_s2",
+              "en": "They are not dead, so don't throw them away!",
+              "ja": "枯れているわけではないので，捨てないように！"
+            },
+            {
+              "id": "wc_s3",
+              "en": "Store them in a cool room and keep the soil moist.",
+              "ja": "涼しい部屋に置いて，土を湿らせておいてください。"
+            },
+            {
+              "id": "wc_s4",
+              "en": "The leaves will return in spring.",
+              "ja": "春になると再び葉が育ってくるでしょう。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "This pamphlet is aimed at [1].",
+            "ja": "「このパンフレットは [1] 向けのものである」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "children who want to grow foreign plants",
+              "ja": "外国の植物を育ててみたいと思っている子どもたち",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "gardeners with experience of exotic plants",
+              "ja": "外来植物を育てた経験のある園芸愛好家",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "home owners looking for attractive house plants",
+              "ja": "魅力的な室内用鉢植え植物を探している住宅所有者",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "plant lovers whose plants often die in winter",
+              "ja": "冬になるとよく植物を枯れさせてしまう植物愛好家",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。パンフレットのタイトルに「子ども向け外来植物ガイド」とあることから，正解は①となる。\n②，③，④の内容はいずれも本文中では言及されていないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "hd_title"
+            ],
+            "instructor_note": {
+              "ja": "対象読者（誰向けの文章か）を問う設問のときは、まず見出し・サブタイトルを確認するのが定石です。",
+              "points": [
+                "be aimed at … は『…向けに作られている／…を対象としている』。設問の頻出表現として覚えておく。",
+                "本見出しの for Kids（子ども向け）が決め手。これに当てはまる選択肢は①の children のみ。",
+                "②は経験者、③は住宅所有者、④は冬に枯らせてしまう人、と全て『子ども』ではないので、見出しと照らせば即座に切れる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "In winter, both plants should be [2].",
+            "ja": "「冬は，どちらの植物も [2] ほうがよい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "given water and placed in a cool environment",
+              "ja": "水を与え，涼しい環境に置く",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "moved into a warm place with direct light",
+              "ja": "直接日の当たる暖かい場所に移動させる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "thrown away if the leaves fall off",
+              "ja": "葉が落ちたら，捨てる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "watered more regularly than in summer",
+              "ja": "夏よりも定期的に水を与える",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。パンフレットの「3 冬の手入れ」第3文 (Store them in…) で「涼しい部屋に置いて，土を湿らせておいてください」と述べられていることから，正解は①となる。\n②，③，④の内容はいずれも本文中で冬の手入れとして言及されていないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "wc_s3"
+            ],
+            "instructor_note": {
+              "ja": "「冬は…」と限定された設問なので、解答の根拠は『3 冬の手入れ』ブロックの中に必ず収まります。設問の時期を本文のどの段落と対応させるかを最初に決めるのがコツです。",
+              "points": [
+                "wc_s2 の don't throw them away! と③（葉が落ちたら捨てる）は明確に矛盾。これを最初に切れるとラク。",
+                "②は『暖かい場所＋直射日光』。本文 wc_s3 では『涼しい部屋(cool room)』なので温度が逆。",
+                "④は『夏より頻繁に水を与える』。本文に夏との比較は無いので根拠不足で消去。",
+                "残った①が『水を与え（土を湿らせる）』『涼しい環境』の両方を満たす唯一の選択肢。",
+                "頻出語: shed leaves（葉を落とす）／ keep the soil moist（土を湿らせておく）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "According to the pamphlet, which picture best shows how to keep a Venus flytrap inside the home? [3]",
+            "ja": "「パンフレットによれば，家の中ではヴィーナスフライトラップをどのように育てるべきかということを最もよく示しているのはどの絵か」［3］"
+          },
+          "figure_image": {
+            "src": "data/sundai/2026/round01/images/q01_question3_options_four_panels.png",
+            "alt": "問3 4枚の絵による選択肢"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。パンフレットの「2 水と食べ物」第2・3文 (Trumpet pitchers grow… ／ Venus flytraps only…) に「トランペットピッチャーはとても湿潤な状態で最もよく生育するので，土を絶えず湿らせておくために，水を入れたトレイを下に置いてください。ヴィーナスフライトラップは土が乾いた感じがする場合だけ，水をやる必要があります」とあることから，ヴィーナスフライトラップには水を入れたトレイを下に置かなくてもよいと推測できるので，①と③は誤り。\nまた，パンフレットの「2．水と食べ物」第1文 (Give both plants…) で「どちらの植物も水道水ではなく，雨水を与えてください」と述べられていることから，①と④は誤り。\nこの段階で①と③と④が不正解となるので，正解は②とわかるが，パンフレットの「1 光と温度」最終文 (Both grow inside…) で「どちらも屋内・屋外で生育しますが，屋内で育てる場合，直接日の当たる窓のそばに置くのがよいでしょう」と述べられていることからも，③と④は誤りとなる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "wf_s2",
+              "wf_s3",
+              "wf_s1",
+              "lt_s2"
+            ],
+            "instructor_note": {
+              "ja": "絵を選ぶ問題では、本文の指示と絵の特徴を1対1で照合します。先に本文の条件を3つに整理してから絵を見ると速く正確です。",
+              "points": [
+                "本文から導かれる『家の中で育てるときの正解条件』は次の3点：(a) 直射日光の当たる窓辺に置く（lt_s2） / (b) 与える水は雨水（wf_s1） / (c) 水を入れたトレイは不要（wf_s2／wf_s3 から、トレイが必要なのはトランペットピッチャーの方）。",
+                "解説の論理は『①と③はトレイの点でアウト』『①と④は水道水の点でアウト』『③と④は窓辺ではない点でアウト』の三段論法。1点ずつ消すのではなく、複数の条件で同時に消えていくのが特徴的。",
+                "本問はヴィーナスフライトラップとトランペットピッチャーの『水の与え方の違い』が問われた問題。両者の比較を表に整理しておくと、本書の他の食虫植物題材でも応用が効く。",
+                "頻出表現: rainwater（雨水）↔ tap water（水道水）／ keep ... constantly wet（常に湿らせておく）。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "shop for ...",
+              "ja": "…を買う"
+            },
+            {
+              "en": "garden centre",
+              "ja": "園芸用品店"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            {
+              "en": "exotic plant",
+              "ja": "外来植物"
+            },
+            {
+              "en": "insect-eating plant",
+              "ja": "食虫植物"
+            },
+            {
+              "en": "if grown inside",
+              "ja": "屋内で育てる場合",
+              "note": "if と grown の間には前半部分との共通要素である both とそれに続く be 動詞の are が省略されている。"
+            },
+            {
+              "en": "tap water",
+              "ja": "水道水"
+            },
+            {
+              "en": "tray",
+              "ja": "トレイ；浅皿"
+            },
+            {
+              "en": "every two weeks",
+              "ja": "2週間ごとに"
+            },
+            {
+              "en": "shed",
+              "ja": "（動植物が自然に皮・毛・葉などを）落とす"
+            },
+            {
+              "en": "throw ... away",
+              "ja": "…を捨てる"
+            },
+            {
+              "en": "store",
+              "ja": "…を保管する"
+            },
+            {
+              "en": "moist",
+              "ja": "湿った"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "be aimed at ...",
+              "ja": "…に向けられている"
+            },
+            {
+              "en": "water (動詞)",
+              "ja": "…に水をやる"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "事実把握・要旨把握（雑誌記事）",
+      "situation": {
+        "en": "Your teacher asks you to write an essay about universal basic income (UBI). To prepare, you read a magazine article about the topic.",
+        "ja": "あなたの先生はあなたにユニバーサルベーシックインカム (UBI) に関するレポートを書くように求めました。準備のために，あなたはその主題に関する雑誌記事を読みます。"
+      },
+      "passages": [
+        {
+          "id": "ubi_article",
+          "title": {
+            "en": "Universal Basic Income",
+            "ja": "ユニバーサルベーシックインカム"
+          },
+          "image": {
+            "src": "data/sundai/2026/round01/images/q02_illus_four_people_on_coin_stacks.png",
+            "alt": "雑誌記事の挿絵",
+            "float": "right"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "Artificial intelligence (AI) is becoming so powerful that experts say it will soon take over many of the jobs that are now done by humans.",
+                "ja": "人工知能 (AI) は非常に優れたものになりつつあるので，専門家は，AI はやがて現在人間が行っている仕事の多くを引き継ぐだろう，と言う。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "But how will people survive without the money they earn from working?",
+                "ja": "しかし，労働から得るお金なしに人々はどうやって生活していくのであろうか。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "Some people say that governments will have to give every citizen money every month to live.",
+                "ja": "人々の中には，政府がすべての市民に生活していくためのお金を毎月与えなければならないだろう，と言う者もいる。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "This is called a “universal basic income” (UBI) and some countries are already testing this idea.",
+                "ja": "これが「ユニバーサルベーシックインカム (UBI)」と呼ばれるもので，すでにこの考えを試している国もある。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "I interviewed three researchers about this topic at an economics conference in New York.",
+                "ja": "私はニューヨークの経済会議で 3 人の研究者にこの主題に関してインタビューを行った。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "First, they all agreed that people will notice a lot of jobs disappearing in the next three to five years.",
+                "ja": "まず第一に，研究者たちはみな，人々は今後 3 年から 5 年のうちに多くの仕事がなくなることに気づくことになる，ということに同意した。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "One of the researchers, Professor Richardson from the UK, mentioned that up to 8 million jobs may disappear in his country.",
+                "ja": "研究者の 1 人である，イギリスのリチャードソン教授は，イギリスでは最大で 800 万もの仕事がなくなるかもしれない，と語った。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "Second, the researchers also stated that all kinds of jobs will be affected, not just low-paid jobs involving simple tasks.",
+                "ja": "第二に，研究者たちはまた，単純な仕事を伴う賃金の低い仕事ばかりでなく，あらゆる種類の仕事が影響を受けるだろう，と述べた。"
+              },
+              {
+                "id": "p2_s5",
+                "en": "Finally, they all suggested that UBI is the only way to help everyone in society.",
+                "ja": "最後に，研究者たちはみな，UBI は社会のすべての人を助ける唯一の方法である，と示唆した。"
+              },
+              {
+                "id": "p2_s6",
+                "en": "It will also help the economy, because businesses need people to have money and spend it in order to survive.",
+                "ja": "UBI は経済を助けることにもなるのだが，それは人々が生きていくために，お金を手にし，そのお金を使うことを企業が必要としているからである。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "Another of the researchers, Mexican economist Maria Bautista, said that AI companies should take responsibility for paying UBI because they will benefit the most from this technology.",
+                "ja": "別の研究者の 1 人であるメキシコ人経済学者マリア・バウティスタ氏は，AI 企業はこのテクノロジーから最も利益を得るのだから，AI 企業が UBI のお金を支払う責任を負うべきである，と述べた。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "In contrast, Australian researcher Shane Barnes thought the government should manage UBI to make sure that money is given out fairly.",
+                "ja": "対照的に，オーストラリアの研究者シェーン・バーンズ氏は，確実にお金を公平に配るために，政府が UBI を管理するべきである，と考えていた。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "He mentioned, however, that some governments are still against UBI because they do not trust people to use the money carefully.",
+                "ja": "しかしながら，彼は，政府の中には，人々が注意深く UBI のお金を使うとは信じていないために，いまだに UBI に反対している政府もある，と語っていた。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "Which of the following did all the researchers agree on?",
+            "ja": "「すべての研究者は以下のどれに関して意見が一致していたか」［4］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI will affect people working in many fields.",
+              "ja": "AI は多くの分野で働いている人々に影響を及ぼすだろう。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Jobs will start disappearing in about ten years.",
+              "ja": "およそ 10 年後に仕事がなくなり始めるだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The UK will be most affected by AI.",
+              "ja": "イギリスは AI に最も影響を受けることになるだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "UBI won't be given to wealthy people.",
+              "ja": "UBI は富裕な人々には与えられないだろう。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第2段落第4文 (Second, the researchers…) に「第二に，研究者たちはまた，単純な仕事を伴う賃金の低い仕事ばかりでなく，あらゆる種類の仕事が影響を受けるだろう，と述べた」とあるが，この「影響」とは，第1段落第1文 (Artificial intelligence (AI)…) で「人工知能 (AI) は非常に優れたものになりつつあるので，専門家は，AI はやがて現在人間が行っている仕事の多くを引き継ぐだろう，と言う」と述べられていることから，AI のために現在人間が行っている仕事の多くがなくなっていく，という意味での「影響」であると判断できる。また，「あらゆる種類の仕事が影響を受ける」ということは，当然のことながら，それらの仕事をしている人々が影響を受ける，ということになる。以上から，正解は①となる。\n②は，第2段落第2文 (First, they all…) で「まず第一に，研究者たちはみな，人々が今後 3 年から 5 年のうちに多くの仕事がなくなることに気づくことになる，ということに同意した」と述べられているので誤り。\n③と④の内容は本文中では言及されていないので誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p2_s4",
+              "p1_s1",
+              "p2_s2"
+            ],
+            "instructor_note": {
+              "ja": "all the researchers agreed on（研究者『全員』が一致した点）は、本文中の First / Second / Finally で示される箇所に書かれています。3人の意見が分かれる第3段落（バウティスタ氏 vs バーンズ氏）と区別するのが鍵です。",
+              "points": [
+                "第2段落の構造: First, ... (p2_s2)／Second, ... (p2_s4)／Finally, ... (p2_s5) の3点が『3人とも一致』している事項。",
+                "②（およそ10年後）は p2_s2 の in the next three to five years（今後3〜5年）と数値が違うので不可。数値の言い換えは出題頻度が高い罠。",
+                "③『イギリスが最も影響を受ける』は p2_s3 の up to 8 million jobs may disappear（最大で消えるかも）が根拠とされうるが、(i) 1人の発言にすぎず3人一致ではない、(ii) 『最も』とは断定していない、の2点で外れる。",
+                "④（富裕層には支給されない）は本文に登場しない情報。『書かれていないから誤り』という消し方も大切。",
+                "『jobs are affected』（仕事が影響を受ける）→『その仕事をしている people も影響を受ける』という言い換えがポイント。①の people working in many fields は all kinds of jobs を人で言い換えただけ。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "UBI will most likely [5].",
+            "ja": "「おそらく UBI は [5] だろう」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "be paid by governments, despite their lack of trust in people",
+              "ja": "人々への信頼がないのにもかかわらず，政府によって支払われる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "be tested for the first time in the next three years",
+              "ja": "今後 3 年のうちに初めて試される",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "have an insignificant effect on the economy",
+              "ja": "経済にはそれほどの影響を及ぼさない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "help people have money to spend",
+              "ja": "人々が使うことのできるお金を手にすることに役立つ",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第2段落最終文 (It will also…) で「UBI は経済を助けることにもなるのだが，それは人々が生きていくために，お金を手にし，そのお金を使うことを企業が必要としているからである」と述べられている。第1段落第3文 (Some people say…) ～最終文 (This is called…) で「人々の中には，政府がすべての市民に生活していくためのお金を毎月与えなければならないだろう，と言う者もいる。これが『ユニバーサルベーシックインカム (UBI)』と呼ばれるもので，すでにこの考えを試している国もある」と述べられているように，UBI のおかげで「人々が生きていくために，お金を手にし，そのお金を使う」ことができるようになる可能性があるとわかる。以上から，「おそらく UBI は人々が使うことのできるお金を手にすることに役立つだろう」と判断できるので，正解は④となる。\n①の内容は本文中では言及されていないので誤り。\n②は，上記第1段落最終文で「すでにこの考えを試している国もある」と述べられているので誤り。\n③は，上記第2段落最終文で「UBI は経済を助けることにもなる」と述べられていることから，UBI は経済に少なからざる影響を及ぼすことになる，と推測できるので誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p2_s6",
+              "p1_s3",
+              "p1_s4"
+            ],
+            "instructor_note": {
+              "ja": "most likely（おそらく）が付くと『本文から最も妥当に推測できる内容』を選ぶ問題になります。本文の事実関係を踏まえて、選択肢を1つずつ照合しましょう。",
+              "points": [
+                "p2_s6 の『企業の存続のためには、人々がお金を持って使う必要がある』は、UBI が機能する経済的理由を述べた一文。④の『使えるお金を手にするのに役立つ』はこれと一致。",
+                "①は p3_s3 の their lack of trust in people（政府が市民を信頼しない）を逆向きに引きずり込んでいる罠。本文は『政府の中には、市民を信頼しないがゆえに UBI に反対しているところがある』であって、『信頼欠如のまま支払う』とは言っていない。",
+                "②の『今後3年のうちに初めて試される』は、p1_s4 の some countries are already testing this idea（すでに試している国もある）と矛盾。",
+                "③の『経済への影響は小さい』は p2_s6 の It will also help the economy と正反対。",
+                "頻出表現: have an effect on ~ / be (in)significant for ~ など、影響の大きさを表す語をセットで覚える。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "One researcher's opinion is that [6].",
+            "ja": "「1 人の研究者の意見は [6] ということである」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "companies developing AI should pay UBI",
+              "ja": "AI を開発している企業が UBI を支払うべきだ",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "governments cannot be trusted to pay UBI fairly",
+              "ja": "政府が UBI を公平に支払うと信じることはできない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "millions of jobs in the UK have been taken away",
+              "ja": "イギリスの数百万という仕事が奪われてしまった",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the Australian government is against paying UBI",
+              "ja": "オーストラリア政府は UBI を支払うことに反対している",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第3段落第1文 (Another of the…) に「別の研究者の 1 人であるメキシコ人経済学者マリア・バウティスタ氏は，AI 企業はこのテクノロジーから最も利益を得るのだから，AI 企業が UBI のお金を支払う責任を負うべきである，と述べた」とあることから，正解は①となる。\n②と④の内容は本文中では言及されていないので誤り。\n③は，第2段落第3文 (One of the researchers…) には「研究者の 1 人である，イギリスのリチャードソン教授は，イギリスでは最大で 800 万もの仕事がなくなるかもしれない，と語った」とあるように，イギリスで数百万の仕事がなくなる可能性があるのは今後のこととして述べているので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p3_s1",
+              "p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "One researcher's opinion（ある1人の研究者の意見）は、3人の発言を整理しないと取り違えやすい設問です。誰がどこで何を言ったかを表にすると確実です。",
+              "points": [
+                "3人の発言マップ: リチャードソン教授（イギリス）= p2_s3 の『最大800万の仕事が消えるかも』／ バウティスタ氏（メキシコ）= p3_s1 の『AI 企業がUBIを払うべき』／ バーンズ氏（オーストラリア）= p3_s2 の『政府がUBIを管理すべき』『p3_s3 で一部政府の反対も紹介』。",
+                "①は p3_s1 そのもの。companies developing AI ＝ AI companies の言い換え。",
+                "②（政府は信用できない）は本文の trust 関係の向きが逆。本文では政府→市民の不信であって、その逆ではない。",
+                "③は『すでに奪われた(have been taken away)』という現在完了の事実として書かれているが、本文 p2_s3 は may disappear（今後消えるかも）の未来の可能性。時制と意味のズレに注意。",
+                "④（豪政府が反対）は本文に存在しない情報。バーンズ氏（豪）はむしろ政府による管理に賛成側。",
+                "頻出表現: take responsibility for ...（…の責任を負う）／ benefit (the most) from ...（…から(最も)利益を得る）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "Which of the following is mentioned in the article?",
+            "ja": "「以下のどれが記事の中で言及されているか」［7］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The benefits UBI brings to companies",
+              "ja": "UBI が企業にもたらす恩恵",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The disadvantages UBI will bring to ordinary citizens",
+              "ja": "UBI が一般市民にもたらすことになる不利益",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The influence of AI on employment",
+              "ja": "AI の雇用への影響",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The tax AI companies pay",
+              "ja": "AI 企業が支払う税金",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。第1段落第1文 (Artificial intelligence (AI)…) で「人工知能 (AI) は非常に優れたものになりつつあるので，専門家は，AI はやがて現在人間が行っている仕事の多くを引き継ぐだろう，と言う」と述べられていることを始め，AI のために多くの仕事がなくなっていくだろうという内容は，第2段落第2文 (First, they all…)，第3文 (One of the researchers…)，第4文 (Second, the researchers…) でも言及されているが，これらはみな「AI の雇用への影響」であるとみなせるので，正解は③となる。\n①，②，④の内容はいずれも本文中では言及されていないので誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p1_s1",
+              "p2_s2",
+              "p2_s3",
+              "p2_s4"
+            ],
+            "instructor_note": {
+              "ja": "Which is mentioned in the article? は『本文に書かれているか／いないか』を判定する問題。3人とも語っている共通項『AIによる雇用への影響』が記事の主題なので、③が選びやすいタイプ。",
+              "points": [
+                "本文で『AIによる雇用への影響』を直接示すのは p1_s1 / p2_s2 / p2_s3 / p2_s4 の4文。これらが並ぶこと自体が記事の主題が雇用問題であることを示している。",
+                "①『UBI が企業にもたらす恩恵』は紛らわしい。本文 p2_s6 は『UBI が経済を助ける（人々に使うお金が回るから）』だが、特定の企業にどんな恩恵か、までは語られていない。記事と選択肢のレベル感のズレに注意。",
+                "②（一般市民への不利益）と④（AI 企業の税金）は本文に登場しない情報なので即切り。",
+                "総合問題として記事のテーマを問うこの種の設問は、第1段落第1文（記事のリード）と各段落の冒頭（First / Second / Finally / Another / In contrast）を斜め読みするだけでも答えにたどり着けることが多い。",
+                "頻出表現: take over ...（…を引き継ぐ／取って代わる）／ disappear（消える）／ affect / influence（影響を及ぼす）。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "essay",
+              "ja": "（学生に課される）レポート；小論文；作文"
+            },
+            {
+              "en": "universal basic income (UBI)",
+              "ja": "ユニバーサルベーシックインカム",
+              "note": "すべての市民に対して，条件なしで政府が定期的に最低限の生活を送るのに必要な金銭を支給する制度。"
+            },
+            {
+              "en": "magazine article",
+              "ja": "雑誌記事"
+            },
+            {
+              "en": "take over ...",
+              "ja": "…を引き継ぐ"
+            },
+            {
+              "en": "the money they earn from working",
+              "ja": "人々が労働から得るお金",
+              "note": "they earn from working は the money を先行詞とする関係代名詞節だが，関係代名詞は省略されている。"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            {
+              "en": "economics conference",
+              "ja": "経済会議"
+            },
+            {
+              "en": "up to ...",
+              "ja": "（形容詞的に後の名詞にかかって）最大で…"
+            },
+            {
+              "en": "state that ...",
+              "ja": "…と述べる"
+            },
+            {
+              "en": "affect",
+              "ja": "…に影響を及ぼす"
+            },
+            {
+              "en": "not just ...",
+              "ja": "…だけでなく"
+            },
+            {
+              "en": "involve",
+              "ja": "…を伴う；…を含む"
+            },
+            {
+              "en": "suggest that ...",
+              "ja": "…と（いうことを）示唆する"
+            },
+            {
+              "en": "in order to -",
+              "ja": "（目的を表して）－するために"
+            },
+            {
+              "en": "take responsibility for ...",
+              "ja": "…に対する責任を負う"
+            },
+            {
+              "en": "in contrast",
+              "ja": "対照的に"
+            },
+            {
+              "en": "make sure that ...",
+              "ja": "確実に…する"
+            },
+            {
+              "en": "given out ...",
+              "ja": "…を配る［配布する］"
+            },
+            {
+              "en": "fairly",
+              "ja": "公正に；公平に"
+            },
+            {
+              "en": "mention that ...",
+              "ja": "…と述べる［言う］"
+            },
+            {
+              "en": "against",
+              "ja": "…に反対して"
+            },
+            {
+              "en": "trust O to -",
+              "ja": "O が－すると信じる"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "agree on ...",
+              "ja": "…に関して意見が同じである"
+            },
+            {
+              "en": "field",
+              "ja": "分野"
+            },
+            {
+              "en": "wealthy",
+              "ja": "富裕な；裕福な"
+            },
+            {
+              "en": "most likely",
+              "ja": "おそらく"
+            },
+            {
+              "en": "lack",
+              "ja": "欠落"
+            },
+            {
+              "en": "trust in ...",
+              "ja": "…への信頼"
+            },
+            {
+              "en": "have a ... effect on ~",
+              "ja": "～に…な影響を及ぼす"
+            },
+            {
+              "en": "insignificant",
+              "ja": "取るに足らない"
+            },
+            {
+              "en": "help O +原形",
+              "ja": "O が－するのを助ける［－するのに役立つ］"
+            },
+            {
+              "en": "develop",
+              "ja": "…を開発する"
+            },
+            {
+              "en": "take away ...",
+              "ja": "…を奪う"
+            },
+            {
+              "en": "the benefits UBI brings to companies",
+              "ja": "UBI が企業にもたらす恩恵",
+              "note": "UBI brings to companies は the benefits を先行詞とする関係代名詞節だが，関係代名詞は省略されている。"
+            },
+            {
+              "en": "the disadvantages UBI will bring to ordinary citizens",
+              "ja": "UBI が一般市民にもたらすことになる不利益",
+              "note": "UBI will bring to ordinary citizens は the disadvantages を先行詞とする関係代名詞節だが，関係代名詞は省略されている。"
+            },
+            {
+              "en": "the influence of A on B",
+              "ja": "A の B への影響；A が B に及ぼす影響"
+            },
+            {
+              "en": "the tax AI companies pay",
+              "ja": "AI 企業が支払う税金",
+              "note": "AI companies pay は the tax を先行詞とする関係代名詞節だが，関係代名詞は省略されている。"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

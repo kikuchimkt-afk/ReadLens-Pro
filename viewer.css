@@ -571,6 +571,28 @@
   border-color: #c0d8f0;
 }
 
+/* 設問画像で選択肢絵①〜④を示すのみのときは、灰色の広い選択行を出さず番号ボタンのみ横並べ */
+.choices-picture-tier {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+.choice-item.choice-item-picture-tier {
+  padding: 4px 6px;
+  background: transparent;
+  border-style: dashed;
+  border-color: #ddd;
+}
+.choice-item.choice-item-picture-tier:hover {
+  background: rgba(227, 242, 253, 0.5);
+  border-color: #b0cce8;
+}
+.choice-item.choice-item-picture-tier.selected {
+  background: rgba(232, 240, 254, 0.85);
+}
+
 .choice-label {
   display: flex;
   align-items: center;
@@ -625,6 +647,79 @@
   margin-bottom: 6px;
   padding-left: 4px;
   border-left: 2px solid #ccc;
+}
+
+/* ===== Question figure (4 panel picture choices etc.) ===== */
+.question-figure {
+  margin: 6px 0 10px 0;
+  text-align: center;
+}
+.question-figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+}
+.question-figure-caption {
+  font-size: 0.78rem;
+  color: #666;
+  margin-top: 4px;
+  text-align: center;
+}
+
+/* ===== In-choice image (if any) ===== */
+.choice-image {
+  display: block;
+  max-width: 220px;
+  height: auto;
+  margin: 0 0 4px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+}
+
+/* ===== Quoted explanation (解説冊子原文の引用) ===== */
+.explanation-quoted .quoted-body {
+  white-space: normal;
+  margin-top: 4px;
+}
+.explanation-quoted .quoted-source {
+  margin-top: 6px;
+  font-size: 0.75rem;
+  color: #777;
+  text-align: right;
+}
+
+/* ===== 講師からの＋α（生成的補足を控えめに表示） ===== */
+.instructor-note {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #fafafa;
+  border: 1px dashed #bbb;
+  border-radius: 10px;
+  color: #666;
+  font-style: italic;
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+.instructor-note-header {
+  font-style: normal;
+  font-weight: 600;
+  color: #555;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.instructor-note-body {
+  font-style: italic;
+}
+.instructor-note-points {
+  margin: 6px 0 0 1.2em;
+  padding-left: 0;
+}
+.instructor-note-points li {
+  margin-bottom: 3px;
 }
 
 /* ===== Explanation Box ===== */

@@ -5,6 +5,7 @@
 
 // ===== レジストリ（app.jsと共通） =====
 const EXAM_PATHS = {
+  sundai_2026_01: 'data/sundai/2026/round01/data.json',
   sundai_2025_01: 'data/sundai/2025/round01/data.json',
   sundai_2025_02: 'data/sundai/2025/round02/data.json',
   sundai_2025_03: 'data/sundai/2025/round03/data.json',
@@ -1212,6 +1213,31 @@ function renderQuestions() {
       html += `<div class="choice-text-ja" style="margin-bottom:10px; margin-top:-8px;">${stemObj.ja}</div>`;
     }
 
+    // Question-level figure (e.g. four-panel picture choices for problem 3)
+    const qFig = q.figure_image || q.choice_grid_image;
+    if (qFig && qFig.src) {
+      const cap =
+        qFig.caption_ja && String(qFig.caption_ja).trim()
+          ? `<div class="question-figure-caption">${qFig.caption_ja}</div>`
+          : '';
+      html += `<figure class="question-figure">
+        <img src="${qFig.src}" alt="${qFig.alt || ''}" />
+        ${cap}
+      </figure>`;
+    }
+
+    /** 画像で①〜④を示すのみで、選択肢テキストが空の設問か */
+    const pictureTierChoices =
+      q.choices &&
+      qFig &&
+      qFig.src &&
+      q.choices.every(
+        c =>
+          !String(c.en || '').trim() &&
+          !String(c.ja || '').trim() &&
+          !c.image
+      );
+
     // Choices — ordering vs normal
     if (q.question_type === 'ordering') {
       // Ordering slots row
@@ -1253,11 +1279,16 @@ function renderQuestions() {
         html += `<div class="multi-answer-label">[${ansNum}]</div>`;
         html += '<ul class="choices">';
         for (const choice of choices) {
+          const cEn = choice.en || '';
+          const cJa = choice.ja || '';
+          const cImg = choice.image
+            ? `<img class="choice-image" src="${choice.image.src}" alt="${choice.image.alt || ''}" />`
+            : '';
           html += `<li class="choice-item multi-choice" data-qid="${q.question_id}" data-ans-num="${ansNum}" data-label="${choice.label}">
             <span class="choice-label">${choice.label}</span>
             <span class="choice-text">
-              ${choice.en}
-              <div class="choice-text-ja">${choice.ja || ''}</div>
+              ${cImg}${cEn}
+              <div class="choice-text-ja">${cJa}</div>
             </span>
           </li>`;
         }
@@ -1266,14 +1297,24 @@ function renderQuestions() {
       html += '<button class="ordering-undo multi-undo" data-qid="' + q.question_id + '" title="取り消し" style="display:none;">↩ 戻す</button>';
     } else if (q.choices) {
       // Normal choices
-      html += '<ul class="choices">';
+      const ulCls = pictureTierChoices ? 'choices choices-picture-tier' : 'choices';
+      html += `<ul class="${ulCls}">`;
       for (const choice of q.choices) {
-        html += `<li class="choice-item" data-qid="${q.question_id}" data-label="${choice.label}" data-correct="${choice.is_correct}">
-          <span class="choice-label">${choice.label}</span>
-          <span class="choice-text">
-            ${choice.en}
-            <div class="choice-text-ja">${choice.ja || ''}</div>
-          </span>
+        const cEn = choice.en || '';
+        const cJa = choice.ja || '';
+        const cImg = choice.image
+          ? `<img class="choice-image" src="${choice.image.src}" alt="${choice.image.alt || ''}" />`
+          : '';
+        const liExtra = pictureTierChoices ? ' choice-item-picture-tier' : '';
+        const textBlock =
+          pictureTierChoices
+            ? ''
+            : `<span class="choice-text">
+              ${cImg}${cEn}
+              <div class="choice-text-ja">${cJa}</div>
+            </span>`;
+        html += `<li class="choice-item${liExtra}" data-qid="${q.question_id}" data-label="${choice.label}" data-correct="${choice.is_correct}">
+          <span class="choice-label">${choice.label}</span>${textBlock}
         </li>`;
       }
       html += '</ul>';
@@ -1337,11 +1378,21 @@ function renderExplanation(q) {
 
   let html = `<div class="explanation-box" data-qid="${q.question_id}">`;
   html += `<div class="explanation-header">📖 解説（${q.question_id}）</div>`;
-  html += `<div class="explanation-text">
-    <strong>正解: ${answerText}</strong> ─ ${q.explanation.ja}
-  </div>`;
 
-  // Others wrong
+  // 解説PDF原文（逐語転載）優先。なければ legacy の ja を使う。
+  const quotedBody = q.explanation.quoted_ja || q.explanation.ja || '';
+  const quotedSource = q.explanation.quoted_source || '解説（駿台 2026 実戦問題集）';
+  if (quotedBody) {
+    html += `<div class="explanation-text explanation-quoted">
+      <strong>正解: ${answerText}</strong>
+      <div class="quoted-body">${escapeHtmlPreserve(quotedBody)}</div>
+      <div class="quoted-source">— ${quotedSource} より引用</div>
+    </div>`;
+  } else {
+    html += `<div class="explanation-text"><strong>正解: ${answerText}</strong></div>`;
+  }
+
+  // 「他の選択肢の解説」: 解説PDF原文に個別の不正解理由が書かれているとき
   if (q.explanation.why_others_wrong && q.explanation.why_others_wrong.length > 0) {
     html += `<div class="explanation-toggle" data-qid="${q.question_id}">▶ 他の選択肢の解説</div>`;
     html += `<div class="others-wrong" data-qid="${q.question_id}">`;
@@ -1351,8 +1402,35 @@ function renderExplanation(q) {
     html += '</div>';
   }
 
+  // 講師からの＋α: 推論や補足を含む生成的記述（解説PDFに無い情報）
+  const note = q.explanation.instructor_note;
+  if (note && (note.ja || (note.points && note.points.length))) {
+    html += `<div class="instructor-note">`;
+    html += `<div class="instructor-note-header">📝 講師からの＋α（解説冊子にはない補足）</div>`;
+    if (note.ja) {
+      html += `<div class="instructor-note-body">${escapeHtmlPreserve(note.ja)}</div>`;
+    }
+    if (Array.isArray(note.points) && note.points.length > 0) {
+      html += `<ul class="instructor-note-points">`;
+      for (const p of note.points) {
+        html += `<li>${escapeHtmlPreserve(p)}</li>`;
+      }
+      html += `</ul>`;
+    }
+    html += `</div>`;
+  }
+
   html += '</div>';
   return html;
+}
+
+function escapeHtmlPreserve(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\n/g, '<br>');
 }
 
 // ===== Ordering Click Handler =====
