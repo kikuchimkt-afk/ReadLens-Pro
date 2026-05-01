@@ -46,12 +46,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (sec) html = renderPassagePage(sec, dataPath);
   } else if (mode === 'questions' && sectionNum) {
     const sec = data.sections.find(s => String(s.section_number) === String(sectionNum));
-    if (sec) html = renderQuestionsPage(sec);
+    if (sec) html = renderQuestionsPage(sec, dataPath);
   } else {
     // all: 大問1問題→大問1設問→大問2問題→…
     for (const sec of data.sections) {
       html += renderPassagePage(sec, dataPath);
-      html += renderQuestionsPage(sec);
+      html += renderQuestionsPage(sec, dataPath);
     }
   }
 
@@ -125,6 +125,64 @@ function renderPassagePage(sec, dataPath) {
         }
         html += '<div class="print-slide-number">' + slide.number + '</div>';
         html += '</div>';
+      }
+      html += '</div></div>';
+
+    } else if (passage.presentation_outline) {
+      // 駿台第7問など — 発表の概要ボックス（問題冊子の下段）
+      const po = passage.presentation_outline;
+      html += '<div class="print-passage print-presentation-outline">';
+      if (po.label_outside_box && po.label_outside_box.en) {
+        html += '<div class="print-outline-outside-label">' + po.label_outside_box.en + '</div>';
+      }
+      html += '<div class="print-outline-box">';
+      if (po.title && po.title.en) {
+        html += '<div class="print-outline-inner-title">' + po.title.en + '</div>';
+      }
+      const blocks = po.blocks || [];
+      for (const bl of blocks) {
+        const btype = bl.type;
+        if (btype === 'adaptations_heading') {
+          html += '<div class="print-outline-section-heading">';
+          html += '<strong>' + bl.heading.en + '</strong>';
+          if (typeof bl.slot_after_heading === 'number') {
+            html += ' <span class="print-answer-slot">' + bl.slot_after_heading + '</span>';
+          }
+          html += '</div>';
+          html += '<ul class="print-outline-list">';
+          for (const line of bl.lines || []) {
+            html += '<li>' + line.en + '</li>';
+          }
+          html += '</ul>';
+        } else if (btype === 'section_heading_lines') {
+          html += '<div class="print-outline-section-heading"><strong>' + bl.heading.en + '</strong></div>';
+          html += '<div class="print-outline-bullets">';
+          for (const b of bl.bullets || []) {
+            const t = String(b.en || '').replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>');
+            html += '<div class="print-outline-bullet">— ' + t + '</div>';
+          }
+          html += '</div>';
+        } else if (btype === 'center_slot') {
+          html += '<div class="print-outline-section-heading"><strong>' + bl.heading.en + '</strong></div>';
+          if (typeof bl.center_slot === 'number') {
+            html += '<div class="print-outline-center-slot"><span class="print-answer-slot">' + bl.center_slot + '</span></div>';
+          }
+        } else if (btype === 'function_slot') {
+          html += '<div class="print-outline-section-heading"><strong>' + bl.heading.en + '</strong></div>';
+          html += '<div class="print-outline-bullets">';
+          for (const b of bl.bullets || []) {
+            const t = String(b.en || '').replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>');
+            html += '<div class="print-outline-bullet">— ' + t + '</div>';
+          }
+          html += '</div>';
+        } else if (btype === 'slot_heading_list') {
+          html += '<div class="print-outline-slot-row"><span class="print-answer-slot">' + bl.slot + '</span></div>';
+          html += '<ul class="print-outline-list print-outline-muted">';
+          for (const line of bl.lines || []) {
+            html += '<li>' + line.en + '</li>';
+          }
+          html += '</ul>';
+        }
       }
       html += '</div></div>';
 
@@ -498,7 +556,16 @@ function renderPassagePage(sec, dataPath) {
 }
 
 // ===== Render Questions Page =====
-function renderQuestionsPage(sec) {
+function renderQuestionsPage(sec, dataPath) {
+  const imgBase = dataPath ? dataPath.replace(/data\.json$/, '') : '';
+
+  function resolveImgSrc(src) {
+    if (!src) return '';
+    if (src.startsWith('http') || src.startsWith('data:') || src.startsWith('/')) return src;
+    if (src.startsWith('data/')) return src;
+    return imgBase + src;
+  }
+
   let html = '<div class="print-section">';
 
   // Header
@@ -523,6 +590,43 @@ function renderQuestionsPage(sec) {
       html += '<div class="print-question-stem">' + stemText + '</div>';
     }
 
+    if (Array.isArray(q.info_options) && q.info_options.length > 0) {
+      html += '<ul class="print-info-options">';
+      for (const opt of q.info_options) {
+        const lab = opt.label || '';
+        const en = opt.en || '';
+        html +=
+          '<li class="print-info-option-item">' +
+          '<span class="print-info-option-letter">' + lab + '</span>' +
+          '<span class="print-info-option-colon"> : </span>' +
+          '<span>' + en + '</span></li>';
+      }
+      html += '</ul>';
+    }
+
+    const qFig = q.figure_image || q.choice_grid_image;
+    if (qFig && qFig.src) {
+      html +=
+        '<figure class="print-question-figure">' +
+        '<img class="print-img print-question-choice-figure" src="' +
+        resolveImgSrc(qFig.src) +
+        '" alt="' +
+        (qFig.alt || '').replace(/"/g, '&quot;') +
+        '">' +
+        '</figure>';
+    }
+
+    const pictureTierChoices =
+      q.choices &&
+      qFig &&
+      qFig.src &&
+      q.choices.every(
+        c =>
+          !String(c.en || '').trim() &&
+          !String(c.ja || '').trim() &&
+          !c.image
+      );
+
     // Choices: multi-answer (choices_27, choices_28, etc.) or standard
     if (q.answer_numbers && q.answer_numbers.length > 0) {
       // Multi-answer question (大問6問3, 大問7問3 etc.)
@@ -533,16 +637,43 @@ function renderQuestionsPage(sec) {
           html += '<div style="font-weight:600;margin:8px 0 4px;">[' + num + ']</div>';
           html += '<ul class="print-choices">';
           for (const choice of choices) {
-            html += '<li><span class="print-choice-label">' + choice.label + '</span> ' + choice.en + '</li>';
+            const cImg =
+              choice.image && choice.image.src
+                ? '<br><img class="print-img print-choice-inline-img" src="' +
+                  resolveImgSrc(choice.image.src) +
+                  '" alt="' +
+                  (choice.image.alt || '').replace(/"/g, '&quot;') +
+                  '">'
+                : '';
+            html +=
+              '<li><span class="print-choice-label">' +
+              choice.label +
+              '</span> ' +
+              (choice.en || '') +
+              cImg +
+              '</li>';
           }
           html += '</ul>';
         }
       }
     } else if (q.choices) {
-      // Standard choices
-      html += '<ul class="print-choices">';
+      const ulCls = pictureTierChoices ? 'print-choices print-choices-picture-tier' : 'print-choices';
+      html += '<ul class="' + ulCls + '">';
       for (const choice of q.choices) {
-        html += '<li><span class="print-choice-label">' + choice.label + '</span> ' + choice.en + '</li>';
+        const cImg =
+          choice.image && choice.image.src
+            ? '<img class="print-img print-choice-inline-img" src="' +
+              resolveImgSrc(choice.image.src) +
+              '" alt="' +
+              (choice.image.alt || '').replace(/"/g, '&quot;') +
+              '"> '
+            : '';
+        if (pictureTierChoices) {
+          html += '<li><span class="print-choice-label">' + choice.label + '</span></li>';
+        } else {
+          html +=
+            '<li><span class="print-choice-label">' + choice.label + '</span> ' + cImg + (choice.en || '') + '</li>';
+        }
       }
       html += '</ul>';
     }

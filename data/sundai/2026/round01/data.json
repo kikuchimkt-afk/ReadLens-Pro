@@ -13,7 +13,9 @@
       3,
       4,
       5,
-      6
+      6,
+      7,
+      8
     ],
     "source_pdf_mondai": "第1回_問題.pdf",
     "source_pdf_kaitou": "第1回_解説.pdf",
@@ -3769,6 +3771,1782 @@
             {
               "en": "as though ＋ 仮定法過去（S＋過去形）",
               "ja": "「（まるで）…であるかのように」"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 16,
+      "description": "記事読解 と 発表の概要",
+      "situation": {
+        "en": "You are preparing a presentation for a biology project on animal evolution. You found some interesting information in the article below and are now making your outline.",
+        "ja": "あなたは動物の進化に関する生物学プロジェクトのための発表の準備をしています。あなたは以下の記事の中にいくらかの興味深い情報を見つけて，今発表の概要を作成しているところです。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Surviving Extreme Heat: The Saharan Silver Ant",
+            "ja": "酷暑をしのぐこと：サハラギンアリ"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "Only the strongest and best-adapted creatures can survive the extreme heat of the Sahara desert.",
+                "ja": "最も強く最も適応した生き物だけがサハラ砂漠の酷暑をしのぐことができる。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "One such creature is the Saharan silver ant.",
+                "ja": "そのような生きものの一つがサハラギンアリである。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "As their name suggests, these ants are a bright, shiny silver color.",
+                "ja": "その名前が示唆しているように，これらのアリは鮮やかで光沢のある銀色をしている。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "They look like tiny balls of metal rolling across the hot sand.",
+                "ja": "それらは熱い砂の上を転がる小さな金属の玉のように見える。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "The Saharan silver ant is the fastest of all the 12,000 known species of ant.",
+                "ja": "サハラギンアリは，知られている 12,000 種のアリのすべてのうちで最も速い。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "It can run at a speed of around 85cm per second.",
+                "ja": "それはおよそ秒速 85cm で走ることができる。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "When researchers analyzed videos of these ants running, they counted an average of 50 steps per second.",
+                "ja": "研究者がこれらのアリが走っているビデオを分析すると，一秒間に平均 50 歩があると数えた。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "To put it another way, they can run around 108 times their body length in just one second.",
+                "ja": "別の言い方をすると，わずか一秒のうちに自分の体の長さの約 108 倍の距離を走ることができる。"
+              },
+              {
+                "id": "p2_s5",
+                "en": "If humans could run that fast, we could reach running speeds of over 640 kilometers per hour.",
+                "ja": "もし人間がそれほど速く走れるとすれば，時速 640 km を超える速さで走れることになる。"
+              },
+              {
+                "id": "p2_s6",
+                "en": "Scientists believe this ability to reach such high speeds is an adaptation that evolved to reduce contact with the hot sand, which can reach up to 70 degrees Celsius in the middle of the day.",
+                "ja": "科学者たちは，このような高速で走る能力は，白昼の真ん中には摂氏 70 度まで達することもある熱い砂との接触を減らすために進化してきた適応であると考えている。"
+              },
+              {
+                "id": "p2_s7",
+                "en": "It may also help them avoid sinking or sliding in the sand, which is a mistake that could cost the ant valuable time in such dangerous heat.",
+                "ja": "それはまた，このような危険な暑さのなかで貴重な時間をアリに失わせるかもしれないミスである，砂の中に沈み込んだりすべったりすることを避けるのにも役立つかもしれない。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "Another adaptation is the ants' very short time spent outside in the sun.",
+                "ja": "もう一つの適応は，アリが日向で屋外にいる時間が非常に短いことである。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "Despite the dangerous heat, they actually emerge from their nests during the hottest part of the day.",
+                "ja": "危険な暑さにもかかわらず，実際のところこのアリは一日のうちで最も暑い時間帯に巣から出てくる。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "This is to avoid predators such as lizards, which hide from the heat during that time.",
+                "ja": "これは，その時間帯に暑さから身を隠しているトカゲのような捕食者を避けるためである。"
+              },
+              {
+                "id": "p3_s4",
+                "en": "As soon as the heat becomes too high for predators, the ants must leave their nest and come back before the heat kills them.",
+                "ja": "捕食者にとって暑さがきつくなりすぎるとすぐに，暑さがアリたちの命を奪ってしまう前に，アリは巣を出て，戻ってこなければならない。"
+              },
+              {
+                "id": "p3_s5",
+                "en": "After going outside, they collect their food within ten minutes and carry it back to their nest to eat it.",
+                "ja": "外に出た後，アリは 10 分以内に食べ物を集め，それを巣に運び帰って食べる。"
+              },
+              {
+                "id": "p3_s6",
+                "en": "Their food is the body of other insects that have died in the desert heat.",
+                "ja": "アリの食べ物は，砂漠の暑さのなかで死んだ他の昆虫の死体である。"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "Finally, the bright silver bodies of the Saharan silver ants are not just for decoration.",
+                "ja": "とうとう，サハラギンアリの輝く銀色のからだは，単なる装飾のためだけにあるのではない。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "It is another adaptation that has evolved for the ants to survive in one of the hottest environments on earth.",
+                "ja": "それは，アリが地球上でもっとも暑い環境の一つで生き延びるために進化してきた，もう一つの適応である。"
+              },
+              {
+                "id": "p4_s3",
+                "en": "Viewed through a microscope, it becomes clear that these ants are not just silver colored.",
+                "ja": "顕微鏡を通して見ると，これらのアリは単に銀色なのではないことが明らかになる。"
+              },
+              {
+                "id": "p4_s4",
+                "en": "They are, in fact, covered in thousands of tiny silver hairs.",
+                "ja": "実際のところ，それらは何千もの非常に小さな銀色の体毛でおおわれている。"
+              },
+              {
+                "id": "p4_s5",
+                "en": "Each hair is long and thin with three sides.",
+                "ja": "各体毛は長く細く，三つの面を持っている。"
+              },
+              {
+                "id": "p4_s6",
+                "en": "If you cut one of these hairs in half and viewed its cross-section, you would see the shape of a triangle.",
+                "ja": "これらの体毛を半分に切ってその断面を見れば，三角形の形を見ることになるだろう。"
+              },
+              {
+                "id": "p4_s7",
+                "en": "The base of the triangle is flat, while the upper two sides have a wave pattern.",
+                "ja": "三角形の底辺は平らな一方，上部の二辺は波うっている。"
+              },
+              {
+                "id": "p4_s8",
+                "en": "There is also a small gap between the hair and the surface of the ant's body.",
+                "ja": "また体表と体毛の間にも小さな隙間がある。"
+              },
+              {
+                "id": "p4_s9",
+                "en": "The silver hairs have two functions.",
+                "ja": "銀色の体毛には二つの機能がある。"
+              },
+              {
+                "id": "p4_s10",
+                "en": "The first is to reflect light away from the ant, preventing it from heating up too quickly in the hot sun.",
+                "ja": "その一つは，体に当たらないように光を反射させて，強い日向のもとで急速に体温があがりすぎるのを防ぐことである。"
+              },
+              {
+                "id": "p4_s11",
+                "en": "The other function is to allow the ant's own body heat to escape efficiently.",
+                "ja": "もう一つの機能は，アリ自身の体温が効率的に逃げていくのを可能にすることである。"
+              },
+              {
+                "id": "p4_s12",
+                "en": "Thanks to these hairs, the ant can lower its body temperature by about 5 to 10 degrees compared to an ant without hair.",
+                "ja": "これらの体毛のおかげで，アリは体毛のないアリにくらべて体温をおよそ５〜10度下げることができる。"
+              },
+              {
+                "id": "p4_s13",
+                "en": "The maximum body temperature a Saharan silver ant can survive is 53.6 degrees, so these adaptations allow it to survive in extreme heat long enough for it to find food.",
+                "ja": "サハラギンアリが生きていることができる最高体温は 53.6 度なので，こうした適応はこのアリが食べ物を探すのに十分な時間あいだ酷暑のもとでも生き延びることを可能としている。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "While the discovery of the Saharan silver ant's cooling system is interesting for biology researchers, it also has important implications for engineers.",
+                "ja": "サハラギンアリが持っている冷却機構が発見されたことは生物学の研究者には興味深いものであるが，それにはエンジニアに対しても重要な意味がある。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "A group of biologists and engineering researchers in the US has come together to adapt the knowledge gained from studying these ants to create new materials and surfaces with the same cooling properties as the Saharan silver ant's hairs.",
+                "ja": "アメリカの生物学者たちと工学技術の研究者たちからなるグループが協力して，これらのアリを研究することで得られた知見を活用し，サハラギンアリの体毛と同様の冷却特性を持つ新しい素材や表面を作ろうとしている。"
+              },
+              {
+                "id": "p5_s3",
+                "en": "They have already copied the structure of the ants' hair to produce material that effectively reflects the sun and disperses heat.",
+                "ja": "彼らはすでにアリの体毛の構造を複製して，太陽光を効果的に反射し，熱を分散させる素材を製造している。"
+              },
+              {
+                "id": "p5_s4",
+                "en": "In an experiment, they covered a glass bottle with this new material and exposed it to the heat of the sun.",
+                "ja": "試験のなかで，彼らはこの新しい素材でガラス瓶におおい，その瓶を太陽の熱にさらした。"
+              },
+              {
+                "id": "p5_s5",
+                "en": "They measured a 5.6 degree reduction in the temperature of the glass bottle compared to a bottle without the new material.",
+                "ja": "その結果，ガラス瓶の温度が，新しい素材でおおっていない瓶にくらべて 5.6 度下がったことを測定した。"
+              },
+              {
+                "id": "p5_s6",
+                "en": "They eventually want to build materials that can be used in cars, buildings, engineering parts and even clothing.",
+                "ja": "彼らが最終的に目指しているのは，自動車や建築物，工学部品，ひいては衣服にまで使える素材を作ることである。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "outline",
+          "presentation_outline": {
+            "label_outside_box": {
+              "en": "Your presentation outline",
+              "ja": "発表の概要"
+            },
+            "title": {
+              "en": "The Saharan Silver Ant",
+              "ja": "サハラギンアリ"
+            },
+            "blocks": [
+              {
+                "type": "adaptations_heading",
+                "heading": {
+                  "en": "Adaptations to the Desert Heat",
+                  "ja": "砂漠の熱への適応"
+                },
+                "slot_after_heading": 32,
+                "lines": [
+                  {
+                    "en": "A. High speed",
+                    "ja": "A. 高速"
+                  },
+                  {
+                    "en": "B. Large body size",
+                    "ja": "B. 大きな体のサイズ"
+                  },
+                  {
+                    "en": "C. Light-reflecting body",
+                    "ja": "C. 光を反射する体"
+                  },
+                  {
+                    "en": "D. Limited time outside",
+                    "ja": "D. 屋外での制限された時間"
+                  }
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "Feeding Habits of the Saharan Silver Ant",
+                  "ja": "サハラギンアリの食性"
+                },
+                "bullets": [
+                  {
+                    "en": "The ants [33].",
+                    "ja": "このアリは [33]。"
+                  },
+                  {
+                    "en": "The ants [34].",
+                    "ja": "このアリは [34]。"
+                  }
+                ]
+              },
+              {
+                "type": "center_slot",
+                "heading": {
+                  "en": "Hair Under the Microscope",
+                  "ja": "顕微鏡の下での体毛"
+                },
+                "center_slot": 35
+              },
+              {
+                "type": "function_slot",
+                "heading": {
+                  "en": "Function of the Hair",
+                  "ja": "体毛の機能"
+                },
+                "bullets": [
+                  {
+                    "en": "To [36].",
+                    "ja": "[36] すること。"
+                  }
+                ]
+              },
+              {
+                "type": "slot_heading_list",
+                "slot": 37,
+                "lines": [
+                  {
+                    "en": "— Cooling clothing",
+                    "ja": "— 冷却効果のある衣類"
+                  },
+                  {
+                    "en": "— Vehicle materials",
+                    "ja": "— 車の素材"
+                  },
+                  {
+                    "en": "— Engineering parts",
+                    "ja": "— 工学技術の部品"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 32,
+          "stem": {
+            "en": "Under the heading, \"Adaptations to the Desert Heat,\" you noticed an error in your presentation outline. Which of the following should you <u>remove</u>? [32]",
+            "ja": "「発表の概要において，『砂漠の熱への適応』という見出しの下で，あなたは１つの誤りに気づいた。以下のどれを取り除くべきか」［32］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。\n発表の概要の「砂漠の熱への適応」の見出しの下にある誤りは，B 「大きな体のサイズ」である。\n第2段落第1文（The Saharan silver…）〜第5文（If humans…）および第6文（Scientists believe …）においてサハラギンアリのスピードの速さについて言及があることからA「高速」を取り除くことはできないので，誤り。\n第4段落第9文（The silver hairs…）〜第10文（The first is…）で光を反射する体毛により体が暑い日射のもとでもあまりに急速には熱くならないことが述べられていることからC 「光を反射する体」を取り除くことはできないので，誤り。\n第3段落第1文（Another adaptation …）において屋外にいる時間が非常に短いことが述べられていることからD「屋外での制限された時間」を取り除くことはできないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p2_s1",
+              "p2_s6",
+              "p4_s9",
+              "p4_s10",
+              "p3_s1"
+            ],
+            "instructor_note": {
+              "ja": "アウトライン問題は見出し（砂漠の熱への適応）と四角の一覧の両方から「本文に載っていない適応」を探す問題です。サイズ・アリの体格は記事になく，速度・屋外時間・体毛での反射だけが並びます。"
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 33,
+          "answer_numbers": [
+            33,
+            34
+          ],
+          "unordered_slots": [
+            33,
+            34
+          ],
+          "stem": {
+            "en": "Choose the best options for [33] and [34]. (The order does not matter.)",
+            "ja": "「［33］と［34］に入れるのに最も適切な選択肢を選びなさい（順番は問わない）。」"
+          },
+          "choices_33": [
+            {
+              "label": "①",
+              "en": "carry the bodies of dead insects back to their nest to eat",
+              "ja": "死んだ昆虫の体を巣に持ち帰って食べる",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "eat lizards and other large animals outside their nests",
+              "ja": "巣の外でトカゲや他の大型動物を食べる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "sleep during the day and eat at night to avoid dangerous animals",
+              "ja": "危険な動物を避けるため，日中は眠り，夜に食べる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "stay in their nests until night before searching for food",
+              "ja": "夜になるまで巣にとどまってから食べ物を探す",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "wait for predators to hide from the heat before looking for food",
+              "ja": "捕食者が暑さから身を隠すのを待ってから食べ物を探す",
+              "is_correct": true
+            }
+          ],
+          "choices_34": [
+            {
+              "label": "①",
+              "en": "carry the bodies of dead insects back to their nest to eat",
+              "ja": "死んだ昆虫の体を巣に持ち帰って食べる",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "eat lizards and other large animals outside their nests",
+              "ja": "巣の外でトカゲや他の大型動物を食べる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "sleep during the day and eat at night to avoid dangerous animals",
+              "ja": "危険な動物を避けるため，日中は眠り，夜に食べる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "stay in their nests until night before searching for food",
+              "ja": "夜になるまで巣にとどまってから食べ物を探す",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "wait for predators to hide from the heat before looking for food",
+              "ja": "捕食者が暑さから身を隠すのを待ってから食べ物を探す",
+              "is_correct": true
+            }
+          ],
+          "answer": {
+            "33": "①",
+            "34": "⑤"
+          },
+          "answer_note": "順不同・両方正解で４点",
+          "explanation": {
+            "quoted_ja": "正解は①・⑤。\n第3段落第5文（After going outside…）〜最終文（Their food …）において，<u>サハラギンアリの食料は，砂漠の熱で死んでしまった他の昆虫の死体である</u>と述べられることから，①が適切となる。\nまた同段落第 3文（This is …）〜第 5文において，トカゲのような捕食者はその時間において暑さから身を隠すこととなるなかで<u>捕食者にとって暑さが過酷になるとすぐに，暑さのために命を失ってしまわないうちに，サハラギンアリは巣を出て，戻って来なければならない</u>と説明することから⑤が適切となる。\n②，③，④はいずれも本文において論じられることなく，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p3_s3",
+              "p3_s4",
+              "p3_s5",
+              "p3_s6"
+            ],
+            "instructor_note": {
+              "ja": "① は「昆虫の死体を巣に運ぶ」の要約．⑤ は「捕食者が暑さから隠れたらすぐ外出・短時間」の流れ．長文のときは predators / hide / heat / nest / food の対応線をノートに引くと両方とも取りやすいです。"
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 35,
+          "stem": {
+            "en": "You want to use a figure to show the shape of the hairs covering the ants' bodies. Choose the best option for [35] based on the information in the article.",
+            "ja": "「あなたは図を使ってこのアリの体をおおっている体毛の形状を示したいと思っている。記事の情報に基づいて，［35］に入れるのに最も適切な選択肢を選びなさい。」"
+          },
+          "figure_image": {
+            "src": "data/sundai/2026/round01/images/q07_problem_question3_diagrams_user_screenshot.png",
+            "alt": "問35 ユーザー提供スクショの選択肢図（①〜④）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。\n第4段落第6文においてヒモのような毛を半分に切ってその断面を見ると三角形の形を見ることになると述べており，第7文において<u>三角形の底辺が平らな一方，上部の２辺は波うっている</u>と述べ，第8文において<u>また体毛と体表の間には小さな隙間がある</u>と述べていることから，正解は④となる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p4_s6",
+              "p4_s7",
+              "p4_s8"
+            ],
+            "instructor_note": {
+              "ja": "図は「波状の傾斜面」＋「甲羅との隙間（二重矢印）」の両方を満たす肢が正解です。"
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 36,
+          "stem": {
+            "en": "Choose the best option for [36].",
+            "ja": "「［36］に入れるのに最も適切な選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "absorb light and retain heat during the day",
+              "ja": "日中に光を吸収し，熱を保持する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "keep the ants warm during the cold desert nights",
+              "ja": "寒冷な砂漠の夜にこのアリを暖かくしておく",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "reflect light and allow body heat to escape",
+              "ja": "光を反射し，体熱が逃げるのを可能とする",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "trap the sun's heat close to the body",
+              "ja": "体の近くで太陽の熱を閉じ込めておく",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。\n第4段落第9文〜第11文において<u>銀色の体毛には２つの機能がある。その１つは，体に当たらないように光を反射させて，暑い日差しのなかであまりに急速に熱くなるのを防ぐことだ。もう１つの機能は，アリ自身の体熱が効率的に逃げていくのを可能とすることである</u>と述べていることから，正解は③となる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p4_s9",
+              "p4_s10",
+              "p4_s11"
+            ],
+            "instructor_note": {
+              "ja": "誤答は heat を「蓄える・閉じ込める」方向にすり替えたものが多いです。"
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 37,
+          "stem": {
+            "en": "Choose the best heading for [37].",
+            "ja": "「［37］に入れるのに最も適切な見出しを選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Biological Solutions for Engineering Problems",
+              "ja": "工学技術に関する問題の生物学的解決",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Items That Are Useful in the Sahara Desert",
+              "ja": "サハラ砂漠で役に立つ物",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Materials Inspired by Other Animals in Nature",
+              "ja": "自然界の他の動物から着想を得た素材",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Things That React Badly to Extreme Heat",
+              "ja": "酷暑に悪い反応をする物",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。\n最終段落第2文〜第3文において<u>アメリカの生物学者と工学技術の研究者からなるグループが協力して，サハラギンアリの銀色の体毛と同じ冷却特性を持つ新しい素材や表面を作るために，このアリの研究から得た知識を転用した</u>と述べ，最終文において彼らが最終的に目指しているのは，自動車や建築物，工学部品，ひいては衣服にまで使える素材を作ることであると述べていることから，生物学の研究が工学技術の分野に応用され，問題解決に役立ち，新たな可能性をもたらしているという意味の①「工学技術に関する問題の生物学的解決」が正解となる。\n②，③，④はいずれも本文に言及されていないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p5_s2",
+              "p5_s3",
+              "p5_s6"
+            ],
+            "instructor_note": {
+              "ja": "見出し題は直後の箇条書き（衣類・車・部品）が「工学応用」であることの手がかりになります。"
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "title": {
+          "label_ja": "タイトル",
+          "items": [
+            {
+              "en": "survive",
+              "ja": "動「…をしのぐ［切り抜ける］」"
+            },
+            {
+              "en": "the Saharan Silver Ant",
+              "ja": "「サハラギンアリ；サハラン・シルヴァー・アント」",
+              "note": "サハラ砂漠に生息するアリの一種。"
+            }
+          ]
+        },
+        "p1": {
+          "label_ja": "第1段落 (Only the strongest ...)",
+          "items": [
+            {
+              "en": "best-adapted",
+              "ja": "「最も（よく）適応した」"
+            },
+            {
+              "en": "the Sahara desert",
+              "ja": "「サハラ砂漠」"
+            },
+            {
+              "en": "As their name suggests",
+              "ja": "「その名前が示唆しているように」"
+            },
+            {
+              "en": "rolling across the hot sand",
+              "ja": "「熱い砂の上を転がりながら進む」",
+              "note": "tiny balls of metal を修飾する現在分詞句。"
+            }
+          ]
+        },
+        "p2": {
+          "label_ja": "第2段落 (The Saharan silver ...)",
+          "items": [
+            {
+              "en": "videos of these ants running",
+              "ja": "「サハラギンアリが走っているビデオ」",
+              "note": "these ants が動名詞 running の意味上の主語。"
+            },
+            {
+              "en": "to put it another way",
+              "ja": "「別の言い方をすると」"
+            },
+            {
+              "en": "If humans could run that fast",
+              "ja": "「もし人間がそれほど速く走ることができるとすると」",
+              "note": "that は副詞で fast にかかる。"
+            },
+            {
+              "en": "adaptation",
+              "ja": "名「適応（能力；形態）」"
+            },
+            {
+              "en": "up to ...",
+              "ja": "「最大［最高］…」"
+            },
+            {
+              "en": "70 degrees Celsius",
+              "ja": "「摂氏70度」"
+            },
+            {
+              "en": "help O to-",
+              "ja": "「Oが〜するのに役立つ［するのを助ける］」"
+            },
+            {
+              "en": "avoid -ing",
+              "ja": "「〜することを避ける；〜しないようにする」"
+            },
+            {
+              "en": ", which is a mistake",
+              "ja": "「それはミスであり」",
+              "note": "非制限用法の関係代名詞節で sinking or sliding in the sand を指す。"
+            },
+            {
+              "en": "cost A B",
+              "ja": "「AにB〈時間・労力など〉を必要とさせる；AにB〈時間・労力など〉を失わせる」"
+            }
+          ]
+        },
+        "p3": {
+          "label_ja": "第3段落 (Another adaptation is ...)",
+          "items": [
+            {
+              "en": "spent outside in the sun",
+              "ja": "「日向で過ごされた」",
+              "note": "the ants' very short time を修飾する過去分詞句。"
+            },
+            {
+              "en": "in the sun",
+              "ja": "「日向で；日の当たるところで」"
+            },
+            {
+              "en": "emerge from ...",
+              "ja": "「…から現れる」"
+            },
+            {
+              "en": "This is to-",
+              "ja": "「これは〜するためである」"
+            },
+            {
+              "en": "predator",
+              "ja": "名「捕食者」"
+            },
+            {
+              "en": "lizard",
+              "ja": "名「トカゲ」"
+            }
+          ]
+        },
+        "p4_tail": {
+          "label_ja": "第4段落 (Finally ...)",
+          "items": [
+            {
+              "en": "decoration",
+              "ja": "名「装飾」"
+            },
+            {
+              "en": "survive",
+              "ja": "動「…で生き延びる；生き残る」"
+            },
+            {
+              "en": "Viewed through a microscope",
+              "ja": "「顕微鏡を通して見ると」"
+            },
+            {
+              "en": "with three sides",
+              "ja": "「3つの面がある」"
+            },
+            {
+              "en": "cut ... in half",
+              "ja": "「…を半分に切る」"
+            },
+            {
+              "en": "cross-section",
+              "ja": "名「断面」"
+            },
+            {
+              "en": "a wave pattern",
+              "ja": "「波模様」"
+            },
+            {
+              "en": "reflect light away from the ant",
+              "ja": "「体に当たらないように光を反射させる」"
+            },
+            {
+              "en": "preventing it from",
+              "ja": "「…することを妨げつつ」",
+              "note": "分詞構文。"
+            },
+            {
+              "en": "prevent A from -ing",
+              "ja": "「Aが〜するのを防ぐ」"
+            },
+            {
+              "en": "allow O to-",
+              "ja": "「Oが〜するのを可能とする」"
+            },
+            {
+              "en": "thanks to ...",
+              "ja": "「…のおかげで」"
+            },
+            {
+              "en": "lower its body temperature by about 5 to 10 degrees",
+              "ja": "「体温を約5〜10度下げる」",
+              "note": "by はここでは「差」を表す。"
+            },
+            {
+              "en": "compared to ...",
+              "ja": "「…と比べて」"
+            },
+            {
+              "en": "maximum",
+              "ja": "名「最高の；最大の」"
+            },
+            {
+              "en": "a Saharan silver ant can survive",
+              "ja": "（説明省略）",
+              "note": "直前の The maximum body temperature を先行詞とする関係代名詞節（関係代名詞省略）。"
+            }
+          ]
+        },
+        "p5": {
+          "label_ja": "第5段落 (While the discovery ...)",
+          "items": [
+            {
+              "en": "implication",
+              "ja": "名「意味（合い）；含意」"
+            },
+            {
+              "en": "engineering",
+              "ja": "名「工学（技術）；工学の」"
+            },
+            {
+              "en": "adapt",
+              "ja": "動「…を転用［適用］させる」"
+            },
+            {
+              "en": "gained from studying these ants",
+              "ja": "「これらのアリを研究することで得られた」",
+              "note": "直前の the knowledge にかかる過去分詞句。"
+            },
+            {
+              "en": "disperse",
+              "ja": "動「…を分散させる」"
+            },
+            {
+              "en": "expose A to B",
+              "ja": "「AをBにさらす［当てる］」"
+            }
+          ]
+        },
+        "outline_kw": {
+          "label_ja": "発表の概要",
+          "items": [
+            {
+              "en": "feeding habit",
+              "ja": "「食性；食習慣」"
+            }
+          ]
+        },
+        "question_kw": {
+          "label_ja": "設問文・選択肢",
+          "items": [
+            {
+              "en": "heading",
+              "ja": "名「見出し」"
+            },
+            {
+              "en": "during the day",
+              "ja": "「日中；昼間」"
+            },
+            {
+              "en": "search for ...",
+              "ja": "「…を探す」"
+            },
+            {
+              "en": "hide from ...",
+              "ja": "「…から隠れる」"
+            },
+            {
+              "en": "figure",
+              "ja": "名「図」"
+            },
+            {
+              "en": "covering the ants' bodies",
+              "ja": "",
+              "note": "直前の the hairs にかかる現在分詞句。"
+            },
+            {
+              "en": "absorb",
+              "ja": "動「…を吸収する」"
+            },
+            {
+              "en": "retain",
+              "ja": "動「…を保持する」"
+            },
+            {
+              "en": "trap",
+              "ja": "動「…を閉じ込める」"
+            },
+            {
+              "en": "inspired by ...",
+              "ja": "「…から着想を得て」"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 17,
+      "description": "レポート構成（電気自動車）：意見読解・立場・情報源活用",
+      "situation": {
+        "en": "You are working on an essay about electric cars.\nYou will follow the steps below:\nStep 1: Read a range of opinions gathered from the Internet about electric cars.\nStep 2: Take a position on electric cars.\nStep 3: Create an outline of your essay using additional sources.",
+        "ja": "あなたは電気自動車に関するレポートに取り組んでいるところです。あなたは以下のステップに従っていきます：\nステップ1：インターネットから集めた電気自動車に関するさまざまな意見を読む。\nステップ2：電気自動車に関する立場を示す。\nステップ3：追加の情報源を使って，レポートの概要を作成する。"
+      },
+      "passages": [
+        {
+          "id": "step1_opinions",
+          "title": {
+            "en": "[Step 1] Read a range of opinions gathered from the Internet about electric cars",
+            "ja": "［ステップ1］さまざまな意見を読む"
+          },
+          "block_separators": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "shin_h",
+                "en": "Shinya (doctor)",
+                "ja": "シンヤ（医師）"
+              },
+              {
+                "id": "shin_s1",
+                "en": "The biggest benefit to switching from traditional gasoline cars to electric cars is lower gas emissions.",
+                "ja": "従来のガソリン車から電気自動車へ切り替えることの最大の恩恵は，ガスの排出量が減ることである。"
+              },
+              {
+                "id": "shin_s2",
+                "en": "Of course, electric cars use energy when their batteries are being charged, but after that, they are very clean compared to gasoline cars.",
+                "ja": "もちろん，バッテリーを充電しているときには電気自動車はエネルギーを使用するが，その後はガソリン車と比較すると電気自動車は非常にクリーンだ。"
+              },
+              {
+                "id": "shin_s3",
+                "en": "This is much better for the environment, and also people's health. Research shows that children living near main roads are at a higher risk of developing breathing problems than children who live closer to nature.",
+                "ja": "これは環境そして人々の健康にとってもはるかによいことである。研究が示すところによれば，大通りの近くに住んでいる子どもたちは自然の近くに住んでいる子どもたちよりも呼吸障害を発症する危険性が高い。"
+              },
+              {
+                "id": "shin_s4",
+                "en": "I often see young children with breathing problems in my hospital. This is a problem we could solve with moving to electric cars.",
+                "ja": "私の病院では呼吸障害を抱えた幼い子どもたちをよく目にする。これは電気自動車に移行することで解決できる可能性のある問題だ。"
+              }
+            ],
+            [
+              {
+                "id": "ell_h",
+                "en": "Ellen (Car Life Magazine, editor)",
+                "ja": "エレン（カーライフマガジンの編集者）"
+              },
+              {
+                "id": "ell_s1",
+                "en": "In the past, no serious driver was interested in driving an electric car, but as technology improves, people's opinions are changing.",
+                "ja": "以前は電気自動車を運転することに興味を示すまじめなドライバーは皆無だったが，テクノロジーが進歩するにつれて，人々の意見は変わりつつある。"
+              },
+              {
+                "id": "ell_s2",
+                "en": "One reason is that manufacturers are now producing a wider range of reliable, efficient, and more attractive electric cars, and many people are excited about this.",
+                "ja": "1つの理由は，今や製造業者が信頼できて効率がよく，より魅力的な電気自動車をより多様に生産しており，そのことに関し，多くの人々が胸を高鳴らせている，ということだ。"
+              },
+              {
+                "id": "ell_s3",
+                "en": "In addition, the range of distance that a single charge can cover is improving all the time as more efficient batteries are being developed.",
+                "ja": "加えて，より効率的なバッテリーが開発されるにつれて，1回の充電で進める走行距離は絶えず改善している。"
+              },
+              {
+                "id": "ell_s4",
+                "en": "On the other hand, we are still waiting for the development of necessary infrastructure. At present, it doesn't seem to be keeping up with the speed of technological evolution.",
+                "ja": "一方，私たちは必要とされているインフラの発展をいまだに待ち望んでいる。現在，必要とされているインフラはテクノロジーの進化のスピードについていってないように思われる。"
+              },
+              {
+                "id": "ell_s5",
+                "en": "For example, there is still a serious lack of charging points in my country and this must be addressed before electric cars are taken more seriously.",
+                "ja": "たとえば，私の国ではいまだに充電スタンドが深刻なまでに不足しており，電気自動車がもっと重要視されるようにするには，そのことに取り組まなければならない。"
+              }
+            ],
+            [
+              {
+                "id": "jon_h",
+                "en": "Jonah (engineer)",
+                "ja": "ヨナ（エンジニア）"
+              },
+              {
+                "id": "jon_s1",
+                "en": "The main benefit of electric cars is zero emissions from the car itself. However, we need to look at the whole lifespan of an electric car to decide whether or not they are actually better for the environment.",
+                "ja": "電気自動車の主たる恩恵は，車自体からのガスの排出がゼロ，ということだ。しかし，電気自動車が環境にとって実際によりよいものであるかどうかを決めるためには，電気自動車の全過程に目を向ける必要がある。"
+              },
+              {
+                "id": "jon_s2",
+                "en": "A study by a major car manufacturer showed that greenhouse gas emissions during production of an electric car are nearly 70% higher than when manufacturing a traditional gasoline car.",
+                "ja": "ある主要な自動車製造業者による研究は，電気自動車生産過程における温室効果ガスの排出は従来のガソリン車を製造するときよりも約70％多い，ということを示した。"
+              },
+              {
+                "id": "jon_s3",
+                "en": "This is because of the battery, which requires huge amounts of energy to produce. In addition, the batteries only last around 10 years.",
+                "ja": "これは，バッテリーを生産するのに多大なる量のエネルギーが必要だからである。加えて，バッテリーは約10年しか持たない。"
+              },
+              {
+                "id": "jon_s4",
+                "en": "My question is, are electric cars really better for the environment?",
+                "ja": "私の疑問は，電気自動車は本当に環境にとってよりよいのか，ということである。"
+              }
+            ],
+            [
+              {
+                "id": "car_h",
+                "en": "Caroline (politician)",
+                "ja": "キャロライン（政治家）"
+              },
+              {
+                "id": "car_s1",
+                "en": "We are very much trying to encourage our citizens to buy electric cars instead of old-fashioned gasoline cars, which are terrible for the environment and people's health.",
+                "ja": "私たちは，環境と人々の健康にとってよくない昔からあるガソリン車ではなく電気自動車を購入するよう，市民たちを促そうと懸命に努力しています。"
+              },
+              {
+                "id": "car_s2",
+                "en": "We are sure that by increasing the proportion of electric vehicles, we can significantly improve air quality in our cities.",
+                "ja": "電気自動車の割合を増やすことによって，私たちの都市における大気の質を大きく改善することができる，と確信しています。"
+              },
+              {
+                "id": "car_s3",
+                "en": "This leads to cleaner and healthier cities.",
+                "ja": "これはよりクリーンで健康的な都市につながります。"
+              },
+              {
+                "id": "car_s4",
+                "en": "We are aware that for many people, purchasing a new electric car is very expensive, so we are providing financial help to people who need it.",
+                "ja": "多くの人々にとって，新しい電気自動車の購入は非常にお金がかかることであると意識しているので，私たちは新しい電気自動車を必要とする人々に経済的な支援をしています。"
+              },
+              {
+                "id": "car_s5",
+                "en": "We are also working on increasing the number of car charging stations around the country.",
+                "ja": "私たちはまた，国中で車の充電スタンドの数を増やすことに取り組んでいるところです。"
+              }
+            ],
+            [
+              {
+                "id": "edd_h",
+                "en": "Eddie (car mechanic)",
+                "ja": "エディ（自動車整備士）"
+              },
+              {
+                "id": "edd_s1",
+                "en": "I've recently started working at an electric car company, and I fix them when they break down. I like them, but I'm a little worried that they are not as \"green\" as people say.",
+                "ja": "最近私は電気自動車の会社で働き始めて，電気自動車が故障すると修理しています。私は電気自動車が好きですが，電気自動車は言われているほど「環境にやさしい」わけではないのではと少し不安に思っています。"
+              },
+              {
+                "id": "edd_s2",
+                "en": "In particular, the batteries are difficult to make and difficult to recycle when they are no longer useful.",
+                "ja": "特に，バッテリーは製造するのが難しいし，もはや役に立たなくなったときにリサイクルするのも難しいのです。"
+              },
+              {
+                "id": "edd_s3",
+                "en": "If they are not carefully recycled, they can leak dangerous and toxic chemicals into the ground.",
+                "ja": "バッテリーは注意してリサイクルしないと，危険で有毒な化学物質が地中に漏れてしまうこともあります。"
+              },
+              {
+                "id": "edd_s4",
+                "en": "Personally, I will keep driving my old gasoline car for as long as I can. I believe that is better than constantly buying new technology.",
+                "ja": "個人的に言えば，私は古いガソリン車をできるだけ長く運転し続けるつもりです。私はその方が，絶えず新しいテクノロジーを購入するよりいいと考えています。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "step3_outline",
+          "title": {
+            "en": "[Step 3] Create an outline of your essay",
+            "ja": "［ステップ3］レポートの概要を作成する"
+          },
+          "no_divider": false,
+          "paragraphs": [
+            [
+              {
+                "id": "eo_tt",
+                "en": "Essay outline",
+                "ja": "レポート概要"
+              },
+              {
+                "id": "eo_ti",
+                "en": "Switching to Electric Cars Is Essential",
+                "ja": "電気自動車への切り替えは必要だ"
+              }
+            ],
+            [
+              {
+                "id": "eo_in1",
+                "en": "Introduction",
+                "ja": "序論"
+              },
+              {
+                "id": "eo_in2",
+                "en": "Many governments are promoting a switch away from gasoline cars in favor of electric vehicles.",
+                "ja": "多くの政府が電気自動車を支持し，ガソリン車からの切り替えを促進している。"
+              },
+              {
+                "id": "eo_in3",
+                "en": "I agree with this for the following three reasons.",
+                "ja": "以下の3つの理由で，私はそのことに賛成である。"
+              }
+            ],
+            [
+              {
+                "id": "eo_b1",
+                "en": "Body",
+                "ja": "本論"
+              },
+              {
+                "id": "eo_b2",
+                "en": "REASON 1:",
+                "ja": "理由1："
+              },
+              {
+                "id": "eo_b3",
+                "en": "(from Step 2, based on evidence from the opinions in Step 1)",
+                "ja": "（ステップ2から，ステップ1のさまざまな意見における証拠に基づく）"
+              },
+              {
+                "id": "eo_b4",
+                "en": "REASON 2:",
+                "ja": "理由2："
+              },
+              {
+                "id": "eo_b5",
+                "en": "(based on evidence from Source A) [43]",
+                "ja": "（情報源Aから得られる証拠に基づく）[43]"
+              },
+              {
+                "id": "eo_b6",
+                "en": "REASON 3:",
+                "ja": "理由3："
+              },
+              {
+                "id": "eo_b7",
+                "en": "(based on evidence [44] from Source B)",
+                "ja": "（情報源Bから得られる証拠[44]に基づく）"
+              }
+            ],
+            [
+              {
+                "id": "eo_c1",
+                "en": "Conclusion",
+                "ja": "結論"
+              },
+              {
+                "id": "eo_c2",
+                "en": "After considering all of the facts, a move toward electric cars is something that everyone should support.",
+                "ja": "すべての事実を考慮すると，電気自動車への移行はすべての人が支持すべきことである。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "情報源A"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "sa_p1_s1",
+                "en": "If you drive a traditional gasoline-fueled car, you will notice that the price of gasoline rises regularly.",
+                "ja": "従来のガソリンを燃料とする車を運転すれば，ガソリン価格が定期的に上昇することに気づくだろう。"
+              },
+              {
+                "id": "sa_p1_s2",
+                "en": "In fact, the price of gasoline in 2024 was almost three times the price of gasoline in 1990. There is no reason why it should not continue to rise from now on.",
+                "ja": "実際2024年のガソリン価格は1990年のガソリン価格のほぼ3倍だった。今後ガソリン価格は上昇し続けないはずだという理由はない。"
+              },
+              {
+                "id": "sa_p1_s3",
+                "en": "For that reason, gasoline cars are very expensive to run.",
+                "ja": "そのため，ガソリン車を走らせるには非常にお金がかかるのである。"
+              },
+              {
+                "id": "sa_p1_s4",
+                "en": "In contrast, the cost of charging the battery of an electric car is much lower, and as batteries become more efficient, the price is more likely to go down over time than up.",
+                "ja": "対照的に，電気自動車のバッテリーに充電する費用ははるかに安く，バッテリーがもっと効率的になるにつれ，その価格は時間とともに上昇するというより下降していく可能性の方が高い。"
+              },
+              {
+                "id": "sa_p1_s5",
+                "en": "A gasoline engine is much less efficient in terms of energy use than a new-style electric vehicle battery.",
+                "ja": "エネルギーの使用という点では，ガソリンエンジンは新方式の電気自動車バッテリーよりもはるかに効率がよくない。"
+              },
+              {
+                "id": "sa_p1_s6",
+                "en": "Therefore, despite the initial higher price of an electric car, in the long-term, the reduced fuel costs allow drivers to save money.",
+                "ja": "したがって，最初にかかる電気自動車の価格はより高くなるけれども，長期的に見れば，燃料にかかる費用が減るために，ドライバーはお金を節約することができる。"
+              }
+            ],
+            [
+              {
+                "id": "sa_p2_s1",
+                "en": "In addition, compared to electric cars, gasoline cars require a lot of maintenance. A traditional gasoline engine has around 2,000 moving parts, while an electric car motor has just 20.",
+                "ja": "さらに，電気自動車と比較すると，ガソリン車には多くの整備が必要とされる。従来のガソリンエンジンには車を動かすための部品がおよそ2,000個もある一方，電気自動車はたったの20個である。"
+              },
+              {
+                "id": "sa_p2_s2",
+                "en": "The more parts there are, the more that can go wrong.",
+                "ja": "部品が増えれば増えるほど，車の調子が悪くなる可能性が高くなる。"
+              },
+              {
+                "id": "sa_p2_s3",
+                "en": "Owners of gasoline cars find that they spend more money on repairs and maintenance than an owner of an electric car.",
+                "ja": "ガソリン車の所有者は，自分たちの方が電気自動車の所有者よりも修理や整備にかかるお金が多くなる，ということに気づくのである。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "情報源B"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "sb_s1",
+                "en": "As man-made noise increases all over the world, scientists have predicted that noise from roads disrupts the behavior of various wild animals.",
+                "ja": "人間が引き起こす騒音が世界中で増加しているので，道路からもたらされる騒音がさまざまな野生動物の行動を混乱させている，と科学者は予測した。"
+              },
+              {
+                "id": "sb_s2",
+                "en": "A study by Japanese researchers looked at the effect of traffic noise on the hunting behavior of owls.",
+                "ja": "日本の研究者たちによる研究は，交通の騒音がフクロウの狩りの行動に及ぼす影響に目を向けた。"
+              },
+              {
+                "id": "sb_s3",
+                "en": "They discovered that noise created by gasoline cars disrupts the owls' ability to detect the presence of the small animals they hunt for food.",
+                "ja": "研究者たちは，ガソリン車が生み出す騒音が，フクロウが食料として狩る小動物の存在を探知するフクロウの能力を混乱させていることを発見した。"
+              }
+            ]
+          ],
+          "graph_image": {
+            "src": "data/sundai/2026/round01/images/q08_problem_source_b_line_graph_en_axes.png",
+            "after_paragraph": 1,
+            "alt": "Source B graph: Noise and prey detectability vs distance to road"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 38,
+          "stem": {
+            "en": "Which of the following best expresses Ellen's opinion? [38]",
+            "ja": "「以下のどれがエレンの意見を最も適切に表しているか」［38］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Car evolution is slow.",
+              "ja": "車の進化は遅い。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Electric cars dissatisfy drivers.",
+              "ja": "電気自動車はドライバーに不満を抱かせる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "More development is necessary.",
+              "ja": "さらなる発展が必要だ。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Technology is the key.",
+              "ja": "テクノロジーが鍵だ。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "(設問解説I\n問’ 両正解、\n「以下のどれがエレンの意見を最も適切に表しているか」「弱司\n0\n車の進化は遅い。\n②\n電気自動車はドライバーに不満を抱かせる。\n、\nさらなる発展が必要だ。\n④\nテクノロジーが鍵だ。\n正解は0．エレンは第1文(In the past,…）～第3文(In addition, the…）において，\nテクノロジーが進歩するにつれて，人々は電気自動車に興味を示しつつある，という事実\nを認めているが，第4文(On the other…）～第5文(At present, it…）で「一方，私た\nちは必要とされているインフラの発展をいまだに待ち望んでいる。現在，必要とされてい\nるインフラはテクノロジーの進化のスピードについていってないように思われる」と，こ\nれからインフラ設備を発展させることが必要である，という意見を述べている。したがっ\nて正解はOとなる。\n0，@，0の内容はいずれもエレンの意見では言及されていないので誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "ell_s4",
+              "ell_s5"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 39,
+          "stem": {
+            "en": "Both Jonah and Eddie mention that [39].",
+            "ja": "「ヨナとエディはともに [39] ということに言及している」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "electric cars are much cleaner than gasoline cars, therefore they are better for the environment",
+              "ja": "電気自動車はガソリン車よりもはるかにクリーンなので，環境にとってよりよい",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "driving older cars for as long as possible is better for the environment than buying new electric cars",
+              "ja": "新しい電気自動車を購入するよりも，従来の車をできるだけ長く運転する方が環境にとってよりよい",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "more work and research needs to be done to increase the life of old electric car batteries",
+              "ja": "旧式の電気自動車バッテリーの使用期間を伸ばすために，さらなる仕事と研究を行う必要がある",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the production and disposal of the battery makes electric cars less environmentally-friendly",
+              "ja": "バッテリーの生産と処理を考慮すれば，電気自動車は環境にそれほどやさしくはない",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "問2「弱司正解④\n「ヨナとエディはともに「弱~]ということに言及している」\n①\n電気自動車はガソリン車よりもはるかにクリーンなので，環境にとってよりよい\n②\n新しい電気自動車を賊入するよりも，従来の車をできるだけ長く運転する方が環\n境にとってよりよい\nO\n旧式の電気自動車バッテリーの使用期間を伸ばすために，さらなる仕事と研究を\n行う必要がある\n④\nバッテリーの生産と処理を考慮すれば，電気自動車は環境にそれほどやさしくは\nない\n正解は0．ヨナは第2文(However, we need…）で，電気自動車が環境にとって実際\nによりよいものであるかどうかを判断するためには，電気自動車の製造を含む全過程に目\nを向ける必要がある，と述べ，第3文(A study by…）で「ある主要な自動車製造業者に\nよる研究は，電気自動車生産過程における温室効果ガスの排出は従来のガソリン車を製造\nするときよりも約70%多い，ということを示した」と紹介し，第4文(ThiS iS because…）\n－英R43-\n\n~第5文(In addition, the…）でその理由として「これは，バッテリーを生産するのに多\n大なる量のエネルギーが必要だからである。加えて，バッテリーは約10年しか持たない」\nと述べている。よってヨナは，バッテリーの生産には多大なるエネルギーが必要なので\n電気自動車はそれほど環境にはやさしくない，と言及していると言える\nエディは第2文(I like them,…）で「私は電気自動車が好きですが㈱電気自動車は言わ\nれているほど『環境にやさしい』わけではないのではと少し不安に思っています」と述べ\nその根拠として第3文(In particular, the…）～第4文(If they are…）で「特に，バッ\nテリーは製造するのが難しいし，もはや役に立たなくなったときにリサイクルするのも難\nしいのです。バッテリーは注意してリサイクルしないと，危険で有毒な化学物質が地中に\n漏れてしまうこともあります」と述べていることから，エディはバッテリーの処理を考慮\nすると，電気自動車は環境にやさしくない，と言及していると言える\n以上のことから正解は@となる。\n@の内容はエディが第5文(Personally, I will…）～最終文(I believe that…）で言及\nしているだけなので誤り。\n0,0の内容はヨナもエディも言及していないので誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "jon_s2",
+              "jon_s3",
+              "edd_s2",
+              "edd_s3"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            40,
+            41,
+            42
+          ],
+          "unordered_slots": [
+            40,
+            41
+          ],
+          "stem": {
+            "en": "Now that you have understood the various opinions, you have taken a position on electric cars and written some notes below.\nChoose the best options to complete [40] — [42]. (You must have all of [40] — [42] correct to get points.)\n\nPOSITION: Electric cars are a good idea.\n[40] and [41] opinions support this the most.\nAn argument common to these two people is that [42].",
+            "ja": "さまざまな意見を理解したので，あなたは電気自動車に対する立場を示し，以下でいくつかのメモを記した。［40］〜［42］に入れるのに最も適切な選択肢を選びなさい。（得点するためには［40］〜［42］のすべてが合っていなければならない）"
+          },
+          "choices_40": [
+            {
+              "label": "①",
+              "en": "Caroline's",
+              "ja": "キャロラインの（意見）",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Eddie's",
+              "ja": "エディの（意見）",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Ellen's",
+              "ja": "エレンの（意見）",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Jonah's",
+              "ja": "ヨナの（意見）",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Shinya's",
+              "ja": "シンヤの（意見）",
+              "is_correct": true
+            }
+          ],
+          "choices_41": [
+            {
+              "label": "①",
+              "en": "Caroline's",
+              "ja": "キャロラインの（意見）",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Eddie's",
+              "ja": "エディの（意見）",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Ellen's",
+              "ja": "エレンの（意見）",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Jonah's",
+              "ja": "ヨナの（意見）",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Shinya's",
+              "ja": "シンヤの（意見）",
+              "is_correct": true
+            }
+          ],
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "buying an electric car is already cheaper than buying an old gasoline car",
+              "ja": "従来のガソリン車を購入するよりも，電気自動車を購入する方がすでに安価になっている",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "electric cars use very little energy when their batteries are being charged",
+              "ja": "電気自動車は，バッテリーを充電しているとき，エネルギーをほとんど使用しない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "lower emissions from cars will improve the air quality and people's health",
+              "ja": "車からのガスの排出量が減ることは，大気の質と人々の健康を改善するだろう",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "moving away from gasoline cars will reduce the incidence of breathing difficulties",
+              "ja": "ガソリン車からの移行は，呼吸障害の発生を減少させるだろう",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "40": "①",
+            "41": "⑤",
+            "42": "③"
+          },
+          "answer_note": "［40］［41］は順不同・両方正解でセット。全文正解で4点の配点運用あり。",
+          "explanation": {
+            "quoted_ja": "し［ステップ2］立場を示す\n問3「而司･[一雨~］正解0･@\nE。正解③\n「さまざまな意見を理解したので，あなたは電気自動車に対する立場を示し，以下でい\nくつかのメモを記した｡「而~]－[~可珂に入れるのに最も適切な選択肢を選びなさい。\n（得点するためには[~而~]一[~亟可のすべてが合っていなければならない)」\n立場：電気自動車はよい考えである。\n．［亜。と向同意見はこの考えを最も支持している\n．この2人に共通した主張は[亟．ということだ。\n「功~]とロ、に入る選択肢(順序は問わない)：\n0キャロラインの（意見）\n②\nエデイの（意見）\nO\nエレンの（意見）\n0ヨナの（意見）\n、シンヤの（意見）\n正解は0と⑤。［ステップ2］の「而司と[一雨~]を含む文は「叩と「可、意見\nはこの考えを最も支持している」という意味を表している。よって，あなたの立場として\n示されている「電気自動車はよい考えである」ということを支持する意見を持つ人物を選\nべばよい。\nキャロラインの意見の第1文(We are very…）には「私たちは,環境と人々の健康にとっ\nてよくない昔からあるガソリン車ではなく電気自動車を購入するよう市民たちを促そうと\n懸命に努力しています」とあり，その根拠として第2文・第3文(We are sure…/ This\nleads to…）で「電気自動車の割合を増やすことによって，私たちの都市における大気の\n質を大きく改善することができる，と確信しています。これはよりクリーンで健康的な都\n市につながります」と述べていることから,キャロラインは「電気自動車はよい考えである」\nということを支持しているとみなせるので，0が正解の1つとなる。\nシンヤは第1文(The biggest benefit…）～第3文(This is much…）で，電気自動車\nへ切り替えるとガスの排出量が減るために。電気自動車は非常にクリーンであり，それは\n環境と人々の健康にとってはるかによいことだ，と述べていることから‘シンヤは「電気\n－英R44-\n\n自動車はよい考えである」ということを支持しているとみなせるので。0がもう1つの正\n解となる。\n＠に関しては，問2の解説でも触れたように，エデイの意見は「電気自動車は環境にそ\nれほどやさしくない」というものなので誤り。\nOに関しては，問lの解説でも触れたことだが，エレンはテクノロジーが進歩するにつ\nれて，人々は電気自動車に興味を示しつつあるという事実は述べているが，彼女の意見は\n｢これからインフラ設備を発展させることが必要である」ということなので誤り。\n0に関しては，問2の解説でも触れたように，ヨナの意見は「電気自動車は環境にそれ\nほどやさしくない」というものなので誤り。\n「亜~]に入る選択肢：\n0\n従来のガソリン車を購入するよりも,電気自動車を購入する方がすでに安価になっ\nている\n②\n電気自動車は，バッテリーを充電しているとき，エネルギーをほとんど使用しない\n、\n車からのガスの排出量が減ることは，大気の質と人々の健康を改善するだろう\n、\nガソリン車からの移行は，呼吸障害の発生を減少させるだろう\n正解は0。［ステップ2］の[-ｺ訂を含む文は「この2人に共通した主張は「亜~.と\nいうことだ」という意味を表しているので,「而~]とmに入るキャロラインとシン\nヤの意見に共通する主張を選べばよい。\n上の両1と両Dの解説でも触れたことだが,キャロラインはその意見の中で｢重\n気自動車の割合を増やすことによって，私たちの都市における大気の質を大きく改善する\nことができる､と確信しています。これはよりクリーンで健康的な都市につながります」\nと述べ，シンヤはその意見として「電気自動車へ切り替えるとガスの排出量が減るために\n電気自動車は非常にクリーンであり，それは環境と人々の健康にとってはるかによいこと\nだ｣と述べていることから,2人に共通した主張はO｢車からのガスの排出量が減ることは，\n大気の質と人々の健康を改善するだろう」とみなせるので，正解はOとなる。\n0，@，0の内容は，いずれもキャロラインとシンヤの意見に共通する主張ではないの\nで誤り。\n圖\nシ［ステップ3］レポートの概要を作成する\nレポート概要\n電気自動車への切り替えは必要だ\n序論\n多くの政府が電気自動車を支持し，ガソリン車からの切り替えを促進している。以下の\n3つの理由で，私はそのことに賛成である。\n本論\n理由l\n理由2\n理由3\nステップlのさまざまな意見における証拠に基づき，ステップ2から得られる\n「覇~．情報源Aから得られる証拠に基づく\n情報源Bから得られる証拠[一頭~]に基づく\n結論\nすべての事実を考慮すると，電気自動車への移行はすべての人が支持すべきことである。\n－英R45-\n\n情報源A\n従来のガソリンを燃料とする車を運転すれば，ガソリン価格が定期的に上昇することに\n気づくだろう。実際2024年のガソリン価格は, 1990年のガソリン価格のほぼ3倍だった。\n今後ガソリン価格は上昇し続けないはずだという理由はない。そのため，ガソリン車を走\nらせるには非常にお金がかかるのである。対照的に，電気自動車のバッテリーに充電する\n費用ははるかに安く，バッテリーがもっと効率的になるにつれ，その価格は時間とともに\n上昇するというより下降していく可能性の方が高い。エネルギーの使用という点では，ガ\nソリンエンジンは新方式の電気自動車バッテリーよりもはるかに効率がよくない。した\nがって，最初にかかる電気自動車の価格はより高くなるけれども，長期的に見れば，燃料\nにかかる費用が減るために，ドライバーはお金を節約することができる。\nさらに，電気自動車と比較すると，ガソリン車には多くの整備が必要とされる。従来の\nガソリンエンジンには車を動かすための部品がおよそ2,000個もある一方，電気自動車は\nたったの20個である。部品が増えれば増えるほど‘車の調子が悪くなる可能性が高くなる。\nガソリン車の所有者は，自分たちの方が電気自動車の所有者よりも修理や整備にかかるお\n金が多くなる，ということに気づくのである。\n情報源B\n人間が引き起こす騒音が世界中で増加しているので，道路からもたらされる騒音がさまざ\nまな野生動物の行動を混乱させている，と科学者は予測した。日本の研究者たちによる研\n究は，交通の騒音がフクロウの狩りの行動に及ぼす影響に目を向けた。研究者たちは，ガ\nソリン車が生み出す騒音が､フクロウが食料として狩る小動物の存在を探知するフクロウ\nの能力を混乱させていることを発見した。\n70\n1．0\n－：騒音\n-----‐：探知可能性\n獲物の探知可能性\n８\n６\n４\n２\n０\n０\n０\n０\n０\n０\n０\n６\n５\n４\n騒音レベル帥\n．\n30\n0.0\n0\n50\n100\n150\n200\n道路までの距離(m)\n1設問解説】",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "car_s2",
+              "car_s3",
+              "shin_s2",
+              "shin_s3"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "stem": {
+            "en": "Based on Source A, which of the following is the most appropriate for REASON 2? [43]",
+            "ja": "「情報源Aに基づけば，以下のどれが理由2として最も適切か」［43］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Electric cars are both cheaper to buy and less expensive to run, despite higher repair fees.",
+              "ja": "修理費はより高くつくけれども，電気自動車を購入する方が安くすみ，走らせるのにもお金がかからない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Electric cars are cheaper to run over a long period because of cheaper fuel and maintenance costs.",
+              "ja": "燃料費と整備費がより低額なので，電気自動車を長期にわたって走らせる方が安くすむ。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Gasoline cars are easier to maintain, but electric cars are cheaper to buy and the fuel is less expensive.",
+              "ja": "ガソリン車は整備しやすいが，電気自動車を購入する方が安くすみ，燃料によりお金がかからない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Gasoline cars are more expensive to buy, power, and maintain than most modern electric cars.",
+              "ja": "現代のたいていの電気自動車よりも，ガソリン車を購入し，動力源を供給し，整備する方が高額になる。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "問4\n「弱可正解、\n「情報源Aに基づけば,以下のどれが理由2として最も適切か」［~而司\n0\n修理費はより高くつくけれども，電気自動車を購入する方が安くすみ，走らせる\nのにもお金がかからない。\n②\n燃料費と整備費がより低額なので，電気自動車を長期にわたって走らせる方が安\nくすむ。\nO\nガソリン車は整備しやすいが，電気自動車を購入する方が安くすみ，燃料にもよ\nりお金がかからない。\n④\n現代のたいていの電気自動車よりも，ガソリン車を購入し，動力源を供給し，整\n備する方が高額になる。\n－英R46-\n\n正解は@．情報源Aの第1段落第1文(If you drive…）～第3文(There is no…）で，\nガソリン価格は定期的に上昇し，その傾向は今後も続くはずだ，という内容が述べられ，\nそれを受けて第4文(For that reason…）で「そのため，ガソリン車を走らせるには非常\nにお金がかかるのである」と言及されている。続く第5文(In contrast, the…）では「対\n照的に，電気自動車のバッテリーに充電する費用ははるかに安く，バッテリーがもっと効\n率的になるにつれ，その価格は時間とともに上昇するというより下降していく可能性の方\nが高い」と述べられていることから，電気自動車はガソリン車に比べて燃料費が低額であ\nる，とわかる。さらに，第1段落最終文(Therefore, despite the…）に「したがって，最\n初にかかる電気自動車の価格はより高くなるけれども，長期的に見れば，燃料にかかる費\n用が減るために，ドライバーはお金を節約することができる」とあることから，電気自動\n車を長期にわたって走らせる方が安くすむことがわかる。また｛第2段落の内容から，整\n備費に関しても,電気自動車の方が費用を抑えられることがわかる。以上から,正解は②｢燃\n料費と整備費がより低額なので，電気自動車を長期にわたって走らせる方が安くすむ」と\nなる。\n0に関しては，上で述べたように，電気自動車の方が修理費は安くすむ，と述べられて\nいるので誤り。\nOに関しては，上で述べたように，第1段落最終文から，電気自動車の方が価格は高い\nことがわかるので誤り。\n0に関しては，上でも引用した第1段落最終文から，電気自動車の方が価格は高いこと\nがわかるので，この選択肢の「ガソリン車を購入（し，動力源を供給し，整備）する方が\n高額になる」という内容は誤りとなる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "sa_p1_s4",
+              "sa_p1_s6",
+              "sa_p2_s1",
+              "sa_p2_s3"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 44,
+          "stem": {
+            "en": "For REASON 3, you have decided to write <em>An increase in electric cars will cause less disruption to wildlife living near roads because the engines produce less noise.</em> Based on Source B, which option best supports this statement? [44]",
+            "ja": "理由3として，あなたは，『電気自動車が増えるとエンジンが生み出す騒音が減るので，道路の近くに生息する野生生物を混乱させることも減少する』と書くことにした。情報源Bに基づけば，どの選択肢がこの記述を最も支持するか」［44］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "An experiment on owls shows that the closer they live to roads, the greater the noise and the less likely they are to be able to detect their prey.",
+              "ja": "フクロウを対象とする実験が示すところでは，フクロウが生息する場所が道路に近ければ近いほど，騒音は大きくなり，フクロウが獲物を探知できる可能性が低くなる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Research has shown that there are fewer animals and birds living near busy roads because they are likely to be involved in accidents.",
+              "ja": "交通量の多い道路付近に生息する動物や鳥は事故に巻き込まれる可能性が高いので，数は少なくなる，ということを研究は明らかにした。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Scientists searched for wildlife near busy roads and found that there were more small animals living there because owls avoided busy roads.",
+              "ja": "科学者は交通量の多い道路付近の野生生物を探し，フクロウは交通量の多い道路を避けるので，そこにはより多くの小動物が生息していることを発見した。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The data shows that owls prefer to live as far away from noisy roads as possible because there are fewer small animals living there.",
+              "ja": "データが示すところでは，フクロウができる限り騒がしい道路から離れて生息することを好むのは，そうしたところに住む小動物は少ないからである。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "問5\n「瓦司正解①\n「理由3として，あなたは，『電気自動車が増えるとエンジンが生み出す騒音が減るので，\n道路の近くに生息する野生生物を混乱させることも減少する』と書くことにした。情報源\nBに基づけば,どの選択肢がこの記述を最も支持するか」［~亙司\n0フクロウを対象とする実験が示すところでは，フクロウが生息する場所が道路に\n近ければ近いほど，騒音は大きくなり，フクロウが獲物を探知できる可能性が低く\nなる。\n②\n交通量の多い道路付近に生息する動物や烏は事故に巻き込まれる可能性が高いの\nで，数は少なくなる，ということを研究は明らかにした。\nO\n科学者は交通量の多い道路付近の野生生物を探し，フクロウは交通量の多い道路\nを避けるので，そこにはより多くの小動物が生息していることを発見した。\n、\nデータが示すところでは，フクロウができる限り騒がしい道路から離れて生息す\nることを好むのは，そうしたところに住む小動物は少ないからである。\n正解は0．情報源Bのグラフでは，実線が示している騒音レベルは道路までの距離が近\nいほど大きく，点線が示している獲物の探知可能性は道路までの距離が近いほど低くなっ\nており，これは，情報源Bの最終文(They discovered that…）で述べられている「研究\n者たちは，ガソリン車が生み出す騒音が，フクロウが食料として狩る小動物の存在を探知\nするフクロウの能力を混乱させていることを発見した」という記述内容と合致している。\n以上のことから，正解は0とわかる。\n@, 0,0はいずれも情報源Bとグラフからは読み取れない内容なので誤り。\n－英R47-\n\nｊ’１\n現文\n１ヤ\nン\nナ\nン\nイ\n要\nＡ\nＢ\n表ド\nプン\nレ\nョ\nイ\nデ\n源\n源\n概\n一\nシシ\nエ\nラ\nエ\nト\n報\n報\n句リ\nテｆ\nｆ\n口\n情\n情\n語旺\nス\nヤ\nポ\nな\nｆ\nキ\nし\n主\n・問題冊子を参照のこと。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "sb_s3"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage_outline": {
+          "label_ja": "語句・表現（現文の訳における代表的な単語など）",
+          "items": [
+            {
+              "en": "work on…",
+              "ja": "「…に取り組む」"
+            },
+            {
+              "en": "essay圓",
+              "ja": "「(学生に課される）レポート」"
+            },
+            {
+              "en": "a range of .\"",
+              "ja": "「さまざまな\"･」"
+            },
+            {
+              "en": "take a position on…",
+              "ja": "「…に関する立場を示す」"
+            },
+            {
+              "en": "switCh h･omAto B ｢AからBへ切り替える」"
+            },
+            {
+              "en": "gas emission",
+              "ja": "「ガスの排出（量)」"
+            },
+            {
+              "en": "charge園",
+              "ja": "「…を充電する」"
+            },
+            {
+              "en": "compared to…",
+              "ja": "「…と比較して」"
+            },
+            {
+              "en": "develop団",
+              "ja": "「…を発症する」"
+            },
+            {
+              "en": "breathing problem ldifficultyl",
+              "ja": "「呼吸障害」"
+            },
+            {
+              "en": "a wide range of…",
+              "ja": "「多様な…；広範な…」"
+            },
+            {
+              "en": "the range of distance",
+              "ja": "「走行距離」rangeはここでは「走行［航続］距離（車・飛行機などが1回の燃料補給で走行［飛行］できる距離)」という意味。"
+            },
+            {
+              "en": "cover回",
+              "ja": "「(ある距離）を移動する［行く］」"
+            },
+            {
+              "en": "keep up with…",
+              "ja": "「…に遅れないでついていく」"
+            },
+            {
+              "en": "charging point",
+              "ja": "「充電スタンド」"
+            },
+            {
+              "en": "address団",
+              "ja": "「…に取り組む」"
+            },
+            {
+              "en": "before electric cars are taken more seriously",
+              "ja": "「電気自動車がもっと重要視されるようにするには」beforeはここでは「…するためには；…するまでに」という意味の接続訶。"
+            },
+            {
+              "en": "take ... seriously",
+              "ja": "｢･\"を重要視する；…を真剣に受け止める｣"
+            },
+            {
+              "en": "lifespan圏",
+              "ja": "「(生物体の）寿命;(製品・組織などの）存続期間"
+            },
+            {
+              "en": "greenhouse gas emission",
+              "ja": "「温室効果カスの排出（量)」"
+            },
+            {
+              "en": "last団",
+              "ja": "「<物が良好な状態で〉もつ；持続する」(生産時からの）全過程」"
+            },
+            {
+              "en": "encourage O to -",
+              "ja": "「一するようOを促す」"
+            },
+            {
+              "en": "terrible囮",
+              "ja": "「ひどい；よくない」"
+            },
+            {
+              "en": "significantly団",
+              "ja": "「大きく；著しく」"
+            },
+            {
+              "en": "fix団",
+              "ja": "「…を修理する」"
+            },
+            {
+              "en": "break down",
+              "ja": "「故障する」"
+            },
+            {
+              "en": "be worried that…",
+              "ja": "「…ということを心配する［不安に思う]」"
+            },
+            {
+              "en": "green囮",
+              "ja": "「環境にやさしい」"
+            },
+            {
+              "en": "leak団",
+              "ja": "「…を漏らす」"
+            },
+            {
+              "en": "toxic囮",
+              "ja": "「有毒な」"
+            },
+            {
+              "en": "promote団",
+              "ja": "「…を促進する」"
+            },
+            {
+              "en": "move toward…",
+              "ja": "「…への移行」"
+            },
+            {
+              "en": "in favor of…",
+              "ja": "「･･･を支持して」"
+            },
+            {
+              "en": "-fueled囮",
+              "ja": "「…で燃料を供給される」"
+            },
+            {
+              "en": "regularly副",
+              "ja": "「定期的に」"
+            },
+            {
+              "en": "in terms of…",
+              "ja": "「…の（観）点で［からすると]」"
+            },
+            {
+              "en": "initial囮",
+              "ja": "「最初の」"
+            },
+            {
+              "en": "in the long-term",
+              "ja": "「長期的には」"
+            },
+            {
+              "en": "reduced囮",
+              "ja": "「減少された｣Oallow O to- ｢Oが一することを可能にする」"
+            },
+            {
+              "en": "in addition",
+              "ja": "「さらに；加えて」"
+            },
+            {
+              "en": "maintenance園",
+              "ja": "「整備」"
+            },
+            {
+              "en": "moving part",
+              "ja": "｢(車を）動かすための部品」"
+            },
+            {
+              "en": "go wrong",
+              "ja": "「調子が悪くなる」"
+            },
+            {
+              "en": "man-made園",
+              "ja": "「人間によって作られた；人間が引き起こす」"
+            },
+            {
+              "en": "predict that…",
+              "ja": "「…と予測する」"
+            },
+            {
+              "en": "disrupt団",
+              "ja": "「･･･を混乱させる」"
+            },
+            {
+              "en": "the effect of A on B ｢AのBへの影響;AがBに及ぼす影響」"
+            },
+            {
+              "en": "owl囹",
+              "ja": "「フクロウ」"
+            },
+            {
+              "en": "detect団",
+              "ja": "「…を検知する；…を見つける」"
+            },
+            {
+              "en": "preSenCe囹",
+              "ja": "「存在」－英R48-"
+            },
+            {
+              "en": "diSposal囹",
+              "ja": "「処理」"
+            },
+            {
+              "en": "incidence圏",
+              "ja": "「発生」"
+            },
+            {
+              "en": "maintain回",
+              "ja": "「…を整術する」"
+            },
+            {
+              "en": "disruption囹",
+              "ja": "「混乱」"
+            },
+            {
+              "en": "be involved in…",
+              "ja": "「…に巻き込まれる」"
+            },
+            {
+              "en": "dissatisfy団",
+              "ja": "「…に不満を抱かせる」"
+            },
+            {
+              "en": "now that…",
+              "ja": "「(今や）…ので」"
+            },
+            {
+              "en": "p ower団",
+              "ja": "「…に動力源を供給する」"
+            },
+            {
+              "en": "cause A to B ｢AをBに引き起こす」"
+            }
+          ]
+        },
+        "question_kw": {
+          "label_ja": "設問文・選択肢",
+          "items": [
+            {
+              "en": "prey囹",
+              "ja": "「獲物」"
+            },
+            {
+              "en": "search for…",
+              "ja": "「･“を探す」"
             }
           ]
         }

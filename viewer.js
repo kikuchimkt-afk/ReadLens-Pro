@@ -303,6 +303,97 @@ function renderPassage() {
       }
     }
 
+    // Presentation outline in a box (駿台 第7問など)
+    if (passage.presentation_outline) {
+      const po = passage.presentation_outline;
+      if (po.label_outside_box && po.label_outside_box.en) {
+        html += `<div class="presentation-outline-label">${po.label_outside_box.en}</div>`;
+        if (po.label_outside_box.ja) {
+          html += `<div class="choice-text-ja">${po.label_outside_box.ja}</div>`;
+        }
+      }
+      html += '<div class="presentation-outline-box">';
+      if (po.title && po.title.en) {
+        html += `<div class="presentation-outline-inner-title">${po.title.en}</div>`;
+        if (po.title.ja) {
+          html += `<div class="presentation-outline-inner-title-ja choice-text-ja">${po.title.ja}</div>`;
+        }
+      }
+      const blocks = po.blocks || [];
+      for (const bl of blocks) {
+        const btype = bl.type;
+        if (btype === 'adaptations_heading') {
+          html += `<div class="presentation-outline-section-row">`;
+          html += `<span class="presentation-outline-strong">${bl.heading.en}</span>`;
+          const slotAfter = typeof bl.slot_after_heading === 'number' ? `<span class="answer-slot">${bl.slot_after_heading}</span>` : '';
+          if (slotAfter) html += ` ${slotAfter}`;
+          html += `</div>`;
+          if (bl.heading.ja) {
+            html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+          }
+          html += `<ul class="presentation-outline-lines">`;
+          for (const line of bl.lines || []) {
+            html += `<li>${line.en}`;
+            if (line.ja) html += `<div class="choice-text-ja">${line.ja}</div>`;
+            html += '</li>';
+          }
+          html += '</ul>';
+        } else if (btype === 'section_heading_lines') {
+          html += `<div class="presentation-outline-strong">${bl.heading.en}</div>`;
+          if (bl.heading.ja) {
+            html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+          }
+          html += `<div class="presentation-outline-bullets">`;
+          for (const b of bl.bullets || []) {
+            const t = String(b.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="presentation-outline-bullet">— ${t}`;
+            if (b.ja) {
+              const tj = String(b.ja).replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="choice-text-ja">${tj}</div>`;
+            }
+            html += '</div>';
+          }
+          html += '</div>';
+        } else if (btype === 'center_slot') {
+          html += `<div class="presentation-outline-strong">${bl.heading.en}</div>`;
+          if (bl.heading.ja) {
+            html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+          }
+          if (typeof bl.center_slot === 'number') {
+            html += `<div class="presentation-outline-center-slot"><span class="answer-slot">${bl.center_slot}</span></div>`;
+          }
+        } else if (btype === 'function_slot') {
+          html += `<div class="presentation-outline-strong">${bl.heading.en}</div>`;
+          if (bl.heading.ja) {
+            html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+          }
+          html += `<div class="presentation-outline-bullets">`;
+          for (const b of bl.bullets || []) {
+            const t = String(b.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="presentation-outline-bullet">— ${t}`;
+            if (b.ja) {
+              const tj = String(b.ja).replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="choice-text-ja">${tj}</div>`;
+            }
+            html += '</div>';
+          }
+          html += '</div>';
+        } else if (btype === 'slot_heading_list') {
+          html += `<div class="presentation-outline-slot-heading-row">`;
+          html += `<span class="answer-slot">${bl.slot}</span>`;
+          html += `</div>`;
+          html += `<ul class="presentation-outline-lines presentation-outline-muted-bullets">`;
+          for (const line of bl.lines || []) {
+            html += `<li>${line.en}`;
+            if (line.ja) html += `<div class="choice-text-ja">${line.ja}</div>`;
+            html += '</li>';
+          }
+          html += '</ul>';
+        }
+      }
+      html += '</div>'; // .presentation-outline-box
+    }
+
     // Sections format: §1〜§6 with sentences inside each section (e.g., 2024 Section 5)
     if (passage.sections) {
       for (let si = 0; si < passage.sections.length; si++) {
@@ -1210,6 +1301,17 @@ function setupAudioButtons() {
   });
 }
 
+function escapeHtmlPreserve(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\n/g, '<br>')
+    // 解説冊子の下線を再現するため <u>…</u> のみ復元（trusted ビルド済みデータ）
+    .replace(/&lt;u&gt;([\s\S]*?)&lt;\/u&gt;/g, '<u>$1</u>');
+}
+
 // ===== Render Questions (Right Pane) =====
 function renderQuestions() {
   const sec = currentSection;
@@ -1244,6 +1346,26 @@ function renderQuestions() {
     // Stem ja (hidden by default)
     if (stemObj && stemObj.ja) {
       html += `<div class="choice-text-ja" style="margin-bottom:10px; margin-top:-8px;">${stemObj.ja}</div>`;
+    }
+
+    // Letter-keyed definitions (e.g. A–F listed before 「組み合わせ」選択肢)
+    if (Array.isArray(q.info_options) && q.info_options.length > 0) {
+      html += '<ul class="info-options">';
+      for (const opt of q.info_options) {
+        const lab = escapeHtmlPreserve(opt.label || '');
+        const en = escapeHtmlPreserve(opt.en || '');
+        const ja = escapeHtmlPreserve(opt.ja || '');
+        html +=
+          `<li class="info-option-item">` +
+          `<span class="info-option-letter">${lab}</span>` +
+          `<span class="info-option-colon"> : </span>` +
+          `<span class="info-option-en">${en}</span>`;
+        if (ja) {
+          html += `<div class="choice-text-ja info-option-ja">${ja}</div>`;
+        }
+        html += `</li>`;
+      }
+      html += '</ul>';
     }
 
     // Question-level figure (e.g. four-panel picture choices for problem 3)
@@ -1455,15 +1577,6 @@ function renderExplanation(q) {
 
   html += '</div>';
   return html;
-}
-
-function escapeHtmlPreserve(s) {
-  if (s == null) return '';
-  return String(s)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/\n/g, '<br>');
 }
 
 // ===== Ordering Click Handler =====

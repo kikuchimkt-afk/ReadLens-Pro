@@ -166,6 +166,19 @@ body {
 .print-question-stem {
   margin-bottom: 8px;
 }
+.print-info-options {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 8px 1.25em;
+}
+.print-info-option-item {
+  margin-bottom: 3px;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+.print-info-option-letter {
+  font-weight: 700;
+}
 .print-answer-slot {
   display: inline-block;
   border: 1px solid #333;
@@ -186,6 +199,82 @@ body {
 .print-choice-label {
   font-weight: 700;
   flex-shrink: 0;
+}
+
+/* 設問：共有パネル画像（問35など）・選択肢内の画像 */
+.print-question-figure {
+  clear: both;
+  margin: 10px 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.print-question-choice-figure {
+  float: none !important;
+  display: inline-block;
+  max-width: 100% !important;
+  width: auto;
+  height: auto;
+  margin: 6px auto !important;
+}
+.print-choice-inline-img {
+  float: none !important;
+  max-width: 160px !important;
+  vertical-align: top;
+  margin: 4px 0 !important;
+  display: inline-block;
+}
+.print-choices-picture-tier li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+/* 第7問 発表の概要（問題用） */
+.print-presentation-outline {
+  margin-top: 12px;
+}
+.print-outline-outside-label {
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 11pt;
+}
+.print-outline-box {
+  border: 2px solid #333;
+  padding: 12px 14px;
+  background: #fafafa;
+  page-break-inside: avoid;
+}
+.print-outline-inner-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 11pt;
+}
+.print-outline-section-heading {
+  margin: 8px 0 4px;
+  font-size: 10pt;
+}
+.print-outline-list {
+  margin: 4px 0 6px;
+  padding-left: 22px;
+  font-size: 10pt;
+}
+.print-outline-list.print-outline-muted {
+  color: #333;
+}
+.print-outline-bullets {
+  margin: 4px 0 6px;
+  padding-left: 6px;
+  font-size: 10pt;
+}
+.print-outline-bullet {
+  margin: 4px 0;
+}
+.print-outline-center-slot {
+  text-align: center;
+  margin: 8px 0;
+}
+.print-outline-slot-row {
+  margin: 8px 0 4px;
 }
 
 /* Image */
