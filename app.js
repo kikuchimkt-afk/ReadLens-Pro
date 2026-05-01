@@ -132,22 +132,32 @@ document.addEventListener('DOMContentLoaded', async () => {
   const app = document.getElementById('app');
   const loading = document.getElementById('loading');
 
-  // 最後に開いていたexam IDを取得（ビューアからの復帰用）
+  // 最後に開いていた exam ID / group key を取得（ビューアからの復帰用）
   const lastExamId = localStorage.getItem('readlens_last_exam') || '';
+  const lastGroupKey = localStorage.getItem('readlens_last_group') || '';
 
   try {
+    const groups = groupExams(EXAM_REGISTRY);
     let html = '';
-    for (let i = 0; i < EXAM_REGISTRY.length; i++) {
-      html += await renderExamBlock(EXAM_REGISTRY[i], i, lastExamId);
+    for (let gi = 0; gi < groups.length; gi++) {
+      html += await renderYearGroup(groups[gi], gi, lastExamId, lastGroupKey);
     }
     loading.style.display = 'none';
     app.insertAdjacentHTML('beforeend', html);
 
-    // アコーディオン開閉時にlocalStorageを更新
+    // 内側アコーディオン（各回）の開閉
     app.querySelectorAll('.exam-details').forEach(details => {
       details.addEventListener('toggle', () => {
         if (details.open) {
           localStorage.setItem('readlens_last_exam', details.dataset.examId);
+        }
+      });
+    });
+    // 外側アコーディオン（年グループ）の開閉
+    app.querySelectorAll('.exam-year-group').forEach(details => {
+      details.addEventListener('toggle', () => {
+        if (details.open) {
+          localStorage.setItem('readlens_last_group', details.dataset.groupKey);
         }
       });
     });
@@ -165,8 +175,59 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
+// ===== EXAM_REGISTRY を「出版社 × 年」でグループ化 =====
+function groupExams(list) {
+  const map = new Map();
+  const groups = [];
+  for (const ex of list) {
+    const key = `${ex.publisher}__${ex.year}`;
+    if (!map.has(key)) {
+      const g = { key, publisher: ex.publisher, series: ex.series, year: ex.year, exams: [] };
+      map.set(key, g);
+      groups.push(g);
+    }
+    map.get(key).exams.push(ex);
+  }
+  return groups;
+}
+
+function groupLabel(g) {
+  if (g.publisher === '駿台') return `駿台 ${g.series} ${g.year}`;
+  return `${g.publisher} ${g.year}年度`;
+}
+
+function groupIcon(g) {
+  return g.publisher === '駿台' ? '📚' : '🏛';
+}
+
+async function renderYearGroup(group, gi, lastExamId, lastGroupKey) {
+  const containsLast = group.exams.some(e => e.id === lastExamId);
+  let body = '';
+  for (let i = 0; i < group.exams.length; i++) {
+    body += await renderExamBlock(group.exams[i], i, lastExamId, containsLast);
+  }
+  // 開閉判定: 直近開いていた exam を含む年 > 直近開いていた group の復元のみ
+  // 初回訪問（履歴なし）はすべて閉じた状態をデフォルトにする
+  let isOpen = '';
+  if (lastExamId && containsLast) isOpen = 'open';
+  else if (!lastExamId && lastGroupKey === group.key) isOpen = 'open';
+
+  const countLabel = group.exams.length > 1 ? `<span class="exam-year-count">${group.exams.length}回</span>` : '';
+  return `
+    <section class="exam-year-block">
+      <details class="exam-year-group" data-group-key="${group.key}" ${isOpen}>
+        <summary class="exam-year-summary">
+          <h2 class="exam-year-title"><span class="icon">${groupIcon(group)}</span>${groupLabel(group)}</h2>
+          ${countLabel}
+        </summary>
+        <div class="exam-year-body">${body}</div>
+      </details>
+    </section>
+  `;
+}
+
 // ===== 問題集ブロックの描画 =====
-async function renderExamBlock(exam, index, lastExamId) {
+async function renderExamBlock(exam, indexInGroup, lastExamId, isFirstGroup) {
   let data = null;
   try {
     const resp = await fetch(exam.dataPath);
@@ -214,8 +275,9 @@ async function renderExamBlock(exam, index, lastExamId) {
     `;
   }
 
-  // 最後に見ていたexam IDと一致なら開く、なければ最初の項目を開く
-  const isOpen = lastExamId ? (exam.id === lastExamId ? 'open' : '') : (index === 0 ? 'open' : '');
+  // 最後に見ていた exam ID と一致したときだけ open。
+  // 初回訪問（履歴なし）はすべて閉じた状態をデフォルトにする。
+  const isOpen = (lastExamId && exam.id === lastExamId) ? 'open' : '';
   return `
     <section class="exam-block">
       <details class="exam-details" data-exam-id="${exam.id}" ${isOpen}>
