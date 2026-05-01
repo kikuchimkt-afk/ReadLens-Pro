@@ -1099,7 +1099,10 @@ function setupSentencePopup() {
   const pane = document.getElementById('pane-passage');
 
   pane.addEventListener('click', (e) => {
-    const sent = e.target.closest('.sentence.highlighted');
+    // 解説モード（.sentence.highlighted）に限定せず，すべての .sentence でポップアップ表示。
+    // ただし sentence 内に audio button などのインタラクティブ要素があれば，それは無視する。
+    if (e.target.closest('.btn-audio, .popup-close')) return;
+    const sent = e.target.closest('.sentence');
 
     // Close existing popup
     const existing = document.querySelector('.sentence-popup');
@@ -1136,7 +1139,7 @@ function setupSentencePopup() {
 
   // Close popup when clicking outside
   document.addEventListener('click', (e) => {
-    if (!e.target.closest('.sentence.highlighted') && !e.target.closest('.sentence-popup')) {
+    if (!e.target.closest('.sentence') && !e.target.closest('.sentence-popup')) {
       const existing = document.querySelector('.sentence-popup');
       if (existing) existing.remove();
     }
