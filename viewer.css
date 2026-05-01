@@ -1105,6 +1105,43 @@
   border: 1px solid #999;
 }
 
+/* Speaker-boxed opinion rendering (Section 8 Step 1, etc.) */
+.opinion-box {
+  border: 1px solid #c9d3cc;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 0 0 14px 0;
+  background: #ffffff;
+}
+.opinion-box .para-audio-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.opinion-box .para-content {
+  flex: 1;
+  min-width: 0;
+}
+.opinion-speaker {
+  font-weight: 700;
+  font-size: 1.0rem;
+  color: #2d3a30;
+  margin: 0 0 6px 0;
+  padding-bottom: 4px;
+  border-bottom: 1px dashed #d8dfd8;
+}
+.opinion-speaker .sentence {
+  cursor: pointer;
+}
+.opinion-speaker-ja {
+  margin: 0 0 8px 0;
+  font-size: 0.78rem;
+  color: #6b7770;
+}
+.opinion-box .passage-paragraph {
+  margin: 0 0 6px 0;
+}
+
 /* Multi-Answer Slots */
 .multi-answer-slots {
   display: flex;

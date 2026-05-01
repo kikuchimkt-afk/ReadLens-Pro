@@ -491,6 +491,43 @@ function renderPassage() {
             html += '</div>';
           }
           html += '</td></tr>';
+        } else if (passage.layout === 'speaker_boxes') {
+          // Speaker-boxed rendering: each paragraph (= one opinion) is wrapped in a bordered box.
+          // The sentence whose id ends with _h is treated as the speaker name (bold header).
+          html += '<div class="opinion-box">';
+          html += '<div class="para-audio-row">';
+          html += '<div class="para-content">';
+          let headerSent = null;
+          const bodySents = [];
+          for (const s of para) {
+            if (!headerSent && /_h$/.test(s.id || '')) {
+              headerSent = s;
+            } else {
+              bodySents.push(s);
+            }
+          }
+          if (headerSent) {
+            html += '<div class="opinion-speaker">';
+            html += `<span class="sentence" data-sid="${headerSent.id}">${headerSent.en}</span>`;
+            html += '</div>';
+            html += '<div class="passage-ja-block opinion-speaker-ja">';
+            html += `<div class="sentence-ja" data-sid-ja="${headerSent.id}">${headerSent.ja}</div>`;
+            html += '</div>';
+          }
+          html += '<p class="passage-paragraph">';
+          for (const s of bodySents) {
+            html += `<span class="sentence" data-sid="${s.id}">${s.en}</span> `;
+          }
+          html += '</p>';
+          html += '<div class="passage-ja-block">';
+          for (const s of bodySents) {
+            html += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div>`;
+          }
+          html += '</div>';
+          html += '</div>';
+          html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
+          html += '</div>';
+          html += '</div>';
         } else if (passage.block_separators && passage.block_separators.length > 0) {
           // Block-based rendering: group paragraphs into blocks separated by ◆◆◆◆◆
           // Handled below after the loop
