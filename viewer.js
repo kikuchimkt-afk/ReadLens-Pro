@@ -431,12 +431,14 @@ function renderPassage() {
             // Array of sentences (legacy format)
             html += '<p class="passage-paragraph">';
             for (const sent of para) {
-              html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+              const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
             }
             html += '</p>';
             html += '<div class="passage-ja-block">';
             for (const sent of para) {
-              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</div>`;
+              const jaText = String(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${jaText}</div>`;
             }
             html += '</div>';
           }
@@ -449,6 +451,35 @@ function renderPassage() {
         if (passage.graph_image && passage.graph_image.after_paragraph === (pi + 1)) {
           const imgBase = currentDataPath.replace(/data\.json$/, '');
           html += `<div class="chart-image-container"><img class="chart-image" src="${imgBase}${passage.graph_image.src}" alt="${passage.graph_image.alt || 'Graph'}"></div>`;
+        }
+        // Inline data table after specified paragraph (1-indexed) — for schedule tables embedded in email body etc.
+        if (passage.table && passage.table.after_paragraph === (pi + 1)) {
+          const tbl = passage.table;
+          html += '<div class="data-table-container">';
+          if (tbl.title) {
+            html += `<div class="data-table-title">${tbl.title.en}</div>`;
+            if (tbl.title.ja) {
+              html += `<div class="data-table-title-ja choice-text-ja">${tbl.title.ja}</div>`;
+            }
+          }
+          html += '<table class="data-table"><thead><tr>';
+          for (const h of tbl.headers) {
+            html += `<th>${String(h).replace(/\n/g, '<br>')}</th>`;
+          }
+          html += '</tr></thead><tbody>';
+          for (const row of tbl.rows) {
+            const cells = Array.isArray(row) ? row : (row.cells || []);
+            const naCells = (row && row.na_cells) || [];
+            html += '<tr>';
+            for (let ci = 0; ci < cells.length; ci++) {
+              const isNA = naCells.includes(ci);
+              html += `<td${isNA ? ' class="na-cell"' : ''}>${cells[ci]}</td>`;
+            }
+            html += '</tr>';
+          }
+          html += '</tbody></table></div>';
+          // Mark so the bottom rendering doesn't repeat it
+          tbl._renderedInline = true;
         }
         // Info box with image after specified paragraph (1-indexed)
         if (passage.info_box && passage.info_box.after_paragraph === (pi + 1)) {
@@ -484,12 +515,14 @@ function renderPassage() {
             const para = paragraphs[pi];
             html += `<p class="passage-paragraph para-indent">`;
             for (const sent of para) {
-              html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+              const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
             }
             html += '</p>';
             html += '<div class="passage-ja-block">';
             for (const sent of para) {
-              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</div>`;
+              const jaText = String(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${jaText}</div>`;
             }
             html += '</div>';
           }
@@ -529,8 +562,8 @@ function renderPassage() {
         html += '</tbody></table>';
       }
 
-      // Data table (e.g. Monthly Rent)
-      if (passage.table) {
+      // Data table (e.g. Monthly Rent) — skip if already rendered inline above via after_paragraph
+      if (passage.table && !passage.table._renderedInline) {
         const tbl = passage.table;
         html += '<div class="data-table-container">';
         if (tbl.title) {

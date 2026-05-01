@@ -10,7 +10,9 @@
     "implemented_sections": [
       1,
       2,
-      3
+      3,
+      4,
+      5
     ],
     "source_pdf_mondai": "第1回_問題.pdf",
     "source_pdf_kaitou": "第1回_解説.pdf",
@@ -1351,6 +1353,1470 @@
             {
               "en": "relieved",
               "ja": "ほっとした"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ添削（教師コメントに基づく挿入・置換）",
+      "situation": {
+        "en": "In English class, you are writing an essay about the benefits to students of volunteering. This is your most recent draft. You are now working on improvements based on comments from your teacher.",
+        "ja": "英語の授業で，あなたはボランティア活動が学生にもたらす恩恵についてレポートを書いています。以下が最新の草稿です。あなたは今，先生の意見に基づいて改良に取り組んでいます。"
+      },
+      "passages": [
+        {
+          "id": "volunteer_essay",
+          "title": {
+            "en": "The Benefits of Volunteering",
+            "ja": "ボランティア活動の恩恵"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "ve_s1",
+                "en": "While academic results and sporting achievements are important, volunteering is one of the most rewarding experiences for a student to have.",
+                "ja": "学校の成績とスポーツの実績は重要であるけれども，ボランティア活動は学生が手にする最も価値のある経験の1つである。"
+              },
+              {
+                "id": "ve_s2",
+                "en": "Volunteering is a great way for young people to help their local community or protect the environment.",
+                "ja": "ボランティア活動は，若者が地域社会を支援したり，環境を保護するためのすばらしい方法だ。"
+              },
+              {
+                "id": "ve_s3",
+                "en": "It is also a good way for students to build up knowledge and experience for their future.",
+                "ja": "それはまた，学生が将来に向けての知識と経験を増やしていくためのよい方法でもある。"
+              }
+            ],
+            [
+              {
+                "id": "ve_s4",
+                "en": "One advantage of volunteering is the development of new skills.",
+                "ja": "ボランティア活動の利点の1つは新たな技能の構築である。"
+              },
+              {
+                "id": "ve_s5",
+                "en": "Students can learn leadership, teamwork, problem-solving, and communication skills by taking part in volunteering activities.",
+                "ja": "学生はボランティア活動に参加することによって，リーダーシップやチームワークや問題解決やコミュニケーションの技能を身につけることができる。"
+              },
+              {
+                "id": "ve_s6",
+                "en": "There are few chances for students to develop these skills at school because of the busy timetable, but practicing them through volunteering will prepare students well for when they become adults.",
+                "ja": "学校では忙しいタイムスケジュールのために，学生がこうした技能を構築する機会がほとんどないが，ボランティア活動を通してそうした技能を実践することで，大人になる時期に向けて学生は十分な準備をすることになるだろう。",
+                "comment_marker": "(1)",
+                "marker_position": "before",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "ve_s7",
+                "en": "Some volunteering experiences connect to students' future careers.",
+                "ja": "ボランティア活動の経験の中には学生の将来の仕事につながるものもある。",
+                "comment_marker": "(2)",
+                "marker_position": "before",
+                "marker_type": "caret"
+              },
+              {
+                "id": "ve_s8",
+                "en": "For example, students who want to work with children as school or nursery teachers may volunteer to read to children at a library.",
+                "ja": "たとえば，学校の先生や保育士として子どもを相手にする仕事に就きたいと思っている学生は，図書館で進んで子どもに本を読んで聞かせるかもしれない。"
+              },
+              {
+                "id": "ve_s9",
+                "en": "This shows their future employers that they have a deep interest in their careers and that they are hard-working and responsible.",
+                "ja": "こうしたことは将来の雇用者に，自分が仕事に強い関心を持っていることや自分が勤勉で責任を果たすことができる，ということを示すのである。"
+              }
+            ],
+            [
+              {
+                "id": "ve_s10",
+                "en": "Finally, volunteering helps students to meet new people.",
+                "ja": "最後に，ボランティア活動は学生が知らない人と出会うことに役立つ。"
+              },
+              {
+                "id": "ve_s11",
+                "en": "The social world of a high school student is quite small, but by volunteering, they can meet people of different ages and backgrounds.",
+                "ja": "高校という社会的世界はきわめて狭いものだが，ボランティア活動によって，学生は年齢や生い立ちが異なる人々に出会うことができる。"
+              },
+              {
+                "id": "ve_s12",
+                "en": "They can develop a wider worldview by meeting a variety of people and working with them.",
+                "ja": "学生はさまざまな人々と出会い，その人たちとともに働くことによってより広い世界観を育むことができるのである。"
+              }
+            ],
+            [
+              {
+                "id": "ve_s13a",
+                "en": "In summary, through volunteering, students can",
+                "ja": "まとめると，ボランティア活動を通して学生は"
+              },
+              {
+                "id": "ve_s13b",
+                "en": "have a nice time.",
+                "ja": "(3)すてきな時間を過ごすことができる。",
+                "comment_marker": "(3)",
+                "marker_position": "before",
+                "underline_word": "have a nice time"
+              },
+              {
+                "id": "ve_s14a",
+                "en": "They can develop new skills, gain valuable work experience, and",
+                "ja": "学生は新しい技能を構築し，貴重な労働経験を手に入れ，"
+              },
+              {
+                "id": "ve_s14b",
+                "en": "have a lovely time with friends.",
+                "ja": "(4)友人とすばらしい時間を過ごすことができるのである。",
+                "comment_marker": "(4)",
+                "marker_position": "before",
+                "underline_word": "have a lovely time with friends"
+              },
+              {
+                "id": "ve_s15",
+                "en": "There are many opportunities for students to volunteer, so I recommend that everyone find a way to get involved in this kind of rewarding experience.",
+                "ja": "学生がボランティア活動をする機会はたくさんあるので，私はすべての人にこの種の価値ある経験に参加する方法を見つけることを勧める。"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "Insert a connecting word here.",
+              "ja": "ここにつなぎ言葉を入れましょう。"
+            },
+            {
+              "marker": "(2)",
+              "en": "You should add a topic sentence to this section.",
+              "ja": "この節に主題文を加えるべきです。"
+            },
+            {
+              "marker": "(3)",
+              "en": "This doesn't summarize your argument well. Rewrite it.",
+              "ja": "ここはあなたの主張をうまくまとめてはいません。書き直しましょう。"
+            },
+            {
+              "marker": "(4)",
+              "en": "This part does not match what you wrote in the fourth paragraph. Change it.",
+              "ja": "この箇所はあなたが第4段落で書いたことと一致しません。変更しましょう。"
+            }
+          ],
+          "teacher_comment": {
+            "en": "Overall Comments: Your writing is getting better all the time! Keep up the good work! You're right — volunteering is very good for students. ☺",
+            "ja": "全体的なコメント： あなたが書くものは常によくなっています！ 引き続きよい勉強を続けましょう！ あなたの言う通り― ボランティア活動は学生にとって非常によいものです。☺"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on Comment (1), which is the best word to add? [14]",
+            "ja": "「コメント(1)に基づけば，付け加えるのに最もよい語はどれか」［14］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Conveniently,",
+              "ja": "好都合なことに，",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Interestingly,",
+              "ja": "興味深いことに，",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Luckily,",
+              "ja": "幸運なことに，",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Unfortunately,",
+              "ja": "残念なことに，",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。コメント(1)には「ここにつなぎ言葉を入れましょう」とあるので，前後のつながりを自然にする語を選ぶ。\n(1)の直前 (Students can learn…) では「ボランティア活動に参加することによってリーダーシップやチームワーク等の技能を身につけることができる」と肯定的に述べられ，(1)の直後 (There are few chances…) では「学校では忙しいタイムスケジュールのために，学生がこうした技能を構築する機会がほとんどない」と否定的な事実が述べられている。\n「ボランティアでは技能が得られるのに，学校では機会がほとんどない」という逆転の文脈に橋渡しする副詞として「残念なことに」(Unfortunately) が最も自然であるから，正解は④。\n①好都合に／②興味深いことに／③幸運にも はいずれも「機会がほとんどない」という否定的事実に対する話者の評価語としては不自然なので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "ve_s5",
+              "ve_s6"
+            ],
+            "instructor_note": {
+              "ja": "つなぎ語問題（コネクター挿入）は『直前文と直後文の論理関係』を一文で言語化してから選ぶのがコツです。本問の論理関係は『良いこと(技能習得) ↔ 悪いこと(学校に機会なし)』の対比＋話者の感情です。",
+              "points": [
+                "Unfortunately は『残念ながら／話し手にとって望ましくない事実が続くとき』に使う副詞。直後の There are FEW chances ...（機会がほとんどない）という不利な事実とぴったり噛み合う。",
+                "話者の感情を示す副詞（speaker-oriented adverb）の代表例: Unfortunately / Sadly / Surprisingly / Luckily / Fortunately / Interestingly。それぞれが『話者の評価』を文頭で示す。",
+                "①Conveniently は『便利なことに／都合よく』。否定的事実には噛み合わない。",
+                "②Interestingly は『興味深いことに』。続く文は事実報告であって、興味深さの逸話ではないので不適。",
+                "③Luckily は『幸運にも』。続く文は不運な状況なので、意味が真逆。",
+                "頻出表現: there are few chances ...（…の機会がほとんどない）／ practice ... through ~（~を通じて…を実践する）／ prepare A for B（A に B のための準備をさせる）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on Comment (2), which is the best sentence to add? [15]",
+            "ja": "「コメント(2)に基づけば，付け加えるのに最もよい文はどれか」［15］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Another advantage of volunteering is the opportunity to gain valuable work experience.",
+              "ja": "ボランティア活動のもう1つの利点は，貴重な労働経験を手に入れる機会である。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "In addition, volunteers usually meet their future employers when they do volunteer work.",
+              "ja": "加えて，ボランティア従事者は実際に活動をするときに，たいてい将来の雇用者に出会う。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Next, companies want volunteers who already have a lot of important and useful skills.",
+              "ja": "次に，企業はすでに多くの重要で有益な技能を持っているボランティアを欲しがる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Second, volunteering in hospitals or schools is a good way to work with children.",
+              "ja": "第二に，病院や学校でのボランティア活動は，子どもを相手にする仕事に就くためのよい方法だ。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。コメント(2)は「この節に主題文を加えるべきです」なので，第3段落全体の要点となる文を選ぶ。\n第3段落第1文 (Some volunteering experiences…) で「ボランティア活動の経験の中には学生の将来の仕事につながるものもある」と述べられ，続く第2文 (For example, students…) で教師や保育士を志望する学生のボランティア例があげられ，最終文 (This shows their…) で「将来の雇用者に，自分が仕事に強い関心を持っていることや勤勉で責任を果たすことができることを示す」と例を踏まえてボランティア活動が具体的にどう将来の仕事につながるかが述べられている。\nよってこの段落の要点は，ボランティア活動は将来の仕事につながる可能性のある貴重な労働経験を手に入れる機会である，とまとめることができる。また，第3段落は，第2段落で述べられているボランティア活動の利点の1つに続く「もう1つの利点」であると判断できることから，正解は①となる。\n②，③，④の内容はいずれもこの段落の要点とはならないので，どれも誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "ve_s4",
+              "ve_s7",
+              "ve_s8",
+              "ve_s9"
+            ],
+            "instructor_note": {
+              "ja": "Topic sentence（段落の主題文）は『その段落の例・詳細を1文で総括する一般文』です。書き手は『一般 → 例 → まとめ』の順序を意識して書きます。挿入位置(2)が段落冒頭であることが大ヒント。",
+              "points": [
+                "段落構造の見抜き方: 第3段落の中身は『For example, ... read to children at a library / This shows their future employers ...』という具体例の連続。これらを束ねる『一般文』を文頭に立てるのがトピックセンテンス。",
+                "第2段落のトピックセンテンスは『One advantage of volunteering is the development of new skills.』。第3段落のそれと並列なら『Another advantage of volunteering is the ...』という形になるはず。①はまさにこの並列構文。",
+                "②『将来の雇用者に出会う』は本文の This shows their future employers（雇用者に示す）と『見せる側／会う側』のずれ。本文では雇用者と直接会うとは書かれていない。",
+                "③『すでに多くの技能を持つボランティアを企業が欲する』は『学生がボランティアで技能を得る』という本文と主語と動きが反転。",
+                "④『子どもを相手にする仕事に』は段落内の例の1つ(read to children at a library)を主題にしてしまっており、Topic sentence の役目（段落全体の総括）から外れる。",
+                "頻出表現: another advantage of ...（…のもう1つの利点）／ the opportunity to -（…する機会）／ gain valuable work experience（貴重な労働経験を得る）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on Comment (3), which is the best phrase to replace the underlined part? [16]",
+            "ja": "「コメント(3)に基づけば，下線部に代わる最もよい表現はどれか」［16］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "earn some money while they work",
+              "ja": "働きながらいくらかのお金を稼ぐ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "find a new idea for a job",
+              "ja": "仕事のための新しい考えを見つける",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "improve themselves in many ways",
+              "ja": "多くの点で自分自身を向上させる",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "protect nature and the environment",
+              "ja": "自然と環境を保護する",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。コメント(3)は「ここはあなたの主張をうまくまとめてはいません。書き直しましょう」なので，下線部(3)を含む第5段落第1文 (In summary, through volunteering, students can …) がレポート全体の主張をうまくまとめる文となるよう，下線部に代わる表現を選ぶ。\n第2段落 (One advantage…) では，ボランティア活動の利点として「新たな技能の構築」が述べられ，第3段落 (Some volunteering experiences…) では，問2の解説でも触れたとおり「ボランティア活動を通して将来の仕事につながる可能性のある貴重な労働経験を手に入れることができる」というもう1つの利点が述べられている。その後の第4段落 (Finally, volunteering…) では，「ボランティア活動をすることで学生はさまざまな人々と出会い，その人たちと共に働くことによってより広い世界観を育むことができる」というさらにもう1つの利点が述べられている。\n上で述べたボランティア活動の3つの利点はいずれも自分自身の向上 (improve themselves) につながると考えられることから，下線部(3)を「multi-faceted な向上」を表す③ improve themselves in many ways とすると全体の主張の要点を適切に表現する文となるので，正解は③となる。\n①，②，④のいずれを下線部(3)に代えても，全体の主張をうまくまとめた文とはならないので，どれも誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "ve_s4",
+              "ve_s7",
+              "ve_s10",
+              "ve_s12",
+              "ve_s13b"
+            ],
+            "instructor_note": {
+              "ja": "結論段落の総括フレーズは『各段落のトピックセンテンスの総称』である必要があります。第2段落＝技能、第3段落＝労働経験、第4段落＝広い世界観を一括で表す抽象語が答えです。",
+              "points": [
+                "下線部の元の表現 have a nice time（楽しい時間を過ごす）は意味が空疎で『主張の総括』にならない（=コメント(3)の指摘）。",
+                "③ improve themselves in many ways は『in many ways（多面的に）』が決め手。3段落＝3側面の上昇が、まさに『多くの点での自分自身の向上』。",
+                "①『お金を稼ぐ』は本文に登場しない。むしろ第3段落の volunteer to read for free（無料の読み聞かせ）と矛盾する方向。",
+                "②『仕事のための新しい考え』は第3段落の利点の一部のみを表し、第2・第4段落をカバーしない。",
+                "④『自然と環境を保護する』は第1段落の冒頭で出てくる例だが、3段落の利点の総括にはならない（具体例の1つ）。",
+                "頻出表現: in summary（要するに）／ in many ways（多くの点で）／ improve oneself（自分を向上させる）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on Comment (4), which is the best phrase to replace the underlined part? [17]",
+            "ja": "「コメント(4)に基づけば，下線部に代わる最もよい表現はどれか」［17］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "connect with a variety of interesting people",
+              "ja": "さまざまな興味深い人たちとつながりを持つ",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "get together with people with similar opinions",
+              "ja": "同じような意見を持った人と会う",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "make friends with people from their school",
+              "ja": "同じ学校の人と友だちになる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "take care of people younger than them",
+              "ja": "年下の人たちの世話をする",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。コメント(4)は「この箇所はあなたが第4段落で書いたことと一致しません。変更しましょう」なので，下線部(4)の内容が第4段落 (Finally, volunteering…) で述べられていることと一致するよう，下線部(4)に代わる表現を選ぶ。\n第4段落最終文 (They can develop a wider worldview…) では「学生はさまざまな人々と出会い，彼らとともに働くことによってより広い世界観を育むことができるのである」と述べられているが，自分の世界観を広げてくれる人々は自分にとって興味深い人たちであると推測できる。\n下線部(4)を含む第5段落第2文 (They can develop new skills…) を「学生は新しい技能を構築し，貴重な労働経験を手に入れ，さまざまな興味深い人たちとつながりを持つことができるのである」とすると，この箇所が第4段落で述べられていることと一致するので，正解は①となる。\n②，③，④のいずれを下線部(4)に代えても，第4段落で述べられていることと一致する文とはならないので，どれも誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "ve_s11",
+              "ve_s12",
+              "ve_s14b"
+            ],
+            "instructor_note": {
+              "ja": "コメント(4)は『第4段落の内容と一致するように直せ』という指示。第4段落のキーワード a variety of people と meet ~ and work with ~ を必ず含む選択肢を選びます。",
+              "points": [
+                "第4段落の核心: people of different ages and backgrounds（年齢や生い立ちが異なる人々）／ a variety of people（さまざまな人々）／ develop a wider worldview（より広い世界観）。",
+                "①は a variety of (interesting) people と connect with でこのキーワードを直接受けている。",
+                "②『同じような意見の人』は a variety（多様性）の正反対。world view を広げる相手にもなり得ない。",
+                "③『同じ学校の人』は本文 The social world of a high school student is quite small（高校の社会は狭い）の対立軸。むしろこの狭さを克服するのがボランティアの利点。",
+                "④『年下の世話をする』は第3段落の例（保育士志望が読み聞かせ）の話で、第4段落の趣旨ではない。段落の取り違えを誘うひっかけ。",
+                "頻出表現: a variety of ...（さまざまな…）／ connect with ...（…とつながる）／ get together with ...（…と集まる）／ take care of ...（…の世話をする）。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "benefit",
+              "ja": "恩恵"
+            },
+            {
+              "en": "volunteering",
+              "ja": "ボランティア活動；ボランティアに従事すること"
+            },
+            {
+              "en": "draft",
+              "ja": "草稿；下書き"
+            },
+            {
+              "en": "work on ...",
+              "ja": "…に取り組む"
+            },
+            {
+              "en": "improvement",
+              "ja": "改良"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            {
+              "en": "academic result",
+              "ja": "学校の成績；学業成績"
+            },
+            {
+              "en": "sporting achievement",
+              "ja": "スポーツの実績"
+            },
+            {
+              "en": "rewarding",
+              "ja": "価値のある"
+            },
+            {
+              "en": "local community",
+              "ja": "地域社会"
+            },
+            {
+              "en": "build up ...",
+              "ja": "…を増やす"
+            },
+            {
+              "en": "the development of new skills",
+              "ja": "新たな技能の構築"
+            },
+            {
+              "en": "leadership, teamwork, problem-solving, and communication skills",
+              "ja": "リーダーシップ（の技能）やチームワーク（の技能）や問題解決（の技能）やコミュニケーションの技能",
+              "note": "leadership と teamwork と problem-solving と communication はそれぞれ後の skills にかかっている。"
+            },
+            {
+              "en": "take part in ...",
+              "ja": "…に参加する"
+            },
+            {
+              "en": "prepare A for B",
+              "ja": "A に B のための準備をさせる"
+            },
+            {
+              "en": "when they become adults",
+              "ja": "大人になる時期",
+              "note": "when they become adults は関係副詞節で when の直前で先行詞の the time が省略されており，(the time) when they become adults が前置詞 for の目的語となっている。"
+            },
+            {
+              "en": "connect to ...",
+              "ja": "…につながる"
+            },
+            {
+              "en": "nursery teacher",
+              "ja": "保育士"
+            },
+            {
+              "en": "volunteer to -",
+              "ja": "進んで－する"
+            },
+            {
+              "en": "read to ...",
+              "ja": "…に本を読んで聞かせる"
+            },
+            {
+              "en": "hard-working",
+              "ja": "勤勉な"
+            },
+            {
+              "en": "help O to -",
+              "ja": "O が－することを助ける［－することに役立つ］"
+            },
+            {
+              "en": "social world",
+              "ja": "社会的世界"
+            },
+            {
+              "en": "background",
+              "ja": "生い立ち；経歴"
+            },
+            {
+              "en": "worldview",
+              "ja": "世界観"
+            },
+            {
+              "en": "a variety of ...",
+              "ja": "さまざまな［多様な］…"
+            },
+            {
+              "en": "in summary",
+              "ja": "まとめると；要するに"
+            },
+            {
+              "en": "recommend that S + 原形",
+              "ja": "S が…することを勧める"
+            },
+            {
+              "en": "get involved in ...",
+              "ja": "…に参加する［従事する］"
+            }
+          ]
+        },
+        "comments": {
+          "items": [
+            {
+              "en": "insert",
+              "ja": "…を入れる"
+            },
+            {
+              "en": "connecting word",
+              "ja": "つなぎ言葉（文や段落をつなげるための単語や表現）"
+            },
+            {
+              "en": "add A to B",
+              "ja": "A を B に加える"
+            },
+            {
+              "en": "section",
+              "ja": "節（文章中の節とは文章のまとまりのこと。節が集まると章になる）"
+            },
+            {
+              "en": "summarize",
+              "ja": "…をまとめる［要約する］"
+            },
+            {
+              "en": "argument",
+              "ja": "主張"
+            },
+            {
+              "en": "match",
+              "ja": "…と一致する"
+            },
+            {
+              "en": "overall",
+              "ja": "全体［全般］的な"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "conveniently",
+              "ja": "好都合なことに"
+            },
+            {
+              "en": "unfortunately",
+              "ja": "残念なことに"
+            },
+            {
+              "en": "when they do volunteer work",
+              "ja": "彼ら（ボランティア従事者）が実際に活動をするとき",
+              "note": "do は後の動詞の原形を強調する助動詞で「実際に；確かに」という意味。"
+            },
+            {
+              "en": "replace",
+              "ja": "…にとって代わる"
+            },
+            {
+              "en": "in many ways",
+              "ja": "多くの点で"
+            },
+            {
+              "en": "connect with ...",
+              "ja": "…とつながりを持つ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "description": "メール往復・スケジュール表・配置図",
+      "situation": {
+        "en": "You are an exchange student in the UK. You recently became the leader of the university's International Society, and you are organising an international food fair. You wrote this email to the previous leader, who will help you with this event, and have received his reply.",
+        "ja": "あなたはイギリスにいる交換留学生です。先ごろ，あなたは大学の国際研究会のリーダーになり，国際フードフェアを主催しているところです。あなたは，今回のイベントであなたの手助けをしてくれる前リーダーに以下のメールを書いて送り，彼から返信を受け取りました。"
+      },
+      "passages": [
+        {
+          "id": "tanaka_email",
+          "title": {
+            "en": "From K. Tanaka  ·  August 1, 2025  ·  Subject: International Food Fair",
+            "ja": "K. タナカより  ·  2025年8月1日  ·  件名: 国際フードフェア"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "tk_p1_s1",
+                "en": "Hi Ricardo,",
+                "ja": "リカルド，こんにちは。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p2_s1",
+                "en": "Thank you for agreeing to help me organise this event.",
+                "ja": "私が今回のイベントを主催する手助けをすることに同意してくれて，ありがとうございます。"
+              },
+              {
+                "id": "tk_p2_s2",
+                "en": "I'm a little nervous because although it's not my first time to help manage such a large event, my English is still quite poor.",
+                "ja": "このような大きなイベントの運営に手を貸すのは初めてではないのですが，私の英語がまだ非常に未熟なので少し心配です。"
+              },
+              {
+                "id": "tk_p2_s3",
+                "en": "I hope everyone will be able to understand my instructions!",
+                "ja": "みんなが私の指示を理解できるといいのですが！"
+              }
+            ],
+            [
+              {
+                "id": "tk_p3_s1",
+                "en": "In addition to the 8 food tables selling food from various countries, we have arranged some cultural performances for everyone to enjoy.",
+                "ja": "8卓のテーブルでさまざまな国の食べ物を販売することに加えて，みんなが楽しめる文化的な公演を用意しました。"
+              },
+              {
+                "id": "tk_p3_s2",
+                "en": "Please take a look at the schedule.",
+                "ja": "スケジュール表を見てください。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p4_s1",
+                "en": "I think you have been in regular contact with the university's main office because you have booked the main hall.",
+                "ja": "大ホールを予約してくれたことで，リカルドは大学本部と定期的に連絡を取ってきたと思います。"
+              },
+              {
+                "id": "tk_p4_s2",
+                "en": "Can I check that the following details are correct?",
+                "ja": "以下の詳細に間違いがないことを確認してもよいでしょうか。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p5_s1",
+                "en": "• We have access to the hall from 8 a.m. until 5 p.m.",
+                "ja": "• 午前8時から午後5時までホールを利用できる。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p6_s1",
+                "en": "• We have six volunteers from the International Society to prepare the hall.",
+                "ja": "• ホールの準備をするために国際研究会からのボランティアが6人いる。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p7_s1",
+                "en": "• We can use the university's cafeteria kitchen to prepare the food from Friday evening until Saturday evening.",
+                "ja": "• 食べ物の準備をするために大学のカフェテリアのキッチンを金曜の夜から土曜の夜まで使用できる。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p8_s1",
+                "en": "• The drum groups can park near the main hall to avoid carrying their instruments long distances.",
+                "ja": "• 太鼓のグループは，長い距離にわたって楽器を運ばなくて済むように，大ホール近くに駐車することができる。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p9_s1",
+                "en": "Also, I have some more questions for you.",
+                "ja": "また，あなたに訊きたいことがいくつかあります。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p10_s1",
+                "en": "• How many paper plates and cups should we buy?",
+                "ja": "• 紙の皿とコップはいくつ買っておくべきですか。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p11_s1",
+                "en": "• Who will give the opening and closing speeches?",
+                "ja": "• 開会と閉会の挨拶は誰がするのですか。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p12_s1",
+                "en": "• How should we set up the tables and chairs in the hall?",
+                "ja": "• ホールにテーブルと椅子はどのように配置するべきですか。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p13_s1",
+                "en": "If you have any idea of visitor numbers, please let me know!",
+                "ja": "来場者の数に関して何かご存じならば，私に知らせてください！"
+              }
+            ],
+            [
+              {
+                "id": "tk_p14_s1",
+                "en": "I'm really looking forward to the event, despite my nerves. Let me know if you have any questions!",
+                "ja": "不安はありますが，私はこのイベントを心から楽しみにしています。何かご質問があれば知らせてください！"
+              }
+            ],
+            [
+              {
+                "id": "tk_p15_s1",
+                "en": "Best wishes,",
+                "ja": "よろしくお願いします。"
+              }
+            ],
+            [
+              {
+                "id": "tk_p16_s1",
+                "en": "K. Tanaka",
+                "ja": "K. タナカ"
+              },
+              {
+                "id": "tk_p16_s2",
+                "en": "International Society Leader",
+                "ja": "国際研究会リーダー"
+              }
+            ]
+          ],
+          "table": {
+            "title": {
+              "en": "Saturday, September 20, 2025",
+              "ja": "2025年9月20日（土）"
+            },
+            "headers": [
+              "Time",
+              "Performance"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "10 a.m.",
+                  "Opening address, Japanese taiko drum performance"
+                ]
+              },
+              {
+                "cells": [
+                  "12 p.m.",
+                  "Salsa dance display"
+                ]
+              },
+              {
+                "cells": [
+                  "2 p.m.",
+                  "African drum and dance performance"
+                ]
+              },
+              {
+                "cells": [
+                  "3 p.m.",
+                  "New Zealand haka performance, closing address"
+                ]
+              }
+            ],
+            "after_paragraph": 3
+          }
+        },
+        {
+          "id": "ricardo_reply",
+          "title": {
+            "en": "From Ricardo  ·  August 4, 2025  ·  Subject: Re: International Food Fair",
+            "ja": "リカルドより  ·  2025年8月4日  ·  件名: Re: 国際フードフェア"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "rc_p1_s1",
+                "en": "Hi!",
+                "ja": "こんにちは！"
+              }
+            ],
+            [
+              {
+                "id": "rc_p2_s1",
+                "en": "Thank you for sending me the information about the International Food Fair.",
+                "ja": "国際フードフェアの情報を送ってくれてありがとう。"
+              },
+              {
+                "id": "rc_p2_s2",
+                "en": "Please don't be nervous — you are doing a great job!",
+                "ja": "どうか心配しないで — 君はすばらしい仕事をしているよ！"
+              }
+            ],
+            [
+              {
+                "id": "rc_p3_s1",
+                "en": "As for the schedule, I spoke to one of the members of the haka group yesterday, and some of them have to leave early.",
+                "ja": "スケジュールに関して，僕は昨日ハカのグループのメンバーの1人と話をしたんだけど，グループの何人かは早めに帰らなければならないんだ。"
+              },
+              {
+                "id": "rc_p3_s2",
+                "en": "Could you contact Fabio from the salsa dance group and ask him if they could change their performance time to 3 p.m.?",
+                "ja": "サルサダンスのグループのファビオと連絡を取って，公演時間を午後3時に変更できるかどうか訊いてくれないか。"
+              },
+              {
+                "id": "rc_p3_s3",
+                "en": "I think he'll say yes, but please let me know what he says.",
+                "ja": "ファビオは，変更できる，と言うと思うけど，彼がどう言うか僕に教えてください。"
+              }
+            ],
+            [
+              {
+                "id": "rc_p4_s1",
+                "en": "The main hall and the cafeteria kitchen have already been reserved, and the times you mentioned are also fine.",
+                "ja": "大ホールとカフェテリアのキッチンはすでに予約してあって，君の言う時間でも大丈夫だ。"
+              },
+              {
+                "id": "rc_p4_s2",
+                "en": "The tables are stored in a small room next to the main hall.",
+                "ja": "テーブルは大ホールの隣の小さな部屋にしまってある。"
+              }
+            ],
+            [
+              {
+                "id": "rc_p5_s1",
+                "en": "I think one of the volunteers has had to go back to their country suddenly.",
+                "ja": "ボランティアの1人が突然母国に戻らなければならなくなったと思うんだ。"
+              },
+              {
+                "id": "rc_p5_s2",
+                "en": "However, I'll come to help you all from about 8:30.",
+                "ja": "でも，僕は8:30頃からずっと君の手助けをしに行くよ。"
+              }
+            ],
+            [
+              {
+                "id": "rc_p6_s1",
+                "en": "I have sent out a message on social media to check interest in the event.",
+                "ja": "僕はソーシャルメディアでメッセージを発信して，このイベントに対する興味を確認してみた。"
+              },
+              {
+                "id": "rc_p6_s2",
+                "en": "About seventy people said they would definitely come.",
+                "ja": "きっと来場すると言っていた人が約70人いた。"
+              },
+              {
+                "id": "rc_p6_s3",
+                "en": "We bought far too many paper cups and plates last year, so we have enough left.",
+                "ja": "去年僕たちは紙のコップとお皿をたくさん買いすぎたので，十分な数が残っている。"
+              },
+              {
+                "id": "rc_p6_s4",
+                "en": "I'll bring them all on the day of the event.",
+                "ja": "イベント当日に全部持って行くよ。"
+              }
+            ],
+            [
+              {
+                "id": "rc_p7_s1",
+                "en": "Why don't I do the opening address, and you give the closing address?",
+                "ja": "僕が開会の挨拶をして，君が閉会の挨拶をすることにしよう。"
+              },
+              {
+                "id": "rc_p7_s2",
+                "en": "Last year, my friend from Mexico gave a presentation about Mexican food. Could you do something similar?",
+                "ja": "去年メキシコ出身の僕の友だちがメキシコの食べ物についての発表をしたんだ。君も同じようなことをするというのはどうかな。"
+              },
+              {
+                "id": "rc_p7_s3",
+                "en": "Everyone knows about sushi, but I think it would be really good if you gave a quick talk about a Japanese food that is not well-known abroad.",
+                "ja": "お寿司についてはみんな知っているけど，君は外国ではあまり知られていない日本の食べ物について少し話をすればとてもいいと思うんだ。"
+              },
+              {
+                "id": "rc_p7_s4",
+                "en": "I want to talk about how joining the International Society helped me make friends and learn about other cultures when I first arrived here.",
+                "ja": "僕は，初めてこの国にやって来た時，国際研究会の一員になったことが友だちを作ったり，他の文化について知ったりすることにいかに役立ったかについて話したいと思う。"
+              },
+              {
+                "id": "rc_p7_s5",
+                "en": "Tell me what you think!",
+                "ja": "君がどう思うか，教えてくれないか！"
+              }
+            ],
+            [
+              {
+                "id": "rc_p8_s1",
+                "en": "Finally, last year, we placed the food tables at random on the right side of the hall.",
+                "ja": "最後に，去年僕たちは食べ物を置いたテーブルをホールの右側に適当に置いた。"
+              },
+              {
+                "id": "rc_p8_s2",
+                "en": "There were seats in the eating area on the left as you face the stage.",
+                "ja": "椅子はステージに向かって左側の飲食エリアに置いたんだ。"
+              },
+              {
+                "id": "rc_p8_s3",
+                "en": "I think we should change it this year so that the tables are on both sides of the hall with the eating area in the centre.",
+                "ja": "今年は，中央の飲食エリアを囲む形でテーブルがホールの両側に位置するように変えるべきだと思う。"
+              },
+              {
+                "id": "rc_p8_s4",
+                "en": "Let's put the bins for rubbish and recycling near the door, which is at the back of the room.",
+                "ja": "ごみやリサイクルのための容器は部屋の後ろ側にあるドア付近に置くことにしよう。"
+              },
+              {
+                "id": "rc_p8_s5",
+                "en": "There should be space in front of the stage so that everyone can gather there for the performances.",
+                "ja": "公演時にはすべての人が集まれるようにステージの前にはスペースを空けておいた方がいいね。"
+              }
+            ],
+            [
+              {
+                "id": "rc_p9_s1",
+                "en": "Get back to me soon, and keep up the good work!",
+                "ja": "早めの返信をお願いします。この調子で頑張ってください！"
+              }
+            ],
+            [
+              {
+                "id": "rc_p10_s1",
+                "en": "Ricardo",
+                "ja": "リカルド"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 18,
+          "stem": {
+            "en": "According to your email, what is your biggest worry concerning your role as event organiser? [18]",
+            "ja": "「あなたのメールによれば，イベント主催者としての役割に関し，あなたの最大の不安は何か」［18］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A lack of preparation time",
+              "ja": "準備時間の不足",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The difficulty in finding enough volunteers",
+              "ja": "十分なボランティアを見つける難しさ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The number of visitors",
+              "ja": "来場者の数",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Your concern over your language skills",
+              "ja": "言語能力に関する不安",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。「あなた」がリカルドに送ったメールの第2段落第2文 (I'm a little nervous…) 後半で「私の英語がまだ非常に未熟なので少し心配です」と述べられていることから，正解は④となる。\n①，②，③の内容はどれも「あなた」の不安の対象としては言及されていないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "tk_p2_s2"
+            ],
+            "instructor_note": {
+              "ja": "メール送り手の『不安／心配』を問う設問は、本文中の nervous / worried / scared / concerned / poor といった感情・能力評価語をマークしながら読むのが鉄則です。",
+              "points": [
+                "タナカのメール 第2段落第2文 (I'm a little nervous…) の後半 my English is still quite poor が決定打。『英語が未熟』を選択肢では『言語能力(language skills) への不安(concern)』と抽象化している。",
+                "①の準備時間／②のボランティア数／③の来場者数 はすべて、メール本文ではむしろ『順調に進んでいる事実』として述べられているため、不安の対象にはならない。",
+                "頻出語: nervous（不安な）／ concern over ...（…への不安・懸念）／ poor（〈技能などが〉未熟な）／ instructions（指示）。",
+                "Tanaka が新リーダー、Ricardo が前リーダーで助言役、という人物関係を最初に押さえると、続くメール往復の論点が追いやすくなる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 19,
+          "answer_numbers": [
+            19,
+            20
+          ],
+          "stem": {
+            "en": "Which of these titles best match the proposed content of the opening ([19]) and closing ([20]) addresses?",
+            "ja": "「提案されている開会の挨拶（[19]）と閉会の挨拶（[20]）の内容に最もよく合っているのは以下のタイトルのどれか」"
+          },
+          "choices_19": [
+            {
+              "label": "①",
+              "en": "Belonging to the International Society",
+              "ja": "国際研究会の一員であること",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Classic Mexican dishes",
+              "ja": "伝統的なメキシコ料理",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Enjoying sushi",
+              "ja": "お寿司を楽しむこと",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Making foreign friends",
+              "ja": "外国人の友だちを作ること",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Some less-famous Japanese foods",
+              "ja": "それほど有名ではないいくつかの日本の食べ物",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Studying in the UK",
+              "ja": "イギリスで勉強すること",
+              "is_correct": false
+            }
+          ],
+          "choices_20": [
+            {
+              "label": "①",
+              "en": "Belonging to the International Society",
+              "ja": "国際研究会の一員であること",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Classic Mexican dishes",
+              "ja": "伝統的なメキシコ料理",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Enjoying sushi",
+              "ja": "お寿司を楽しむこと",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Making foreign friends",
+              "ja": "外国人の友だちを作ること",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Some less-famous Japanese foods",
+              "ja": "それほど有名ではないいくつかの日本の食べ物",
+              "is_correct": true
+            },
+            {
+              "label": "⑥",
+              "en": "Studying in the UK",
+              "ja": "イギリスで勉強すること",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "19": "①",
+            "20": "⑤"
+          },
+          "explanation": {
+            "quoted_ja": "正解は [19] = ①, [20] = ⑤。リカルドからの返信メールの第7段落第1文 (Why don't I…) で「僕が開会の挨拶をして，君が閉会の挨拶をすることにしよう」と述べ，第4文 (Everyone knows about…) 後半で「あなた」の閉会の挨拶の内容として「君は外国ではあまり知られていない日本の食べ物について少し話をすればとてもよいと思うんだ」と，第5文 (I want to…) では「僕は，初めてこの国にやって来た時，国際研究会の一員になったことが友だちを作ったり，他の文化について知ったりすることにいかに役立ったかについて話したいと思う」と提案している。\nよって [19] 開会 = リカルドのスピーチ = ①，[20] 閉会 = タナカのスピーチ = ⑤。\n②，③，④，⑥の内容はどれも開会および閉会の挨拶の内容としては言及されていないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "rc_p7_s1",
+              "rc_p7_s3",
+              "rc_p7_s4"
+            ],
+            "instructor_note": {
+              "ja": "ダブルスロット問題は『誰が』『何を』話すかを混同させるのが定番の罠です。Why don't I do A, and you give B? の構文で I = リカルド開会、you = タナカ閉会 をまず確定させましょう。",
+              "points": [
+                "誰がどちらの挨拶を担当するか: リカルドの返信 第7段落第1文 Why don't I do the opening address, and you give the closing address? から、I（=リカルド）が開会、you（=タナカ）が閉会、と対応をまず固定する。",
+                "Ricardo（開会）の内容: リカルドの返信 第7段落第5文『joining the International Society helped me make friends and learn about other cultures』→ 国際研究会の一員になったことで得たもの → ① Belonging to the International Society。",
+                "Tanaka（閉会）の内容: リカルドの返信 第7段落第4文『a Japanese food that is not well-known abroad』→ 海外であまり知られていない日本の食べ物 → ⑤ Some less-famous Japanese foods。not well-known abroad ＝ less-famous の言い換え。",
+                "②伝統的メキシコ料理 は同段落第2文に出てくる『去年の友人の発表のテーマ』であって、『今回の』スピーチ内容ではない。時系列の取り違え型の罠。",
+                "③Enjoying sushi は『Everyone knows about sushi』を逆向きに引きずり込んだ罠。本文では sushi を『取り上げない』方向で言及されている。",
+                "④Making foreign friends は第5文の make friends を切り取って意味を狭めた選択肢。Ricardo が話したいのは『国際研究会への加入そのもの』であり『友だちを作る』はその効果の1つにすぎない。",
+                "⑥Studying in the UK は本文に登場しない情報。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "stem": {
+            "en": "Referring to Ricardo's reply, which of the following is likely to be changed? [21]",
+            "ja": "「リカルドの返信を参照すると，以下のどれが変更される可能性が高いか」［21］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Table numbers",
+              "ja": "テーブルの数",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The car parking area",
+              "ja": "駐車区域",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The performance schedule",
+              "ja": "公演スケジュール",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The reservation time for the cafeteria",
+              "ja": "カフェテリアの予約時間",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。リカルドからの返信メールの第3段落第1文 (As for the schedule…) ～第2文 (Could you contact…) で「スケジュールに関して，僕は昨日ハカのグループのメンバーの1人と話をしたんだけど，グループの何人かは早めに帰らなければならないんだ。サルサダンスのグループのファビオと連絡を取って，公演時間を午後3時に変更できるかどうか訊いてくれないか」と，あなたのメールの公演スケジュールにおいて午後12時に予定されているサルサダンスの披露を午後3時に変更することを提案している。よって正解は③となる。\n①，②，④に関しては，どれも変更の対象としては言及されていないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "rc_p3_s1",
+              "rc_p3_s2"
+            ],
+            "instructor_note": {
+              "ja": "『変更される可能性が高いもの』は、Ricardo が『…を変えてくれないか／変えるべき』と提案している箇所をマークすると一目で分かります。change / could you ~ / I think we should change / Why don't ~? に注目。",
+              "points": [
+                "リカルドの返信 第3段落第2文 Could you ... ask him if they could change their performance time to 3 p.m? がスケジュール変更の提案そのもの。Could you ...? は丁寧な依頼表現。",
+                "同段落第1文 の haka group の some of them have to leave early が変更が必要な理由。サルサ(12時)とハカ(3時)を入れ替える形になる。",
+                "①Table numbers は「テーブルの数」だが、本文では『8 food tables』のままで増減の言及なし。Ricardo は『配置』(layout) は変えたいが、数は変えていない。",
+                "②駐車区域はタナカのメール 第8段落の箇条書き（『太鼓グループは大ホール近くに駐車してよい』）に言及されているだけで、変更の対象にはなっていない。",
+                "④カフェテリアの予約時間はリカルドの返信 第4段落第1文で『the times you mentioned are also fine』と確認されているので変更不要。",
+                "頻出表現: as for ...（…に関して言えば）／ have to leave early（早く帰らなければならない）／ change their performance time to ...（公演時間を…に変更する）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 22,
+          "stem": {
+            "en": "Which diagram best represents Ricardo's suggestion for this year's hall layout? [22]",
+            "ja": "「以下の図のどれがリカルドが提案している今年のホールのレイアウトを最も適切に表しているか」［22］"
+          },
+          "figure_image": {
+            "src": "data/sundai/2026/round01/images/q05_question4_layout_choices.png",
+            "alt": "問4 ホール配置5択（ステージ／食べ物テーブル／飲食エリア／ごみ入れ）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。リカルドは返信メールの第8段落第3文 (I think we…) ～最終文 (There should be…) で，ホール内のテーブルや椅子などの配置に関して「今年は，飲食エリアを囲む形でテーブルがホールの両側に位置するように変えるべきだと思う。ごみやリサイクルのための容器は部屋の後ろ側にあるドア付近に置くことにしよう。公演時にはすべての人が集まれるようにステージの前にはスペースを空けておいた方がいいね」と述べている。\nテーブルがホールの両側に配置されるレイアウトを示している図は②のみであるので，正解は②となる。\n①，③，④，⑤の図はどれもリカルドの言う今年のレイアウトを示してはいないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "rc_p8_s3",
+              "rc_p8_s4",
+              "rc_p8_s5"
+            ],
+            "instructor_note": {
+              "ja": "図問題は『本文の指示を3つの条件に分解 → それぞれを5図に当てて○×表を作る』が最速。本問の条件は (a) テーブルは両側 (b) ごみは後ろのドア付近 (c) ステージ前にスペース。",
+              "points": [
+                "条件(a) tables on BOTH SIDES of the hall: ①は左に丸テーブル(飲食)・右に四角(食べ物)で『片側』のみ → ✗。 ②両側に四角(食べ物) → ✓。 ③④⑤も両側ではない or 異なる構図 → ✗。",
+                "条件(b) bins at the back near the door: ②は後方に bins → ✓。 ④は右側に bins → ✗。",
+                "条件(c) space in front of the stage: ②はステージ前が開けている → ✓。 ③⑤は中央に飲食エリアがあって舞台前が詰まっている → ✗。",
+                "今年(this year)の話と去年(last year)の話を取り違えるのが最大の罠。リカルドの返信 第8段落の前半2文 (Finally, last year… / There were seats…) が『去年』の説明で、第3〜5文 (I think we… / The bins… / There should be…) が『今年の提案』。①は去年のレイアウト寄り。",
+                "頻出表現: on both sides of ...（…の両側に）／ in the centre（中央に）／ at the back of ...（…の後ろに）／ in front of ...（…の前に）／ gather（集まる）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 23,
+          "stem": {
+            "en": "You are going to reply to Ricardo's email. In your reply, which two pieces of information should you include? [23]",
+            "ja": "「あなたはリカルドのメールに返信しようとしている。あなたの返信に含むべき2つの情報はどれか」［23］"
+          },
+          "info_options": [
+            {
+              "label": "A",
+              "en": "Fabio's response to your question",
+              "ja": "あなたの問いかけに対するファビオの返答"
+            },
+            {
+              "label": "B",
+              "en": "The availability of the cafeteria kitchen",
+              "ja": "カフェテリアのキッチンが利用できること"
+            },
+            {
+              "label": "C",
+              "en": "The time Ricardo should come to the hall",
+              "ja": "リカルドがホールに来るべき時間"
+            },
+            {
+              "label": "D",
+              "en": "Your thoughts on the speech topics",
+              "ja": "スピーチのテーマに関するあなたの考え"
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "A and B",
+              "ja": "AとB",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "A and C",
+              "ja": "AとC",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "A and D",
+              "ja": "AとD",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "B and C",
+              "ja": "BとC",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "B and D",
+              "ja": "BとD",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "C and D",
+              "ja": "CとD",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。リカルドは返信メールの第3段落第2文 (Could you contact…) ～最終文 (I think he'll…) で「サルサダンスのグループのファビオと連絡を取って，公演を午後3時に変更できるかどうか訊いてくれないか。ファビオは，変更できる，と言うと思うけど，彼がどう言うか僕に教えてください」と述べている。よって，リカルドへのあなたの返信には，A：あなたの問いかけに対するファビオの返答が含まれるべきである。\nまた，リカルドは返信メールの第7段落第1文 (Why don't I…) で「僕が開会の挨拶をして，君が閉会の挨拶をすることにしよう」と述べ，それぞれのスピーチのテーマとして，第4文 (Everyone knows about…) 後半では「君は外国ではあまり知られていない日本の食べ物について少し話をすればとてもよいと思うんだ」と，続く第5文 (I want to…) では「僕は，初めてこの国にやって来た時，国際研究会の一員になったことが友だちを作ったり，他の文化について知ったりすることにいかに役立ったかについて話したい」と提案し，最終文 (Tell me what…) で「君がどう思うか，教えてくれないか」と述べている。よって，リカルドへのあなたの返信には，D：スピーチのテーマに関するあなたの考えが含まれるべきである。\n以上から，正解は③ A と D とわかる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "rc_p3_s2",
+              "rc_p3_s3",
+              "rc_p7_s1",
+              "rc_p7_s3",
+              "rc_p7_s4",
+              "rc_p7_s5"
+            ],
+            "instructor_note": {
+              "ja": "返信に『含むべき』情報は、相手が『教えて／意見を聞かせて』と明示的に依頼している箇所が答えです。please let me know / Tell me what you think を探すのが最速。",
+              "points": [
+                "A の根拠: リカルドの返信 第3段落第3文『please let me know what he says』(ファビオがなんと言ったか教えて) → ファビオの返答は返信に必須。",
+                "D の根拠: リカルドの返信 第7段落最終文『Tell me what you think!』(どう思うか教えて) → スピーチのテーマに関する意見が返信に必須。",
+                "B『カフェテリアの利用可能性』はすでにリカルドの返信 第4段落第1文で『the times you mentioned are also fine』と確認済みなので、改めて返信する必要はない。タナカが知らない情報を返すのではなく、リカルドが既に答えている情報。",
+                "C『リカルドがホールに来る時間』もリカルドの返信 第5段落第2文ですでに『8:30から手伝いに行く』と書かれているので、返信に書く必要はない。すでに本人が宣言している。",
+                "テクニック: メール返信課題は『Question → Answer のペアリング』。送り手の質問と相手の回答を A〜D に当てはめ、「相手がまだ回答していない／意見を求めている」項目だけ残るのが正解。",
+                "頻出表現: please let me know（教えてください）／ Tell me what you think（あなたの考えを教えて）／ as for ...（…に関して言えば）。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "exchange student",
+              "ja": "交換留学生"
+            },
+            {
+              "en": "International Society",
+              "ja": "国際研究会"
+            },
+            {
+              "en": "organize",
+              "ja": "…を主催する；…を準備する",
+              "note": "-ise は《英》つづり。"
+            }
+          ]
+        },
+        "tanaka_email": {
+          "items": [
+            {
+              "en": "nervous",
+              "ja": "心配して；不安で"
+            },
+            {
+              "en": "manage",
+              "ja": "…を運営する"
+            },
+            {
+              "en": "instruction",
+              "ja": "指示"
+            },
+            {
+              "en": "in addition to ...",
+              "ja": "…に加えて"
+            },
+            {
+              "en": "the 8 food tables selling food from various countries",
+              "ja": "8卓のテーブルがさまざまな国の食べ物を販売すること",
+              "note": "the 8 food tables は後の selling food from various countries という動名詞句の意味上の主語。"
+            },
+            {
+              "en": "arrange",
+              "ja": "…を用意［手配］する"
+            },
+            {
+              "en": "performance",
+              "ja": "実演；演奏"
+            },
+            {
+              "en": "address",
+              "ja": "挨拶；演説；スピーチ"
+            },
+            {
+              "en": "be in contact with ...",
+              "ja": "…と連絡を取る"
+            },
+            {
+              "en": "regular",
+              "ja": "頻繁な"
+            },
+            {
+              "en": "have access to ...",
+              "ja": "…を利用できる"
+            },
+            {
+              "en": "set up ...",
+              "ja": "…を用意［準備；設定；セッティング］する"
+            }
+          ]
+        },
+        "ricardo_reply": {
+          "items": [
+            {
+              "en": "as for ...",
+              "ja": "…に関しては"
+            },
+            {
+              "en": "definitely",
+              "ja": "きっと；確実に"
+            },
+            {
+              "en": "Why don't I ...?",
+              "ja": "…しよう；…するのはどうか"
+            },
+            {
+              "en": "presentation",
+              "ja": "（口頭）発表"
+            },
+            {
+              "en": "quick talk",
+              "ja": "ちょっとした話"
+            },
+            {
+              "en": "at random",
+              "ja": "無作為に；ランダムに；適当に"
+            },
+            {
+              "en": "as you face the stage",
+              "ja": "ステージと向かい合うように"
+            },
+            {
+              "en": "so that ...",
+              "ja": "…するように"
+            },
+            {
+              "en": "with the eating area in the centre",
+              "ja": "（座れる場所が中央にあって→）飲食エリアを囲む形で",
+              "note": "with はここでは〈with＋名詞＋前置詞句〉という形で付帯状況の意味を表している。"
+            },
+            {
+              "en": "bin",
+              "ja": "《英》ごみ入れ"
+            },
+            {
+              "en": "rubbish",
+              "ja": "《主に英》（身の回りの）ごみ；くず"
+            },
+            {
+              "en": "get back to ...",
+              "ja": "ここでは「…に返信する」という意味。"
+            },
+            {
+              "en": "keep up the good work",
+              "ja": "「（よい仕事をそのまま維持しなさい→）この調子で頑張りなさい」",
+              "note": "仲間や部下など親しい人を励ます表現。"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "concerning",
+              "ja": "…に関して"
+            },
+            {
+              "en": "concern over ...",
+              "ja": "…に関する不安［心配；懸念］"
+            },
+            {
+              "en": "proposed content",
+              "ja": "提案された内容"
+            },
+            {
+              "en": "arrangement",
+              "ja": "手配；準備"
+            },
+            {
+              "en": "diagram",
+              "ja": "〈構造などを示す〉（線）図"
+            },
+            {
+              "en": "suggestion",
+              "ja": "提案"
+            },
+            {
+              "en": "layout",
+              "ja": "レイアウト；配置"
+            },
+            {
+              "en": "availability",
+              "ja": "利用できること"
             }
           ]
         }
