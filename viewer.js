@@ -435,6 +435,9 @@ function renderPassage() {
         html += '</tr></thead><tbody>';
       }
 
+      // essay_outline_box レイアウト用の枠開閉フラグ
+      let outlineBoxOpen = false;
+
       for (let pi = 0; pi < passage.paragraphs.length; pi++) {
         const para = passage.paragraphs[pi];
         const audioFile = `${audioBase}s${secNum}_${passage.id}_p${pi + 1}.mp3`;
@@ -528,6 +531,61 @@ function renderPassage() {
           html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
           html += '</div>';
           html += '</div>';
+        } else if (passage.layout === 'essay_outline_box') {
+          // Essay outline (Section 8 Step 3) — PDF と同じ「ラベル＋枠囲みボックス」レイアウト
+          const head = (Array.isArray(para) && para.length > 0) ? para[0] : null;
+          const role = head && head.role;
+
+          // タイトル行の手前で枠を開く
+          if (!outlineBoxOpen && role === 'outline_title') {
+            html += '<div class="essay-outline-box">';
+            outlineBoxOpen = true;
+          }
+
+          if (role === 'outline_label') {
+            html += '<div class="essay-outline-label">';
+            html += `<span class="sentence" data-sid="${head.id}">${head.en}</span>`;
+            html += '</div>';
+            html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${head.id}">${head.ja}</div></div>`;
+          } else if (role === 'outline_title') {
+            html += '<div class="essay-outline-title">';
+            html += `<span class="sentence" data-sid="${head.id}">${head.en}</span>`;
+            html += '</div>';
+            html += `<div class="passage-ja-block essay-outline-title-ja"><div class="sentence-ja" data-sid-ja="${head.id}">${head.ja}</div></div>`;
+          } else if (role === 'outline_subheader') {
+            html += '<div class="essay-outline-subheader">';
+            html += `<span class="sentence" data-sid="${head.id}">${head.en}</span>`;
+            html += '</div>';
+            html += `<div class="passage-ja-block essay-outline-subheader-ja"><div class="sentence-ja" data-sid-ja="${head.id}">${head.ja}</div></div>`;
+          } else if (role === 'outline_line') {
+            const enText = String(head.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            const jaText = String(head.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += '<div class="essay-outline-line">';
+            html += `<span class="sentence" data-sid="${head.id}">${enText}</span>`;
+            html += '</div>';
+            html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${head.id}">${jaText}</div></div>`;
+          } else {
+            html += '<div class="essay-outline-body">';
+            html += '<p class="passage-paragraph">';
+            for (const sent of para) {
+              const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
+            }
+            html += '</p>';
+            html += '<div class="passage-ja-block">';
+            for (const sent of para) {
+              const jaText = String(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${jaText}</div>`;
+            }
+            html += '</div>';
+            html += '</div>';
+          }
+
+          // 最後の段落を描画したら枠を閉じる
+          if (outlineBoxOpen && pi === passage.paragraphs.length - 1) {
+            html += '</div>';
+            outlineBoxOpen = false;
+          }
         } else if (passage.block_separators && passage.block_separators.length > 0) {
           // Block-based rendering: group paragraphs into blocks separated by ◆◆◆◆◆
           // Handled below after the loop

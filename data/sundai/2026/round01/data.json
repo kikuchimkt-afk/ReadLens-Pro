@@ -4822,82 +4822,87 @@
             "en": "[Step 3] Create an outline of your essay",
             "ja": "［ステップ3］レポートの概要を作成する"
           },
-          "no_divider": false,
+          "layout": "essay_outline_box",
           "paragraphs": [
             [
               {
-                "id": "eo_tt",
+                "id": "eo_label",
                 "en": "Essay outline",
-                "ja": "レポート概要"
-              },
+                "ja": "レポート概要",
+                "role": "outline_label"
+              }
+            ],
+            [
               {
                 "id": "eo_ti",
                 "en": "Switching to Electric Cars Is Essential",
-                "ja": "電気自動車への切り替えは必要だ"
+                "ja": "電気自動車への切り替えは必要だ",
+                "role": "outline_title"
+              }
+            ],
+            [
+              {
+                "id": "eo_in_h",
+                "en": "Introduction",
+                "ja": "序論",
+                "role": "outline_subheader"
               }
             ],
             [
               {
                 "id": "eo_in1",
-                "en": "Introduction",
-                "ja": "序論"
-              },
-              {
-                "id": "eo_in2",
                 "en": "Many governments are promoting a switch away from gasoline cars in favor of electric vehicles.",
                 "ja": "多くの政府が電気自動車を支持し，ガソリン車からの切り替えを促進している。"
               },
               {
-                "id": "eo_in3",
+                "id": "eo_in2",
                 "en": "I agree with this for the following three reasons.",
                 "ja": "以下の3つの理由で，私はそのことに賛成である。"
               }
             ],
             [
               {
-                "id": "eo_b1",
+                "id": "eo_b_h",
                 "en": "Body",
-                "ja": "本論"
-              },
+                "ja": "本論",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "eo_b1",
+                "en": "REASON 1 from Step 2, based on evidence from the opinions in Step 1",
+                "ja": "理由1：ステップ2から（ステップ1のさまざまな意見における証拠に基づく）",
+                "role": "outline_line"
+              }
+            ],
+            [
               {
                 "id": "eo_b2",
-                "en": "REASON 1:",
-                "ja": "理由1："
-              },
+                "en": "REASON 2 ( [43] ), based on evidence from Source A",
+                "ja": "理由2：（[43]）（情報源Aから得られる証拠に基づく）",
+                "role": "outline_line"
+              }
+            ],
+            [
               {
                 "id": "eo_b3",
-                "en": "(from Step 2, based on evidence from the opinions in Step 1)",
-                "ja": "（ステップ2から，ステップ1のさまざまな意見における証拠に基づく）"
-              },
+                "en": "REASON 3, based on evidence ( [44] ) from Source B",
+                "ja": "理由3：（情報源Bから得られる証拠[44]に基づく）",
+                "role": "outline_line"
+              }
+            ],
+            [
               {
-                "id": "eo_b4",
-                "en": "REASON 2:",
-                "ja": "理由2："
-              },
-              {
-                "id": "eo_b5",
-                "en": "(based on evidence from Source A) [43]",
-                "ja": "（情報源Aから得られる証拠に基づく）[43]"
-              },
-              {
-                "id": "eo_b6",
-                "en": "REASON 3:",
-                "ja": "理由3："
-              },
-              {
-                "id": "eo_b7",
-                "en": "(based on evidence [44] from Source B)",
-                "ja": "（情報源Bから得られる証拠[44]に基づく）"
+                "id": "eo_c_h",
+                "en": "Conclusion",
+                "ja": "結論",
+                "role": "outline_subheader"
               }
             ],
             [
               {
                 "id": "eo_c1",
-                "en": "Conclusion",
-                "ja": "結論"
-              },
-              {
-                "id": "eo_c2",
                 "en": "After considering all of the facts, a move toward electric cars is something that everyone should support.",
                 "ja": "すべての事実を考慮すると，電気自動車への移行はすべての人が支持すべきことである。"
               }
@@ -4988,7 +4993,7 @@
             ]
           ],
           "graph_image": {
-            "src": "data/sundai/2026/round01/images/q08_problem_source_b_line_graph_en_axes.png",
+            "src": "images/q08_problem_source_b_line_graph_en_axes.png",
             "after_paragraph": 1,
             "alt": "Source B graph: Noise and prey detectability vs distance to road"
           }
