@@ -12,7 +12,8 @@
       2,
       3,
       4,
-      5
+      5,
+      6
     ],
     "source_pdf_mondai": "第1回_問題.pdf",
     "source_pdf_kaitou": "第1回_解説.pdf",
@@ -2817,6 +2818,957 @@
             {
               "en": "availability",
               "ja": "利用できること"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "物語文（陸ガメの旅路）＋ デイビッドへの感想メール",
+      "situation": {
+        "en": "Your friend, David, has entered a writing contest. He has asked you to read his story and give him feedback.",
+        "ja": "あなたの友人のデイビッドが作文コンテストに参加登録しました。彼はあなたに，彼が書いた物語を読んで，感想を送るように求めてきました。"
+      },
+      "passages": [
+        {
+          "id": "story",
+          "title": {
+            "en": "The Tortoise's Journey",
+            "ja": "陸ガメの旅路"
+          },
+          "subtitle": {
+            "en": "By David O'Reilly",
+            "ja": "デイビッド・オライリー著"
+          },
+          "block_separators": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "I've lived a long, long time.",
+                "ja": "私はとてもとても長い間生きてきた。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "I'm not sure how old I am, but I'm older than any human I know.",
+                "ja": "自分が何歳なのかよくわからないけど，私が知っているどんな人間よりも年をとっている。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "I'm certainly older than Max, my current owner, because I remember when he was born.",
+                "ja": "今の私の飼い主であるマックスが生まれた時のことを覚えているのだから，彼よりも年をとっているのは確かだ。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "I also remember when his mother was born.",
+                "ja": "マックスの母親が生まれた時のことも覚えている。"
+              },
+              {
+                "id": "p1_s5",
+                "en": "My name is Shelly, and I've been with the Thompson family since I was a tiny baby.",
+                "ja": "私の名前はシェリーといい，小さな赤ちゃんの頃からトンプソン一家と一緒だ。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "As soon as I had hatched out of my egg, my mother told me stories of the land we came from.",
+                "ja": "私が卵から孵るとすぐに，母は私たちの故郷の土地の話をしてくれた。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "She wasn't born in a pet shop like I was.",
+                "ja": "母は私のようにペットショップで生まれたのではなかった。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "No, she came from across the ocean, from a distant place where the sun was always bright, and the grass was green, sweet, and delicious.",
+                "ja": "そうでなく，母は海の向こう，陽光がいつも明るく，草が緑で甘くおいしい遠いところで生まれたのだ。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "I'll never see that place in this lifetime.",
+                "ja": "私はその土地を目にすることは生涯ないだろう。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "When I was around three months old, Jimmy Thompson and his parents took me home from the pet shop.",
+                "ja": "私が生後3ヵ月ほどになった頃，ジミー・トンプソンとその両親が私をペットショップから家に連れていった。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "I was a gift for Jimmy from his parents, who thought a tortoise would make a nice friend for him.",
+                "ja": "私は，ジミーにとって陸ガメはよい友だちになるだろうと考えた両親からジミーへの贈り物だった。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "When Jimmy's sister Alice was born, his parents became very busy, so he and I spent a lot of time together playing outside in the yard.",
+                "ja": "ジミーの妹アリスが生まれた時，両親はとても忙しくなったので，ジミーと私は外の庭で一緒に遊んでたくさんの時間を過ごした。"
+              },
+              {
+                "id": "p3_s4",
+                "en": "What happy days they were!",
+                "ja": "何と幸せな日々だったことか！"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "One summer, there was a huge storm in our area and I got lost.",
+                "ja": "ある夏，私たちの住んでいるところが激しい嵐に見舞われて，私は道に迷ってしまった。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "The rain came pouring down, and the winds blew trash everywhere.",
+                "ja": "土砂降りの雨が降り，風はいたるところでゴミを吹き飛ばした。"
+              },
+              {
+                "id": "p4_s3",
+                "en": "The water rose quickly, and I was swept away from our yard.",
+                "ja": "急速に水位が増し，私は家の庭から押し流されたのだ。"
+              },
+              {
+                "id": "p4_s4",
+                "en": "I was terrified of water then, and I still can't stand the feeling of rain hitting my shell.",
+                "ja": "その頃，私は水が怖く，いまだに雨が私の甲羅に打ちつける感触は耐えがたい。"
+              },
+              {
+                "id": "p4_s5",
+                "en": "I floated away until I found an area of dry ground.",
+                "ja": "私は乾いた地面を見つけるまで，水面を漂っていた。"
+              },
+              {
+                "id": "p4_s6",
+                "en": "I had no idea where I was.",
+                "ja": "自分がどこにいるのかまったくわからなかった。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "For days, I wandered the streets, searching for home.",
+                "ja": "数日間，私は家を探しながら，通りをさまよった。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "My legs grew tired, and my shell felt heavy, but I walked as fast as I could to avoid scary animals like cats, dogs, and rats.",
+                "ja": "足は疲労し，甲羅は重たく感じられたが，私は，ネコやイヌやネズミのような恐ろしい動物たちに出会わないよう，できるだけ速く歩いた。"
+              },
+              {
+                "id": "p5_s3",
+                "en": "I wondered if I would ever see Jimmy and Alice again.",
+                "ja": "ジミーやアリスにいつかまた会えるのだろうかと思った。"
+              },
+              {
+                "id": "p5_s4",
+                "en": "An old lady took me home and cared for me.",
+                "ja": "ある老婦人が私を家に連れていき，私の世話をしてくれた。"
+              },
+              {
+                "id": "p5_s5",
+                "en": "I'm not sure how they found me, but one day, Alice and Jimmy knocked on her door.",
+                "ja": "どうやって私のことを見つけたのかよくわからないが，ある日，アリスとジミーが老婦人の家のドアをノックした。"
+              },
+              {
+                "id": "p5_s6",
+                "en": "Jimmy put me in the basket on his bike and we rode home together.",
+                "ja": "ジミーは私を自転車のカゴに入れ，一緒に自転車に乗って家に帰った。"
+              },
+              {
+                "id": "p5_s7",
+                "en": "I never want to ride a bike again!",
+                "ja": "自転車になんか二度と乗りたくない！"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "Jimmy, Alice and I grew bigger together, but one day, Jimmy disappeared.",
+                "ja": "ジミーとアリスと私は一緒に大きくなっていったが，ある日，ジミーがいなくなった。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "I heard he went somewhere called “university.”",
+                "ja": "「大学」というところへ行ったのだ。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "I don't know where that is.",
+                "ja": "それがどこにあるのかはわからない。"
+              },
+              {
+                "id": "p6_s4",
+                "en": "All I know is that one day he left, and he never lived with us again.",
+                "ja": "わかっているのは，ある日彼が出て行き，二度と私たちと暮らすことはなかった，ということだけだ。"
+              },
+              {
+                "id": "p6_s5",
+                "en": "I became close to Alice after that.",
+                "ja": "その後，私はアリスと親しくなった。"
+              },
+              {
+                "id": "p6_s6",
+                "en": "One day, she came home with a man, Peter.",
+                "ja": "ある日，アリスはピーターという男の人と一緒に帰ってきた。"
+              },
+              {
+                "id": "p6_s7",
+                "en": "Then a little later, they had a baby.",
+                "ja": "それから少しして，アリスたちに赤ちゃんができた。"
+              },
+              {
+                "id": "p6_s8",
+                "en": "That was Max.",
+                "ja": "それがマックスだった。"
+              },
+              {
+                "id": "p6_s9",
+                "en": "I was so happy when Max got big enough to play with me.",
+                "ja": "マックスが私と一緒に遊ぶほど大きくなった時，私はとても幸福だった。"
+              },
+              {
+                "id": "p6_s10",
+                "en": "It reminded me of my pleasant days with Jimmy.",
+                "ja": "私はジミーとの楽しかった日々を思い出した。"
+              }
+            ],
+            [
+              {
+                "id": "p7_s1",
+                "en": "Whenever I meet a new human, they look surprised to see that I only have three legs.",
+                "ja": "知らない人と会うと，私の足が3本しかないことを知って驚いた顔をする。"
+              },
+              {
+                "id": "p7_s2",
+                "en": "Max doesn't like it when people ask him about it, but I'll explain it to you.",
+                "ja": "人々がそのことについてマックスに尋ねるときがマックスは好きではないのだが，私があなたに説明しよう。"
+              },
+              {
+                "id": "p7_s3",
+                "en": "One day, when Max was still a child, he left the gate to the yard open.",
+                "ja": "マックスがまだ子どもだったある日のこと，彼は庭の門を開けっぱなしにした。"
+              },
+              {
+                "id": "p7_s4",
+                "en": "Beyond the yard, I could see some delicious-looking leaves.",
+                "ja": "庭の向こうに，おいしそうな葉っぱがいくつか見えた。"
+              },
+              {
+                "id": "p7_s5",
+                "en": "I walked toward them.",
+                "ja": "私は葉っぱの方に歩いていった。"
+              },
+              {
+                "id": "p7_s6",
+                "en": "Then, BANG!",
+                "ja": "その時，ドカン！"
+              },
+              {
+                "id": "p7_s7",
+                "en": "I don't remember much, but I believe I was hit by a car.",
+                "ja": "私はあまり覚えていないが，私は車にはねられたのだと思う。"
+              },
+              {
+                "id": "p7_s8",
+                "en": "I remember waking up in a bright room with many people around me.",
+                "ja": "多くの人に囲まれて明るい部屋で目覚めたことを覚えている。"
+              },
+              {
+                "id": "p7_s9",
+                "en": "My leg was gone.",
+                "ja": "私の足がなくなっていた。"
+              },
+              {
+                "id": "p7_s10",
+                "en": "It doesn't hurt now, but I remember being in a lot of pain at the time, and the sound of traffic still scares me.",
+                "ja": "今は痛まないが，その時はひどく痛かったことを覚えているし，車の通る音はいまだに怖い。"
+              }
+            ],
+            [
+              {
+                "id": "p8_s1",
+                "en": "Now, it is just me and Max.",
+                "ja": "今は私とマックスだけだ。"
+              },
+              {
+                "id": "p8_s2",
+                "en": "We still live in the same house.",
+                "ja": "私たちはまだ同じ家で暮らしている。"
+              },
+              {
+                "id": "p8_s3",
+                "en": "Mr. and Mrs. Thompson, Jimmy, Alice and Peter have been gone for a while, now.",
+                "ja": "トンプソン夫妻やジミー，そしてアリスとピーターが亡くなってから，今ではしばらくの時が経つ。"
+              },
+              {
+                "id": "p8_s4",
+                "en": "Max is old, slow and gray.",
+                "ja": "マックスは年をとり，動きはゆっくりで，髪は白い。"
+              },
+              {
+                "id": "p8_s5",
+                "en": "But that's fine.",
+                "ja": "だが，それでいい。"
+              },
+              {
+                "id": "p8_s6",
+                "en": "We walk at about the same speed and enjoy the same things — sitting in the yard and watching the world go by.",
+                "ja": "私たちは大体同じ速さで歩き，同じものを楽しんでいるのだ—庭に腰を下ろし，世の中の移ろいを眺めながら。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "feedback_email",
+          "title": {
+            "en": "Your email feedback to David",
+            "ja": "デイビッドへのあなたの感想メール"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "fb_p1_s1",
+                "en": "Hi David,",
+                "ja": "こんにちは，デイビッド"
+              }
+            ],
+            [
+              {
+                "id": "fb_p2_s1",
+                "en": "Thanks for sending me your story!",
+                "ja": "あなたが書いた物語を私に送ってくれてありがとう！"
+              },
+              {
+                "id": "fb_p2_s2",
+                "en": "It was really moving.",
+                "ja": "本当に感動的でした。"
+              },
+              {
+                "id": "fb_p2_s3",
+                "en": "I liked how we learned about the various things that happened in Shelly's long life (see below).",
+                "ja": "シェリーの長い一生の間に起こったさまざまな出来事がどのようにわかってくるかというところが気に入りました（以下を見てください）。"
+              },
+              {
+                "id": "fb_p2_s4",
+                "en": "[24] → [25] → [26] → [27]",
+                "ja": "[24] → [25] → [26] → [27]"
+              }
+            ],
+            [
+              {
+                "id": "fb_p3_s1",
+                "en": "I found it interesting that Shelly has some strong opinions about things.",
+                "ja": "シェリーが物事についていくつかはっきりした意見を持っているところが興味深いと思いました。"
+              },
+              {
+                "id": "fb_p3_s2",
+                "en": "She hates [28].",
+                "ja": "彼女は[28]が嫌いなんですね。"
+              }
+            ],
+            [
+              {
+                "id": "fb_p4_s1",
+                "en": "I felt sad when I read the sentence “Max doesn't like it when people ask him about it”, because I guess that Max [29].",
+                "ja": "「人々がそのことについてマックスに尋ねるときがマックスは好きではない」という文を読んだ時，私が悲しく感じたのは，マックスは，[29]，と思うからです。"
+              }
+            ],
+            [
+              {
+                "id": "fb_p5_s1",
+                "en": "Although I enjoyed your story, I think you can improve it by adding some more details.",
+                "ja": "私はあなたの物語を楽しみましたが，さらにいくつかの詳細を加えることによって，物語をもっとよいものにできると思います。"
+              },
+              {
+                "id": "fb_p5_s2",
+                "en": "You could write about [30] and [31], which are not mentioned or suggested.",
+                "ja": "言及もしくは示唆されていない[30]と[31]について書くことができます。"
+              },
+              {
+                "id": "fb_p5_s3",
+                "en": "These details would help us learn a bit more about your characters and make the story more interesting.",
+                "ja": "これらの詳細は登場人物についてもう少し知ることに役立ち，物語をもっと面白くしてくれるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "fb_p6_s1",
+                "en": "Good luck with the contest!",
+                "ja": "コンテスト，頑張ってください！"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 24,
+          "question_type": "ordering",
+          "stem": {
+            "en": "Choose four out of the five events (①～⑤) and put them in the order they occurred. [24] → [25] → [26] → [27]",
+            "ja": "「5つの記述（①〜⑤）から4つを選び，それらを発生順に並べなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Shelly gets rescued after floating away.",
+              "ja": "シェリーが水面を漂った後で救出される。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Shelly has an accident.",
+              "ja": "シェリーが事故に遭う。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Shelly visits her mother's homeland.",
+              "ja": "シェリーが母の故郷を訪れる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Shelly's current owner is born.",
+              "ja": "シェリーの今の飼い主が生まれる。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Shelly's friend Jimmy goes to university.",
+              "ja": "シェリーの友だちジミーが大学へ行く。",
+              "is_correct": true
+            }
+          ],
+          "answer": "①→⑤→④→②",
+          "answer_sequence": [
+            1,
+            5,
+            4,
+            2
+          ],
+          "explanation": {
+            "quoted_ja": "正解は①→⑤→④→②。\n第2段落以降では「シェリーの長い一生の間に起こったさまざまな出来事」が，時系列に沿って，それらが発生した順に語られている。\nまず，第4段落第1文 (One summer, there …) でシェリーがジミーやアリスと暮らしていたある夏に激しい嵐の中で道に迷ってしまったこと，第5文 (I floated away …) ではシェリーが水面を漂ったこと，そして第5段落第4文 (An old lady …) で「ある老婦人が私を家に連れていき，私の世話をしてくれた」と述べられていることから，選択肢の中では①「シェリーが水面を漂った後で救出される」が最初に来る。\n続く第6段落第1文 (Jimmy, Alice and …) ～第2文 (I heard he …) で，ジミーが大学に行くために家を出たことが語られているので，⑤「シェリーの友だちジミーが大学へ行く」が次に来る。\nさらに第6段落第7文 (Then a little …) ～第8文 (That was Max.) で，アリスの赤ちゃんであるマックスが生まれたことが述べられている。第1段落第3文 (I'm certainly older …) から，シェリーの今の飼い主がマックスであることがわかるので，④「シェリーの今の飼い主が生まれる」が次に来る。\nそして，第7段落 (Whenever I meet …) では，マックスと過ごす日々の中でシェリーが車にひかれて足を1本失ってしまったことが語られているので，②「シェリーが事故に遭う」が最後に来ることになる。\n以上のことから，正解は①→⑤→④→②となる。\n③「シェリーが母の故郷を訪れる」は，第2段落最終文 (I'll never see …) で「私はその土地を目にすることは生涯ないだろう」と述べられていることから，誤った内容であるとわかる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p1_s3",
+              "p2_s4",
+              "p4_s1",
+              "p4_s5",
+              "p5_s4",
+              "p6_s1",
+              "p6_s2",
+              "p6_s7",
+              "p6_s8",
+              "p7_s1"
+            ],
+            "instructor_note": {
+              "ja": "整序問題は『時系列マーカー語』が命です。本文の When I was around three months old / One summer / For days / one day / Then a little later / Whenever I meet などの時間表現に下線を引き、選択肢を1対1で対応させてから並べると正確に解けます。③のような『起こらなかった出来事』ダミーが必ず1つ混ざるのも整序問題の鉄則。",
+              "points": [
+                "①の根拠は2段階で確認: 嵐に流される (第4段落第1〜5文) → 老婦人に拾われる (第5段落第4文) → ジミーとアリスが迎えに来る (第5段落第5〜6文)。『漂った後で救出される』は第4段落末〜第5段落の流れ。",
+                "⑤の根拠: 第6段落第1〜2文 Jimmy disappeared. I heard he went somewhere called “university.” で、ジミーが家を出て大学へ行ったことが語られる。",
+                "④の根拠は2文連動: 第6段落第7〜8文『Then a little later, they had a baby. That was Max.』でマックス誕生 → 第1段落第3文『I'm certainly older than Max, my current owner』でマックス＝今の飼い主 と確定。『今の飼い主が生まれる』に対応。",
+                "②の根拠: 第7段落第7文 I believe I was hit by a car. が事故そのもの。第7段落最終文 the sound of traffic still scares me. はトラウマとして残っている描写。",
+                "ダミー③の見抜き方: 母の故郷の話は第2段落で『母から聞いた話』として登場するが、第2段落最終文 I'll never see that place in this lifetime.（生涯目にすることはないだろう）と明示されている。『聞いた』と『訪れた』を混同させる典型ダミー。",
+                "頻出表現: get lost（道に迷う）／ float away（漂い流される）／ hit by a car（車にはねられる）／ scare ...（…をこわがらせる）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 28,
+          "stem": {
+            "en": "Choose the correct combination of Shelly's dislikes. [28]",
+            "ja": "「シェリーの嫌いなものの正しい組み合わせを選びなさい」"
+          },
+          "info_options": [
+            {
+              "label": "A",
+              "en": "animals such as rats, dogs and cats",
+              "ja": "ネズミやイヌやネコのような動物"
+            },
+            {
+              "label": "B",
+              "en": "riding in the basket of a bike",
+              "ja": "自転車のカゴに乗って走ること"
+            },
+            {
+              "label": "C",
+              "en": "spending time with young children",
+              "ja": "幼い子どもと一緒に時間を過ごすこと"
+            },
+            {
+              "label": "D",
+              "en": "the feel of rain on her shell",
+              "ja": "甲羅に当たる雨の感触"
+            },
+            {
+              "label": "E",
+              "en": "the hot, bright sun",
+              "ja": "暑く明るい日差し"
+            },
+            {
+              "label": "F",
+              "en": "the sound of vehicles",
+              "ja": "車の音"
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "A, B, D, and F",
+              "ja": "A，B，D，F",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "A, C, E, and F",
+              "ja": "A，C，E，F",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "A, D, E, and F",
+              "ja": "A，D，E，F",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "B, C, E, and F",
+              "ja": "B，C，E，F",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第5段落第2文 (My legs grew …) で「足は疲労し，甲羅は重たく感じられたが，私は，ネコやイヌやネズミのような恐ろしい動物たちに出会わないよう，できるだけ速く歩いた」と述べられていることから，シェリーはA「ネズミやイヌやネコのような動物」が嫌いであるとわかる。\n第5段落第6文 (Jimmy put me …) ～最終文 (I never want …) で「ジミーは私を自転車のカゴに入れ，一緒に自転車に乗って家に帰った。自転車になんか二度と乗りたくない！」と述べられていることから，シェリーはB「自転車のカゴに乗って走ること」が嫌いであるとわかる。\n第4段落第4文 (I was terrified …) で「その頃，私は水が怖く，いまだに雨が私の甲羅に打ちつける感触は耐えがたい」と語られていることから，シェリーはD「甲羅に当たる雨の感触」が嫌いであるとわかる。\n第7段落最終文 (It doesn't hurt …) の後半で「車の通る音はいまだに怖い」と語られていることから，シェリーはF「車の音」が嫌いであるとわかる。\n以上のことから，正解は①A，B，D，Fとなる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p4_s4",
+              "p5_s2",
+              "p5_s6",
+              "p5_s7",
+              "p7_s10"
+            ],
+            "instructor_note": {
+              "ja": "『嫌いなものの組み合わせ』を問う設問は、本文の感情・態度を表す動詞 (hate / can't stand / be terrified of / scare / be afraid of) と否定表現 (I never want / I don't like) を全て拾い、対応する語を A〜F から特定する作業です。4つ選ぶ形式は、誤情報C/Eのダミー2つを切り捨てるのが鍵。",
+              "points": [
+                "A の根拠: 第5段落第2文 to avoid scary animals like cats, dogs, and rats. scary（怖い）＋ avoid（避ける）が嫌いの根拠。",
+                "B の根拠: 第5段落最終文 I never want to ride a bike again! の `never want to ~ again`（二度と〜したくない）が定型の嫌悪表現。",
+                "D の根拠: 第4段落第4文 I still can't stand the feeling of rain hitting my shell. `can't stand` ＝ 我慢できない、耐えられない。",
+                "F の根拠: 第7段落最終文後半 the sound of traffic still scares me. の `scare ...`（…を怖がらせる）が決定打。`the sound of vehicles` と `the sound of traffic` の言い換えに注目。",
+                "ダミー C: 第3段落で『ジミーと外で遊んで楽しい日々を過ごした』(What happy days they were!) とあり、子どもとの時間は嫌っていない。むしろ大好きなので逆向き。",
+                "ダミー E: 第2段落で母の故郷の太陽が『always bright』(always bright) と憧れの形で描かれており、シェリー自身が『暑い日差しが嫌い』と語る箇所はない。",
+                "頻出表現: be terrified of ...（…を怖がる）／ can't stand ...（…に耐えられない）／ scare ...（…を怖がらせる）／ never ... again（二度と〜しない）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 29,
+          "stem": {
+            "en": "Choose the best option for [29].",
+            "ja": "「[29]に入れるのに最も適切な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "can't remember exactly what happened then",
+              "ja": "そのとき正確に何が起きたのかを思い出すことができない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "feels as though the accident was his fault",
+              "ja": "その事故が自分の過失であるかのように感じている",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "is angry with the person who hurt Shelly",
+              "ja": "シェリーを傷つけた人に対して腹を立てている",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "is still surprised about what happened then",
+              "ja": "その時起きたことにいまだに驚いている",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。第7段落ではシェリーが事故にあって1本の足を失ってしまったことが語られている。第2文 (Max doesn't like …) で「人々がそのことについてマックスに尋ねるときがマックスは好きではないのだが，私があなたに説明しよう」と述べられ，事故が起きた経緯について，第3文 (One day, when …) で「マックスがまだ子どもだったある日のこと，彼は庭の門を開けっぱなしにした」こと，第4文 (Beyond the yard, …) ～第7文 (I don't remember …) で，門の向こうにおいしそうな葉っぱが見えたので，シェリーはおそらくそれに向かって庭の外を出て歩いていき，車にはねられたことが語られている。この状況から，マックスは門を開けっぱなしにした自分の不注意，すなわち自分の過失が事故の原因となったと感じていると推測できるので，正解は②と判断できる。\n①，③，④の内容は，いずれも物語の中から推測することはできない。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p7_s2",
+              "p7_s3",
+              "p7_s4",
+              "p7_s5",
+              "p7_s7"
+            ],
+            "instructor_note": {
+              "ja": "心情推論問題は『なぜマックスは話したくないのか？』に対する論理を本文から組み立てます。手がかりは『不注意の連鎖』: マックスが門を開けっぱなしにした → シェリーが外に出た → 車にはねられた → シェリーの足が片方なくなった → マックスは話題を避けたい、という因果ライン。",
+              "points": [
+                "p7_s3 he left the gate to the yard open（庭の門を開けっぱなしにした）が事故の引き金になった行為。これがマックス自身の責任を示唆している。",
+                "②の fault は『（人の）過失・落ち度』。`feel as though ＋ S＋V` ＝『SVであるかのように感じる』。マックスが自責の念を抱いている、という心情にぴたり一致。",
+                "①『正確に何が起きたのか思い出せない』のは語り手シェリーの方 (p7_s7 I don't remember much,…)。マックスではない。主語のすり替え型ダミー。",
+                "③『シェリーを傷つけた人に怒っている』は本文に登場しない。さらに、車にはねたドライバーへの怒りはマックスがその場にいなかったので語る前提もない。",
+                "④『いまだに驚いている』は事故から年数が経った今の感情として不自然。surprise は一時的な感情で、自責とは別物。",
+                "頻出表現: feel as though ＋ S＋V（SVであるかのように感じる）／ fault（過失；落ち度；責任）／ leave ... open（…を開けっぱなしにする）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 30,
+          "answer_numbers": [
+            30,
+            31
+          ],
+          "unordered_slots": [
+            30,
+            31
+          ],
+          "stem": {
+            "en": "Choose the best options for [30] and [31]. (The order does not matter.)",
+            "ja": "「[30]と[31]に入れるのに最も適切な選択肢を選びなさい（順番は問わない）」"
+          },
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "how Shelly felt when Jimmy grew up and left home",
+              "ja": "ジミーが成長し家を出た時に，シェリーがどう感じたか",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "the different places in which Shelly lived throughout her life",
+              "ja": "シェリーが生涯を通じて暮らしたさまざまな場所",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the reason why Shelly joined the Thompson family",
+              "ja": "シェリーがトンプソン家の一員となった理由",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the relationship between Shelly's current and previous owners",
+              "ja": "シェリーの現在と以前の飼い主の関係",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "whether Max or Jimmy ever got married or had children",
+              "ja": "マックスやジミーが結婚して子どもを持ったかどうか",
+              "is_correct": true
+            }
+          ],
+          "choices_31": [
+            {
+              "label": "①",
+              "en": "how Shelly felt when Jimmy grew up and left home",
+              "ja": "ジミーが成長し家を出た時に，シェリーがどう感じたか",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "the different places in which Shelly lived throughout her life",
+              "ja": "シェリーが生涯を通じて暮らしたさまざまな場所",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the reason why Shelly joined the Thompson family",
+              "ja": "シェリーがトンプソン家の一員となった理由",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the relationship between Shelly's current and previous owners",
+              "ja": "シェリーの現在と以前の飼い主の関係",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "whether Max or Jimmy ever got married or had children",
+              "ja": "マックスやジミーが結婚して子どもを持ったかどうか",
+              "is_correct": true
+            }
+          ],
+          "answer": {
+            "30": "①",
+            "31": "⑤"
+          },
+          "answer_note": "順不同・両方正解で3点",
+          "explanation": {
+            "quoted_ja": "正解は①・⑤。「あなたの感想メール」において，[30]と[31]を含む文は「言及もしくは示唆されていない[30]と[31]について書くことができます」という意味になっているので，[30]と[31]には物語の中で言及もしくは示唆されていないことが入る。\n①の「ジミーが成長し家を出た時に，シェリーがどう感じたか」と⑤の「マックスやジミーが結婚して子どもを持ったかどうか」は物語の中で明かされていないので，正解は①と⑤になる。\n②「シェリーが生涯を通して暮らしたさまざまな場所」に関しては，第2段落第2文 (She wasn't born …) に「母は私のようにペットショップで生まれたのではなかった」とあり，第3段落第1文 (When I was …) に「私が生後3ヵ月ほどになった頃，ジミー・トンプソンとその両親が私をペットショップから家に連れていった」とあること，そして最終段落第1文 (Now, it is…) ～第2文 (We still live …) に「今は私とマックスだけだ。私たちはまだ同じ家で暮らしている」とあることから，シェリーは生後3ヵ月ぐらいまではペットショップで暮らし，それ以降は現在に至るまでトンプソン家の家で暮らしてきたことがわかる。さらに，第5段落第4文 (An old lady …) では「ある老婦人が私を家に連れていき，私の世話をしてくれた」と述べられていることから，ほんの一時期だけとはいえ，ある老婦人の家でお世話になったことがわかる。したがって，シェリーが生涯を通して複数の場所で暮らしてきたことは物語の中で言及されていることになる。\n③「シェリーがトンプソン家の一員になった理由」に関しては，第3段落第2文 (I was a gift …) で「私は，ジミーにとって陸ガメはよい友だちになるだろうと考えた両親からジミーへの贈り物だった」と言及されている。\n④「シェリーの現在と以前の飼い主の関係」に関しては，「飼い主」を主な遊び相手と考えた場合，第3段落第3文 (When Jimmy's sister …) の前半で「ジミーの妹アリスが生まれた時」とあり，第6段落第7文 (Then a little …) ～第8文 (That was Max.) で「それから少しして，アリスたちに赤ちゃんができた。それがマックスだった」とあることから，シェリーの以前の飼い主であるジミーとアリスはきょうだい，そして第1段落第3文 (I'm certainly older …) で述べられているように「今の私の飼い主であるマックス」はアリスの子どもであることがわかる。また「飼い主」を一家の主人と考えた場合，シェリーの以前の飼い主はジミーの父親であるトンプソン氏（あるいはトンプソン夫妻）とマックスの父親であるピーター（もしくはピーターとアリス），そして現在の飼い主はマックスとなる。いずれにせよ，シェリーの現在と以前の飼い主の関係は示唆されている。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p2_s1",
+              "p3_s2",
+              "p5_s4",
+              "p6_s1",
+              "p6_s5",
+              "p6_s6",
+              "p6_s7",
+              "p6_s8"
+            ],
+            "instructor_note": {
+              "ja": "『言及されていない』を問う設問は『本文に登場した内容の選択肢を消去する』作戦が最速。①〜⑤を1つずつチェックし、本文に証拠があるものを切り捨て、残った2つが正解。",
+              "points": [
+                "①は『感情描写の欠如』に注目: ジミーの大学進学は p6_s1〜p6_s4 で描かれるが、シェリー自身の感情語（sad / miss / lonely 等）が一切登場しない。一方、マックスとの再会では `I was so happy`（p6_s9）と感情が明示されているのと対照的。",
+                "⑤は『情報の完全な欠如』: 結婚／子どもの話は、ピーターとアリスがマックスを持った件 (p6_s7) を除けば、マックスとジミーについては一切触れられていない。",
+                "②のダミー対策: 場所の列挙 — pet shop（p2_s2）／ Thompson家（p3_s1）／ 嵐で流された場所（p4）／ 老婦人の家（p5_s4）／ 病院（p7_s8）が本文に出る。場所はかなり詳しく語られているので『言及されていない』には当たらない。",
+                "③のダミー対策: p3_s2 I was a gift for Jimmy from his parents, who thought a tortoise would make a nice friend for him. が理由そのもの。`a gift for ~` ＋ 関係詞節で『〜のための贈り物で、両親が…と考えた』。",
+                "④のダミー対策: 飼い主の系譜は p6_s5〜p6_s8 で『ジミー → アリス → ピーター → マックス』と家族関係でつながっており、関係性は十分明示されている。",
+                "テクニック: 『not mentioned or suggested』問題は、英作文・論説問題でも頻出。本文を5項目に圧縮した『出来事年表』を作り、その上で各選択肢を◯×でマークするのが最速。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "label_ja": "リード文・タイトル",
+          "items": [
+            {
+              "en": "enter",
+              "ja": "動「（試合・試験など）の参加登録をする」"
+            },
+            {
+              "en": "ask O to -",
+              "ja": "「O に－するよう求める」"
+            },
+            {
+              "en": "feedback",
+              "ja": "名「感想；意見」"
+            },
+            {
+              "en": "tortoise",
+              "ja": "名「（陸生の）カメ；陸ガメ」"
+            }
+          ]
+        },
+        "p1": {
+          "label_ja": "第1段落 (I've lived a ...)",
+          "items": [
+            {
+              "en": "Max, my current owner",
+              "ja": "「私の現在の飼い主であるマックス」",
+              "note": "Max と my current owner は同格。"
+            },
+            {
+              "en": "when he was born",
+              "ja": "「マックスが生まれた時（のこと）」",
+              "note": "when は関係副詞で先行詞の the time は省略されている。when his mother was born「マックスの母親が生まれた時（のこと）」も同様。"
+            }
+          ]
+        },
+        "p2": {
+          "label_ja": "第2段落 (As soon as ...)",
+          "items": [
+            {
+              "en": "hatch out of ...",
+              "ja": "「…から孵る[孵化する]」"
+            },
+            {
+              "en": "from across the ocean",
+              "ja": "（from a distant place ... と同格）",
+              "note": "from across the ocean と from a distant place ... は同格。"
+            }
+          ]
+        },
+        "p4": {
+          "label_ja": "第4段落 (One summer, there ...)",
+          "items": [
+            {
+              "en": "get lost",
+              "ja": "「道に迷う」"
+            },
+            {
+              "en": "pour",
+              "ja": "動「〈雨が〉どしゃ降りに降る」"
+            },
+            {
+              "en": "trash",
+              "ja": "名「ゴミ；がらくた」"
+            },
+            {
+              "en": "sweep away ...",
+              "ja": "「〈風・波などが〉…を押し流す」"
+            },
+            {
+              "en": "be terrified of ...",
+              "ja": "「…を怖がる；…におびえる」"
+            },
+            {
+              "en": "stand",
+              "ja": "動「…に耐える；…を我慢する」"
+            },
+            {
+              "en": "rain hitting my shell",
+              "ja": "「雨が私の甲羅にうちつける（こと）」",
+              "note": "rain は後の動名詞句の意味上の主語。"
+            },
+            {
+              "en": "shell",
+              "ja": "名「甲羅」"
+            },
+            {
+              "en": "float away",
+              "ja": "「（水面を）漂う」"
+            }
+          ]
+        },
+        "p5": {
+          "label_ja": "第5段落 (For days, I ...)",
+          "items": [
+            {
+              "en": "wander",
+              "ja": "動「…を歩き回る[さまよう]」"
+            },
+            {
+              "en": "search for ...",
+              "ja": "「…を探す」"
+            },
+            {
+              "en": "scary",
+              "ja": "形「恐ろしい」"
+            },
+            {
+              "en": "wonder if ...",
+              "ja": "「…かどうか疑問に思う；…だろうかと思う」"
+            },
+            {
+              "en": "ever",
+              "ja": "副「いつか」"
+            }
+          ]
+        },
+        "p6": {
+          "label_ja": "第6段落 (Jimmy, Alice and ...)",
+          "items": [
+            {
+              "en": "All I know is that ...",
+              "ja": "「（私が知っているすべては…ということだ→）私が知っているのは…ということだけだ」",
+              "note": "I know は直前の All を先行詞とする関係代名詞節で，関係代名詞は目的格であるために省略されている。"
+            },
+            {
+              "en": "become close to ...",
+              "ja": "「…と親しくなる」"
+            },
+            {
+              "en": "remind A of B",
+              "ja": "「AにBを思い出させる」"
+            }
+          ]
+        },
+        "p7": {
+          "label_ja": "第7段落 (Whenever I meet ...)",
+          "items": [
+            {
+              "en": "Max doesn't like it when ...",
+              "ja": "「…ときがマックスは好きではない」",
+              "note": "it は副詞節である when 以下の内容を真目的語とする形式目的語。"
+            },
+            {
+              "en": "remember -ing",
+              "ja": "「－したことを覚えている」"
+            },
+            {
+              "en": "with many people around me",
+              "ja": "「多くの人に囲まれて」",
+              "note": "with はここでは〈with＋名詞＋前置詞句〉の形で付帯状況の意味を表している。「多くの人が私の周りにいて」が直訳。"
+            },
+            {
+              "en": "be gone",
+              "ja": "「なくなっている」"
+            },
+            {
+              "en": "scare",
+              "ja": "動「…を怖がらせる」"
+            }
+          ]
+        },
+        "p8": {
+          "label_ja": "最終段落 (Now, it is ...)",
+          "items": [
+            {
+              "en": "Mr. and Mrs. Thompson, Jimmy, Alice and Peter have been gone for a while, now.",
+              "ja": "「トンプソン夫妻やジミー，そしてアリスとピーターが亡くなってから，今ではしばらくの時が経つ」",
+              "note": "直訳すると「トンプソン夫妻やジミー，そしてアリスとピーターは今ではしばらくの間亡くなっている」となる。"
+            },
+            {
+              "en": "watching the world go by",
+              "ja": "「世の中の移ろいを眺めながら」",
+              "note": "watch は知覚動詞であるので〈watch O ＋ 原形〉という形で「Oが…するのを見る[眺める]」という意味を表す。the world はここでは「世の中」という意味。go by はここでは「（世の中が）動いていく」という意味。"
+            }
+          ]
+        },
+        "feedback_email": {
+          "label_ja": "デイビッドへのあなたの感想メール",
+          "items": [
+            {
+              "en": "moving",
+              "ja": "形「感動的な」"
+            },
+            {
+              "en": "learn about ...",
+              "ja": "「…について知る」"
+            },
+            {
+              "en": "I found it interesting that ...",
+              "ja": "「…ことは興味深いと思う」",
+              "note": "it は that 以下を真目的語とする形式目的語。"
+            },
+            {
+              "en": "mention",
+              "ja": "動「…に言及する」"
+            },
+            {
+              "en": "suggest",
+              "ja": "動「…を示唆する」"
+            },
+            {
+              "en": "help O ＋ 原形",
+              "ja": "「O が－するのに役立つ[－するのを助ける]」"
+            },
+            {
+              "en": "Good luck with ...",
+              "ja": "「…を頑張って」",
+              "note": "直訳では「（うまくいくよう）…の幸運を祈る」。"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "label_ja": "設問文・選択肢",
+          "items": [
+            {
+              "en": "exactly what happened then",
+              "ja": "「そのとき正確に何が起きたのか」",
+              "note": "exactly は後の what 節にかかっている。"
+            },
+            {
+              "en": "as though ＋ 仮定法過去（S＋過去形）",
+              "ja": "「（まるで）…であるかのように」"
             }
           ]
         }
