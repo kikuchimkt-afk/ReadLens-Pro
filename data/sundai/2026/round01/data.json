@@ -9,7 +9,8 @@
     "total_answer_numbers": 47,
     "implemented_sections": [
       1,
-      2
+      2,
+      3
     ],
     "source_pdf_mondai": "第1回_問題.pdf",
     "source_pdf_kaitou": "第1回_解説.pdf",
@@ -859,6 +860,497 @@
               "en": "the tax AI companies pay",
               "ja": "AI 企業が支払う税金",
               "note": "AI companies pay は the tax を先行詞とする関係代名詞節だが，関係代名詞は省略されている。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "description": "物語文（ストーリー読解）",
+      "situation": {
+        "en": "You are an exchange student at a high school in Canada, and your teacher asked you to find an interesting story. You found this story to talk about in class next week.",
+        "ja": "あなたはカナダにある高校の交換留学生で，あなたの先生があなたにおもしろい物語を探すよう求めました。あなたは来週の授業で話すことになる以下の物語を見つけました。"
+      },
+      "passages": [
+        {
+          "id": "story",
+          "title": {
+            "en": "Mama Maria's Restaurant",
+            "ja": "ママ・マリアズレストラン"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "Mama Maria's was a small Italian restaurant owned by my best friend Leo's family.",
+                "ja": "ママ・マリアズは，私の一番の親友であるレオの家族が所有する小さなイタリアンレストランだった。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "I sometimes helped Leo serve the customers.",
+                "ja": "私はときどきレオがお客さんに給仕するのを手伝っていた。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "However, business wasn't going well and Leo was scared that the restaurant might have to close down.",
+                "ja": "しかし，経営はうまくいっておらず，レオはレストランを閉めなければならなくなるのではと心配だった。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "Customer numbers had gone down, and the rent for the building had gone up.",
+                "ja": "客の数は減り，建物の家賃は上がっていた。"
+              },
+              {
+                "id": "p1_s5",
+                "en": "Leo's parents were thinking of quitting.",
+                "ja": "レオの両親は店をやめようかと考えているところだった。"
+              },
+              {
+                "id": "p1_s6",
+                "en": "But Leo, his sister Anna, and I wanted to find a way to save the restaurant.",
+                "ja": "けれども，レオとレオの姉のアンナと私は，レストランを救う方法を見つけたいと思っていた。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "“We can't let it close down,” Leo said, looking at the empty tables. “It's our home.”",
+                "ja": "「店を閉めるわけにはいかない」とレオは誰もいないテーブルを見つめながら言った。「ここは僕たちの家なんだ」"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "Anna stood up.",
+                "ja": "アンナが立ち上がった。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "“We need to find a new way to attract customers. What do you think, Katie?”",
+                "ja": "「お客さんを引きつける新しい方法を探す必要があるわね。ケイティ，あなたはどう思う？」"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "“Well, I have an idea,” I said.",
+                "ja": "「ええとね，1つ考えがあるの」と私は言った。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "“Why don't we try using social media? We can get people talking about Mama Maria's delicious food.”",
+                "ja": "「試しにソーシャルメディアを使ってみない？ ママ・マリアズのおいしい食べ物について人々に語ってもらうことができるわ」"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "Leo's cousin, Marco, who was the chef, came out to join us.",
+                "ja": "店のシェフであるレオのいとこのマルコがやって来て，私たちに加わった。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "“And I'll make a special menu for the weekend. People love limited-time special dishes!”",
+                "ja": "「じゃあ僕は週末用のスペシャルメニューを作るよ。人々は期間限定の特別料理が大好きだからね！」"
+              },
+              {
+                "id": "p5_s3",
+                "en": "It was a Sunday afternoon.",
+                "ja": "これが日曜の午後のことだった。"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "That night, we started to work.",
+                "ja": "その夜，私たちは作業を始めた。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "Anna and I created a social media page for the restaurant, posting photos of Marco's delicious pasta and old family recipes.",
+                "ja": "アンナと私はレストランのためのソーシャルメディアのウェブページを作成し，マルコのおいしいパスタやこの家族に昔から伝わるレシピを投稿した。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "Leo contacted a local food blogger and invited him to visit Mama Maria's for a free meal in exchange for a review.",
+                "ja": "レオは地元のフードブロガーと連絡を取り，レビューを書くことと引き換えに無料で食事を提供するからと，ママ・マリアズを訪れるよう彼を誘った。"
+              }
+            ],
+            [
+              {
+                "id": "p7_s1",
+                "en": "Over a week, our social media posts spread gradually, and the customers began to increase little by little.",
+                "ja": "1週間の間に，私たちがソーシャルメディアで行った投稿は次第に広まり，客が少しずつ増え始めた。"
+              },
+              {
+                "id": "p7_s2",
+                "en": "The food blogger had written a wonderful review, and people were excited to try Marco's new dishes.",
+                "ja": "フードブロガーはすばらしいレビューを書いてくれ，人々はマルコの新しい料理を食べてみて感動していた。"
+              }
+            ],
+            [
+              {
+                "id": "p8_s1",
+                "en": "Then one month after we decided to save Mama Maria's, finally the restaurant was full.",
+                "ja": "そして私たちがママ・マリアズを救おうと決心して1ヵ月後，ついにレストランは満席になった。"
+              }
+            ],
+            [
+              {
+                "id": "p9_s1",
+                "en": "“I can't believe this,” Leo's mother said, looking at the full restaurant.",
+                "ja": "「こんなこと信じられないわ」と，満席になったレストランを見てレオの母親は言った。"
+              },
+              {
+                "id": "p9_s2",
+                "en": "“You saved Mama Maria's!”",
+                "ja": "「あなたたちがママ・マリアズを救ってくれたのよ！」"
+              }
+            ],
+            [
+              {
+                "id": "p10_s1",
+                "en": "Saving the restaurant didn't seem impossible anymore.",
+                "ja": "もはやレストランを救うことが不可能だとは思えなかった。"
+              },
+              {
+                "id": "p10_s2",
+                "en": "Leo and his family were tired but happy after serving all of their new customers.",
+                "ja": "レオと彼の家族は新しい客のすべてに給仕した後は疲れていたが，幸せだった。"
+              },
+              {
+                "id": "p10_s3",
+                "en": "I offered to help them clean up after the restaurant closed, but Leo told me that wasn't necessary.",
+                "ja": "レストランの閉店後，私は掃除を手伝おうと申し出たが，レオは，それは必要ない，と私に言った。"
+              },
+              {
+                "id": "p10_s4",
+                "en": "“You're our social media manager now!” he laughed.",
+                "ja": "「今や君は僕たちのソーシャルメディア主任なんだから！」と彼は笑った。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 8,
+          "stem": {
+            "en": "Which person is telling the story? [8]",
+            "ja": "「この物語を語っているのはどの人物か」［8］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Anna",
+              "ja": "アンナ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Katie",
+              "ja": "ケイティ",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Leo",
+              "ja": "レオ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Marco",
+              "ja": "マルコ",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。物語の第3段落 (Anna stood up.) でアンナが「お客さんを引きつける新しい方法を探す必要があるわね。ケイティ，あなたはどう思う？」と言うと，第4段落 (“Well, I have an idea,…”) で「『ええとね，1つ考えがあるの』と私は言った」と語られていることから，「私」がケイティであると判断できるので，正解は②となる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p3_s1",
+              "p4_s1"
+            ],
+            "instructor_note": {
+              "ja": "1人称小説では『話しかけられた相手の名前 ＝ 語り手の名前』が決め手になります。会話文の代名詞 you と I の対応を1往復追えば必ず特定できます。",
+              "points": [
+                "物語の語り手は第1段落第1文の my best friend Leo（私の親友レオ）から、レオではない誰かだとまずわかる。",
+                "第3段落の Anna stood up. の発言で you = Katie と呼びかけられ、続く第4段落で I said と地の文が応答する → 『私 = Katie』が確定。",
+                "③ Leo は語り手から best friend と呼ばれている人物なので語り手本人ではない。④ Marco は第5段落で『come out to join us』と外から登場しており、最初から語り手と一緒にいた『私』とは別人物。",
+                "1人称視点の物語では『私』が誰かを問う設問が頻出。最初に登場する固有名詞を語り手から除外していくのがコツ。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 9,
+          "question_type": "ordering",
+          "stem": {
+            "en": "Choose four out of the five options (①～⑤) and put them in the order they happened. [9] → [10] → [11] → [12]",
+            "ja": "「5つの選択肢（①〜⑤）から4つを選び，それらを起こった順番に並べなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The family employed some new staff members.",
+              "ja": "家族が新しいスタッフを何人か雇った。"
+            },
+            {
+              "label": "②",
+              "en": "The family were surprised at the change in their business.",
+              "ja": "家族が経営状態の変化に驚いた。"
+            },
+            {
+              "label": "③",
+              "en": "The family were worried about the decline of their business.",
+              "ja": "家族が経営状態の悪化を心配した。"
+            },
+            {
+              "label": "④",
+              "en": "The food blogger ate in Mama Maria's.",
+              "ja": "フードブロガーがママ・マリアズで食事をした。"
+            },
+            {
+              "label": "⑤",
+              "en": "The friends discussed a way to solve the problem.",
+              "ja": "友人たちが問題を解決する方法を話し合った。"
+            }
+          ],
+          "answer": "③→⑤→④→②",
+          "answer_sequence": [
+            3,
+            5,
+            4,
+            2
+          ],
+          "explanation": {
+            "quoted_ja": "正解は③→⑤→④→②。物語の流れをかいつまんで追うと，レストランの経営危機 → レストランを救うための方策についての話し合いとその実行 → 客足が伸び始め，1ヵ月後には満席，とまとめられる。\n第1段落第3文 (However, business wasn't…) で「しかし，経営はうまくいっておらず，レオはレストランを閉めなければならなくなるのではと心配だった」と述べられていることから，まず③「家族が経営状態の悪化を心配した」が来る。\n第2段落 (“We can't let…”) ～第5段落 (Leo's cousin, Marco,…) で，日曜の午後に語り手とレオたちがレストランを経営危機から救うための話し合いを行い，ソーシャルメディアの活用や期間限定メニューの提供といった新しい方策を打ち出す場面が描かれているので，次に⑤「友人たちが問題を解決する方法を話し合った」が来る。\n第6段落第3文 (Leo contacted a…) でレオが地元のフードブロガーを誘ったことが述べられ，第7段落第2文 (The food blogger…) で「フードブロガーはすばらしいレビューを書いてくれ，人々はマルコの新しい料理を食べてみて感動していた」と語られていることから，フードブロガーは実際にママ・マリアズで食事をし，そのレビューを書いて投稿したことがわかるので，次に④「フードブロガーがママ・マリアズで食事をした」が来る。\n第8段落 (Then one month…) で「ついにレストランは満席になった」と語られ，第9段落第1文 (“I can't believe…”) で「こんなこと信じられないわ」とレオの母親が驚き感激した様子が描かれていることから，最後に②「家族が経営状態の変化に驚いた」が来る。\n選択肢①の「家族が新しいスタッフを何人か雇った」という内容は物語の中では言及されていないので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p1_s3",
+              "p4_s1",
+              "p5_s1",
+              "p6_s3",
+              "p7_s2",
+              "p8_s1",
+              "p9_s1"
+            ],
+            "instructor_note": {
+              "ja": "整序問題は『時系列を表す手がかり語』が命です。本文の However / That night / Over a week / Then one month after / finally などの時間表現に下線を引き、それぞれを選択肢と1対1で対応させてから並べると確実です。",
+              "points": [
+                "選択肢の③/⑤/④/②に対応する時間軸の語: ③→第1段落の However, business wasn't ...（物語冒頭の状態） / ⑤→第2〜第5段落の日曜午後の対話 / ④→第6段落〜第7段落のレビュー投稿（その夜＋約1週間後）/ ②→第8〜第9段落の『1ヵ月後／満席』の場面。",
+                "①『新しいスタッフを雇った』は本文に登場しない情報。5つの選択肢から4つを選ぶ形式では、最低1つは『本文に出てこないダミー』が混じる。",
+                "④の判定は微妙: フードブロガーが食事をしたという直接の文はないが、p6_s3 で『無料で食事を提供すると誘った』、p7_s2 で『すばらしいレビューを書いた』とあり、レビューを書く前提として食事をしたと推論できる。",
+                "②の『驚いた』は p9_s1 の “I can't believe this,” という直接話法が手がかり。`I can't believe ...` は驚きの定型表現。",
+                "頻出表現: in exchange for ...（…と引き換えに）／ little by little（少しずつ）／ one month after ...（…の1ヵ月後）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "How did Leo and his family most likely feel four weeks later? [13]",
+            "ja": "「レオと彼の家族は，4週間後におそらくどのような感想を持ったか」［13］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Confused",
+              "ja": "混乱した",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Disappointed",
+              "ja": "失望した",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Guilty",
+              "ja": "罪悪感を覚える",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Relieved",
+              "ja": "ほっとした",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第8段落 (Then one month…) で「そして私たちがママ・マリアズを救おうと決心して1ヵ月後，ついにレストランは満席になった」と述べられ，続く第9段落 (“I can't believe…”) で「こんなこと信じられないわ」と，満席になったレストランを見てレオの母親は言った。「あなたたちがママ・マリアズを救ってくれたのよ！」とレストランが満席となりレオの母親が感激した様子が描かれている。\nさらに最終段落第1文 (Saving the restaurant…) ～第2文 (Leo and his family…) で「もはやレストランを救うことが不可能だとは思えなかった。レオと彼の家族は新しい客のすべてに給仕した後は疲れていたが，幸せだった」と語られていることから，語り手とレオたちがママ・マリアズを救おうと決心して1ヵ月後，すなわち4週間後に，レオと彼の家族はレストランが経営危機を脱したことに喜び「ほっとした」ことが推測できるので，正解は④となる。\n①，②，③の内容は，いずれもレオと彼の家族が4週間後に抱いた感想とは結びつかないと判断できるので，誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p8_s1",
+              "p9_s1",
+              "p9_s2",
+              "p10_s1",
+              "p10_s2"
+            ],
+            "instructor_note": {
+              "ja": "心情把握問題は『直接の感情語＋状況証拠』の2つで決め打ちます。p10_s1 の didn't seem impossible anymore（もう不可能ではない）と p10_s2 の tired but happy（疲れていたが幸せ）が、relieved（危機を脱してほっとした）の決定打。",
+              "points": [
+                "Relieved（ほっとした）= 心配・危険・困難が去って安堵した状態。p10_s1 の『救うのが不可能とはもう思えない』は文字通り『心配が解けた』状態を示す。",
+                "① Confused（混乱）/ ② Disappointed（失望）は、レストランが満席で家族も happy という本文と完全に逆向き。② は失敗した時の感情語なので、成功シーンとは噛み合わない。",
+                "③ Guilty（罪悪感）は何かに対する後ろめたさ。家族はむしろ感謝されている側（p9_s2 “You saved Mama Maria's!”）なので不適切。",
+                "『four weeks later』≒『one month after』の言い換え。p8_s1 の one month after we decided to save と問題文が完全に一致しているのを見抜けるかがポイント。",
+                "頻出感情語セット: relieved（ほっとした）／ delighted（うれしくてたまらない）／ confused（混乱した）／ disappointed（失望した）／ guilty（罪悪感を覚える）／ frustrated（じれったい）。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "exchange student",
+              "ja": "交換留学生"
+            },
+            {
+              "en": "ask O to -",
+              "ja": "O に－するよう求める"
+            },
+            {
+              "en": "to talk about",
+              "ja": "（this story にかかる）話すための",
+              "note": "to talk about は直前の this story にかかる to 不定詞の形容詞的用法。"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            {
+              "en": "owned by my best friend Leo's family",
+              "ja": "私の一番の親友レオの家族が所有する",
+              "note": "owned by ... は直前の a small Italian restaurant にかかる過去分詞句。"
+            },
+            {
+              "en": "help O to -",
+              "ja": "O が－するのを手伝う［助ける］"
+            },
+            {
+              "en": "serve",
+              "ja": "〈人〉に給仕する；〈人〉（客など）の世話をする；〈人〉に応対する"
+            },
+            {
+              "en": "customer",
+              "ja": "客；顧客"
+            },
+            {
+              "en": "business",
+              "ja": "売上高；業績；経営状態"
+            },
+            {
+              "en": "go well",
+              "ja": "うまくいく；順調に進む"
+            },
+            {
+              "en": "be scared that ...",
+              "ja": "…ということを心配する［恐れる］"
+            },
+            {
+              "en": "close down",
+              "ja": "（店・会社などが）閉まる；廃業する"
+            },
+            {
+              "en": "quit",
+              "ja": "やめる"
+            },
+            {
+              "en": "We can't let it close down",
+              "ja": "「店を閉めるわけにはいかない」",
+              "note": "「それ［レストラン］が閉店となるのを許すことはできない」が直訳。"
+            },
+            {
+              "en": "empty",
+              "ja": "人のいない"
+            },
+            {
+              "en": "Why don't we ...?",
+              "ja": "〈提案・助言などを表して〉…するのはどうか；…しないか"
+            },
+            {
+              "en": "try -ing",
+              "ja": "（試しに）－してみる"
+            },
+            {
+              "en": "get O -ing",
+              "ja": "O に－させ（始め）る"
+            },
+            {
+              "en": "limited-time",
+              "ja": "期間限定の"
+            },
+            {
+              "en": "posting ...",
+              "ja": "そして…を投稿した（付帯状況の分詞構文）",
+              "note": "posting 以下は付帯状況「そして…」の意味を表す分詞構文。"
+            },
+            {
+              "en": "post",
+              "ja": "（ウェブ上に）…を投稿する"
+            },
+            {
+              "en": "invite O to -",
+              "ja": "O を－するように誘う"
+            },
+            {
+              "en": "in exchange for ...",
+              "ja": "…と引き換えに"
+            },
+            {
+              "en": "review",
+              "ja": "レビュー（感想や論評を文章や評点などの形に表したもの）"
+            },
+            {
+              "en": "one month after ...",
+              "ja": "…の1ヵ月後",
+              "note": "〈期間 after [before] ...〉という形で「…の期間後［前］（に）」の意味を表す。"
+            },
+            {
+              "en": "not ... anymore",
+              "ja": "もう…ない"
+            },
+            {
+              "en": "offer to -",
+              "ja": "－しようと申し出る"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "decline",
+              "ja": "低下；下降"
+            },
+            {
+              "en": "confused",
+              "ja": "混乱した"
+            },
+            {
+              "en": "disappointed",
+              "ja": "失望した"
+            },
+            {
+              "en": "guilty",
+              "ja": "罪悪感を覚える"
+            },
+            {
+              "en": "relieved",
+              "ja": "ほっとした"
             }
           ]
         }
