@@ -1664,6 +1664,14 @@
 }
 
 /* ===== Notes Section (大問7 Your notes) ===== */
+.notes-caption {
+  font-size: 0.82rem;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+.notes-caption-ja {
+  margin-bottom: 8px;
+}
 .notes-title {
   text-align: center;
   font-size: 0.95rem;
@@ -1943,6 +1951,55 @@
   font-size: 0.8rem;
   color: var(--text-muted, #888);
   margin-top: 4px;
+}
+
+/* ===== Table Section Header / Span rows ===== */
+.data-table .tbl-section-header td {
+  background: var(--surface-3, #b0b0b0);
+  color: var(--text-on-dark, #fff);
+  font-style: italic;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 5px 10px;
+}
+.data-table .tbl-span-row td {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+}
+.data-table .tbl-span-row td:first-child {
+  text-align: center;
+  font-weight: normal;
+}
+.data-table .tbl-span-cell {
+  text-align: center;
+  font-style: italic;
+}
+
+/* ===== Bullet list in passages ===== */
+.passage-bullet-list {
+  list-style: none;
+  margin: 4px 0 8px 0;
+  padding: 0;
+}
+.passage-bullet-item {
+  padding: 2px 0 2px 1.4em;
+  position: relative;
+}
+.passage-bullet-item::before {
+  content: '·';
+  position: absolute;
+  left: 0.4em;
+}
+.sentence-ja-bullet {
+  padding-left: 1.4em;
+  position: relative;
+}
+.sentence-ja-bullet::before {
+  content: '・';
+  position: absolute;
+  left: 0;
 }
 
 /* ===== Footer Note ===== */

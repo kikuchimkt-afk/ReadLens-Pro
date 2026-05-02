@@ -5,6 +5,7 @@
 
 // ===== レジストリ（app.jsと共通） =====
 const EXAM_PATHS = {
+  zkai_2026_01: 'data/zkai/2026/round01/data.json',
   sundai_2026_01: 'data/sundai/2026/round01/data.json',
   sundai_2026_02: 'data/sundai/2026/round02/data.json',
   sundai_2026_03: 'data/sundai/2026/round03/data.json',
@@ -1049,19 +1050,43 @@ function renderPassage() {
             html += `<div class="sentence-ja" data-sid-ja="${para.id}">${para.ja}</div>`;
             html += '</div>';
           } else {
-            // Array of sentences (legacy format)
-            html += `<p class="passage-paragraph${paraExtraClass}">`;
-            for (const sent of para) {
-              const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
-              html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
+            // Array of sentences — check if any have role:'bullet'
+            const hasBullet = para.some(s => s.role === 'bullet');
+            if (hasBullet) {
+              // Group: normal sentences first, then bullets in <ul>, then normal again
+              let inList = false;
+              for (const sent of para) {
+                const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                if (sent.role === 'bullet') {
+                  if (!inList) { html += '<ul class="passage-bullet-list">'; inList = true; }
+                  html += `<li class="sentence passage-bullet-item" data-sid="${sent.id}">${enText}</li>`;
+                } else {
+                  if (inList) { html += '</ul>'; inList = false; }
+                  html += `<p class="passage-paragraph${paraExtraClass}"><span class="sentence" data-sid="${sent.id}">${enText}</span></p>`;
+                }
+              }
+              if (inList) { html += '</ul>'; }
+              html += '<div class="passage-ja-block">';
+              for (const sent of para) {
+                const jaText = String(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                const cls = sent.role === 'bullet' ? 'sentence-ja sentence-ja-bullet' : 'sentence-ja';
+                html += `<div class="${cls}" data-sid-ja="${sent.id}">${jaText}</div>`;
+              }
+              html += '</div>';
+            } else {
+              html += `<p class="passage-paragraph${paraExtraClass}">`;
+              for (const sent of para) {
+                const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
+              }
+              html += '</p>';
+              html += '<div class="passage-ja-block">';
+              for (const sent of para) {
+                const jaText = String(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${jaText}</div>`;
+              }
+              html += '</div>';
             }
-            html += '</p>';
-            html += '<div class="passage-ja-block">';
-            for (const sent of para) {
-              const jaText = String(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
-              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${jaText}</div>`;
-            }
-            html += '</div>';
           }
           html += '</div>';
           html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
@@ -1089,12 +1114,25 @@ function renderPassage() {
           }
           html += '</tr></thead><tbody>';
           for (const row of tbl.rows) {
-            const cells = Array.isArray(row) ? row : (row.cells || []);
+            // Section header row (shaded full-width label)
+            if (row && row.type === 'section_header') {
+              const lbl = (window._showJa && row.label_ja) ? row.label_ja : row.label;
+              html += `<tr class="tbl-section-header"><td colspan="${tbl.headers.length}">${lbl}</td></tr>`;
+              continue;
+            }
+            // Span row (Break / Lunch / End — second cell spans and centers)
+            if (row && row.type === 'span') {
+              const spanCells = (window._showJa && row.cells_ja) ? row.cells_ja : (row.cells || []);
+              html += `<tr class="tbl-span-row"><td>${spanCells[0]}</td><td class="tbl-span-cell">${spanCells[1]}</td></tr>`;
+              continue;
+            }
+            const rawCells = (window._showJa && row.cells_ja) ? row.cells_ja : (row.cells || []);
+            const cells = Array.isArray(row) ? row : rawCells;
             const naCells = (row && row.na_cells) || [];
             html += '<tr>';
             for (let ci = 0; ci < cells.length; ci++) {
               const isNA = naCells.includes(ci);
-              html += `<td${isNA ? ' class="na-cell"' : ''}>${cells[ci]}</td>`;
+              html += `<td${isNA ? ' class="na-cell"' : ''}>${String(cells[ci]).replace(/\n/g, '<br>')}</td>`;
             }
             html += '</tr>';
           }
@@ -1466,7 +1504,16 @@ function renderPassage() {
 
     // ===== Notes section (大問7: Your notes) =====
     if (passage.is_notes) {
+      if (passage.notes_caption) {
+        html += `<div class="notes-caption">${passage.notes_caption.en}</div>`;
+        if (passage.notes_caption.ja) {
+          html += `<div class="notes-caption-ja choice-text-ja">${passage.notes_caption.ja}</div>`;
+        }
+      }
       html += `<div class="notes-title">${passage.notes_title.en}</div>`;
+      if (passage.notes_title.ja) {
+        html += `<div class="passage-ja-block"><div class="choice-text-ja notes-title-ja">${passage.notes_title.ja}</div></div>`;
+      }
 
       // Story outline
       if (passage.story_outline) {
@@ -1794,6 +1841,9 @@ function findSentenceJa(sid) {
 
   // ── 通常の本文 sentence ID
   for (const passage of currentSection.passages) {
+    if (passage.subtitle && passage.subtitle.id === sid) {
+      return passage.subtitle.ja || null;
+    }
     if (passage.sentences) {
       const sent = passage.sentences.find(s => s.id === sid);
       if (sent) return sent.ja;

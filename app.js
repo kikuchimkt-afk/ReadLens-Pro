@@ -6,6 +6,16 @@
 // ===== レジストリ: 問題集・回の一覧 =====
 const EXAM_REGISTRY = [
   {
+    id: "zkai_2026_01",
+    publisher: "Z会",
+    series: "実戦模試",
+    year: 2026,
+    round: 1,
+    label: "Z会 実戦模試 2026 ─ 第1回",
+    dataPath: "data/zkai/2026/round01/data.json",
+    icon: "📘"
+  },
+  {
     id: "sundai_2026_01",
     publisher: "駿台",
     series: "実戦問題集",

@@ -1,0 +1,47 @@
+﻿table full structure:
+{
+  "title": {
+    "en": "Saturday, September 20, 2025",
+    "ja": "2025年9月20日（土）"
+  },
+  "headers": [
+    "Time",
+    "Performance"
+  ],
+  "rows": [
+    {
+      "cells": [
+        "10 a.m.",
+        "Opening address, Japanese taiko drum performance"
+      ]
+    },
+    {
+      "cells": [
+        "12 p.m.",
+        "Salsa dance display"
+      ]
+    },
+    {
+      "cells": [
+        "2 p.m.",
+        "African drum and dance performance"
+      ]
+    },
+    {
+      "cells": [
+        "3 p.m.",
+        "New Zealand haka performance, closing address"
+      ]
+    }
+  ],
+  "after_paragraph": 3
+}
+
+paragraphs[0]:
+[
+  {
+    "id": "tk_p1_s1",
+    "en": "Hi Ricardo,",
+    "ja": "リカルド，こんにちは。"
+  }
+]

@@ -436,6 +436,9 @@ function renderPassagePage(sec, dataPath) {
     } else if (passage.is_notes) {
       // Notes section (大問7)
       html += '<div class="print-passage" style="border:1px solid #333;padding:16px;">';
+      if (passage.notes_caption && passage.notes_caption.en) {
+        html += '<div style="font-size:0.9rem;font-style:italic;margin-bottom:4px;">' + passage.notes_caption.en + '</div>';
+      }
       html += '<div class="print-passage-title" style="text-align:center;">' + (passage.notes_title ? passage.notes_title.en : 'Your notes') + '</div>';
       if (passage.story_outline) {
         const so = passage.story_outline;

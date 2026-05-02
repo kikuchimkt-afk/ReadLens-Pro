@@ -1,0 +1,28 @@
+{
+  "series": "Z会 共通テスト実戦模試2026年_英語リーディング",
+  "round": 3,
+  "problemPdf": "C:\\Users\\makoto\\Documents\\GitHub\\ReadLens-Pro\\original_PDFs\\Z-kai2026\\第3回_問題.pdf",
+  "explanationPdf": "C:\\Users\\makoto\\Documents\\GitHub\\ReadLens-Pro\\original_PDFs\\Z-kai2026\\第3回_解説.pdf",
+  "majorQuestionCountExpected": 8,
+  "problemSectionsFound": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "explanationSectionsFound": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "notes": "Z会"
+}

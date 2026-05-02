@@ -1,0 +1,2467 @@
+{
+  "exam_info": {
+    "title": "Z会 共通テスト実戦模試2026年 第1回",
+    "publisher": "Z会",
+    "year": 2026,
+    "round": 1,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 49,
+    "implemented_sections": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_pdf_mondai": "第1回_問題.pdf",
+    "source_pdf_kaitou": "第1回_解説.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（パンフレット）",
+      "situation": {
+        "en": "You saw some news about natural disasters on television and decided to be prepared. You found this useful pamphlet.",
+        "ja": "あなたはテレビで自然災害に関するニュースを見て，備えをすることにしました。次の役に立つパンフレットを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "pamphlet_intro",
+          "title": {
+            "en": "Protect your loved ones!",
+            "ja": "大事な人を守りましょう！"
+          },
+          "subtitle": {
+            "en": "Prepare an Emergency Survival Kit",
+            "ja": "非常用サバイバルキットを用意しましょう"
+          },
+          "sentences": [
+            {
+              "id": "intro_s1",
+              "en": "Protect your loved ones!",
+              "ja": "大事な人を守りましょう！",
+              "role": "title"
+            },
+            {
+              "id": "intro_s2",
+              "en": "Prepare an Emergency Survival Kit",
+              "ja": "非常用サバイバルキットを用意しましょう",
+              "role": "subtitle"
+            }
+          ]
+        },
+        {
+          "id": "section1",
+          "title": {
+            "en": "1. Consider possible emergency situations",
+            "ja": "1. 起こりうる緊急事態を考慮しましょう"
+          },
+          "image": {
+            "src": "data/zkai/2026/round01/images/q01_fires_earthquakes.png",
+            "alt": "fires, earthquakes",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "s1_s1",
+              "en": "Some homes are at risk of flooding from nearby rivers, while others might be affected by fires, earthquakes, or strong winds.",
+              "ja": "近くの川の氾濫の危険がある家もあれば，火事，地震，強風の影響を受ける可能性のある家もあります。"
+            },
+            {
+              "id": "s1_s2",
+              "en": "Choose items to include based on whether they are useful in your case.",
+              "ja": "含める品目は，自分の場合に役立つかどうかに基づいて選びましょう。"
+            }
+          ]
+        },
+        {
+          "id": "section2",
+          "title": {
+            "en": "2. Gather essential items",
+            "ja": "2. 必需品を集めましょう"
+          },
+          "image": {
+            "src": "data/zkai/2026/round01/images/q01_inessential_items.png",
+            "alt": "inessential items",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "s2_s1",
+              "en": "Keep your kit as small and light as possible.",
+              "ja": "キットはできるだけ小さく，軽くしましょう。"
+            },
+            {
+              "id": "s2_s2",
+              "en": "Avoid packing inessential items like pillows, toys, or candies.",
+              "ja": "枕，おもちゃ，キャンディーなどの絶対に必要というわけではないものを詰めることは避けます。"
+            },
+            {
+              "id": "s2_s3",
+              "en": "Each family member should have their own kit, but the kits do not need to contain the same items.",
+              "ja": "家族がそれぞれ自分のキットを持つ必要がありますが，キットに同じものを入れる必要はありません。"
+            },
+            {
+              "id": "s2_s4",
+              "en": "For example, one radio is enough, and family members can share a large blanket.",
+              "ja": "たとえば，ラジオは1台で十分ですし，大きな毛布は家族で共有できます。"
+            },
+            {
+              "id": "s2_s5",
+              "en": "On the other hand, food should be separated in case someone loses their kit.",
+              "ja": "一方，誰かがキットを紛失した場合に備えて，食品は分けておくべきです。"
+            },
+            {
+              "id": "s2_s6",
+              "en": "The items inside should be separated into smaller, clear plastic bags according to type so that you can find anything you need easily.",
+              "ja": "中のものは，必要なものを簡単に見つけることができるように，種類ごとに小さい透明なビニール袋に分けるとよいでしょう。"
+            }
+          ]
+        },
+        {
+          "id": "section3",
+          "title": {
+            "en": "3. Store your survival kit",
+            "ja": "3. サバイバルキットを保管しましょう"
+          },
+          "image": {
+            "src": "data/zkai/2026/round01/images/q01_survival_kit_door.png",
+            "alt": "survival kit by the door",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "s3_s1",
+              "en": "It is important to store your survival kit somewhere in your home where you can grab it in a hurry.",
+              "ja": "サバイバルキットは，家で急いで手に取ることができる場所に保管することが重要です。"
+            },
+            {
+              "id": "s3_s2",
+              "en": "Wherever you store it, you should check it occasionally and exchange any old food items for fresher ones.",
+              "ja": "どこに保管する場合でも，ときどきチェックし，古い食品はより新鮮なものと取り替える必要があります。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "The people most likely to benefit from this pamphlet are [ 1 ].",
+            "ja": "「このパンフレットが最も役に立ちそうな人々は［1］である。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "business owners looking for product ideas",
+              "ja": "製品のアイデアを探しているビジネスオーナー",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "parents who need to keep their families safe",
+              "ja": "家族の安全を守る必要がある親",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "people with dangerous working conditions",
+              "ja": "危険な労働条件の人々",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "travelers trying to avoid accidents",
+              "ja": "事故を避けようとする旅行者",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "タイトル Protect your loved ones! Prepare an Emergency Survival Kit (大事な人を守りましょう！非常用サバイバルキットを用意しましょう) から，これは家庭向けの非常用持ち出しキットについてのパンフレットであることがわかる。パンフレットの2の項目には，家族のそれぞれにキットが必要であることや，家族で共有できるものと各自のキットに分けて入れるべきものについてなど，同居家族がいる人を想定した助言が書かれているので②が適切。①③④の人々に向けた内容は書かれていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "intro_s1",
+              "intro_s2",
+              "s2_s3"
+            ],
+            "instructor_note": {
+              "ja": "パンフレットの対象読者を問う問題です。",
+              "points": [
+                "intro_s1の「Protect your loved ones!（愛する人を守ろう）」から、対象が家庭内であることが示唆されます。",
+                "intro_s2の「Prepare an Emergency Survival Kit」という目的が、家庭での備えとして適切です。",
+                "s2_s3の「Each family member should have their own kit（各家族のメンバーは自分用のキットを持つべき）」という記述から、親など家族を管理する立場の人に向けたものだと分かります。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "Once you have prepared your emergency survival kit, it is a good idea to [ 2 ].",
+            "ja": "「緊急時のサバイバルキットを準備したら，［2］のがよい考えである。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "check that your kit is light enough to carry",
+              "ja": "キットが持ち運ぶのに十分軽いことを確認する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "discuss places to hide in your home",
+              "ja": "家の中で隠れる場所について話し合う",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "replace certain items from time to time",
+              "ja": "特定の品目をときどき取り替える",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "think of things to add to the kit",
+              "ja": "キットに追加するものを考える",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "3の項目の最終文に Wherever you store it, you should check it occasionally and exchange any old food items for fresher ones. (どこに保管する場合でも，ときどきチェックし，古い食品はより新鮮なものと取り替える必要があります。) とある。この内容と一致する③が正解。選択肢の certain items は food items を指している。②④の内容は述べられていない。①については2の項目の最初の文で Keep your kit as small and light as possible. (キットはできるだけ小さく，軽くしましょう。) と述べられているが，キットに入れるものを集める段階で考慮すべき点のため誤り。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "s3_s2",
+              "s3_s1",
+              "s2_s1"
+            ],
+            "instructor_note": {
+              "ja": "準備後の対応について問われています。",
+              "points": [
+                "s3_s2にある「exchange any old food items for fresher ones」が、選択肢の「replace certain items from time to time」と言い換えられています。",
+                "s3_s1の「check it occasionally（ときどきチェックする）」という指示が、メンテナンスの必要性を示しています。",
+                "s2_s1は準備段階の助言であり、準備後の定期的な交換（s3_s2）とは目的が異なるため、混同しないように注意が必要です。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "According to the pamphlet, which picture best shows an emergency survival kit for an average family? [ 3 ]",
+            "ja": "「パンフレットによると，平均的な家族向けの非常用サバイバルキットを最もよく表している絵はどれか。」［3］"
+          },
+          "figure_image": {
+            "src": "data/zkai/2026/round01/images/q01_q3_choices.png",
+            "alt": "問3 選択肢画像"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "2の項目の第3文に Each family member should have their own kit (家族がそれぞれ自分のキットを持つ必要があります) とあるので，①と②は除外となる。また，第3文の後半から第4・5文に the kits do not need to contain the same items. For example, one radio is enough, and family members can share a large blanket. On the other hand, food should be separated in case someone loses their kit. (キットに同じものを入れる必要はありません。たとえば，ラジオは1台で十分ですし，大きな毛布は家族で共有できます。一方，誰かがキットを紛失した場合に備えて，食品は分けておくべきです。) とあるので④は誤りで③が正解。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "s2_s3",
+              "s2_s4",
+              "s2_s5"
+            ],
+            "instructor_note": {
+              "ja": "本文の指示と画像の条件を照らし合わせる問題です。",
+              "points": [
+                "s2_s3の「Each family member should have their own kit」から、家族の人数分（複数）のキットが必要であることがわかります。",
+                "s2_s4の「one radio is enough」や「share a large blanket」から、共有できるアイテムは最小限で良いことが示されています。",
+                "s2_s5より、食品は別々に分けるべき（food should be separated）という条件が、絵の選択における決定的な根拠になります。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "loved one",
+              "ja": "最愛の人（家族などを指す）"
+            },
+            {
+              "en": "emergency survival kit",
+              "ja": "緊急サバイバルキット，非常用持ち出しキット"
+            },
+            {
+              "en": "flooding",
+              "ja": "氾濫，出水"
+            },
+            {
+              "en": "inessential",
+              "ja": "絶対に必要というわけではない"
+            },
+            {
+              "en": "store",
+              "ja": "〜を保管する"
+            },
+            {
+              "en": "grab",
+              "ja": "〜を（不意に）つかむ"
+            },
+            {
+              "en": "exchange A for B",
+              "ja": "AをBと取り替える"
+            },
+            {
+              "en": "replace",
+              "ja": "〜を取り替える"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 8,
+      "points_per_question": 2,
+      "description": "短文読解（レポート）",
+      "situation": {
+        "en": "You need to write an essay in your health education class about how to reduce stress. To prepare, you read this report on a recent TV show about the topic.",
+        "ja": "あなたは健康教育の授業でストレスの軽減法についてエッセイを書く必要があります。準備のため，このトピックに関する最近のテレビ番組での次のレポートを読みます。"
+      },
+      "passages": [
+        {
+          "id": "report_intro",
+          "title": {
+            "en": "Health Chat: Monday Apr. 6 — How to Reduce Stress",
+            "ja": "ヘルスチャット：4月6日月曜日\n──ストレス軽減法"
+          },
+          "sentences": [
+            {
+              "id": "s2_title",
+              "en": "Health Chat: Monday Apr. 6 — How to Reduce Stress",
+              "ja": "ヘルスチャット：4月6日月曜日\n──ストレス軽減法",
+              "role": "title"
+            }
+          ]
+        },
+        {
+          "id": "s2_p1",
+          "image": {
+            "src": "data/zkai/2026/round01/images/q02_illus_stretching_woman.png",
+            "alt": "Stretching woman",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "s2_p1_s1",
+              "en": "On today's Health Chat, we heard from three different health professionals: a psychologist, a brain researcher and a wellness expert.",
+              "ja": "今日のヘルスチャットでは，3人の異なる保健専門家である心理学者，脳研究者，ウェルネス専門家から話を聞きました。"
+            },
+            {
+              "id": "s2_p1_s2",
+              "en": "They discussed the different ways we can reduce stress in our daily lives.",
+              "ja": "彼らは，日常生活でストレスを軽減できるさまざまな方法について話し合いました。"
+            }
+          ]
+        },
+        {
+          "id": "s2_p2",
+          "sentences": [
+            {
+              "id": "s2_p2_s1",
+              "en": "All three agreed on the following three ways to reduce stress, not only for our health but for our general happiness.",
+              "ja": "3人全員が，健康のためだけでなく，全体的な幸福感のためにストレスを軽減する次の3つの方法に賛成しました。"
+            },
+            {
+              "id": "s2_p2_s2",
+              "en": "First, they all felt that getting enough sleep was a priority.",
+              "ja": "まず，彼らは皆，十分な睡眠をとることが優先事項であると感じていました。"
+            },
+            {
+              "id": "s2_p2_s3",
+              "en": "With a good night's sleep of at least seven hours, it is easier to feel focused during the day.",
+              "ja": "少なくとも夜7時間よく眠ると昼間に集中しやすくなります。"
+            },
+            {
+              "id": "s2_p2_s4",
+              "en": "A healthy diet, including avoiding too much sugar and caffeine, was next, as these products can cause your mood to go up and down too rapidly.",
+              "ja": "次に健康的な食事で，これには砂糖やカフェインの摂りすぎを避けることが含まれます。これらの製品は気分が急激に上下する原因となる可能性があるからです。"
+            },
+            {
+              "id": "s2_p2_s5",
+              "en": "In addition, getting plenty of exercise can help to improve general health and create a stronger body that can deal better with the ups and downs of life.",
+              "ja": "さらに，十分な運動をすることは，全体的な健康状態を改善し，人生の浮き沈みにうまく対処できる強い体を作るのに役立ちます。"
+            }
+          ]
+        },
+        {
+          "id": "s2_p3",
+          "sentences": [
+            {
+              "id": "s2_p3_s1",
+              "en": "There was a little disagreement among the experts on the following points.",
+              "ja": "次の点については専門家の間で少し意見の相違がありました。"
+            },
+            {
+              "id": "s2_p3_s2",
+              "en": "The wellness expert suggested that yoga and massage were excellent ways of managing stress.",
+              "ja": "ウェルネス専門家は，ヨガとマッサージがストレスを管理するのに優れた方法であると提案しました。"
+            },
+            {
+              "id": "s2_p3_s3",
+              "en": "The brain researcher agreed that yoga was useful, but just as a form of exercise.",
+              "ja": "脳研究者は，ヨガが有用であることには同意しましたが，あくまで運動の一形態としてとのことでした。"
+            },
+            {
+              "id": "s2_p3_s4",
+              "en": "He felt that understanding brain chemistry was the key to better mental health and that spending time outside or getting enjoyment from hobbies was a better way of getting your body to produce anti-stress chemicals such as dopamine and serotonin.",
+              "ja": "彼は脳の化学的性質を理解することがメンタルヘルス〔精神的な健康〕を改善する鍵であり，外で時間を過ごしたり，趣味を楽しんだりすることが，体にドーパミンやセロトニンなどのストレスを防ぐ化学物質を生成させるよりよい方法であると感じていました。"
+            },
+            {
+              "id": "s2_p3_s5",
+              "en": "The psychologist told us that a government report on stress would be released next month, so it might be interesting to see which method would receive the most support.",
+              "ja": "心理学者によると，来月ストレスに関する政府の報告が発表されるとのことで，どの方法が最も支持されるのかがわかり，興味深いかもしれません。"
+            }
+          ]
+        },
+        {
+          "id": "s2_p4",
+          "sentences": [
+            {
+              "id": "s2_p4_s1",
+              "en": "Finally, the three experts agreed with another of the psychologist's points: that social connections are important and that people who meet friends and family often tend to deal with stress well.",
+              "ja": "最後に，心理学者が挙げたもう1点について3人の専門家の意見が一致しました。それは社会的なつながりが重要であり，友人や家族に頻繁に会う人はストレスにうまく対処する傾向があるということです。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "Which of the following points did the speakers all agree on? [ 4 ]",
+            "ja": "「すべての話者が同意したのは次のどれか。」［4］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Certain foods should not be taken in excess.",
+              "ja": "特定の数種の食品は過度に摂取するべきではない。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Dieting to lose weight is an important step in reducing stress.",
+              "ja": "減量のための食事制限はストレスを軽減させる重要な方法である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Mental health experts are the best qualified to help with stress.",
+              "ja": "メンタルヘルスの専門家は，ストレスに対処するのに最も適任である。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Stress causes people's moods to go up and down rapidly.",
+              "ja": "ストレスは人々の気分を急速に上下させる。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第2段落に3人の話者が同意した3つのストレス軽減法が挙げられている。第4文に A healthy diet, including avoiding too much sugar and caffeine, was next, as these products can cause your mood to go up and down too rapidly. (次に健康的な食事で，これには砂糖やカフェインの摂りすぎを避けることが含まれます。これらの製品は気分が急激に上下する原因となる可能性があるからです。) とある。砂糖やカフェインを certain foods (特定の数種の食品) と言い換えた①がこの内容と一致する。健康的な食事は推奨されているが②の「減量を目的とした食事制限」は推奨されていない。③の内容は述べられていない。④はストレスではなく，「砂糖やカフェインなどの食品」が「人々の気分を急激に上下させる」と述べられているので誤り。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "s2_p2_s1",
+              "s2_p2_s4"
+            ],
+            "instructor_note": {
+              "ja": "第2段落の同意事項を確認する問題です。",
+              "points": [
+                "s2_p2_s1より、3人全員が3つの方法に賛成したことが述べられています。",
+                "s2_p2_s4の「avoiding too much sugar and caffeine（砂糖やカフェインの摂りすぎを避ける）」という助言が、選択肢①の「Certain foods should not be taken in excess」と合致します。",
+                "s2_p2_s4の文脈から、気分を上下させるのは食品そのものであると理解できます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "It is possible that people who suffer from too much stress may [ 5 ].",
+            "ja": "「ストレスを過度に受けている人は［5］可能性がある。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "be getting too little sleep during the night",
+              "ja": "夜間，過度の睡眠不足に陥っている",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "be hoping to see a psychologist for advice on stress management",
+              "ja": "心理士に相談してストレス管理について助言をもらうことを望んでいる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "be spending too much time on work or hobbies",
+              "ja": "仕事や趣味に時間を使いすぎている",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "be waiting for a government report to give advice",
+              "ja": "政府の報告による助言を待っている",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第2段落第2文に First, they all felt that getting enough sleep was a priority. With a good night's sleep of at least seven hours, it is easier to feel focused during the day. (まず，彼らは皆，十分な睡眠をとることが優先事項であると感じていました。少なくとも夜7時間よく眠ると昼間に集中しやすくなります。) とある。このように提唱するのは，裏を返せばストレスを受けている人が夜，睡眠不足に陥っている可能性があるからだと考えられるので正解は①。②や③の内容は述べられていない。④の「政府の報告」については第3段落最終文で，このレポートの筆者が「興味深いかもしれない」と言っているが，ストレスを受けている人が待ち望んでいるとは述べられていないので誤り。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "s2_p2_s2",
+              "s2_p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "睡眠不足に関する助言から、ストレス過多な人の状態を推測する問題です。",
+              "points": [
+                "s2_p2_s2の「getting enough sleep was a priority（十分な睡眠が優先事項である）」という発言が、前提として睡眠不足が解消すべき課題であることを示しています。",
+                "s2_p2_s3の「at least seven hours（少なくとも7時間）」という推奨基準が、現状の不足を裏付けています。",
+                "専門家が「十分な睡眠をとるべき」と強調しているため、ストレスを抱えている人が睡眠不足に陥っている可能性が高いと論理的に帰結できます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "One of the experts is of the opinion that [ 6 ].",
+            "ja": "「専門家の1人の意見によると［6］。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "sugar and caffeine affect your mood",
+              "ja": "砂糖とカフェインは気分に影響を与える",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "too much exercise has a negative effect",
+              "ja": "過度な運動は悪影響を及ぼす",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "we shouldn't worry too much about reducing stress",
+              "ja": "ストレスを軽減させることについて気にしすぎるのはよくない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "yoga in itself does not have any special effect in fighting stress",
+              "ja": "ヨガ自体には，ストレスと戦う特別な効果はない。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第3段落第2〜3文に The wellness expert suggested that yoga and massage were excellent ways of managing stress. The brain researcher agreed that yoga was useful, but just as a form of exercise. (ウェルネス専門家は，ヨガとマッサージがストレスを管理するための優れた方法であると提案しました。脳研究者は，ヨガが有用であることには同意しましたが，あくまで運動の一形態としてとのことでした。) とあることから，脳の研究者はヨガを運動としては認めているが，ヨガそのもののストレス管理への有用性は認めていないとわかる。したがって④が正解。①は第2段落で3人全員が同意したこととして述べられているので不適当。②と③については誰も述べていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "s2_p3_s2",
+              "s2_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "専門家同士の意見の相違点について理解する問題です。",
+              "points": [
+                "s2_p3_s2にて、ウェルネス専門家がヨガを優れたストレス管理法として提案しています。",
+                "s2_p3_s3にて、脳研究者が「just as a form of exercise（単なる運動の一形態として）」と述べることで、特別な効果があるわけではないという限定的な評価を示しています。",
+                "この対比から、脳研究者の意見が選択肢④（ヨガ自体の特別な効果は認めない）と一致することが読み取れます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "Which of the following is mentioned in the report? [ 7 ]",
+            "ja": "「次のうちレポートで言及があるのはどれか。」［7］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The advantage of professional advice in dealing with stress",
+              "ja": "ストレスに対処する上での専門家の助言の利点",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The benefit of communicating regularly with others",
+              "ja": "他の人と定期的にコミュニケーションをとることの利点",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "The disagreement over exercise as a way of tackling stress",
+              "ja": "ストレス対処法としての運動に対する意見の相違",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The effectiveness of dopamine or serotonin supplements",
+              "ja": "ドーパミンやセロトニンのサプリメントの有効性",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "最終段落に Finally, the three experts agreed with another of the psychologist's points: that social connections are important and that people who meet friends and family often tend to deal with stress well. (最後に，心理学者が挙げたもう1点について3人の専門家の意見が一致しました。それは社会的なつながりが重要であり，友人や家族に頻繁に会う人はストレスにうまく対処する傾向があるということです。) とあり，②がこの内容と一致する。①については述べられていない。運動はストレス軽減法として全員一致で推奨されているので③も誤り。④のドーパミン，セロトニンは体内で生成される物質として言及されているが，サプリメントについては言及されていない。したがって正解は②。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "s2_p4_s1"
+            ],
+            "instructor_note": {
+              "ja": "レポート内で実際に言及されている内容を特定する問題です。",
+              "points": [
+                "s2_p4_s1の「social connections are important（社会的なつながりが重要）」という記述が確認できます。",
+                "同文の「meet friends and family often（友人や家族に頻繁に会う）」という表現が、②の「communicating regularly with others」と言い換えられています。",
+                "s2_p4_s1の「deal with stress well（ストレスにうまく対処する）」という記述が、②の「benefit」という要点と合致しています。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "psychologist",
+              "ja": "心理学者"
+            },
+            {
+              "en": "wellness",
+              "ja": "健康（であること），ウェルネス（病気の有無だけでなく，生活の質が高い状態にあることを含む。）"
+            },
+            {
+              "en": "priority",
+              "ja": "優先事項"
+            },
+            {
+              "en": "caffeine",
+              "ja": "カフェイン"
+            },
+            {
+              "en": "ups and downs",
+              "ja": "上り下り，浮き沈み"
+            },
+            {
+              "en": "massage",
+              "ja": "マッサージ"
+            },
+            {
+              "en": "chemistry",
+              "ja": "化学的性質"
+            },
+            {
+              "en": "anti-stress",
+              "ja": "ストレス予防の"
+            },
+            {
+              "en": "dopamine",
+              "ja": "ドーパミン"
+            },
+            {
+              "en": "serotonin",
+              "ja": "セロトニン"
+            },
+            {
+              "en": "in oneself",
+              "ja": "それ自体"
+            },
+            {
+              "en": "tackle",
+              "ja": "〜に立ち向かう"
+            },
+            {
+              "en": "supplement",
+              "ja": "サプリメント，栄養補助剤"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "description": "物語文（ベイクセール）",
+      "situation": {
+        "en": "You are an exchange student at a UK high school and you found an interesting story on the Internet. You plan to share the story in class the next week.",
+        "ja": "あなたはイギリスの高校の交換留学生で，インターネットで面白い話を見つけました。翌週にクラスでこの話を共有する予定です。"
+      },
+      "passages": [
+        {
+          "id": "story_title",
+          "title": {
+            "en": "THE BAKE SALE",
+            "ja": "ベイクセール"
+          }
+        },
+        {
+          "id": "p1",
+          "sentences": [
+            {
+              "id": "p1_s1",
+              "en": "It was Day 1 of our school's annual festival, and the International Students' Cooking Club had spent all morning baking.",
+              "ja": "その日は私たちの学校の毎年恒例の祭りの1日目で，留学生料理クラブは午前をすべてお菓子作りに費やしていました。"
+            },
+            {
+              "id": "p1_s2",
+              "en": "Nisha's jaggery and cardamom cookies represented her culture, while my lokum and kaymak cookies showcased Turkish flavours.",
+              "ja": "ニーシャのジャガリとカルダモンのクッキーは彼女の（国の）文化を代表し，私のロクムとカイマックのクッキーはトルコの味を披露するものでした。"
+            },
+            {
+              "id": "p1_s3",
+              "en": "Mika had prepared matcha cookies, and Scott was confident of his Australian Vegemite pastries, though the rest of us were not so sure.",
+              "ja": "ミカは抹茶クッキーを用意しており，スコットは彼のオーストラリアのベジマイトペストリーに自信を持っていました。もっとも他の部員は微妙だと思いましたが。"
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "sentences": [
+            {
+              "id": "p2_s1",
+              "en": "\"Anyway, let's set a new sales record! We can do it!\" I said, looking at the table filled with cookies and pastries from our home countries.",
+              "ja": "「とにかく，売上新記録を達成しよう！私たちならできるよ！」私は自分たちの母国のクッキーやペストリーでいっぱいになったテーブルを見ながら言いました。"
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "sentences": [
+            {
+              "id": "p3_s1",
+              "en": "However, Day 1 was a complete failure.",
+              "ja": "ところが1日目は大失敗でした。"
+            },
+            {
+              "id": "p3_s2",
+              "en": "People glanced at our table but walked past without stopping.",
+              "ja": "人々は私たちのテーブルをちらりとは見るのですが，立ち止まることなく通り過ぎていきました。"
+            },
+            {
+              "id": "p3_s3",
+              "en": "\"What's going wrong?\" I asked the others, noticing how many people walked by without even stopping.",
+              "ja": "「何がいけないんだろう。」私は立ち止まりさえしないで通り過ぎる人の多さに気づいて，他の部員たちにたずねました。"
+            },
+            {
+              "id": "p3_s4",
+              "en": "Scott looked at the crowd and then whispered, \"Well, Fatma, maybe people don't know what they are.",
+              "ja": "スコットは人々を見て，「そうだな，ファトマ，たぶんお客さんにはこれが何だかわからないんだよ。"
+            },
+            {
+              "id": "p3_s5",
+              "en": "I don't think these flavours are very familiar to them.\"",
+              "ja": "彼らにこれらの味はあまり馴染みがないと思う。」と小声で言いました。"
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "sentences": [
+            {
+              "id": "p4_s1",
+              "en": "At the end of Day 1, we sadly packed up our unsold goods and sat in silence worrying that Day 2 would be the same.",
+              "ja": "1日目の終わりに，私たちは沈んだ気持ちで売れ残った品物を片づけ，2日目も同じことになるのではないかと心配しながら黙って座っていました。"
+            },
+            {
+              "id": "p4_s2",
+              "en": "Later, we gathered in the classroom to figure out what had gone wrong.",
+              "ja": "その後，私たちは教室に集まり，何が悪かったのかを考えました。"
+            },
+            {
+              "id": "p4_s3",
+              "en": "We decided that Scott was right, so we created posters explaining each ingredient's origins, popularity, and health benefits.",
+              "ja": "スコットの言う通りだという結論になり，それぞれの食材の原産地や人気，健康効果を説明するポスターを作りました。"
+            },
+            {
+              "id": "p4_s4",
+              "en": "We also prepared small samples so people could taste them before buying.",
+              "ja": "また，買う前に試食できるよう，小さなサンプルも用意しました。"
+            }
+          ]
+        },
+        {
+          "id": "p5",
+          "sentences": [
+            {
+              "id": "p5_s1",
+              "en": "The next day, things changed.",
+              "ja": "翌日，状況は変わりました。"
+            },
+            {
+              "id": "p5_s2",
+              "en": "With free samples and clearer explanations, people stopped, tried the food, and became curious.",
+              "ja": "無料サンプルとわかりやすくなった説明によって，人々は立ち止まり，試食し，興味を持ってくれました。"
+            },
+            {
+              "id": "p5_s3",
+              "en": "We were busy answering questions and serving customers returning to buy more.",
+              "ja": "私たちは質問に答えたり，もっと買うために戻ってきた人の接客をしたりして忙しくなりました。"
+            },
+            {
+              "id": "p5_s4",
+              "en": "Even Scott's Vegemite pastries found a few adventurous customers.",
+              "ja": "スコットのベジマイトペストリーでさえ，何人かの冒険好きな客がつきました。"
+            }
+          ]
+        },
+        {
+          "id": "p6",
+          "sentences": [
+            {
+              "id": "p6_s1",
+              "en": "We thought we were doing pretty well.",
+              "ja": "私たちはかなりよくやっていたと思いました。"
+            },
+            {
+              "id": "p6_s2",
+              "en": "But when we counted our total sales, it became clear — we hadn't broken the sales record.",
+              "ja": "しかし売上を数えると，売上新記録は達成できなかったことが明らかになりました。"
+            },
+            {
+              "id": "p6_s3",
+              "en": "If we had used these strategies from the start, we would have succeeded.",
+              "ja": "最初からこれらの戦略を使っていれば，成功していたでしょう。"
+            }
+          ]
+        },
+        {
+          "id": "p7",
+          "sentences": [
+            {
+              "id": "p7_s1",
+              "en": "We learned an important lesson that day—planning matters.",
+              "ja": "その日，私たちは「計画が重要だ」という重要な教訓を学びました。"
+            },
+            {
+              "id": "p7_s2",
+              "en": "I decided to leave a message for next year's club members so they wouldn't make the same mistake.",
+              "ja": "来年の部員が同じ過ちを犯さないように彼らにメッセージを残すことにしました。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 8,
+          "stem": {
+            "en": "Which person is telling the story? [ 8 ]",
+            "ja": "「この話の語り手はどの人物か。」［8］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Fatma",
+              "ja": "ファトマ",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Mika",
+              "ja": "ミカ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Nisha",
+              "ja": "ニーシャ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Scott",
+              "ja": "スコット",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第3段落第3〜5文にこの話の筆者を含めたやりとりがある。\"What's going wrong?\" I asked the others, noticing how many people walked by without even stopping. Scott looked at the crowd and then whispered, \"Well, Fatma, maybe people don't know what they are. I don't think these flavours are very familiar to them.\"（「何がいけないんだろう。」私は立ち止まりさえしないで通り過ぎる人の多さに気づいて，他の部員たちにたずねました。スコットは人々を見て，「そうだな，ファトマ，たぶんお客さんにはこれが何だかわからないんだよ。彼らにこれらの味はあまり馴染みがないと思う。」と小声で言いました。）とある。「私」の問いかけに答えて，スコットという名の生徒が「ファトマ」と呼びかけているので，これが筆者の名前である。正解は①。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p3_s3",
+              "p3_s4"
+            ],
+            "instructor_note": {
+              "ja": "登場人物の対話から語り手を特定する問題です。",
+              "points": [
+                "p3_s3で「私（語り手）」が「What's going wrong?」と質問しています。",
+                "p3_s4でスコットが「Well, Fatma...」と答えていることから、質問した「私」の名前がFatma（ファトマ）であると分かります。",
+                "会話文の受け答えから発言者を論理的に特定する共通テスト頻出のパターンです。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "question_type": "ordering",
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "answer_note": "各3点",
+          "stem": {
+            "en": "Choose four out of the five options (① - ⑤) and put them in the order they happened. [ 9 ]→[ 10 ]→[ 11 ]→[ 12 ]",
+            "ja": "「5つの選択肢（①〜⑤）から4つを選び，起きた順に並べよ。」\n［9］→［10］→［11］→［12］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "One member of the group encouraged the other members.",
+              "ja": "グループのメンバーの1人が他のメンバーを励ました。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Some customers asked about the baked goods.",
+              "ja": "何人かの客が焼き菓子についてたずねた。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Some students were doubtful about one of the bakes.",
+              "ja": "何人かの生徒は焼き菓子の1つをいぶかしく思った。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The group borrowed the school's kitchen.",
+              "ja": "グループは学校の調理室を借りた。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "The members prepared some descriptions of the bakes.",
+              "ja": "メンバーは焼き菓子の説明書きを用意した。",
+              "is_correct": true
+            }
+          ],
+          "answer": "③①⑤②",
+          "answer_sequence": [
+            "③",
+            "①",
+            "⑤",
+            "②"
+          ],
+          "explanation": {
+            "quoted_ja": "この話は時系列で述べられているので，各選択肢に該当する箇所を見つけて順に並べればよい。\n③は第1段落最終文 Scott was confident of his Australian Vegemite pastries, though the rest of us were not so sure (スコットは彼のオーストラリアのベジマイトペストリーに自信を持っていました。もっとも他の部員は微妙だと思いましたが) に該当する。\n①は第2段落 \"Anyway, let's set a new sales record! We can do it!\" (「とにかく，売上新記録を達成しよう！私たちならできるよ！」) に該当する。\n⑤は第4段落第3文 We decided that Scott was right, so we created posters explaining each ingredient's origins, popularity, and health benefits. (スコットの言う通りだという結論になり，それぞれの食材の原産地や人気，健康効果を説明するポスターを作りました。) に該当する。\n②は第5段落第3文 We were busy answering questions and serving customers returning to buy more. (私たちは質問に答えたり，もっと買うために戻ってきた人の接客をしたりして忙しくなりました。) に該当する。\n以上より③→①→⑤→②の順となる。④の内容は述べられていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p1_s3",
+              "p2_s1",
+              "p4_s3",
+              "p5_s3"
+            ],
+            "instructor_note": {
+              "ja": "本文の出来事を時系列順に並べ替える問題です。各選択肢の該当箇所を本文から探し出します。",
+              "points": [
+                "p1_s3の「the rest of us were not so sure（他の部員は微妙に思った）」が③の「were doubtful（いぶかしく思った）」に該当します。",
+                "p2_s1の「We can do it!（私たちならできるよ！）」という発言が①の「encouraged the other members（他のメンバーを励ました）」に該当します。",
+                "p4_s3の「created posters explaining（説明するポスターを作った）」が⑤の「prepared some descriptions（説明書きを用意した）」に該当します。",
+                "p5_s3の「answering questions（質問に答える）」という状況から、客が質問したこと（②）が分かります。④の調理室を借りたという記述は本文に存在しません。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "How did the members most likely feel at the end of Day 2 of the festival? [ 13 ]",
+            "ja": "「祭りの2日目を終えた時点で，部員はおそらくどんな気持ちだったか。」［13］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "disappointed",
+              "ja": "がっかりした",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "excited",
+              "ja": "興奮した",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "prepared",
+              "ja": "準備ができていた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "worried",
+              "ja": "心配だった",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第6段落に We thought we were doing pretty well. But when we counted our total sales, it became clear — we hadn't broken the sales record. If we had used these strategies from the start, we would have succeeded. (私たちはかなりよくやっていたと思いました。しかし売上を数えると，売上新記録は達成できなかったことが明らかになりました。最初からこれらの戦略を使っていれば，成功していたでしょう。) とある。2日目で巻き返したものの，期待した売上には届かなかったことから，2日目の終わりには失望していたことを示す①が部員の感情を最もよく表していると考えられる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p6_s1",
+              "p6_s2",
+              "p6_s3"
+            ],
+            "instructor_note": {
+              "ja": "2日目終了時点での部員たちの感情を推測する問題です。",
+              "points": [
+                "p6_s2の「we hadn't broken the sales record（売上新記録は達成できなかった）」という事実が、最終的な感情の決定打となります。",
+                "p6_s3の「If we had used these strategies from the start, we would have succeeded.（最初からこれらの戦略を使っていれば成功していたでしょう）」という仮定法過去完了の文から、強い後悔や落胆（disappointed）が読み取れます。",
+                "売上自体は上向いたものの「新記録を達成できなかった（目標未達）」ことへの失望感（①）を選ぶ必要があります。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "bake sale",
+              "ja": "ベイクセール（学校や教会の資金集めなどのために手作りの菓子などを売る催し）"
+            },
+            {
+              "en": "bake",
+              "ja": "オーブンで焼かれた料理；（パン・ケーキなどを）焼く"
+            },
+            {
+              "en": "jaggery",
+              "ja": "ジャガリ（東南アジアでクジャクヤシの樹液から作る生成されていない赤砂糖）"
+            },
+            {
+              "en": "cardamom",
+              "ja": "カルダモン（スパイスの1種）"
+            },
+            {
+              "en": "represent",
+              "ja": "〜を代表する"
+            },
+            {
+              "en": "lokum",
+              "ja": "ロクム（トルコの伝統的なお菓子）"
+            },
+            {
+              "en": "kaymak",
+              "ja": "カイマック（トルコや中央アジアの伝統的な乳製品）"
+            },
+            {
+              "en": "showcase",
+              "ja": "〜を展示する〔披露する〕"
+            },
+            {
+              "en": "Turkish",
+              "ja": "トルコの"
+            },
+            {
+              "en": "Vegemite",
+              "ja": "ベジマイト（オーストラリアのペースト状の発酵食品）"
+            },
+            {
+              "en": "pastry",
+              "ja": "ペストリー，（パイ・タルトなどの）焼き菓子"
+            },
+            {
+              "en": "glance at ~",
+              "ja": "〜をちらっと見る"
+            },
+            {
+              "en": "pack up ~",
+              "ja": "〜を荷造りする〔片づける〕"
+            },
+            {
+              "en": "ingredient",
+              "ja": "材料，食材"
+            },
+            {
+              "en": "origin",
+              "ja": "起源，原産（地）"
+            },
+            {
+              "en": "adventurous",
+              "ja": "冒険好きな"
+            },
+            {
+              "en": "description",
+              "ja": "説明（※問2⑤の語）"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ添削（クマとの共存）",
+      "situation": {
+        "en": "In your science class, you are writing an essay on a conservation issue in Japan. This is your most recent draft. You are now working on improvements based on comments from your teacher.",
+        "ja": "科学の授業で，あなたは日本の環境保護問題に関するエッセイを書いています。これはあなたの最新の草稿です。今は先生からのコメントをもとに，推敲に取り組んでいるところです。"
+      },
+      "passages": [
+        {
+          "id": "bears_essay",
+          "title": {
+            "en": "Coexisting with Bears in Rural Japan",
+            "ja": "日本の地方部でのクマとの共存"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "be_p1_s1",
+                "en": "The number of bears entering residential areas in Japan is increasing.",
+                "ja": "日本で住宅地に入り込むクマの数が増えている。"
+              },
+              {
+                "id": "be_p1_s2",
+                "en": "This leads to conflict with the human population that includes crop damage, car accidents, property invasions, and even attacks on people.",
+                "ja": "その結果，農作物への被害，交通事故，建物への侵入，さらには人への攻撃など，人間の集団との衝突が起きている。"
+              },
+              {
+                "id": "be_p1_s3",
+                "en": "Killing the bears may seem like a simple solution, but this is not a good one",
+                "ja": "クマを殺すことが単純な解決策のように思えるかもしれないが，これはよい解決策ではない",
+                "comment_marker": "(1)",
+                "marker_position": "after",
+                "marker_type": "caret"
+              },
+              {
+                "id": "be_p1_s4",
+                "en": "For example, moon bears in Japan play an important role as forest engineers.",
+                "ja": "例えば，日本のツキノワグマは森林の整備士として重要な役割を果たしている。"
+              },
+              {
+                "id": "be_p1_s5",
+                "en": "They eat plants or fruits and distribute the seeds around the forest.",
+                "ja": "彼らは植物や果実を食べ，種子を森にばらまく。"
+              },
+              {
+                "id": "be_p1_s6",
+                "en": "This greatly supports the health of the ecosystem, and therefore the presence of bears is essential to all the plants and animals of the forest.",
+                "ja": "これは生態系の健全性を大きく支えており，したがってクマの存在は森のすべての動植物にとって不可欠なのである。"
+              },
+              {
+                "id": "be_p1_s7",
+                "en": "This essay will describe other methods that are being used to avoid conflict between bears and humans.",
+                "ja": "このエッセイでは，クマと人間の衝突を回避するために利用されているその他の方策について説明する。"
+              }
+            ],
+            [
+              {
+                "id": "be_p2_s1",
+                "en": "The first strategy to prevent bears from coming into towns is electronic tagging.",
+                "ja": "クマが町に入ってくるのを防ぐための最初の戦略は，電子タグを付けることである。"
+              },
+              {
+                "id": "be_p2_s2",
+                "en": "If the bears are monitored and they approach residential areas, conservation teams can locate them, scare them away and push them back into the forest.",
+                "ja": "もしクマが監視されていて，住宅地に近づけば，保護チームがクマの居場所を突き止め，脅して追い払い，森に押し戻すことができる。"
+              },
+              {
+                "id": "be_p2_s3",
+                "en": "This costs a lot and requires great effort, but some local governments have adopted this method.",
+                "ja": "これには多額の費用と莫大な労力がかかるが，この方法を採用している地方自治体もある。"
+              }
+            ],
+            [
+              {
+                "id": "be_p3_s1",
+                "en": "Second, measures can be taken to reduce the attractiveness of the towns.",
+                "ja": "第2に，町の魅力を減らす対策をとることができる。"
+              },
+              {
+                "id": "be_p3_s2",
+                "en": "This includes protecting crops with electric fences, strengthening the trash containers to prevent bears from taking dumped food, and trimming unnecessary fruit trees in abandoned places.",
+                "ja": "これには電気柵で農作物を保護したり，ゴミ箱を強化してクマが捨てられた食品を食べないようにしたり，放棄された場所にある不要な果樹を刈り込んだり，といったものが含まれる。"
+              },
+              {
+                "id": "be_p3_s3",
+                "en": "These all help to prevent the bears from learning that food is available around people.",
+                "ja": "これらはすべて，クマが人の周りで食べ物が手に入ると学習するのを防ぐのに役立つ。"
+              },
+              {
+                "id": "be_p3_s4",
+                "en": "Removing bushes and tall grass can also discourage bears from settling nearby",
+                "ja": "また，茂みや背の高い草を取り除くことでも，クマが近くに住みつくのを防ぐことができる",
+                "comment_marker": "(2)",
+                "marker_position": "after",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "be_p4_s1",
+                "en": "Lastly, public education on how to behave safely near bears is essential.",
+                "ja": "最後に，クマの近くで安全に行動する方法についての一般市民の教育が不可欠である。"
+              },
+              {
+                "id": "be_p4_s2",
+                "en": "Hikers can carry bells that warn bears to stay away.",
+                "ja": "ハイカーは，近づかないようにクマに警告する鈴を携帯することができる。"
+              },
+              {
+                "id": "be_p4_s3",
+                "en": "Local people can learn how to act to make a bear keep its distance if they come across one.",
+                "ja": "地元の人々は，クマに遭遇した場合にクマを遠ざけるためにどのように行動すべきかを学ぶことができる。",
+                "comment_marker": "(3)",
+                "marker_position": "before",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "be_p5_s1a",
+                "en": "In conclusion, a combination of monitoring bear movements,",
+                "ja": "結論として，クマの動きを監視し，"
+              },
+              {
+                "id": "be_p5_s1b",
+                "en": "conducting management, and adapting human behavior can help us to coexist with these amazing animals with which we share our environment.",
+                "ja": "(4)管理を行い，人間の行動の適応を組み合わせることで，環境を共有するこの素晴らしい動物との共存に役立てることができるのだ。",
+                "comment_marker": "(4)",
+                "marker_position": "before",
+                "underline_word": "conducting management"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "It's not very clear why. Explain more clearly.",
+              "ja": "この理由が明確ではありません。より明確に説明してください。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Expand this reason a little.",
+              "ja": "この理由をもう少し詳しく教えてください。"
+            },
+            {
+              "marker": "(3)",
+              "en": "Add an appropriate connecting expression.",
+              "ja": "適切な接続表現を加えてください。"
+            },
+            {
+              "marker": "(4)",
+              "en": "The underlined part does not describe your point well. Change it.",
+              "ja": "下線部はあなたの言いたいことをうまく説明していません。変更してください。"
+            }
+          ],
+          "teacher_comment": {
+            "en": "This is a great start. I would certainly want to re-read your essay before I go hiking in the mountains!",
+            "ja": "これは素晴らしいスタートです。山にハイキングに行く前に，あなたのエッセイを絶対に読み返したいと思います！"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on comment (1), which is the best expression to add? [ 14 ]",
+            "ja": "「コメント(1)に基づいて，付け加えるのに最も適当な表現はどれか。」［14］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "because it would damage the plants that people grow near the forest",
+              "ja": "なぜなら森の近くで人が育てている植物を傷めるからである",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "because the goal is coexistence and protection of the bear population",
+              "ja": "なぜならクマの集団との共存と保護が目的だからである",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "because there are many different ways to kill the bears",
+              "ja": "なぜならクマを殺す方法はいろいろあるからである",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "because there are too many bears in this area that attack people",
+              "ja": "なぜならこの地域には人を襲うクマが多すぎるからである",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "「これはよいものではない」と述べる理由が不明瞭なので，補足が求められている。このbut以下は，直前のKilling the bears may seem like a simple solution（クマを殺すことが単純な解決策のように思えるかもしれない）の部分を受けていることを考えると，「クマを殺すことはよい解決策ではない」という意味であるとわかる。続けて，ツキノワグマが生態系において果たしている役割が説明されていることを考えると，クマを殺すのではなく生態系の中で保護すべきだという考えが，このエッセイにおいて主張すべき内容であるとわかる。よって，それを補強する理由になっている②が正解。その他の選択肢は，クマを保護すべき存在とみなしていないので不適当。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "be_p1_s3",
+              "be_p1_s4",
+              "be_p1_s6"
+            ],
+            "instructor_note": {
+              "ja": "コメント(1)「理由が不明確」に対して、文脈から論理的に補える表現を選ぶ問題です。",
+              "points": [
+                "be_p1_s3の「this is not a good one（これはよい解決策ではない）」という主張に対し、その直後に続くべき理由を選びます。①③④はクマを保護する立場ではなく不適当です。",
+                "be_p1_s4〜be_p1_s6でツキノワグマが生態系に不可欠だと説明されていることから、「共存・保護が目的」という②が文脈に合致します。",
+                "but節で「良い解決策ではない」と述べた後に理由を加える構造は、because節が論理的な根拠を補う典型パターンです（共通テスト頻出）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on comment (2), which is the best expression to add? [ 15 ]",
+            "ja": "「コメント(2)に基づいて，付け加えるのに最も適当な表現はどれか。」［15］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "as bears can find more things to eat in people's homes",
+              "ja": "なぜならクマは人家で食べ物をより多く見つけることができるからである",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "as bears like to make their homes in this kind of place",
+              "ja": "なぜならクマはそのような場所に住みかを作りたがるからである",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "as these areas can be used for growing new crops",
+              "ja": "なぜならその区域は新しい作物の栽培に利用できるからである",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "as these areas cause bears to be frightened of people",
+              "ja": "なぜならその区域のおかげでクマが人を怖がるようになるからである",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "(2)の直前で，Removing bushes and tall grass can also discourage bears from settling nearby（また，茂みや背の高い草を取り除くことでも，クマが近くに住みつくのを防ぐことができる）と述べられているので，ここではなぜそうすることがクマが住みつくのを防ぐのかという，理由を追記することが求められていることがわかる。②を入れれば，クマが住みたがる茂みや背の高い草がある場所をなくすことがクマの排除に効果的であるという流れになり，論理的である。よって②が正解。①はクマを寄せ付ける理由になってしまうので不適当。③はクマの排除と無関係なので不適当。④は茂みの有無とクマが人を怖がるようになる論理関係が不明なので不適当。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "be_p3_s4"
+            ],
+            "instructor_note": {
+              "ja": "コメント(2)「理由をもう少し詳しく」に対して、直前文の「茂みや草を除くことでクマが住みつくのを防げる」理由を論理的に補完する表現を選びます。",
+              "points": [
+                "be_p3_s4の「discourage bears from settling nearby（クマが近くに住みつくのを防ぐ）」という結果に対し、その因果関係を説明する表現が必要です。",
+                "②の「as bears like to make their homes in this kind of place（クマはそのような場所に住みかを作りたがる）」を入れると、茂みを除けばクマが好む環境がなくなる→住みつかないという論理が成立します。",
+                "①はクマを引き寄せる理由になってしまい逆効果。③④は「茂みや草を除く」という対策との因果関係が成立しません。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on comment (3), which is the best phrase to add? [ 16 ]",
+            "ja": "「コメント(3)に基づいて，付け加えるのに最も適当な語句はどれか。」［16］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "For example",
+              "ja": "例えば",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "In addition",
+              "ja": "加えて",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "In any case",
+              "ja": "いずれの場合でも",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Nevertheless",
+              "ja": "それにもかかわらず",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "(3)の直前の文は Hikers can carry bells that warn bears to stay away.（ハイカーは，近づかないようにクマに警告する鈴を携帯することができる。）というものであり，直後の文は Local people can learn how to act to make a bear keep its distance if they come across one.（地元の人々は，クマに遭遇した場合にクマを遠ざけるためにどのように行動すべきかを学ぶことができる。）となっている。この2つの文をつなげるのにふさわしい表現を選ぶことになるが，これはどちらも，この段落の冒頭の文 Lastly, public education on how to behave safely near bears is essential.（最後に，クマの近くで安全に行動する方法についての一般市民の教育が不可欠である。）の具体例になっている。具体例をさらに追記しているのだから，②を入れるのが適切だとわかる。よって②が正解。その他の選択肢では，2つの文を論理的につなげることはできない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "be_p4_s1",
+              "be_p4_s2",
+              "be_p4_s3"
+            ],
+            "instructor_note": {
+              "ja": "2文をつなぐ接続表現を選ぶ問題です。前後の文の論理関係（並列・追加か、対比か、例示か）を正確に見極めます。",
+              "points": [
+                "be_p4_s2（ハイカーの鈴）とbe_p4_s3（地元の人々の行動）はどちらも、be_p4_s1の「クマの近くで安全に行動する公教育」という主張の具体例です。同じ種類の具体例を並べる場合は「In addition（加えて）」が適切です。",
+                "①「For example」はbe_p4_s2が既に具体例として始まっているため、2つ目の具体例に使うと重複感が生じます（また、直前にすでに例示があるため）。",
+                "③「In any case」や④「Nevertheless」は対比・逆接の意味を持つため、追加情報をつなぐ文脈には論理的に合いません。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on comment (4), which is the best phrase to replace the underlined part? [ 17 ]",
+            "ja": "「コメント(4)に基づいて，下線部を置き換えるのに最も適当な語句はどれか。」［17］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "following the safety instructions",
+              "ja": "安全に関する指示に従うこと",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "getting rid of elements that attract bears to the town",
+              "ja": "クマを町に引き寄せる要素を排除すること",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "learning about the town's problems",
+              "ja": "町の問題を知ること",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "looking at environmental problems",
+              "ja": "環境問題に目を向けること",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "最終段落は，それまでの段落で述べてきたことをまとめる役割を担っている。先生に「変更してください」と指摘された下線部(4)の前後では，monitoring bear movements と adapting human behavior という2つの要素が挙げられ，これらはそれぞれ第2段落，第4段落で紹介されたクマ対策と対応している。したがって下線部(4)では，第3段落で紹介した対策を要約するのが自然だから，②が正解。①は第4段落で紹介している adapting human behavior の一例にすぎず，内容も漠然としている。この設問では第3段落の要旨が求められるので合わない。本文に③，④のような記述はない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "be_p3_s1",
+              "be_p3_s2",
+              "be_p3_s3",
+              "be_p3_s4",
+              "be_p5_s1a",
+              "be_p5_s1b"
+            ],
+            "instructor_note": {
+              "ja": "結論段落の下線部が「第3段落の要旨」を適切に言い換えているかを問う問題です。",
+              "points": [
+                "be_p5_s1a・be_p5_s1bの結論文では、3つの対策（①monitoring movements、②下線部、③adapting human behavior）を並列しています。①がP2（電子タグ）、③がP4（公教育）に対応するため、下線部はP3（町の魅力を減らす対策）を要約すべきです。",
+                "第3段落（be_p3_s1〜s4）の内容は「電気柵・ゴミ箱強化・果樹の刈り込み・茂みの除去」など、クマを引き寄せる要素を排除することです。これを一言で表した②「getting rid of elements that attract bears to the town」が正解です。",
+                "①「following the safety instructions」はbe_p4（公教育・行動指針）の内容で、③のadapting human behaviorと重複します。③④は本文に根拠がありません。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句",
+          "items": [
+            {
+              "en": "coexist",
+              "ja": "共存する（名詞形は coexistence）"
+            },
+            {
+              "en": "residential area",
+              "ja": "住宅地"
+            },
+            {
+              "en": "population",
+              "ja": "集団，個体数"
+            },
+            {
+              "en": "property",
+              "ja": "土地；建物"
+            },
+            {
+              "en": "invasion",
+              "ja": "侵入"
+            },
+            {
+              "en": "moon bear",
+              "ja": "ツキノワグマ（Asian black bear とも呼ばれる）"
+            },
+            {
+              "en": "ecosystem",
+              "ja": "生態系"
+            },
+            {
+              "en": "electronic tagging",
+              "ja": "電子タグを付けること"
+            },
+            {
+              "en": "locate",
+              "ja": "〜の場所を突き止める"
+            },
+            {
+              "en": "scare ~ away",
+              "ja": "〜を脅して追い払う"
+            },
+            {
+              "en": "attractiveness",
+              "ja": "魅力"
+            },
+            {
+              "en": "dump",
+              "ja": "〜を捨てる"
+            },
+            {
+              "en": "trim",
+              "ja": "〜を刈り取る"
+            },
+            {
+              "en": "abandoned",
+              "ja": "放棄された"
+            },
+            {
+              "en": "discourage O from doing",
+              "ja": "Oに…することをやめさせる"
+            },
+            {
+              "en": "settle",
+              "ja": "住みつく"
+            },
+            {
+              "en": "come across ~",
+              "ja": "〜に遭遇する"
+            },
+            {
+              "en": "conduct",
+              "ja": "〜を行う"
+            },
+            {
+              "en": "be frightened of ~",
+              "ja": "〜を怖がる（※問2④の語）"
+            },
+            {
+              "en": "get rid of ~",
+              "ja": "〜を取り除く（※問4②の語）"
+            },
+            {
+              "en": "element",
+              "ja": "要素（※問4②の語）"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 15,
+      "points_per_question": 3,
+      "description": "メールのやり取り（識字イベントの企画）",
+      "situation": {
+        "en": "You are a high school senior. You are working as a volunteer at your local library to organize a literacy event for children. You wrote this email to the librarian in charge and received a reply.",
+        "ja": "あなたは高校3年生です。あなたは，地元の図書館のボランティアとして，子供向けの識字イベントを企画する取り組みをしています。あなたはこのメールを担当の司書に書き，返事を受け取りました。"
+      },
+      "passages": [
+        {
+          "id": "email_1",
+          "title": {
+            "en": "Email from you to the librarian",
+            "ja": "あなたから司書へのメール（※タイトルはUI表示用）"
+          },
+          "date": "July 20",
+          "subject": "Event planning",
+          "sender": "You",
+          "recipient": "Ms. Murphy",
+          "paragraphs": [
+            [
+              {
+                "id": "e1_p1_s1",
+                "en": "I am glad to help with the upcoming literacy event at the library.",
+                "ja": "図書館で今度行われる識字イベントのお手伝いができることをうれしく思っています。"
+              },
+              {
+                "id": "e1_p1_s2",
+                "en": "I think events like this are great opportunities to help children improve their reading skills.",
+                "ja": "このようなイベントは，子供たちの読書の力を高めるのに役立つ素晴らしい機会だと思います。"
+              },
+              {
+                "id": "e1_p1_s3",
+                "en": "I want to be a teacher in the future, so this is a great experience for me.",
+                "ja": "私は将来教師になりたいので，これは私にとって最高の経験です。"
+              },
+              {
+                "id": "e1_p1_s4",
+                "en": "The event schedule in question is below.",
+                "ja": "ご質問のイベントスケジュールは以下にある通りです。"
+              }
+            ]
+          ],
+          "table": {
+            "after_paragraph": 1,
+            "title": {
+              "en": "August 16 (Sat)",
+              "ja": "8月16日（土）"
+            },
+            "headers": [
+              "Time",
+              "Activity & Title"
+            ],
+            "rows": [
+              {
+                "type": "section_header",
+                "label": "Morning session: Understanding stories",
+                "label_ja": "午前の会：物語を理解する"
+              },
+              {
+                "cells": [
+                  "9:30 a.m.",
+                  "Activity 1: Mary Takeda\nTitle: Storytime"
+                ],
+                "cells_ja": [
+                  "午前9:30",
+                  "アクティビティ1：メアリー・タケダ\nタイトル：お話の時間"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "10:15 a.m.",
+                  "Break"
+                ],
+                "cells_ja": [
+                  "午前10:15",
+                  "休憩"
+                ]
+              },
+              {
+                "cells": [
+                  "10:30 a.m.",
+                  "Activity 2: Louise Murphy\nTitle: Predicting from pictures"
+                ],
+                "cells_ja": [
+                  "午前10:30",
+                  "アクティビティ2：ルイーズ・マーフィー\nタイトル：絵で予想する"
+                ]
+              },
+              {
+                "cells": [
+                  "11:15 a.m.",
+                  "Activity 3: Mary Takeda\nTitle: (TBD)"
+                ],
+                "cells_ja": [
+                  "午前11:15",
+                  "アクティビティ3：メアリー・タケダ\nタイトル：（未定）"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "12:00 p.m.",
+                  "Lunch"
+                ],
+                "cells_ja": [
+                  "午後12:00",
+                  "昼食"
+                ]
+              },
+              {
+                "type": "section_header",
+                "label": "Afternoon session 1: Sharing stories",
+                "label_ja": "午後の会1：物語を共有する"
+              },
+              {
+                "cells": [
+                  "12:30 p.m.",
+                  "Activity 4: Mary Takeda\nTitle: (TBD)"
+                ],
+                "cells_ja": [
+                  "午後12:30",
+                  "アクティビティ4：メアリー・タケダ\nタイトル：（未定）"
+                ]
+              },
+              {
+                "cells": [
+                  "1:15 p.m.",
+                  "Activity 5: Louise Murphy\nTitle: Reading aloud"
+                ],
+                "cells_ja": [
+                  "午後1:15",
+                  "アクティビティ5：ルイーズ・マーフィー\nタイトル：音読する"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "2:00 p.m.",
+                  "Break"
+                ],
+                "cells_ja": [
+                  "午後2:00",
+                  "休憩"
+                ]
+              },
+              {
+                "type": "section_header",
+                "label": "Afternoon session 2: Making a large-scale craft based on a story",
+                "label_ja": "午後の会2：物語に基づいて大規模作品を制作する"
+              },
+              {
+                "cells": [
+                  "2:15 p.m.",
+                  "Activity 6: Louise Murphy, Mary Takeda\nTitle: (TBD)"
+                ],
+                "cells_ja": [
+                  "午後2:15",
+                  "アクティビティ6：ルイーズ・マーフィー，メアリー・タケダ\nタイトル：（未定）"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "4:00 p.m.",
+                  "End"
+                ],
+                "cells_ja": [
+                  "午後4:00",
+                  "終了"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "email_1_cont",
+          "paragraphs": [
+            [
+              {
+                "id": "e1_p2_s1",
+                "en": "Could you please confirm if the following information is correct?",
+                "ja": "以下の情報が正確かどうか確認していただけますか。"
+              },
+              {
+                "id": "e1_p2_s2",
+                "role": "bullet",
+                "en": "Parents' contact information will be collected during the online application.",
+                "ja": "保護者の連絡先は，オンライン申込フォーム入力時に収集する。"
+              },
+              {
+                "id": "e1_p2_s3",
+                "role": "bullet",
+                "en": "There will be a maximum of 12 children under 9 years old participating.",
+                "ja": "参加は最大12名までの9歳未満の子供とする。"
+              },
+              {
+                "id": "e1_p2_s4",
+                "role": "bullet",
+                "en": "Parents must come to pick up their children around 4:00 p.m.",
+                "ja": "保護者は午後4時頃に子供たちを迎えに来る必要がある。"
+              },
+              {
+                "id": "e1_p2_s5",
+                "role": "bullet",
+                "en": "The library will remain open to the public during the event.",
+                "ja": "イベント開催中も図書館は一般向けに開館したままにする。"
+              }
+            ],
+            [
+              {
+                "id": "e1_p3_s1",
+                "en": "Below is a list of things that are not yet decided.",
+                "ja": "以下は，まだ決まっていないことの一覧です。"
+              },
+              {
+                "id": "e1_p3_s2",
+                "role": "bullet",
+                "en": "Where can the children eat lunch?",
+                "ja": "子供たちは昼食をどこで食べられますか。"
+              },
+              {
+                "id": "e1_p3_s3",
+                "role": "bullet",
+                "en": "What are the names of the remaining two activities and the craft time?",
+                "ja": "残りの2つのアクティビティと作品制作の時間の名前は何ですか。"
+              },
+              {
+                "id": "e1_p3_s4",
+                "role": "bullet",
+                "en": "How should we arrange the room for the activities?",
+                "ja": "アクティビティに向けて室内をどのように配置すべきですか。"
+              }
+            ],
+            [
+              {
+                "id": "e1_p4_s1",
+                "en": "I have not finished creating the poster for this event yet.",
+                "ja": "このイベントのポスターはまだ完成していません。"
+              },
+              {
+                "id": "e1_p4_s2",
+                "en": "I will send a draft to you after confirming the details mentioned above.",
+                "ja": "上記の詳細を確認した後，原稿をお送りします。"
+              }
+            ],
+            [
+              {
+                "id": "e1_p5_s1",
+                "en": "To be honest, I haven't had much experience looking after young children.",
+                "ja": "正直なところ，幼い子供の面倒をみた経験があまりありません。"
+              },
+              {
+                "id": "e1_p5_s2",
+                "en": "I'm a little nervous, but I'll try my best!",
+                "ja": "少し緊張していますが，頑張ります！"
+              }
+            ],
+            [
+              {
+                "id": "e1_p6_s1",
+                "en": "I can't wait for the literacy event to start.",
+                "ja": "識字イベントが始まるのが待ち遠しいです。"
+              },
+              {
+                "id": "e1_p6_s2",
+                "en": "I'm sure it will be very enjoyable!",
+                "ja": "きっととても楽しいイベントになると思います！"
+              }
+            ],
+            [
+              {
+                "id": "e1_p7_s1",
+                "en": "Best regards,",
+                "ja": "よろしくお願いします。"
+              }
+            ],
+            [
+              {
+                "id": "e1_p8_s1",
+                "en": "Volunteer Group Representative",
+                "ja": "ボランティア団体代表"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "email_2",
+          "title": {
+            "en": "Reply from the librarian",
+            "ja": "司書からの返信（※タイトルはUI表示用）"
+          },
+          "date": "July 21",
+          "subject": "Re: Event planning",
+          "recipient": "Group Representative",
+          "paragraphs": [
+            [
+              {
+                "id": "e2_p1_s1",
+                "en": "Thank you for your wonderful work on this event.",
+                "ja": "当イベントについて，素晴らしい仕事をありがとうございます。"
+              },
+              {
+                "id": "e2_p1_s2",
+                "en": "It looks like we are off to a great start!",
+                "ja": "最高のスタートを切ったようですね！"
+              }
+            ],
+            [
+              {
+                "id": "e2_p2_s1",
+                "en": "This schedule looks correct, and you've allocated the activities well.",
+                "ja": "このスケジュールは正しいように思いますし，アクティビティをうまく割り当ててくださっています。"
+              },
+              {
+                "id": "e2_p2_s2",
+                "en": "Because the literacy event will be held in the children's section of the library, the rest of the library will still be accessible to the public.",
+                "ja": "識字イベントは図書館の児童コーナーで開催されるため，図書館の他の場所は一般の人も利用できます。"
+              },
+              {
+                "id": "e2_p2_s3",
+                "en": "Therefore, we should limit the number of children to 12 or fewer to keep noise to a minimum.",
+                "ja": "そのため，騒音を最小限に抑えるため，子供の人数は12人以下に制限する必要があります。"
+              },
+              {
+                "id": "e2_p2_s4",
+                "en": "Also, with only two librarians and a few volunteers to supervise the event, we can't accommodate too many children.",
+                "ja": "また，司書2名とボランティア数名だけでイベントを監督するのでは，あまり多くの子供たちを受け入れることができません。"
+              },
+              {
+                "id": "e2_p2_s5",
+                "en": "In reference to the parents' contact details, you are right: they are saved when the parents fill out the application form online.",
+                "ja": "保護者の連絡先については，おっしゃる通り，保護者がオンラインで申込フォームに記入する際に保存されます。"
+              },
+              {
+                "id": "e2_p2_s6",
+                "en": "However, around 4:00 p.m. as the arrival time for parents is too late.",
+                "ja": "しかし，保護者の到着時間として午後4時頃というのは遅すぎます。"
+              },
+              {
+                "id": "e2_p2_s7",
+                "en": "I would like them to be able to watch their children present their artwork at the end.",
+                "ja": "最後に子供たちが自分の作品を紹介するのを保護者が見られるようにしたいのです。"
+              }
+            ],
+            [
+              {
+                "id": "e2_p3_s1",
+                "en": "The large-scale craft that the children make together will use a book about jungle animals, so let's name it \"Jungle Adventure.\"",
+                "ja": "子供たちが一緒に作る大規模作品は，ジャングルの動物についての本を使う予定なので，「ジャングルの冒険」と名付けましょう。"
+              },
+              {
+                "id": "e2_p3_s2",
+                "en": "I've also decided on the remaining two activities.",
+                "ja": "残りの2つのアクティビティも決まりました。"
+              },
+              {
+                "id": "e2_p3_s3",
+                "en": "One will be a game in which children compete in picking up picture cards which describe words found in the story.",
+                "ja": "1つは，子供たちが物語の中に出てくる単語を表した絵カードを取り合うゲームです。"
+              },
+              {
+                "id": "e2_p3_s4",
+                "en": "For the other activity, children will draw pictures that go with the text from a book and explain them.",
+                "ja": "もう1つの活動は，子供たちが本の文章に合った絵を描いてそれを説明するというものです。"
+              },
+              {
+                "id": "e2_p3_s5",
+                "en": "Regarding lunch, it will be sunny on that day, and I think it would be nice to eat at the picnic tables outside or on the terrace.",
+                "ja": "昼食については，当日は晴れのようなので，外のピクニックテーブルかテラスで食べるのがいいと思います。"
+              },
+              {
+                "id": "e2_p3_s6",
+                "en": "In either case, it is better to reserve the place, so please tell me which one you prefer.",
+                "ja": "どちらにしても場所を予約した方がよいので，どちらがいいか教えてください。"
+              }
+            ],
+            [
+              {
+                "id": "e2_p4_s1",
+                "en": "I have attached a diagram of the seating during the event.",
+                "ja": "イベント中の座席の図を添付しました。"
+              },
+              {
+                "id": "e2_p4_s2",
+                "en": "Basically, let's go with this layout.",
+                "ja": "基本的に，この配置でいきましょう。"
+              },
+              {
+                "id": "e2_p4_s3",
+                "en": "Since we have a limited number of square and round tables, we will have to use a mix of each.",
+                "ja": "正方形のテーブルと丸いテーブルの数に限りがありますので，それぞれを混ぜて使わなければなりません。"
+              },
+              {
+                "id": "e2_p4_s4",
+                "en": "We can put two of the square tables together and have six children sit there.",
+                "ja": "正方形のテーブルを2つくっつけて，そこに6人の子供を座らせることができます。"
+              },
+              {
+                "id": "e2_p4_s5",
+                "en": "Then we can use two of the round tables.",
+                "ja": "次に丸いテーブルを2つ使います。"
+              },
+              {
+                "id": "e2_p4_s6",
+                "en": "Let's put three children at each of those.",
+                "ja": "それぞれに3人の子供を座らせましょう。"
+              }
+            ],
+            [
+              {
+                "id": "e2_p5_s1",
+                "en": "Thank you for your help.",
+                "ja": "ご協力ありがとうございます。"
+              }
+            ],
+            [
+              {
+                "id": "e2_p6_s1",
+                "en": "Louise Murphy",
+                "ja": "ルイーズ・マーフィー"
+              }
+            ],
+            [
+              {
+                "id": "e2_p7_s1",
+                "en": "Attachment: Seating diagram",
+                "ja": "添付：座席配置図"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 18,
+          "stem": {
+            "en": "Based on your email, what is your motivation for helping with the event? [ 18 ]",
+            "ja": "あなたのメールに基づくと，イベントの手助けをするあなたの動機は何か。［18］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "To give children confidence in reading aloud",
+              "ja": "子供たちに音読の自信をつけさせること"
+            },
+            {
+              "label": "②",
+              "en": "To encourage all citizens to read more books",
+              "ja": "すべての市民にもっと本を読むのを奨励すること"
+            },
+            {
+              "label": "③",
+              "en": "To gain experience for a future career",
+              "ja": "将来就く職業のための経験を積むこと",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "To share a love of stories with others",
+              "ja": "物語が好きという気持ちを他者と分かち合うこと"
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "「あなた」のメールの冒頭に I want to be a teacher in the future, so this is a great experience for me.（私は将来教師になりたいので，これは私にとって最高の経験です。）とあることから，③が正解とわかる。その他の選択肢の内容は「あなた」のメールでは述べられていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "e1_p1_s3"
+            ],
+            "instructor_note": {
+              "ja": "目的・動機を問う典型的なスキャン問題です。",
+              "points": [
+                "設問の「motivation（動機）」の手がかりを、自分のメール（Email from you）から探します。",
+                "e1_p1_s3の「I want to be a teacher in the future（将来教師になりたい）」と「this is a great experience for me（私にとって最高の経験）」が、選択肢③の「future career（将来の職業）」と「gain experience（経験を積む）」に直接的に言い換えられています。",
+                "他の選択肢のキーワード（reading aloud, all citizens, love of stories）は、どれも動機として本文には書かれていません。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 19,
+          "stem": {
+            "en": "Based on the morning and afternoon themes, which titles best match Murphy's description for Activity 3 ( [ 19 ] ) and Activity 4 ( [ 20 ] )?",
+            "ja": "午前と午後のテーマに基づいて，どのタイトルがアクティビティ3（［19］）とアクティビティ4（［20］）に対するマーフィーさんの説明と最も一致するか。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Analyzing the characters in the story",
+              "ja": "物語の登場人物の分析"
+            },
+            {
+              "label": "②",
+              "en": "Creating pictures for a story",
+              "ja": "物語の絵の制作",
+              "is_correct_for_slot": 20
+            },
+            {
+              "label": "③",
+              "en": "Exchanging books with each other",
+              "ja": "相方との本の交換"
+            },
+            {
+              "label": "④",
+              "en": "Making up a story in groups",
+              "ja": "グループでの物語作り"
+            },
+            {
+              "label": "⑤",
+              "en": "Matching vocabulary to pictures",
+              "ja": "語彙と絵のマッチング",
+              "is_correct_for_slot": 19
+            },
+            {
+              "label": "⑥",
+              "en": "Reading aloud after the librarian",
+              "ja": "司書の後についての音読"
+            }
+          ],
+          "answer": "⑤ (19) / ② (20)",
+          "explanation": {
+            "quoted_ja": "午前のアクティビティ3については，マーフィーさんが中盤で One will be a game in which children compete in picking up picture cards which describe words found in the story.（1つは，子供たちが物語の中に出てくる単語を表した絵カードを取り合うゲームです。）と述べていることから，⑤が最も近いとわかり，午前のテーマである Understanding stories（物語を理解する）にも合うことから，［19］には⑤が入る。\n午後のアクティビティ4については，マーフィーさんが続けて For the other activity, children will draw pictures that go with the text from a book and explain them.（もう1つの活動は，子供たちが本の文章に合った絵を描いてそれを説明するというものです。）とあることから，②が最も近いとわかり，午後のテーマのひとつである Sharing stories（物語を共有する）にも合うことから，［20］には②が入る。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "e2_p3_s3",
+              "e2_p3_s4"
+            ],
+            "instructor_note": {
+              "ja": "スケジュール表の空欄（TBD）を、メール本文の説明と照らし合わせて推測する問題です。",
+              "points": [
+                "マーフィーさんのメール第3段落（e2_p3_s2〜s4）に、残りの2つのアクティビティの説明があります。",
+                "1つ目の活動（e2_p3_s3）は「単語を表した絵カードを取るゲーム（picking up picture cards which describe words）」です。これは選択肢⑤の「Matching vocabulary to pictures（語彙と絵をマッチさせる）」に合致します。また、これは午前のテーマ「Understanding stories」にも沿う内容であるため、[19]は⑤になります。",
+                "もう1つの活動（e2_p3_s4）は「文章に合った絵を描いて説明する（draw pictures that go with the text... and explain them）」です。これは選択肢②の「Creating pictures for a story（物語の絵を作る）」に合致します。これは午後のテーマ「Sharing stories」に沿う内容であるため、[20]は②になります。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "stem": {
+            "en": "With reference to Murphy's reply, which of the following needs to be reconsidered? [ 21 ]",
+            "ja": "マーフィーさんの返信を参照すると，再考する必要があるのは次のどれか。［21］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Whether the library should be closed",
+              "ja": "図書館を休館すべきかどうか"
+            },
+            {
+              "label": "②",
+              "en": "One of the afternoon activities",
+              "ja": "午後のアクティビティの1つ"
+            },
+            {
+              "label": "③",
+              "en": "The number of children taking part",
+              "ja": "参加する子供の人数"
+            },
+            {
+              "label": "④",
+              "en": "When the parents will arrive in the afternoon",
+              "ja": "保護者が午後のいつ到着するか",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "マーフィーさんの返信の前半に around 4:00 p.m. as the arrival time for parents is too late（保護者の到着時間として午後4時頃というのは遅すぎます）とあり，「あなた」が提示した保護者の到着時間に対して反対の意を示していることがわかる。よって，この到着時間については再考する必要があると考えられるから，④が正解とわかる。マーフィーさんは返信の前半で the rest of the library will still be accessible to the public（図書館の他の場所は一般の人も利用できます）と述べており，図書館が一般向けにも開館することは決定事項だとわかるので，①は不適当。「あなた」が挙げた確認事項のうちの There will be a maximum of 12 children under 9 years old participating.（参加は最大12名までの9歳未満の子供とする。）に対してマーフィーさんは返信の前半で we should limit the number of children to 12 or fewer to keep noise to a minimum（騒音を最小限に抑えるため，子供の人数は12人以下に制限する必要があります）と同意しており，参加する子供の人数に関して再考の必要はないとわかるので，③も不適当。②に関する再考の必要は述べられていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "e2_p2_s6",
+              "e2_p2_s7",
+              "e1_p2_s4"
+            ],
+            "instructor_note": {
+              "ja": "提案に対する相手の「修正要求・不同意」を特定する問題です。",
+              "points": [
+                "自分のメールの箇条書き（e1_p2_s2〜s5）に対するマーフィーさんの返答（e2_p2）を確認します。",
+                "e2_p2_s6で「around 4:00 p.m. as the arrival time for parents is too late（保護者の到着時間として4時頃は遅すぎる）」と明確に修正を求めており、その理由として「最後に作品発表を見てもらいたい（e2_p2_s7）」と述べています。したがって④が正解です。",
+                "①（休館）については、e2_p2_s2で一般利用可能と同意しています。③（人数）についても、e2_p2_s3で12人以下に制限することに同意しています。②（午後のアクティビティの再考）についての言及はありません。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 22,
+          "stem": {
+            "en": "Which diagram best represents Murphy's seating plan for the children? [ 22 ]",
+            "ja": "子供たちのためのマーフィーさんの席の案を最もよく表しているのはどの図か。［22］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "image": {
+                "src": "s5_q4_seating_1.svg",
+                "alt": "Seating layout 1"
+              },
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "image": {
+                "src": "s5_q4_seating_2.svg",
+                "alt": "Seating layout 2"
+              },
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "image": {
+                "src": "s5_q4_seating_3.svg",
+                "alt": "Seating layout 3"
+              },
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "image": {
+                "src": "s5_q4_seating_4.svg",
+                "alt": "Seating layout 4"
+              },
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "image": {
+                "src": "s5_q4_seating_5.svg",
+                "alt": "Seating layout 5"
+              },
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "席の案についてはマーフィーさんの返信の後半で述べられており，We can put two of the square tables together and have six children sit there. Then we can use two of the round tables. Let's put three children at each of those.（正方形のテーブルを2つくっつけて，そこに6人の子供を座らせることができます。次に丸いテーブルを2つ使います。それぞれに3人の子供を座らせましょう。）とあるので，正方形のテーブルを2つくっつけて6人が座り，丸いテーブル2つにはそれぞれ3人が座っている③が正解とわかる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "e2_p4_s4",
+              "e2_p4_s5",
+              "e2_p4_s6"
+            ],
+            "instructor_note": {
+              "ja": "テキストの指示からレイアウト図を選択する情報照合問題です。",
+              "points": [
+                "座席配置についての指示はマーフィーさんのメール第4段落（e2_p4_s4〜s6）にあります。",
+                "e2_p4_s4: 「put two of the square tables together and have six children sit there」→ 正方形のテーブルを2つくっつけて、そこに6人。",
+                "e2_p4_s5・s6: 「use two of the round tables. Let's put three children at each」→ 丸いテーブルを2つ使い、それぞれに3人。",
+                "つまり「くっついた正方形（6人）」×1と、「丸テーブル（3人）」×2の組み合わせになっている③が正解です。①・②・④・⑤はテーブルの数や1テーブルあたりの人数が条件に合いません。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 23,
+          "stem": {
+            "en": "You email Murphy again. Which two pieces of information are you most likely to include in your reply? [ 23 ]",
+            "ja": "あなたはマーフィーさんに再びメールをする。あなたの返信には，情報のどの2つを含める可能性が最も高いか。［23］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A and B",
+              "ja": "AとB",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "A and C",
+              "ja": "AとC",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "A and D",
+              "ja": "AとD",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "B and C",
+              "ja": "BとC",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "B and D",
+              "ja": "BとD",
+              "is_correct": true
+            },
+            {
+              "label": "⑥",
+              "en": "C and D",
+              "ja": "CとD",
+              "is_correct": false
+            }
+          ],
+          "answer": "⑤",
+          "explanation": {
+            "quoted_ja": "A：「絵を描くアクティビティに必要な用品の費用」\nB：「イベントポスターのデザイン」\nC：「作品制作に必要な椅子の数」\nD：「昼食をとる場所の案」\n「あなた」のメールからは後で伝える予定の情報を，マーフィーさんのメールからは求められている情報を判断する。「あなた」のメールの後半 I have not finished creating the poster for this event yet. I will send a draft to you after confirming the details mentioned above.（このイベントのポスターはまだ完成していません。上記の詳細を確認した後，原稿をお送りします。）とあることから，まずBの情報を含めることになると判断できる。マーフィーさんのメールの中盤に Regarding lunch, it will be sunny on that day, and I think it would be nice to eat at the picnic tables outside or on the terrace. In either case, it is better to reserve the place, so please tell me which one you prefer.（昼食については，当日は晴れのようなので，外のピクニックテーブルかテラスで食べるのがいいと思います。どちらにしても場所を予約した方がよいので，どちらがいいか教えてください。）とあることから，Dの情報も含めることになると判断できる。AとCへの言及はどちらもしていない。よって⑤が正解。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "e1_p4_s1",
+              "e1_p4_s2",
+              "e2_p3_s5",
+              "e2_p3_s6"
+            ],
+            "instructor_note": {
+              "ja": "自分からの「未定・後送情報」と、相手からの「質問・要求」を組み合わせて、次のアクションを予測する問題です。",
+              "points": [
+                "まず、自分のメール（e1_p4_s1〜s2）で「ポスターは未完成。詳細確認後に原稿（draft）を送る」と約束しています。したがってB「イベントポスターのデザイン（The design of the event poster）」を含める必要があります。",
+                "次に、マーフィーさんのメール（e2_p3_s5〜s6）で、昼食場所として外のピクニックテーブルかテラスを提案され、「tell me which one you prefer（どちらが良いか教えて）」と返答を求められています。したがってD「昼食をとる場所の案（An idea of where to have lunch）」を含める必要があります。",
+                "A（用品の費用）とC（椅子の数）については、本文中で質問や後送の約束はされていません。よってBとDの組み合わせである⑤が正解です。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "語句",
+          "items": [
+            {
+              "en": "senior",
+              "ja": "（高校・大学の）最上級生"
+            },
+            {
+              "en": "literacy",
+              "ja": "読み書き能力"
+            },
+            {
+              "en": "librarian",
+              "ja": "（図書館の）司書"
+            },
+            {
+              "en": "in charge",
+              "ja": "担当の"
+            },
+            {
+              "en": "upcoming",
+              "ja": "来たる"
+            },
+            {
+              "en": "session",
+              "ja": "会合，セッション，〜の時間"
+            },
+            {
+              "en": "predict",
+              "ja": "予測する"
+            },
+            {
+              "en": "application",
+              "ja": "申し込み"
+            },
+            {
+              "en": "remain C",
+              "ja": "Cのままでいる"
+            },
+            {
+              "en": "remaining",
+              "ja": "残りの"
+            },
+            {
+              "en": "arrange",
+              "ja": "〜を整える"
+            },
+            {
+              "en": "confirm",
+              "ja": "〜を確認する"
+            },
+            {
+              "en": "to be honest",
+              "ja": "正直に言うと"
+            },
+            {
+              "en": "representative",
+              "ja": "代表（者）"
+            },
+            {
+              "en": "allocate",
+              "ja": "〜を割り当てる"
+            },
+            {
+              "en": "accessible to ~",
+              "ja": "〜が利用可能な"
+            },
+            {
+              "en": "accommodate",
+              "ja": "〜を受け入れる"
+            },
+            {
+              "en": "in reference to ~",
+              "ja": "〜に関して"
+            },
+            {
+              "en": "fill out ~",
+              "ja": "〜を記入する"
+            },
+            {
+              "en": "watch O do",
+              "ja": "Oが…するのを見る"
+            },
+            {
+              "en": "as well",
+              "ja": "同様に"
+            },
+            {
+              "en": "go with ~",
+              "ja": "〜と調和する"
+            },
+            {
+              "en": "regarding",
+              "ja": "〜に関して"
+            },
+            {
+              "en": "attach",
+              "ja": "〜を添付する"
+            },
+            {
+              "en": "diagram",
+              "ja": "図表"
+            },
+            {
+              "en": "seating",
+              "ja": "座席（の配置）"
+            },
+            {
+              "en": "reconsider",
+              "ja": "〜を再考する（※問3の語）"
+            },
+            {
+              "en": "supplies",
+              "ja": "（必要な）用品（※問5Aの語）"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

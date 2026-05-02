@@ -1,0 +1,10 @@
+﻿passage id: tanaka_email
+  keys: ['id', 'title', 'paragraphs', 'table']
+  table keys: ['title', 'headers', 'rows', 'after_paragraph']
+  rows[0:4]:
+    {'cells': ['10 a.m.', 'Opening address, Japanese taiko drum performance']}
+    {'cells': ['12 p.m.', 'Salsa dance display']}
+    {'cells': ['2 p.m.', 'African drum and dance performance']}
+    {'cells': ['3 p.m.', 'New Zealand haka performance, closing address']}
+passage id: ricardo_reply
+  keys: ['id', 'title', 'paragraphs']
