@@ -5845,6 +5845,10 @@
         },
         {
           "question_id": "問3",
+          "pre_header": {
+            "en": "[Step 2] Take a position on companies’ attitudes toward teleworking.",
+            "ja": "［ステップ2］テレワークに対する企業の姿勢について立場を決める。"
+          },
           "answer_numbers": [
             40,
             41,
@@ -5857,6 +5861,10 @@
           "stem": {
             "en": "Now that you understand the various viewpoints, you have taken a position on whether companies should encourage their employees to telework or come back to the office, and have written it out as below. Choose the best options to complete [40] - [42]. (You must have all of [40] - [42] correct to get points.)",
             "ja": "「あなたはさまざまな見解を理解したので、企業は従業員にテレワークを推奨するべきか、従来のオフィス勤務を推奨するべきかどうかに関する立場を決めて、それを以下のように書き出した。[40] - [42] を完成させるのに最も適切な選択肢を選びなさい（[40] - [42] すべて正解で得点）」"
+          },
+          "position_box": {
+            "en": "Your position: Companies should encourage their employees to telework.\n  • Authors [40] and [41] support your position.\n  • An argument shared by the two authors: [42].",
+            "ja": "あなたの立場：企業は従業員にテレワークを推奨すべきである。\n　• 著者[40]および[41]はあなたの立場を支持する。\n　• 2人の著者が共有している論点：[42]。"
           },
           "choices_40": [
             {

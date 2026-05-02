@@ -9,6 +9,8 @@
 const EXAM_PATHS = {
   sundai_2026_01: 'data/sundai/2026/round01/data.json',
   sundai_2026_02: 'data/sundai/2026/round02/data.json',
+  sundai_2026_03: 'data/sundai/2026/round03/data.json',
+  sundai_2026_04: 'data/sundai/2026/round04/data.json',
   sundai_2025_01: 'data/sundai/2025/round01/data.json',
   sundai_2025_02: 'data/sundai/2025/round02/data.json',
   sundai_2025_03: 'data/sundai/2025/round03/data.json',
@@ -85,7 +87,77 @@ function renderPassagePage(sec, dataPath) {
   for (const passage of sec.passages) {
     const hasComments = passage.margin_comments && passage.margin_comments.length > 0;
 
-    if (passage.is_presentation && passage.slides) {
+    if (passage.hotel_sheet) {
+      const hs = passage.hotel_sheet;
+      const imgBase = dataPath ? dataPath.replace(/data\.json$/, '') : '';
+      html += '<div class="print-passage print-hotel-sheet" style="border:1px solid #333;padding:12px;">';
+      if (hs.banner) {
+        html += '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">';
+        html += '<div style="font-weight:700;font-size:14pt;">' + hs.banner.title.en + '</div>';
+        if (hs.banner.image && hs.banner.image.src) {
+          html +=
+            '<img class="print-img" src="' +
+            imgBase +
+            hs.banner.image.src +
+            '" style="max-width:110px;" alt="">';
+        }
+        html += '</div>';
+      }
+      for (const hsec of hs.sections || []) {
+        const k = hsec.kind;
+        if (k === 'heading_paragraph') {
+          html += '<div style="font-weight:700;margin-top:10px;">' + hsec.heading.en + '</div>';
+          html +=
+            '<p style="text-indent:1.5em;margin:6px 0;">' +
+            hsec.paragraph.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') +
+            '</p>';
+        } else if (k === 'two_column_dashes') {
+          html += '<div style="font-weight:700;margin-top:10px;">' + hsec.heading.en + '</div>';
+          html += '<table style="width:100%;margin-top:6px;"><tr>';
+          html += '<td style="width:50%;vertical-align:top;padding-right:8px;">';
+          for (const item of hsec.left || []) {
+            html +=
+              '<div>\u2013 ' +
+              String(item.en || '').replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') +
+              '</div>';
+          }
+          html += '</td><td style="width:50%;vertical-align:top;">';
+          for (const item of hsec.right || []) {
+            html +=
+              '<div>\u2013 ' +
+              String(item.en || '').replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') +
+              '</div>';
+          }
+          html += '</td></tr></table>';
+        } else if (k === 'prices') {
+          html += '<div style="margin-top:12px;padding-bottom:8px;border-bottom:1px dashed #999;">';
+          html += '<div style="font-weight:700;">' + hsec.heading.en + '</div>';
+          html += '<ul style="margin:6px 0;padding-left:18px;list-style:none;">';
+          for (const line of hsec.lines || []) {
+            html +=
+              '<li>\u2013 ' +
+              String(line.en || '').replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') +
+              '</li>';
+          }
+          html += '</ul></div>';
+        } else if (k === 'guest_review') {
+          html += '<div style="margin-top:12px;border:1px solid #666;padding:10px;">';
+          html +=
+            '<div style="display:flex;justify-content:space-between;flex-wrap:wrap;"><span>' +
+            hsec.header_left.en +
+            '</span><span>';
+          const starN = typeof hsec.stars === 'number' ? hsec.stars : 5;
+          html += '\u2605'.repeat(starN) + ' ' + hsec.rating_right.en + '</span></div>';
+          html += '<div style="font-weight:600;margin:8px 0;">' + hsec.reviewer.en + '</div>';
+          html +=
+            '<p>' +
+            hsec.body.en.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') +
+            '</p>';
+          html += '</div>';
+        }
+      }
+      html += '</div>';
+    } else if (passage.is_presentation && passage.slides) {
       // Presentation slides (大問8)
       html += '<div class="print-passage">';
       if (passage.title) html += '<div class="print-passage-title">' + passage.title.en + '</div>';
@@ -195,7 +267,7 @@ function renderPassagePage(sec, dataPath) {
       html += '<th class="print-essay-col-comments">Comments</th>';
       html += '</tr></thead><tbody>';
 
-      for (const para of passage.paragraphs) {
+      passage.paragraphs.forEach((para, pi) => {
         const paraComments = [];
         for (const sent of para) {
           if (sent.comment_marker) {
@@ -204,8 +276,12 @@ function renderPassagePage(sec, dataPath) {
           }
         }
 
+        const printParaClass =
+          passage.paragraph_classes && passage.paragraph_classes[pi]
+            ? ' ' + passage.paragraph_classes[pi]
+            : '';
         html += '<tr><td>';
-        html += '<p class="print-paragraph">';
+        html += '<p class="print-paragraph' + printParaClass + '">';
         for (const sent of para) {
           if (sent.comment_marker) {
             html += '<sup class="print-comment-marker">' + sent.comment_marker + '</sup>';
@@ -218,7 +294,7 @@ function renderPassagePage(sec, dataPath) {
           html += '<div class="print-margin-comment">' + mc.marker + ' ' + mc.en + '</div>';
         }
         html += '</td></tr>';
-      }
+      });
 
       // Teacher's comment
       if (passage.teacher_comment) {
@@ -508,6 +584,12 @@ function renderPassagePage(sec, dataPath) {
       if (passage.title) {
         html += '<div class="print-passage-title">' + passage.title.en + '</div>';
       }
+      if (passage.subtitle && passage.subtitle.en) {
+        html +=
+          '<div class="print-passage-subtitle" style="text-align:center;margin-bottom:10px;">' +
+          passage.subtitle.en +
+          '</div>';
+      }
       if (passage.image) {
         html += '<img class="print-img" src="' + passage.image.src + '" alt="' + (passage.image.alt || '') + '">';
       }
@@ -535,7 +617,10 @@ function renderPassagePage(sec, dataPath) {
         } else {
           for (let pi = 0; pi < passage.paragraphs.length; pi++) {
             const para = passage.paragraphs[pi];
-            html += '<p class="print-paragraph">';
+            const pc =
+              passage.paragraph_classes && passage.paragraph_classes[pi] === 'para-indent';
+            const indentAttr = pc ? ' style="text-indent:1.5em;"' : '';
+            html += '<p class="print-paragraph"' + indentAttr + '>';
             for (const sent of para) {
               html += sent.en + ' ';
             }
@@ -554,6 +639,24 @@ function renderPassagePage(sec, dataPath) {
 
   html += '</div>'; // .print-section
   return html;
+}
+
+/** viewer.js の deriveMultiSlotAnswerNumbers と同ロジック（印刷用） */
+function deriveMultiSlotAnswerNumbersPrint(q) {
+  if (Array.isArray(q.answer_numbers) && q.answer_numbers.length) return q.answer_numbers;
+  if (q.answer && typeof q.answer === 'object' && !Array.isArray(q.answer)) {
+    const nums = Object.keys(q.answer)
+      .map(k => parseInt(k, 10))
+      .filter(
+        n =>
+          !isNaN(n) &&
+          Array.isArray(q['choices_' + n]) &&
+          q['choices_' + n].length > 0
+      );
+    nums.sort((a, b) => a - b);
+    if (nums.length) return nums;
+  }
+  return null;
 }
 
 // ===== Render Questions Page =====
@@ -629,9 +732,10 @@ function renderQuestionsPage(sec, dataPath) {
       );
 
     // Choices: multi-answer (choices_27, choices_28, etc.) or standard
-    if (q.answer_numbers && q.answer_numbers.length > 0) {
+    const printMultiSlots = deriveMultiSlotAnswerNumbersPrint(q);
+    if (printMultiSlots && printMultiSlots.length > 0) {
       // Multi-answer question (大問6問3, 大問7問3 etc.)
-      for (const num of q.answer_numbers) {
+      for (const num of printMultiSlots) {
         const choicesKey = 'choices_' + num;
         const choices = q[choicesKey];
         if (choices) {

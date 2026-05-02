@@ -1,0 +1,372 @@
+{
+  "exam_info": {
+    "title": "2026年度 駿台 共通テスト実戦問題集",
+    "publisher": "駿台",
+    "year": 2026,
+    "round": 5,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": null,
+    "implemented_sections": [1],
+    "source_pdf_mondai": "第5回_問題.pdf",
+    "source_pdf_kaitou": "第5回_解答.pdf",
+    "data_policy": "本文・選択肢・解説は駿台『2026年駿台実戦問題集 英語リーディング』第5回・問題冊子および解説冊子を逐語転載する。学習者向けの補足は instructor_note に分離して「講師からの＋α」として控えめに表示する。"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（ウェブ広告）",
+      "situation": {
+        "intro_sentences": [
+          {
+            "id": "sit_r5_q1_s1",
+            "en": "You are a university student in the US and you are interested in joining a creative writing summer course.",
+            "ja": "あなたはアメリカの大学生で、クリエイティブ・ライティングの夏期講座を受講しようと考えています。"
+          },
+          {
+            "id": "sit_r5_q1_s2",
+            "en": "You find a website for such a course.",
+            "ja": "あなたはウェブサイトでそのような講座を見つけます。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "ycw_website",
+          "framed": true,
+          "ad_top": {
+            "image": {
+              "src": "data/sundai/2026/round05/images/q01_ycw_seattle_logo.png",
+              "alt": "YCW Seattle のロゴ"
+            },
+            "sentence_ids": ["ycw_intro_a", "ycw_intro_b"]
+          },
+          "subtitle": {
+            "id": "ycw_sub",
+            "en": "One Week Intensive Course",
+            "ja": "1週間集中講座",
+            "align": "center"
+          },
+          "sentences": [
+            {
+              "id": "ycw_intro_a",
+              "en": "Join YCW's fifth annual intensive creative writing course.",
+              "ja": "毎年恒例の第5回 YCW クリエイティブ・ライティング集中講座にご参加ください。"
+            },
+            {
+              "id": "ycw_intro_b",
+              "en": "Stay with other young writers in the camp and learn from published writers and artists.",
+              "ja": "キャンプで他の若いライターたちと共に過ごし、出版歴のある作家や芸術家から学んでください。"
+            },
+            {
+              "id": "ycw_d1",
+              "en": "<strong>Dates :</strong> August 20th to 27th 2023",
+              "ja": "<strong>日程：</strong>2023年8月20日から27日"
+            },
+            {
+              "id": "ycw_d2",
+              "en": "<strong>Location :</strong> Camp YCW, Lake Washington, Seattle",
+              "ja": "<strong>場所：</strong>シアトル、ワシントン湖、キャンプ YCW"
+            },
+            {
+              "id": "ycw_d3",
+              "en": "<strong>Course Price :</strong> $750 – accommodation and food provided (bring cash to use in the camp store)",
+              "ja": "<strong>受講料：</strong>750ドル － 宿泊設備、食事は提供されます（キャンプ内での店舗で使用する現金を持参してください）"
+            },
+            {
+              "id": "ycw_d4",
+              "en": "<strong>Optional Activities :</strong> hiking, lake cruise",
+              "ja": "<strong>オプショナル・アクティビティ：</strong>ハイキング、湖のクルーズ"
+            },
+            {
+              "id": "ycw_sh1",
+              "en": "<strong>Shakespeare Course :</strong> You will analyze two Shakespeare plays with the help of an award-winning screenwriter.",
+              "ja": "<strong>シェイクスピア・コース：</strong>受講歴のある脚本家に補佐してもらい、皆さんはシェイクスピアの戯曲2作品を分析します。"
+            },
+            {
+              "id": "ycw_sh2",
+              "en": "You will also work in small groups to write a short play which will be performed on the final morning of the course in front of your campmates.",
+              "ja": "また、小グループで寸劇制作に取り組み、講座最終日の午前中にキャンプ参加者の前でそれを上演します。"
+            },
+            {
+              "id": "ycw_br1",
+              "en": "<strong>Bronte Course :</strong> Karen Nelson, a published novelist, will lead this course.",
+              "ja": "<strong>ブロンテ・コース：</strong>出版歴のある小説家、カレン・ネルソンがこの講座の講師です。"
+            },
+            {
+              "id": "ycw_br2",
+              "en": "She will teach you the basics of writing, techniques for storytelling, and how to get your work published.",
+              "ja": "彼女がライティングの基礎、ストーリーテリングの手法、作品の出版方法について指導します。"
+            },
+            {
+              "id": "ycw_br3",
+              "en": "Your short stories will be made into a book, which you will receive in the mail a week after the course.",
+              "ja": "あなたの短編は製本され、講座終了後1週間で郵送で届きます。"
+            },
+            {
+              "id": "ycw_le1",
+              "en": "<strong>Lee Course :</strong> Named after Stan Lee, the creator of some of the world's most famous comics, this course will teach you the basics of comic writing.",
+              "ja": "<strong>リー・コース：</strong>世界的に最も有名なコミックを複数制作しているスタン・リーの名前にちなんだコースで、コミック作りの基礎を指導します。"
+            },
+            {
+              "id": "ycw_le2",
+              "en": "You will also learn about Japanese manga from published manga artist Kana Kagawa.",
+              "ja": "また、出版歴のある漫画家、カナ・カガワから日本の漫画についても学習します。"
+            },
+            {
+              "id": "ycw_le3",
+              "en": "Your work will be shown as a slide presentation to your campmates on the final evening.",
+              "ja": "最後の夜には、皆さんの作品をスライド上映してキャンプの参加者に披露します。"
+            }
+          ],
+          "advertisement_sections": [
+            {
+              "type": "text",
+              "sentence_ids": ["ycw_d1", "ycw_d2", "ycw_d3", "ycw_d4"]
+            },
+            {
+              "type": "diamond_blocks",
+              "heading": {
+                "en": "Courses Available",
+                "ja": "受講可能講座"
+              },
+              "heading_align": "center",
+              "blocks": [
+                { "sentence_ids": ["ycw_sh1", "ycw_sh2"] },
+                { "sentence_ids": ["ycw_br1", "ycw_br2", "ycw_br3"] },
+                { "sentence_ids": ["ycw_le1", "ycw_le2", "ycw_le3"] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how_to_apply",
+          "framed": true,
+          "sentences": [
+            {
+              "id": "hta_s1",
+              "en": "1. Complete the <strong><u>online application form</u></strong> by June 7th, 2023.",
+              "ja": "1. 2023年6月7日までに<strong>オンラインの申込書</strong>に記入してください。"
+            },
+            {
+              "id": "hta_s2",
+              "en": "Please state your preferred course.",
+              "ja": "希望するコースを明記してください。"
+            },
+            {
+              "id": "hta_s3",
+              "en": "2. You will receive email confirmation of your place after June 8th.",
+              "ja": "2. 6月8日以降、参加確認のメールが届きます。"
+            },
+            {
+              "id": "hta_n1",
+              "en": "*Please note that places are limited to 20 students for each course.",
+              "ja": "※各コースとも定員は学生20名ですので注意してください。"
+            },
+            {
+              "id": "hta_n2",
+              "en": "If too many students apply for one course, places will be given at random.",
+              "ja": "1つのコースで応募者数が多すぎる場合は、参加者は無作為に選ばれます。"
+            },
+            {
+              "id": "hta_n3",
+              "en": "Students who do not get their preferred course may cancel their application or join a less popular course.",
+              "ja": "希望コースに参加できなかった学生は、申し込みをキャンセルしても、希望者の少ないコースに参加しても構いません。"
+            }
+          ],
+          "advertisement_sections": [
+            {
+              "type": "text",
+              "heading": {
+                "en": "▲ How to Apply",
+                "ja": "▲ 応募要項"
+              },
+              "sentence_ids": ["hta_s1", "hta_s2", "hta_s3"]
+            },
+            {
+              "type": "text",
+              "sentence_ids": ["hta_n1", "hta_n2", "hta_n3"]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "All camp instructors are [1].",
+            "ja": "キャンプの講師は全員、[1]。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "experts whose work has been published or highly evaluated",
+              "ja": "作品が出版されたり高く評価された専門家だ",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "knowledgeable about the Japanese language",
+              "ja": "日本語に精通している",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "qualified teachers of literature",
+              "ja": "資格のある文学の教師だ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "writers who have been awarded a prize for their novels",
+              "ja": "小説が受賞経験のある作家だ",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。冒頭の「learn from published writers and artists」や各コース説明の「award-winning screenwriter」「published novelist」「published manga artist」などから、講師は出版・受賞など実績のある専門家であることがうかがえる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": ["ycw_intro_b", "ycw_sh1", "ycw_br1", "ycw_le2"],
+            "instructor_note": {
+              "ja": "「全員」とあるので、本文で共通して言える属性だけが正解になります。日本語や文学教員・小説受賞に限定する記述は本文にありません。",
+              "points": [
+                "published / award-winning は『実績がある』という手がかり。①の published or highly evaluated が最も広く合致する。",
+                "④は novels に限定されるが、本文には脚本家・漫画家もおり「小説受賞」だけでは窄めすぎ。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "On the last morning of the camp, campers will [2].",
+            "ja": "キャンプ最終日の午前中に、参加者は [2]。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "enjoy a slide presentation of Japanese manga",
+              "ja": "日本の漫画のスライド上映を楽しむ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "go fishing in Lake Washington",
+              "ja": "ワシントン湖へ釣りに出かける",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "read a book created by the Bronte Course students",
+              "ja": "ブロンテ・コースの学生が制作した本を読む",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "watch a play written during the camp",
+              "ja": "キャンプ中に書かれた劇を見る",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。シェイクスピア・コースで、グループで書いた短い劇が「講座最終日の午前中」にキャンプ参加者の前で上演されるとある。スライド上映はリー・コースの「最後の夜」なので①は時刻が合わない。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": ["ycw_sh2", "ycw_le3"],
+            "instructor_note": {
+              "ja": "時刻の一致がポイントです。last morning は Shakespeare の perform と対応、final evening は Lee の slide と対応します。",
+              "points": [
+                "②の釣りは Optional Activities にも出てこない。③の本は郵送で後日受け取る話であり「最終日午前の読書」ではない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "What will happen if a course is too popular? [3]",
+            "ja": "1つのコースの人気が高すぎる場合はどうなるか。 [3]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Each student will have an equal chance of being chosen.",
+              "ja": "各学生には選ばれるチャンスが平等にある。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Each student's writing skills will be checked.",
+              "ja": "各学生の文章能力がチェックされる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Students who applied earlier will be chosen.",
+              "ja": "早く応募した学生が選ばれる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Students will have to take a placement test.",
+              "ja": "学生はクラス分けテストを受けなければならない。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。注記で応募者過多のときは at random（無作為）とあるので、早い順や実力試験ではなく公平な抽選に近い扱いとなる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": ["hta_n2"],
+            "instructor_note": {
+              "ja": "random を「平等なチャンス」と読み替える典型問題です。本文に early application や test の記述はありません。",
+              "points": [
+                "派生語 randomly ではなく at random のフレーズで覚えておくとよい。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead_text": {
+          "items": [
+            {
+              "en": "creative writing",
+              "ja": "クリエイティブ・ライティング"
+            },
+            {
+              "en": "summer course",
+              "ja": "夏期講座"
+            }
+          ]
+        },
+        "passage": {
+          "items": [
+            { "en": "annual", "pos": "形", "ja": "年1回の；毎年の" },
+            { "en": "intensive", "pos": "形", "ja": "集中した；徹底的な" },
+            { "en": "accommodation", "pos": "名", "ja": "宿泊設備" },
+            { "en": "available", "pos": "形", "ja": "利用できる；手に入る" },
+            { "en": "analyze", "pos": "動", "ja": "…を分析する" },
+            { "en": "award-winning", "pos": "形", "ja": "受賞歴のある" },
+            { "en": "screenwriter", "pos": "名", "ja": "シナリオライター；脚本家" },
+            { "en": "perform", "pos": "動", "ja": "…を演じる；上演する" },
+            { "en": "campmate", "pos": "名", "ja": "同じキャンプに寝泊まりする人" },
+            { "en": "novelist", "pos": "名", "ja": "小説家" },
+            { "en": "complete", "pos": "動", "ja": "（書類など）に（必要事項を）記入する" },
+            { "en": "state", "pos": "動", "ja": "…を述べる；言明する" },
+            { "en": "confirmation", "pos": "名", "ja": "確認" },
+            { "en": "note", "pos": "動", "ja": "…に注意する；気をつける" },
+            { "en": "at random", "ja": "無作為に" }
+          ]
+        }
+      }
+    }
+  ]
+}

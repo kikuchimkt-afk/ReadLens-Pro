@@ -252,6 +252,42 @@
   border-bottom: 2px solid var(--bg-header);
 }
 
+/* Step / phase header rendered above a specific question (e.g. Step 2 before 問3 of 第8問) */
+.question-pre-header {
+  margin: 24px 0 12px 0;
+  padding: 10px 14px;
+  background: var(--bg-situation, #f5f1e8);
+  border-left: 4px solid var(--bg-header);
+  border-radius: 4px;
+}
+.question-pre-header-en {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-section-title);
+  line-height: 1.4;
+}
+.question-pre-header-ja {
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
+
+.position-box {
+  margin: 12px 0 16px 0;
+  padding: 12px 16px;
+  border: 2px solid var(--text-primary, #333);
+  border-radius: 4px;
+  background: var(--bg-card, #fff);
+  line-height: 1.7;
+}
+.position-box-en {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+.position-box-ja {
+  margin-top: 6px;
+  font-size: 0.88rem;
+}
+
 .section-points {
   font-size: 0.8rem;
   color: var(--text-secondary);
@@ -384,6 +420,13 @@
 .passage-section--header {
   padding: 14px 20px 10px;
   text-align: center;
+}
+
+/* 記事枠（第4回 第5問の本文ボックス等） */
+.passage-section--framed {
+  border: 1px solid #333;
+  margin-bottom: 12px;
+  border-radius: 2px;
 }
 
 .passage-divider {
@@ -1006,7 +1049,7 @@
   font-style: italic;
 }
 .comment-marker {
-  color: #b71c1c;
+  color: #8b1a2b;
   font-weight: 700;
   font-size: 0.75rem;
   margin-right: 1px;
@@ -1487,6 +1530,139 @@
   text-indent: 1.5em;
 }
 
+/* ☆ 付き箇条書き（オープンスター・駿台リーディング等） */
+.passage-star-bullets {
+  list-style: none;
+  margin: 0.6em 0;
+  padding-left: 0;
+}
+.passage-star-bullets li {
+  position: relative;
+  padding-left: 1.35em;
+  margin-bottom: 0.35em;
+  line-height: 1.55;
+}
+.passage-star-bullets li::before {
+  content: '\2606';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.passage-star-bullets-ja .sentence-ja-star-line {
+  position: relative;
+  padding-left: 1.35em;
+  margin-bottom: 0.35em;
+}
+.passage-star-bullets-ja .sentence-ja-star-line::before {
+  content: '\2606';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ホテル案内ボックス（第4回 第2問 The Imgya など） */
+.hotel-sheet {
+  border: 1px solid #333;
+  padding: 14px 16px;
+  margin: 10px 0;
+  background: #fff;
+}
+.hotel-sheet-banner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.hotel-sheet-title-en {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.hotel-sheet-banner-img {
+  max-width: 120px;
+  height: auto;
+  flex-shrink: 0;
+}
+.hotel-sheet-title-ja {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.hotel-sheet-strong {
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.hotel-sheet-heading-ja {
+  margin-bottom: 6px;
+}
+.hotel-sheet-para-indent {
+  text-indent: 1.5em;
+  margin-top: 4px;
+}
+.hotel-sheet-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 20px;
+  margin: 8px 0 4px;
+}
+.hotel-sheet-two-col-ja {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 16px;
+  margin-top: 6px;
+}
+.hotel-sheet-col .sentence-ja {
+  margin-bottom: 0.35em;
+  line-height: 1.45;
+}
+.hotel-sheet-dash-line {
+  margin-bottom: 0.35em;
+  line-height: 1.45;
+}
+.hotel-sheet-prices-wrap {
+  margin-top: 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+.hotel-sheet-price-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding-left: 0;
+}
+.hotel-sheet-price-list li {
+  margin-bottom: 0.35em;
+  line-height: 1.45;
+}
+.hotel-sheet-review {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+.hotel-sheet-review-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 0.92rem;
+}
+.hotel-sheet-review-rating {
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+}
+.hotel-sheet-review-header-ja {
+  margin-bottom: 8px;
+  font-size: 0.88rem;
+}
+.hotel-sheet-reviewer {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
 /* ===== Notes Section (大問7 Your notes) ===== */
 .notes-title {
   text-align: center;
@@ -1583,6 +1759,74 @@
   font-size: 0.88rem;
   margin: 2px 0;
   color: #333;
+}
+
+/* 外枠 passage-section--framed 内では二重の太い枠を避ける */
+.passage-section--framed .ad-box--in-framed {
+  border: none;
+  padding: 0;
+  margin-top: 0;
+  background: transparent;
+}
+
+/* YCW 広告ヘッダー：ロゴ左・導入文を小さな枠で右 */
+.ad-top-row {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.ad-top-logo img {
+  display: block;
+  max-width: 108px;
+  height: auto;
+}
+.ad-top-intro-box {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid #333;
+  border-radius: 2px;
+  padding: 10px 12px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.passage-subtitle--center {
+  text-align: center;
+  width: 100%;
+}
+
+.ad-section-heading--center {
+  text-align: center;
+  border-bottom: none;
+  padding-bottom: 6px;
+}
+.ad-section-heading-ja.ad-section-heading--center {
+  text-align: center;
+}
+
+.ad-diamond-block {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.ad-diamond-mark {
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  line-height: 1.65;
+  padding-top: 2px;
+  color: #222;
+}
+.ad-diamond-body {
+  flex: 1;
+  min-width: 0;
+}
+.ad-diamond-para {
+  margin: 0 0 6px;
+}
+.ad-diamond-body .passage-ja-block {
+  margin-bottom: 4px;
 }
 
 /* ===== Passage Inline Illustrations ===== */
@@ -1833,6 +2077,204 @@
 .presentation-outline-slot-heading-row {
   margin-top: 14px;
   margin-bottom: 8px;
+}
+
+/* 第4回 第6問: メモ用紙（タイトル＋右上・括弧・横並びスロット） */
+.presentation-notes-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.presentation-notes-banner-main {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+.presentation-notes-header-right {
+  flex: 0 0 auto;
+  text-align: right;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  max-width: 48%;
+}
+.presentation-notes-hand {
+  font-family: "Comic Sans MS", "Segoe Print", "Bradley Hand", cursive;
+  font-style: italic;
+}
+.presentation-underline-heading {
+  margin: 16px 0 8px;
+  font-size: 0.98rem;
+}
+.presentation-underline-heading span {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.pres-whoswho-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 8px 12px;
+  margin: 8px 0 12px;
+}
+.pres-whoswho-lines {
+  flex: 1 1 200px;
+}
+.pres-whoswho-line {
+  margin-bottom: 6px;
+}
+.notes-blank-box {
+  display: inline-block;
+  min-width: 3.2em;
+  height: 1.15em;
+  border: 1px solid #333;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+.pres-whoswho-brace {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 0.9;
+  align-self: center;
+  font-family: serif;
+  margin: 0 4px;
+}
+.pres-whoswho-target {
+  align-self: center;
+  min-width: 2.5em;
+  text-align: center;
+}
+.pres-story-lead {
+  margin: 4px 0 2px;
+}
+.pres-story-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin: 10px 0 14px;
+}
+.pres-story-arrow {
+  font-weight: 600;
+}
+.pres-bullets-intro {
+  margin: 6px 0 4px;
+}
+.pres-bullets-slot-list {
+  margin: 4px 0 8px 22px;
+  padding: 0;
+  list-style: disc;
+}
+.pres-bullets-slot-list li {
+  margin-bottom: 4px;
+}
+
+/* 問1 二列組み合わせ（Anais | Samantha）— 行ごと角丸・列ヘッダ下線・セル枠 */
+.choice-pairs-wrap {
+  margin: 10px 0 16px;
+  font-size: 0.93rem;
+}
+.choice-pairs-head {
+  display: grid;
+  grid-template-columns: 3rem 1fr 1fr;
+  gap: 10px;
+  align-items: end;
+  padding: 12px 14px 10px;
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--border-color, #c4c4c4);
+  border-radius: 10px 10px 0 0;
+}
+.choice-pairs-head-spacer {
+  min-width: 0;
+}
+.choice-pairs-head-col {
+  text-align: center;
+  font-weight: 700;
+}
+.choice-pairs-head-underline {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.choice-pairs-head-ja {
+  margin-top: 6px;
+  font-weight: 400;
+}
+.choice-pairs-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+}
+.choice-pair-row {
+  display: grid;
+  grid-template-columns: 3rem 1fr 1fr;
+  gap: 10px;
+  align-items: stretch;
+  padding: 12px 14px;
+  border: 1px solid #c8c8c8;
+  border-radius: 10px;
+  background: var(--bg-color, #fff);
+  cursor: pointer;
+  transition: background 0.12s ease, box-shadow 0.12s ease;
+}
+.choice-pair-row:hover {
+  background: rgba(0, 0, 0, 0.02);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+.choice-pair-label-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.choice-pair-label-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.1rem;
+  min-height: 2.1rem;
+  padding: 2px 6px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.choice-pair-cell-box {
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+  padding: 10px 12px;
+  min-height: 3.2rem;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.choice-pair-row.correct {
+  border-color: #2a8f2a;
+  background: rgba(46, 160, 67, 0.08);
+}
+.choice-pair-row.correct .choice-pair-cell-box {
+  border-color: rgba(46, 160, 67, 0.45);
+}
+.choice-pair-row.wrong {
+  border-color: #c44;
+  background: rgba(200, 50, 50, 0.06);
+}
+@media (max-width: 600px) {
+  .choice-pairs-head,
+  .choice-pair-row {
+    grid-template-columns: 2.5rem 1fr 1fr;
+    gap: 8px;
+    padding: 10px;
+  }
+  .choice-pair-cell-box {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
 }
 
 /* ===== Presentation Slides Grid (大問7: 6 枚のスライドを 2 列グリッドで表示) ===== */

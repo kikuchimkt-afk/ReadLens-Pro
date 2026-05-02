@@ -8,6 +8,13 @@
     "time_limit_minutes": 80,
     "total_answer_numbers": null,
     "implemented_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
       8
     ],
     "source_pdf_mondai": "第3回_問題.pdf",
@@ -15,6 +22,4224 @@
     "data_policy": "本文・選択肢・解説は駿台『2026年駿台実戦問題集 英語リーディング』第3回・問題冊子および解説冊子を逐語転載する。学習者向けの補足は instructor_note に分離して「講師からの＋α」として控えめに表示する。"
   },
   "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（語学学校ウェブサイト）",
+      "situation": {
+        "en": "You are a senior high school student interested in improving your English-speaking ability during spring vacation. You find a website for a course on giving presentations held by a language school.",
+        "ja": "あなたは春休み中に英語を話す能力に磨きをかけることに関心を持っている高校生です。ある語学学校が主催する，発表の行い方に関する講座のウェブサイトが見つかります。"
+      },
+      "passages": [
+        {
+          "id": "header",
+          "title": {
+            "en": "Presentation Skills Course",
+            "ja": "発表技術講座"
+          },
+          "image": {
+            "src": "data/sundai/2026/round03/images/q01_pls_logo.png",
+            "alt": "Parker Language School ロゴと講座タイトル",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "hd_s1",
+              "en": "Parker Language School (PLS) builds confidence in speaking English in Japanese students.",
+              "ja": "パーカー語学学校（PLS）は日本の学生の英語を話す能力に関する自信を養成します。"
+            },
+            {
+              "id": "hd_s2",
+              "en": "Since 1997 we have offered this successful course.",
+              "ja": "1997年以来，我々はこの好評な講座を提供してきました。"
+            },
+            {
+              "id": "hd_s3",
+              "en": "Improve your English by gaining valuable skills in five days!",
+              "ja": "5日間で価値ある技術を身につけることによって，あなたの英語に磨きをかけましょう！"
+            }
+          ]
+        },
+        {
+          "id": "details",
+          "title": {
+            "en": "Course Details",
+            "ja": "講座の詳細"
+          },
+          "sentences": [
+            {
+              "id": "dt_s1",
+              "en": "Dates: March 25-29, 2024",
+              "ja": "期日：2024年3月25日−29日"
+            },
+            {
+              "id": "dt_s2",
+              "en": "Location: Suzuki Hotel, Kanagawa Prefecture",
+              "ja": "開催地：神奈川県　鈴木ホテル"
+            },
+            {
+              "id": "dt_s3",
+              "en": "Cost: 70,000 yen, including meals and room (bring additional fees for evening activities such as a city bus tour and English karaoke)",
+              "ja": "費用：食費，宿泊費込みで70,000円（市内バスツアーや英語のカラオケなど，夜間活動用には別途料金をお持ち願います）"
+            }
+          ]
+        },
+        {
+          "id": "seminars",
+          "title": {
+            "en": "Seminars Offered",
+            "ja": "提供されるセミナー"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "sm_story_s1",
+                "en": "◆ Story: You'll explore descriptive vocabulary to attract audiences by introducing topics without simply explaining them factually.",
+                "ja": "◆説明：単なる事実としての説明に留まらず，初めての論題に注意を喚起することによって聴衆をひきつけるための描写力豊かな語彙を探求します。"
+              },
+              {
+                "id": "sm_story_s2",
+                "en": "Your instructors have all taught publishing courses and been editors for a wide range of magazines in English-speaking countries.",
+                "ja": "インストラクターは英語圏の国々で出版関係の講座を教え，さまざまな雑誌の編集に携わってきた者ばかりです。"
+              },
+              {
+                "id": "sm_story_s3",
+                "en": "On the fifth day, students in teams will present topics in imaginative ways.",
+                "ja": "5日目には学生たちはチームの形態で想像力を駆使して論題の発表を行います。"
+              },
+              {
+                "id": "sm_story_s4",
+                "en": "Prizes available!",
+                "ja": "賞も出ます！"
+              },
+              {
+                "id": "sm_story_s5",
+                "en": "(Note: Evidence of high-level vocabulary knowledge is necessary to participate.)",
+                "ja": "（注意：参加には高度の語彙力の証明となるものが必要です。）"
+              }
+            ],
+            [
+              {
+                "id": "sm_display_s1",
+                "en": "◆ Display: You'll learn to create slides to support what you say effectively, using visuals.",
+                "ja": "◆表現：視覚資料を使って伝える内容を効果的に補強するための，スライド作りを学びます。"
+              },
+              {
+                "id": "sm_display_s2",
+                "en": "Course instructors have experience working in advertising for well-known international brands.",
+                "ja": "講座のインストラクターは，有名な国際ブランドの広告担当経験者たちです。"
+              },
+              {
+                "id": "sm_display_s3",
+                "en": "You'll introduce unusual products with partners on March 29.",
+                "ja": "3月29日に，パートナーたちと一緒に珍しい製品の紹介をすることになります。"
+              }
+            ],
+            [
+              {
+                "id": "sm_adapt_s1",
+                "en": "◆ Adaptation: You'll focus on tone, facial expression and body language that match your words, to make those watching pay attention.",
+                "ja": "◆脚色：視聴者の注意を引くべく，話す言葉に合った口調や顔の表情，身振りに集中して取り組みます。"
+              },
+              {
+                "id": "sm_adapt_s2",
+                "en": "On the final day there will be a student battle between two sides to deliver information through dialogue and gestures.",
+                "ja": "最終日には学生は2チームに分かれ，対話と身振りを通じて情報を伝える競争をします。"
+              },
+              {
+                "id": "sm_adapt_s3",
+                "en": "Instructors, all of whom have had professions in sales across Asia, will judge.",
+                "ja": "全員がアジア各地でのセールスのプロとしての経験があるインストラクターが，判定に当たります。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "application",
+          "title": {
+            "en": "▲ Application",
+            "ja": "▲出願"
+          },
+          "sentences": [
+            {
+              "id": "ap_s1",
+              "en": "Step 1: Fill in the online application HERE by December 31st, 2023.",
+              "ja": "ステップ1：2023年12月31日までにこちらでオンライン願書にご記入ください。"
+            },
+            {
+              "id": "ap_s2",
+              "en": "Step 2: An instructor will contact you by phone to assess which seminar would suit you.",
+              "ja": "ステップ2：インストラクター1名が電話連絡を行い，あなたに適したセミナーを審査します。"
+            },
+            {
+              "id": "ap_s3",
+              "en": "Step 3: Your seminar will be decided.",
+              "ja": "ステップ3：あなたの受講セミナーが決定されます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "All PLS instructors have [1].",
+            "ja": "「全てのPLSのインストラクターは[1]」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "experienced living abroad",
+              "ja": "海外での居住経験がある",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "had careers other than teaching",
+              "ja": "指導以外の職歴がある",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "judged presentation-making contests",
+              "ja": "発表コンテストの判定を経験している",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "mastered foreign languages themselves",
+              "ja": "自身が外国語をマスターしている",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。「説明」の第2文（Your instructors have ...）より，そのインストラクターは雑誌の編集を，「表現」の第2文（Course instructors have ...）より，そのインストラクターは広告を，「脚色」の第3文（Instructors, all of ...）より，そのインストラクターはセールスを，それぞれ経験してきた者であることがわかる。\n他の選択肢については，3つの講座のインストラクター全てについていずれも明記されていない内容であるため，不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "sm_story_s2",
+              "sm_display_s2",
+              "sm_adapt_s3"
+            ],
+            "instructor_note": {
+              "ja": "3つのセミナー（Story / Display / Adaptation）の講師紹介を横串で比較し、全員に共通する特徴を探す問題。各セミナーの講師の職歴を1対1で照合する。",
+              "points": [
+                "②が正解の決定打: sm_story_s2 の editors for magazines（雑誌編集者）、sm_display_s2 の working in advertising（広告業務）、sm_adapt_s3 の professions in sales（セールスのプロ）。3セミナーとも『指導以外の職業経験（careers other than teaching）』を明記している。",
+                "①の罠: sm_story_s2 で English-speaking countries と書かれているが、これは講師が雑誌編集を行った場所であり『海外在住経験がある』とは限らない。また Display と Adaptation のセミナーでは海外居住への言及がない。『3つ全て』を満たさないため不正解。",
+                "③の罠: sm_adapt_s3 で Instructors ... will judge とあるが、これは講師自身が判定するのであって presentation-making contests の判定経験とは書かれていない。また Story と Display には judge の言及なし。",
+                "④の罠: hd_s1 で speaking English と書かれているが、これは学生の英語力向上が目的。講師が外国語をマスターしたという記述はどのセミナー（sm_story_s2, sm_display_s2, sm_adapt_s3）にもない。主語（学生 vs 講師）と目的語（英語 vs 外国語）の二重すり替え。",
+                "テクニック (sm_story_s2, sm_display_s2, sm_adapt_s3 が好例): 『All instructors』のような全称命題は、3セミナー全ての記述に共通する要素を見つける必要がある。1つのセミナーでしか成り立たない選択肢は即排除。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "On the last day of the seminar all students will [2].",
+            "ja": "「セミナーの最終日に学生は全員が[2]」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "give a demonstration in groups",
+              "ja": "グループで実演する",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "receive prizes for individual achievement",
+              "ja": "個人の成績に対する賞を受け取る",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "vote for their favorite presentation by a classmate",
+              "ja": "クラスメートによる気に入った発表に票を投じる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "watch students from other seminars make presentations",
+              "ja": "他のセミナーの学生が発表するのを見守る",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。「説明」の第3文（On the fifth ...）からその参加者は論題の発表を，「表現」の最終文（You'll introduce unusual ...）からその参加者は珍しい製品の紹介を，「脚色」の第2文（On the final ...）からその参加者は情報を伝える競争を，それぞれグループの形態で行うことがわかる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "sm_story_s3",
+              "sm_display_s3",
+              "sm_adapt_s2"
+            ],
+            "instructor_note": {
+              "ja": "問1と同じく3セミナー横断型。『最終日（the last day）に全員が行うこと』の共通項を探す。各セミナーの最終日アクティビティを照合する。",
+              "points": [
+                "①が正解の決定打: sm_story_s3 の students in teams（チームで発表）、sm_display_s3 の with partners（パートナーと紹介）、sm_adapt_s2 の between two sides（2チームで競争）。全て『グループ形態の実演』に該当。teams / partners / two sides が全て in groups の言い換え。",
+                "②の罠: sm_story_s4 で Prizes available! と書かれているが、これは Story セミナーのみ。individual achievement ではなくチーム発表への賞。全セミナー共通ではない。",
+                "③の罠: vote（投票）に関する記述はどのセミナーにもない。sm_adapt_s3 で Instructors will judge とあるが、判定するのは学生ではなく講師。主語のすり替え。",
+                "④の罠: sm_story_s3, sm_display_s3, sm_adapt_s2 のいずれも、自分のセミナー内でのアクティビティを記述しており、他のセミナーの学生の発表を見るという記述は皆無。各セミナーは独立した内容。",
+                "テクニック (sm_story_s3, sm_display_s3, sm_adapt_s2 が好例): 最終日のキーワードを各セミナーから拾う — the fifth day / March 29 / the final day。日付表現が統一されていないため、『5日間コースの最終日 = 5日目 = 3月29日 = final day』と同一視する必要がある。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "What will happen after submitting your seminar application? [3]",
+            "ja": "「セミナーへの願書提出後にどうなるか」[3]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "You will be evaluated to decide your seminar.",
+              "ja": "セミナー決定のために評価を受ける。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "You will deliver a speech by phone.",
+              "ja": "電話でスピーチを行う。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Your choice of seminars must be submitted.",
+              "ja": "セミナーの選択を提出しなければならない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Your English vocabulary level will be tested.",
+              "ja": "英語の語彙レベルを試験される。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。「出願」のステップ2がこれに当たる。\n他の選択肢はいずれもウェブサイトに見られない内容であり，不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "ap_s2"
+            ],
+            "instructor_note": {
+              "ja": "Application セクションのステップ2の内容を正確に読み取る問題。願書提出後（= Step 1 の後）に何が起こるかを Step 2 から特定する。",
+              "points": [
+                "①が正解の決定打: ap_s2 の An instructor will contact you by phone to assess which seminar would suit you が①の You will be evaluated to decide your seminar と同義。assess ≒ evaluate、which seminar would suit you ≒ to decide your seminar の言い換え。",
+                "②の罠: ap_s2 に by phone とあるが、電話するのは instructor 側。学生が電話でスピーチを行うのではなく、講師が審査のために電話をかけてくる。動作主（主語）のすり替え。",
+                "③の罠: ap_s2 で assess which seminar would suit you（あなたに適したセミナーを審査する）とあり、セミナーを決めるのは講師側。ap_s3 の Your seminar will be decided も受動態。学生が自分で選択を提出するのではない。能動 / 受動のすり替え。",
+                "④の罠: sm_story_s5 に Evidence of high-level vocabulary knowledge is necessary to participate とあるが、これは Story セミナーの参加条件であり、出願後の全体的な手続きではない。別セクションの情報の誤適用。",
+                "テクニック (ap_s2 が好例): 手続き系の問題は Step 1 → Step 2 → Step 3 の時系列を正確に把握する。『after submitting（提出後）』= Step 1 の後 = Step 2 の内容。時間順序の把握が解法の核心。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "本文",
+          "items": [
+            {
+              "en": "descriptive",
+              "ja": "記述［描写］的な"
+            },
+            {
+              "en": "introduce",
+              "ja": "…を導入する；…に新たに触れさせる"
+            },
+            {
+              "en": "Prizes available!",
+              "ja": "賞が得られます！",
+              "note": "新聞などの見出しと同様の省略が行われており，Prizes will be available! などと補うことができる。"
+            },
+            {
+              "en": "visual",
+              "ja": "視覚資料［教材］"
+            },
+            {
+              "en": "adaptation",
+              "ja": "脚色"
+            },
+            {
+              "en": "dialogue",
+              "ja": "対話"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "短文読解（レポート＋参加者コメント）",
+      "situation": {
+        "en": "You are a member of your school's debate club. In an upcoming contest, your team will debate about whether students rely on technology too much. To get ideas, you are reading a report about a school challenge abroad, written by a Japanese student who studied there for a year.",
+        "ja": "あなたは学校のディベートクラブの一員です。今度のコンテストで，あなたのチームは生徒がテクノロジーに頼り過ぎているかどうかについて議論します。アイディアを得ようと，あなたは海外の学校が行った試みについての，そこで1年間学んだ日本人の生徒によって書かれたレポートを読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "report",
+          "title": {
+            "en": "Limit Tech Challenge",
+            "ja": "テクノロジー制限の試み"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "rp_s1",
+                "en": "Students rely on electronic devices often.",
+                "ja": "生徒たちは電子機器に頼ることが多く，"
+              },
+              {
+                "id": "rp_s2",
+                "en": "There are fantastic apps for learning.",
+                "ja": "学習用の素晴らしいアプリもあります。"
+              },
+              {
+                "id": "rp_s3",
+                "en": "However, many students waste too much time in looking at social networking sites, and we want to do something about that.",
+                "ja": "しかし，多くの生徒がSNSを見るのに無駄に時間を使い過ぎるので，それに関して我々は何らかの対処をしたいと思っています。"
+              },
+              {
+                "id": "rp_s4",
+                "en": "We asked students to only go online for an hour daily outside the classroom from March 1st to March 31st and to record what they had achieved before going to bed each night.",
+                "ja": "我々は，3月1日から3月31日までは，教室以外でのネットの使用を1日1時間だけに制限し，毎晩就寝前に成果を記録するよう生徒たちに求めました。"
+              },
+              {
+                "id": "rp_s5",
+                "en": "Around 700 students signed up, but over half quit almost immediately.",
+                "ja": "700人ほどの生徒が登録しましたが，半数以上がすぐにやめてしまいました。"
+              },
+              {
+                "id": "rp_s6",
+                "en": "This included almost 70% of the third-year students and about 30% of the first-year students, whereas few second-year students stopped.",
+                "ja": "これには3年生の70%近くと1年生の約30%が含まれましたが，2年生はほとんどやめませんでした。"
+              },
+              {
+                "id": "rp_s7",
+                "en": "What made the second-year students different, particularly from third-year ones?",
+                "ja": "なぜ2年生は，とりわけ3年生と違ったのでしょうか。"
+              },
+              {
+                "id": "rp_s8",
+                "en": "Looking at some comments (given below), I think I can answer this question:",
+                "ja": "いくつかのコメント（下記）を見て，私はこの疑問に答えることができるように思います。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "comments",
+          "title": {
+            "en": "Comments from Participants",
+            "ja": "参加者のコメント"
+          },
+          "layout": "speaker_boxes",
+          "paragraphs": [
+            [
+              {
+                "id": "kt_h",
+                "en": "KT:",
+                "ja": "KT："
+              },
+              {
+                "id": "kt_s1",
+                "en": "I'm so used to doing my homework with the help of Internet research that limited time online made me anxious.",
+                "ja": "私はネットのリサーチを手助けに宿題をすることに慣れているので，ネットを利用する時間が限られて不安を感じました。"
+              },
+              {
+                "id": "kt_s2",
+                "en": "Second-year students don't have as much study pressure as final-year students like me.",
+                "ja": "2年生には，私のような最終学年と比べると勉強しなければならないというプレッシャーが少ないですよね。"
+              }
+            ],
+            [
+              {
+                "id": "hh_h",
+                "en": "HH:",
+                "ja": "HH："
+              },
+              {
+                "id": "hh_s1",
+                "en": "I got fewer headaches and was able to concentrate better staying offline.",
+                "ja": "ネットを使っていないときの方が私は頭痛が減りましたし，集中力が高まりました。"
+              },
+              {
+                "id": "hh_s2",
+                "en": "I also fell asleep immediately when I turned the light out and felt fresher at school.",
+                "ja": "それに灯りを消すとすぐに寝つきましたし，学校でも前よりさわやかな気分になりました。"
+              }
+            ],
+            [
+              {
+                "id": "sr_h",
+                "en": "SR:",
+                "ja": "SR："
+              },
+              {
+                "id": "sr_s1",
+                "en": "I hadn't realized how many excellent books the school library has, and I spent less time checking how reliable sources online are.",
+                "ja": "学校の図書室にどれだけたくさん素晴らしい本があるかに気づかずにいましたし，ネットの情報源の信頼度をチェックするのに使う時間が減りました。"
+              }
+            ],
+            [
+              {
+                "id": "mb_h",
+                "en": "MB:",
+                "ja": "MB："
+              },
+              {
+                "id": "mb_s1",
+                "en": "I longed to go online and felt restless.",
+                "ja": "私はネットを使いたくて使いたくて，落ち着きませんでした。"
+              },
+              {
+                "id": "mb_s2",
+                "en": "I wasn't productive without technology.",
+                "ja": "テクノロジーなしでは何も手につきませんでした。"
+              },
+              {
+                "id": "mb_s3",
+                "en": "It's almost impossible for first-year students to resist logging on to watch newly uploaded videos.",
+                "ja": "新しくアップロードされたビデオを見るためにネットにつながるのを我慢するなんて1年生にはほとんど無理です。"
+              }
+            ],
+            [
+              {
+                "id": "js_h",
+                "en": "JS:",
+                "ja": "JS："
+              },
+              {
+                "id": "js_s1",
+                "en": "I tried discussing topics with my second-year friends and found I remembered almost everything.",
+                "ja": "私は2年生の友人たちといくつかの話題について議論してみたんですが，大体のことを覚えていることがわかりました。"
+              },
+              {
+                "id": "js_s2",
+                "en": "Getting ideas from the Net, I quickly forget most of what I've read.",
+                "ja": "ネット経由でアイディアを得た場合には，読んだことのほとんどをすぐ忘れてしまいます。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "The aim of the Limit Tech Challenge was for students to [4].",
+            "ja": "「テクノロジー制限の試み」の目的は，生徒が[4]ことだった"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "appreciate technology's benefits",
+              "ja": "テクノロジーの恩恵を正しく理解する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "boost their general health",
+              "ja": "健康全般を増進させる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "sleep for longer",
+              "ja": "睡眠時間を増やす",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "waste less time",
+              "ja": "無駄にする時間を減らす",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第3文（However, many students ...）に「多くの生徒がSNSを見るのに無駄に時間を使い過ぎるので，それに関して我々は何らかの対処をしたい」と，この試みを行った理由が説明されている。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "rp_s3"
+            ],
+            "instructor_note": {
+              "ja": "チャレンジの『目的（aim）』を問う問題。rp_s3 の waste too much time ... we want to do something about that が目的の根拠。目的＝問題の裏返し。",
+              "points": [
+                "④が正解の決定打: rp_s3 の waste too much time（無駄に時間を使い過ぎる）に対して do something about that（何らかの対処をしたい）→ 目的は waste less time。問題文の裏返しが目的になるパターン。",
+                "①の罠: rp_s2 で fantastic apps for learning と書かれているが、これはテクノロジーの利点への言及であり、チャレンジの目的ではない。目的は rp_s3 の SNS 時間削減。",
+                "②の罠: hh_s1 で fewer headaches や hh_s2 で felt fresher at school とあるが、これは参加者HHの個人的な結果報告であり、チャレンジの目的ではない。目的と結果の混同。",
+                "③の罠: hh_s2 で fell asleep immediately とあるが、②と同様に結果であり目的ではない。rp_s3 の we want to do something about that の that は SNS の時間浪費を指す。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "One fact about the Limit Tech Challenge is that [5].",
+            "ja": "「テクノロジー制限の試み」に関する事実の1つは[5]ということである"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "less than half the participants completed the challenge",
+              "ja": "試みを完了した参加者は半数に満たなかった",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "many students depended heavily on electronic devices",
+              "ja": "多くの生徒は重度の電子機器依存だった",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "students were encouraged to delete apps before starting",
+              "ja": "開始に先立って生徒はアプリの削除を推奨された",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the instructions for it were unclear to some participants",
+              "ja": "それに向けた指示が一部の参加者にとって不明瞭だった",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第5文（Around 700 students ...）に，登録者のうち「半数以上がすぐにやめて」しまったと述べられている。\n他の選択肢はいずれも述べられていない内容であり，不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "rp_s5"
+            ],
+            "instructor_note": {
+              "ja": "fact（事実）と opinion（意見）を区別する問題。rp_s5 の数値データ（700人登録、半数以上が脱落）が客観的事実。",
+              "points": [
+                "①が正解の決定打: rp_s5 の over half quit → 完了したのは半数未満。over half quit ≒ less than half completed の対偶表現。quit の主語を completed の主語に反転させる言い換え。",
+                "②の罠: rp_s1 で rely on electronic devices often とあるが、これは一般的な傾向の記述であり heavily on（重度に依存）とは程度が異なる。また fact ではなく筆者の観察（opinion 寄り）。",
+                "③の罠: rp_s4 で go online for an hour daily と使用時間の制限を求めたが、アプリの削除（delete apps）は一切言及されていない。存在しない情報の追加。",
+                "④の罠: 指示が不明瞭だったという記述は本文にない。rp_s4 で具体的な指示内容（1日1時間、成果を記録）が明示されている。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "One of the participants' opinions about the Limit Tech Challenge is that [6].",
+            "ja": "「テクノロジー制限の試み」に関するある参加者の意見は[6]というものである"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "first-year students struggle to stay away from social media",
+              "ja": "1年生はソーシャル・メディアから距離を置くのに苦労する",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "shortly after switching off devices, you don't miss them",
+              "ja": "機器のスイッチを切った直後には，それを使えないことが辛いとは感じない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "teachers nowadays often want students to do Internet research",
+              "ja": "現在の教師は生徒がインターネットでリサーチすることを望む場合が多い",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "there is so much Internet content that is undependable",
+              "ja": "信頼できないインターネットのコンテンツが非常に多い",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。MBの「新しくアップロードされたビデオを見るためにネットにつながるのを我慢するなんて1年生にはほとんど無理です」というコメントに対応する内容となっている。\nなお，SRの「ネットの情報源の信頼度をチェックするのに使う時間が減りました」というコメントは，SRが④のように感じていることをうかがわせるが，「テクノロジー制限の試み」に関する意見として述べられている内容ではないため，不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "mb_s3"
+            ],
+            "instructor_note": {
+              "ja": "参加者の『意見（opinion）』を特定する問題。mb_s3 の It's almost impossible for first-year students to resist ... が①の言い換え。④は sr_s1 から連想させるが意見ではなく行動報告。",
+              "points": [
+                "①が正解の決定打: mb_s3 の It's almost impossible for first-year students to resist logging on to watch newly uploaded videos が①の first-year students struggle to stay away from social media と対応。resist logging on ≒ struggle to stay away、newly uploaded videos ≒ social media の言い換え。",
+                "④の罠（最重要）: sr_s1 で checking how reliable sources online are（ネット情報源の信頼度チェック）とあり、④の undependable content を連想させる。しかし SR は『信頼度チェックの時間が減った』という行動変化を報告しているのであり、『ネット上に信頼できないコンテンツが多い』という意見を述べているわけではない。行動報告 ≠ 意見。",
+                "②の罠: mb_s1 で longed to go online and felt restless とあり、MB は機器を切った後むしろ辛いと感じている。②は MB のコメントと矛盾する。hh_s1 は headaches が減ったが、これは shortly after ではなく継続的な効果。",
+                "③の罠: kt_s1 で homework with the help of Internet research とあるが、これは KT 自身の習慣であり、教師がリサーチを望んでいるという記述は本文にない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "The author's question is answered by [7].",
+            "ja": "「筆者の疑問には[7]が答えている」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "HH",
+              "ja": "HH",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "JS",
+              "ja": "JS",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "KT",
+              "ja": "KT",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "MB",
+              "ja": "MB",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "SR",
+              "ja": "SR",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。筆者の疑問とは第7文（What made the ...?）の「なぜ2年生は，とりわけ3年生と違った[＝ほとんどやめなかった]のでしょうか」というもの。KTの「2年生には，私のような最終学年と比べると勉強しなければならないというプレッシャーが少ないですよね」というコメントが，この疑問に対する1つの答えとなっている。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "rp_s7",
+              "kt_s2"
+            ],
+            "instructor_note": {
+              "ja": "筆者の疑問（rp_s7）に対する答えを5人のコメントから特定する問題。疑問の核心は『なぜ2年生は3年生と違ってやめなかったか』。学年間の比較をしているコメントを探す。",
+              "points": [
+                "③(KT) が正解の決定打: rp_s7 の What made the second-year students different, particularly from third-year ones? に対し、kt_s2 の Second-year students don't have as much study pressure as final-year students like me が直接回答。2年生と3年生の違い（勉強のプレッシャーの差）を明示的に比較している。",
+                "①(HH) の排除: hh_s1, hh_s2 はオフライン生活の健康面の利点を報告しているが、2年生と3年生の違いについては言及していない。学年比較がない。",
+                "②(JS) の排除: js_s1 で second-year friends と言及しているが、これは議論相手が2年生だったという事実報告。なぜ2年生がやめなかったかの理由は述べていない。",
+                "④(MB) の排除: mb_s3 で first-year students と言及しているが、1年生の困難さを述べており、2年生 vs 3年生の比較ではない。",
+                "テクニック (rp_s7, kt_s2 が好例): 『筆者の疑問に答えている人物は誰か』型では、まず疑問文のキーワード（second-year / third-year / different）を特定し、同じキーワードを含むコメントを探す。KT だけが second-year と final-year を直接比較している。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "本文",
+          "items": [
+            {
+              "en": "app",
+              "ja": "アプリケーション",
+              "note": "application の略形。"
+            },
+            {
+              "en": "go online",
+              "ja": "インターネットに接続する"
+            },
+            {
+              "en": "sign up",
+              "ja": "（署名して）参加する"
+            },
+            {
+              "en": "Looking at some comments (given below)",
+              "ja": "いくつかのコメント（下記）を見て",
+              "note": "分詞構文。"
+            },
+            {
+              "en": "I'm so used to ... that limited time online made me anxious",
+              "ja": "私は…に非常に慣れているので，制限されたインターネット上の時間は私を不安にした",
+              "note": "so ... that 〜（〜なほど…；非常に…なので〜）の〜の部分は limited time online (S) made (V) me (O) anxious (C) という構造。"
+            },
+            {
+              "en": "staying offline",
+              "ja": "インターネットに接続していなくて",
+              "note": "分詞構文。offline は形容詞で「オフライン［インターネットに接続されていない状態］で」という意味。"
+            },
+            {
+              "en": "log on",
+              "ja": "ログイン［ログオン］する；ネットワークに接続する"
+            },
+            {
+              "en": "Getting ideas from the Net",
+              "ja": "ネットからアイディアを得て",
+              "note": "分詞構文。"
+            }
+          ]
+        },
+        "questions": {
+          "label_ja": "設問文・選択肢",
+          "items": [
+            {
+              "en": "boost",
+              "ja": "…を増加［促進］する"
+            },
+            {
+              "en": "struggle to-",
+              "ja": "-するのに苦心する"
+            },
+            {
+              "en": "switch ... off / switch off ...",
+              "ja": "…のスイッチを切る"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "description": "ブログ読解（クイズ競争の企画）",
+      "situation": {
+        "en": "Your English club will make a \"quiz race\" for an English camp. To get some ideas, you are reading a blog about one a British woman designed.",
+        "ja": "あなたの英語クラブは英語キャンプ用に「クイズ競争」を作ります。アイディアを得るために，あなたはイギリスの女性が企画したものに関するブログを読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "blog",
+          "title": {
+            "en": "Make a Fun \"Quiz Race\"",
+            "ja": "楽しい「クイズ競争」を作ってください"
+          },
+          "graph_image": {
+            "src": "images/q03_quiz_steps.png",
+            "alt": "クイズ作成に当たって重要な段階: 場所・課題・物・タブレット",
+            "after_paragraph": 1
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "bl_s1",
+                "en": "Great Britain is famously rainy, but last summer on a sunny weekend, I wanted the neighbourhood kids to be outside, so I created a \"quiz race\".",
+                "ja": "英国は雨が多いことで有名ですが，去年の夏の天気の良い週末に近所の子どもたちに屋外に出てほしくて，私は「クイズ競争」を企画しました。"
+              },
+              {
+                "id": "bl_s2",
+                "en": "Read my ideas to make your own!",
+                "ja": "ご自身の企画に生かすために私のアイディアをお読みください！"
+              }
+            ],
+            [
+              {
+                "id": "bl_s3",
+                "en": "First, pick a place.",
+                "ja": "まず場所を選びます。"
+              },
+              {
+                "id": "bl_s4",
+                "en": "We used a local park, but a nature reserve or any other public facility would be fine.",
+                "ja": "私たちは地元の公園を使いましたが，自然保護区や他のどんな公共の施設でも良いでしょう。"
+              },
+              {
+                "id": "bl_s5",
+                "en": "You could also use your home if your garden is sufficiently large.",
+                "ja": "庭が十分に広いなら，自宅を使えるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "bl_s6",
+                "en": "Next, think of intellectual and physical challenges.",
+                "ja": "次に知的・肉体的課題を考えます。"
+              },
+              {
+                "id": "bl_s7",
+                "en": "We included kids finding yellow flowers or crawling under a blanket while holding balloons!",
+                "ja": "私たちは子どもが黄色い花を見つけたり，風船を抱えて毛布の下を這って歩いたり，といったものを含めました！"
+              },
+              {
+                "id": "bl_s8",
+                "en": "For some brain exercise, we prepared word puzzles and construction challenges, like using chopsticks and tape to make bridges for toy trucks.",
+                "ja": "頭の体操には，ワードパズルや箸とテープを使って玩具のトラックのための橋を作る，などという工作の課題を用意しました。"
+              }
+            ],
+            [
+              {
+                "id": "bl_s9",
+                "en": "Step three is hiding necessary objects.",
+                "ja": "第三段階は，必要なものを隠すことです。"
+              },
+              {
+                "id": "bl_s10",
+                "en": "Just place household things you already own somewhere difficult to find.",
+                "ja": "既に持っているありふれた品を見つけにくい場所に置くだけです。"
+              },
+              {
+                "id": "bl_s11",
+                "en": "We even rented some swan boats and told staff members about our plan a few days in advance.",
+                "ja": "我々は何日か前にスワンボートを借りさえしてスタッフに我々の計画について話しました。"
+              },
+              {
+                "id": "bl_s12",
+                "en": "They happily let us set up a challenge on the boating lake's island!",
+                "ja": "彼らは喜んで我々に，ボートに乗れる湖中にある島で行う課題の仕込みをさせてくれました！"
+              },
+              {
+                "id": "bl_s13",
+                "en": "The secret is to come up with clues for where to discover the next challenge.",
+                "ja": "コツは個々の課題について，どこで次の課題が見つけられるかの手がかりを思いつくことです。"
+              },
+              {
+                "id": "bl_s14",
+                "en": "You could write them down, or like us, give teams tablets.",
+                "ja": "書きつけることもできるし，我々のようにチームにタブレットを与えることもできます。"
+              },
+              {
+                "id": "bl_s15",
+                "en": "For each challenge, our kids had to video-call the adult responsible for their team and either do their challenge on camera or prove that they had completed it.",
+                "ja": "課題ごとに，我々の子どもたちはチーム担当の大人にテレビ電話をかけて，カメラ越しに課題を行うか完了したことを証明することを求められました。"
+              },
+              {
+                "id": "bl_s16",
+                "en": "Then, we told them a hint or gave instructions for the next challenge and sometimes sent maps.",
+                "ja": "それから我々は彼らに次の課題に向けてのヒントを出すか指示を与えるかして，地図を送る場合もありました。"
+              },
+              {
+                "id": "bl_s17",
+                "en": "Though the same challenges were done in different orders, everyone's last one was doing an amusing dance for thirty seconds, so the team who finished this final challenge first were the race winners.",
+                "ja": "同じ課題を行う順番はさまざまでしたが，誰にも最後の課題はおかしなダンスを30秒行うことだったので，この最後の課題を最初に終えたチームが競争の優勝者になりました。"
+              }
+            ],
+            [
+              {
+                "id": "bl_s18",
+                "en": "The challenges you should choose will depend on how old the kids are.",
+                "ja": "選ぶべき課題は子どもたちの年齢次第です。"
+              },
+              {
+                "id": "bl_s19",
+                "en": "My quiz race involved teams with a mixture of older and younger children.",
+                "ja": "私のクイズ競争に参加したのは年長・年少の混合チームでした。"
+              },
+              {
+                "id": "bl_s20",
+                "en": "Therefore, I designed challenges where teens wouldn't get bored, or where they could help younger teammates.",
+                "ja": "ですから13歳以上でも退屈しない，または年少のチームメイトを手助けできる課題を企画しました。"
+              }
+            ],
+            [
+              {
+                "id": "bl_s21",
+                "en": "Next month for Halloween I'm holding a ghost-themed quiz at a local school, featuring frights and ghostly activities.",
+                "ja": "来月はハロウィーンに向けて，地元の学校で怖いことやお化けの遊びを目玉にした，お化けをテーマにしたクイズを行う予定です。"
+              },
+              {
+                "id": "bl_s22",
+                "en": "I've just started buying some scary decorations!",
+                "ja": "私は，怖い飾りつけを買い始めたところです。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 8,
+          "question_type": "ordering",
+          "stem": {
+            "en": "Put the following events (① ~ ④) into the order in which they happened. [8] → [9] → [10] → [11]",
+            "ja": "「次の出来事（①〜④）を起きた順番に並べよ」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The kids performed funny dances for half a minute.",
+              "ja": "子どもたちがおかしなダンスを30秒間踊った。"
+            },
+            {
+              "label": "②",
+              "en": "The kids started contacting adults through video messages.",
+              "ja": "子どもたちがビデオメッセージを通じて大人と連絡を取り始めた。"
+            },
+            {
+              "label": "③",
+              "en": "The woman organised something with employees at the park.",
+              "ja": "女性が公園の従業員と一緒にあることの準備をした。"
+            },
+            {
+              "label": "④",
+              "en": "The woman went shopping for some themed decorations.",
+              "ja": "女性があるテーマの飾りつけのために買い物に行った。"
+            }
+          ],
+          "answer": "③→②→①→④",
+          "answer_slots": {
+            "8": "③",
+            "9": "②",
+            "10": "①",
+            "11": "④"
+          },
+          "explanation": {
+            "quoted_ja": "正解は③→②→①→④。まず，第4段落第3文（We even rented ...）にあるように，前年の夏のクイズ競争の数日前に公園のスタッフの協力を得て課題の準備を行ったので③が先頭に来る。次にクイズ競争当日の出来事の①，②については，同段落第7文（For each challenge, ...）にあるように子どもたちは課題ごとにビデオで大人と連絡を取ったわけであるから，最初の課題を行う際に連絡を取り始めたことになる。これに対して①の30秒間のダンスは，同段落最終文（Though the same ...）にあるように最後の課題として設定されていたので②→①という順番で起きたことになる。④は最終段落最終文（I've just started ...）に書かれているが，翌月に予定されているハロウィーン向けのクイズの準備として始めたばかりのことであるから順番は最後になる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "bl_s11",
+              "bl_s15",
+              "bl_s17",
+              "bl_s22"
+            ],
+            "instructor_note": {
+              "ja": "時系列並べ替え問題。『去年の夏の準備→当日→当日最後→現在の行動』という時間軸を把握する。4つのイベントが属する時期を特定することが鍵。",
+              "points": [
+                "③が最初: bl_s11 の a few days in advance（数日前に）から、スタッフとの準備はクイズ競争の当日よりも前。③ organised something with employees = スワンボートの借用＋島での課題仕込み。",
+                "②が2番目: bl_s15 の For each challenge, our kids had to video-call ... から、ビデオ通話は課題実行時に毎回行われた。最初の課題の時点で連絡が始まる。",
+                "①が3番目: bl_s17 の everyone's last one was doing an amusing dance for thirty seconds から、ダンスは最後の課題。②（最初の課題で連絡開始）→①（最後の課題でダンス）の順。",
+                "④が最後: bl_s22 の I've just started buying some scary decorations は現在進行中の行動。bl_s21 の Next month for Halloween から、これは去年の夏のイベント後の話。時制（現在完了 have just started）が決定的手がかり。",
+                "テクニック (bl_s11, bl_s17 が好例): 並べ替え問題では各イベントの時制と時間表現に注目。a few days in advance = 事前準備、For each challenge = 当日反復、last one = 最終課題、I've just started = 現在。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 12,
+          "stem": {
+            "en": "If you follow the woman's advice to make your own \"quiz race\", you should [12].",
+            "ja": "「あなたが自分自身の『クイズ競争』を作るために女性の助言に従うなら，[12]べきである」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "choose a place with indoor facilities",
+              "ja": "屋内の施設がある場所を選ぶ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "consider participants' ages when planning",
+              "ja": "計画を立てる際に参加者の年齢を考慮に入れる",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "make all challenges lively, involving movement",
+              "ja": "全ての課題を活気のある，動きを伴うものにする",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "provide some interesting goods as prizes",
+              "ja": "何か面白い品物を賞として用意する",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。第5段落第1文（The challenges you ...）に「選ぶべき課題は子どもたちの年齢次第」とある。\n他の選択肢のうち，①は第2段落（First, pick a ...）で女性が「クイズ競争」を行ったのは「公園」だが，他に「自然保護区」「公共の施設」「自宅」も候補地として挙げられており，屋内の施設の必要性には特に言及されていないため不正解。③は第3段落（Next, think of ...）に上げられている知的課題や頭の体操の類には「活気のある，動きを伴うもの」という条件が当てはまるとは言えず，④はブログに賞品についての言及がないため，いずれも不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "bl_s18"
+            ],
+            "instructor_note": {
+              "ja": "女性の advice（助言）を問う問題。bl_s18 の The challenges you should choose will depend on how old the kids are が②の言い換え。should が助言の根拠。",
+              "points": [
+                "②が正解の決定打: bl_s18 の depend on how old the kids are（子どもの年齢次第）≒ consider participants' ages when planning（計画時に参加者の年齢を考慮する）。should choose が助言的表現。",
+                "①の罠: bl_s4 で local park, nature reserve, public facility, bl_s5 で home と多様な場所を候補に挙げており、indoor facilities に限定する記述はない。むしろ bl_s1 で outside を目的としている。",
+                "③の罠: bl_s6 で intellectual and physical challenges と両方を挙げており、bl_s8 で word puzzles や construction challenges など動きを伴わない知的課題も含まれる。all challenges が lively, involving movement とは言えない。",
+                "④の罠: ブログには prizes（賞品）への言及が一切ない。bl_s17 で race winners と書かれているが、勝者に何を与えるかは述べられていない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "From this blog, you understand that the woman [13].",
+            "ja": "「このブログから，女性は[13]とわかる」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "asked players to collect items before others did",
+              "ja": "プレイヤーに他の人たちより先に物を集めるよう求めた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "spent many days searching for a good location",
+              "ja": "良い開催地を探すのに何日もかけた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "used maps as hints for upcoming tasks",
+              "ja": "次の課題へのヒントに地図を使った",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "wrote down instructions for adults taking part",
+              "ja": "参加した大人への指示を書きつけた",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。第4段落第8文（Then, we told ...）に「次の課題に向けてのヒントを出すか指示を与えるかして，地図を送る場合も」あったと述べられている。\n他の選択肢のうち，①は第3段落第2文（We included kids ...）に書かれた「黄色い花を見つける」課題や第4段落第2文（Just place household ...）で説明された「見つけにくい場所に物を隠す」課題で行われてもおかしくない要求の内容に思えるが，「他の人たちより先に物を集めるよう求めた」といった表現が実際にブログに見られるわけではないので，不正解。②はブログに言及の無い内容であり，④は大人に関して言及があるのは第4段落第7文（For each challenge, ...）の，チーム担当の大人が子どもたちからテレビ電話を受ける，というもののみなので，やはりいずれも不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "bl_s16"
+            ],
+            "instructor_note": {
+              "ja": "ブログから読み取れる事実を問う問題。bl_s16 の sometimes sent maps が③の used maps as hints の根拠。",
+              "points": [
+                "③が正解の決定打: bl_s16 の gave instructions for the next challenge and sometimes sent maps（次の課題への指示を与え、時に地図を送った）が③の used maps as hints for upcoming tasks と対応。maps = maps、next challenge = upcoming tasks の言い換え。",
+                "①の罠: bl_s7 で finding yellow flowers、bl_s10 で place ... somewhere difficult to find とあるが、これは課題の内容であり、『他の人より先に集める』という競争的要素は書かれていない。bl_s17 の race winners はダンスの完了順。",
+                "②の罠: bl_s4 で We used a local park と1文で場所が決定されている。何日もかけて探した（spent many days searching）という記述はない。bl_s11 の a few days in advance は場所探しではなくスタッフとの調整。",
+                "④の罠: bl_s15 で adult responsible for their team と大人の役割が述べられているが、大人への指示を『書きつけた（wrote down）』という記述はない。bl_s14 の write them down は子どもへのヒントの話。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "situation": {
+          "label_ja": "リード文",
+          "items": [
+            {
+              "en": "one a British woman designed",
+              "ja": "あるイギリスの女性が企画したもの",
+              "note": "one は既出の可算名詞の代用となる代名詞で，ここでは a \"quiz race\" のこと。"
+            }
+          ]
+        },
+        "passage": {
+          "label_ja": "ブログ",
+          "items": [
+            {
+              "en": "a Fun \"Quiz Race\"",
+              "ja": "楽しい『クイズ競争』",
+              "note": "fun は元々「楽しみ」という意味の不可算名詞だが，ここでのような「楽しい」という意味での形容詞としての用法も増えている。"
+            },
+            {
+              "en": "Read my ideas to make your own!",
+              "ja": "自分の『クイズ競争』を作るために私のアイディアを読んでください！",
+              "note": "your own の直後には \"quiz race\" が省略されている。"
+            },
+            {
+              "en": "nature reserve",
+              "ja": "自然保護区"
+            },
+            {
+              "en": "kids finding yellow flowers or crawling under a blanket",
+              "ja": "子どもが黄色い花を見つけることや毛布の下を這うこと",
+              "note": "or によってつながれた finding, crawling は動名詞で，kids はそれらの意味上の主語を示している。"
+            },
+            {
+              "en": "while holding balloons",
+              "ja": "風船を抱えながら",
+              "note": "副詞節の while they[= the kids] are holding balloons の they are が省略されているとも，分詞構文の holding balloons に接続詞の while が添えられることで意味が明確化されているとも取れる。"
+            },
+            {
+              "en": "construction",
+              "ja": "組み立て；工作"
+            },
+            {
+              "en": "Just place household things you already own somewhere difficult to find.",
+              "ja": "既に持っているありふれた物を見つけにくいところへ置きなさい",
+              "note": "you already own は形容詞節として household things を修飾しており，直前には関係代名詞の which または that を補うことができる。somewhere は副詞として place を修飾しているが，一方では名詞的に扱われて形容詞句の difficult to find によって修飾されている。"
+            },
+            {
+              "en": "our kids had to video-call the adult responsible for their team and either do their challenge on camera or prove that ...",
+              "ja": "我々の子どもたちは，チームに責任を持つ大人にテレビ電話をかけて，カメラ越しに課題を行うか…を証明するかをしなければならなかった",
+              "note": "had to に続く video-call と either do ... or prove が and によってつながれている。video-call は，ここでは「…にテレビ電話をかける」という意味の他動詞として用いられている。"
+            }
+          ]
+        },
+        "questions": {
+          "label_ja": "設問文・選択肢",
+          "items": [
+            {
+              "en": "when planning",
+              "ja": "計画する際に",
+              "note": "副詞節の when you are planning の you are が省略されているとも，分詞構文の planning に接続詞の when が添えられることで意味が明確化されているとも取れる。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ改訂（AI画像生成と美術）",
+      "situation": {
+        "en": "In English class you are writing an essay on IT problems you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "英語の授業であなたは関心のあるIT問題についてのエッセイを書いています。これが最も新しい草稿です。あなたは今，先生からのコメントに基づいて，修正に取り組んでいます。"
+      },
+      "passages": [
+        {
+          "id": "essay",
+          "title": {
+            "en": "AI art generators should be used properly",
+            "ja": "画像生成AIは適切に用いるべきだ"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "es_s1",
+                "en": "In recent years, artificial intelligence (AI) has developed rapidly.",
+                "ja": "近年，人工知能（AI）が急速に発達してきました。"
+              },
+              {
+                "id": "es_s2",
+                "en": "AI is used for many things, such as generating music, translating foreign languages, and analyzing data.",
+                "ja": "AIは，音楽を生成したり，外国語を翻訳したり，データを分析したりといった多くのことに用いられます。"
+              },
+              {
+                "id": "es_s3",
+                "en": "AI can be used in many positive ways.",
+                "ja": "AIは多くの建設的な形で使用することが可能です。"
+              },
+              {
+                "id": "es_s4",
+                "en": "However, many artists are worried about AI programs that generate art.",
+                "ja": "しかし，多くの美術家が美術作品を生成するAIプログラムに懸念を抱いています。"
+              },
+              {
+                "id": "es_s5",
+                "en": "They believe these programs should be limited or restricted.",
+                "ja": "彼らはこうしたプログラムは制限されるか規制されるべきであると考えているのです。"
+              }
+            ],
+            [
+              {
+                "id": "es_s6",
+                "en": "First, AI art generators steal the work of real artists.",
+                "ja": "第一に，画像生成AIは実在する美術家の作品を盗用します。"
+              },
+              {
+                "id": "es_s7",
+                "en": "These programs must be trained on thousands of examples of real art made by human artists.",
+                "ja": "こうしたプログラムは，人間の美術家によって制作された数千にも及ぶ本物の美術作品の実例をもとにして学習しなければなりません。",
+                "comment_marker": "(1)",
+                "marker_position": "after",
+                "marker_type": "caret"
+              },
+              {
+                "id": "es_s9",
+                "en": "Many artists don't consent to AI programs using their art this way.",
+                "ja": "多くの美術家は，AIプログラムがそのようにして自分たちの美術作品を利用することを承諾していません。"
+              },
+              {
+                "id": "es_s10",
+                "en": "They believe their work has been stolen and is being used illegally.",
+                "ja": "彼らは自分たちの作品が盗まれ，不法に利用されていると考えているのです。"
+              }
+            ],
+            [
+              {
+                "id": "es_s11",
+                "en": "Second, AI art takes jobs from real artists.",
+                "ja": "第二に，AI画像は実在する美術家の仕事を奪ってしまいます。"
+              },
+              {
+                "id": "es_s12",
+                "en": "AI art generators can make photographs or pictures at a much lower price than a human artist and in much less time.",
+                "ja": "画像生成AIは，人間の美術家よりもはるかに安い価格で，しかもはるかに少ない時間で写真や絵を作成することができます。"
+              },
+              {
+                "id": "es_s13",
+                "en": "This changes the demand for real artists and leaves them with less work.",
+                "ja": "こうしたことは実在する美術家に対する需要を変化させ，彼らの仕事を減らしてしまいます。",
+                "underline_word": "changes",
+                "comment_marker": "(2)",
+                "marker_position": "before"
+              },
+              {
+                "id": "es_s14",
+                "en": "In the future, this may cause artists to lose their jobs, even though they are highly skilled and have spent years perfecting their skills.",
+                "ja": "将来的には，たとえ美術家が高度な技術を有し，数年かけて自分の技術を完成させてきたのだとしても，そうしたことが原因で美術家は仕事を失ってしまうかもしれないのです。"
+              }
+            ],
+            [
+              {
+                "id": "es_s15",
+                "en": "Finally, let's consider learning art.",
+                "ja": "最後に，美術の学習について考えてみましょう。",
+                "underline_word": "let's consider learning art",
+                "comment_marker": "(3)",
+                "marker_position": "before"
+              },
+              {
+                "id": "es_s16",
+                "en": "Drawing, painting, and photography are all creative forms of expression, and are important to us as human beings.",
+                "ja": "線画や絵画や写真はみな創造的な表現形態であり，私たち人間にとって重要なものです。"
+              },
+              {
+                "id": "es_s17",
+                "en": "Practicing art develops the small muscles in our hands and encourages imagination and creativity.",
+                "ja": "美術の練習は手の小さな筋肉を発達させ，想像力と創造性を促します。"
+              },
+              {
+                "id": "es_s18",
+                "en": "If art becomes something we can make at the click of a button, we will lose this important part of our culture.",
+                "ja": "もし美術がボタンをクリックすることで作ることができるものになってしまうならば，私たちの文化におけるこの重要な要素を失うことになるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "es_s19",
+                "en": "In conclusion, AI programs sample the work of artists without permission, they reduce work opportunities for artists, and they discourage people from making art themselves.",
+                "ja": "結論として，AIプログラムは許諾なしに美術家の作品の見本を取り，美術家の仕事の機会を減少させ，人々が自分で美術作品を制作しようとする気持ちをなくさせてしまいます。"
+              },
+              {
+                "id": "es_s20",
+                "en": "Many artists believe that despite the advantages of AI art, it has a negative influence on our culture overall.",
+                "ja": "多くの美術家は，AI画像の利点にもかかわらず，それは私たちの文化全般に悪影響をもたらしていると考えています。",
+                "comment_marker": "(4)",
+                "marker_position": "after",
+                "marker_type": "caret"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "Can you tell me how the AI programs do that? Add more information here.",
+              "ja": "AIプログラムがどのようにしてそれを行うのかを私に教えてくれませんか？ ここにさらに情報を追加してください。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Changes the demand in what way? Be more specific.",
+              "ja": "どのように需要を変化させるのですか。もっと具体化してください。"
+            },
+            {
+              "marker": "(3)",
+              "en": "The topic sentence doesn't adequately summarize your point. Rewrite it.",
+              "ja": "主題文は論点を適切に要約していません。書き直してください。"
+            },
+            {
+              "marker": "(4)",
+              "en": "Add a concluding sentence here.",
+              "ja": "ここに結論となる文を追加してください。"
+            }
+          ],
+          "teacher_comment": {
+            "en": "Overall Comment: This is very interesting. I had never thought about the problems with AI art generators before. Good work!",
+            "ja": "全体的なコメント：これは非常に興味深いものです。私はこれまで画像生成AIについて考えたことはありませんでした。よく頑張りました！"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on comment (1), which sentences should you insert here? [14]",
+            "ja": "「コメント(1)に基づくと，ここにどの文を入れるべきか」[14]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI programs analyze these images and sample them to make new ones.",
+              "ja": "AIプログラムはこれらの画像を分析し，それらの見本を取って新しい画像を作ります。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "AI programs can make original art without using other people's images.",
+              "ja": "AIプログラムは他者の画像を使用することなく，オリジナルの美術作品を制作することができます。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "AI programs use art or photography bought from professional artists.",
+              "ja": "AIプログラムはプロの美術家から購入した美術品や写真を利用します。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "AI programs use pictures donated for free by human artists.",
+              "ja": "AIプログラムは人間の美術家から無料で寄付された絵画を利用します。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。コメント(1)には，「AIプログラムがどのようにしてそれを行うのかを私に教えてくれませんか？ ここにさらに情報を追加してください」とあるが，「それ」とは直前の2つの文で述べられている，人間の美術家によって制作された本物の美術作品をもとにして学習することで実在する美術家の作品を盗むことを指している。よってそのことを簡潔に言い換えた選択肢①「AIプログラムはこれらの画像を分析し，それらの見本を取って新しい画像を作ります」が空所(1)に追加されるべきであると判断できるので，正解は①となる。\n②，③，④はいずれもそうした内容とはなっていないので不可。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "es_s6",
+              "es_s7"
+            ],
+            "instructor_note": {
+              "ja": "教師コメント(1)の『それ（that）= 実在する美術家の作品を盗むこと』の具体的メカニズムを補う問題。es_s7 の trained on thousands of examples が①の analyze these images and sample them の根拠。",
+              "points": [
+                "①が正解の決定打: es_s6 の steal the work + es_s7 の trained on thousands of examples of real art のメカニズムを具体化。①の analyze these images and sample them to make new ones は、学習データから新画像を生成するプロセスの説明。",
+                "②の罠: es_s7 で real art made by human artists をもとに学習すると明記。without using other people's images は本文の主張と矛盾する。エッセイの論旨は『他者の作品を無断使用している』こと。",
+                "③の罠: es_s9 で artists don't consent（承諾していない）とあり、bought（購入）は本文に反する。購入なら合法であり、steal という批判が成り立たない。",
+                "④の罠: donated for free も es_s9 の don't consent と矛盾。無料寄付なら承諾済みであり、盗用の議論にならない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on comment (2), which word or expression should you use here instead? [15]",
+            "ja": "「コメント(2)に基づくと，どの語あるいは表現をここで代わりに用いるべきか」[15]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "expands",
+              "ja": "を拡張させ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "magnifies",
+              "ja": "を拡大させ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "reduces",
+              "ja": "を減少させ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "replaces",
+              "ja": "に取って代わり",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。コメント(2)には，「どのように需要を変化させるのですか。もっと具体化してください」とある。下線部(2)を含む文では「こうしたこと［画像生成AIが人間の美術家よりもはるかに安価かつはるかに少ない時間で写真や絵を作成することができること］は実在する美術家に対する需要(2)を変化させ，彼らの仕事を減らしてしまいます」とあることから，下線部(2)をより具体的に言い換えれば「実在する美術家に対する需要を減少させる」ことだと判断できる。よって正解は③となる。\n①，②，④はいずれもそうした意味にはなっていないので不可。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "es_s13"
+            ],
+            "instructor_note": {
+              "ja": "文脈から語彙を推定する問題。es_s13 の後半 leaves them with less work（仕事が減る）が changes の具体的方向を示す。changes → reduces への具体化。",
+              "points": [
+                "③が正解の決定打: es_s13 の leaves them with less work（仕事を減らす）が changes の方向性を示す。需要が変化して仕事が減る → 需要が『減少（reduces）』する。コメント(2)の Be more specific に対応し、changes より具体的な reduces が適切。",
+                "①の罠: expands（拡張する）は es_s13 の leaves them with less work と矛盾。需要が拡張すれば仕事は増えるはず。文脈の論理的方向と逆。",
+                "②の罠: magnifies（拡大する）は①と同様に需要増加を意味し、文脈と矛盾。magnify は通常、問題や効果を『増幅する』意味で使い、demand との共起も不自然。",
+                "④の罠: replaces（に取って代わる）は es_s11 の takes jobs に近い意味だが、demand を目的語に取ると『需要に取って代わる』となり意味不明。reduces the demand は自然な共起。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on comment (3), which topic sentence should be inserted here? [16]",
+            "ja": "「コメント(3)に基づくと，ここにどの主題文を入れるべきか」[16]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI art generators are better at making drawings and photographs than humans",
+              "ja": "画像生成AIの絵や写真を制作する能力は人間を上回っています",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "an increase in AI art will discourage people from studying and practicing art",
+              "ja": "AI画像が増加していくと，人々は美術作品を研究したり，練習したりする気をなくしてしまうでしょう",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "children who use AI art use their imaginations in a way that is different from artists",
+              "ja": "AI画像を使用する子どもは，美術家とは違う方法で自分の想像力を使います",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "using AI art is a different form of creativity, so it should be encouraged",
+              "ja": "AI画像を使用することは異なる種類の創造性であるので，それは奨励されるべきです",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。コメント(3)には，「主題文は論点を適切に要約していません。書き直してください」とある。この段落の主題は，下線部(3)の後で述べられているように，美術は人間の想像力と創造性を促すが，画像生成AIの利用によってそうした人間の文化の重要な要素を失ってしまうことになるということだが，それは言い換えれば人間が美術作品を自分の力で研究したり制作したりする機会や動機を奪ってしまうと捉えることができる。よって正解は②となる。\n①，③，④はいずれもこの段落で述べられている内容ではないので不可。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "es_s17",
+              "es_s18"
+            ],
+            "instructor_note": {
+              "ja": "段落の主題文（topic sentence）を選ぶ問題。es_s17 の encourages imagination and creativity と es_s18 の we will lose this important part of our culture から、段落の主旨は『AI画像の普及が美術の学習意欲を削ぐ』こと。",
+              "points": [
+                "②が正解の決定打: es_s17 で美術の練習が imagination and creativity を促すと述べ、es_s18 で art becomes something we can make at the click of a button なら文化を失うと警告。②の discourage people from studying and practicing art はこの段落全体の要約として最適。",
+                "①の罠: 段落は AI が人間より優れているかどうかを論じていない。es_s16-18 は美術の練習の重要性とAIによる喪失を論じている。better at は段落の論点と無関係。",
+                "③の罠: 子ども（children）への言及は段落に一切ない。また imagination を違う方法で使うという主張は es_s18 の lose this important part と矛盾（失うのであって、別の方法で使うのではない）。",
+                "④の罠: should be encouraged はエッセイ全体の論旨（AI art generators should be limited/restricted = es_s5）と正反対。エッセイは AI 画像生成に批判的立場。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Which sentence should you add, based on comment (4)? [17]",
+            "ja": "「コメント(4)に基づくと，どの文を追加すべきか」[17]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "As a result, artists should use AI art generators more carefully.",
+              "ja": "その結果，美術家はAI画像生成をもっと注意深く使うべきです。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Consequently, AI technology is still not effective enough.",
+              "ja": "したがって，AIテクノロジーはまだ十分に効果的ではありません。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "In summary, AI should be developed more.",
+              "ja": "まとめると，AIはもっと開発されるべきです。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Therefore, the use of AI art generators should be limited.",
+              "ja": "したがって，AI画像生成の使用は制限されるべきです。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。コメント(4)には，「ここに結論となる文を追加してください」とある。空所(4)の前には，多くの美術家はAIプログラムは私たちの文化全般に悪影響をもたらすと考えている，と述べられている。したがって，そうした悪影響をもたらすAIプログラムは制限されるべきである，と続ければ，結論として自然な内容となると判断できる。よって正解は④となる。ちなみに，第1段落（In recent years, ...）最終文でも「彼ら[多くの美術家]はこうしたプログラムは制限されるか規制されるべきであると考えているのです」という同じ趣旨のことが述べられている。\n①，②，③はいずれも自然な文脈とはならないので不可。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "es_s5",
+              "es_s19",
+              "es_s20"
+            ],
+            "instructor_note": {
+              "ja": "結論文（concluding sentence）を追加する問題。エッセイ全体の論旨（タイトル: should be used properly + es_s5: should be limited or restricted）と一致する結論文を選ぶ。",
+              "points": [
+                "④が正解の決定打: エッセイタイトルの should be used properly と es_s5 の should be limited or restricted を受けて、④の the use of AI art generators should be limited が論旨を要約する結論文。es_s19 の3点（盗用・仕事減少・制作意欲喪失）を Therefore で受ける構造も自然。",
+                "①の罠: artists should use AI art generators more carefully は、美術家がAIを使う側になっており、エッセイの立場（美術家はAIの被害者）と矛盾。es_s9 で artists don't consent と述べており、使い方の問題ではない。",
+                "②の罠: AI technology is still not effective enough はエッセイの論点と無関係。es_s12 でAIは安価かつ短時間で制作可能と述べており、むしろ効果的すぎることが問題。",
+                "③の罠: AI should be developed more はエッセイの論旨（制限すべき）と正反対。es_s5 の limited or restricted と矛盾する主張。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "situation": {
+          "label_ja": "リード文",
+          "items": [
+            {
+              "en": "draft",
+              "ja": "草稿；下書き"
+            },
+            {
+              "en": "work on ...",
+              "ja": "…に取り組む"
+            },
+            {
+              "en": "revision",
+              "ja": "修正"
+            },
+            {
+              "en": "based on ...",
+              "ja": "…に基づいて［た］"
+            }
+          ]
+        },
+        "passage": {
+          "label_ja": "エッセイ本文",
+          "items": [
+            {
+              "en": "AI art generator",
+              "ja": "画像生成AI"
+            },
+            {
+              "en": "properly",
+              "ja": "適切に"
+            },
+            {
+              "en": "artificial intelligence (AI)",
+              "ja": "人工知能"
+            },
+            {
+              "en": "AI program",
+              "ja": "AIプログラム"
+            },
+            {
+              "en": "generate",
+              "ja": "…を生成する"
+            },
+            {
+              "en": "art",
+              "ja": "美術（作品）"
+            },
+            {
+              "en": "restrict",
+              "ja": "…を規制する"
+            },
+            {
+              "en": "consent to ...",
+              "ja": "…を承諾する；…に同意する"
+            },
+            {
+              "en": "illegally",
+              "ja": "不法に"
+            },
+            {
+              "en": "demand for ...",
+              "ja": "…の需要"
+            },
+            {
+              "en": "leave A with B",
+              "ja": "AにBを残す"
+            },
+            {
+              "en": "cause O to -",
+              "ja": "Oが-する原因となる"
+            },
+            {
+              "en": "even though",
+              "ja": "たとえ…としても"
+            },
+            {
+              "en": "highly skilled",
+              "ja": "高度な技術を持っている"
+            },
+            {
+              "en": "in conclusion",
+              "ja": "結論として"
+            },
+            {
+              "en": "sample",
+              "ja": "…の見本を取る"
+            },
+            {
+              "en": "without permission",
+              "ja": "許可［許諾］なしに"
+            },
+            {
+              "en": "discourage A from -ing",
+              "ja": "Aに-することを思い止まらせる[-する気をなくさせる]"
+            },
+            {
+              "en": "negative influence on ...",
+              "ja": "…への悪影響"
+            }
+          ]
+        },
+        "comments": {
+          "label_ja": "先生のコメント",
+          "items": [
+            {
+              "en": "in what way",
+              "ja": "どのようにして…か"
+            },
+            {
+              "en": "specific",
+              "ja": "具体的な"
+            },
+            {
+              "en": "adequately",
+              "ja": "適切に"
+            },
+            {
+              "en": "summarize",
+              "ja": "…を要約する"
+            },
+            {
+              "en": "point",
+              "ja": "要点"
+            }
+          ]
+        },
+        "questions": {
+          "label_ja": "設問文・選択肢",
+          "items": [
+            {
+              "en": "insert",
+              "ja": "…を入れる［挿入する]"
+            },
+            {
+              "en": "analyze",
+              "ja": "…を分析する"
+            },
+            {
+              "en": "image",
+              "ja": "画像"
+            },
+            {
+              "en": "donate",
+              "ja": "…を寄付する"
+            },
+            {
+              "en": "for free",
+              "ja": "ただで；無料で"
+            },
+            {
+              "en": "be good at ...",
+              "ja": "…が得意だ"
+            },
+            {
+              "en": "consequently",
+              "ja": "その結果；したがって"
+            },
+            {
+              "en": "in summary",
+              "ja": "要約すると"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "description": "記事＋アンケート＋配布資料（大学生活への移行）",
+      "situation": {
+        "en": "You are one of the members of a university's student government and you have been asked to give advice on student life to the new students who will be arriving at your college in September. Based on the following article and the results of a questionnaire given to current students, you are going to make a handout with your advice on it.",
+        "ja": "あなたはある大学の学生自治会のメンバーの1人で，9月にあなたの大学に入学する新入生に学生生活についてアドバイスするよう依頼されました。以下の記事と在学生に行ったアンケートの結果をもとに，あなたはそれに関するアドバイス用のプリントを作成することになります。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "The Transition from High School Life to College Life",
+            "ja": "高校生活から大学生活への移行"
+          },
+          "author": {
+            "en": "Andrew Ridgeley, writer at Journal of American Educational Studies",
+            "ja": "アンドリュー・リッジリー　ジャーナル・オブ・アメリカン・エデュケーショナル・スタディーズ・ライター"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "ar_s1",
+                "en": "College life is known as one of the most memorable years of a person's life.",
+                "ja": "大学生活は，人生の中で最も記憶に残る時期の1つとして知られている。"
+              },
+              {
+                "id": "ar_s2",
+                "en": "However, the transition from high school to college is a big one, a phase filled with a mix of excitement, anticipation, and, of course, a fair share of challenges, and it's not easy for everyone.",
+                "ja": "しかし，高校から大学への移行は大きなものであり，興奮と期待，そしてもちろんそれなりの困難が入り混じった段階であり，誰にとっても容易なことであるわけではない。"
+              },
+              {
+                "id": "ar_s3",
+                "en": "We go through a lot of changes when we enter college.",
+                "ja": "大学に入学すると，私たちは多くの変化を経験する。"
+              },
+              {
+                "id": "ar_s4",
+                "en": "Our schools before college were a safe place where we grew up and had been enrolled in for more than half our lives.",
+                "ja": "大学以前の私たちの学校は，私たちが成長し，人生の半分を超える期間在学してきた安全な場所だった。"
+              },
+              {
+                "id": "ar_s5",
+                "en": "The transition to college is so sudden, and before you know it you're no longer protected by your teachers and friends from school.",
+                "ja": "大学への移行はあまりに突然で，いつの間にか学校の先生や友人に守られなくなっている。"
+              }
+            ],
+            [
+              {
+                "id": "ar_s6",
+                "en": "College life presents different challenges compared to our previous school life.",
+                "ja": "大学生活では，それ以前の学校生活とは違った困難が待ち受けている。"
+              },
+              {
+                "id": "ar_s7",
+                "en": "You are now in a place full of unfamiliar faces, and you want to fit in.",
+                "ja": "あなたは今，見知らぬ顔ぶれでいっぱいの場所にいて，そこに溶け込みたいと思う。"
+              },
+              {
+                "id": "ar_s8",
+                "en": "It teaches us how to socialize and form our own opinions.",
+                "ja": "それは人付き合いの仕方や，自分の意見を形成する方法を教えてくれる。"
+              },
+              {
+                "id": "ar_s9",
+                "en": "In college, students learn to exercise free will and become more confident and composed.",
+                "ja": "大学では，学生は自由意志を行使することを学び，より大きな自信と落ち着きを持つようになる。"
+              }
+            ],
+            [
+              {
+                "id": "ar_s10",
+                "en": "In high school, we were always dependent on our friends or teachers.",
+                "ja": "高校では，私たちはいつも友人や先生に頼っていた。"
+              },
+              {
+                "id": "ar_s11",
+                "en": "College life teaches us to be independent.",
+                "ja": "大学生活は私たちに自立することを教えてくれる。"
+              },
+              {
+                "id": "ar_s12",
+                "en": "It makes us stronger and teaches us to fight our own battles.",
+                "ja": "それは私たちをより強くし，自分自身で戦うことを教えてくれる。"
+              },
+              {
+                "id": "ar_s13",
+                "en": "It also helps us take our careers seriously.",
+                "ja": "また，自分のキャリアを真剣に考えることを助けてくれる。"
+              },
+              {
+                "id": "ar_s14",
+                "en": "We make decisions that affect our future all by ourselves, whereas in school our parents did it for us.",
+                "ja": "学校時代には親がやってくれていたが，私たちは自分の将来に影響する決断を自ら下す。"
+              }
+            ],
+            [
+              {
+                "id": "ar_s15",
+                "en": "Also, studying in college is an exciting journey that opens up a world of knowledge and opportunity, but classes are more specialized and challenging than in high school.",
+                "ja": "加えて，大学での勉強は知識とチャンスの世界を広げるわくわくするような旅だが，授業は高校よりもより専門的で難しい。"
+              },
+              {
+                "id": "ar_s16",
+                "en": "They are harder, readings are longer, and we must learn to study efficiently and manage our time.",
+                "ja": "授業はより難しく，読むべきものはより長くなり，効率的に勉強し，時間を管理することを学ばなければならない。"
+              }
+            ],
+            [
+              {
+                "id": "ar_s17",
+                "en": "The key to a successful transition from high school to college is learning to take more responsibility for yourself and your successes.",
+                "ja": "高校から大学への移行を成功させる鍵は，自分自身と自分の成功に，より責任を持つことを学ぶことである。"
+              },
+              {
+                "id": "ar_s18",
+                "en": "Students who do their best to improve their study skills, manage their time wisely, and make connections with others are more likely to do better in college than those who don't.",
+                "ja": "勉強のスキルを向上させ，時間を賢く管理し，人とのつながりを作るために最善を尽くす学生は，そうでない学生よりも大学で良い結果を出す可能性が高い。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "survey",
+          "title": {
+            "en": "Results of the Questionnaire",
+            "ja": "アンケート結果"
+          },
+          "graph_image": {
+            "src": "images/q05_pie_chart.png",
+            "alt": "Q1: 大学で最も準備不足だった側面の円グラフ（Academic 49%, Social 19%, Life Balance 17%, Financial 14%, No answer 1%）",
+            "after_paragraph": 1
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "sv_s1",
+                "en": "Q1: What aspects of college were you least prepared for?",
+                "ja": "Q1：あなたが最も備えができていなかったのは，大学のどの点ですか。"
+              }
+            ],
+            [
+              {
+                "id": "sv_s2",
+                "en": "Q2: What were the difficulties or problems you had when you started college?",
+                "ja": "Q2：大学入学時に苦労したことや困ったことは何ですか。"
+              }
+            ],
+            [
+              {
+                "id": "sv_s3",
+                "en": "Main comments:",
+                "ja": "主なコメント："
+              }
+            ],
+            [
+              {
+                "id": "sv_s1c",
+                "en": "Student 1 (S1): I found it was impossible to succeed in college without doing a lot of studying. I took all my classes online, but I was still surprised at the amount of studying I had to do.",
+                "ja": "学生1（S1）：たくさん勉強をしなければ大学で成功することは不可能だとわかった。すべての授業をオンラインで受講したが，それでも必要な勉強量の多さに驚いた。"
+              }
+            ],
+            [
+              {
+                "id": "sv_s2c",
+                "en": "S2: I had full control of my money, and I was not able to manage it well. No one had ever really explained to me how to manage my own money.",
+                "ja": "S2：私は自分のお金をすべてコントロールしていたが，うまく管理することができなかった。自分のお金の管理について，今まで誰からもきちんと説明を受けたことがなかった。"
+              }
+            ],
+            [
+              {
+                "id": "sv_s3c",
+                "en": "S3: I didn't think the homesickness would be as bad as it was, but it was really hard the first semester.",
+                "ja": "S3：ホームシックがこれほどひどいとは思わなかったが，最初の学期は本当につらかった。"
+              }
+            ],
+            [
+              {
+                "id": "sv_s4c",
+                "en": "S4: In high school, enjoying a social life without neglecting academic work was never a problem for me but I struggled with it in the first few months of college.",
+                "ja": "S4：高校の時は，学業をおろそかにしないで社会生活を楽しむことは自分にはまったく問題がなかったけれど，大学の最初の数ヵ月はそうするのに苦労した。"
+              }
+            ],
+            [
+              {
+                "id": "sv_s5c",
+                "en": "S5: My study habits from high school weren't working. I was used to being the smartest in my class, and now I was struggling to be even average.",
+                "ja": "S5：私の高校時代の勉強習慣はうまく機能しなかった。クラスで一番頭がいいことに慣れていたのに，今は平均的な成績でさえ取るのに必死だった。"
+              }
+            ],
+            [
+              {
+                "id": "sv_s6c",
+                "en": "S6: It took me a while to find people I felt comfortable with. I felt alone and didn't have the support I had had in high school.",
+                "ja": "S6：気の合う仲間を見つけるのに時間がかかった。孤独を感じたし，高校時代のようなサポートはなかった。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "handout",
+          "title": {
+            "en": "Advice for Incoming Students",
+            "ja": "新入生へのアドバイス"
+          },
+          "lead_text": {
+            "en": "Your handout:",
+            "ja": "あなたのプリント："
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "h_s1",
+                "en": "■ College Life for Us",
+                "ja": "■私たちにとっての大学生活"
+              }
+            ],
+            [
+              {
+                "id": "h_s2",
+                "en": "– One of the most memorable times in our life",
+                "ja": "－人生で最も忘れられない時の1つ"
+              }
+            ],
+            [
+              {
+                "id": "h_s3",
+                "en": "– The transition from high school to college: a stage full of a mix of [18]",
+                "ja": "－高校から大学への移行：[18]が入り混じった段階"
+              }
+            ],
+            [
+              {
+                "id": "h_s4",
+                "en": "■ What We Should Learn from College Life",
+                "ja": "■大学生活で学ぶべきこと"
+              }
+            ],
+            [
+              {
+                "id": "h_s5",
+                "en": "[19]",
+                "ja": "[19]"
+              }
+            ],
+            [
+              {
+                "id": "h_s6",
+                "en": "A. How to be independent and become stronger.",
+                "ja": "A. 自立して強くなる方法。"
+              }
+            ],
+            [
+              {
+                "id": "h_s7",
+                "en": "B. How to socialize and come up with our own opinions.",
+                "ja": "B. 社会性を身につけ，自分の意見を持つ方法。"
+              }
+            ],
+            [
+              {
+                "id": "h_s8",
+                "en": "C. To listen to friends' advice on important matters.",
+                "ja": "C. 重要な事柄について友人のアドバイスを聞くこと。"
+              }
+            ],
+            [
+              {
+                "id": "h_s9",
+                "en": "D. To study efficiently and manage our time.",
+                "ja": "D. 効率よく勉強し，時間を管理すること。"
+              }
+            ],
+            [
+              {
+                "id": "h_s10",
+                "en": "E. To think seriously about our careers.",
+                "ja": "E. 自分のキャリアについて真剣に考えること。"
+              }
+            ],
+            [
+              {
+                "id": "h_s11",
+                "en": "■ Aspects of College for Which Current Students Were Least Prepared",
+                "ja": "■在校生が最も準備不足であった大学の側面"
+              }
+            ],
+            [
+              {
+                "id": "h_s12",
+                "en": "– The share of students who chose the academic aspect was [20] the combined share of students who chose the other three aspects (excluding \"No answer\").",
+                "ja": "－学業面を選んだ学生の割合は，他の3つの側面（「回答なし」を除く）を選んだ学生の割合の合計[20]。"
+              }
+            ],
+            [
+              {
+                "id": "h_s13",
+                "en": "■ Points to Mention Based on Comments from Current Students",
+                "ja": "■在学生のコメントから触れておくべき点"
+              }
+            ],
+            [
+              {
+                "id": "h_s14",
+                "en": "– As [21]'s comment shows, many current students felt that their [22] didn't work well in college. I'll give new students some tips on how to improve their study skills.",
+                "ja": "－[21]のコメントにあるように，在校生の多くは彼らの[22]は大学でうまく機能しなかったと感じた。新入生には勉強のスキルを向上させるコツを教えるつもりだ。"
+              }
+            ],
+            [
+              {
+                "id": "h_s15",
+                "en": "– As the graph shows, 17% of current students, including [23], found it difficult to manage their time regarding their studies and social life. While college offers many exciting social and academic opportunities, it can be a challenge to do everything at the same time especially for new students.",
+                "ja": "－グラフが示すように，[23]を含む在学生の17%が，勉強と社会生活の時間を管理するのが難しいと感じていた。大学には多くのわくわくするような社会的，学業的な機会があるが，特に新入生にとっては，すべてを同時にこなすのは大変なことだ。"
+              }
+            ],
+            [
+              {
+                "id": "h_s16",
+                "en": "– It's not surprising some college students struggle with money management. I would suggest that sticking to a budget helps students keep track of their spending.",
+                "ja": "－お金の管理で苦労する大学生がいるのは驚くことではない。予算を立てることで，学生が自分の支出を把握するのに役立つと伝えたい。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 18,
+          "stem": {
+            "en": "Choose the best option for [18].",
+            "ja": "「[18]に入る最も適切な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "depression, frustration, and hope",
+              "ja": "愛うつ，いらだち，希望",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "excitement, expectation, and difficulty",
+              "ja": "興奮，期待，困難",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "expectation, satisfaction, and fear",
+              "ja": "期待，満足，不安",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "surprise, loneliness, and thrills",
+              "ja": "驚き，孤独，スリル",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。a stage full of a mix of ... は「…が入り混じった段階」という意味。記事の第1段落第2文（However, the transition ...）に「高校から大学への移行は大きなものであり，興奮と期待，そしてもちろんそれなりの困難が入り混じった段階であり，誰にとっても容易なことであるわけではない」とあり，②を入れると「興奮，期待，そして困難が入り混じった段階」となり，本文の内容に一致する。②の expectation「期待」と difficulty「困難」は記事の第1段落第2文中の anticipation, challenges とそれぞれ同義。\n①の depression「憂うつ」と frustration「いらだち」，③の satisfaction「満足」と fear「不安」，④の surprise「驚き」, loneliness「孤独」などについては言及されていない。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "ar_s2"
+            ],
+            "instructor_note": {
+              "ja": "配布資料の空欄を記事の情報で埋める問題。ar_s2 の excitement, anticipation, challenges が②の excitement, expectation, difficulty の言い換え。",
+              "points": [
+                "②が正解: ar_s2 の a mix of excitement, anticipation, and ... a fair share of challenges の3語が②の excitement, expectation, difficulty にそれぞれ対応。anticipation = expectation, challenges = difficulty の同義語変換。",
+                "①の罠: depression, frustration は ar_s2 に言及なし。記事はネガティブ一辺倒ではなく excitement も含む。",
+                "③の罠: satisfaction は記事に言及なし。fear も ar_s2 の challenges とは異なる概念。",
+                "④の罠: surprise, loneliness, thrills いずれも ar_s2 に対応する語がない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 19,
+          "stem": {
+            "en": "You are checking the handout. You notice an error in What We Should Learn from College Life. Which of the following should you remove? [19]",
+            "ja": "「あなたはプリントをチェックしている。あなたは『大学生活で学ぶべきこと』の部分に1つ間違いを見つけた。どれを取り除くべきか」[19]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。記事の中に言及がないのはCのみ。他の選択肢の言及箇所は以下の通り。\nA：第3段落第2文（College life teaches ...）「大学生活は私たちに自立することを教えてくれる。それは私たちをより強くし，…」\nB：第2段落第3文（It teaches us ...）「（大学生活では）人付き合いの仕方や，自分の意見を形成する方法を教えてくれる」\nD：第4段落第2文（They are harder, ...）「（大学生活においては）効率的に勉強し，時間を管理することを学ばなければならない」\nE：第3段落第4文（It also helps ...）「（大学生活においては）自分のキャリアを真剣に考えることを助けてくれる」",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "ar_s11",
+              "ar_s8",
+              "ar_s16",
+              "ar_s13"
+            ],
+            "instructor_note": {
+              "ja": "配布資料の誤りを記事と照合して特定する問題。A〜Eの各項目が記事のどの文に対応するかを確認し、対応がないCを除外する。",
+              "points": [
+                "③(C)が正解: C「重要な事柄について友人のアドバイスを聞くこと」は記事に言及なし。むしろ ar_s11 で independent（自立）, ar_s14 で all by ourselves（自分で決断）と述べており、友人に頼る方向とは逆。",
+                "A: ar_s11 の teaches us to be independent + ar_s12 の makes us stronger に対応。",
+                "B: ar_s8 の teaches us how to socialize and form our own opinions に対応。",
+                "D: ar_s16 の study efficiently and manage our time に対応。",
+                "E: ar_s13 の helps us take our careers seriously に対応。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 20,
+          "stem": {
+            "en": "Choose the best option for [20].",
+            "ja": "「[20]に入る最も適切な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "exactly the same as",
+              "ja": "…とまったく同じである",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "considerably lower than",
+              "ja": "…よりかなり低い",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "hardly any different from",
+              "ja": "…とほとんど変わらない",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "slightly higher than",
+              "ja": "…をわずかに上回る",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。アンケート結果のQ1のグラフを見ると，the academic aspect（学業面で準備が足りなかったと答えた学生）の割合は49%であり，他の3つの側面（金銭，生活バランス，人付き合い）の割合は3つ合わせて50%である。49%と50%はそれほど差がないので，「学業面を選んだ学生の割合は，他の3つの側面（「回答なし」を除く）を選んだ学生の割合の合計」という文の[20]に入るのは③。\n49%と50%は「まったく同じである」とは言えないので①は誤り。49%は50%より「かなり低い」とも「上回る」とも言えないので②，④も誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "sv_s1"
+            ],
+            "instructor_note": {
+              "ja": "円グラフの読み取り問題。Academic 49% vs 他3項目合計(19+17+14=50%)の比較。49%≒50%で「ほとんど変わらない」。",
+              "points": [
+                "③が正解: Academic=49%, Social+Life Balance+Financial=19+17+14=50%。差はわずか1%で hardly any different from が最適。",
+                "①の罠: 49%と50%は exactly the same（まったく同じ）ではない。1%の差がある。",
+                "②の罠: 49%は50%より considerably lower（かなり低い）とは言えない。差はわずか1%。",
+                "④の罠: 49%は50%より slightly higher（わずかに高い）ではなく、むしろわずかに低い。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 21,
+          "question_type": "multi_answer",
+          "answer_numbers": [
+            21,
+            22
+          ],
+          "stem": {
+            "en": "Choose the best options for [21] and [22].",
+            "ja": "「[21]と[22]に入る最も適切な選択肢を選びなさい」"
+          },
+          "answer_slots": {
+            "21": "⑤",
+            "22": "②"
+          },
+          "choices_21": [
+            {
+              "label": "①",
+              "en": "S1",
+              "ja": "S1",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "S2",
+              "ja": "S2",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "S3",
+              "ja": "S3",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "S4",
+              "ja": "S4",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "S5",
+              "ja": "S5",
+              "is_correct": true
+            },
+            {
+              "label": "⑥",
+              "en": "S6",
+              "ja": "S6",
+              "is_correct": false
+            }
+          ],
+          "choices_22": [
+            {
+              "label": "①",
+              "en": "admissions preparation",
+              "ja": "入学準備",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "previous study styles",
+              "ja": "以前の勉強の仕方",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "social and academic opportunities",
+              "ja": "社会的そして学業的機会",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "ways of interacting with people",
+              "ja": "人付き合いの仕方",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "21": "⑤",
+            "22": "②"
+          },
+          "points_per_slot": 2,
+          "explanation": {
+            "quoted_ja": "正解は[21]が⑤，[22]が②。\n最初に[22]に入る表現を考えるとよい。この空欄が含まれる部分は「[22]は大学でうまく機能しなかったと感じた。新入生には勉強のスキルを向上させるコツを教えるつもりだ」という意味であることから，[22]には何か勉強に関連してうまく機能しない物事が入ると考えられる。そして，アンケート結果のQ2のS5のコメントには「私の高校時代の勉強習慣はうまく機能しなかった」とあることから，[22]に入るのは②「以前の勉強の仕方」が適切。そして，[21]に入るのはこのコメントを言った学生なので⑤S5が正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "sv_s5c"
+            ],
+            "instructor_note": {
+              "ja": "配布資料の2つの空欄を同時に埋める問題。[22]から先に解くのがコツ。h_s14 の didn't work well in college が sv_s5c の weren't working の言い換え。",
+              "points": [
+                "[22]=②: h_s14 の their [22] didn't work well in college の文脈から勉強関連。sv_s5c の My study habits from high school weren't working が②previous study styles に対応。",
+                "[21]=⑤: [22]の根拠コメントがS5なので[21]=⑤。h_s14 の As [21]'s comment shows は情報源の学生を指す。",
+                "解法テクニック: 2空欄問題は片方から絞る。[22]の文脈（勉強スキル向上のコツ）から②を特定→コメント主S5で[21]=⑤。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 23,
+          "stem": {
+            "en": "Choose the best option for [23].",
+            "ja": "「[23]に入る最も適切な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "S1",
+              "ja": "S1",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "S2",
+              "ja": "S2",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "S3",
+              "ja": "S3",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "S4",
+              "ja": "S4",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "S5",
+              "ja": "S5",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "S6",
+              "ja": "S6",
+              "is_correct": false
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。[23]はアンケート結果のグラフの17%に含まれる学生なので，「生活バランス」に悩みを抱えている学生である。アンケート結果のQ2で社会生活と学業のバランスについてコメントしているのはS4なので，④が正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "sv_s4c"
+            ],
+            "instructor_note": {
+              "ja": "グラフとコメントを結びつける問題。h_s15 の 17% = Life Balance(17%)。S4が社会生活と学業のバランスに言及。",
+              "points": [
+                "④が正解: h_s15 の 17% of current students は円グラフの Life Balance 17%。sv_s4c の enjoying a social life without neglecting academic work = 社会生活と学業のバランス。",
+                "他の選択肢: S1/S5は学業(Academic 49%), S2は金銭(Financial 14%), S3/S6は人付き合い(Social 19%)に該当。Life Balanceに該当するのはS4のみ。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "記事・アンケート・配布資料",
+          "items": [
+            {
+              "en": "current",
+              "ja": "現在の"
+            },
+            {
+              "en": "transition",
+              "ja": "移行"
+            },
+            {
+              "en": "memorable",
+              "ja": "記憶に残る；印象的な"
+            },
+            {
+              "en": "phase",
+              "ja": "段階；局面"
+            },
+            {
+              "en": "a mix of ...",
+              "ja": "…が入り混じったもの"
+            },
+            {
+              "en": "anticipation",
+              "ja": "期待"
+            },
+            {
+              "en": "fair",
+              "ja": "かなりの"
+            },
+            {
+              "en": "present",
+              "ja": "引き起こす"
+            },
+            {
+              "en": "fit in",
+              "ja": "適応する；なじむ"
+            },
+            {
+              "en": "socialize",
+              "ja": "人付き合いする"
+            },
+            {
+              "en": "form",
+              "ja": "形成する"
+            },
+            {
+              "en": "composed",
+              "ja": "落ち着いた"
+            },
+            {
+              "en": "whereas",
+              "ja": "一方で"
+            },
+            {
+              "en": "specialized",
+              "ja": "専門化した"
+            },
+            {
+              "en": "make a connection with ...",
+              "ja": "…と関わりを持つ"
+            },
+            {
+              "en": "aspect",
+              "ja": "側面"
+            },
+            {
+              "en": "academic",
+              "ja": "学業の"
+            },
+            {
+              "en": "homesickness",
+              "ja": "ホームシック"
+            },
+            {
+              "en": "semester",
+              "ja": "学期"
+            },
+            {
+              "en": "struggle with ...",
+              "ja": "…に苦労する"
+            },
+            {
+              "en": "incoming",
+              "ja": "入って来る；次期の"
+            },
+            {
+              "en": "combined",
+              "ja": "合計した"
+            },
+            {
+              "en": "tip",
+              "ja": "ヒント；コツ"
+            },
+            {
+              "en": "stick to ...",
+              "ja": "…から離れない；…を守る"
+            },
+            {
+              "en": "budget",
+              "ja": "予算"
+            },
+            {
+              "en": "keep track of ...",
+              "ja": "…の経過を追う；…の記録をつける"
+            },
+            {
+              "en": "spending",
+              "ja": "支出；出費"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 12,
+      "description": "物語文「More Than a Maths Problem」＋ Your notes（プレゼン準備）",
+      "situation": {
+        "en": "Your English teacher has asked you and your classmates to search for a story that moved you and to present it to younger students, using notes. You have found a story written by a college student in the UK.",
+        "ja": "あなたとクラスメートは、自分が感動した話を探して、メモを使ってそれを年下の生徒に発表するよう英語の先生に求められました。あなたはイギリスの大学生が書いた話を見つけました。"
+      },
+      "passages": [
+        {
+          "id": "main_story",
+          "title": {
+            "en": "More Than a Maths Problem",
+            "ja": "数学の問題を越えて"
+          },
+          "byline": {
+            "en": "Ewan Stones",
+            "ja": "ユーアン・ストーンズ"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "I stared at the blank space on the page in the maths textbook.",
+                "ja": "私は数学の教科書のページの空所を見つめた。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "I had been looking at it for two hours already.",
+                "ja": "もう2時間もそれを見ていた。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "My maths teacher, Ms Burns, would shout at me again.",
+                "ja": "数学のバーンズ先生は、また私のことを怒鳴るだろう。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "I’d always struggled with maths, getting low scores during primary school.",
+                "ja": "私はずっと数学で苦労してきて、小学校の間成績が悪かった。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "My homeroom teacher, Mr Canning, said “Why do you think maths is so complicated?”",
+                "ja": "担任のキャニング先生は「どうして数学をそんなに難しく考えるんだい」と言った。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "“I can’t do maths,” I replied.",
+                "ja": "「数学はできないんです」と私は答えた。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "“Remember your talents. You’re creative, but you freeze when something is hard. Look at maths another way,” Mr Canning said.",
+                "ja": "「君の才能のことを思い出してごらん。君には創造力があるのに、何か難しいことがあると何もできなくなってしまうんだ。数学を違った風に見てごらん」とキャニング先生は言った。"
+              },
+              {
+                "id": "p2_s5",
+                "en": "“Like thinking of maths problems in terms of stories, perhaps?” I suggested.",
+                "ja": "「ひょっとして、数学の問題をストーリーと絡めて考えるとか、ですか」と私は聞いてみた。"
+              },
+              {
+                "id": "p2_s6",
+                "en": "“Exactly! Try it,” he said.",
+                "ja": "「その通りだよ！ やってごらん」と彼は言った。"
+              },
+              {
+                "id": "p2_s7",
+                "en": "It helped.",
+                "ja": "これは役に立った。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "When my parents divorced, my mum and I moved, and I changed schools.",
+                "ja": "両親が離婚したとき、母と私は引っ越し、私は転校した。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "Another kid, Billy, joined my class at the same time, and we became close.",
+                "ja": "もう1人のビリーという子が同時に私のクラスに入り、私たちは仲良くなった。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "Mostly, I had no issues, but that was not true in maths class.",
+                "ja": "大体において何も問題なかったが、数学の授業については違った。"
+              },
+              {
+                "id": "p3_s4",
+                "en": "The textbook was the one I’d used previously, but the pace of the class was too fast for me, and I felt clueless.",
+                "ja": "教科書は以前に使っていたのと同じだったが、授業の進度が私には速過ぎて戸惑うばかりだった。"
+              },
+              {
+                "id": "p3_s5",
+                "en": "My scary maths teacher, Ms Burns, was constantly yelling at me.",
+                "ja": "数学の怖いバーンズ先生は、絶えず私を怒鳴りつけた。"
+              },
+              {
+                "id": "p3_s6",
+                "en": "The less I understood, the more stressed I got.",
+                "ja": "わからなくなるにつれて、私のストレスが増えていった。"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "One night, the homework was horrible.",
+                "ja": "ある夜のこと、宿題が恐ろしく難しかった。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "After I stared at the page for ages, my mum entered my room and asked why I hadn’t written anything.",
+                "ja": "ページを長いこと見つめていたところ、母が部屋に入って来てなぜ私が何も書いていないのかと尋ねた。"
+              },
+              {
+                "id": "p4_s3",
+                "en": "I started crying out of frustration.",
+                "ja": "私は挫折感から泣き出した。"
+              },
+              {
+                "id": "p4_s4",
+                "en": "My mum said, “Take some deep breaths, and then tell me what’s wrong.”",
+                "ja": "母は「深呼吸してからどうしたのか話してごらんなさい」と言った。"
+              },
+              {
+                "id": "p4_s5",
+                "en": "She brought some tea, we chatted, and I soon felt better.",
+                "ja": "母は紅茶を持って来てくれて、2人でおしゃべりをしているうちに気が晴れてきた。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "The next day, my mum, angry with Ms Burns for upsetting me, came to school and complained to her.",
+                "ja": "翌日、私を取り乱させたバーンズ先生に腹を立てた母は、学校に乗り込んで来て彼女に文句を言った。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "Ms Burns looked shocked.",
+                "ja": "バーンズ先生はショックを受けていたようだった。"
+              },
+              {
+                "id": "p5_s3",
+                "en": "“When I asked why you hadn’t done your homework,” she said, “I genuinely thought you were just being lazy.”",
+                "ja": "「なぜ宿題をしていないのと私が訊いたとき、あなたは怠け者なんだとばかり思っていたのよ」と彼女は言った。"
+              },
+              {
+                "id": "p5_s4",
+                "en": "I realised that I froze whenever I panicked.",
+                "ja": "私は、自分がパニックを起こすといつも何もできなくなってしまうのだとわかった。"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "Things immediately changed.",
+                "ja": "事態は途端に変わった。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "Ms Burns patiently helped me in class.",
+                "ja": "バーンズ先生は授業中、辛抱強く私の手助けをしてくれた。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "I felt foolish for not having said, “Excuse me, but I can’t understand this.”",
+                "ja": "「すみませんが、これがわからないんです」と言わずにいたのは愚かだったと私は感じた。"
+              },
+              {
+                "id": "p6_s4",
+                "en": "She taught me to relate problems to real life and encouraged me to speak out when feeling stuck.",
+                "ja": "彼女は私に問題と実生活を関連付けるよう教えてくれ、行き詰っていると感じたときには遠慮なくそう言うよう励ましてくれた。"
+              },
+              {
+                "id": "p6_s5",
+                "en": "Though letting someone know when I was struggling was hard for me, I began to find the courage to ask for assistance when I needed it and was soon glad I did.",
+                "ja": "苦しいときに誰かにそれを知らせることは私にとって難しかったが、助けが必要なときにそれを求める勇気を私は持つようになり、やがてそうすることを楽しむようになった。"
+              }
+            ],
+            [
+              {
+                "id": "p7_s1",
+                "en": "On entering secondary school, I was still not great at maths, but I managed.",
+                "ja": "中学に入ったとき、私はやはり数学が得意ではないものの、どうにかこなしていた。"
+              },
+              {
+                "id": "p7_s2",
+                "en": "Schoolwork became more challenging, and my mate Billy always joked, “You get so upset when you’re in trouble that your common sense disappears! Relax!”",
+                "ja": "学校の勉強はさらに難しくなったが、仲間のビリーはいつも「困ったとき君は取り乱してしまって、常識がどっかに行ってしまうんだよ！ 肩の力を抜けよ！」と冗談を言った。"
+              },
+              {
+                "id": "p7_s3",
+                "en": "He’d cheer me up by showing me funny animal videos or something.",
+                "ja": "彼はおかしな動物のビデオやら何やらを見せて私を元気づけてくれるのだった。"
+              }
+            ],
+            [
+              {
+                "id": "p8_s1",
+                "en": "After a particularly tough day, I just decided to act silly with my friends and did a funny walk along a corridor full of pupils.",
+                "ja": "とりわけ大変だったある日の終わりに、私はふと友人たちに向かって馬鹿の真似をしてみる気になり、生徒のあふれる廊下でおかしな歩き方をした。"
+              },
+              {
+                "id": "p8_s2",
+                "en": "Billy, wide-eyed, said “That was unlike you!”",
+                "ja": "ビリーは目を見張って「君らしくなかったじゃないか！」と言った。"
+              },
+              {
+                "id": "p8_s3",
+                "en": "We laughed, and it felt liberating, and this small thing erased the day’s pressure instantly.",
+                "ja": "我々は大笑いして気が晴れたように感じ、この小さな出来事で1日の重圧がたちまち消えてなくなった。"
+              }
+            ],
+            [
+              {
+                "id": "p9_s1",
+                "en": "I’m studying journalism at university now.",
+                "ja": "私は今、大学でジャーナリズムを学んでいる。"
+              },
+              {
+                "id": "p9_s2",
+                "en": "I met Billy for coffee recently, and he praised my imagination, saying “Remember when we made up ghost stories on the school camping trip? Many kids begged to hear more spooky tales.”",
+                "ja": "最近ビリーと会ってコーヒーを飲んだが、彼は私の想像力をほめて、「学校のキャンプ旅行で幽霊の話をでっちあげたのを覚えているかい。気味の悪い話をもっと聞かせてくれってねだる子ばっかりだった」と言った。"
+              },
+              {
+                "id": "p9_s3",
+                "en": "I now realise I spent a lot of my school days worrying so much about what I was poor at that I often missed praise that told me where my talents lay.",
+                "ja": "こうして私はわかったのだが、学校での日々の多くを苦手なことについて気に病んで過ごしたあまり、自分の才能のありかを教えてくれるほめ言葉が耳に入らないことが多かったのだ。"
+              },
+              {
+                "id": "p9_s4",
+                "en": "It also wasn’t until I entered university that I properly grasped the worth of taking rests from time to time.",
+                "ja": "これもようやく大学に入ってからのことなのだが、時機を見計らって休憩すると良いことが正しく理解できた。"
+              },
+              {
+                "id": "p9_s5",
+                "en": "I’m entering a university diving competition next month.",
+                "ja": "来月には大学のダイビング競技会に出るつもりだ。"
+              },
+              {
+                "id": "p9_s6",
+                "en": "I’m a terrible diver, but who cares?",
+                "ja": "私はダイビングがとても下手なのだが、誰が構うものか。"
+              },
+              {
+                "id": "p9_s7",
+                "en": "It’s fun!",
+                "ja": "楽しいのだから！"
+              },
+              {
+                "id": "p9_s8",
+                "en": "I can’t be good at everything!",
+                "ja": "何でもかんでも上手になんかなれやしないさ！"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "story_notes",
+          "presentation_outline": {
+            "label_outside_box": {
+              "en": "Your notes:",
+              "ja": "あなたのメモ："
+            },
+            "title": {
+              "en": "More Than a Maths Problem",
+              "ja": "数学の問題を越えて"
+            },
+            "blocks": [
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "About the Author (Ewan Stones)",
+                  "ja": "著者（ユーアン・ストーンズ）について"
+                },
+                "bullets": [
+                  {
+                    "en": "Did poorly in maths in primary school.",
+                    "ja": "小学校で数学が苦手だった。"
+                  },
+                  {
+                    "en": "Performed even worse in maths at his new school because his class was hard to keep up with.",
+                    "ja": "新しい学校では彼の受けている授業はついていくのが難しかったため、さらに数学の出来が悪くなった。"
+                  }
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "Other Key People",
+                  "ja": "他の重要人物"
+                },
+                "bullets": [
+                  {
+                    "en": "Mr Canning and Ms Burns: Two of Ewan’s teachers who suggested he change his approach to study.",
+                    "ja": "キャニングさんとバーンズさん：ユーアンに勉強法を変えるよう勧めた2人の先生。"
+                  },
+                  {
+                    "en": "Ewan’s mother: Helped Ewan calm down.",
+                    "ja": "ユーアンの母親：ユーアンが落ち着くよう手助けした。"
+                  },
+                  {
+                    "en": "Billy: Ewan’s friend, who [24].",
+                    "ja": "ビリー：ユーアンの友人で[24]。"
+                  }
+                ]
+              },
+              {
+                "type": "story_outline",
+                "heading": {
+                  "en": "Meaningful Experiences That Helped Ewan Cope With Stress",
+                  "ja": "ユーアンがストレスに対処するのに役立った意義深い経験"
+                },
+                "lead_en": "Got unimpressive maths scores",
+                "lead_ja": "数学で感心しない成績を取った",
+                "sequential_slots": [
+                  25,
+                  26,
+                  27,
+                  28
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "What Ewan Discovered After a Recent Conversation With Billy",
+                  "ja": "ユーアンがビリーとの最近の会話の後で気づいたこと"
+                },
+                "bullets": [
+                  {
+                    "en": "He frequently [29].",
+                    "ja": "彼はよく[29]。"
+                  }
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "What We Can Learn From This Story",
+                  "ja": "我々がこの話から学べること"
+                },
+                "bullets": [
+                  {
+                    "en": "[30]",
+                    "ja": "[30]"
+                  },
+                  {
+                    "en": "[31]",
+                    "ja": "[31]"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 24,
+          "stem": {
+            "en": "Choose the best option for [24].",
+            "ja": "「[24]に最も適した選択肢を選べ」（Notes 内『他の重要人物 — Billy: Ewan’s friend, who [24].』）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "acted like a clown and cared little about his grades",
+              "ja": "道化のように振舞い、自分の成績をほとんど気に掛けなかった",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "expressed his concerns to somebody",
+              "ja": "ある人に自分の心配事を打ち明けた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "tried to include Ewan in activities with other students",
+              "ja": "他の生徒と共に行う活動にユーアンを誘い込もうとした",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "wanted him to stop panicking so easily",
+              "ja": "彼がすぐパニックになるのをやめさせたいと思った",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第7段落第2文（Schoolwork became more ...）〜最終文（He'd cheer me ...）の「困ったとき君は取り乱してしまって、常識がどっかに行ってしまうんだよ！ 肩の力を抜けよ！」という言葉や「彼は…私を元気づけてくれるのだった」という記述から、パニックを起こしやすいという筆者の弱点はビリーは理解しており、それが克服されることを望んでいたことがうかがわれる。他の選択肢はいずれも本文中に見られない内容であり、不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p7_s2",
+              "p7_s3"
+            ],
+            "instructor_note": {
+              "ja": "Notes 内『Billy: Ewan’s friend, who [24].』の空所は、ビリーが筆者にとってどんな存在だったかを 1 文で要約する。ビリーの登場場面（p3_s2 / p7_s2〜p7_s3 / p8_s1〜p8_s2 / p9_s2）から、共通する特徴は『ユーアンが取り乱したときに肩の力を抜くよう促す存在』。選択肢ごとに本文との対応を一文単位で照合する。",
+              "points": [
+                "④の根拠: p7_s2 'You get so upset when you’re in trouble that your common sense disappears! Relax!' = ビリーは『簡単にパニックになる癖』を冗談半分で指摘し、p7_s3 で動画を見せて元気づけている → パニックをやめさせたい意図が明確。",
+                "①の罠 (p8_s1, p9_s2 と無関係): 廊下で道化を演じたのはユーアン自身（p8_s1）。ビリーは『That was unlike you!』(p8_s2) と驚いており、ビリー自身が『道化のように振舞う』記述はない。成績への無関心の記述も本文にない。",
+                "②の罠 (p7_s2, p7_s3 と無関係): ビリーが『誰かに心配事を打ち明けた』場面は本文に存在しない。ビリーは聞き役・励まし役で、p9_s2 で『ユーアンの想像力をほめる』のみ。",
+                "③の罠 (p3_s2 の誤読): p3_s2 で『became close』とあるが、ビリーが他の生徒との活動にユーアンを誘った具体的場面は本文にない。",
+                "テクニック (p7_s2, p7_s3 が好例): Notes の人物紹介 1 文を埋める設問は『その人物が出てくる全段落を一覧化』して共通テーマを抽出する。ここではビリーは登場 4 回いずれも『ユーアンの精神的緊張を和らげる役』で一貫している。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "question_type": "ordering",
+          "answer_sequence": [
+            "⑤",
+            "②",
+            "③",
+            "①"
+          ],
+          "answer_numbers": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "stem": {
+            "en": "Choose four out of the five events (①∼⑤) and rearrange them in the order they happened. [25]→[26]→[27]→[28]",
+            "ja": "「5つの出来事（①〜⑤）のうち4つを選び、起きた順に並べ替えよ」[25]→[26]→[27]→[28]（Notes 内『ストレス対処に役立った意義深い経験』）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "appreciated that taking occasional breaks was helpful",
+              "ja": "ときどき休憩するのが助けになると正しく理解した",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "became aware that he couldn’t speak up in times of trouble",
+              "ja": "自分は困ったときにはっきりそう言えないことに気づいた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "fooled around in front of his friends",
+              "ja": "友人たちの前でふざけた",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "made more effort to tackle problems positively",
+              "ja": "問題に前向きに取り組むべくさらに努力した",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "was advised to make use of his creativity",
+              "ja": "自分の創造力を利用するよう助言を受けた",
+              "is_correct": true
+            }
+          ],
+          "answer": {
+            "25": "⑤",
+            "26": "②",
+            "27": "③",
+            "28": "①"
+          },
+          "answer_note": "全部正解で3点（4スロット全て正解が必要）",
+          "explanation": {
+            "quoted_ja": "正解は⑤→②→③→①。まず、第2段落第4文（“Remember your talents.”）〜第6文（Look at maths ...）の「Remember your talents.（君の才能を思い出してごらん）」、「You're creative（君には創造力がある）」、「Look at maths another way.（数学を違った風に見てごらん）」とあるように、転校する前の小学校で担任のキャニング先生に「君の才能を思い出してごらん。君には創造力がある」、「数学を違った風に見てごらん」という助言を受けており、[25]に⑤が入る。次に第5段落最終文（I realised that ...）に、転校先のバーンズ先生との対話を通じて「自分がパニックを起こすと何もできなくなってしまうのだとわかった」とあるので、[26]に②が入る。第8段落第1文（After a particularly ...）に書かれている、中学校での「生徒のあふれる廊下でおかしな歩き方をした」が③に当たり、これが[27]に入る。最後に最終段落第5文（It also wasn't ...）に書かれているように、大学入学後に「時機を見計らって休憩すると良いことが正しく理解できた」ので、[28]には①が入る。④に当たる特定の出来事は本文中に見られない。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p2_s4",
+              "p5_s4",
+              "p8_s1",
+              "p9_s4"
+            ],
+            "instructor_note": {
+              "ja": "並べ替え問題は『出来事が起きた時系列』を本文の段落順に追えば良い。本文は p1〜p9 で著者の人生（小学校 → 転校 → 中学 → 大学）が時系列順に語られているので、各段落から該当出来事を 1 つずつ拾う作業。④だけ『前向きに取り組む努力をした』に対応する単一の出来事が本文にない（④は罠として除外する）。",
+              "points": [
+                "⑤=[25] の根拠: p2_s4 'Remember your talents. You’re creative ... Look at maths another way' → 小学校時代、Mr Canning から創造性を活かす助言を受けた。最も古い出来事。",
+                "②=[26] の根拠: p5_s4 'I realised that I froze whenever I panicked.' → 転校先の Ms Burns 対応事件後、自分の弱点（パニック時に話せない）を自覚した。",
+                "③=[27] の根拠: p8_s1 'I just decided to act silly with my friends and did a funny walk along a corridor' → 中学生時代、友人たちの前で道化を演じた。",
+                "①=[28] の根拠: p9_s4 'It also wasn’t until I entered university that I properly grasped the worth of taking rests' → 大学入学後、休憩の価値を理解した。最も新しい出来事。",
+                "④の罠 (本文に対応出来事なし): 『前向きに取り組む努力』は本文全体のテーマに近い表現だが、特定の単一出来事として描写された場面はない。p6_s5 で『助けを求める勇気を持つようになった』はあるが、これは②/⑤の文脈に近く、④の『前向きに努力した』とは別物。",
+                "テクニック (p2_s4, p5_s4, p8_s1, p9_s4 が好例): 並べ替え型は『各選択肢を本文段落に紐付ける → 段落番号順に並べる』の 2 ステップで済む。本文が時系列順に並んでいる限り、段落番号 = 時系列順なので、最初に対応段落を全部洗い出してから順序を確定させる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 29,
+          "stem": {
+            "en": "Choose the best option for [29].",
+            "ja": "「[29]に最も適した選択肢を選べ」（Notes 内『He frequently [29].』）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "enjoyed attempting challenging tasks if they were unrelated to school work",
+              "ja": "学校の勉強に関係がなければ難題に挑むのを楽しんだ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "failed to notice when others pointed out something he was good at",
+              "ja": "自分が得意なことを他者が指摘したとき気づけずにいた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "reacted to situations with fear at first, even when they were easy",
+              "ja": "容易な状況に対してさえ、最初は恐怖を感じた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "stopped communicating with friends when he was not coping so well",
+              "ja": "あまりうまく対処できないとき、友人と連絡を取り合うのをやめた",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。最終段落第4文（I now realise ...）に、ビリーとの最近の会話を紹介したのに続けて「今にして私はわかったのだが、学校での日々の多くを苦手なことについて気に病んで過ごしたあまり、自分の才能のありかを教えてくれるほめ言葉が耳に入らないことが多かった」とある。他の選択肢は、いずれも本文中に見られない内容であり不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p9_s2",
+              "p9_s3"
+            ],
+            "instructor_note": {
+              "ja": "Notes の見出し『What Ewan Discovered After a Recent Conversation With Billy』が指す本文箇所を特定する設問。p9_s2 の『最近ビリーと会って…ほめてくれた』の直後、p9_s3 の『I now realise ...』が『気づいた内容』そのもの。選択肢は『ほめ言葉が耳に入らない』を別の表現に言い換えたものを選ぶ。",
+              "points": [
+                "②の根拠: p9_s3 'I often missed praise that told me where my talents lay' → 自分の才能（=得意なこと）を教えてくれるほめ言葉を聞き逃すことが多かった。miss praise = failed to notice when others pointed out / where my talents lay = something he was good at と同義。",
+                "①の罠 (p9_s5, p9_s6 と無関係): ダイビングへの挑戦（p9_s5〜s8）は『学校の勉強と無関係』だが『楽しんで挑む』のは『今のユーアン』であって、ビリーとの会話で気づいた内容ではない。Notes は『気づいたこと』を求めている。",
+                "③の罠 (p2_s4, p7_s2 の誤読): p2_s4 や p7_s2 で『freeze when something is hard』『取り乱す』とあるが、対象は『難しいこと』であって『容易な状況』ではない。",
+                "④の罠 (p7_s2, p7_s3, p9_s2 と矛盾): 友人 Billy とは中学・大学を通じて連絡を取り続けており、p9_s2 で『最近会ってコーヒーを飲んだ』とある。連絡を絶った記述は本文にない。",
+                "テクニック (p9_s2, p9_s3 が好例): Notes の見出しに含まれる時間的限定子（『After a Recent Conversation With Billy』）から本文の対応箇所（p9_s2 直後）が一意に絞れる。そこから 1〜2 文以内に答えが必ずある。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_numbers": [
+            30,
+            31
+          ],
+          "unordered_slots": [
+            30,
+            31
+          ],
+          "stem": {
+            "en": "Choose the best two options for [30] and [31]. (The order does not matter.)",
+            "ja": "「[30]と[31]に最も適した選択肢を2つ選べ（順序は問わない）」（Notes 内『この話から学べること』）"
+          },
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "Be aware of various different techniques for tackling hardships.",
+              "ja": "困難に立ち向かうためのさまざまな異なる技法を意識せよ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "If you try hard, it is possible to succeed in anything.",
+              "ja": "頑張れば何事においても成功は可能である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "There is no embarrassment in giving up when feeling miserable.",
+              "ja": "悲惨な気持ちのときあきらめるのは恥ずかしいことではない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Use your strengths to help you get over your weaknesses.",
+              "ja": "短所を克服する手助けとするために長所を用いよ。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "We should not refrain from asking for help in tough times.",
+              "ja": "つらいときには助けを求めることを遠慮すべきではない。",
+              "is_correct": true
+            }
+          ],
+          "choices_31": [
+            {
+              "label": "①",
+              "en": "Be aware of various different techniques for tackling hardships.",
+              "ja": "困難に立ち向かうためのさまざまな異なる技法を意識せよ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "If you try hard, it is possible to succeed in anything.",
+              "ja": "頑張れば何事においても成功は可能である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "There is no embarrassment in giving up when feeling miserable.",
+              "ja": "悲惨な気持ちのときあきらめるのは恥ずかしいことではない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Use your strengths to help you get over your weaknesses.",
+              "ja": "短所を克服する手助けとするために長所を用いよ。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "We should not refrain from asking for help in tough times.",
+              "ja": "つらいときには助けを求めることを遠慮すべきではない。",
+              "is_correct": true
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "Be aware of various different techniques for tackling hardships.",
+              "ja": "困難に立ち向かうためのさまざまな異なる技法を意識せよ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "If you try hard, it is possible to succeed in anything.",
+              "ja": "頑張れば何事においても成功は可能である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "There is no embarrassment in giving up when feeling miserable.",
+              "ja": "悲惨な気持ちのときあきらめるのは恥ずかしいことではない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Use your strengths to help you get over your weaknesses.",
+              "ja": "短所を克服する手助けとするために長所を用いよ。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "We should not refrain from asking for help in tough times.",
+              "ja": "つらいときには助けを求めることを遠慮すべきではない。",
+              "is_correct": true
+            }
+          ],
+          "answer": {
+            "30": "④",
+            "31": "⑤"
+          },
+          "answer_note": "順不同・両方正解で3点",
+          "explanation": {
+            "quoted_ja": "正解は④と⑤。第2段落第4文（“Remember your talents.”）以降に、キャニング先生に創造性という自分の才能を苦手意識のある数学に対して違った風に取り組むよう助言され、この方法が役立ったことが書かれているため、④は正解になる。また、第6段落最終文（Though letting someone ...）に「苦しいときに誰かにそれを知らせることは」筆者にとって「難しかったが、助けが必要なときにそれを求める勇気を」筆者は持つようになったことが書かれているため、⑤も正解になる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p2_s4",
+              "p2_s7",
+              "p6_s4",
+              "p6_s5"
+            ],
+            "instructor_note": {
+              "ja": "Notes の最終ブロック『What We Can Learn From This Story』に入れる教訓を 2 つ選ぶ問題。本文全体を貫く 2 大テーマ（①長所を活かして短所に立ち向かう／②助けを求めることをためらわない）のそれぞれが本文の具体的場面と一致する選択肢を選ぶ。",
+              "points": [
+                "④の根拠: p2_s4 'Remember your talents. You’re creative ... Look at maths another way' + p2_s7 'It helped.' → 創造力（=長所）を使って数学（=短所）に取り組み、効果があった。Use your strengths to help you get over your weaknesses そのもの。",
+                "⑤の根拠: p6_s4 'encouraged me to speak out when feeling stuck' + p6_s5 'I began to find the courage to ask for assistance when I needed it and was soon glad I did' → 助けを求めることをためらわず、結果として喜びを得た。We should not refrain from asking for help と一致。",
+                "①の罠 (p2_s4, p6_s4 の過剰一般化): 『さまざまな技法を意識せよ』は本文の含意に近いが、本文では『1 つの長所を別の角度で使う／助けを求める』という具体策しか語っていない。『さまざまな』という幅広さは本文の射程外。",
+                "②の罠 (p9_s8 と矛盾): p9_s8 'I can’t be good at everything!' → 何事においても成功は不可能と認めている。逆方向のメッセージ。",
+                "③の罠 (p9_s8 の誤読): p9_s8 は『何でも得意になれない』と認める文だが、『あきらめる』とは言っていない。むしろ p9_s5〜s7 で下手なダイビング競技に出るとあり、苦手でも続ける姿勢が示されている。",
+                "テクニック (p2_s4, p6_s5 が好例): 教訓選択は『本文の具体的成功体験 → 一般化したスローガン』の対応関係で確定する。本文に複数の成功体験があれば、それぞれに対応する教訓を 1 つずつ選び取れば良い。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "title": {
+          "label_ja": "タイトル",
+          "items": [
+            {
+              "en": "maths",
+              "ja": "名「数学」",
+              "note": "mathematics のイギリス式の略式表記（アメリカ式は math）。"
+            }
+          ]
+        },
+        "para1": {
+          "label_ja": "第1段落（I stared at ...）",
+          "items": [
+            {
+              "en": "My maths teacher, Ms Burns, would shout at me again.",
+              "ja": "「数学の先生のバーンズさんはまた私を怒鳴りつけるだろう」",
+              "note": "筆者が心中で思った内容を表しており、I thought (that) my maths teacher ... などと補って考えることができる。"
+            }
+          ]
+        },
+        "para2": {
+          "label_ja": "第2段落（I'd always struggled ...）",
+          "items": [
+            {
+              "en": "struggle with ...",
+              "ja": "「…（のこと）で苦心する」"
+            },
+            {
+              "en": "getting low scores during primary school",
+              "ja": "「小学校の間、低い成績を取っていて」",
+              "note": "分詞構文。"
+            },
+            {
+              "en": "freeze",
+              "ja": "動「動け［しゃべれ］なくなる」"
+            },
+            {
+              "en": "another way",
+              "ja": "「別のやり方で」",
+              "note": "副詞句で、直前に前置詞 in を補うことができる。"
+            },
+            {
+              "en": "in terms of ...",
+              "ja": "「…の観点から」"
+            }
+          ]
+        },
+        "para3": {
+          "label_ja": "第3段落（When my parents ...）",
+          "items": [
+            {
+              "en": "clueless",
+              "ja": "形「すっかり戸惑った；わけがわからない」"
+            },
+            {
+              "en": "yell at ...",
+              "ja": "「…に対して怒鳴る」"
+            },
+            {
+              "en": "The less I understood, the more stressed I got.",
+              "ja": "「私はわかることが少なくなればなるほど、ストレスを感じるようになった」",
+              "note": "いわゆる「the +〈比較級〉..., the +〈比較級〉〜」（〜すればするほど、より〜）の形。I understood little.. I got stressed. の little（understand を他動詞と考えるならその目的語となる『わずかなこと』という意味の代名詞、自動詞と考えるならそれを修飾する『わずかしか…ない』という意味の副詞）、stressed（『ストレスを感じて』という意味の形容詞）がそれぞれ the +〈比較級〉に変形されて節の先頭に移動して出来たもの、と考えることができる。"
+            }
+          ]
+        },
+        "para4": {
+          "label_ja": "第4段落（One night, the ...）",
+          "items": [
+            {
+              "en": "for ages",
+              "ja": "「長い間にわたって」",
+              "note": "「何年、何十年にもわたって」という場合もあれば、ここでのように「数分から数時間にわたって」の場合もある。"
+            }
+          ]
+        },
+        "para5": {
+          "label_ja": "第5段落（The next day, ...）",
+          "items": [
+            {
+              "en": "angry with Ms Burns for upsetting me",
+              "ja": "「私を取り乱させたことに対してバーンズ先生に腹を立てて」",
+              "note": "分詞構文。直前に being を補うことができる。"
+            },
+            {
+              "en": "genuinely",
+              "ja": "副「純粋に；心から」"
+            }
+          ]
+        },
+        "para6": {
+          "label_ja": "第6段落（Things immediately ...）",
+          "items": [
+            {
+              "en": "feel foolish for ...",
+              "ja": "「…について自分が馬鹿であると感じる」"
+            },
+            {
+              "en": "speak out",
+              "ja": "「遠慮なく話す；思い切って言う」"
+            },
+            {
+              "en": "stuck",
+              "ja": "形「行き詰って；途方に暮れて」"
+            },
+            {
+              "en": "was soon glad I did",
+              "ja": "「じきにそうすることが嬉しくなった」",
+              "note": "be glad (that) は「…する［である］のを嬉しく思う」という意味で、did は代動詞でここでは asked (for assistance) の意味。"
+            }
+          ]
+        },
+        "para7": {
+          "label_ja": "第7段落（On entering secondary ...）",
+          "items": [
+            {
+              "en": "He'd cheer me up",
+              "ja": "「彼は私を元気づけたものだった」",
+              "note": "ここでの He'd は He would の略形で、would は「よく〜したものだった」という「過去の動作の繰り返し」を表す用法。cheer ... up / cheer up ... は「…を元気づける［励ます］」という意味。"
+            }
+          ]
+        },
+        "para8": {
+          "label_ja": "第8段落（After a particularly ...）",
+          "items": [
+            {
+              "en": "act silly",
+              "ja": "「愚かなふるまいをする」",
+              "note": "この場合の silly は副詞で sillily と同義。"
+            },
+            {
+              "en": "wide-eyed",
+              "ja": "形「目を見開いて；仰天して」",
+              "note": "ここでは分詞構文で、直前に being を補うことができる。"
+            },
+            {
+              "en": "unlike",
+              "ja": "形「…らしくない」"
+            },
+            {
+              "en": "it felt liberating",
+              "ja": "「それは解放的にするように感じられた」",
+              "note": "it は直前に書かれた学校の廊下でおかしな歩き方をする、という筆者がふと思いついて取った行動のこと。liberating は「（人を）自由［解放的］にする」という意味。"
+            }
+          ]
+        },
+        "para9": {
+          "label_ja": "最終段落（I'm studying journalism ...）",
+          "items": [
+            {
+              "en": "spooky",
+              "ja": "形「幽霊の出そうな；不気味な」",
+              "note": "-er / -est 型で変化する形容詞であり、ここでの more spooky tales は many spooky tales の many が比較級になったもの。"
+            },
+            {
+              "en": "I spent a lot of my school days worrying so much about what I was poor at that I often missed praise that told me where my talents lay",
+              "ja": "「自分の才能がどこにあるかを私に語る賛辞を聞き逃すことが多いほどに、自分が苦手なことについて大いに悩むのに学生時代の時間の多くを費やした」",
+              "note": "spend +〈時間〉+ -ing（〜するのに〈時間〉を費やす）、so ... that 〜（〜であるほど…；非常に…なので〜）が用いられている（この形で用いられている that は1つめのもの）。what は関係代名詞で、what I was poor at という名詞節の中で at の目的語として働いている。miss は、ここでは「…を聞き逃す」という意味の他動詞。2つめの that は関係代名詞で、that (S) told (V) me (O₁) where my talents lay (O₂) という構造の形容詞節を導いている。where my talents lay は疑問副詞 where が導く名詞節で、ここでの lay は「ある；存在している」という意味の自動詞 lie の過去形。"
+            },
+            {
+              "en": "it isn't until ... that 〜",
+              "ja": "「…してようやく〜する」"
+            },
+            {
+              "en": "I'm a terrible diver, but who cares?",
+              "ja": "「私はダイビングがとても苦手だが、そのことを誰が気に掛けるものか」",
+              "note": "who cares は反語的で、「誰も気に掛けるはずがない」というニュアンスを含んでいる。"
+            }
+          ]
+        },
+        "notes": {
+          "label_ja": "メモ",
+          "items": [
+            {
+              "en": "approach",
+              "ja": "名「取り組み；（研究）方法」"
+            },
+            {
+              "en": "calm down",
+              "ja": "「落ち着く」"
+            },
+            {
+              "en": "unimpressive",
+              "ja": "形「期待外れの；パッとしない」"
+            }
+          ]
+        },
+        "questions": {
+          "label_ja": "設問文・選択肢",
+          "items": [
+            {
+              "en": "clown",
+              "ja": "名「道化（師；役者）」"
+            },
+            {
+              "en": "speak up",
+              "ja": "「遠慮なく話す；思い切って言う」"
+            },
+            {
+              "en": "fool around",
+              "ja": "「ふざける」"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 16,
+      "description": "発表準備（世界種子貯蔵庫）：本文読解 + 6 枚スライド構成",
+      "situation": {
+        "en": "You are in a student group preparing for an international environmental presentation contest. You are using the following passage to create your part of the presentation on valuable resources.",
+        "ja": "あなたは、国際的な環境に関する発表のコンテストに向けて準備中の、学生グループの一員です。あなたは貴重な資源に関する発表の自分の担当箇所を作るために、以下の文章を用いています。"
+      },
+      "passages": [
+        {
+          "id": "main_passage",
+          "title": {
+            "en": "The Global Seed Vault",
+            "ja": "世界種子貯蔵庫"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "If you ask someone what the most precious natural resource on Earth is, they will possibly reply “water,” as we cannot survive without it.",
+                "ja": "誰かに地球上で最も貴重な天然資源は何かと尋ねたなら、相手は「水」と答えるかもしれない。それ無しでは我々は生きていけないのだから。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "Or perhaps “oil,” which drives our modern lives, literally, with transportation and manufacturing depending on it.",
+                "ja": "あるいはことによると「石油」かもしれない。文字通り我々の現代の生活の原動力となっており、輸送や製造業になくてはならないのだから。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "But what about seeds?",
+                "ja": "しかし種子に関してはどうだろうか。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "Under a freezing mountain is a building, opened in 2008, that holds the future of our species.",
+                "ja": "凍てつく山の下に、2008年に開設された、人類の未来を握る建造物が存在している。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "Surprisingly, and scarily, 95% of our food comes from only 30 crops.",
+                "ja": "驚くべきことに、また恐ろしいことに、我々の食糧の95%はわずか30種の作物に由来している。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "The Global Seed Vault holds over 930,000 types of food in the form of millions of tiny brown frozen dots.",
+                "ja": "世界種子貯蔵庫は93万種を超える食糧を何百万もの小さな茶色い凍った粒という形態で保存している。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "It could be described as part bank and part museum, storing a collection of 13,000 years of our crop-growing history.",
+                "ja": "それは一面では銀行、一面では博物館と言えるようなもので、人類による13,000年にわたる作物栽培の歴史の集積を貯蔵している。"
+              },
+              {
+                "id": "p2_s5",
+                "en": "Set up by Norway, with government money assigned to run it, it sits in a sea of ice, which is the most northern place that regular planes can fly to.",
+                "ja": "それはノルウェーによって設立され、運営には政府の資金が割り当てられており、定期便の航空機の行き先となる最北端の氷の海に鎮座している。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "Around 1,700 similar projects, called gene banks, are scattered around the globe.",
+                "ja": "遺伝子バンクと呼ばれる類似の事業が1,700ほど、地球上のあちらこちらに点在している。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "These mostly store seeds from the local regions, which are mainly collected to catalogue scientific information about different plants and to save species in danger of dying out.",
+                "ja": "これらが主に貯蔵しているのは地元産の種子であり、それらは主としてさまざまな植物に関する科学的情報を目録化し、絶滅の危機にある種を保護することを目的に集められている。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "Some, especially those such as bananas and coffee plants from hotter nations, do not have seeds that are possible to store, and the plants themselves are preserved in chemicals.",
+                "ja": "中には、とりわけ暑い国々のバナナやコーヒーなどの植物には、貯蔵可能な種子を持たずに植物そのものを化学薬品に漬けて保存しているものもある。"
+              },
+              {
+                "id": "p3_s4",
+                "en": "As technology allowing such practices develops, and alarm about climate change escalates, more focus is on this work in the hope of being able to form new varieties of crops that can survive harsh climates.",
+                "ja": "こうした方法を可能にする科学技術の発展や、気候変動に関する不安の増大に伴い、厳しい気候に耐え抜くことのできる新たな変種の作物を作り上げられることへの期待から、この作業にはさらに注目が集まっている。"
+              },
+              {
+                "id": "p3_s5",
+                "en": "Between 2005 and 2008 the price of wheat rose dramatically, and the cost of rice tripled, mainly due to weather and plant diseases wiping out large proportions of global crops.",
+                "ja": "2005年から2008年までの間に、小麦の値段は急激に上昇し米の価格は3倍になったが、その主な原因は地球上の作物の大部分を一掃した天候と植物の病気だった。"
+              },
+              {
+                "id": "p3_s6",
+                "en": "With help by the United Nations in writing a document called the International Seed Treaty in 2001, the goal of the Global Seed Vault is to obtain and retain copies of every seed in these regional gene banks.",
+                "ja": "2001年の国際種子条約と呼ばれる文書を取りまとめるにあたって国際連合の助力を受けた世界種子貯蔵庫は、これら各地の遺伝子バンクが保有するあらゆる種子の複製を入手し維持することを目標としている。"
+              },
+              {
+                "id": "p3_s7",
+                "en": "This cooperation over such a wide geographical area offers a rare ray of hope for humankind in a world full of conflict and increasing environmental instability.",
+                "ja": "これほど地理的に広域にわたる協力関係は、紛争に満ちた環境の不安定化が進む世界に生きる人類にとって、一筋の望みをもたらすものである。"
+              },
+              {
+                "id": "p3_s8",
+                "en": "In case of a critical climatic change or spread of a plant disease, governments will be able to make use of the catalogue to search for the varieties of crops that could survive it.",
+                "ja": "重大な気候変動や植物の病気が蔓延する際には、それに耐えて生き残り得る作物の変種を探すために各国政府はその目録を利用することができるだろう。"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "During World War II, in September 1941, the important industrial city of Leningrad in the Soviet Union was surrounded by Hitler’s army, which cut off transport links and burned buildings full of the city’s emergency food supplies.",
+                "ja": "第二次世界大戦中の1941年9月に、ソ連の重要な産業都市レニングラードをヒットラーの軍隊が包囲し、交通網を断って都市の緊急供給食糧の詰め込まれた建造物を焼き払った。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "Citizens and soldiers of the Soviet army caught inside the circle kept the German army out for around 840 days.",
+                "ja": "包囲網内に捉われたソ連の市民と兵士は、約840日間にわたってドイツ軍の侵入を阻んだ。"
+              },
+              {
+                "id": "p4_s3",
+                "en": "They worked through one of the coldest winters ever recorded, in weapons factories without roofs, just managing to stop the Germans from taking their city.",
+                "ja": "記録上最も寒い冬のうちの1つを屋根のない武器工場で彼らは働き通して、その都市をドイツ人たちの手に渡すことなく死守した。"
+              },
+              {
+                "id": "p4_s4",
+                "en": "People were forced to eat zoo animals and to boil leather to eat.",
+                "ja": "人々は動物園の動物を食べたり、食用に皮革を茹でたりすることを余儀なくされた。"
+              },
+              {
+                "id": "p4_s5",
+                "en": "Leningrad also boasted a magnificent university employing top scientists.",
+                "ja": "レニングラードはまた、極めて優秀な科学者たちを擁する立派な大学を誇っていた。"
+              },
+              {
+                "id": "p4_s6",
+                "en": "One of the earliest recorded seed banks was there, and during this troubled period, some 10 scientists locked themselves in a room full of seeds and plants to stop starving locals from stealing them.",
+                "ja": "記録に残る最初期の種子バンクの1つがそこにはあって、この困難な時期に10人ほどの科学者が種子と植物であふれる部屋に閉じこもり、飢餓に瀕した地元民による略奪を阻止した。"
+              },
+              {
+                "id": "p4_s7",
+                "en": "Several of the scientists died, one even apparently amongst bags of rice.",
+                "ja": "科学者のうち何人かは命を落とし、米の入った袋に取り囲まれながら亡くなったと思しき者さえも1人いた。"
+              },
+              {
+                "id": "p4_s8",
+                "en": "The Global Seed Vault currently stores many of these original seeds in its collection.",
+                "ja": "世界種子貯蔵庫は現在、この当初の種子の多くを収蔵品として貯蔵している。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "The location of The Global Seed Vault is no accident.",
+                "ja": "世界種子貯蔵庫の設営地は決して偶然選ばれたものではない。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "Far from modern dangers like war, demonstrations led by citizens unhappy with government policies, and noticeable climate change, this place is perfect for protecting plant material, which is disappearing daily on a global scale.",
+                "ja": "戦争や政府の方針に不満を持つ市民主導のデモ、顕著な気候変動などの現代における危険から隔たったこの土地は、日々地球規模で姿を消している植物資源の保護にうってつけである。"
+              },
+              {
+                "id": "p5_s3",
+                "en": "And that explains why it receives funds from international governments and private organizations.",
+                "ja": "そしてそのことが、複数国の政府や私企業から資金の提供を受けている理由となっている。"
+              },
+              {
+                "id": "p5_s4",
+                "en": "The agriculture industry is high-tech, allowing large-scale crop production; but today the U.S. has only 10% of the varieties of fruit and vegetables it grew in the early 1900s, and China had 90% more rice choices just seventy years ago.",
+                "ja": "農業は高度先端技術化して大規模な作物生産が可能になっている。しかし、今日の合衆国に存在する果実や野菜の品種は1900年代初頭に栽培されていたものの10%に過ぎず、中国はわずか70年前には米の選択肢が現在より90%多かった。"
+              },
+              {
+                "id": "p5_s5",
+                "en": "This lack of diversity means that disease or poor weather conditions carry massive risks.",
+                "ja": "こうした多様性の欠如は、病気や気象条件の悪化が大規模な危険をもたらすことを意味する。"
+              },
+              {
+                "id": "p5_s6",
+                "en": "This would be less shocking if we weren’t dependent on a limited number of types of crops.",
+                "ja": "我々が限られた数の作物種に依存しているのでなければ、衝撃度はそこまでではないだろう。"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "The facility itself consists of a series of tunnels and rooms, with the seeds stacked on floor-to-ceiling shelves in the main central vault between two empty ones, which are ready for when the central vault is full.",
+                "ja": "施設自体は一連のトンネルや部屋から成っており、種子は主要な中央の貯蔵庫の床から天井まである棚に積み重ねられており、この中央の貯蔵庫が一杯になった時に備えて左右には2つの空の貯蔵庫がある。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "The thick ice covering the vault doors indicates immediately how cold these vaults are inside.",
+                "ja": "貯蔵庫のドアを覆う厚い氷の様子から、内部がいかに低温であるかが直ちに見て取れる。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "The whole building is temperature-controlled, with a cooling system located just past the impressive artwork that sits above the metal shield that guards the facility’s entrance.",
+                "ja": "建物全体が温度を調節されており、冷却装置は施設の入り口を保護する金属の防御板の上部に据えられた見事なアート作品を過ぎるとすぐに設置されている。"
+              },
+              {
+                "id": "p6_s4",
+                "en": "People heading to the vaults pass a trolly system, which is used to carry boxes back and forth.",
+                "ja": "貯蔵庫に向かう人々は、箱を前後に運ぶのに用いられる運搬システムを通り過ぎる。"
+              },
+              {
+                "id": "p6_s5",
+                "en": "Between this system and the vaults is a sleeve, designed to protect the building from changes in climate and erosion.",
+                "ja": "このシステムと貯蔵庫の間には、建物を気候変化や腐食から保護するために設計されたスリーブがある。"
+              },
+              {
+                "id": "p6_s6",
+                "en": "The operations happen in the side control room, where everything occurring can be monitored closely.",
+                "ja": "操作は脇の制御室で行われ、起きていることはすべてここで仔細に監視可能である。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "slides",
+          "title": {
+            "en": "Your presentation slides",
+            "ja": "あなたの発表用スライド"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "slides_intro",
+                "en": "Below is the layout of all six presentation slides. Slide 1 “The Beginning” contains slot [32]; Slide 3 “Disturbing Truths” contains slots [33] and [34]; Slide 4 “Layout” contains slot [35] and a diagram of the Global Seed Vault with positions (A)–(E); Slide 5 “Summing Up” contains slot [36].",
+                "ja": "下に発表用スライド全6枚のレイアウトを示します。スライド1「The Beginning（始まり）」には空所 [32] があり、スライド3「Disturbing Truths（懸念される事実）」には空所 [33] と [34] があり、スライド4「Layout（配置図）」には空所 [35] と (A)〜(E) のラベル位置を示す世界種子貯蔵庫の配置図があり、スライド5「Summing Up（まとめ）」には空所 [36] があります。"
+              }
+            ]
+          ],
+          "graph_image": {
+            "src": "images/q07_slides_layout.png",
+            "after_paragraph": 1,
+            "alt": "発表用スライド全景: 1. The Beginning（founded in 2008 / tunnel and room construction / [32] など5項目）／2. Supporting Projects（other smaller seed banks / gene banks: 1,700 sites, biological information, endangered plants, pickle plants, genetic research）／3. Disturbing Truths（diversity → lack of diversity の図 + [33] [34]）／4. Layout [35]（配置図: Artwork・Metal Shield・(A)・(B)・(C)・Control Room・(D)・(E)）／5. Summing Up [36]"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 32,
+          "stem": {
+            "en": "Which of the following should you not include for [32]?",
+            "ja": "「以下のうちいずれを[32]に含むべきではないか」（スライド1「The Beginning」の空所）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "extremely far north",
+              "ja": "極北の地",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "financial contributions from private organizations",
+              "ja": "私企業による寄付金",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "primarily European seeds",
+              "ja": "主としてヨーロッパの種子",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "seeds preserved in freezers",
+              "ja": "種子を冷凍室で保存",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "United Nations support",
+              "ja": "国際連合による支援",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。文章の第3段落第6文（With help by ...）に、世界種子貯蔵庫が「これら各地の遺伝子バンクが保有するあらゆる種子の複製を入手し維持することを目標としている」とあり、また「これら各地の遺伝子バンク」については同段落第1文（Around 1,700 similar ...）に「地球上のあちらこちらに点在している」、「主に貯蔵しているのは地元産の種子」とあることから、ヨーロッパ以外の世界各地の種子も積極的に入手しているはずであるため本文の内容に合わず、したがって正解となる。他の選択肢のうち、①は第2段落最終文（Set up by ...）にその所在地が「定期便の航空機の行き先となる最北端の氷の海」であることが、②は第5段落第3文（And that explains ...）に「私企業から資金の提供を受けている」ことが、④は第2段落第3文（The Global Seed ...）に種子が「凍った粒という形態で保存」されていることが、⑤は第3段落第6文（With help by ...）に「国際連合の助力を受けた」ことが、それぞれ書かれており、いずれも[32]に含まれるべき内容となっているため、不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p2_s3",
+              "p2_s5",
+              "p3_s1",
+              "p3_s2",
+              "p3_s6",
+              "p5_s3"
+            ],
+            "instructor_note": {
+              "ja": "「NOT include」型は『5択のうち本文と合わないもの 1 つ』を選ぶ。Slide 1「The Beginning（GSV の基本紹介）」に挙げる箇条書きとして、場所・冷凍保存・国連支援・私企業出資・世界規模の種子収集の 4 つは本文に書かれているので適切。残った『主としてヨーロッパの種子』だけが本文と矛盾するので答え。",
+              "points": [
+                "③が NOT に該当（不適切）の根拠: p3_s1 (gene banks scattered around the globe) + p3_s6 (every seed in these regional gene banks) → 世界中の地元産種子を集める計画なので『主としてヨーロッパの種子』は誤り。",
+                "①の本文根拠（含めて OK）: p2_s5 the most northern place that regular planes can fly to → 『極北』。",
+                "②の本文根拠（含めて OK）: p5_s3 receives funds from ... private organizations → 『私企業の寄付』。",
+                "④の本文根拠（含めて OK）: p2_s3 in the form of millions of tiny brown frozen dots → 『冷凍保存』。",
+                "⑤の本文根拠（含めて OK）: p3_s6 With help by the United Nations → 『国連支援』。",
+                "テクニック (p3_s1, p3_s6 が好例): NOT include 型は『本文に書かれていないもの』を選ぶのではなく、『本文と内容が矛盾するもの』を選ぶ。本文に書かれていない情報でも本文と矛盾しなければ含めて OK だが、本文と明確に対立する情報（『世界中』vs『主としてヨーロッパ』）は確実な NG。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_numbers": [
+            33,
+            34
+          ],
+          "unordered_slots": [
+            33,
+            34
+          ],
+          "stem": {
+            "en": "For the Disturbing Truths slide, select two examples of food-related issues. (The order does not matter.) [33] · [34]",
+            "ja": "「『懸念される事実』のスライドのために、食糧に関連した問題の2つの例を選べ（順序は問わない）」[33]・[34]"
+          },
+          "choices_33": [
+            {
+              "label": "①",
+              "en": "Compared to 13,000 years ago, we have only 5% as many crops that we can eat today.",
+              "ja": "13,000年前と比べ、今日食べることのできる作物の数は5%に過ぎない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Governments are spending more money on wars and diseases than technology for producing food.",
+              "ja": "各国政府は、食料生産技術よりも戦争や病気に多くの財力を費やしている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Over just seven decades, close to half of China’s rice options have disappeared.",
+              "ja": "わずか70年の間に、中国の米の選択肢の半数近くが消滅した。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Partly because of bad weather, rice became three times as expensive in three years.",
+              "ja": "1つには悪天候によって、3年間で米の価格が3倍に高騰した。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "U.S. supermarkets are forced to import more than 90% of their agricultural products.",
+              "ja": "アメリカのスーパーマーケットは、農産物の90%以上を輸入することを余儀なくされている。",
+              "is_correct": false
+            }
+          ],
+          "choices_34": [
+            {
+              "label": "①",
+              "en": "Compared to 13,000 years ago, we have only 5% as many crops that we can eat today.",
+              "ja": "13,000年前と比べ、今日食べることのできる作物の数は5%に過ぎない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Governments are spending more money on wars and diseases than technology for producing food.",
+              "ja": "各国政府は、食料生産技術よりも戦争や病気に多くの財力を費やしている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Over just seven decades, close to half of China’s rice options have disappeared.",
+              "ja": "わずか70年の間に、中国の米の選択肢の半数近くが消滅した。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Partly because of bad weather, rice became three times as expensive in three years.",
+              "ja": "1つには悪天候によって、3年間で米の価格が3倍に高騰した。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "U.S. supermarkets are forced to import more than 90% of their agricultural products.",
+              "ja": "アメリカのスーパーマーケットは、農産物の90%以上を輸入することを余儀なくされている。",
+              "is_correct": false
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "Compared to 13,000 years ago, we have only 5% as many crops that we can eat today.",
+              "ja": "13,000年前と比べ、今日食べることのできる作物の数は5%に過ぎない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Governments are spending more money on wars and diseases than technology for producing food.",
+              "ja": "各国政府は、食料生産技術よりも戦争や病気に多くの財力を費やしている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Over just seven decades, close to half of China’s rice options have disappeared.",
+              "ja": "わずか70年の間に、中国の米の選択肢の半数近くが消滅した。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Partly because of bad weather, rice became three times as expensive in three years.",
+              "ja": "1つには悪天候によって、3年間で米の価格が3倍に高騰した。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "U.S. supermarkets are forced to import more than 90% of their agricultural products.",
+              "ja": "アメリカのスーパーマーケットは、農産物の90%以上を輸入することを余儀なくされている。",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "33": "③",
+            "34": "④"
+          },
+          "answer_note": "順不同・両方正解で4点",
+          "explanation": {
+            "quoted_ja": "正解は③と④。③は第5段落第4文（The agriculture industry ...）の「中国はわずか70年前には米の選択肢が現在より90%多かった」という部分の内容に一致する。また、④は第3段落第5文（Between 2005 and ...）の「2005年から2008年までの間に…米の価格は3倍になったが、その主な原因は…天候と植物の病気だった」という部分の内容に一致する。他の選択肢のうち、①は13,000年という数字は第2段落第4文（It could be ...）に見られるが、「人類による13,000年にわたる作物栽培の歴史」という表現の中で用いられているものであり、この選択肢とは内容的に無関係であるため、不正解。②、⑤に相当する内容も本文中に見られないため、やはり不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p2_s4",
+              "p3_s5",
+              "p5_s4"
+            ],
+            "instructor_note": {
+              "ja": "「Disturbing Truths（懸念される事実）」スライドには『食糧に関する不安をもたらす事例』を 2 つ選ぶ。本文中の数値・出来事の中で『食糧の供給／多様性に直結する不安』を述べる箇所を探し、選択肢の言い換えと数値（『3 倍』『70 年で約半減』など）を一文単位で対応させる作業。",
+              "points": [
+                "③の根拠: p5_s4 China had 90% more rice choices just seventy years ago → 70 年前と比べて中国の米の選択肢が約半数に激減（90% 多→現状＝当時の約 1/1.9）。",
+                "④の根拠: p3_s5 Between 2005 and 2008 ... cost of rice tripled, mainly due to weather and plant diseases → 3 年で米価 3 倍。原因は『天候＋病害』。",
+                "①の罠 (p2_s4 の誤読): 13,000 年は『作物栽培の歴史の長さ』であって『食べられる作物の数』ではない。p2_s2 の『95% of our food comes from only 30 crops』とも数字が混在しないよう注意。",
+                "②の罠 (p3_s5 と無関係): 『戦争・病気への支出』は本文に登場しない。p3_s5 で出てくる plant diseases は『価格高騰の原因』であって『政府支出の対象』ではない。",
+                "⑤の罠 (p5_s4 と無関係): 『U.S. が農産物の 90% を輸入』は本文に書かれていない。p5_s4 で出る 90% は『中国の米の選択肢の減少率』であり、輸入率ではない。",
+                "テクニック (p3_s5, p5_s4 が好例): スライド見出し『Disturbing Truths』に合わせて『価格暴騰／品種激減』などネガティブ情報を選ぶ。前向きな技術話（p3_s4 など）は除外する。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 35,
+          "stem": {
+            "en": "Complete the missing labels on the diagram of the Global Seed Vault for the Layout slide. [35]",
+            "ja": "「『配置図』のスライド用の世界種子貯蔵庫の図に欠けているラベルを完成させよ」[35]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "(A) Cooling System  (B) Sleeve  (C) Main Vault  (D) Trolly System  (E) Empty Vault",
+              "ja": "(A) 冷却装置／(B) スリーブ／(C) 主要貯蔵庫／(D) 運搬システム／(E) 空の貯蔵庫",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "(A) Cooling System  (B) Trolly System  (C) Sleeve  (D) Main Vault  (E) Empty Vault",
+              "ja": "(A) 冷却装置／(B) 運搬システム／(C) スリーブ／(D) 主要貯蔵庫／(E) 空の貯蔵庫",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "(A) Empty Vault  (B) Main Vault  (C) Cooling System  (D) Trolly System  (E) Sleeve",
+              "ja": "(A) 空の貯蔵庫／(B) 主要貯蔵庫／(C) 冷却装置／(D) 運搬システム／(E) スリーブ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "(A) Sleeve  (B) Cooling System  (C) Trolly System  (D) Empty Vault  (E) Main Vault",
+              "ja": "(A) スリーブ／(B) 冷却装置／(C) 運搬システム／(D) 空の貯蔵庫／(E) 主要貯蔵庫",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "(A) Trolly System  (B) Empty Vault  (C) Sleeve  (D) Main Vault  (E) Cooling System",
+              "ja": "(A) 運搬システム／(B) 空の貯蔵庫／(C) スリーブ／(D) 主要貯蔵庫／(E) 冷却装置",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。最終段落第1文（The facility itself ...）の「種子は主要な中央の貯蔵庫の床から天井まである棚に積み重ねられており、この中央の貯蔵庫が一杯になった時に備えて左右には2つの空の貯蔵庫がある」という記述から、(D)が主要貯蔵庫（Main Vault）で(E)ともう1つの空の貯蔵庫（Empty Vaults）がその左右に位置していることがわかる。また同段落第3文（The whole building ...）の「冷却装置は施設の入り口を保護する金属の防御板の上部に据えられた見事なアート作品を過ぎるとすぐに設置されている」という部分から、(A)が冷却装置（Cooling System）ということになる。さらに同段落第4文（People heading to ...）の「貯蔵庫に向かう人々は、…運搬システムを通り過ぎる」という部分、及び同段落第5文（Between this system ...）の「この（運搬）システムと貯蔵庫の間には、…スリーブがある」という部分から、(B)が運搬システム（Trolly System）、(C)がスリーブ（Sleeve）であることがわかる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p6_s1",
+              "p6_s3",
+              "p6_s4",
+              "p6_s5"
+            ],
+            "instructor_note": {
+              "ja": "図解問題。配置図にはあらかじめ Artwork（アート作品）・Metal Shield（金属の防御板）・Control Room（制御室）の3つのラベルが入っており、空欄は (A) → (B) → (C) → (D) → (E) の5箇所。本文 第6段落の動線記述（入口→冷却装置→運搬→スリーブ→貯蔵庫）を順にトレースすれば、(A)冷却装置、(B)運搬システム、(C)スリーブ、(D)主要貯蔵庫、(E)空の貯蔵庫 と一意に決まる。",
+              "points": [
+                "(A)=Cooling System の根拠: p6_s3 a cooling system located just past the impressive artwork → アート作品（既知ラベル）の直後の位置 = (A)。",
+                "(B)=Trolly System の根拠: p6_s4 People heading to the vaults pass a trolly system → 入口側から貯蔵庫へ向かう途中で通過するシステム = (B)。",
+                "(C)=Sleeve の根拠: p6_s5 Between this system [trolly] and the vaults is a sleeve → 運搬システム (B) と貯蔵庫の間 = (C)。",
+                "(D)=Main Vault・(E)=Empty Vault の根拠: p6_s1 the main central vault between two empty ones → 中央の貯蔵庫が中心 = (D)、その隣の空の貯蔵庫 = (E)。",
+                "誤答パターン (p6_s3〜p6_s5 の順序を読み違えた候補): ①は (B)(C) を入れ違い／③は (A)(B)(D)(E) を入れ違い／④は (A) と (D) が入れ違い／⑤は全体が後ろから順。",
+                "テクニック (p6_s3, p6_s4, p6_s5 が好例): 配置図問題は『動線（入口 → 奥）の順に本文を読み、登場順 = 配置順』として一致させる。Between A and B（A と B の間）／located just past（…の直後）等の前置詞句が決定打。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 36,
+          "stem": {
+            "en": "Which is the best statement for the final slide? [36]",
+            "ja": "「最後のスライド（『Summing Up（まとめ）』）に最も適した記述はどれか」[36]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "By developing and filling the Global Seed Vault more, regional gene banks will be able to close, making it possible for world leaders to focus more on specific problems affecting their nations.",
+              "ja": "世界種子貯蔵庫をさらに発展させ貯蔵量を増やすことにより、局地的な遺伝子バンクの閉鎖が可能になり、世界の指導者たちは自国に影響を及ぼす特定の問題にさらに集中することが可能となる。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Having apparatus in place to protect the seeds against climate change is essential, and the Global Seed Vault’s structure is so strong that, if maintained, it will protect seeds until we know more about global warming.",
+              "ja": "気候変動から種子を守るために適所に機構を設置することが不可欠であり、世界種子貯蔵庫は構造が堅牢であるため、維持されるなら地球温暖化について我々がより多くを知るまで種子を守るだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "In an era of political unrest, the Global Seed Vault is a rare global project benefiting everyone. Eventually, leaders in regions facing agricultural challenges will check a database to find crops suitable for their environmental crisis.",
+              "ja": "政治的に不安定な時代にあって、世界種子貯蔵庫は万人に恩恵をもたらす稀な世界的事業である。ゆくゆくは、農業に関する難題に直面する地域の指導者たちが、彼らの環境危機にとって適切な作物を見つけるためにデータベースを調べることになるだろう。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The Vault is strong enough to protect food sources from outside elements, and the art in the Global Seed Vault also attracts public attention. This is intended to educate people and make them aware of the Global Seed Vault’s important purpose.",
+              "ja": "貯蔵庫は外的要因から食料資源を守るに足るほど堅牢で、世界種子貯蔵庫のアート作品もまた世間の注目を集めている。これは、人々を教育し世界種子貯蔵庫の重要な目的に気づかせる意図によるものである。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。第3段落第7文（This cooperation over ...）の、世界種子貯蔵庫の試みについての「これほど地理的に広域にわたる協力関係は、紛争に満ちた…世界に生きる人類にとって、一筋の望みをもたらすものである」、同段落最終文（In case of ...）の「重大な気候変動や植物の病気が蔓延する際には、それに耐えて生き残り得る作物の変種を探すために各国政府はその目録を利用することができるだろう」という記述に一致した内容となっている。他の選択肢のうち、①は「局地的な遺伝子バンクの閉鎖」、「自国に影響を及ぼす特定の問題にさらに集中」、②は「適所に機構を設置」、「世界種子貯蔵庫は構造が堅牢である」、④は「人々を教育し世界種子貯蔵庫の重要な目的に気づかせる意図」など、それぞれ本文中に見られない内容を含んでいるため、不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p3_s7",
+              "p3_s8"
+            ],
+            "instructor_note": {
+              "ja": "Summing Up（まとめ）スライド用の総括文を選ぶ。本文全体の主旨を捉えた選択肢が正解。本文の主軸は『紛争・気候変動の時代における世界規模の協力 → 各国が将来の作物危機に備える』。本文に書かれていない処方箋（地域バンクの閉鎖／温暖化が解明されるまで／教育目的）を含む選択肢を排除する。",
+              "points": [
+                "③前半の根拠: p3_s7 a rare ray of hope for humankind in a world full of conflict → 『政治的に不安定な時代にあって、万人に恩恵をもたらす稀な世界的事業』と一致。",
+                "③後半の根拠: p3_s8 governments will be able to make use of the catalogue to search for varieties of crops that could survive → 『指導者たちがデータベースを調べて適切な作物を見つける』と一致。",
+                "①の罠 (p3_s6 と矛盾): 『地域遺伝子バンクの閉鎖』は本文と矛盾。p3_s6 では『地域バンクの種子の複製を入手・維持』する協力関係が GSV の目標であり、地域バンクは前提として存続する。",
+                "②の罠 (p3_s8 と矛盾): 『地球温暖化を理解するまでの一時的な避難所』という限定は本文に登場しない。p3_s8 では『重大な気候変動や植物の病気が蔓延する際に』各国政府が目録を利用するとあり、永続的な備蓄が前提。",
+                "④の罠 (p6_s3 の誤読): 『アート作品の教育的意図』は本文に書かれていない。p6_s3 にアート作品の言及はあるが冷却装置の位置を示すための装飾的記述のみで、教育目的とは結びつかない。",
+                "テクニック (p3_s7, p3_s8 が好例): まとめスライドは『本文の最後ではなく中盤の主旨文』に正解の根拠が散らばっていることが多い。選択肢に本文未記載の細部や因果が混じっていれば、その時点で除外できる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 37,
+          "stem": {
+            "en": "What can be inferred about the situation in Leningrad during World War II? [37]",
+            "ja": "「第二次世界大戦中のレニングラードの状況について何が推察可能か」[37]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Despite the urgent need for their food resources, the scientists appreciated the greater importance of guarding them for the future.",
+              "ja": "食糧資源が緊急に必要とされていたにもかかわらず、科学者たちは将来のためにそれらを保護することの方が重要であることを理解していた。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "The attacking army did not comprehend the importance of the room full of foodstuffs so they did not destroy it.",
+              "ja": "攻撃を行っている軍隊は食糧の詰め込まれた部屋の重要性を認識しておらず、それを破壊しなかった。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The citizens had little regard for the seed bank or the reasons it had been founded.",
+              "ja": "市民は、種子バンクやそれが設立された理由にほとんど関心がなかった。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The seed bank was such a valuable resource that the building it was housed in was particularly secure.",
+              "ja": "種子バンクは非常に価値の高い資源だったので、それが収容されていた建造物はとりわけ安全性が高かった。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第4段落第4文（People were forced ...）に述べられているように、当時のレニングラードでは市民が動物園の動物や皮革を食べなければならないほどの食糧難に追い込まれていたが、第6文（One of the ...）、第7文（Several of the ...）に述べられているように、科学者たちは身を挺して食料となる種子を守り、自らもそれらには敢えて手をつけずに命を落とす者もいた、ということから正しい記述であると推察できる。他の選択肢のうち、③、④は本文中に見られない内容であるため、不正解。②は第4段落第1文（During World War ...）の「ヒットラーの軍隊は…都市の緊急供給食糧の詰め込まれた建造物を焼き払った」という記述と矛盾するため、やはり不正解。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "p4_s1",
+              "p4_s4",
+              "p4_s6",
+              "p4_s7"
+            ],
+            "instructor_note": {
+              "ja": "「inferred（推察可能）」型は本文の事実から論理的に 1 ステップで導ける主張を選ぶ。p4_s4（市民は動物・皮革を食べていた = 極限の食糧難）と p4_s6〜s7（科学者は種子の部屋に閉じこもり、米袋の間で死んだ者もいる）を合わせると『目前に食料があったのに将来のために守った＝将来の重要性を理解していた』と推論できる。",
+              "points": [
+                "①の根拠: p4_s4 People were forced to eat zoo animals and to boil leather + p4_s6 locked themselves in a room full of seeds + p4_s7 one even apparently amongst bags of rice → 『食えるのに食わずに守った＝将来のための重要性を appreciate』。",
+                "②の罠 (p4_s1 と矛盾): ヒトラー軍は『都市の緊急供給食糧の詰め込まれた建造物を焼き払った』のだから、食糧の詰め込まれた部屋の重要性を理解していなかったわけではない（むしろ標的にした）。",
+                "③の罠 (本文外): 市民の関心の有無は本文に書かれていない。p4_s6 の『starving locals from stealing them』は『市民が略奪を試みた』ことを示すが、関心の有無の程度には踏み込んでいない。",
+                "④の罠 (本文外): 『建造物の安全性』は本文に書かれていない。むしろ p4_s3 で『屋根のない武器工場』という劣悪な状況が描かれる。",
+                "テクニック (p4_s4, p4_s7 が好例): 推論問題は『複数文の論理関係を 1 文で要約した選択肢』が正解。極端な事実 2 つ（市民の食糧難 + 科学者の死）を結ぶ動機（『将来重視』）を選び取る。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead": {
+          "label_ja": "リード文",
+          "items": [
+            {
+              "en": "prepare for ...",
+              "ja": "「…の準備をする」"
+            },
+            {
+              "en": "presentation contest",
+              "ja": "「発表のコンテスト」"
+            },
+            {
+              "en": "valuable resource",
+              "ja": "「貴重な資源」"
+            }
+          ]
+        },
+        "para1": {
+          "label_ja": "第1段落（precious natural resource）",
+          "items": [
+            {
+              "en": "they will possibly reply “water”",
+              "ja": "「彼らは『水』と答えるかもしれない」",
+              "note": "they は someone を指す。-one, -body の形の代名詞を受ける代名詞としては they を用いるのが一般的。"
+            },
+            {
+              "en": "Or perhaps “oil”",
+              "ja": "「あるいはことによると『石油』（と彼らは答える）かもしれない」",
+              "note": "Or (they will) perhaps (reply) “oil” と省略された語句を補って考えることができる。"
+            },
+            {
+              "en": "which drives our modern lives, literally",
+              "ja": "「それは文字通り我々の現代の生活に動力を提供する」",
+              "note": "非制限用法の関係代名詞 which が導く節。先行詞は “oil”。drive は他動詞で『…に動力を提供する』の意。"
+            },
+            {
+              "en": "with transportation and manufacturing depending on it",
+              "ja": "「輸送や製造業がそれに依存していて」",
+              "note": "『付帯状況』を表す『with + 〈名詞〉+ -ing』。"
+            }
+          ]
+        },
+        "para2": {
+          "label_ja": "第2段落（Under a freezing mountain）",
+          "items": [
+            {
+              "en": "Under a freezing mountain is a building",
+              "ja": "「凍るような山の下に1つの建物がある」",
+              "note": "Under ... (M) is (V) a building (S) という倒置形。"
+            },
+            {
+              "en": "opened in 2008, that holds the future of our species",
+              "ja": "「2008年に開設され、我々の種の未来を握っている」",
+              "note": "opened in 2008 は分詞構文。that は関係代名詞で a building を修飾する形容詞節を導いている。"
+            },
+            {
+              "en": "the Global Seed Vault",
+              "ja": "「世界種子貯蔵庫」",
+              "note": "ノルウェー領スヴァールバル諸島のスピッツベルゲン島にある種子貯蔵庫。気候変動、自然災害、病気の蔓延、核戦争などに備えて、農作物種の絶滅を防ぎ、地域的絶滅の際には栽培再開の機会を提供することにある。"
+            },
+            {
+              "en": "It could be described as part bank and part museum",
+              "ja": "「それは部分的には銀行、部分的には博物館と表現され得る」",
+              "note": "ここでの part は『一部は；部分的には』という意味の副詞で、これに修飾される bank や museum は名詞というより主語である it の性質を表す形容詞に近いため、冠詞を付けずに用いられる。"
+            },
+            {
+              "en": "storing a collection of ...",
+              "ja": "「…の集積を貯蔵して」",
+              "note": "分詞構文。"
+            },
+            {
+              "en": "Set up by Norway",
+              "ja": "「ノルウェーによって創設されて」",
+              "note": "分詞構文。"
+            },
+            {
+              "en": "with government money assigned to run it",
+              "ja": "「政府の資金がそれを経営するために割り当てられて」",
+              "note": "『付帯状況』を表す『with + 〈名詞〉+ p.p.』。"
+            }
+          ]
+        },
+        "para3": {
+          "label_ja": "第3段落（Around 1,700 similar projects）",
+          "items": [
+            {
+              "en": "Around 1,700 similar projects, called gene banks",
+              "ja": "「遺伝子バンクと呼ばれる、1,700ほどの類似の事業」",
+              "note": "called gene banks はカンマを隔てた前に置かれた Around 1,700 similar projects の補足説明となる句で、非制限用法の関係詞を用いた which is called gene banks とほぼ同内容。"
+            },
+            {
+              "en": "be scattered",
+              "ja": "「散在［点在］している」"
+            },
+            {
+              "en": "which are mainly collected to catalogue ... and to save ∼",
+              "ja": "「それらは…を目録化し〜を救うために主として集められる」",
+              "note": "which は先行詞である seeds の補足説明となる節を導く、非制限用法の関係代名詞。catalogue は他動詞で『…の目録を作成する』の意。"
+            },
+            {
+              "en": "Some, especially those such as ...",
+              "ja": "「あるもの、とりわけ…のようなもの」",
+              "note": "Some と those の直後にはそれぞれ species を補うことができる。"
+            },
+            {
+              "en": "As technology allowing such practices develops, and alarm about climate change escalates",
+              "ja": "「こうした活動を可能にする技術が発達し、気候変動に関する不安が増大するにつれて」",
+              "note": "as は『比例』を表す接続詞。"
+            },
+            {
+              "en": "mainly due to weather and plant diseases wiping out ...",
+              "ja": "「主に…を一掃する天候と植物の病気のために」",
+              "note": "前置詞相当語句である due to に対して、目的語が weather and plant で現在分詞 wiping の導く形容詞句がこれを修飾しているとも、目的語が動名詞 wiping で導く名詞句で weather and plant diseases がその意味上の主語を示しているとも取れる。"
+            },
+            {
+              "en": "the International Seed Treaty",
+              "ja": "「国際種子条約」",
+              "note": "世界中の食糧農作物の遺伝子資源を保護し、持続的に使用することを目的とした条約。"
+            },
+            {
+              "en": "a rare ray of hope",
+              "ja": "「一筋［一縷］の希望の光」"
+            }
+          ]
+        },
+        "para4": {
+          "label_ja": "第4段落（During World War II）",
+          "items": [
+            {
+              "en": "just managing to stop the Germans from taking their city",
+              "ja": "「ドイツ人たちが彼らの都市を奪うことを何とか阻止して」",
+              "note": "分詞構文。"
+            },
+            {
+              "en": "boast",
+              "ja": "動「…を（誇りとして）持っている」"
+            },
+            {
+              "en": "one even apparently amongst bags of rice",
+              "ja": "「1人はどうやら米の入った袋の間で死にさえした」",
+              "note": "直前の Several of the scientists died を受けて、one (of the scientists died) even apparently amongst bags of rice という省略が行われていると考えられる。周囲に潤沢な食料があったらしいにも関わらず、それらには敢えて手をつけず恐らくは餓死した、ということ。"
+            }
+          ]
+        },
+        "para5": {
+          "label_ja": "第5段落（The location of ...）",
+          "items": [
+            {
+              "en": "The location ... is no accident.",
+              "ja": "「所在地は決して偶然ではない」",
+              "note": "ここでの location は『所在地；設営地』という意味。be + no + 〈名詞〉で『決して…ではない』という意味。（例）He is no businessman.（彼は決して実務家ではない）"
+            },
+            {
+              "en": "allowing large-scale crop production",
+              "ja": "「大規模な作物生産を可能にして」",
+              "note": "分詞構文。"
+            }
+          ]
+        },
+        "para6": {
+          "label_ja": "最終段落（The facility itself）",
+          "items": [
+            {
+              "en": "with the seeds stacked on floor-to-ceiling shelves in the main central vault",
+              "ja": "「種子は主要な中央の貯蔵庫の床から天井まである棚に積み重ねられて」",
+              "note": "『付帯状況』を表す『with + 〈名詞〉+ p.p.』の形。stack は『…を（きちんと）積み重ねる』という意味。"
+            },
+            {
+              "en": "two empty ones, which are ready for when the central vault is full",
+              "ja": "「中央の貯蔵庫が満杯になるときに備えている2つの空の貯蔵庫」",
+              "note": "ones は既出可算名詞の複数形の代用となる代名詞で、ここでは vaults のこと。when は関係副詞で直前に先行詞となる the time を補うことができる。"
+            },
+            {
+              "en": "indicates immediately how cold these vaults are inside",
+              "ja": "「貯蔵庫が内部ではいかに低温かを直接示す」",
+              "note": "ここでの immediately は directly（直接に；直に）とほぼ同義で、indicates を修飾している。inside はここでは副詞で are を修飾している。"
+            },
+            {
+              "en": "with a cooling system located just past the impressive artwork that sits above ...",
+              "ja": "「冷却装置は…の上部にある見事なアート作品を過ぎるとすぐに設置されていて」",
+              "note": "『付帯状況』を表す『with + 〈名詞〉+ p.p.』の形。ここでの past は前置詞で、『〈場所〉の先［を過ぎたところ］に』という意味。関係代名詞の that が導く形容詞節は the impressive artwork を修飾している。"
+            },
+            {
+              "en": "People heading to the vaults pass a trolly system, which is used to carry boxes back and forth.",
+              "ja": "「貯蔵庫に向かう人々は、箱を前後に運ぶのに用いられる運搬システムを通り過ぎる」",
+              "note": "People (S) pass (V) a trolly system (O) が1文の中心となる構造。heading to the vaults は People を修飾する形容詞句。which は a trolly system の補足説明となる節を導く非制限用法の関係代名詞。to carry ... は『目的』を表す副詞用法の to 不定詞。"
+            },
+            {
+              "en": "Between this system and the vaults is a sleeve, designed to protect ...",
+              "ja": "「このシステムと貯蔵庫の間には、…を保護するために設計されたスリーブがある」",
+              "note": "Between this system and the vaults (M) is (V) a sleeve (S) という倒置形。designed to protect ... はカンマを隔てた前に置かれた a sleeve の補足説明となる句で、非制限用法の関係代名詞を用いた which was designed to protect ... という節とほぼ同内容。"
+            }
+          ]
+        },
+        "slides": {
+          "label_ja": "発表用スライド",
+          "items": [
+            {
+              "en": "endangered",
+              "ja": "形「絶滅の危険にさらされた」"
+            },
+            {
+              "en": "pickle",
+              "ja": "動「…を漬け汁に漬ける」"
+            }
+          ]
+        },
+        "questions": {
+          "label_ja": "設問文・選択肢",
+          "items": [
+            {
+              "en": "making it possible for world leaders to focus more on ...",
+              "ja": "「世界の指導者たちが…により集中することを可能にする」",
+              "note": "分詞構文。動詞としての make に続く構造は make (V) it (仮 O) possible (C) to focus (真 O) で、for world leaders は to focus の意味上の主語を示している。"
+            },
+            {
+              "en": "in place",
+              "ja": "「本来の場所［適所］に」"
+            },
+            {
+              "en": "if maintained",
+              "ja": "「もし維持されるなら」",
+              "note": "副詞節の if [= the Global Seed Vault] is maintained の it is が省略されているとも、分詞構文の maintained に接続詞の if が添えられることで意味が明確化されているとも取れる。"
+            },
+            {
+              "en": "This is intended to educate ...",
+              "ja": "「これは…を教育するよう意図されている」",
+              "note": "intend O to- (O が…するように意図する) が受動態で用いられている。"
+            },
+            {
+              "en": "regard for ...",
+              "ja": "「…への関心」"
+            },
+            {
+              "en": "the reasons it had been founded",
+              "ja": "「それ［= 種子バンク］が設立された理由」",
+              "note": "it had been founded は形容詞節として the reasons を修飾しており、直前には関係副詞の why などを補うことができる。"
+            },
+            {
+              "en": "the building it was housed in",
+              "ja": "「それ［= 種子バンク］が収容された建造物」",
+              "note": "it was housed in は形容詞節として the building を修飾しており、直前には関係代名詞の which または that を補うことができる。house O in ... は『O を…（の中）に収容する』という意味で、ここでは受動態で用いられている。"
+            }
+          ]
+        }
+      }
+    },
     {
       "section_number": 8,
       "title": "第8問",
@@ -603,6 +4828,10 @@
         },
         {
           "question_id": "問3",
+          "pre_header": {
+            "en": "[Step 2] Take a position on how much group work should be done in class.",
+            "ja": "［ステップ2］授業でどの程度グループワークを行うべきかについての立場を決める。"
+          },
           "answer_numbers": [
             40,
             41,

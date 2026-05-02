@@ -5179,6 +5179,10 @@
         },
         {
           "question_id": "問3",
+          "pre_header": {
+            "en": "[Step 2] Take a position on electric cars.",
+            "ja": "［ステップ2］電気自動車について立場を決める。"
+          },
           "answer_numbers": [
             40,
             41,
@@ -5189,8 +5193,12 @@
             41
           ],
           "stem": {
-            "en": "Now that you have understood the various opinions, you have taken a position on electric cars and written some notes below.\nChoose the best options to complete [40] — [42]. (You must have all of [40] — [42] correct to get points.)\n\nPOSITION: Electric cars are a good idea.\n[40] and [41] opinions support this the most.\nAn argument common to these two people is that [42].",
+            "en": "Now that you have understood the various opinions, you have taken a position on electric cars and written some notes below. Choose the best options to complete [40] — [42]. (You must have all of [40] — [42] correct to get points.)",
             "ja": "さまざまな意見を理解したので，あなたは電気自動車に対する立場を示し，以下でいくつかのメモを記した。［40］〜［42］に入れるのに最も適切な選択肢を選びなさい。（得点するためには［40］〜［42］のすべてが合っていなければならない）"
+          },
+          "position_box": {
+            "en": "POSITION: Electric cars are a good idea.\n  • [40] and [41] opinions support this the most.\n  • An argument common to these two people is that [42].",
+            "ja": "あなたの立場：電気自動車はよい考えである。\n　• [40]と[41]の意見がこれを最も支持している。\n　• この2人に共通の論点：[42]。"
           },
           "choices_40": [
             {

@@ -7,6 +7,9 @@
 const EXAM_PATHS = {
   sundai_2026_01: 'data/sundai/2026/round01/data.json',
   sundai_2026_02: 'data/sundai/2026/round02/data.json',
+  sundai_2026_03: 'data/sundai/2026/round03/data.json',
+  sundai_2026_04: 'data/sundai/2026/round04/data.json',
+  sundai_2026_05: 'data/sundai/2026/round05/data.json',
   sundai_2025_01: 'data/sundai/2025/round01/data.json',
   sundai_2025_02: 'data/sundai/2025/round02/data.json',
   sundai_2025_03: 'data/sundai/2025/round03/data.json',
@@ -111,7 +114,21 @@ function renderPassage() {
   // 各英文を .sentence span でラップし、本文と同じクリック→和訳ポップアップ機能に対応させる。
   if (sec.situation && !sec.subsections) {
     let sitHtml = '<div class="situation-box">';
-    sitHtml += `<div class="situation-intro"><span class="sentence" data-sid="__sit_intro">${sec.situation.en}</span></div>`;
+    const introSents = sec.situation.intro_sentences;
+    if (introSents && introSents.length) {
+      sitHtml += '<div class="situation-intro">';
+      for (const s of introSents) {
+        sitHtml += `<span class="sentence" data-sid="${s.id}">${s.en || ''}</span> `;
+      }
+      sitHtml += '</div>';
+      sitHtml += '<div class="passage-ja-block situation-intro-sentences-ja">';
+      for (const s of introSents) {
+        sitHtml += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja || ''}</div>`;
+      }
+      sitHtml += '</div>';
+    } else {
+      sitHtml += `<div class="situation-intro"><span class="sentence" data-sid="__sit_intro">${sec.situation.en}</span></div>`;
+    }
     if (sec.situation.steps && sec.situation.steps.length) {
       sitHtml += '<ul class="situation-steps">';
       sec.situation.steps.forEach((step, i) => {
@@ -122,7 +139,7 @@ function renderPassage() {
       });
       sitHtml += '</ul>';
     }
-    if (sec.situation.ja) {
+    if (sec.situation.ja && !(introSents && introSents.length)) {
       sitHtml += `<div class="situation-intro-ja choice-text-ja">${sec.situation.ja}</div>`;
     }
     sitHtml += '</div>';
@@ -169,13 +186,46 @@ function renderPassage() {
 
     // Section within the passage box
     const hasPortrait = passage.portrait_image ? ' has-portrait' : '';
-    html += `<div class="passage-section${isHeader ? ' passage-section--header' : ''}${hasPortrait}">`;
+    const framedCls = passage.framed ? ' passage-section--framed' : '';
+    html += `<div class="passage-section${isHeader ? ' passage-section--header' : ''}${hasPortrait}${framedCls}">`;
 
     if (passage.title && !(passage.margin_comments && passage.margin_comments.length > 0)) {
       html += `<div class="passage-title">${passage.title.en}</div>`;
     }
+
+    // ロゴ＋導入枠（第5回 第1問 YCW など）— 見出しより先に置く
+    if (passage.ad_top && passage.ad_top.image && passage.sentences) {
+      const sentMapTop = {};
+      for (const s of passage.sentences) sentMapTop[s.id] = s;
+      const imgBaseTop = currentDataPath.replace(/data\.json$/, '');
+      const rawTopSrc = passage.ad_top.image.src || '';
+      const imgTopSrc = /^https?:\/\//.test(rawTopSrc) ? rawTopSrc : (rawTopSrc.startsWith('data/') ? rawTopSrc : imgBaseTop + rawTopSrc);
+      html += '<div class="ad-top-row">';
+      html += `<div class="ad-top-logo"><img src="${imgTopSrc}" alt="${passage.ad_top.image.alt || ''}"></div>`;
+      html += '<div class="ad-top-intro-box">';
+      html += '<p class="passage-paragraph">';
+      for (const sid of passage.ad_top.sentence_ids || []) {
+        const s = sentMapTop[sid];
+        if (s) html += `<span class="sentence" data-sid="${s.id}">${s.en}</span> `;
+      }
+      html += '</p>';
+      html += '<div class="passage-ja-block">';
+      for (const sid of passage.ad_top.sentence_ids || []) {
+        const s = sentMapTop[sid];
+        if (s) html += `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div>`;
+      }
+      html += '</div></div></div>';
+    }
+
     if (passage.subtitle) {
-      html += `<div class="passage-subtitle">${passage.subtitle.en}</div>`;
+      const subCenter = passage.subtitle.align === 'center' ? ' passage-subtitle--center' : '';
+      if (passage.subtitle.ja) {
+        const sidSub = passage.subtitle.id || `__sub_${passage.id || 'p'}`;
+        html += `<div class="passage-subtitle${subCenter}"><span class="sentence" data-sid="${sidSub}">${passage.subtitle.en}</span></div>`;
+        html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${sidSub}">${passage.subtitle.ja}</div></div>`;
+      } else {
+        html += `<div class="passage-subtitle${subCenter}">${passage.subtitle.en}</div>`;
+      }
     }
 
     // Image (float right/left like original exam)
@@ -257,13 +307,18 @@ function renderPassage() {
 
         html += '<div class="para-audio-row">';
         html += '<div class="para-content">';
-        html += '<div class="ad-box">';
+        const adBoxClass = passage.framed ? 'ad-box ad-box--in-framed' : 'ad-box';
+        html += `<div class="${adBoxClass}">`;
 
         for (const adSec of passage.advertisement_sections) {
           // Section heading with separator
           if (adSec.heading) {
             html += '<hr class="ad-separator">';
-            html += `<div class="ad-section-heading"><strong>${adSec.heading.en}</strong></div>`;
+            const hAlign = adSec.heading_align === 'center' ? ' ad-section-heading--center' : '';
+            html += `<div class="ad-section-heading${hAlign}"><strong>${adSec.heading.en}</strong></div>`;
+            if (adSec.heading.ja) {
+              html += `<div class="choice-text-ja ad-section-heading-ja${hAlign}">${adSec.heading.ja}</div>`;
+            }
           }
 
           if (adSec.type === 'intro') {
@@ -307,6 +362,21 @@ function renderPassage() {
                 html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div></div>`;
               }
             }
+          } else if (adSec.type === 'diamond_blocks') {
+            // ◆見出し付きコースのまとまり（1コース＝複数文・◆は1つ）
+            for (const block of adSec.blocks || []) {
+              html += '<div class="ad-diamond-block">';
+              html += '<span class="ad-diamond-mark" aria-hidden="true">◆</span>';
+              html += '<div class="ad-diamond-body">';
+              for (const sid of block.sentence_ids || []) {
+                const s = sentMap[sid];
+                if (s) {
+                  html += `<p class="passage-paragraph ad-diamond-para"><span class="sentence" data-sid="${s.id}">${s.en}</span></p>`;
+                  html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</div></div>`;
+                }
+              }
+              html += '</div></div>';
+            }
           }
         }
         html += '</div>'; // .ad-box
@@ -333,6 +403,130 @@ function renderPassage() {
       }
     }
 
+    // Hotel brochure sheet（第4回 第2問 The Imgya など：見出し・2段ダッシュ列・料金・レビュー）
+    if (passage.hotel_sheet) {
+      const hs = passage.hotel_sheet;
+      const imgBaseHs = currentDataPath.replace(/data\.json$/, '');
+      const audioFileHs = `${audioBase}s${secNum}_${passage.id}.mp3`;
+      html += '<div class="para-audio-row">';
+      html += '<div class="para-content">';
+      html += '<div class="hotel-sheet">';
+      if (hs.banner) {
+        html += '<div class="hotel-sheet-banner">';
+        html += `<div class="hotel-sheet-title-en">${hs.banner.title.en}</div>`;
+        if (hs.banner.image && hs.banner.image.src) {
+          html += `<img class="hotel-sheet-banner-img" src="${imgBaseHs}${hs.banner.image.src}" alt="${hs.banner.image.alt || ''}" />`;
+        }
+        html += '</div>';
+        if (hs.banner.title.ja) {
+          html += `<div class="hotel-sheet-title-ja choice-text-ja">${hs.banner.title.ja}</div>`;
+        }
+      }
+      for (const hsec of hs.sections || []) {
+        const k = hsec.kind;
+        if (k === 'heading_paragraph') {
+          html += `<div class="hotel-sheet-strong">${hsec.heading.en}</div>`;
+          if (hsec.heading.ja) {
+            html += `<div class="choice-text-ja hotel-sheet-heading-ja">${hsec.heading.ja}</div>`;
+          }
+          const pRaw = hsec.paragraph;
+          const pList = Array.isArray(pRaw) ? pRaw : (pRaw ? [pRaw] : []);
+          html += '<p class="passage-paragraph hotel-sheet-para-indent">';
+          for (const p of pList) {
+            const enHp = String(p.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<span class="sentence" data-sid="${p.id}">${enHp}</span> `;
+          }
+          html += '</p>';
+          html += '<div class="passage-ja-block">';
+          for (const p of pList) {
+            const jaHp = String(p.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="sentence-ja" data-sid-ja="${p.id}">${jaHp}</div>`;
+          }
+          html += '</div>';
+        } else if (k === 'two_column_dashes') {
+          html += `<div class="hotel-sheet-strong">${hsec.heading.en}</div>`;
+          if (hsec.heading.ja) {
+            html += `<div class="choice-text-ja hotel-sheet-heading-ja">${hsec.heading.ja}</div>`;
+          }
+          html += '<div class="hotel-sheet-two-col">';
+          html += '<div class="hotel-sheet-col">';
+          for (const item of hsec.left || []) {
+            const t = String(item.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="hotel-sheet-dash-line"><span class="sentence" data-sid="${item.id}">\u2013 ${t}</span></div>`;
+          }
+          html += '</div><div class="hotel-sheet-col">';
+          for (const item of hsec.right || []) {
+            const t = String(item.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="hotel-sheet-dash-line"><span class="sentence" data-sid="${item.id}">\u2013 ${t}</span></div>`;
+          }
+          html += '</div></div>';
+          html += '<div class="passage-ja-block hotel-sheet-two-col-ja">';
+          html += '<div class="hotel-sheet-col">';
+          for (const item of hsec.left || []) {
+            const tj = String(item.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="sentence-ja" data-sid-ja="${item.id}">${tj}</div>`;
+          }
+          html += '</div><div class="hotel-sheet-col">';
+          for (const item of hsec.right || []) {
+            const tj = String(item.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="sentence-ja" data-sid-ja="${item.id}">${tj}</div>`;
+          }
+          html += '</div></div>';
+        } else if (k === 'prices') {
+          html += '<div class="hotel-sheet-prices-wrap">';
+          html += `<div class="hotel-sheet-strong">${hsec.heading.en}</div>`;
+          if (hsec.heading.ja) {
+            html += `<div class="choice-text-ja hotel-sheet-heading-ja">${hsec.heading.ja}</div>`;
+          }
+          html += '<ul class="hotel-sheet-price-list">';
+          for (const line of hsec.lines || []) {
+            const t = String(line.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<li><span class="sentence" data-sid="${line.id}">\u2013 ${t}</span></li>`;
+          }
+          html += '</ul>';
+          html += '<div class="passage-ja-block">';
+          for (const line of hsec.lines || []) {
+            const tj = String(line.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="sentence-ja" data-sid-ja="${line.id}">${tj}</div>`;
+          }
+          html += '</div></div>';
+        } else if (k === 'guest_review') {
+          html += '<div class="hotel-sheet-review">';
+          html += '<div class="hotel-sheet-review-header">';
+          html += `<span class="hotel-sheet-review-left">${hsec.header_left.en}</span>`;
+          const starN = typeof hsec.stars === 'number' ? hsec.stars : 5;
+          html += `<span class="hotel-sheet-review-rating">${'\u2605'.repeat(starN)} ${hsec.rating_right.en}</span>`;
+          html += '</div>';
+          if (hsec.header_left.ja || hsec.rating_right.ja) {
+            html += '<div class="hotel-sheet-review-header-ja choice-text-ja">';
+            html += `<span>${hsec.header_left.ja || ''}</span> <span>${hsec.rating_right.ja || ''}</span>`;
+            html += '</div>';
+          }
+          html += `<div class="hotel-sheet-reviewer">${hsec.reviewer.en}</div>`;
+          if (hsec.reviewer.ja) html += `<div class="choice-text-ja">${hsec.reviewer.ja}</div>`;
+          const bRaw = hsec.body;
+          const bList = Array.isArray(bRaw) ? bRaw : (bRaw ? [bRaw] : []);
+          html += '<p class="passage-paragraph">';
+          for (const b of bList) {
+            const enB = String(b.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<span class="sentence" data-sid="${b.id}">${enB}</span> `;
+          }
+          html += '</p>';
+          html += '<div class="passage-ja-block">';
+          for (const b of bList) {
+            const jaB = String(b.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="sentence-ja" data-sid-ja="${b.id}">${jaB}</div>`;
+          }
+          html += '</div>';
+          html += '</div>';
+        }
+      }
+      html += '</div>';
+      html += '</div>';
+      html += `<button class="btn-audio" data-audio="${audioFileHs}" title="読み上げ">🔊</button>`;
+      html += '</div>';
+    }
+
     // Presentation outline in a box (駿台 第7問など)
     if (passage.presentation_outline) {
       const po = passage.presentation_outline;
@@ -344,9 +538,27 @@ function renderPassage() {
       }
       html += '<div class="presentation-outline-box">';
       if (po.title && po.title.en) {
-        html += `<div class="presentation-outline-inner-title">${po.title.en}</div>`;
-        if (po.title.ja) {
-          html += `<div class="presentation-outline-inner-title-ja choice-text-ja">${po.title.ja}</div>`;
+        if (po.header_right && Array.isArray(po.header_right.lines_en)) {
+          html += '<div class="presentation-notes-banner">';
+          html += '<div class="presentation-notes-banner-main">';
+          html += `<div class="presentation-outline-inner-title">${po.title.en}</div>`;
+          if (po.title.ja) {
+            html += `<div class="presentation-outline-inner-title-ja choice-text-ja">${po.title.ja}</div>`;
+          }
+          html += '</div>';
+          html += '<div class="presentation-notes-header-right">';
+          const hrs = po.header_right.lines_en || [];
+          const hrj = po.header_right.lines_ja || [];
+          for (let hi = 0; hi < hrs.length; hi++) {
+            html += `<div class="presentation-notes-hand">${hrs[hi]}</div>`;
+            if (hrj[hi]) html += `<div class="presentation-notes-hand choice-text-ja">${hrj[hi]}</div>`;
+          }
+          html += '</div></div>';
+        } else {
+          html += `<div class="presentation-outline-inner-title">${po.title.en}</div>`;
+          if (po.title.ja) {
+            html += `<div class="presentation-outline-inner-title-ja choice-text-ja">${po.title.ja}</div>`;
+          }
         }
       }
       const blocks = po.blocks || [];
@@ -442,6 +654,75 @@ function renderPassage() {
             html += `<div class="story-outline-tail">${bl.tail_en}</div>`;
             if (bl.tail_ja) html += `<div class="choice-text-ja">${bl.tail_ja}</div>`;
           }
+        } else if (btype === 'underlined_heading') {
+          html += `<div class="presentation-underline-heading"><span>${bl.heading.en}</span></div>`;
+          if (bl.heading.ja) {
+            html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+          }
+        } else if (btype === 'whos_who_brace') {
+          html += `<div class="presentation-underline-heading pres-ww-title"><span>${bl.heading.en}</span></div>`;
+          if (bl.heading.ja) {
+            html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+          }
+          html += '<div class="pres-whoswho-row">';
+          html += '<div class="pres-whoswho-lines">';
+          for (const row of bl.rows || []) {
+            const blank =
+              row.blank_slot != null
+                ? `<span class="answer-slot">${row.blank_slot}</span>`
+                : '<span class="notes-blank-box"></span>';
+            html += `<div class="pres-whoswho-line"><strong>${row.label}:</strong> ${blank}</div>`;
+          }
+          html += '</div>';
+          html += '<div class="pres-whoswho-brace" aria-hidden="true">}</div>';
+          if (bl.brace_target_slot != null) {
+            html += `<div class="pres-whoswho-target"><span class="answer-slot">${bl.brace_target_slot}</span></div>`;
+          }
+          html += '</div>';
+        } else if (btype === 'storyline_horizontal') {
+          html += `<div class="presentation-underline-heading"><span>${bl.heading.en}</span></div>`;
+          if (bl.heading.ja) {
+            html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+          }
+          for (const line of bl.lead_lines || []) {
+            html += `<div class="pres-story-lead">${line.en}</div>`;
+            if (line.ja) html += `<div class="choice-text-ja">${line.ja}</div>`;
+          }
+          html += '<div class="pres-story-flow">';
+          const hslots = bl.horizontal_slots || [];
+          for (let hi = 0; hi < hslots.length; hi++) {
+            if (hi > 0) {
+              html += '<span class="pres-story-arrow">→</span>';
+            }
+            html += `<span class="answer-slot">${hslots[hi]}</span>`;
+          }
+          html += '</div>';
+        } else if (btype === 'bullets_lead_slots') {
+          if (bl.heading && bl.heading.en) {
+            html += `<div class="presentation-underline-heading"><span>${bl.heading.en}</span></div>`;
+            if (bl.heading.ja) {
+              html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+            }
+          }
+          if (bl.intro && bl.intro.en) {
+            html += `<div class="pres-bullets-intro">${bl.intro.en}</div>`;
+            if (bl.intro.ja) html += `<div class="choice-text-ja">${bl.intro.ja}</div>`;
+          }
+          html += '<ul class="pres-bullets-slot-list">';
+          for (const it of bl.items || []) {
+            const t = String(it.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += '<li>';
+            if (it.slot != null) {
+              html += `<span class="answer-slot">${it.slot}</span> `;
+            }
+            html += t;
+            if (it.ja) {
+              const tj = String(it.ja).replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="choice-text-ja">${tj}</div>`;
+            }
+            html += '</li>';
+          }
+          html += '</ul>';
         }
       }
       html += '</div>'; // .presentation-outline-box
@@ -583,17 +864,25 @@ function renderPassage() {
           html += '<tr><td class="essay-cell-main">';
           html += '<div class="para-audio-row">';
           html += '<div class="para-content">';
-          html += '<p class="passage-paragraph">';
+          const essayParaClass =
+            passage.paragraph_classes && passage.paragraph_classes[pi]
+              ? ' ' + passage.paragraph_classes[pi]
+              : '';
+          html += '<p class="passage-paragraph' + essayParaClass + '">';
           for (const sent of para) {
             // Show marker BEFORE sentence (default) unless marker_position is 'after'
-            if (sent.comment_marker && sent.marker_position !== 'after') {
+            // But if underline_word is set, inject marker right before the underline
+            if (sent.comment_marker && sent.marker_position !== 'after' && !sent.underline_word) {
               const caret = sent.marker_type === 'caret' ? ' <span class="caret-mark">∧</span>' : '';
               html += '<sup class="comment-marker">' + sent.comment_marker + '</sup>' + caret + ' ';
             }
             // Render sentence text with optional underline word
             let sentText = sent.en;
             if (sent.underline_word) {
-              sentText = sentText.replace(sent.underline_word, '<span class="underline-word">' + sent.underline_word + '</span>');
+              const markerHtml = (sent.comment_marker && sent.marker_position !== 'after')
+                ? '<sup class="comment-marker">' + sent.comment_marker + '</sup>'
+                : '';
+              sentText = sentText.replace(sent.underline_word, markerHtml + '<span class="underline-word">' + sent.underline_word + '</span>');
             }
             html += '<span class="sentence" data-sid="' + sent.id + '">' + sentText + '</span> ';
             // Show marker AFTER sentence
@@ -732,10 +1021,28 @@ function renderPassage() {
               }
             }
           }
-          // Check if para is an object {id, en, ja} (6A/6B paragraph format) or an array of sentences
-          if (!Array.isArray(para) && para.id && para.en) {
+          // Optional per-paragraph CSS classes (e.g. "para-indent" for first-line indent), parallel to paragraphs[]
+          const paraExtraClass =
+            passage.paragraph_classes && passage.paragraph_classes[pi]
+              ? ' ' + passage.paragraph_classes[pi]
+              : '';
+          // ☆ 付き箇条書き（問題冊子のオープンスター・リスト）
+          if (!Array.isArray(para) && para.list_style === 'star' && Array.isArray(para.items)) {
+            html += `<ul class="passage-star-bullets${paraExtraClass}">`;
+            for (const it of para.items) {
+              const enText = String(it.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<li><span class="sentence" data-sid="${it.id}">${enText}</span></li>`;
+            }
+            html += '</ul>';
+            html += '<div class="passage-ja-block passage-star-bullets-ja">';
+            for (const it of para.items) {
+              const jaText = String(it.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<div class="sentence-ja sentence-ja-star-line" data-sid-ja="${it.id}">${jaText}</div>`;
+            }
+            html += '</div>';
+          } else if (!Array.isArray(para) && para.id && para.en) {
             // Object paragraph: render as a single paragraph block
-            html += '<p class="passage-paragraph">';
+            html += `<p class="passage-paragraph${paraExtraClass}">`;
             html += `<span class="sentence" data-sid="${para.id}">${para.en}</span>`;
             html += '</p>';
             html += '<div class="passage-ja-block">';
@@ -743,7 +1050,7 @@ function renderPassage() {
             html += '</div>';
           } else {
             // Array of sentences (legacy format)
-            html += '<p class="passage-paragraph">';
+            html += `<p class="passage-paragraph${paraExtraClass}">`;
             for (const sent of para) {
               const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
               html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
@@ -956,7 +1263,11 @@ function renderPassage() {
       }
       // Bar chart image (user-provided screenshot)
       if (passage.chart_image) {
-        html += `<div class="chart-image-container"><img class="chart-image" src="${passage.chart_image.src}" alt="${passage.chart_image.alt || 'Chart'}"></div>`;
+        const chartBase = currentDataPath.replace(/data\.json$/, '');
+        const chartSrc = passage.chart_image.src.startsWith('http')
+          ? passage.chart_image.src
+          : chartBase + passage.chart_image.src;
+        html += `<div class="chart-image-container"><img class="chart-image" src="${chartSrc}" alt="${passage.chart_image.alt || 'Chart'}"></div>`;
       } else if (passage.chart_data) {
         // Fallback: simple image if chart_image not set
         const imgBase = currentDataPath.replace(/data\.json$/, 'images/');
@@ -969,10 +1280,27 @@ function renderPassage() {
       if (passage.comments) {
         html += `<div class="questionnaire-comments-label">Main comments:</div>`;
         for (const c of passage.comments) {
-          html += `<div class="student-comment">
-            <span class="sentence" data-sid="${c.id}"><strong>${c.label === 'S1' ? 'Student 1 (S1)' : c.label}:</strong> ${c.en}</span>
-            <div class="sentence-ja" data-sid-ja="${c.id}">${c.ja}</div>
-          </div>`;
+          html += '<div class="student-comment">';
+          const parts = c.sentences && c.sentences.length ? c.sentences : null;
+          if (parts) {
+            for (let pi = 0; pi < parts.length; pi++) {
+              const ps = parts[pi];
+              const lab = pi === 0
+                ? (c.label === 'S1' ? 'Student 1 (S1)' : c.label)
+                : '';
+              const prefix = lab ? `<strong>${lab}:</strong> ` : '';
+              html += `<span class="sentence" data-sid="${ps.id}">${prefix}${ps.en}</span> `;
+            }
+            html += '<div class="passage-ja-block questionnaire-comment-ja">';
+            for (const ps of parts) {
+              html += `<div class="sentence-ja" data-sid-ja="${ps.id}">${ps.ja}</div>`;
+            }
+            html += '</div>';
+          } else {
+            html += `<span class="sentence" data-sid="${c.id}"><strong>${c.label === 'S1' ? 'Student 1 (S1)' : c.label}:</strong> ${c.en}</span>`;
+            html += `<div class="sentence-ja" data-sid-ja="${c.id}">${c.ja}</div>`;
+          }
+          html += '</div>';
         }
       }
     }
@@ -1435,6 +1763,35 @@ function findSentenceJa(sid) {
     return null;
   }
 
+  // ── situation.intro_sentences
+  if (currentSection.situation && currentSection.situation.intro_sentences) {
+    for (const s of currentSection.situation.intro_sentences) {
+      if (s.id === sid) return s.ja;
+    }
+  }
+
+  // ── 設問 stem.sentences
+  for (const q of currentSection.questions || []) {
+    const stem = q.stem || q.question_text;
+    if (stem && stem.sentences) {
+      const hit = stem.sentences.find(s => s.id === sid);
+      if (hit) return hit.ja;
+    }
+  }
+
+  // ── questionnaire のコメント（複数文）
+  for (const passage of currentSection.passages || []) {
+    if (passage.id === 'questionnaire' && passage.comments) {
+      for (const c of passage.comments) {
+        if (c.sentences) {
+          const hit = c.sentences.find(s => s.id === sid);
+          if (hit) return hit.ja;
+        }
+        if (c.id === sid) return c.ja;
+      }
+    }
+  }
+
   // ── 通常の本文 sentence ID
   for (const passage of currentSection.passages) {
     if (passage.sentences) {
@@ -1446,8 +1803,37 @@ function findSentenceJa(sid) {
         if (Array.isArray(para)) {
           const sent = para.find(s => s.id === sid);
           if (sent) return sent.ja;
+        } else if (para && para.list_style === 'star' && Array.isArray(para.items)) {
+          const sent = para.items.find(s => s.id === sid);
+          if (sent) return sent.ja;
         } else if (para && para.id === sid) {
           return para.ja;
+        }
+      }
+    }
+    if (passage.hotel_sheet && passage.hotel_sheet.sections) {
+      for (const hsec of passage.hotel_sheet.sections) {
+        if (hsec.kind === 'heading_paragraph' && hsec.paragraph) {
+          const plist = Array.isArray(hsec.paragraph) ? hsec.paragraph : [hsec.paragraph];
+          for (const p of plist) {
+            if (p.id === sid) return p.ja;
+          }
+        }
+        if (hsec.kind === 'two_column_dashes') {
+          for (const item of [...(hsec.left || []), ...(hsec.right || [])]) {
+            if (item.id === sid) return item.ja;
+          }
+        }
+        if (hsec.kind === 'prices') {
+          for (const line of hsec.lines || []) {
+            if (line.id === sid) return line.ja;
+          }
+        }
+        if (hsec.kind === 'guest_review' && hsec.body) {
+          const blist = Array.isArray(hsec.body) ? hsec.body : [hsec.body];
+          for (const b of blist) {
+            if (b.id === sid) return b.ja;
+          }
         }
       }
     }
@@ -1603,6 +1989,24 @@ function escapeHtmlPreserve(s) {
     .replace(/&lt;u&gt;([\s\S]*?)&lt;\/u&gt;/g, '<u>$1</u>');
 }
 
+/** choices_N 付きの複数空欄。answer_numbers が無い場合は answer のキーと choices_N から導出する */
+function deriveMultiSlotAnswerNumbers(q) {
+  if (Array.isArray(q.answer_numbers) && q.answer_numbers.length) return q.answer_numbers;
+  if (q.answer && typeof q.answer === 'object' && !Array.isArray(q.answer)) {
+    const nums = Object.keys(q.answer)
+      .map(k => parseInt(k, 10))
+      .filter(
+        n =>
+          !isNaN(n) &&
+          Array.isArray(q['choices_' + n]) &&
+          q['choices_' + n].length > 0
+      );
+    nums.sort((a, b) => a - b);
+    if (nums.length) return nums;
+  }
+  return null;
+}
+
 // ===== Render Questions (Right Pane) =====
 function renderQuestions() {
   const sec = currentSection;
@@ -1615,6 +2019,14 @@ function renderQuestions() {
       html += `<div class="subsection-label">${sec.title} ${q._subsectionLabel}</div>`;
       prevSubLabel = q._subsectionLabel;
     }
+    // Optional Step / phase header rendered above this question
+    // (e.g. "Step 2: Take a position ..." inserted before 問3 of 第8問)
+    if (q.pre_header && (q.pre_header.en || q.pre_header.ja)) {
+      html += `<div class="question-pre-header">`;
+      if (q.pre_header.en) html += `<div class="question-pre-header-en">${q.pre_header.en}</div>`;
+      if (q.pre_header.ja) html += `<div class="question-pre-header-ja choice-text-ja">${q.pre_header.ja}</div>`;
+      html += `</div>`;
+    }
     const qIdx = getQuestionIndex(q.question_id);
     html += `<div class="question-block" data-qid="${q.question_id}">`;
 
@@ -1626,7 +2038,20 @@ function renderQuestions() {
 
     // Stem (support both "stem" and "question_text" field names)
     const stemObj = q.stem || q.question_text;
-    if (stemObj && stemObj.en) {
+    if (stemObj && stemObj.sentences && stemObj.sentences.length) {
+      html += '<div class="question-stem">';
+      for (const s of stemObj.sentences) {
+        const enLine = String(s.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+        html += `<span class="sentence" data-sid="${s.id}">${enLine}</span> `;
+      }
+      html += '</div>';
+      html += '<div class="passage-ja-block question-stem-ja">';
+      for (const s of stemObj.sentences) {
+        const jaLine = String(s.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+        html += `<div class="sentence-ja" data-sid-ja="${s.id}">${jaLine}</div>`;
+      }
+      html += '</div>';
+    } else if (stemObj && stemObj.en) {
       const stemEn = stemObj.en.replace(
         /\[(\d+)\]/g,
         '<span class="answer-slot">$1</span>'
@@ -1634,8 +2059,8 @@ function renderQuestions() {
       html += `<div class="question-stem">${stemEn}</div>`;
     }
 
-    // Stem ja (hidden by default)
-    if (stemObj && stemObj.ja) {
+    // Stem ja (hidden by default) — single-block stems only
+    if (stemObj && stemObj.ja && !(stemObj.sentences && stemObj.sentences.length)) {
       html += `<div class="choice-text-ja" style="margin-bottom:10px; margin-top:-8px;">${stemObj.ja}</div>`;
     }
 
@@ -1672,6 +2097,29 @@ function renderQuestions() {
       </figure>`;
     }
 
+    // Position box (Step 2 のメモ枠: Your position / Authors [X] and [Y] / main argument [Z])
+    if (q.position_box && (q.position_box.en || q.position_box.ja)) {
+      const pbEn = (q.position_box.en || '')
+        .replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>')
+        .replace(/\n/g, '<br>');
+      const pbJa = (q.position_box.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>').replace(/\n/g, '<br>');
+      html += `<div class="position-box">`;
+      html += `<div class="position-box-en">${pbEn}</div>`;
+      if (pbJa) html += `<div class="position-box-ja choice-text-ja">${pbJa}</div>`;
+      html += `</div>`;
+    }
+
+    // Question-level table/chart image (uses imgBase path like graph_image)
+    if (q.question_image && q.question_image.src) {
+      const qImgBase = currentDataPath.replace(/data\.json$/, '');
+      const qImgCap = q.question_image.caption_ja
+        ? `<div class="question-figure-caption">${q.question_image.caption_ja}</div>` : '';
+      html += `<figure class="question-figure">
+        <img class="chart-image" src="${qImgBase}${q.question_image.src}" alt="${q.question_image.alt || ''}" />
+        ${qImgCap}
+      </figure>`;
+    }
+
     /** 画像で①〜④を示すのみで、選択肢テキストが空の設問か */
     const pictureTierChoices =
       q.choices &&
@@ -1684,8 +2132,40 @@ function renderQuestions() {
           !c.image
       );
 
-    // Choices — ordering vs normal
-    if (q.question_type === 'ordering') {
+    const multiSlotNums = deriveMultiSlotAnswerNumbers(q);
+
+    // Two-column combination choices (e.g. 第6問 問1: Anais | Samantha)
+    if (q.choice_pair_headers && q.choices && q.choices.some(c => c.pair_left && c.pair_right)) {
+      html += '<div class="choice-pairs-wrap">';
+      html += '<div class="choice-pairs-head" role="row">';
+      html += '<div class="choice-pairs-head-spacer" aria-hidden="true"></div>';
+      for (const h of q.choice_pair_headers) {
+        html += `<div class="choice-pairs-head-col"><span class="choice-pairs-head-underline">${h.en || ''}</span>`;
+        if (h.ja) html += `<div class="choice-text-ja choice-pairs-head-ja">${h.ja}</div>`;
+        html += '</div>';
+      }
+      html += '</div>';
+      html += '<div class="choice-pairs-body">';
+      for (const choice of q.choices) {
+        if (!choice.pair_left || !choice.pair_right) continue;
+        const dc = choice.is_correct === true ? 'true' : 'false';
+        html += `<div class="choice-item choice-pair-row" data-qid="${q.question_id}" data-label="${choice.label}" data-correct="${dc}">`;
+        html += `<div class="choice-pair-label-wrap"><span class="choice-pair-label-badge">${choice.label}</span></div>`;
+        html += '<div class="choice-pair-cell-box">';
+        html += `<span class="choice-text">${choice.pair_left.en || ''}</span>`;
+        if (choice.pair_left.ja) {
+          html += `<div class="choice-text-ja">${choice.pair_left.ja}</div>`;
+        }
+        html += '</div>';
+        html += '<div class="choice-pair-cell-box">';
+        html += `<span class="choice-text">${choice.pair_right.en || ''}</span>`;
+        if (choice.pair_right.ja) {
+          html += `<div class="choice-text-ja">${choice.pair_right.ja}</div>`;
+        }
+        html += '</div></div>';
+      }
+      html += '</div></div>';
+    } else if (q.question_type === 'ordering') {
       // Ordering slots row
       const slotCount = q.answer_sequence ? q.answer_sequence.length : (q.choices ? q.choices.length : 0);
       html += '<div class="ordering-slots" data-qid="' + q.question_id + '">';
@@ -1708,16 +2188,16 @@ function renderQuestions() {
       html += '</div>';
       // Undo button
       html += '<button class="ordering-undo" data-qid="' + q.question_id + '" title="取り消し" style="display:none;">↩ 戻す</button>';
-    } else if (q.answer_numbers) {
+    } else if (multiSlotNums) {
       // Multiple answer: slot-based UI (select all before checking)
       html += '<div class="multi-answer-slots" data-qid="' + q.question_id + '">';
-      for (let ai = 0; ai < q.answer_numbers.length; ai++) {
-        const ansNum = q.answer_numbers[ai];
+      for (let ai = 0; ai < multiSlotNums.length; ai++) {
+        const ansNum = multiSlotNums[ai];
         if (ai > 0) html += '<span class="ordering-arrow">＋</span>';
         html += '<span class="ordering-slot multi-slot" data-slot="' + ansNum + '">[' + ansNum + ']</span>';
       }
       html += '</div>';
-      for (const ansNum of q.answer_numbers) {
+      for (const ansNum of multiSlotNums) {
         const choicesKey = `choices_${ansNum}`;
         const choices = q[choicesKey];
         if (!choices) continue;
@@ -1904,20 +2384,27 @@ function handleOrderingClick(e) {
   if (allFilled) {
     // Judge
     const q = currentSection.questions.find(q => q.question_id === qid);
-    const userSeq = [...slots].map(s => {
-      // Extract number from label like "①" → 1
-      const m = s.dataset.label.match(/[①②③④⑤⑥⑦⑧]/);
-      if (m) return '①②③④⑤⑥⑦⑧'.indexOf(m[0]) + 1;
-      return parseInt(s.dataset.label);
-    });
-    const isCorrect = JSON.stringify(userSeq) === JSON.stringify(q.answer_sequence);
+    // Compare by raw labels (e.g. "①","②"...) to match answer_sequence which is character-form.
+    const userLabels = [...slots].map(s => s.dataset.label);
+    const isCorrect = JSON.stringify(userLabels) === JSON.stringify(q.answer_sequence);
 
     slotsContainer.classList.add('judged', isCorrect ? 'correct' : 'wrong');
     undoBtn.style.display = 'none';
 
     // If wrong, show correct answer
     if (!isCorrect) {
-      const correctText = q.answer;
+      let correctText;
+      if (q.answer && typeof q.answer === 'object') {
+        // Multi-slot dict: {"25": "⑤", "26": "②", ...}
+        const parts = Object.entries(q.answer).map(([k, v]) => `[${k}] ${v}`);
+        correctText = parts.join('  ');
+        if (q.answer_note) correctText += `（${q.answer_note}）`;
+      } else if (Array.isArray(q.answer_sequence)) {
+        correctText = q.answer_sequence.join(' → ');
+        if (q.answer_note) correctText += `（${q.answer_note}）`;
+      } else {
+        correctText = String(q.answer || '');
+      }
       const correctDiv = document.createElement('div');
       correctDiv.className = 'ordering-correct-answer';
       correctDiv.textContent = '正解: ' + correctText;
@@ -1997,6 +2484,8 @@ function handleMultiAnswerClick(e) {
   // Judge all answers
   const q = currentSection.questions.find(q => q.question_id === qid);
   if (!q) return;
+  const slotNums = deriveMultiSlotAnswerNumbers(q);
+  if (!slotNums || !slotNums.length) return;
 
   // Determine which slots are unordered (e.g. [27] and [28] are interchangeable)
   const unorderedSlots = q.unordered_slots || [];
@@ -2037,7 +2526,7 @@ function handleMultiAnswerClick(e) {
   if (undoBtn) undoBtn.style.display = 'none';
 
   // Mark choices as correct/wrong
-  for (const num of q.answer_numbers) {
+  for (const num of slotNums) {
     const isUnordered = unorderedSlots.includes(Number(num));
     const selectedEl = document.querySelector(`.multi-choice[data-qid="${qid}"][data-ans-num="${num}"].selected`);
     if (selectedEl) {
@@ -2066,7 +2555,7 @@ function handleMultiAnswerClick(e) {
   // If wrong, show correct
   if (!allCorrect) {
     let correctText = '正解: ';
-    for (const num of q.answer_numbers) {
+    for (const num of slotNums) {
       correctText += `[${num}] ${q.answer[String(num)]}  `;
     }
     if (q.answer_note) correctText += `（${q.answer_note}）`;
