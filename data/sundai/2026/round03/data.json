@@ -7,10 +7,1023 @@
     "subject": "英語（リーディング）",
     "time_limit_minutes": 80,
     "total_answer_numbers": null,
-    "implemented_sections": [],
+    "implemented_sections": [
+      8
+    ],
     "source_pdf_mondai": "第3回_問題.pdf",
     "source_pdf_kaitou": "第3回_解説.pdf",
     "data_policy": "本文・選択肢・解説は駿台『2026年駿台実戦問題集 英語リーディング』第3回・問題冊子および解説冊子を逐語転載する。学習者向けの補足は instructor_note に分離して「講師からの＋α」として控えめに表示する。"
   },
-  "sections": []
+  "sections": [
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 17,
+      "description": "エッセイ準備（グループワーク）：意見読解・立場決定・情報源活用",
+      "situation": {
+        "en": "You are working on an essay about how much group work should be done in class. To do this, you will follow the steps below.",
+        "ja": "あなたは授業でどの程度グループワークを行うべきかについてのエッセイを作成中です。これをするために、以下のステップに従います。",
+        "steps": [
+          {
+            "en": "Step 1: Read and understand various viewpoints about group work.",
+            "ja": "ステップ1：グループワークに関するさまざまな見解を読んで理解する。"
+          },
+          {
+            "en": "Step 2: Take a position on how much group work should be done in class.",
+            "ja": "ステップ2：授業でどの程度グループワークを行うべきかについての立場を決める。"
+          },
+          {
+            "en": "Step 3: Use additional sources to create an outline for your essay.",
+            "ja": "ステップ3：エッセイの概要を作成するために追加の資料を使用する。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "step1_authors",
+          "title": {
+            "en": "[Step 1] Read various sources",
+            "ja": "[ステップ1] さまざまな資料を読む"
+          },
+          "layout": "speaker_boxes",
+          "paragraphs": [
+            [
+              {
+                "id": "auth_a_h",
+                "en": "Author A (Researcher)",
+                "ja": "著者A（研究者）"
+              },
+              {
+                "id": "auth_a_s1",
+                "en": "Teachers in training often ask me about group work in the classroom.",
+                "ja": "研修中の教師から、教室でのグループワークについて私はよく質問されます。"
+              },
+              {
+                "id": "auth_a_s2",
+                "en": "There are many studies that show how students benefit from working in groups.",
+                "ja": "生徒がグループで活動することから得られる利点を示す多くの研究が存在します。"
+              },
+              {
+                "id": "auth_a_s3",
+                "en": "What do the results of these studies show?",
+                "ja": "これらの研究の結果は何を示しているのでしょうか。"
+              },
+              {
+                "id": "auth_a_s4",
+                "en": "They show that the more students interact with other students, the more efficiently they learn.",
+                "ja": "生徒は他の生徒とのやり取りを増やすほど、より効率的に学習することを示しています。"
+              },
+              {
+                "id": "auth_a_s5",
+                "en": "This is because, by comparing their own ideas and answers with others, they notice many things.",
+                "ja": "これは、自分の考えや答えを他の人と比較することで、多くのことに気づくからです。"
+              },
+              {
+                "id": "auth_a_s6",
+                "en": "This process of working in groups allows the students to develop their knowledge and critical thinking skills quickly.",
+                "ja": "このグループによる活動のプロセスにより、生徒は素早く知識を深め、批判的思考能力を身につけることができます。"
+              }
+            ],
+            [
+              {
+                "id": "auth_b_h",
+                "en": "Author B (High school principal)",
+                "ja": "著者B（高校の校長）"
+              },
+              {
+                "id": "auth_b_s1",
+                "en": "It is true that group work has many merits, and students find it enjoyable.",
+                "ja": "グループワークには多くの利点があり、生徒たちはそれを楽しんでいることは事実です。"
+              },
+              {
+                "id": "auth_b_s2",
+                "en": "But just because a method is enjoyable does not mean it is the only one that should be used.",
+                "ja": "しかし、ある方法が楽しいからといって、それが唯一使用されるべき方法であるというわけではありません。"
+              },
+              {
+                "id": "auth_b_s3",
+                "en": "Research shows that students learn in many different ways, and teachers need to have a variety of activities and methods to reflect this.",
+                "ja": "研究によれば、生徒たちの学習方法は多様であり、教師はこれを反映するさまざまな活動や方法を持つ必要があります。"
+              },
+              {
+                "id": "auth_b_s4",
+                "en": "This means that although some group work is great, we still need to balance it with individual work for a successful class.",
+                "ja": "これは、ある程度のグループワークは素晴らしいものだが、授業を成功させるためには、個別作業とのバランスもやはり必要であることを意味します。"
+              },
+              {
+                "id": "auth_b_s5",
+                "en": "Relying on one method over the other will have negative results in terms of both academics and behavior.",
+                "ja": "1つの方法に過度に依存することは、成績と学習態度の双方において悪影響を及ぼすでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "auth_c_h",
+                "en": "Author C (Teacher)",
+                "ja": "著者C（教師）"
+              },
+              {
+                "id": "auth_c_s1",
+                "en": "When I was just starting my teaching career, I mostly made my students work individually.",
+                "ja": "教師としてのキャリアをスタートさせたばかりの頃、私はたいていの場合、生徒に個別作業をさせていました。"
+              },
+              {
+                "id": "auth_c_s2",
+                "en": "Although I enjoyed this style, I noticed that it might not have been the most interesting method for my students.",
+                "ja": "このスタイルは楽しかったのですが、それが生徒にとって最も興味深い方法ではなかったかもしれないと気づきました。"
+              },
+              {
+                "id": "auth_c_s3",
+                "en": "This led me to try adding group work.",
+                "ja": "これがグループワークを加えてみるきっかけとなりました。"
+              },
+              {
+                "id": "auth_c_s4",
+                "en": "At first, I noticed that the students were excited to share their opinions with other group members, and they were definitely learning a lot.",
+                "ja": "最初は、生徒たちがグループの仲間とわくわくしながら意見を共有し、確かに多くのことを学んでいることに気づきました。"
+              },
+              {
+                "id": "auth_c_s5",
+                "en": "Soon after, I also realized their scores were improving faster than before.",
+                "ja": "その後まもなく、彼らの成績が以前よりも早く伸びていることにも気づきました。"
+              },
+              {
+                "id": "auth_c_s6",
+                "en": "This is why today I use most of my class time for group work.",
+                "ja": "これが今日、私が授業時間の大部分をグループワークに割り当てている理由です。"
+              }
+            ],
+            [
+              {
+                "id": "auth_d_h",
+                "en": "Author D (High school student)",
+                "ja": "著者D（高校生）"
+              },
+              {
+                "id": "auth_d_s1",
+                "en": "At my school, most teachers use group work.",
+                "ja": "私の学校では、ほとんどの教師がグループワークを使用しています。"
+              },
+              {
+                "id": "auth_d_s2",
+                "en": "Sometimes it can be fun, and I do learn a lot from my friends.",
+                "ja": "時には楽しく、友人から確かに多くのことを学ぶことができます。"
+              },
+              {
+                "id": "auth_d_s3",
+                "en": "But when almost every class has group work, some group members don’t take the tasks seriously.",
+                "ja": "しかしほぼ全ての授業でグループワークが行われると、グループの仲間の一部が課題に真剣に取り組みません。"
+              },
+              {
+                "id": "auth_d_s4",
+                "en": "On the other hand, when I work alone, I often have great difficulty finding the answer, but I feel a sense of responsibility.",
+                "ja": "他方、1人で課題に取り組むと、私はしばしば答えを見つけるのに大変苦労することがありますが、責任感が生まれます。"
+              },
+              {
+                "id": "auth_d_s5",
+                "en": "Therefore, both ways of learning have their own merits and demerits, and they should be combined in class.",
+                "ja": "ですから、どちらの学習法もそれなりの利点と欠点があり、授業では両方を組み合わせるべきです。"
+              }
+            ],
+            [
+              {
+                "id": "auth_e_h",
+                "en": "Author E (Parent)",
+                "ja": "著者E（親）"
+              },
+              {
+                "id": "auth_e_s1",
+                "en": "My daughter goes to a nice high school that offers many great learning opportunities off-campus.",
+                "ja": "私の娘は、校外で多くの素晴らしい学習機会を提供するよい高校に通っています。"
+              },
+              {
+                "id": "auth_e_s2",
+                "en": "Recently, the art teacher assigned a group project.",
+                "ja": "最近、美術の先生がグループプロジェクトを課しました。"
+              },
+              {
+                "id": "auth_e_s3",
+                "en": "To complete it, the students needed to visit two different art museums.",
+                "ja": "それを完了するためには、生徒たちは2つの異なる美術館を訪れる必要がありました。"
+              },
+              {
+                "id": "auth_e_s4",
+                "en": "It was a valuable experience.",
+                "ja": "それは価値のある経験でした。"
+              },
+              {
+                "id": "auth_e_s5",
+                "en": "However, because of the students’ busy schedules, some of them were not able to make the visits.",
+                "ja": "しかし、生徒たちの忙しいスケジュールのため、一部の生徒は訪問を果たすことができませんでした。"
+              },
+              {
+                "id": "auth_e_s6",
+                "en": "My daughter said she learned a lot, but it was stressful for her because she ended up doing most of the work herself.",
+                "ja": "娘は多くを学んだと言っていますが、結局ほとんどの作業を自分で行うことになり、娘にとってストレスになりました。"
+              },
+              {
+                "id": "auth_e_s7",
+                "en": "In the future, I hope teachers give more time to do group projects so that all the members can contribute.",
+                "ja": "今後は、先生がグループプロジェクトのためにもっと時間を与えて、全員が貢献できるようにしてほしいと願っています。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 4,
+              "question_ids": [
+                "問1",
+                "問2"
+              ],
+              "answer_numbers": [
+                38,
+                39
+              ]
+            },
+            {
+              "after_paragraph": 4,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、Step 2・Step 3 のアウトラインへ進みます。"
+            }
+          ]
+        },
+        {
+          "id": "step3_outline",
+          "title": {
+            "en": "[Step 3] Create an outline using Sources A and B",
+            "ja": "[ステップ3] 資料 A と B を利用して概要を作成する"
+          },
+          "label_above": {
+            "en": "Outline of your essay:",
+            "ja": "あなたのエッセイの概要："
+          },
+          "layout": "essay_outline_box",
+          "paragraphs": [
+            [
+              {
+                "id": "eo_title",
+                "en": "The need to balance group work with individual work",
+                "ja": "グループワークと個人作業のバランスの必要性",
+                "role": "outline_title"
+              }
+            ],
+            [
+              {
+                "id": "eo_in_h",
+                "en": "Introduction",
+                "ja": "序論",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "eo_in1",
+                "en": "Group work is a powerful classroom teaching method, and we should do it along with individual work so all students can learn more efficiently.",
+                "ja": "グループワークは有力な教室での教授法であり、全ての生徒がより効率良く学べるように、それを個人作業と併用するべきである。"
+              }
+            ],
+            [
+              {
+                "id": "eo_b_h",
+                "en": "Body",
+                "ja": "本論",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "eo_b1",
+                "en": "Reason 1: [From Step 2]",
+                "ja": "理由1：[ステップ2から]",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "eo_b2",
+                "en": "Reason 2: [Based on Source A] … [43]",
+                "ja": "理由2：[資料Aを根拠に] … [43]",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "eo_b3",
+                "en": "Reason 3: [Based on Source B] … [44]",
+                "ja": "理由3：[資料Bを根拠に] … [44]",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "eo_c_h",
+                "en": "Conclusion",
+                "ja": "結論",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "eo_c1",
+                "en": "There should be an equal amount of class time for both group and individual work.",
+                "ja": "グループワークと個人作業に等しい授業時間を設けるべきである。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 8,
+              "question_ids": [
+                "問3"
+              ],
+              "answer_numbers": [
+                40,
+                41,
+                42
+              ]
+            },
+            {
+              "after_paragraph": 8,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、Source A を読みます。"
+            }
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "資料A"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "sa_s1",
+                "en": "The advantages of group assignments in educational settings are well established.",
+                "ja": "教育環境におけるグループ課題の利点は十分確立されている。"
+              },
+              {
+                "id": "sa_s2",
+                "en": "This is primarily due to the many studies indicating that students themselves find group work enjoyable and may even prefer it to other activities.",
+                "ja": "これは主に、生徒自身がグループワークを楽しいと感じ、他の活動よりもそれを好む可能性さえあると示す多くの研究によるものである。"
+              },
+              {
+                "id": "sa_s3",
+                "en": "However, whether or not students actually prefer group work to individual work is still up for debate.",
+                "ja": "しかし、生徒が実際にグループワークを個人作業よりも好むかどうかにはまだ議論の余地がある。"
+              },
+              {
+                "id": "sa_s4",
+                "en": "This is because of the varied results of these studies.",
+                "ja": "というのも、これらの研究の結果はさまざまだからである。"
+              },
+              {
+                "id": "sa_s5",
+                "en": "In fact, it is highly likely that preference or non-preference for group work depends on a variety of factors.",
+                "ja": "実際、グループワークを好むか好まないかは、さまざまな要因に左右される可能性が高い。"
+              },
+              {
+                "id": "sa_s6",
+                "en": "For example, student personality and their culture can influence how they feel about working in groups.",
+                "ja": "例えば、生徒の性格、そして文化は、グループで活動することをどのように感じるかに影響を与えることがある。"
+              },
+              {
+                "id": "sa_s7",
+                "en": "Shy students may naturally prefer individual work and some living in other cultures may value lecture-based learning more than student-to-student learning.",
+                "ja": "内気な生徒は自然に個人作業を好み、他の文化圏で暮らす生徒の一部は生徒同士の学習よりも講義ベースの学習により価値を置くかもしれない。"
+              },
+              {
+                "id": "sa_s8",
+                "en": "Preferences also heavily depend on the quality of the group assignment and even on the subject.",
+                "ja": "好みはまた、グループ課題の質や教科にさえ大きく左右される。"
+              },
+              {
+                "id": "sa_s9",
+                "en": "Some studies have even demonstrated how students may express a preference for group work in a foreign language class, but when it comes to mathematics, those same students may prefer individual assignments.",
+                "ja": "外国語の授業でグループワークを好む生徒が、数学に関しては個人で取り組む課題を好むかもしれないことを示す研究さえある。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 0,
+              "question_ids": [
+                "問4"
+              ],
+              "answer_numbers": [
+                43
+              ]
+            },
+            {
+              "after_paragraph": 0,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、Source B を読みます。"
+            }
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "資料B"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "sb_s1",
+                "en": "Results from a study conducted in Indonesia show that some students think group work is not the fairest method.",
+                "ja": "インドネシアで行われた研究の結果は、一部の生徒はグループワークが最も公平な方法とは考えていないことを示している。"
+              },
+              {
+                "id": "sb_s2",
+                "en": "The survey gathered data from 10th and 11th graders.",
+                "ja": "この調査は、高校1年生と高校2年生からデータを収集した。"
+              },
+              {
+                "id": "sb_s3",
+                "en": "The graph below gives percentages of students who agreed with certain statements about group work.",
+                "ja": "下のグラフは、グループワークに関する特定の意見に賛成した生徒の割合を示している。"
+              }
+            ]
+          ],
+          "table": {
+            "after_paragraph": 1,
+            "title": {
+              "en": "Survey Results on Student Views on Fairness in Group Work",
+              "ja": "グループワークの公平性についての生徒の見解に関する調査結果"
+            },
+            "headers": [
+              "Statement",
+              "Percentage"
+            ],
+            "rows": [
+              [
+                "All group members participate in the work.",
+                "48%"
+              ],
+              [
+                "It is easy to share work among members equally.",
+                "28%"
+              ],
+              [
+                "Group grades are unfair.",
+                "36%"
+              ],
+              [
+                "Some members get a good grade without doing the work.",
+                "24%"
+              ]
+            ]
+          },
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 0,
+              "question_ids": [
+                "問5"
+              ],
+              "answer_numbers": [
+                44
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 38,
+          "stem": {
+            "en": "Both Authors A and C mention that [38].",
+            "ja": "「著者AとCはいずれも[38]と述べている」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "group work makes it easier for teachers to improve students’ communication skills during class",
+              "ja": "グループワークによって、授業中に教師が生徒のコミュニケーションスキルを高めることがより容易になる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "students have an easier time finding the answers to standard-level questions in groups",
+              "ja": "生徒はグループになることで、標準的レベルの問題に対する解答を見つけることがより容易になる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "students tend to develop their knowledge quicker when working with others",
+              "ja": "他者と協働する時には、生徒は知識をより早く身につける傾向がある",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "test results improve greatly after group work because group members are able to share their answers",
+              "ja": "グループの仲間は答えを共有できるため、グループ作業の後では試験結果が大幅に改善する",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。著者Aの第4文（They show that ...）〜第6文（This process of ...）「生徒は他の生徒とのやり取りを増やすほど、より効率的に学習することを示しています。これは、自分の考えや答えを他の人と比較することで、多くのことに気づくからです。このグループによる活動のプロセスにより、生徒は素早く知識を深め、批判的思考能力を身につけることができます」から、協働することで速やかに知識が身についていると考えていることがわかる。同様に、著者Cの第5文（At first, I ...）と第6文（Soon after, I ...）「最初は、生徒たちがグループの仲間とわくわくしながら意見を共有し、確かに多くのことを学んでいることに気づきました。その後まもなく、彼らの成績が以前よりも早く伸びていることにも気づきました」から、協働することで多くのことを学習し、より速く知識を身につけていると考えていることがわかる。したがって、正解は③。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "auth_a_s4",
+              "auth_a_s5",
+              "auth_a_s6",
+              "auth_c_s4",
+              "auth_c_s5"
+            ],
+            "instructor_note": {
+              "ja": "「両者がともに言及」型は2著者の主張の重なる部分を見つける問題。AとCはともに『協働 → より速く知識・スキルが身につく』を中心に語っている点に着目する。片方しか触れていない情報で誘う罠（コミュニケーションスキル、テスト結果の共有など）を排除する。",
+              "points": [
+                "③の根拠 (A): auth_a_s4 the more students interact ... the more efficiently they learn → 『協働するほど効率的に学習』。",
+                "③の根拠 (A): auth_a_s6 develop their knowledge and critical thinking skills quickly → 『素早く知識を深める』。",
+                "③の根拠 (C): auth_c_s4 they were definitely learning a lot + auth_c_s5 their scores were improving faster than before → 『以前より早く成績が伸びる』。",
+                "①の罠: auth_a_s1 で『teachers in training』と training という語は出てくるが、『コミュニケーションスキルを教師が高める』とは述べていない。著者Cも同様。",
+                "②の罠 (auth_a_s4, auth_c_s5 と無関係): 『standard-level questions』は本文に登場しない（A・C の主張の中身ではない）。難易度の話にすり替えた誘導。",
+                "④の罠 (auth_a_s5 と矛盾): 『group members are able to share their answers』はAもCも述べていない。auth_a_s5 は『compare ideas/answers with others（比較）』であり、答えの共有とは別。",
+                "テクニック (auth_a_s4, auth_c_s5 が好例): 『Both X and Y mention』型は両者の主張の中で同じ動作・効果に言及している箇所を探す。AとCは『学習効率／知識・成績の向上』が共通項。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 39,
+          "stem": {
+            "en": "Author B implies that [39].",
+            "ja": "「著者Bは[39]ということを示唆している」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "enjoyment and popularity are not the only things to consider when deciding how students should work in class",
+              "ja": "楽しさと人気は、授業で生徒がどのように活動するべきかを決める際に考慮すべき唯一の事柄ではない",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "having students work alone is more beneficial than having them work in groups",
+              "ja": "生徒を1人で作業させることは、グループワークをさせるよりも有益である",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the various merits of group work make it a better choice than individual work",
+              "ja": "グループワークは、そのさまざまな利点から、個人作業よりもよい選択である",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "there are very few disadvantages to spending most of class working in groups",
+              "ja": "授業の大部分をグループワークに費やすことに関して不利益はほとんどない",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。著者Bの第2文（But just because ...）と第3文（Research shows that ...）「しかし、ある方法が楽しいからといって、それが唯一使用されるべき方法であるというわけではありません。研究によれば、生徒たちの学習方法は多様であり、教師はこれを反映するさまざまな活動や方法を持つ必要があります」から、生徒が楽しんでいる授業形式だけがよいということにはならないという著者の考えがわかる。②の「生徒を1人で作業させることは、グループワークをさせるよりも有益だ」は、著者Bはグループワークか個人作業かのどちらか一方に偏ることなく、そのバランスが大切だとよいと述べているので不適。③の「グループワークは、そのさまざまな利点から、個人作業よりもよい選択である」、④の「授業の大部分をグループワークに費やすことに関して不利益はほとんどない」もグループワークと個人作業のバランスを欠いた指導形態になり、②と同じ理由から不適。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "auth_b_s2",
+              "auth_b_s3"
+            ],
+            "instructor_note": {
+              "ja": "「imply（示唆）」問題は本文に直接書かれていない、しかし論理的に1ステップで導ける主張を選ぶ。著者Bの主張は『バランス重視』。その対偶として『楽しい＝唯一最善ではない』を導いた選択肢が①。極端な立場（②③④）は B の中庸主義と矛盾するので一掃できる。",
+              "points": [
+                "①の根拠: auth_b_s2 just because a method is enjoyable does not mean it is the only one + auth_b_s3 students learn in many different ways → 『楽しさだけで判断してはいけない』を含意。",
+                "Bの中心主張: auth_b_s4 we still need to balance it with individual work + auth_b_s5 Relying on one method ... will have negative results → 『どちらか一方に偏ってはいけない』。",
+                "②の罠 (auth_b_s4 と矛盾): 『個人作業の方が有益』は B の中庸主義（balance）と矛盾。B は片寄りを否定している。",
+                "③の罠 (auth_b_s4 と矛盾): 『グループワークの方がよい選択』も同様に B の中庸主義と矛盾。",
+                "④の罠 (auth_b_s5 と矛盾): 『授業の大部分をグループワーク』はまさに auth_b_s5 が警告している『一方への過度の依存』。",
+                "テクニック (auth_b_s2, auth_b_s4 が好例): 『imply』問題は本文の極端表現（only, most, never）の否定形を本文中に探すと、含意の正解候補が見つかりやすい。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            40,
+            41,
+            42
+          ],
+          "unordered_slots": [
+            40,
+            41
+          ],
+          "stem": {
+            "en": "Now that you have read the various viewpoints, you have taken a position on how much group work should be used in the classroom. You have made some notes below. Choose the best options to complete [40] - [42]. (You must have all of [40] - [42] correct to get points.)",
+            "ja": "「さまざまな観点を読んだので、あなたは授業でどの程度グループワークを使用すべきかについての立場を決めた。あなたは以下にいくつかのメモを記した。[40] - [42] を完成させるのに最も適切な選択肢を選びなさい（[40] - [42] すべて正解で得点）」"
+          },
+          "position_box": {
+            "en": "Your position: Teachers should keep a good balance between group work and individual work.\n  • Authors [40] and [41] support your position.\n  • The main argument of the two authors: [42].",
+            "ja": "あなたの立場：教師は、グループワークと個人作業とで、適切なバランスを保つべきである。\n　• 著者[40]および[41]はあなたの立場を支持する。\n　• この2人の著者の主要な論点：[42]。"
+          },
+          "choices_40": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "choices_41": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "Both group and individual activities are important for better learning and to encourage good behavior",
+              "ja": "グループワークも個人作業も、より良い学習のため、そして良い学習態度を促すために重要である",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Individual work is not as efficient as group work but it does help students increase their scores",
+              "ja": "個人作業はグループワークほど効率的ではないが、生徒が点数を上げるのに確かに役に立つ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Many studies on learning styles suggest balancing group work with individual work is beneficial",
+              "ja": "学習スタイルに関する多くの研究は、グループワークと個人作業のバランスを取ることは有益であると示唆している",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The best kind of learning method varies from student to student",
+              "ja": "最良の学習方法は、生徒ごとに異なる",
+              "is_correct": false
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "40": "②",
+            "41": "④",
+            "42": "①"
+          },
+          "answer_note": "全部正解で4点（[40]・[41] は順不同）",
+          "explanation": {
+            "quoted_ja": "正解は[40]・[41]=②・④（順不同）、[42]=①。[40][41]には『あなた』の立場と合う主張をしている著者を選ぶ。あなたの立場は「教師は、グループワークと個人作業とで、適切なバランスを保つべきである」ということである。したがって正解は、解説冒頭の表に示したように、基本的立場としてグループワークと個人作業の両方に価値をもつ（＝バランス）②Bと④Dである。[42]には著者Bと著者Dに共通する主要な論点として適切なものを選ぶ。著者Bは第3文（Research shows that ...）で『研究によれば、生徒たちの学習方法は多様であり、教師はこれを反映するさまざまな活動や方法を持つ必要がある』ことを述べており、最終文（Relying on one ...）では『1つの方法に過度に依存することは、成績と学習態度の双方において悪影響を及ぼすでしょう』と述べており、この言葉から著者Bは、グループワークと個人作業を組み合わせることは、学習と行動の両方に良い影響を及ぼすと考えていることが読み取れる。そして著者Dは第2文（Sometimes it can ...）と第3文（But when almost ...）で「（グループワークは）時には楽しく、友人から多くのことを学ぶことができます。しかしほぼ全ての授業でグループワークが行われると、グループの仲間の一部が課題に真剣に取り組みません」と述べて、グループワークが学習に良い影響を及ぼす一方で、学習態度には悪影響を及ぼすことを示唆している。さらに第4文（On the other hand, ...）以降では、「他方、1人で課題に取り組むと、私はしばしば答えを見つけるのに大変苦労することがありますが、責任感が生まれます。ですからどちらの学習法もそれなりの利点と欠点があり、授業では両方を組み合わせるべきです」と述べて、個人作業が学習態度に良い影響を及ぼすことを指摘した上で、グループワークと個人作業の併用が望ましいと結んでいる。したがって2人の著者はいずれも、「グループワークも個人作業も、より良い学習のため、そして良い学習態度を促すために重要である」と考えていることがわかるので、①が正解となる。②や④のようなことは、2人の著者の主張からは読み取れない。③は、著者Dの主張では触れられておらず、著者Bも「多くの研究」については言及していない。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "auth_b_s4",
+              "auth_b_s5",
+              "auth_d_s4",
+              "auth_d_s5"
+            ],
+            "instructor_note": {
+              "ja": "立場決定 + 共通論点抽出の3スロット問題。まず5著者を『グループ重視 / バランス重視 / 慎重』に分類し、あなたの立場（バランス重視）と一致する2名（B と D）を [40][41] に選ぶ。次に2人の主張の重なる部分（『どちらにも利点／一方への偏重は問題』）を [42] で1つに絞る。",
+              "points": [
+                "5著者の立場分類: A=グループ重視 (auth_a_s6 develop knowledge quickly) / B=バランス重視 (auth_b_s4 need to balance) / C=グループ重視 (auth_c_s6 most of my class time for group work) / D=バランス重視 (auth_d_s5 should be combined) / E=慎重 (auth_e_s5 some not able to make the visits, auth_e_s7 give more time so all members can contribute)。",
+                "[40][41]の根拠: バランス重視は B (auth_b_s4) と D (auth_d_s5) の2名のみ → ②・④。順不同なのでどちらが [40] でも [41] でもよい。",
+                "[42]の根拠 (B): auth_b_s4 we still need to balance it with individual work + auth_b_s5 negative results in terms of both academics and behavior → 『学習(academics)＋態度(behavior)の両面で偏りは悪影響』。",
+                "[42]の根拠 (D): auth_d_s4 work alone ... feel a sense of responsibility（個人作業 → 責任感／良い学習態度）+ auth_d_s5 both ways ... should be combined → 共通項『両方を併用』。",
+                "[42]の罠 ② (auth_b_s4 と矛盾): 『個人作業はグループワークほど効率的ではないが』は B の中庸的立場（balance）と相容れない。優劣をつけている時点で誤り。",
+                "[42]の罠 ③ (auth_d_s5 と無関係): 『多くの研究』は B (auth_b_s3 Research shows) しか言及せず、D は研究には触れていない。共通項にならない。",
+                "[42]の罠 ④ (auth_b_s4, auth_d_s5 と無関係): 『学習方法は生徒ごとに異なる』は学習スタイルの多様性に近いが、B も D も『個人差』ではなく『方法の組み合わせ』を主張している。",
+                "テクニック (auth_b_s5, auth_d_s5 が好例): 共通論点問題は『両著者の段落の最終文』に着目すると主張がまとめてある。両者の最終文がどちらも『combine/balance』というキーワードで一致するか確認する。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "stem": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [43]",
+            "ja": "「資料Aに基づくと、理由2に最も適切なものはどれか」[43]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Although students may express more interest in individual work than group work, teachers should provide equal time for both.",
+              "ja": "生徒はグループワークよりも個人作業に興味を示すことが多いかもしれないが、教師は両方に等しく時間を割くべきである。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "In many cultures communication and cooperation are highly valued, which makes group work ideal for the classroom.",
+              "ja": "多くの文化では、コミュニケーションと協力が非常に重視されているため、グループワークは教室に理想的である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Schools should rely less on individual work, especially in math classes.",
+              "ja": "特に数学の授業においては、学校は個人作業への依存度を下げるべきである。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Students seem to enjoy group work, though providing evidence for a preference is difficult as many factors are involved.",
+              "ja": "多くの要素が関係しているため、好みに関する証拠を示すのは困難であるものの、生徒はグループワークを楽しんでいるように見える。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。空所には、グループワークと個人作業とのバランスを取るべき理由として適切なもので、かつ資料Aの中で述べられているものが入る。資料Aの第2文中（the many studies ...）「生徒自身がグループワークを楽しいと感じ、他の活動よりもそれを好む可能性があると示す多くの研究」への言及は、④の前半（Students seem to enjoy group work）「生徒はグループワークを楽しんでいるように見える」と一致する。また、資料Aの第3文（However, whether or ...）〜第5文（In fact, it ...）には「しかし、生徒が実際にグループワークを個人作業よりも好むかどうかにはまだ議論の余地がある。というのも、これらの研究の結果はさまざまだからである。実際、グループワークを好むか好まないかは、さまざまな要因に左右される可能性が高い」とあり、具体的には、第6文（For example, student ...）〜第9文（Some studies have ...）「例えば、生徒の性格、そして文化は、グループで活動することをどのように感じるかに影響を与えることがある。内気な生徒は自然に個人作業を好み、他の文化圏で暮らす生徒の一部は生徒同士の学習よりも講義ベースの学習により価値を置くかもしれない。好みはまた、グループ課題の質や教科にさえ大きく左右される。外国語の授業でグループワークを好む生徒が、数学に関しては個人で取り組む課題を好むかもしれないことを示す研究さえある」から、④の後半（providing evidence for ...）「多くの要素が関係しているため、好みに関する証拠を示すのは困難である」と一致する。したがって、正解は④。①の「生徒はグループワークよりも個人作業に興味を示すことが多い」は資料Aで述べられていないので不適。②の内容も資料Aでは述べられていないので不適。③のようなことも資料Aからは導き出せない。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "sa_s2",
+              "sa_s3",
+              "sa_s4",
+              "sa_s5",
+              "sa_s6",
+              "sa_s7",
+              "sa_s8",
+              "sa_s9"
+            ],
+            "instructor_note": {
+              "ja": "Source A の要約（理由2用）として最も適切な選択肢を選ぶ。資料Aの主軸は『グループワークは楽しまれているが（前段）、好みは多要因（性格・文化・教科）に左右されるため、好み自体の証明は難しい（後段）』の二段構造。両側を 1 文に圧縮した選択肢が正解。",
+              "points": [
+                "④の根拠（前半）: sa_s2 students themselves find group work enjoyable → 『生徒はグループワークを楽しんでいるように見える』。",
+                "④の根拠（後半）: sa_s3 still up for debate + sa_s5 depends on a variety of factors + sa_s8 Preferences also heavily depend on the quality of the group assignment and even on the subject → 『多要因のため証拠提示は困難』。",
+                "①の罠 (sa_s2 と矛盾): 『個人作業に興味を示すことが多い』は資料Aには書かれていない。sa_s2 は『楽しまれている＋好みは多要因』のみ。",
+                "②の罠 (sa_s7 と無関係): 『多くの文化でコミュニケーション・協力が重視される』は資料Aには登場せず、sa_s7 が触れるのは『他文化では講義型を好む』という別方向の話。",
+                "③の罠 (sa_s9 の誤読): 『数学では個人作業を好む』に近いが、これは sa_s9 の例示に過ぎず、『学校は math で individual を減らすべき』という処方箋は本文外。",
+                "テクニック (sa_s2, sa_s5 が好例): Reason 2 にする要約問題は『資料の前段＋後段』を 1 文にまとめた選択肢が正解。片側だけ正しい選択肢（処方箋型）に注意。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 44,
+          "stem": {
+            "en": "For Reason 3, you have decided to write, “We should not abandon individual work completely.” Based on Source B, which option best supports this statement? [44]",
+            "ja": "「あなたは理由3に『個人作業を完全に廃止するべきではない』と書くことにした。資料Bに基づくと、この意見を最もよく支持する選択肢はどれか」[44]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Although 36% of students state group grades may not be fair, over half feel that all members participate in the work. This may show some students place more value on individual grades.",
+              "ja": "36%の生徒がグループを基にした成績が公平ではないかもしれないと述べているが、半数を超える生徒はメンバー全員が作業に参加していると感じている。これは、一部の生徒が個人別の成績をより重視していることを示しているかもしれない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Less than 50% of students reported that everyone helps with the work, and over a quarter say some members get good grades without deserving them. This means group work is unfair.",
+              "ja": "全員が作業を手伝っていると報告した生徒は50%に満たず、4分の1を超える生徒が一部の仲間が値しないのによい成績を取ると言っている。これは、グループワークが不公平であることを意味している。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Many students find group work challenging. In fact, less than one in four says it is easy to share work equally. Teachers should assign roles to make it fairer.",
+              "ja": "多くの生徒がグループワークを難しいと感じている。実際に、作業を均等に分けることが容易だと言っている生徒は4人に1人に満たない。教師はそれをより公平にするために役割を割り当てるべきである。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Nearly one in four students think that some group members may not deserve high scores, and a little more than a third find group grades unfair. Thus, some students may prefer receiving individual scores.",
+              "ja": "ほぼ4人に1人の生徒が、一部のグループの仲間は高得点を取るに値しないと考えており、3分の1を少し上回る生徒がグループの成績を不公平だと感じている。したがって、一部の生徒は個人別の評価を受ける方を好むかもしれない。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。資料Bの内容と合っている選択肢を選ぶ。④の第1文（Nearly one in ...）「ほぼ4人に1人の生徒が、一部のグループの仲間は高得点を取るに値しないと考えており、3分の1を少し上回る生徒がグループの成績を不公平だと感じている」は、資料Bの表の一番下「一部の仲間は作業をせずによい成績を取る ― 24%」、上から3つ目「グループを基にした成績は不公平である ― 36%」と合う。したがって、正解は④。①は第1文後半（over half feel ...）「半数を超える生徒はメンバー全員が作業に参加していると感じている」が、表の一番上「全てのグループの仲間が作業に参加する ― 48%」と合わないので不適。②は第1文後半（over a quarter ...）「4分の1を超える生徒が一部の仲間が値しないのによい成績を取ると言っている」が、表の一番下「一部の仲間は作業をせずによい成績を取る ― 24%」と合わないので不適。③は第2文（In fact, less ...）「実際に、作業を均等に分けることが容易だと言っている生徒は4分の1に満たない」とあり、表の上から2つ目「仲間内で作業を均等に分けることは容易である ― 28%」と合わないので不適。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "sb_s3"
+            ],
+            "instructor_note": {
+              "ja": "テーブル読解問題。Reason 3 のテーマ『個人作業を完全に廃止すべきではない』を支持するため、『グループワークの不公平感（≒個人別評価への需要）』を示す数値を正しく組み合わせた選択肢を選ぶ。4 項目の数値（48% / 28% / 36% / 24%）を選択肢の言い換え表現と 1 つずつ照合する作業。『over half』『less than 50%』『less than one in four』『nearly one in four』の数値変換が決め手。",
+              "points": [
+                "④の根拠 (sb_s3 のテーブル): 『一部の仲間は作業せずよい成績』24% ≒ nearly one in four、『グループ成績は不公平』36% ≒ a little more than a third。両方とも数値が一致。",
+                "①の罠 (sb_s3): 『全員が作業に参加』48% は『over half (＝50%超)』に届かない。48% ＜ 50%。『半数を超える』は誤り。",
+                "②の罠 (sb_s3): 『一部の仲間が値しないのによい成績』24% は『over a quarter (＝25%超)』に届かない。24% ＜ 25%。",
+                "③の罠 (sb_s3): 『作業を均等に分けるのが容易』28% は『less than one in four (＝25%未満)』ではない。28% ＞ 25%。",
+                "数値→言い回しの確認 (sb_s3 のテーブル): 『nearly one in four』≒ 25% 弱（24% 該当）／『a little more than a third』≒ 33% 強（36% 該当）／『over half』＝ 50% 超／『less than one in four』＝ 25% 未満。",
+                "テクニック (sb_s3 が好例): テーブル問題は数値を必ず実際に拾い、選択肢の量化表現（quarter/third/half など）を分数→%に変換して比較する。表現の言い換えだけで判断しない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "lead": {
+          "label_ja": "リード文",
+          "items": [
+            {
+              "en": "work on ...",
+              "ja": "「…に取り組む」"
+            },
+            {
+              "en": "viewpoint",
+              "ja": "名「見解；観点」"
+            },
+            {
+              "en": "take a position",
+              "ja": "「立場を決める」"
+            }
+          ]
+        },
+        "step1": {
+          "label_ja": "ステップ1（著者A〜E）",
+          "items": [
+            {
+              "en": "interact with ...",
+              "ja": "「…と交流する」"
+            },
+            {
+              "en": "critical thinking",
+              "ja": "「批判的思考；クリティカルシンキング」"
+            },
+            {
+              "en": "it is true that ... but ~",
+              "ja": "「なるほど…だが〜」"
+            },
+            {
+              "en": "just because S' V' does not mean (that) S V",
+              "ja": "「単に S' V' するからといって S V するということにはならない」"
+            },
+            {
+              "en": "balance ... with ~",
+              "ja": "「…と〜を両立させる」"
+            },
+            {
+              "en": "over",
+              "ja": "前「…に優先して」"
+            },
+            {
+              "en": "in terms of ...",
+              "ja": "「…の点から」"
+            },
+            {
+              "en": "academics",
+              "ja": "名「学業（成績）」"
+            },
+            {
+              "en": "definitely",
+              "ja": "副「確かに；疑いなく」"
+            },
+            {
+              "en": "off-campus",
+              "ja": "副「校外で」"
+            },
+            {
+              "en": "complete",
+              "ja": "動「…を完成させる」"
+            },
+            {
+              "en": "make a visit",
+              "ja": "「訪問する」"
+            },
+            {
+              "en": "end up -ing",
+              "ja": "「最終的に〜することになる」"
+            },
+            {
+              "en": "contribute",
+              "ja": "動「貢献する」"
+            }
+          ]
+        },
+        "step2": {
+          "label_ja": "ステップ2",
+          "items": [
+            {
+              "en": "now that S' V', S V",
+              "ja": "「（今や）S' V' するから、S V する」"
+            },
+            {
+              "en": "make a note",
+              "ja": "「メモする」"
+            },
+            {
+              "en": "argument",
+              "ja": "名「主張」"
+            }
+          ]
+        },
+        "step3": {
+          "label_ja": "ステップ3",
+          "items": [
+            {
+              "en": "setting",
+              "ja": "名「環境；状況」"
+            },
+            {
+              "en": "well established",
+              "ja": "「十分に確立した；しっかりと定着した」"
+            },
+            {
+              "en": "primarily",
+              "ja": "副「主に」"
+            },
+            {
+              "en": "be up for debate",
+              "ja": "「議論になっている」"
+            },
+            {
+              "en": "varied",
+              "ja": "形「さまざまな」"
+            },
+            {
+              "en": "conduct",
+              "ja": "動「…を実施する」"
+            },
+            {
+              "en": "fair",
+              "ja": "形「公平な」"
+            },
+            {
+              "en": "deserve",
+              "ja": "動「…に値する；…して当然だ」"
+            },
+            {
+              "en": "challenging",
+              "ja": "形「困難な」"
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
