@@ -205,7 +205,6 @@ body {
   content: '▼';
   font-size: 0.8rem;
   color: var(--text-secondary);
-  margin-left: auto;
   transition: transform 0.25s ease;
 }
 .exam-details[open] .exam-block-header::after {
@@ -357,6 +356,34 @@ body {
 .btn-print-all:hover {
   background: rgba(158, 74, 91, 0.15);
   border-color: var(--burgundy-pastel);
+}
+
+/* ===== Exam Header Actions (PDF + Print) ===== */
+.exam-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.btn-pdf-link {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 5px 14px;
+  background: linear-gradient(135deg, #3b82b4 0%, #2563a0 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: var(--transition);
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(37, 99, 160, 0.25);
+  letter-spacing: 0.02em;
+}
+.btn-pdf-link:hover {
+  background: linear-gradient(135deg, #2563a0 0%, #1d4e8a 100%);
+  box-shadow: 0 4px 12px rgba(37, 99, 160, 0.35);
+  transform: translateY(-1px);
 }
 
 /* ===== Card Print Links ===== */

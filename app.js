@@ -287,13 +287,27 @@ async function renderExamBlock(exam, indexInGroup, lastExamId, isFirstGroup) {
 
   // 最後に見ていた exam ID と一致したときだけ open。
   // 初回訪問（履歴なし）はすべて閉じた状態をデフォルトにする。
+  // Build PDF links from exam_info
+  const pdfBase = `original_PDFs/${exam.publisher === '駿台' ? 'sundai' : exam.publisher}${exam.year}/`;
+  const pdfMondai = data?.exam_info?.source_pdf_mondai;
+  const pdfKaitou = data?.exam_info?.source_pdf_kaitou;
+  let pdfLinksHtml = '';
+  if (pdfMondai) {
+    pdfLinksHtml += `<a href="${pdfBase}${pdfMondai}" target="_blank" class="btn-pdf-link" onclick="event.stopPropagation()" title="原本PDF（問題）">📄 問題PDF</a>`;
+  }
+  if (pdfKaitou) {
+    pdfLinksHtml += `<a href="${pdfBase}${pdfKaitou}" target="_blank" class="btn-pdf-link" onclick="event.stopPropagation()" title="原本PDF（解説）">📖 解説PDF</a>`;
+  }
+
   const isOpen = (lastExamId && exam.id === lastExamId) ? 'open' : '';
   return `
     <section class="exam-block">
       <details class="exam-details" data-exam-id="${exam.id}" ${isOpen}>
         <summary class="exam-block-header">
           <h2 class="exam-block-title"><span class="icon">${exam.icon}</span>${exam.label}</h2>
-          <a href="print.html?exam=${exam.id}&mode=all" class="btn-print-all" onclick="event.stopPropagation()" title="全問題を印刷">🖨 全問題印刷</a>
+          <div class="exam-header-actions">
+            ${pdfLinksHtml}
+          </div>
         </summary>
         <div class="section-grid">
           ${cardsHtml}

@@ -1,0 +1,16 @@
+{
+  "exam_info": {
+    "title": "2026年度 駿台 共通テスト実戦問題集",
+    "publisher": "駿台",
+    "year": 2026,
+    "round": 3,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": null,
+    "implemented_sections": [],
+    "source_pdf_mondai": "第3回_問題.pdf",
+    "source_pdf_kaitou": "第3回_解説.pdf",
+    "data_policy": "本文・選択肢・解説は駿台『2026年駿台実戦問題集 英語リーディング』第3回・問題冊子および解説冊子を逐語転載する。学習者向けの補足は instructor_note に分離して「講師からの＋α」として控えめに表示する。"
+  },
+  "sections": []
+}

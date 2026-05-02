@@ -4814,6 +4814,24 @@
                 "ja": "個人的に言えば，私は古いガソリン車をできるだけ長く運転し続けるつもりです。私はその方が，絶えず新しいテクノロジーを購入するよりいいと考えています。"
               }
             ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 4,
+              "question_ids": [
+                "問1",
+                "問2"
+              ],
+              "answer_numbers": [
+                38,
+                39
+              ]
+            },
+            {
+              "after_paragraph": 4,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、Step 3 のアウトラインへ進みます。"
+            }
           ]
         },
         {
@@ -4907,6 +4925,24 @@
                 "ja": "すべての事実を考慮すると，電気自動車への移行はすべての人が支持すべきことである。"
               }
             ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 9,
+              "question_ids": [
+                "問3"
+              ],
+              "answer_numbers": [
+                40,
+                41,
+                42
+              ]
+            },
+            {
+              "after_paragraph": 9,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、情報源 A を読みます。"
+            }
           ]
         },
         {
@@ -4965,6 +5001,22 @@
                 "ja": "ガソリン車の所有者は，自分たちの方が電気自動車の所有者よりも修理や整備にかかるお金が多くなる，ということに気づくのである。"
               }
             ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 1,
+              "question_ids": [
+                "問4"
+              ],
+              "answer_numbers": [
+                43
+              ]
+            },
+            {
+              "after_paragraph": 1,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、情報源 B を読みます。"
+            }
           ]
         },
         {
@@ -4996,7 +5048,18 @@
             "src": "images/q08_problem_source_b_line_graph_en_axes.png",
             "after_paragraph": 1,
             "alt": "Source B graph: Noise and prey detectability vs distance to road"
-          }
+          },
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 0,
+              "question_ids": [
+                "問5"
+              ],
+              "answer_numbers": [
+                44
+              ]
+            }
+          ]
         }
       ],
       "questions": [

@@ -107,9 +107,26 @@ function renderPassage() {
     <div class="section-points">配点 ${sec.points}点${sec.points_per_question ? `（各${sec.points_per_question}点×${allQuestions.length}問）` : `（${allQuestions.length}問）`}</div>
   </div>`;
 
-  // Situation (skip for subsections — each subsection has its own)
+  // Situation (skip for subsections — each subsection has its own).
+  // 各英文を .sentence span でラップし、本文と同じクリック→和訳ポップアップ機能に対応させる。
   if (sec.situation && !sec.subsections) {
-    html += `<div class="situation-box">${sec.situation.en}</div>`;
+    let sitHtml = '<div class="situation-box">';
+    sitHtml += `<div class="situation-intro"><span class="sentence" data-sid="__sit_intro">${sec.situation.en}</span></div>`;
+    if (sec.situation.steps && sec.situation.steps.length) {
+      sitHtml += '<ul class="situation-steps">';
+      sec.situation.steps.forEach((step, i) => {
+        const sid = `__sit_step_${i}`;
+        sitHtml += `<li><span class="sentence" data-sid="${sid}">${step.en || ''}</span>`;
+        if (step.ja) sitHtml += `<div class="choice-text-ja">${step.ja}</div>`;
+        sitHtml += '</li>';
+      });
+      sitHtml += '</ul>';
+    }
+    if (sec.situation.ja) {
+      sitHtml += `<div class="situation-intro-ja choice-text-ja">${sec.situation.ja}</div>`;
+    }
+    sitHtml += '</div>';
+    html += sitHtml;
   }
 
   // Passages — grouped in one bordered container like the original exam
@@ -121,13 +138,25 @@ function renderPassage() {
     const isHeader = passage.id === 'header' || (passage.id && passage.id.startsWith('header_'));
     const isFirst = i === 0;
 
-    // Subsection header (A/B separator for 6AB format)
+    // Subsection header (A/B separator for 6AB format).
+    // サブセクションの situation も .sentence でラップしてクリック→和訳ポップアップに対応。
     if (passage.is_subsection_header) {
       if (!isFirst) html += '</div>'; // close previous passage-container
       html += `<div class="subsection-label">${sec.title} ${passage.subsection_label}</div>`;
       if (passage.situation) {
-        const sitText = typeof passage.situation === 'string' ? passage.situation : passage.situation.en;
-        html += `<div class="situation-box">${sitText}</div>`;
+        const subLabel = passage.subsection_label || '';
+        if (typeof passage.situation === 'string') {
+          html += `<div class="situation-box"><span class="sentence" data-sid="__sit_sub_${subLabel}">${passage.situation}</span></div>`;
+        } else {
+          const sitEn = passage.situation.en || '';
+          const sitJa = passage.situation.ja || '';
+          html += `<div class="situation-box">`;
+          html += `<div class="situation-intro"><span class="sentence" data-sid="__sit_sub_${subLabel}">${sitEn}</span></div>`;
+          if (sitJa) {
+            html += `<div class="situation-intro-ja choice-text-ja">${sitJa}</div>`;
+          }
+          html += `</div>`;
+        }
       }
       html += '<div class="passage-container">';
       continue;
@@ -390,9 +419,107 @@ function renderPassage() {
             html += '</li>';
           }
           html += '</ul>';
+        } else if (btype === 'story_outline') {
+          // Story outline block: lead text → sequential answer slots with arrows → tail text
+          html += `<div class="presentation-outline-strong">${bl.heading.en}</div>`;
+          if (bl.heading.ja) {
+            html += `<div class="choice-text-ja presentation-outline-heading-ja">${bl.heading.ja}</div>`;
+          }
+          if (bl.lead_en) {
+            html += `<div class="story-outline-lead">${bl.lead_en}</div>`;
+            if (bl.lead_ja) html += `<div class="choice-text-ja">${bl.lead_ja}</div>`;
+          }
+          html += '<div class="story-outline-sequential">';
+          const slots = bl.sequential_slots || [];
+          for (let si = 0; si < slots.length; si++) {
+            html += `<div class="story-outline-slot-row"><span class="answer-slot">${slots[si]}</span></div>`;
+            if (si < slots.length - 1) {
+              html += '<div class="story-outline-arrow">↓</div>';
+            }
+          }
+          html += '</div>';
+          if (bl.tail_en) {
+            html += `<div class="story-outline-tail">${bl.tail_en}</div>`;
+            if (bl.tail_ja) html += `<div class="choice-text-ja">${bl.tail_ja}</div>`;
+          }
         }
       }
       html += '</div>'; // .presentation-outline-box
+    }
+
+    // Presentation slides grid (大問7: 6 枚のスライドを 3×2 グリッドで表示)
+    if (passage.presentation_slides) {
+      const ps = passage.presentation_slides;
+      if (ps.label_outside_box && ps.label_outside_box.en) {
+        html += `<div class="presentation-outline-label">${ps.label_outside_box.en}</div>`;
+        if (ps.label_outside_box.ja) {
+          html += `<div class="choice-text-ja">${ps.label_outside_box.ja}</div>`;
+        }
+      }
+      html += '<div class="slides-grid">';
+      for (const slide of ps.slides || []) {
+        html += '<div class="slide-card">';
+        // Slide title (centered, bold)
+        if (slide.title) {
+          html += `<div class="slide-title">${slide.title.en}</div>`;
+          if (slide.title.ja) {
+            html += `<div class="slide-title-ja choice-text-ja">${slide.title.ja}</div>`;
+          }
+        }
+        // Image (Slide 1 etc.)
+        if (slide.image) {
+          html += `<div class="slide-image-wrap"><img class="slide-image" src="${slide.image.src}" alt="${slide.image.alt || ''}" /></div>`;
+        }
+        // Lead text (e.g., "The silkworm ..." or "Silk ...")
+        if (slide.lead) {
+          let leadHtml = slide.lead.en || '';
+          if (typeof slide.lead.trailing_slot === 'number') {
+            leadHtml += ` <span class="answer-slot">${slide.lead.trailing_slot}</span>`;
+          }
+          html += `<div class="slide-lead">${leadHtml}</div>`;
+          if (slide.lead.ja) {
+            const jaTrail = typeof slide.lead.trailing_slot === 'number'
+              ? ` <span class="answer-slot">${slide.lead.trailing_slot}</span>` : '';
+            html += `<div class="slide-lead-ja choice-text-ja">${slide.lead.ja}${jaTrail}</div>`;
+          }
+        }
+        // Bullets (•付き、スロットも含む)
+        if (slide.bullets && slide.bullets.length) {
+          html += '<ul class="slide-bullets">';
+          for (const b of slide.bullets) {
+            if (b.is_slot && typeof b.slot === 'number') {
+              html += `<li><span class="answer-slot">${b.slot}</span></li>`;
+            } else {
+              const t = String(b.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<li>${t}`;
+              if (b.ja) {
+                const tj = String(b.ja).replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                html += `<div class="choice-text-ja">${tj}</div>`;
+              }
+              html += '</li>';
+            }
+          }
+          html += '</ul>';
+        }
+        // Lettered bullets (A. B. C. ... 形式; 大問7 Slide 3 など)
+        if (slide.lettered_bullets && slide.lettered_bullets.length) {
+          html += '<ul class="slide-lettered-bullets">';
+          for (const lb of slide.lettered_bullets) {
+            html += `<li><span class="slide-letter">${lb.letter}.</span> ${lb.en || ''}`;
+            if (lb.ja) html += `<div class="choice-text-ja">${lb.ja}</div>`;
+            html += '</li>';
+          }
+          html += '</ul>';
+        }
+        // Center slot (Slide 4, 6 のように [34] や [37] だけが中央にあるタイプ)
+        if (typeof slide.center_slot === 'number') {
+          html += `<div class="slide-center-slot"><span class="answer-slot">${slide.center_slot}</span></div>`;
+        }
+        // Slide number (右下)
+        html += `<div class="slide-no">${slide.slide_no}</div>`;
+        html += '</div>'; // .slide-card
+      }
+      html += '</div>'; // .slides-grid
     }
 
     // Sections format: §1〜§6 with sentences inside each section (e.g., 2024 Section 5)
@@ -679,6 +806,45 @@ function renderPassage() {
             html += `<div class="info-box-image"><img src="${imgBase}${passage.info_box.image_src}" alt="${passage.info_box.image_alt || ''}"></div>`;
           }
           html += '</div>';
+        }
+
+        // Inline solve markers: 第8問のように本文を連続表示するセクションで、
+        // 学習者に「次にやるべきこと」だけをシンプルに示すバッジ。
+        // ヒントや設問のステムは一切表示しない（解説欄の instructor_note に集約）。
+        // marker_type:
+        //   "solve"  (既定) — ここで設問を解く。「ここで [問X][問Y] を解いてください」+ 解答番号バッジ。
+        //   "navigate"      — 本文に戻る／次の本文へ進む等の遷移。「↳ <action_ja>」のみ。
+        if (Array.isArray(passage.inline_solve_markers)) {
+          for (const marker of passage.inline_solve_markers) {
+            if (marker && marker.after_paragraph === pi) {
+              const isNav = marker.marker_type === 'navigate';
+              if (isNav) {
+                // navigate: 「↳ 本文に戻る」等のシンプルな矢印行
+                const text = marker.action_ja || marker.next_action_ja || '本文に戻る';
+                html += '<div class="solve-marker solve-marker-nav">';
+                html += '<div class="solve-marker-nav-row">';
+                html += '<span class="solve-marker-nav-arrow">↩</span>';
+                html += `<span class="solve-marker-nav-text">${text}</span>`;
+                html += '</div>';
+                html += '</div>';
+              } else {
+                // solve: 「ここで [問1] [問2] を解いてください」+ 解答番号バッジ
+                const qids = Array.isArray(marker.question_ids)
+                  ? marker.question_ids
+                  : (marker.question_id ? [marker.question_id] : []);
+                const nums = Array.isArray(marker.answer_numbers) ? marker.answer_numbers : [];
+                const qHtml = qids.map(q => `<span class="solve-marker-q">${q}</span>`).join('');
+                const numHtml = nums.map(n => `<span class="solve-marker-num">[${n}]</span>`).join(' ');
+                html += '<div class="solve-marker">';
+                html += '<div class="solve-marker-title">';
+                html += `<span class="solve-marker-qs">${qHtml}</span>`;
+                html += '<span class="solve-marker-label">を解いてください</span>';
+                if (numHtml) html += ` <span class="solve-marker-nums">${numHtml}</span>`;
+                html += '</div>';
+                html += '</div>';
+              }
+            }
+          }
         }
       }
 
@@ -1244,6 +1410,32 @@ function setupSentencePopup() {
 
 // ===== Find sentence Japanese translation =====
 function findSentenceJa(sid) {
+  // ── 合成 ID（situation 系）— リード文の click→和訳ポップアップ用
+  if (typeof sid === 'string' && sid.startsWith('__sit_')) {
+    const sit = currentSection && currentSection.situation;
+    if (sid === '__sit_intro') return (sit && sit.ja) || null;
+    const stepMatch = sid.match(/^__sit_step_(\d+)$/);
+    if (stepMatch && sit && Array.isArray(sit.steps)) {
+      const idx = parseInt(stepMatch[1], 10);
+      return (sit.steps[idx] && sit.steps[idx].ja) || null;
+    }
+    // サブセクション header の situation: __sit_sub_<label>
+    const subMatch = sid.match(/^__sit_sub_(.+)$/);
+    if (subMatch) {
+      const label = subMatch[1];
+      // currentSection.subsections から探す（sub.label 一致 → sub.situation.ja）
+      if (currentSection && Array.isArray(currentSection.subsections)) {
+        const sub = currentSection.subsections.find(s => s.label === label);
+        if (sub && sub.situation) {
+          return (typeof sub.situation === 'object' && sub.situation.ja) || null;
+        }
+      }
+      return null;
+    }
+    return null;
+  }
+
+  // ── 通常の本文 sentence ID
   for (const passage of currentSection.passages) {
     if (passage.sentences) {
       const sent = passage.sentences.find(s => s.id === sid);
