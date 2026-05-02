@@ -1,0 +1,323 @@
+{
+  "exam_info": {
+    "title": "2026年度 駿台 共通テスト実戦問題集",
+    "publisher": "駿台",
+    "year": 2026,
+    "round": 2,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": null,
+    "implemented_sections": [1],
+    "source_pdf_mondai": "第2回_問題.pdf",
+    "source_pdf_kaitou": "第2回_解説.pdf",
+    "data_policy": "本文・選択肢・解説は駿台『2026年駿台実戦問題集 英語リーディング』第2回・問題冊子および解説冊子を逐語転載する。学習者向けの補足は instructor_note に分離して「講師からの＋α」として控えめに表示する。"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（書評）",
+      "situation": {
+        "en": "You are an exchange student in the US and you are given a reading assignment in your class. You have to choose a novel to read and now you are reading these book reviews.",
+        "ja": "あなたはアメリカにいる交換留学生で，クラスで読書の課題が出されています。読む小説を選ぶ必要があり，現在下の書評を読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "review_sbr",
+          "title": {
+            "en": "Stars Beyond Reach by Aria M. Skyler",
+            "ja": "『Stars Beyond Reach』 著者：Aria M. Skyler"
+          },
+          "sentences": [
+            {
+              "id": "sbr_s1",
+              "en": "Stars Beyond Reach, written in 2016, is a mysterious science fiction novel.",
+              "ja": "2016年に書かれた『Stars Beyond Reach』は，謎に包まれたSF小説です。"
+            },
+            {
+              "id": "sbr_s2",
+              "en": "In this story, characters go on a space adventure full of mysterious challenges.",
+              "ja": "この物語では，登場人物たちが摩訶不思議な試練に満ちた宇宙冒険に出かけます。"
+            },
+            {
+              "id": "sbr_s3",
+              "en": "The book combines the vastness of space exploration with exciting unsolved mysteries, making it interesting for readers with its detailed worlds and surprising story turns.",
+              "ja": "本書は，広大な宇宙探索とワクワクする未解決の謎を組み合わせ，詳細な世界観と予想外の物語の展開で読者を惹きつけます。"
+            },
+            {
+              "id": "sbr_s4",
+              "en": "I can't believe this is Skyler's first work!",
+              "ja": "これがSkylerの初めての作品だとは信じられません！"
+            },
+            {
+              "id": "sbr_s5",
+              "en": "This book is a top pick for those who love space mysteries and stories highlighting people's strengths.",
+              "ja": "この本は宇宙の謎と人々の強さを描いた物語が大好きな人に最適です。"
+            }
+          ]
+        },
+        {
+          "id": "review_wp",
+          "title": {
+            "en": "Whispers of the Past by Eloise Hart",
+            "ja": "『Whispers of the Past』 著者：Eloise Hart"
+          },
+          "image": {
+            "src": "data/sundai/2026/round02/images/q01_illus_stacked_books.png",
+            "alt": "積み重なった本のイラスト",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "wp_s1",
+              "en": "Whispers of the Past describes a slightly unusual love story.",
+              "ja": "『Whispers of the Past』はやや変わった恋愛物語を描いています。"
+            },
+            {
+              "id": "wp_s2",
+              "en": "The main characters find letters that show a love story from 100 years ago that leaves them with a lot of questions.",
+              "ja": "主人公たちは，100年前の恋愛物語が書かれている手紙を見つけ，その物語に多くの疑問を抱くことになります。"
+            },
+            {
+              "id": "wp_s3",
+              "en": "Hart's academic background in linguistics and great imagination result in a smooth and exciting romance novel full of discoveries of hidden secrets, making this book one of the greatest hits of 2018.",
+              "ja": "Hartの言語学の学術背景と豊かな想像力が結びついて，隠された秘密の発見がいっぱいのスムーズで興奮する恋愛小説を作り出し，この本は2018年の大ヒット作の1つになっています。"
+            },
+            {
+              "id": "wp_s4",
+              "en": "This book takes you on a trip that demonstrates the strong power of love and old secrets.",
+              "ja": "この本は愛と古い秘密の強力な力を示す旅にあなたを連れていってくれます。"
+            }
+          ]
+        },
+        {
+          "id": "review_tfc",
+          "title": {
+            "en": "The Final Clue by James R. Ellison",
+            "ja": "『The Final Clue』 著者：James R. Ellison"
+          },
+          "sentences": [
+            {
+              "id": "tfc_s1",
+              "en": "The Final Clue is an exciting mystery book from start to end.",
+              "ja": "『The Final Clue』は始まりから終わりまでワクワクするミステリー小説です。"
+            },
+            {
+              "id": "tfc_s2",
+              "en": "The main character, Detective Laura Hale, works to solve a difficult mystery in London, making readers think and keeping them interested.",
+              "ja": "主人公の探偵，Laura Haleはロンドンで難解な謎を解決しようと奮闘し，読者に思考を促し，興味を持たせ続けます。"
+            },
+            {
+              "id": "tfc_s3",
+              "en": "This book, which took five years to complete from its start in 2017 to publication, is not only about solving mysteries but also features unique characters and detailed descriptions of London.",
+              "ja": "2017年に取り組み始めてから出版されるまで完成に5年を要したこの本は，謎解きだけでなくユニークなキャラクターやロンドンの詳細な描写も特徴としています。"
+            },
+            {
+              "id": "tfc_s4",
+              "en": "It will attract a wide range of novel readers as well as mystery enthusiasts this year.",
+              "ja": "今年，この本はミステリー愛好家にとどまらず幅広い小説ファンを惹きつけるでしょう。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "In these book reviews, you can learn that [1].",
+            "ja": "「これらの書評であなたは [1] とわかる」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "in The Final Clue, many detectives engage in solving mysteries",
+              "ja": "『The Final Clue』では多くの探偵たちが謎解きをしていく",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "James R. Ellison wrote a mystery novel in London",
+              "ja": "James R. Ellisonはロンドンでミステリー小説を書いた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Stars Beyond Reach describes people studying about the universe",
+              "ja": "『Stars Beyond Reach』は宇宙について学ぶ人たちが描かれている",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Whispers of the Past is not just a simple romance novel",
+              "ja": "『Whispers of the Past』は単純な恋愛小説にとどまらない",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。『Whispers of the Past』のレビューの第1文（Whispers of the ...）に『Whispers of the Past』が「やや変わった恋愛物語」であると紹介されており，また第3文後半に「隠された秘密の発見がいっぱい」などの記述もあるように，単なる恋愛小説ではないことが示唆されているので，④が正解になる。\n『The Final Clue』のレビューの第2文（The main character, ...）にはLaura Haleという探偵が登場人物であることは書かれているが，「多くの探偵たち」が出てくるとは書かれていないので①は誤り。James R. Ellisonは『The Final Clue』の著者で，そのレビューの中で小説の舞台はロンドンであると述べられているが，James R. Ellisonがロンドンで本を書いたかどうかは不明なので②は誤り。『Stars Beyond Reach』のレビューの第2文（In this story, ...）に登場人物たちは宇宙へ冒険に出かけると書かれているが，宇宙について学んでいるという描写は無いので③も誤り。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": ["wp_s1", "wp_s3"],
+            "why_others_wrong": [
+              {
+                "label": "①",
+                "reason": "『The Final Clue』のレビューの第2文（The main character, ...）にはLaura Haleという探偵が登場人物であることは書かれているが，「多くの探偵たち」が出てくるとは書かれていないので①は誤り。",
+                "ref_sentences": ["tfc_s2"]
+              },
+              {
+                "label": "②",
+                "reason": "James R. Ellisonは『The Final Clue』の著者で，そのレビューの中で小説の舞台はロンドンであると述べられているが，James R. Ellisonがロンドンで本を書いたかどうかは不明なので②は誤り。",
+                "ref_sentences": ["tfc_s2"]
+              },
+              {
+                "label": "③",
+                "reason": "『Stars Beyond Reach』のレビューの第2文（In this story, ...）に登場人物たちは宇宙へ冒険に出かけると書かれているが，宇宙について学んでいるという描写は無いので③も誤り。",
+                "ref_sentences": ["sbr_s2"]
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "In all three books, you can [2].",
+            "ja": "「3冊全ての本において，あなたは [2] ことができる」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "enjoy stories set in places that don't actually exist",
+              "ja": "実際には存在しない場所を舞台とする物語を楽しむ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "find some elements of mystery included",
+              "ja": "ミステリー［謎］の要素が含まれているとわかる",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "learn about the strength of humans",
+              "ja": "人間の強さを知る",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "see the moral development of the characters",
+              "ja": "登場人物の道徳的成長を見る",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。3冊のレビューに共通する要素を探し出すこと。『Stars Beyond Reach』のレビューの第1文（Stars Beyond, ...）に「謎に包まれたSF小説」であると紹介されており，さらに第3文（The book combines ...）に「広大な宇宙探索とワクワクする未解決の謎を組み合わせ，詳細な世界観と予想外の物語の展開で読者を惹きつけます」とあり，『Stars Beyond Reach』にはミステリーの要素が含まれていることがわかる。『Whispers of the Past』のレビューの第2文（The main characters ...）には「主人公たちは，100年前の恋愛物語が書かれている手紙を見つけ，多くの疑問を抱くことになります」とあり，続く第3文（Hart's academic background ...）には「隠された秘密の発見がいっぱいのスムーズで興奮するロマンス小説」と紹介されていることから，『Whispers of the Past』にもミステリーの要素が含まれていることがわかる。『The Final Clue』のレビューの第1文（The Final Clue ...）には「ワクワクするミステリー小説」であると記述があるので，『The Final Clue』にもミステリーの要素が含まれていることがわかる。したがって正解は②となる。\n『The Final Clue』の舞台はロンドンであることなどから①は誤り。『Stars Beyond Reach』のレビューの最終文（This book is ...）に「宇宙の謎と人々の強さを描いた物語」とはあるものの，他のレビューには「人間の強さ」に関する記述は見当たらないので③は誤り。登場人物の道徳的成長に関してはどの本のレビューからも読み取ることができないので④も誤りである。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": ["sbr_s1", "sbr_s3", "wp_s2", "wp_s3", "tfc_s1"],
+            "why_others_wrong": [
+              {
+                "label": "①",
+                "reason": "『The Final Clue』の舞台はロンドンであることなどから①は誤り。",
+                "ref_sentences": ["tfc_s2"]
+              },
+              {
+                "label": "③",
+                "reason": "『Stars Beyond Reach』のレビューの最終文（This book is ...）に「宇宙の謎と人々の強さを描いた物語」とはあるものの，他のレビューには「人間の強さ」に関する記述は見当たらないので③は誤り。",
+                "ref_sentences": ["sbr_s5"]
+              },
+              {
+                "label": "④",
+                "reason": "登場人物の道徳的成長に関してはどの本のレビューからも読み取ることができないので④も誤りである。",
+                "ref_sentences": []
+              }
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "Which of the following events happened most recently? [3]",
+            "ja": "「以下の出来事のうち最も最近起きたことはどれか」［3］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Hart began to study linguistics.",
+              "ja": "Hartが言語学を勉強し始めた。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Skyler wrote her first novel.",
+              "ja": "Skylerが彼女の初めての小説を書いた。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The Final Clue was published.",
+              "ja": "『The Final Clue』が出版された。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Whispers of the Past was written.",
+              "ja": "『Whispers of the Past』が書かれた。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。『The Final Clue』のレビューの第3文（This book, which ...）に「2017年に取り組み始めてから出版されるまで完成に5年を要した」とあるので，2022年に出版したのだとわかる。①の時期に関しては本文に記述がないが，『Whispers of the Past』には「Hartの言語学の学術背景」が反映されているとあるので，この本がヒットした2018年以前のことだと考えられる。②に関して，『Stars Beyond Reach』のレビューの第1文（Stars Beyond, ...）に2016年に書かれたとあり，さらに第4文（I can't believe ...）にSkylerの初めての作品が『Stars Beyond Reach』であるとわかるので，彼女の初めての小説を書いた年度は2016年であるとわかる。④に関して，『Whispers of the Past』のレビューの第3文（Hart's academic background ...）に2018年の大ヒット作の1つであると書かれていることから，2018年以前に書かれたものだとわかる。したがって答えは③であると判断できる。",
+            "quoted_source": "駿台『2026年駿台実戦問題集 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": ["tfc_s3"],
+            "why_others_wrong": [
+              {
+                "label": "①",
+                "reason": "①の時期に関しては本文に記述がないが，『Whispers of the Past』には「Hartの言語学の学術背景」が反映されているとあるので，この本がヒットした2018年以前のことだと考えられる。",
+                "ref_sentences": ["wp_s3"]
+              },
+              {
+                "label": "②",
+                "reason": "『Stars Beyond Reach』のレビューの第1文（Stars Beyond, ...）に2016年に書かれたとあり，さらに第4文（I can't believe ...）にSkylerの初めての作品が『Stars Beyond Reach』であるとわかるので，彼女の初めての小説を書いた年度は2016年であるとわかる。",
+                "ref_sentences": ["sbr_s1", "sbr_s4"]
+              },
+              {
+                "label": "④",
+                "reason": "『Whispers of the Past』のレビューの第3文（Hart's academic background ...）に2018年の大ヒット作の1つであると書かれていることから，2018年以前に書かれたものだとわかる。",
+                "ref_sentences": ["wp_s3"]
+              }
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "items": [
+            { "en": "mysterious", "ja": "不思議な" },
+            { "en": "adventure", "ja": "冒険" },
+            { "en": "challenge", "ja": "難題；課題" },
+            { "en": "combine", "ja": "…を組み合わせる" },
+            { "en": "mystery", "ja": "謎；ミステリー" },
+            { "en": "top pick", "ja": "第1位" },
+            { "en": "highlight", "ja": "…を強調する" },
+            { "en": "result in ...", "ja": "結果…となる" },
+            { "en": "demonstrate", "ja": "…を実証する" },
+            { "en": "publication", "ja": "出版" },
+            { "en": "attract", "ja": "…を惹きつける" },
+            { "en": "enthusiast", "ja": "熱狂的なファン" }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            { "en": "(be) set in ...", "ja": "（物語の舞台が）…に設定される" }
+          ]
+        }
+      }
+    }
+  ]
+}

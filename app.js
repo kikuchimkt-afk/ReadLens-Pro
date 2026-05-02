@@ -16,6 +16,16 @@ const EXAM_REGISTRY = [
     icon: "📒"
   },
   {
+    id: "sundai_2026_02",
+    publisher: "駿台",
+    series: "実戦問題集",
+    year: 2026,
+    round: 2,
+    label: "駿台実戦問題集 2026 ─ 第2回",
+    dataPath: "data/sundai/2026/round02/data.json",
+    icon: "📓"
+  },
+  {
     id: "sundai_2025_01",
     publisher: "駿台",
     series: "実戦問題集",
