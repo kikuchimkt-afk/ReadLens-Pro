@@ -13,7 +13,9 @@
       3,
       4,
       5,
-      6
+      6,
+      7,
+      8
     ],
     "source_pdf_mondai": "第1回_問題.pdf",
     "source_pdf_kaitou": "第1回_解説.pdf"
@@ -3286,6 +3288,1652 @@
               "en": "major",
               "ja": "専攻",
               "note": "問4 ⑤"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 16,
+      "description": "長文読解（紫外線・アウトライン）",
+      "situation": {
+        "en": "You are preparing a presentation for a science project on ultraviolet light. You found some interesting information in the article below and are now making your outline.",
+        "ja": "あなたは，紫外線に関する科学プロジェクトの発表を準備しています。あなたは以下の記事に興味深い情報を見つけ，現在概要を作成しています。"
+      },
+      "passages": [
+        {
+          "id": "uv_article",
+          "title": {
+            "en": "Ultraviolet Light",
+            "ja": "紫外線"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "uv_p1_s1",
+                "en": "We are surrounded by light every day.",
+                "ja": "私たちは日々光に囲まれている。"
+              },
+              {
+                "id": "uv_p1_s2",
+                "en": "In fact, many different kinds of light shape our world in ways that we do not always think about.",
+                "ja": "実際，さまざまな種類の光が，私たちがいつも意識しているとは限らない形で世界を形づくっている。"
+              },
+              {
+                "id": "uv_p1_s3",
+                "en": "Not only does light help us see, but it also makes us feel happier and helps us sleep better.",
+                "ja": "光は見るのを助けるだけでなく，気持ちをより明るくさせ，よりよく眠るのにも役立ってくれる。"
+              },
+              {
+                "id": "uv_p1_s4",
+                "en": "Among the many kinds of light, ultraviolet (UV) light is particularly interesting, as it affects our lives in many different ways.",
+                "ja": "多くの種類の光の中でも，紫外線はとりわけ興味深く，私たちの生活にさまざまな形で影響を及ぼす。"
+              }
+            ],
+            [
+              {
+                "id": "uv_p2_s1",
+                "en": "UV light is a type of radiation that comes from the sun, and it is divided into three types: UVA, UVB, and UVC.",
+                "ja": "紫外線は太陽由来の放射線の一種であり，UVA，UVB，UVCの3種類に分けられる。"
+              },
+              {
+                "id": "uv_p2_s2",
+                "en": "UVA makes up about 95% of the UV radiation that reaches Earth and gives off the least amount of energy.",
+                "ja": "UVAは地球に届く紫外線の約95％を占め，最もエネルギー放出量が少ない。"
+              },
+              {
+                "id": "uv_p2_s3",
+                "en": "However, it is potentially harmful because it can penetrate, or reach, deep into human skin.",
+                "ja": "しかし，ヒトの肌の奥深くまで浸透する，つまり届く可能性があるので，有害になりうる。"
+              },
+              {
+                "id": "uv_p2_s4",
+                "en": "UVB is mostly blocked by the atmosphere, making up the remaining 5% of the radiation Earth receives.",
+                "ja": "UVBは大気によってほとんど遮られ，地球が受ける放射線の残りの約5％を占める。"
+              },
+              {
+                "id": "uv_p2_s5",
+                "en": "Exposure to UVB increases the risk of cellular damage and DNA mutations in living organisms.",
+                "ja": "UVBへのさらされは，生物における細胞障害やDNA突然変異のリスクを高める。"
+              },
+              {
+                "id": "uv_p2_s6",
+                "en": "UVC, on the other hand, gives off the most energy and is the most dangerous.",
+                "ja": "一方，UVCは最も多くのエネルギーを放出し，最も危険である。"
+              },
+              {
+                "id": "uv_p2_s7",
+                "en": "However, it is completely blocked by the Earth's atmosphere.",
+                "ja": "しかし，それは地球の大気によって完全に遮断される。"
+              },
+              {
+                "id": "uv_p2_s8",
+                "en": "People only encounter UVC from special products like sanitizing lamps.",
+                "ja": "ヒトがUVCに触れるのは，殺菌灯など特別な製品からだけである。"
+              },
+              {
+                "id": "uv_p2_s9",
+                "en": "Besides, these products are typically built with features to protect us from the radiation.",
+                "ja": "しかも，そのような製品は通常，放射線から私たちを守る機能が組み込まれている。"
+              }
+            ],
+            [
+              {
+                "id": "uv_p3_s1",
+                "en": "One of the benefits of UV light is that it helps our bodies produce vitamin D, which is important for our health.",
+                "ja": "紫外線の利点のひとつは，健康に欠かせないビタミンDを私たちの体内でつくるのを助けることである。"
+              },
+              {
+                "id": "uv_p3_s2",
+                "en": "Vitamin D helps the absorption of calcium, which is responsible for building strong bones and muscles.",
+                "ja": "ビタミンDはカルシウムの吸収を助け，強い骨や筋肉をつくるうえで必要である。"
+              },
+              {
+                "id": "uv_p3_s3",
+                "en": "It also helps improve heart function, reduces symptoms of depression (a medical condition that makes a person feel sad or hopeless), and strengthens the immune system, which keeps us healthy.",
+                "ja": "また心臓のはたらきを改善し，うつ（人を悲観的・絶望的な気持ちにさせる医学的状態）の症状を減らし，私たちを健康に保つ免疫システムを強化するのにも役立つ。"
+              },
+              {
+                "id": "uv_p3_s4",
+                "en": "We can get a small amount of vitamin D from food, but the best natural source of it is sunlight.",
+                "ja": "ビタミンDは食べ物からも少量摂れるが，最もよい天然の供給源は日光である。"
+              }
+            ],
+            [
+              {
+                "id": "uv_p4_s1",
+                "en": "While UV light is beneficial, it can also be harmful.",
+                "ja": "紫外線には有益な面もあるが，有害になりうる面もある。"
+              },
+              {
+                "id": "uv_p4_s2",
+                "en": "Too much UV light damages all skin types, causing early aging, wrinkles, and sometimes even cancer.",
+                "ja": "紫外線を浴びすぎるとあらゆる肌タイプにダメージを与え，早期老化やしわの原因になり，ときにはがんにつながることもある。"
+              },
+              {
+                "id": "uv_p4_s3",
+                "en": "However, not all skin is affected in the same way.",
+                "ja": "しかし，肌への影響はすべて同じというわけではない。"
+              },
+              {
+                "id": "uv_p4_s4",
+                "en": "For instance, lighter skin burns quickly in the sun, while darker skin absorbs more UV light and burns less easily.",
+                "ja": "たとえば，色の薄い肌は日光ですぐに赤くなるが，色の濃い肌はより多くの紫外線を吸収し，赤くなりにくい。"
+              },
+              {
+                "id": "uv_p4_s5",
+                "en": "Too much UV light can also affect our eyes, increasing the risk of cataracts, a condition where the lens of the eye becomes cloudy.",
+                "ja": "紫外線を浴びすぎると目にも影響が及び，眼球の水晶体が濁る白内障のリスクが高まる。"
+              },
+              {
+                "id": "uv_p4_s6",
+                "en": "Over time, it can also break down proteins in the eyes, possibly leading to loss of sight.",
+                "ja": "時間が経つにつれ，目の中のたんぱく質を分解し，視力喪失につながることもある。"
+              }
+            ],
+            [
+              {
+                "id": "uv_p5_s1",
+                "en": "The same qualities of UV light that create risks for us can also be used to make us safer.",
+                "ja": "私たちにリスクをもたらす紫外線の性質は，私たちをより安全にするためにも利用できる。"
+              },
+              {
+                "id": "uv_p5_s2",
+                "en": "For example, humans can create UVC light and use it to kill germs, tiny harmful organisms.",
+                "ja": "たとえば，ヒトはUVC光を人工的につくり，有害な微小生物である細菌などを殺すのに使うことができる。"
+              },
+              {
+                "id": "uv_p5_s3",
+                "en": "Hospitals have been using this method to clean equipment, and even the air inside of rooms for decades.",
+                "ja": "病院では何十年も前からこの方法で器具や室内の空気さえも清浄にしてきた。"
+              },
+              {
+                "id": "uv_p5_s4",
+                "en": "The UVC light destroys the ability of germs to reproduce, limiting their ability to spread.",
+                "ja": "UVC光は細菌などの繁殖能力を破壊し，その拡散を抑える。"
+              }
+            ],
+            [
+              {
+                "id": "uv_p6_s1",
+                "en": "Despite the effectiveness of using UVC light to clean rooms, it is necessary to understand some of the possible risks.",
+                "ja": "部屋の清浄にUVC光を使うことは効果的だが，考えられるリスクを理解しておくことも必要である。"
+              },
+              {
+                "id": "uv_p6_s2",
+                "en": "When using UV light indoors, chemical reactions happen.",
+                "ja": "屋内で紫外線を使うと，化学反応が起こる。"
+              },
+              {
+                "id": "uv_p6_s3",
+                "en": "These reactions turn the oxygen in a room into ozone, which is a dangerous type of gas.",
+                "ja": "その反応によって室内の酸素がオゾンという危険な気体に変わる。"
+              },
+              {
+                "id": "uv_p6_s4",
+                "en": "The ozone created can lead to more chemical reactions that produce other dangerous chemicals.",
+                "ja": "できあがったオゾンがさらなる化学反応を引き起こし，ほかの有害な化学物質を生み出すことがある。"
+              },
+              {
+                "id": "uv_p6_s5",
+                "en": "As rooms often have limited airflow, these harmful substances can build up.",
+                "ja": "室内では空気の流れが限られることが多いので，これらの有害物質が蓄積しうる。"
+              },
+              {
+                "id": "uv_p6_s6",
+                "en": "Over time, the air becomes dangerous to breathe.",
+                "ja": "時間が経つにつれ，息をするのに危険な空気になる。"
+              },
+              {
+                "id": "uv_p6_s7",
+                "en": "When using UV light indoors, you must make sure enough fresh air is provided.",
+                "ja": "屋内で紫外線を使うときは，十分な新鮮な空気が供給されるようにしなければならない。"
+              }
+            ],
+            [
+              {
+                "id": "uv_p7_s1",
+                "en": "UV light is everywhere, so it is important to understand how it affects us and what we can do to protect ourselves.",
+                "ja": "紫外線はどこにでもあるので，それが私たちにどう影響するか，そして自分をどう守れるかを理解することが重要である。"
+              },
+              {
+                "id": "uv_p7_s2",
+                "en": "Although it is not realistic or healthy to avoid UV light completely, there are ways to minimize its risks.",
+                "ja": "紫外線を完全に避けることは現実的でも健康的でもないが，そのリスクを最小限に抑える方法はある。"
+              },
+              {
+                "id": "uv_p7_s3",
+                "en": "For example, when spending time outdoors, you should use sunscreen, which can help block harmful UV light.",
+                "ja": "たとえば屋外で過ごすときには有害な紫外線を遮るのに役立つ日焼け止めを使うべきである。"
+              },
+              {
+                "id": "uv_p7_s4",
+                "en": "Additionally, hats and sunglasses are also great for protecting the skin and eyes.",
+                "ja": "さらに帽子やサングラスも皮膚や目を守るのにすぐれたものである。"
+              },
+              {
+                "id": "uv_p7_s5",
+                "en": "UV rays can also penetrate clouds and still cause harm, so these precautions should be taken no matter the weather.",
+                "ja": "紫外線は雲を通過して害を及ぼすこともあるので，天気に関係なくこれらの予防措置をとるべきである。"
+              },
+              {
+                "id": "uv_p7_s6",
+                "en": "Finally, if you are using UV light inside, remember to keep a window open to reduce the effects of harmful gases.",
+                "ja": "最後に，屋内で紫外線を使うときは，有害なガスの影響を軽減するために窓を開けておくことを忘れないようにしよう。"
+              }
+            ],
+            [
+              {
+                "id": "uv_p8_s1",
+                "en": "UV light is both our friend and our enemy.",
+                "ja": "紫外線は私たちの味方でもあり敵でもある。"
+              },
+              {
+                "id": "uv_p8_s2",
+                "en": "It can bring us great health benefits, but if we are not careful, it can also cause great harm.",
+                "ja": "健康に大きな利益をもたらしてくれるが，注意を怠れば大きな害をもたらすこともある。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "uv_outline",
+          "presentation_outline": {
+            "label_outside_box": {
+              "en": "Your presentation outline",
+              "ja": "発表用の概要"
+            },
+            "title": {
+              "en": "UV Light",
+              "ja": "紫外線"
+            },
+            "blocks": [
+              {
+                "type": "center_slot",
+                "heading": {
+                  "en": "The Reach of UV",
+                  "ja": "UVの到達範囲"
+                },
+                "center_slot": 32
+              },
+              {
+                "type": "underlined_heading",
+                "heading": {
+                  "en": "Benefit of UV: helps our bodies produce vitamin D",
+                  "ja": "UVの利点：体がビタミンDを生成するのを助ける"
+                }
+              },
+              {
+                "type": "adaptations_heading",
+                "heading": {
+                  "en": "Benefits of Vitamin D",
+                  "ja": "ビタミンDの利点"
+                },
+                "slot_after_heading": 33,
+                "lines": [
+                  {
+                    "en": "A. Blocks calcium absorption",
+                    "ja": "A. カルシウムの吸収を防ぐ"
+                  },
+                  {
+                    "en": "B. Boosts the immune system",
+                    "ja": "B. 免疫システムを強化する"
+                  },
+                  {
+                    "en": "C. Improves mood",
+                    "ja": "C. 気分を改善する"
+                  },
+                  {
+                    "en": "D. Lowers heart-disease risk",
+                    "ja": "D. 心臓病のリスクを下げる"
+                  },
+                  {
+                    "en": "E. Strengthens bones and muscles",
+                    "ja": "E. 骨と筋肉を強化する"
+                  }
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "Dangers of UV Light",
+                  "ja": "UV光の危険性"
+                },
+                "bullets": [
+                  {
+                    "en": "Too much sun can [34].",
+                    "ja": "過剰な太陽光は [34]。"
+                  },
+                  {
+                    "en": "Too much sun can [35].",
+                    "ja": "過剰な太陽光は [35]。"
+                  }
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "UV and Cleaning",
+                  "ja": "UVと浄化"
+                },
+                "bullets": [
+                  {
+                    "en": "Kills germs",
+                    "ja": "細菌を殺す"
+                  }
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "UV Indoors",
+                  "ja": "室内でのUV"
+                },
+                "bullets": [
+                  {
+                    "en": "UV light [36].",
+                    "ja": "UV光は [36]。"
+                  }
+                ]
+              },
+              {
+                "type": "slot_heading_list",
+                "slot": 37,
+                "lines": [
+                  {
+                    "en": "Sunscreen",
+                    "ja": "日焼け止め"
+                  },
+                  {
+                    "en": "Hats",
+                    "ja": "帽子"
+                  },
+                  {
+                    "en": "Sunglasses",
+                    "ja": "サングラス"
+                  },
+                  {
+                    "en": "Airflow",
+                    "ja": "空気の流れ"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 32,
+          "points": 3,
+          "stem": {
+            "en": "You want to use a figure to show how far UV light penetrates as described in the article. Choose the best option for [32].",
+            "ja": "記事で説明されているとおり，紫外線がどれだけ届くかを示す図を使いたい。［32］に最適な選択肢を選びなさい。"
+          },
+          "figure_image": {
+            "src": "data/zkai/2026/round01/images/q07_q1_diagram_choices.png",
+            "alt": "問1 UVの到達（①〜④）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。UVA，UVB，UVCの届き方は第2段落に書かれている。地球表面に届く量に注目する。第2文に「UVAは地球に到達する紫外線の約95％を占める」とあるので③か④に絞られる。第4文に「UVBは大気によってほとんど遮断され，地球が受ける放射線の残りの約5％を占める」とある。さらに第7文で「UVCは地球の大気によって完全に遮断される」とあるので，③が正解。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "uv_p2_s2",
+              "uv_p2_s4",
+              "uv_p2_s7"
+            ],
+            "instructor_note": {
+              "ja": "到達量のパーセンテージと，UVCは地表に届かないことを図と対応づける。",
+              "points": [
+                "UVA 約95％ → 地表まで届く主要因。",
+                "UVB 残り約5％・大気でほぼ遮られる → 途中まで。",
+                "UVC 完全遮断 → 大気内で止まる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 33,
+          "points": 3,
+          "stem": {
+            "sentences": [
+              {
+                "id": "zk_q7_q2_st",
+                "en": "Under the heading, \"Benefits of Vitamin D,\" you spotted an error in your presentation outline. Which of the following should you <u>remove</u>? [33]",
+                "ja": "見出し『ビタミンDの利点』の下にある発表用の概要に誤りがあることに気づいた。次のうち，<u>削除</u>すべきものはどれか。［33］"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①（アイテムAを削除）。ビタミンDの利点は第3段落に書かれている。カルシウムの吸収を助けるのはE，心臓のはたらきを改善するのはD，うつの症状を減らすのはC，免疫システムを強化するのはBと本文と一致する。Aは吸収を妨げるように読めるが，本文は吸収を助けるとあるので誤り。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "uv_p3_s2",
+              "uv_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "Blocks calcium absorption は helps the absorption の反対。",
+              "points": [
+                "Vitamin D helps the absorption of calcium → E と整合。",
+                "heart function / depression / immune → D,C,B。",
+                "A だけが本文と矛盾。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            34,
+            35
+          ],
+          "unordered_slots": [
+            34,
+            35
+          ],
+          "points": 4,
+          "stem": {
+            "sentences": [
+              {
+                "id": "zk_q7_q3_a",
+                "en": "Choose the best options for [34] and [35]. (The order does not matter.)",
+                "ja": "［34］と［35］に最適な選択肢を選びなさい。（順不同。）"
+              }
+            ]
+          },
+          "choices_34": [
+            {
+              "label": "①",
+              "en": "affect people with lighter skin more severely",
+              "ja": "より明るい肌の人により深刻な影響を与える",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "contribute to the development of vision problems",
+              "ja": "視力問題の発現の一因となる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "destroy light-sensitive materials in clothing",
+              "ja": "衣類の光に敏感な素材を破壊する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "help to clear up cloudy spots on the skin",
+              "ja": "肌の曇った部分を解消するのに役立つ",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "lead to darker-skinned people producing excess vitamin D",
+              "ja": "より暗い肌の人が過剰なビタミンDを生成することにつながる",
+              "is_correct": false
+            }
+          ],
+          "choices_35": [
+            {
+              "label": "①",
+              "en": "affect people with lighter skin more severely",
+              "ja": "より明るい肌の人により深刻な影響を与える",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "contribute to the development of vision problems",
+              "ja": "視力問題の発現の一因となる",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "destroy light-sensitive materials in clothing",
+              "ja": "衣類の光に敏感な素材を破壊する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "help to clear up cloudy spots on the skin",
+              "ja": "肌の曇った部分を解消するのに役立つ",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "lead to darker-skinned people producing excess vitamin D",
+              "ja": "より暗い肌の人が過剰なビタミンDを生成することにつながる",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "34": "①",
+            "35": "②"
+          },
+          "answer_note": "順不同・両スロット正解で満点",
+          "explanation": {
+            "quoted_ja": "正解は①と②（順不同）。見出しはDangers of UV Light。第4段落に，色の薄い肌と濃い肌の違いと，目への影響（白内障・視力）が書かれている。①はlighter skin burns quickly…に，②はeyes… cataracts… vision に合致する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "uv_p4_s4",
+              "uv_p4_s5",
+              "uv_p4_s6"
+            ],
+            "instructor_note": {
+              "ja": "危険の列挙：皮膚の差異と眼疾患。衣服やビタミンD過剰は本文にない。",
+              "points": [
+                "①: lighter vs darker skin。",
+                "②: cataracts / eyes → vision problems。",
+                "③④⑤: 記述なしまたは別段落の内容。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 36,
+          "points": 3,
+          "stem": {
+            "en": "Choose the best option for [36].",
+            "ja": "［36］に最適な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "can cause a chemical reaction that increases room temperature significantly, making the space feel warmer",
+              "ja": "部屋の温度を大幅に上昇させる化学反応を引き起こし，空間を暖かくする可能性がある",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "can help improve ventilation, ensuring that fresh air flows in the room",
+              "ja": "換気の改善に役立ち，新鮮な空気がしっかり部屋に流れ込むようにする",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "can produce chemicals that are not safe, making it dangerous for people to use in an enclosed space",
+              "ja": "安全でない化学物質を生成する可能性があり，密閉空間で人が使用するのは危険である",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "can produce light with more energy, making rooms appear much brighter than usual",
+              "ja": "より多くのエネルギーを持つ光を生成でき，部屋を通常よりはるかに明るくする",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。屋内での紫外線は第6段落に書かれる。化学反応でオゾンなど有害物質が生じ，密閉では蓄積しやすい。換気を確保しろというのは紫外線が換気を「改善する」のではなく必要とするので②は誤り。室温や明るさの記述はないので①④も誤り。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "uv_p6_s2",
+              "uv_p6_s3",
+              "uv_p6_s6",
+              "uv_p6_s7"
+            ],
+            "instructor_note": {
+              "ja": "ozone / dangerous chemicals / enclosed と enclosed の語に注目（問4語注）。",
+              "points": [
+                "②は UV が ventilation を改善するという意味になってしまう。",
+                "本文は fresh air を ensure するよう読者に求める。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 37,
+          "points": 3,
+          "stem": {
+            "en": "Choose the best heading for [37].",
+            "ja": "［37］に最適な見出しを選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "How to Treat Damaged Skin",
+              "ja": "損傷した肌の治療方法",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "How UV Light Affects People",
+              "ja": "UV光が人に与える影響",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Ways to Live a Healthy Life",
+              "ja": "健康的な生活を送る方法",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Ways to Reduce UV Light Risk",
+              "ja": "UV光のリスクを軽減する方法",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。［37］以下は日焼け止め・帽子・サングラス・空気の流れであり，第7段落第2文の minimize its risks に当たる具体例。①は治療でなく予防。②は影響そのものの列挙ではない。③は漠然としており，ビタミンDや除菌の文脈とも整合しにくい。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "uv_p7_s2",
+              "uv_p7_s3",
+              "uv_p7_s4",
+              "uv_p7_s6"
+            ],
+            "instructor_note": {
+              "ja": "リストはすべて precautions / risk reduction。",
+              "points": [
+                "sunscreen, hats, sunglasses → block / protect。",
+                "Airflow → window open / harmful gases。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "be surrounded by ~",
+              "ja": "〜に囲まれている"
+            },
+            {
+              "en": "shape",
+              "ja": "〜を形作る"
+            },
+            {
+              "en": "radiation",
+              "ja": "放射線；光の放射"
+            },
+            {
+              "en": "divide A into B",
+              "ja": "AをBに分ける"
+            },
+            {
+              "en": "make up ~",
+              "ja": "〜を構成する"
+            },
+            {
+              "en": "reach",
+              "ja": "〜に到達する；到達範囲"
+            },
+            {
+              "en": "give off ~",
+              "ja": "〜を放出する"
+            },
+            {
+              "en": "penetrate",
+              "ja": "浸透する"
+            },
+            {
+              "en": "the atmosphere",
+              "ja": "大気；大気圏"
+            },
+            {
+              "en": "exposure to ~",
+              "ja": "〜にさらされること"
+            },
+            {
+              "en": "mutation",
+              "ja": "突然変異"
+            },
+            {
+              "en": "sanitizing lamp",
+              "ja": "殺菌灯"
+            },
+            {
+              "en": "absorption",
+              "ja": "吸収"
+            },
+            {
+              "en": "be responsible for ~",
+              "ja": "〜の原因・一因である"
+            },
+            {
+              "en": "immune system",
+              "ja": "免疫システム"
+            },
+            {
+              "en": "cataract",
+              "ja": "白内障"
+            },
+            {
+              "en": "loss of sight",
+              "ja": "視力喪失；失明"
+            },
+            {
+              "en": "germ",
+              "ja": "細菌；微生物"
+            },
+            {
+              "en": "chemical reaction",
+              "ja": "化学反応"
+            },
+            {
+              "en": "airflow",
+              "ja": "空気の流れ"
+            },
+            {
+              "en": "minimize",
+              "ja": "〜を最小限に抑える"
+            },
+            {
+              "en": "sunscreen",
+              "ja": "日焼け止め"
+            },
+            {
+              "en": "precaution",
+              "ja": "予防措置"
+            },
+            {
+              "en": "no matter ~",
+              "ja": "〜に関係なく"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "severely（問3①）",
+              "ja": "厳しく；ひどく"
+            },
+            {
+              "en": "vision（問3②）",
+              "ja": "視力"
+            },
+            {
+              "en": "ventilation（問4②）",
+              "ja": "換気"
+            },
+            {
+              "en": "enclosed（問4③）",
+              "ja": "密閉された"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 18,
+      "description": "レポート構成（ドギーバッグ）：意見読解・立場・情報源活用",
+      "situation": {
+        "en": "You are working on an essay about whether all restaurants in Japan should be required to provide doggy bags. You will follow the steps below:",
+        "ja": "あなたは，日本のすべての飲食店に食べ残しの持ち帰り用の袋（ドギーバッグ）の提供を義務付けるべきかどうかについてのエッセイに取り組んでいます。あなたは以下のステップに従います。",
+        "steps": [
+          {
+            "en": "Step 1: Read and understand various views regarding making restaurants provide doggy bags.",
+            "ja": "ステップ1：飲食店に持ち帰り用の袋の提供を義務付けることに関するさまざまな見解を読んで理解する。"
+          },
+          {
+            "en": "Step 2: Take a position on whether all restaurants in Japan should be required to provide doggy bags.",
+            "ja": "ステップ2：日本のすべての飲食店に持ち帰り用の袋の提供を義務付けるべきかどうかについて判断する。"
+          },
+          {
+            "en": "Step 3: Create an outline for an essay using additional sources.",
+            "ja": "ステップ3：追加の資料を使ってエッセイの概要を作成する。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "step1_opinions",
+          "title": {
+            "en": "[Step 1] Read various viewpoints about requiring restaurants to provide doggy bags",
+            "ja": "［ステップ1］持ち帰り用の袋の義務化に関するさまざまな見解を読む"
+          },
+          "layout": "speaker_boxes",
+          "paragraphs": [
+            [
+              {
+                "id": "z8_a_h",
+                "en": "Author A (Environmental advocate)",
+                "ja": "筆者A（環境保護活動家）"
+              },
+              {
+                "id": "z8_a_s1",
+                "en": "Providing doggy bags at restaurants may significantly help reduce food waste. Many customers want to take home leftovers but feel awkward asking for a bag, especially at relatively high-end restaurants.",
+                "ja": "飲食店で持ち帰り用の袋を提供することは，食品廃棄を大きく減らすのに役立つかもしれない。多くの客は食べ残しを家に持ち帰りたいと思っているが，袋を頼むのは気まずく感じることが多く，とりわけ比較的高級な飲食店ではそうである。"
+              },
+              {
+                "id": "z8_a_s2",
+                "en": "If doggy bags were standard, people wouldn't need to feel embarrassed, and more leftover food could be saved rather than thrown out with the trash.",
+                "ja": "もし持ち帰り用の袋が当たり前になれば，人々は恥ずかしい思いをする必要はなく，より多くの食べ残しをゴミとして捨てるのではなく保存できるだろう。"
+              },
+              {
+                "id": "z8_a_s3",
+                "en": "With this small step, we can contribute to the goal of environmental protection by reducing waste and making better use of resources.",
+                "ja": "この小さな一歩で，廃棄を減らし資源をより有効に使うことによって，環境保護という目標に貢献できる。"
+              },
+              {
+                "id": "z8_a_s4",
+                "en": "If all restaurants provide doggy bags, people will be able to protect the environment more easily without much effort.",
+                "ja": "すべての飲食店が持ち帰り用の袋を提供すれば，人々はあまり労力をかけずにより容易に環境を守ることができるだろう。"
+              }
+            ],
+            [
+              {
+                "id": "z8_b_h",
+                "en": "Author B (Restaurant owner)",
+                "ja": "筆者B（飲食店オーナー）"
+              },
+              {
+                "id": "z8_b_s1",
+                "en": "Offering doggy bags could improve customer satisfaction and potentially boost business.",
+                "ja": "持ち帰り用の袋を提供することで顧客満足度が向上し，商売を繁盛させる可能性がある。"
+              },
+              {
+                "id": "z8_b_s2",
+                "en": "Customers appreciate when they can take home extra food instead of feeling like they have to waste it. This simple option could attract more diners, as many would choose a restaurant that is more environmentally friendly.",
+                "ja": "客は，余分な食べ物を無駄にしなければならないと感じるのではなく持ち帰れるときに感謝する。このシンプルな選択肢はより多くの客を引き寄せるかもしれない。というのも多くの人はより環境に配慮した飲食店を選ぶからである。"
+              },
+              {
+                "id": "z8_b_s3",
+                "en": "Some casual restaurant owners might worry about extra costs, but in reality, this change could be beneficial for them. Especially at casual restaurants where portions are often large, customer satisfaction will increase.",
+                "ja": "一部のカジュアルな飲食店のオーナーは追加費用を心配するかもしれないが，実際にはこの変更は彼らにとって利益になる可能性がある。とりわけ料理の量が多いことが多いカジュアルな店では，満足する客が増えるだろう。"
+              },
+              {
+                "id": "z8_b_s4",
+                "en": "It seems like a win-win solution for us.",
+                "ja": "私たちにとっては双方に利益をもたらす解決策のように思える。"
+              }
+            ],
+            [
+              {
+                "id": "z8_c_h",
+                "en": "Author C (Health inspector)",
+                "ja": "筆者C（衛生検査官）"
+              },
+              {
+                "id": "z8_c_s1",
+                "en": "Requiring restaurants to provide doggy bags raises practical concerns about food safety. Once food leaves a restaurant, it may not be refrigerated properly, which can lead to the growth of bacteria that are harmful to health.",
+                "ja": "飲食店に持ち帰り用の袋の使用を強制することは，食品安全上の現実的な懸念を生じさせる。いったん食べ物が飲食店の外に出たら，適切に冷蔵保存されず，健康に害をなす細菌の増殖につながる可能性がある。"
+              },
+              {
+                "id": "z8_c_s2",
+                "en": "In other words, if leftovers are not handled properly at home, customers may become ill. Because restaurants cannot control how leftovers are stored after customers take them home, encouraging them to give out food in doggy bags could result in more cases of food poisoning.",
+                "ja": "言い換えれば，食べ残しが家で適切に扱われないと，客が病気になる可能性がある。飲食店は，食べ残しが持ち帰られたあとにどのように保存されるかを管理することはできないため，持ち帰り用の袋で食品を渡すことを彼らに奨励すれば，食中毒の事例の増加につながるかもしれない。"
+              },
+              {
+                "id": "z8_c_s3",
+                "en": "It is far too dangerous to require restaurants to take actions that may harm public health.",
+                "ja": "公衆衛生を害する可能性のある行動をとるよう飲食店に要求するのは実に危険すぎる。"
+              }
+            ],
+            [
+              {
+                "id": "z8_d_h",
+                "en": "Author D (Chef)",
+                "ja": "筆者D（シェフ）"
+              },
+              {
+                "id": "z8_d_s1",
+                "en": "Making doggy bags a requirement may harm high-end dining experiences. As a chef, I carefully plan portion sizes and presentation in all my dishes. That precise presentation is a big part of the meal's appeal.",
+                "ja": "持ち帰り用の袋を必須にすることは，高級な食事体験に悪影響を及ぼすかもしれない。私はシェフとして，すべての料理の分量と盛り付けを注意深く計画している。その正確な盛り付けは，食事の魅力の大きな部分を占めている。"
+              },
+              {
+                "id": "z8_d_s2",
+                "en": "Having to provide doggy bags would disrupt this balance and completely change how customers experience the food. For high-class restaurants, where the focus is on a special dining experience, making restaurants provide doggy bags wouldn't work.",
+                "ja": "持ち帰り用の袋を提供しなければならないことは，このバランスを崩し，お客様が料理を体験する様子を完全に変えてしまうだろう。重視する点が特別な食事体験である高級飲食店では，飲食店に持ち帰り用の袋を提供させることはうまくいかないだろう。"
+              },
+              {
+                "id": "z8_d_s3",
+                "en": "They might make sense for casual places, but from my perspective, they could damage the atmosphere and the art that chefs work to create.",
+                "ja": "持ち帰り用の袋はカジュアルな店では理に適うかもしれないが，私の見方では，シェフが努力して作り出す雰囲気や芸術を損なう可能性がある。"
+              }
+            ],
+            [
+              {
+                "id": "z8_e_h",
+                "en": "Author E (Customer)",
+                "ja": "筆者E（顧客）"
+              },
+              {
+                "id": "z8_e_s1",
+                "en": "I like the idea of taking food home instead of letting it go to waste, but I also worry about the possible effect on prices and portion sizes.",
+                "ja": "食べ物を無駄にしないで家に持ち帰るという考え方は好きだが，価格や料理の量へ起こり得る影響も心配だ。"
+              },
+              {
+                "id": "z8_e_s2",
+                "en": "If restaurants are required to provide doggy bags, they might start offering larger portions and charging more to cover costs, which would be a huge downside.",
+                "ja": "もし飲食店が持ち帰り用の袋の提供を義務付けられたら，より多い分量を提供するようになるかもしれないし，費用をまかなうために値上げするようになるかもしれない。これは大きなマイナス面だ。"
+              },
+              {
+                "id": "z8_e_s3",
+                "en": "As a customer, I don't want to end up paying extra or dealing with oversized meals just so I can bring more food home to eat later.",
+                "ja": "客としては，あとで食べる食べ物をより多く持ち帰るためだけに，多く支払ったり，特大サイズの食事に対処したりしたくない。"
+              },
+              {
+                "id": "z8_e_s4",
+                "en": "While it's a convenient option, I think it should remain just that — an option, not a requirement.",
+                "ja": "便利な選択肢ではあるけれど，あくまでも選択肢のままにしておくべきで，必須条件にすべきではないと思う。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 4,
+              "question_ids": [
+                "問1",
+                "問2"
+              ],
+              "answer_numbers": [
+                38,
+                39
+              ]
+            },
+            {
+              "after_paragraph": 4,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、Step 2 に進みます。"
+            }
+          ]
+        },
+        {
+          "id": "step3_outline",
+          "title": {
+            "en": "[Step 3] Create an outline using Sources A and B",
+            "ja": "［ステップ3］資料AとBを用いて概要を作成する"
+          },
+          "subtitle": {
+            "id": "z8_step3_outline_label",
+            "en": "Outline of your essay:",
+            "ja": "あなたのエッセイの概要："
+          },
+          "layout": "essay_outline_box",
+          "paragraphs": [
+            [
+              {
+                "id": "z8_eo_title",
+                "en": "We Should Require All Restaurants in Japan to Offer Doggy Bags",
+                "ja": "日本のすべての飲食店に持ち帰り用の袋の提供を義務付けるべきである",
+                "role": "outline_title"
+              }
+            ],
+            [
+              {
+                "id": "z8_eo_in_h",
+                "en": "Introduction",
+                "ja": "導入",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "z8_eo_in1",
+                "en": "Food loss is a huge problem in the world today. By creating laws that make restaurants provide doggy bags to customers, we can reduce food loss while improving people's lives.",
+                "ja": "食品廃棄は今日の世界で大きな問題である。飲食店が持ち帰り用の袋を客に提供することを義務付ける法律を作ることで，人々の生活を向上させながら食品廃棄を減らすことができる。"
+              }
+            ],
+            [
+              {
+                "id": "z8_eo_bd_h",
+                "en": "Body",
+                "ja": "本文",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "z8_eo_r1",
+                "en": "Reason 1: [From Step 2]",
+                "ja": "理由1：［ステップ2より］",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "z8_eo_r2",
+                "en": "Reason 2: [Based on Source A] ([43])",
+                "ja": "理由2：［資料Aに基づいて］（[43]）",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "z8_eo_r3",
+                "en": "Reason 3: [Based on evidence ([44]) from Source B]",
+                "ja": "理由3：［資料Bからの論拠（[44]）に基づいて］",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "z8_eo_co_h",
+                "en": "Conclusion",
+                "ja": "結論",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "z8_eo_co1",
+                "en": "That's why doggy bags need to become available in all dining establishments.",
+                "ja": "こういうわけで，すべての飲食施設で持ち帰り用の袋を利用できるようにする必要がある。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 8,
+              "question_ids": [
+                "問3"
+              ],
+              "answer_numbers": [
+                40,
+                41,
+                42
+              ]
+            },
+            {
+              "after_paragraph": 8,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、資料Aを読みます。"
+            }
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "資料A"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "z8_sa_p1_s1",
+                "en": "Introducing doggy bags at restaurants may benefit not only the environment but also the health of everyday diners. By providing a way to take leftovers home, restaurants could encourage customers to eat smaller portions during meals instead of pressuring them to finish everything on their plates.",
+                "ja": "飲食店で持ち帰り用の袋を導入することは，環境だけでなく，日々外食をする人の健康にも利点があるかもしれない。食べ残しを家に持ち帰る手段を提供することで，飲食店は客に皿の上のものをすべて食べ切るよう無理強いするのではなく，食事中に食べすぎないよう促すことができるだろう。"
+              },
+              {
+                "id": "z8_sa_p1_s2",
+                "en": "This shift may help reduce overeating, which is linked to various health issues. According to supporters of this new push for doggy bag laws, allowing customers to save extra food for later can encourage a more thoughtful approach to dining.",
+                "ja": "この変更は，さまざまな健康問題に関連している過食を減らすのに役立つかもしれない。持ち帰り用の袋に関する法律の，この新しい推進運動の支持者によれば，客が余分な食べ物をあとに取っておけるようになれば，より配慮をもって食事に取り組めるようになる。"
+              },
+              {
+                "id": "z8_sa_p1_s3",
+                "en": "For example, if a customer were given the option to take home their extra meat and potatoes from a heavy meal, they would be less likely to overeat in the first place.",
+                "ja": "例えば，ボリュームのある食事で余った肉やポテトを持ち帰る選択肢が与えられたら，客はそもそも食べすぎる可能性は低くなるだろう。"
+              }
+            ],
+            [
+              {
+                "id": "z8_sa_p2_s1",
+                "en": "Supporters point out that using doggy bags could lead to the average consumer making better dietary choices and becoming more aware of their eating habits.",
+                "ja": "支持者たちは，持ち帰り用の袋を使用することで，一般消費者がより良い食事を選択し，食習慣をもっと意識するようになる可能性があると指摘する。"
+              },
+              {
+                "id": "z8_sa_p2_s2",
+                "en": "This small step towards improving our health could also go a long way to preventing food loss.",
+                "ja": "健康増進に向けたこの小さな一歩は，食品廃棄の防止にも大いに役立つだろう。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 1,
+              "question_ids": [
+                "問4"
+              ],
+              "answer_numbers": [
+                43
+              ]
+            },
+            {
+              "after_paragraph": 1,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、資料Bを読みます。"
+            }
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "資料B"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "z8_sb_s1",
+                "en": "A recent survey highlights the main reasons why people consume leftovers. Saving money tops the list at 31%, followed closely by saving time at 26%. The findings suggest that offering doggy bags may not only prevent food waste but also support the customers' desires to get the most out of their meals.",
+                "ja": "最近の調査で，人々が食べ残しを消費する主な理由が強調された。「お金の節約」が31%で一覧のトップ，僅差で「時間の節約」が26%で続いた。この調査結果は，持ち帰り用の袋を提供することが，食品廃棄を防ぐだけでなく，食事を最大限に活用したいという顧客の欲求を支援するかもしれないと示唆している。"
+              }
+            ]
+          ],
+          "graph_image": {
+            "src": "images/q08_source_b_pie_chart.png",
+            "after_paragraph": 1,
+            "alt": "Top Reasons for Eating Restaurant Leftovers"
+          },
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 0,
+              "question_ids": [
+                "問5"
+              ],
+              "answer_numbers": [
+                44
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 38,
+          "points": 3,
+          "step": 1,
+          "question_text": {
+            "en": "Both Authors B and D mention that [38].",
+            "ja": "筆者BとDはともに [38] と言及している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "casual dining establishments might benefit more from doggy bags",
+              "ja": "カジュアルな食事施設は，持ち帰り用の袋の恩恵をより多く受けるかもしれない",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "customers are very concerned about how doggy bags impact the dining experience",
+              "ja": "客は持ち帰り用の袋が食事体験にどのような影響を与えるか非常に関心を持っている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "providing doggy bags could lead to increased costs for restaurants",
+              "ja": "持ち帰り用の袋の提供は飲食店の費用増につながる可能性がある",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the use of doggy bags lines up with environmental goals",
+              "ja": "持ち帰り用の袋の使用は環境保護という目標に合致している",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。筆者Bの意見の第4文に Some casual restaurant owners might worry about extra costs, but in reality, this change could be beneficial for them. とあり，続く文でカジュアル店でのメリットを述べている。筆者Dの最終文に They might make sense for casual places とあり，①に一致する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "z8_b_s3",
+              "z8_d_s3"
+            ],
+            "instructor_note": {
+              "ja": "両者に共通するのは「カジュアル店ではドギーバッグが理にかなう」という点。費用増に言及するのは主にB，体験への関心は主にDの別要素。",
+              "points": [
+                "B: casual owners / costs のあと in reality beneficial…",
+                "D: high-end では難しいが casual places では make sense。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 39,
+          "points": 3,
+          "step": 1,
+          "question_text": {
+            "en": "Author C implies that [39].",
+            "ja": "筆者Cは [39] と暗示している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "customers need to be educated on how to store leftovers safely",
+              "ja": "客は食べ残しを安全に保存する方法について教育される必要がある",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "requiring doggy bags might help maintain public health",
+              "ja": "持ち帰り用の袋を義務付けることは公衆衛生の維持に役立つかもしれない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "requiring restaurants to provide doggy bags may lead to more cases of food poisoning",
+              "ja": "飲食店に持ち帰り用の袋の提供を義務付けることは，より多くの食中毒事例につながるかもしれない",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "restaurants should provide doggy bags only when customers request them",
+              "ja": "飲食店は客が求めたときにだけ持ち帰り用の袋を提供すべきだ",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。衛生検査官の筆者Cは，持ち帰り後の保存を店が管理できないことと，doggy bags で食品を渡すよう奨励すると食中毒が増える可能性を結びつけている。②は逆の主張。①④は本文の焦点とずれる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "z8_c_s2"
+            ],
+            "instructor_note": {
+              "ja": "imply 題は否定的帰結を選ぶ。food poisoning / public health の対比に注意。",
+              "points": [
+                "encouraging … doggy bags → more cases of food poisoning を言い換えた③。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "step": 2,
+          "points": 6,
+          "points_note": "［40］〜［42］はすべて正解で得点。［40］［41］は順不同。",
+          "pre_header": {
+            "en": "[Step 2] Take a position",
+            "ja": "［ステップ2］立場を決める"
+          },
+          "answer_numbers": [
+            40,
+            41,
+            42
+          ],
+          "unordered_slots": [
+            40,
+            41
+          ],
+          "stem": {
+            "en": "Now that you understand the various viewpoints, you have taken a position on whether all restaurants in Japan should be required to provide doggy bags, and have written it out as below. Choose the best options to complete [40] — [42]. (You must have all of [40] — [42] correct to get points.)",
+            "ja": "さまざまな見解を理解したうえで，日本のすべての飲食店に持ち帰り用の袋の提供を義務付けるべきかについて判断し，それを以下のように書いた。［40］〜［42］を完成させるのに最適な選択肢を選びなさい。（［40］〜［42］はすべて正解でなければ配点されない。）"
+          },
+          "position_box": {
+            "en": "Your position: All restaurants in Japan should be required to provide doggy bags.\n  • Authors [40] and [41] support your position.\n  • The main argument of the two authors: [42]",
+            "ja": "あなたの立場：日本のすべての飲食店に持ち帰り用の袋の提供を義務付けるべきである。\n  • 筆者 [40] と [41] はあなたの立場を支持する。\n  • この2人の筆者の主な論拠： [42]"
+          },
+          "choices_40": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "choices_41": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "Customers would appreciate restaurants providing doggy bags as an environmentally friendly option.",
+              "ja": "環境に優しい選択肢として，客は持ち帰り用の袋を提供する飲食店を評価するだろう。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Providing doggy bags would benefit all dining restaurants where portion sizes are typically larger.",
+              "ja": "持ち帰り用の袋の提供は，料理の量が概して多いすべての飲食店にとって有益だろう。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Requiring doggy bags could create extra costs for restaurants, especially high-end ones.",
+              "ja": "持ち帰り用の袋を義務付けることは，飲食店，特に高級飲食店にとって余分な費用を生む可能性がある。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Requiring doggy bags would encourage restaurants to offer smaller portions to avoid waste.",
+              "ja": "持ち帰り用の袋を義務化することで，飲食店が無駄をなくすために，提供する料理の分量を少なくするようになるだろう。",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "40": "①",
+            "41": "②",
+            "42": "①"
+          },
+          "answer_note": "［40］と［41］には A（①）と B（②）が順不同で入る。",
+          "explanation": {
+            "quoted_ja": "正解は［40］①／［41］②（順不同），［42］①。義務化を明確に支持するのは環境面のAとビジネス上のメリットを述べるB。［42］は両者に共通する「環境に配慮した選択肢として利用者が評価する」という論点が①に相当。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "z8_a_s2",
+              "z8_a_s4",
+              "z8_b_s1",
+              "z8_b_s2"
+            ],
+            "instructor_note": {
+              "ja": "駿台大問8と同型：Step2のメモは本文ではなく設問ブロックの position_box に載せる。",
+              "points": [
+                "C・D・Eはいずれも『全面的義務化賛成』ではないので［40］［41］から除外。",
+                "［42］は②〜④のように対象を広げすぎ／別筆者の論点にずれる選択肢を落とす。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "points": 3,
+          "step": 3,
+          "question_text": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [43]",
+            "ja": "資料Aに基づくと，理由2として最も適当なものは次のうちどれか。［43］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Allowing customers to take home leftovers could make restaurants seem more customer-friendly and environmentally responsible, helping their image with health-conscious customers.",
+              "ja": "客が食べ残しを家に持ち帰れるようにすることで，レストランが客により優しく，環境保護により強い責任を持っていると思われ，健康志向の客に対するイメージアップに役立つ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Giving customers doggy bags might promote healthier habits by encouraging them to eat smaller portions at meals, which can reduce overeating.",
+              "ja": "客に持ち帰り用の袋を提供することで，客が食事中により少ない量を食べるよう促し，より健康な習慣を促進できるかもしれず，それによって過食を減らすことができる。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Offering doggy bags helps restaurant owners because it could promote sales by making their establishments more attractive to customers who care about waste reduction.",
+              "ja": "持ち帰り用の袋を提供することは，食品廃棄の削減を気にする客を店により強く惹きつけることで，売上を伸ばすことができるので，飲食店のオーナーを助けることになる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Providing doggy bags may encourage customers to take leftovers home, which can help reduce food waste by limiting the amount of food thrown away by restaurants.",
+              "ja": "持ち帰り用の袋を提供することで客が食べ残しを家に持ち帰ることを促す可能性があり，それは，飲食店に廃棄される食品の量を制限することで，食品廃棄を減らすのに役立ちうる。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。資料Aの主線は環境に加え「健康」「食事中の量」「過食」。冒頭が benefit … health で，本文も smaller portions / reduce overeating を繰り返す。①③はイメージ・売上に寄りすぎ，④は理由2の「健康」軸より環境寄り。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "z8_sa_p1_s1",
+              "z8_sa_p1_s2"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 44,
+          "points": 3,
+          "step": 3,
+          "question_text": {
+            "en": "For Reason 3, you have decided to write, \"Customers would appreciate the option to make the most of their meals.\" Based on Source B, which option best supports this statement? [44]",
+            "ja": "理由3として，あなたは『食事を最大限に活用するために，客はその選択肢を喜ぶだろう。』と書くことにした。資料Bに基づくと，この意見を最もよく支持する選択肢はどれか。［44］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "According to the survey, people choose to eat leftovers to avoid waste, suggesting that preventing food waste is a higher priority than saving money.",
+              "ja": "調査によると，人々は無駄を避けるために食べ残しを食べることを選択しており，食品廃棄の防止が節約より優先されることを示している。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "According to the survey, people choose to eat leftovers to avoid waste, suggesting that they prefer to enjoy their delicious meals in restaurants.",
+              "ja": "調査によると，人々は無駄を避けるために食べ残しを食べることを選択しており，飲食店でおいしい食事を楽しむことを好んでいることを示している。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Many customers prefer to save money, time and effort by eating leftovers, as shown by survey data indicating that these are the top three reasons for eating leftovers.",
+              "ja": "多くの客は食べ残しを食べることでお金と時間と労力を節約することを好み，これは食べ残しを食べる理由の上位3つであると示す調査データに見られる通りである。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "People save time and effort by consuming leftovers at home, indicating that reducing food waste is less of a priority for customers than convenience.",
+              "ja": "食べ残しを自宅で消費することで人々は時間と労力を節約でき，客にとって食品廃棄の削減は利便性よりも優先度が低いことを示している。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。資料Bの円グラフで save money / time / effort が上位3つ。「食事を最大限に活用する」＝金・時間・手間の節約といった実利的動機と結びつく。①は優先順位の比較がグラフと一致しない，②④は誘読に注意。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "z8_sb_s1"
+            ]
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "doggy bag",
+              "ja": "飲食店などで食べ残したものの持ち帰り袋"
+            },
+            {
+              "en": "viewpoint",
+              "ja": "見解；観点"
+            },
+            {
+              "en": "outline",
+              "ja": "概要"
+            },
+            {
+              "en": "additional",
+              "ja": "追加の"
+            },
+            {
+              "en": "source",
+              "ja": "（研究・調査の）資料；出典；情報源"
+            },
+            {
+              "en": "environmental advocate",
+              "ja": "環境保護活動家"
+            },
+            {
+              "en": "awkward",
+              "ja": "気まずい"
+            },
+            {
+              "en": "boost business",
+              "ja": "商売を繁盛させる"
+            },
+            {
+              "en": "environmentally friendly",
+              "ja": "環境に優しい"
+            },
+            {
+              "en": "in reality",
+              "ja": "実際には"
+            },
+            {
+              "en": "food safety",
+              "ja": "食品安全"
+            },
+            {
+              "en": "food poisoning",
+              "ja": "食中毒"
+            },
+            {
+              "en": "high-end",
+              "ja": "高価格帯の"
+            },
+            {
+              "en": "downside",
+              "ja": "マイナス面"
+            },
+            {
+              "en": "food loss",
+              "ja": "食品廃棄"
+            },
+            {
+              "en": "shift",
+              "ja": "変更；転換"
+            },
+            {
+              "en": "highlight",
+              "ja": "〜を強調する"
+            },
+            {
+              "en": "desire",
+              "ja": "欲求"
+            },
+            {
+              "en": "get the most out of ~",
+              "ja": "〜を最大限に活用する"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "be concerned about ~（問1②）",
+              "ja": "〜に関心がある"
+            },
+            {
+              "en": "line up with ~（問1④）",
+              "ja": "〜と合致する"
+            },
+            {
+              "en": "imply（問2）",
+              "ja": "〜を暗示する"
+            },
+            {
+              "en": "maintain（問2②）",
+              "ja": "〜を維持する"
+            },
+            {
+              "en": "appropriate（問4）",
+              "ja": "適切な"
+            },
+            {
+              "en": "statement（問5）",
+              "ja": "意見"
+            },
+            {
+              "en": "indicate（問5③）",
+              "ja": "〜を示す"
             }
           ]
         }
