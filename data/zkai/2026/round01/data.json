@@ -12,7 +12,8 @@
       2,
       3,
       4,
-      5
+      5,
+      6
     ],
     "source_pdf_mondai": "第1回_問題.pdf",
     "source_pdf_kaitou": "第1回_解説.pdf"
@@ -2215,45 +2216,39 @@
             "en": "Which diagram best represents Murphy's seating plan for the children? [ 22 ]",
             "ja": "子供たちのためのマーフィーさんの席の案を最もよく表しているのはどの図か。［22］"
           },
+          "figure_image": {
+            "src": "data/zkai/2026/round01/images/s5_q4_seating.png",
+            "alt": "問4 座席配置図の選択肢"
+          },
           "choices": [
             {
               "label": "①",
-              "image": {
-                "src": "s5_q4_seating_1.svg",
-                "alt": "Seating layout 1"
-              },
+              "en": "",
+              "ja": "",
               "is_correct": false
             },
             {
               "label": "②",
-              "image": {
-                "src": "s5_q4_seating_2.svg",
-                "alt": "Seating layout 2"
-              },
+              "en": "",
+              "ja": "",
               "is_correct": false
             },
             {
               "label": "③",
-              "image": {
-                "src": "s5_q4_seating_3.svg",
-                "alt": "Seating layout 3"
-              },
+              "en": "",
+              "ja": "",
               "is_correct": true
             },
             {
               "label": "④",
-              "image": {
-                "src": "s5_q4_seating_4.svg",
-                "alt": "Seating layout 4"
-              },
+              "en": "",
+              "ja": "",
               "is_correct": false
             },
             {
               "label": "⑤",
-              "image": {
-                "src": "s5_q4_seating_5.svg",
-                "alt": "Seating layout 5"
-              },
+              "en": "",
+              "ja": "",
               "is_correct": false
             }
           ],
@@ -2458,6 +2453,839 @@
             {
               "en": "supplies",
               "ja": "（必要な）用品（※問5Aの語）"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 14,
+      "points_per_question": 3,
+      "description": "物語文（インスピレーションの輪）＋ ジェームズへの感想メール",
+      "situation": {
+        "en": "Your friend, James, wants to be a professional writer. He has written a story about a former student and her former teacher on his blog. You read it and then give him feedback.",
+        "ja": "あなたの友人ジェームズはプロの作家志望です。彼は自身のブログに，ある元生徒とそのかつての先生についての物語を書きました。あなたはそれを読み，それから彼にフィードバックを送ります。"
+      },
+      "passages": [
+        {
+          "id": "story",
+          "title": {
+            "en": "A Circle of Inspiration: Rediscovering Joy in Teaching",
+            "ja": "インスピレーションの輪：教える喜びの再発見"
+          },
+          "subtitle": {
+            "en": "By James Cohen",
+            "ja": "ジェームズ・コーエン著"
+          },
+          "block_separators": [
+            1,
+            4,
+            6
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "My name is Sophia, but to my students, I'm Miss Carter.",
+                "ja": "私の名前はソフィア。でも私の生徒たちにとってはカーター先生だ。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "Just last week, I spoke at a professional conference, to share ideas about lesson planning with fellow teachers.",
+                "ja": "つい先週，私は（教育者たちが集まる）専門会議で，同業の先生たちに授業計画についてのアイデアを話すために講演を行った。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "It was my first time to speak at such a conference, and following my presentation, a woman approached me.",
+                "ja": "そのような会議で話すのは私にとって初めての経験だった。発表が終わった後，一人の女性が近づいてきた。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "It had been ten years since my high school graduation, but I could never forget Ms. Jackson's face.",
+                "ja": "高校卒業から10年の月日を経ていても，ジャクソン先生の顔を忘れることは決してできなかった。"
+              },
+              {
+                "id": "p1_s5",
+                "en": "Not only was she my history teacher and track and field coach, but also the reason I decided to study education at university.",
+                "ja": "彼女は，私の歴史の先生で，かつ陸上部のコーチだっただけでなく，私が大学で教育学を学ぶことを決めたまさにその理由でもあった。"
+              },
+              {
+                "id": "p1_s6",
+                "en": "Her creative teaching style and warm personality were my ideal.",
+                "ja": "彼女の創造的な教え方と温かい人柄を私は理想としていた。"
+              },
+              {
+                "id": "p1_s7",
+                "en": "You can imagine my disbelief when she told me she was planning on quitting teaching and retiring early.",
+                "ja": "その先生が教師を辞めて早期退職を考えていると話した時，私のまさかという思いは想像がつくだろう。"
+              },
+              {
+                "id": "p1_s8",
+                "en": "We decided to get coffee and catch up.",
+                "ja": "私たちはコーヒーを飲みながら近況を報告し合うことにした。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "I told Ms. Jackson that I had thought of her a few months ago while explaining an assignment to my students.",
+                "ja": "私はジャクソン先生に，数カ月前に生徒たちに課題を説明している時に先生のことを思い出したんです，と話した。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "It was an adaptation of a thought-provoking activity I had done in her history class.",
+                "ja": "それは，私が先生の歴史の授業で経験した示唆に富む活動を応用したものだった。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "Groups of students created a radio show featuring historical figures.",
+                "ja": "生徒たちがグループで，歴史上の人物が出演するラジオ番組を制作したのだ。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "One student was the host and interviewed guests from the past, highlighting their achievements, struggles, and impact on society.",
+                "ja": "一人の生徒がホストとなり，過去から来たゲストにインタビューし，彼らの功績，苦闘，社会への影響にスポットライトを当てるのだった。"
+              },
+              {
+                "id": "p2_s5",
+                "en": "I modified the activity for my class, changing the radio show to a podcast, but the objective was the same.",
+                "ja": "私は自分の授業ではラジオ番組をポッドキャストに変えるという修正を加えたが，その目指すところは同じだった。"
+              },
+              {
+                "id": "p2_s6",
+                "en": "Students tried to get inside the heads of famous people from the past and responded to questions about issues relevant at the time.",
+                "ja": "生徒たちは過去の有名人の頭の中に入り込み，当時重要だった事柄に関する質問に答えることを試みた。"
+              },
+              {
+                "id": "p2_s7",
+                "en": "I reminded Ms. Jackson of how creative and practical that activity was compared to our history textbook.",
+                "ja": "私はジャクソン先生に，その活動が私たちの歴史の教科書と比べていかに創造的で実践的だったかを思い出させた。"
+              },
+              {
+                "id": "p2_s8",
+                "en": "I told her how it improved my confidence as a teacher to offer such a learning opportunity for my students.",
+                "ja": "私は，自分の生徒にそのような学習機会を与えられたことで，教師としての自信が高まったことを先生に伝えた。"
+              },
+              {
+                "id": "p2_s9",
+                "en": "Ms. Jackson smiled.",
+                "ja": "ジャクソン先生は微笑んだ。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "\"It makes me so happy to hear this,\" she said.",
+                "ja": "「そう言ってくれるととてもうれしい」と彼女は言った。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "\"Of course, I remember the historical figures interview project, but I never imagined one of my students would remember it after so many years!\"",
+                "ja": "「もちろん，歴史上の人物へのインタビュー・プロジェクトのことは覚えているけれど，私が受け持った生徒の一人が，こんなに何年も経ってもそれを覚えているなんて想像もしなかった！」"
+              },
+              {
+                "id": "p3_s3",
+                "en": "She went on.",
+                "ja": "彼女は続けた。"
+              },
+              {
+                "id": "p3_s4",
+                "en": "\"Honestly, I've been feeling discouraged in the classroom for a while now.",
+                "ja": "「実はね，このところずっと，前向きな気持ちで教壇に立つことができずにいたの。"
+              },
+              {
+                "id": "p3_s5",
+                "en": "Teaching used to energize me, but recently, it's been more challenging than rewarding.",
+                "ja": "かつては教えることが大好きだったのに，最近はやりがいよりもつらさを感じるようになってしまってね。"
+              },
+              {
+                "id": "p3_s6",
+                "en": "I feel like I've lost my passion.\"",
+                "ja": "なんだか情熱を失ってしまったみたい。」"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "Not knowing what to say, I quickly changed the subject, hoping that more talk about my high school days would cheer up Ms. Jackson.",
+                "ja": "私はなんと言っていいのかわからず，急いで話題を変え，もっと自分の高校時代の話をすることでジャクソン先生を元気づけようとした。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "I joined the track and field team in my freshman year of high school.",
+                "ja": "私は高校1年の時に陸上部に入った。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "I hoped to compete in the longer distance running events since running came naturally to me.",
+                "ja": "私は走ることが得意だったので，より長い距離を走る競技をやってみたいと思ったのだ。"
+              },
+              {
+                "id": "p5_s3",
+                "en": "I could run for hours and barely feel tired.",
+                "ja": "私は何時間走ってもほとんど疲れを感じなかった。"
+              },
+              {
+                "id": "p5_s4",
+                "en": "Ms. Jackson was one of the track and field coaches, and I remembered her enthusiasm.",
+                "ja": "ジャクソン先生は陸上部のコーチの一人であり，彼女の熱意を私は覚えていた。"
+              },
+              {
+                "id": "p5_s5",
+                "en": "You could always hear her cheering loudly for everyone.",
+                "ja": "彼女が皆を大声で応援しているのがいつも聞こえたものだ。"
+              },
+              {
+                "id": "p5_s6",
+                "en": "During the first week of practice, the coaches announced that the team needed volunteers to try the long jump.",
+                "ja": "練習の最初の週，コーチ陣は，チームは，走り幅跳びに挑戦する志願者が必要だと告げた。"
+              },
+              {
+                "id": "p5_s7",
+                "en": "Another coach demonstrated the technique while Ms. Jackson broke down the actions into simple steps.",
+                "ja": "別のコーチが走り幅跳びの技術を実演してみせ，ジャクソン先生がその動作を簡単なステップに分解しながら説明してくれた。"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "\"There are three phases to the long jump,\" she explained.",
+                "ja": "「走り幅跳びには3つの段階があります」と彼女は説明した。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "\"First, decide which foot you will take off with.",
+                "ja": "「まず，どちらの足で踏み切るかを決めること。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "Next, determine the number of steps you'll take on your approach.",
+                "ja": "次に，アプローチで何歩踏み出すかを決定すること。"
+              },
+              {
+                "id": "p6_s4",
+                "en": "Be sure to keep your take-off foot flat on the ground for better balance.\"",
+                "ja": "バランスを良くするために，踏み切り足を地面に平らに保つように注意すること。」"
+              },
+              {
+                "id": "p6_s5",
+                "en": "\"And remember,\" Ms. Jackson explained, \"the goal is distance, not height!",
+                "ja": "「そして，覚えておいて」とジャクソン先生は説明した。「目指すのは高さではなく，距離！"
+              },
+              {
+                "id": "p6_s6",
+                "en": "When landing, keep your knees bent and lean forward.\"",
+                "ja": "着地する時は，膝を曲げて前かがみになること。」"
+              },
+              {
+                "id": "p6_s7",
+                "en": "While the jump looked challenging, Ms. Jackson's explanation was easy to follow.",
+                "ja": "ジャンプは難しそうに見えたが，ジャクソン先生の説明は理解しやすかった。"
+              },
+              {
+                "id": "p6_s8",
+                "en": "Her clear explanation convinced me to try it, and surprisingly, I caught on right away.",
+                "ja": "彼女のわかりやすい説明に納得してやってみると，意外なことに私はすぐにコツをつかんだ。"
+              },
+              {
+                "id": "p6_s9",
+                "en": "That season, I competed in the long jump in every track meet and gradually improved.",
+                "ja": "そのシーズン，私はすべての陸上競技大会で走り幅跳びに出場し，徐々に上達していった。"
+              },
+              {
+                "id": "p6_s10",
+                "en": "By the time I finished high school, I'd won two regional championships.",
+                "ja": "高校卒業までに，私は2つの地区選手権で優勝した。"
+              },
+              {
+                "id": "p6_s11",
+                "en": "I was grateful for Ms. Jackson's continuous encouragement back then.",
+                "ja": "私は，あの頃ジャクソン先生がいつも励ましてくれたことに感謝していた。"
+              },
+              {
+                "id": "p6_s12",
+                "en": "She gave me the confidence to try something new.",
+                "ja": "彼女は私に新しいことに挑戦する自信を与えてくれたのだ。"
+              }
+            ],
+            [
+              {
+                "id": "p7_s1",
+                "en": "One month after our meeting at the conference, I received a text message from Ms. Jackson.",
+                "ja": "会議で会ってから1カ月後，私はジャクソン先生からテキストメッセージを受け取った。"
+              },
+              {
+                "id": "p7_s2",
+                "en": "I looked down at my phone, and this is what it said:",
+                "ja": "携帯電話を見ると，こう書かれていた。"
+              },
+              {
+                "id": "p7_s3",
+                "en": "Sophia, I've decided to change my plans. Talking with you helped remind me of the joy and fulfillment teaching and coaching brings. Thank you.",
+                "ja": "「ソフィアへ。私は計画を変更することにしました。あなたと話したことで，教えること，そしてコーチすることで得られる喜びと充実感を思い出すことができました。ありがとう。」",
+                "role": "text_message"
+              }
+            ],
+            [
+              {
+                "id": "p8_s1",
+                "en": "I smiled with happiness.",
+                "ja": "うれしくて笑みがこぼれた。"
+              },
+              {
+                "id": "p8_s2",
+                "en": "I felt like I had finally repaid Ms. Jackson for all her support.",
+                "ja": "私はようやくジャクソン先生が私にしてくれたあらゆるサポートに恩返しができたように感じた。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "feedback_email",
+          "title": {
+            "en": "Your email feedback to James",
+            "ja": "ジェームズ宛てのあなたの感想メール"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "fe_s1",
+                "en": "Hey James,",
+                "ja": "やあ，ジェームズ"
+              }
+            ],
+            [
+              {
+                "id": "fe_s2",
+                "en": "I loved your blog post!",
+                "ja": "あなたのブログの投稿，とても気に入ったよ！"
+              },
+              {
+                "id": "fe_s3",
+                "en": "I really liked how Sophia passes through various stages in her personal growth (see below).",
+                "ja": "ソフィアが人として成長していく中でさまざまな段階を通過していく様子がとても良かった（下を見てね）。"
+              },
+              {
+                "id": "fe_s4",
+                "en": "[24] → [25] → [26] → [27]",
+                "ja": "［24］→［25］→［26］→［27］",
+                "role": "sequence_slots"
+              }
+            ],
+            [
+              {
+                "id": "fe_s5",
+                "en": "I found Ms. Jackson really impressive as a teacher.",
+                "ja": "ジャクソン先生は教師として本当に印象的だと感じた。"
+              },
+              {
+                "id": "fe_s6",
+                "en": "She can [28].",
+                "ja": "彼女は［28］ことができる。"
+              }
+            ],
+            [
+              {
+                "id": "fe_s7",
+                "en": "Also, I was moved when Ms. Jackson texted, \"I've decided to change my plans.\"",
+                "ja": "それから，ジャクソン先生が「私は計画を変更することにしました」とテキストメッセージを送ってきたところは感動したよ。"
+              },
+              {
+                "id": "fe_s8",
+                "en": "She meant, \"I am [29].\"",
+                "ja": "彼女は「私は［29］」という意味で言ったんだね。"
+              }
+            ],
+            [
+              {
+                "id": "fe_s9",
+                "en": "On the other hand, I think you can still make the story a little better by adding a few details.",
+                "ja": "一方で，いくつか詳細を追加することで，物語をもう少し良くできると思う。"
+              },
+              {
+                "id": "fe_s10",
+                "en": "You could write more about [30] and [31], which are relevant points that could be expanded on.",
+                "ja": "［30］や［31］なんかについてもっと書いてもいいんじゃないかな。これらはもっと詳しくできる関連したポイントだよね。"
+              },
+              {
+                "id": "fe_s11",
+                "en": "These details would give your characters depth and make your story more interesting.",
+                "ja": "こうした詳細があれば，キャラクターに深みが出て，あなたの物語はもっと面白くなるよ。"
+              }
+            ],
+            [
+              {
+                "id": "fe_s12",
+                "en": "Good luck!",
+                "ja": "うまくいくといいね！"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_numbers": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "question_type": "ordering",
+          "stem": {
+            "en": "Choose four out of the five options (①～⑤) and put them in the order they occurred. [24] → [25] → [26] → [27]",
+            "ja": "「5つの選択肢（①〜⑤）から4つ選び，起こった順に並べなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "She is a college student studying education.",
+              "ja": "彼女は教育学を学ぶ大学生である。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "She is a presenter at an educational conference.",
+              "ja": "彼女は教育に関する会議の発表者である。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "She is a track and field champion.",
+              "ja": "彼女は陸上競技の優勝者である。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "She is an author of a history textbook.",
+              "ja": "彼女は歴史の教科書の著者である。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "She is an inspiration for Ms. Jackson.",
+              "ja": "彼女はジャクソン先生にとってやる気の源である。",
+              "is_correct": true
+            }
+          ],
+          "answer": "③→①→②→⑤",
+          "answer_sequence": [
+            3,
+            1,
+            2,
+            5
+          ],
+          "answer_note": "全部正解で3点",
+          "explanation": {
+            "quoted_ja": "物語は「◆◆◆◆◆」によって区切られた，4つのパートから成り立っている。物語の構成は「全訳」を読めばつかめるだろうが，物語の叙述順ではなく，出来事が起こった順にストーリー展開をまとめると以下のようになる。\n[1]《陸上部入部：第5・6段落》\n「私＝ソフィア」が陸上部でコーチとしてのジャクソン先生に出会い，走り幅跳びという新しい経験へと踏み出させる。地区大会で優勝するまでに上達する。\n[2]《教師としての日々：第2〜4段落》\n「私＝ソフィア」はジャクソン先生の授業のやり方を自分の授業に取り込んで実践し，自信につなげる。\n[3]《専門会議に登壇：第1段落》\n「私」が専門会議でプレゼンターを務める。そこで，ジャクソン先生と再会を果たす。\n[4]《衝撃の告白と悟り：第3〜6段落》\n会議後，ジャクソン先生は教師をやめることを考えていると告白する。二人がコーヒーを飲みながら近況を語り合いつつ，先生が昔の教育への想いを取り戻せるよう話をする。\n[5]《1カ月後：第7〜8段落》\nジャクソン先生から教師を続けることにしたという主旨の連絡があり，恩返しできたと安堵する。\nこれを踏まえて，選択肢を順に検討していこう。\nまず，①については，第1段落最後から4文目の the reason I decided to study education at university（私が大学で教育学を学ぶことを決めたまさにその理由）の部分に合致する。続いて②については，第1段落第2文の I spoke at a professional conference（私は専門会議で，講演を行った）という部分に合致する。③は，第6段落最後から3文目の By the time I finished high school, I'd won two regional championships.（高校卒業までに，私は2つの地区選手権で優勝した。）に合致する。選択肢④にある「歴史の教科書」が本文で言及されるのは第2段落最後から3文目であるが，「私＝ソフィア」が「歴史の教科書」を執筆したという記述はない。したがって，④はこの物語中で起きた出来事ではない。⑤の inspiration は，ここでは「刺激を与えてくれる人，やる気を起こさせてくれる人」の意。教師として意気消沈していたジャクソン先生を励まし，教師を続けていこうという気持ちにさせたのは「私＝ソフィア」の言葉だったことが，第7段落での先生からのメッセージで明示される。\nしたがって，正しい選択肢を時系列に並べると，③→①→②→⑤となる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p1_s2",
+              "p1_s5",
+              "p6_s10",
+              "p7_s3"
+            ],
+            "instructor_note": {
+              "ja": "整序問題は物語の「叙述順」と「時系列順」の違いを意識することが重要です。この物語は回想形式で，現在→過去→さらに過去→現在 と行き来しています。",
+              "points": [
+                "③（陸上優勝）: 高校時代の出来事（第5〜6段落の回想）。p6_s10の 'By the time I finished high school, I'd won two regional championships.' が根拠。",
+                "①（大学で教育学）: 高校卒業後。p1_s5の 'the reason I decided to study education at university' が根拠。",
+                "②（会議で発表）: 大学卒業後・教師になってから。p1_s2の 'I spoke at a professional conference' が根拠。",
+                "⑤（インスピレーション）: 会議での再会の1カ月後。p7_s3のテキストメッセージが根拠。",
+                "④（教科書の著者）はダミー。p2_s7で教科書は言及されるが，ソフィアが執筆したのではなく，ジャクソン先生の活動と教科書を比較しているだけ。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 28,
+          "stem": {
+            "en": "Choose the correct combination of Ms. Jackson's abilities. [28]",
+            "ja": "ジャクソン先生の能力の正しい組み合わせを選びなさい。［28］"
+          },
+          "info_options": [
+            {
+              "label": "A",
+              "en": "communicate instructions clearly",
+              "ja": "指示を明確に伝える"
+            },
+            {
+              "label": "B",
+              "en": "design creative classroom activities",
+              "ja": "創造的な授業活動を考案する"
+            },
+            {
+              "label": "C",
+              "en": "give speeches about teaching strategies",
+              "ja": "指導戦略について講演を行う"
+            },
+            {
+              "label": "D",
+              "en": "make students view history as something that relates to them",
+              "ja": "生徒に歴史を自分に関係するものとしてとらえさせる"
+            },
+            {
+              "label": "E",
+              "en": "motivate a student to experience new things",
+              "ja": "生徒に新しいことを経験するよう動機づける"
+            },
+            {
+              "label": "F",
+              "en": "run long distances without getting tired",
+              "ja": "疲れることなく長距離を走る"
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "A, B, D, and E",
+              "ja": "A，B，D，E",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "A, B, E, and F",
+              "ja": "A，B，E，F",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "B, C, D, and E",
+              "ja": "B，C，D，E",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "B, C, E, and F",
+              "ja": "B，C，E，F",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "A〜Fについて，本文に描かれているジャクソン先生の能力と合うかどうか確かめていこう。まず「A：指示を明確に伝える」能力については「走り幅跳び」に関して説明するくだり，すなわち第6段落の中ほどに，Ms. Jackson's explanation was easy to follow（ジャクソン先生の説明は理解しやすかった）とあるので，Aは正しい。したがって，この時点で正解の選択肢は①か②に絞られ，あとはDもしくはFの正否について確認すれば正解は導き出せるが，この解説では，残りのB〜Fについても順番に見ていこう。\n「B：創造的な授業活動を考案する」については，第2段落で説明されている，「歴史上の人物にインタビューをするラジオ番組を生徒に制作させる」というジャクソン先生の授業のことを指している。「私＝ソフィア」はこの授業を a thought-provoking activity（示唆に富む活動）（同段落第2文）と称賛し，また最後から3文目ですばり，I reminded Ms. Jackson of how creative and practical that activity was compared to our history textbook.（私はジャクソン先生に，その活動が私たちの歴史の教科書と比べていかに創造的で実践的だったかを思い出させた。）と述べている。したがって，このBは正しい。\n「C：指導戦略について講演を行う」は，ジャクソン先生が行ったものではなく，「私＝ソフィア」が行ったもの。第1段落第2文に I spoke at a professional conference, to share ideas about lesson planning with fellow teachers（私は専門会議で，同業の先生たちに授業計画についてのアイデアを話すために講演を行った）と記されている通りである。したがって，Cはジャクソン先生の能力として本文から導けるものではない。\n「E：生徒に新しいことを経験するよう動機づける」については，ジャクソン先生が「私＝ソフィア」に走り幅跳びという新しい経験へと踏み出させたことを，正しいと言うことができる。具体的には，第6段落最終文に She gave me the confidence to try something new.（彼女は私に新しいことに挑戦する自信を与えてくれたのだ。）とあるのが根拠である。\n最後の「F：疲れることなく長距離を走る」については，ジャクソン先生ではなく，「私＝ソフィア」（の高校時代，もしくはその直前まで）に当てはまる（第5段落第3文）ことであり，ジャクソン先生についてそのような描写はない。Fは不正解。\nしたがって，ジャクソン先生の能力として本文の記述から導けるのは，A，B，D，Eであるから，①が正解。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p2_s2",
+              "p2_s7",
+              "p6_s7",
+              "p6_s12",
+              "p1_s2",
+              "p5_s3"
+            ],
+            "instructor_note": {
+              "ja": "組み合わせ問題は，まず確実に正誤判定できる項目から絞り込むのが効率的です。",
+              "points": [
+                "A（指示を明確に）: p6_s7 'Ms. Jackson's explanation was easy to follow' が直接の根拠。走り幅跳びの3段階を明快に説明した場面。",
+                "B（創造的な授業活動）: p2_s2の 'thought-provoking activity' とp2_s7の 'how creative and practical' が根拠。歴史上の人物インタビュー番組の授業。",
+                "C（指導戦略の講演）: これはソフィア自身がしたこと（p1_s2）。ジャクソン先生ではないので不正解。主語の取り違えを狙ったダミー。",
+                "D（歴史を自分事に）: 第2段落全体が根拠。生徒が歴史上の人物の頭の中に入り込む活動は，歴史を自分に関連づけさせる手法。",
+                "E（新しいことへの動機づけ）: p6_s12 'She gave me the confidence to try something new' が決定的根拠。",
+                "F（長距離走）: p5_s3 'I could run for hours and barely feel tired' はソフィアの能力。ジャクソン先生ではない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 29,
+          "stem": {
+            "en": "Choose the best option for [29].",
+            "ja": "［29］に入れるのに最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "going to continue my career",
+              "ja": "自分のキャリアを継続するつもりだ",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "not interested in coaching anymore",
+              "ja": "もうコーチングに興味がない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "planning to start my own podcast",
+              "ja": "自分のポッドキャストを始めることを計画している",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "unable to attend the conference with you",
+              "ja": "あなたと一緒に会議に出席できない",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第7段落にあるジャクソン先生からのメッセージの I've decided to change my plans.（私は計画を変更することにしました。）という言葉が，具体的に何を意味するかを問う問題である。ジャクソン先生が言う my plans とは何だったのか。それは，第1段落最後から2文目にある，she was planning on quitting teaching and retiring early（教師を辞めて早期退職を考えている）のことである。その計画を変更した，ということは「教師を続ける」ということだから，①が正解。なお，ここでの career は「（一生の仕事となるような，専門性を伴う職業）」のこと。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p1_s7",
+              "p7_s3"
+            ],
+            "instructor_note": {
+              "ja": "「計画を変更した」の意味を文脈から推論する問題です。変更「前」の計画を本文から特定することがカギです。",
+              "points": [
+                "p1_s7で 'she was planning on quitting teaching and retiring early'（教師を辞めて早期退職）が元の計画。",
+                "p7_s3で 'I've decided to change my plans'（計画を変更した）＝元の計画（退職）をやめる＝教師を続ける。",
+                "career は「キャリア＝専門的な職業」の意味。ここでは教師としてのキャリア。",
+                "②はテキストメッセージの内容と矛盾（コーチングの喜びを思い出したと言っている）。③のポッドキャストはソフィアの授業の話で，ジャクソン先生とは無関係。④は会議はすでに終わっている。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 30,
+          "answer_numbers": [
+            30,
+            31
+          ],
+          "unordered_slots": [
+            30,
+            31
+          ],
+          "stem": {
+            "en": "Choose the best options for [30] and [31]. (The order does not matter.)",
+            "ja": "［30］と［31］に最も適当な選択肢を選びなさい。（順不同。）"
+          },
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "Ms. Jackson's current struggles in the classroom",
+              "ja": "ジャクソン先生が今抱えている教室での苦労",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Ms. Jackson's encouraging words enabling Sophia's long jump success",
+              "ja": "ソフィアが走り幅跳びで成功するのを可能にしたジャクソン先生の励ましの言葉",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Sophia's track and field achievements",
+              "ja": "ソフィアの陸上競技での成績",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the reason Sophia tried the long jump",
+              "ja": "ソフィアが走り幅跳びに挑戦した理由",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "why Sophia chose her major in college",
+              "ja": "ソフィアが大学で自分の専攻を選んだ理由",
+              "is_correct": false
+            }
+          ],
+          "choices_31": [
+            {
+              "label": "①",
+              "en": "Ms. Jackson's current struggles in the classroom",
+              "ja": "ジャクソン先生が今抱えている教室での苦労",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Ms. Jackson's encouraging words enabling Sophia's long jump success",
+              "ja": "ソフィアが走り幅跳びで成功するのを可能にしたジャクソン先生の励ましの言葉",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Sophia's track and field achievements",
+              "ja": "ソフィアの陸上競技での成績",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the reason Sophia tried the long jump",
+              "ja": "ソフィアが走り幅跳びに挑戦した理由",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "why Sophia chose her major in college",
+              "ja": "ソフィアが大学で自分の専攻を選んだ理由",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "30": "①",
+            "31": "②"
+          },
+          "answer_note": "順不同・両方正解で3点",
+          "explanation": {
+            "quoted_ja": "この問題では，「あなた」からジェームズへのフィードバックにあるように，物語の中で「より詳しく語れる関連した内容」を選ぶ。反対に言えば，物語の中で，すでに十分詳しく語られているテーマは正解にはならない。\n③「ソフィアの陸上競技での成績」は，第6段落後半で走り幅跳びの大会出場と優勝の経緯がすでに語られているので，「もっと詳しく」する余地は小さい。③も不正解。\n④「ソフィアが走り幅跳びに挑戦した理由」は，第5段落で，コーチ陣が志願者を募り，ジャクソン先生のわかりやすい説明を聞いてやってみようと思ったことが描かれている。④も不正解。\n⑤「ソフィアが大学で自分の専攻を選んだ理由」は，第1段落でジャクソン先生の影響で教育学を選んだことが述べられている。⑤も不正解。\nしたがって，正解は①と②。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第1回 解説冊子",
+            "evidence_sentences": [
+              "p3_s4",
+              "p3_s5",
+              "p3_s6",
+              "p6_s11"
+            ],
+            "instructor_note": {
+              "ja": "「詳細を追加できるポイント」＝本文で触れられているが深掘りされていないテーマを選ぶ問題です。",
+              "points": [
+                "①（教室での苦労）: p3_s4〜s6でジャクソン先生が「意気消沈している」「やりがいより辛さ」「情熱を失った」と述べるが，具体的にどんな苦労かは詳述されていない。深掘りの余地あり。",
+                "②（励ましの言葉）: p6_s11で 'continuous encouragement' と言及されるが，具体的にどんな言葉をかけたかは書かれていない。深掘りの余地あり。",
+                "③〜⑤はいずれも本文中ですでに十分に描写されているため，「もっと詳しく書ける」ポイントとしては不適切。",
+                "この問題のコツ: フィードバックメールの文脈を読み，「物語に深みを加えるために追加すべき詳細」＝まだ十分に語られていない要素を選ぶ。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "語句",
+          "items": [
+            {
+              "en": "fellow",
+              "ja": "同業の，仲間の"
+            },
+            {
+              "en": "track and field",
+              "ja": "陸上競技"
+            },
+            {
+              "en": "disbelief",
+              "ja": "信じがたい気持ち"
+            },
+            {
+              "en": "catch up",
+              "ja": "近況を伝え合う"
+            },
+            {
+              "en": "assignment",
+              "ja": "課題，宿題"
+            },
+            {
+              "en": "thought-provoking",
+              "ja": "考えさせられる，示唆に富む"
+            },
+            {
+              "en": "feature",
+              "ja": "〜を出演させる〔起用する〕"
+            },
+            {
+              "en": "figure",
+              "ja": "人物"
+            },
+            {
+              "en": "highlight",
+              "ja": "〜を強調する〔目立たせる〕"
+            },
+            {
+              "en": "modify",
+              "ja": "〜を修正する，〜に変更を加える"
+            },
+            {
+              "en": "relevant",
+              "ja": "重要な，意義のある"
+            },
+            {
+              "en": "remind A of B",
+              "ja": "AにBを思い出させる"
+            },
+            {
+              "en": "feel discouraged",
+              "ja": "意気消沈する"
+            },
+            {
+              "en": "energize",
+              "ja": "〜を活気づける〔元気にする〕"
+            },
+            {
+              "en": "challenging",
+              "ja": "困難な，厳しい"
+            },
+            {
+              "en": "rewarding",
+              "ja": "やりがいのある，報われる"
+            },
+            {
+              "en": "cheer up ~",
+              "ja": "〜を元気づける〔励ます〕"
+            },
+            {
+              "en": "freshman",
+              "ja": "（大学・高校の）1年生，新入生"
+            },
+            {
+              "en": "come naturally to ~",
+              "ja": "〜にとっては難なくできる"
+            },
+            {
+              "en": "barely",
+              "ja": "ほとんど…ない"
+            },
+            {
+              "en": "the long jump",
+              "ja": "走り幅跳び"
+            },
+            {
+              "en": "take off with ~",
+              "ja": "〜で踏み切る"
+            },
+            {
+              "en": "land",
+              "ja": "着地する"
+            },
+            {
+              "en": "bent",
+              "ja": "曲がった"
+            },
+            {
+              "en": "lean forward",
+              "ja": "前かがみになる"
+            },
+            {
+              "en": "convince ~ to do",
+              "ja": "〜に…するよう説得する"
+            },
+            {
+              "en": "catch on",
+              "ja": "理解する，すぐに覚える"
+            },
+            {
+              "en": "track meet",
+              "ja": "陸上競技大会"
+            },
+            {
+              "en": "fulfillment",
+              "ja": "達成感，満足感"
+            },
+            {
+              "en": "repay A for B",
+              "ja": "AにBの恩返しをする"
+            },
+            {
+              "en": "pass through ~",
+              "ja": "〜を通過する〔経験する〕"
+            },
+            {
+              "en": "motivate ~ to do",
+              "ja": "〜に…するよう動機づける",
+              "note": "問2 E"
+            },
+            {
+              "en": "major",
+              "ja": "専攻",
+              "note": "問4 ⑤"
             }
           ]
         }
