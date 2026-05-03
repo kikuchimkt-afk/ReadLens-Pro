@@ -1,0 +1,1591 @@
+{
+  "exam_info": {
+    "title": "Z会 共通テスト実戦模試2026年 第6回",
+    "publisher": "Z会",
+    "year": 2026,
+    "round": 6,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 49,
+    "implemented_sections": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_pdf_mondai": "第6回_問題.pdf",
+    "source_pdf_kaitou": "第6回_解説.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（ウェブサイトのお知らせ）",
+      "situation": {
+        "en": "You visited your town's English website and found an interesting notice.",
+        "ja": "あなたは自分の町の英語のウェブサイトを訪れ，興味深いお知らせを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "iff_intro",
+          "title": {
+            "en": "International Food Festival",
+            "ja": "International Food Festival"
+          },
+          "subtitle": {
+            "en": "Food Brings Us Together",
+            "ja": "Food Brings Us Together"
+          },
+          "sentences": [
+            {
+              "id": "iff_title",
+              "en": "International Food Festival",
+              "ja": "International Food Festival",
+              "role": "title"
+            },
+            {
+              "id": "iff_slogan",
+              "en": "\"Food Brings Us Together\"",
+              "ja": "「Food Brings Us Together」",
+              "role": "subtitle"
+            }
+          ]
+        },
+        {
+          "id": "iff_body",
+          "sentences": [
+            {
+              "id": "iff_p1_s1",
+              "en": "Our town has a rich history as a place where people from many different parts of the world have come to live and work together.",
+              "ja": "私たちの町は，世界各地から多くの人々が来て共に暮らし働いてきた場所として豊かな歴史を持っています。"
+            },
+            {
+              "id": "iff_p1_s2",
+              "en": "There is no better way to get to know one another than by eating together and telling stories about the special dishes of our native regions.",
+              "ja": "一緒に食事をし，それぞれの出身地の特別な料理について話をすることほど，お互いを知るよい方法はありません。"
+            },
+            {
+              "id": "iff_p2_s1",
+              "en": "This fall we will celebrate our town's diverse history with an international food festival.",
+              "ja": "今年の秋，私たちは国際フードフェスティバルで，町の多様な歴史を祝います。"
+            },
+            {
+              "id": "iff_p2_s2",
+              "en": "The festival will include cooking demonstrations, talks, and other events.",
+              "ja": "フェスティバルには料理の実演，講演会，その他の催しが含まれます。"
+            },
+            {
+              "id": "iff_p2_s3",
+              "en": "We also invite you to join us in a town recipe exchange.",
+              "ja": "また，町のレシピ交換にもご参加ください。"
+            },
+            {
+              "id": "iff_p2_s4",
+              "en": "Write out instructions for your favorite regional or family dish for others to bring home, and pick up a recipe from one of your neighbors.",
+              "ja": "お気に入りの地方料理や家庭料理の作り方を書いて他の人が持ち帰れるようにし，近所の人からレシピを1つ受け取りましょう。"
+            }
+          ]
+        },
+        {
+          "id": "iff_schedule",
+          "title": {
+            "en": "Festival Schedule",
+            "ja": "Festival Schedule"
+          },
+          "sentences": [
+            {
+              "id": "iff_sch_date1",
+              "en": "August 17",
+              "ja": "8月17日",
+              "role": "heading"
+            },
+            {
+              "id": "iff_sch_17a",
+              "en": "11 a.m.: Cooking demonstration: \"Banana Scones\" (United Kingdom)",
+              "ja": "午前11時：料理実演：「バナナ・スコーン」（イギリス）",
+              "role": "bullet"
+            },
+            {
+              "id": "iff_sch_17b",
+              "en": "3 p.m.: Live international music stage: \"Joie\" (French café music)",
+              "ja": "午後3時：ライブ・インターナショナル・ミュージック・ステージ：「Joie」（フランスのカフェ音楽）",
+              "role": "bullet"
+            },
+            {
+              "id": "iff_sch_date2",
+              "en": "August 18",
+              "ja": "8月18日",
+              "role": "heading"
+            },
+            {
+              "id": "iff_sch_18a",
+              "en": "1 p.m.: Talk & tasting: \"Coconut water, lime soda, and other cold summer drinks\" (Vietnam)",
+              "ja": "午後1時：講演＆試飲：「ココナッツウォーター，ライムソーダ，その他の冷たい夏の飲み物」（ベトナム）",
+              "role": "bullet"
+            },
+            {
+              "id": "iff_sch_18b",
+              "en": "3 p.m.: Live international music stage: \"The Goldens\" (American gospel group)",
+              "ja": "午後3時：ライブ・インターナショナル・ミュージック・ステージ：「The Goldens」（アメリカのゴスペル・グループ）",
+              "role": "bullet"
+            }
+          ]
+        },
+        {
+          "id": "iff_more_info",
+          "sentences": [
+            {
+              "id": "iff_more_head",
+              "en": "August 19 — Cooking demonstration: 1 p.m.: \"Fish Tacos\" (Mexico)",
+              "ja": "8月19日 — 料理実演：午後1時：「フィッシュ・タコス」（メキシコ）",
+              "role": "heading"
+            },
+            {
+              "id": "iff_bl_s1",
+              "en": "The recipe exchange and food stalls will be open from 11 a.m. to 5 p.m.",
+              "ja": "レシピ交換とフードスタンドは午前11時から午後5時まで開いています。"
+            },
+            {
+              "id": "iff_bl_s2",
+              "en": "Admission is 500 yen for ages 13 and up. The admission ticket comes with a 500-yen coupon that can be used for one purchase over 1,000 yen from a food stall.",
+              "ja": "入場料は13歳以上500円です。入場券には，フードスタンドで1回，1,000円を超える購入に使える500円のクーポンが付いています。"
+            },
+            {
+              "id": "iff_bl_s3",
+              "en": "All events will be held in the city hall.",
+              "ja": "すべての催しは市庁舎で行われます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "One purpose of this notice is to find people from the town who want to [ 1 ].",
+            "ja": "このお知らせの目的の1つは，［1］ことを望む町の人々を見つけることである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "add stories to a town history book",
+              "ja": "町の歴史の本に話を追加する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "cook food for an international festival",
+              "ja": "国際フードフェスティバルのために料理を作る",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "eat dinner with their neighbors at a fancy restaurant",
+              "ja": "高級レストランで近所の人々と夕食を食べる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "share information about their favorite dishes",
+              "ja": "お気に入りの料理について情報を共有する",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第2段落第3〜4文に We also invite you to join us in a town recipe exchange. Write out instructions for your favorite regional or family dish for others to bring home, and pick up a recipe from one of your neighbors.（また，町のレシピ交換にもご参加ください。お気に入りの地方料理や家庭料理の作り方を書いて他の人が持ち帰れるようにし，近所の人からレシピを1つ受け取りましょう。）とある。レシピ交換で「好きな料理のレシピ情報を書いて共有する」ことが求められているので④が正解。②は本文が cooking demonstrations（料理の実演）と述べており，参加者がフェスティバルで料理を担当すると読めない。③はスケジュールの補足で All events will be held in the city hall.（すべての催しは市庁舎で行われます。）とあり，高級レストランでの夕食とは言えない。①の町の歴史の本への寄稿などの記述はない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "iff_p2_s3",
+              "iff_p2_s4",
+              "iff_p2_s2",
+              "iff_bl_s3"
+            ],
+            "instructor_note": {
+              "ja": "告知の「募集目的」とレシピ交換パラグラフを結びつける問題です。誤答は「実演＝調理ボランティア」「会場＝レストラン」と読む取り違えが典型です。",
+              "points": [
+                "iff_p2_s3〜s4の recipe exchange が，④の「お気に入りの料理について情報を共有する」に相当します。",
+                "②は iff_p2_s2 の cooking demonstrations が「見る実演」であり，町民に調理を依頼する文ではないと判断します。",
+                "③は iff_bl_s3 で会場が市庁舎と決まっており，高級レストランでの夕食とは整合しません。",
+                "①の歴史の本への追加は本文にありません。テクニック: purpose 設問は invite / write out / pick up の動詞に線を引きます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "People who go to the festival won't be able to [ 2 ].",
+            "ja": "フェスティバルの参加者は［2］ことはできないだろう。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "hear music from other countries",
+              "ja": "他国の音楽を聴く",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "see cooks make several dishes",
+              "ja": "料理人がいくつかの料理を作るのを見る",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "try some cold drinks",
+              "ja": "冷たい飲み物をいくつか試す",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "watch a cooking contest",
+              "ja": "料理のコンテストを見る",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "①については，スケジュールに 3 p.m.: Live international music stage…（午後3時：ライブ・インターナショナル・ミュージック・ステージ…）とある日が複数あるので，他国の音楽を聴くことは可能。②については，Cooking demonstration… の項目が複数日あるので，料理人の実演を見ることは可能。③については，1 p.m.: Talk & tasting: \"… cold summer drinks\"（午後1時：講演＆試飲：…冷たい夏の飲み物）があり，冷たい飲み物を試すことも可能。④の料理コンテストに関する記述は本文にないので，参加者ができないのは④である。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "iff_sch_17a",
+              "iff_sch_17b",
+              "iff_sch_18a",
+              "iff_sch_18b",
+              "iff_more_head"
+            ],
+            "instructor_note": {
+              "ja": "否定（できない／won't be able to）は消去法が確実です。スケジュールの語句と選択肢を一対一で照合します。",
+              "points": [
+                "①: iff_sch_17b・iff_sch_18b の Live international music stage で裏づけ。",
+                "②: iff_sch_17a・iff_more_head など複数の Cooking demonstration で裏づけ。",
+                "③: iff_sch_18a の Talk & tasting と cold summer drinks で裏づけ。",
+                "④: contest / competition の記述がなく除外。テクニック: 各選択肢に「本文の一行」を付けられるかがカギです。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "You should keep your admission ticket to [ 3 ].",
+            "ja": "あなたは［3］するために入場券を持っておくべきである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "exchange it for a recipe",
+              "ja": "それをレシピと交換する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "get a discount when you buy some food",
+              "ja": "飲食物を買うときに割引を受ける",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "get a free private cooking lesson",
+              "ja": "無料の個人向け料理レッスンを受ける",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "sit in a special section at the concerts",
+              "ja": "コンサートで特別席に座る",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "スケジュール下の注記に The admission ticket comes with a 500-yen coupon that can be used for one purchase over 1,000 yen from a food stall.（入場券には，フードスタンドで1回，1,000円を超える購入に使える500円のクーポンが付いています。）とあるから②が正解。第2段落最終文のレシピ交換は，iff_p2_s4 のとおり近所のレシピを受け取る仕組みであり，入場券とレシピを直接交換する①とは別の話なので誤り。③の無料個人レッスン，④のコンサート特別席については本文に言及がない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "iff_bl_s2",
+              "iff_p2_s4"
+            ],
+            "instructor_note": {
+              "ja": "coupon の条件（金額・回数・使える場所）を読み取り，割引に言い換えた選択肢を選ぶ問題です。レシピ交換は別枠の催しです。",
+              "points": [
+                "iff_bl_s2の 500-yen coupon／over 1,000 yen／food stall が②の根拠。",
+                "①は iff_p2_s4 の recipe exchange と混同しやすいが，そこでは入場券との交換とは書かれていません。",
+                "③④は本文にキーワードがありません。",
+                "テクニック: keep your ticket はクーポン利用時に必要と想像し，割引・特典系の選択肢を優先して当たります。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "diverse",
+              "ja": "多様な"
+            },
+            {
+              "en": "demonstration",
+              "ja": "実演"
+            },
+            {
+              "en": "recipe exchange",
+              "ja": "レシピ交換"
+            },
+            {
+              "en": "coupon",
+              "ja": "クーポン"
+            },
+            {
+              "en": "stall",
+              "ja": "露店；売店"
+            },
+            {
+              "en": "food stall",
+              "ja": "フードスタンド"
+            },
+            {
+              "en": "admission",
+              "ja": "入場料"
+            },
+            {
+              "en": "~ and up",
+              "ja": "～以上（年齢など）"
+            },
+            {
+              "en": "city hall",
+              "ja": "市庁舎"
+            },
+            {
+              "en": "gospel",
+              "ja": "ゴスペル"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 8,
+      "points_per_question": 2,
+      "description": "短文読解（記事要約）",
+      "situation": {
+        "en": "You are in the second year of university and thinking about how to prepare for job-hunting. You find this summary by a British author of a discussion held in a Japanese university.",
+        "ja": "あなたは大学2年生で，どのようにして就職活動に備えるかを考えています。日本の大学で開催されたディスカッションに関する，イギリスの著者による要約を見つけました。"
+      },
+      "passages": [
+        {
+          "id": "rx_article",
+          "title": {
+            "en": "Get Experience, Get Ahead",
+            "ja": "経験を積もう，先に進もう"
+          },
+          "image": {
+            "src": "data/zkai/2026/round06/images/q02_cv_illustration.png",
+            "alt": "Four CV documents",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "rx_title",
+              "en": "Get Experience, Get Ahead",
+              "ja": "経験を積もう，先に進もう",
+              "role": "title"
+            },
+            {
+              "id": "rx_meta_date",
+              "en": "10 June 2024",
+              "ja": "2024年6月10日",
+              "role": "meta"
+            },
+            {
+              "id": "rx_meta_author",
+              "en": "Andrew Smith",
+              "ja": "Andrew Smith",
+              "role": "meta"
+            },
+            {
+              "id": "rx_meta_place",
+              "en": "Manchester, UK",
+              "ja": "イギリス，マンチェスター",
+              "role": "meta"
+            }
+          ]
+        },
+        {
+          "id": "rx_p1",
+          "sentences": [
+            {
+              "id": "rx_p1_s1",
+              "en": "These days, employers value life skills and real-world experience in addition to a university degree.",
+              "ja": "近頃，雇用者は大学の学位に加えて，実生活でのスキルや実社会での経験を重視しています。"
+            },
+            {
+              "id": "rx_p1_s2",
+              "en": "Three students in their final year of university recently gave advice on the best ways to improve one's CV before starting job-hunting.",
+              "ja": "先日，大学の最終学年の3人の学生が，就職活動を始める前に履歴書をよりよくするための最良の方法についてアドバイスをしてくれました。"
+            }
+          ]
+        },
+        {
+          "id": "rx_p2",
+          "sentences": [
+            {
+              "id": "rx_p2_s1",
+              "en": "They all agreed that additional skills and experiences were important, and all felt that volunteer work and gaining more qualifications were great ideas.",
+              "ja": "彼らは皆，追加のスキルと経験が重要であることに同意し，またボランティア活動やさらなる資格取得はすばらしいアイデアだと感じていました。"
+            },
+            {
+              "id": "rx_p2_s2",
+              "en": "One student commented that volunteer work demonstrates both leadership and social responsibility.",
+              "ja": "ある学生は，ボランティア活動はリーダーシップと社会的責任の両方を示すとコメントしました。"
+            },
+            {
+              "id": "rx_p2_s3",
+              "en": "Another student said that it also develops soft skills such as communication and teamwork.",
+              "ja": "別の学生は，それはコミュニケーションやチームワークなどのソフトスキルも養われると言いました。"
+            }
+          ]
+        },
+        {
+          "id": "rx_p3",
+          "sentences": [
+            {
+              "id": "rx_p3_s1",
+              "en": "The three students had taken extra classes at the same university.",
+              "ja": "この3人の学生は同じ大学で追加の授業を受けていました。"
+            },
+            {
+              "id": "rx_p3_s2",
+              "en": "Two had participated in special classes for international tour guides and one had received a teaching assistant's licence.",
+              "ja": "2人は国際ツアーガイド向けの特別クラスに参加し，1人はティーチング・アシスタントの資格を取得していました。"
+            },
+            {
+              "id": "rx_p3_s3",
+              "en": "One of the students had taken some online courses in computer programming.",
+              "ja": "学生の1人はコンピュータープログラミングのオンラインコースをいくつか受講していました。"
+            },
+            {
+              "id": "rx_p3_s4",
+              "en": "These helped him find a job at a major tech firm, where he will start working after graduation.",
+              "ja": "それが彼が大手テクノロジー企業での仕事を見つけるのに役立ち，卒業後そこで働き始めることになりました。"
+            }
+          ]
+        },
+        {
+          "id": "rx_p4",
+          "sentences": [
+            {
+              "id": "rx_p4_s1",
+              "en": "One of the students also talked about internships as she had spent three months in her final year working in a law office.",
+              "ja": "学生の1人は最終学年に法律事務所で3か月働いたことから，インターンシップについても話しました。"
+            },
+            {
+              "id": "rx_p4_s2",
+              "en": "Another agreed that this could give an advantage in some cases.",
+              "ja": "別の学生は，場合によってはこれが有利になりうることに同意しました。"
+            },
+            {
+              "id": "rx_p4_s3",
+              "en": "However, one said this wasn't realistic for economically-challenged students because internships are often unpaid and only a small number of companies offer jobs to interns after they complete their internships.",
+              "ja": "しかし1人の学生は，インターンシップは無給であることが多く，インターンシップ終了後に仕事を提供する企業はごくわずかであるため，経済的に困難な学生にとってこれは現実的ではないと述べました。"
+            },
+            {
+              "id": "rx_p4_s4",
+              "en": "He added that rather than an internship, having a part-time job gives a student teamwork and leadership skills, and also helps pay for tuition or social life at university.",
+              "ja": "彼は，インターンシップよりむしろアルバイトが学生にチームワークとリーダーシップのスキルを与え，授業料や大学生活の社交の費用の支払いにも役立つと付け加えました。"
+            }
+          ]
+        },
+        {
+          "id": "rx_p5",
+          "sentences": [
+            {
+              "id": "rx_p5_s1",
+              "en": "In the end, all agreed that various strategies are available, and students should think carefully about their future goals and choose the way that works best for them.",
+              "ja": "最後に，さまざまな戦略が利用可能であり，学生は将来の目標について慎重に考え，自分に最適な方法を選択すべきであると全員が同意しました。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "Which of the following did all the students agree on? [ 4 ]",
+            "ja": "「すべての学生が同意したのは次のどれか。」［4］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A good university degree counts most in job-hunting.",
+              "ja": "就職活動ではよい大学の学位が最も重要である。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Most employers take an interest in bilingual people.",
+              "ja": "ほとんどの雇用者はバイリンガルの人々に興味を抱く。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Skills and experience alongside a degree will appeal to employers.",
+              "ja": "学位に加えてスキルや経験があると雇用者にアピールできる。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Taking online courses to get qualifications is recommended.",
+              "ja": "資格を取るにはオンラインコースを受講するのがお勧めである。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "第2段落第1文に They all agreed that additional skills and experiences were important, and all felt that volunteer work and gaining more qualifications were great ideas.（彼らは皆，追加のスキルと経験が重要であることに同意し，またボランティア活動やさらなる資格取得はすばらしいアイデアだと感じていました。）とある。学位だけでなく追加のスキルと経験が重要という合意は，③の「学位に加えてスキルや経験があると雇用者にアピールできる」と整合する。①の学位最重視，②のバイリンガル，④のオンライン推奨は「全員一致」の要点としては本文と一致しない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "rx_p1_s1",
+              "rx_p2_s1"
+            ],
+            "instructor_note": {
+              "ja": "「全員が同意」のレベルで書かれている文を探す問題です。個人の具体例（オンラインコース等）は合意の「骨格」と混同しないよう注意します。",
+              "points": [
+                "rx_p1_s1の employers value ... experience in addition to a university degree と rx_p2_s1 の agreed that additional skills and experiences were important が③の根拠です。",
+                "④は第3段落でオンラインコースの一例が出るが，それは3人のうち1人の経験であり「皆がオンラインを勧めた」とは読めません。",
+                "①②の語は本文にないか，合意文ではありません。",
+                "テクニック: all agreed / they all felt は第2段落冒頭にまとまっていることが多いです。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "Volunteer work will most likely [ 5 ].",
+            "ja": "「ボランティア活動は［5］可能性が最も高い。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "be necessary to graduate from university",
+              "ja": "大学の卒業に必要である",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "develop students' skills in working with others",
+              "ja": "他の人と一緒に仕事をするための学生のスキルを向上させる",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "give students a better position and salary in their future jobs",
+              "ja": "将来就く職でのよりよい地位と給料を学生にもたらす",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "help to pay for college tuition",
+              "ja": "大学の授業料の支払いに役立つ",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "第2段落第2〜3文に One student commented that volunteer work demonstrates both leadership and social responsibility. Another student said that it also develops soft skills such as communication and teamwork.（ある学生は，ボランティア活動はリーダーシップと社会的責任の両方を示すとコメントしました。別の学生は，それはコミュニケーションやチームワークなどのソフトスキルも養われると言いました。）とある。リーダーシップ・社会的責任・コミュニケーション・チームワークは「他者と協働するスキル」に言い換えられ，②が正解。①③は本文にない。④は rx_p4_s4 でアルバイトの話として述べられており，ボランティアとは区別される。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "rx_p2_s2",
+              "rx_p2_s3",
+              "rx_p4_s4"
+            ],
+            "instructor_note": {
+              "ja": "ボランティアに関する2つの引用を，選択肢のひとことに束ねる問題です。授業料は別の働き方の話に付けられやすいです。",
+              "points": [
+                "rx_p2_s2〜s3の leadership / social responsibility / communication / teamwork が②に対応します。",
+                "④の tuition は rx_p4_s4 の part-time job 側の効用であり，ボランティアと取り違えないようにします。",
+                "③の将来の地位・給与への保证は本文にありません。",
+                "テクニック: soft skills は「対人スキル」と覚えておくと②に結びつきやすいです。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "One student's opinion is that [ 6 ].",
+            "ja": "「学生の1人の意見によると［6］。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "doing an internship is not practical for some students",
+              "ja": "インターンシップをすることが現実的でない学生もいる",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "he was able to find a job after finishing a programming course",
+              "ja": "彼はプログラミングコースを修了したあと仕事を見つけることができた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "many companies offer jobs to interns after graduation",
+              "ja": "多くの企業がインターン生に，卒業後，仕事を提供している",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "studying online is cheaper than studying at school",
+              "ja": "オンラインで学習することは学校で学習するより安い",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第4段落第3文に However, one said this wasn't realistic for economically-challenged students because internships are often unpaid and only a small number of companies offer jobs to interns after they complete their internships.（しかし1人の学生は，インターンシップは無給であることが多く，インターンシップ終了後に仕事を提供する企業はごくわずかであるため，経済的に困難な学生にとってこれは現実的ではないと述べました。）とあるから①が正解。②は第3段落の事実であり opinion ではない。③は本文が only a small number と述べるので相反する。④は誰も述べていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "rx_p4_s3",
+              "rx_p3_s3",
+              "rx_p3_s4"
+            ],
+            "instructor_note": {
+              "ja": "opinion 問題では主観・評価を述べた文を選び，事実の列挙（プログラミングで就職）と切り分けます。",
+              "points": [
+                "rx_p4_s3の economically-challenged / wasn't realistic が①の核心です。",
+                "②は rx_p3_s3〜s4 の説明だが，これは本人の経歴の「事実」であり，設問が求める「意見」とは別です。",
+                "③は offer jobs を many と読むと誤り，本文は人数が限られると否定しています。",
+                "テクニック: said / commented / wasn't realistic などの主観動詞に下線を引きます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "Which of the following is mentioned in the article? [ 7 ]",
+            "ja": "「次のうち記事で述べられているのはどれか。」［7］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Detailed information about part-time jobs for university students",
+              "ja": "大学生のためのアルバイトに関する詳しい情報",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Differences between paid work and volunteer work",
+              "ja": "有給の仕事とボランティア活動の違い",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Difficulty of taking extra qualifications at university",
+              "ja": "大学で追加の資格を取ることの難しさ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The importance of picking the right experiences for one's career",
+              "ja": "自分のキャリアに適した経験を選びとることの重要性",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "最終段落に In the end, all agreed that various strategies are available, and students should think carefully about their future goals and choose the way that works best for them.（最後に，さまざまな戦略が利用可能であり，学生は将来の目標について慎重に考え，自分に最適な方法を選択すべきであると全員が同意しました。）とある。将来の目標に合わせて最適な方法を選ぶことの重要性は④にまとめられる。①の詳細なアルバイト情報，②の有給と無給の体系的対比，③の資格取得の難しさは本文にない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "rx_p5_s1"
+            ],
+            "instructor_note": {
+              "ja": "記述問題では「最終段落の結論」が答えになりやすいです。アルバイトは一文に触れる程度か確認します。",
+              "points": [
+                "rx_p5_s1の think carefully about their future goals / choose the way that works best が④に対応します。",
+                "rx_p4_s4 はアルバイトの利点に触れるが，①ほど「詳細情報」とは言えません。",
+                "②③は本文が論じていません。",
+                "テクニック: mentioned 型は抽象選択肢ほど結論・メッセージ段落と照合します。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "real-world",
+              "ja": "実社会の"
+            },
+            {
+              "en": "CV = Curriculum Vitae",
+              "ja": "履歴書（英式。美式は résumé）"
+            },
+            {
+              "en": "qualification",
+              "ja": "資格"
+            },
+            {
+              "en": "demonstrate",
+              "ja": "〜を示す"
+            },
+            {
+              "en": "licence",
+              "ja": "免許（証）；許可（英式。美式は license）"
+            },
+            {
+              "en": "tech firm",
+              "ja": "IT企業（technology firm）"
+            },
+            {
+              "en": "internship",
+              "ja": "実務研修；インターンシップ"
+            },
+            {
+              "en": "economically-challenged",
+              "ja": "経済的に困窮している"
+            },
+            {
+              "en": "unpaid",
+              "ja": "無給の"
+            },
+            {
+              "en": "tuition",
+              "ja": "授業料"
+            },
+            {
+              "en": "strategy",
+              "ja": "戦略"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "description": "長文読解（校新・自然鑑賞キャンプ）",
+      "situation": {
+        "en": "You are going to participate in a special summer activity. As preparation, you are reading an article in the school newspaper written by Tony, who took part in it last year.",
+        "ja": "あなたは特別な夏の活動に参加します。準備として，昨年参加したトニーが書いた学校新聞の記事を読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "tony_nature_camp_newspaper",
+          "framed": true,
+          "title": {
+            "en": "<strong>Nature Appreciation Camp Adventure</strong>",
+            "ja": "<strong>自然鑑賞キャンプアドベンチャー</strong>"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "tony_p1_s1",
+                "en": "This year, our class went to a nature appreciation camp in a national park by the beach.",
+                "ja": "今年は，僕たちのクラスは海岸沿いの国立公園での自然鑑賞キャンプに行きました。"
+              },
+              {
+                "id": "tony_p1_s2",
+                "en": "When we got off the bus, I felt the cool ocean breeze and heard the calls of birds high above.",
+                "ja": "バスを降りると，涼しい海風を感じ，上空から鳥の鳴き声が聞こえてきました。"
+              },
+              {
+                "id": "tony_p1_s3",
+                "en": "It was like stepping into a new world, and I couldn't wait to explore.",
+                "ja": "まるで新しい世界に足を踏み入れたようで，探検するのが待ちきれませんでした。"
+              }
+            ],
+            [
+              {
+                "id": "tony_p2_s1",
+                "en": "Our guide, Ms. Nash, was a wildlife expert.",
+                "ja": "ガイドのナッシュさんは，野生動物の専門家でした。"
+              },
+              {
+                "id": "tony_p2_s2",
+                "en": "She led us along forest trails, explaining how the animals and plants all rely on each other.",
+                "ja": "彼女は僕たちを森の小道に案内し，動物や植物すべてが互いに依存し合っているさまを説明してくれました。"
+              },
+              {
+                "id": "tony_p2_s3",
+                "en": "At one stop, we reached a quiet spot under an ancient tree with interesting roots.",
+                "ja": "途中立ち寄ったところでは，興味深い根を持つ古い木の下の静かな場所に着きました。"
+              },
+              {
+                "id": "tony_p2_s4",
+                "en": "Ms. Nash explained that some trees in the forest were hundreds of years old.",
+                "ja": "ナッシュさんは，森の中には数百年の樹齢の木もあると説明しました。"
+              }
+            ],
+            [
+              {
+                "id": "tony_p3_s1",
+                "en": "Before the sun set, we put up tents near the beach.",
+                "ja": "日が沈む前に，海岸の近くにテントを張りました。"
+              },
+              {
+                "id": "tony_p3_s2",
+                "en": "Ms. Nash taught us how to start a fire without a lighter, and we cooked dinner listening to the sounds of the night animals surrounding us.",
+                "ja": "ナッシュさんはライターを使わずに火をおこす方法を教えてくれて，僕たちを取り巻く夜行動物の音に耳を澄ませながら夕食を作りました。"
+              },
+              {
+                "id": "tony_p3_s3",
+                "en": "We learned about animals that come out only at night.",
+                "ja": "僕たちは夜にしか出てこない動物について学びました。"
+              },
+              {
+                "id": "tony_p3_s4",
+                "en": "Ms. Nash explained that many of these animals have eyes that reflect light, so we might be able to see the eyes of a lizard, raccoon, or even an owl in the woods.",
+                "ja": "ナッシュさんは，これらの動物の多くが光を反射する目を持っているため，森の中にトカゲ，アライグマ，さらにはフクロウの目を見ることができるかもしれないと説明しました。"
+              },
+              {
+                "id": "tony_p3_s5",
+                "en": "Hearing that reminded me of my pets at home, my cat Luna and my bulldog, Leo.",
+                "ja": "僕はそれを聞いて，家にいるペットの猫のルナとブルドッグのレオを思い出しました。"
+              },
+              {
+                "id": "tony_p3_s6",
+                "en": "I told Ms. Nash about them, and she smiled telling me not to expect Leo's eyes to shine in the dark, because bulldogs don't have that special layer in their eyes.",
+                "ja": "ナッシュさんに彼らのことを話すと，彼女は微笑んで，ブルドッグの目には特別な層がないからレオの目が暗闇で輝くことを期待しないでね，と言いました。"
+              },
+              {
+                "id": "tony_p3_s7",
+                "en": "Luna's eyes would glow, though, she added.",
+                "ja": "でも，ルナの目は輝くでしょう，と彼女は付け加えました。"
+              }
+            ],
+            [
+              {
+                "id": "tony_p4_s1",
+                "en": "The next morning, Ms. Nash said we should learn to feed ourselves in the wild and sent us to find coconuts.",
+                "ja": "翌朝，ナッシュさんは，僕たちは野生の中で自分自身の食物を得ることを学ぶべきだと言い，僕たちをココナッツ探しに送り出しました。"
+              },
+              {
+                "id": "tony_p4_s2",
+                "en": "We came back with about ten.",
+                "ja": "僕たちは10個ほど持って戻ってきました。"
+              },
+              {
+                "id": "tony_p4_s3",
+                "en": "She taught us how to get to the water inside, and we enjoyed the cool refreshing taste.",
+                "ja": "彼女はその中の水分に達する方法を教えてくれて，冷たくてさわやかな味を楽しみました。"
+              },
+              {
+                "id": "tony_p4_s4",
+                "en": "Later, we broke them open and ate the white flesh inside.",
+                "ja": "その後，それらをかち割って，中の白い果肉を食べました。"
+              }
+            ],
+            [
+              {
+                "id": "tony_p5_s1",
+                "en": "Finally, we headed back, and my mother picked me up in front of the school.",
+                "ja": "最後に帰路につき，母が僕を学校の前まで迎えに来てくれました。"
+              },
+              {
+                "id": "tony_p5_s2",
+                "en": "By the time we got home, it was dark.",
+                "ja": "家に帰る頃には，辺りは暗くなっていました。"
+              },
+              {
+                "id": "tony_p5_s3",
+                "en": "My two pets were waiting for me as the car pulled into the carport.",
+                "ja": "車がカーポートに停車すると，2匹のペットが僕を待っていました。"
+              },
+              {
+                "id": "tony_p5_s4",
+                "en": "I saw that Ms. Nash was right.",
+                "ja": "僕はナッシュさんが正しかったことがわかりました。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "paragraph_index": 2,
+              "src": "images/q03_campsite.png",
+              "position": "float-right",
+              "alt": "Beach campsite with two tents",
+              "max_width": 240
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "stem": {
+            "en": "Tony's article also included student comments (① ~ ④) describing the events in the nature tour. Put the comments in the order in which the events happened. [ 8 ] → [ 9 ] → [ 10 ] → [ 11 ]",
+            "ja": "トニーの記事には，自然ツアーでの出来事を説明した生徒のコメント（①〜④）も含まれていた。コメントを出来事が起きた順に並べよ。［8］→［9］→［10］→［11］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "I didn't expect to see trees that have been around for centuries. I think it is great that they are protected now.",
+              "ja": "何百年も生き続けてきた木を見られるとは思わなかった。いま保護されているのはすばらしいことだと思う。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "I knew that we'd stay overnight, but I didn't expect to put up my own shelter.",
+              "ja": "泊まりはするとは思っていたが，自分で寝る場所（シェルター）を設けるとは思わなかった。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "It was scary to hear how many living creatures were all around us in the dark.",
+              "ja": "暗闇の中で私たちの周りにどれだけ多くの生物がいるか耳にして怖かった。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The temperature difference at the coast was surprising to me. In town it is still warm even in the evenings.",
+              "ja": "海岸での気温差には驚いた。町では夕方でもまだ暖かい。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④→①→②→③",
+          "answer_sequence": [
+            "④",
+            "①",
+            "②",
+            "③"
+          ],
+          "explanation": {
+            "quoted_ja": "正解の順序は④→①→②→③。④は第1段落第2文の cool ocean breeze（涼しい海風）に対応し，到着直後の体感。①は第2段落最終文の hundreds of years old（数百年の樹齢）に対応。②は第3段落第1文の put up tents（テントを張る）に対応。③は第3段落で夕食をしながら夜行性の動物の話を聞く場面に対応する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "tony_p1_s2",
+              "tony_p2_s4",
+              "tony_p3_s1",
+              "tony_p3_s2"
+            ],
+            "instructor_note": {
+              "ja": "並べ替えは「時系列の出来事」とコメント内の手がかり（気温・古木・テント・夜の生物）を結びつける。バス降車後の体感→森の古木→テント設営→夜の動物と覚えると速い。",
+              "points": [
+                "④は temperature / coast / evening と tony_p1_s2 の breeze・到着直後の描写と対応。",
+                "①は centuries と tony_p2_s4 の hundreds of years old。",
+                "②は shelter と tony_p3_s1 の put up tents。",
+                "③は creatures in the dark と tony_p3_s2 の night animals の文脈。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 12,
+          "stem": {
+            "sentences": [
+              {
+                "id": "tony_q2_stem",
+                "en": "Tony did <strong><u>not</u></strong> learn about [ 12 ] during the school's nature appreciation camp.",
+                "ja": "学校の自然鑑賞キャンプの間に，トニーが<strong><u>学ばなかった</u></strong>ことは［12］である。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "an alternative way to create fire",
+              "ja": "火をおこす別の方法",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "finding food in nature",
+              "ja": "自然の中で食べ物を見つけること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the relationships between organisms",
+              "ja": "生物間のつながり",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "using a map to get around",
+              "ja": "移動に地図を使用すること",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。①は第3段落第2文の start a fire without a lighter，②は第4段落のココナッツ探しと野生での食物，③は第2段落第2文の animals and plants all rely on each other と本文で触れられる。④の地図の使用についての記述はない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "tony_p3_s2",
+              "tony_p4_s1",
+              "tony_p2_s2"
+            ],
+            "instructor_note": {
+              "ja": "NOT-learn は本文で「教わった／説明があった」語を消去法で除外する。fire・food・organisms（依存関係）は段落が特定しやすい。",
+              "points": [
+                "① tony_p3_s2 の without a lighter。",
+                "② tony_p4_s1 の feed ourselves in the wild／find coconuts。",
+                "③ tony_p2_s2 の rely on each other。",
+                "④ map は本文にキーワードがないため正解。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "When he arrived home, Tony most likely saw [ 13 ].",
+            "ja": "トニーが家に着いたとき，最もありそうに見たものは［13］である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a lizard climbing a wall",
+              "ja": "壁を登るトカゲ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "his dog asleep in his bed",
+              "ja": "彼のベッドで眠っている彼の犬",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "one set of shining eyes",
+              "ja": "1組の輝く目",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "two sets of shining eyes",
+              "ja": "2組の輝く目",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "最終段落に My two pets were waiting for me as the car pulled into the carport. I saw that Ms. Nash was right.（車がカーポートに停車すると，2匹のペットが僕を待っていました。僕はナッシュさんが正しかったことがわかりました。）とある。第3段落でナッシュさんはブルドッグのレオの目は暗闇で輝かないが，猫のルナの目は輝くと述べているため，暗い中で「輝く目」はルナの1組だけが妥当で③が正解。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "tony_p5_s3",
+              "tony_p5_s4",
+              "tony_p3_s6",
+              "tony_p3_s7"
+            ],
+            "instructor_note": {
+              "ja": "推論問題で，ペットが2匹いても「光る目」はルナだけという前提を第3段落から持ち込む。two pets と shining eyes を同一視しないのがカギ。",
+              "points": [
+                "tony_p3_s6〜s7 で Leo は shine しない／Luna は glow。",
+                "tony_p5_s3 は two pets，tony_p5_s4 の Ms. Nash was right がその予言の確認。",
+                "④は字面の two pets と混同しやすいが，eye shine は1組。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "breeze",
+              "ja": "微風"
+            },
+            {
+              "en": "ancient",
+              "ja": "古代の；古い"
+            },
+            {
+              "en": "put up ~",
+              "ja": "〜（テント）を張る"
+            },
+            {
+              "en": "reflect",
+              "ja": "〜を反射する"
+            },
+            {
+              "en": "layer",
+              "ja": "層"
+            },
+            {
+              "en": "break ~ open",
+              "ja": "〜を割って開ける"
+            },
+            {
+              "en": "flesh",
+              "ja": "（果物の）果肉"
+            },
+            {
+              "en": "head back",
+              "ja": "戻る"
+            },
+            {
+              "en": "shelter（問1②）",
+              "ja": "住居；身を守る場所"
+            },
+            {
+              "en": "creature（問1③）",
+              "ja": "生物"
+            },
+            {
+              "en": "organism（問2③）",
+              "ja": "（特に小さな）生物；生命体"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ添削（目の健康・先生コメント）",
+      "situation": {
+        "en": "In English class you are writing an essay on a health issue to prepare for a presentation. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "英語の授業で，あなたは発表の準備のためにある健康問題に関するエッセイを書いています。これはあなたの最新の草稿です。今は先生からのコメントをもとに，推敲に取り組んでいるところです。"
+      },
+      "passages": [
+        {
+          "id": "treat_eyes_essay",
+          "title": {
+            "en": "<strong>Treat Your Eyes Well</strong>",
+            "ja": "<strong>目を大切にしよう</strong>"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ey_p1_s1",
+                "en": "How many of your classmates wear glasses or contacts?",
+                "ja": "眼鏡やコンタクトレンズを着用しているクラスメートは何人いるだろうか。"
+              },
+              {
+                "id": "ey_p1_s2",
+                "en": "With more screen time and less time spent outside, children have worse vision than they used to.",
+                "ja": "スクリーンタイムが増え，外で過ごす時間が減る中，子供たちの視力は以前と比べて悪化している。"
+              },
+              {
+                "id": "ey_p1_s3",
+                "en": "Doctors do not all agree on what leads to bad vision.",
+                "ja": "何が視力の悪化につながっているか，医師たちの見解は必ずしも一致していない。"
+              },
+              {
+                "id": "ey_p1_s4",
+                "en": "There are some steps you can take for your eye health in general.",
+                "ja": "目の健康のためにできる一般的な対策がいくつかある。",
+                "comment_marker": "(1)",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "ey_p2_s1",
+                "en": "First, when you look at something, try to hold it at least one foot away from your face.",
+                "ja": "まず，何かを見る時は，自分の顔から少なくとも1フィート（約30cm）は離して持つようにしよう。"
+              },
+              {
+                "id": "ey_p2_s2",
+                "en": "Whether you are looking at a book or a smartphone screen, your eyes have to work harder to focus on things that are very close.",
+                "ja": "見ているものが本であれスマートフォンの画面であれ，非常に近いものに焦点を合わせるのは目にとって負担が大きくなる。"
+              },
+              {
+                "id": "ey_p2_s3",
+                "en": "This makes them tired, and studies show a relationship between close work and bad vision.",
+                "ja": "これは目を疲れさせ，近距離作業と視力悪化の関連性を示す研究もある。"
+              }
+            ],
+            [
+              {
+                "id": "ey_p3_s1",
+                "en": "Second, pay attention to numbers.",
+                "ja": "第二に，数字に注目しよう。",
+                "comment_marker": "(2)",
+                "underline_word": "pay attention to numbers"
+              },
+              {
+                "id": "ey_p3_s2",
+                "en": "'20-20-20' is easy to remember.",
+                "ja": "「20-20-20（ルール）」は覚えやすい。"
+              },
+              {
+                "id": "ey_p3_s3",
+                "en": "This means take a 20-second break every 20 minutes and look 20 feet away when you have to look at something close for a long time.",
+                "ja": "これは，近くのものを長時間見なければならない時は，20分ごとに20秒休憩をとり，20フィート先のものを見るようにする，というものだ。"
+              },
+              {
+                "id": "ey_p3_s4",
+                "en": "This helps reduce eye strain and may help protect your vision as well.",
+                "ja": "これは目の緊張をほぐす助けとなり，視力低下を防ぐ効果もあるかもしれない。"
+              },
+              {
+                "id": "ey_p3_s5",
+                "en": "It can also give you a short mental break.",
+                "ja": "ちょっとした頭の休息にもなりえる。"
+              }
+            ],
+            [
+              {
+                "id": "ey_p4_s1",
+                "en": "Lastly, wear sunglasses with ultraviolet (UV) protection.",
+                "ja": "最後に，紫外線（UV）対策のあるサングラスをかけましょう。"
+              },
+              {
+                "id": "ey_p4_s2",
+                "en": "You probably use sunscreen to protect your skin from UV damage.",
+                "ja": "肌を紫外線ダメージから守るために日焼け止めを使うのは当然でしょう。"
+              },
+              {
+                "id": "ey_p4_s3",
+                "en": "UV damage does not cause bad vision, but it does lead to many diseases that are common in the elderly.",
+                "ja": "紫外線によるダメージが直接視力を悪くするわけではないが，高齢者に多いさまざまな疾患につながる。",
+                "comment_marker": "(3)",
+                "marker_type": "caret"
+              },
+              {
+                "id": "ey_p4_s4",
+                "en": "If you want to have healthy eyes in fifty years' time, you should start protecting them now.",
+                "ja": "50年後も健康な目でいたいなら，いまから守り始めるべきだ。"
+              }
+            ],
+            [
+              {
+                "id": "ey_p5_s1",
+                "en": "As we have seen, there are some easy things you can do to take care of your eyes.",
+                "ja": "これまで見てきたように，目を大切にするための簡単なことはいくつかある。"
+              },
+              {
+                "id": "ey_p5_s2",
+                "en": "Rest your eyes when you read, take a break to look into the distance, and wear sunglasses when you go outside.",
+                "ja": "ものを読む時は目を休め，休憩して遠くを見たり，外に出るときはサングラスをかけたりしましょう。",
+                "comment_marker": "(4)",
+                "underline_word": "Rest your eyes when you read"
+              },
+              {
+                "id": "ey_p5_s3",
+                "en": "Having healthy habits will help keep your eyes happy.",
+                "ja": "健康的な習慣が，目をすこやかに保つのに役立つ。"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "Insert a connecting expression here.",
+              "ja": "ここに接続表現を挿入しなさい。"
+            },
+            {
+              "marker": "(2)",
+              "en": "This topic sentence doesn't really match this paragraph. Rewrite it.",
+              "ja": "この主題文はこの段落にあまり合っていません。書き直しなさい。"
+            },
+            {
+              "marker": "(3)",
+              "en": "You are missing something here. Add more information between the two sentences to connect them.",
+              "ja": "ここに何か足りません。2つの文をつなぐために，間にさらに情報を追加しなさい。"
+            },
+            {
+              "marker": "(4)",
+              "en": "The underlined phrase doesn't summarize your essay content enough. Change it.",
+              "ja": "下線部の表現はあなたのエッセイの内容を十分に要約していません。変更しなさい。"
+            }
+          ],
+          "teacher_comment": {
+            "title_en": "Overall Comments:",
+            "title_ja": "総合的なコメント：",
+            "en": "This draft is much better. There's just a little more to improve before the presentation. (Do you wear sunglasses? I'm going to go buy a pair! 😊)",
+            "ja": "この草稿はずっとよくなりました。発表の前にもう少しだけ改善の余地があります。（サングラスはかけていますか？ 私も買いに行こうと思います！😊）"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on comment (1), which is the best expression to add? [ 14 ]",
+            "ja": "コメント(1)に基づいて，付け加えるのに最も適当な表現はどれか。［14］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Indeed",
+              "ja": "本当に；確かに",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Moreover",
+              "ja": "そのうえ；しかも",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Nevertheless",
+              "ja": "とはいえ；それでも",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Thus",
+              "ja": "したがって；それゆえに",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。前句は Doctors do not all agree on what leads to bad vision.（原因について医師の意見が一致しない），後句は There are some steps you can take for your eye health in general.（一般的な目の健康の対策はある）。「原因ははっきりしないが，それでも対策はある」という逆接なので Nevertheless が適切。Indeed／Moreover は追加・強調，Thus は帰結で前後の論理と合わない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "ey_p1_s3",
+              "ey_p1_s4"
+            ],
+            "instructor_note": {
+              "ja": "接続表現は前後の「肯定／否定の方向」より論理関係（追加・対比・逆接・帰結）を見る。原因不明→対策ありは典型的な「譲歩・逆接」パターン。",
+              "points": [
+                "ey_p1_s3 の not all agree と ey_p1_s4 の some steps は対比・転換が自然。",
+                "Thus は「だから対策がある」と因果を急に強める読みになりやすく不適切。",
+                "Moreover は積み上げで，原因不明の直後には浮く。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on comment (2), which is the most appropriate way to rewrite the topic sentence? [ 15 ]",
+            "ja": "コメント(2)に基づいて，この主題文を書き直すのに最適な方法はどれか。［15］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "find something 20 feet away",
+              "ja": "20フィート先にあるものを見つけよう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "rest for 60 seconds every half hour",
+              "ja": "30分ごとに60秒休もう",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "take an \"eye break\"",
+              "ja": "「目の休憩」をとろう",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "use a timer when you do close work",
+              "ja": "近距離作業をする時はタイマーを使おう",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。コメント(2)は主題文が段落と合っていないとの指摘。第3段落は 20-20-20 ルールによる休憩と眼精疲労の軽減が中心なので，段落全体を要約する主題文として take an \"eye break\" が最も適切。①はルールの一部に過ぎ，②は本文の 20分・20秒と矛盾，④はタイマーに本文は触れない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "ey_p3_s1",
+              "ey_p3_s3",
+              "ey_p3_s4"
+            ],
+            "instructor_note": {
+              "ja": "「主題文の書き直し」は段落のキーワード（here: break / 20-20-20 / eye strain）と一致するかで決める。細部の数字だけを拾った選択肢は落とし穴になりやすい。",
+              "points": [
+                "③は段落の「休憩して目を守る」というメッセージに直結。",
+                "①は look 20 feet の一片であり主題の丸ごとの要約にはならない。",
+                "②の時間設定は本文と合わない。④は本文にない提案。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on comment (3), which is the best sentence to add? [ 16 ]",
+            "ja": "コメント(3)に基づいて，付け加えるのに最も適当な文はどれか。［16］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "For this reason, your eyes need protection from UV rays.",
+              "ja": "このことから，目は紫外線から保護する必要がある。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "In the same way, you should use sunglasses to protect your eyes.",
+              "ja": "同じように，目を守るためにサングラスを使うべきだ。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "On the other hand, sunglasses are also a good idea.",
+              "ja": "一方，サングラスもまた名案である。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Sunscreen is becoming better for your skin because of recent improvements.",
+              "ja": "日焼け止め剤は近年の改良により，皮膚によりよいものとなっている。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。コメント(3)は日焼け止めの文とその後の UV damage の文のあいだが途切れているとの指摘。肌を UV から守るのと同様に，目も守る必要があると橋渡しするのが自然で，In the same way でサングラスを明示する②が最適。①の For this reason は直前の内容だけでは因果が弱い。③④は目の保護という段落の目的を十分につながない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "ey_p4_s1",
+              "ey_p4_s2",
+              "ey_p4_s3"
+            ],
+            "instructor_note": {
+              "ja": "挿入文問題で「肌の話→目の話」への類推を求める典型パターン。In the same way / Similarly / Likewise は並行関係のマーカーとして覚える。",
+              "points": [
+                "②は sunscreen と sunglasses を対応づけ，段落冒頭の wear sunglasses とも整合。",
+                "①は因果のつながりが急で，解説では前句だけでは理由が弱いとされることがある。",
+                "④は日焼け止めの改良という別話題にそれる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on comment (4), which is the best replacement? [ 17 ]",
+            "ja": "コメント(4)に基づいて，置き換えるものとして最適なのはどれか。［17］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Don't use your smartphone when you are tired",
+              "ja": "疲れている時にスマートフォンを使うのはやめよう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Keep some distance between your eyes and hands",
+              "ja": "目と手の間には多少の距離をとるようにしよう",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Look at things which are far away",
+              "ja": "遠くにあるものを見よう",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Spend more time working outdoors",
+              "ja": "野外での活動時間を増やそう",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。コメント(4)は結論の下線部がエッセイ全体の要約として弱いとの指摘。最終段落は「遠くを見る休憩」「サングラス」と続き，第2段落の近距離を避ける話が要約から抜けている。下線 Rest your eyes when you read は第3段落の内容と重なり，第2段落の距離をとる提案を表す②に置き換えると，あとに続く遠くを見る・サングラスと重複せず3つの対策を押さえられる。①④は本文にない。③は後続の look into the distance と重なり，第2段落の役割を拾いにくい。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第6回 解説冊子",
+            "evidence_sentences": [
+              "ey_p5_s2",
+              "ey_p2_s1",
+              "ey_p3_s3",
+              "ey_p4_s1"
+            ],
+            "instructor_note": {
+              "ja": "結論の「三つ並べ」が第2・第3・第4段落の柱と対応するかをチェック。下線が第3段落だけをなぞると要約として偏る。",
+              "points": [
+                "②は one foot away／close work の柱を短く言い換えたもの。",
+                "③は遠くを見る対策とかぶりやすい。",
+                "①④は本文未登場のため消去しやすい。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "screen time",
+              "ja": "（パソコン・スマートフォンなどの）画面を眺めて過ごす時間；スクリーンタイム"
+            },
+            {
+              "en": "vision",
+              "ja": "視力；視覚"
+            },
+            {
+              "en": "take a step for ~",
+              "ja": "〜のために措置を講じる"
+            },
+            {
+              "en": "improvement（問3④）",
+              "ja": "改善；改良"
+            },
+            {
+              "en": "focus on ~",
+              "ja": "〜に焦点を合わせる"
+            },
+            {
+              "en": "strain",
+              "ja": "（目などの）緊張；負担"
+            },
+            {
+              "en": "sunscreen",
+              "ja": "日焼け止め剤"
+            },
+            {
+              "en": "look into the distance",
+              "ja": "遠くを見る"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

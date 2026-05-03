@@ -1062,6 +1062,15 @@
   line-height: 1.6;
   background: #fdfbf7;
 }
+.essay-teacher-comment-title {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.essay-teacher-comment-title-ja {
+  margin-top: 2px;
+  margin-bottom: 4px;
+  font-size: 0.82rem;
+}
 
 /* ===== Responsive ===== */
 @media (max-width: 900px) {

@@ -6,6 +6,11 @@
 // ===== レジストリ（app.jsと共通） =====
 const EXAM_PATHS = {
   zkai_2026_01: 'data/zkai/2026/round01/data.json',
+  zkai_2026_02: 'data/zkai/2026/round02/data.json',
+  zkai_2026_03: 'data/zkai/2026/round03/data.json',
+  zkai_2026_04: 'data/zkai/2026/round04/data.json',
+  zkai_2026_05: 'data/zkai/2026/round05/data.json',
+  zkai_2026_06: 'data/zkai/2026/round06/data.json',
   sundai_2026_01: 'data/sundai/2026/round01/data.json',
   sundai_2026_02: 'data/sundai/2026/round02/data.json',
   sundai_2026_03: 'data/sundai/2026/round03/data.json',
@@ -885,6 +890,7 @@ function renderPassage() {
                 : '';
               sentText = sentText.replace(sent.underline_word, markerHtml + '<span class="underline-word">' + sent.underline_word + '</span>');
             }
+            sentText = String(sentText).replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
             html += '<span class="sentence" data-sid="' + sent.id + '">' + sentText + '</span> ';
             // Show marker AFTER sentence
             if (sent.comment_marker && sent.marker_position === 'after') {
@@ -895,7 +901,8 @@ function renderPassage() {
           html += '</p>';
           html += '<div class="passage-ja-block">';
           for (const sent of para) {
-            html += '<div class="sentence-ja" data-sid-ja="' + sent.id + '">' + sent.ja + '</div>';
+            const jaText = String(sent.ja || '').replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
+            html += '<div class="sentence-ja" data-sid-ja="' + sent.id + '">' + jaText + '</div>';
           }
           html += '</div>';
           html += '</div>';
@@ -1018,7 +1025,14 @@ function renderPassage() {
               if (img.paragraph_index === pi) {
                 const floatClass = img.position === 'float-left' ? 'passage-img-float-left' : 'passage-img-float-right';
                 const styleAttr = img.max_width ? ` style="max-width:${img.max_width}px"` : '';
-                html += `<img src="${imgBase}${img.src}" alt="${img.alt || ''}" class="passage-img ${floatClass}"${styleAttr}>`;
+                const rawSrc = img.src || '';
+                const imgSrc =
+                  /^https?:\/\//.test(rawSrc)
+                    ? rawSrc
+                    : rawSrc.startsWith('data/')
+                      ? rawSrc
+                      : imgBase + rawSrc;
+                html += `<img src="${imgSrc}" alt="${img.alt || ''}" class="passage-img ${floatClass}"${styleAttr}>`;
               }
             }
           }
@@ -1239,16 +1253,22 @@ function renderPassage() {
         }
       }
 
-      // Teacher's comment
+      // Teacher's comment (optional title: title_en / title_ja — 第4問「Overall Comments」など)
       if (passage.teacher_comment) {
+        const tc = passage.teacher_comment;
         if (hasComments) {
           html += '<tr><td colspan="2" class="essay-teacher-comment">';
         } else {
           html += '<div class="essay-teacher-comment">';
         }
-        html += '<strong>Teacher\'s Comment</strong><br>';
-        html += passage.teacher_comment.en;
-        html += '<div class="choice-text-ja">' + passage.teacher_comment.ja + '</div>';
+        const tcTitleEn = tc.title_en != null ? tc.title_en : "Teacher's Comment";
+        html += '<strong class="essay-teacher-comment-title">' + tcTitleEn + '</strong>';
+        if (tc.title_ja) {
+          html += '<div class="choice-text-ja essay-teacher-comment-title-ja">' + tc.title_ja + '</div>';
+        }
+        html += '<br>';
+        html += tc.en;
+        html += '<div class="choice-text-ja">' + tc.ja + '</div>';
         if (hasComments) {
           html += '</td></tr>';
         } else {
@@ -1437,7 +1457,7 @@ function renderPassage() {
       }
       html += '</div>';
       // Navigation cue: answer 問3 after Step 2
-      html += `<div class="step-nav-cue" data-target-qids="問3a,問3b,問3c">
+      html += `<div class="step-nav-cue" data-target-qids="問3">
         <span class="step-nav-icon">📝</span>
         <span class="step-nav-text">ここまで読んだら <strong>問3</strong> を解答 →</span>
       </div>`;
@@ -1858,6 +1878,24 @@ function findSentenceJa(sid) {
           if (sent) return sent.ja;
         } else if (para && para.id === sid) {
           return para.ja;
+        }
+      }
+    }
+    if (passage.authors) {
+      for (const author of passage.authors) {
+        for (const para of author.paragraphs || []) {
+          for (const s of para) {
+            if (s.id === sid) return s.ja;
+          }
+        }
+      }
+    }
+    if (passage.sources) {
+      for (const source of passage.sources) {
+        for (const para of source.paragraphs || []) {
+          for (const s of para) {
+            if (s.id === sid) return s.ja;
+          }
         }
       }
     }

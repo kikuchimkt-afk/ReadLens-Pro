@@ -1,0 +1,4623 @@
+{
+  "exam_info": {
+    "title": "Z会 共通テスト実戦模試2026年 第4回",
+    "publisher": "Z会",
+    "year": 2026,
+    "round": 4,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 49,
+    "implemented_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source_pdf_mondai": "第4回_問題.pdf",
+    "source_pdf_kaitou": "第4回_解説.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（大学サイト・交換留学選考のお知らせ）",
+      "situation": {
+        "en": "You visited your university's website and found an interesting notice.",
+        "ja": "あなたは自分の通う大学のウェブサイトを訪れ，興味深いお知らせを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "exchange_notice",
+          "framed": true,
+          "title": {
+            "en": "Selection of Exchange Students to Go to Canada",
+            "ja": "カナダへ行く交換留学生の選考"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ca_intro_s1",
+                "en": "Our university will send three exchange students to our sister school in Vancouver, Canada in August 2026. The schedule for selecting them is as follows.",
+                "ja": "本学は2026年8月，カナダのバンクーバーにある姉妹校に3人の交換留学生を派遣する予定です。交換留学生の選考スケジュールは以下のとおりです。"
+              }
+            ],
+            {
+              "list_style": "star",
+              "items": [
+                {
+                  "id": "ca_nb1",
+                  "en": "You may hand in the application after the Orientation in September.",
+                  "ja": "9月のオリエンテーション後でも応募用紙の提出は可能です。"
+                },
+                {
+                  "id": "ca_nb2",
+                  "en": "The interview examination can only be taken by those who pass the written examination.",
+                  "ja": "面接試験は筆記試験を通過した人のみが受けられます。"
+                },
+                {
+                  "id": "ca_nb3",
+                  "en": "The final orientation is for the students selected for the program.",
+                  "ja": "最後のオリエンテーションはプログラムに選出された学生が対象です。"
+                }
+              ]
+            },
+            [
+              {
+                "id": "ca_main_s1",
+                "en": "Three students will be selected based on their current academic performance, their scores on a written English examination, and an interview examination in English.",
+                "ja": "3人の学生が現在の学業成績，英語筆記試験の得点，英語面接試験に基づいて選出されます。"
+              },
+              {
+                "id": "ca_main_s2",
+                "en": "Our sister school also runs the same program for students from around the world.",
+                "ja": "本学の姉妹校はまた，世界中の学生を対象に同じプログラムを行っています。"
+              },
+              {
+                "id": "ca_main_s3",
+                "en": "Going to our sister school will be a great chance to practice English and make a lot of friends from various countries.",
+                "ja": "姉妹校に行くことは，英語を練習し，さまざまな国から来た友だちをたくさん作るすばらしい機会となるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "ca_main_s4",
+                "en": "We are sure that you will learn many new things. If you have any questions, please feel free to ask us. We are looking forward to receiving your applications.",
+                "ja": "あなたたちが多くの新しいことを学ぶと確信しています。何か質問がありましたら，遠慮なく私たちに聞いてください。あなたたちの応募をお待ちしております。"
+              },
+              {
+                "id": "ca_main_s5",
+                "en": "To contact us, please click <u>here</u>.",
+                "ja": "私たちに連絡するには<u>こちら</u>をクリックしてください。"
+              }
+            ]
+          ],
+          "table": {
+            "after_paragraph": 1,
+            "title": {
+              "en": "2025-2026 Exchange Student Selection Schedule",
+              "ja": "2025-2026年 交換留学生選考スケジュール"
+            },
+            "headers": [
+              "Date",
+              "Events"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "July 12",
+                  "Study Abroad Information Session"
+                ],
+                "cells_ja": [
+                  "7月12日",
+                  "海外留学説明会"
+                ]
+              },
+              {
+                "cells": [
+                  "September 1",
+                  "Orientation for Applicants"
+                ],
+                "cells_ja": [
+                  "9月1日",
+                  "希望者対象オリエンテーション"
+                ]
+              },
+              {
+                "cells": [
+                  "October 20",
+                  "Written English Examination"
+                ],
+                "cells_ja": [
+                  "10月20日",
+                  "英語筆記試験"
+                ]
+              },
+              {
+                "cells": [
+                  "November 5",
+                  "Interview Examination in English"
+                ],
+                "cells_ja": [
+                  "11月5日",
+                  "英語面接試験"
+                ]
+              },
+              {
+                "cells": [
+                  "March 16",
+                  "Orientation for Exchange Students"
+                ],
+                "cells_ja": [
+                  "3月16日",
+                  "交換留学生対象オリエンテーション"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "The purpose of this notice is to [ 1 ].",
+            "ja": "このお知らせの目的は［1］ことである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "improve the students' English skills",
+              "ja": "学生の英語のスキルを向上させる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "inform the students about a schedule change",
+              "ja": "学生にスケジュールの変更について知らせる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "introduce the sister school to the students",
+              "ja": "姉妹校を学生に紹介する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "show how to choose students for the program",
+              "ja": "プログラムに参加する学生の選考方法を示す",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。タイトルが「カナダへ行く交換留学生の選考」であり，本文は選考スケジュールと選考の過程を示している。英語力向上や姉妹校紹介は本文に触れる程度であり，このお知らせ全体の目的としては④が最も適切。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "ca_intro_s1"
+            ],
+            "instructor_note": {
+              "ja": "お知らせ全体の purpose は，見出し・リード・スケジュールが一体となって「何を読者にさせたいか」を示す。個別の一文（姉妹校の説明など）に引きずられず，募集・選考という機能でまとめられるかを見る。",
+              "points": [
+                "selection schedule / applicants / written examination / interview が並ぶ体裁は「選考の仕組み」の説明であることを示す。",
+                "②は変更告知ではなく初出スケジュール。①③は手段・背景レベルで主目的ではない。",
+                "姉妹校紹介や英語学習に触れる文はあるが，スケジュール＋選考基準の塊が本文の主役なので，「留学の魅力」系の①③より「選び方の提示」④が purpose に合う。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "Before going to Canada, the students must [ 2 ].",
+            "ja": "カナダへ留学に行く前に，学生たちには［2］ことが求められる。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "get good grades in their classes",
+              "ja": "授業でいい成績を取る",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "have an interview in Japanese and English",
+              "ja": "日本語と英語の面接を受ける",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "study other languages and cultures",
+              "ja": "他の言語と文化を勉強する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "take a lot of English written tests",
+              "ja": "多くの英語筆記試験を受ける",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。Three students will be selected based on their current academic performance より，渡航前の条件として学業成績が選考要素に含まれる。面接は英語のみ（Japanese は本文なし）。筆記は複数回とは書かれていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "ca_main_s1"
+            ],
+            "instructor_note": {
+              "ja": "must は「渡航に際して満たすべき条件／選考で問われる要件」と読む。本文は Three students will be selected based on ... で選考基準を列挙しているので，その語を選択肢にマッピングする。",
+              "points": [
+                "academic performance が①に直結。②は言語がずれる。④は a written examination が一度の選考である。",
+                "オリエンテーションは①の選択肢にも似せられるが，設問は「留学に行く前に必ず〜」と選考要件に寄っており，成績要件が本文で明示されている。",
+                "③の他言語・文化はプログラムの魅力には触れても，must の直接対象としては本文が支持しない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "The study abroad program will be a valuable opportunity because the students will [ 3 ].",
+            "ja": "その留学プログラムは貴重な機会となるだろう。なぜなら，学生たちは［3］ことになるからである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "get important information in the orientation",
+              "ja": "オリエンテーションで重要な情報を得る",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "improve how they express themselves",
+              "ja": "自己表現の仕方を向上させる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "meet students from other foreign schools",
+              "ja": "他の海外の学校から来た学生に会う",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "stay in Canada for free",
+              "ja": "無料でカナダに滞在する",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。a great chance to practice English and make a lot of friends from various countries が根拠。友だちは各国からの学生＝他校・外国の学生に会う機会と読める。無料滞在・自己表現改善は本文にない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "ca_main_s3"
+            ],
+            "instructor_note": {
+              "ja": "because 問題は「貴重な機会」の理由を，プログラム説明のベネフィットから一言で拾うタイプ。friends / countries / practice English など並列にある語を切り離さず，設問の空所に入る名詞句として自然なものを選ぶ。",
+              "points": [
+                "friends from various countries を foreign schools / countries のイメージにマッピング。",
+                "practice English は②に似せるが，設問は「機会の価値」の理由として③がベストマッチしやすい。",
+                "①オリエンテーションは手続きの話で「機会の本質」より一段手前。④無料滞在は本文が約束していない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "as follows",
+              "ja": "次のとおり"
+            },
+            {
+              "en": "applicant",
+              "ja": "応募者"
+            },
+            {
+              "en": "interview",
+              "ja": "面接"
+            },
+            {
+              "en": "hand in ~",
+              "ja": "〜を提出する"
+            },
+            {
+              "en": "application",
+              "ja": "応募書類；申込用紙"
+            },
+            {
+              "en": "based on ~",
+              "ja": "〜に基づいて"
+            },
+            {
+              "en": "academic performance",
+              "ja": "学業成績"
+            },
+            {
+              "en": "run（プログラムを）",
+              "ja": "〜を実施する"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 8,
+      "points_per_question": 2,
+      "description": "長文読解（AIと医療のポッドキャスト要約）",
+      "situation": {
+        "en": "You need to prepare for a technology class on the future benefits of AI. You are reading this summary of a recent British podcast on the topic.",
+        "ja": "あなたは人工知能の将来の恩恵について技術の授業の準備をする必要があります。あなたはその話題についての最近のイギリスのポッドキャストのこの要約を読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "ai_healthcare_podcast_summary",
+          "framed": true,
+          "title": {
+            "en": "<strong>Health World Podcast</strong> — Summary",
+            "ja": "<strong>『ヘルス・ワールド・ポッドキャスト』</strong> — 要約"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "aih_p1_s1",
+                "en": "On today's Health World Podcast, three technology experts discussed how AI is transforming healthcare.",
+                "ja": "本日の『ヘルス・ワールド・ポッドキャスト』では，３人のテクノロジー専門家が，AIが医療をどのように変えつつあるかを論じた。"
+              },
+              {
+                "id": "aih_p1_s2",
+                "en": "There was general agreement that AI will help doctors to diagnose and treat disease faster and earlier due to AI's strength in analysing vast quantities of data at speed.",
+                "ja": "AIは膨大なデータを高速に分析する強みがあるため，医師の診断や治療をより速く，より早期に支援するという点では，概ね一致した見解があった。"
+              }
+            ],
+            [
+              {
+                "id": "aih_p2_s1",
+                "en": "Two of the experts supported the independent action of AI in providing medicines and treatment, especially in poorer parts of the world where there are not enough doctors.",
+                "ja": "専門家のうち２人は，医師が十分にいない世界の貧しい地域などでは，AIが薬や治療を独力で提供することを支持した。"
+              },
+              {
+                "id": "aih_p2_s2",
+                "en": "The disagreement arose over whether doctors should always be part of the decision process.",
+                "ja": "意見の対立が生じたのは，意思決定に医師が常に関与すべきかどうかについてだった。"
+              },
+              {
+                "id": "aih_p2_s3",
+                "en": "One of the speakers felt strongly that some decisions need an understanding of humans and their emotions which AI does not have.",
+                "ja": "話者の一人は，意思決定にはAIにはない人間や感情への理解が必要な場合があると強く感じていた。"
+              }
+            ],
+            [
+              {
+                "id": "aih_p3_s1",
+                "en": "All felt that doctors would have more time to spend with patients as AI can take care of paperwork and administration.",
+                "ja": "誰もが，AIが書類仕事や事務を担えるため，医師は患者と過ごす時間をより多く持てるだろうと考えた。"
+              },
+              {
+                "id": "aih_p3_s2",
+                "en": "Medical research would also benefit as AI can run tests and check data more efficiently than regular computer programs, but they agreed that research should go through a final human check before it is released.",
+                "ja": "医学研究も恩恵を受けるだろう。AIは通常のコンピュータ・プログラムより効率よく試験を走らせデータを確認できるが，成果を公表する前には最終的な人間による確認を経るべきだという点では一致した。"
+              }
+            ],
+            [
+              {
+                "id": "aih_p4_s1",
+                "en": "AI's reputation for using biased algorithms poses a problem.",
+                "ja": "偏ったアルゴリズムを使うというAIの評判は問題を呈する。"
+              },
+              {
+                "id": "aih_p4_s2",
+                "en": "The news often features reports of AI using a poor balance of data that is different from real-world data.",
+                "ja": "ニュースでは，現実世界のデータとはバランスの取れないデータをAIが用いたという報道がよく取り上げられる。"
+              },
+              {
+                "id": "aih_p4_s3",
+                "en": "This could lead to poor medical decisions.",
+                "ja": "それは不適切な医療判断につながりかねない。"
+              },
+              {
+                "id": "aih_p4_s4",
+                "en": "Two of the speakers felt that government regulations and laws would take care of this problem, but one felt that this could always be an issue with AI and that more regulations need to be developed if AI is going to be used on patients.",
+                "ja": "話者のうち２人は政府の規制と法律がこの問題に対処すると考えたが，もう一人はAIには常にこの問題がつきまとい，患者にAIを使うならさらなる規制の整備が必要だと感じた。"
+              },
+              {
+                "id": "aih_p4_s5",
+                "en": "He felt that we weren't yet ready for large-scale AI in the medical world.",
+                "ja": "彼は，医療の世界でAIを大規模に導入する準備はまだできていないと感じていた。"
+              }
+            ],
+            [
+              {
+                "id": "aih_p5_s1",
+                "en": "Finally, there were disagreements regarding timing and what percentage of decisions we can leave up to AI.",
+                "ja": "最後に，導入の時期や，どの程度の判断をAIに委ねてよいかについても意見の相違があった。"
+              },
+              {
+                "id": "aih_p5_s2",
+                "en": "However, all felt that if politicians, doctors and technology experts work together, AI can have a positive effect on the future of healthcare.",
+                "ja": "しかし，政治家と医師とテクノロジー専門家が協力すれば，AIは医療の未来に良い影響を与えうると誰もが考えた。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "paragraph_index": 0,
+              "src": "images/ai_healthcare_doctor.png",
+              "position": "float-right",
+              "alt": "Doctor with digital healthcare interface",
+              "max_width": 220
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "Which of the following did all of the speakers agree on? [ 4 ]",
+            "ja": "話者全員が一致したのは次のうちどれか。［4］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI can demonstrate its ability to find out data that is hard to obtain",
+              "ja": "AIは入手が難しいデータを見つけ出す能力を示しうる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "AI will be more useful in the future when it develops human emotions",
+              "ja": "AIが人間の感情を獲得すれば将来さらに有用になる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Poorer parts of the world could use AI alone when there were no doctors",
+              "ja": "医師がいない地域ではAIだけで対応できる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The use of AI would make earlier and speedier treatment available",
+              "ja": "AIの利用によりより早期で迅速な治療が可能になる",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第１段落後半に，AIはデータ分析が速いため診断や治療をより速くより早期に助けるとgeneral agreement とある。③は専門家２人の見解であり全員一致ではない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "aih_p1_s2"
+            ],
+            "instructor_note": {
+              "ja": "all of the speakers / general agreement / two of the experts など，人数・範囲を決める副詞・表現に色を付けて読む。「一致したのは誰全員か／一部か」を問う設問で，部分一致の内容を正解にしない。",
+              "points": [
+                "第１段落の general agreement は診断・治療の early / faster とデータ分析の速さに結びついている。④がその要約。",
+                "②は感情を持つAIという本文にない未来像。①は根拠が曖昧。",
+                "③のように聞こえる内容は，あくまで two of the experts supported ... の文にあり，全員一致ではない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "AI use will most likely [ 5 ].",
+            "ja": "AIの利用は最もありそうなこととして［5］である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "allow doctors to see more patients, or to spend more time with each patient",
+              "ja": "医師がより多くの患者を診るか，一人あたりにより多くの時間をかけられるようにする",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "be available on a large scale for medical care in the near future",
+              "ja": "近い将来，医療に大規模に導入される",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "give doctors a deeper understanding of patients and their problems",
+              "ja": "医師により深い患者理解を与える",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "provide access to cheaper healthcare for people who need to see a doctor",
+              "ja": "診療を必要とする人により安い医療へのアクセスを提供する",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第３段落冒頭に，書類や事務をAIが担えば医師は患者ともっと時間を過ごせるとAll felt とある。②は第４段落で large-scale AI にまだ準備ができていないという否定的意見がある。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "aih_p3_s1",
+              "aih_p4_s5"
+            ],
+            "instructor_note": {
+              "ja": "most likely は本文で複数話者が繰り返し触れた「実務上の帰結」を選ぶことが多い。paperwork を誰が担うか，患者時間がどう増えるかを一文で言い切っている段落を探す。",
+              "points": [
+                "All felt で接続される節は「医師が患者ともっと時間を過ごせる／AIが事務を処理」と長所の核。①がこれを選択肢化したもの。",
+                "②は後半で large-scale に慎重な話者がおり「目前に普及」とは読みにくい。",
+                "③は感情理解は AI にないという別ブロックの話。④は費用について本文が断定していない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "One expert's opinion is that [ 6 ].",
+            "ja": "専門家の一人の意見として［6］である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI is not yet ready to work independently without human assistance",
+              "ja": "AIはまだ人の支援なしに独力で働ける段階にはない",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "AI would not ever be useful because it uses unfair algorithms",
+              "ja": "不公平なアルゴリズムを使うためAIは決して有用にならない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "medical research needs to be done by AI after the human check is finished",
+              "ja": "医学研究は人間の確認のあとにAIが行う必要がある",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "positive AI research results must always be reviewed by doctors",
+              "ja": "AIの有望な研究結果は常に医師が查読しなければならない",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第４段落末に，大規模な医療AIの導入にはまだ準備ができていないと感じた（一人の）話者がいる。④の研究の人間確認は合意事項であって一人の専門意見ではない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "aih_p4_s5"
+            ],
+            "instructor_note": {
+              "ja": "One expert / One of the speakers / He felt の直後だけを切り取り，「合意」と「個人の警告」を混ぜない。後半でまだ準備ができていない系のトーンがどの話者に紐づくかを確認する。",
+              "points": [
+                "large-scale AI ... not yet ready は規制論とは別に，一人の強い懸念として提示されている。①がこれを抽象化。",
+                "②は useful を絶対否定しており本文トーンより過激。③④は「合意で決まった手順」を一人の意見と取り違えやすい。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "Which of the following points is mentioned in the podcast? [ 7 ]",
+            "ja": "次のうち，ポッドキャストで述べられている点はどれか。［7］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI's help in administration; cutting down consultation hours",
+              "ja": "事務へのAIの助力；診察時間の短縮",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Doctors learning more about technology to improve care",
+              "ja": "医師がケア向上のために技術を学ぶこと",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Many experts cooperating to produce successful medical AI",
+              "ja": "成功する医療AIを生むための多くの専門家の協力",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Paperwork being done by doctors to avoid bias and mistakes",
+              "ja": "偏りや誤りを避けるため医師が書類仕事をすること",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。最終段落に，政治家・医師・テクノロジー専門家が協力すればとある。①の診察時間短縮は本文にない。④はAIが事務を担うという記述と矛盾する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "aih_p5_s2"
+            ],
+            "instructor_note": {
+              "ja": "mentioned 問題は「本文に単語として現れるか」より，議論の焦点として触れられているかで判定する。複数のステークホルダが並ぶ文は頻出パターンなので，politicians / doctors / experts に注目。",
+              "points": [
+                "最終段落の協働は③の many experts cooperating に対応しやすい（業界横断の協調という読み）。",
+                "①は administration はあるが consultation hours の短縮とは結びつけていない「合成エラー」になりやすい。",
+                "④は AI が paperwork と書いてあり医師が書類という逆。②は医師の技術学習として本文に線がない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "transform",
+              "ja": "〜を変える"
+            },
+            {
+              "en": "diagnose",
+              "ja": "診断する"
+            },
+            {
+              "en": "vast quantities of",
+              "ja": "莫大な量の"
+            },
+            {
+              "en": "independent",
+              "ja": "独自の；自立した"
+            },
+            {
+              "en": "paperwork",
+              "ja": "書類仕事"
+            },
+            {
+              "en": "administration",
+              "ja": "事務，運営"
+            },
+            {
+              "en": "biased",
+              "ja": "偏った"
+            },
+            {
+              "en": "regulation",
+              "ja": "規制"
+            },
+            {
+              "en": "healthcare",
+              "ja": "医療；保健"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "description": "ブログ読解（科学博物館の校外学習）",
+      "situation": {
+        "en": "You are getting ready for a school trip to the science museum with your classmates next week. You are reading an online blog post written by a high school student, Kei, who recently went there on a field trip.",
+        "ja": "あなたは，来週のクラスメートとの科学博物館への修学旅行の準備をしています。あなたは高校生のケイが書いたオンラインブログ記事を読んでいます。彼女は学校の校外学習で最近そこに行きました。"
+      },
+      "passages": [
+        {
+          "id": "kei_science_museum_blog",
+          "framed": true,
+          "title": {
+            "en": "One Day at the Science Museum",
+            "ja": "科学博物館での１日"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "kei_p1_s1",
+                "en": "Last month, my classmates and I went on an exciting field trip to a large science museum in the neighboring city.",
+                "ja": "先月，クラスメートと隣の市にある大きな科学博物館へワクワクする校外学習に行った。"
+              },
+              {
+                "id": "kei_p1_s2",
+                "en": "I had been looking forward to it all week, and finally, the day arrived!",
+                "ja": "一週間ずっと楽しみにしていて，ついにその日がやって来た。"
+              },
+              {
+                "id": "kei_p1_s3",
+                "en": "As our class entered the massive building, the teachers encouraged us to explore where our interests led us.",
+                "ja": "巨大な建物にクラスが入ると，先生たちは自分たちの興味の赴くままに見て回るよう勧めてくれた。"
+              }
+            ],
+            [
+              {
+                "id": "kei_p2_s1",
+                "en": "Our first stop was the interactive physics exhibit.",
+                "ja": "最初に立ち寄ったのは体験型の物理学のコーナーだった。"
+              },
+              {
+                "id": "kei_p2_s2",
+                "en": "There were hands-on displays about how motion and energy work.",
+                "ja": "運動とエネルギーがどのように働くかについて，実際に触って学べる展示があった。"
+              },
+              {
+                "id": "kei_p2_s3",
+                "en": "I had the chance to create mini-tornadoes in a tube and even tried some interactive exhibits with magnets.",
+                "ja": "筒の中でミニ竜巻を作ったり，磁石を使った体験型の展示にも挑戦した。"
+              },
+              {
+                "id": "kei_p2_s4",
+                "en": "They used metallic pieces and tiny marbles to demonstrate how magnets stick together or separate.",
+                "ja": "金属片や小さなビー玉を使って，磁石がくっついたり離れたりする様子を実演していた。"
+              },
+              {
+                "id": "kei_p2_s5",
+                "en": "The best part was definitely that we could touch and manipulate so many things, which made it a lot more exciting than an ordinary science class.",
+                "ja": "いちばんよかったのは，たくさんのものに触って操作できたことで，普通の理科の授業よりずっとワクワクした。"
+              }
+            ],
+            [
+              {
+                "id": "kei_p3_s1",
+                "en": "Next, we all gathered in a large auditorium for the live science show.",
+                "ja": "次に，全員で大きな講堂に集まり，実演のサイエンスショーを見た。"
+              },
+              {
+                "id": "kei_p3_s2",
+                "en": "This one really impressed me and my friends alike.",
+                "ja": "このショーは私も友人たちも本当に感動した。"
+              },
+              {
+                "id": "kei_p3_s3",
+                "en": "The presenters showed us some incredible experiments, like freezing flowers with liquid nitrogen and then shattering them like glass.",
+                "ja": "実演者は液体窒素で花を凍らせてガラスのように粉々にしたりするすごい実験をいくつか見せてくれた。"
+              },
+              {
+                "id": "kei_p3_s4",
+                "en": "They also used electricity to create bright flashes of light and loud sounds that made us all jump in our seats.",
+                "ja": "また電気を使って明るい閃光と，私たち全員が席で飛び上がるほど大きな音を立てた。"
+              },
+              {
+                "id": "kei_p3_s5",
+                "en": "It felt more like something out of a magic show than a museum performance.",
+                "ja": "博物館の実演というよりマジックショーのようだった。"
+              }
+            ],
+            [
+              {
+                "id": "kei_p4_s1",
+                "en": "For some reason, the last exhibit I saw stuck in my mind.",
+                "ja": "どういうわけか，最後に見た展示が私の印象に残った。"
+              },
+              {
+                "id": "kei_p4_s2",
+                "en": "It involved rubbing your hands together over a net and you somehow couldn't feel it.",
+                "ja": "手をこすり合わせると，どういうわけで感じられないネットのようなものに触っている展示だった。"
+              },
+              {
+                "id": "kei_p4_s3",
+                "en": "It felt like touching a very soft surface.",
+                "ja": "とても柔らかいものに触っているような感覚だった。"
+              },
+              {
+                "id": "kei_p4_s4",
+                "en": "It got me thinking a lot about how the human body sends signals to the brain when we touch things.",
+                "ja": "物に触れたときに人体が脳にどのように信号を送るかについて，とても考えさせられた。"
+              },
+              {
+                "id": "kei_p4_s5",
+                "en": "By the end of the day, my friends and I were all exhausted.",
+                "ja": "その日の終わりには，友人たちも私もみんなくたくただった。"
+              },
+              {
+                "id": "kei_p4_s6",
+                "en": "Not only had we been on our feet most of the day, but we had taken in so many new experiences.",
+                "ja": "一日のほとんどを立ちっぱなしで過ごしただけでなく，これでもかというほど新しい体験を詰め込んだからだ。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "paragraph_index": 0,
+              "src": "images/science_museum_building.png",
+              "position": "float-right",
+              "alt": "Large science museum building with dome",
+              "max_width": 220
+            }
+          ]
+        },
+        {
+          "id": "kei_science_museum_coda",
+          "framed": true,
+          "paragraphs": [
+            [
+              {
+                "id": "kei_coda_s1",
+                "en": "In the end, I realized that there's so much to discover about the world around us and our bodies too.",
+                "ja": "結局，私たちの周りの世界や，私たち自身の体についても，まだまだ発見することがたくさんあると気づいた。"
+              },
+              {
+                "id": "kei_coda_s2",
+                "en": "I hope we get a chance to visit the science museum again next year!",
+                "ja": "来年もまたこの科学博物館に来られるといいなと思う。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "stem": {
+            "en": "Kei's blog post also included student comments (① ~ ④) describing the events in the museum trip. Put the comments in the order in which the events happened. [ 8 ] → [ 9 ] → [ 10 ] → [ 11 ]",
+            "ja": "ケイのブログ記事には，博物館の校外学習のできごとを描写する学生のコメント（①〜④）も載っていた。できごとが起こった順にコメントを並べよ。［8］→［9］→［10］→［11］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "At one exhibit, we could rub our hands together over a net that we could not feel. That one really shocked my friends!",
+              "ja": "ある展示では，感じられないネットの上で手をこすり合わせることができた。その展示は友人たちを本当に驚かせた！",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "I can't believe how tired we were when it was all over! We were on the move almost all day.",
+              "ja": "全部終わったときどれだけ疲れていたか信じられない！ほとんど一日中動き回っていた。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "I was really shocked when they froze the plants. The part with the liquid nitrogen was so cool!",
+              "ja": "植物を凍らせたときは本当にびっくりした。液体窒素のところはすごくかっこよかった！",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The area with the magnets really grabbed my attention. I felt like I could finally understand what the teacher had explained to us in class last week.",
+              "ja": "磁石のコーナーがいちばん目を引いた。先週先生が授業で説明してくれたことが，ようやくわかった気がした。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④→③→①→②",
+          "answer_sequence": [
+            "④",
+            "③",
+            "①",
+            "②"
+          ],
+          "explanation": {
+            "quoted_ja": "正解の順序は④→③→①→②。④は第2段落の磁石の体験，③は第3段落の液体窒素の実演，①は第4段落のネットの展示，②は第4段落後半の疲労の感想に対応する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "kei_p2_s3",
+              "kei_p3_s3",
+              "kei_p4_s2",
+              "kei_p4_s5"
+            ],
+            "instructor_note": {
+              "ja": "見学ルートは段落の先頭（Our first stop / Next / last exhibit）と，コメント中の固有名詞・話題語を対応させる。疲労や感情のコメントは時系列の末尾に置きがちなので，②を機械的に先頭にしない。",
+              "points": [
+                "最初の見学は物理学コーナー＝磁石・竜巻（④が最優先しやすい）。",
+                "次は講堂のショー＝液体窒素（③）。",
+                "「最後に見た」展示＝ネット（①）。",
+                "一日の終わりの疲れ（②）は最後。",
+                "liquid nitrogen と magnets を同一展示にしない（段落が別）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 12,
+          "stem": {
+            "sentences": [
+              {
+                "id": "kei_q2_stem",
+                "en": "During his stay at the museum, Kei did <strong><u>not</u></strong> experience [ 12 ].",
+                "ja": "博物館滞在中に，ケイは<strong><u>しなかった</u></strong>のは［12］である。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "bright flashes of light",
+              "ja": "明るい閃光",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "flowers breaking apart",
+              "ja": "粉々になる花",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "frozen magnets",
+              "ja": "凍った磁石",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "surprising loud sounds",
+              "ja": "驚くような大きな音",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。磁石の実験はあるが「凍った磁石」の記述はない。閃光・大きな音・花を凍らせて砕く様子は第3段落にある。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "kei_p3_s3",
+              "kei_p3_s4",
+              "kei_p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "NOT experience は「本文にある出来事の否定」ではなく，選択肢の語の組み合わせが本文と整合するかを見る。動詞の対象（何を凍らせたか）と名詞（磁石か花か）を分解して照合する。",
+              "points": [
+                "凍結・粉々は液体窒素の実演で花に及んでおり，磁石は別展示。frozen magnets は成立しない組み合わせ。",
+                "magnets と liquid nitrogen を混同しない。",
+                "①④は electricity の文，②は freezing flowers と対応。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "At the end of the day, Kei was curious about [ 13 ].",
+            "ja": "その日の最後に，ケイは［13］に関心を持った。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "magic tricks",
+              "ja": "手品",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "the next trip",
+              "ja": "次回の校外学習",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the world around us",
+              "ja": "自分たち人間の周りの世界",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "tornado formation",
+              "ja": "竜巻の構造",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。最終段落（In the end...）に there's so much to discover about the world around us とある。②は再来訪の希望であり「次の校外学習への関心」とは言い切れない。①は比喩表現の magic show に惑わされない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "kei_coda_s1"
+            ],
+            "instructor_note": {
+              "ja": "At the end of the day は「締めのまとめ段落」の触发語。ショーの刺激や途中の展示ではなく，結びの段落（In the end...）で気づきを述べるブロックを対象にする。",
+              "points": [
+                "world around us は選択肢③とほぼ直結。",
+                "tornado は第2段落の話で，設問の「最後の関心」とはズレる。",
+                "②の next trip は再来訪の希望であって「その日の終わりに抱いた関心」とは別レイヤー。",
+                "magic tricks は比喩の magic show に引っ張られない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "massive",
+              "ja": "巨大な"
+            },
+            {
+              "en": "interactive",
+              "ja": "双方向の，対話的な；参加・体験型の展示"
+            },
+            {
+              "en": "exhibit",
+              "ja": "展示"
+            },
+            {
+              "en": "hands-on",
+              "ja": "体験型の，実際に操作できる"
+            },
+            {
+              "en": "motion",
+              "ja": "運動"
+            },
+            {
+              "en": "tornado",
+              "ja": "竜巻"
+            },
+            {
+              "en": "demonstrate",
+              "ja": "〜を示す，〜を実演する"
+            },
+            {
+              "en": "manipulate",
+              "ja": "〜を操作する"
+            },
+            {
+              "en": "gather",
+              "ja": "集まる"
+            },
+            {
+              "en": "auditorium",
+              "ja": "講堂，ホール"
+            },
+            {
+              "en": "impress",
+              "ja": "〜を感動させる"
+            },
+            {
+              "en": "presenter",
+              "ja": "実演者"
+            },
+            {
+              "en": "liquid nitrogen",
+              "ja": "液体窒素"
+            },
+            {
+              "en": "flash",
+              "ja": "（光などの）閃光"
+            },
+            {
+              "en": "stick in one's mind",
+              "ja": "〜の印象に残る"
+            },
+            {
+              "en": "rub",
+              "ja": "（手など）をこすり合わせる"
+            },
+            {
+              "en": "signal",
+              "ja": "信号"
+            },
+            {
+              "en": "grab one's attention（問1④）",
+              "ja": "〜の注意を引く"
+            },
+            {
+              "en": "break apart（問2②）",
+              "ja": "粉々になる"
+            },
+            {
+              "en": "formation（問3④）",
+              "ja": "構造"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ添削（授業改善の提案・先生コメント）",
+      "situation": {
+        "en": "In your English class, you are writing an essay about the suggestions to improve this school. This is your most recent draft. You are now working on revisions after reading your teacher's advice.",
+        "ja": "英語の授業で，あなたはこの学校を良くするための提案についてエッセイを書いています。これはあなたの最新の草稿です。今は先生からの助言を読んだあと，推敲に取り組んでいるところです。"
+      },
+      "passages": [
+        {
+          "id": "improve_classes_essay",
+          "title": {
+            "en": "How to Improve Classes for Future Students",
+            "ja": "未来の生徒のために授業をいかに改善するか"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "imp_p1_s1",
+                "en": "I think our school is well run and offers a safe and healthy learning environment where most students are happy.",
+                "ja": "私たちの学校は適切に運営されており，安全で健全な学習環境を提供し，そこで学ぶ大半の生徒が満足していると思う。"
+              },
+              {
+                "id": "imp_p1_s2",
+                "en": "Even so, I believe learning would be more effective if some changes were made to classes and lesson structure.",
+                "ja": "とはいえ，クラスや授業の構成にいくつかの変化が加えられれば，学習は今以上に効果的になるだろう。"
+              }
+            ],
+            [
+              {
+                "id": "imp_p2_s1",
+                "en": "First, I would like the school to offer more individual learning plans.",
+                "ja": "まず，学校には，もっと個々人に合った学習計画を提供してほしい。"
+              },
+              {
+                "id": "imp_p2_s2",
+                "en": "For example, several students go to cram schools after school for the sole purpose of preparing for university entrance exams.",
+                "ja": "例えば，大学受験の準備だけを目的として放課後に塾へ通う生徒もいる。"
+              },
+              {
+                "id": "imp_p2_s3",
+                "en": "If there were intensive classes to meet individual needs here at school, it would benefit all students.",
+                "ja": "もし学校でも個々のニーズに応える集中的な授業があれば，すべての生徒に役立つだろう。",
+                "comment_marker": "(1)",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "imp_p3_s1",
+                "en": "Second, we should be able to learn in classes for ourselves.",
+                "ja": "第二に，私たちは「自分たちのための」授業の中で学べるべきだ。",
+                "comment_marker": "(2)",
+                "underline_word": "for ourselves"
+              },
+              {
+                "id": "imp_p3_s2",
+                "en": "Currently, we have classes based on ability only for math.",
+                "ja": "現在，習熟度別クラスがあるのは数学だけだ。"
+              },
+              {
+                "id": "imp_p3_s3",
+                "en": "However, if we could have discussions or do group work with students of around the same level, maybe in English, social studies and Japanese, we would feel more confident to speak up and be active in class.",
+                "ja": "しかし，英語や社会，国語でも，おおよそ同じレベルの生徒同士で話し合ったりグループ活動ができれば，発言したり授業に積極的に参加したりする自信がもっと持てるだろう。"
+              }
+            ],
+            [
+              {
+                "id": "imp_p4_s1",
+                "en": "My final point is that assignments should be tailored to suit the ability of the individual.",
+                "ja": "最後に，課題はそれぞれの能力に合わせて調整されるべきだ。"
+              },
+              {
+                "id": "imp_p4_s2",
+                "en": "In other words, I want teachers to plan lessons with easier or more difficult content, depending on individual academic achievement.",
+                "ja": "言い換えれば，教師には個人の学力に応じて，よりやさしい内容かより難しい内容かを計画してほしい。"
+              },
+              {
+                "id": "imp_p4_s3",
+                "en": "Everybody could feel more progress and motivation if the tasks were not too easy or too difficult.",
+                "ja": "課題が簡単すぎず難しすぎなければ，誰もがもっと成長実感と意欲を持てるだろう。",
+                "comment_marker": "(3)",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "imp_p5_s1",
+                "en": "Our school is already a good school in terms of academic level.",
+                "ja": "学力という点では，私たちの学校はすでにすぐれた学校だ。"
+              },
+              {
+                "id": "imp_p5_s2",
+                "en": "However, we are all individuals with strong points and weak points.",
+                "ja": "しかし，私たち一人ひとりには長所も短所もある。"
+              },
+              {
+                "id": "imp_p5_s3",
+                "en": "I feel that if there were more optional classes and students were more equal, it would be a more efficient and positive experience for all students.",
+                "ja": "選択制の授業がもっと増え，生徒同士がより対等であれば，すべての生徒にとってより効率的で前向きな経験になると感じる。",
+                "comment_marker": "(4)",
+                "underline_word": "students were more equal"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "You need more explanation. Add something here to clarify what you mean.",
+              "ja": "説明がもっと必要です。あなたの言いたいことをはっきりさせるために，ここに何か加えなさい。"
+            },
+            {
+              "marker": "(2)",
+              "en": "It is not clear what you mean. Write a better expression here.",
+              "ja": "何を言いたいのかがはっきりしません。より適切な表現を書きなさい。"
+            },
+            {
+              "marker": "(3)",
+              "en": "Add a connecting expression here.",
+              "ja": "ここに接続の表現を加えなさい。"
+            },
+            {
+              "marker": "(4)",
+              "en": "The underlined part doesn't summarize your point well. Change it.",
+              "ja": "下線部はあなたの主張を十分に要約していません。変更しなさい。"
+            }
+          ],
+          "teacher_comment": {
+            "title_en": "Overall comments:",
+            "title_ja": "総合的なコメント：",
+            "en": "You have some very interesting ideas. I like that you have thought clearly and carefully about how to improve life for all students.",
+            "ja": "とても興味深い考えがいくつもあります。すべての生徒の生活をどう改善するかについて，はっきりと慎重に考えていることが気に入りました。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on comment (1), which is the best sentence to add? [ 14 ]",
+            "ja": "コメント(1)に基づいて，付け加えるのに最も適当な文はどれか。［14］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Meanwhile, other students are having a hard time with self-study.",
+              "ja": "その一方，自学自習に苦労している生徒もいる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "On the contrary, there are students of poor level here.",
+              "ja": "反対に，ここにはレベルの低い生徒もいる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "On the other hand, teachers are not helping average students.",
+              "ja": "他方，先生たちは平均的な生徒の助けになっていない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Yet learning can be more effective through self-study.",
+              "ja": "それでも，自学自習によって学習はより効果的になるだろう。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。(1)は塾へ行く生徒の具体例のあと，個別ニーズに応える集中クラスの提案につなげる位置。受験以外のニーズや自学の苦手さを示す①が，後続の if there were intensive classes への橋渡しとして妥当。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "imp_p2_s2",
+              "imp_p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "コメント(1) が求めるのは「塾に行く具体例」と「学校側で intensive に用意すべきクラス」の間の論理的ギャップを埋める一文。受験一本の生徒だけが救われるのではなく，多様なニーズがあることをさりげなく差し込めるかが鍵。",
+              "points": [
+                "①は自学や塾以外の学び方に苦手さ・ニーズを示し，後続の if there were intensive classes here と矛盾しない橋渡しになる。",
+                "②③は教師や平均の生徒への評価が前面に出てエッセイのトーンを壊しやすい。④は自学効果を断定しすぎて後文の学校側提案とずれる。",
+                "「塾の話の直後」に置くと読みやすい位置だが，Grammatically に前後の文とつながる主語・接続にも目を通す。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on comment (2), which would be a clearer expression? [ 15 ]",
+            "ja": "コメント(2)に基づいて，より明瞭な表現はどれか。［15］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "that are made for each of us",
+              "ja": "自分たち一人一人のために作られた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "where we can study on our own",
+              "ja": "自分たちで勉強できる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "with fewer students",
+              "ja": "もっと生徒の少ない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "with students suited to our academic level",
+              "ja": "自分の学力レベルと合った生徒たちから成る",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。classes for ourselves が曖昧で，段落の主旨は数学以外でも習熟度に応じたクラスを求めること。④が ability-based classes の言い換えとして最も近い。①は次段落の個別課題と混同しやすい。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "imp_p3_s1",
+              "imp_p3_s2",
+              "imp_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "classes for ourselves が抽象的なので，後続段落が語る「習熟度・レベル・グループ」を一言で言い換える。『自分たちのため』を『自分に合った仲間と』へ具体化できる選択肢を探す。",
+              "points": [
+                "④は around the same level / ability-based の流れと整合し，数学以外の教科にも一般化できる。",
+                "②は study on our own で自学に寄り，段落が狙う分层・班会とは別方向。",
+                "③は人数のみで本文が述べていない縮小。①は次段落の個別課題 tailor と語がぶつかりやすい。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on comment (3), which would be the best expression to use? [ 16 ]",
+            "ja": "コメント(3)に基づいて，用いるのに最も適当な表現はどれか。［16］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "For a start",
+              "ja": "手始めに",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Furthermore",
+              "ja": "さらに",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "In this way",
+              "ja": "このようにして",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "On the other hand",
+              "ja": "他方",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。前句で個人の学力に応じた授業内容を述べたうえで，その結果・方法として課題の難易が適切なら動機づけが高まると続ける。In this way が「そうしたやり方なら」の接続として自然。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "imp_p4_s2",
+              "imp_p4_s3"
+            ],
+            "instructor_note": {
+              "ja": "コメント(3) は「前の政策提案と，その結果としての効果」の関係を示す接続が欲しい場面。前文が手段なら In this way / As a result 系，単なる追加なら Furthermore になるかを切り分ける。",
+              "points": [
+                "前句は個人の学力に応じた授業内容，後句はそうした設計が動機づけに与える影響。手段→帰結のつながりで③が自然。",
+                "Furthermore は「もう一つ別の提案」を足すニュアンスが強く，同じ段落内の因果の締めとしてはやや浮く。",
+                "On the other hand は対立段落が続くときに限定。For a start は列挙の冒頭向けでここでは弱い。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on comment (4), which is the best replacement? [ 17 ]",
+            "ja": "コメント(4)に基づいて，置き換えるのに最も適当なものはどれか。［17］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "students were allowed to choose classes",
+              "ja": "生徒がクラスを選べた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "students were given the same assignments",
+              "ja": "生徒に一律の課題が課された",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "students were helped in difficult classes",
+              "ja": "生徒が難しい授業で助けを得られた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "students were taught according to their level",
+              "ja": "生徒が自分のレベルに応じて授業を受けられた",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。締めの段落で optional classes と並列の内容は，個別ニーズ・習熟度別・課題調整という前文の要約であるべき。students were more equal は主旨をまとめきれない。④がレベルに応じた授業という趣旨に合致。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "imp_p2_s1",
+              "imp_p3_s3",
+              "imp_p4_s1",
+              "imp_p5_s3"
+            ],
+            "instructor_note": {
+              "ja": "結論の並列は optional classes と more equal が担う「平等・個別最適」の軸をまとめ直す語が必要。equal をそのまま英語で言い換えるより，前文で繰り返した ability / level / tailored を再注入できるか。",
+              "points": [
+                "④は taught according to their level で，個別学習計画・習熟度別クラス・課題の tailor と一本線で結べる。",
+                "②は same assignments で本文の主旨と正反対。①③はエッセイが立てていない実証なので排除しやすい。",
+                "more equal だけでは「何が平等か」が抽象的で，設問はより具体的な言い換えを求めていると心得る。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "run",
+              "ja": "〜を運営する"
+            },
+            {
+              "en": "structure",
+              "ja": "構成；仕組み"
+            },
+            {
+              "en": "individual",
+              "ja": "個人の；各自の；個人"
+            },
+            {
+              "en": "cram school",
+              "ja": "塾，予備校"
+            },
+            {
+              "en": "for the sole purpose of ~",
+              "ja": "もっぱら〜を目的として"
+            },
+            {
+              "en": "intensive",
+              "ja": "集中的な；徹底的な"
+            },
+            {
+              "en": "meet one's needs",
+              "ja": "〜のニーズを満たす"
+            },
+            {
+              "en": "benefit",
+              "ja": "〜の役に立つ；〜に利する"
+            },
+            {
+              "en": "speak up",
+              "ja": "発言する"
+            },
+            {
+              "en": "assignment",
+              "ja": "課題；宿題"
+            },
+            {
+              "en": "tailor",
+              "ja": "〜を（要求・必要などに）合わせて作る"
+            },
+            {
+              "en": "suit",
+              "ja": "〜に合う，〜に適合する"
+            },
+            {
+              "en": "depending on ~",
+              "ja": "〜次第で；〜に応じて"
+            },
+            {
+              "en": "academic",
+              "ja": "学問の；教育に関する"
+            },
+            {
+              "en": "in terms of ~",
+              "ja": "〜に関して言えば"
+            },
+            {
+              "en": "optional",
+              "ja": "選択制の"
+            },
+            {
+              "en": "have a hard time with ~（問1①）",
+              "ja": "〜で苦労する"
+            },
+            {
+              "en": "average（問1③）",
+              "ja": "普通の；平均的な"
+            },
+            {
+              "en": "according to ~（問4④）",
+              "ja": "〜に応じて；〜にしたがって"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "description": "論説文（ティーンの睡眠パターン・2つの記事）",
+      "situation": {
+        "en": "You are doing research on young people's sleep patterns. You found two articles.",
+        "ja": "あなたは若者の睡眠パターンについて研究しています。あなたは2つの記事を見つけました。"
+      },
+      "passages": [
+        {
+          "id": "sharon_jones_article",
+          "framed": true,
+          "title": {
+            "en": "<strong>Sleep Patterns among Teens</strong>",
+            "ja": "<strong>ティーンエイジャーの睡眠パターン</strong>"
+          },
+          "author": {
+            "en": "by Sharon Jones",
+            "ja": "シャロン・ジョーンズ　記"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "sj_p1_s1",
+                "en": "While sleep is important for everyone, it is particularly important for teens, whose brains go through rapid and dramatic developmental changes.",
+                "ja": "睡眠は誰にとっても重要だが，とりわけティーンエイジャーにとっては重要である。というのは，彼らの脳は急速で劇的な発育変動を経るからである。"
+              },
+              {
+                "id": "sj_p1_s2",
+                "en": "During sleep, neural connections are strengthened, and information is transferred from short-term memory to long-term memory.",
+                "ja": "睡眠中には，神経結合が強化され，情報が短期記憶から長期記憶に移される。"
+              },
+              {
+                "id": "sj_p1_s3",
+                "en": "Therefore, insufficient sleep not only makes students feel tired during the day, but it also leads to poor school performance.",
+                "ja": "したがって，睡眠不足は学生に，日中の疲労感をもたらすだけでなく，学業不振をも引き起こす。"
+              },
+              {
+                "id": "sj_p1_s4",
+                "en": "Moreover, a good night's sleep activates cells in a part of the brain which is responsible for higher-level thinking such as reasoning and decision making.",
+                "ja": "さらに，夜間によく眠ると，脳細胞の，論理的思考や意思決定といった高レベルの思考を司っている部分が活性化する。"
+              }
+            ],
+            [
+              {
+                "id": "sj_p2_s1",
+                "en": "Despite a set of research proving the benefits of sleep, most school-aged children and teenagers are not getting enough of it.",
+                "ja": "一連の研究によって睡眠の恩恵が明らかになっているにもかかわらず，大多数の学齢期の子供やティーンエイジャーは十分な睡眠をとっていない。"
+              },
+              {
+                "id": "sj_p2_s2",
+                "en": "According to a study in 2015, only 15 percent of teenagers get the eight and a half hours of sleep a night recommended by experts.",
+                "ja": "2015年のある研究によると，専門家が勧める一晩に8時間半の睡眠をとっているのは，ティーンエイジャーのうちわずか15パーセントにすぎない。"
+              },
+              {
+                "id": "sj_p2_s3",
+                "en": "The gap between the recommended sleep time and the actual sleep time on average shown in the graph reveals an alarming reality.",
+                "ja": "グラフに示されている，推奨されている睡眠時間と実際の平均的な睡眠時間との隔たりは，憂慮すべき現実を明らかにしている。"
+              }
+            ],
+            [
+              {
+                "id": "sj_p3_s1",
+                "en": "A large-scale survey found that the amount of sleep teens have been getting has been consistently decreasing.",
+                "ja": "ある大規模な調査によると，ティーンエイジャーの睡眠時間は一貫して減り続けている。"
+              },
+              {
+                "id": "sj_p3_s2",
+                "en": "In the early 1990s, about 52 percent of 15-year-olds and 36 percent of 18-year-olds reported sleeping seven hours or more per night.",
+                "ja": "1990年代の初めには，15歳の約52パーセント，18歳の36パーセントが，一晩に7時間以上寝ているという調査結果だった。"
+              },
+              {
+                "id": "sj_p3_s3",
+                "en": "However, in the survey done in 2011-2012, the figures decreased to only 43 percent and 33 percent, respectively.",
+                "ja": "しかし，2011～2012年の調査では，それぞれ43パーセント，33パーセントに減少した。"
+              }
+            ],
+            [
+              {
+                "id": "sj_p4_s1",
+                "en": "What makes the situation worse is teens' improper attitudes towards sleep.",
+                "ja": "状況を悪化させているのは，ティーンエイジャーの睡眠に対する誤った考えである。"
+              },
+              {
+                "id": "sj_p4_s2",
+                "en": "Many seem to think that it is cool to pull an all-nighter or stay up late.",
+                "ja": "彼らの多くが，徹夜をしたり夜更かしをしたりするのがかっこいいと思っているように見受けられる。"
+              },
+              {
+                "id": "sj_p4_s3",
+                "en": "Young people need to know it is not a healthy habit and learn how to break the negative cycle.",
+                "ja": "若者たちは，それが健康的な習慣ではないということを知り，悪循環を断ち切る方法を学ぶ必要がある。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "paragraph_index": 1,
+              "src": "images/sleep_gap_graph.png",
+              "position": "block",
+              "alt": "Sleep Gap graph showing recommended vs actual sleep hours by age group",
+              "caption": {
+                "en": "Sleep Gap",
+                "ja": "睡眠の隔たり"
+              },
+              "max_width": 480
+            }
+          ]
+        },
+        {
+          "id": "ethan_b_response",
+          "framed": true,
+          "title": {
+            "en": "<strong>Response to \"Sleep Patterns among Teens\"</strong>",
+            "ja": "<strong>『ティーンエイジャーの睡眠パターン』への回答</strong>"
+          },
+          "author": {
+            "en": "by Ethan B.",
+            "ja": "イーサン・B　記"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "eb_p1_s1",
+                "en": "Working as a school doctor, I have seen more and more students develop sleep-related issues over the last decade.",
+                "ja": "私は校医として，過去10年間にわたって，ますます多くの生徒が睡眠に関連する問題を抱えるのを見てきた。"
+              },
+              {
+                "id": "eb_p1_s2",
+                "en": "Students nowadays are busier with homework, extracurricular activities, and other responsibilities.",
+                "ja": "近頃の生徒は，宿題，課外活動，その他のすべきことのために，以前より忙しくなっている。"
+              },
+              {
+                "id": "eb_p1_s3",
+                "en": "Besides, they now have social media, which has them on their computer screens and smartphones late into the night.",
+                "ja": "それに加えて，今はソーシャルメディアがあり，そのために彼らは，コンピューターのスクリーンやスマートフォンに夜遅くまで向かっている。"
+              }
+            ],
+            [
+              {
+                "id": "eb_p2_s1",
+                "en": "Lack of sleep has countless negative consequences.",
+                "ja": "睡眠不足には数えきれない悪影響がある。"
+              },
+              {
+                "id": "eb_p2_s2",
+                "en": "The decline in learning abilities, as mentioned by Ms. Sharon Jones, is a serious problem.",
+                "ja": "学習能力の低下は，シャロン・ジョーンズ氏が述べた通り，深刻な問題だ。"
+              },
+              {
+                "id": "eb_p2_s3",
+                "en": "When students report having difficulties in class or getting lower grades, they often have sleep issues.",
+                "ja": "生徒が，授業についていけない，成績が下がったといった報告をしてきた時，その生徒はしばしば睡眠の問題を抱えている。"
+              },
+              {
+                "id": "eb_p2_s4",
+                "en": "But I have seen even more behavioral and psychological problems.",
+                "ja": "しかし，私は，それ以上に行動と心理に関わる諸問題を見てきた。"
+              },
+              {
+                "id": "eb_p2_s5",
+                "en": "When students do not get enough sleep, they seem to become more aggressive and have trouble getting along with their friends.",
+                "ja": "生徒は睡眠が足りないと，より攻撃的になり，友人たちとの付き合いに問題を生じさせるようだ。"
+              },
+              {
+                "id": "eb_p2_s6",
+                "en": "They also get easily stressed and anxious.",
+                "ja": "また，ストレスや不安を感じやすくなる。"
+              }
+            ],
+            [
+              {
+                "id": "eb_p3_s1",
+                "en": "Ms. Jones' article showed that while those in my students' age group need at least eight hours of sleep every night, their average night sleep is over an hour less than the recommendation.",
+                "ja": "ジョーンズ氏の記事によれば，私の診ている年齢層の生徒たちは毎晩，少なくとも8時間の睡眠が必要であるのに，平均の夜間睡眠時間はこの推奨値より1時間以上も少ないとのことだった。"
+              },
+              {
+                "id": "eb_p3_s2",
+                "en": "Parents and teachers must do a better job educating teens about the importance of sleep.",
+                "ja": "親と教師は，睡眠の重要性について，もっとよくティーンエイジャーを教育しなければならない。"
+              },
+              {
+                "id": "eb_p3_s3",
+                "en": "At the same time, we need to help our youngsters establish healthy sleep habits.",
+                "ja": "それと同時に，私たちは，若者たちが健康的な睡眠習慣を確立するのを手助けする必要がある。"
+              },
+              {
+                "id": "eb_p3_s4",
+                "en": "Setting a consistent bed time and wake-up time is the first step.",
+                "ja": "一定の就寝時刻と起床時刻をきちんと決めることが，その第一歩だ。"
+              },
+              {
+                "id": "eb_p3_s5",
+                "en": "They should also create a relaxing sleep environment: dark, cool, and quiet.",
+                "ja": "リラックスできる睡眠環境，つまり暗く，涼しくて静かな環境を整えることもすべきだ。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 18,
+          "stem": {
+            "en": "Neither Sharon Jones nor the school doctor mentions [ 18 ].",
+            "ja": "シャロン・ジョーンズも校医も言及していないのは，[ 18 ]である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "reduced safety due to a lack of sleep",
+              "ja": "睡眠不足を原因とする安全性の低下",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "the change in the amount of sleep teens get",
+              "ja": "ティーンエイジャーの睡眠時間の変化",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the effects of social media on teens' sleep",
+              "ja": "ティーンエイジャーの睡眠へのソーシャルメディアの影響",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "what happens in the brain during sleep",
+              "ja": "睡眠中に脳内で起こること",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "「述べられていないこと」を選ぶ問題。シャロン・ジョーンズの記事の第3段落で1990年代初めと2011～2012年の睡眠時間の比較がされているので，②は誤り。イーサン・Bの記事の第1段落第3文にBesides, they now have social media, which has … late into the night.（それに加えて，今はソーシャルメディアがあり，…夜遅くまで向かっている。）とあるので，③も不可。睡眠中に脳内で起こることについては，シャロン・ジョーンズの記事の第1段落第2文で，「神経結合が強化され，情報が短期記憶から長期記憶に移される」と述べられており，④も不正解。睡眠不足により安全性が低下するという話は，ここでの2つの記事では述べられていないので，①が正解となる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [],
+            "instructor_note": {
+              "ja": "「述べられていないこと」を選ぶ消去法問題。各選択肢を一つずつ本文に当てて，記述の有無を確認する。",
+              "points": [
+                "②はシャロン・ジョーンズの第3段落（1990年代→2012年の変化）で明確に述べられている。",
+                "③はイーサン・Bの第1段落第3文 social media … late into the night で言及あり。",
+                "④はシャロン・ジョーンズの第1段落第2文 neural connections … long-term memory で言及あり。",
+                "①の安全性低下はどちらの記事にも言及がない→正解。消去法は「3つ消す」ことで確信が持てる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 19,
+          "stem": {
+            "en": "The school doctor mainly sees people aged [ 19 ].",
+            "ja": "校医は主として年齢が[ 19 ]の人たちを診ている。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "6 to 10",
+              "ja": "6歳から10歳",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "11 to 12",
+              "ja": "11歳から12歳",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "13 to 14",
+              "ja": "13歳から14歳",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "15 to 17",
+              "ja": "15歳から17歳",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "記事にあるグラフを見て述べられていることだと判断できる。校医は記事の第3段落冒頭で，Ms. Jones' article showed that while those in my students' age group need at least eight hours of sleep every night, their average night sleep is over an hour less than the recommendation.（ジョーンズ氏の記事によれば，私の診ている年齢層の生徒たちは毎晩，少なくとも8時間の睡眠が必要であるのに，平均の夜間睡眠時間はこの推奨値より1時間以上も少ないとのことだった。）これは，ジョーンズ氏の記事のグラフを見ると「8～10時間の睡眠」を推奨されている年齢層が2つあるが，「13～14歳」は実睡眠時間が7.2時間で，その差が0.8時間。「15～17歳」では実睡眠時間が6.9時間で，その差は1.1時間。すなわち，④が正解となる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "eb_p3_s1"
+            ],
+            "instructor_note": {
+              "ja": "グラフの数値と本文の記述を組み合わせて判断する問題。「over an hour less」が手がかり。",
+              "points": [
+                "校医の「my students' age group」は at least eight hours の推奨＝グラフで 8-10 の帯に該当する 13-14 歳と 15-17 歳。",
+                "「over an hour less」→差が1時間超の年齢層を探す。13-14歳は差0.8時間，15-17歳は差1.1時間。",
+                "1.1時間 > 1時間なので 15-17 歳が条件を満たす→④が正解。",
+                "グラフの数値読み取りと本文の条件を組み合わせる問題は共通テスト頻出パターン。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 20,
+          "stem": {
+            "en": "According to the articles, sleep has good effects on young people's [ 20 ]. (Choose the best combination of options.)\n\na　complex thinking\nb　food choices\nc　mental health\nd　relationship with their parents",
+            "ja": "記事によると，睡眠は若者の[ 20 ]によい影響を与える。（最も適切な選択肢の組み合わせを選びなさい。）\n\na　複雑な思考\nb　食べ物の選択\nc　精神の健康\nd　親との関係"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a and b",
+              "ja": "a と b",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "a and c",
+              "ja": "a と c",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "b and c",
+              "ja": "b と c",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "b and d",
+              "ja": "b と d",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "シャロン・ジョーンズの記事の第1段落最後の文に，a good night's sleep activates cells in a part of the brain which is responsible for higher-level thinking such as reasoning and decision making（夜間によく眠ると，脳細胞の，論理的思考や意思決定といった高レベルの思考を司っている部分が活性化する）とあり，これがaに当てはまると考えられる。また，イーサン・Bの記事の第2段落の最後の2文にWhen students do not get enough sleep, they seem to become more aggressive and have trouble getting along with their friends. They also get easily stressed and anxious.（生徒は睡眠が足りないと，より攻撃的になり，友人たちとの付き合いに問題を生じさせるようだ。また，ストレスや不安を感じやすくなる。）とある。これは「睡眠不足による精神面への悪影響」で，裏を返せばcに当てはまる。2つの記事ともに，睡眠と食べ物との関係には言及がないので，bは誤り。親との関係については述べられていないので，dも不可。したがって正解の組み合わせは，②。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "sj_p1_s4",
+              "eb_p2_s5",
+              "eb_p2_s6"
+            ],
+            "instructor_note": {
+              "ja": "組み合わせ問題は，まず候補（a～d）を個別に判定してから組み合わせを選ぶ。",
+              "points": [
+                "a: higher-level thinking such as reasoning（第1段落最終文）→ complex thinking に該当。",
+                "c: aggressive, trouble getting along, stressed and anxious（第2段落末尾）→ mental health に該当。裏返し読みが必要。",
+                "b: 食べ物に関する記述は両記事ともゼロ→即除外。",
+                "d: 親の教育的役割は述べられているが，睡眠が親子関係に及ぼす影響は述べられていない→除外。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_numbers": [
+            21,
+            22
+          ],
+          "stem": {
+            "en": "Sharon Jones states that young people [ 21 ], and the school doctor states that they [ 22 ]. (Choose a different option for each box.)",
+            "ja": "シャロン・ジョーンズは若者たちが[ 21 ]と述べ，校医は若者たちが[ 22 ]と述べている。（それぞれの空欄には異なる選択肢を選ぶこと。）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "biologically tend to sleep late",
+              "ja": "生物学的に，寝るのが遅くなりがちだ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "have the higher risk of disease",
+              "ja": "病気のリスクがより高い",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "hold the wrong views on sleeping insufficiently",
+              "ja": "睡眠不足についての誤った意見を持っている",
+              "is_correct": true,
+              "slot": 21
+            },
+            {
+              "label": "④",
+              "en": "need help from adults to improve sleep",
+              "ja": "睡眠を改善するために，大人の助けが必要だ",
+              "is_correct": true,
+              "slot": 22
+            },
+            {
+              "label": "⑤",
+              "en": "tend to make quick judgments",
+              "ja": "性急に判断を下しがちだ",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "21": "③",
+            "22": "④"
+          },
+          "explanation": {
+            "quoted_ja": "シャロン・ジョーンズは第4段落第1～2文でWhat makes the situation worse is teens' improper attitudes towards sleep. Many seem to think that it is cool to pull an all-nighter or stay up late.（状況を悪化させているのは，ティーンエイジャーの睡眠に対する誤った考えである。彼らの多くが，徹夜をしたり夜更かしをしたりするのがかっこいいと思っているように見受けられる。）これを端的にまとめた③が[21]に当てはまる。[22]は，イーサン・Bの記事の第3段落第2～3文でParents and teachers must do a better job educating teens about the importance of sleep. At the same time, we need to help our youngsters establish healthy sleep habits.（親と教師は，睡眠の重要性について，もっとよくティーンエイジャーを教育しなければならない。それと同時に，私たちは，若者たちが健康的な睡眠習慣を確立するのを手助けする必要がある。）と述べており，④がこれに当てはまる。若者の夜更かしについて，生物学的な根拠があるとは述べられていないので，①は不可。健康によくないという指摘はあるが，具体的な疾病のリスクについては触れられていないので，②も正解ではない。⑤は一般的な若者論に出てきそうな意見だが，ここでの話には関係ないので不可。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "sj_p4_s1",
+              "sj_p4_s2",
+              "eb_p3_s2",
+              "eb_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "2つのスロットに異なる選択肢を入れるマルチスロット問題。各記事のまとめ段落（主張の核）を見つける。",
+              "points": [
+                "[21]: シャロン・ジョーンズ第4段落の improper attitudes / cool to pull an all-nighter → ③「誤った意見」に集約。",
+                "[22]: イーサン・B第3段落の Parents and teachers must … help our youngsters → ④「大人の助けが必要」に集約。",
+                "①の biologically は本文に根拠なし。②の disease risk は言及なし。⑤の quick judgments は reasoning の話と混同しやすいが本文と無関係。",
+                "テクニック: 各記事の結論段落にある「筆者の主張」をまず抜き出し，選択肢と照合する。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 23,
+          "stem": {
+            "en": "Based on the information from both articles, you are going to write a report for homework. The best title for your report would be \"[ 23 ].\"",
+            "ja": "あなたは両方の記事の情報に基づいて，宿題のレポートを書く。レポートに最もふさわしい題名は『[ 23 ]』であろう。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "How Poor Sleep Patterns Affect Teens",
+              "ja": "不十分な睡眠パターンはティーンエイジャーにどのような影響を与えるか",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Sleep Patterns Differ with Age",
+              "ja": "睡眠パターンは年齢によって異なる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Teens' Lifestyle Change and Reasons to Stay Up at Night",
+              "ja": "ティーンエイジャーの生活様式の変化と夜更かしをする理由",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Teens' Mysterious Brains Explained from the Viewpoint of Sleep",
+              "ja": "睡眠の観点から解き明かすティーンエイジャーの不思議な脳",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "どちらの記事も，ティーンエイジャーが概して睡眠不足であり，その状況が改善されなければならないことを訴えており，イーサン・Bの記事には，具体的な提言もある。したがって，選択肢の中では①が最もふさわしい。幼児や成年，中高年，老人の睡眠パターンについては言及がないので，②のタイトルでレポートを書くのは無理である。生活様式の変化と夜更かしの理由も付随的に述べられていることなので，③のタイトルもふさわしくない。脳の話は，あくまでも睡眠の必要性，睡眠不足の害の詳細としてふれられており，④のようなことは述べられていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [],
+            "instructor_note": {
+              "ja": "レポートの題名を選ぶ総合問題。両記事の共通テーマを捉える必要がある。",
+              "points": [
+                "両記事の共通主題は「ティーンの睡眠不足とその悪影響」→①が最も包括的。",
+                "②は年齢差の話に特化しているが，グラフは補助資料であって記事全体のテーマではない。",
+                "③の lifestyle change は付随的な話題（ソーシャルメディア等）で主題ではない。",
+                "④の brain は睡眠不足の害の詳細の一部にすぎず，「不思議な脳」は本文の主旨と異なる。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "neural connection",
+              "ja": "神経結合"
+            },
+            {
+              "en": "strengthen",
+              "ja": "〜を強くする"
+            },
+            {
+              "en": "transfer",
+              "ja": "〜を移動させる"
+            },
+            {
+              "en": "short-term memory",
+              "ja": "短期記憶"
+            },
+            {
+              "en": "long-term memory",
+              "ja": "長期記憶"
+            },
+            {
+              "en": "insufficient",
+              "ja": "不十分な；不足している"
+            },
+            {
+              "en": "consistently",
+              "ja": "一貫して"
+            },
+            {
+              "en": "respectively",
+              "ja": "それぞれ；各々"
+            },
+            {
+              "en": "improper",
+              "ja": "間違った；不適切な"
+            },
+            {
+              "en": "extracurricular activity",
+              "ja": "課外活動"
+            },
+            {
+              "en": "social media",
+              "ja": "ソーシャルメディア（インターネット上のSNS，ブログなど）"
+            },
+            {
+              "en": "negative consequence",
+              "ja": "負の結果；よくない結果"
+            },
+            {
+              "en": "behavioral",
+              "ja": "行動に関する"
+            },
+            {
+              "en": "psychological",
+              "ja": "心の；精神的な"
+            },
+            {
+              "en": "aggressive",
+              "ja": "攻撃的な"
+            },
+            {
+              "en": "consistent",
+              "ja": "一貫した；着実な"
+            },
+            {
+              "en": "問4 ① biologically",
+              "ja": "生物学的に"
+            },
+            {
+              "en": "問4 ③ insufficiently",
+              "ja": "不十分に"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 15,
+      "points_per_question": 3,
+      "description": "物語文「Grandmother's Secret Recipes」＋ Your notes",
+      "situation": {
+        "en": "You are taking part in an English reading club at school. Each student has been asked to read a short story in English, prepare notes and introduce the story to other students. You are preparing your notes now.",
+        "ja": "あなたは学校の英語読書クラブに参加しています。各生徒は，英語で短編小説を読み，メモを準備し，他の生徒に物語を紹介するように求められています。あなたは今，メモを準備しています。"
+      },
+      "passages": [
+        {
+          "id": "grandma_recipes_story",
+          "framed": true,
+          "title": {
+            "en": "<strong>Grandmother's Secret Recipes</strong>",
+            "ja": "<strong>おばあちゃんの秘密のレシピ</strong>"
+          },
+          "block_separators": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "gr_p0_s1",
+                "en": "Rosa stood in the kitchen, carefully measuring flour for their grandmother's favorite meat pie.",
+                "ja": "ローザはキッチンに立ち，祖母のお気に入りのミートパイのために小麦粉を慎重に計量していた。"
+              },
+              {
+                "id": "gr_p0_s2",
+                "en": "Her brother Marco was stirring the filling, while her sister Lisa kept looking nervously at the oven as it started to heat up.",
+                "ja": "兄のマルコは詰め物をかき混ぜ，妹のリサはオーブンが熱くなり始めるのを神経質そうに見つめていた。"
+              },
+              {
+                "id": "gr_p0_s3",
+                "en": "Then everything was ready. They placed the pie in the oven and set the timer.",
+                "ja": "そうしてすべての準備が整った。彼らはパイをオーブンに入れ，タイマーをセットした。"
+              },
+              {
+                "id": "gr_p0_s4",
+                "en": "It had been years since the three siblings were together, and it all started with a simple discovery.",
+                "ja": "３人のきょうだいが一緒にいたのは何年も前のことだったが，すべてはちょっとした発見から始まった。"
+              }
+            ],
+            [
+              {
+                "id": "gr_p1_s1",
+                "en": "As children, Rosa and Marco would ask their mother to take them and their little sister to their grandmother's house.",
+                "ja": "子供の頃，ローザとマルコは母親に，自分たちと妹を祖母の家に連れて行ってくれるよう頼んだものだった。"
+              },
+              {
+                "id": "gr_p1_s2",
+                "en": "Rosa and Marco spent these weekends cooking with their grandmother, talking and laughing.",
+                "ja": "ローザとマルコはそのような週末を祖母と料理をしたり，話したり笑ったりして過ごした。"
+              },
+              {
+                "id": "gr_p1_s3",
+                "en": "They were close in age, but Lisa, being six years younger than Rosa, rarely joined them in the kitchen.",
+                "ja": "２人は年齢が近かったが，リサはローザより６歳年下で，めったにキッチンで彼らの輪に加わらなかった。"
+              },
+              {
+                "id": "gr_p1_s4",
+                "en": "She was more interested in playing outside.",
+                "ja": "彼女は外で遊ぶことにいっそう興味があった。"
+              }
+            ],
+            [
+              {
+                "id": "gr_p2_s1",
+                "en": "As they grew older, life became busier for Rosa and Marco, but even though the visits to their grandmother's became less frequent, they always enjoyed their time together.",
+                "ja": "年をとるにつれて，ローザとマルコの生活は忙しくなったが，祖母の家を訪れる頻度は減っても，彼らはいつも一緒に過ごす時間を楽しんでいた。"
+              },
+              {
+                "id": "gr_p2_s2",
+                "en": "The two of them would be with their grandmother in the kitchen while Lisa played in the garden or watched TV.",
+                "ja": "２人は祖母と一緒にキッチンにいて，リサは庭で遊んだりテレビを見たりしていた。"
+              },
+              {
+                "id": "gr_p2_s3",
+                "en": "Then, at eighteen, Rosa got accepted at a foreign university.",
+                "ja": "その後，ローザは18歳のとき，外国の大学に合格した。"
+              },
+              {
+                "id": "gr_p2_s4",
+                "en": "They held a party at their grandmother's house and cooked together, not knowing that this would be their final gathering.",
+                "ja": "彼らは祖母の家でパーティーを開き，これが最後の集まりになるとは知らずに一緒に料理をした。"
+              },
+              {
+                "id": "gr_p2_s5",
+                "en": "Soon after Rosa left home, Lisa also started to be involved in her club activities, and it became difficult for all three to get together.",
+                "ja": "ローザが家を出るとすぐに，リサも部活に打ち込むようになり，３人全員が集まることが難しくなった。"
+              },
+              {
+                "id": "gr_p2_s6",
+                "en": "As the years passed, the three of them found jobs, and drifted apart from each other and from their grandmother.",
+                "ja": "年月が経ち，３人は就職し，次第にお互いや祖母と疎遠になっていった。"
+              }
+            ],
+            [
+              {
+                "id": "gr_p3_s1",
+                "en": "Ten years after their final cooking session, Lisa called her brother and sister with the sad news that their grandmother had passed away.",
+                "ja": "最後に一緒に料理をしてから10年後，リサは兄と姉に祖母が亡くなったという悲しい知らせを伝えるために電話をかけた。"
+              },
+              {
+                "id": "gr_p3_s2",
+                "en": "Lisa and Rosa went to the funeral, but Marco was busy with work and could not attend.",
+                "ja": "リサとローザは葬儀に行ったが，マルコは仕事で忙しく，出席できなかった。"
+              },
+              {
+                "id": "gr_p3_s3",
+                "en": "Even after the funeral, the two sisters hardly spoke to each other.",
+                "ja": "葬儀のあとも，２人の姉妹はお互いにほとんど口をきかなかった。"
+              },
+              {
+                "id": "gr_p3_s4",
+                "en": "Actually, more than five years had passed since Lisa had last met Rosa, so she didn't know what to say.",
+                "ja": "実は，リサが最後にローザに会ってから５年を超える月日が経っていたので，何を話せばよいのかわからなかった。"
+              },
+              {
+                "id": "gr_p3_s5",
+                "en": "A year later, their mother was preparing to sell their grandmother's house and asked Rosa and Lisa to clean it out for her.",
+                "ja": "１年後，母親は祖母の家を売る準備をしていて，ローザとリサに片づけを頼んだ。"
+              },
+              {
+                "id": "gr_p3_s6",
+                "en": "They agreed, but it was a sad task.",
+                "ja": "彼女たちは引き受けたが，それは悲しい仕事だった。"
+              }
+            ],
+            [
+              {
+                "id": "gr_p4_s1",
+                "en": "While sorting through items, Lisa found an old recipe book hidden behind some files.",
+                "ja": "物を整理している間に，リサはいくつかのファイルの後ろに隠れた古いレシピ本を見つけた。"
+              },
+              {
+                "id": "gr_p4_s2",
+                "en": "She held it up and called out, \"Rosa, do you remember this?\" Rosa's eyes widened as memories flooded back.",
+                "ja": "彼女はそれをかかげて，「ローザ，これ覚えてる？」と呼びかけた。ローザは思い出が押し寄せてきて，目を見開いた。"
+              },
+              {
+                "id": "gr_p4_s3",
+                "en": "They spent hours looking through the pages, reading the handwritten notes and seeing stains from old cooking sessions.",
+                "ja": "彼女たちはページに目を通し，手書きのメモを読み，昔，料理をしたときについたしみを見て数時間を過ごした。"
+              },
+              {
+                "id": "gr_p4_s4",
+                "en": "Each recipe brought back a memory.",
+                "ja": "それぞれのレシピが思い出を呼び戻した。"
+              },
+              {
+                "id": "gr_p4_s5",
+                "en": "There were notes like \"Marco's favorite\" next to the apple pie recipe or \"Rosa helped chop the vegetables today\" beside the soup recipe.",
+                "ja": "アップルパイのレシピの横には「マルコのお気に入り」，スープのレシピの横には「ローザが今日野菜を刻むのを手伝ってくれた」などのメモがあった。"
+              },
+              {
+                "id": "gr_p4_s6",
+                "en": "For Rosa, these recipes were memories of their childhood.",
+                "ja": "ローザにとって，これらのレシピは彼らの子供時代の思い出だった。"
+              },
+              {
+                "id": "gr_p4_s7",
+                "en": "For Lisa, they were a chance to connect with her grandmother and reconnect with her brother and sister.",
+                "ja": "リサにとって，それらは祖母とつながり，兄と姉と再びつながるチャンスだった。"
+              },
+              {
+                "id": "gr_p4_s8",
+                "en": "She felt a mix of regret and hope.",
+                "ja": "彼女は後悔と希望が入り混じった気持ちになった。"
+              },
+              {
+                "id": "gr_p4_s9",
+                "en": "Lisa and Rosa decided to try making some of the dishes, but they needed to invite Marco.",
+                "ja": "リサとローザはいくつかの料理を作ってみることにしたが，マルコを誘う必要があった。"
+              }
+            ],
+            [
+              {
+                "id": "gr_p5_s1",
+                "en": "Marco had just gotten home from work when the phone rang.",
+                "ja": "マルコが仕事から帰宅したちょうどそのとき，電話が鳴った。"
+              },
+              {
+                "id": "gr_p5_s2",
+                "en": "When he heard Lisa's voice, he was surprised because he hadn't heard from his sister in years.",
+                "ja": "妹からは何年も連絡がなかったので，リサの声を聞いたとき，驚いた。"
+              },
+              {
+                "id": "gr_p5_s3",
+                "en": "At first, he wasn't sure what to think.",
+                "ja": "最初，彼はどう考えればよいのかわからなかった。"
+              },
+              {
+                "id": "gr_p5_s4",
+                "en": "He had always wanted to make their grandmother's dishes but felt it might be too emotional.",
+                "ja": "彼はいつも祖母の料理を作りたいと思っていたが，それは感情的なものになりすぎるかもしれないと感じていた。"
+              },
+              {
+                "id": "gr_p5_s5",
+                "en": "It wasn't just about cooking for him; it was about remembering someone they all missed.",
+                "ja": "それは彼にとってただ料理をするというだけでなく，彼ら全員が恋しく思っている誰かを思い出すことでもあった。"
+              },
+              {
+                "id": "gr_p5_s6",
+                "en": "Lisa assured him they would do it together.",
+                "ja": "リサは，３人で一緒にやると言って，彼を安心させた。"
+              },
+              {
+                "id": "gr_p5_s7",
+                "en": "Marco thought for a moment.",
+                "ja": "マルコは少し考えた。"
+              },
+              {
+                "id": "gr_p5_s8",
+                "en": "The memories were happy but also made him feel sad because of the time they had lost, and he felt guilty about missing the funeral.",
+                "ja": "思い出は幸せなものだったが，なくした時間のために彼を悲しませるものでもあった。また彼は葬儀に行かなかったことに罪悪感も抱いていた。"
+              },
+              {
+                "id": "gr_p5_s9",
+                "en": "He knew it was important to his sisters, so he agreed to join them.",
+                "ja": "彼はそれが姉妹にとって重要であるとわかっていたので，参加することに同意した。"
+              }
+            ],
+            [
+              {
+                "id": "gr_p6_s1",
+                "en": "The smell of the meat pie baking filled the house.",
+                "ja": "ミートパイを焼く匂いが家を満たしていた。"
+              },
+              {
+                "id": "gr_p6_s2",
+                "en": "Marco and Rosa shared a look, both remembering their memories with their grandmother.",
+                "ja": "マルコとローザは，祖母との思い出を思い出しながら，顔を見合わせた。"
+              },
+              {
+                "id": "gr_p6_s3",
+                "en": "Lisa was checking the oven, tapping her fingers on the counter.",
+                "ja": "リサはカウンターを指で叩きながらオーブンをチェックしていた。"
+              },
+              {
+                "id": "gr_p6_s4",
+                "en": "\"I hope it turns out well,\" she said quietly.",
+                "ja": "「うまくいけばいいんだけど」と彼女は静かに言った。"
+              },
+              {
+                "id": "gr_p6_s5",
+                "en": "Marco tried to reassure her, saying it would be fine, but Lisa wanted everything to be perfect.",
+                "ja": "マルコは大丈夫だと言って彼女を安心させようとしたが，リサはすべてが完璧であることを望んでいた。"
+              },
+              {
+                "id": "gr_p6_s6",
+                "en": "It was the first time she had made one of their grandmother's recipes, and she felt a lot of pressure.",
+                "ja": "祖母のレシピで料理を作るのは彼女には初めてのことで，大きなプレッシャーを感じていた。"
+              },
+              {
+                "id": "gr_p6_s7",
+                "en": "For Rosa, it wasn't just about getting the taste right; it was about keeping memories and traditions alive.",
+                "ja": "ローザにとっては，それは単に正しい味にすることだけではなかった。それは，思い出と伝統を生かし続けることだった。"
+              },
+              {
+                "id": "gr_p6_s8",
+                "en": "She and Marco had learned so much from their grandmother—not just about cooking but about family.",
+                "ja": "彼女とマルコは，料理だけでなく家族についても，祖母から多くのことを学んでいた。"
+              },
+              {
+                "id": "gr_p6_s9",
+                "en": "Cooking together had been a way to keep the family close, sharing values and stories through the dishes they made.",
+                "ja": "一緒に料理をすることは，彼らが作った料理を通じて価値観や物語を共有しながら，家族の親密さを保つ方法だった。"
+              }
+            ],
+            [
+              {
+                "id": "gr_p7_s1",
+                "en": "The oven timer beeped.",
+                "ja": "オーブンのタイマーが鳴った。"
+              },
+              {
+                "id": "gr_p7_s2",
+                "en": "Taking a deep breath, Lisa opened the oven door and carefully took out the meat pie.",
+                "ja": "深呼吸をして，リサはオーブンのドアを開け，慎重にミートパイを取り出した。"
+              },
+              {
+                "id": "gr_p7_s3",
+                "en": "It looked just like the one their grandmother used to make.",
+                "ja": "それは祖母が以前作っていたものそっくりに見えた。"
+              },
+              {
+                "id": "gr_p7_s4",
+                "en": "Marco stared at the pie, thinking of old memories.",
+                "ja": "マルコはパイを見つめ，昔の思い出にふけった。"
+              },
+              {
+                "id": "gr_p7_s5",
+                "en": "Lisa was still worried about whether it tasted the same.",
+                "ja": "リサは味が同じかどうか，まだ心配だった。"
+              },
+              {
+                "id": "gr_p7_s6",
+                "en": "Rosa smiled and said, \"There's only one way to find out.\"",
+                "ja": "ローザは微笑んで，「確かめる方法はひとつしかないわ」と言った。"
+              },
+              {
+                "id": "gr_p7_s7",
+                "en": "They each took a bite.",
+                "ja": "彼らはそれぞれ一口ずつ食べた。"
+              },
+              {
+                "id": "gr_p7_s8",
+                "en": "The pie wasn't exactly like their grandmother's, but it was close enough to bring back memories, and they felt sad thinking of the years and opportunities they had lost.",
+                "ja": "そのパイは祖母のものとはまったく同じではなかったが，思い出を呼び起こすには十分で，彼らは失われた年月や機会を思って悲しみを感じた。"
+              },
+              {
+                "id": "gr_p7_s9",
+                "en": "The three of them sat in silence for a few moments.",
+                "ja": "３人はしばらくの間，沈黙して座っていた。"
+              },
+              {
+                "id": "gr_p7_s10",
+                "en": "Then Lisa's eyes filled with tears as she realized they had succeeded.",
+                "ja": "するとリサは，成功したことに気づいて目に涙をためた。"
+              },
+              {
+                "id": "gr_p7_s11",
+                "en": "She whispered, \"We did it.\" Rosa reached over to squeeze her hand, and Marco nodded, feeling a peace he hadn't felt in a long time.",
+                "ja": "彼女は「やったわ」とささやいた。ローザは手を伸ばして彼女の手を握りしめ，マルコはうなずき，久しぶりの安らぎを感じた。"
+              },
+              {
+                "id": "gr_p7_s12",
+                "en": "He suggested they should do this more often.",
+                "ja": "彼は，もっとよくこうした方がいいと提案した。"
+              },
+              {
+                "id": "gr_p7_s13",
+                "en": "Rosa agreed, seeing this as a way to keep their family traditions alive.",
+                "ja": "ローザは，家族の伝統を生かし続ける方法だと考えて同意した。"
+              },
+              {
+                "id": "gr_p7_s14",
+                "en": "For Lisa, this moment was more than just cooking; it was about being part of something she had always felt disconnected from.",
+                "ja": "リサにとって，この瞬間は料理以上のものだった。いつも疎外されていたように感じていた何かの一部になることでもあった。"
+              },
+              {
+                "id": "gr_p7_s15",
+                "en": "She finally found her place in the family tradition, realizing that it wasn't just about the recipes but about being with her siblings and honoring their grandmother's memory.",
+                "ja": "彼女はついに家族の伝統の中での自分の居場所を見いだし，大切なのはレシピだけでなく，きょうだいとともにいることや祖母の思い出を敬うことだと気づいた。"
+              },
+              {
+                "id": "gr_p7_s16",
+                "en": "From that day on, the three of them made it a habit to meet every month and cook together.",
+                "ja": "その日から，３人は毎月会って一緒に料理をすることを習慣にした。"
+              },
+              {
+                "id": "gr_p7_s17",
+                "en": "Lisa even started adding her own notes to the recipe book.",
+                "ja": "リサはレシピ本に自分のメモを加え始めた。"
+              },
+              {
+                "id": "gr_p7_s18",
+                "en": "The tradition of family cooking was preserved, keeping the memory of their grandmother alive in every dish they made.",
+                "ja": "家族で料理をする伝統は守られ，彼らが作るどの料理にも祖母の思い出が生き続けた。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "grandma_recipes_notes",
+          "presentation_outline": {
+            "label_outside_box": {
+              "en": "Your notes:",
+              "ja": "あなたのメモ："
+            },
+            "title": {
+              "en": "Grandmother's Secret Recipes",
+              "ja": "おばあちゃんの秘密のレシピ"
+            },
+            "blocks": [
+              {
+                "type": "story_outline",
+                "heading": {
+                  "en": "Story outline (adulthood)",
+                  "ja": "物語のあらすじ（成人期）"
+                },
+                "lead_en": "Rosa and Lisa attend their grandmother's funeral.",
+                "lead_ja": "ローザとリサは祖母の葬儀に参列する。",
+                "sequential_slots": [
+                  24,
+                  25,
+                  26,
+                  27
+                ],
+                "tail_en": "The siblings successfully recreate the meat pie. Lisa feels connected to her family.",
+                "tail_ja": "きょうだいはミートパイの再現に成功する。リサは家族とのつながりを感じる。"
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "About Lisa",
+                  "ja": "リサについて"
+                },
+                "bullets": [
+                  {
+                    "en": "Age when finding the recipe book: [28]",
+                    "ja": "レシピ本を見つけたときの年齢：［28］"
+                  },
+                  {
+                    "en": "The siblings' connection with her:",
+                    "ja": "きょうだいとのつながり："
+                  },
+                  {
+                    "en": "Rosa: [29].",
+                    "ja": "ローザ：［29］。"
+                  },
+                  {
+                    "en": "Marco: [30].",
+                    "ja": "マルコ：［30］。"
+                  }
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "Key moments in the story",
+                  "ja": "物語の中の重要な瞬間"
+                },
+                "bullets": [
+                  {
+                    "en": "The three of them sat in silence for a few moments.",
+                    "ja": "３人はしばらくの間，沈黙して座っていた。"
+                  },
+                  {
+                    "en": "They were quiet because they [31].",
+                    "ja": "彼らが静かだったのは［31］からである。"
+                  },
+                  {
+                    "en": "The lesson of the story is that for good family relationships, [32].",
+                    "ja": "物語の教訓は，よい家族関係のために［32］ということである。"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "stem": {
+            "en": "Choose four out of the five options (① ~ ⑤) and rearrange them in the order in which they happened. [ 24 ] → [ 25 ] → [ 26 ] → [ 27 ]",
+            "ja": "次の①〜⑤のうち４つを選び，できごとが起こった順に並べよ。［24］→［25］→［26］→［27］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Lisa finds the recipe book and shows it to Rosa.",
+              "ja": "リサがレシピ本を見つけ，ローザに見せる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Marco thinks about his memories and feels ashamed.",
+              "ja": "マルコが思い出を考え，恥ずかしさを感じる。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Rosa and Lisa read through the recipe book together.",
+              "ja": "ローザとリサが一緒にレシピ本を読み通す。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The siblings discuss how to reuse their grandmother's house.",
+              "ja": "きょうだいが祖母の家をどう再利用するか話し合う。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "The sisters decide to tell Marco about their plan.",
+              "ja": "姉妹がマルコに自分たちの計画を話すことを決める。",
+              "is_correct": true
+            }
+          ],
+          "answer": "①→③→⑤→②",
+          "answer_sequence": [
+            "①",
+            "③",
+            "⑤",
+            "②"
+          ],
+          "explanation": {
+            "quoted_ja": "正解の順序は①→③→⑤→②。①はレシピ本発見とローザへの声かけ，③は２人でページを読む場面，⑤はマルコを誘う決意と電話，②はマルコが記憶と罪悪感に向き合い参加を承諾する流れに対応する。④の家の再利用の話は本文にない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "gr_p4_s1",
+              "gr_p4_s3",
+              "gr_p4_s9",
+              "gr_p5_s8"
+            ],
+            "instructor_note": {
+              "ja": "5つから4つ選ぶ並べ替え。本文にないイベント（④）をまず除外し，発見→共有→マルコへの打診→マルコの心情と決断の順に並べる。",
+              "points": [
+                "①は while sorting / do you remember this に相当。",
+                "③は spent hours looking through the pages。",
+                "⑤は invite Marco と Lisa's phone call の前段。",
+                "②は Marco の内省と guilty / agreed に相当。",
+                "④は本文未登場で消去の目印。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 28,
+          "stem": {
+            "en": "Choose the best option for [ 28 ].",
+            "ja": "［28］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "late 10s",
+              "ja": "10代後半",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "early 20s",
+              "ja": "20代前半",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "late 20s",
+              "ja": "20代後半",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "early 30s",
+              "ja": "30代前半",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。第2段落に Lisa, being six years younger than Rosa（リサはローザより６歳年下）とあり，第3段落に at eighteen, Rosa got accepted（ローザ18歳のとき）とあるので，最後の集まりの時点でリサは12歳。第4段落に Ten years after their final cooking session（最後の料理から10年後）とあるから，祖母の死の知らせの時点でリサは22歳前後＝20代前半。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "gr_p1_s3",
+              "gr_p2_s3",
+              "gr_p3_s1"
+            ],
+            "instructor_note": {
+              "ja": "年齢推定は「年齢差」「基準年齢」「何年後」の3点を文中から拾う計算問題。",
+              "points": [
+                "6歳年下 × ローザ18歳＝リサ12歳（最後の集まり）。",
+                "＋10年で祖母死去の知らせの頃は22歳付近。",
+                "片づけ・レシピ発見はその少し後だが選択肢は early 20s が最も近い。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            29,
+            30
+          ],
+          "stem": {
+            "en": "Choose the best options for [ 29 ] and [ 30 ].",
+            "ja": "［29］と［30］に最も適当な選択肢を選びなさい。"
+          },
+          "answer": {
+            "29": "⑤",
+            "30": "①"
+          },
+          "choices_29": [
+            {
+              "label": "①",
+              "en": "Accepted the invitation though feeling uncertain and upset",
+              "ja": "不安と動揺を感じながら，誘いに応じた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Called everyone with the news of their grandmother's passing",
+              "ja": "祖母が亡くなったことを全員に電話で知らせた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Often cooked together at grandmother's house",
+              "ja": "祖母の家で頻繁に一緒に料理をした",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Opened up to Lisa at the funeral",
+              "ja": "葬儀でリサに心を開いて接した",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Reconnected while cleaning the house",
+              "ja": "家を片づけながら，交流を復活させた",
+              "is_correct": true
+            }
+          ],
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "Accepted the invitation though feeling uncertain and upset",
+              "ja": "不安と動揺を感じながら，誘いに応じた",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Called everyone with the news of their grandmother's passing",
+              "ja": "祖母が亡くなったことを全員に電話で知らせた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Often cooked together at grandmother's house",
+              "ja": "祖母の家で頻繁に一緒に料理をした",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Opened up to Lisa at the funeral",
+              "ja": "葬儀でリサに心を開いて接した",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Reconnected while cleaning the house",
+              "ja": "家を片づけながら，交流を復活させた",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "［29］正解は⑤。葬儀後は疎遠だったが，祖母の家の片づけとレシピ本を通じてローザとリサの関係が再び近づく。［30］正解は①。マルコは電話で誘われ，感情的になりそうで迷いつつも，姉妹のために参加を承諾する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "gr_p3_s3",
+              "gr_p4_s1",
+              "gr_p5_s4",
+              "gr_p5_s9"
+            ],
+            "instructor_note": {
+              "ja": "［29］はローザとの関係の「転回点」＝片づけ，［30］はマルコの電話の場面の描写に合わせる。",
+              "points": [
+                "⑤は cleaning / recipe book の共同作業で再接近。",
+                "①は wasn't sure / too emotional だが agreed の流れ。",
+                "②はリサの行為，③は幼少期のローザ・マルコ，④はマルコは葬儀不参加。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 31,
+          "stem": {
+            "en": "Choose the best option for [ 31 ].",
+            "ja": "［31］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "felt hope for their renewed relationship",
+              "ja": "新たな関係に希望を感じた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "felt regret about their years of separation",
+              "ja": "離れていた年月に後悔を感じた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "were uncertain about the attempt to reconnect",
+              "ja": "再びつながろうとする試みに確信を持てなかった",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "were worried about getting the recipe right",
+              "ja": "レシピ通りに作れるか不安だった",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。直前の文に The pie wasn't exactly like their grandmother's, but it was close enough to bring back memories, and they felt sad thinking of the years and opportunities they had lost.（パイは祖母のものとは同じではないが思い出を呼び起こすには十分で，失われた年月や機会を思って悲しみを感じた）とあり，沈黙の理由は別離の年月への後悔・感慨に結びつく。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "gr_p7_s8",
+              "gr_p7_s9"
+            ],
+            "instructor_note": {
+              "ja": "直前の一文が「沈黙」の根拠を与えるタイプ。hope はその後の涙・成功の認識で出やすいが，沈黙の瞬間は loss / sad に焦点。",
+              "points": [
+                "years and opportunities they had lost が②の根拠。",
+                "④のレシピ不安は直前より前のリサの心理に近く，三人沈黙の主因としては弱い。",
+                "①はやや先の展開に近い。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 32,
+          "stem": {
+            "en": "Choose the best option for [ 32 ].",
+            "ja": "［32］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "cooking is a great opportunity to bond",
+              "ja": "料理はきずなを作るのに絶好の機会だ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "long family traditions are the key",
+              "ja": "長い家族の伝統が鍵だ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "shared activities are more important than individual interests",
+              "ja": "共有された活動は，個人の関心よりも重要だ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "sharing values while being together is essential",
+              "ja": "一緒にいながら価値観を共有することが大切だ",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第6段落（調理中の振り返り）に Cooking together had been a way to keep the family close, sharing values and stories through the dishes they made.（一緒に料理をすることは，作った料理を通じて価値観や物語を共有しながら家族の親密さを保つ方法だった）とあり，結末の教訓も「共にいて価値観や思い出を分かち合うこと」と読める。①は料理そのものに焦点を絞りすぎ，②は伝統の存在だけが鍵とは述べられていない。③の個人の関心との対比は本文にない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "gr_p6_s9",
+              "gr_p7_s18"
+            ],
+            "instructor_note": {
+              "ja": "メッセージ問題は「料理」より「料理を通じた共有（values / stories）」を選ぶ。",
+              "points": [
+                "sharing values and stories が④の核心。",
+                "①は手段の cooking に寄りすぎ。",
+                "②の traditions alone は本文の主張と一致しない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "flour",
+              "ja": "小麦粉"
+            },
+            {
+              "en": "stir",
+              "ja": "〜をかき混ぜる"
+            },
+            {
+              "en": "filling",
+              "ja": "（パイなどの）中身・具"
+            },
+            {
+              "en": "nervously",
+              "ja": "神経質に"
+            },
+            {
+              "en": "sibling",
+              "ja": "きょうだい"
+            },
+            {
+              "en": "frequent",
+              "ja": "しばしば"
+            },
+            {
+              "en": "gathering",
+              "ja": "集まり"
+            },
+            {
+              "en": "be involved in ~",
+              "ja": "〜に打ち込んでいる"
+            },
+            {
+              "en": "drift apart",
+              "ja": "だんだんと疎遠になる"
+            },
+            {
+              "en": "pass away",
+              "ja": "亡くなる（婉曲）"
+            },
+            {
+              "en": "funeral",
+              "ja": "葬儀"
+            },
+            {
+              "en": "sort through ~",
+              "ja": "〜を仕分けて整理する"
+            },
+            {
+              "en": "flood back",
+              "ja": "〔記憶が〕よみがえる"
+            },
+            {
+              "en": "stain",
+              "ja": "しみ"
+            },
+            {
+              "en": "reconnect",
+              "ja": "再びつながる"
+            },
+            {
+              "en": "regret",
+              "ja": "後悔"
+            },
+            {
+              "en": "assure ~ (that ...)",
+              "ja": "〜に…と保証して安心させる"
+            },
+            {
+              "en": "guilty",
+              "ja": "罪悪感がある"
+            },
+            {
+              "en": "tap",
+              "ja": "（指で）軽く打つ"
+            },
+            {
+              "en": "whisper",
+              "ja": "ささやく"
+            },
+            {
+              "en": "squeeze",
+              "ja": "〜を強く握る"
+            },
+            {
+              "en": "make it a habit to do",
+              "ja": "…することを習慣にする"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 16,
+      "description": "長文読解（カーボンオフセット・プレゼンスライド）",
+      "situation": {
+        "en": "You are preparing a presentation for your science club, using the following passage from a science website.",
+        "ja": "あなたは，科学のウェブサイトからの以下の一節を使って，科学部のプレゼンテーションの準備をしています。"
+      },
+      "passages": [
+        {
+          "id": "carbon_offsets_article",
+          "framed": true,
+          "title": {
+            "en": "Carbon Offsets: Good or Bad?",
+            "ja": "カーボンオフセット：よいか悪いか"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "co_p0_s1",
+                "en": "In recent years, climate change has become a growing problem for people everywhere on the planet.",
+                "ja": "近年，気候変動は地球上のあらゆる場所に住む人々にとってますます問題になってきている。"
+              },
+              {
+                "id": "co_p0_s2",
+                "en": "Scientists are searching for new ways to protect the environment.",
+                "ja": "科学者は環境保護の新しい方法を探している。"
+              },
+              {
+                "id": "co_p0_s3",
+                "en": "In fact, innovations, like electric cars, or wind and solar power, are improving every day.",
+                "ja": "実際，電気自動車や風力・太陽光発電のようなイノベーションは日々向上している。"
+              },
+              {
+                "id": "co_p0_s4",
+                "en": "However, even with better technology, other kinds of solutions are needed.",
+                "ja": "しかし，よりよい技術をもってしても，別の種類の解決策は必要である。"
+              },
+              {
+                "id": "co_p0_s5",
+                "en": "One such solution is called carbon offset.",
+                "ja": "そのような解決策の１つにカーボンオフセットと呼ばれているものがある。"
+              }
+            ],
+            [
+              {
+                "id": "co_p1_s1",
+                "en": "Carbon offsets are actions that indirectly help reduce the amount of carbon dioxide (CO2) in the air.",
+                "ja": "カーボンオフセットは，空気中の二酸化炭素（CO2）の量を減らすのを間接的に支援するアクションである。"
+              },
+              {
+                "id": "co_p1_s2",
+                "en": "People or companies can pay for these actions to balance out the CO2 they produce.",
+                "ja": "人々や企業は，生み出したCO2を相殺するために，このアクションに向けてお金を払うことができる。"
+              },
+              {
+                "id": "co_p1_s3",
+                "en": "There are various projects, from growing plants to giving money for the development of more eco-friendly technologies.",
+                "ja": "植物を育てることからより環境に優しい技術の開発に資金を提供することまで，さまざまなプロジェクトがある。"
+              },
+              {
+                "id": "co_p1_s4",
+                "en": "For example, a company which makes smartphones can pay to plant trees.",
+                "ja": "例えば，スマートフォンを製造している企業は植樹のために資金を提供することができる。"
+              },
+              {
+                "id": "co_p1_s5",
+                "en": "First, they figure out how much CO2 they create when they make smartphones.",
+                "ja": "最初に，その企業はスマートフォンを製造するのにどれだけCO2を生み出したかを計算する。"
+              },
+              {
+                "id": "co_p1_s6",
+                "en": "Then, they pay to plant enough trees to remove that same amount of CO2 from the air.",
+                "ja": "そして，空気からそれと同量のCO2を取り除くのに十分な数の木を植えるためにお金を出すのだ。"
+              },
+              {
+                "id": "co_p1_s7",
+                "en": "In this case, the action of paying to plant the trees is the carbon offset.",
+                "ja": "この場合，植樹のためにお金を出すこの行動がカーボンオフセットである。"
+              },
+              {
+                "id": "co_p1_s8",
+                "en": "Carbon offsets do not prevent companies from producing CO2.",
+                "ja": "カーボンオフセットは，企業がCO2を生み出すのを防ぐのではない。"
+              },
+              {
+                "id": "co_p1_s9",
+                "en": "However, it is a method that can help address climate change while we work on new solutions.",
+                "ja": "しかし，新しい解決策に取り組んでいる間に，気候変動に対処するのを助けることができる方法なのである。"
+              }
+            ],
+            [
+              {
+                "id": "co_p2_s1",
+                "en": "One example of a carbon offset program is the Delta Blue Carbon project in Pakistan.",
+                "ja": "カーボンオフセットプログラムの一例は，パキスタンのデルタ・ブルー・カーボンプロジェクトである。"
+              },
+              {
+                "id": "co_p2_s2",
+                "en": "This project focuses on planting a special kind of tree, the mangrove tree.",
+                "ja": "このプロジェクトは，マングローブという特別な種類の木を植えることに焦点を当てている。"
+              },
+              {
+                "id": "co_p2_s3",
+                "en": "Mangrove trees, which grow in the area between river and sea, can take 5-10 times more carbon from the air than other types of trees.",
+                "ja": "マングローブは川と海の間の区域で成長する木で，他の種類の木の５～10倍の炭素を空気中から吸収できる。"
+              },
+              {
+                "id": "co_p2_s4",
+                "en": "One factor that enables them to do this is their rapid growth, but there is another secret.",
+                "ja": "マングローブにそれを可能にする要因の１つは，速い生長であるが，もう１つ秘訣がある。"
+              },
+              {
+                "id": "co_p2_s5",
+                "en": "The CO2 taken from the air in mangrove leaves moves to the roots, and it is trapped there within a layer of mud.",
+                "ja": "マングローブの葉が空気中から吸収するCO2は根へと移動し，泥の層の中でその場に閉じ込められるのだ。"
+              },
+              {
+                "id": "co_p2_s6",
+                "en": "Investing in environmental actions that aim to enhance this kind of CO2 processing by ocean are also called blue carbon offsets.",
+                "ja": "海によるこの種のCO2の処理を強化することを目的とした環境アクションに投資することは，ブルーカーボンオフセットとも呼ばれている。"
+              }
+            ],
+            [
+              {
+                "id": "co_p3_s1",
+                "en": "One benefit of carbon offsets is that they give us a little more time to develop new technologies.",
+                "ja": "カーボンオフセットの利点の１つは，新しい技術を開発する時間を少しだけ稼ぐことができるということである。"
+              },
+              {
+                "id": "co_p3_s2",
+                "en": "For example, airplanes still use fossil fuels.",
+                "ja": "例えば，航空機はいまだに化石燃料を使用している。"
+              },
+              {
+                "id": "co_p3_s3",
+                "en": "These fuels release a lot of CO2.",
+                "ja": "これらの燃料は大量のCO2を排出する。"
+              },
+              {
+                "id": "co_p3_s4",
+                "en": "In fact, the airline industry creates about 2.5% of all of the CO2 in our air.",
+                "ja": "実際，空気中のCO2の総量の約2.5％は航空業界が生み出している。"
+              },
+              {
+                "id": "co_p3_s5",
+                "en": "The world needs air travel, but we also need to do something about its effect on climate change.",
+                "ja": "世界は空の移動を必要としているが，その気候変動への影響に対して行動することも必要としている。"
+              },
+              {
+                "id": "co_p3_s6",
+                "en": "Until we create new technologies like electric airplanes, people and airline companies can pay for carbon offsets.",
+                "ja": "電動航空機のような新しい技術を生み出すまで，人々と航空会社はカーボンオフセットにお金を払うことができる。"
+              }
+            ],
+            [
+              {
+                "id": "co_p4_s1",
+                "en": "Carbon offsets can also benefit poor regions of the world at risk of being affected by climate change.",
+                "ja": "また，カーボンオフセットは，気候変動の影響を受けるリスクのある世界の貧困地域にも恩恵を与えられる。"
+              },
+              {
+                "id": "co_p4_s2",
+                "en": "One study has shown that about 90% of the world's poorest places depend on the forests for their needs.",
+                "ja": "ある研究によると，世界の最貧地域の約90％が，必要なものを森林に依存している。"
+              },
+              {
+                "id": "co_p4_s3",
+                "en": "Carbon offset programs can benefit these places when they protect the land and create jobs for local people.",
+                "ja": "カーボンオフセットプログラムは，土地を保護し，地元の人々の雇用を創出することで，そうした場所に利益をもたらすことができる。"
+              },
+              {
+                "id": "co_p4_s4",
+                "en": "One environmental project in Africa is protecting over 1,500 square kilometers of forest.",
+                "ja": "アフリカのある環境プロジェクトでは，1,500km²を超える森林が保護されている。"
+              },
+              {
+                "id": "co_p4_s5",
+                "en": "At the same time, it is providing jobs for over 130 people.",
+                "ja": "同時に，130人を超える人に職を提供している。"
+              }
+            ],
+            [
+              {
+                "id": "co_p5_s1",
+                "en": "While carbon offsets can be helpful, they also have some disadvantages.",
+                "ja": "カーボンオフセットは役に立ち得る一方，欠点もある。"
+              },
+              {
+                "id": "co_p5_s2",
+                "en": "One problem is that the rules concerning carbon offsets are different in different countries and regions.",
+                "ja": "問題の１つは，カーボンオフセットに関するルールが国や地域ごとに異なることである。"
+              },
+              {
+                "id": "co_p5_s3",
+                "en": "The most popular market for carbon offsets is in the European Union.",
+                "ja": "カーボンオフセットの最も盛んな市場は欧州連合にある。"
+              },
+              {
+                "id": "co_p5_s4",
+                "en": "Other markets in parts of Asia and the United States are growing.",
+                "ja": "アジアの一部やアメリカ合衆国のその他の市場が成長中である。"
+              },
+              {
+                "id": "co_p5_s5",
+                "en": "Some of these places have stricter rules than others.",
+                "ja": "これらの場所の中には，他よりもルールが厳しい場所がある。"
+              },
+              {
+                "id": "co_p5_s6",
+                "en": "This makes it difficult to understand the value of different carbon offset programs.",
+                "ja": "このことにより，異なるカーボンオフセットプログラムの価値を把握するのが難しくなっているのだ。"
+              }
+            ],
+            [
+              {
+                "id": "co_p6_s1",
+                "en": "Another problem with carbon offsets is \"greenwashing.\"",
+                "ja": "カーボンオフセットのもう１つの問題は「グリーンウォッシング」である。"
+              },
+              {
+                "id": "co_p6_s2",
+                "en": "Greenwashing is the practice of companies pretending to care about the environment.",
+                "ja": "グリーンウォッシングとは，企業が環境に配慮していることを装う行為のことである。"
+              },
+              {
+                "id": "co_p6_s3",
+                "en": "For example, one large oil company set up a carbon offset program in China.",
+                "ja": "例えば，ある巨大石油会社が中国でカーボンオフセットプログラムを立ち上げた。"
+              },
+              {
+                "id": "co_p6_s4",
+                "en": "The company said they would teach farmers how to reduce greenhouse gasses when growing rice.",
+                "ja": "その企業は，米を育てる際にどのように温室効果ガスを削減するかを農家に教えるつもりだと述べた。"
+              },
+              {
+                "id": "co_p6_s5",
+                "en": "However, in reality, many of the farmers already grew rice this way.",
+                "ja": "しかし実際には，農家の多くはすでにそのやり方で米を育てていたのだ。"
+              },
+              {
+                "id": "co_p6_s6",
+                "en": "The oil company's carbon offset program turned out to make little difference.",
+                "ja": "その石油会社のカーボンオフセットプログラムはほとんど効果がないことがわかった。"
+              },
+              {
+                "id": "co_p6_s7",
+                "en": "Thus, greenwashing could trick people into believing a company is green.",
+                "ja": "つまり，グリーンウォッシングは人々をだましてある企業が環境に優しいと信じさせる可能性があるのだ。"
+              },
+              {
+                "id": "co_p6_s8",
+                "en": "The real goal, however, should be to protect the environment.",
+                "ja": "しかし，本当の目標は環境を保護することであるべきだ。"
+              }
+            ],
+            [
+              {
+                "id": "co_p7_s1",
+                "en": "Lack of harmony between a carbon offset project and the local community is reported in Peru.",
+                "ja": "カーボンオフセットプロジェクトと地元コミュニティの協調の欠如もペルーで報告されている。"
+              },
+              {
+                "id": "co_p7_s2",
+                "en": "In this project, the local government suddenly designated some particular areas in the rainforest as protected areas, and forced the local residents there to move to other places.",
+                "ja": "このプロジェクトでは，現地政府が突然，熱帯雨林の特定の地域を保護地域として指定し，地元住民をそこから別の場所に強制転居させたのだ。"
+              },
+              {
+                "id": "co_p7_s3",
+                "en": "Some residents unexpectedly lost their farms or jobs, and not everyone thinks this is fair.",
+                "ja": "思いがけず農地や仕事を失った住民もおり，誰もがこれを公平だとは思っていない。"
+              }
+            ],
+            [
+              {
+                "id": "co_p8_s1",
+                "en": "What we have to remember is that carbon offsets are just one solution to the current situation.",
+                "ja": "覚えておかなければならないのは，カーボンオフセットは現状に対する解決策の１つにすぎないということである。"
+              },
+              {
+                "id": "co_p8_s2",
+                "en": "Some researchers argue that in reality they cancel out only a small amount of the CO2 in the air.",
+                "ja": "研究者の中には，カーボンオフセットは実際には空気中のCO2のうち少量しか相殺しないと主張する者もいる。"
+              },
+              {
+                "id": "co_p8_s3",
+                "en": "To have a better chance at slowing climate change, companies also need to use clean energy, protect forests and oceans, and create less waste.",
+                "ja": "気候変動を遅らせる可能性を高めるためには，企業はクリーンなエネルギーを使ったり，森林や海洋を保護したり，廃棄物を減らしたりする必要もある。"
+              },
+              {
+                "id": "co_p8_s4",
+                "en": "Only with bigger changes can we make the world healthy and safe for the future.",
+                "ja": "より大きな変化によってのみ，私たちは未来のために世界を健康かつ安全にできるのである。"
+              }
+            ]
+          ],
+          "presentation_image": "images/section07_presentation_slides.png"
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 33,
+          "points": 3,
+          "stem": {
+            "en": "What is the second carbon offset success in Slide 2? [ 33 ]",
+            "ja": "スライド２の２つ目のカーボンオフセットの成功は何か。［33］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "airlines in Europe",
+              "ja": "ヨーロッパの航空会社",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "cars in America",
+              "ja": "アメリカの車",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "jobs in Africa",
+              "ja": "アフリカの雇用",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "wildlife in Asia",
+              "ja": "アジアの野生生物",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。第５段落（アフリカの森林保護プロジェクト）に，130人を超える雇用を生み出しているとある。スライド２の成功例はパキスタンの次がアフリカの雇用創出である。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "co_p4_s4",
+              "co_p4_s5"
+            ],
+            "instructor_note": {
+              "ja": "スライドの「２つ目の成功」を本文の具体例と対応づける。航空会社は利点の説明に出るが「成功事例」の２番目ではない。",
+              "points": [
+                "One environmental project in Africa … jobs for over 130 people が③の根拠。",
+                "ヨーロッパの航空会社は本文に限定されない。②④は本文にない組み合わせ。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 34,
+          "points": 3,
+          "stem": {
+            "en": "Which is an <u>error</u> you found on Slide 3? [ 34 ]",
+            "ja": "スライド３で見つけた<u>誤り</u>はどれか。［34］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A（気候変動問題に向き合う１つの方法である）",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B（新しい技術が開発されるまで有用である）",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C（森林を保護する）",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D（エネルギーコストを減らす）",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E（貧しいコミュニティを支援する）",
+              "is_correct": false
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④（D）。本文ではカーボンオフセットはCO2の相殺や気候変動対策の補助，新技術ができるまでの時間の稼ぎ，貧困地域・森林保護などに触れるが，エネルギーコストを下げるとは述べていないため，スライド３の選択肢のうち誤りはD。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "co_p1_s1",
+              "co_p1_s9",
+              "co_p3_s1",
+              "co_p4_s1",
+              "co_p4_s3"
+            ],
+            "instructor_note": {
+              "ja": "「正しい記述４つ＋本文にない誤り１つ」を探すタイプ。A〜Eを段落２・４・５と照合する。",
+              "points": [
+                "A: indirectly help reduce CO2 / address climate change に対応。",
+                "B: give us a little more time to develop new technologies。",
+                "C: protect over 1,500 square kilometers of forest。",
+                "E: benefit poor regions … jobs。",
+                "D の energy cost は本文にない → 誤り。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            35,
+            36
+          ],
+          "unordered_slots": [
+            35,
+            36
+          ],
+          "points": 4,
+          "stem": {
+            "en": "Choose two options for Slide 4. (The order does not matter.) [ 35 ] · [ 36 ]",
+            "ja": "スライド４用に２つの選択肢を選びなさい。（順不同）［35］・［36］"
+          },
+          "answer": {
+            "35": "③",
+            "36": "④"
+          },
+          "choices_35": [
+            {
+              "label": "①",
+              "en": "they are available only in the northern hemisphere.",
+              "ja": "北半球でのみ利用可能である。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "they are harmful for the airline industry.",
+              "ja": "航空産業にとって有害である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "they can be used for cheating.",
+              "ja": "だますのに使われる可能性がある。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "they can cause trouble for local residents.",
+              "ja": "地元住民とのトラブルを引き起こす可能性がある。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "they pose a danger to forest animals.",
+              "ja": "森の動物に危険を引き起こす。",
+              "is_correct": false
+            }
+          ],
+          "choices_36": [
+            {
+              "label": "①",
+              "en": "they are available only in the northern hemisphere.",
+              "ja": "北半球でのみ利用可能である。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "they are harmful for the airline industry.",
+              "ja": "航空産業にとって有害である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "they can be used for cheating.",
+              "ja": "だますのに使われる可能性がある。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "they can cause trouble for local residents.",
+              "ja": "地元住民とのトラブルを引き起こす可能性がある。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "they pose a danger to forest animals.",
+              "ja": "森の動物に危険を引き起こす。",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "正解は③と④（順不同）。③はグリーンウォッシングが人々をだまして企業が環境に優しいと信じさせる可能性があることに対応。④はペルーで住民が強制転居し農地や仕事を失うなど地元との不協和に対応。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "co_p6_s1",
+              "co_p6_s7",
+              "co_p7_s1",
+              "co_p7_s3"
+            ],
+            "instructor_note": {
+              "ja": "スライド４の「欠点」２つを，グリーンウォッシングと地域トラブルの段落に結びつける。",
+              "points": [
+                "③: trick people into believing a company is green。",
+                "④: forced the local residents … lost their farms or jobs。",
+                "①②⑤は本文の主張と合致しない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 37,
+          "points": 3,
+          "stem": {
+            "en": "What can be inferred about how to improve carbon offset programs for Slide 5? [ 37 ]",
+            "ja": "スライド５のカーボンオフセットプログラムの改善方法について何が推察できるか。［37］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Carbon offset programs should focus more on developing electric cars and wind power.",
+              "ja": "カーボンオフセットプログラムは電気自動車や風力発電の開発により焦点を当てるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Carbon offset programs should provide poor farmers with the technology to produce more food.",
+              "ja": "カーボンオフセットプログラムはより多くの食糧を生産するための技術を貧しい農家に提供すべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Creating international rules would help people understand and trust the carbon offset system.",
+              "ja": "国際的なルールを作ることで，人々がカーボンオフセットの仕組みを把握し信頼する役に立つだろう。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Reducing the price of carbon offsets will lead to cleaner air for everyone.",
+              "ja": "カーボンオフセットの価格を下げることで，誰にとってもよりきれいな空気がもたらされるだろう。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。ルールが国や地域ごとに異なり，プログラムの価値を把握しにくいとあるため，国際的なルール整備が理解と信頼に結びつくと推論できる。②は中国の米の例＝グリーンウォッシングの文脈であり改善策の主答ではない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "co_p5_s2",
+              "co_p5_s6"
+            ],
+            "instructor_note": {
+              "ja": "「ルールのばらつき」段落からの推論問題。電気自動車や価格低下は本文が主張していない。",
+              "points": [
+                "difficult to understand the value of different carbon offset programs → ③。",
+                "①④は本文に根拠なし。②は別段落の例に引っ張られない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 38,
+          "points": 3,
+          "stem": {
+            "en": "Choose the most appropriate remark for Slide 6. [ 38 ]",
+            "ja": "スライド６に最適なコメントを選びなさい。［38］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Carbon offsets help companies, but they do little to help individuals reduce CO2.",
+              "ja": "カーボンオフセットは企業を助けるが，個人がCO2を削減する助けとしてはほとんど貢献しない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Carbon offsets help prevent climate change, but do not do enough by themselves.",
+              "ja": "カーボンオフセットは気候変動を防ぐのに役立つが，それのみでは十分に機能しない。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Carbon offsets require the planting of special trees, so they are too expensive.",
+              "ja": "カーボンオフセットは特別な木を植える必要があるので，高価になりすぎる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Carbon offsets should be banned in some developing countries which have native tribes.",
+              "ja": "カーボンオフセットは先住民がいるいくつかの発展途上国では禁止されるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Carbon offsets turn our interest to the great possibilities of the ocean.",
+              "ja": "カーボンオフセットによって，私たちの関心は海洋の大きな可能性に向けられている。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。最終段落に，カーボンオフセットは現状への対策の一つにすぎず，気候変動を遅らせるにはクリーンエネルギー・森林・海洋の保護・廃棄物削減などより大きな変化も必要とある。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "co_p8_s1",
+              "co_p8_s2",
+              "co_p8_s3"
+            ],
+            "instructor_note": {
+              "ja": "締めのスライドは「万能策ではない＋他策の必要性」を一言でまとめる。",
+              "points": [
+                "just one solution / cancel out only a small amount / companies also need … が②の骨格。",
+                "⑤はブルーカーボンの例に過ぎず全文のメッセージではない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "indirectly",
+              "ja": "間接的に"
+            },
+            {
+              "en": "carbon dioxide",
+              "ja": "二酸化炭素"
+            },
+            {
+              "en": "balance out ~",
+              "ja": "〜を相殺する〔つり合わせる〕"
+            },
+            {
+              "en": "figure out ~",
+              "ja": "〜を計算する"
+            },
+            {
+              "en": "trap",
+              "ja": "〜を閉じ込める"
+            },
+            {
+              "en": "layer",
+              "ja": "層"
+            },
+            {
+              "en": "mud",
+              "ja": "泥"
+            },
+            {
+              "en": "invest in ~",
+              "ja": "〜に投資する"
+            },
+            {
+              "en": "enhance",
+              "ja": "〜を強化する"
+            },
+            {
+              "en": "depend on ~",
+              "ja": "〜に依存する"
+            },
+            {
+              "en": "concerning",
+              "ja": "〜に関する"
+            },
+            {
+              "en": "pretend to do",
+              "ja": "…するふりをする"
+            },
+            {
+              "en": "trick O into doing",
+              "ja": "Oをだまして…させる"
+            },
+            {
+              "en": "designate A as B",
+              "ja": "AをBとして指定する"
+            },
+            {
+              "en": "cancel out ~",
+              "ja": "〜を相殺する"
+            },
+            {
+              "en": "wildlife",
+              "ja": "野生生物",
+              "note": "問1 ④"
+            },
+            {
+              "en": "cheat",
+              "ja": "いかさまをする",
+              "note": "問3 ③"
+            },
+            {
+              "en": "pose",
+              "ja": "〜をもたらす",
+              "note": "問3 ⑤"
+            },
+            {
+              "en": "ban",
+              "ja": "〜を禁止する",
+              "note": "問5 ④"
+            },
+            {
+              "en": "tribe",
+              "ja": "民族",
+              "note": "問5 ④"
+            },
+            {
+              "en": "turn A to B",
+              "ja": "AをBに向ける",
+              "note": "問5 ⑤"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 18,
+      "points_per_question": 0,
+      "description": "エッセイ構成（不健康食品への課税）：意見読解・立場・資料活用",
+      "situation": {
+        "en": "You are working on an essay about whether the government should put a higher tax on unhealthy food. You will follow the steps below.",
+        "ja": "あなたは，政府が不健康な食品により高い税金を課すべきかどうかについてのエッセイに取り組んでいます。あなたは以下のステップに従います。",
+        "steps": [
+          {
+            "en": "Step 1: Read and understand various viewpoints about tax on unhealthy food.",
+            "ja": "ステップ1：不健康な食品への税金に関するさまざまな観点を読み，理解する。"
+          },
+          {
+            "en": "Step 2: Take a position on putting a higher tax on unhealthy food.",
+            "ja": "ステップ2：不健康な食品により高い税金をかけることに対する自分の立場を決める。"
+          },
+          {
+            "en": "Step 3: Create an outline for an essay using additional sources.",
+            "ja": "ステップ3：追加の資料を用いてエッセイの概要を作成する。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "step1_authors",
+          "step_label": {
+            "en": "[Step 1] Read various sources",
+            "ja": "［ステップ1］さまざまな資料を読む"
+          },
+          "authors": [
+            {
+              "name": {
+                "en": "Author A (Parent)",
+                "ja": "筆者A（親）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s8_a_s1",
+                    "en": "As a parent, I'm trying to encourage my children to make the right choices as they grow up.",
+                    "ja": "親として，私は子供たちが大きくなるにつれ正しい選択をするよう働きかけようとしている。"
+                  },
+                  {
+                    "id": "s8_a_s2",
+                    "en": "Of course, I worry about their health, and I try to provide healthy food for them.",
+                    "ja": "もちろん，子供たちの健康を心配し，健康的な食品を与えようとしている。"
+                  },
+                  {
+                    "id": "s8_a_s3",
+                    "en": "However, now they are teenagers, they spend time with their friends and buy their own snacks and school lunches.",
+                    "ja": "しかし，今では子供たちはティーンエイジャーで，友だちと一緒に過ごし，軽食や学校の昼食は自分で買っている。"
+                  },
+                  {
+                    "id": "s8_a_s4",
+                    "en": "I hope that through health education at school and my positive influence, not by the effect of high taxes on the cost of food, they will learn to make good choices.",
+                    "ja": "私は，食費にかかる高い税金の影響ではなく，学校での健康教育や私からの良い影響によって，彼らが良い選択を学べることを願っている。"
+                  },
+                  {
+                    "id": "s8_a_s5",
+                    "en": "We should educate them, not try to force their decision.",
+                    "ja": "私たちは彼らを教育すべきであり，彼らの決断を強要しようとしてはならない。"
+                  },
+                  {
+                    "id": "s8_a_s6",
+                    "en": "That's why I disagree with these taxes — children should make good decisions themselves.",
+                    "ja": "だから，私はこのような税金には反対だ。子供たちは自分で良い決断をすべきである。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author B (Doctor)",
+                "ja": "筆者B（医師）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s8_b_s1",
+                    "en": "The scientific evidence shows that eating too many calories leads to poor health and shorter lives.",
+                    "ja": "科学的な証拠によれば，カロリーの摂りすぎは不健康と寿命を縮めることにつながる。"
+                  },
+                  {
+                    "id": "s8_b_s2",
+                    "en": "This puts a cost on society as well as individuals as health care costs go up.",
+                    "ja": "医療費が上がるので，このことは個人だけでなく社会にも負担をかける。"
+                  },
+                  {
+                    "id": "s8_b_s3",
+                    "en": "I believe that putting taxes on unhealthy food will help people to make better choices about their food.",
+                    "ja": "不健康な食品に税金をかけることは，人々が食品についてより良い選択をするのに役立つと私は信じている。"
+                  },
+                  {
+                    "id": "s8_b_s4",
+                    "en": "Currently, junk food is often cheaper than healthy food, and this is one reason most people buy junk food.",
+                    "ja": "現在，ジャンクフードは健康的な食品よりも安いことが多く，これがほとんどの人がジャンクフードを買う理由の一つである。"
+                  },
+                  {
+                    "id": "s8_b_s5",
+                    "en": "It is time to bring in these taxes to improve the health of the whole country and to enable us to better target diseases not caused by obesity.",
+                    "ja": "国全体の健康を向上させ，肥満に起因しない病気により的確に対処できるように，今こそこのような税金を導入すべき時なのである。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author C (Supermarket manager)",
+                "ja": "筆者C（スーパーマーケット経営者）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s8_c_s1",
+                    "en": "As a major supermarket chain, we stock a wide range of foods for people to choose from.",
+                    "ja": "大手スーパーマーケット・チェーンとして，私たちは人々が選べるように幅広い食品を仕入れている。"
+                  },
+                  {
+                    "id": "s8_c_s2",
+                    "en": "We try to keep our prices low, but many families must shop carefully to match their food budget.",
+                    "ja": "私たちは値段を安く保とうと努力しているが，多くの家庭では食費の予算に合うように注意深く買い物をしなければならない。"
+                  },
+                  {
+                    "id": "s8_c_s3",
+                    "en": "Unhealthy foods are often sold at relatively low prices, and raising the price of such foods by taxing has a larger impact on poorer people.",
+                    "ja": "不健康な食品はしばしば比較的低価格で販売されており，課税によってそのような食品の値段を上げることは，比較的貧しい人々により大きな影響を与える。"
+                  },
+                  {
+                    "id": "s8_c_s4",
+                    "en": "We provide advice and recipes for families to choose healthy options, but it should be the choice of those families.",
+                    "ja": "私たちは，家庭が健康的な選択肢を選べるようにアドバイスやレシピを提供しているが，それはその家庭の選択であるべきだ。"
+                  },
+                  {
+                    "id": "s8_c_s5",
+                    "en": "Sometimes, people want to eat sweet or high-calorie food as a treat.",
+                    "ja": "時には，人々はごほうびとしてスイーツや高カロリー食品を食べたいと思う。"
+                  },
+                  {
+                    "id": "s8_c_s6",
+                    "en": "They should have the freedom to do this.",
+                    "ja": "人々にはそうする自由があるべきだ。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author D (PE teacher)",
+                "ja": "筆者D（体育教師）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s8_d_s1",
+                    "en": "The amount of physical activity that children do goes down every year and the number of overweight children increases.",
+                    "ja": "子供たちが行う身体活動の量は毎年減少し，太りすぎの子供の数が増えている。"
+                  },
+                  {
+                    "id": "s8_d_s2",
+                    "en": "This is due to many factors.",
+                    "ja": "これは多くの要因によるものである。"
+                  },
+                  {
+                    "id": "s8_d_s3",
+                    "en": "One reason is that children spend more time playing indoors on digital devices.",
+                    "ja": "理由の一つは，子供たちがより多くの時間を室内でデジタル機器で遊んで過ごしていることである。"
+                  },
+                  {
+                    "id": "s8_d_s4",
+                    "en": "However, the main factor is that children take in more sugar than in the past, especially in soda.",
+                    "ja": "しかし，主な要因は，子供たちが昔よりも砂糖を，特に炭酸飲料で摂取するようになったことである。"
+                  },
+                  {
+                    "id": "s8_d_s5",
+                    "en": "In fact, boys between fourteen and eighteen take in more sugar than any other group.",
+                    "ja": "実際，14歳から18歳の男子は，他のどのグループよりも多くの砂糖を摂取している。"
+                  },
+                  {
+                    "id": "s8_d_s6",
+                    "en": "Sugar taxes are used in over fifty countries around the world, and these have had a positive effect on the health of children.",
+                    "ja": "砂糖税は世界の50カ国を超える国々で実施されており，これが子供たちの健康に良い影響を与えている。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author E (Student)",
+                "ja": "筆者E（学生）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s8_e_s1",
+                    "en": "We recently studied this, and we found that taxes on unhealthy food can have a positive effect.",
+                    "ja": "私たちは最近このことを研究し，不健康な食品に税金をかけると良い効果があることがわかった。"
+                  },
+                  {
+                    "id": "s8_e_s2",
+                    "en": "It is difficult to just raise taxes on \"unhealthy food,\" but taxes on sugar in some countries have been effective.",
+                    "ja": "「不健康な食品」に対してだけ増税するのは難しいが，いくつかの国では砂糖に対する課税が効果を上げている。"
+                  },
+                  {
+                    "id": "s8_e_s3",
+                    "en": "One reason was that people started buying low-sugar options (for example, diet sodas, or low sugar snacks).",
+                    "ja": "一つの理由は，人々が低糖の選択肢（例えば，ダイエット炭酸飲料や低糖の軽食）を買うようになったことである。"
+                  },
+                  {
+                    "id": "s8_e_s4",
+                    "en": "However, the biggest effect was on the manufacturers.",
+                    "ja": "しかし，最大の効果は製造業者にあった。"
+                  },
+                  {
+                    "id": "s8_e_s5",
+                    "en": "Many food producers in these countries changed the recipes of their original products.",
+                    "ja": "これらの国の多くの食品製造業者は，自社製品のレシピを変更した。"
+                  },
+                  {
+                    "id": "s8_e_s6",
+                    "en": "This helped them to sell a product that was healthier for customers.",
+                    "ja": "これにより，顧客にとってより健康的な製品を販売する助けになった。"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "step2_position",
+          "step_label": {
+            "en": "[Step 2] Take a position",
+            "ja": "［ステップ2］立場を決める"
+          },
+          "position": {
+            "title": {
+              "en": "Your position: The government should not put a higher tax on unhealthy food.",
+              "ja": "あなたの立場：政府は不健康な食品により高い税金をかけるべきではない。"
+            },
+            "bullets": [
+              {
+                "en": "Authors [41] and [42] support your position.",
+                "ja": "筆者［41］と［42］はあなたの立場をサポートする。"
+              },
+              {
+                "en": "The main argument of the two authors: [43].",
+                "ja": "２人の筆者の主な論拠：［43］。"
+              }
+            ]
+          }
+        },
+        {
+          "id": "step3_sources_outline",
+          "step_label": {
+            "en": "[Step 3] Create an outline using Sources A and B",
+            "ja": "［ステップ3］資料AとBを用いて概要を作成する"
+          },
+          "sources": [
+            {
+              "name": {
+                "en": "Source A",
+                "ja": "資料A"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s8_sa_s1",
+                    "en": "While increasing the cost of unhealthy foods through taxes can force customers to change their shopping and eating habits, it is not the only way.",
+                    "ja": "税金をかけて不健康な食品の価格を上げることで，顧客に買い物や食生活の習慣を変えるように強いることはできるが，それが唯一の方法ではない。"
+                  },
+                  {
+                    "id": "s8_sa_s2",
+                    "en": "Rather than charging more for junk food, it is better to motivate people to change through reducing the cost of healthy options and by giving rewards.",
+                    "ja": "ジャンクフードの価格を高くするよりも，健康的な選択肢の価格を下げたり，ごほうびを与えたりすることで，人々に変わろうという気を起こさせる方がよい。"
+                  },
+                  {
+                    "id": "s8_sa_s3",
+                    "en": "Governments could help to lower the cost of fruits and vegetables by paying some of the cost themselves.",
+                    "ja": "政府は果物や野菜の価格を下げる助けとして，その費用の一部を自分たちで負担することもできる。"
+                  },
+                  {
+                    "id": "s8_sa_s4",
+                    "en": "At first, this seems expensive, but it is not so.",
+                    "ja": "最初はこれは高価に思えるが，そうではない。"
+                  },
+                  {
+                    "id": "s8_sa_s5",
+                    "en": "As the population eats healthier food, fewer people become sick because of bad diet.",
+                    "ja": "人口がより健康的な食品を食べるようになると，悪い食生活のために病気になる人は少なくなる。"
+                  },
+                  {
+                    "id": "s8_sa_s6",
+                    "en": "As a result, the government may even save money.",
+                    "ja": "その結果，政府はかえって節約できるかもしれない。"
+                  },
+                  {
+                    "id": "s8_sa_s7",
+                    "en": "Another method of encouraging healthy eating is by giving rewards.",
+                    "ja": "健康的な食生活を奨励するもう一つの方法は，ごほうびを与えることである。"
+                  },
+                  {
+                    "id": "s8_sa_s8",
+                    "en": "Supermarkets in some countries give a free piece of fruit to children who come shopping with their parents.",
+                    "ja": "いくつかの国のスーパーマーケットは，親と一緒に買い物に来た子供に無料で果物を一片あげている。"
+                  },
+                  {
+                    "id": "s8_sa_s9",
+                    "en": "It is fun for the child to choose different fruit rewards, and a survey showed that this helped to motivate children to eat more fruit instead of chocolates and cookies.",
+                    "ja": "子供にとってさまざまな果物のごほうびを選ぶのは楽しく，ある調査では，これが子供たちがチョコレートやクッキーの代わりにより多くの果物を食べる動機づけになることが示された。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Source B",
+                "ja": "資料B"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "s8_sb_s1",
+                    "en": "A US survey showed the percentages of adults in different income groups who responded that they consume sugary drinks more than 2 times daily.",
+                    "ja": "米国のある調査で，所得層別に，砂糖入り飲料を毎日２回よりも多く飲むと答えた成人の割合が示された。"
+                  },
+                  {
+                    "id": "s8_sb_s2",
+                    "en": "The survey clearly shows that there is a relation between the percentages of people who take in sweetened drinks and their income levels.",
+                    "ja": "この調査は，甘い飲み物を摂取する人の割合と所得水準との間に関係があることを明確に示している。"
+                  }
+                ]
+              ],
+              "graph_image": {
+                "src": "images/section08_source_b_chart.png",
+                "alt": "Sugar-Sweetened Beverage Consumption by Income",
+                "after_paragraph": 1
+              }
+            }
+          ],
+          "outline": {
+            "title": {
+              "en": "Outline of your essay:",
+              "ja": "あなたのエッセイの概要："
+            },
+            "sections": [
+              {
+                "label": {
+                  "en": "Putting a higher tax on unhealthy food is not a good idea",
+                  "ja": "不健康な食品により高い税金をかけるのは良い案ではない"
+                },
+                "content": {
+                  "en": "",
+                  "ja": ""
+                }
+              },
+              {
+                "label": {
+                  "en": "Introduction",
+                  "ja": "導入"
+                },
+                "content": {
+                  "en": "While a number of countries have increased taxes on unhealthy food or food with a high sugar content, this is not the best way to encourage healthy eating.",
+                  "ja": "多くの国が不健康な食品や糖分を多く含む食品への税を引き上げているが，これは健康的な食生活を奨励する最善の方法ではない。"
+                }
+              },
+              {
+                "label": {
+                  "en": "Body",
+                  "ja": "本論"
+                },
+                "reasons": [
+                  {
+                    "label": "Reason 1",
+                    "text": {
+                      "en": "[From Step 2]",
+                      "ja": "［ステップ2から］"
+                    }
+                  },
+                  {
+                    "label": "Reason 2",
+                    "text": {
+                      "en": "[Based on Source A] [44]",
+                      "ja": "［資料Aに基づいて］［44］"
+                    }
+                  },
+                  {
+                    "label": "Reason 3",
+                    "text": {
+                      "en": "[Based on evidence ( [45] ) from Source B]",
+                      "ja": "［資料Bからの論拠（［45］）に基づいて］"
+                    }
+                  }
+                ]
+              },
+              {
+                "label": {
+                  "en": "Conclusion",
+                  "ja": "結論"
+                },
+                "content": {
+                  "en": "The government should not put a higher tax on unhealthy food.",
+                  "ja": "政府は不健康な食品により高い税金をかけるべきではない。"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 39,
+          "points": 3,
+          "stem": {
+            "en": "Both Authors B and C mention that [ 39 ].",
+            "ja": "筆者BとCはともに［39］と言及している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "poorer people are usually too busy to try to cook healthier food recipes",
+              "ja": "より貧しい人々はたいてい忙しすぎて，より健康的な料理のレシピを試してみることができない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "raising prices of unhealthy food will mean that poorer people can be healthier",
+              "ja": "不健康な食品の価格を上げることは，より貧しい人々がより健康になり得ることを意味するだろう",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "reducing the calories people consume will lead to a reduction in the cost to society",
+              "ja": "人々が摂取するカロリーを減らすことは，社会的コストを減らすことになる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "unhealthy food is generally bought at a lower cost than healthy alternatives",
+              "ja": "一般的に，不健康な食品は健康的な選択肢よりも低価格で購入される",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。筆者Bは junk food is often cheaper than healthy food と述べ，筆者Cは Unhealthy foods are often sold at relatively low prices と述べており，両者が共通して触れているのは「不健康な食品の方が健康的な選択肢より安く買われやすい」ことである。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "s8_b_s4",
+              "s8_c_s3"
+            ],
+            "instructor_note": {
+              "ja": "二人の筆者の本文を照合し，語句が違っても内容が重なる選択肢を選ぶ。",
+              "points": [
+                "Bの第4文とCの第3文が④の根拠。",
+                "③はBに近いがCは述べていない。①②は本文にない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 40,
+          "points": 3,
+          "stem": {
+            "en": "Author E implies that [ 40 ].",
+            "ja": "筆者Eは［40］と示唆している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "companies reduce the cost of producing their low-calorie products in order to make more profit",
+              "ja": "企業はより多くの利益を得るために，低カロリー製品の生産コストを下げる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "manufacturers in high-tax countries try to move from their original locations",
+              "ja": "高税国の製造業者は，もとの立地から移転しようとする",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "putting a tax on junk food has had a positive effect in nearly every case that was tested",
+              "ja": "ジャンクフードへの課税は，試されたほぼすべての事例で良い効果を上げている",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "putting taxes on the sugar content of drinks leads the manufacturers to produce healthier products",
+              "ja": "飲料の糖分に課税することで，製造業者はより健康的な製品を製造するようになる",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。筆者Eは後半で，多くの食品製造業者が製品のレシピを変更し，顧客により健康的な製品を売る助けになったと述べており，砂糖課税が製造側の改良につながったことを示唆する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "s8_e_s4",
+              "s8_e_s5",
+              "s8_e_s6"
+            ],
+            "instructor_note": {
+              "ja": "imply 問題は，最も強く示唆される帰結を選ぶ。③の「ほぼすべて」は言い過ぎ。",
+              "points": [
+                "the biggest effect was on the manufacturers / changed the recipes が核心。",
+                "①②は本文にない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "step": 2,
+          "points": 4,
+          "points_note": "［41］〜［43］はすべて正解で得点。［41］［42］は順不同。",
+          "pre_header": {
+            "en": "[Step 2] Take a position",
+            "ja": "［ステップ2］立場を決める"
+          },
+          "answer_numbers": [
+            41,
+            42,
+            43
+          ],
+          "unordered_slots": [
+            41,
+            42
+          ],
+          "stem": {
+            "en": "Now that you understand the various viewpoints, you have taken a position on putting a higher tax on unhealthy food, and have written it out as below. Choose the best options to complete [41] - [43]. (You must have **all** of [41] - [43] correct to get points.)",
+            "ja": "さまざまな観点を理解したうえで，不健康な食品により高い税金をかけることについて立場を決め，以下のように書き出しました。［41］〜［43］を完成させるのに最も適した選択肢を選びなさい。（得点するには［41］〜［43］の**すべて**に正解する必要があります。）"
+          },
+          "position_box": {
+            "en": "Your position: The government should not put a higher tax on unhealthy food.\n  ● Authors [41] and [42] support your position.\n  ● The main argument of the two authors: [43].",
+            "ja": "あなたの立場：政府は不健康な食品により高い税金をかけるべきではない。\n  ●筆者［41］と［42］はあなたの立場をサポートする。\n  ●２人の筆者の主な論拠：［43］。"
+          },
+          "choices_41": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "choices_43": [
+            {
+              "label": "①",
+              "en": "Choosing a diet that is healthy through education is the strongest way to make changes",
+              "ja": "教育を通じて健康的な食生活を選択することは，変化をもたらす最も有力な方法である",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Discussing healthy food in class helps to make a balance between healthy and unhealthy menus",
+              "ja": "健康的な食品について授業で話し合うことが，健康的なメニューと不健康なメニューのバランスをとる助けになる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Parents should be educated so that they provide healthy food for their children",
+              "ja": "健康的な食事を子供に与えられるよう，保護者が教育されるべきである",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "People should be able to choose what to eat according to their own decisions",
+              "ja": "人々は自分の決断で食べるものを選択できるべきである",
+              "is_correct": true
+            }
+          ],
+          "answer": {
+            "41": "①",
+            "42": "③",
+            "43": "④"
+          },
+          "answer_note": "［41］と［42］には A（①）と C（③）が順不同で入る。",
+          "explanation": {
+            "quoted_ja": "正解は［41］［42］が①と③（順不同），［43］が④。立場は課税反対なので，反対派のAとCを選ぶ。［43］はAの教育・強制しない・自分で決めることと，Cの選択の自由が共通する④が最適。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "s8_a_s5",
+              "s8_a_s6",
+              "s8_c_s6"
+            ],
+            "instructor_note": {
+              "ja": "第2回大問8と同型。立場文に合う筆者の組と，二人の共通論点を一つにまとめる。",
+              "points": [
+                "B・D・Eは賛成側なので［41］［42］から除外。",
+                "④は force / freedom の対応でA・Cの合流点。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 44,
+          "points": 4,
+          "stem": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [ 44 ]",
+            "ja": "資料Aに基づき，理由2として最適なものは次のうちどれか。［44］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Allowing children to choose the food that the family will eat can motivate parents to make better choices.",
+              "ja": "子供に家族が食べる食品を選ばせることは，親がより良い選択をする動機付けになり得る。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Focusing on reducing health costs is an effective way of motivating people to change their unhealthy diets.",
+              "ja": "医療費の削減に焦点をあてることは，人々に不健康な食生活を変えるよう動機付ける効果的な方法である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Giving people free choice while at the same time offering a positive reason to choose healthy food is the best strategy.",
+              "ja": "人々に自由な選択を与えると同時に，健康的な食品を選ぶ積極的な理由を提供することが最良の戦略である。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "If some healthy food is given for free and unhealthy food is made more expensive, people will choose a healthier diet.",
+              "ja": "健康的な食品が無料でいくらか提供され，不健康な食品がより高価になれば，人々はより健康的な食生活を選ぶだろう。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。資料A第2文に，ジャンクフードを高くするのではなく，健康な選択肢のコストを下げたりごほうびを与えたりして動機付ける方がよいとあり，自由を保ちつつ健康的選択へのポジティブな動機＝③の趣旨に合致する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "s8_sa_s1",
+              "s8_sa_s2"
+            ],
+            "instructor_note": {
+              "ja": "理由2は「課税以外の奨励策」。Rather than … it is better to motivate … が核心。",
+              "points": [
+                "④は不健康側の値上げを含み，資料Aの主張とずれる。",
+                "①の親への動機づけは本文の焦点ではない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 45,
+          "points": 4,
+          "stem": {
+            "en": "For Reason 3, you have decided to write, \"Putting higher taxes on unhealthy food has a negative influence on the poorer people in society.\" Based on Source B, which option best supports this statement? [ 45 ]",
+            "ja": "理由３として，あなたは「不健康な食品により高い税金をかけることは，社会のより貧しい人々に悪影響を及ぼす。」と書くことにした。資料Bに基づき，この意見を最もよくサポートする選択肢はどれか。［45］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Higher taxes on sugar-sweetened drinks will lead to fewer people drinking them. This will in the end require another way for the government to earn money.",
+              "ja": "加糖飲料への税の引き上げは，加糖飲料を飲む人の減少につながる。これは結局，政府がお金を稼ぐ別の方法を必要とすることになる。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "More than 90% of the people in the highest income group don't consume sweetened drinks more than twice a day. This shows that richer people don't pay more tax.",
+              "ja": "最高所得層の90%を超える人が，1日に2回よりも多くは甘い飲料を飲まない。これは富裕層が税金をより多く払っていないことを示している。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The percentage of people who consume sugary drinks more than twice a day is the largest in the lowest income group. The proportion of income spent on these drinks will increase more for this group than for other groups.",
+              "ja": "砂糖入り飲料を1日2回よりも多く消費する人の割合は，最低所得層で最も多い。これらの飲料に費やす収入の割合は，他のグループよりもこのグループの方が増加するだろう。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The percentage of those in the highest income group who drink sugary drinks more than twice a day is less than half that of the lowest income group. It could be said that poorer people tend to have more health problems.",
+              "ja": "最高所得層で，1日に2回よりも多く砂糖入り飲料を飲む人の割合は，最低所得層の割合の半分より少ない。より貧しい人々はより多くの健康問題を抱えている傾向があると言える。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。グラフでは低所得層ほど加糖飲料を多飲する割合が高い。所得が少ないのに多く飲むため，課税で価格が上がれば，その飲料に費やす所得の割合の増加は低所得層で最大となり，貧しい人への悪影響を支える。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第4回 解説冊子",
+            "evidence_sentences": [
+              "s8_sb_s1",
+              "s8_sb_s2"
+            ],
+            "instructor_note": {
+              "ja": "資料Bは「所得と多飲の関係」。論旨は負担の累進性をグラフから読む。",
+              "points": [
+                "④の健康問題まではグラフから言えない。",
+                "②の納税額は資料外。①の税収目的も本文にない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "evidence",
+              "ja": "証拠"
+            },
+            {
+              "en": "currently",
+              "ja": "現在"
+            },
+            {
+              "en": "junk food",
+              "ja": "ジャンクフード（高カロリー低栄養の食品）"
+            },
+            {
+              "en": "bring in ~",
+              "ja": "〜を導入する"
+            },
+            {
+              "en": "obesity",
+              "ja": "肥満"
+            },
+            {
+              "en": "a wide range of ~",
+              "ja": "幅広い〜；さまざまな〜"
+            },
+            {
+              "en": "budget",
+              "ja": "予算"
+            },
+            {
+              "en": "relatively",
+              "ja": "比較的"
+            },
+            {
+              "en": "have an impact on ~",
+              "ja": "〜に影響を与える"
+            },
+            {
+              "en": "treat",
+              "ja": "ごほうび"
+            },
+            {
+              "en": "physical activity",
+              "ja": "身体活動"
+            },
+            {
+              "en": "overweight",
+              "ja": "太りすぎの"
+            },
+            {
+              "en": "factor",
+              "ja": "要因"
+            },
+            {
+              "en": "device",
+              "ja": "機器"
+            },
+            {
+              "en": "manufacturer",
+              "ja": "製造業者"
+            },
+            {
+              "en": "sugar content",
+              "ja": "糖含量；糖度"
+            },
+            {
+              "en": "motivate ~ to do",
+              "ja": "〜に…するよう動機付ける"
+            },
+            {
+              "en": "income",
+              "ja": "所得"
+            },
+            {
+              "en": "sugary",
+              "ja": "砂糖の入った"
+            },
+            {
+              "en": "consume",
+              "ja": "〜を消費する；摂取する",
+              "note": "問1 ③"
+            },
+            {
+              "en": "alternative",
+              "ja": "代替品；選択肢",
+              "note": "問1 ④"
+            },
+            {
+              "en": "profit",
+              "ja": "利益",
+              "note": "問2 ①"
+            },
+            {
+              "en": "focus on ~",
+              "ja": "〜に焦点をあてる",
+              "note": "問4 ②"
+            },
+            {
+              "en": "strategy",
+              "ja": "戦略",
+              "note": "問4 ③"
+            },
+            {
+              "en": "proportion",
+              "ja": "割合",
+              "note": "問5 ③"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

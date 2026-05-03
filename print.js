@@ -7,6 +7,12 @@
  */
 
 const EXAM_PATHS = {
+  zkai_2026_01: 'data/zkai/2026/round01/data.json',
+  zkai_2026_02: 'data/zkai/2026/round02/data.json',
+  zkai_2026_03: 'data/zkai/2026/round03/data.json',
+  zkai_2026_04: 'data/zkai/2026/round04/data.json',
+  zkai_2026_05: 'data/zkai/2026/round05/data.json',
+  zkai_2026_06: 'data/zkai/2026/round06/data.json',
   sundai_2026_01: 'data/sundai/2026/round01/data.json',
   sundai_2026_02: 'data/sundai/2026/round02/data.json',
   sundai_2026_03: 'data/sundai/2026/round03/data.json',

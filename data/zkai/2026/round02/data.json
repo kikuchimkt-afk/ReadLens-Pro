@@ -1,0 +1,4971 @@
+{
+  "exam_info": {
+    "title": "Z会 共通テスト実戦模試2026年 第2回",
+    "publisher": "Z会",
+    "year": 2026,
+    "round": 2,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 49,
+    "implemented_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source_pdf_mondai": "第2回_問題.pdf",
+    "source_pdf_kaitou": "第2回_解説.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（パンフレット）",
+      "situation": {
+        "en": "You are interested in starting a local community book exchange. You found this helpful guide.",
+        "ja": "あなたは地域の本の交換所〔町の本棚〕を始めることに興味があります。次の役に立つガイドを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "pamphlet_header",
+          "title": {
+            "en": "Starting a Local Community Book Exchange",
+            "ja": "町の本棚を始める"
+          },
+          "subtitle": {
+            "en": "Promote reading and make new friends in your local community!",
+            "ja": "読書を広め，地域で新しい友達を作ろう！"
+          },
+          "sentences": [
+            {
+              "id": "hdr_s1",
+              "en": "Starting a Local Community Book Exchange",
+              "ja": "町の本棚を始める",
+              "role": "title"
+            },
+            {
+              "id": "hdr_s2",
+              "en": "Promote reading and make new friends in your local community!",
+              "ja": "読書を広め，地域で新しい友達を作ろう！",
+              "role": "subtitle"
+            }
+          ]
+        },
+        {
+          "id": "section1_location",
+          "title": {
+            "en": "1. Choose a location",
+            "ja": "1. 場所を選ぶ"
+          },
+          "image": {
+            "src": "data/zkai/2026/round02/images/q01_community_center_park.png",
+            "alt": "community center, park",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "loc_s1",
+              "en": "Pick a place that people can easily access.",
+              "ja": "人々がアクセスしやすい場所を選びましょう。"
+            },
+            {
+              "id": "loc_s2",
+              "en": "A small outdoor shelf near your home, in a community centre, or in a park are good options.",
+              "ja": "外に小さな棚を置きます。自宅の近く，コミュニティセンター，公園などがよい選択肢です。"
+            }
+          ]
+        },
+        {
+          "id": "section2_setup",
+          "title": {
+            "en": "2. Gather books and set up the exchange",
+            "ja": "2. 本を集めて交換所を設置する"
+          },
+          "image": {
+            "src": "data/zkai/2026/round02/images/q01_decorating_shelf.png",
+            "alt": "decorating the shelf",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "setup_s1",
+              "en": "To make the exchange a success, there need to be some interesting books that people will want to read.",
+              "ja": "交換所を成功させるには，人々が読みたくなるような面白い本が必要です。"
+            },
+            {
+              "id": "setup_s2",
+              "en": "You can contribute books from your own collection or ask friends for their old books.",
+              "ja": "自分の蔵書から本を寄贈したり，友人に古い本を頼んだりするとよいでしょう。"
+            },
+            {
+              "id": "setup_s3",
+              "en": "Decorate the shelf so that it looks welcoming and interesting.",
+              "ja": "親しみやすく，興味をそそるように棚を飾ります。"
+            },
+            {
+              "id": "setup_s4",
+              "en": "This will make people want to participate.",
+              "ja": "そうすれば人々が参加したくなるでしょう。"
+            }
+          ]
+        },
+        {
+          "id": "section3_maintain",
+          "title": {
+            "en": "3. Maintain the exchange",
+            "ja": "3. 交換所を維持する"
+          },
+          "image": {
+            "src": "data/zkai/2026/round02/images/q01_maintain_bookshelf.png",
+            "alt": "maintained bookshelf with door and light",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "maint_s1",
+              "en": "Make sure the shelf has a roof and a door so that it is protected from bad weather.",
+              "ja": "悪天候から守るため，棚には屋根とドアを必ずつけましょう。"
+            },
+            {
+              "id": "maint_s2",
+              "en": "A lock would be a mistake since we want people to use it freely.",
+              "ja": "人々にそれを自由に使ってもらいたいので鍵はいけません。"
+            },
+            {
+              "id": "maint_s3",
+              "en": "Most shelves should be full, but you need a little room for people to add new books.",
+              "ja": "ほとんどの棚はいっぱいになっている方がよいのですが，誰かが新しい本を追加できるスペースは少し必要です。"
+            },
+            {
+              "id": "maint_s4",
+              "en": "There should be a sign explaining the process, and if possible, you should install a light that comes on automatically at night.",
+              "ja": "手順を説明する看板が必要で，可能であれば，夜間に自動的に点灯するライトを設置した方がいいです。"
+            },
+            {
+              "id": "maint_s5",
+              "en": "Some people like to leave a notepad for users to leave messages.",
+              "ja": "利用者がメッセージを残せるようメモ帳を置くのを好む人もいます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "The people most likely to benefit from this guide are [1].",
+            "ja": "「このガイドが役に立つ可能性が最も高い人々は[1]である。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "bookstore owners who hope to make people interested in reading",
+              "ja": "「読書に興味を持ってもらいたいと願う書店の店主」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "library workers who want to attract new users",
+              "ja": "「新規利用者を呼び込みたい図書館員」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "people who enjoy building things with their friends",
+              "ja": "「友達とものづくりを楽しむ人々」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "residents who want to share books in their community",
+              "ja": "「自分の地域で本を共有したい住民」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "タイトルの下に Promote reading and make new friends in your local community!（読書を広め，地元で新しい友達を作ろう!）とあり，ガイドの1と2の項目で説明されている内容からa Local Community Book Exchangeとは，近所に小さい本棚を設置して人々が自由に本を交換する仕組みだということがわかる。これを新たに始めてみたいと思いそうな人は①の「書店の店主」や②の「図書館員」ではなく，家の近くで本を交換する場所を設けたい一般の人だと考えられるので④が正解。本棚を飾ったり，ライトをつけたりすることが勧められているが，その目的は棚の制作ではなく，交換を成功させるためのものなので③も誤り。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "hdr_s2",
+              "loc_s1",
+              "loc_s2"
+            ],
+            "instructor_note": {
+              "ja": "パンフレットの対象読者を問う問題です。タイトル・サブタイトルと本文の内容から「誰に向けたガイドか」を特定します。",
+              "points": [
+                "hdr_s2の「Promote reading and make new friends in your local community!」から、対象が地域住民（residents）であることが明確です。",
+                "loc_s2の「A small outdoor shelf near your home」から、自宅近くに個人で設置する仕組みであり、書店や図書館の業務ではないことがわかります。",
+                "setup_s3の「Decorate the shelf」やmaint_s4の「install a light」は棚の制作そのものを楽しむためではなく、交換所を成功させるための手段であるため、③「ものづくりを楽しむ人々」は不適切です。",
+                "テクニック: 「most likely to benefit」型の問いでは、本文全体のテーマ（ここでは地域での本の共有）と選択肢の主語（bookstore owners / library workers / people / residents）を照合するのが最速です。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "When setting up a local community book exchange, it is a good idea to [2].",
+            "ja": "「町の本棚を始める時は，[2]のがよい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "hold the event in good weather",
+              "ja": "「天気のよい日にイベントを開催する」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "invite friends to come and use the library",
+              "ja": "「図書館に来て利用してもらうよう友人を誘う」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "make the book shelf look attractive to people",
+              "ja": "「本棚を魅力的に見えるようにする」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "seek professional help to design the shelf",
+              "ja": "「棚を設計するのに専門家に助けを求める」",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "2の項目の最後の2文に Decorate the shelf so that it looks welcoming and interesting. This will make people want to participate.（親しみやすく，興味をそそるように棚を飾ります。そうすれば人々が参加したくなるでしょう。）とある。この内容を簡潔に表した③が正解。④の専門家に手伝ってもらうことは特に勧められていない。晴れの日が望ましいイベントを開催するわけではないので①も誤り。友達に本の提供を頼むことは提案されているが，②の内容は述べられていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "setup_s3",
+              "setup_s4"
+            ],
+            "instructor_note": {
+              "ja": "パンフレット内の助言と選択肢の言い換えを照合する問題です。",
+              "points": [
+                "setup_s3の「Decorate the shelf so that it looks welcoming and interesting」が、選択肢③の「make the book shelf look attractive to people」と言い換えられています。welcoming/interesting → attractive のパラフレーズに注目。",
+                "setup_s4の「This will make people want to participate」から、棚を飾る目的が人々の参加促進であることが確認できます。",
+                "setup_s2の「ask friends for their old books」は本の提供を頼む話であり、②の「図書館に来て利用してもらう」とは全く異なるため、混同しないよう注意が必要です。",
+                "テクニック: 選択肢の語句（attractive）が本文中にそのまま出ていなくても、同義の表現（welcoming and interesting）が見つかれば正解候補です。パラフレーズの対応を素早く見抜く練習が共通テストでは重要です。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "According to the pamphlet, which picture best shows an ideal book shelf? [3]",
+            "ja": "「パンフレットによると理想的な本棚を最もよく表している絵はどれか。」[3]"
+          },
+          "figure_image": {
+            "src": "data/zkai/2026/round02/images/q01_q3_choices.png",
+            "alt": "問3 選択肢画像（4つの本棚の絵）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "3の項目の第1文 Make sure the shelf has a roof and a door so that it is protected from bad weather.（悪天候から守るため，棚には屋根とドアを必ずつけましょう。），第4文 There should be a sign explaining the process（手順を説明する看板が必要）より，屋根とドアと看板のない③は除外となる。また，第2文 A lock would be a mistake since we want people to use it freely.（人々にそれを自由に使ってもらいたいので鍵はいけません。）より，鍵のある①も除外となる。最後に第3文 Most shelves should be full, but you need a little room for people to add new books.（ほとんどの棚はいっぱいになっている方がよいのですが，誰かが新しい本を追加できるスペースは少し必要です。）より，上の棚が空で，本が置かれていない空間の方が広い②も除外となる。したがって正解は④である。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "maint_s1",
+              "maint_s2",
+              "maint_s3",
+              "maint_s4"
+            ],
+            "instructor_note": {
+              "ja": "本文の条件と画像を照らし合わせて消去法で正解を特定する問題です。",
+              "points": [
+                "maint_s1の「a roof and a door」から、屋根とドアが必須条件として確認でき、③（屋根・ドアなし、看板もなし）が除外されます。",
+                "maint_s2の「A lock would be a mistake」から、鍵がついている①が除外されます。自由に使えることが前提です。",
+                "maint_s3の「Most shelves should be full, but you need a little room」から、棚がほぼ満杯で少しだけ空きがある状態が理想的であり、上の棚が大きく空いている②が除外されます。",
+                "maint_s4の「a sign explaining the process」から、看板の存在も確認条件です。④は屋根・ドア・看板・ライト・ほぼ満杯の棚と全条件を満たしています。",
+                "テクニック: 画像選択問題では、本文の条件を箇条書きにリストアップし、各選択肢を1つずつ照合して消去法で絞ると正確に解けます。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "語句",
+          "items": [
+            {
+              "en": "access",
+              "ja": "〜に接近する；〜を利用できる"
+            },
+            {
+              "en": "option",
+              "ja": "選択肢"
+            },
+            {
+              "en": "contribute",
+              "ja": "〜を寄付する"
+            },
+            {
+              "en": "welcoming",
+              "ja": "（到着する人を）歓迎する"
+            },
+            {
+              "en": "install",
+              "ja": "〜を取り付ける"
+            },
+            {
+              "en": "automatically",
+              "ja": "自動的に"
+            },
+            {
+              "en": "notepad",
+              "ja": "メモ帳"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 8,
+      "points_per_question": 2,
+      "description": "短文読解（記事）",
+      "situation": {
+        "en": "You are reading an article about the future of exams to prepare for a school debate. The article is about three university professors who are discussing the issue of holding public examinations online.",
+        "ja": "あなたは学校での討論の準備のために試験の将来についての記事を読んでいます。記事は，公的な試験をオンラインで行うという問題を議論している3人の大学教授についてです。"
+      },
+      "passages": [
+        {
+          "id": "article_header",
+          "title": {
+            "en": "Online Examinations in the Future?",
+            "ja": "オンライン試験は将来どうなるか？"
+          },
+          "image": {
+            "src": "data/zkai/2026/round02/images/q02_online_exam.png",
+            "alt": "person taking online exam on computer",
+            "float": "right"
+          },
+          "sentences": [
+            {
+              "id": "a_hdr",
+              "en": "Online Examinations in the Future?",
+              "ja": "オンライン試験は将来どうなるか？",
+              "role": "title"
+            }
+          ]
+        },
+        {
+          "id": "s2_p1",
+          "sentences": [
+            {
+              "id": "s2_p1_s1",
+              "en": "Online examinations are attracting the attention of educators, and we asked three university professors with experience in online testing for their opinions on this trend.",
+              "ja": "オンライン試験が教育者の注目を集めており，私たちはオンライン試験の経験を持つ3人の大学教授にこの傾向についての意見を聞きました。"
+            },
+            {
+              "id": "s2_p1_s2",
+              "en": "All of them agreed that the flexibility and convenience of online tests was a major plus.",
+              "ja": "彼ら全員がオンライン試験の柔軟性と利便性が大きな利点であることに同意しました。"
+            },
+            {
+              "id": "s2_p1_s3",
+              "en": "Taking tests from home removes the need for travel, sometimes to faraway places.",
+              "ja": "自宅で試験を受けることで，時には遠方になることもある移動が不要になります。"
+            },
+            {
+              "id": "s2_p1_s4",
+              "en": "Institutions that hold examinations can also save money on the printing of examination papers and renting of halls.",
+              "ja": "試験を開催する機関も，試験用紙の印刷やホールを借りる費用を節約することができます。"
+            },
+            {
+              "id": "s2_p1_s5",
+              "en": "In addition, fewer people are needed to conduct the test and to do the marking and administration.",
+              "ja": "さらに，テストの実施，採点や管理に必要な人員が少なくて済みます。"
+            },
+            {
+              "id": "s2_p1_s6",
+              "en": "Grading is also cheaper and faster, meaning students get their results more quickly.",
+              "ja": "成績付けもより安価に速くできるようになり，学生はより速く結果を得ることができます。"
+            },
+            {
+              "id": "s2_p1_s7",
+              "en": "One of the professors felt that examinations previously held only once a year can now be held more frequently.",
+              "ja": "教授の1人は，以前は年に一度しか行われなかった試験を今ではより頻繁に行うことができると感じていました。"
+            },
+            {
+              "id": "s2_p1_s8",
+              "en": "However, the others thought this could be difficult, as creating the questions is still a long process.",
+              "ja": "しかし他の2人は問題の作成は依然として長い工程を要するので，これは難しいかもしれないと考えていました。"
+            }
+          ]
+        },
+        {
+          "id": "s2_p2",
+          "sentences": [
+            {
+              "id": "s2_p2_s1",
+              "en": "Many people feel it is easier to cheat on online examinations.",
+              "ja": "多くの人はオンライン試験の方が不正をしやすいと感じています。"
+            },
+            {
+              "id": "s2_p2_s2",
+              "en": "One professor agreed, saying even if it is possible to monitor test-takers with cameras, cheating is still a major concern.",
+              "ja": "1人の教授はこれに同意し，カメラで受験者を監視することができるとしても，不正行為は依然として大きな懸念事項であると述べました。"
+            },
+            {
+              "id": "s2_p2_s3",
+              "en": "The other two professors pointed out that cheating also happens in paper exams and that anti-cheat software and AI checking actually made online tests more reliable.",
+              "ja": "他の2人の教授は，不正は紙の試験でも起こることと，不正防止ソフトやAIによるチェックが実際にオンライン試験の信頼性を高めたことを指摘しました。"
+            }
+          ]
+        },
+        {
+          "id": "s2_p3",
+          "sentences": [
+            {
+              "id": "s2_p3_s1",
+              "en": "All three worried about such issues as Internet connectivity problems and access to computers for poorer people.",
+              "ja": "3人とも貧しい人々のインターネット接続の問題やコンピューターへのアクセスというような問題を懸念していました。"
+            },
+            {
+              "id": "s2_p3_s2",
+              "en": "Two professors felt that testing centers and local governments could help these examination takers, but the other felt these were not quite ready yet for every examination.",
+              "ja": "2人の教授は，テストセンターや地方自治体がこうした受験者を支援できるだろうと感じていましたが，もう1人の教授は，まだすべての試験に対応できていないと感じていました。"
+            }
+          ]
+        },
+        {
+          "id": "s2_p4",
+          "sentences": [
+            {
+              "id": "s2_p4_s1",
+              "en": "There was agreement that most tests will be online in the future, but one professor felt that more advanced technology and improvements to test design were necessary before moving forward.",
+              "ja": "将来はほとんどの試験がオンラインに移行するだろうということで意見が一致しましたが，1人の教授は，先へ進む前により発展したテクノロジーと試験の設計の改善が必要だと感じていました。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "Which of the following did all the speakers agree on? [4]",
+            "ja": "「すべての講演者が同意しているのは次のどれか。」[4]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Fewer people are likely to take examinations in the future.",
+              "ja": "「試験を受ける人は将来減りそうである。」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Making online examinations takes more time than making paper tests.",
+              "ja": "「オンライン試験の作成には，紙の試験よりも多くの時間がかかる。」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Online examinations are cheaper for students than paper tests.",
+              "ja": "「学生にとってオンライン試験は紙の試験より安い。」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Students who live far away from the test center will find online testing easier.",
+              "ja": "「試験会場から遠いところに住んでいる学生にはオンライン試験の方が楽になるだろう。」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第1段落第2〜3文に All of them agreed that the flexibility and convenience of online tests was a major plus. Taking tests from home removes the need for travel, sometimes to faraway places.（彼ら全員がオンライン試験の柔軟性と利便性が大きな利点であることに同意しました。自宅で試験を受けることで，時には遠方になることもある移動が不要になります。）とある。④はこの内容と一致する。①については誰も述べていない。オンライン試験の問題の作成については，依然として長い工程を要すると述べられているが，紙の試験よりも時間がかかるとは述べられていないので②は誤り。オンライン試験が提供する側のコスト削減になることは述べられているが，受験者の費用が安くなるとは述べられていないので③も誤り。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "s2_p1_s2",
+              "s2_p1_s3"
+            ],
+            "instructor_note": {
+              "ja": "全員が同意した点を特定する問題です。",
+              "points": [
+                "s2_p1_s2の「All of them agreed that the flexibility and convenience of online tests was a major plus」が全員一致の根拠です。",
+                "s2_p1_s3の「Taking tests from home removes the need for travel, sometimes to faraway places」が④の「far away from the test center → easier」と対応しています。",
+                "s2_p1_s4〜s6はコスト削減の話ですが、これは試験運営側の利点であり、学生の費用（③）とは異なる点に注意が必要です。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "Online testing will most likely [5].",
+            "ja": "「オンライン試験は[5]可能性が最も高い。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "be held in smaller, local testing centers",
+              "ja": "「より小規模な地元の試験会場で開催される」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "make it cost less to receive paper certificates",
+              "ja": "「紙の証明書を受け取る費用を安くする」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "have more questions to answer than paper tests",
+              "ja": "「紙の試験より答える問題が多くなる」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "require a smaller number of people to check tests",
+              "ja": "「採点に必要な人員がより少なくて済む」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第1段落第5文に fewer people are needed to conduct the test and to do the marking and administration（テストの実施，採点や管理に必要な人員が少なくて済みます）とあり，④がこの内容と一致する。①，②，③の内容は本文で述べられていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "s2_p1_s5"
+            ],
+            "instructor_note": {
+              "ja": "本文の具体的記述と選択肢のパラフレーズを照合する問題です。",
+              "points": [
+                "s2_p1_s5の「fewer people are needed to conduct the test and to do the marking and administration」が、④の「require a smaller number of people to check tests」と言い換えられています。",
+                "fewer → a smaller number of、marking → check tests のパラフレーズに着目します。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "One professor's opinion is that [6].",
+            "ja": "「教授の1人の意見によると[6]。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "questions should be made more difficult for online examinations",
+              "ja": "「オンライン試験の問題をより難しくするべきである」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "some examinations can be held more often if they are held online",
+              "ja": "「オンラインであれば，いくつかの試験をより頻繁に行うことができる」",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "some institutions are conducting exams online",
+              "ja": "「試験をオンラインで実施している機関がある」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "students will use cameras to cheat in online examinations",
+              "ja": "「オンライン試験では学生がカメラを使って不正をするだろう」",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "第1段落第7文に One of the professors felt that examinations previously held only once a year can now be held more frequently.（教授の1人は，以前は年に一度しか行われなかった試験を今ではより頻繁に行うことができると感じていました。）とあり，②がこの内容と一致する。①については誰も述べていない。カメラについては1人の教授が監視カメラで不正を防ぐことに言及しているのみで④のような内容は述べられていない。第1段落第1文 three university professors with experience in online testing（オンライン試験の経験を持つ3人の大学教授）の他，記事全体の内容から，③は意見ではなく事実であると判断できる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "s2_p1_s7"
+            ],
+            "instructor_note": {
+              "ja": "「意見（opinion）」と「事実（fact）」を区別する問題です。",
+              "points": [
+                "s2_p1_s7の「One of the professors felt that ...」のfeltが意見を示す動詞であり、②の内容と対応しています。",
+                "③は「一部の機関がオンラインで試験を実施している」という事実の記述であり、opinionではないため不適切です。",
+                "テクニック: opinion問題では、felt / believed / thought などの主観的動詞に注目して、事実と意見を区別します。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "Which of the following is mentioned in the article? [7]",
+            "ja": "「次のうち記事で述べられているのはどれか。」[7]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Online tests are not fair if students don't have equal access to technology.",
+              "ja": "「オンライン試験は学生がテクノロジーを平等に利用できなければ不公平である。」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Online tests will be made by AI to prevent students from cheating.",
+              "ja": "「学生が不正をするのを防ぐため，オンライン試験はAIによって作成されるだろう。」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Testing centers can reduce network troubles by increasing their budgets.",
+              "ja": "「テストセンターは予算を増やすことでネットワークのトラブルを減らすことができる。」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Testing centers will provide cheaper computers to all poorer students.",
+              "ja": "「テストセンターは安価なコンピューターを貧しい学生全員に与えるだろう。」",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第3段落第1文に All three worried about such issues as Internet connectivity problems and access to computers for poorer people.（3人とも貧しい人々のインターネット接続の問題やコンピューターへのアクセスというような問題を懸念していました。）とあり，この内容を言い換えた①が正解。②の「試験をAIによって作成する」のような内容は述べられていない。第3段落第2文で，テストセンターによる受験者の支援について触れられているが，③や④のような内容は述べられていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "s2_p3_s1"
+            ],
+            "instructor_note": {
+              "ja": "記事で実際に言及されている内容を特定する問題です。",
+              "points": [
+                "s2_p3_s1の「access to computers for poorer people」が、①の「equal access to technology」と対応しています。",
+                "s2_p2_s3の「AI checking」は不正チェックに使われるのであり、②の「試験をAIが作成する」とは全く異なります。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "語句",
+          "items": [
+            {
+              "en": "flexibility",
+              "ja": "柔軟性，融通性"
+            },
+            {
+              "en": "institution",
+              "ja": "機構，組織"
+            },
+            {
+              "en": "mark",
+              "ja": "採点する"
+            },
+            {
+              "en": "grade",
+              "ja": "採点する；成績を付ける"
+            },
+            {
+              "en": "cheat",
+              "ja": "カンニングをする"
+            },
+            {
+              "en": "reliable",
+              "ja": "信頼できる"
+            },
+            {
+              "en": "certificate",
+              "ja": "証明書，免許状"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "description": "物語文読解",
+      "situation": {
+        "en": "You are studying film at university in the US. Your teacher asked you to read the following story in the first class.",
+        "ja": "あなたはアメリカの大学で映画を勉強しています。最初の授業で先生は次の話を読むように言いました。"
+      },
+      "passages": [
+        {
+          "id": "s3_header",
+          "title": {
+            "en": "FILM SCHOOL",
+            "ja": "映画学校"
+          },
+          "sentences": [
+            {
+              "id": "s3_hdr",
+              "en": "FILM SCHOOL",
+              "ja": "映画学校",
+              "role": "title"
+            }
+          ]
+        },
+        {
+          "id": "s3_p1",
+          "sentences": [
+            {
+              "id": "s3_p1_s1",
+              "en": "\"Let's make something unforgettable!\" Alex said to the group.",
+              "ja": "「忘れられないものを作ろう！」アレックスはグループに言いました。"
+            }
+          ]
+        },
+        {
+          "id": "s3_p2",
+          "sentences": [
+            {
+              "id": "s3_p2_s1",
+              "en": "It was our first week of film school, and we had been split into groups of four.",
+              "ja": "それは映画学校の最初の週で，私たちは4人のグループに分かれていました。"
+            },
+            {
+              "id": "s3_p2_s2",
+              "en": "Our professor had given us a challenge: create a short film in just one week.",
+              "ja": "教授から短編映画をたった1週間で作るという課題が出されていました。"
+            },
+            {
+              "id": "s3_p2_s3",
+              "en": "We were excited.",
+              "ja": "私たちは興奮しました。"
+            },
+            {
+              "id": "s3_p2_s4",
+              "en": "Alex volunteered to direct.",
+              "ja": "アレックスは監督を志願しました。"
+            },
+            {
+              "id": "s3_p2_s5",
+              "en": "Helen said she could operate a camera, so she was given that duty.",
+              "ja": "ヘレンはカメラを操作できると言ったので，その仕事を与えられました。"
+            },
+            {
+              "id": "s3_p2_s6",
+              "en": "Colin agreed to be the editor and our main actor.",
+              "ja": "コリンは編集者と主役をやることに同意してくれました。"
+            },
+            {
+              "id": "s3_p2_s7",
+              "en": "And because I have always loved writing, I was the script writer.",
+              "ja": "そして私はずっと書くことが好きだったので，脚本家になりました。"
+            },
+            {
+              "id": "s3_p2_s8",
+              "en": "Everyone was feeling positive and planned to impress the professor.",
+              "ja": "誰もが前向きな気持ちで，教授を感心させようと計画していました。"
+            }
+          ]
+        },
+        {
+          "id": "s3_p3",
+          "sentences": [
+            {
+              "id": "s3_p3_s1",
+              "en": "I quickly came up with a story and a script, which I proudly passed to Alex the next day.",
+              "ja": "私はすぐにストーリーと脚本を考え出し，翌日，誇らしげにアレックスに渡しました。"
+            },
+            {
+              "id": "s3_p3_s2",
+              "en": "Alex asked me to make some changes saying, \"We don't have time to film all your ideas, Steph.\"",
+              "ja": "アレックスは私に，「ステフ，君のアイデアを全部撮影するには時間が足りない」と言い，少し変更するようにと頼んできました。"
+            },
+            {
+              "id": "s3_p3_s3",
+              "en": "I did as he asked, but I was worried that the story had become too hard to understand.",
+              "ja": "頼まれた通りにしたのですが，話がわかりにくくなってしまったのではないかと心配でした。"
+            },
+            {
+              "id": "s3_p3_s4",
+              "en": "Once we started filming, we found out that Helen was able to operate the camera, but she didn't know anything about recording sound or getting interesting shots.",
+              "ja": "撮影を始めてみると，ヘレンはカメラを操作することはできても，音を録音したり，面白いショットを撮ったりすることについては何も知らなかったことがわかりました。"
+            },
+            {
+              "id": "s3_p3_s5",
+              "en": "Colin found editing our work almost impossible, and he refused to watch the final film because he was embarrassed about his poor acting skills.",
+              "ja": "コリンは，私たちの作品を編集するのはほとんど不可能だと感じ，自分の演技力の低さを恥ずかしがって，完成した映画を見るのを拒みました。"
+            }
+          ]
+        },
+        {
+          "id": "s3_p4",
+          "sentences": [
+            {
+              "id": "s3_p4_s1",
+              "en": "The evening before we showed it to the class, my group sat down and watched the final product for the first time.",
+              "ja": "クラスに見せる前の晩，私のグループは座って完成した作品を初めて見ました。"
+            },
+            {
+              "id": "s3_p4_s2",
+              "en": "\"We're going to be laughed at!\" I thought.",
+              "ja": "「笑われる！」と思いました。"
+            }
+          ]
+        },
+        {
+          "id": "s3_p5",
+          "sentences": [
+            {
+              "id": "s3_p5_s1",
+              "en": "I wasn't wrong.",
+              "ja": "それは間違っていませんでした。"
+            },
+            {
+              "id": "s3_p5_s2",
+              "en": "The next day at the screening, everyone except the professor was laughing hysterically.",
+              "ja": "翌日の上映会では，教授以外の全員が大笑いしました。"
+            },
+            {
+              "id": "s3_p5_s3",
+              "en": "Thankfully, all the other groups had failed just as badly.",
+              "ja": "ありがたいことに，他のグループも皆同じようにひどく失敗していました。"
+            },
+            {
+              "id": "s3_p5_s4",
+              "en": "When the last film ended, we prepared ourselves for some harsh words from the professor.",
+              "ja": "最後の映画が終わった時，私たちは教授からの厳しい言葉を覚悟しました。"
+            },
+            {
+              "id": "s3_p5_s5",
+              "en": "She stood up, smiled, and said, \"It wasn't as easy or as fun as you thought it would be, was it?",
+              "ja": "彼女は立ち上がり，微笑んで，「思っていたほど簡単でも楽しくもなかったでしょう？"
+            },
+            {
+              "id": "s3_p5_s6",
+              "en": "I wanted you to see how hard it is to create a film.\"",
+              "ja": "私は皆さんに映画を作るのがどれだけ大変かをわかってもらいたかったのです」と言いました。"
+            }
+          ]
+        },
+        {
+          "id": "s3_p6",
+          "sentences": [
+            {
+              "id": "s3_p6_s1",
+              "en": "Strangely, I felt excited afterward.",
+              "ja": "不思議なことに，その後，私はわくわくしていました。"
+            },
+            {
+              "id": "s3_p6_s2",
+              "en": "I couldn't wait to learn how the filmmakers I admired had overcome all the difficulties of making a movie.",
+              "ja": "尊敬する映画制作者たちが，映画制作の大変さをどのようにして全部乗り越えてきたのかを学ぶのが待ちきれませんでした。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 8,
+          "stem": {
+            "en": "Which person is telling the story? [8]",
+            "ja": "「この話の語り手はどの人物か。」[8]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Alex",
+              "ja": "「アレックス」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Colin",
+              "ja": "「コリン」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Helen",
+              "ja": "「ヘレン」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Steph",
+              "ja": "「ステフ」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第3段落第2文に Alex asked me to make some changes saying, \"We don't have time to film all your ideas, Steph.\"（アレックスは私に「ステフ，君のアイデアを全部撮影するには時間が足りない」と言い，少し変更するようにと頼んできました。）とあることから語り手の名前は Steph だとわかる。正解は④。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "s3_p3_s2"
+            ],
+            "instructor_note": {
+              "ja": "一人称の語り手を特定する問題です。",
+              "points": [
+                "s3_p3_s2でアレックスが語り手を「Steph」と呼んでいることから特定できます。",
+                "s3_p2_s7の「I have always loved writing, I was the script writer」も語り手＝脚本家であることを示しています。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "stem": {
+            "en": "Choose four out of the five options (① ~ ⑤) and put them in the order they happened. [9] → [10] → [11] → [12]",
+            "ja": "「5つの選択肢（①〜⑤）から4つを選び，出来事が起きた順に並べよ。」[9]→[10]→[11]→[12]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The professor explained the purpose of the activity.",
+              "ja": "「教授が活動の目的を説明した。」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "The professor expressed her anger at the students.",
+              "ja": "「教授が学生に怒りをあらわにした。」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The students discovered each other's weaknesses.",
+              "ja": "「学生たちがお互いの弱点を発見した。」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The students discussed their capabilities.",
+              "ja": "「学生たちが自分の能力を話し合った。」",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "The students formed teams.",
+              "ja": "「学生たちがチームを組んだ。」",
+              "is_correct": true
+            }
+          ],
+          "answer": "⑤・④・③・①",
+          "explanation": {
+            "quoted_ja": "この話は時系列で述べられている。選択肢の内容に該当する箇所を本文から探していくと，まず，⑤は第2段落第1文 It was our first week of film school, and we had been split into groups of four.（それは映画学校の最初の週で，私たちは4人のグループに分かれていました。）に該当する。④は第2段落第4〜7文でそれぞれが自分のできることを申告し，役割分担をしていることに該当する。③は第3段落で作業が始まり，それぞれの役割がうまくいっていないことが判明していくことに該当する。①は第5段落最終文 I wanted you to see how hard it is to create a film.（私は皆さんに映画を作るのがどれだけ大変かをわかってもらいたかったのです。）と教授が課題の目的を話していることに該当する。②については述べられていない。したがって，⑤→④→③→①の順となる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "s3_p2_s1",
+              "s3_p2_s4",
+              "s3_p2_s5",
+              "s3_p2_s6",
+              "s3_p2_s7",
+              "s3_p3_s4",
+              "s3_p3_s5",
+              "s3_p5_s5",
+              "s3_p5_s6"
+            ],
+            "instructor_note": {
+              "ja": "時系列に出来事を並べる問題です。5択から4つを選び不要な選択肢を除外します。",
+              "points": [
+                "⑤: s3_p2_s1「split into groups of four」→ チーム結成。",
+                "④: s3_p2_s4〜s7で各自が能力を申告し役割分担 → 能力の話し合い。",
+                "③: s3_p3_s4〜s5で撮影開始後に各自の弱点が判明。",
+                "①: s3_p5_s5〜s6で教授が課題の目的を説明。",
+                "②「教授が怒りをあらわにした」は本文に記述なし（教授は微笑んで話している）ため除外。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "How did the writer most likely feel after the presentation? [13]",
+            "ja": "「発表のあと，筆者はおそらくどんな気持ちだったか。」[13]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "eager",
+              "ja": "「熱意にあふれた」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "embarrassed",
+              "ja": "「恥ずかしい」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "nervous",
+              "ja": "「不安な」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "sad",
+              "ja": "「悲しい」",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "すべてのグループの発表が終わり，教授の言葉を聞いたあとの最終段落の2文に Strangely, I felt excited afterward. I couldn't wait to learn how the filmmakers I admired had overcome all the difficulties of making a movie.（不思議なことに，その後，私はわくわくしていました。尊敬する映画制作者たちが，映画制作の大変さをどのようにして全部乗り越えてきたのかを学ぶのが待ちきれませんでした。）と述べられている。この心情を表している選択肢は①である。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "s3_p6_s1",
+              "s3_p6_s2"
+            ],
+            "instructor_note": {
+              "ja": "筆者の心情を読み取る問題です。",
+              "points": [
+                "s3_p6_s1「I felt excited afterward」とs3_p6_s2「I couldn't wait to learn」から、熱意・意欲を表すeagerが最適です。",
+                "excited / couldn't wait → eager のパラフレーズ対応を見抜くことがポイントです。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "語句",
+          "items": [
+            {
+              "en": "unforgettable",
+              "ja": "忘れられない"
+            },
+            {
+              "en": "split ~ into ...",
+              "ja": "〜を…に分ける"
+            },
+            {
+              "en": "direct",
+              "ja": "（映画・劇などの）監督をする"
+            },
+            {
+              "en": "operate",
+              "ja": "〜を操作する"
+            },
+            {
+              "en": "editor",
+              "ja": "編集者"
+            },
+            {
+              "en": "script",
+              "ja": "台本"
+            },
+            {
+              "en": "proudly",
+              "ja": "誇らしげに"
+            },
+            {
+              "en": "edit",
+              "ja": "〜を編集する"
+            },
+            {
+              "en": "hysterically",
+              "ja": "ヒステリックに，ものすごく"
+            },
+            {
+              "en": "thankfully",
+              "ja": "ありがたいことに"
+            },
+            {
+              "en": "strangely",
+              "ja": "不思議なことに"
+            },
+            {
+              "en": "afterward",
+              "ja": "その後で"
+            },
+            {
+              "en": "filmmaker",
+              "ja": "映画制作者，映画監督"
+            },
+            {
+              "en": "admire",
+              "ja": "〜に敬服する"
+            },
+            {
+              "en": "overcome",
+              "ja": "（困難・問題など）を克服する"
+            },
+            {
+              "en": "eager",
+              "ja": "熱心な"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ添削（京都のオーバーツーリズム）",
+      "situation": {
+        "en": "In English class you are writing an essay on a social issue you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "英語の授業で，あなたは興味のある社会問題に関するエッセイを書いています。これはあなたの最新の草稿です。今は先生からのコメントをもとに，推敲に取り組んでいるところです。"
+      },
+      "passages": [
+        {
+          "id": "kyoto_essay",
+          "title": {
+            "en": "How We Can All Enjoy Kyoto",
+            "ja": "誰もが京都を楽しめるようにするには"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "ky_p1_s1",
+                "en": "When foreign tourists started to return to Japan in 2022, my city, Kyoto, was high on the list of 'must-see' places.",
+                "ja": "2022年，外国人旅行客が日本に戻ってくるようになると，私の街，京都は「絶対訪れるべき」場所のリストの上位にあった。"
+              },
+              {
+                "id": "ky_p1_s2",
+                "en": "After nearly three years of empty hotels, restaurants and shops, we were happy to see people coming back.",
+                "ja": "ほとんど3年間，ホテル，飲食店，商店がガラガラだったとあって，客足が戻ってきて私たちはうれしかった。"
+              },
+              {
+                "id": "ky_p1_s3",
+                "en": "The city is now struggling from 'over-tourism.'",
+                "ja": "京都は現在，「オーバーツーリズム」に悩まされている。",
+                "comment_marker": "(1)",
+                "marker_position": "before",
+                "marker_type": "caret"
+              },
+              {
+                "id": "ky_p1_s4",
+                "en": "This essay will highlight the problems and ways to solve it.",
+                "ja": "このエッセイはその問題と解決策に焦点を当てる。"
+              }
+            ],
+            [
+              {
+                "id": "ky_p2_s1",
+                "en": "First, crowding on buses.",
+                "ja": "まず，バスの混雑だ。"
+              },
+              {
+                "id": "ky_p2_s2",
+                "en": "This is a serious problem that the city has discussed dealing with in a number of ways including charging higher fares for tourists.",
+                "ja": "これは市がいくつかの形で対策を議論している深刻な問題で，中には旅行客に通常より高い料金を課すという案も含まれる。"
+              },
+              {
+                "id": "ky_p2_s3",
+                "en": "This will just cause more problems!",
+                "ja": "これは問題を増やすだけだ！"
+              },
+              {
+                "id": "ky_p2_s4",
+                "en": "Let's think of more practical solutions;",
+                "ja": "もっと現実的な解決策を考えよう。",
+                "comment_marker": "(2)",
+                "marker_position": "after",
+                "marker_type": "caret"
+              },
+              {
+                "id": "ky_p2_s5",
+                "en": "how about introducing double-decker buses like in London?",
+                "ja": "ロンドンを走っているような2階建てバスを導入するのはどうだろう。"
+              },
+              {
+                "id": "ky_p2_s6",
+                "en": "This would enable twice as many passengers to tour around the city.",
+                "ja": "これなら，京都を観て回る乗客の数を倍にできる。"
+              }
+            ],
+            [
+              {
+                "id": "ky_p3_s1",
+                "en": "Second, we all hate trash.",
+                "ja": "第二に，私たちは誰だってゴミが大嫌いだ。",
+                "comment_marker": "(3)",
+                "marker_position": "before",
+                "underline": true
+              },
+              {
+                "id": "ky_p3_s2",
+                "en": "Visitors often complain about the lack of trash cans.",
+                "ja": "訪問者はよくゴミ箱の少なさに不満をこぼしている。"
+              },
+              {
+                "id": "ky_p3_s3",
+                "en": "It would be effective to have more places where people can dispose of their trash.",
+                "ja": "ゴミを捨てられる場所を増やすことは効果的だろう。"
+              },
+              {
+                "id": "ky_p3_s4",
+                "en": "Furthermore, having QR codes on the trash cans would make it possible for visitors to scan them and tell the city if they need emptying outside regular collection hours.",
+                "ja": "さらに，ゴミ箱にQRコードを貼付することで，訪問客がコードを読み取り，通常の収集時間外にゴミ箱を空にする必要があるかどうかを市当局に知らせることができるようになるだろう。"
+              }
+            ],
+            [
+              {
+                "id": "ky_p4_s1",
+                "en": "Finally, Kyoto has started a campaign to get tourists to visit the rural parts of Kyoto Prefecture.",
+                "ja": "最後に，京都は，観光客に京都府の中心から離れた地域を訪れてもらうキャンペーンを始めた。"
+              },
+              {
+                "id": "ky_p4_s2",
+                "en": "They are taking some measures to attract tourists to the Sea of Japan coast, 'Kyoto by the Sea.'",
+                "ja": "「海の京都」と銘打って，日本海沿岸に観光客を誘致するための策を打ち出しているのだ。"
+              },
+              {
+                "id": "ky_p4_s3",
+                "en": "It may be great to encourage locals to offer home-stay style hotels so people can experience not only beautiful scenery but also real Japanese lifestyles.",
+                "ja": "地元住民がホームステイ型の宿泊施設を提供するのを奨励し，観光客が美しい景色だけでなく本物の日本の生活様式を体験できるようにするのは，すばらしいことだろう。"
+              }
+            ],
+            [
+              {
+                "id": "ky_p5_s1",
+                "en": "In conclusion, we need to think of more ways in which people can enjoy Kyoto.",
+                "ja": "結論として，私たちは，人々が京都を楽しめるようになる方法をもっと考え出す必要がある。"
+              },
+              {
+                "id": "ky_p5_s2",
+                "en": "Let's introduce high-capacity transportation, help keep Kyoto clean, and",
+                "ja": "収容人数の多い交通機関を導入し，京都をきれいに保ち，そして"
+              },
+              {
+                "id": "ky_p5_s3",
+                "en": "gather people in certain areas.",
+                "ja": "特定の地域に人を集めよう。",
+                "comment_marker": "(4)",
+                "marker_position": "before",
+                "underline_word": "gather people in certain areas"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "You are missing something here. Add more information between the two sentences to connect them.",
+              "ja": "ここに何か足りません。2つの文をつなぐために，間にさらに情報を追加しなさい。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Insert a connecting expression here.",
+              "ja": "ここに接続表現を挿入しなさい。"
+            },
+            {
+              "marker": "(3)",
+              "en": "This topic sentence doesn't really match this paragraph. Rewrite it.",
+              "ja": "この主題文はこの段落にあまり合っていません。書き直しなさい。"
+            },
+            {
+              "marker": "(4)",
+              "en": "The underlined phrase doesn't summarize your essay content enough. Change it.",
+              "ja": "下線部の表現はあなたのエッセイの内容を十分に要約していません。変更しなさい。"
+            }
+          ],
+          "teacher_comment": {
+            "en": "Your essay is well thought out. I especially like your idea of double-decker buses.",
+            "ja": "あなたのエッセイはよく練られていますね。2階建てバスのアイデアは特に気に入りました。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on comment (1), which is the best sentence to add? [14]",
+            "ja": "「コメント(1)に基づいて，付け加えるのに最も適当な文はどれか。」[14]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "After all, some people are interested in other areas.",
+              "ja": "「結局のところ，他の地域に興味がある人もいる。」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "As a result, a lot of hotels still have available rooms.",
+              "ja": "「結果として，多くのホテルがいまだに空室を抱えている。」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Because of this, however, some places now have too many tourists.",
+              "ja": "「しかし，このために，今では観光客が多すぎるという場所もある。」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Still, the number of tourists hasn't reached the number we expected.",
+              "ja": "「それでも，観光客の数は我々が期待していた数には達していない。」",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "(1)の直前は we were happy to see people coming back（客足が戻ってきて私たちはうれしかった）という肯定的な内容なのに対し，直後では The city is now struggling from 'over-tourism.'（京都は現在，「オーバーツーリズム」に悩まされている。）という否定的な内容がきている。これらをつなぐには，'逆接'の接続表現を含み，かつ「オーバーツーリズム」の様相を呈する現状を表す文を挿入したい。よって③が正解。①の他の地域に興味をもつ人，②のホテルの空室，④の観光客の人数の伸び悩みは，いずれも「オーバーツーリズム」につながらないので不正解。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "ky_p1_s2",
+              "ky_p1_s3"
+            ],
+            "instructor_note": {
+              "ja": "2文間の論理的つながりを補う文挿入問題です。",
+              "points": [
+                "ky_p1_s2の肯定的内容（客足が戻り嬉しい）からky_p1_s3の否定的内容（オーバーツーリズムに悩む）への転換を橋渡しする文が必要です。",
+                "③は逆接のhoweverを含み、「観光客が多すぎる場所がある」とオーバーツーリズムの現状を示すため最適です。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on comment (2), which is the best expression to add? [15]",
+            "ja": "「コメント(2)に基づいて，付け加えるのに最も適当な表現はどれか。」[15]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "for instance",
+              "ja": "「例えば」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "in contrast",
+              "ja": "「対照的に」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "moreover",
+              "ja": "「そのうえ」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "nevertheless",
+              "ja": "「それにもかかわらず」",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "(2)に至るまでの流れと，その後に続く文の内容を確認しよう。筆者はこの段落の冒頭で「バスの混雑」を問題点として挙げ，その対策として市が検討していた「観光客に通常より高額の料金を課す」という案を「問題を増やすだけだ」と一蹴し，Let's think of more practical solutions（もっと現実的な解決策を考えよう）と述べている。論の展開として，筆者はこのあとに，「もっと現実的な解決策」の具体案を自ら示さなくてはならない。実際，筆者は「2階建てバスの導入」という案を提示している。したがって，具体例の導入を示す①が正解。他の選択肢は，前後を自然につなぐことができない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "ky_p2_s4",
+              "ky_p2_s5"
+            ],
+            "instructor_note": {
+              "ja": "接続表現を選ぶ問題です。",
+              "points": [
+                "ky_p2_s4「Let's think of more practical solutions」の後に具体例（2階建てバス）が続くため、具体例導入の①「for instance」が最適です。",
+                "②「in contrast」は対比、③「moreover」は追加、④「nevertheless」は逆接で、いずれも文脈に合いません。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on comment (3), which is the most appropriate way to rewrite the topic sentence? [16]",
+            "ja": "「コメント(3)に基づいて，この主題文を書き直すのに最も適当な方法はどれか。」[16]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Kyoto City should ask people to buy trash bags",
+              "ja": "「京都市は人々にゴミ袋を購入するよう求めるべきだ」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "more people should recycle their trash",
+              "ja": "「自分のゴミをリサイクルする人が増えるべきだ」",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the problem of trash must be dealt with",
+              "ja": "「ゴミの問題は対処されなければならない」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "visitors must take their trash back to their hotels",
+              "ja": "「訪問客は自分のゴミを宿泊先まで持ち帰らなければならない」",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "下線部(3)は主題文として適切でない，というのが添削者である先生の指摘。主題文はその段落の要旨をわかりやすくまとめるものでなければならない。筆者はこの段落で，ゴミ箱の少なさが観光客の不満の種となっていることを挙げ，ゴミ捨て場の増設やQRコードの利用を対策として掲げている。つまり，この段落の主題は「ゴミ捨て場の少なさとその対策（の必要性）」であることがわかる。これと合い，かつ本文に記述があるのは③のみで，これが正解。①のゴミ袋の購入，②のリサイクル，④の宿泊先へのゴミの持ち帰りについては本文に言及がない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "ky_p3_s1",
+              "ky_p3_s2",
+              "ky_p3_s3",
+              "ky_p3_s4"
+            ],
+            "instructor_note": {
+              "ja": "主題文の書き換え問題です。段落全体の要旨を的確にまとめる表現を選びます。",
+              "points": [
+                "第3段落の主題は「ゴミ捨て場の少なさとその対策」です。③「the problem of trash must be dealt with」がこれに合致します。",
+                "①ゴミ袋の購入、②リサイクル、④宿泊先への持ち帰りは本文に言及がありません。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on comment (4), which is the best replacement? [17]",
+            "ja": "「コメント(4)に基づいて，置き換えるものとして最適なのはどれか。」[17]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "act as representatives of our city",
+              "ja": "「私たちの街の代表として振る舞う」",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "avoid the concentration of people in the city center",
+              "ja": "「市の中心部に人が集中することを避ける」",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "entertain local people",
+              "ja": "「地元の人たちを楽しませる」",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "teach tourists about Japan",
+              "ja": "「観光客に日本のことを教える」",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "下線部(4)を含むこの一文は，筆者がこれまでに述べてきた論の要約となっている。introduce high-capacity transportation は第2段落で「2階建てバス」を例に提案したことで，help keep Kyoto clean は第3段落でふれたゴミ問題，それに続く(4)は第4段落の内容と合致させるのが自然。筆者が第4段落で挙げた，観光客を日本海沿岸地域という特定地域に人を集めるという趣旨のキャンペーンの主眼は，日本海沿岸地域という特定地域に人を集める（gather people in certain areas）ことではなく，京都中心部の過度な混雑を緩和させること（avoid the concentration of people in the city center）にあるから，②が正解。このエッセイが一貫して「オーバーツーリズム」を主題に据えていることを念頭に置けば，③と迷うこともないだろう。①，④のような記述は本文にない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "ky_p4_s1",
+              "ky_p4_s2",
+              "ky_p5_s2",
+              "ky_p5_s3"
+            ],
+            "instructor_note": {
+              "ja": "エッセイ全体の要約として下線部を適切な表現に置き換える問題です。",
+              "points": [
+                "下線部ky_p5_s3「gather people in certain areas」は第4段落の内容の要約ですが、エッセイの主題「オーバーツーリズム対策」の観点からは不適切です。",
+                "第4段落のキャンペーンの真の目的は京都中心部の混雑緩和なので、②「avoid the concentration of people in the city center」が最適です。",
+                "①③④は本文に記述がありません。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "語句",
+          "items": [
+            {
+              "en": "must-see",
+              "ja": "必見の；ぜひ見るべき"
+            },
+            {
+              "en": "highlight",
+              "ja": "〜を浮き彫りにする〔強調する〕"
+            },
+            {
+              "en": "crowding",
+              "ja": "混雑"
+            },
+            {
+              "en": "deal with ~",
+              "ja": "〜に対処する"
+            },
+            {
+              "en": "a number of ~",
+              "ja": "いくつかの〜"
+            },
+            {
+              "en": "charge",
+              "ja": "〜（＝料金・値段）を請求する"
+            },
+            {
+              "en": "practical",
+              "ja": "現実的な；実際的な"
+            },
+            {
+              "en": "introduce",
+              "ja": "〜を導入する"
+            },
+            {
+              "en": "double-decker bus",
+              "ja": "2階建てバス"
+            },
+            {
+              "en": "complain about ~",
+              "ja": "〜について不平〔文句〕を言う"
+            },
+            {
+              "en": "trash can",
+              "ja": "（大型の）ゴミ箱"
+            },
+            {
+              "en": "dispose of ~",
+              "ja": "〜を捨てる〔廃棄する〕"
+            },
+            {
+              "en": "scan",
+              "ja": "〜をスキャンする"
+            },
+            {
+              "en": "need doing",
+              "ja": "…される必要がある"
+            },
+            {
+              "en": "empty",
+              "ja": "〜を空にする"
+            },
+            {
+              "en": "outside regular collection hours",
+              "ja": "通常の収集時間外に"
+            },
+            {
+              "en": "take measures",
+              "ja": "手段を講じる；対策を取る"
+            },
+            {
+              "en": "encourage ~ to do",
+              "ja": "〜に…するよう促す"
+            },
+            {
+              "en": "scenery",
+              "ja": "景色；景観"
+            },
+            {
+              "en": "high-capacity",
+              "ja": "収容人数の多い"
+            },
+            {
+              "en": "transportation",
+              "ja": "交通手段"
+            }
+          ]
+        },
+        "questions": {
+          "label_ja": "設問語句",
+          "items": [
+            {
+              "en": "after all",
+              "ja": "結局のところ",
+              "question": "問1①"
+            },
+            {
+              "en": "available",
+              "ja": "利用できる；（ホテルの部屋などが）空いている",
+              "question": "問1②"
+            },
+            {
+              "en": "act as ~",
+              "ja": "〜の役割を務める",
+              "question": "問4①"
+            },
+            {
+              "en": "representative",
+              "ja": "代表（者）",
+              "question": "問4①"
+            },
+            {
+              "en": "concentration",
+              "ja": "（人・物の）集中",
+              "question": "問4②"
+            },
+            {
+              "en": "city center",
+              "ja": "街の中心；市街地",
+              "question": "問4②"
+            },
+            {
+              "en": "entertain",
+              "ja": "〜を楽しませる",
+              "question": "問4③"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "points_per_question": 0,
+      "description": "メールのやり取り（イベントの計画）",
+      "situation": {
+        "en": "You are a member of an international student club in Canada. To help new international students enjoy their new life in a foreign country, you will help organize an orientation. You wrote this email to the university's international student coordinator and received a reply.",
+        "ja": "あなたはカナダの留学生クラブの部員です。新入の留学生が外国での新生活を楽しめるように，あなたはオリエンテーションの開催を手伝います。あなたはこのメールを大学の留学生コーディネーターに書き，返事を受け取りました。"
+      },
+      "passages": [
+        {
+          "id": "email_1",
+          "title": {
+            "en": "Email from you to the coordinator",
+            "ja": "あなたからコーディネーターへのメール（※タイトルはUI表示用）"
+          },
+          "date": "July 15",
+          "subject": "Event Plan",
+          "sender": "International Student Club representative",
+          "recipient": "Ms. Stedman",
+          "paragraphs": [
+            [
+              {
+                "id": "e1_p1_s1",
+                "en": "I am looking forward to helping with the orientation for new international students next month.",
+                "ja": "来月，新しい留学生のためのオリエンテーションをお手伝いするのを楽しみにしています。"
+              },
+              {
+                "id": "e1_p1_s2",
+                "en": "You mentioned that this event aims to allow students to feel more comfortable at Fairview University.",
+                "ja": "このイベントの目的は，フェアビュー大学で学生がより快適に過ごせるようにすることだとおっしゃっていましたね。"
+              },
+              {
+                "id": "e1_p1_s3",
+                "en": "The orientation schedule you requested is below.",
+                "ja": "ご依頼のオリエンテーションのスケジュールは以下の通りです。"
+              }
+            ]
+          ],
+          "table": {
+            "after_paragraph": 1,
+            "title": {
+              "en": "Monday, August 25",
+              "ja": "8月25日（月）"
+            },
+            "headers": [
+              "Time",
+              "Activity & Presenter"
+            ],
+            "rows": [
+              {
+                "type": "section_header",
+                "label": "Morning theme: Academic resources",
+                "label_ja": "午前のテーマ：研究リソース"
+              },
+              {
+                "cells": [
+                  "9:00 a.m.",
+                  "Introduction: (undecided)\nHost: Alice Stedman"
+                ],
+                "cells_ja": [
+                  "午前9:00",
+                  "導入：（未定）\n主催者：アリス・ステッドマン"
+                ]
+              },
+              {
+                "cells": [
+                  "9:15 a.m.",
+                  "Activity 1: Introduction of the International Student Office\nPresenter: Alice Stedman"
+                ],
+                "cells_ja": [
+                  "午前9:15",
+                  "アクティビティ1：留学生オフィスの紹介\nプレゼンター：アリス・ステッドマン"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "9:45 a.m.",
+                  "Break"
+                ],
+                "cells_ja": [
+                  "午前9:45",
+                  "休憩"
+                ]
+              },
+              {
+                "cells": [
+                  "10:00 a.m.",
+                  "Activity 2: (undecided)\nPresenter: Zayne Moore"
+                ],
+                "cells_ja": [
+                  "午前10:00",
+                  "アクティビティ2：（未定）\nプレゼンター：ゼイン・ムーア"
+                ]
+              },
+              {
+                "cells": [
+                  "11:00 a.m.",
+                  "Activity 3: Class registration\nPresenter: Bailey Garcia"
+                ],
+                "cells_ja": [
+                  "午前11:00",
+                  "アクティビティ3：授業登録\nプレゼンター：ベイリー・ガルシア"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "12:00 p.m.",
+                  "Lunch"
+                ],
+                "cells_ja": [
+                  "午後12:00",
+                  "昼食"
+                ]
+              },
+              {
+                "type": "section_header",
+                "label": "Afternoon theme: Adapting to a new environment",
+                "label_ja": "午後のテーマ：新しい環境に順応する"
+              },
+              {
+                "cells": [
+                  "1:00 p.m.",
+                  "Activity 4: (undecided)\nPresenter: Ahmed Hadid"
+                ],
+                "cells_ja": [
+                  "午後1:00",
+                  "アクティビティ4：（未定）\nプレゼンター：アーメド・ハデイト"
+                ]
+              },
+              {
+                "cells": [
+                  "2:00 p.m.",
+                  "Activity 5: Campus tour\nTour guides: (undecided)"
+                ],
+                "cells_ja": [
+                  "午後2:00",
+                  "アクティビティ5：キャンパスツアー\nツアーガイド：（未定）"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "2:45 p.m.",
+                  "Break"
+                ],
+                "cells_ja": [
+                  "午後2:45",
+                  "休憩"
+                ]
+              },
+              {
+                "cells": [
+                  "3:00 p.m.",
+                  "Activity 6: Student Q&A discussion\nParticipants: International Student Club members"
+                ],
+                "cells_ja": [
+                  "午後3:00",
+                  "アクティビティ6：学生質疑応答\n参加者：留学生クラブ部員"
+                ]
+              },
+              {
+                "cells": [
+                  "4:15 p.m.",
+                  "Closing Address: Professor Katherine Lee"
+                ],
+                "cells_ja": [
+                  "午後4:15",
+                  "閉会の辞：キャサリン・リー教授"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "4:30 p.m.",
+                  "End"
+                ],
+                "cells_ja": [
+                  "午後4:30",
+                  "閉会"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "email_1_cont",
+          "paragraphs": [
+            [
+              {
+                "id": "e1_p2_s1",
+                "en": "Please confirm the following details:",
+                "ja": "以下の内容をご確認いただきたいです。"
+              },
+              {
+                "id": "e1_p2_s2",
+                "role": "bullet",
+                "en": "The orientation will start at 9:00 a.m. and end at 4:30 p.m.",
+                "ja": "オリエンテーションは午前9時開会，午後4時30分閉会。"
+              },
+              {
+                "id": "e1_p2_s3",
+                "role": "bullet",
+                "en": "There will be 20 new foreign exchange students participating.",
+                "ja": "20名の新留学生が参加予定。"
+              },
+              {
+                "id": "e1_p2_s4",
+                "role": "bullet",
+                "en": "The orientation will be held in Room 210.",
+                "ja": "オリエンテーションは210教室で行う。"
+              },
+              {
+                "id": "e1_p2_s5",
+                "role": "bullet",
+                "en": "Professor Lee will be speaking at the end of the day.",
+                "ja": "リー教授が当日最後にスピーチを行う予定。"
+              }
+            ],
+            [
+              {
+                "id": "e1_p3_s1",
+                "en": "The items below still need to be decided:",
+                "ja": "以下は，まだ決める必要がある事項です。"
+              },
+              {
+                "id": "e1_p3_s2",
+                "role": "bullet",
+                "en": "Will a projector be available to use for the activities?",
+                "ja": "プロジェクターはアクティビティに使用できますか。"
+              },
+              {
+                "id": "e1_p3_s3",
+                "role": "bullet",
+                "en": "Do you know what the remaining activities will be?",
+                "ja": "残りのアクティビティがどうなるかご存じですか。"
+              },
+              {
+                "id": "e1_p3_s4",
+                "role": "bullet",
+                "en": "Have you decided what you will do for the introduction?",
+                "ja": "導入に何をするかお決めですか。"
+              },
+              {
+                "id": "e1_p3_s5",
+                "role": "bullet",
+                "en": "How will we arrange the tables and chairs for the student Q&A discussion?",
+                "ja": "学生質疑応答のテーブルと椅子の配置はどうしますか。"
+              }
+            ],
+            [
+              {
+                "id": "e1_p4_s1",
+                "en": "The number of students who will act as our tour guides hasn't been decided yet.",
+                "ja": "ツアーガイド役をする学生の人数はまだ決まっていません。"
+              },
+              {
+                "id": "e1_p4_s2",
+                "en": "Once I know this information, I'll send you an email.",
+                "ja": "この情報が判明し次第，メールをお送りします。"
+              },
+              {
+                "id": "e1_p4_s3",
+                "en": "When I first arrived in Canada, it was hard for me to get used to life here.",
+                "ja": "カナダに来たばかりの頃は，こちらの生活に慣れるのが大変でした。"
+              },
+              {
+                "id": "e1_p4_s4",
+                "en": "So, I think this orientation will be very useful for the new students.",
+                "ja": "だから，このオリエンテーションは新入生にとってとても役に立つと思います。"
+              },
+              {
+                "id": "e1_p4_s5",
+                "en": "I hope that I can help them have an easier time here.",
+                "ja": "新入生がここでの生活をより快適に過ごせるよう，お手伝いできればと思います。"
+              },
+              {
+                "id": "e1_p4_s6",
+                "en": "I'm looking forward to assisting during the orientation as well.",
+                "ja": "私もオリエンテーションのお手伝いをするのを楽しみにしています。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "email_2",
+          "title": {
+            "en": "Email from the coordinator to you",
+            "ja": "コーディネーターからあなたへのメール（※タイトルはUI表示用）"
+          },
+          "date": "July 16",
+          "subject": "Re: Event Plan",
+          "sender": "Alice Stedman",
+          "recipient": "International Student Club representative",
+          "paragraphs": [
+            [
+              {
+                "id": "e2_p1_s1",
+                "en": "Thank you for making the schedule for the orientation.",
+                "ja": "オリエンテーションのスケジュールを作ってくださりありがとうございます。"
+              },
+              {
+                "id": "e2_p1_s2",
+                "en": "I appreciate your hard work.",
+                "ja": "ご苦労様でした。"
+              },
+              {
+                "id": "e2_p1_s3",
+                "en": "The times for each activity look good, and those are the correct starting and ending times for the orientation.",
+                "ja": "各アクティビティの時間はよさそうですし，オリエンテーションの開始時刻と終了時刻は合っています。"
+              },
+              {
+                "id": "e2_p1_s4",
+                "en": "As you said, there will be 20 students attending the orientation.",
+                "ja": "おっしゃる通り，オリエンテーションに参加する学生は20名の予定です。"
+              },
+              {
+                "id": "e2_p1_s5",
+                "en": "There were 21 students who signed up, but one dropped out.",
+                "ja": "申し込んだ学生は21人でしたが，1人が参加をやめました。"
+              },
+              {
+                "id": "e2_p1_s6",
+                "en": "This number is fine since we can use the biggest room.",
+                "ja": "一番広い部屋が使えるので，この人数で大丈夫です。"
+              },
+              {
+                "id": "e2_p1_s7",
+                "en": "Also, I just heard from Professor Lee that she will be unavailable that day, so I will ask someone else to give the speech instead.",
+                "ja": "また，先ほどリー教授から，その日は都合がつかないとの連絡がありましたので，代わりに他の方にスピーチをお願いする予定です。"
+              }
+            ],
+            [
+              {
+                "id": "e2_p2_s1",
+                "en": "To answer your questions, during the introduction, students will get into groups of four and talk about things that they have in common.",
+                "ja": "質問にお答えしますと，導入の時に，学生は4人ずつのグループになり，それぞれに共通することについて話します。"
+              },
+              {
+                "id": "e2_p2_s2",
+                "en": "For the two activities, one is about learning how to search for books, articles, and other resources available on campus.",
+                "ja": "2つのアクティビティに関して言うと，1つは学内で入手できる本や論文，その他のリソースの検索方法を学ぶことに関するものです。"
+              },
+              {
+                "id": "e2_p2_s3",
+                "en": "For the other activity, we will use online maps to learn about the various places that international students will find useful when living here in Fairview.",
+                "ja": "もう1つのアクティビティでは，オンラインの地図を使って，留学生がフェアビューで生活する際に役立つさまざまな場所について学びます。"
+              },
+              {
+                "id": "e2_p2_s4",
+                "en": "Regarding the projector, I am not sure if one is already in the room.",
+                "ja": "プロジェクターについてですが，部屋備え付けのものがあるかどうかわかりません。"
+              },
+              {
+                "id": "e2_p2_s5",
+                "en": "Can you call or email the Technology Center and confirm this?",
+                "ja": "テクノロジーセンターに電話かメールで確認してもらえますか。"
+              },
+              {
+                "id": "e2_p2_s6",
+                "en": "If there isn't one, please ask them to set one up for us.",
+                "ja": "もしなければ，私たちのために設置してもらえるようお願いしてください。"
+              }
+            ],
+            [
+              {
+                "id": "e2_p3_s1",
+                "en": "I have attached a diagram for the student Q&A discussion seating arrangements.",
+                "ja": "学生質疑応答の座席配置図を添付しました。"
+              },
+              {
+                "id": "e2_p3_s2",
+                "en": "I plan to use the desks already in the classroom, so we will not need to bring in any large tables.",
+                "ja": "すでに教室にある机を使う予定ですので，大きなテーブルを持ち込む必要はありません。"
+              },
+              {
+                "id": "e2_p3_s3",
+                "en": "All the club members answering questions will be at the front of the room facing the audience, and they will each need a desk.",
+                "ja": "質問に答える部員は全員，聴衆の方を向いて部屋の一番前に座り，それぞれに机が必要です。"
+              },
+              {
+                "id": "e2_p3_s4",
+                "en": "These desks will be lined up in a straight row.",
+                "ja": "机は，まっすぐ一列に並びます。"
+              },
+              {
+                "id": "e2_p3_s5",
+                "en": "For the international students, let's just use chairs without desks so that they can sit closer and talk in a friendly atmosphere.",
+                "ja": "留学生の皆さんは，机なしで椅子だけを使い，近くに座って和やかな雰囲気で話せるようにしましょう。"
+              }
+            ]
+          ],
+          "after_paragraph_content": {
+            "en": "Attachment: Student Q&A discussion set up diagram",
+            "ja": "添付：学生質疑応答の配置図"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 18,
+          "stem": {
+            "en": "Based on your email, what is your motivation for helping with the orientation? [18]",
+            "ja": "あなたのメールに基づくと，あなたがオリエンテーションの手伝いをする動機は何ですか。[18]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Assisting students from abroad to adapt to the university",
+              "ja": "海外からの留学生が大学に適応するのを手伝うこと",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Enjoying interacting with new students",
+              "ja": "新入生との交流を楽しむこと",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Improving your communication skills",
+              "ja": "自分のコミュニケーションスキルを向上させること",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Recruiting new club members",
+              "ja": "新しいクラブメンバーを勧誘すること",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "e1_p4_s3",
+              "e1_p4_s4",
+              "e1_p4_s5"
+            ],
+            "instructor_note": {
+              "ja": "筆者（あなた）のメール第4段落に述べた動機を根拠に選ぶ問題です。相手のメールや、ボランティア全般のイメージに流されないよう、段落と主語を固定して読みます。",
+              "points": [
+                "e1_p4_s3〜s5で、渡航直後は慣れるのが大変だったこと、だから新入生の役に立ちたいこと、生活を快適にしたいという動機が書かれています。",
+                "②「交流を楽しむ」、③「コミュニケーションスキル」、④「勧誘」は第4段落に根拠がないため誤りです。",
+                "テクニック: 「Based on your email」は必ず自分のメール側を探します。looking forward など結びの定型句だけで選ばないよう確認します。"
+              ]
+            }
+          },
+          "answer": "①"
+        },
+        {
+          "question_id": "問2",
+          "stem": {
+            "en": "Which of these titles best match Ms. Stedman's descriptions for Activity 2 ( [9] ) and Activity 4 ( [10] ) based on the morning and afternoon themes?",
+            "ja": "午前と午後のテーマに基づいて，アクティビティ2（[9]）とアクティビティ4（[10]）に対するステッドマンさんの説明に最もよく合うタイトルは，次のうちどれですか。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Clubs at Fairview University",
+              "ja": "フェアビュー大学のクラブ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Effective study habits",
+              "ja": "効果的な学習習慣",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Library and research workshop",
+              "ja": "図書館と研究のワークショップ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Life in Fairview City",
+              "ja": "フェアビュー市での生活",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Navigating the classrooms",
+              "ja": "教室の案内",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Supporting students' health",
+              "ja": "学生の健康支援",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "t_s4",
+              "e2_p2_s2",
+              "t_s21",
+              "e2_p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "タイムテーブルの午前・午後のテーマと、Ms. Stedman が説明する各 Activity の内容を対応づけ、タイトル候補に言い換える問題です。",
+              "points": [
+                "Activity 2 は午前の Academic resources 配下で、e2_p2_s2 が「本・論文・キャンパス上のリソースの検索」と説明されているため、③「図書館と研究のワークショップ」が合致します。",
+                "Activity 4 は午後の Adapting to a new environment 配下で、e2_p2_s3 が「オンライン地図で生活に役立つ場所」と説明されているため、④「フェアビュー市での生活」が合致します。",
+                "⑤「教室の案内」や⑥「健康」など、該当段落にないテーマは除外します。",
+                "テクニック: 複数空欄では本文の動詞・名詞（search, maps, places）と選択肢のパラフレーズを短く結びつけて確認します。"
+              ]
+            }
+          },
+          "answer_numbers": [
+            19,
+            20
+          ],
+          "answer": "③・④"
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "stem": {
+            "en": "Referring to Ms. Stedman's reply, which of the following needs to be reconsidered? [21]",
+            "ja": "ステッドマンさんの返信を参照して，次のうち再考する必要があるのはどれですか。[21]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The introduction activity in the morning",
+              "ja": "午前の導入アクティビティ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The location of some activities",
+              "ja": "いくつかのアクティビティの場所",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The number of international students attending",
+              "ja": "参加する留学生の数",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The professor giving the closing speech",
+              "ja": "閉会のスピーチを行う教授",
+              "is_correct": true
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "e2_p1_s7"
+            ],
+            "instructor_note": {
+              "ja": "返信で新たに判明した事実によって「計画の見直し」が必要になった箇所を選ぶ問題です。すでに合意・確定している事項と区別します。",
+              "points": [
+                "e2_p1_s7 でリー教授が当日不在のため、閉会スピーチを別の人に依頼する予定になっています。スピーカーが変わる点で④が再考対象です。",
+                "e2_p1_s4〜s6 で人数や部屋のサイズは問題ないとされており、③は再考不要です。",
+                "導入アクティビティ①や会場②については、返信内に変更の記述がありません。"
+              ]
+            }
+          },
+          "answer": "④"
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 22,
+          "stem": {
+            "en": "Which diagram best represents Ms. Stedman's seating plan for the student Q&A discussion? [22]",
+            "ja": "学生質疑応答の座席配置について，ステッドマンさんの案を最もよく表しているのはどの図ですか。[22]"
+          },
+          "figure_image": {
+            "src": "data/zkai/2026/round02/images/s5_q4_diagram.png",
+            "alt": "問4 座席配置図の選択肢"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "e2_p3_s3",
+              "e2_p3_s4",
+              "e2_p3_s5"
+            ],
+            "instructor_note": {
+              "ja": "文章で指定された座席条件（前後関係・机の有無・列の形）を図と照合し、消去法で選ぶ問題です。",
+              "points": [
+                "e2_p3_s3〜s4 で、回答側クラブ員は聴衆に向かって最前列に机付きで座り、机は一直線に並びます。",
+                "e2_p3_s5 で留学生は机なしの椅子のみとし、近くに座って話しやすい雰囲気にします。",
+                "上記をすべて満たす配置が②です。①③④はいずれかの条件と矛盾します。",
+                "テクニック: 図問題では条件を箇条書きにしてから各図をチェックします。"
+              ]
+            }
+          },
+          "answer": "②"
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 23,
+          "stem": {
+            "en": "You will email Ms. Stedman again. In your reply, which two pieces of information are you most likely to include? [23]",
+            "ja": "あなたはステッドマンさんに再びメールをします。あなたの返信には，情報のどの2つを含める可能性が最も高いですか。[23]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A: The arrival time of the guest speakers / B: The equipment available in the room",
+              "ja": "AとB",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "A: The arrival time of the guest speakers / C: The number of students leading the campus tour",
+              "ja": "AとC",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "A: The arrival time of the guest speakers / D: The professor's email address and phone number",
+              "ja": "AとD",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "B: The equipment available in the room / C: The number of students leading the campus tour",
+              "ja": "BとC",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "B: The equipment available in the room / D: The professor's email address and phone number",
+              "ja": "BとD",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "C: The number of students leading the campus tour / D: The professor's email address and phone number",
+              "ja": "CとD",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "e1_p4_s1",
+              "e1_p4_s2",
+              "e2_p2_s4",
+              "e2_p2_s5"
+            ],
+            "instructor_note": {
+              "ja": "これまでのやり取りで「未確定の約束」や「依頼された確認事項」を整理し、次のメールで報告する内容を推測する問題です。",
+              "points": [
+                "e1_p4_s1〜s2 で、キャンパスツアーを率いる学生の人数（C）は未定で、わかり次第連絡すると約束しています。",
+                "e2_p2_s4〜s5 で、教室にプロジェクター（B）があるかテクノロジーセンターに確認してほしいと依頼されています。",
+                "したがって次回メールに含まれるのは B と C の情報で、選択肢④が妥当です。",
+                "A（ゲストの到着時刻）や D（教授の連絡先）は、次回必ず送るよう本文で求められていない点に注意します。"
+              ]
+            }
+          },
+          "answer": "④"
+        }
+      ],
+      "vocabulary": {
+        "en": "Vocabulary",
+        "ja": "語句",
+        "items": [
+          {
+            "en": "orientation",
+            "ja": "オリエンテーション"
+          },
+          {
+            "en": "coordinator",
+            "ja": "コーディネーター"
+          },
+          {
+            "en": "aim to do",
+            "ja": "〜することを目指す"
+          },
+          {
+            "en": "comfortable",
+            "ja": "快適な、リラックスした"
+          },
+          {
+            "en": "confirm",
+            "ja": "〜を確認する"
+          },
+          {
+            "en": "available",
+            "ja": "利用できる"
+          },
+          {
+            "en": "arrange",
+            "ja": "〜を配置する、手配する"
+          },
+          {
+            "en": "get used to",
+            "ja": "〜に慣れる"
+          },
+          {
+            "en": "appreciate",
+            "ja": "〜に感謝する"
+          },
+          {
+            "en": "drop out",
+            "ja": "（参加を）やめる、脱落する"
+          },
+          {
+            "en": "unavailable",
+            "ja": "都合がつかない、手が空いていない"
+          },
+          {
+            "en": "in common",
+            "ja": "共通して"
+          },
+          {
+            "en": "resource",
+            "ja": "リソース、資料"
+          },
+          {
+            "en": "seating arrangement",
+            "ja": "座席配置"
+          },
+          {
+            "en": "audience",
+            "ja": "聴衆"
+          },
+          {
+            "en": "atmosphere",
+            "ja": "雰囲気"
+          }
+        ]
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 15,
+      "points_per_question": 3,
+      "description": "物語文（A Critic's Journey）＋ プレゼンメモ",
+      "situation": {
+        "en": "You are taking an English course, and it is your turn to introduce a story. You have found a story on a foreign website. You are preparing notes for your presentation.",
+        "ja": "あなたは英語の授業を受けており，物語を紹介する自分の番が来ました。あなたは外国のウェブサイトで物語を見つけました。あなたはプレゼンテーションのためのメモを準備しています。"
+      },
+      "passages": [
+        {
+          "id": "story",
+          "title": {
+            "en": "A Critic's Journey",
+            "ja": "ある批評家の旅路"
+          },
+          "block_separators": [
+            1,
+            4,
+            7,
+            13,
+            16
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "\"You've got to be kidding!\" shouted Norman at the television screen.",
+                "ja": "「冗談だろ！」ノーマンはテレビの画面に向かって叫んだ。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "Norman loved movies and television, but sometimes they made him so angry.",
+                "ja": "ノーマンは映画やテレビが大好きだったが，ときどきそれらに怒りを感じることがあった。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "\"These stories could be so much better,\" he thought.",
+                "ja": "「これらの物語はもっとずっと良くなるはずなのに」と彼は思った。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "To express his feelings, he began writing funny, angry reviews and posted them on social media sites.",
+                "ja": "自分の気持ちを表現するために，彼はおもしろくて怒りに満ちたレビューを書き始め，それらをソーシャルメディアのサイトに投稿した。"
+              },
+              {
+                "id": "p1_s5",
+                "en": "People enjoyed his humorous style.",
+                "ja": "人々は彼のユーモラスなスタイルを楽しんだ。"
+              },
+              {
+                "id": "p1_s6",
+                "en": "Encouraged by the response, he started an online video channel called 'Norman's Soapbox.'",
+                "ja": "反応に励まされ，彼は「ノーマンズ・ソープボックス」というオンラインビデオチャンネルを始めた。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "The channel's sharp comments and witty jokes attracted many viewers, and Norman, who was still a high school student, was starting to become famous.",
+                "ja": "チャンネルの鋭いコメントと気の利いたジョークは多くの視聴者を惹きつけ，まだ高校生だったノーマンは有名になり始めていた。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "His fame and the money the channel had earned enabled him to join the best film and television course in the United States.",
+                "ja": "彼の名声とチャンネルが稼いだお金により，彼はアメリカで最高の映画・テレビコースに入ることができた。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "He moved to New York City and kept making new videos every week in his college dormitory.",
+                "ja": "彼はニューヨーク市に引っ越し，大学の寮で毎週新しいビデオを作り続けた。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "Norman shared a room with his classmate Ben.",
+                "ja": "ノーマンはクラスメートのベンと部屋を共有していた。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "Ben also loved films but had a more positive approach drawing inspiration from the filmmakers he loved rather than those he disliked.",
+                "ja": "ベンも映画が大好きだったが，嫌いな映画制作者からではなく，好きな映画制作者からインスピレーションを得るという，より前向きなアプローチを持っていた。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "He was always busy with original video projects that he would submit to contests and use for job applications.",
+                "ja": "彼はコンテストに応募したり就職活動に使ったりするオリジナルのビデオプロジェクトにいつも忙しくしていた。"
+              },
+              {
+                "id": "p3_s4",
+                "en": "\"You should try making a short film,\" Ben suggested one day.",
+                "ja": "「短編映画を作ってみたらどう」とベンはある日提案した。"
+              },
+              {
+                "id": "p3_s5",
+                "en": "\"It would be a great experience for you.\"",
+                "ja": "「いい経験になると思うよ。」"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "Norman shrugged.",
+                "ja": "ノーマンは肩をすくめた。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "\"I'm fine with my reviews,\" he replied, but it wasn't true.",
+                "ja": "「レビューで十分だよ」と彼は答えたが，それは本当ではなかった。"
+              },
+              {
+                "id": "p4_s3",
+                "en": "Actually, Norman was struggling to find work.",
+                "ja": "実際，ノーマンは仕事を見つけるのに苦労していた。"
+              },
+              {
+                "id": "p4_s4",
+                "en": "He had applied for internships and jobs but was constantly turned down.",
+                "ja": "インターンシップや仕事に応募していたが，絶えず断られていた。"
+              },
+              {
+                "id": "p4_s5",
+                "en": "Feeling frustrated, Norman decided to leave university.",
+                "ja": "不満を感じたノーマンは，大学を辞めることを決意した。"
+              },
+              {
+                "id": "p4_s6",
+                "en": "\"Maybe it's better if I focus on my channel,\" he thought.",
+                "ja": "「チャンネルに集中した方がいいかもしれない」と彼は思った。"
+              },
+              {
+                "id": "p4_s7",
+                "en": "It was also because he couldn't bear facing Ben every day.",
+                "ja": "それはまた，毎日ベンと顔を合わせるのに耐えられなかったからでもあった。"
+              },
+              {
+                "id": "p4_s8",
+                "en": "Ben had already found work as an assistant on a real film set, and his career was taking off.",
+                "ja": "ベンはすでに本物の映画のセットでアシスタントとしての仕事を見つけており，彼のキャリアは軌道に乗り始めていた。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "The channel was fairly successful, and his dream of becoming a director faded.",
+                "ja": "チャンネルはそこそこ成功し，監督になるという彼の夢は薄れていった。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "The quality of his videos improved and his sharp critiques caught the attention of people in the film and television industry.",
+                "ja": "彼のビデオの質は向上し，鋭い批評は映画・テレビ業界の人々の注目を集めた。"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "One afternoon, Norman received an unexpected e-mail from Brightbot Films, a production company he had criticized quite often.",
+                "ja": "ある午後，ノーマンは彼がかなり頻繁に批判していた制作会社ブライトボット・フィルムズから予想外のメールを受け取った。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "They wanted to meet with him.",
+                "ja": "彼らは彼と会いたいと思っていた。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "Surprised but curious, he agreed.",
+                "ja": "驚いたが興味もあり，彼は同意した。"
+              }
+            ],
+            [
+              {
+                "id": "p7_s1",
+                "en": "At the meeting, Ms. Johnson, a senior producer, greeted him warmly.",
+                "ja": "打ち合わせの場で，シニアプロデューサーのジョンソンさんが彼を温かく迎えた。"
+              },
+              {
+                "id": "p7_s2",
+                "en": "\"We've been watching your reviews,\" she said.",
+                "ja": "「私たちはあなたのレビューを見てきました」と彼女は言った。"
+              },
+              {
+                "id": "p7_s3",
+                "en": "Norman was shocked.",
+                "ja": "ノーマンはショックを受けた。"
+              },
+              {
+                "id": "p7_s4",
+                "en": "\"Oh no. They've brought me here to scold me,\" he thought.",
+                "ja": "「しまった。叱るためにここに呼ばれたんだ」と彼は思った。"
+              },
+              {
+                "id": "p7_s5",
+                "en": "He had no words.",
+                "ja": "彼は言葉が出なかった。"
+              },
+              {
+                "id": "p7_s6",
+                "en": "Ms. Johnson smiled, \"We believe you have valuable insights. Would you like to work with us as a consultant?\"",
+                "ja": "ジョンソンさんは微笑んで言った。「あなたには貴重な見識があると考えています。コンサルタントとして私たちと一緒に働きませんか。」"
+              }
+            ],
+            [
+              {
+                "id": "p8_s1",
+                "en": "Norman was surprised.",
+                "ja": "ノーマンは驚いた。"
+              },
+              {
+                "id": "p8_s2",
+                "en": "\"But you've seen my reviews of your shows,\" he reminded her.",
+                "ja": "「でもあなたの番組に対する僕のレビューを見たでしょう」と彼は言った。"
+              },
+              {
+                "id": "p8_s3",
+                "en": "Ms. Johnson kept smiling.",
+                "ja": "ジョンソンさんは微笑み続けた。"
+              },
+              {
+                "id": "p8_s4",
+                "en": "\"That's exactly why we want you. Your perspective can help us improve.\"",
+                "ja": "「まさにそれが私たちがあなたを求める理由です。あなたの視点が私たちの改善に役立ちます。」"
+              },
+              {
+                "id": "p8_s5",
+                "en": "Accepting the offer, Norman began working with the production team.",
+                "ja": "申し出を受け入れ，ノーマンは制作チームと一緒に働き始めた。"
+              },
+              {
+                "id": "p8_s6",
+                "en": "His ideas were fresh and helpful.",
+                "ja": "彼のアイデアは新鮮で役に立つものだった。"
+              },
+              {
+                "id": "p8_s7",
+                "en": "The company started to see positive changes, and Norman felt proud of his contribution.",
+                "ja": "会社は良い変化を見せ始め，ノーマンは自分の貢献を誇りに感じた。"
+              }
+            ],
+            [
+              {
+                "id": "p9_s1",
+                "en": "After some time, Ms. Johnson called Norman via video chat to talk about his future at the company.",
+                "ja": "しばらくして，ジョンソンさんはビデオ通話でノーマンに連絡し，会社での彼の将来について話した。"
+              },
+              {
+                "id": "p9_s2",
+                "en": "\"We don't need a consultant anymore,\" she explained.",
+                "ja": "「もうコンサルタントは必要ありません」と彼女は説明した。"
+              },
+              {
+                "id": "p9_s3",
+                "en": "\"But we could use a director.\"",
+                "ja": "「でも，監督なら必要です。」"
+              }
+            ],
+            [
+              {
+                "id": "p10_s1",
+                "en": "Norman was no longer enthusiastic about directing.",
+                "ja": "ノーマンはもはや監督することに熱意を感じていなかった。"
+              },
+              {
+                "id": "p10_s2",
+                "en": "He had seen how hard it was.",
+                "ja": "それがどれほど大変かを目の当たりにしていたのだ。"
+              },
+              {
+                "id": "p10_s3",
+                "en": "On the other hand, he couldn't leave the company because his channel was no longer making enough money.",
+                "ja": "一方で，チャンネルがもう十分な収入を得られなくなっていたため，会社を辞めることもできなかった。"
+              },
+              {
+                "id": "p10_s4",
+                "en": "Looking at his troubled expression, she added, \"You seem to have a dilemma.\"",
+                "ja": "困った表情を見て，彼女は付け加えた。「ジレンマを抱えているようですね。」"
+              },
+              {
+                "id": "p10_s5",
+                "en": "\"Not at all,\" he lied.",
+                "ja": "「全然」と彼は嘘をついた。"
+              },
+              {
+                "id": "p10_s6",
+                "en": "\"I'd love to.\"",
+                "ja": "「ぜひやらせてください。」"
+              }
+            ],
+            [
+              {
+                "id": "p11_s1",
+                "en": "Norman gave the project all of his attention, working day and night for a whole year.",
+                "ja": "ノーマンはプロジェクトに全力を注ぎ，丸1年間昼夜を問わず働いた。"
+              },
+              {
+                "id": "p11_s2",
+                "en": "He had made up his mind to create something amazing.",
+                "ja": "彼は素晴らしいものを作ると心に決めていた。"
+              }
+            ],
+            [
+              {
+                "id": "p12_s1",
+                "en": "Soon after the movie's release, negative reviews began to appear online.",
+                "ja": "映画の公開後まもなく，否定的なレビューがオンラインに現れ始めた。"
+              },
+              {
+                "id": "p12_s2",
+                "en": "Critics attacked his work harshly, pointing out flaws and making jokes at his expense.",
+                "ja": "批評家たちは彼の作品を厳しく攻撃し，欠点を指摘し，彼をネタにして冗談を言った。"
+              },
+              {
+                "id": "p12_s3",
+                "en": "Some of the reviewers even seemed inspired by his style from \"Norman's Soapbox.\"",
+                "ja": "レビュワーの中には「ノーマンズ・ソープボックス」での彼のスタイルに触発されたようにさえ見える者もいた。"
+              }
+            ],
+            [
+              {
+                "id": "p13_s1",
+                "en": "Feeling crushed, Norman realized how difficult it was to create something and put it out into the world.",
+                "ja": "打ちのめされた気持ちになり，ノーマンは何かを創り出して世に送り出すことがどれほど難しいかを悟った。"
+              },
+              {
+                "id": "p13_s2",
+                "en": "He felt bad about tearing apart others' work without considering their effort.",
+                "ja": "彼は他人の努力を考慮せずにその作品を酷評していたことを申し訳なく感じた。"
+              },
+              {
+                "id": "p13_s3",
+                "en": "Seeing his disappointment, Ms. Johnson called him into her office.",
+                "ja": "彼の失望を見て，ジョンソンさんは彼をオフィスに呼んだ。"
+              },
+              {
+                "id": "p13_s4",
+                "en": "\"I know this is hard,\" she said gently.",
+                "ja": "「これが大変なのはわかっています」と彼女は優しく言った。"
+              },
+              {
+                "id": "p13_s5",
+                "en": "\"But every creator faces criticism. I still believe in you.\"",
+                "ja": "「でもすべてのクリエイターは批判に直面します。私はまだあなたを信じています。」"
+              },
+              {
+                "id": "p13_s6",
+                "en": "Norman nodded slowly thanking her for the support.",
+                "ja": "ノーマンはゆっくりとうなずき，支えてくれたことに感謝した。"
+              }
+            ],
+            [
+              {
+                "id": "p14_s1",
+                "en": "That evening, he contacted Ben for the first time in a long time and met up with him.",
+                "ja": "その夜，彼は久しぶりにベンに連絡を取り，会った。"
+              },
+              {
+                "id": "p14_s2",
+                "en": "\"Now I understand how hard it is,\" Norman confessed.",
+                "ja": "「今ならそれがどれだけ大変かわかるよ」とノーマンは打ち明けた。"
+              },
+              {
+                "id": "p14_s3",
+                "en": "\"All those times I criticized others, I didn't realize what they went through.\"",
+                "ja": "「他の人を批判していたあの時，彼らが何を経験していたのかわかっていなかった。」"
+              },
+              {
+                "id": "p14_s4",
+                "en": "Ben placed a hand on his shoulder.",
+                "ja": "ベンは彼の肩に手を置いた。"
+              },
+              {
+                "id": "p14_s5",
+                "en": "\"If those directors had listened to you, they would have been better filmmakers,\" he said.",
+                "ja": "「もしあの監督たちが君の言うことを聞いていたら，もっと良い映画制作者になっていたはずだ」と彼は言った。"
+              },
+              {
+                "id": "p14_s6",
+                "en": "\"Now, you need to listen to me. Don't give up.\"",
+                "ja": "「今度は，君が僕の言うことを聞く番だ。あきらめるな。」"
+              }
+            ],
+            [
+              {
+                "id": "p15_s1",
+                "en": "Norman started working closely with Ben.",
+                "ja": "ノーマンはベンと緊密に協力して働き始めた。"
+              },
+              {
+                "id": "p15_s2",
+                "en": "Together, they began planning a new film.",
+                "ja": "一緒に新しい映画の企画を始めた。"
+              },
+              {
+                "id": "p15_s3",
+                "en": "Norman read every hurtful comment and negative review of his previous film, making sure not to repeat the same mistakes.",
+                "ja": "ノーマンは前作の映画に対する心無いコメントや否定的なレビューをすべて読み，同じ過ちを繰り返さないようにした。"
+              },
+              {
+                "id": "p15_s4",
+                "en": "Creating the film was a slow process, but three years later, when it was finally released, reviewers praised the story and directing.",
+                "ja": "映画の制作は遅い過程だったが，3年後にようやく公開されると，レビュワーたちは物語と監督を称賛した。"
+              },
+              {
+                "id": "p15_s5",
+                "en": "Norman felt a sense of accomplishment he had never felt before.",
+                "ja": "ノーマンはこれまで感じたことのない達成感を感じた。"
+              }
+            ],
+            [
+              {
+                "id": "p16_s1",
+                "en": "A week later, he received an e-mail from one of the online reviewers who had criticized his earlier movie.",
+                "ja": "1週間後，彼は以前の映画を批判したオンラインレビュワーの1人からメールを受け取った。"
+              },
+              {
+                "id": "p16_s2",
+                "en": "\"I watched your new film,\" it read.",
+                "ja": "「あなたの新しい映画を観ました」と書かれていた。"
+              },
+              {
+                "id": "p16_s3",
+                "en": "\"It's impressive to see what you achieved. Keep up the good work.\"",
+                "ja": "「あなたが成し遂げたことは印象的です。この調子で頑張ってください。」"
+              }
+            ],
+            [
+              {
+                "id": "p17_s1",
+                "en": "Norman thanked her.",
+                "ja": "ノーマンは彼女に感謝した。"
+              },
+              {
+                "id": "p17_s2",
+                "en": "He knew now that criticism could be helpful if taken the right way.",
+                "ja": "彼は今，批判は正しく受け止めれば役に立つことを知っていた。"
+              },
+              {
+                "id": "p17_s3",
+                "en": "He sent Ms. Johnson a text message expressing his gratitude.",
+                "ja": "彼はジョンソンさんに感謝を伝えるテキストメッセージを送った。"
+              },
+              {
+                "id": "p17_s4",
+                "en": "\"Thank you for believing in me,\" it said.",
+                "ja": "「僕を信じてくれてありがとう」と書いてあった。"
+              },
+              {
+                "id": "p17_s5",
+                "en": "She texted back.",
+                "ja": "彼女は返信した。"
+              },
+              {
+                "id": "p17_s6",
+                "en": "\"I always knew you had potential. Are you ready for the next project?\"",
+                "ja": "「あなたには潜在能力があるとずっとわかっていましたよ。次のプロジェクトの準備はできていますか。」"
+              },
+              {
+                "id": "p17_s7",
+                "en": "After thinking carefully, he typed, \"I'm not sure.\"",
+                "ja": "よく考えた後，彼は「わかりません」と打った。"
+              }
+            ],
+            [
+              {
+                "id": "p18_s1",
+                "en": "A few months later, Norman finally decided to leave filmmaking, returning his attention to running his channel, now renamed 'Foreman Norman.'",
+                "ja": "数カ月後，ノーマンはついに映画制作を離れることを決め，今や「フォアマン・ノーマン」と改名したチャンネルの運営に注意を戻した。"
+              },
+              {
+                "id": "p18_s2",
+                "en": "The channel had evolved over the years, and now he aimed to inspire others by talking about filmmakers who had learned from their failures.",
+                "ja": "チャンネルは何年もかけて進化しており，今では失敗から学んだ映画制作者たちについて語ることで他の人々を鼓舞することを目指していた。"
+              }
+            ],
+            [
+              {
+                "id": "p19_s1",
+                "en": "Looking back, Norman realized how much he had changed.",
+                "ja": "振り返ると，ノーマンは自分がどれほど変わったかに気づいた。"
+              },
+              {
+                "id": "p19_s2",
+                "en": "He now understood the importance of both giving and receiving constructive criticism.",
+                "ja": "彼は今，建設的な批判を与えることと受けることの両方の大切さを理解していた。"
+              },
+              {
+                "id": "p19_s3",
+                "en": "Norman's journey taught him that while it's easy to criticize, it's far harder to create.",
+                "ja": "ノーマンの旅は，批判することは簡単だが，創り出すことの方がはるかに難しいということを彼に教えた。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "notes",
+          "title": {
+            "en": "Your notes:",
+            "ja": "あなたのメモ："
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "n_s1",
+                "en": "Story Outline",
+                "ja": "物語の概要",
+                "role": "section_header"
+              },
+              {
+                "id": "n_s2",
+                "en": "Norman starts writing film reviews on social media.",
+                "ja": "ノーマンがソーシャルメディアで映画レビューを書き始める。"
+              },
+              {
+                "id": "n_s3",
+                "en": "[24] → [25] → [26] → [27]",
+                "ja": "[24]→[25]→[26]→[27]",
+                "role": "sequence_slots"
+              },
+              {
+                "id": "n_s4",
+                "en": "Norman's channel acquires a new perspective.",
+                "ja": "ノーマンのチャンネルが新たな視点を得る。"
+              }
+            ],
+            [
+              {
+                "id": "n_s5",
+                "en": "About Norman",
+                "ja": "ノーマンについて",
+                "role": "section_header"
+              },
+              {
+                "id": "n_s6",
+                "en": "Studied at the top film school in the USA.",
+                "ja": "アメリカのトップの映画学校で学んだ。",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s7",
+                "en": "Total experience as a film director: [28]",
+                "ja": "映画監督としての合計経験：[28]",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s8",
+                "en": "How he used his online video channel:",
+                "ja": "オンラインビデオチャンネルの使い方：",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s9",
+                "en": "Norman's Soapbox [29].",
+                "ja": "ノーマンズ・ソープボックス [29]。",
+                "role": "sub_bullet"
+              },
+              {
+                "id": "n_s10",
+                "en": "Foreman Norman [30].",
+                "ja": "フォアマン・ノーマン [30]。",
+                "role": "sub_bullet"
+              }
+            ],
+            [
+              {
+                "id": "n_s11",
+                "en": "Interpretation of key moments",
+                "ja": "重要な場面の解釈",
+                "role": "section_header"
+              },
+              {
+                "id": "n_s12",
+                "en": "Norman did not know what to say when he first met Ms. Johnson in her office because he [31].",
+                "ja": "ノーマンが初めてジョンソンさんのオフィスで彼女に会った時，言葉が出なかったのは，彼が[31]からである。",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s13",
+                "en": "When Ms. Johnson made a video call to Norman, she used the word \"dilemma\" with him. The dilemma was that Norman [32].",
+                "ja": "ジョンソンさんがノーマンにビデオ通話をかけたとき，彼女は彼に「ジレンマ」という言葉を使った。そのジレンマとは，ノーマンが[32]ということだった。",
+                "role": "bullet"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_numbers": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "question_type": "ordering",
+          "stem": {
+            "en": "Choose four out of the five events (①～⑤) and arrange them in the order they happened. [24] → [25] → [26] → [27]",
+            "ja": "5つの出来事（①〜⑤）から4つ選び，起こった順に並べなさい。[24]→[25]→[26]→[27]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A critic contacted Norman directly.",
+              "ja": "批評家がノーマンに直接連絡を取った。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Ben got a job on a movie.",
+              "ja": "ベンが映画の仕事を得た。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Ms. Johnson criticized a filmmaker.",
+              "ja": "ジョンソンさんが映画制作者を批判した。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Norman quit studying at university.",
+              "ja": "ノーマンが大学での勉強を辞めた。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Norman regretted having attacked creators.",
+              "ja": "ノーマンがクリエイターを攻撃していたことを後悔した。",
+              "is_correct": true
+            }
+          ],
+          "answer": "②→④→①→⑤",
+          "answer_sequence": [
+            2,
+            4,
+            1,
+            5
+          ],
+          "answer_note": "全部正解で3点",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p4_s8",
+              "p4_s5",
+              "p6_s1",
+              "p13_s1",
+              "p13_s2"
+            ],
+            "instructor_note": {
+              "ja": "5つの出来事のうち本文に沿わない1つを除き、物語の時系列に並べる問題です。固有名詞と段落でアンカーを置くと安全です。",
+              "points": [
+                "p4_s8 でベンが映画セットで働き始めキャリアが伸びている（②）。続く p4_s5 でノーマンが大学を辞める（④）。",
+                "p6_s1 で批判していた制作会社から予想外のメールが届く（①）。p13_s1〜s2 で創作の難しさを知り、他人の作品を酷評していたことへの後悔（⑤）が述べられる。",
+                "③「ジョンソンさんが制作者を批判した」は、並べる出来事として本文と対応しないため除外します。",
+                "テクニック: 並べ替えでは誤答選択肢が時系列のどこにも入らないかを先に確認し、残り4つだけ順序を確定します。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 28,
+          "stem": {
+            "en": "Choose the best option for [28].",
+            "ja": "[28]に入れるのに最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "About 1 year",
+              "ja": "約1年",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "About 2 years",
+              "ja": "約2年",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "About 4 years",
+              "ja": "約4年",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "About 8 years",
+              "ja": "約8年",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p11_s1",
+              "p15_s4"
+            ],
+            "instructor_note": {
+              "ja": "映画制作に要した期間を、本文の複数の時間表現から読み取る問題です。数値をそのまま足し合わせる発想で整理します。",
+              "points": [
+                "p11_s1 でノーマンがプロジェクトに「1年間」全力で取り組んだとあります。",
+                "p15_s4 で制作は遅かったが「3年後」に公開されたと続くため、ここまでのスパンを含めて約4年と捉えるのが自然です。",
+                "①2年・②2年・④8年は、上記の組み合わせと整合しません。",
+                "テクニック: 「丸1年」「three years later」など別段落の年数をつなげる問いでは、該当文をマークしてから選択肢を見ます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            29,
+            30
+          ],
+          "stem": {
+            "en": "Choose the best options for [29] and [30].",
+            "ja": "[29]と[30]に入れるのに最も適当な選択肢を選びなさい。"
+          },
+          "choices_29": [
+            {
+              "label": "①",
+              "en": "advised people on dealing with criticism",
+              "ja": "批判への対処法を人々に助言した",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "focused on the educational value of failure",
+              "ja": "失敗の教育的価値に焦点を当てた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "humorously attacked people's creative projects",
+              "ja": "人々の創造的なプロジェクトをユーモラスに攻撃した",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "recommended films for people to watch",
+              "ja": "人々に観るべき映画を推薦した",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "taught how to create an attractive video channel",
+              "ja": "魅力的なビデオチャンネルの作り方を教えた",
+              "is_correct": false
+            }
+          ],
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "advised people on dealing with criticism",
+              "ja": "批判への対処法を人々に助言した",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "focused on the educational value of failure",
+              "ja": "失敗の教育的価値に焦点を当てた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "humorously attacked people's creative projects",
+              "ja": "人々の創造的なプロジェクトをユーモラスに攻撃した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "recommended films for people to watch",
+              "ja": "人々に観るべき映画を推薦した",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "taught how to create an attractive video channel",
+              "ja": "魅力的なビデオチャンネルの作り方を教えた",
+              "is_correct": false
+            }
+          ],
+          "answer": "③・②",
+          "answer_note": "両方正解で3点",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p1_s4",
+              "p1_s6",
+              "p18_s1",
+              "p18_s2"
+            ],
+            "instructor_note": {
+              "ja": "メモの「Norman's Soapbox［29］」「Foreman Norman［30］」に、それぞれの時期のチャンネルの内容を本文から言い換える問題です。前半と後半で論旨が変わる点に注意します。",
+              "points": [
+                "[29] は初期チャンネル。p1_s4 や p2_s1 で鋭いコメントやウィットに富んだジョークが述べられ、③「創造的プロジェクトをユーモラスに攻撃した」が合致します。",
+                "[30] は改名後のチャンネル。p18_s1〜s2 で失敗から学んだ映画制作者について語り他者を鼓舞することが述べられ、②「失敗の教育的価値に焦点を当てた」が合致します。",
+                "①④⑤は、いずれかの時期の記述として本文と結びつきません。",
+                "テクニック: 同一の選択肢肢が二列に並ぶ形式では、[29]用・[30]用で別々に根拠段落を当てはめます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 31,
+          "stem": {
+            "en": "Choose the best option for [31].",
+            "ja": "[31]に入れるのに最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "expected some harsh words",
+              "ja": "厳しい言葉を予想していた",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "forgot his hard criticism",
+              "ja": "自分の厳しい批評を忘れていた",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "had not prepared for the interview",
+              "ja": "面談の準備をしていなかった",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "had not seen any of her movies",
+              "ja": "彼女の映画をどれも見ていなかった",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p7_s3",
+              "p7_s4",
+              "p7_s5"
+            ],
+            "instructor_note": {
+              "ja": "ジョンソンさんのオフィスでの初対面で、ノーマンが言葉に詰まった理由を、直前の心理描写から読み取る問題です。",
+              "points": [
+                "p7_s3〜s5 で、彼女は彼の辛辣なレビューを知っており、ノーマンは厳しい言葉を予想していたため言葉が出なかった、という流れが描かれます。①がこれに合致します。",
+                "②「酷評を忘れていた」、③「面談の準備不足」は本文が示す緊張の理由と一致しません。",
+                "テクニック: 「because」が空所に入る文型では、直前の感情・予期（expected）を優先して読みます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 32,
+          "stem": {
+            "en": "Choose the best option for [32].",
+            "ja": "[32]に入れるのに最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "did not know if he had the talent to complete a task",
+              "ja": "課題を完遂する才能があるかどうかわからなかった",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "faced a reduced income or a job he was not interested in",
+              "ja": "収入の減少か興味のない仕事に直面していた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "knew he had to make online videos instead of following his dream",
+              "ja": "夢を追う代わりにオンライン動画を作らなければならないとわかっていた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "wanted to be a consultant as well as a director",
+              "ja": "コンサルタントと監督の両方になりたかった",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p10_s1",
+              "p10_s3",
+              "p10_s4"
+            ],
+            "instructor_note": {
+              "ja": "ビデオ通話で Ms. Johnson が「ジレンマ」と言及している内容が何を指すか、直前の段落から読み取る問題です。",
+              "points": [
+                "p10_s1, s3, s4 で、ノーマンは監督として雇われたが給与が低く、興味のない仕事もこなす必要があるなど、いわゆる板挟みの状況が述べられます。②がこれに合致します。",
+                "①の才能の有無、③の動画制作への強制、④の二職業志向は、ここで説明されるジレンマの内容として本文と一致しません。",
+                "テクニック: dilemma の直前・直後の具体例（収入・仕事内容）に線を引いてから選択肢へ落とし込みます。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "語句",
+          "items": [
+            {
+              "en": "soapbox",
+              "ja": "演説台（転じて，自分の意見を主張する場）"
+            },
+            {
+              "en": "witty",
+              "ja": "機知に富んだ"
+            },
+            {
+              "en": "dormitory",
+              "ja": "寮"
+            },
+            {
+              "en": "inspiration",
+              "ja": "ひらめき，インスピレーション"
+            },
+            {
+              "en": "shrug",
+              "ja": "肩をすくめる"
+            },
+            {
+              "en": "internship",
+              "ja": "インターンシップ，研修"
+            },
+            {
+              "en": "take off",
+              "ja": "（事業・キャリアなどが）軌道に乗る"
+            },
+            {
+              "en": "critique",
+              "ja": "批評"
+            },
+            {
+              "en": "scold",
+              "ja": "〜を叱る"
+            },
+            {
+              "en": "insight",
+              "ja": "洞察，見識"
+            },
+            {
+              "en": "consultant",
+              "ja": "コンサルタント，顧問"
+            },
+            {
+              "en": "perspective",
+              "ja": "視点，見方"
+            },
+            {
+              "en": "contribution",
+              "ja": "貢献"
+            },
+            {
+              "en": "enthusiastic",
+              "ja": "熱心な，熱意のある"
+            },
+            {
+              "en": "dilemma",
+              "ja": "ジレンマ，板挟み"
+            },
+            {
+              "en": "at one's expense",
+              "ja": "〜を犠牲にして；〜をネタにして"
+            },
+            {
+              "en": "tear apart",
+              "ja": "〜を厳しく批判する；〜をばらばらにする"
+            },
+            {
+              "en": "confess",
+              "ja": "〜を打ち明ける，告白する"
+            },
+            {
+              "en": "accomplishment",
+              "ja": "達成，業績"
+            },
+            {
+              "en": "gratitude",
+              "ja": "感謝（の気持ち）"
+            },
+            {
+              "en": "constructive",
+              "ja": "建設的な"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 16,
+      "points_per_question": 0,
+      "description": "長文読解（アーユルヴェーダ医学）とアウトライン作成",
+      "situation": {
+        "en": "You are preparing a presentation for a science project on traditional medicine. You found some interesting information in the article below and are now making your outline.",
+        "ja": "あなたは伝統医学に関する科学プロジェクトのプレゼンテーションの準備をしています。以下の記事に興味深い情報を見つけ、現在アウトラインを作成しています。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Ayurvedic Medicine",
+            "ja": "アーユルヴェーダ医学"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "The idea of health and wellness relates to the state of feeling physically, mentally, and socially healthy and the process needed to achieve this state.",
+                "ja": "健康とウェルネスの概念は、身体的、精神的、社会的に健康であると感じる状態と、この状態を達成するために必要なプロセスに関係している。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "Western medicine focuses mostly on physical health with evidence-based approaches.",
+                "ja": "西洋医学は、証拠に基づいたアプローチで主に身体の健康に焦点を当てている。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "However, many so-called \"traditional medicine\" practices focus on more than just physical health.",
+                "ja": "しかし、いわゆる「伝統医学」の多くの実践は、単なる身体の健康以上のものに焦点を当てている。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "Traditional medicine is based on the beliefs and cultural practices of a society.",
+                "ja": "伝統医学は、社会の信念や文化的実践に基づいている。"
+              },
+              {
+                "id": "p1_s5",
+                "en": "It is often associated with religious or spiritual beliefs and focuses on mental health alongside physical health.",
+                "ja": "それはしばしば宗教的または精神的な信念と関連しており、身体の健康とともに精神の健康にも焦点を当てる。"
+              },
+              {
+                "id": "p1_s6",
+                "en": "One type of traditional medicine is Ayurvedic medicine.",
+                "ja": "伝統医学の一種がアーユルヴェーダ医学である。"
+              },
+              {
+                "id": "p1_s7",
+                "en": "It originated in India more than 5,000 years ago.",
+                "ja": "それは5000年以上前にインドで発祥した。"
+              },
+              {
+                "id": "p1_s8",
+                "en": "The name comes from the word Ayurveda, meaning the science of life.",
+                "ja": "その名前はアーユルヴェーダ（生命の科学を意味する）という言葉に由来する。"
+              },
+              {
+                "id": "p1_s9",
+                "en": "Ayurvedic medicine focuses on reducing the symptoms of and increasing resistance to disease, reducing stress, and creating a life filled with balance and harmony.",
+                "ja": "アーユルヴェーダ医学は、病気の症状を軽減し抵抗力を高め、ストレスを減らし、バランスと調和に満ちた生活を創造することに焦点を当てている。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "Ayurvedic medicine often uses herbs.",
+                "ja": "アーユルヴェーダ医学はしばしばハーブを使用する。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "These herbs are used to treat a variety of symptoms.",
+                "ja": "これらのハーブは様々な症状を治療するために使用される。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "Research on the effects of Ayurvedic treatments is limited, but some studies have shown them to have benefits.",
+                "ja": "アーユルヴェーダ治療の効果に関する研究は限られているが、いくつかの研究では効果があることが示されている。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "Ashwagandha, for example, is an Ayurvedic herb that has been shown to promote relaxation.",
+                "ja": "例えば、アシュワガンダはリラクゼーションを促進することが示されているアーユルヴェーダのハーブである。"
+              },
+              {
+                "id": "p2_s5",
+                "en": "Garlic is used in Ayurvedic treatments to reduce cholesterol, which can cause heart disease.",
+                "ja": "ニンニクは心臓病の原因となるコレステロールを下げるためにアーユルヴェーダ治療で使用される。"
+              },
+              {
+                "id": "p2_s6",
+                "en": "Other herbs can increase cognitive functions, in other words, enhance mental abilities, reduce joint pain, or even regulate hormones, which are chemicals produced by the body.",
+                "ja": "他のハーブは、認知機能の向上（言い換えれば精神能力の強化）、関節痛の軽減、あるいは体内で作られる化学物質であるホルモンの調節まで行うことができる。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "A benefit of using Ayurvedic medicine is that many of the herbs used can be grown at home.",
+                "ja": "アーユルヴェーダ医学を使用する利点の一つは、使用されるハーブの多くを自宅で育てることができることである。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "Plants such as lemongrass, ground ivy, aloe vera, and Indian indigo can easily be grown at home.",
+                "ja": "レモングラス、カキドオシ、アロエベラ、インドアイなどの植物は自宅で簡単に育てることができる。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "These can be used to make teas, oils, powders, and pastes to be taken as medicine.",
+                "ja": "これらは、薬として摂取するための茶、オイル、粉末、ペーストを作るために使用できる。"
+              },
+              {
+                "id": "p3_s4",
+                "en": "Growing herbs at home can ensure their quality when used as medicine.",
+                "ja": "自宅でハーブを育てることは、薬として使用する際の品質を保証することができる。"
+              },
+              {
+                "id": "p3_s5",
+                "en": "It can also reduce the amount of money spent on purchasing products made from these herbs.",
+                "ja": "また、これらのハーブから作られた製品の購入に費やす金額を減らすこともできる。"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "As mentioned above, there is limited research on the effectiveness of Ayurvedic treatments.",
+                "ja": "前述のように、アーユルヴェーダ治療の有効性に関する研究は限られている。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "However, there are some clinical trials that show Ayurvedic medicine works.",
+                "ja": "しかし、アーユルヴェーダ医学が機能することを示すいくつかの臨床試験がある。"
+              },
+              {
+                "id": "p4_s3",
+                "en": "A 2013 study looked into pain relief among 440 participants.",
+                "ja": "2013年の研究では、440人の参加者の間での痛みの軽減について調査された。"
+              },
+              {
+                "id": "p4_s4",
+                "en": "They were split into two groups: one group using Ayurvedic medicine, and the other using Western medicine.",
+                "ja": "彼らは2つのグループに分けられた。1つはアーユルヴェーダ医学を使用するグループで、もう1つは西洋医学を使用するグループである。"
+              },
+              {
+                "id": "p4_s5",
+                "en": "Seven patients in the Ayurvedic treatment group were removed from the study due to liver function problems; however, the participants in both groups reported similar reductions in pain.",
+                "ja": "アーユルヴェーダ治療グループの7人の患者は肝機能の問題により研究から除外されたが、両グループの参加者は同様の痛みの軽減を報告した。"
+              },
+              {
+                "id": "p4_s6",
+                "en": "Another study on chronic joint pain - pain that lasts three or more months - found that compared to participants who used Methotrexate (MTX), a drug widely used for this treatment, those who used Ayurvedic medicine reported fewer negative effects.",
+                "ja": "慢性の関節痛（3ヶ月以上続く痛み）に関する別の研究では、この治療に広く使用されている薬であるメトトレキサート（MTX）を使用した参加者と比較して、アーユルヴェーダ医学を使用した参加者は否定的な影響（副作用）の報告が少なかった。"
+              },
+              {
+                "id": "p4_s7",
+                "en": "The participants using Ayurvedic medicine also experienced positive outcomes similar to those taking the drug.",
+                "ja": "アーユルヴェーダ医学を使用した参加者は、その薬を服用している参加者と同様の肯定的な結果も経験した。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "While the outcomes of the research sound positive, people interested in using Ayurvedic medicine need to understand the commitment that must be made.",
+                "ja": "研究の結果は肯定的に聞こえるが、アーユルヴェーダ医学の使用に興味がある人は、しなければならないコミットメント（専念）を理解する必要がある。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "First and foremost is that no two people are the same, and as such, how long it will take for a treatment to be effective can differ.",
+                "ja": "何よりもまず第一に、全く同じ人間は二人としておらず、そのため治療の効果が現れるまでの時間は異なり得るということである。"
+              },
+              {
+                "id": "p5_s3",
+                "en": "For some people, three months may be all that is needed for the effects to show, while others may have to wait a year or more.",
+                "ja": "効果が現れるのに3ヶ月で十分な人もいれば、1年かそれ以上待たなければならない人もいる。"
+              },
+              {
+                "id": "p5_s4",
+                "en": "Other Ayurvedic treatments may require lifestyle changes to ensure the medicine is used at strict times, together with the right food, as part of a specific diet.",
+                "ja": "他のアーユルヴェーダ治療では、特定の食事療法の一部として、適切な食べ物とともに厳格な時間に薬が使用されることを確実にするために、ライフスタイルの変更が必要になる場合がある。"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "There are also potential risks with Ayurvedic medicine.",
+                "ja": "アーユルヴェーダ医学には潜在的なリスクもある。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "First, many Ayurvedic medicines may contain metals or minerals that are known to be dangerous to humans.",
+                "ja": "第一に、多くのアーユルヴェーダの薬には、人体に危険であることが知られている金属やミネラルが含まれている可能性がある。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "Additionally, certain herbs contained in these medicines may in fact be toxic.",
+                "ja": "さらに、これらの薬に含まれる特定のハーブが実際には有毒である可能性もある。"
+              },
+              {
+                "id": "p6_s4",
+                "en": "A survey found that 40% of participants using Ayurveda medicine who were offered heavy metals screening had increased levels of lead and mercury in their blood.",
+                "ja": "ある調査によると、重金属スクリーニングを受けたアーユルヴェーダ医学を使用している参加者の40％が、血液中の鉛と水銀のレベルが上昇していた。"
+              },
+              {
+                "id": "p6_s5",
+                "en": "Exposure to these substances can negatively affect the human body.",
+                "ja": "これらの物質への曝露は人体に悪影響を及ぼす可能性がある。"
+              }
+            ],
+            [
+              {
+                "id": "p7_s1",
+                "en": "While the concerns about Ayurvedic medicine are serious, there is no doubt that the treatments can be effective.",
+                "ja": "アーユルヴェーダ医学に関する懸念は深刻だが、その治療が効果的であり得ることに疑いの余地はない。"
+              },
+              {
+                "id": "p7_s2",
+                "en": "Western medicine is beginning to find truth in some of the traditional beliefs these treatments come from.",
+                "ja": "西洋医学は、これらの治療の由来となる伝統的な信念の一部に真実を見出し始めている。"
+              },
+              {
+                "id": "p7_s3",
+                "en": "As with all medical treatments, patients should consult an expert before beginning.",
+                "ja": "他のすべての医療行為と同様に、患者は開始する前に専門家に相談するべきである。"
+              },
+              {
+                "id": "p7_s4",
+                "en": "Always seek advice from a doctor or a qualified professional.",
+                "ja": "常に医師や資格を持つ専門家から助言を求めること。"
+              },
+              {
+                "id": "p7_s5",
+                "en": "Ayurvedic medicine is worth further study as a potential alternative for those who cannot obtain good results from western medicine for symptoms such as pain or memory problems.",
+                "ja": "痛みや記憶障害などの症状に対して西洋医学で良い結果を得られない人にとって、アーユルヴェーダ医学は潜在的な代替手段としてさらなる研究の価値がある。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "outline",
+          "title": {
+            "en": "Your presentation outline",
+            "ja": "あなたのプレゼンテーションのアウトライン"
+          },
+          "role": "notes",
+          "paragraphs": [
+            [
+              {
+                "id": "o_p1_s1",
+                "en": "Ayurvedic Medicine",
+                "ja": "アーユルヴェーダ医学",
+                "role": "heading_1"
+              },
+              {
+                "id": "o_p1_s2",
+                "en": "The effects of Ayurvedic Medicine [33]",
+                "ja": "アーユルヴェーダ医学の効果 [33]",
+                "role": "heading_2"
+              },
+              {
+                "id": "o_p1_s3",
+                "en": "A. To lower risk of heart disease",
+                "ja": "A. 心臓病のリスクを下げるため",
+                "role": "bullet"
+              },
+              {
+                "id": "o_p1_s4",
+                "en": "B. To relieve stress",
+                "ja": "B. ストレスを和らげるため",
+                "role": "bullet"
+              },
+              {
+                "id": "o_p1_s5",
+                "en": "C. To damage hormones",
+                "ja": "C. ホルモンにダメージを与えるため",
+                "role": "bullet"
+              },
+              {
+                "id": "o_p1_s6",
+                "en": "D. To improve thinking",
+                "ja": "D. 思考力を高めるため",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "o_p2_s1",
+                "en": "[34]",
+                "ja": "[34]",
+                "role": "heading_2"
+              },
+              {
+                "id": "o_p2_s2",
+                "en": "Some common plants: Lemongrass, ground ivy, aloe vera, Indian indigo",
+                "ja": "いくつかの一般的な植物：レモングラス、カキドオシ、アロエベラ、インドアイ",
+                "role": "bullet"
+              },
+              {
+                "id": "o_p2_s3",
+                "en": "Cheaper than buying from a store",
+                "ja": "店で買うよりも安い",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "o_p3_s1",
+                "en": "Judging Side Effects (from a study on chronic joint pain)",
+                "ja": "副作用の判断（慢性関節痛に関する研究より）",
+                "role": "heading_2"
+              },
+              {
+                "id": "o_p3_s2",
+                "en": "[35]",
+                "ja": "[35]",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "o_p4_s1",
+                "en": "Important Things to Remember about Ayurvedic Medicine",
+                "ja": "アーユルヴェーダ医学について覚えておくべき重要なこと",
+                "role": "heading_2"
+              },
+              {
+                "id": "o_p4_s2",
+                "en": "Patients [36]",
+                "ja": "患者は[36]",
+                "role": "bullet"
+              },
+              {
+                "id": "o_p4_s3",
+                "en": "Patients [37]",
+                "ja": "患者は[37]",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "o_p5_s1",
+                "en": "Potential Risks",
+                "ja": "潜在的なリスク",
+                "role": "heading_2"
+              },
+              {
+                "id": "o_p5_s2",
+                "en": "Ayurvedic medicine [38]",
+                "ja": "アーユルヴェーダ医学は[38]",
+                "role": "bullet"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 33,
+          "stem": {
+            "en": "Under the heading, \"The effects of Ayurvedic Medicine,\" you spotted an error in your presentation outline. Which of the following should you remove? [33]",
+            "ja": "「アーユルヴェーダ医学の効果」という見出しの下で、あなたはプレゼンテーションのアウトラインに間違いを見つけました。次のうちどれを削除すべきですか。[33]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p2_s6",
+              "o_p1_s5"
+            ],
+            "instructor_note": {
+              "ja": "本文の事実とプレゼンのアウトラインを照合し、見出しの下に置いてはいけない（矛盾する）箇条書きを選ぶ問題です。",
+              "points": [
+                "p2_s6 ではアーユルヴェーダはホルモンを regulate（調節）するとあります。",
+                "o_p1_s5 の C は「To damage hormones」とあり、本文と正反対のため削除対象です。よって③です。",
+                "テクニック: effects の見出しでは、動詞の肯定・否定と目的語（regulate と damage）を厳密に照合します。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 34,
+          "stem": {
+            "en": "Choose the best heading for [34].",
+            "ja": "[34]に最も適した見出しを選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Growing Ayurvedic Medicine at Home",
+              "ja": "アーユルヴェーダ医学（のハーブ）を自宅で育てること",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Relying on Common Ayurvedic Medicine",
+              "ja": "一般的なアーユルヴェーダ医学に頼ること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The History of Ayurvedic Medicine",
+              "ja": "アーユルヴェーダ医学の歴史",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Understanding Which Plants to Use",
+              "ja": "どの植物を使うべきかを理解すること",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "o_p2_s2",
+              "o_p2_s3",
+              "p3_s1"
+            ],
+            "instructor_note": {
+              "ja": "アウトラインの箇条書きが要約している本文段落を特定し、適切な見出しを選ぶ問題です。",
+              "points": [
+                "o_p2 の内容は「よく使われる植物」「店より安い」など、本文第3段落の「多くのハーブを自宅で育てられる（grown at home）」に対応します。",
+                "①が最もテーマをカバーします。④は「どの植物か」の選択に絞りすぎ、③の歴史とも異なります。",
+                "テクニック: 箇条書きのキーワード（home, grow, cheap）と見出しの核心語を対応させます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 35,
+          "stem": {
+            "en": "You want to use a figure for the number of negative and positive effects reported in the study on chronic joint pain mentioned in the article. Choose the best option for [35].",
+            "ja": "記事で言及されている慢性関節痛に関する研究で報告された、副作用（否定的な影響）と肯定的な効果の数を示す図を使用したいと思います。[35]に最も適した選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p4_s6",
+              "p4_s7"
+            ],
+            "instructor_note": {
+              "ja": "研究結果の数値・傾向をグラフの形として読み取る問題です。棒グラフの高さが本文の比較と一致するか確認します。",
+              "points": [
+                "p4_s6 でアーユルヴェーダ群は MTX 群より副作用報告が少ない（fewer negative effects）ため、Negative 側の棒はアーユルヴェーダが低くなります。",
+                "p4_s7 で肯定的な結果は両群で同様（similar positive outcomes）なので、Positive 側の棒は同じ高さが妥当です。",
+                "この二者関係を満たすのが②です。",
+                "テクニック: 「fewer」「similar」など比較表現を、グラフの二系列に対応させてチェックします。"
+              ]
+            }
+          },
+          "question_image": {
+            "src": "images/s7_q3_graphs.png",
+            "alt": "問3 グラフの選択肢"
+          }
+        },
+        {
+          "question_id": "問4",
+          "stem": {
+            "en": "Choose the best options for [36] and [37]. (The order does not matter.)",
+            "ja": "[36]と[37]に最も適した選択肢を選びなさい。（順不同）"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "who rely on it may also need western medicine to get results",
+              "ja": "それに頼る人は、結果を得るために西洋医学も必要とするかもしれない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "who take it often report results that are unexpected",
+              "ja": "それを摂取する人は、予期せぬ結果をしばしば報告する",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "who use it may have to follow diet guidelines and other rules to get results",
+              "ja": "それを使用する人は、結果を得るために食事のガイドラインや他の規則に従わなければならないかもしれない",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "who use it may wait long periods before a treatment achieves results",
+              "ja": "それを使用する人は、治療が結果を達成するまでに長期間待つ可能性がある",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "who want it may wait for 3 months to see the doctor",
+              "ja": "それを望む人は、医師の診察を受けるまでに3ヶ月待つ可能性がある",
+              "is_correct": false
+            }
+          ],
+          "answer": "③・④",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p5_s3",
+              "p5_s4"
+            ],
+            "instructor_note": {
+              "ja": "「覚えておくべき重要なこと」の各空欄に、第5段落のコミットメントや生活様式の話と一致する選択肢を入れる問題（順不同）です。",
+              "points": [
+                "p5_s3 は効果が出るまで1年以上かかる場合があり、④「長期間待つ可能性」と一致します。",
+                "p5_s4 は厳格な時間に薬を使うなどライフスタイルの変更が必要な場合があり、③「食事ガイドラインや規則」と結びつきます。",
+                "①の西洋医学の併用や②の「予期せぬ結果」は、該当段落の主旨とずれます。"
+              ]
+            }
+          },
+          "answer_numbers": [
+            36,
+            37
+          ],
+          "unordered_slots": [
+            36,
+            37
+          ]
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 38,
+          "stem": {
+            "en": "Choose the best option for [38].",
+            "ja": "[38]に最も適した選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "has been shown to elevate patients' heart rates when taken incorrectly",
+              "ja": "誤って摂取すると患者の心拍数を上昇させることが示されている",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "has not been scientifically proven to cure patients",
+              "ja": "患者を治癒することが科学的に証明されていない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "may raise the amount of harmful substances in the user's body",
+              "ja": "使用者の体内の有害物質の量を増やす可能性がある",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "may significantly improve blood circulation",
+              "ja": "血行を大幅に改善する可能性がある",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "p6_s4",
+              "p6_s5"
+            ],
+            "instructor_note": {
+              "ja": "「潜在的なリスク」の見出しに入る内容として、有害性・暴露に関する本文の記述と一致する選択肢を選ぶ問題です。",
+              "points": [
+                "p6_s4 で血中の鉛・水銀レベルが上昇した使用者がいると報告されています。",
+                "p6_s5 でこれらの物質への曝露は健康に悪影響を及ぼしうると続くため、③「有害物質の量が増える可能性」が合致します。",
+                "④の血行改善や②の治癒未証明は、リスクの見出しで述べられている焦点と異なります。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "en": "Vocabulary",
+        "ja": "語句",
+        "items": [
+          {
+            "en": "traditional medicine",
+            "ja": "伝統医学"
+          },
+          {
+            "en": "wellness",
+            "ja": "ウェルネス、健康"
+          },
+          {
+            "en": "evidence-based",
+            "ja": "証拠に基づいた"
+          },
+          {
+            "en": "spiritual",
+            "ja": "精神的な、霊的な"
+          },
+          {
+            "en": "originate",
+            "ja": "発祥する、起源を持つ"
+          },
+          {
+            "en": "resistance",
+            "ja": "抵抗（力）"
+          },
+          {
+            "en": "symptom",
+            "ja": "症状"
+          },
+          {
+            "en": "cognitive function",
+            "ja": "認知機能"
+          },
+          {
+            "en": "regulate",
+            "ja": "〜を調節する"
+          },
+          {
+            "en": "clinical trial",
+            "ja": "臨床試験"
+          },
+          {
+            "en": "chronic",
+            "ja": "慢性の"
+          },
+          {
+            "en": "methotrexate",
+            "ja": "メトトレキサート（薬剤名）"
+          },
+          {
+            "en": "commitment",
+            "ja": "コミットメント、専念"
+          },
+          {
+            "en": "potential risk",
+            "ja": "潜在的なリスク"
+          },
+          {
+            "en": "toxic",
+            "ja": "有毒な"
+          },
+          {
+            "en": "screening",
+            "ja": "スクリーニング、ふるい分け"
+          },
+          {
+            "en": "mercury",
+            "ja": "水銀"
+          },
+          {
+            "en": "consult",
+            "ja": "〜に相談する"
+          },
+          {
+            "en": "alternative",
+            "ja": "代替手段、選択肢"
+          }
+        ]
+      }
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 18,
+      "points_per_question": 0,
+      "description": "レポート構成（AIと社会）：意見読解・立場・情報源活用",
+      "situation": {
+        "en": "You are working on an essay about whether or not AI should be used more in our society. You will follow the steps below.",
+        "ja": "あなたはAIを私たちの社会でより多く使用すべきかどうかについてのエッセイに取り組んでいます。あなたは以下のステップに従います。",
+        "steps": [
+          {
+            "en": "Step 1: Read and understand various viewpoints about the impact of AI on society.",
+            "ja": "ステップ1：AIの社会への影響に関するさまざまな見解を読んで理解する。"
+          },
+          {
+            "en": "Step 2: Take a position on whether or not AI should be used more in our society.",
+            "ja": "ステップ2：AIを私たちの社会でより多く使用すべきかどうかについて立場をとる。"
+          },
+          {
+            "en": "Step 3: Create an outline for an essay using additional sources.",
+            "ja": "ステップ3：追加の情報源を使用してエッセイの概要を作成する。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "step1_authors",
+          "step_label": {
+            "en": "[Step 1] Read various sources",
+            "ja": "［ステップ1］さまざまな情報源を読む"
+          },
+          "authors": [
+            {
+              "name": {
+                "en": "Author A (Student)",
+                "ja": "著者A（学生）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "a_s1",
+                    "en": "I love gaming, and AI makes games even cooler.",
+                    "ja": "私はゲームが大好きで、AIはゲームをさらにクールにしてくれる。"
+                  },
+                  {
+                    "id": "a_s2",
+                    "en": "For example, I can meet an endless number of unique characters in my favorite online role-playing video game, and they are all created by AI.",
+                    "ja": "例えば、私のお気に入りのオンラインRPGゲームでは、無数のユニークなキャラクターに出会うことができるが、それらはすべてAIによって作られている。"
+                  },
+                  {
+                    "id": "a_s3",
+                    "en": "I don't even have to waste my time searching for new games to play anymore since my AI-powered software can accurately recommend the next great game I will enjoy.",
+                    "ja": "AI搭載のソフトウェアが次に楽しめる素晴らしいゲームを正確に推薦してくれるため、もう新しいゲームを探すのに時間を無駄にする必要すらない。"
+                  },
+                  {
+                    "id": "a_s4",
+                    "en": "But some people do worry about the negative impact of AI, for example the fear that AI will completely take over game designers' jobs.",
+                    "ja": "しかし、AIの悪影響を心配する人もいる。例えば、AIがゲームデザイナーの仕事を完全に奪ってしまうのではないかという恐れだ。"
+                  },
+                  {
+                    "id": "a_s5",
+                    "en": "Nevertheless, in my opinion human designers will still be required to complete AI designs and ensure quality.",
+                    "ja": "それにもかかわらず、私の意見では、AIのデザインを完成させ品質を保証するために人間のデザイナーは依然として必要とされるだろう。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author B (Parent)",
+                "ja": "著者B（親）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "b_s1",
+                    "en": "As a parent, AI on social media scares me the most.",
+                    "ja": "親として、ソーシャルメディア上のAIが最も恐ろしい。"
+                  },
+                  {
+                    "id": "b_s2",
+                    "en": "It seems like AI just shows kids whatever keeps them online longer, not what's true or good for them.",
+                    "ja": "AIは、何が真実かや何が子供にとって良いかではなく、ただ彼らをより長くオンラインにとどまらせるものなら何でも表示しているようだ。"
+                  },
+                  {
+                    "id": "b_s3",
+                    "en": "They end up seeing lots of fake news and getting some really weird ideas.",
+                    "ja": "彼らは結局、多くのフェイクニュースを目にし、いくつかの本当に奇妙な考えを持つようになる。"
+                  },
+                  {
+                    "id": "b_s4",
+                    "en": "Personally, instead of restricting my kids from accessing social media, I'm trying to teach them to be smart online.",
+                    "ja": "個人的には、子供たちがソーシャルメディアにアクセスするのを制限する代わりに、オンラインで賢くなるように教えようとしている。"
+                  },
+                  {
+                    "id": "b_s5",
+                    "en": "Still, it's hard when AI is programmed to grab their attention in any way it can.",
+                    "ja": "それでも、AIがどんな方法でも注意を引くようにプログラムされている場合、それは難しい。"
+                  },
+                  {
+                    "id": "b_s6",
+                    "en": "We need to think more deeply about our relationship with technology in order to be able to deal with the new era of AI-created content.",
+                    "ja": "AIが作成したコンテンツの新しい時代に対処できるようにするために、私たちはテクノロジーとの関係についてもっと深く考える必要がある。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author C (Business person)",
+                "ja": "著者C（ビジネスパーソン）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "c_s1",
+                    "en": "There's no denying that AI in phones and other devices is pretty handy.",
+                    "ja": "電話やその他のデバイスのAIが非常に便利であることは否定できない。"
+                  },
+                  {
+                    "id": "c_s2",
+                    "en": "I love how my phone's AI helps me organize my day and keep track of my health goals.",
+                    "ja": "電話のAIが私の1日を整理し、健康目標を記録するのを助けてくれるのが気に入っている。"
+                  },
+                  {
+                    "id": "c_s3",
+                    "en": "It's like having a personal assistant in my pocket.",
+                    "ja": "ポケットの中に個人秘書がいるようなものだ。"
+                  },
+                  {
+                    "id": "c_s4",
+                    "en": "AI suggestions for shopping and entertainment are highly accurate, which saves me tons of time.",
+                    "ja": "ショッピングやエンターテイメントに関するAIの提案は非常に正確で、かなりの時間を節約してくれる。"
+                  },
+                  {
+                    "id": "c_s5",
+                    "en": "Sure, some of my friends complain about the devices knowing a bit too much about their users, but I think the convenience is well worth it.",
+                    "ja": "確かに、デバイスがユーザーについて少し知りすぎていると不満を言う友人もいるが、私はその便利さには十分な価値があると思う。"
+                  },
+                  {
+                    "id": "c_s6",
+                    "en": "I can leave the boring tasks to my devices and instead focus my thoughts on more complex and meaningful ideas.",
+                    "ja": "退屈なタスクはデバイスに任せて、代わりに私はより複雑で意味のあるアイデアに思考を集中させることができる。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author D (Journalist)",
+                "ja": "著者D（ジャーナリスト）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "d_s1",
+                    "en": "AI's role in the job market is a topic of intense debate.",
+                    "ja": "求人市場におけるAIの役割は激しい議論のトピックである。"
+                  },
+                  {
+                    "id": "d_s2",
+                    "en": "Supporters talk a lot about how it will create new technology industries with all sorts of new jobs, replacing the ones it destroys.",
+                    "ja": "支持者は、それが失われる仕事に代わって、あらゆる種類の新しい仕事を持つ新しいテクノロジー産業をどのように生み出すかについて多くを語る。"
+                  },
+                  {
+                    "id": "d_s3",
+                    "en": "The unfortunate truth, however, is that workers whose skills will be of no value because of technological advancements like AI are often middle-aged or older.",
+                    "ja": "しかし残念な真実は、AIのような技術の進歩によってスキルが無価値になる労働者は、多くの場合中高年であるということだ。"
+                  },
+                  {
+                    "id": "d_s4",
+                    "en": "If AI is not carefully controlled, these older workers may be forced to adapt to entirely different job industries with little support.",
+                    "ja": "AIが注意深く制御されなければ、これらの中高年労働者はほとんど支援なしに全く異なる職業産業に適応することを余儀なくされるかもしれない。"
+                  },
+                  {
+                    "id": "d_s5",
+                    "en": "Workers could face unemployment, leading to financial and emotional stress.",
+                    "ja": "労働者は失業に直面し、経済的および精神的なストレスにつながる可能性がある。"
+                  },
+                  {
+                    "id": "d_s6",
+                    "en": "Let's think twice before allowing new technology to completely change people's lives.",
+                    "ja": "新しいテクノロジーが人々の生活を完全に変えることを許可する前に、もう一度よく考えよう。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Author E (Programming teacher)",
+                "ja": "著者E（プログラミング教師）"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "e_s1",
+                    "en": "As a teacher of programming, I have always had to deal with adapting to technological changes every few years.",
+                    "ja": "プログラミングの教師として、私は数年ごとに技術の変化に適応し対処しなければならなかった。"
+                  },
+                  {
+                    "id": "e_s2",
+                    "en": "However, I'm concerned that the rapid pace of AI advancements is more quickly than ever before, reducing the importance of the skills I teach students.",
+                    "ja": "しかし、AIの進歩の速いペースがこれまで以上に速く、私が学生に教えるスキルの重要性を低下させていることを懸念している。"
+                  },
+                  {
+                    "id": "e_s3",
+                    "en": "Moreover, the job market is always changing.",
+                    "ja": "さらに、求人市場は常に変化している。"
+                  },
+                  {
+                    "id": "e_s4",
+                    "en": "These concerns make it hard for me to encourage students to study coding in order to be programmers in the future.",
+                    "ja": "これらの懸念のせいで、将来プログラマーになるために学生にコーディングを勉強するよう奨励するのが難しくなっている。"
+                  },
+                  {
+                    "id": "e_s5",
+                    "en": "Not to mention, there are some real moral dilemmas surrounding AI.",
+                    "ja": "言うまでもなく、AIを取り巻く現実の道徳的ジレンマもある。"
+                  },
+                  {
+                    "id": "e_s6",
+                    "en": "I'm particularly concerned about how it might handle our private information in the future.",
+                    "ja": "将来、AIが私たちの個人情報をどのように扱うかについて特に懸念している。"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "step3_sources_outline",
+          "step_label": {
+            "en": "[Step 3] Create an outline using Sources A and B",
+            "ja": "［ステップ3］情報源AとBを使用して概要を作成する"
+          },
+          "outline": {
+            "title": {
+              "en": "Outline of your essay:",
+              "ja": "あなたのエッセイの概要："
+            },
+            "sections": [
+              {
+                "label": {
+                  "en": "AI should be used more in our society",
+                  "ja": "AIは私たちの社会でより多く使われるべきである"
+                },
+                "content": {
+                  "en": "",
+                  "ja": ""
+                }
+              },
+              {
+                "label": {
+                  "en": "Introduction",
+                  "ja": "導入"
+                },
+                "content": {
+                  "en": "While the AI revolution comes with various challenges, it mainly improves our lives by providing us with exciting new opportunities.",
+                  "ja": "AI革命にはさまざまな課題が伴うが、刺激的な新しい機会を提供することで主に私たちの生活を向上させる。"
+                }
+              },
+              {
+                "label": {
+                  "en": "Body",
+                  "ja": "本論"
+                },
+                "reasons": [
+                  {
+                    "label": "Reason 1",
+                    "text": {
+                      "en": "[From Step 2]",
+                      "ja": "［ステップ2より］"
+                    }
+                  },
+                  {
+                    "label": "Reason 2",
+                    "text": {
+                      "en": "[Based on Source A] [44]",
+                      "ja": "［情報源Aに基づく］[44]"
+                    }
+                  },
+                  {
+                    "label": "Reason 3",
+                    "text": {
+                      "en": "[Based on evidence ( [45] ) from Source B]",
+                      "ja": "［情報源Bの証拠（[45]）に基づく］"
+                    }
+                  }
+                ]
+              },
+              {
+                "label": {
+                  "en": "Conclusion",
+                  "ja": "結論"
+                },
+                "content": {
+                  "en": "AI development and use should be encouraged in our society.",
+                  "ja": "私たちの社会においてAIの開発と使用は奨励されるべきである。"
+                }
+              }
+            ]
+          },
+          "sources": [
+            {
+              "name": {
+                "en": "Source A",
+                "ja": "情報源A"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "sa_s1",
+                    "en": "The influence of AI on everyday life can be seen in various popular applications.",
+                    "ja": "日常生活におけるAIの影響は、さまざまな人気アプリケーションに見ることができる。"
+                  },
+                  {
+                    "id": "sa_s2",
+                    "en": "One type of AI, known as a virtual assistant, uses voice recognition and language processing technology to understand human speech and respond to it logically.",
+                    "ja": "仮想アシスタントとして知られるAIの一種は、音声認識と自然言語処理技術を使用して人間の音声を理解し、論理的に応答する。"
+                  },
+                  {
+                    "id": "sa_s3",
+                    "en": "Unlike previous virtual assistants that had a very limited capacity, these newer AI virtual assistants can provide detailed responses to a user's questions or commands.",
+                    "ja": "能力が非常に限られていた以前の仮想アシスタントとは異なり、これらの新しいAI仮想アシスタントは、ユーザーの質問やコマンドに対して詳細な応答を提供できる。"
+                  },
+                  {
+                    "id": "sa_s4",
+                    "en": "They are also capable of performing advanced tasks like automatically preparing people's schedules.",
+                    "ja": "彼らはまた、人々のスケジュールを自動的に準備するなどの高度なタスクを実行することができる。"
+                  },
+                  {
+                    "id": "sa_s5",
+                    "en": "The result has been a revolution in time management, greatly increasing personal efficiency.",
+                    "ja": "その結果は時間管理の革命であり、個人の効率を大幅に向上させた。"
+                  },
+                  {
+                    "id": "sa_s6",
+                    "en": "Moreover, apps with AI features can make it easier to balance diet and exercise by providing unique diet and exercise plans.",
+                    "ja": "さらに、AI機能を備えたアプリは、独自の食事や運動計画を提供することで、食事と運動のバランスを取りやすくすることができる。"
+                  },
+                  {
+                    "id": "sa_s7",
+                    "en": "They specialize in analyzing individual preferences and fitness levels to create a healthy lifestyle that matches the user's needs.",
+                    "ja": "これらは、個人の好みやフィットネスレベルを分析して、ユーザーのニーズに合った健康的なライフスタイルを作成することに特化している。"
+                  },
+                  {
+                    "id": "sa_s8",
+                    "en": "These advances show off AI's role in making daily activities easier to accomplish, which will only change society for the better.",
+                    "ja": "これらの進歩は、日常の活動をより簡単に達成するためのAIの役割を誇示しており、それは社会をより良い方向にのみ変えていくだろう。"
+                  }
+                ]
+              ]
+            },
+            {
+              "name": {
+                "en": "Source B",
+                "ja": "情報源B"
+              },
+              "paragraphs": [
+                [
+                  {
+                    "id": "sb_s1",
+                    "en": "According to recent studies, the public's view on AI is largely positive.",
+                    "ja": "最近の研究によると、AIに関する世間の見方は概ね肯定的である。"
+                  },
+                  {
+                    "id": "sb_s2",
+                    "en": "Many who were asked about the topic expressed their belief that it will help workers do their jobs more effectively.",
+                    "ja": "このトピックについて尋ねられた多くの人々は、それが労働者がより効果的に仕事をするのに役立つと信じていると表明した。"
+                  },
+                  {
+                    "id": "sb_s3",
+                    "en": "While some are worried about issues like job loss, most seem to support AI's potential to improve society as a whole.",
+                    "ja": "雇用の喪失などの問題を心配する人もいるが、大半は社会全体を向上させるAIの可能性を支持しているようだ。"
+                  }
+                ]
+              ],
+              "graph_image": {
+                "src": "images/s8_source_b_chart.png",
+                "alt": "Public Opinion on the Impact of AI",
+                "after_paragraph": 1
+              }
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 39,
+          "question_text": {
+            "en": "Both Authors D and E mention [38].",
+            "ja": "著者DとEの両方が言及しているのは[38]。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "the challenge of updating school education to keep up with AI advancements",
+              "ja": "AIの進歩に追いつくために学校教育を更新するという課題",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "the change in the working world and the usefulness of current skills",
+              "ja": "労働界の変化と現在のスキルの有用性",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "the convenience of AI in daily life and the potential for privacy invasion",
+              "ja": "日常生活におけるAIの利便性とプライバシー侵害の可能性",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the potential for AI to create ethical dilemmas in the workplace",
+              "ja": "AIが職場で倫理的ジレンマを生み出す可能性",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "d_s3",
+              "e_s2",
+              "e_s3"
+            ],
+            "instructor_note": {
+              "ja": "複数の短い意見文から、指定された二人の著者が共通して触れているテーマを特定する問題です。",
+              "points": [
+                "d_s3 はスキルが無価値になりうる話、e_s2〜s3 は教えるスキルの重要性の低下と求人市場の変化です。",
+                "いずれも「労働の世界の変化」と「いまのスキルの有用性」に関わるため②です。",
+                "学校教育の更新①やプライバシー③は、D・E の共通論点ではありません。"
+              ]
+            }
+          },
+          "answer": "②"
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 40,
+          "question_text": {
+            "en": "Author C implies that [39].",
+            "ja": "著者Cは[39]をほのめかしている。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI will be able to come up with more complex ideas in the future",
+              "ja": "AIは将来より複雑なアイデアを思いつくことができるだろう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "every person should hire a personal assistant in order to lead a convenient life",
+              "ja": "便利な生活を送るためにすべての人が個人秘書を雇うべきである",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the problem is that AI learns the personal information of its users",
+              "ja": "問題はAIがユーザーの個人情報を学習することである",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "using AI in daily life has far more advantages than disadvantages",
+              "ja": "日常生活でAIを使用することは、欠点よりもはるかに多くの利点がある",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "c_s5"
+            ],
+            "instructor_note": {
+              "ja": "著者 C の語り口（譲歩＋主張）から、本文がほのめかす態度・結論を選ぶ問題です。",
+              "points": [
+                "c_s5 でプライバシーへの不満は認めつつ「便利さには十分価値がある（well worth it）」と結んでいます。",
+                "つまり欠点より日常生活での利点をはるかに大きく評価しており、④が合致します。",
+                "③は問題を「個人情報の学習」と単純化しすぎます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "step": 2,
+          "points_note": "[41]〜[43]はすべて正解で得点。[41][42]は順不同。",
+          "pre_header": {
+            "en": "[Step 2] Take a position",
+            "ja": "［ステップ2］立場を決める"
+          },
+          "answer_numbers": [
+            41,
+            42,
+            43
+          ],
+          "unordered_slots": [
+            41,
+            42
+          ],
+          "stem": {
+            "en": "Now that you understand the various viewpoints, you have taken a position on whether or not AI should be used more in our society, and have written it out as below. Choose the best options to complete 41 - 43. (You must have all of 41 - 43 correct to get points.)",
+            "ja": "さまざまな見解を理解したうえで、あなたはAIが私たちの社会でより多く使われるべきかどうかについて立場を決め、以下のように書き出しました。[41]〜[43]を完成させるのに最も適した選択肢を選びなさい。（得点するには[41]〜[43]のすべてに正解する必要があります。）"
+          },
+          "position_box": {
+            "en": "Your position: AI enhances our lives by providing us with various new opportunities.\n  ● Authors [41] and [42] support your position.\n  ● The main argument of the two authors: [43].",
+            "ja": "あなたの立場：AIはさまざまな新しい機会を提供することで、私たちの生活を向上させる。\n  ● 著者[41]と[42]があなたの立場を支持している。\n  ● これら2人の著者の主な主張：[43]"
+          },
+          "choices_41": [
+            {
+              "label": "①",
+              "en": "Author A",
+              "ja": "著者A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Author B",
+              "ja": "著者B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Author C",
+              "ja": "著者C",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Author D",
+              "ja": "著者D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Author E",
+              "ja": "著者E",
+              "is_correct": false
+            }
+          ],
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "Author A",
+              "ja": "著者A",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Author B",
+              "ja": "著者B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Author C",
+              "ja": "著者C",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Author D",
+              "ja": "著者D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Author E",
+              "ja": "著者E",
+              "is_correct": false
+            }
+          ],
+          "choices_43": [
+            {
+              "label": "①",
+              "en": "AI is a useful technology in general, making our daily lives more efficient",
+              "ja": "AIは一般的に有用なテクノロジーであり、私たちの日常生活をより効率的にする",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "AI on social media can solve misinformation problems and has a positive influence on children",
+              "ja": "ソーシャルメディア上のAIは誤報問題を解決し、子供たちに良い影響を与える",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "AI will overcome some moral dilemmas that have been challenging to solve",
+              "ja": "AIは解決が困難であったいくつかの道徳的ジレンマを克服するだろう",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "AI's rapid development in the technology industry promises more job opportunities and economic growth",
+              "ja": "テクノロジー産業におけるAIの急速な発展は、より多くの雇用機会と経済成長を約束する",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "41": "①",
+            "42": "③",
+            "43": "①"
+          },
+          "answer_note": "[41]と[42]には A（①）と C（③）が順不同で入る。",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "a_s3",
+              "c_s4",
+              "a_s3",
+              "c_s4",
+              "c_s6"
+            ],
+            "instructor_note": {
+              "ja": "自分の立場（AI 肯定）に沿う著者の組み合わせと、その二人の主な論点を選ぶ複合問題です。得点には [41]〜[43] すべての整合が必要です。",
+              "points": [
+                "立場文が「AI は新しい機会を与え生活を向上させる」なので、肯定的な A・C を選びます。B・D・E は批判・懸念が中心です。",
+                "[41][42] は著者 A（①）と著者 C（③）が順不同で正解です。",
+                "[43] は A・C ともに日常の効率化・時間節約を主張しており、①が最適です。②は誤情報や子どもへの影響など別論点です。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 44,
+          "question_text": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [44]",
+            "ja": "情報源Aに基づいて、理由2に最も適切なのは次のうちどれですか。[44]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AI technology has led to an increase in personal efficiency, as it improves our physical ability.",
+              "ja": "AI技術は私たちの身体能力を向上させるため、個人の効率向上につながっている。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Although virtual assistants are only useful for performing tasks with a limited capacity, this is enough for most people.",
+              "ja": "仮想アシスタントは限られた能力のタスクを実行するのにのみ有用であるが、これは大半の人にとって十分である。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The main benefit of AI in our lives is detailed responses to commands that make entertainment easier to access.",
+              "ja": "私たちの生活におけるAIの主な利点は、エンターテインメントにアクセスしやすくするコマンドへの詳細な応答である。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Virtual assistants can understand and respond to complex human speech, which has greatly improved personal task management.",
+              "ja": "仮想アシスタントは複雑な人間の音声を理解して応答することができ、個人のタスク管理を大幅に向上させた。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "sa_s3",
+              "sa_s4",
+              "sa_s5"
+            ],
+            "instructor_note": {
+              "ja": "エッセイ構成の「理由2」に、情報源 A の内容と整合する支持文を入れる問題です。",
+              "points": [
+                "sa_s3〜s5 で仮想アシスタントは音声を理解し詳細に応答し、スケジュール準備など高度なタスクで時間管理を変えたとあります。",
+                "④がこの複合的な内容を最もよく要約します。①の身体能力や③のエンタメ中心の主張は情報源の焦点とずれます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 45,
+          "question_text": {
+            "en": "For Reason 3, you have decided to write, \"AI is being welcomed by many people.\" Based on Source B, which option best supports this statement? [45]",
+            "ja": "理由3について、あなたは「AIは多くの人々に歓迎されている」と書くことにしました。情報源Bに基づいて、この記述を最もよく支持する選択肢はどれですか。[45]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A majority of people believe AI will have a positive effect on workstyles and society, while a comparatively small number express concern.",
+              "ja": "大多数の人々はAIが働き方や社会に良い影響を与えると考えている一方、懸念を表明しているのは比較的少数である。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Although a significant percentage of people recognize AI's problems, exactly half think such negative impacts are so small that they can ignore them.",
+              "ja": "かなりの割合の人々がAIの問題を認識しているが、ちょうど半数はそのような悪影響は非常に小さいため無視できると考えている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Over 50% of those surveyed agree that AI has no demerits, with huge public support for its ability to improve society and the workplace.",
+              "ja": "調査対象者の50％以上がAIにはデメリットがないことに同意しており、社会や職場を向上させるその能力に対して大きな世論の支持がある。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "While there are some negative opinions about AI, the majority welcome it, with just under 10% of people having a fear of AI.",
+              "ja": "AIについての否定的な意見もいくつかあるが、大多数はそれを歓迎しており、AIを恐れている人は10％弱である。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "（解答冊子の解説テキスト：提供待ち）",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第2回 解説冊子",
+            "evidence_sentences": [
+              "sb_s2",
+              "sb_s3"
+            ],
+            "instructor_note": {
+              "ja": "自分が書く理由文を、情報源 B の世論・調査の記述で裏づける問題です。本文のトーンと選択肢を照合します。",
+              "points": [
+                "sb_s2〜s3 で多くの人が仕事への効果を期待し、社会改善への可能性を支持する一方、雇用喪失への懸念も一部にはあります。",
+                "①が「大半は肯定的で懸念は相対的に限定的」というバランスを最もよく表します。",
+                "③の「デメリットなし 50%」や④の具体的パーセントは本文にない記述なので避けます。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "en": "Vocabulary",
+        "ja": "語句",
+        "items": [
+          {
+            "en": "viewpoint",
+            "ja": "見解、視点"
+          },
+          {
+            "en": "impact",
+            "ja": "影響"
+          },
+          {
+            "en": "role-playing",
+            "ja": "ロールプレイング"
+          },
+          {
+            "en": "recommend",
+            "ja": "〜を推薦する"
+          },
+          {
+            "en": "take over",
+            "ja": "〜を乗っ取る、引き継ぐ"
+          },
+          {
+            "en": "restrict",
+            "ja": "〜を制限する"
+          },
+          {
+            "en": "grab one's attention",
+            "ja": "（人）の注意を引く"
+          },
+          {
+            "en": "handy",
+            "ja": "便利な"
+          },
+          {
+            "en": "keep track of",
+            "ja": "〜を記録する、追跡する"
+          },
+          {
+            "en": "meaningful",
+            "ja": "意味のある"
+          },
+          {
+            "en": "intense debate",
+            "ja": "激しい議論"
+          },
+          {
+            "en": "advancement",
+            "ja": "進歩、向上"
+          },
+          {
+            "en": "unemployment",
+            "ja": "失業"
+          },
+          {
+            "en": "adapt to",
+            "ja": "〜に適応する"
+          },
+          {
+            "en": "pace",
+            "ja": "ペース、速度"
+          },
+          {
+            "en": "dilemma",
+            "ja": "ジレンマ、板挟み"
+          },
+          {
+            "en": "enhance",
+            "ja": "〜を向上させる、高める"
+          },
+          {
+            "en": "opportunity",
+            "ja": "機会"
+          },
+          {
+            "en": "argument",
+            "ja": "主張、議論"
+          },
+          {
+            "en": "virtual assistant",
+            "ja": "仮想アシスタント"
+          },
+          {
+            "en": "voice recognition",
+            "ja": "音声認識"
+          },
+          {
+            "en": "efficiency",
+            "ja": "効率"
+          },
+          {
+            "en": "public opinion",
+            "ja": "世論"
+          }
+        ]
+      }
+    }
+  ]
+}

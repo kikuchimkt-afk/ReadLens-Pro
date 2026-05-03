@@ -1,0 +1,1708 @@
+{
+  "exam_info": {
+    "title": "Z会 共通テスト実戦模試2026年 第5回",
+    "publisher": "Z会",
+    "year": 2026,
+    "round": 5,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 49,
+    "implemented_sections": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_pdf_mondai": "第5回_問題.pdf",
+    "source_pdf_kaitou": "第5回_解説.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（町の英語サイト・フードフェス募集）",
+      "situation": {
+        "en": "You visited your town's English website written by a British person and found this notice.",
+        "ja": "あなたは英国人が書いた，自分の住む町の英語版ウェブサイトを見て，このお知らせを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "food_festival_notice",
+          "framed": true,
+          "title": {
+            "en": "<strong><u>Call for Chefs and Volunteers: Local Food Festival</u></strong>",
+            "ja": "シェフとボランティアを募集：地元のフードフェスティバル"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ff_p1_s1",
+                "en": "What is your favourite local dish?",
+                "ja": "あなたのお気に入りの郷土料理は何ですか。"
+              },
+              {
+                "id": "ff_p1_s2",
+                "en": "We are planning a food festival with a cooking competition.",
+                "ja": "私たちは料理のコンテスト付きのフードフェスティバルを企画しています。"
+              },
+              {
+                "id": "ff_p1_s3",
+                "en": "We are looking for local participants who have confidence in their cooking ability.",
+                "ja": "料理への自信がある地元の参加者を募集しています。"
+              },
+              {
+                "id": "ff_p1_s4",
+                "en": "Trials for the competition will be held on the 15th of June.",
+                "ja": "コンテストの予選は6月15日に行われます。"
+              },
+              {
+                "id": "ff_p1_s5",
+                "en": "Finalists will cook their dishes to be judged in a live competition at the festival on the 4th of August.",
+                "ja": "決勝進出者は8月4日のフェスティバルで実演のコンテストに料理を作り，審査を受けることになります。"
+              },
+              {
+                "id": "ff_p1_s6",
+                "en": "Everyone coming to the festival will be able to taste the dishes and vote for their favourite dishes.",
+                "ja": "フェスティバルに来た人は誰でも料理を味わい，お気に入りの料理に投票することができます。"
+              },
+              {
+                "id": "ff_p1_s7",
+                "en": "The winner will be announced at the evening party.",
+                "ja": "優勝者は夕方のパーティーで発表されます。"
+              }
+            ],
+            [
+              {
+                "id": "ff_p2_s1",
+                "en": "We are also looking for volunteers to help set up tables and chairs, move cooking equipment, and count the votes for the competition.",
+                "ja": "また，テーブルと椅子の設置，調理器具の移動，コンテストの票の集計を手伝ってくれるボランティアも募集しています。"
+              }
+            ],
+            [
+              {
+                "id": "ff_p3_s1",
+                "en": "Click <u>here</u> to download detailed information and requirements for chefs and volunteers at the festival.",
+                "ja": "フェスティバルにおけるシェフとボランティアの詳細情報と応募条件は<u>こちら</u>からダウンロードしてください。"
+              },
+              {
+                "id": "ff_p3_s2",
+                "en": "If you have any questions, please call 0XX-85XX-11XX.",
+                "ja": "質問がある場合は，0XX-85XX-11XXまでお電話ください。"
+              }
+            ]
+          ],
+          "table": {
+            "after_paragraph": 2,
+            "title": {
+              "en": "Schedule",
+              "ja": "スケジュール"
+            },
+            "headers": [
+              "Date",
+              "Events"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "20th ~ 21st May",
+                  "Registration day at the community centre 10 a.m. - 3 p.m."
+                ],
+                "cells_ja": [
+                  "5月20日〜21日",
+                  "地域センターでの登録日　午前10時〜午後3時"
+                ]
+              },
+              {
+                "cells": [
+                  "15th June",
+                  "Competition Trials"
+                ],
+                "cells_ja": [
+                  "6月15日",
+                  "コンテスト予選"
+                ]
+              },
+              {
+                "cells": [
+                  "30th June",
+                  "Announcement of finalists"
+                ],
+                "cells_ja": [
+                  "6月30日",
+                  "決勝進出者の発表"
+                ]
+              },
+              {
+                "cells": [
+                  "3rd August",
+                  "Volunteers set up the festival"
+                ],
+                "cells_ja": [
+                  "8月3日",
+                  "ボランティアによる設営"
+                ]
+              },
+              {
+                "cells": [
+                  "4th August",
+                  "Food Festival Day 11 a.m. - 4 p.m.\nEvening Party for participants and awarding of prizes"
+                ],
+                "cells_ja": [
+                  "8月4日",
+                  "フードフェスティバル当日　午前11時〜午後4時\n参加者向け夕方のパーティーと表彰"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "The purpose of this notice is to find people from the local town to [ 1 ].",
+            "ja": "このお知らせの目的は，地元の町の人々のうち，［1］人を見つけることである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "donate food to a school",
+              "ja": "学校に食料を寄付する",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "take cooking lessons",
+              "ja": "料理の講習を受ける",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "take part in an event",
+              "ja": "催し物に参加する",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "volunteer for a charity",
+              "ja": "慈善のためにボランティアをする",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。タイトルと本文がシェフ・参加者・ボランティアを募り，料理コンテストやフェスティバルという催しへの参加を求めている。①②④は本文の募集目的と合わない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "ff_p1_s2",
+              "ff_p1_s3",
+              "ff_p2_s1"
+            ],
+            "instructor_note": {
+              "ja": "本文全体が「フードフェスとコンテストに関わってほしい」という募集であることに立ち返る。purpose（このお知らせの目的）は，見出しの Call for〜 と第１〜２段落の looking for の対象をひとまとめにして捉える。",
+              "points": [
+                "シェフ募集・一般参加者・ボランティアの三本柱があり，いずれも催し（コンテスト／当日運営）にかかわる採用である。",
+                "④ volunteer は「慈善団体のため」限定ではなく，フェス運営の手伝いも含む語として広く使われるため，本文のボランティア項目だけを見て charity と決めつけると落とし穴。",
+                "①寄付・②料理教室は本文の中心（料理を披露する催し）とズレやすい。正解の take part in an event は企画全体を包む言い方として妥当。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "During the festival all of the attendees will be able to [ 2 ].",
+            "ja": "フェスティバルの間は，参加者全員が［2］ことができるだろう。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "award prizes to each other",
+              "ja": "互いに賞を与える",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "cook food at the event",
+              "ja": "催し物で料理を作る",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "learn how to make healthy food",
+              "ja": "健康的な食べ物の作り方を習う",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "vote for their favourite recipe",
+              "ja": "気に入ったレシピに投票する",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第1段落に Everyone coming to the festival will be able to taste the dishes and vote for their favourite dishes とある。attendees は coming to the festival に対応，recipe は dishes の言い換えとして読める。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "ff_p1_s6"
+            ],
+            "instructor_note": {
+              "ja": "設問の During the festival / all of the attendees は，特に来場者全員に当てはまる行動を聞いている。本文で「来た人は誰でも（Everyone coming）」と明言された文に当たりを付ける。",
+              "points": [
+                "vote for their favourite (dishes) は taste the dishes と同じ Everyone 節にぶら下がり，来場者全員の権利として一貫している。",
+                "② cook at the event は最終的に審査を受けるのは finalists なので，一般来場者の全員に当てはまると言い切れない。",
+                "①授与は主催・審査側，③健康食品の作り方は本文に根拠がない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "People who want to take part in the cooking competition must [ 3 ].",
+            "ja": "料理コンテストに参加したい人は，［3］しなくてはならない。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "attend a cooking trial",
+              "ja": "料理の予選に参加する",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "click the link to register",
+              "ja": "登録するためにリンクをクリックする",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "cook more than one dish",
+              "ja": "2品以上の料理を作る",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "help set up tables and chairs",
+              "ja": "テーブルと椅子を並べるのを手伝う",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。本文はコンテスト予選を6月15日に行うとあり，スケジュール表にも Competition Trials とある。リンクは詳細ダウンロード用で登録そのものとは限らない。④はボランティアの役割。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "ff_p1_s4"
+            ],
+            "instructor_note": {
+              "ja": "must は「参加条件として必須の手続き・行動」を問う。コンテスト参加希望者向けの必須工程を，本文とスケジュール表の両方で確認する。",
+              "points": [
+                "本文の Trials for the competition と表の Competition Trials を突き合わせ，予選日（6月15日）に立ち会う＝参加の前提条件と読む。",
+                "Click here は詳細ダウンロード用で，登録そのものの手続きを直接指すとは限らない。must の根拠として弱い。",
+                "④はボランティア向け，③は本文にない課題数の制限。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "call for ~",
+              "ja": "〜の要請；〜のお願い"
+            },
+            {
+              "en": "local dish",
+              "ja": "郷土料理"
+            },
+            {
+              "en": "participant",
+              "ja": "参加者"
+            },
+            {
+              "en": "confidence",
+              "ja": "自信"
+            },
+            {
+              "en": "live",
+              "ja": "生の；実演の"
+            },
+            {
+              "en": "vote",
+              "ja": "投票する；票"
+            },
+            {
+              "en": "award",
+              "ja": "〜（賞など）を与える"
+            },
+            {
+              "en": "prize",
+              "ja": "賞；賞品；賞金"
+            },
+            {
+              "en": "donate（問1①）",
+              "ja": "〜を寄付する"
+            },
+            {
+              "en": "attendee（問2）",
+              "ja": "出席者；参加者"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 10,
+      "points_per_question": 2,
+      "description": "長文読解（地域のごみ拾いブログ・フィードバック）",
+      "situation": {
+        "en": "You are a member of the environmental club. The members are making plans for a new volunteer event and you have been asked to come up with suggestions. To get ideas, you are reading a blog about a community service project a student introduced at her school.",
+        "ja": "あなたは環境クラブのメンバーです。メンバーが新しいボランティアイベントの計画を立てていて，あなたは提案を出すように言われています。アイデアを得るために，ある生徒が自分の学校に導入した社会奉仕プロジェクトに関するブログを読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "ten_minute_challenge_blog",
+          "framed": true,
+          "title": {
+            "en": "<strong>Ten-Minute Community Challenge</strong>",
+            "ja": "<strong>10分間地域チャレンジ</strong>"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "tmc_s1",
+                "en": "Arriving at school used to make me sad.",
+                "ja": "以前は，学校に着くと悲しくなったものです。"
+              },
+              {
+                "id": "tmc_s2",
+                "en": "There are several convenience stores and cafes in the area and people often drop litter on the ground — cans, bottles, sweet wrappers, plastic bags, etc.",
+                "ja": "地域にはいくつかのコンビニエンスストアやカフェがあり，缶やビン，お菓子の包装紙，ビニール袋などのゴミを人々がよく地面に落とします。"
+              },
+              {
+                "id": "tmc_s3",
+                "en": "Last year, I decided to do something.",
+                "ja": "昨年，私はあることをしようと決めました。"
+              },
+              {
+                "id": "tmc_s4",
+                "en": "I put up posters asking students to come to school ten minutes earlier than usual for one week and use the extra time to pick up a few pieces of litter.",
+                "ja": "１週間，いつもより10分早く登校し，その時間でごみを少し拾うように生徒に頼むポスターを貼りました。"
+              },
+              {
+                "id": "tmc_s5",
+                "en": "It worked!",
+                "ja": "これがうまくいきました！"
+              },
+              {
+                "id": "tmc_s6",
+                "en": "An average of 150 students (10% of the school) took part each day.",
+                "ja": "毎日平均150人の生徒（全校の10％）が参加しました。"
+              },
+              {
+                "id": "tmc_s7",
+                "en": "Nearly a third of that number participated the whole week.",
+                "ja": "そのうちのほぼ3分の1が一週間を通して参加しました。"
+              },
+              {
+                "id": "tmc_s8",
+                "en": "There were even a few teachers.",
+                "ja": "教師も数名いました。"
+              },
+              {
+                "id": "tmc_s9",
+                "en": "Within three days, the area around the school was already much nicer.",
+                "ja": "３日以内に，学校周辺はすでにずっとすっきりした様子になりました。"
+              },
+              {
+                "id": "tmc_s10",
+                "en": "By the end, it was perfect.",
+                "ja": "最終日には，完璧でした。"
+              },
+              {
+                "id": "tmc_s11",
+                "en": "Surprisingly, since this event the area has stayed litter-free.",
+                "ja": "驚いたことに，このイベント以降，その地域にはごみが落ちていません。"
+              },
+              {
+                "id": "tmc_s12",
+                "en": "Why is this?",
+                "ja": "なぜでしょうか。"
+              },
+              {
+                "id": "tmc_s13",
+                "en": "Feedback from the event seems to give the answer:",
+                "ja": "イベントへの感想が答えを教えてくれそうです。"
+              }
+            ],
+            [
+              {
+                "id": "tmc_head_fb",
+                "en": "<span style=\"display:block;text-align:center;margin:0.6em 0\"><strong><u>Feedback from the students and the local community</u></strong></span>",
+                "ja": "<span style=\"display:block;text-align:center;margin:0.6em 0\"><strong><u>生徒と地域社会からの意見</u></strong></span>"
+              },
+              {
+                "id": "tmc_fb_bt",
+                "en": "<strong>BT:</strong> I hadn't realised how unhappy this problem was making me. I can finally walk to school with a big smile on my face.",
+                "ja": "<strong>BT:</strong> この問題が自分をどれだけ不幸にしていたか，気づいていませんでした。ようやく笑顔で学校まで歩いていけます。"
+              },
+              {
+                "id": "tmc_fb_ak",
+                "en": "<strong>AK:</strong> Great project! As an adult living near the school, I was so happy to see school students helping the community. I joined in and got some neighbours involved, too. We still do it twice a week.",
+                "ja": "<strong>AK:</strong> すばらしい企画です！学校の近くに住む大人として，生徒が地域のために動くのを見られてとてもうれしかった。私も参加して近所の人にも声をかけました。今でも週に2回続けています。"
+              },
+              {
+                "id": "tmc_fb_rn",
+                "en": "<strong>RN:</strong> We appreciate the difference it has made. My friends and I would have joined in but we didn't see the poster.",
+                "ja": "<strong>RN:</strong> 変化に感謝しています。友人たちと私も参加したかったのですが，ポスターを見ていませんでした。"
+              },
+              {
+                "id": "tmc_fb_cf",
+                "en": "<strong>CF:</strong> This project helped me understand how action by a high school student can have a big impact.",
+                "ja": "<strong>CF:</strong> このプロジェクトで，高校生の行動が大きな影響を持ちうると理解できました。"
+              },
+              {
+                "id": "tmc_fb_wl",
+                "en": "<strong>WL:</strong> I am so thankful. I've lived here for 15 years and I feel I can be proud of this town again.",
+                "ja": "<strong>WL:</strong> とても感謝しています。15年ここに住んでいますが，再びこの町を誇りに思えます。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "The aim of the activity was to [ 4 ].",
+            "ja": "この活動の目的は［4］ことであった。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "get students to support the community",
+              "ja": "生徒に地域を支援させる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "help locals to know each other",
+              "ja": "地元の人たちがお互いを知るのを助ける",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "improve the school playground",
+              "ja": "学校の運動場を改善する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "make the environment look nicer",
+              "ja": "環境をよりよく見えるようにする",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。ポスターで登校を早めてごみを拾うよう呼びかけており，周辺の見た目の改善が直接のねらい。①は結果としての側面で目的の言い換えとしては広すぎる場合がある。②③は本文にない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "tmc_s4",
+              "tmc_s2"
+            ],
+            "instructor_note": {
+              "ja": "ブログ前半で筆者が実際に仕掛けた行動（ポスター・早朝登校・ごみ拾い）が何をねらっているかを一文で言い切った選択肢を選ぶ。抽象的な「地域支援」より，見える成果（きれいになる／環境の見た目）に直結する語を優先する。",
+              "points": [
+                "pick up litter / nicer / litter-free などの語群が，設問の aim と輪郭を共有しているかを確認する。",
+                "①②は「良いこと」としては正しそうだが，本文が強調しているのは対人仲介より環境物理の改善。③運動場は本文にない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "sentences": [
+              {
+                "id": "tmc_q2_stem",
+                "en": "One <strong><u>fact</u></strong> about the Ten-Minute Community Challenge is that [ 5 ].",
+                "ja": "『10分間地域チャレンジ』に関する<strong><u>事実</u></strong>として正しいのは［5］である。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "it only lasted for three days",
+              "ja": "続いたのは3日間だけであった",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "only students picked up litter",
+              "ja": "ごみを拾ったのは生徒だけであった",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the number of students who worked the whole week was around 50",
+              "ja": "一週間ずっと取り組んだ生徒の数は約50人であった",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "the teachers were happy that the town looked cleaner",
+              "ja": "教師たちは町がきれいになったことをうれしく思っていた",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。150人の約3分の1が一週間参加＝約50人。①は活動期間は1週間。②は教師も参加。④は教師の感情は本文にない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "tmc_s6",
+              "tmc_s7"
+            ],
+            "instructor_note": {
+              "ja": "fact 問題は「本文のどの数値・期間と矛盾しないか」だけを見る。推測・評価・感情表現は除外。割合表現（10％／a third／150）をメモしながら，選択肢の数字を再計算する癖をつける。",
+              "points": [
+                "150人の約1/3は約50。③だけが算術と本文記述の両方を満たす。",
+                "活動は one week なので only three days は矛盾。教師の参加は even a few teachers で示され②は誤り。",
+                "④は教師の心情について本文は述べておらず，fact としては根拠なし。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "From the blog, we know that it is most likely true that [ 6 ].",
+            "ja": "このブログから，次のうち最も可能性が高く言えるのは［6］である。"
+          },
+          "info_options": [
+            {
+              "label": "A",
+              "en": "more people may have wanted to take part",
+              "ja": "もっと多くの人が参加したかった可能性がある"
+            },
+            {
+              "label": "B",
+              "en": "students encouraged the locals to join in",
+              "ja": "生徒が地域の人々に参加を呼びかけた"
+            },
+            {
+              "label": "C",
+              "en": "students like picking up garbage",
+              "ja": "生徒はごみ拾いが好きである"
+            },
+            {
+              "label": "D",
+              "en": "the author didn't expect teachers to join in",
+              "ja": "筆者は教師の参加を期待していなかった"
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "A and B",
+              "ja": "A と B",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "A and C",
+              "ja": "A と C",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "A and D",
+              "ja": "A と D",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "B and C",
+              "ja": "B と C",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "B and D",
+              "ja": "B と D",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "C and D",
+              "ja": "C と D",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③（AとD）。RNはポスターを見ず参加できなかったとあり参加意欲があった層がいたと読める（A）。There were even a few teachers の even から筆者は教師の参加を強く期待していなかった（D）。B・Cは本文が支持しない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "tmc_fb_rn",
+              "tmc_s8"
+            ],
+            "instructor_note": {
+              "ja": "likely true は「本文から合理的に言える」レベル。各選択肢を一文ずつ本文に当て，矛盾がないか／言い過ぎないかを確認する。組み合わせ問題は，まず候補（A〜D）ごとに単独判定してから AND を取る。",
+              "points": [
+                "RN の didn't see the poster は「参加したかった層がいた」余地を残す（A）。",
+                "There were even a few teachers の even は「予想以上に教師も」と読み取れ，筆者が教師参加を前提にしていなかったニュアンスを示唆しやすい（D）。",
+                "Bの locals への呼びかけは本文に明示されず，Cの「ごみ拾いが好き」は動機の断定として強すぎる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "One of the participants' opinions about the Ten-Minute Community Challenge is that [ 7 ].",
+            "ja": "『10分間地域チャレンジ』についての参加者の意見の1つは［7］ということである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "everyone should take part in the challenge",
+              "ja": "誰もがチャレンジに参加すべきである",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "locals have always been happy to live in the area",
+              "ja": "地域の人々はずっとこの地域に住んで幸せだと思っている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "one person can make a difference to the community",
+              "ja": "一人でも地域に変化をもたらしうる",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "the challenge should have started 15 years ago",
+              "ja": "このチャレンジは15年前から始めるべきだった",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。CFの発言が高校生の行動の impact を述べ，個人の力が地域を変えるという趣旨に合う。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "tmc_fb_cf"
+            ],
+            "instructor_note": {
+              "ja": "意見欄は発言者ごとに「主張の核」を一行で抜き出し，設問の語句（one person's opinion / impact など）と照合する。選択肢が一般論に逃げていないか（本文の具体的エピソードと結びつくか）も見る。",
+              "points": [
+                "CF は high school student's action と impact を同一文で結んでおり，個人の行動がコミュニティに波及するという③の骨格に合う。",
+                "WL の 15 years は在住年数の事実であって，チャレンジが「15年前からあるべきだった」という意味ではない。",
+                "① everyone must は強い規範で，フィードバックのトーンともずれる。② locals always happy は本文が述べる不幸の対象が曖昧で根拠不足。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 8,
+          "stem": {
+            "en": "The author's question is answered by [ 8 ].",
+            "ja": "筆者の質問に答えているのは［8］である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "AK",
+              "ja": "AK",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "BT",
+              "ja": "BT",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "CF",
+              "ja": "CF",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "RN",
+              "ja": "RN",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "WL",
+              "ja": "WL",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①（AK）。筆者の問いは litter-free が続く理由。AKは近所も巻き込み週2回続けているため，継続的な清掃で綺麗が保たれると読める。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "tmc_s11",
+              "tmc_s12",
+              "tmc_fb_ak"
+            ],
+            "instructor_note": {
+              "ja": "設問文の The author's question が本文のどこを指すか（通常は直前の疑問文）を必ず確認する。その疑問に「原因・仕組み」を答えている発言を選ぶ。",
+              "points": [
+                "Why is this?（ごみが続かない理由）に対し，AK は近隣を巻き込み週2回拾い続けるという「継続行動」で答えている。",
+                "RN は参加できなかった理由（ポスター未閲覧）であって，Beautification が続くメカニズムの説明ではない。",
+                "BT・CF は感情や気づきの表明に寄り，「なぜ続くか」の因果説明としては弱い。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "community service",
+              "ja": "社会奉仕"
+            },
+            {
+              "en": "litter",
+              "ja": "ごみ"
+            },
+            {
+              "en": "participate",
+              "ja": "参加する"
+            },
+            {
+              "en": "appreciate",
+              "ja": "〜に感謝する；〜を正当に評価する"
+            },
+            {
+              "en": "local（問1②）",
+              "ja": "（通例複数形で）地元の人たち"
+            },
+            {
+              "en": "last（問2①）",
+              "ja": "（期間が）続く"
+            },
+            {
+              "en": "attendee（問2）",
+              "ja": "出席者；来場者"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "description": "長文読解（劇場の職場見学・校新）",
+      "situation": {
+        "en": "You are going to participate in a workplace tour. As preparation, you are reading an article in the school newspaper written by Hilda, who took part in it last year.",
+        "ja": "あなたは職場見学に参加します。準備として，昨年参加したヒルダが書いた学校新聞の記事を読んでいます。"
+      },
+      "passages": [
+        {
+          "id": "hilda_grand_theater_newspaper",
+          "framed": true,
+          "title": {
+            "en": "<strong>Behind the Scenes at the Grand Theater</strong>",
+            "ja": "<strong>グランド・シアターの舞台裏</strong>"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "hilda_p1_s1",
+                "en": "For our school's workplace tour, we went on a behind-the-scenes tour of the Grand Theater.",
+                "ja": "職場見学で，私たちはグランド・シアターの舞台裏ツアーに参加した。"
+              },
+              {
+                "id": "hilda_p1_s2",
+                "en": "As we walked in, I noticed a busy atmosphere, with people setting up the ticket machines in the ticket sellers' booths.",
+                "ja": "中に入ると，人々がチケット売り場に発券機を設置しており，忙しげな雰囲気だと気づいた。"
+              },
+              {
+                "id": "hilda_p1_s3",
+                "en": "Our guide, Ms. Chen, greeted us with a smile and mentioned that because it was Tuesday, tickets were half-price.",
+                "ja": "ガイドのチェンさんは笑顔で迎え，火曜日なのでチケットは半額だと話した。"
+              },
+              {
+                "id": "hilda_p1_s4",
+                "en": "She expected to fill every seat in the theater.",
+                "ja": "彼女は劇場のすべての席が埋まると予測していた。"
+              }
+            ],
+            [
+              {
+                "id": "hilda_p2_s1",
+                "en": "Our first stop was the main stage, where some actors were rehearsing for the afternoon performance.",
+                "ja": "最初の見学先は本舞台で，俳優たちが午後の公演のリハーサルをしていた。"
+              },
+              {
+                "id": "hilda_p2_s2",
+                "en": "Ms. Chen encouraged us to imagine ourselves as actors in a 1920s city scene, with tall painted buildings and bright shop signs.",
+                "ja": "チェンさんは，背の高い塗りの建物と明るい店の看板がある1920年代の街の場面にいる俳優になったつもりになるよう勧めた。"
+              },
+              {
+                "id": "hilda_p2_s3",
+                "en": "We were all interested in the old-style streetlamps and storefronts on the backdrop.",
+                "ja": "私たちは皆，背景幕の旧式の街灯や店先に興味を引かれた。"
+              },
+              {
+                "id": "hilda_p2_s4",
+                "en": "Ms. Chen explained that the following day, they would close the theater to repair any damage to the set and make sure it's all in good shape.",
+                "ja": "チェンさんは，翌日には劇場を閉館してセットの損傷を修復し，すべてが良好な状態になるよう確かめるのだと説明した。"
+              }
+            ],
+            [
+              {
+                "id": "hilda_p3_s1",
+                "en": "Next, we climbed up to the lighting room, where a technician showed us how she creates the atmosphere for each scene with different colors and brightness.",
+                "ja": "次に照明室に上ると，技術者が場面ごとにさまざまな色と明るさで雰囲気をどう作るかを見せてくれた。"
+              },
+              {
+                "id": "hilda_p3_s2",
+                "en": "She adjusted the lights from a sunny afternoon to a calm evening with just a few switches.",
+                "ja": "彼女はほんのいくつかのスイッチで，照明を晴れた午後から静かな夕方へと変えた。"
+              },
+              {
+                "id": "hilda_p3_s3",
+                "en": "Ms. Chen told us that the lights were very important because without them, the stage would feel empty and flat.",
+                "ja": "チェンさんによると照明はとても重要で，それがなければステージは空虚で平板に感じられるという。"
+              }
+            ],
+            [
+              {
+                "id": "hilda_p4_s1",
+                "en": "Behind the stage there was a room with 'props' written on the door.",
+                "ja": "ステージの裏には，ドアに「props」と書かれた部屋があった。"
+              },
+              {
+                "id": "hilda_p4_s2",
+                "en": "Inside, we saw shelves full of interesting items, from old-fashioned clocks to fake food.",
+                "ja": "中には昔風の時計から作り物の食べ物まで，おもしろい品が並んだ棚があった。"
+              },
+              {
+                "id": "hilda_p4_s3",
+                "en": "Ms. Chen picked up a glass bottle that was actually soft and light.",
+                "ja": "チェンさんは，見た目はガラス瓶だが実は柔らかく軽いものを手に取った。"
+              },
+              {
+                "id": "hilda_p4_s4",
+                "en": "We learned that many of these props look real but are made to be safe and easy to carry.",
+                "ja": "小道具の多くは本物のように見えるが，安全で持ち運びしやすいように作られていると知った。"
+              },
+              {
+                "id": "hilda_p4_s5",
+                "en": "Then she pointed out some posters stacked by the wall and told us that the current play would end this week.",
+                "ja": "それから彼女は壁際に積まれたポスターを指し，現在の演目が今週で終わると教えてくれた。"
+              },
+              {
+                "id": "hilda_p4_s6",
+                "en": "Next week, they would put up some new posters to publicize the upcoming show.",
+                "ja": "来週は次の公演を宣伝するために新しいポスターを貼る予定だという。"
+              }
+            ],
+            [
+              {
+                "id": "hilda_p5_s1",
+                "en": "We left before the show.",
+                "ja": "私たちは開演前に会場を後にした。"
+              },
+              {
+                "id": "hilda_p5_s2",
+                "en": "As I stepped onto the street, I looked at the front of the theater.",
+                "ja": "通りに出ると，私は劇場の正面を見上げた。"
+              },
+              {
+                "id": "hilda_p5_s3",
+                "en": "Ms. Chen's prediction was right!",
+                "ja": "チェンさんの予測は当たっていた！"
+              },
+              {
+                "id": "hilda_p5_s4",
+                "en": "I thought about everything I'd learned.",
+                "ja": "ここで学んだことをすべて思い返した。"
+              },
+              {
+                "id": "hilda_p5_s5",
+                "en": "Seeing all the work that went into each part of the production made me appreciate it even more.",
+                "ja": "作品の各部分に注がれた仕事を見て，私はそのすばらしさをさらに実感した。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "paragraph_index": 1,
+              "src": "images/grand_theater_stage.png",
+              "position": "float-right",
+              "alt": "Actors on stage with 1920s street backdrop",
+              "max_width": 240
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "stem": {
+            "en": "Hilda's article also included student comments (① ~ ④) describing the events in the theater tour. Put the comments in the order in which the events happened. [ 9 ] → [ 10 ] → [ 11 ] → [ 12 ]",
+            "ja": "ヒルダの記事には，劇場ツアーでの出来事を説明した生徒のコメント（①〜④）も含まれていた。コメントを出来事が起きた順に並べよ。［9］→［10］→［11］→［12］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Being able to change day to night so easily for the production must make the controllers feel very powerful.",
+              "ja": "作品のために昼から夜へと容易に変えられるので，操作担当者はとても影響力があると感じているに違いない。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "I had never considered working as a performer until Ms. Chen suggested we do so.",
+              "ja": "チェンさんにそうするように提案されるまで，演者の仕事をするなんて考えたこともなかった。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "I thought it would be easier to let people reserve and pay for their seats using smartphones.",
+              "ja": "スマートフォンで席を予約して支払いをもらえるようにした方が簡単だろうと思った。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "It was hard to believe the objects actors use on stage are often imitations.",
+              "ja": "俳優が舞台で使う物が作り物であることが多いとは信じがたいことだった。",
+              "is_correct": true
+            }
+          ],
+          "answer": "③→②→①→④",
+          "answer_sequence": [
+            "③",
+            "②",
+            "①",
+            "④"
+          ],
+          "explanation": {
+            "quoted_ja": "正解の順序は③→②→①→④。③は入館直後の発券機，②は本舞台での俳優になりきる提案，①は照明室，④は小道具部屋の見学に対応する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "hilda_p1_s2",
+              "hilda_p2_s2",
+              "hilda_p3_s2",
+              "hilda_p4_s3"
+            ],
+            "instructor_note": {
+              "ja": "並べ替えは「本文の見学順」と「コメント中の手がかり語」をペアにするのが最短。一度，見学ステップを番号付きメモ（入口→舞台→照明→小道具）にしてから各コメントを振り分けると取り違えにくい。",
+              "points": [
+                "③はチケット／発券機（入館直後），②は俳優の気持ちになりきる誘い（本舞台），①は昼夜の照明操作（照明室），④は小道具・模造品（props 部屋）。",
+                "lighting / controllers は①に，imitations / objects on stage は④に固定すると迷いが減る。",
+                "時間副詞（next, then）より「話題の語彙一致」を優先するのがコツ。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 13,
+          "stem": {
+            "sentences": [
+              {
+                "id": "hilda_q2_stem",
+                "en": "From the tour, Hilda did <strong><u>not</u></strong> learn about [ 13 ] of the theater.",
+                "ja": "ツアーを通じて，ヒルダが劇場の［13］について<strong><u>知らなかった</u></strong>のは次のうちどれか。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a maintenance plan",
+              "ja": "整備の計画",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "advertising materials",
+              "ja": "広告資材",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the reservations system",
+              "ja": "予約システム",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "the storage space",
+              "ja": "保管スペース",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。本文に「予約のしかた」は出てこない。①はセット修復，②はポスター，④は小道具部屋が根拠。発券機はあくまで発券であり予約システムそのものではない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "hilda_p2_s4",
+              "hilda_p4_s5",
+              "hilda_p4_s1"
+            ],
+            "instructor_note": {
+              "ja": "NOT-learn 型は，本文で「説明された／触れた」テーマかどうかを機械的にチェックする。一度，選択肢の名詞（maintenance, advertising, reservations, storage）ごとに該当段落を探し，ヒットしなければ候補になる。",
+              "points": [
+                "①セット修復・翌日閉館，②ポスターと次公演の宣伝，④小道具の棚＝保管スペースのように読める記述はある。",
+                "③ reservations は本文に語が出ず，ticket machines も「発券」であり予約システム全体を指すとは限らない。",
+                "「説明がなかった」と「筆者が知らなかった」を同一視しない（ヒルダが聞いた範囲＝本文に載った範囲）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 14,
+          "stem": {
+            "en": "When she left the theater, Hilda most likely saw [ 14 ].",
+            "ja": "劇場を出たとき，ヒルダが最もありそうに見たものは［14］である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a long line of people",
+              "ja": "人々の長い列",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "actors arriving for work",
+              "ja": "仕事場に到着する俳優たち",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "posters for the next production",
+              "ja": "次の作品のポスター",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "some bright streetlamps",
+              "ja": "明るい街灯",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。最終段落で Ms. Chen's prediction was right とあり，第１段落で全席が埋まると予測していた。正面から見てその予測が当たったなら行列が見えるのが自然。③はまだ貼られていない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "hilda_p1_s4",
+              "hilda_p5_s2",
+              "hilda_p5_s3"
+            ],
+            "instructor_note": {
+              "ja": "most likely は本文の因果のつながりで組み立てる。前半の予測（満席）と結末の確認（予測どおり）を一文でつなぐと答えが絞られる。",
+              "points": [
+                "half-price Tuesday と fill every seat が，開演前のにぎわい（列）と整合しやすい。",
+                "俳優はすでに舞台でリハーサル中なので「これから出勤」は時系列と矛盾しやすい。",
+                "次回公演ポスターは来週貼る予定で，まだ表に出ていない文脈。街灯は舞台セットの話と外景を混同しない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "behind-the-scenes",
+              "ja": "舞台裏の"
+            },
+            {
+              "en": "atmosphere",
+              "ja": "雰囲気"
+            },
+            {
+              "en": "set up ~",
+              "ja": "〜を設置する"
+            },
+            {
+              "en": "fill",
+              "ja": "〜をいっぱいにする"
+            },
+            {
+              "en": "rehearse",
+              "ja": "リハーサルをする"
+            },
+            {
+              "en": "storefront",
+              "ja": "店先"
+            },
+            {
+              "en": "backdrop",
+              "ja": "背景幕"
+            },
+            {
+              "en": "in good shape",
+              "ja": "状態がよい"
+            },
+            {
+              "en": "technician",
+              "ja": "技術者"
+            },
+            {
+              "en": "adjust",
+              "ja": "〜を調整する"
+            },
+            {
+              "en": "switch",
+              "ja": "スイッチ"
+            },
+            {
+              "en": "fake",
+              "ja": "にせの，模造の"
+            },
+            {
+              "en": "stack",
+              "ja": "〜を積み重ねる"
+            },
+            {
+              "en": "put up ~",
+              "ja": "〜を貼り出す"
+            },
+            {
+              "en": "publicize",
+              "ja": "〜を宣伝する"
+            },
+            {
+              "en": "prediction",
+              "ja": "予測"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ添削（コミュニティ・ガーデン・先生コメント）",
+      "situation": {
+        "en": "In English class you are writing an essay on a social issue you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "あなたは英語の授業で，興味のある社会問題に関するエッセイを書いています。これはあなたの最新の草稿です。今は先生からのコメントをもとに，推敲に取り組んでいるところです。"
+      },
+      "passages": [
+        {
+          "id": "community_gardens_essay",
+          "title": {
+            "en": "<strong>Gardening and Community Building</strong>",
+            "ja": "<strong>ガーデニングと地域づくり</strong>"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "cg_p1_s1",
+                "en": "Community gardens are pieces of land owned by local government where community members are allowed to grow vegetable or flower gardens in cooperation with their neighbors.",
+                "ja": "コミュニティ・ガーデンは地方自治体が所有する土地の一部で，地域住民が近所の人たちと協力して野菜や花の菜園を作ることを許可されている場所である。"
+              },
+              {
+                "id": "cg_p1_s2",
+                "en": "To ensure that these gardens continue to exist in the future, it is important that we understand their value and their potential.",
+                "ja": "このようなガーデンが将来も存続するのを確実にするために，その価値と可能性を理解することが重要である。"
+              },
+              {
+                "id": "cg_p1_s3",
+                "en": "This essay will discuss some benefits of community gardens.",
+                "ja": "このエッセイでは，コミュニティ・ガーデンのいくつかの利点について論じる。"
+              }
+            ],
+            [
+              {
+                "id": "cg_p2_s1",
+                "en": "First, at a time when urban isolation is increasingly common, community gardens offer opportunities for friendly interaction, particularly among the elderly.",
+                "ja": "第一に，都市部での孤立がますます一般的になっている時代に，コミュニティ・ガーデンは特に高齢者間の友好的な交流の機会を提供する。"
+              },
+              {
+                "id": "cg_p2_s2",
+                "en": "Nowadays there are few locations where residents can interact, especially in big cities.",
+                "ja": "現在，特に大都市では，住民が交流できる場所がほとんどない。"
+              },
+              {
+                "id": "cg_p2_s3",
+                "en": "[15] So, community gardens may serve as rare community hubs where residents of different generations get to know each other.",
+                "ja": "[15] だから，コミュニティ・ガーデンは，さまざまな世代の住民が互いに知り合う，希少なコミュニティ拠点としての役割を果たすかもしれない。",
+                "comment_marker": "(1)",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "cg_p3_s1",
+                "en": "Second, community gardens provide practical skills and knowledge for gardening and farming that residents can make use of.",
+                "ja": "第二に，コミュニティ・ガーデンは，住民が活用できるガーデニングや農業の実用的な技術や知識を提供する。"
+              },
+              {
+                "id": "cg_p3_s2",
+                "en": "[16] Working on gardens requires teamwork; this will help improve communication skills and the individual's sense of responsibility.",
+                "ja": "[16] ガーデンでの作業にはチームワークが求められ，これはコミュニケーション技術と個人の責任感の向上に役立つだろう。",
+                "comment_marker": "(2)",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "cg_p4_s1",
+                "en": "Finally, we are responsible for what we eat.",
+                "ja": "最後に，私たちは自分が食べるものに責任がある。",
+                "comment_marker": "(3)",
+                "underline_word": "we are responsible for what we eat."
+              },
+              {
+                "id": "cg_p4_s2",
+                "en": "Community ownership makes nutritious fruits, vegetables, and herbs more affordable.",
+                "ja": "コミュニティが所有することで，栄養価の高い果物や野菜，ハーブをより手頃な価格で入手できる。"
+              },
+              {
+                "id": "cg_p4_s3",
+                "en": "This leads to healthier eating habits, especially in areas where fresh produce may be limited or expensive.",
+                "ja": "これは，特に新鮮な農産物が限られていたり高価だったりする地域で，より健康的な食生活をもたらしてくれる。"
+              }
+            ],
+            [
+              {
+                "id": "cg_p5_s1",
+                "en": "In conclusion, community gardens help the elderly, provide valuable lessons, and lastly, enrich our diet.",
+                "ja": "結論として，コミュニティ・ガーデンは高齢者を助け，貴重な学びを与え，そして最後に，食生活を豊かにしてくれる。",
+                "comment_marker": "(4)",
+                "underline_word": "help the elderly,"
+              },
+              {
+                "id": "cg_p5_s2",
+                "en": "We should do all we can to support them, as they will become more and more important to us in later life.",
+                "ja": "コミュニティ・ガーデンはこれからの人生で私たちにとってますます重要な存在となるだろうから，それを支援するためにできる限りのことをするべきだ。"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "You're missing something here. Add more information to connect the two sentences.",
+              "ja": "ここに何か足りません。2つの文をつなぐために，間にさらに情報を追加しなさい。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Insert a connecting expression here.",
+              "ja": "ここに接続表現を挿入しなさい。"
+            },
+            {
+              "marker": "(3)",
+              "en": "This topic sentence doesn't really match this paragraph. Rewrite it.",
+              "ja": "この主題文はこの段落にあまり合っていません。書き直しなさい。"
+            },
+            {
+              "marker": "(4)",
+              "en": "The underlined phrase doesn't summarize your essay content enough. Change it.",
+              "ja": "下線部の表現はあなたのエッセイの内容を十分に要約していません。変更しなさい。"
+            }
+          ],
+          "teacher_comment": {
+            "title_en": "Overall comments:",
+            "title_ja": "総合的なコメント：",
+            "en": "I think this topic is something that will be increasingly important in our aging society. There's a community garden in my neighborhood too!",
+            "ja": "この主題は，高齢化社会でますます重要になるものだと思います。私の近所にもコミュニティ・ガーデンがあります！"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on comment (1), which is the best sentence to add? [ 15 ]",
+            "ja": "コメント(1)に基づいて，付け加えるのに最も適当な文はどれか。［15］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Besides, gardening is a popular activity that can be enjoyed regardless of age.",
+              "ja": "その上，ガーデニングは年齢にかかわらず楽しめる人気のある活動である。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "For instance, they teach valuable lessons about how our food is produced.",
+              "ja": "例えば，それらは食料がどのように生産されるかについて，貴重な知識を与えてくれる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Furthermore, community gardens provide people with a chance to be alone.",
+              "ja": "さらに，コミュニティ・ガーデンは人々に一人になる機会を与える。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Similarly, community gardens promote sport in urban environments.",
+              "ja": "同様に，コミュニティ・ガーデンは都市環境におけるスポーツを促進する。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。後続の different generations と対応するよう「年齢を問わず」が橋渡しになる。③は孤立と段落の交流の主旨に矛盾。②④は次文の hubs / generations と論理的につながらない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "cg_p2_s2",
+              "cg_p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "挿入問題は英語力というより論理の埋め合わせ。前句の「交流できる場がない」と後句の「世代を超えて知り合うハブになる」を橋渡しする情報だけが正解候補になる。",
+              "points": [
+                "①の regardless of age は後文の different generations と語彙的にロックするため強い。",
+                "③ alone は交流段落の主旨と真っ向から対立。②は食物教育にずれ，④はスポーツという別話題。",
+                "コメント (1) が要求するのは「追加情報」なので，単なる接続詞だけでは足りない／という説明もセットで覚える。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on comment (2), which is the best expression to add? [ 16 ]",
+            "ja": "コメント(2)に基づいて，付け加えるのに最も適当な表現はどれか。［16］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Additionally",
+              "ja": "さらに（その上）",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "However",
+              "ja": "しかし",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "In contrast",
+              "ja": "それに対して",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Therefore",
+              "ja": "したがって",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①（Additionally）。前句の「実用的スキル・知識」に続き，チームワークによる効果をさらに付け加える並列・追加の関係。Therefore は因果が強すぎ，However / In contrast は対比で不適切。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "cg_p3_s1",
+              "cg_p3_s2"
+            ],
+            "instructor_note": {
+              "ja": "語単位の問題でも，前後が「同じ方向の追加」か「転換」かを見れば半数は切れる。段落全体がベネフィットの積み上げなら，追加・累加のコネクター（Additionally / Furthermore / Moreover）をまず疑う。",
+              "points": [
+                "前句＝知識・技能の提供，後句＝チームワークで得る力。いずれも参加の学びの列挙なので累加の ①。",
+                "However / In contrast は対立を，Therefore は帰結を導く。ここでは「次の利点」が続くのが自然。",
+                "口語の Plus や What is more も同系統。テスト頻出の接続副詞を意味別に整理しておくと早い。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on comment (3), which is the most appropriate way to rewrite the topic sentence? [ 17 ]",
+            "ja": "コメント(3)に基づいて，主題文を書き換えるのに最も適当なものはどれか。［17］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "we can benefit from the harvest",
+              "ja": "私たちは収穫の恩恵を受けることができる",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "we can enjoy visiting the area",
+              "ja": "私たちはその場所を訪れるのを楽しむことができる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "we can feel closer to nature",
+              "ja": "私たちは自然をより身近に感じることができる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "we can save shipping costs",
+              "ja": "私たちは輸送費が節約できる",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。段落はコミュニティ所有による青果の入手しやすさと健康志向の食事につながる内容。収穫（harvest）が affordable produce / healthier eating の主題を最も要約する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "cg_p4_s2",
+              "cg_p4_s3"
+            ],
+            "instructor_note": {
+              "ja": "話題文リライトは，段落のSupporting sentencesがすべて説明できる見出しになっているかが判定基準。「責任」「自然」「輸送費」など一語に惹かれず，複数文をまたいだ内容（価格・アクセス・健康）を一枚岩で言えるかを見る。",
+              "points": [
+                "本段落の具体描写は community ownership → affordable produce → healthier habits と「入手と食生活」の鎖。harvest／収穫がその要約として機能する。",
+                "visit the area は場所訪問にずれ，feel closer to nature は緑化そのものを強調しすぎ。shipping costs は本文が運ぶコストを直接は言わない。",
+                "リライト問題では文法的に続くか（段落がyou／we で統一か）もチェックする癖があると安心。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 18,
+          "stem": {
+            "en": "Based on comment (4), which is the best replacement? [ 18 ]",
+            "ja": "コメント(4)に基づいて，置き換えるのに最も適当なものはどれか。［18］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "are popular locations for holding events",
+              "ja": "イベント開催地として人気がある",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "can create collaboration among local schools",
+              "ja": "地域の学校間の協力を生み出す",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "have the potential to revitalize unwanted land",
+              "ja": "不用地を活性化する可能性がある",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "help build deeper relationships within the community",
+              "ja": "地域内でより深い人間関係を構築するのに役立つ",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。結論の並列は第２段落の交流（世代を超えた知り合い）・第３段落の学び・第４段落の食と対応する必要がある。help the elderly だけでは交流の要点を要約できない。④が第２段落の内容に合致。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "cg_p2_s3",
+              "cg_p3_s2",
+              "cg_p4_s2",
+              "cg_p5_s1"
+            ],
+            "instructor_note": {
+              "ja": "結論パートの並列はしばしば body の First… Second… Finally… と対応する。下線が粗いのは「その段落のキーワードを拾えていない」場合が多く，書き換え先も同じマッピングで探す。",
+              "points": [
+                "provide valuable lessons は第３段落（スキル・チームワーク），enrich our diet は第４段落（青果・健康）なので，残りの第一項目は第２段落の「交流・世代」の要約であるべき。",
+                "help the elderly は高齢者にフォーカスしすぎて，世代を超えた interaction／hub の射程を狭める。④が関係性の深化として広く拾える。",
+                "①イベント会場・②学校連携・③土地再生は本文が触れない論点ではじける（典型の誤答パターン）。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "in cooperation with ~",
+              "ja": "〜と協力して"
+            },
+            {
+              "en": "ensure",
+              "ja": "〜を確実にする"
+            },
+            {
+              "en": "potential",
+              "ja": "可能性"
+            },
+            {
+              "en": "urban",
+              "ja": "都市の"
+            },
+            {
+              "en": "isolation",
+              "ja": "孤立"
+            },
+            {
+              "en": "increasingly",
+              "ja": "ますます"
+            },
+            {
+              "en": "interaction",
+              "ja": "交流（動詞は interact「交流する」）"
+            },
+            {
+              "en": "resident",
+              "ja": "住民"
+            },
+            {
+              "en": "serve as ~",
+              "ja": "〜としての役割を果たす；〜として役立つ"
+            },
+            {
+              "en": "hub",
+              "ja": "（活動などの）中心地；拠点"
+            },
+            {
+              "en": "get to know ~",
+              "ja": "〜と知り合う"
+            },
+            {
+              "en": "practical",
+              "ja": "実用的な"
+            },
+            {
+              "en": "responsibility",
+              "ja": "責任"
+            },
+            {
+              "en": "ownership",
+              "ja": "所有者であること；所有していること"
+            },
+            {
+              "en": "nutritious",
+              "ja": "栄養価の高い"
+            },
+            {
+              "en": "affordable",
+              "ja": "手頃な価格の"
+            },
+            {
+              "en": "produce",
+              "ja": "農産物；生鮮食品"
+            },
+            {
+              "en": "enrich",
+              "ja": "〜を豊かにする"
+            },
+            {
+              "en": "diet",
+              "ja": "食習慣；食生活"
+            },
+            {
+              "en": "問1 ① regardless of ~",
+              "ja": "〜にかかわらず"
+            },
+            {
+              "en": "問1 ③ furthermore",
+              "ja": "さらに"
+            },
+            {
+              "en": "問1 ④ similarly",
+              "ja": "同様に"
+            },
+            {
+              "en": "問2 ① additionally",
+              "ja": "さらに"
+            },
+            {
+              "en": "問2 ③ in contrast",
+              "ja": "その一方"
+            },
+            {
+              "en": "問3 ① harvest",
+              "ja": "収穫（物）"
+            },
+            {
+              "en": "問3 ④ shipping",
+              "ja": "運搬の；輸送の"
+            },
+            {
+              "en": "問4 ② collaboration",
+              "ja": "協力"
+            },
+            {
+              "en": "問4 ③ revitalize",
+              "ja": "〜を活性化する"
+            },
+            {
+              "en": "問4 ③ unwanted",
+              "ja": "要らない；不要な"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

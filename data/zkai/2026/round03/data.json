@@ -1,0 +1,4169 @@
+{
+  "exam_info": {
+    "title": "Z会 共通テスト実戦模試2026年 第3回",
+    "publisher": "Z会",
+    "year": 2026,
+    "round": 3,
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 49,
+    "implemented_sections": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_pdf_mondai": "第3回_問題.pdf",
+    "source_pdf_kaitou": "第3回_解説.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（旅行サイトのお知らせ）",
+      "situation": {
+        "en": "You visited a travel website for international tourists and found this notice written by a British author about an event in your city.",
+        "ja": "あなたは海外旅行者向けの旅行サイトを訪れ，あなたの街で開催されるイベントについて英国人の著者が書いたこの通知を見つけました。"
+      },
+      "passages": [
+        {
+          "id": "night_market_notice",
+          "framed": true,
+          "title": {
+            "en": "Night Market",
+            "ja": "夜市"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "nm_s1",
+                "en": "Experience the sights, sounds, and tastes of our city at the Night Market in East Park, held once a month during the summer.",
+                "ja": "夏の間，東公園で月に一度開かれる夜市で，この街の見どころ，音，味を体験してください。"
+              },
+              {
+                "id": "nm_s2",
+                "en": "Enjoy an evening walk out of the midday heat while you view the fruits and vegetables our area has to offer.",
+                "ja": "真昼の暑さを逃れて夕暮れの散歩を楽しみながら，この地域が誇る青果をご覧ください。"
+              },
+              {
+                "id": "nm_s3",
+                "en": "You can also see art, clothing, speciality foods, and other beautiful items made by local people.",
+                "ja": "地元の人々が手がけた美術品，衣類，名物の食品，そのほかすばらしい品々もご覧いただけます。"
+              },
+              {
+                "id": "nm_s4",
+                "en": "With special events arranged by local organisations every night, the Night Market is also the perfect place to find out about local hot spots and entertainment.",
+                "ja": "毎晩地元の団体が企画する特別イベントもあり，夜市は人気スポットや娯楽を知るのにも最適の場所です。"
+              }
+            ],
+            [
+              {
+                "id": "nm_b1",
+                "en": "Food stands are open every night of the market from 6 p.m. to 10 p.m.",
+                "ja": "夜市が開いている夜は毎晩，屋台は午後6時から午後10時まで営業しています。",
+                "role": "bullet"
+              },
+              {
+                "id": "nm_b2",
+                "en": "All demonstrations and performances are free of charge and will take place on the stage in East Park.",
+                "ja": "すべての実演と演技は無料で，東公園のステージで行われます。",
+                "role": "bullet"
+              },
+              {
+                "id": "nm_b3",
+                "en": "No pets of any kind are allowed at the market, even on leads or in carriers.",
+                "ja": "夜市にはどのようなペットも持ち込めません。ひもでつながれていても，キャリアに入っていてもです。",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "nm_f1",
+                "en": "For information on directions and parking, please click here.",
+                "ja": "道順と駐車場については，こちらをクリックしてください。"
+              }
+            ]
+          ],
+          "table": {
+            "after_paragraph": 1,
+            "title": {
+              "en": "Event Schedule",
+              "ja": "イベントスケジュール"
+            },
+            "headers": [
+              "Date",
+              "Events"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "23rd May",
+                  "7 p.m. : Enjoy risotto from Giulia's, a local Italian restaurant\n8:30 p.m. : A comedy show performed by local university students"
+                ],
+                "cells_ja": [
+                  "5月23日",
+                  "午後7時：地元のイタリアンレストラン Giulia's のリゾット\n午後8時30分：地元の大学生によるお笑いショー"
+                ]
+              },
+              {
+                "cells": [
+                  "23rd June",
+                  "7 p.m. : A drumming and dance performance by the group Rhythm"
+                ],
+                "cells_ja": [
+                  "6月23日",
+                  "午後7時：グループ Rhythm による太鼓とダンスの演技"
+                ]
+              },
+              {
+                "cells": [
+                  "23rd July",
+                  "7 p.m. : Enjoy sushi from Morita, a local Japanese restaurant\n8:30 p.m. : Japanese pop music concert by Minato"
+                ],
+                "cells_ja": [
+                  "7月23日",
+                  "午後7時：地元の日本食レストラン Morita の寿司\n午後8時30分：Minato による J-POP コンサート"
+                ]
+              },
+              {
+                "cells": [
+                  "23rd August",
+                  "7 p.m. : Cooking demonstration by M's Bakery"
+                ],
+                "cells_ja": [
+                  "8月23日",
+                  "午後7時：M's Bakery による料理実演"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "The purpose of this notice is to let people know about [ 1 ].",
+            "ja": "この通知の目的は，人々に［1］ことを知らせることである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a way to experience the local culture",
+              "ja": "地域文化を体験するひとつの方法",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "an annual fruit festival at East Park",
+              "ja": "東公園で開かれる年に一度の果物祭り",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the opening of a new supermarket",
+              "ja": "新しいスーパーマーケットの開店",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "tips for walking safely in the city at night",
+              "ja": "夜の街を安全に歩くためのコツ",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。通知の第1文に Experience the sights, sounds, and tastes of our city とあり，地域の見どころ・音・味を体験する機会として夜市を紹介している。②は果物祭りと決めつけられない。③④は本文にない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "nm_s1"
+            ],
+            "instructor_note": {
+              "ja": "purpose（目的）を問う典型。通知の第1文の動詞・目的語（Experience the sights, sounds, and tastes of our city）が，この文書全体の「何のための案内か」の芯になる。選択肢はすべて「それっぽいテーマ」を運ぶので，単語の連想（fruit, night, tip など）で決めず，必ずリード文へ立ち返る。",
+              "points": [
+                "②：fruit や vegetables は出てくるが，annual fruit festival とは断定できない。East Park / once a month は場所・頻度であって目的そのものではない。",
+                "③：新規店舗のオープンは本文にない。",
+                "④：tip for ~ は「歩行のコツ」に取れるが，この通知の主眼は夜市という文化体験の紹介。テーマのすり替えに注意。",
+                "正解候補を絞ったら，第1文に戻り \"sights, sounds, and tastes\" と選択肢 a way to experience the local culture を照合する。",
+                "見出しが Night Market であっても purpose は「夜市そのもの」ではなく，その背景にある体験の提案であると捉えるとブレにくい。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "On one evening at the Night Market, visitors will [ 2 ].",
+            "ja": "夜市が開かれている夜のひとつにおいて，訪問者は［2］だろう。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "enjoy an Italian music show and eat risotto",
+              "ja": "イタリアの音楽ショーを楽しみ，リゾットを食べる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "enter a dance contest and watch some musical acts",
+              "ja": "ダンスコンテストに参加し，いくつかの音楽番組を見る",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "meet a chef and learn how to play the drums",
+              "ja": "シェフに会い，太鼓の打ち方を学ぶ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "see a funny performance and try a local restaurant's food",
+              "ja": "お笑いの演技を見て，地元のレストランの料理を試す",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。5月23日のスケジュールに risotto from Giulia's（地元イタリアンレストランの料理）と comedy show（お笑いショー）があり，④と一致。①は music show ではない。②③はスケジュールにない活動。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "instructor_note": {
+              "ja": "表の「同じ日付の行」だけを根拠にする。別週のイベント（音楽・ダンス等）と混ぜない。日本語選択肢は英語より情報が圧縮されているので，料理名・パフォーマンスの種類がその夜の行に明示されているかを照合する。",
+              "points": [
+                "5月23日行：comedy show ↔ funny performance，risotto from Giulia's（地元イタリアン）↔ try a local restaurant's food。",
+                "イタリア「音楽」リゾット、ダンスコンテスト、太鼓と言い切られている夜は別日の罠。",
+                "正解を得たら，日本語訳の「お笑い」と「地元店の料理」が原文の comedy / local restaurant にきちんと対応しているか最終確認。",
+                "On one evening は「どこか一夜」なので，表のすべての日をなめる必要はなく，設問が暗に示す日付に注目する（本問は該当行が明示されている前提）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "If you have a dog and want to go to this event, you will need to [ 3 ].",
+            "ja": "犬を飼っていてこのイベントに行きたい場合，あなたは［3］必要がある。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "go between 6 and 8 p.m. only",
+              "ja": "午後6時から8時の間にだけ行く",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "keep away from the stage",
+              "ja": "ステージから離れておく",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "leave your dog at home",
+              "ja": "犬を家に置いておく",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "put your dog on a lead",
+              "ja": "犬をひもにつなぐ",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。箇条書き第3点に No pets of any kind are allowed とあり，even on leads or in carriers と補足されているので，犬を連れて行けない＝家に置くしかない。④は本文で否定。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "nm_b3"
+            ],
+            "instructor_note": {
+              "ja": "No pets of any kind are allowed の直後 even on leads or in carriers は「連れてすらダメ」という極端な例示。譲歩が利く文ではない。条件問題は，ルール文を肯定形・否定形に言い換えたときにどの選択肢だけが必然的になるかまで落とし込む。",
+              "points": [
+                "④：ひも（lead）の有無は議論の俎上にすら乗らない。本文は「いかなるペットも不可」。",
+                "①：6–10 p.m. は屋台の営業時間。ペット禁止の条件ではない。",
+                "②：ステージから離れよの根拠はない。",
+                "正解は「連れて行かない＝家に置く」以外の行動に整理しにくい、と考えると③に落ち着く。",
+                "have a dog が惹起する連想（ひもにつなぐ・散歩時間に行く）を本文より優先しない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "midday",
+              "ja": "真昼；正午（⇔ midnight）"
+            },
+            {
+              "en": "speciality",
+              "ja": "名物（料理）；特産品（米国英語では specialty）"
+            },
+            {
+              "en": "stand",
+              "ja": "売店；露店"
+            },
+            {
+              "en": "on a lead",
+              "ja": "（飼い犬などが）ひもでつながれた"
+            },
+            {
+              "en": "carrier",
+              "ja": "運ぶための入れ物"
+            },
+            {
+              "en": "tip for ~（問1④）",
+              "ja": "〜のコツ；秘訣"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 10,
+      "points_per_question": 2,
+      "description": "短文読解（記事＋ウェブコメント）",
+      "situation": {
+        "en": "Your English teacher gave you an article to help you prepare for the debate in the next class. A part of this article with one of the comments is shown below.",
+        "ja": "あなたの英語の先生は次の授業での討論の準備に役立つ記事をくれました。この記事の一部とコメントの1つは下記の通りです。"
+      },
+      "passages": [
+        {
+          "id": "telecommute_article",
+          "framed": true,
+          "title": {
+            "en": "Will Telecommuting Change the Way We Work?",
+            "ja": "在宅勤務は私たちの働き方を変えるか？"
+          },
+          "subtitle": {
+            "en": "By Nancy Garcia, Los Angeles\n31 JULY 2018 • 5:17 p.m.",
+            "ja": "ロサンゼルス　ナンシー・ガルシア　記\n2018年7月31日　午後5:17"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "tc_p1_s1",
+                "en": "The American Community Survey (ACS) updated their statistics on the telecommuting population in the USA.",
+                "ja": "米国コミュニティ調査（ACS）はアメリカ合衆国での在宅勤務人口の統計を更新した。"
+              },
+              {
+                "id": "tc_p1_s2",
+                "en": "According to the data, the number of people who work at home for more than half of their working time using digital telecommunications was, as of 2016, 4.3 million; 3.2% of the total workforce.",
+                "ja": "そのデータによると，デジタル遠距離通信を用いて仕事時間の半分より多い時間自宅で仕事をする人々の数は，2016年の時点で430万人，労働人口全体の3.2%であった。"
+              },
+              {
+                "id": "tc_p1_s3",
+                "en": "This did not include the self-employed.",
+                "ja": "これは個人事業主を含んでいない。"
+              }
+            ],
+            [
+              {
+                "id": "tc_p2_s1",
+                "en": "David Howe, a business consultant, emphasizes the advantages of telecommuting, saying, 'Telecommuting saves employees commuting time, which is useless and painful. For parents with small children, it gives them more time to spend with their children. For employers, it saves them transportation and utilities costs.'",
+                "ja": "ビジネスコンサルタントのデイビッド・ハウは在宅勤務の利点について次のように力説している。「在宅勤務は，被雇用者の無駄で苦痛を伴う通勤時間を省きます。小さい子供がいる親にとっては，子供と一緒に過ごす時間が増えます。雇用主にとっては，交通費や光熱費の節約になります。」"
+              }
+            ],
+            [
+              {
+                "id": "tc_p3_s1",
+                "en": "On the other hand, Mary Holden, who has experienced telecommuting, says, 'Telecommuting has a lot of advantages, but some disadvantages, too. For example, telecommuters tend to have less opportunity to meet other people on business, and sometimes forget the meaning of their work. Additionally, if a teleworker is experienced, there is no problem, but if not, it might be difficult for them to communicate with other people about how he or she should be doing the work. Furthermore, the increase in working hours and the large decrease in pay per hour are also problems.'",
+                "ja": "一方，在宅勤務を経験したメアリー・ホールデンは，「在宅勤務には多くの利点がありますが，いくつか欠点もあります。例えば，在宅勤務者は仕事で他の人と会う機会が少ない傾向があり，時として自分の仕事の意義を見失います。加えて，在宅勤務者が経験豊かであれば問題ないのですが，そうでなければ，彼または彼女がどのようにその仕事をすべきかについて他人とやり取りするのは難しいかもしれません。さらに，労働時間の増加と時給の大幅な減少も問題となります。」と話している。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "angela_comment",
+          "framed": true,
+          "title": {
+            "en": "15 Comments",
+            "ja": "15のコメント"
+          },
+          "subtitle": {
+            "en": "Newest",
+            "ja": "最新"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "aj_meta",
+                "en": "Angela Jones   2 August 2018 • 7:20 p.m.",
+                "ja": "アンジェラ・ジョーンズ　2018年8月2日　午後7:20"
+              },
+              {
+                "id": "aj_s1",
+                "en": "I am also a telecommuter. Despite living in the countryside where I can enjoy the beauty of nature, I can earn enough money by telecommuting. If the number of telecommuters increases, there will be fewer cars on the road and the trains will be less crowded. We can save the environment by just changing the work style.",
+                "ja": "私も在宅勤務者です。私は自然の美しさを楽しめる田舎に住んでいますが，在宅勤務によって十分な収入を得られています。在宅勤務者の数が増えれば，道路上の車は少なくなり，電車の混雑は軽減されるでしょう。私たちはただ仕事の仕方を変えるだけで，環境を救うことができるのです。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "According to the article, the telecommuting population means the number of people who [ 4 ].",
+            "ja": "記事によると，在宅勤務人口とは［4］人々の数を意味している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "are employed but work at home",
+              "ja": "雇われているが家で働いている",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "aren't employed and work at home using communication devices",
+              "ja": "雇われていないが通信機器を使って家で働いている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "work at home without using any communication devices",
+              "ja": "通信機器を使わずに家で働いている",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "work during commuting hours using communication devices",
+              "ja": "通勤時間の間に通信機器を使って働いている",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第1段落に work at home … using digital telecommunications とあり，かつ This did not include the self-employed より被雇用者が対象。②③④はいずれも本文の定義と矛盾する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "tc_p1_s2",
+              "tc_p1_s3"
+            ],
+            "instructor_note": {
+              "ja": "ACS の定義は「雇用されている」「勤務の半分以上を自宅で」「digital telecommunications を使う」の三点セット。This did not include the self-employed が雇用の裏づけになる。グラフや見出し語に時間を使う前に，定義の一文を自分の言葉で三要素に分解しておくと選択肢判定が速い。",
+              "points": [
+                "定義文は第1段落にまとまっている。選択肢を読む前に，本文から一度マークしておくと速い。",
+                "②は被雇用者が対象なので除外。③は using digital telecommunications と矛盾。④は commute 中の勤務と定義が異なる。",
+                "数字（4.3 million / 3.2%）は正誤を決める材料ではなく，あとから確認する程度でよい。",
+                "self-employed を除外する一文は「誰を数に入れたか」の確認問題にも転用できるので丸ごと暗記しておく価値がある。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "sentences": [
+              {
+                "id": "q2_stem",
+                "en": "Your team will support the debate topic, \"Telecommuting should be promoted.\" In the article, one <strong><u>opinion</u></strong> (not a fact) helpful for your team is that [ 5 ].",
+                "ja": "あなたのチームは討論トピック「在宅勤務は推奨されるべきだ」を支持する。記事の中で，あなたたちのチームの手助けとなる（事実ではなく）<strong><u>意見</u></strong>の1つは［5］ということだ。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "it is a good way for parents raising children to earn more",
+              "ja": "子供を育てる親たちにとってより多く稼ぐのにうまい方法だ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "more than 5% of the total workforce work as telecommuters",
+              "ja": "労働人口全体の5%より多くの人が在宅勤務者として働いている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "the commuting time will be shortened",
+              "ja": "通勤時間は短縮されるだろう",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "you can have more time with your children",
+              "ja": "自分の子供といる時間をより多く持つことができる",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。デイビッド・ハウの引用に it gives them more time to spend with their children という意見がある。②は3.2%という事実で意見ではない。③は通勤をなくすので「短縮」とは言いにくい。①は時給減など本文のニュアンスと合わない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "tc_p2_s1"
+            ],
+            "instructor_note": {
+              "ja": "fact vs opinion：統計や割合は検証可能な事実。賛成側の論拠として使えるのは，話し手の評価・推奨理由として書かれた文（意見）である。設問が opinion と括っている以上，本文に数字だけがある選択肢はまず除外してよい。",
+              "points": [
+                "David Howe の引用はメリットの列挙なので，支持側の「意見」はここから拾う。",
+                "②の 5% は本文の 3.2% と矛盾する事実なので，そもそも選択肢として成立しない。",
+                "③は Telecommuting saves employees commuting time ＝通勤を「短くする」ではなく「なくす」ニュアンス。言い換えに注意。",
+                "①は earn more と書いてあるが，Holden は時給の減少にも触れており，親の稼ぎ増しとは読みにくい。",
+                "討論問題では「支持チーム向け」か「反対チーム向け」かを最初にマークし，見出し人物のブロックを間違えない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "sentences": [
+              {
+                "id": "q3_stem",
+                "en": "The other team will oppose the debate topic. In the article, one <strong><u>opinion</u></strong> (not a fact) helpful for that team is that [ 6 ].",
+                "ja": "もう一方のチームはその討論トピックに反対する。記事の中で，そのチームの手助けとなる（事実ではなく）<strong><u>意見</u></strong>の1つは［6］ということだ。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "companies have to pay money such as transportation fees for their workers",
+              "ja": "企業は交通費などの費用を自分たちの労働者に支払わなければならない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "if you are not experienced you may have trouble doing your job efficiently",
+              "ja": "経験不足の人は効率的に仕事をするのが難しい可能性がある",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "telecommuting usually gives you a strong sense of achievement",
+              "ja": "在宅勤務はたいてい本人に強い達成感をもたらす",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "you will have more opportunities to meet the people with whom you work",
+              "ja": "一緒に働く人たちと会う機会が増えるだろう",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。メアリー・ホールデンの引用で，経験がなければやり取りが難しいとする部分が，反対側の論拠になる意見。④は本文では機会がlessとあるので誤り。①は雇用主側のメリットの話とズレる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "tc_p3_s1"
+            ],
+            "instructor_note": {
+              "ja": "反対チームの論拠は「デメリット・不安・リスク」を肯定する意見から選ぶ。第3段落（Mary Holden）が中心。賛成側のメリット（時間・コスト）と語を対にならべ替えないよう，段落冒頭の名前で区切りをつける。",
+              "points": [
+                "①は本文では雇用主が transportation and utilities costs を「節約できる」とある話／選び文の「会社が労働者に交通費を払う」とは別次元の論点。",
+                "④は less opportunity to meet と真逆。③は forget the meaning と「達成感」は結びつけにくい。",
+                "if not, it might be difficult … communicate … と効率・やり取りの難しさに直結するのが②。",
+                "Mary Holden の長い一文は「時給低下」と「コミュニケーションの難しさ」に二分できる。設問が指すのは後半の仕事のしかたの話なら②が核。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "In the 3rd paragraph of the article, Mary Holden refers to the possibility of telecommuters [ 7 ].",
+            "ja": "記事の第3段落において，メアリー・ホールデンは在宅勤務者が［7］可能性に言及している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "completely understanding why they work in the countryside",
+              "ja": "自分たちが田舎で働いている理由を完全に理解している",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "decreasing their chance to have new experiences",
+              "ja": "新しい経験を得る機会を減少させる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "earning less money despite having longer working hours",
+              "ja": "より長い労働時間にもかかわらず賃金が少ない",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "meeting a lot of people through their job",
+              "ja": "自分たちの仕事を通して多くの人々と会う",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。第3段落に the increase in working hours and the large decrease in pay per hour are also problems とある。④は less opportunity to meet と矛盾。①②は該当記述なし。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "tc_p3_s1"
+            ],
+            "instructor_note": {
+              "ja": "refer to the possibility of telecommuters ~ は「こうなりうる」という帰結を問う。否定語・対立語とセットで確認する。段落が長いときは，課題を「賃金」「時間」「対人面」にタグ付けしてから選択肢へ写す。",
+              "points": [
+                "文中のペア：the increase in working hours と the large decrease in pay per hour をセットで覚えると③に直行できる。",
+                "④は meet の機会が less と対立。①の countryside は Holden 段落に登場しない（別パートの話と混同しない）。",
+                "②の new experiences は本文語彙としては弱く，該当記述がないなら消去法でもよい。",
+                "possibility の語に惑わされず，実質は「問題点の列挙」として読むと③④の消し分けが安定する。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 8,
+          "stem": {
+            "en": "According to her comment, Angela Jones [ 8 ] promoting telecommuting.",
+            "ja": "アンジェラ・ジョーンズのコメントによると，彼女は在宅勤務の奨励を［8］。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "has no particular opinion about",
+              "ja": "について特別な意見はない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "partly disagrees with",
+              "ja": "に部分的に反対だ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "strongly agrees with",
+              "ja": "に強く賛成だ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "strongly disagrees with",
+              "ja": "に強く反対だ",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。コメントはメリット（収入，渋滞緩和，環境）のみでデメリットに触れず，推進に積極的な態度。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "aj_s1"
+            ],
+            "instructor_note": {
+              "ja": "コメント全体が賛美・メリットの列挙か，批判・条件付きかで賛否を決める。デメリットが一言もなければ「強く賛成」寄りと読むことが多い。個人コメント問題は文量が短いので，強調語（strongly / partly）と本文のトーンのギャップにだけ注意すればよい。",
+              "points": [
+                "田舎でも収入が得られる／車・電車・環境の3文はいずれも在宅推進の肯定的含意。",
+                "② partly は「良い面も悪い面も」と書いてある場合に検討するが，本文コメントは一方通行。",
+                "設問の promoting はコメント内の動詞 save the environment by changing the work style と呼応する。",
+                "has no particular opinion は「情報がない」と混同しやすいが，コメントが明確に賛意なら①は選ばない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "telecommuting",
+              "ja": "在宅勤務"
+            },
+            {
+              "en": "update",
+              "ja": "〜を更新する"
+            },
+            {
+              "en": "as of ~",
+              "ja": "〜の時点で"
+            },
+            {
+              "en": "utility / utilities",
+              "ja": "（電気・ガス・水道などの）公共設備；光熱費を含む運営コストのイメージも"
+            },
+            {
+              "en": "opinion vs fact（問2・問3）",
+              "ja": "意見＝主張・評価；事実＝データ・定義など検証可能な記述"
+            },
+            {
+              "en": "save + 人 + 物（問2③の型）",
+              "ja": "save employees commuting time ＝通勤時間という負担を（在宅によって）省く"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "description": "ブログ読解（オープンキャンパス）",
+      "situation": {
+        "en": "You are a senior high school student researching university life. You are reading an online blog post by another senior high school student, Mio, who recently attended an open campus event at an international university in Tokyo.",
+        "ja": "あなたは大学生活について調べている高校生である。東京の国際大学で最近開催されたオープンキャンパスに参加した別の高校生ミオのオンラインブログを読んでいる。"
+      },
+      "passages": [
+        {
+          "id": "mio_open_day_blog",
+          "framed": true,
+          "title": {
+            "en": "Discovering My Future at a University Open Day",
+            "ja": "大学のオープンキャンパスで未来を発見して"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "mio_p1_s1",
+                "en": "Last Saturday, I attended an open day at a university in Tokyo.",
+                "ja": "先週の土曜日，私は東京のある大学のオープンキャンパスに参加した。"
+              },
+              {
+                "id": "mio_p1_s2",
+                "en": "I had always dreamed of attending such a school, but I wasn't sure what to expect.",
+                "ja": "ずっとそのような学校に通うことを夢見ていたが，実際がどうなのかはわからなかった。"
+              },
+              {
+                "id": "mio_p1_s3",
+                "en": "I decided I had to see the school for myself to know if it was right for me.",
+                "ja": "自分に合うかどうか確かめるには，自分の目で学校を見なければならないと決めた。"
+              }
+            ],
+            [
+              {
+                "id": "mio_p2_s1",
+                "en": "The day started with a guided tour of the campus.",
+                "ja": "その日はガイド付きのキャンパスツアーから始まった。"
+              },
+              {
+                "id": "mio_p2_s2",
+                "en": "The library, one of the largest I had ever seen, was filled with busy students.",
+                "ja": "今まで見た中でも最大級の図書館には，忙しそうな学生でいっぱいだった。"
+              },
+              {
+                "id": "mio_p2_s3",
+                "en": "Some were deeply focused, but others took the time to smile and wave when they saw our group.",
+                "ja": "深く集中している人もいれば，私たちのグループを見て微笑み，手を振ってくれる人もいた。"
+              },
+              {
+                "id": "mio_p2_s4",
+                "en": "I also visited the laboratories, where I saw some awesome equipment provided by the university for experiments.",
+                "ja": "また研究室も見学し，大学が実験のために用意しているすばらしい機材も目にした。"
+              },
+              {
+                "id": "mio_p2_s5",
+                "en": "Our guide explained how these facilities were available to students for both classwork and independent study projects.",
+                "ja": "ガイドは，これらの施設が授業の課題と自主研究プロジェクトの両方に，学生が利用できると説明してくれた。"
+              }
+            ],
+            [
+              {
+                "id": "mio_p3_s1",
+                "en": "Next, we moved on to the dorms.",
+                "ja": "次に，私たちは寮へ向かった。"
+              },
+              {
+                "id": "mio_p3_s2",
+                "en": "They were huge, with long hallways and hundreds of rooms shared by students from Japan and other countries.",
+                "ja": "とても大きく，長い廊下と何百もの部屋があり，日本や他の国からの学生がシェアしていた。"
+              },
+              {
+                "id": "mio_p3_s3",
+                "en": "What impressed me the most was the activity center, with its billiards tables, table tennis, video games, snacks, and lots of books too.",
+                "ja": "いちばん印象に残ったのは，ビリヤード台，卓球台，ビデオゲーム，おやつ，それに本もたくさんあるアクティビティセンターだった。"
+              },
+              {
+                "id": "mio_p3_s4",
+                "en": "It was great to see students had a place to relax with their friends after classes.",
+                "ja": "授業のあと友だちとくつろげる場所があるのを見てすばらしいと思った。"
+              }
+            ],
+            [
+              {
+                "id": "mio_p4_s1",
+                "en": "After the tour, I had the chance to speak with some current students and professors.",
+                "ja": "ツアーのあと，在学生や教授とも話す機会があった。"
+              },
+              {
+                "id": "mio_p4_s2",
+                "en": "One student told me about her struggles during her freshman year.",
+                "ja": "ある学生は，大学1年生のときの苦労について話してくれた。"
+              },
+              {
+                "id": "mio_p4_s3",
+                "en": "However, she said that she got through it thanks to the university's great support system.",
+                "ja": "しかし，大学のすぐれたサポートのおかげで乗り越えられたと言っていた。"
+              },
+              {
+                "id": "mio_p4_s4",
+                "en": "One professor talked about the importance of building relationships with others.",
+                "ja": "ある教授は，他者との関係を築くことの大切さについて話してくれた。"
+              },
+              {
+                "id": "mio_p4_s5",
+                "en": "Talking to both of them made me realize that university is not just about studying — it's also about growing as a person.",
+                "ja": "二人と話して，大学は勉強するだけの場所ではなく，人として成長する場所でもあると気づいた。"
+              }
+            ],
+            [
+              {
+                "id": "mio_p5_s1",
+                "en": "By the end of the day, I felt much more confident that I had found the university where I wanted to spend the next four years.",
+                "ja": "その日の終わりには，この先4年を過ごしたいと思える大学を見つけたという自信が大いに高まった。"
+              },
+              {
+                "id": "mio_p5_s2",
+                "en": "I left the campus feeling inspired to study as hard as I could for the rest of my senior year of high school.",
+                "ja": "キャンパスを後にするとき，高校生活の残りはできる限り一生懸命勉強しようという気持ちになった。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "paragraph_index": 1,
+              "src": "images/mio_library.png",
+              "position": "float-right",
+              "alt": "Students in the university library",
+              "max_width": 220
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "stem": {
+            "en": "Mio's blog post also included students' comments (①~④) describing the events during the open day. Put the comments in the order in which the events happened. [ 9 ] → [ 10 ] → [ 11 ] → [ 12 ]",
+            "ja": "ミオのブログ記事には，オープンキャンパス中の出来事を描写する学生のコメント（①〜④）も載っていた。出来事が起きた順にコメントを並べよ。［9］→［10］→［11］→［12］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "I had never thought about how much college changes us. The people around us have a big impact on our lives.",
+              "ja": "大学が自分たちをどれだけ変えるか，考えたことがなかった。周りの人々は自分の人生に大きな影響を与える。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "I started thinking about my future projects! That's way more exciting than my regular homework.",
+              "ja": "将来のプロジェクトについて考え始めた。いつもの宿題よりずっとわくわくする。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "I was touched by the students concentrating on their studies, surrounded by many books.",
+              "ja": "多くの本に囲まれ，学業に集中する学生たちに心を打たれた。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "It's also important to be able to have a good time and hang around after a hard day of studying.",
+              "ja": "一日一生懸命勉強したあと，楽しく過ごしたりのんびりしたりできることも大切だ。",
+              "is_correct": true
+            }
+          ],
+          "answer": "③②④①",
+          "answer_sequence": [
+            "③",
+            "②",
+            "④",
+            "①"
+          ],
+          "explanation": {
+            "quoted_ja": "正解の順序は ③→②→④→①。③は第2段落の図書館，②は同段落後半の研究室・facilities / independent study projects，④は第3段落のアクティビティセンター，①は第4段落の教授・学生との対話・気づきに対応する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "mio_p2_s2",
+              "mio_p2_s5",
+              "mio_p3_s3",
+              "mio_p4_s5"
+            ],
+            "instructor_note": {
+              "ja": "ブログの叙述順＝時系列に沿って，各コメントがどの場面の感想かを突き合わせる。迷ったら，コメントに出る名詞（books, lab, table tennis, professors）を本文で検索し，出現段落の前後を読み返す。",
+              "points": [
+                "③は library … busy students / deeply focused と対応。最初の見学パート。",
+                "②は laboratories・classwork / independent study projects という「これからの課題・研究」の連想に近い。",
+                "④は activity center・relax with friends と対応。寮エリアの見学のあと。",
+                "①は最終段落に近い抽象度（人との関係・成長）。対話シーンのあとの総括に相当。",
+                "コメントの語彙（books, projects, hang around, college changes us）を本文の固有名詞・場所と結びつける練習をすると安定する。",
+                "「施設名が出る順」と「感情の高まり（具体→抽象）」の二筋で検証すると，①を最後に置く理屈が掴みやすい。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 13,
+          "stem": {
+            "sentences": [
+              {
+                "id": "mio_q2_stem",
+                "en": "During the open day, Mio did <strong><u>not</u></strong> [ 13 ].",
+                "ja": "オープンキャンパス当日，ミオは<strong><u>しなかった</u></strong>のは［13］である。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "play table tennis",
+              "ja": "卓球をした",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "speak to a professor",
+              "ja": "教授と話した",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "talk to a student",
+              "ja": "在学生と話した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "visit a laboratory",
+              "ja": "研究室を訪れた",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第3段落に卓球台があることは書いてあるが，ミオ本人が打ったとは書かれていない。④は第2段落の laboratories，③②は第4段落の students / professors でそれぞれ触れている。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "mio_p3_s3",
+              "mio_p2_s4",
+              "mio_p4_s1"
+            ],
+            "instructor_note": {
+              "ja": "NOT 問題＝「書いてあるか」ではなく「主人公がしたと断言できるか」。設備の存在と行為は別。Mio / I が主語の文だけを追うと，見学と体験の区別がつきやすい。",
+              "points": [
+                "table tennis は activity center の設備の列挙の一部。見学して感動したが，プレーしたとは読めない。",
+                "speak with … professors / current students は第4段落で明示。",
+                "visited the laboratories は第2段落で I also visited。",
+                "設問の not が太字なのは，肯定系の選択肢を選びやすい罠だと知らせる記号。",
+                "同型の NOT 設問は「動詞の体（継続・完了）」に騙されない。例：see a table と play table tennis。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 14,
+          "stem": {
+            "en": "At the end of the open day, Mio likely learned the university [ 14 ].",
+            "ja": "オープンキャンパスの終わりまでに，ミオはその大学が自分に［14］とおそらく理解した。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "lacks good support",
+              "ja": "十分な支援がない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "offers many sports",
+              "ja": "多くのスポーツを提供している",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "separates different students",
+              "ja": "異なる学生を隔てている",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "suited her well",
+              "ja": "よく合っている",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第1段落で whether it was right for me と動機づけし，最終段落で I felt much more confident that I had found the university where I wanted to spend the next four years とあり，「自分に合う大学だ」という認識に至っている。①は great support system で否定。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "mio_p1_s3",
+              "mio_p5_s1",
+              "mio_p4_s3"
+            ],
+            "instructor_note": {
+              "ja": "infer 系は「直後の心情・評価語」を優先し，選択肢はパラフレーズ（right for me → suit）として読む。At the end of the day は「一日の体験の積み重ねのあと」なので，冒頭の不安（whether … right for me）との対比で読む。",
+              "points": [
+                "support に関して本文は肯定的なので①は排除。スポーツの網羅的説明（②）はなし。",
+                "寮で各国の学生がシェアしている記述と③は矛盾。",
+                "learned の後ろに続く補語として，感情的まとめ（confident / found … wanted）と整合するのは suit。",
+                "likely は断定ではなく推論なので，選択肢に must / only のような絶対語がなくても④でよい。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "campus",
+              "ja": "キャンパス；（大学などの）構内"
+            },
+            {
+              "en": "focused",
+              "ja": "集中した；専念した"
+            },
+            {
+              "en": "dorm (= dormitory)",
+              "ja": "寮"
+            },
+            {
+              "en": "impress",
+              "ja": "〜に強い印象を与える；感銘を与える"
+            },
+            {
+              "en": "current",
+              "ja": "現在の；（地位などに）ある"
+            },
+            {
+              "en": "struggle",
+              "ja": "苦闘；難局"
+            },
+            {
+              "en": "freshman",
+              "ja": "（大学の）1年生"
+            },
+            {
+              "en": "feel inspired to do",
+              "ja": "…しようという気になる"
+            },
+            {
+              "en": "senior year",
+              "ja": "（高校・大学などの）最終学年"
+            },
+            {
+              "en": "impact（問1①）",
+              "ja": "影響"
+            },
+            {
+              "en": "hang around（問1④）",
+              "ja": "ぶらぶらする；のんびり過ごす"
+            },
+            {
+              "en": "suit（問3④）",
+              "ja": "（人・目的などに）合う；向いている"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ添削（大気汚染・添削コメント）",
+      "situation": {
+        "en": "In English class you are writing an essay on a social issue you are interested in. This is your most recent draft. You are now working on revisions based on comments from your teacher.",
+        "ja": "英語の授業で，あなたは興味のある社会問題に関するエッセイを書いています。これはあなたの最新の草稿です。今は先生からのコメントをもとに，推敲に取り組んでいるところです。"
+      },
+      "passages": [
+        {
+          "id": "clean_sky_essay",
+          "title": {
+            "en": "Under One Clean Sky",
+            "ja": "一つのきれいな空の下で"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "air_p1_s1",
+                "en": "I saw a picture of Tokyo in the 1980s in my history class last week. I was shocked.",
+                "ja": "先週の歴史の授業で1980年代の東京の写真を見ました。ショックでした。"
+              },
+              {
+                "id": "air_p1_s2",
+                "en": "The skyline was barely visible because of the air pollution.",
+                "ja": "大気汚染のせいでスカイラインがほとんど見えませんでした。"
+              },
+              {
+                "id": "air_p1_s3",
+                "en": "A lot has changed since then but I think we need to work harder to solve the problem on a global scale. The WHO estimates that almost 7 million people die each year due to air pollution! In this essay, I would like to consider what we can do.",
+                "ja": "それ以来多くのことが変わりましたが，世界規模でこの問題を解決するために私たちはもっと努力する必要があると思います。WHOは，大気汚染が原因で毎年ほぼ700万人が亡くなっていると推定しています！このエッセイでは，私たちにできることを考えたいです。"
+              }
+            ],
+            [
+              {
+                "id": "air_p2_s1",
+                "en": "First, there needs to be a bigger move towards electric cars and buses, since air pollution is mainly caused by gasoline-powered cars.",
+                "ja": "第一に，大気汚染は主にガソリン車によって起こるので，電気自動車や電気バスへのより大きな転換が必要です。"
+              },
+              {
+                "id": "air_p2_s2",
+                "en": "Take a look around and you will see the main reason.",
+                "ja": "周りを見渡せば，その主な理由がわかるでしょう。",
+                "comment_marker": "(1)",
+                "marker_position": "before",
+                "marker_type": "caret"
+              },
+              {
+                "id": "air_p2_s3",
+                "en": "Because there are not enough charging stations, buying an electric vehicle (EV) is not practical for most people.",
+                "ja": "充電ステーションが十分にないため，ほとんどの人にとって電気自動車（EV）を購入することは現実的ではありません。"
+              },
+              {
+                "id": "air_p2_s4",
+                "en": "I think the government needs to make EVs the cheaper and more convenient option.",
+                "ja": "政府はEVをより安価で便利な選択肢にする必要があると思います。"
+              }
+            ],
+            [
+              {
+                "id": "air_p3_s1",
+                "en": "Secondly, Japan needs to follow the lead of other environmentally advanced countries and introduce designated areas called LEZs, Low Emission Zones.",
+                "ja": "第二に，日本も他の環境先進国に倣って，LEZ（低排出ゾーン）と呼ばれる指定地域を導入する必要があります。"
+              },
+              {
+                "id": "air_p3_s2",
+                "en": "Basically, drivers of vehicles that don't meet the low emission standards have to pay money to enter the LEZs.",
+                "ja": "基本的に，低排出ガス基準を満たさない車の運転者はLEZに入るためにお金を払わなければなりません。"
+              },
+              {
+                "id": "air_p3_s3",
+                "en": "At present the Japanese policy seems to be to just hope that people buy eco-friendly cars.",
+                "ja": "現在の日本の政策は，人々がエコカーを購入することを願うことだけのようです。"
+              },
+              {
+                "id": "air_p3_s4",
+                "en": "European cities are taking positive action to encourage people to do more.",
+                "ja": "ヨーロッパの都市は，人々がもっと行動するように，積極的な措置を講じています。",
+                "comment_marker": "(2)",
+                "marker_position": "before",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "air_p4_s1",
+                "en": "Finally, it's time to show that you care!",
+                "ja": "最後に，今こそ，あなたが関心をもっていると示す時です！",
+                "comment_marker": "(3)",
+                "marker_type": "caret",
+                "underline_word": "it's time to show that you care!"
+              },
+              {
+                "id": "air_p4_s2",
+                "en": "We need to plant more trees in city centers.",
+                "ja": "市街地に樹木をより多く植える必要があります。"
+              },
+              {
+                "id": "air_p4_s3",
+                "en": "As well as helping reduce air pollution by sucking up carbon dioxide, they would also provide shade for shoppers on hot summer days.",
+                "ja": "二酸化炭素を吸い上げて大気汚染を減らすのに役立つだけでなく，暑い夏の日に買い物客に木陰を提供してくれるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "air_p5_s1",
+                "en": "In conclusion, although Japan is a lot cleaner than it was in the past, we still must play our part as global citizens.",
+                "ja": "結論として，日本は過去に比べればかなり汚染がなくなりましたが，それでも私たちは地球市民としての役割を果たさなければなりません。"
+              },
+              {
+                "id": "air_p5_s2",
+                "en": "We should promote the use of electric cars, know more about controlling toxic gas, and work on further greening our cities.",
+                "ja": "電気自動車の普及を促進し，有毒ガスの抑制についてもっと知り，さらに都市の緑化に取り組むべきです。",
+                "comment_marker": "(4)",
+                "marker_type": "caret",
+                "underline_word": "know more about"
+              },
+              {
+                "id": "air_p5_s3",
+                "en": "What we do here affects the entire global eco-system.",
+                "ja": "私たちがここで行うことは，地球の生態系全体に影響を及ぼすのです。"
+              }
+            ]
+          ],
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "You are missing something here. Add more information between the two sentences to connect them.",
+              "ja": "ここに何か足りません。2つの文をつなぐために，間にさらに情報を追加しなさい。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Insert a connecting expression here.",
+              "ja": "ここに接続表現を挿入しなさい。"
+            },
+            {
+              "marker": "(3)",
+              "en": "This topic sentence doesn't really match this paragraph. Rewrite it.",
+              "ja": "この主題文はこの段落にあまり合っていません。書き直しなさい。"
+            },
+            {
+              "marker": "(4)",
+              "en": "The underlined phrase doesn't summarize your essay content enough. Change it.",
+              "ja": "下線部の表現はあなたのエッセイの内容を十分に要約していません。変更しなさい。"
+            }
+          ],
+          "teacher_comment": {
+            "title_en": "Overall Comments:",
+            "title_ja": "総合的なコメント：",
+            "en": "Overall, it is well-written. It would be perfect with a few minor revisions. (I agree with your suggestion of creating LEZs in Japan! 😊)",
+            "ja": "全体としてよく書けています。あと少し修正すれば完璧でしょう。（日本でもLEZをつくるというあなたの提案に同意します！😊）"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on comment (1), which is the best sentence to add? [ 15 ]",
+            "ja": "コメント(1)に基づいて，付け加えるのに最も適当な文はどれか。［15］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "As of 2023, electric cars were cheaper than gasoline cars.",
+              "ja": "2023年時点で，電気自動車はガソリン自動車より安価だった。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "As of 2023, most people liked to drive electric cars.",
+              "ja": "2023年時点で，ほとんどの人は電気自動車を運転したがっていた。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "As of 2023, only 3% of cars in Japan were electric.",
+              "ja": "2023年時点で，日本における電気自動車は3%しかなかった。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "As of 2023, taxi companies were already using electric cars.",
+              "ja": "2023年時点で，タクシー会社はすでに電気自動車を使っていた。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。(1)の位置は，より電気自動車への転換が必要だと述べたあと，\"Take a look around and you will see the main reason.\" と続く直前である。「周りを見れば主な理由がわかる」＝まだガソリン車がほとんどという現状を示す具体情報として，日本のEV割合が3%しかないという③が最も自然につながる。①は政府がEVをより安くすべきとあるため矛盾しやすい。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "air_p2_s1",
+              "air_p2_s2"
+            ],
+            "instructor_note": {
+              "ja": "文挿入は「前後の論理の隙間」を埋める。次文の the main reason が指す内容を具体化できるかが鍵。Take a look around が読者への見立てになっているので，その「見え方」を数字か光景かで示せるかが正誤の分かれ目。",
+              "points": [
+                "②④は「好き・タクシー」で主因の可視化として弱い。①は価格関係が本文の government needs to make EVs cheaper と食い違いやすい。",
+                "データ（％）で「まだEVが少ない」を示すと，充電インフラ不足・非現実的という後続とも一本につながる。",
+                "コメント(1) が要求するのは追加情報なので，接続詞だけでなく「エビデンスになる一文」かどうかで選ぶ。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on comment (2), which is the best expression to add? [ 16 ]",
+            "ja": "コメント(2)に基づいて，付け加えるのに最も適当な表現はどれか。［16］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "In contrast",
+              "ja": "その一方で（対照的に）",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "In particular",
+              "ja": "特に",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Nevertheless",
+              "ja": "それにもかかわらず",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Otherwise",
+              "ja": "そうでなければ",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。直前は日本の政策が eco-friendly cars を買うよう「願うだけ」の受動的な話で，直後は European cities の積極的な行動である。二者は対比なので In contrast が最適。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "air_p3_s3",
+              "air_p3_s4"
+            ],
+            "instructor_note": {
+              "ja": "接続詞は「前後の意味関係」を決め打ちする。日本↔欧州の政策スタンスの対照がポイント。hope that people buy〜（受動的）と taking positive action（能動的）の語の対比をマーカーにすると In contrast が選びやすい。",
+              "points": [
+                "In particular は具体例の絞り込み，Nevertheless は逆接だがここは「対比」が核。",
+                "Otherwise は「そうでないと〜ない」条件めいた用法になりやすく，この並びには馴染みにくい。",
+                "対比なら By contrast / Meanwhile なども同系統。テストでは選択肢語の「対比 vs 追加 vs 逆接」の三分類が早い。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on comment (3), which is the most appropriate way to rewrite the topic sentence? [ 17 ]",
+            "ja": "コメント(3)に基づいて，主題文を書き換えるのに最も適当なものはどれか。［17］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "greener means cleaner",
+              "ja": "緑化は（空気を）より清浄にする",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "let's stop driving cars",
+              "ja": "車の運転をやめよう",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "no more shopping in summer",
+              "ja": "夏の買い物をやめよう",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "save the planet, take the bus",
+              "ja": "地球を守ろう，バスに乗ろう",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。段落本文は plant more trees と汚染削減・二酸化炭素の話であり，主題文は「緑化が清浄化につながる」方向が整合的。②〜④は段落の具体的内容とズレる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "air_p4_s2",
+              "air_p4_s3"
+            ],
+            "instructor_note": {
+              "ja": "リライト問題は段落の主題一致度がすべて。本文の名詞・動詞の束を拾ってパラフレーズ候補を検証する。コメント(3) が topic sentence と書いてあるので，見出し調のフレーズではなく「この段落で語っている因果」を一文で言えるかが焦点。",
+              "points": [
+                "trees / reduce air pollution / carbon dioxide に直結するのは green と clean の対応。",
+                "バス・運転中止・買い物は別段落の論点に寄りやすい罠。",
+                "it's time to show that you care は感情のスローガンに見えるので，本文の植物・CO2・汚染の語と結びつくまで書き換え候補を絞る。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 18,
+          "stem": {
+            "en": "Based on comment (4), which is the best replacement? [ 18 ]",
+            "ja": "コメント(4)に基づいて，置き換えるのに最も適当なものはどれか。［18］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "become more useful to the planet by",
+              "ja": "もっと地球の役に立つようになるために",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "create new vehicles which are suitable for",
+              "ja": "〜に適した新しい車を作ることによって",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "keep up with other environmentally advanced countries in",
+              "ja": "有毒ガスの抑制において他の環境先進国に遅れを取らないようにする",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "make more financial contributions for the purpose of",
+              "ja": "〜のためにさらなる財政貢献をする",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "正解は③。(4)は結論部の並列のひとつで，第2案のEV，第4案の緑化のあいだに入り，第3段落（LEZ・環境先進国との比較・規制）を要約すべき箇所。know more about は弱いので，keep up with ... in controlling toxic gas のように「遅れを取らない」方向が本文と一致する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第3回 解説冊子",
+            "evidence_sentences": [
+              "air_p3_s1",
+              "air_p5_s2"
+            ],
+            "instructor_note": {
+              "ja": "言い換えは「前後の段落役割」。結論の中間項が第3段落の要約になっているかを確認する。In conclusion の並列はしばしば First… Secondly… Finally… と対応するので，空所が「第いくつの提案か」を数える。",
+              "points": [
+                "promote EV は第2段落，greening は第4段落に対応するイメージで，残るスロットは第3段落（LEZ・欧州比較）。",
+                "①②④は本文の動線（規制・追随・比較）と語彙が合いにくい。",
+                "know more about は「情報を増やす」という弱い動詞なので，規制・追随という具体的政策に差し替えるのがコメント(4) の意図。",
+                "LEZ / emission standards / European cities など第3段落の語を一つでも含む選択肢を優先してもよい。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙・表現",
+          "items": [
+            {
+              "en": "skyline",
+              "ja": "スカイライン（空を背景とした建物のシルエット）"
+            },
+            {
+              "en": "barely",
+              "ja": "ほとんど〜ない"
+            },
+            {
+              "en": "visible",
+              "ja": "目に見える"
+            },
+            {
+              "en": "global scale",
+              "ja": "世界規模"
+            },
+            {
+              "en": "estimate that ...",
+              "ja": "…と推定する"
+            },
+            {
+              "en": "move towards ~",
+              "ja": "〜への移行〔変化〕"
+            },
+            {
+              "en": "cause",
+              "ja": "〜を引き起こす"
+            },
+            {
+              "en": "practical",
+              "ja": "現実的な"
+            },
+            {
+              "en": "designated",
+              "ja": "指定された"
+            },
+            {
+              "en": "emission",
+              "ja": "排出（量）"
+            },
+            {
+              "en": "basically",
+              "ja": "基本的に"
+            },
+            {
+              "en": "standard",
+              "ja": "基準"
+            },
+            {
+              "en": "policy",
+              "ja": "政策"
+            },
+            {
+              "en": "suck up ~",
+              "ja": "〜を吸い上げる"
+            },
+            {
+              "en": "carbon dioxide",
+              "ja": "二酸化炭素"
+            },
+            {
+              "en": "global citizen",
+              "ja": "地球市民"
+            },
+            {
+              "en": "toxic",
+              "ja": "有毒な"
+            },
+            {
+              "en": "entire ~",
+              "ja": "〜全体の"
+            },
+            {
+              "en": "minor",
+              "ja": "ささいな；ちょっとした"
+            },
+            {
+              "en": "as of ~（問1）",
+              "ja": "〜の時点で"
+            },
+            {
+              "en": "in contrast（問2①）",
+              "ja": "対照的に；その一方で"
+            },
+            {
+              "en": "in particular（問2②）",
+              "ja": "特に"
+            },
+            {
+              "en": "nevertheless（問2③）",
+              "ja": "それにもかかわらず"
+            },
+            {
+              "en": "keep up with ~（問4③）",
+              "ja": "〜に遅れずについていく"
+            },
+            {
+              "en": "contribution（問4④）",
+              "ja": "貢献"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "lead_text": {
+        "en": "You are a member of a volunteer committee in your town. You are making a handout for a community meeting about improving a public park, based on the following article and questionnaire of local residents.",
+        "ja": "あなたは自分の町のボランティア委員会のメンバーです。以下の記事と地元住民のアンケートに基づき、あなたは公園の改善に関するコミュニティ［地域］での打ち合わせ用の資料を作成しています。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "The ABCD of Active Communities",
+            "ja": "活発なコミュニティのABCD"
+          },
+          "subtitle": {
+            "en": "Alex Johnson, community organizer",
+            "ja": "地域のまとめ役、アレックス・ジョンソン"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "Communities have traditionally been groups of people with common interests who live near one another.",
+                "ja": "コミュニティとは従来、お互いに近隣に住む共通の関心を持つ人々の集団のことであった。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "As people focus more on online connections, involving people in their local communities has become difficult.",
+                "ja": "人々がオンラインのつながりにより焦点を当てるにつれて、地元のコミュニティに人々を巻き込むことは困難になってきた。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "The ABCD (Asset-Based, Community Development) model helps with this problem by focusing on a community's assets — or resources — rather than what it is missing.",
+                "ja": "ABCD（資産に基づくコミュニティ開発）モデルは、コミュニティに欠けているものではなくコミュニティの資産、すなわち資源に焦点を当てることで、この問題に取り組む助けになる。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "By encouraging everyone to look at their individual strengths, communities can manage their own growth and find lasting solutions.",
+                "ja": "個々の強みを見るように皆を促すことで、コミュニティは自らの成長を管理し、持続的な解決策を見出すことができるのだ。"
+              },
+              {
+                "id": "p1_s5",
+                "en": "The community assets can be grouped into five different categories.",
+                "ja": "コミュニティ資産は5つの異なるカテゴリーに分類することができる。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "People themselves make up the first asset.",
+                "ja": "1つ目の資産を構成するのは人々自身である。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "Individuals have unique skills and experiences that can help the community.",
+                "ja": "個々人には、コミュニティに役立ち得る独自のスキルや経験がある。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "For example, a carpenter might help repair public spaces.",
+                "ja": "例えば、大工は公共空間を修繕する助けになるかもしれない。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "When a community recognizes and benefits from the strengths of its members, it creates a sense of pride and belonging.",
+                "ja": "コミュニティがその成員の強みを認識し、そこから恩恵を得る時、自尊心と所属意識が生み出される。"
+              },
+              {
+                "id": "p2_s5",
+                "en": "This encourages more people to work together on projects useful for all.",
+                "ja": "このことは、より多くの人が、皆に有益なプロジェクトで協働することを促す。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "The second asset is associations.",
+                "ja": "2つ目の資産は組合である。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "These are groups of people who come together to share a common interest or purpose, such as sports clubs or cultural groups.",
+                "ja": "スポーツクラブや文化的グループのような、同じ関心や目的を共有するために集まる人々のグループがある。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "Associations often have strong networks that can be used to organize community projects.",
+                "ja": "組合にはコミュニティのプロジェクトをまとめるのに利用できる強いネットワークが存在することが多い。"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "The third key asset is local institutions, such as schools and businesses.",
+                "ja": "3つ目の主要な資産は学校や企業のような地元の組織である。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "As they offer services and jobs to the community, the success of the community depends on them.",
+                "ja": "コミュニティに対してサービスや仕事を提供しているので、コミュニティの成功はそれら次第である。"
+              },
+              {
+                "id": "p4_s3",
+                "en": "One local business might sponsor a community event or provide space for meetings.",
+                "ja": "コミュニティのイベントのスポンサーになったり、会議のスペースを提供したりする地元の企業があるかもしれない。"
+              },
+              {
+                "id": "p4_s4",
+                "en": "Working with institutions ensures that communities can get the resources they need.",
+                "ja": "組織と協働することは、コミュニティが必要な資源を得られる保証になる。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "Location-based assets, like parks, buildings, roads, and lands, form the fourth asset.",
+                "ja": "公園や建物、道、土地のような場所ベースの資産が4つ目の資産となる。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "These spaces and cultural activities together help shape the community's identity.",
+                "ja": "これらのスペースや文化的活動はともにコミュニティの帰属意識を形成する役に立つ。"
+              },
+              {
+                "id": "p5_s3",
+                "en": "They give people places to gather and strengthen their sense of belonging.",
+                "ja": "集まって所属意識を高める場を人々に提供するのだ。"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "Finally, exchange or interaction — the relationships between the local economy and the people — is a key asset for a strong community.",
+                "ja": "最後に、交流ややりとり、つまり地元経済と人々の関係性は強いコミュニティの主要な資産である。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "These connections make the community richer, build trust and make it easier for resources or information to be shared.",
+                "ja": "これらの関係性がコミュニティをより豊かにし、信頼を築き、資源や情報の共有をより容易にする。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "Strong social ties ensure that everyone feels included and can work together to solve problems.",
+                "ja": "強固な社会的きずなは、誰もがのけ者にされていないと感じ、問題解決のために協働できるようにしてくれる。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "questionnaire",
+          "title": {
+            "en": "Results of Questionnaire",
+            "ja": "アンケート結果"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "q_h1",
+                "en": "Q1: Choose all items that match your opinions on the current park.",
+                "ja": "Q1：現在の公園に関するあなたの意見と合う項目をすべて選んでください。",
+                "role": "heading_2"
+              }
+            ],
+            [
+              {
+                "id": "r1_s1",
+                "en": "Respondent 1 (R1): Not many people can use the park when the weather is bad.",
+                "ja": "回答者1（R1）：天気が悪い時に公園を使える人は多くありません。"
+              },
+              {
+                "id": "r1_s2",
+                "en": "I'm a construction worker, and I think I could get some co-workers to help build more all-weather areas.",
+                "ja": "私は建設作業員なので、全天候型のエリアを増設する手伝いをするために同僚を連れて行けるかもしれないと思います。"
+              }
+            ],
+            [
+              {
+                "id": "r2_s1",
+                "en": "R2: I would be happy to donate some trees from my tree farm to provide more shade.",
+                "ja": "R2：日陰をもっと作るために、私の樹木園から木を何本か寄贈できたら幸いです。"
+              },
+              {
+                "id": "r2_s2",
+                "en": "This will be nice on hot days.",
+                "ja": "これは暑い日に重宝するでしょう。"
+              },
+              {
+                "id": "r2_s3",
+                "en": "Also, I suggest adding a playground, so families can enjoy the park more.",
+                "ja": "また、家族がもっと公園を楽しめるように、遊び場を増やすことを提案します。"
+              }
+            ],
+            [
+              {
+                "id": "r3_s1",
+                "en": "R3: I'm disappointed at how much garbage there is on the ground.",
+                "ja": "R3：地面にあまりに多くのゴミが落ちているのにがっかりしています。"
+              },
+              {
+                "id": "r3_s2",
+                "en": "Maybe I could organize a volunteer group to pick up trash regularly.",
+                "ja": "私なら、定期的にゴミを拾うボランティアグループを結成できるかもしれません。"
+              }
+            ],
+            [
+              {
+                "id": "r4_s1",
+                "en": "R4: I like to relax at the park, but I think we need more places to sit.",
+                "ja": "R4：公園でリラックスするのが好きですが、もっと座る場所が必要だと思います。"
+              },
+              {
+                "id": "r4_s2",
+                "en": "It would be great if they also had roofs over them so it's not too hot in the summer.",
+                "ja": "夏に暑すぎないように、その場所に屋根もあると素晴らしいです。"
+              }
+            ],
+            [
+              {
+                "id": "r5_s1",
+                "en": "R5: Let's encourage everyone to work together!",
+                "ja": "R5：一緒に活動するように皆を促しましょう！"
+              },
+              {
+                "id": "r5_s2",
+                "en": "This is a great way to make connections in the community.",
+                "ja": "それはコミュニティにつながりを作る素晴らしい方法です。"
+              }
+            ],
+            [
+              {
+                "id": "r6_s1",
+                "en": "R6: My family loves gardening, but we have limited space.",
+                "ja": "R6：私の家族はガーデニングが大好きですが、限られたスペースしかありません。"
+              },
+              {
+                "id": "r6_s2",
+                "en": "Some of our neighbors are also into gardening, so we could work together to help create a community garden!",
+                "ja": "近所の人の中にも、ガーデニングにはまっている人がいるので、協働してコミュニティガーデン［地域の庭園］を作る手助けができるかもしれません！"
+              }
+            ]
+          ],
+          "is_source_with_chart": true,
+          "graph_image": {
+            "src": "images/s5_questionnaire_chart.png",
+            "alt": "Questionnaire results: Number of local residents = 57",
+            "after_paragraph": 1
+          }
+        },
+        {
+          "id": "handout",
+          "title": {
+            "en": "Your discussion handout",
+            "ja": "あなたのディスカッション資料"
+          },
+          "role": "notes",
+          "paragraphs": [
+            [
+              {
+                "id": "n_s1",
+                "en": "Park Improvement Project",
+                "ja": "公園改善プロジェクト",
+                "role": "heading_1"
+              }
+            ],
+            [
+              {
+                "id": "n_s2",
+                "en": "■ The ABCD Model",
+                "ja": "■ABCDモデル",
+                "role": "heading_2"
+              },
+              {
+                "id": "n_s3",
+                "en": "- ABCD = Asset-Based Community Development",
+                "ja": "・ABCD＝資産ベースのコミュニティ開発",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s4",
+                "en": "- What it is: [19]",
+                "ja": "・それは何か：[19]",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "n_s5",
+                "en": "■ Recommendations Based on ABCD Model and Questionnaire Results",
+                "ja": "■ABCDモデルとアンケート結果に基づく提案",
+                "role": "heading_2"
+              },
+              {
+                "id": "n_s6",
+                "en": "- People:",
+                "ja": "・人々：",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s7",
+                "en": "  Individuals = different skills",
+                "ja": "  個人＝異なる技術",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s8",
+                "en": "- Associations:",
+                "ja": "・組合：",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s9",
+                "en": "  Nature club picks up garbage or [20].",
+                "ja": "  自然クラブがゴミを拾うか、[20]。",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s10",
+                "en": "- Institutions:",
+                "ja": "・組織：",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s11",
+                "en": "  [21]",
+                "ja": "  [21]",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s12",
+                "en": "  A. Furniture corporation makes tables.",
+                "ja": "  A. 家具会社がテーブルを作る。",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s13",
+                "en": "  B. Local government adds more signs.",
+                "ja": "  B. 地方自治体が看板を増やす。",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s14",
+                "en": "  C. Neighborhood art lovers create artworks.",
+                "ja": "  C. 近所の芸術愛好家たちが芸術品を作る。",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s15",
+                "en": "  D. School offers playground equipment.",
+                "ja": "  D. 学校が遊具を提供する。",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s16",
+                "en": "  E. Tree farm company provides free trees.",
+                "ja": "  E. 樹木園の会社が無償で樹木を提供する。",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s17",
+                "en": "- Place-based resources:",
+                "ja": "・場所ベースの資源：",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s18",
+                "en": "  Buildings, roads, lands",
+                "ja": "  建物、道、土地",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s19",
+                "en": "- Social connections:",
+                "ja": "・社会的結びつき：",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s20",
+                "en": "  Relationships among people",
+                "ja": "  人々の関係性",
+                "role": "bullet_detail"
+              }
+            ],
+            [
+              {
+                "id": "n_s21",
+                "en": "■ Other important points:",
+                "ja": "■その他の重要な論点：",
+                "role": "heading_2"
+              },
+              {
+                "id": "n_s22",
+                "en": "- The majority of people think the park [22].",
+                "ja": "・大多数の人が公園は[22]と考えている。",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s23",
+                "en": "- As R1 and [23] mentioned, it needs more covered areas. Then the park could be used in rainy weather.",
+                "ja": "・R1と[23]が言及しているように、覆いのあるエリアがもっと必要だ。そうすれば公園は雨天に利用できるだろう。",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s24",
+                "en": "- Many people do not agree that the park's environment is clean, and a volunteer group may be needed to change the situation, as the graph and [24]'s comment shows.",
+                "ja": "・多くの人が公園の環境は清潔であるということに同意しておらず、グラフと[24]のコメントが示しているように、状況を変えるのにボランティアグループが必要かもしれない。",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s25",
+                "en": "- Although the goal is to improve the park, we should still focus on developing community relationships, as R5 said.",
+                "ja": "・目標は公園を改善することだが、R5が述べたように、私たちはなお、コミュニティの関係性を開発することに焦点を当てるべきだ。",
+                "role": "bullet"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 19,
+          "stem": {
+            "en": "Choose the best option for [19].",
+            "ja": "「[19]に入れるのに最も適当な選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A method for institutions to select the best communities for their business",
+              "ja": "「組織が事業に最適なコミュニティを選ぶ方法」"
+            },
+            {
+              "label": "②",
+              "en": "A process for organizations to raise money in their communities",
+              "ja": "「組織がコミュニティでお金を集める過程」"
+            },
+            {
+              "label": "③",
+              "en": "A strategy for using the current strengths of communities to improve them",
+              "ja": "「コミュニティの現在の強みを利用してそれら（＝コミュニティ）を改善するための戦略」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "A system for helping communities identify and fix their biggest problems",
+              "ja": "「コミュニティが最大の問題を特定して解決するのに役立つ仕組み」"
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "ABCDモデルとは何かについての正しい説明を選択する問題。記事の第1段落第4文に、By encouraging everyone to look at their individual strengths, communities can manage their own growth and find lasting solutions.（個々の強みを見るように皆を促すことで、コミュニティは自らの成長を管理し、持続的な解決策を見出すことができるのだ。）とあり、この後半は「コミュニティの改善」と考える。よって正解は③。「最大の問題」のみを解決するとは述べられていないので④は不適当。その他の選択肢の内容は述べられていない。",
+            "evidence_sentences": [
+              "p1_s4"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 20,
+          "stem": {
+            "en": "Choose the best option for [20].",
+            "ja": "「[20]に入れるのに最も適当な選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a construction company repairs public roads",
+              "ja": "「建設会社が公道を修復する」"
+            },
+            {
+              "label": "②",
+              "en": "a gardening group starts a community garden",
+              "ja": "「ガーデニングのグループがコミュニティガーデンを始める」",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "a local restaurant provides residents with a place for cultural exchanges",
+              "ja": "「地元の飲食店が文化的交流の場を住民に提供する」"
+            },
+            {
+              "label": "④",
+              "en": "a parent supervises children at the playground",
+              "ja": "「親の1人が遊び場で子供を見守る」"
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "「組合（associations）」と関連して、コミュニティでできることを選択する問題。associationsとは、記事の第3段落第2文で、groups of people who come together to share a common interest or purpose（同じ関心や目的を共有するために集まる人々のグループ）と説明されており、R6が近隣住民のグループでコミュニティガーデンを作る可能性に言及しているので、正解は②。その他の選択肢は「組合」の項目で挙げる活動としては不適当。また③は記事やアンケートのコメントにない。",
+            "evidence_sentences": [
+              "p3_s2",
+              "r6_s2"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "stem": {
+            "en": "You are checking your handout. You notice an error concerning Institutions. Which of the following should you remove?",
+            "ja": "「あなたは資料をチェックしている。『組織』に関して誤りに気づく。次のうちどれを取り除くべきか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "「A」"
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "「B」"
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "「C」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "「D」"
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "「E」"
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "「組織（institutions）」と関連して、コミュニティでできることとして不適当なものを選択する問題。「組織」については、第4段落第1文で、local institutions, such as schools and businesses（学校や企業のような地元の組織）と説明されており、C.「近所の芸術愛好家たち」はこの説明に該当しないのでこれが不適当。よって正解は③。その他の選択肢は会社や政府機関、学校といずれも「組織」に該当するものなのでInstitutionsの例として適当である。",
+            "evidence_sentences": [
+              "p4_s1"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_numbers": [
+            22,
+            23
+          ],
+          "stem": {
+            "en": "Choose the best options for [22] and [23].",
+            "ja": "「[22]と[23]に入れるのに最も適当な選択肢を選びなさい。」"
+          },
+          "choices_22": [
+            {
+              "label": "①",
+              "en": "doesn't have enough seating areas",
+              "ja": "「座る場所が足りない」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "has beautiful green spaces",
+              "ja": "「美しい緑地がある」"
+            },
+            {
+              "label": "③",
+              "en": "is usually too crowded",
+              "ja": "「たいてい混みすぎている」"
+            },
+            {
+              "label": "④",
+              "en": "isn't safe enough for children",
+              "ja": "「子供たちにとって十分な安全性がない」"
+            },
+            {
+              "label": "⑤",
+              "en": "should have better restrooms",
+              "ja": "「よりよいお手洗いがあるべきだ」"
+            }
+          ],
+          "choices_23": [
+            {
+              "label": "①",
+              "en": "R1",
+              "ja": "「R1」"
+            },
+            {
+              "label": "②",
+              "en": "R2",
+              "ja": "「R2」"
+            },
+            {
+              "label": "③",
+              "en": "R3",
+              "ja": "「R3」"
+            },
+            {
+              "label": "④",
+              "en": "R4",
+              "ja": "「R4」",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "R5",
+              "ja": "「R5」"
+            },
+            {
+              "label": "⑥",
+              "en": "R6",
+              "ja": "「R6」"
+            }
+          ],
+          "answer": {
+            "22": "①",
+            "23": "④"
+          },
+          "explanation": {
+            "ja": "[22] 大多数の人の意見として適当なものを選ぶ問題。アンケート結果を見ると、Not enough places to sit（座る場所が足りていない）という項目に最も同意が集まっている。よって正解は①。緑地に関する意見であるNice plants and trees（素敵な植物や樹木）には23人の同意しかなく、②は不適当。③は本文では直接的に述べられておらず、またLarge enough area（十分に広い面積）には45人が同意しているので、混みすぎずに利用できる状況があると推測でき、ここからも不適当と判断できる。Convenient restrooms（便利なお手洗い）には39人が同意しているので、⑤も不適当。②を判断するための項目はない。\n[23] 「覆いのあるエリアがもっと必要だ」という趣旨の内容を述べている回答者を、R1の他に探す問題。R4がIt would be great if they also had roofs over them so it's not too hot in the summer.（夏に暑すぎないように、その場所に屋根もあると素晴らしいです。）と述べているので、これに該当する。よって正解は④。",
+            "evidence_sentences": [
+              "r4_s2"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 24,
+          "stem": {
+            "en": "Choose the best option for [24].",
+            "ja": "「[24]に入れるのに最も適当な選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "R1",
+              "ja": "「R1」"
+            },
+            {
+              "label": "②",
+              "en": "R2",
+              "ja": "「R2」"
+            },
+            {
+              "label": "③",
+              "en": "R3",
+              "ja": "「R3」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "R4",
+              "ja": "「R4」"
+            },
+            {
+              "label": "⑤",
+              "en": "R5",
+              "ja": "「R5」"
+            },
+            {
+              "label": "⑥",
+              "en": "R6",
+              "ja": "「R6」"
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "環境が清潔でないことを受けて「ボランティアグループが必要だ」という趣旨の内容を述べている回答者を探す問題。R3が、organize a volunteer group to pick up trash regularly（定期的にゴミを拾うボランティアグループを結成する）と述べて、公園の美化に貢献できる可能性に言及しているので、該当する。よって正解は③。",
+            "evidence_sentences": [
+              "r3_s2"
+            ]
+          }
+        }
+      ],
+      "title": "第5問",
+      "points": 16
+    },
+    {
+      "section_number": 6,
+      "lead_text": {
+        "en": "You are taking part in an English reading club at school. Each student was asked to read a short story in English, prepare notes and introduce the story to other students. You are preparing your notes now.",
+        "ja": "あなたは学校で英語の読書クラブに参加しています。各生徒が英語で書かれた短い物語を読んでメモを作り、その物語を他の生徒に紹介するように言われています。あなたは今、メモを作っているところです。"
+      },
+      "passages": [
+        {
+          "id": "story",
+          "title": {
+            "en": "High School Rock",
+            "ja": "ハイスクール・ロック"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s1_s1",
+                "en": "As Eric and Bill drove slowly down a narrow street, Bill pointed at a house.",
+                "ja": "エリックとビルが狭い道をゆっくりと車で走っていると、ビルがある家を指した。"
+              },
+              {
+                "id": "s1_s2",
+                "en": "\"I think that's it,\" Bill said.",
+                "ja": "「あの家だと思う」とビルは言った。"
+              },
+              {
+                "id": "s1_s3",
+                "en": "\"Do you think he'll agree to it?\"",
+                "ja": "「彼は同意してくれると思うかい？」"
+              },
+              {
+                "id": "s1_s4",
+                "en": "\"We have to ask first.\"",
+                "ja": "「まずは聞いてみないとな。」"
+              },
+              {
+                "id": "s1_s5",
+                "en": "Eric and Bill were on their way to see Adam.",
+                "ja": "エリックとビルはアダムに会いに行くところだった。"
+              },
+              {
+                "id": "s1_s6",
+                "en": "The three friends had played in a band together in high school but hadn't seen each other since Adam went to college.",
+                "ja": "その3人の友人は高校時代、一緒にバンドをやっていたが、アダムが大学に行ってからは2人は彼に会っていなかった。"
+              }
+            ],
+            [
+              {
+                "id": "s2_s1",
+                "en": "When Eric's family moved to town during the middle of his freshman year in high school, he wasn't keen on socializing.",
+                "ja": "高校1年の半ばにエリックの一家が町に引っ越してきた時、エリックは友達作りに熱心ではなかった。"
+              },
+              {
+                "id": "s2_s2",
+                "en": "He mostly kept to himself.",
+                "ja": "彼はほとんど一人で過ごしていた。"
+              },
+              {
+                "id": "s2_s3",
+                "en": "However, he had been playing the drums for nearly two years, so he decided to join the music club.",
+                "ja": "しかし、2年近くドラムを演奏してきた経験から、彼は音楽部に入ることにした。"
+              },
+              {
+                "id": "s2_s4",
+                "en": "One day, during a club meeting, Adam asked Eric, \"What type of music do you enjoy?\"",
+                "ja": "ある日、部活の集まりの最中、アダムはエリックに「どんな音楽を聴くんだい？」と尋ねた。"
+              },
+              {
+                "id": "s2_s5",
+                "en": "\"Mostly rock.\"",
+                "ja": "「だいたいロックだよ。」"
+              },
+              {
+                "id": "s2_s6",
+                "en": "Adam started to strum a simple tune on his guitar.",
+                "ja": "アダムはギターでシンプルな旋律を弾き始めた。"
+              },
+              {
+                "id": "s2_s7",
+                "en": "\"See if you can match a beat to this melody.\"",
+                "ja": "「このメロディーにビートを合わせられるかやってみてくれないか。」"
+              },
+              {
+                "id": "s2_s8",
+                "en": "Eric listened intently as Adam played the melody.",
+                "ja": "エリックはアダムが鳴らすメロディーに集中して耳を傾けた。"
+              },
+              {
+                "id": "s2_s9",
+                "en": "A minute later, Eric began banging the drums.",
+                "ja": "1分後、エリックはドラムを叩き始めた。"
+              },
+              {
+                "id": "s2_s10",
+                "en": "The club room became completely silent as the members listened.",
+                "ja": "部員たちは耳を傾け、部室は完全に静まり返った。"
+              },
+              {
+                "id": "s2_s11",
+                "en": "Eric's drum beat matched perfectly.",
+                "ja": "エリックのドラムビートは完璧に合っていた。"
+              },
+              {
+                "id": "s2_s12",
+                "en": "After the meeting, Adam walked over to Eric.",
+                "ja": "集まりの後、アダムはエリックに歩み寄った。"
+              },
+              {
+                "id": "s2_s13",
+                "en": "\"Just so you know, everyone here thinks you're brilliant. How about being the drummer for me and my friend Bill?\"",
+                "ja": "「言っとくけど、ここのみんなは君がすごくうまいと思ってるよ。僕と友人のビルのために、ドラムをやってくれないか？」"
+              },
+              {
+                "id": "s2_s14",
+                "en": "\"I've never played in a band before.\"",
+                "ja": "「今までバンドでやったことはないんだ。」"
+              },
+              {
+                "id": "s2_s15",
+                "en": "\"Well, you do now! We just need a band name.\"",
+                "ja": "「今はもうあるじゃないか！　あとはバンド名を決めるだけだ。」"
+              },
+              {
+                "id": "s2_s16",
+                "en": "Then, Eric soon hit it off with Bill, too, and their band \"The Beat\" kicked off.",
+                "ja": "そして、エリックはすぐにビルとも意気投合し、彼らのバンド「ザ・ビート」が始動した。"
+              },
+              {
+                "id": "s2_s17",
+                "en": "Adam took the lead as vocalist and bassist, and Bill took part as guitarist.",
+                "ja": "アダムがボーカル兼ベーシストとしてリードし、ビルはギタリストとして参加した。"
+              },
+              {
+                "id": "s2_s18",
+                "en": "At first, Eric was amazed to hear it had been just half a year since Bill started practicing the guitar.",
+                "ja": "最初、エリックはビルがギターの練習を始めてからまだ半年しか経っていないと聞いて驚いた。"
+              }
+            ],
+            [
+              {
+                "id": "s3_s1",
+                "en": "Adam and Bill met during their first week of high school.",
+                "ja": "アダムとビルは高校に通い始めた最初の週に出会った。"
+              },
+              {
+                "id": "s3_s2",
+                "en": "By then, Adam was already an experienced guitarist, but Bill had just started.",
+                "ja": "その時すでにアダムは経験豊富なギタリストだったが、ビルは始めたばかりだった。"
+              },
+              {
+                "id": "s3_s3",
+                "en": "They would often hang out at each other's houses watching TV, but one day Bill noticed a guitar and a bass in the corner of Adam's room.",
+                "ja": "彼らはよくお互いの家でテレビを見たりして遊んでいたが、ある日、ビルはアダムの部屋の隅にギターとベースがあるのに気づいた。"
+              },
+              {
+                "id": "s3_s4",
+                "en": "\"I didn't realize you play the guitar.\"",
+                "ja": "「君がギターを弾くなんて知らなかったよ。」"
+              },
+              {
+                "id": "s3_s5",
+                "en": "\"My dad's been teaching me since I was seven,\" said Adam.",
+                "ja": "「7歳の時から父さんに教えてもらってるんだ」とアダムは言った。"
+              },
+              {
+                "id": "s3_s6",
+                "en": "\"My parents bought me a guitar last month. I've been practicing, but I'm still a beginner.\"",
+                "ja": "「僕は先月、親にギターを買ってもらったんだ。練習してるけど、まだ初心者さ。」"
+              },
+              {
+                "id": "s3_s7",
+                "en": "Bill did his best to play a tune for Adam.",
+                "ja": "ビルはアダムに聞かせるため一曲頑張って演奏してみせた。"
+              },
+              {
+                "id": "s3_s8",
+                "en": "Adam spent the rest of the afternoon teaching Bill how to grip the guitar properly.",
+                "ja": "その日の午後いっぱいかけて、アダムはビルにギターの正しい握り方を教えた。"
+              },
+              {
+                "id": "s3_s9",
+                "en": "They practiced chords and played their favorite songs, and from that day on, spent every afternoon like they were rehearsing for a concert.",
+                "ja": "彼らはコードを練習し、好きな曲を演奏し、そしてその日以来、まるでコンサートのリハーサルをするかのように毎日の午後を過ごした。"
+              },
+              {
+                "id": "s3_s10",
+                "en": "Months raced by, and Bill went from slowly playing a few songs to keeping pace with Adam.",
+                "ja": "瞬く間に数カ月が過ぎ、ビルはゆっくりと数曲を演奏するというレベルから、アダムに遅れずについていけるようにまでなった。"
+              },
+              {
+                "id": "s3_s11",
+                "en": "One day, Bill looked at Adam and exclaimed, \"We should try to perform at the café.\"",
+                "ja": "ある日、ビルはアダムを見て「僕らはカフェで演奏してみるべきだよ」と興奮気味に言った。"
+              },
+              {
+                "id": "s3_s12",
+                "en": "\"You've got to be kidding me!\" said Adam questioningly.",
+                "ja": "「うそだろ！」アダムは疑うように言った。"
+              },
+              {
+                "id": "s3_s13",
+                "en": "\"If you'd asked me to play in front of a crowd at the beginning of the school year, I would have been terrified. But now, I'm convinced I can perform in public.\"",
+                "ja": "「もし学年の初めに人前で演奏してって君に言われていたら、ビビったろうな。でも今は、人前で演奏できるっていう確信があるんだ。」"
+              },
+              {
+                "id": "s3_s14",
+                "en": "The next day, they went to the café to ask if they could play.",
+                "ja": "翌日、彼らは演奏させてもらえないかとカフェに頼みに行った。"
+              }
+            ],
+            [
+              {
+                "id": "s4_s1",
+                "en": "After high school, Eric and Bill made the decision to take a gap year, a year-long break from studying, before attending college.",
+                "ja": "高校卒業後、エリックとビルは大学に通う前にギャップイヤーを取る、つまり1年間勉学を休むことにした。"
+              },
+              {
+                "id": "s4_s2",
+                "en": "But Adam accepted a scholarship to major in business at his college of choice.",
+                "ja": "しかし、アダムは自分で志願した大学で経営学を専攻するために奨学金を受け取った。"
+              },
+              {
+                "id": "s4_s3",
+                "en": "While Adam set off for college, Eric and Bill formed a new band with a new member to replace Adam.",
+                "ja": "アダムが大学に進学すると、エリックとビルはアダムに代わる新メンバーと新たにバンドを結成した。"
+              },
+              {
+                "id": "s4_s4",
+                "en": "Their new band was so successful that they eventually decided to keep touring rather than attend college.",
+                "ja": "彼らの新バンドは大成功を収めたので、結局2人は大学に通うより、演奏ツアーを続けることにした。"
+              },
+              {
+                "id": "s4_s5",
+                "en": "Years later, while they were back home from a tour, Bill received a phone call from their high school class president.",
+                "ja": "数年後、ツアー明けで地元に戻っていた時、ビルは高校の時の学級委員長から電話を受けた。"
+              },
+              {
+                "id": "s4_s6",
+                "en": "He promptly called Eric afterward.",
+                "ja": "彼はその後すぐにエリックに電話した。"
+              },
+              {
+                "id": "s4_s7",
+                "en": "\"Hey Eric. Sorry to disturb you, but I just got an unexpected phone call. Our high school reunion is coming up, and our class president wants you, me, and Adam to perform.\"",
+                "ja": "「やあ、エリック。急にごめんな。でもついさっき意外な電話があってさ。もうすぐ高校の同窓会があって、学級委員長が君と僕、そしてアダムに演奏してほしいと言っているんだ。」"
+              },
+              {
+                "id": "s4_s8",
+                "en": "\"Wow,\" said Eric. \"I can't believe it.\"",
+                "ja": "「わお」とエリックは言った。「信じられないな。」"
+              },
+              {
+                "id": "s4_s9",
+                "en": "\"I know, but I'm a bit sad thinking about it. The last time I talked to Adam on the phone was when he graduated from college. That was literally five years ago.\"",
+                "ja": "「だよな。でも、そう考えると少し悲しくてさ。最後にアダムと電話で話したのは、あいつが大学を卒業した時だ。文字通り5年前のことだよ。」"
+              },
+              {
+                "id": "s4_s10",
+                "en": "Eric felt regretful that he too hadn't made an effort to keep in contact with Adam, \"Has it really been that long?\"",
+                "ja": "エリックもアダムと連絡を取り続けようとしなかったことを悔やんだ。「本当にそんなに経つのか？」"
+              },
+              {
+                "id": "s4_s11",
+                "en": "\"It has. I'm not sure how to ask him.\"",
+                "ja": "「ああ。どうやって頼んだもんかな。」"
+              }
+            ],
+            [
+              {
+                "id": "s5_s1",
+                "en": "Adam stared at his friends, \"I'm so happy to see you both. How has it been, touring?\"",
+                "ja": "アダムは友人たちをまじまじと見つめた。「君たちに会えてすごく嬉しいよ。ツアーはどうだい？」"
+              },
+              {
+                "id": "s5_s2",
+                "en": "\"Great,\" said Bill, \"but it would have been better if you had joined us.\"",
+                "ja": "「最高さ」とビルは言った。「でも、君が一緒だったらもっと良かっただろうな。」"
+              },
+              {
+                "id": "s5_s3",
+                "en": "\"You guys don't have to be concerned about me. I'm not angry or anything like that.\"",
+                "ja": "「なあ、俺のことは気にしなくていいよ。怒ったりなんかしていないから。」"
+              },
+              {
+                "id": "s5_s4",
+                "en": "\"Oh, we know,\" said Eric, \"but we neglected our best friend.\"",
+                "ja": "「ああ、それはわかってるさ」とエリックは言った。「でも、僕たちは親友を大事にしてこなかった。」"
+              },
+              {
+                "id": "s5_s5",
+                "en": "The three guys spent the afternoon talking and catching up.",
+                "ja": "その午後、3人は語り合い、近況を報告し合って過ごした。"
+              },
+              {
+                "id": "s5_s6",
+                "en": "Adam talked about his job, and Bill and Eric talked about touring with their band.",
+                "ja": "アダムは自分の仕事について語り、ビルとエリックはバンドのツアーのことについて語った。"
+              },
+              {
+                "id": "s5_s7",
+                "en": "Eventually, the high school reunion came up.",
+                "ja": "やがて、高校の同窓会の話題になった。"
+              },
+              {
+                "id": "s5_s8",
+                "en": "\"That's why we came to see you. We were asked to get the band back together to play,\" said Bill.",
+                "ja": "「それで君に会いに来たってわけさ。バンドを再結成して演奏してほしいと頼まれたんだ」とビルは言った。"
+              },
+              {
+                "id": "s5_s9",
+                "en": "Adam sighed, \"I haven't played much, and I'd have to get my bass out of storage.\"",
+                "ja": "アダムはため息をついた。「長いこと弾いてないし、やるとなったら、しまってあったベースを引っ張り出してこなきゃな」と言った。"
+              },
+              {
+                "id": "s5_s10",
+                "en": "He thought about it for a couple of minutes before smiling widely.",
+                "ja": "彼はそのことについて数分考えてから、満面の笑みを浮かべて言った。"
+              },
+              {
+                "id": "s5_s11",
+                "en": "\"Yes!\"",
+                "ja": "「よしやろう！」"
+              }
+            ],
+            [
+              {
+                "id": "s6_s1",
+                "en": "On the night of the high school reunion, the three friends performed in front of their old classmates.",
+                "ja": "高校の同窓会の夜、3人の友人はかつての級友たちの前で演奏した。"
+              },
+              {
+                "id": "s6_s2",
+                "en": "It was the first time they had played together in front of a crowd since high school.",
+                "ja": "3人が一緒に人前で演奏するのは高校以来のことだった。"
+              },
+              {
+                "id": "s6_s3",
+                "en": "Everyone was thrilled to see them on stage again.",
+                "ja": "みんなは彼らが再びステージに立つのを見て盛り上がった。"
+              },
+              {
+                "id": "s6_s4",
+                "en": "Later that evening, they sat down to have a couple of laughs talking about the good old days.",
+                "ja": "夕方遅く、彼らは座って古き良き時代の話をして笑い合った。"
+              },
+              {
+                "id": "s6_s5",
+                "en": "Adam felt emotional as other classmates came to congratulate them.",
+                "ja": "他のクラスメートが彼らを祝福しに来ると、アダムは感情がこみ上げてくるのを感じた。"
+              },
+              {
+                "id": "s6_s6",
+                "en": "After a while, Adam looked at Eric and Bill and said, \"I am fortunate to have you as friends. Even after drifting apart, tonight was just like ten years ago. I forgot how much I love playing music.\"",
+                "ja": "しばらくして、アダムはエリックとビルを見て言った。「俺は幸せだよ、君たちみたいな友達を持つことができて。別々の道に進んだけれども、今夜は10年前と何も変わらないみたいだった。音楽をやるのがどれだけ好きだったってことを忘れてたよ。」"
+              },
+              {
+                "id": "s6_s7",
+                "en": "Before the night ended, they all agreed to play together again at the next school reunion.",
+                "ja": "その夜が終わる前に、彼らは次の同窓会でも一緒に演奏することで同意した。"
+              },
+              {
+                "id": "s6_s8",
+                "en": "Adam, especially, couldn't wait to pick up his bass again.",
+                "ja": "特にアダムは、再びベースを手に取るのが待ちきれなかった。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "notes",
+          "title": {
+            "en": "Your notes",
+            "ja": "あなたのメモ"
+          },
+          "role": "notes",
+          "paragraphs": [
+            [
+              {
+                "id": "n_s1",
+                "en": "High School Rock",
+                "ja": "ハイスクール・ロック",
+                "role": "heading_1"
+              }
+            ],
+            [
+              {
+                "id": "n_s2",
+                "en": "Story Outline",
+                "ja": "物語のあらすじ",
+                "role": "heading_2"
+              },
+              {
+                "id": "n_s3",
+                "en": "Adam, Bill, and Eric start high school.",
+                "ja": "アダム、ビル、エリックが高校に通い始める。",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s4",
+                "en": "[25] → [26] → [27] → [28]",
+                "ja": "[25] → [26] → [27] → [28]",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s5",
+                "en": "They perform at the high school reunion.",
+                "ja": "3人が高校の同窓会で演奏する。",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "n_s6",
+                "en": "About Adam",
+                "ja": "アダムについて",
+                "role": "heading_2"
+              },
+              {
+                "id": "n_s7",
+                "en": "• Age: [29]",
+                "ja": "・年齢：[29]",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s8",
+                "en": "• In high school, Adam helped...",
+                "ja": "・高校で、アダムは…のを後押しした",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s9",
+                "en": "  • Eric [30].",
+                "ja": "  ・エリックが[30]。",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s10",
+                "en": "  • Bill [31].",
+                "ja": "  ・ビルが[31]。",
+                "role": "bullet_detail"
+              },
+              {
+                "id": "n_s11",
+                "en": "• He went to college to study for a business degree.",
+                "ja": "・経営学の学位取得のために大学に進学した。",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "n_s12",
+                "en": "Key moments in the story",
+                "ja": "物語におけるカギとなる瞬間",
+                "role": "heading_2"
+              },
+              {
+                "id": "n_s13",
+                "en": "• Eric and Bill feel guilty when they talk about their high school reunion because they [32].",
+                "ja": "・エリックとビルは高校の同窓会について話をしていて申し訳なく思う。なぜなら彼らが[32]からだ。",
+                "role": "bullet"
+              },
+              {
+                "id": "n_s14",
+                "en": "• Adam says he is fortunate to have Eric and Bill as friends because they [33].",
+                "ja": "・アダムはエリックとビルのような友達を持てて自分は幸せだと言う。なぜなら彼らは[33]からだ。",
+                "role": "bullet"
+              }
+            ]
+          ]
+        }
+      ],
+      "title": "第6問",
+      "points": 15,
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "stem": {
+            "en": "Choose four out of the five options (①～⑤) and rearrange them in the order they happened.",
+            "ja": "「次の5つの選択肢（①～⑤）のうちから4つ選び、それらを起きた順に並べ替えなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Adam asks Eric to join his band.",
+              "ja": "「アダムがエリックをバンドに誘い入れた。」"
+            },
+            {
+              "label": "②",
+              "en": "Bill contacts Eric to talk about the school reunion.",
+              "ja": "「ビルがエリックに連絡し、同窓会について伝える。」"
+            },
+            {
+              "label": "③",
+              "en": "Eric and Bill perform with their new band.",
+              "ja": "「エリックとビルが新しいバンドで演奏する。」"
+            },
+            {
+              "label": "④",
+              "en": "Eric and Bill show up at Adam's house.",
+              "ja": "「エリックとビルがアダムの家に現れる。」"
+            },
+            {
+              "label": "⑤",
+              "en": "The three friends record an album.",
+              "ja": "「3人の友人がアルバムを録音する。」"
+            }
+          ],
+          "answer": "①→③→②→④",
+          "answer_sequence": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "explanation": {
+            "ja": "物語は「◆◆◆◆◆」によって区切られた、6つのパートから成り立っている。高校1年の半ば頃、アダムがエリックをバンドに誘い入れた①が時間的に最も前に来る。高校卒業後、エリックとビルはアダムの代わりのメンバーを入れて新バンドを結成するから、③がその次に入る。その後、ビルが同窓会の知らせを受けてそれをエリックに伝える②がその次に来る。そして、同窓会での「バンド再結成」のためにエリックとビルがアダムを口説きに行く④が最後に来る。3人がアルバムを録音したという記述はないので⑤は不適当。",
+            "evidence_sentences": [
+              "s2_s13",
+              "s4_s3",
+              "s4_s5",
+              "s1_s5"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 29,
+          "stem": {
+            "en": "Choose the best option for [29].",
+            "ja": "「[29]に入れるのに最も適当な選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "early 20s",
+              "ja": "「20代前半」"
+            },
+            {
+              "label": "②",
+              "en": "late 20s",
+              "ja": "「20代後半」",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "early 30s",
+              "ja": "「30代前半」"
+            },
+            {
+              "label": "④",
+              "en": "late 30s",
+              "ja": "「30代後半」"
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "本文の記述をもとに、アダムが現在何歳なのかを推測する問題。手がかりは、〈4〉後半にある。高校時代の学級委員長から同窓会でのバンド演奏を頼まれたビルがエリックに電話し、2人で相談する場面である。エリックはここで、アダムと最後に話したのが彼の大学卒業時で、それが「5年前」であると述べている。通常の大学を卒業する標準的な年齢は22歳で、「ギャップイヤー」を取ったビルやエリックとは異なり、アダムは高校卒業後すぐに大学に進学している。すなわち、現在のアダムは「27歳」前後と考えられるから、②の「20代後半」が正解。",
+            "evidence_sentences": [
+              "s4_s9",
+              "s4_s2"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            30,
+            31
+          ],
+          "stem": {
+            "en": "Choose the best options for [30] and [31].",
+            "ja": "「[30]と[31]に入れるのに最も適当な選択肢を選びなさい。」"
+          },
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "become a better guitarist",
+              "ja": "「より優れたギタリストになる」"
+            },
+            {
+              "label": "②",
+              "en": "choose a guitar at the shop",
+              "ja": "「店でギターを選ぶ」"
+            },
+            {
+              "label": "③",
+              "en": "learn to play a new instrument",
+              "ja": "「新しい楽器を演奏できるようになる」"
+            },
+            {
+              "label": "④",
+              "en": "realize how well he could play music",
+              "ja": "「自分がどれほど上手に音楽を演奏できるかに気づく」",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "start a band after high school",
+              "ja": "「高校卒業後にバンドを始める」"
+            }
+          ],
+          "choices_31": [
+            {
+              "label": "①",
+              "en": "become a better guitarist",
+              "ja": "「より優れたギタリストになる」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "choose a guitar at the shop",
+              "ja": "「店でギターを選ぶ」"
+            },
+            {
+              "label": "③",
+              "en": "learn to play a new instrument",
+              "ja": "「新しい楽器を演奏できるようになる」"
+            },
+            {
+              "label": "④",
+              "en": "realize how well he could play music",
+              "ja": "「自分がどれほど上手に音楽を演奏できるかに気づく」"
+            },
+            {
+              "label": "⑤",
+              "en": "start a band after high school",
+              "ja": "「高校卒業後にバンドを始める」"
+            }
+          ],
+          "answer": {
+            "30": "④",
+            "31": "①"
+          },
+          "explanation": {
+            "ja": "アダムがエリックとビルの何を助けた・後押ししたのかを読み取る。エリックについては、〈2〉に着目する。高校1年の途中で転入してきたエリックは、2年近くドラムをやってきた経験から、音楽部に入る。人付き合いを避けていたエリックだが、アダムとの'セッション'で打ち解け、アダムやビルと一緒にバンドを結成するに至る。初めて客観的な立場からエリックの実力を評価し、自信を持たせたのがアダムだったわけである。これに合致する④が[30]に入る。\nビルについては〈3〉に記述がある。高校入学後に親交を深めていった2人はある時、互いにギターを弾くことを知る。当時すでにアダムはギターに熟練していたが、ビルは初心者だった。ビルの演奏を見たアダムは、〈3〉の中ほどにAdam spent the rest of the afternoon teaching Bill how to grip the guitar properly.とあり、ビルにギターの正しい握り方を教え、その日以降も日々練習を積み重ねていったことが書かれている。これに合致する①が[31]に入る。",
+            "evidence_sentences": [
+              "s2_s13",
+              "s3_s8"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 32,
+          "stem": {
+            "en": "Choose the best option for [32].",
+            "ja": "「[32]に入れるのに最も適当な選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "aren't able to attend the event",
+              "ja": "「その催しに参加できない」"
+            },
+            {
+              "label": "②",
+              "en": "aren't as successful as Adam",
+              "ja": "「アダムほど成功していない」"
+            },
+            {
+              "label": "③",
+              "en": "haven't received an invitation",
+              "ja": "「招待状を受け取っていない」"
+            },
+            {
+              "label": "④",
+              "en": "haven't talked to Adam recently",
+              "ja": "「このところアダムと話していない」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "「あなたのメモ」にあるEric and Bill feel guilty when they talk about their high school reunionに相当するのは、〈4〉後半'I know, but I'm a bit sad thinking about it'と言い、エリックに関してもEric felt regretful that he too hadn't made an effort to keep in contact with Adamとある。2人は、かつての大親友ともう5年も連絡を取っていなかったことを申し訳なく思ったのである。したがって、これと合致する④が正解となる。①、②、③のような記述は本文にない。",
+            "evidence_sentences": [
+              "s4_s9",
+              "s4_s10"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 33,
+          "stem": {
+            "en": "Choose the best option for [33].",
+            "ja": "「[33]に入れるのに最も適当な選択肢を選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "convinced him to go to college",
+              "ja": "「大学に行くよう彼を説得した」"
+            },
+            {
+              "label": "②",
+              "en": "encouraged him to socialize more",
+              "ja": "「もっと人付き合いをするよう促した」"
+            },
+            {
+              "label": "③",
+              "en": "helped him succeed as a professional musician",
+              "ja": "「彼がプロのミュージシャンとして成功するのを後押しした」"
+            },
+            {
+              "label": "④",
+              "en": "reminded him of his passion",
+              "ja": "「彼に（大好きなものへの）情熱を思い出させてくれた」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "「あなたのメモ」にあるAdam says he is fortunate to have Eric and Bill as friendsに相当するのは〈6〉中ほどのAfter a while, 以下。アダムはI am fortunate to have you as friends. ... I forgot how much I love playing music.（俺は幸せだよ、君たちみたいな友達を持つことができて。…音楽をやるのがどれだけ好きだったってことを忘れてたよ。）と言い、「再びベースを手に取るのが待ちきれなかった」とある。しまい込んでいたベースを引っ張り出してきてバンドで演奏することで、自分の情熱を改めて実感し、そのきっかけを作ってくれたビルとエリックに感謝したわけである。これに合致する④が正解。ここでのpassionは「熱中するもの、大好きなもの」の意。①、②、③のような記述は本文にない。",
+            "evidence_sentences": [
+              "s6_s6",
+              "s6_s8"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 16,
+      "lead_text": {
+        "en": "You are preparing a presentation for your science club, using the following passage from a science website.",
+        "ja": "あなたは、科学のウェブサイトからの以下の一節を使って、科学部のプレゼンテーションの準備をしています。"
+      },
+      "passages": [
+        {
+          "id": "article",
+          "title": {
+            "en": "Desalination: A Solution to the World's Water Problems?",
+            "ja": "脱塩：世界の水問題の解決策になるか"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "p1_s1",
+                "en": "Fresh water is very important for life, but many people do not think about where it comes from.",
+                "ja": "真水は生命にとって非常に重要だが、多くの人はそれがどこから来ているのかを考えない。"
+              },
+              {
+                "id": "p1_s2",
+                "en": "We use water every day for many activities.",
+                "ja": "私たちは多くの活動に毎日水を使っている。"
+              },
+              {
+                "id": "p1_s3",
+                "en": "However, we often forget that fresh water comes from lakes, rivers, and sources under the ground, and these water sources are limited.",
+                "ja": "しかし、私たちはしばしば、真水が湖や川、地下の水源から来ていて、それらの水資源は限られているということを忘れる。"
+              },
+              {
+                "id": "p1_s4",
+                "en": "Therefore, we need to be careful to save water and not waste it.",
+                "ja": "したがって、私たちは水を節約し、無駄遣いしないように気をつける必要がある。"
+              },
+              {
+                "id": "p1_s5",
+                "en": "Without fresh water, it would be hard for people, animals and plants to live.",
+                "ja": "真水がなければ、人や動植物は生きるのが難しくなる。"
+              }
+            ],
+            [
+              {
+                "id": "p2_s1",
+                "en": "Water shortages happen when there is not enough clean water for people to use.",
+                "ja": "人々が利用する清潔な水が足りなくなると、水不足が起きる。"
+              },
+              {
+                "id": "p2_s2",
+                "en": "This can be caused by pollution, or by growing demand due to an increase in the population.",
+                "ja": "これは、汚染や人口が増えることによる需要によって引き起こされ得る。"
+              },
+              {
+                "id": "p2_s3",
+                "en": "In addition, some countries have dry weather and do not get enough rain.",
+                "ja": "さらに、乾燥した天気で十分に雨が降らない国もある。"
+              },
+              {
+                "id": "p2_s4",
+                "en": "When there are water shortages, it leaves less water for drinking, cooking, washing, industry, and agriculture.",
+                "ja": "水不足になると、飲料、料理用、洗濯用、工業用、農業用の水が足りない状態になる。"
+              },
+              {
+                "id": "p2_s5",
+                "en": "The water shortage problem is even seen in countries that are close to oceans.",
+                "ja": "水不足問題は海に近い国でも見られる。"
+              },
+              {
+                "id": "p2_s6",
+                "en": "Even though these countries are surrounded by water, the water contains salt and they cannot use the salt water without treating it first.",
+                "ja": "それらの国は水に囲まれてはいても、その水は塩を含み、塩水は最初に処理をしないと利用できないのだ。"
+              }
+            ],
+            [
+              {
+                "id": "p3_s1",
+                "en": "Desalination is the process that makes salt water from the ocean safe to drink, by removing the salt and other harmful substances.",
+                "ja": "脱塩とは、塩やその他の有害物質を取り除くことで、海から採取した塩水を安全に飲めるようにするプロセスのことである。"
+              },
+              {
+                "id": "p3_s2",
+                "en": "It can therefore help people in places near the ocean where there is not enough fresh water.",
+                "ja": "したがって、十分な真水がない海の近くの場所に住む人々の役に立つことができるのだ。"
+              },
+              {
+                "id": "p3_s3",
+                "en": "There are several methods of desalination.",
+                "ja": "脱塩にはいくつかの方法がある。"
+              },
+              {
+                "id": "p3_s4",
+                "en": "One method is called \"reverse osmosis\" and it involves several steps.",
+                "ja": "方法のひとつは「逆浸透」と呼ばれ、いくつかのステップを含む。"
+              },
+              {
+                "id": "p3_s5",
+                "en": "First, salt water is transported from the ocean to the desalination plant.",
+                "ja": "まず、塩水が海から脱塩工場に運ばれる。"
+              },
+              {
+                "id": "p3_s6",
+                "en": "Then, the water goes through special filters to remove sand and other large particles.",
+                "ja": "そして、水は砂やその他の大きな粒子を取り除くために特別なフィルターを通過する。"
+              },
+              {
+                "id": "p3_s7",
+                "en": "Next, the water is put through a thin layer of material called a membrane to remove the salt.",
+                "ja": "次に、水は塩を取り除くために、メンブレンと呼ばれる素材の薄い層を通過させられる。"
+              },
+              {
+                "id": "p3_s8",
+                "en": "After that, minerals and other chemicals are added to the water to make it clean.",
+                "ja": "その後、清潔にするためにミネラルやその他の化学物質が水に加えられる。"
+              },
+              {
+                "id": "p3_s9",
+                "en": "This ensures that it is drinkable and stays safe.",
+                "ja": "このことで、水が確実に飲めるようになり、安全な状態になる。"
+              },
+              {
+                "id": "p3_s10",
+                "en": "Finally, the clean water is distributed to people and businesses to consume.",
+                "ja": "最後に、きれいな水が消費されるために人々や企業に分配される。"
+              },
+              {
+                "id": "p3_s11",
+                "en": "Access to clean water is important because it can prevent problems caused by water shortages like hunger, disease and other medical conditions, fewer economic opportunities, and even conflicts.",
+                "ja": "きれいな水を利用できることは重要である。というのも、飢餓、病気やその他の医学的病態、経済的機会の減少、さらには紛争といった水不足が引き起こす問題を防ぐことができるからだ。"
+              }
+            ],
+            [
+              {
+                "id": "p4_s1",
+                "en": "One advantage of desalination is that it can provide a large amount of fresh water for drinking, farming and industry, in any season.",
+                "ja": "脱塩の利点のひとつは、どんな季節でも飲用、農業用、工業用の大量の真水を供給できることである。"
+              },
+              {
+                "id": "p4_s2",
+                "en": "Saudi Arabia is a good example of a desalination success story.",
+                "ja": "サウジアラビアは、脱塩のサクセスストーリーの好例である。"
+              },
+              {
+                "id": "p4_s3",
+                "en": "It is a very dry country, but it uses desalination to make fresh water from the ocean.",
+                "ja": "非常に乾燥した国だが、海から真水を作るのに脱塩を利用している。"
+              },
+              {
+                "id": "p4_s4",
+                "en": "In fact, Saudi Arabia currently has over 40 desalination facilities and produces more desalinated water than any other country.",
+                "ja": "実際、サウジアラビアには現在40を超える脱塩施設があり、他のどの国よりも多くの脱塩した水を生産している。"
+              },
+              {
+                "id": "p4_s5",
+                "en": "Thanks to desalination, the country has enough water for human and economic development.",
+                "ja": "脱塩のおかげで、その国には人間と経済発展にとって十分な水がある。"
+              },
+              {
+                "id": "p4_s6",
+                "en": "Many of the most successful desalination projects are in countries in the Middle East with a lot of deserts and few natural sources of fresh water.",
+                "ja": "最もうまくいっている脱塩プロジェクトの多くは、砂漠が多く天然の真水の水源が少ない中東の国々で行われている。"
+              }
+            ],
+            [
+              {
+                "id": "p5_s1",
+                "en": "Another advantage of desalination is that it could help avoid water wars between countries by giving them another way to get fresh water.",
+                "ja": "脱塩のもうひとつの利点は、真水を得る別の方法を国々に与えることで、水を巡る国家間の戦争を回避する役に立ち得るということである。"
+              },
+              {
+                "id": "p5_s2",
+                "en": "For example, tensions are rising between Egypt and Ethiopia over the Nile River.",
+                "ja": "例えば、ナイル川を巡ってエジプトとエチオピアの間の緊張が高まっている。"
+              },
+              {
+                "id": "p5_s3",
+                "en": "Egypt depends on the Nile for almost all of its fresh water.",
+                "ja": "エジプトは真水のほとんどすべてをナイル川に依存している。"
+              },
+              {
+                "id": "p5_s4",
+                "en": "However, Ethiopia has launched a project to build a large dam on the river to generate electricity.",
+                "ja": "しかし、エチオピアが発電のためにナイル川に大きなダムを建造するプロジェクトを始動した。"
+              },
+              {
+                "id": "p5_s5",
+                "en": "Egypt worries that the dam can reduce the amount of fresh water flowing north from Ethiopia to Egypt.",
+                "ja": "エジプトはそのダムが、エチオピアからエジプトへと北に流れる真水の量を減らすのではないかと懸念している。"
+              },
+              {
+                "id": "p5_s6",
+                "en": "Egypt is now building seawater desalination facilities to get fresh water from the ocean instead of depending on the river.",
+                "ja": "現在エジプトは、その川に依存するのではなく、海から真水を得るために海水の脱塩施設を建設している。"
+              }
+            ],
+            [
+              {
+                "id": "p6_s1",
+                "en": "Desalination facilities can be helpful, but they have some disadvantages.",
+                "ja": "脱塩施設は役に立ち得るが、欠点もある。"
+              },
+              {
+                "id": "p6_s2",
+                "en": "The technology and equipment needed to clean the salt water is expensive.",
+                "ja": "塩水をきれいにするのに必要な技術や設備が高額なのである。"
+              },
+              {
+                "id": "p6_s3",
+                "en": "Because of this, it can cost hundreds of millions of dollars to build a desalination facility.",
+                "ja": "このため、脱塩施設を建設するのに数億ドルがかかり得るのである。"
+              },
+              {
+                "id": "p6_s4",
+                "en": "That is why most facilities have been built in wealthy countries.",
+                "ja": "それゆえに、施設のほとんどは裕福な国で建てられてきた。"
+              },
+              {
+                "id": "p6_s5",
+                "en": "Furthermore, the facilities use a lot of electricity to clean the water and transport it.",
+                "ja": "さらに、脱塩施設は水をきれいにし運搬するのに大量の電力を使う。"
+              },
+              {
+                "id": "p6_s6",
+                "en": "This also costs a lot of money.",
+                "ja": "このことにもまた、多額の費用がかかる。"
+              }
+            ],
+            [
+              {
+                "id": "p7_s1",
+                "en": "In addition to being very expensive, desalination facilities can cause problems.",
+                "ja": "非常に高額であることに加えて、脱塩施設は問題を引き起こし得る。"
+              },
+              {
+                "id": "p7_s2",
+                "en": "For example, desalination creates waste called \"brine\".",
+                "ja": "例えば、脱塩によって「ブライン」と呼ばれる廃棄物が生じる。"
+              },
+              {
+                "id": "p7_s3",
+                "en": "Brine is very salty water.",
+                "ja": "ブラインは非常に塩辛い水である。"
+              },
+              {
+                "id": "p7_s4",
+                "en": "The brine is often put back into the ocean.",
+                "ja": "ブラインは海に戻されることが多い。"
+              },
+              {
+                "id": "p7_s5",
+                "en": "This can harm sea life because it makes the water too salty.",
+                "ja": "このことで海水の塩分濃度が高くなりすぎるために、海洋生物に危害を加える可能性がある。"
+              },
+              {
+                "id": "p7_s6",
+                "en": "Another problem is that most desalination facilities use fossil fuels like coal, gas, or oil.",
+                "ja": "もうひとつの問題は、ほとんどの脱塩施設が石炭、ガス、石油といった化石燃料を使用しているということである。"
+              },
+              {
+                "id": "p7_s7",
+                "en": "This causes air pollution and contributes to climate change.",
+                "ja": "このことで大気汚染が引き起こされ、気候変動への寄与につながる。"
+              }
+            ],
+            [
+              {
+                "id": "p8_s1",
+                "en": "Desalination is just one way that we can increase our supply of fresh water.",
+                "ja": "脱塩は真水の供給を増やすことができる方法のひとつにすぎない。"
+              },
+              {
+                "id": "p8_s2",
+                "en": "Whether you live in an area with a lot of fresh water or not, it is important to keep our water clean and drinkable.",
+                "ja": "真水が豊富な地域に住んでいるいないにかかわらず、水をきれいで飲める状態に保つことは重要である。"
+              },
+              {
+                "id": "p8_s3",
+                "en": "So, the next time you drink a glass of water or take a bath, think about where your fresh water comes from.",
+                "ja": "だから、次にコップの水を飲んだり風呂に入ったりする時は、その真水がどこから来ているのか考えよう。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "slides",
+          "title": {
+            "en": "Presentation slides:",
+            "ja": "発表用スライド"
+          },
+          "role": "notes",
+          "paragraphs": [
+            [
+              {
+                "id": "slides_intro",
+                "en": "",
+                "ja": ""
+              }
+            ]
+          ],
+          "graph_image": {
+            "src": "images/s7_presentation_slides.png",
+            "alt": "Presentation slides: Desalination",
+            "after_paragraph": 1
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 34,
+          "stem": {
+            "en": "Which of the following is an effect of water shortages shown in Slide 2? [34]",
+            "ja": "「スライド2の水不足の影響は次のうちどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "high energy prices",
+              "ja": "「高いエネルギー価格」"
+            },
+            {
+              "label": "②",
+              "en": "hot weather",
+              "ja": "「暑い天候」"
+            },
+            {
+              "label": "③",
+              "en": "poor health",
+              "ja": "「悪い健康状態」",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "unfair business practices",
+              "ja": "「不公平なビジネス慣行」"
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "ja": "水不足の影響として、本文で述べられているものを選ぶ。水不足の影響については第3段落最終文でproblems caused by water shortages like hunger, disease and other medical conditions, fewer economic opportunities, and even conflicts（飢餓、病気やその他の医学的病態、経済的機会の減少、さらには紛争といった水不足が引き起こす問題）と書かれている。したがって、③が正解。①については、第6段落に、脱塩施設運営に多額の費用がかかることが述べられているが、このことが高いエネルギー価格に結びつくという記述はない。②、④の内容は本文では述べられていない。",
+            "evidence_sentences": [
+              "p3_s11"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 35,
+          "stem": {
+            "en": "Which is an error you found on Slide 3? [35]",
+            "ja": "「スライド3で見つけた誤りはどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "「A」"
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "「B」"
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "「C」"
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "「D」",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "「E」"
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "「逆浸透」の脱塩プロセスのステップに含まれるものとして正しくないものを選ぶ。このステップは第3段落で述べられており、第5～8文で、First, salt water is transported from the ocean to the desalination plant.（A）。そして、水は砂やその他の大きな粒子を取り除くために特別なフィルターを通過する（B）。次に、水は塩を取り除くために、メンブレンと呼ばれる素材の薄い層を通過させられる（C）。その後、清潔にするためにミネラルやその他の化学物質が水に加えられる（E）。と述べられている。述べられていないのはDの内容であり、したがって④が正解。",
+            "evidence_sentences": [
+              "p3_s5",
+              "p3_s6",
+              "p3_s7",
+              "p3_s8"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            36,
+            37
+          ],
+          "stem": {
+            "en": "Choose two options for Slide 4. (The order does not matter.) [36] [37]",
+            "ja": "「スライド4用に2つの選択肢を選びなさい。（順不同。）」"
+          },
+          "answer": {
+            "36": "①",
+            "37": "②"
+          },
+          "explanation": {
+            "ja": "脱塩の利点として正しいものを選ぶ。脱塩の利点については第3～5段落に書かれている。まず、第3段落第2文にIt can therefore help people in places near the ocean where there is not enough fresh water.（したがって、（脱塩は）十分な真水がない海の近くの場所に住む人々の役に立つことができるのだ。）とあり、これは②に一致する。次に、第5段落第1文にAnother advantage of desalination is that it could help avoid water wars between countries by giving them another way to get fresh water.（脱塩のもうひとつの利点は、真水を得る別の方法を国々に与えることで、水を巡る国家間の戦争を回避する役に立ち得るということである。）とあり、①に一致する。その他の選択肢の内容は述べられていない。",
+            "evidence_sentences": [
+              "p3_s2",
+              "p5_s1"
+            ]
+          },
+          "unordered_slots": [
+            36,
+            37
+          ],
+          "choices_36": [
+            {
+              "label": "①",
+              "en": "ease tensions between countries.",
+              "ja": "「国家間の緊張を緩和する。」"
+            },
+            {
+              "label": "②",
+              "en": "help countries without access to fresh water.",
+              "ja": "「真水を手に入れられない国を助ける。」"
+            },
+            {
+              "label": "③",
+              "en": "increase electricity generation in African countries.",
+              "ja": "「アフリカ諸国で発電量を増加させる。」"
+            },
+            {
+              "label": "④",
+              "en": "lower the cost of water for all people.",
+              "ja": "「すべての人々にとって水の費用が低下する。」"
+            },
+            {
+              "label": "⑤",
+              "en": "provide water to countries far from the ocean.",
+              "ja": "「海から遠く離れた国に水を供給する。」"
+            }
+          ],
+          "choices_37": [
+            {
+              "label": "①",
+              "en": "ease tensions between countries.",
+              "ja": "「国家間の緊張を緩和する。」"
+            },
+            {
+              "label": "②",
+              "en": "help countries without access to fresh water.",
+              "ja": "「真水を手に入れられない国を助ける。」"
+            },
+            {
+              "label": "③",
+              "en": "increase electricity generation in African countries.",
+              "ja": "「アフリカ諸国で発電量を増加させる。」"
+            },
+            {
+              "label": "④",
+              "en": "lower the cost of water for all people.",
+              "ja": "「すべての人々にとって水の費用が低下する。」"
+            },
+            {
+              "label": "⑤",
+              "en": "provide water to countries far from the ocean.",
+              "ja": "「海から遠く離れた国に水を供給する。」"
+            }
+          ]
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 38,
+          "stem": {
+            "en": "What can be inferred about the disadvantages of desalination for Slide 5? [38]",
+            "ja": "「スライド5の脱塩の欠点について何が推測できるか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Desalination reduces the amount of salt in ocean water, which harms fish living near desalination facilities.",
+              "ja": "「脱塩によって海水の塩分量が減少し、そのことで脱塩施設の近くに住む魚に危害を加える。」"
+            },
+            {
+              "label": "②",
+              "en": "More advanced technology needs to be developed before more desalination facilities can be built.",
+              "ja": "「より多くの脱塩施設の建設が可能になる前に、より高度な技術の開発が必要となる。」"
+            },
+            {
+              "label": "③",
+              "en": "Oil spills from desalination facilities can result in nearby oceans having high levels of water pollution.",
+              "ja": "「脱塩施設からの石油の流出が、近隣の海で高レベルの水質汚染が生じる結果となる可能性がある。」"
+            },
+            {
+              "label": "④",
+              "en": "Some countries suffering from water shortages cannot afford to build desalination facilities.",
+              "ja": "「水不足に悩まされる国の中には、脱塩施設を建設する金銭的余裕がない国もある。」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "脱塩の欠点として、本文から推測できるものを選ぶ。脱塩の欠点は第6、7段落で述べられており、第6段落では脱塩施設の建設にかかる費用の高額さが述べられている。その上で、第4文にmost facilities have been built in wealthy countries（（脱塩）施設のほとんどは裕福な国で建てられてきた）とあるので、貧しい国は脱塩施設を建設するお金がない場合があるということが暗に述べられていると考えられる。よって、④が正解。①は不適当。第7段落第5文にThis can harm sea life because it makes the water too salty.（このことで海水の塩分濃度が高くなりすぎるために、海洋生物に危害を加える可能性がある。）とあるので、原因が逆の内容となっている。その他の選択肢の内容は述べられていない。",
+            "evidence_sentences": [
+              "p6_s3",
+              "p6_s4"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 39,
+          "stem": {
+            "en": "Choose the most appropriate remark for Slide 6. [39]",
+            "ja": "「スライド6に最適なコメントを選びなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Fresh water is more important than the development of agriculture and industry.",
+              "ja": "「真水は農業や工業の発展よりも重要だ。」"
+            },
+            {
+              "label": "②",
+              "en": "Human beings have long waited for the technology to change sea water to drinking water.",
+              "ja": "「人間は海水を飲用水に変える技術を長い間待ち望んできた。」"
+            },
+            {
+              "label": "③",
+              "en": "Preventing war in dry regions is the most important issue facing the world today.",
+              "ja": "「乾燥地域での戦争を防ぐことは今日世界が直面する最重要課題だ。」"
+            },
+            {
+              "label": "④",
+              "en": "Protecting the environment and making sure water-scarce countries have fresh water are both important.",
+              "ja": "「環境を保護することも、水が少ない国が真水を得られるようにすることもどちらも重要だ。」",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Rich countries should help poor countries to gain access to clean water.",
+              "ja": "「裕福な国は貧しい国がきれいな水を得られるように支援すべきだ。」"
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "本文のまとめとして適切な内容を選ぶ。第7段落で脱塩技術によって引き起こされる大気汚染や気候変動への寄与といった問題に触れた上で、第8段落第1、2文でDesalination is just one way that we can increase our supply of fresh water. Whether you live in an area with a lot of fresh water or not, it is important to keep our water clean and drinkable.（脱塩は真水の供給を増やすことができる方法のひとつにすぎない。真水が豊富な地域に住んでいるいないにかかわらず、水をきれいで飲める状態に保つことは重要である。）と述べている。この内容をふまえると正解としてふさわしいのは④である。真水が農業や工業にとって不可欠であるとは述べているが、重要性の比較は行っていないので①は不適当。乾燥地域での戦争の可能性については述べているが、それが世界の最重要課題であるとは述べていないので③も不適当。その他の選択肢の内容は述べられていない。",
+            "evidence_sentences": [
+              "p8_s1",
+              "p8_s2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 16,
+      "lead_text": {
+        "en": "You are working on an essay about whether positive discrimination for gender should be used by companies in Japan. Hiring more women in jobs where there is low female participation, such as managerial roles, could be one solution. You will follow the steps below.",
+        "ja": "あなたは、日本の企業で性別による積極的差別〔被差別者優遇〕が行われるべきかどうかについてのエッセイに取り組んでいます。管理職のような、女性の参画率が低い職種でより多くの女性を雇用することは、一つの解決策になり得ます。あなたは以下のステップに従います。"
+      },
+      "steps": [
+        "Step 1: Read and understand various viewpoints about positive discrimination and the use of gender quotas, for example, fixed allocation of women in employment.",
+        "Step 2: Take a position on companies introducing positive discrimination.",
+        "Step 3: Create an outline for an essay using additional sources."
+      ],
+      "passages": [
+        {
+          "id": "step1",
+          "title": {
+            "en": "[Step 1] Read various sources",
+            "ja": "［ステップ1］さまざまな資料を読む"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "a_h",
+                "en": "Author A (University student)",
+                "ja": "筆者A（大学生）",
+                "role": "heading_2"
+              },
+              {
+                "id": "a_s1",
+                "en": "I think that positive discrimination should be used by more companies.",
+                "ja": "積極的差別はもっと多くの企業で用いられるべきだと思います。"
+              },
+              {
+                "id": "a_s2",
+                "en": "We often think that the word \"discrimination\" is a bad thing, but the problem is that many companies have more male than female managers.",
+                "ja": "「差別」という言葉は悪いことだと私たちはしばしば考えますが、問題は多くの企業で女性管理職よりも男性管理職の方が多いということです。"
+              },
+              {
+                "id": "a_s3",
+                "en": "The average salary of women is also lower and people in the top jobs are usually men.",
+                "ja": "女性の平均給料も低く、幹部職の人はたいてい男性です。"
+              },
+              {
+                "id": "a_s4",
+                "en": "This is clearly unfair.",
+                "ja": "これは明らかに不公平です。"
+              },
+              {
+                "id": "a_s5",
+                "en": "Half the population is made of women and half the people working in top jobs should also be female.",
+                "ja": "人口の半分は女性が構成していて、幹部職に就いている人の半分も女性であるべきです。"
+              },
+              {
+                "id": "a_s6",
+                "en": "I worry about my future as I study hard, and I want to have the same opportunities as men.",
+                "ja": "私は一生懸命勉強しつつも将来を心配していて、男性と同じ機会を得たいと思っています。"
+              },
+              {
+                "id": "a_s7",
+                "en": "A quota of 50% women would create more diverse and fairer workplaces.",
+                "ja": "50%の女性定数を設けることで、多様性が高まり、より公平な職場を作ることができるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "b_h",
+                "en": "Author B (Economics professor)",
+                "ja": "筆者B（経済学教授）",
+                "role": "heading_2"
+              },
+              {
+                "id": "b_s1",
+                "en": "Around the world, various countries are introducing laws to tackle the gender gap in the workplace.",
+                "ja": "世界中で、さまざまな国が職場における性別格差に取り組むための法律を導入しています。"
+              },
+              {
+                "id": "b_s2",
+                "en": "Some of these laws include positive discrimination measures, such as the one introduced by Norway in 2008.",
+                "ja": "これらの法律の中には、2008年にノルウェーで導入されたもののように、積極的差別措置を含む法律もあります。"
+              },
+              {
+                "id": "b_s3",
+                "en": "This law obliges companies to employ women in at least 40% of managerial roles.",
+                "ja": "この法律は、管理職のうち少なくとも40%で女性を雇用することを企業に義務付けています。"
+              },
+              {
+                "id": "b_s4",
+                "en": "However, it is not always necessary to introduce positive discrimination to achieve a fairer workplace.",
+                "ja": "しかし、より公平な職場を実現するためには、必ずしも積極的差別を導入する必要はありません。"
+              },
+              {
+                "id": "b_s5",
+                "en": "Many countries focus on just having equal pay for equal jobs, not on hiring more women.",
+                "ja": "多くの国では、女性をより多く雇用することではなく、同一労働同一賃金を支払うことだけを重視しています。"
+              },
+              {
+                "id": "b_s6",
+                "en": "For example, companies in Iceland must prove that male and female workers earn the same salaries for the same jobs.",
+                "ja": "例えばアイスランドの企業は、男性労働者と女性労働者が同じ仕事をすると同じ給与を得ていると証明しなければなりません。"
+              }
+            ],
+            [
+              {
+                "id": "c_h",
+                "en": "Author C (Company director)",
+                "ja": "筆者C（企業取締役）",
+                "role": "heading_2"
+              },
+              {
+                "id": "c_s1",
+                "en": "Our company believes in giving equal opportunities to anybody, regardless of their gender, race or background.",
+                "ja": "私たちの会社は、性別、人種、経歴に関係なく、誰にでも平等に機会を与えることを信条としています。"
+              },
+              {
+                "id": "c_s2",
+                "en": "However, we are against what people term \"positive discrimination.\"",
+                "ja": "しかし、人々が「積極的差別」と呼ぶものには反対です。"
+              },
+              {
+                "id": "c_s3",
+                "en": "We feel that discrimination is discrimination.",
+                "ja": "差別は差別だと考えています。"
+              },
+              {
+                "id": "c_s4",
+                "en": "We need to hire the best person (male or female), but this view would prevent us from doing that.",
+                "ja": "私たちは最適な人材（男性でも女性でも）を雇う必要がありますが、この見解はそうすることを妨げるでしょう。"
+              },
+              {
+                "id": "c_s5",
+                "en": "Let's say that a managerial position became open, but the most qualified candidates for this position were men, because a few decades ago we already hired more men than women.",
+                "ja": "例えば、管理職を開かれたものにしても、数十年前にすでに女性よりも男性の方を多く雇っていたから、最も適任の候補者たちは男性だった。"
+              },
+              {
+                "id": "c_s6",
+                "en": "Nevertheless, should we have to promote a woman who was less qualified?",
+                "ja": "それでも、適性の劣る女性を登用しなければならないのでしょうか。"
+              },
+              {
+                "id": "c_s7",
+                "en": "This doesn't make sense in business.",
+                "ja": "これはビジネスでは理にかなっていません。"
+              }
+            ],
+            [
+              {
+                "id": "d_h",
+                "en": "Author D (Politician)",
+                "ja": "筆者D（政治家）",
+                "role": "heading_2"
+              },
+              {
+                "id": "d_s1",
+                "en": "In the world of politics, over 130 countries have introduced quotas for women and this form of positive discrimination has had an enormous effect, increasing the number of female politicians and leaders worldwide.",
+                "ja": "政治の世界では、130を超える国が女性の定数制を導入しており、この種の積極的差別は非常に効果があり、おかげで世界中で女性の政治家や指導者の数が増えています。"
+              },
+              {
+                "id": "d_s2",
+                "en": "The effect of greater female participation in politics has led to a wider range of views and policies in a positive way.",
+                "ja": "政治への女性の参画が拡大したことにより、より幅広い見解や政策がよい形で示されるようになりました。"
+              },
+              {
+                "id": "d_s3",
+                "en": "Also in the business world, when women receive the same opportunities as men, studies show companies achieve more stability and try to have more opportunity for development.",
+                "ja": "また、ビジネスの世界でも、女性が男性と同じ機会を得る場合、企業はより安定を実現し、発展の機会をより多く得ようとしている、という研究結果もあります。"
+              },
+              {
+                "id": "d_s4",
+                "en": "More studies are needed, but I am fully in favor of obliging businesses to make sure that half their managers are female.",
+                "ja": "もっと研究が必要ですが、管理職の半数が確実に女性になるよう企業に義務付けることに、全面的に賛成だ。"
+              }
+            ],
+            [
+              {
+                "id": "e_h",
+                "en": "Author E (Mother of a high school boy)",
+                "ja": "筆者E（男子高校生の母）",
+                "role": "heading_2"
+              },
+              {
+                "id": "e_s1",
+                "en": "As a woman, I'd like to support the idea of quotas.",
+                "ja": "女性として、私は定数制の考えを支持したいです。"
+              },
+              {
+                "id": "e_s2",
+                "en": "I feel I would have had more chances to get a better job when I was younger.",
+                "ja": "私がもっと若かったら、もっと良い仕事に就くチャンスがあっただろうと思います。"
+              },
+              {
+                "id": "e_s3",
+                "en": "On the other hand, I can't help thinking that this would affect my son's chances of getting the kind of job he is suited to.",
+                "ja": "その一方で、息子に合う職種に就くチャンスに影響するのではないかと思わずにはいられません。"
+              },
+              {
+                "id": "e_s4",
+                "en": "He studies hard at school and is aiming for a top university.",
+                "ja": "息子は学校で一生懸命勉強し、一流大学を目指しています。"
+              },
+              {
+                "id": "e_s5",
+                "en": "What I worry about is that, despite gaining qualifications and experience, he may lose out on a job that he wants just because he is male.",
+                "ja": "心配なのは、資格や経験があるにもかかわらず、男性であるという理由だけで希望する仕事に就くチャンスを逃すかもしれないということです。"
+              },
+              {
+                "id": "e_s6",
+                "en": "Women should try for positions based solely on their own talent.",
+                "ja": "女性は自分の才能だけで地位を得ようとするべきです。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "step2",
+          "title": {
+            "en": "[Step 2] Take a position.",
+            "ja": "［ステップ2］立場を決める"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s2_s1",
+                "en": "Your position: The use of quotas and positive discrimination is an effective method for promoting gender equality in the workplace.",
+                "ja": "あなたの立場：定数制と積極的差別の使用は、職場におけるジェンダー平等を促進するための効果的な方法である。",
+                "role": "position"
+              },
+              {
+                "id": "s2_s2",
+                "en": "Authors [42] and [43] support your position.",
+                "ja": "筆者[42]と[43]はあなたの立場を支持する。",
+                "role": "bullet"
+              },
+              {
+                "id": "s2_s3",
+                "en": "The main argument of the two authors: [44].",
+                "ja": "2人の筆者の主な論拠：[44]。",
+                "role": "bullet"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "step3",
+          "title": {
+            "en": "[Step 3] Create an outline using Sources A and B",
+            "ja": "［ステップ3］資料AとBを用いて概要を作成する"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s3_t",
+                "en": "Companies should introduce positive gender discrimination for managerial positions",
+                "ja": "企業は管理職に積極的性差別を導入すべきである",
+                "role": "heading_1"
+              }
+            ],
+            [
+              {
+                "id": "s3_intro_h",
+                "en": "Introduction",
+                "ja": "導入",
+                "role": "heading_2"
+              },
+              {
+                "id": "s3_intro",
+                "en": "The use of positive discrimination in the workplace by creating strict quotas for female managerial employees is a necessary step to improve gender equality and build stronger businesses in the future.",
+                "ja": "女性管理職のための拘束力のある定数を設けることによる職場での積極的差別の活用は、ジェンダー平等を推進し、将来的により強い企業を構築するために必要な手段である。"
+              }
+            ],
+            [
+              {
+                "id": "s3_body_h",
+                "en": "Body",
+                "ja": "本論",
+                "role": "heading_2"
+              },
+              {
+                "id": "s3_r1",
+                "en": "Reason 1: [From Step 2]",
+                "ja": "理由1：［ステップ2より］",
+                "role": "bullet"
+              },
+              {
+                "id": "s3_r2",
+                "en": "Reason 2: [Based on Source A] ([45])",
+                "ja": "理由2：［資料Aに基づいて］（[45]）",
+                "role": "bullet"
+              },
+              {
+                "id": "s3_r3",
+                "en": "Reason 3: [Based on evidence ([46]) from Source B]",
+                "ja": "理由3：［資料Bの論拠（[46]）に基づいて］",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "s3_conc_h",
+                "en": "Conclusion",
+                "ja": "結論",
+                "role": "heading_2"
+              },
+              {
+                "id": "s3_conc",
+                "en": "Despite some opposition, studies support the creation of gender quotas in managerial positions, and companies should act on this quickly, for a better workplace and a fairer society.",
+                "ja": "一部の反対はあるものの、管理職における性別定数の創設を支持する研究結果もあり、企業はよりよい職場とより公平な社会のために、早急にこの件に取り組むべきである。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "資料A"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "sa_s1",
+                "en": "In the US, there is criticism of quotas due to feelings of unfairness and the idea that unqualified candidates would take positions from qualified ones.",
+                "ja": "アメリカでは、不公平感や、不適格な候補者が適格な候補者から地位を奪うことになるという考えから、定数制に対する批判があります。"
+              },
+              {
+                "id": "sa_s2",
+                "en": "But why do we assume that women or people from minority groups are unqualified?",
+                "ja": "しかし、なぜ女性や少数グループの人々が不適格であると思い込むのでしょうか。"
+              },
+              {
+                "id": "sa_s3",
+                "en": "Is it really the case that there would be no qualified female candidates for a job?",
+                "ja": "本当に、ある仕事に対して適格な女性候補者がいないというのが事実でしょうか。"
+              },
+              {
+                "id": "sa_s4",
+                "en": "People are quick to reject the idea of positive discrimination as something that \"doesn't work\" without ever showing evidence or proof.",
+                "ja": "人々は積極的差別という考え方を、証拠も証明もまったく示さずに「うまくいかない」ものとしてすぐに拒絶します。"
+              },
+              {
+                "id": "sa_s5",
+                "en": "The fact is, quotas do work, and they work well.",
+                "ja": "実際には、定数制は有効であり、それもうまく機能しています。"
+              },
+              {
+                "id": "sa_s6",
+                "en": "A recent study showed that positive discrimination in the workplace is effective for business.",
+                "ja": "最近の研究では、職場における積極的差別はビジネスにとって効果的であることが示されました。"
+              },
+              {
+                "id": "sa_s7",
+                "en": "Companies with more diversity often perform better than their competitors.",
+                "ja": "より多様性のある企業は、競合他社よりも業績がよいことが多いのです。"
+              },
+              {
+                "id": "sa_s8",
+                "en": "According to the American Journal of Political Science, companies with quotas for more women have better working conditions for everybody, including the men.",
+                "ja": "「アメリカン・ジャーナル・オブ・ポリティカルサイエンス」誌によれば、女性定数のより多い企業は、男性も含めた全員にとって労働条件がよりよいのです。"
+              },
+              {
+                "id": "sa_s9",
+                "en": "These companies have a healthier working culture and keep employees for longer and are generally better places to work.",
+                "ja": "このような企業は、さらに健全な労働文化をもち、従業員を長く雇用し、総じてより働きやすい職場です。"
+              },
+              {
+                "id": "sa_s10",
+                "en": "People may say quotas are undemocratic, but the results say otherwise.",
+                "ja": "定数制は非民主的だと言われるかもしれませんが、結果はそうでないことを示しています。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "資料B"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "sb_s1",
+                "en": "Beginning in 2012, several European companies set quotas for the percentage of women on company boards (the highest positions in the company).",
+                "ja": "2012年以降、ヨーロッパのいくつかの企業は、取締役会（社内の最高の地位）に占める女性の割合に定数を設けました。"
+              },
+              {
+                "id": "sb_s2",
+                "en": "Some companies set a strict fixed quota (the proportion which they had to achieve) of 40%, others set a soft quota (more of a target than a fixed rule) while a third group had no quota.",
+                "ja": "40%という拘束力のある定数（達成しなければならない割合）を設定した企業もあれば、柔軟な定数（一定のルールというよりも目標）を設定した企業もあり、また定数を設定しなかった第3のグループもありました。"
+              },
+              {
+                "id": "sb_s3",
+                "en": "The table shows the average rise in female representation in each of the three groups.",
+                "ja": "表は、3つのグループそれぞれにおいて女性が占める割合の平均的な上昇を示しています。"
+              }
+            ]
+          ],
+          "graph_image": {
+            "src": "images/s8_source_b_chart.png",
+            "alt": "Representation of Women on Boards in EU Countries (2003-2022)",
+            "after_paragraph": 1
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 40,
+          "stem": {
+            "en": "Both Authors C and E mention that [40].",
+            "ja": "「筆者CとEはともに[40]と言及している。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a qualified male candidate might lose a position to a female who is less qualified than he",
+              "ja": "「適格な男性候補者が、自分より適性の劣る女性に地位を奪われるかもしれない」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "companies will always hire the best candidates for new jobs, regardless of the candidate's gender",
+              "ja": "「企業は、候補者の性別に関係なく、新しい職に最適な候補者を常に採用するだろう」"
+            },
+            {
+              "label": "③",
+              "en": "it would be difficult for any man in the future to get a good job if he doesn't have a high level of education",
+              "ja": "「高いレベルの教育を受けなければ、将来どのような男性も良い仕事に就くことは難しいだろう」"
+            },
+            {
+              "label": "④",
+              "en": "women should be promoted based on their own ability, not by being given priority because of their sex",
+              "ja": "「女性は、性別によって優先されるのではなく、その人自身の能力によって昇進されるべきである」"
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "ja": "筆者Cの意見の第5～6文にmanagerial position became open, but the most qualified candidates for this position were men... should we have to promote a woman who was less qualified?と書いてある。また、筆者Eの意見の第5文にdespite gaining qualifications and experience, he may lose out on a job that he wants just because he is male.とあり、これは「男性が資格や経験に劣る女性に職を奪われるかもしれない」ことを表す。2人に共通するのは①である。②については2人とも言及していない。③について筆者Eは「息子が一流大学を目指している」と書いているが、「そうしなければよい仕事に就くことが難しい」とは書いていないので不正解。④は筆者Eだけが最終文で述べていることで不正解。",
+            "evidence_sentences": [
+              "c_s5",
+              "c_s6",
+              "e_s5"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 41,
+          "stem": {
+            "en": "Author B implies that [41].",
+            "ja": "「筆者Bは[41]と示唆している。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "countries such as Norway have created a successful model that should be adopted around the globe",
+              "ja": "「ノルウェーなどの国は、世界中で導入されるべき成功モデルを作り上げた」"
+            },
+            {
+              "label": "②",
+              "en": "it's far better for companies to introduce laws for equal pay rather than for positive discrimination",
+              "ja": "「企業にとっては、積極的差別よりも同一賃金のための法律を導入する方がはるかによい」"
+            },
+            {
+              "label": "③",
+              "en": "the positive discrimination model has not worked so well since 2008, so other countries are not following it",
+              "ja": "「2008年以降、積極的差別のモデルケースがあまりうまく機能していないため、他の国々はそれに倣っていない」"
+            },
+            {
+              "label": "④",
+              "en": "there may be a role for positive discrimination, but other methods may be equally or even more effective",
+              "ja": "「積極的差別も一定の役割を果たしているかもしれないが、他の方法も同等かそれ以上に効果的かもしれない」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "筆者Bは、前半でノルウェーなどの国で積極的差別に関する法律があると述べ、第4文でit is not always necessary to introduce positive discrimination to achieve a fairer workplaceと続けている。さらに第5文でMany countries focus on just having equal pay for equal jobs, not on hiring more women.と言っている。積極的差別を否定も肯定もせず、他の効果的な方法を紹介しているので、④が正解。①と③は不正解。また、同一労働同一賃金を、積極的差別と比較して「はるかによい」という主旨のことは述べていないので②も不正解。",
+            "evidence_sentences": [
+              "b_s4",
+              "b_s5"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            42,
+            43,
+            44
+          ],
+          "stem": {
+            "en": "Choose the best options to complete [42]-[44]. (You must have all of [42]-[44] correct to get points.)",
+            "ja": "「[42]から[44]を完成させるのに最も適当な選択肢を選びなさい。（得点するためには[42]～[44]のすべてに正解する必要がある。）」"
+          },
+          "choices_42_43": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "「A」",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "「B」"
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "「C」"
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "「D」",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "「E」"
+            }
+          ],
+          "choices_44": [
+            {
+              "label": "①",
+              "en": "Companies that have a 50% quota for women would be more competitive as they would save money on hiring and salaries",
+              "ja": "「50%の女性定数を設けた企業は、採用費用や給料の節約になるので、競争力が高まるだろう」"
+            },
+            {
+              "label": "②",
+              "en": "Creating more chances for women to work in top jobs increases the variety of ideas and views",
+              "ja": "「女性が幹部職で働く機会を増やすことで、発想や見解の多様性が増す」",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Having a larger number of women in a company will also influence the political world and lead to more diverse governments",
+              "ja": "「企業における女性の数が増えれば、政界にも影響を与え、より多様性のある政府につながる」"
+            },
+            {
+              "label": "④",
+              "en": "More than 50% of women would be able to gain higher salaries and help companies to arrange a better workplace",
+              "ja": "「50%より多くの女性がより高い給料を得ることができ、企業がよりよい職場を整えるのに役立つだろう」"
+            }
+          ],
+          "answer": {
+            "42": "①",
+            "43": "④",
+            "44": "②"
+          },
+          "explanation": {
+            "ja": "定数制と積極的差別を支持する意見を選ぶ。筆者A：第1文でpositive discrimination should be used by more companies、最終文でA quota of 50% women would create more diverse and fairer workplacesと、賛成の意見を書いている。筆者D：第1文でIn the world of politics, over 130 countries have introduced quotas for women and this form of positive discrimination has had an enormous effect、最終文でI am fully in favor of obliging businesses to make sure that half their managers are femaleと述べている。筆者Eは定数制を支持したい気持ちを述べながら、息子が優遇されることへの懸念を示している。以上から、定数制と積極的差別を肯定しているのはAとDなので、①と④が正解。[44]の選択肢問題。筆者Aと筆者Dの主な論拠を選択する問題。筆者Aは、最終文でA quota of 50% women would create more diverse and fairer workplaces.と、賛成の意見を書いている。筆者Dは第2文でThe effect of greater female participation in politics has led to a wider range of views and policies in a positive way.と言っている。2人の意見は「幹部職や政界に女性が増えることで、多様性のある意見が出るようになる」ことで、②の内容に一致する。",
+            "evidence_sentences": [
+              "a_s1",
+              "a_s7",
+              "d_s1",
+              "d_s2",
+              "d_s4"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 45,
+          "stem": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [45]",
+            "ja": "「資料Aに基づき、理由2として最も適当なものは次のうちどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Although some women may be unqualified, they help to create a better atmosphere in the company through a healthy working culture.",
+              "ja": "「女性の中には適性が不十分な者もいるかもしれないが、彼女たちは健全な職場環境を通じて社内のよりよい雰囲気作りに役立つ。」"
+            },
+            {
+              "label": "②",
+              "en": "Evidence shows that introducing a quota not only improves the performance of a business but also motivates employees to remain in the company.",
+              "ja": "「定数制を導入することで、企業の業績が向上するだけでなく、従業員が会社に留まろうとする動機付けにもなるという証拠がある。」",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Having a quota helps minority groups and women to gain the right qualifications to work in better places that perform well.",
+              "ja": "「定数制を設けることで、少数派のグループや女性が、業績の好調なよりよい職場で働くための適切な資格を得るのに役立つ。」"
+            },
+            {
+              "label": "④",
+              "en": "Women have better working conditions than men due to the quotas, and so stay at the company for a long time.",
+              "ja": "「女性は、定数制のおかげで男性より労働条件がよいので、会社に長く勤める。」"
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "ja": "資料Aから、定数制を支持する根拠を探す。第2段落第3～4文にA recent study showed that positive discrimination in the workplace is effective for business. Companies with more diversity often perform better than their competitors.、第5～6文にcompanies with quotas for more women have better working conditions for everybody, including the men. These companies ... keep employees for longer and are generally better places to workと書かれている。この2カ所の内容を簡潔にまとめた②が正解。健全な職場環境と適性が不十分な女性の関連は書かれていないので①は不正解。③についての記述はないので不正解。また、女性が男性より労働条件がよいとは書かれていないので④も不正解。",
+            "evidence_sentences": [
+              "sa_s6",
+              "sa_s7",
+              "sa_s8",
+              "sa_s9"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 46,
+          "stem": {
+            "en": "For Reason 3, you have decided to write, \"Setting strict fixed quotas will effectively increase the percentage of women in managerial positions, increasing women's motivation for work and contributing to stronger businesses.\" Based on Source B, which option best supports this statement? [46]",
+            "ja": "「理由3として、あなたは「拘束力のある定数を設定することで女性の管理職の比率が効果的に上がり、女性の労働意欲を高めてより強い企業に貢献する。」と書くことにした。資料Bに基づき、この意見を最もよく支持する選択肢はどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A strict fixed quota eventually leads to a higher number of women in senior positions. However, it takes a much longer time to increase these numbers than a relatively soft quota.",
+              "ja": "「拘束力のある定数制は、最終的に上級職に占める女性の数を増やすことにつながる。しかし、その数を増やすには、比較的柔軟な定数制の方が速くなりやすい方がはるかに長い時間がかかる。」"
+            },
+            {
+              "label": "②",
+              "en": "Companies without a strict fixed quota mostly already had more female staff. The number of women rose more quickly in these companies as they already had a head start.",
+              "ja": "「拘束力のある定数制を設けない企業では、ほとんどの場合、すでにより多くの女性社員がいる。このような企業では、すでに有利なスタートを切っていたことで、女性の数はより速く増加した。」"
+            },
+            {
+              "label": "③",
+              "en": "Setting a soft quota is most effective in helping companies to increase the number of women in managerial positions. It encourages women already working in the company to apply for higher level jobs.",
+              "ja": "「柔軟な定数制を設定するのが最も効果的に企業の管理職に占める女性の数を増やすには、柔軟な定数を設定することである。すでに会社で働いている女性がより高いレベルの仕事を志願することを促すからである。」"
+            },
+            {
+              "label": "④",
+              "en": "Soft quotas work to some extent, producing a definite increase in the number of women in management. Nevertheless, a strict fixed quota provides a quicker increase, slowing only when the target is almost reached.",
+              "ja": "「柔軟な定数制はある程度効果があり、管理職の女性数は明確に増加する。しかしながら、拘束力のある定数制はより速い増加をもたらし、目標達成目前になって初めて鈍化する。」",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "ja": "グラフはa strict fixed quota (40%という拘束力のある定数)、a soft quota (柔軟な定数)、no quota (定数なし)の3つを比較したものである。グラフを見ると、柔軟な定数制を導入した場合も、ある程度管理職に占める女性の割合が増えている。拘束力のある定数を設定した場合、女性の割合が急上昇するが、40%という目標達成目前に鈍化している。この状況を説明した④が正解。柔軟な定数よりも拘束力のある定数制の方が速く女性の割合が増えているので①は不正解。定数のない企業は、最初の数年は拘束力のある定数を設けた企業よりも女性の割合が多いが、2012年以降も微増のままなので②は不正解。最終的な女性の割合は、拘束力のある定数を設定した企業の方が柔軟な定数を導入した企業よりも多いので、③は不正解。",
+            "evidence_sentences": [
+              "sb_s1",
+              "sb_s2",
+              "sb_s3"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,56 @@ const EXAM_REGISTRY = [
     icon: "📘"
   },
   {
+    id: "zkai_2026_02",
+    publisher: "Z会",
+    series: "実戦模試",
+    year: 2026,
+    round: 2,
+    label: "Z会 実戦模試 2026 ─ 第2回",
+    dataPath: "data/zkai/2026/round02/data.json",
+    icon: "📗"
+  },
+  {
+    id: "zkai_2026_03",
+    publisher: "Z会",
+    series: "実戦模試",
+    year: 2026,
+    round: 3,
+    label: "Z会 実戦模試 2026 ─ 第3回",
+    dataPath: "data/zkai/2026/round03/data.json",
+    icon: "📙"
+  },
+  {
+    id: "zkai_2026_04",
+    publisher: "Z会",
+    series: "実戦模試",
+    year: 2026,
+    round: 4,
+    label: "Z会 実戦模試 2026 ─ 第4回",
+    dataPath: "data/zkai/2026/round04/data.json",
+    icon: "📕"
+  },
+  {
+    id: "zkai_2026_05",
+    publisher: "Z会",
+    series: "実戦模試",
+    year: 2026,
+    round: 5,
+    label: "Z会 実戦模試 2026 ─ 第5回",
+    dataPath: "data/zkai/2026/round05/data.json",
+    icon: "📄"
+  },
+  {
+    id: "zkai_2026_06",
+    publisher: "Z会",
+    series: "実戦模試",
+    year: 2026,
+    round: 6,
+    label: "Z会 実戦模試 2026 ─ 第6回",
+    dataPath: "data/zkai/2026/round06/data.json",
+    icon: "📑"
+  },
+  {
     id: "sundai_2026_01",
     publisher: "駿台",
     series: "実戦問題集",
