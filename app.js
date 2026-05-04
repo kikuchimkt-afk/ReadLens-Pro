@@ -6,6 +6,34 @@
 // ===== レジストリ: 問題集・回の一覧 =====
 const EXAM_REGISTRY = [
   {
+    id: "kyotsu_2025_honshiken",
+    publisher: "共通テスト",
+    series: "本試験",
+    year: 2025,
+    round: "本試験",
+    label: "★ 共通テスト 2025年度 本試験（解説付き）",
+    dataPath: "data/kyotsu/2025/honshiken/data.json",
+    pdfPaths: {
+      mondai: "original_PDFs/Kyotuu-Test-2026/_2025年度本試験_問題.pdf",
+      kaitou: "original_PDFs/Kyotuu-Test-2026/_2025年度本試験_解説.pdf"
+    },
+    icon: "🎯"
+  },
+  {
+    id: "kyotsu_2025_tsuishiken",
+    publisher: "共通テスト",
+    series: "追試験",
+    year: 2025,
+    round: "追試験",
+    label: "★ 共通テスト 2025年度 追試験（解説付き）",
+    dataPath: "data/kyotsu/2025/tsuishiken/data.json",
+    pdfPaths: {
+      mondai: "original_PDFs/Kyotuu-Test-2026/_2025年度追試験_問題.pdf",
+      kaitou: "original_PDFs/Kyotuu-Test-2026/_2025年度追試験_解説.pdf"
+    },
+    icon: "🎯"
+  },
+  {
     id: "zkai_2026_01",
     publisher: "Z会",
     series: "実戦模試",
@@ -280,7 +308,7 @@ function groupExams(list) {
   const map = new Map();
   const groups = [];
   for (const ex of list) {
-    const key = `${ex.publisher}__${ex.year}`;
+    const key = `${ex.publisher}__${ex.series}__${ex.year}`;
     if (!map.has(key)) {
       const g = { key, publisher: ex.publisher, series: ex.series, year: ex.year, exams: [] };
       map.set(key, g);
@@ -293,6 +321,7 @@ function groupExams(list) {
 
 function groupLabel(g) {
   if (g.publisher === '駿台') return `駿台 ${g.series} ${g.year}`;
+  if (g.series === '本試験') return `🎯 共通テスト ${g.year}年度 本試験`;
   return `${g.publisher} ${g.year}年度`;
 }
 

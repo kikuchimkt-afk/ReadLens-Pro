@@ -11,7 +11,11 @@
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7,
+      8
     ],
     "source_pdf_mondai": "第5回_問題.pdf",
     "source_pdf_kaitou": "第5回_解説.pdf"
@@ -1699,6 +1703,3215 @@
             {
               "en": "問4 ③ unwanted",
               "ja": "要らない；不要な"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "points_per_question": 0,
+      "description": "長文＋アンケート（GROWモデル・指導プログラム改善）",
+      "situation": {
+        "en": "Your college debate club regularly visits a local high school English club to provide free English tutoring. You are making a handout for a meeting about improving the tutoring program, based on the following article and questionnaire of students at local schools.",
+        "ja": "あなたの大学のディベート部は定期的に地元の高校の英語部を訪問して無償で英語の指導を行っています。以下の記事と地元の学校の生徒のアンケートに基づき，あなたは指導プログラムの改善に関する打ち合わせ用の資料を作成しています。"
+      },
+      "passages": [
+        {
+          "id": "grow_article",
+          "framed": true,
+          "title": {
+            "en": "Encouraging Growth One Step at a Time",
+            "ja": "一歩ずつの成長を促進"
+          },
+          "subtitle": {
+            "en": "Skip Mitchell, life coach",
+            "ja": "ライフ・コーチ　スキップ・ミッチェル",
+            "align": "center"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "grw_p1_s1",
+                "en": "Making changes can be challenging, especially if we cannot see a clear path forward.",
+                "ja": "変化を起こすことは，特に先の見通しが立たないときには，難しいものになり得る。"
+              },
+              {
+                "id": "grw_p1_s2",
+                "en": "A mentor, who may be a tutor at school or a boss at work, can help.",
+                "ja": "学校の指導員や職場の上司といったメンターが，助けになれる。"
+              },
+              {
+                "id": "grw_p1_s3",
+                "en": "Mentors are those who advise or train others, and one method they may use is the GROW model.",
+                "ja": "メンターとは，他者に助言したり訓練を施したりする人物で，彼らが利用することがある手法のひとつがGROWモデルである。"
+              },
+              {
+                "id": "grw_p1_s4",
+                "en": "This model focuses more on asking learners questions regarding their goals rather than simply telling them what to do.",
+                "ja": "このモデルは，単に何をすべきか学習者に伝えることというよりは，目標に関して学習者に質問をすることに焦点を当てる。"
+              },
+              {
+                "id": "grw_p1_s5",
+                "en": "One reason the GROW model is so effective is that it simplifies complex goals into smaller processes through four steps.",
+                "ja": "GROWモデルが非常に効果的である理由のひとつは，4つのステップを通じていくつかの複雑な目標をより小さな過程へと単純化するためである。"
+              }
+            ],
+            [
+              {
+                "id": "grw_p2_s1",
+                "en": "The first step in the GROW model is Goal.",
+                "ja": "GROWモデルの最初のステップは「目標」である。"
+              },
+              {
+                "id": "grw_p2_s2",
+                "en": "This is about clearly defining the desired outcome.",
+                "ja": "これは望ましい成果を明確に定義することについてのものである。"
+              },
+              {
+                "id": "grw_p2_s3",
+                "en": "A clear goal is important because it helps the learner stay focused and motivated.",
+                "ja": "明確な目標は，学習者の集中力とモチベーションを保つ助けになるから重要である。"
+              },
+              {
+                "id": "grw_p2_s4",
+                "en": "It also means that the learner and mentor will have the same outcome in mind throughout the process.",
+                "ja": "またそれは，学習者とメンターがプロセスを通じて同じ成果を念頭に置くことも意味する。"
+              }
+            ],
+            [
+              {
+                "id": "grw_p3_s1",
+                "en": "Next, the Reality step asks the learner to think about their current situation.",
+                "ja": "次に，「現実」というステップにおいて，学習者は自身の現状について考えるよう求められる。"
+              },
+              {
+                "id": "grw_p3_s2",
+                "en": "By reflecting on their present circumstances, the learner can see the gap between their current position and their goal.",
+                "ja": "現在の状況について熟考することで，学習者は自分の現在地と目標の間の距離を知ることができる。"
+              },
+              {
+                "id": "grw_p3_s3",
+                "en": "As a result, they can have realistic expectations about what is possible.",
+                "ja": "その結果，学習者は何ができるかについて現実的な予想を立てることができるのだ。"
+              }
+            ],
+            [
+              {
+                "id": "grw_p4_s1",
+                "en": "In the Options step, the learner thinks of different ways to reach their goal.",
+                "ja": "「選択肢」というステップでは，学習者は目標を達成するためのさまざまな方法について考える。"
+              },
+              {
+                "id": "grw_p4_s2",
+                "en": "In turn, the mentor helps them to consider a variety of challenges they could face with each potential solution.",
+                "ja": "今度はメンターが，学習者が直面し得る多様な課題について，それぞれの可能な解決策とともに学習者が検討するのを支援する。"
+              },
+              {
+                "id": "grw_p4_s3",
+                "en": "This gives the learner a greater sense of control over the process.",
+                "ja": "このことで，学習者はプロセス全体でより強いコントロール感を得られる。"
+              }
+            ],
+            [
+              {
+                "id": "grw_p5_s1",
+                "en": "Finally, the Will step focuses on selecting a plan of action.",
+                "ja": "最後に，「意志」のステップでは行動計画の選択に焦点が当てられる。"
+              },
+              {
+                "id": "grw_p5_s2",
+                "en": "This includes what the learner will do, when they will do it, and how they remain invested in it.",
+                "ja": "ここには，学習者が何をするか，それをいつするのか，そしてどのようにそのことに注力し続けるのかといったことが含まれる。"
+              },
+              {
+                "id": "grw_p5_s3",
+                "en": "The mentor can help to determine deadlines and consider how to keep the learner motivated.",
+                "ja": "メンターは，締め切りを決めたり，学習者のモチベーションを保ち続ける方法を考えたりする支援ができる。"
+              }
+            ],
+            [
+              {
+                "id": "grw_p6_s1",
+                "en": "Overall, the GROW model provides a simple yet effective way for learners to break down their goals into clear actions.",
+                "ja": "全体としてGROWモデルは，学習者が目標を明確な行動に分解するための単純だが効果的な方法を提供する。"
+              },
+              {
+                "id": "grw_p6_s2",
+                "en": "As a result, they can be successful in both their personal and professional lives.",
+                "ja": "結果として，学習者は私的生活でも職業上の生活でもうまくいくことができるのである。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "questionnaire",
+          "title": {
+            "en": "Results of Questionnaire",
+            "ja": "アンケート結果"
+          },
+          "q1_title": {
+            "en": "Q1: Choose all items that match what you would like your tutor to do more.",
+            "ja": "Q1：指導員にもっとしてほしいことと合う項目をすべて選んでください。"
+          },
+          "chart_image": {
+            "src": "images/section05_questionnaire_chart.png",
+            "alt": "Questionnaire Q1 horizontal bar chart (28 members)"
+          },
+          "q2_title": {
+            "en": "Q2: What do you think about the current English club and tutoring program?",
+            "ja": "Q2：現在の英語部と指導プログラムについてどう思いますか。"
+          },
+          "comments": [
+            {
+              "label": "S1",
+              "sentences": [
+                {
+                  "id": "q_s1_s1",
+                  "en": "I learn a lot during the club, but some English grammar is really hard for me.",
+                  "ja": "部ではたくさん学べますが，英語の文法の一部は本当に難しいです。"
+                },
+                {
+                  "id": "q_s1_s2",
+                  "en": "I wish we spent more time focusing on this.",
+                  "ja": "これにもっと時間をかけて取り組みたいです。"
+                }
+              ]
+            },
+            {
+              "label": "S2",
+              "sentences": [
+                {
+                  "id": "q_s2_s1",
+                  "en": "Different approaches to learning vocabulary and other things are often suggested.",
+                  "ja": "語彙やその他のことについて，さまざまな学習のやり方がよく提案されます。"
+                },
+                {
+                  "id": "q_s2_s2",
+                  "en": "I like it that I can pick the best methods for myself.",
+                  "ja": "自分にとって最良の方法を選べるのがいいと思います。"
+                }
+              ]
+            },
+            {
+              "label": "S3",
+              "sentences": [
+                {
+                  "id": "q_s3_s1",
+                  "en": "I don't always get enough feedback on the mistakes I make.",
+                  "ja": "自分が犯す間違いについて，十分なフィードバックが得られるとは限りません。"
+                },
+                {
+                  "id": "q_s3_s2",
+                  "en": "It would be helpful if my tutor could point out specific areas where I need to improve.",
+                  "ja": "指導員が改善が必要な具体的な点を示してくれると助かります。"
+                }
+              ]
+            },
+            {
+              "label": "S4",
+              "sentences": [
+                {
+                  "id": "q_s4_s1",
+                  "en": "I'm not very confident about giving explanations in English.",
+                  "ja": "英語で説明をすることにあまり自信がありません。"
+                },
+                {
+                  "id": "q_s4_s2",
+                  "en": "I think we should spend more time having real discussions.",
+                  "ja": "本当の議論にもっと時間を使うべきだと思います。"
+                }
+              ]
+            },
+            {
+              "label": "S5",
+              "sentences": [
+                {
+                  "id": "q_s5_s1",
+                  "en": "I like it that we're trying new ways to study, like letting me choose different activities.",
+                  "ja": "さまざまな活動を選ばせてくれるなど，新しい勉強の仕方を試しているのが気に入っています。"
+                },
+                {
+                  "id": "q_s5_s2",
+                  "en": "It keeps the sessions interesting and helps me concentrate.",
+                  "ja": "おかげで時間がとてもおもしろくなり，集中する助けになります。"
+                }
+              ]
+            },
+            {
+              "label": "S6",
+              "sentences": [
+                {
+                  "id": "q_s6_s1",
+                  "en": "Goals help me stay focused.",
+                  "ja": "目標があると集中力を保てます。"
+                },
+                {
+                  "id": "q_s6_s2",
+                  "en": "I think we should set clear objectives each week, so I can know that I'm making progress.",
+                  "ja": "毎週明確な目標を立てるべきだと思います。そうすれば上達していることがわかります。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "handout",
+          "title": {
+            "en": "Tutoring Program Improvement Project",
+            "ja": "指導プログラム改善プロジェクト"
+          },
+          "is_handout": true,
+          "sections_content": [
+            {
+              "heading": {
+                "en": "The GROW Model",
+                "ja": "GROWモデル"
+              },
+              "items": [
+                {
+                  "en": "GROW = Goal, Reality, Options, Will",
+                  "ja": "GROW＝Goal, Reality, Options, Will（目標，現実，選択肢，意志）"
+                },
+                {
+                  "en": "It focuses on: [19]",
+                  "ja": "次のことに焦点を当てる：［19］"
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Main steps of the process (based on GROW concepts and the questionnaire)",
+                "ja": "プロセスの主なステップ（GROWの考え方とアンケートに基づく）"
+              },
+              "sub_items": [
+                {
+                  "label": {
+                    "en": "Goal:",
+                    "ja": "目標："
+                  },
+                  "content": {
+                    "en": "Define and share a clear goal so that [20].",
+                    "ja": "明確な目標を定義し共有する。そうすることで［20］。"
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Reality:",
+                    "ja": "現実："
+                  },
+                  "content": {
+                    "en": "[21]",
+                    "ja": "［21］"
+                  },
+                  "blank_number": 21,
+                  "options": [
+                    {
+                      "label": "A",
+                      "en": "Understand current skill level.",
+                      "ja": "現在のスキルの水準を理解する。"
+                    },
+                    {
+                      "label": "B",
+                      "en": "Discuss various learning strategies.",
+                      "ja": "さまざまな学習戦略について議論する。"
+                    },
+                    {
+                      "label": "C",
+                      "en": "Recognize personal strengths.",
+                      "ja": "個人の強みを認識する。"
+                    },
+                    {
+                      "label": "D",
+                      "en": "Reflect on recent test scores.",
+                      "ja": "最近のテストの点数を振り返る。"
+                    },
+                    {
+                      "label": "E",
+                      "en": "Write down immediate challenges.",
+                      "ja": "目前の課題を書き出す。"
+                    }
+                  ]
+                },
+                {
+                  "label": {
+                    "en": "Options:",
+                    "ja": "選択肢："
+                  },
+                  "content": {
+                    "en": "Consider different ways to reach goals and think of possible challenges.",
+                    "ja": "目標達成のためのさまざまな方法を検討し，あり得る課題について考える。"
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Will:",
+                    "ja": "意志："
+                  },
+                  "content": {
+                    "en": "Choose and stick to a plan.",
+                    "ja": "計画を選択し，完遂する。"
+                  }
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Other important points:",
+                "ja": "その他の重要な論点："
+              },
+              "items": [
+                {
+                  "en": "Most learners want to [22] as suggested by [23] and the questionnaire. Perhaps we should encourage more of this.",
+                  "ja": "大多数の学習者は［23］やアンケートが示すとおり［22］ことを望んでいる。おそらくこれをもっと促すべきだろう。"
+                },
+                {
+                  "en": "Both S5 and [24] stated that tutors are good at offering a variety of choices that help them achieve their goals.",
+                  "ja": "S5と［24］はともに，目標を達成する助けになる多様な選択肢を提示することに指導員が長けていると述べた。"
+                },
+                {
+                  "en": "Tutors need to ensure that they are meeting the needs of learners in every stage of the GROW model.",
+                  "ja": "指導員は，GROWモデルのすべての段階において，学習者のニーズに確実に応えられるようにする必要がある。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 19,
+          "points": 3,
+          "stem": {
+            "en": "Choose the best option for [ 19 ].",
+            "ja": "［19］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "asking specific questions related to the learner's needs",
+              "ja": "学習者のニーズに関連する具体的な質問をする",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "determining errors that are commonly made by learners",
+              "ja": "学習者がよく犯す誤りを特定する",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "matching mentors to learners who have similar interests",
+              "ja": "同様の関心を持つ学習者とメンターをマッチングする",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "selecting topics best suited to the mentor's abilities",
+              "ja": "メンターの能力に最適なトピックを選ぶ",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。第１段落に，GROWモデルは学習者の目標に関して質問をすることに焦点を当てるとある。学習者のニーズに沿った具体的な質問が最も合致する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "grw_p1_s4"
+            ],
+            "instructor_note": {
+              "ja": "定義文の言い換え。focuses on asking … questions と選択肢を照合する。",
+              "points": [
+                "asking learners questions regarding their goals が①の根拠。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 20,
+          "points": 3,
+          "stem": {
+            "en": "Choose the best option for [ 20 ].",
+            "ja": "［20］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "learners can discover new approaches on their own",
+              "ja": "学習者が自分で新しい取り組み方を発見できる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "learners continue working toward improvement",
+              "ja": "学習者が改善に向けて努力し続ける",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "tutors can prepare challenging activities for learners",
+              "ja": "指導員が学習者にとってやりがいのある活動を準備できる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "tutors remember to acknowledge learners' progress",
+              "ja": "指導員が忘れずに学習者の上達を認める",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。Goalの段落に，明確な目標は集中とモチベーションを保つのに役立つとある。集中して努力を続けること＝改善に向けて働き続けるに読み替えられる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "grw_p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "so that の後は「目標共有の効果」。stay focused and motivated に対応するのは②。",
+              "points": []
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "points": 3,
+          "stem": {
+            "en": "You are checking your handout. You notice an error concerning Reality. Which of the following should you <u>remove</u>? [ 21 ]",
+            "ja": "あなたは資料をチェックしている。「現実」に関して誤りに気づく。次のうちどれを<u>取り除く</u>べきか。［21］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②（Bを削除）。Realityは現状の熟考が中心だが，Bの「さまざまな学習戦略の議論」は現状の把握とは直接結びつかないため不適切。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "grw_p3_s1",
+              "grw_p3_s2"
+            ],
+            "instructor_note": {
+              "ja": "ネガティブ設問。Reality の定義に合わない一つを選ぶ。",
+              "points": [
+                "reflecting on their present circumstances が Reality の核。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_numbers": [
+            22,
+            23
+          ],
+          "points": 4,
+          "stem": {
+            "en": "Choose the best options for [ 22 ] and [ 23 ].",
+            "ja": "［22］と［23］に最も適当な選択肢を選びなさい。"
+          },
+          "answer": {
+            "22": "②",
+            "23": "④"
+          },
+          "choices_22": [
+            {
+              "label": "①",
+              "en": "learn useful vocabulary",
+              "ja": "有用な語彙を学び",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "practice speaking in English",
+              "ja": "英語で話す練習をし",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "receive more critical feedback",
+              "ja": "より批判的なフィードバックを受け",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "review difficult grammar",
+              "ja": "難しい文法を復習し",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "select their own goals",
+              "ja": "自身の目標を選択し",
+              "is_correct": false
+            }
+          ],
+          "choices_23": [
+            {
+              "label": "①",
+              "en": "S1",
+              "ja": "S1",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "S2",
+              "ja": "S2",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "S3",
+              "ja": "S3",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "S4",
+              "ja": "S4",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "S5",
+              "ja": "S5",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "S6",
+              "ja": "S6",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "正解は［22］②，［23］④。Q1で最も多いのは会話の機会（22人）。［23］は英語で議論する時間を望むS4の発言が根拠になる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "q_s4_s1",
+              "q_s4_s2"
+            ],
+            "instructor_note": {
+              "ja": "グラフの最大値とコメントの対応づけ。",
+              "points": [
+                "Offer more chances to have English conversations が最多。",
+                "S4 の real discussions が②に対応。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 24,
+          "points": 3,
+          "stem": {
+            "en": "Choose the best option for [ 24 ].",
+            "ja": "［24］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "S1",
+              "ja": "S1",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "S2",
+              "ja": "S2",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "S3",
+              "ja": "S3",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "S4",
+              "ja": "S4",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "S5",
+              "ja": "S5",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "S6",
+              "ja": "S6",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②（S2）。S5に加え，多様な学習のやり方を提案され自分で選べると述べているのはS2。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "q_s2_s1",
+              "q_s2_s2",
+              "q_s5_s1"
+            ],
+            "instructor_note": {
+              "ja": "「S5と同様の多様な選択肢」＝別の生徒の発言を特定する。",
+              "points": [
+                "Different approaches … suggested / pick the best methods がS2。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "tutor",
+              "ja": "〈教科など〉〜を個別に教える；(個別)指導員"
+            },
+            {
+              "en": "one step at a time",
+              "ja": "一歩ずつの"
+            },
+            {
+              "en": "life coach",
+              "ja": "ライフ・コーチ"
+            },
+            {
+              "en": "challenging",
+              "ja": "困難だがやりがいのある，能力が試される"
+            },
+            {
+              "en": "simplify",
+              "ja": "〜を単純化する"
+            },
+            {
+              "en": "outcome",
+              "ja": "結果，成果"
+            },
+            {
+              "en": "focused",
+              "ja": "気持ちを集中させた"
+            },
+            {
+              "en": "reflect on ~",
+              "ja": "〜を熟考する，思い起こす"
+            },
+            {
+              "en": "in turn",
+              "ja": "結果として，今度は"
+            },
+            {
+              "en": "invested in ~",
+              "ja": "〜に熱中して"
+            },
+            {
+              "en": "break down A into B",
+              "ja": "AをBに分解する"
+            },
+            {
+              "en": "feedback",
+              "ja": "フィードバック，意見"
+            },
+            {
+              "en": "specific",
+              "ja": "明確な，具体的な"
+            },
+            {
+              "en": "make progress",
+              "ja": "上達する"
+            },
+            {
+              "en": "immediate",
+              "ja": "当面の"
+            },
+            {
+              "en": "stick to ~",
+              "ja": "〜を最後までやり抜く"
+            },
+            {
+              "en": "ensure that ...",
+              "ja": "確実に…するようにする"
+            },
+            {
+              "en": "suited to ~",
+              "ja": "〜に適した",
+              "note": "問1 ④"
+            },
+            {
+              "en": "acknowledge",
+              "ja": "〜を認める",
+              "note": "問2 ④"
+            },
+            {
+              "en": "critical",
+              "ja": "批判的な，重要な",
+              "note": "問4 ③"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 15,
+      "points_per_question": 0,
+      "description": "物語文「A Newsworthy Friendship」＋メモ（並べ替え・空欄）",
+      "situation": {
+        "en": "You are taking part in an English reading club at school. Each student was asked to read a short story in English, prepare notes, and introduce the story to other students. You are preparing your notes now.",
+        "ja": "あなたは学校で英語の読書クラブに参加しています。各生徒が英語で書かれた短い物語を読んでメモを作り，その物語を他の生徒に紹介するように言われていました。あなたは今，メモを作っているところです。"
+      },
+      "passages": [
+        {
+          "id": "newsworthy_story",
+          "framed": true,
+          "title": {
+            "en": "<strong>A Newsworthy Friendship</strong>",
+            "ja": "<strong>ニュース級の友情</strong>"
+          },
+          "block_separators": [
+            1,
+            7,
+            8,
+            11,
+            16
+          ],
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "anf_p1_s1",
+                "en": "Kelsey waved goodbye as she watched her friends Hannah and John get into the car.",
+                "ja": "ケルシーは，友だちのハナとジョンが車に乗り込むのを見ながら，手を振って別れを告げた。"
+              },
+              {
+                "id": "anf_p1_s2",
+                "en": "As they drove away, Hannah shouted, \"We'll see you when we're home for winter break!\"",
+                "ja": "車が走り去りながら，ハナは叫んだ。「冬休みに帰ってきたらまた会おうね！」"
+              }
+            ],
+            [
+              {
+                "id": "anf_p2_s1",
+                "en": "Hannah and John were leaving for their first year of college.",
+                "ja": "ハナとジョンは大学生活１年目に向けて出発した。"
+              },
+              {
+                "id": "anf_p2_s2",
+                "en": "They'd both received scholarships and were excited to live away from home.",
+                "ja": "２人とも奨学金をもらっており，実家を離れて暮らすことにわくわくしていた。"
+              },
+              {
+                "id": "anf_p2_s3",
+                "en": "Kelsey had introduced Hannah to John the previous year, and while she was happy for her friends, part of her wished she'd be joining them.",
+                "ja": "ケルシーは前年にジョンにハナを紹介したのだが，友人たちのことを思うとうれしい反面，心のどこかで自分も彼らと一緒にいたいと思っていた。"
+              },
+              {
+                "id": "anf_p2_s4",
+                "en": "Kelsey would start classes at the college in their hometown soon, but she wasn't sure what she wanted to study.",
+                "ja": "ケルシーはまもなく地元の大学で授業を受けることになっていたが，自分が何を学びたいのかはっきりとはわかっていなかった。"
+              },
+              {
+                "id": "anf_p2_s5",
+                "en": "And, she would continue living in the same house she had lived in for all eighteen years of her life.",
+                "ja": "そして，これまで18年の人生の間ずっと住んできたその家で，彼女は引き続き暮らすことになっていた。"
+              },
+              {
+                "id": "anf_p2_s6",
+                "en": "She began to feel lonely and frustrated.",
+                "ja": "彼女はさみしさと苛立ちを感じ始めていた。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p3_s1",
+                "en": "That evening, Kelsey thought back to the first time she met Hannah when Hannah's family moved into the neighborhood 10 years earlier.",
+                "ja": "その日の晩，ケルシーはハナに初めて会った時のことを思い出していた。10年前に，ハナの一家が近所に引っ越してきたのだった。"
+              },
+              {
+                "id": "anf_p3_s2",
+                "en": "She remembered how she and Hannah enjoyed taking pictures and making videos of themselves.",
+                "ja": "自分とハナが写真を撮ったり，自分たちで動画を作ったりして楽しんでいたことを思い出した。"
+              },
+              {
+                "id": "anf_p3_s3",
+                "en": "Hannah always took better pictures, but Kelsey was always thinking creatively.",
+                "ja": "写真を撮るのはいつもハナの方が上手だった。でもケルシーは，いつも創造的に考えていた。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p4_s1",
+                "en": "\"Look at the colorful sky, Hannah! Take a picture,\" Kelsey said one evening.",
+                "ja": "「あのカラフルな空を見て，ハナ！　撮って」とある夕方，ケルシーは言った。"
+              },
+              {
+                "id": "anf_p4_s2",
+                "en": "Hannah snapped a photo capturing the magical sunset.",
+                "ja": "ハナは魔法のような夕日を捉えた写真を撮った。"
+              },
+              {
+                "id": "anf_p4_s3",
+                "en": "On a high school field trip to a botanical garden, Kelsey encouraged Hannah to take pictures of the unique plants.",
+                "ja": "植物園への高校の校外学習では，ケルシーはハナに珍しい植物の写真を撮るように勧めた。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p5_s1",
+                "en": "\"Zoom in on the leaves!\" Kelsey instructed. \"Look at the exquisite details!\"",
+                "ja": "「葉っぱにズームインして！」ケルシーは指示した。「このすばらしい細部を見て！」"
+              },
+              {
+                "id": "anf_p5_s2",
+                "en": "After the trip, the girls admired the photos together.",
+                "ja": "校外学習の後，２人はそれらの写真にほれぼれと見入った。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p6_s1",
+                "en": "\"You're so skilled behind the camera, Hannah. I think you should upload the photos you take to social media. People love scrolling through beautiful images online, and it's an opportunity to display your talent.\"",
+                "ja": "「あなたは本当にカメラが上手ね，ハナ。撮った写真をソーシャルメディアにアップした方がいいと思う。みんなオンラインできれいな画像をスクロールしながら見るのが大好きだし，あなたの才能を披露するいい機会にもなる。」"
+              }
+            ],
+            [
+              {
+                "id": "anf_p7_s1",
+                "en": "\"You really think so?\" Hannah asked.",
+                "ja": "「本当にそう思う？」とハナは尋ねた。"
+              },
+              {
+                "id": "anf_p7_s2",
+                "en": "\"Absolutely! And you could get better. Look at this!\" Kelsey showed Hannah a flyer about the high school photography club recruiting new first-year students.",
+                "ja": "「もちろん！　それに，もっと腕を上げられるかも。これを見て！」ケルシーはハナに，高校の写真部が新入生を募集しているチラシを見せた。"
+              },
+              {
+                "id": "anf_p7_s3",
+                "en": "\"You should join!\" Kelsey said. \"You can learn professional photography with a camera instead of a mobile phone.\" Hannah smiled with curiosity.",
+                "ja": "「入った方がいいよ！」ケルシーは言った。「携帯電話ではなく，ちゃんとしたカメラでプロの写真の撮り方を学べるよ。」ハナは興味津々で微笑んだ。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p8_s1",
+                "en": "She joined the club the following week and began posting photos regularly on social media.",
+                "ja": "彼女は翌週に入部し，ソーシャルメディアに定期的に写真を投稿し始めた。"
+              },
+              {
+                "id": "anf_p8_s2",
+                "en": "It didn't take long for others to notice Hannah's talent, and soon she was receiving many comments from her followers.",
+                "ja": "人々がハナの才能に気づくのに時間はかからず，すぐに彼女は多くのフォロワーからコメントを受け取るようになった。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p9_s1",
+                "en": "One week after saying goodbye to her friends, Kelsey started classes in her hometown.",
+                "ja": "友人たちと別れてから１週間後，ケルシーは地元で授業を受け始めた。"
+              },
+              {
+                "id": "anf_p9_s2",
+                "en": "None of them were particularly interesting, and she grew dissatisfied with her situation.",
+                "ja": "どの授業もこれといっておもしろいものはなく，彼女は自分の置かれている状況に不満を募らせていった。"
+              },
+              {
+                "id": "anf_p9_s3",
+                "en": "She began wondering if she had made the right decision to attend the local college.",
+                "ja": "彼女は地元の大学に通うという決断が正しかったのか疑問に思い始めた。"
+              },
+              {
+                "id": "anf_p9_s4",
+                "en": "While walking to campus, she often daydreamed about her future.",
+                "ja": "キャンパスまで歩きながら，彼女はよく自分の将来について空想にふけった。"
+              },
+              {
+                "id": "anf_p9_s5",
+                "en": "She contemplated what field of study to pursue, what job she might have, or if she would live in her hometown forever.",
+                "ja": "どんな分野の学問を追い求めようか，どんな仕事に就くだろうか，あるいはこのままずっと地元で暮らすのだろうかと思いを巡らせた。"
+              },
+              {
+                "id": "anf_p9_s6",
+                "en": "But most often, she thought about her friends.",
+                "ja": "だがたいていは，友人たちのことを考えていた。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p10_s1",
+                "en": "Kelsey met John during their first year of high school in essay writing class when the teacher assigned them to review each other's essays.",
+                "ja": "ケルシーは高校１年生の時，エッセイライティングの授業でジョンに出会った。その授業で先生は生徒たちに互いの作文を批評するよう課した。"
+              },
+              {
+                "id": "anf_p10_s2",
+                "en": "Kelsey was impressed by John's work.",
+                "ja": "ケルシーはジョンの作品に感銘を受けた。"
+              },
+              {
+                "id": "anf_p10_s3",
+                "en": "\"Your writing is incredibly fluid and descriptive,\" she told him. \"You have a special talent with words.\"",
+                "ja": "「あなたの文章は驚くほど流麗で描写力に富んでいるわ」と彼女は彼に言った。「あなたには言葉を操る特別な才能がある。」"
+              },
+              {
+                "id": "anf_p10_s4",
+                "en": "John looked surprised.",
+                "ja": "ジョンは驚いた様子だった。"
+              },
+              {
+                "id": "anf_p10_s5",
+                "en": "\"You should keep practicing and write a short story for the contest next year,\" Kelsey continued. \"Plus, writing can stimulate your creativity.\"",
+                "ja": "「練習を続けて，来年のコンテストのために短編小説を書くべきよ」とケルシーは続けた。「それに，書くことはあなたの創造性を刺激することにもなる。」"
+              }
+            ],
+            [
+              {
+                "id": "anf_p11_s1",
+                "en": "John didn't know what to say.",
+                "ja": "ジョンは何と言っていいのかわからなかった。"
+              },
+              {
+                "id": "anf_p11_s2",
+                "en": "While he enjoyed writing, he only did so for class assignments and was shy about sharing with others.",
+                "ja": "確かに書くのは楽しかったが，それはあくまで授業の課題のためにやったものだったし，他人と分かち合うのは照れくさかった。"
+              },
+              {
+                "id": "anf_p11_s3",
+                "en": "He'd also never been told he was talented.",
+                "ja": "彼はこれまで才能があると言われたこともなかった。"
+              },
+              {
+                "id": "anf_p11_s4",
+                "en": "Kelsey made him feel confident, and soon he was writing every day.",
+                "ja": "ケルシーのおかげで彼は自信がつき，すぐに毎日書くようになった。"
+              },
+              {
+                "id": "anf_p11_s5",
+                "en": "He'd write about his feelings, observations, or challenges he was facing.",
+                "ja": "自分の気持ち，観察して気づいたこと，自分が直面している困難について書いた。"
+              },
+              {
+                "id": "anf_p11_s6",
+                "en": "He found the practice beneficial and was grateful for Kelsey's suggestion.",
+                "ja": "彼はその練習が有益であることに気づき，ケルシーが勧めてくれたことに感謝した。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p12_s1",
+                "en": "After nearly a year of daily writing, John submitted his writing to the contest and won first place!",
+                "ja": "ほぼ１年間毎日書き続けたジョンは，作品をコンテストに提出し，１位になった！"
+              }
+            ],
+            [
+              {
+                "id": "anf_p13_s1",
+                "en": "Hannah and John met up a month after college classes had started.",
+                "ja": "ハナとジョンは大学の授業が始まってから１カ月後に会った。"
+              },
+              {
+                "id": "anf_p13_s2",
+                "en": "While walking past a notice board on campus, a poster about the student newspaper caught their eyes.",
+                "ja": "キャンパス内の掲示板のそばを通り過ぎるとき，学生新聞についてのポスターが彼らの目に留まった。"
+              },
+              {
+                "id": "anf_p13_s3",
+                "en": "They went to a meeting where the editor explained the process of planning the newspaper content, designing the layout, and publishing the newspaper.",
+                "ja": "２人は集会に参加した。そこでは編集者が，新聞の掲載内容の企画，レイアウトのデザイン，そして新聞発行の過程を説明した。"
+              },
+              {
+                "id": "anf_p13_s4",
+                "en": "Although they were busy with their class work, Hannah and John agreed that it was an opportunity to develop their skills through experience, so they joined the newspaper.",
+                "ja": "ハナもジョンも授業の課題で忙しかったが，経験を通じて自分たちのスキルを伸ばす機会だということで意見が一致し，新聞部に入部した。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p14_s1",
+                "en": "One October evening while working on their newspaper assignments, they thought about Kelsey.",
+                "ja": "10月のある日の晩，新聞の課題に取り組んでいるとき，２人はケルシーのことを考えた。"
+              },
+              {
+                "id": "anf_p14_s2",
+                "en": "Hannah told John about how Kelsey's convincing suggestion led to her studying photography, and John remembered how Kelsey had appreciated his writing.",
+                "ja": "ハナはジョンに，ケルシーの説得力のある提案が自分の写真の勉強につながった経緯を話し，ジョンはケルシーが彼の文章を高く評価してくれたことを思い出した。"
+              },
+              {
+                "id": "anf_p14_s3",
+                "en": "Suddenly, Hannah felt a bit guilty.",
+                "ja": "突然，ハナは少し後ろめたさを覚えた。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p15_s1",
+                "en": "\"You know what, John? I think it's time for us to inspire Kelsey. I think she would be an excellent newspaper editor!",
+                "ja": "「ねえ，ジョン。今度は私たちがケルシーを奮い立たせる番だと思う。彼女ならきっとすばらしい新聞の編集者になれると思う！"
+              },
+              {
+                "id": "anf_p15_s2",
+                "en": "She's always been able to notice details, share her opinions, and make suggestions.",
+                "ja": "いつも細かいところまで気がつくし，自分の意見を伝え，提案することもできる。"
+              },
+              {
+                "id": "anf_p15_s3",
+                "en": "She helped me realize my talent and pushed me to improve, but what have I ever done to help her?\"",
+                "ja": "彼女は私に自分の才能を気づかせてくれて，上達するよう後押ししてくれたけど，私が彼女のために何かしたことがあったかな。」"
+              }
+            ],
+            [
+              {
+                "id": "anf_p16_s1",
+                "en": "\"You're right! She does have all the necessary skills! I wonder why I never thought of giving her any compliments. Are you thinking what I'm thinking?\"",
+                "ja": "「その通りだ！　彼女には必要なスキルが全部そろっている！　なぜ僕は彼女に称賛の言葉をかけたことがなかったんだろう。君も僕と同じことを考えているんだろう？」"
+              }
+            ],
+            [
+              {
+                "id": "anf_p17_s1",
+                "en": "Hannah and John smiled and immediately called their friend.",
+                "ja": "ハナとジョンは微笑み，すぐにその友人に電話した。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p18_s1",
+                "en": "It was winter break, and the three friends were sitting in a café in their hometown chatting about their first fall semester at college.",
+                "ja": "冬休みになり，３人の友だちは地元のカフェの中に座り，大学での最初の秋学期についておしゃべりしていた。"
+              },
+              {
+                "id": "anf_p18_s2",
+                "en": "Hannah and John showed Kelsey a copy of their school newspaper.",
+                "ja": "ハナとジョンはケルシーに自分たちの学校新聞の写しを見せた。"
+              },
+              {
+                "id": "anf_p18_s3",
+                "en": "On the front page was an article written by John with photos taken by Hannah.",
+                "ja": "一面にはジョンが書いた記事とハナが撮った写真が掲載されていた。"
+              },
+              {
+                "id": "anf_p18_s4",
+                "en": "Kelsey smiled as she congratulated her friends.",
+                "ja": "ケルシーは笑みを浮かべて友人たちを祝福した。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p19_s1",
+                "en": "\"I also have some news to share,\" Kelsey exclaimed. \"I've decided to major in journalism!",
+                "ja": "「私もニュースがあるの」とケルシーは興奮気味に言った。「ジャーナリズムを専攻することに決めたの！"
+              },
+              {
+                "id": "anf_p19_s2",
+                "en": "You phoned me and asked me to help your newspaper that night, but I'm sorry I can't help you with your newspaper.",
+                "ja": "あの夜電話をくれて，あなたたちの新聞を手伝ってほしいって言ってくれたよね。でもごめん，あなたたちの新聞のお手伝いはできない。"
+              },
+              {
+                "id": "anf_p19_s3",
+                "en": "Instead, your advice made me understand what to do.",
+                "ja": "でも代わりに，あなたたちのアドバイスのおかげで，私が何をすべきかわかったの。"
+              },
+              {
+                "id": "anf_p19_s4",
+                "en": "I decided to check out my school's newspaper.",
+                "ja": "自分の大学の新聞を調べてみることにした。"
+              },
+              {
+                "id": "anf_p19_s5",
+                "en": "Then I met with a school counselor, who told me about the journalism program.",
+                "ja": "それから学校のカウンセラーに会って，ジャーナリズムのプログラムについて教えてもらった。"
+              },
+              {
+                "id": "anf_p19_s6",
+                "en": "I have my first class in mass media next semester, and in the future, I hope to become a professional newspaper editor.\"",
+                "ja": "来学期にはマスメディアの最初の授業があるの。そして将来，プロの新聞編集者になりたいなって。」"
+              }
+            ],
+            [
+              {
+                "id": "anf_p20_s1",
+                "en": "\"That's amazing!\" John exclaimed.",
+                "ja": "「それはすばらしい！」とジョンは叫んだ。"
+              },
+              {
+                "id": "anf_p20_s2",
+                "en": "Hannah nodded in agreement.",
+                "ja": "ハナも同意してうなずいた。"
+              }
+            ],
+            [
+              {
+                "id": "anf_p21_s1",
+                "en": "Kelsey smiled hopefully and thanked her friends.",
+                "ja": "ケルシーは希望に満ちた微笑みを浮かべ，友人たちに感謝した。"
+              },
+              {
+                "id": "anf_p21_s2",
+                "en": "She finally felt like she was moving in the right direction.",
+                "ja": "彼女はついに自分が正しい方向に進み始めているように感じた。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "newsworthy_notes",
+          "presentation_outline": {
+            "label_outside_box": {
+              "en": "Your notes:",
+              "ja": "あなたのメモ："
+            },
+            "title": {
+              "en": "A Newsworthy Friendship",
+              "ja": "ニュース級の友情"
+            },
+            "blocks": [
+              {
+                "type": "story_outline",
+                "heading": {
+                  "en": "Story outline",
+                  "ja": "物語のあらすじ"
+                },
+                "lead_en": "Hannah's family moves into Kelsey's neighborhood.",
+                "lead_ja": "ハナの一家がケルシーの近所に引っ越してくる。",
+                "sequential_slots": [
+                  25,
+                  26,
+                  27,
+                  28
+                ],
+                "tail_en": "Kelsey, John, and Hannah meet up during winter break.",
+                "tail_ja": "ケルシー，ジョン，ハナが冬休み中に会う。"
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "About Kelsey",
+                  "ja": "ケルシーについて"
+                },
+                "bullets": [
+                  {
+                    "en": "Met Hannah when she was about [29].",
+                    "ja": "彼女がおよそ［29］の頃に，ハナと出会った。"
+                  },
+                  {
+                    "en": "How she helped her friends:",
+                    "ja": "彼女が友人をどのように助けたか："
+                  },
+                  {
+                    "en": "Encouraged Hannah to [30].",
+                    "ja": "ハナに［30］よう促した。"
+                  },
+                  {
+                    "en": "Encouraged John to [31].",
+                    "ja": "ジョンに［31］よう促した。"
+                  }
+                ]
+              },
+              {
+                "type": "section_heading_lines",
+                "heading": {
+                  "en": "Key moments in the story",
+                  "ja": "物語におけるカギとなる瞬間"
+                },
+                "bullets": [
+                  {
+                    "en": "Hannah and John realize that [32].",
+                    "ja": "ハナとジョンは［32］ことに気づいた。"
+                  },
+                  {
+                    "en": "Kelsey feels grateful towards her friends because [33].",
+                    "ja": "ケルシーは友人たちに感謝している。なぜなら［33］からである。"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "points": 3,
+          "answer_numbers": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "stem": {
+            "en": "Choose four out of the five options (① ~ ⑤) and rearrange them in the order they happened. [ 25 ] → [ 26 ] → [ 27 ] → [ 28 ]",
+            "ja": "次の①〜⑤のうちから４つを選び，それらが起こった順に並べ替えなさい。［25］→［26］→［27］→［28］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Hannah and John join the school newspaper.",
+              "ja": "ハナとジョンが学校の新聞部に入る。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Hannah signs up for the photography club.",
+              "ja": "ハナが写真部に入部する。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "John wins a writing contest.",
+              "ja": "ジョンが作文コンテストで優勝する。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Kelsey becomes the editor of a newspaper.",
+              "ja": "ケルシーが新聞の編集者になる。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Kelsey starts college classes in her hometown.",
+              "ja": "ケルシーが地元で大学の授業を受け始める。",
+              "is_correct": true
+            }
+          ],
+          "answer": "②→③→⑤→①",
+          "answer_sequence": [
+            "②",
+            "③",
+            "⑤",
+            "①"
+          ],
+          "explanation": {
+            "quoted_ja": "正解の順序は②→③→⑤→①。写真部入部（高１の回想）→ほぼ１年後のコンテスト優勝→友人と別れた１週間後の地元大学開始→大学開始１カ月後の新聞部入部の時系列。④は本文にない誤答肢。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "anf_p7_s3",
+              "anf_p12_s1",
+              "anf_p9_s1",
+              "anf_p13_s1"
+            ],
+            "instructor_note": {
+              "ja": "５つから４つ選ぶ並べ替え。回想パートの写真部→ジョンのコンテスト→「１週間後」の地元大学→「１カ月後」の新聞部の順に固定する。",
+              "points": [
+                "④はケルシーが編集者になったという記述はなく除外。",
+                "②は first-year students を募集する写真部の場面に対応。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 29,
+          "points": 3,
+          "stem": {
+            "en": "Choose the best option for [ 29 ].",
+            "ja": "［29］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "5 years old",
+              "ja": "5歳",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "8 years old",
+              "ja": "8歳",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "10 years old",
+              "ja": "10歳",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "18 years old",
+              "ja": "18歳",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。現在18年同じ家にいて，10年前にハナと出会ったので，出会いのときは8歳。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "anf_p2_s5",
+              "anf_p3_s1"
+            ],
+            "instructor_note": {
+              "ja": "年齢計算。all eighteen years と 10 years earlier を組み合わせる。",
+              "points": []
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            30,
+            31
+          ],
+          "points": 3,
+          "stem": {
+            "en": "Choose the best options for [ 30 ] and [ 31 ].",
+            "ja": "［30］と［31］に最も適当な選択肢を選びなさい。"
+          },
+          "answer": {
+            "30": "③",
+            "31": "④"
+          },
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "apply for a college scholarship",
+              "ja": "大学の奨学金を申し込む",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "buy a new professional camera",
+              "ja": "新しいプロ用カメラを買う",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "post photos online for others to enjoy",
+              "ja": "他の人が楽しめるよう写真をオンラインに投稿する",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "start writing more regularly",
+              "ja": "もっと定期的に書くことを始める",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "take college classes in their hometown",
+              "ja": "地元で大学の授業を受ける",
+              "is_correct": false
+            }
+          ],
+          "choices_31": [
+            {
+              "label": "①",
+              "en": "apply for a college scholarship",
+              "ja": "大学の奨学金を申し込む",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "buy a new professional camera",
+              "ja": "新しいプロ用カメラを買う",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "post photos online for others to enjoy",
+              "ja": "他の人が楽しめるよう写真をオンラインに投稿する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "start writing more regularly",
+              "ja": "もっと定期的に書くことを始める",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "take college classes in their hometown",
+              "ja": "地元で大学の授業を受ける",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "正解は［30］③，［31］④。ハナにはソーシャルメディアへのアップロードを勧め，ジョンには練習を続けコンテスト用の短編を書くよう勧めている。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "anf_p6_s1",
+              "anf_p10_s5"
+            ],
+            "instructor_note": {
+              "ja": "空欄ごとに勧めの内容が異なる。ハナ＝upload／ジョン＝keep practicing … contest。",
+              "points": []
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 32,
+          "points": 3,
+          "stem": {
+            "en": "Choose the best option for [ 32 ].",
+            "ja": "［32］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "attending college was not the best decision",
+              "ja": "大学進学は最善の決断ではなかった",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "receiving feedback is not always beneficial",
+              "ja": "フィードバックをもらうことが常に有益とは限らない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "they don't have time for the newspaper",
+              "ja": "新聞の仕事をする時間がない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "they haven't been supportive of their friend",
+              "ja": "自分たちは友人であるケルシーを支えてこなかった",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。ハナは罪悪感を覚え，ケルシーを励ます番だと語り，自分が何をしてあげたかと問う流れは「友人への返報が足りなかった」に合致する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "anf_p14_s3",
+              "anf_p15_s1",
+              "anf_p15_s3"
+            ],
+            "instructor_note": {
+              "ja": "guilty と inspire Kelsey / what have I ever done が手がかり。",
+              "points": []
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 33,
+          "points": 3,
+          "stem": {
+            "en": "Choose the best option for [ 33 ].",
+            "ja": "［33］に最も適当な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "they didn't criticize her opinions",
+              "ja": "彼らが彼女の意見を批判しなかった",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "they helped her identify a career path",
+              "ja": "彼らが彼女の進路を見いだす手助けをしてくれた",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "they introduced her to new people",
+              "ja": "彼らが彼女を新しい人たちに紹介してくれた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "they wrote a newspaper article about her",
+              "ja": "彼らが彼女についての新聞記事を書いてくれた",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。電話とアドバイスをきっかけにジャーナリズム専攻と進路を決めたとケルシーが語る。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "anf_p19_s2",
+              "anf_p19_s3",
+              "anf_p19_s5"
+            ],
+            "instructor_note": {
+              "ja": "your advice made me understand what to do と journalism program が根拠。",
+              "points": []
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "newsworthy",
+              "ja": "ニュースにする価値のある，報道価値のある"
+            },
+            {
+              "en": "wave goodbye",
+              "ja": "さようならと手を振る"
+            },
+            {
+              "en": "scholarship",
+              "ja": "奨学金"
+            },
+            {
+              "en": "feel frustrated",
+              "ja": "イライラする，欲求不満を感じる"
+            },
+            {
+              "en": "think back to ~",
+              "ja": "〜を思い返す"
+            },
+            {
+              "en": "snap a photo",
+              "ja": "スナップ写真を撮る"
+            },
+            {
+              "en": "capture",
+              "ja": "〜を（写真等に）うまく捉える"
+            },
+            {
+              "en": "magical",
+              "ja": "魔法のような"
+            },
+            {
+              "en": "field trip",
+              "ja": "校外学習，遠足"
+            },
+            {
+              "en": "botanical garden",
+              "ja": "植物園"
+            },
+            {
+              "en": "encourage ~ to do",
+              "ja": "〜に…するよう促す，励ます"
+            },
+            {
+              "en": "zoom in on ~",
+              "ja": "〜にズームインする，拡大する"
+            },
+            {
+              "en": "instruct",
+              "ja": "指示する"
+            },
+            {
+              "en": "exquisite",
+              "ja": "非常に美しい，精妙な"
+            },
+            {
+              "en": "admire",
+              "ja": "〜を感心して眺める，見とれる"
+            },
+            {
+              "en": "skilled",
+              "ja": "腕の良い，上手な"
+            },
+            {
+              "en": "behind the camera",
+              "ja": "カメラマンとして"
+            },
+            {
+              "en": "display",
+              "ja": "〜を披露する"
+            },
+            {
+              "en": "flyer",
+              "ja": "チラシ"
+            },
+            {
+              "en": "recruit",
+              "ja": "〜を募集する"
+            },
+            {
+              "en": "daydream",
+              "ja": "空想にふける"
+            },
+            {
+              "en": "contemplate",
+              "ja": "〜について熟考する"
+            },
+            {
+              "en": "pursue",
+              "ja": "〜を追求する，追い求める"
+            },
+            {
+              "en": "assign ~ to do",
+              "ja": "〜に…するように指示する，課題を出す"
+            },
+            {
+              "en": "review",
+              "ja": "〜を批評する"
+            },
+            {
+              "en": "fluid",
+              "ja": "流暢な，流麗な"
+            },
+            {
+              "en": "descriptive",
+              "ja": "描写力に富んだ"
+            },
+            {
+              "en": "stimulate",
+              "ja": "〜を刺激する"
+            },
+            {
+              "en": "challenge",
+              "ja": "困難，難題"
+            },
+            {
+              "en": "face",
+              "ja": "〜に直面する"
+            },
+            {
+              "en": "suggestion",
+              "ja": "提案"
+            },
+            {
+              "en": "submit A to B",
+              "ja": "AをBに提出する"
+            },
+            {
+              "en": "walk past ~",
+              "ja": "〜のそばを通り過ぎる"
+            },
+            {
+              "en": "notice board",
+              "ja": "掲示板"
+            },
+            {
+              "en": "catch one's eye",
+              "ja": "〜の目を引く"
+            },
+            {
+              "en": "editor",
+              "ja": "（新聞・雑誌などの）編集長；編集者"
+            },
+            {
+              "en": "convincing",
+              "ja": "説得力のある"
+            },
+            {
+              "en": "you know what",
+              "ja": "《話を切り出す時に》ねえ，あのさ"
+            },
+            {
+              "en": "inspire",
+              "ja": "〜を奮い立たせる"
+            },
+            {
+              "en": "push ~ to do",
+              "ja": "〜に…するように強く促す"
+            },
+            {
+              "en": "compliment",
+              "ja": "褒め言葉"
+            },
+            {
+              "en": "semester",
+              "ja": "学期"
+            },
+            {
+              "en": "front page",
+              "ja": "（新聞の）一面"
+            },
+            {
+              "en": "congratulate",
+              "ja": "〜を祝う"
+            },
+            {
+              "en": "exclaim",
+              "ja": "叫ぶ"
+            },
+            {
+              "en": "major in ~",
+              "ja": "〜を専攻する"
+            },
+            {
+              "en": "check out ~",
+              "ja": "〜を調べる"
+            },
+            {
+              "en": "nod in agreement",
+              "ja": "同意してうなずく"
+            },
+            {
+              "en": "sign up for ~",
+              "ja": "〜に入会する，届け出を出す",
+              "note": "問1 ②"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 18,
+      "points_per_question": 0,
+      "description": "レポート構成（動物実験）：意見読解・立場・情報源活用",
+      "situation": {
+        "en": "You are working on an essay about whether medical companies should test their products on animals. You will follow the steps below:",
+        "ja": "あなたは，医療企業が自社製品を動物実験すべきかどうかについてのエッセイに取り組んでいます。あなたは以下のステップに従います。",
+        "steps": [
+          {
+            "en": "Step 1: Read and understand various viewpoints on animal testing.",
+            "ja": "ステップ1：動物実験に関するさまざまな観点を読み，理解する。"
+          },
+          {
+            "en": "Step 2: Take a position on medical testing on animals.",
+            "ja": "ステップ2：動物で医療実験をすることに対する自分の立場を決める。"
+          },
+          {
+            "en": "Step 3: Create an outline for an essay using additional sources.",
+            "ja": "ステップ3：追加の資料を用いてエッセイの概要を作成する。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "step1_animal_views",
+          "title": {
+            "en": "[Step 1] Read various sources",
+            "ja": "［ステップ1］さまざまな資料を読む"
+          },
+          "layout": "speaker_boxes",
+          "paragraphs": [
+            [
+              {
+                "id": "at8_a_h",
+                "en": "Author A (Hospital patient)",
+                "ja": "筆者A（入院患者）"
+              },
+              {
+                "id": "at8_a_s1",
+                "en": "I am recovering from a very dangerous disease. I heard that the medicine the doctors gave me to save my life was developed through animal testing. I am deeply thankful for the medicine, but it troubles me to think that it was developed through the suffering of innocent animals.",
+                "ja": "私はとても危険な病気から回復しつつあります。私の命を救うために医師が与えた薬が，動物実験を通して開発されたものだと聞きました。私はその薬に深く感謝していますが，その薬が罪のない動物たちの苦痛を通して開発されたものだと思うと悩みます。"
+              },
+              {
+                "id": "at8_a_s2",
+                "en": "I have heard that often animal testing is chosen because it is less expensive than other methods, such as those using state-of-the-art technology. I believe that animal testing should be replaced by other methods.",
+                "ja": "最先端技術を使ったものなどの他の方法よりも安価であるため，動物実験がしばしば選択されると聞いたことがあります。動物実験は他の方法に置き換えられるべきだと思います。"
+              }
+            ],
+            [
+              {
+                "id": "at8_b_h",
+                "en": "Author B (Animal rights expert)",
+                "ja": "筆者B（動物の権利に関する専門家）"
+              },
+              {
+                "id": "at8_b_s1",
+                "en": "Some people argue that animal testing is acceptable because animals also benefit from medicine created for humans. I think that is a poor argument. We only use medicine to save animals that are of use to humans, such as companion animals or farm animals, not wild animals.",
+                "ja": "動物も人間のために作られた薬の恩恵を受けているのだから動物実験は容認されると主張する人がいます。それは稚拙な主張だと思います。私たちが薬を使うのは，コンパニオンアニマル（ペット）や家畜など，人間にとって有用な動物を救うためだけで，野生動物のためではありません。"
+              },
+              {
+                "id": "at8_b_s2",
+                "en": "Furthermore, the procedures are often cruel. For example, the animals are given diseases and then tested to see if the drugs or treatment work for the target diseases. I think that it is immoral.",
+                "ja": "さらに，その手段はしばしば残酷です。例えば，動物を病気に感染させ，それから薬や治療法が対象となる病気に効くかどうかを検査します。道義に反すると思います。"
+              }
+            ],
+            [
+              {
+                "id": "at8_c_h",
+                "en": "Author C (Doctor)",
+                "ja": "筆者C（医師）"
+              },
+              {
+                "id": "at8_c_s1",
+                "en": "If it were not for animal testing, drugs and treatments would be too dangerous to recommend to my patients and so many people would die — many of them very young.",
+                "ja": "もし動物実験がなかったら，薬や治療法が危険すぎて患者に勧められず，あまりに多くの人が，その中の多くはとても若くして，死んでしまうでしょう。"
+              },
+              {
+                "id": "at8_c_s2",
+                "en": "Of course, I feel sad about the death and suffering of the animals, but a huge number of people are saved thanks to the whole procedure involved in developing medicine, which includes animal testing. In my opinion, that would compensate for the sacrifice. Also, much of the research for human medicine is also useful in making animal medicine.",
+                "ja": "もちろん，動物の死や苦痛は悲しいことだと思いますが，膨大な数の人々が救われているのは，医薬品開発に伴うすべての手順のおかげであり，その中には動物実験も含まれます。私の意見では，このことは犠牲を埋め合わせるものになっていると思います。また，人間の薬を対象とする研究の多くは，動物の薬を作るのにも役立っています。"
+              }
+            ],
+            [
+              {
+                "id": "at8_d_h",
+                "en": "Author D (High school student)",
+                "ja": "筆者D（高校生）"
+              },
+              {
+                "id": "at8_d_s1",
+                "en": "My class discussed this topic at school in one of our biology lessons and I feel strongly against using animals in medical experiments. When it comes to testing new drugs or treatments, healthy animals are chosen as subjects and infected with disease. This is ethically wrong, I think.",
+                "ja": "私のクラスは学校の生物の授業でこの話題について話し合い，私は医療実験に動物を使うことに強く反対しています。新しい薬や治療法を試す場合に，健康な動物が被験動物として選ばれ，病気に感染させられます。これは倫理的に間違っていると思います。"
+              },
+              {
+                "id": "at8_d_s2",
+                "en": "Our teacher told us that there are alternative methods for testing medicine. These include testing on human cells in test tubes, or predicting results using computer software rather than live animals. I hope that these methods will be more widely adopted.",
+                "ja": "先生は，医薬品の試験には代替の方法があると教えてくれました。試験管に入れた人間の細胞で実験したり，生きた動物ではなくコンピュータソフトを使って結果を予測したりする方法が含まれます。このような方法がもっと広く採用されることを願っています。"
+              }
+            ],
+            [
+              {
+                "id": "at8_e_h",
+                "en": "Author E (Scientist)",
+                "ja": "筆者E（科学者）"
+              },
+              {
+                "id": "at8_e_s1",
+                "en": "At my laboratory, we test medicines and treatments on animals every day. We test them on small animals like rats, but we also test them on dogs and chimpanzees. Sadly, many of the animals suffer a lot. I feel terrible when I see this every day.",
+                "ja": "私の研究室では，毎日動物を使って薬や治療法を試験しています。ラットのような小動物で検査しますが，犬やチンパンジーでも検査しています。悲しいことに，多くの動物がとても苦しんでいます。このような状況を毎日見て，私はつらい気持ちになります。"
+              },
+              {
+                "id": "at8_e_s2",
+                "en": "However, I wish people would understand that we are following very strict rules to keep the animals in decent conditions and that there are few really good alternatives. Actually, very few animals die and suffer in testing compared with the number of human lives we will save.",
+                "ja": "しかし，私たちが動物を適切な環境に置くために非常に厳しい規則に従っていること，そして本当に良い代替手段がほとんどないことを理解してほしいと思います。実際，私たちが救おうとする人間の命の数に比べれば，検査で死んだり苦しんだりする動物はごくわずかです。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 4,
+              "question_ids": [
+                "問1",
+                "問2"
+              ],
+              "answer_numbers": [
+                39,
+                40
+              ]
+            },
+            {
+              "after_paragraph": 4,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、Step 3 の概要と設問欄（Step 2）に進みます。"
+            }
+          ]
+        },
+        {
+          "id": "step3_outline",
+          "title": {
+            "en": "[Step 3] Create an outline using Sources A and B",
+            "ja": "［ステップ3］資料AとBを用いて概要を作成する"
+          },
+          "subtitle": {
+            "id": "at8_step3_outline_label",
+            "en": "Outline of your essay:",
+            "ja": "あなたのエッセイの概要："
+          },
+          "layout": "essay_outline_box",
+          "paragraphs": [
+            [
+              {
+                "id": "at8_eo_title",
+                "en": "Testing medicines on animals is an acceptable practice",
+                "ja": "動物を使っての医薬品の実験は容認されるべき行為である",
+                "role": "outline_title"
+              }
+            ],
+            [
+              {
+                "id": "at8_eo_in_h",
+                "en": "Introduction",
+                "ja": "導入",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "at8_eo_in1",
+                "en": "Testing medicines on animals has made it possible to produce many medicines. We should not stop researchers from using this important tool.",
+                "ja": "動物を使っての医薬品の実験のおかげで，多くの薬を製造することが可能になっている。研究者がこの重要な手段を使うのを妨げてはならない。"
+              }
+            ],
+            [
+              {
+                "id": "at8_eo_bd_h",
+                "en": "Body",
+                "ja": "本論",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "at8_eo_r1",
+                "en": "Reason 1: [From Step 2]",
+                "ja": "理由1：［ステップ2より］",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "at8_eo_r2",
+                "en": "Reason 2: [Based on Source A] ([44])",
+                "ja": "理由2：［資料Aに基づいて］（[44]）",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "at8_eo_r3",
+                "en": "Reason 3: [Based on evidence ([45]) from Source B]",
+                "ja": "理由3：［資料Bからの論拠（[45]）に基づいて］",
+                "role": "outline_line"
+              }
+            ],
+            [
+              {
+                "id": "at8_eo_co_h",
+                "en": "Conclusion",
+                "ja": "結論",
+                "role": "outline_subheader"
+              }
+            ],
+            [
+              {
+                "id": "at8_eo_co1",
+                "en": "Testing medicine on animals is the right thing to do.",
+                "ja": "動物を使っての医薬品の実験は正しい行為である。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 8,
+              "question_ids": [
+                "問3"
+              ],
+              "answer_numbers": [
+                41,
+                42,
+                43
+              ]
+            },
+            {
+              "after_paragraph": 8,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、資料Aを読みます。"
+            }
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "資料A"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "at8_sa_p1_s1",
+                "en": "Animal testing is often debated because of its cost in terms of animal lives. It is an emotional issue for most people. However, it's crucial to understand the strict rules that govern animal testing, aimed at ensuring humane treatment.",
+                "ja": "動物実験は，動物の命という代償のためにしばしば議論の対象となる。ほとんどの人にとって感情的な問題である。しかし，思いやりのある扱いを保証することを目的とした動物実験を統制する厳格な規則を理解することは極めて重要である。"
+              },
+              {
+                "id": "at8_sa_p1_s2",
+                "en": "Institutions conducting animal research are required to follow strict laws, which require testers to get approval for their research from special committees. Such committees are usually made up of experts in veterinary science, ethics, and research.",
+                "ja": "動物研究を行う機関は厳しい法律に従うことが求められており，試験者は特別な委員会から研究の承認を得る必要がある。そのような委員会は通常，獣医学，倫理学，研究の各分野の専門家で構成されている。"
+              },
+              {
+                "id": "at8_sa_p1_s3",
+                "en": "They carefully check the proposed studies to ensure they are necessary and that every possible measure is taken to minimize animal suffering. Furthermore, researchers must follow comprehensive guidelines focusing on animal welfare.",
+                "ja": "委員会は，提案された研究が必要であること，また動物の苦痛を最小限にするためのあらゆる手段が講じられていることを確認するために，慎重に調べる。さらに，研究者は動物の福祉に焦点を当てた包括的な指針に従わなければならない。"
+              }
+            ],
+            [
+              {
+                "id": "at8_sa_p2_s1",
+                "en": "These include providing proper care, reducing the number of animals used, and refining procedures to reduce emotional stress. Regular inspections ensure these standards are maintained. While the loss of animal life in research is a sad reality, these regulations and observation systems help raise the level of ethical responsibility in scientific exploration.",
+                "ja": "これには適切な世話の提供，使用する動物数の削減，感情的ストレスを減らす手順の改良などが含まれる。定期的な検査によって，これらの基準が維持されていることが保証される。研究における動物の命の喪失は悲しい現実であるが，これらの規則と監視の仕組みは，科学的探求における倫理的責任の水準を高めるのに役立っている。"
+              }
+            ]
+          ],
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 1,
+              "question_ids": [
+                "問4"
+              ],
+              "answer_numbers": [
+                44
+              ]
+            },
+            {
+              "after_paragraph": 1,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、資料Bを読みます。"
+            }
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "資料B"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "at8_sb_s1",
+                "en": "The organizations that use animals in their medical research in the UK must record the number of experiments they do on live animals every year. The graph below shows how many horses, dogs, cats, and monkeys are used in medical research.",
+                "ja": "イギリスで医学研究に動物を使用する機関は，毎年生きた動物に対して行った実験の回数を記録しなければならない。下のグラフは，医学研究に使用されるウマ，イヌ，ネコ，サルの数を示している。"
+              }
+            ]
+          ],
+          "graph_image": {
+            "src": "images/section08_source_b_graph.png",
+            "after_paragraph": 1,
+            "alt": "Number of Animals Used in Medical Research"
+          },
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 0,
+              "question_ids": [
+                "問5"
+              ],
+              "answer_numbers": [
+                45
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 39,
+          "points": 3,
+          "step": 1,
+          "question_text": {
+            "en": "Both Authors B and D mention that [39].",
+            "ja": "筆者BとDはともに [39] と言及している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "human medicines should be tested on humans because animals are not similar enough",
+              "ja": "動物は人間に十分似ていないので，人間用の薬は人間を対象に試験すべきだ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "nowadays we can verify the safety of new medicines without using animal testing",
+              "ja": "今日では動物実験を使わずに新薬の安全性を確認できる",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "pets and farm animals also benefit from the medical research relying on animal testing",
+              "ja": "ペットや家畜も，動物実験に依存する医学研究の恩恵を受けている",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "the animals used in medical testing are intentionally made sick by the researchers",
+              "ja": "医学試験に使われる動物は，研究者によって意図的に病気にされる",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。筆者Bは the animals are given diseases and then tested と述べ，筆者Dは healthy animals … infected with disease と述べており，いずれも「研究のために意図的に病気にされる」点で一致する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "at8_b_s2",
+              "at8_d_s1"
+            ],
+            "instructor_note": {
+              "ja": "「両者が言及していること」は，キーワードの丸暗記より，BとDの段落で“同じ出来事”として語られているかで探す。",
+              "points": [
+                "②の代替手段はDの先生の話であり，Bは触れていない。",
+                "③のペット・家畜の恩恵はBが反論している論点で，Dの主張ともズレる。",
+                "①の「人間で試せ」は両者とも述べていない。",
+                "given diseases / infected with disease と intentionally の対応を確認する。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 40,
+          "points": 3,
+          "step": 1,
+          "question_text": {
+            "en": "Author A implies that [40].",
+            "ja": "筆者Aは [40] と暗示している。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "he appreciates the chance to live that animals have given him",
+              "ja": "動物たちによって与えられた生きる機会に感謝している",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "he will dedicate his life to saving animals after he recovers",
+              "ja": "回復したら動物を救うことに一生を捧げるつもりだ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "only medicine that is tested on animals can save the lives of humans",
+              "ja": "動物実験された薬だけが人間の命を救える",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "people should not have negative images of animal testing anymore",
+              "ja": "もはや人々は動物実験に対する否定的イメージを持つべきではない",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。筆者Aは薬に deeply thankful と明言しており，動物の苦痛への悩みはあるが「命を救ってもらった感謝」が暗示の中心。②〜④は本文のトーンと合わない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "at8_a_s1"
+            ],
+            "instructor_note": {
+              "ja": "imply は「書いてあること」より「読み手が引き出せる態度・感情」を問う。感謝と葛藤の主従に注目する。",
+              "points": [
+                "deeply thankful と appreciate the chance to live が同じ感謝の軸で結べる。",
+                "③の only は断定が強すぎ，筆者は代替を支持しており「動物実験だけが救う」とは言い切っていない。",
+                "④は否定的イメージを捨てよという方向で，本文の troubled と逆になる誘答。",
+                "②は本文に根拠のない未来の決意なので除外しやすい。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "step": 2,
+          "points": 6,
+          "points_note": "［41］〜［43］はすべて正解で得点。［41］［42］は順不同。",
+          "pre_header": {
+            "en": "[Step 2] Take a position",
+            "ja": "［ステップ2］立場を決める"
+          },
+          "answer_numbers": [
+            41,
+            42,
+            43
+          ],
+          "unordered_slots": [
+            41,
+            42
+          ],
+          "stem": {
+            "en": "Now that you understand the various viewpoints, you have taken a position on medical testing on animals, and have written it out as below. Choose the best options to complete [41] — [43]. (You must have all of [41] — [43] correct to get points.)",
+            "ja": "さまざまな観点を理解したうえで，動物実験について自分の立場を決め，以下のように書いた。［41］から［43］を完成させるのに最も適当な選択肢を選びなさい。（得点するためには［41］から［43］のすべてに正解する必要がある。）"
+          },
+          "position_box": {
+            "en": "Your position: Testing medicine on animals is the right thing to do.\n  • Authors [41] and [42] support your position.\n  • The main argument of the two authors: [43]",
+            "ja": "あなたの立場：動物を使っての医薬品の実験は正しい行為である。\n  • 筆者 [41] と [42] はあなたの立場を支持する。\n  • この2人の筆者の主な論拠： [43]"
+          },
+          "choices_41": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": true
+            }
+          ],
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": true
+            }
+          ],
+          "choices_43": [
+            {
+              "label": "①",
+              "en": "Animals should only be used to find cures for diseases that affect people with healthy lifestyles.",
+              "ja": "動物は，健康的な生活習慣を持つ人に影響を及ぼす病気の治療法を見つけるためにのみ使われるべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "It is better to test medicines on small animals like rats because they may feel less pain than bigger animals.",
+              "ja": "大きな動物よりも感じる痛みが少ないかもしれないので，ラットのような小さな動物で医薬品の検査をする方がよい。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The number of lives that will be saved by animal testing is large enough to make testing acceptable.",
+              "ja": "動物実験によって救われる人命の数は，実験を容認するのに十分なくらい多い。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The number of medicines that can be made through animal testing is higher than if we only tested on humans.",
+              "ja": "動物実験を通して作ることができる薬の数は，人間だけで実験した場合よりも多い。",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "41": "③",
+            "42": "⑤",
+            "43": "③"
+          },
+          "answer_note": "［41］と［42］には C（③）と E（⑤）が順不同で入る。",
+          "explanation": {
+            "quoted_ja": "正解は［41］③／［42］⑤（順不同），［43］③。「動物を使っての医薬品の実験は正しい行為」と明確に支持するのは医師のCと研究室のE。［43］は両者に共通する「救われる人命の規模と動物の犠牲・苦痛の対比」が③に相当する。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "at8_c_s1",
+              "at8_c_s2",
+              "at8_e_s2"
+            ],
+            "instructor_note": {
+              "ja": "大問8の配点の山はここ。立場が問題文で固定されているので「賛成の声」を拾う作業に切り替える練習をさせると安定する。",
+              "points": [
+                "［41］［42］は C と E の順不同。同じ筆者を二枠に入れることは論理上ありえないので，A/B/D を早めに消す。",
+                "［43］は「二人の主な論拠」＝両段落に共通する“人命のスケールと犠牲のトレードオフ”が書かれているかで絞る。",
+                "④は薬の“種類の数”で，C の compensate / E の few … compared とは軸がずれやすい。",
+                "得点は［41］〜［43］の全正解が条件なので，43 だけ当たっても満点にならない点を事前に伝えるとミスが減る。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 44,
+          "points": 3,
+          "step": 3,
+          "question_text": {
+            "en": "Based on Source A, which of the following is the most appropriate for Reason 2? [44]",
+            "ja": "資料Aに基づき，理由2として最も適当なものは次のうちどれか。［44］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Experts in veterinary science are advising researchers to use animals to find new medicines for humans.",
+              "ja": "獣医学の専門家は，人間の新薬を見つけるために研究者に動物の使用を勧めている",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The government is encouraging animal testing by publishing guidelines for researchers to use.",
+              "ja": "政府は研究者が使う指針を公表することで動物実験を奨励している",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The laws surrounding the use of animals for medical research are likely to become stricter in the future.",
+              "ja": "医学研究における動物の使用をめぐる法律は，将来より厳しくなる可能性が高い",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "While it is unfortunate that some animals must die for research, there are rules in place to reduce their pain.",
+              "ja": "研究のために動物が死ななければならないのは不幸だが，その苦痛を減らす規則が施行されている",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。資料Aは厳格な規則・委員会・苦痛の最小化・点検を主線とし，最終文で動物の命の喪失は悲しい現実と認めつつ規制の意義に触れる。①②③は本文の主張とずれる。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "at8_sa_p1_s1",
+              "at8_sa_p1_s3",
+              "at8_sa_p2_s1"
+            ],
+            "instructor_note": {
+              "ja": "アウトライン上の Reason 2 は「規制・倫理の枠組み」を一言で要約するタイプ。専門家の役割を“勧める内容”まで膨らませない。",
+              "points": [
+                "①は委員会に獣医学者がいる事実の先取りで，「動物を使えと助言している」まで読むと過剰。",
+                "②の encourage は guidelines の趣旨（遵守・福祉）とニュアンスが逆向きになりやすい。",
+                "③の将来より厳格は本文に根拠がなく，時制の飛躍になりがち。",
+                "④は sad reality と rules / minimize suffering の往復を一枚に圧縮した選択肢。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 45,
+          "points": 3,
+          "step": 3,
+          "question_text": {
+            "en": "For Reason 3, you have decided to write, \"Researchers are using more caution in choosing whether or not to test medicines on certain animals.\" Based on Source B, which option best supports this statement? [45]",
+            "ja": "理由3として，あなたは『研究者は特定の動物で医薬品を試験するかどうかの選択に，より慎重になっている。』と書くことにした。資料Bに基づき，この意見を最もよくサポートする選択肢はどれか。［45］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "About half as many dogs and monkeys were used in research in 2022 compared with 20 years before. This shows a growing concern for the welfare of these animals.",
+              "ja": "2022年には，20年前に比べて約半数のイヌとサルが研究に使用された。これは，これらの動物の福祉に対する関心が高まっていることを示している。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Medical research using monkeys has dropped at nearly twice the rate of research involving dogs. This suggests that our relationship with dogs is being considered.",
+              "ja": "サルを使った医学研究は，イヌを使った研究の約2倍の割合で減少している。これは人間とイヌとの関係が考慮されていることを示唆している。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The number of cats and horses used for medical testing has remained fairly constant. These animals must have proven valuable to medical science.",
+              "ja": "医学実験に使われるネコとウマの数は，ほぼ一定に保たれている。これらの動物は医学にとって価値があったに違いない。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The use of dogs and monkeys sharply decreased during the period 2012-2022. More and more researchers have come to respond to the demand for animal welfare.",
+              "ja": "2012年から2022年の期間に，イヌとサルの使用は急激に減少した。動物愛護の要請に応える研究者がますます増えてきた。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。グラフ上で2002年と2022年を比べるとイヌ・サルはおおむね半減しており，特定動物の使用を抑える慎重さと福祉への関心を最もよく裏づける。②は減少率の比較が誤答，③はネコ・ウマの推移が一定ではない，④は2012–22の急落と言い切れない。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "at8_sb_s1"
+            ],
+            "instructor_note": {
+              "ja": "設問で与えられた英文の主語（Researchers … certain animals）に合わせ，イヌとサルに視点を固定して読むと迷いが減る。",
+              "points": [
+                "区間の“急激さ”より，2002 と 2022 の二点を結ぶイメージで①の約半分を確認する。",
+                "②は「約2倍」など比率の言い切りが数字の読み取りで崩れやすい典型誤答。",
+                "③はネコとウマが「ほぼ一定」と言いにくい形の年があると落とせる。",
+                "④は期間を 2012–2022 に狭めると，線の下り方が必ずしも sharply と言えない年が混ざりやすい。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "viewpoint",
+              "ja": "見解；観点"
+            },
+            {
+              "en": "outline",
+              "ja": "概要"
+            },
+            {
+              "en": "additional",
+              "ja": "追加の"
+            },
+            {
+              "en": "source",
+              "ja": "（研究・調査の）資料；出典"
+            },
+            {
+              "en": "suffering",
+              "ja": "苦痛"
+            },
+            {
+              "en": "innocent",
+              "ja": "罪のない；無実の"
+            },
+            {
+              "en": "state-of-the-art",
+              "ja": "最先端の"
+            },
+            {
+              "en": "companion animal",
+              "ja": "コンパニオンアニマル（ペット）"
+            },
+            {
+              "en": "immoral",
+              "ja": "道徳に反する"
+            },
+            {
+              "en": "compensate for ~",
+              "ja": "〜を補う"
+            },
+            {
+              "en": "sacrifice",
+              "ja": "犠牲"
+            },
+            {
+              "en": "subject",
+              "ja": "被験者；実験動物"
+            },
+            {
+              "en": "alternative",
+              "ja": "代替の；（名詞で）代替手段"
+            },
+            {
+              "en": "decent",
+              "ja": "適切な"
+            },
+            {
+              "en": "humane",
+              "ja": "思いやりのある；（不必要な）苦痛を与えない"
+            },
+            {
+              "en": "committee",
+              "ja": "委員会"
+            },
+            {
+              "en": "minimize",
+              "ja": "〜を最小限にする"
+            },
+            {
+              "en": "welfare",
+              "ja": "福祉"
+            },
+            {
+              "en": "regulation",
+              "ja": "規則"
+            }
+          ]
+        },
+        "questions_and_choices": {
+          "items": [
+            {
+              "en": "verify（問1②）",
+              "ja": "〜を検証する"
+            },
+            {
+              "en": "intentionally（問1④）",
+              "ja": "意図的に"
+            },
+            {
+              "en": "imply（問2）",
+              "ja": "〜を暗示する"
+            },
+            {
+              "en": "dedicate A to B（問2②）",
+              "ja": "AをBに捧げる"
+            },
+            {
+              "en": "cure（問3［43］①）",
+              "ja": "治療法"
+            },
+            {
+              "en": "unfortunate（問4④）",
+              "ja": "不幸な"
+            },
+            {
+              "en": "in place（問4④）",
+              "ja": "施行されて"
+            },
+            {
+              "en": "use caution（問5）",
+              "ja": "注意する"
+            },
+            {
+              "en": "concern（問5①）",
+              "ja": "関心；懸念"
+            },
+            {
+              "en": "constant（問5③）",
+              "ja": "一定の"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 7,
+      "title": "第7問",
+      "points": 14,
+      "points_per_question": 0,
+      "description": "長文読解（パーム油・持続可能性・RSPO）",
+      "situation": {
+        "en": "You are studying about world ecological problems. You are going to read the following article to understand what has happened with palm oil.",
+        "ja": "あなたは，世界の環境保護の問題について勉強しています。パーム油に関して何が起こっているのかを理解するために，次の記事を読もうとしています。"
+      },
+      "passages": [
+        {
+          "id": "palm_oil_article",
+          "framed": true,
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "pal_p1_s1",
+                "en": "Palm oil is used as an ingredient in nearly half the products you might buy from a supermarket.",
+                "ja": "パーム油は，あなたがスーパーマーケットで買いそうな製品の半分近くに材料として使われている。"
+              },
+              {
+                "id": "pal_p1_s2",
+                "en": "Not long ago, however, palm oil had a bad reputation.",
+                "ja": "しかし，わりと最近のことまでは，パーム油は評判が悪かった。"
+              },
+              {
+                "id": "pal_p1_s3",
+                "en": "Many tropical forests have been burned down to make space to grow oil palm trees, releasing carbon dioxide into the air and damaging the environment.",
+                "ja": "多くの熱帯林が，油ヤシの木を育てる場所を確保するために焼き払われ，それによって二酸化炭素が大気中に放出され，環境にダメージを与えている。"
+              },
+              {
+                "id": "pal_p1_s4",
+                "en": "Consequently, environmentalists began to consider palm oil production unethical and even encouraged people not to buy products made from it.",
+                "ja": "結果として，環境保護論者はパーム油の生産を非倫理的であると考え始め，人々にパーム油から作られた製品を買わないように働きかけさえした。"
+              },
+              {
+                "id": "pal_p1_s5",
+                "en": "Recently, however, recognizing the importance of palm oil for farmers around the world, they are instead focusing on helping them produce it in a more sustainable way.",
+                "ja": "しかし最近では，世界の農家にとってパーム油が重要であることを認識し，代わりに彼らがより持続可能な方法でパーム油を生産するのを助けることに重点を置いている。"
+              }
+            ],
+            [
+              {
+                "id": "pal_p2_s1",
+                "en": "The popularity of palm oil is due to its many properties and uses.",
+                "ja": "パーム油の人気は，その多くの特性と用途によるものである。"
+              },
+              {
+                "id": "pal_p2_s2",
+                "en": "It is almost solid at room temperature, for example, so it is a useful ingredient for margarine, mayonnaise, and other semi-solid spread foods.",
+                "ja": "例えば，パーム油は室温ではほぼ固体なので，マーガリンやマヨネーズなど，半固体の塗り広げる食品の材料として役に立つ。"
+              },
+              {
+                "id": "pal_p2_s3",
+                "en": "It also helps preserve food by slowing down the effects of spoiling.",
+                "ja": "また，腐敗の進行を遅らせることで食品の保存にも役立つ。"
+              },
+              {
+                "id": "pal_p2_s4",
+                "en": "For producers, palm oil is easier to grow than crops such as soybeans and coconut oil, and it requires fewer chemicals to protect the plants from insects.",
+                "ja": "生産者にとって，パーム油は大豆やココナッツ油などの作物より育てやすく，害虫から植物を守るための化学物質もより少なくてすむ。"
+              }
+            ],
+            [
+              {
+                "id": "pal_p3_s1",
+                "en": "Farmers produced more than 70 million tons of palm oil in 2018, with more than 60 million tons coming from Indonesia and Malaysia alone.",
+                "ja": "農家は2018年に7000万トンを超えるパーム油を生産しており，そのうち6000万トン超がインドネシアとマレーシアだけから来ている。"
+              },
+              {
+                "id": "pal_p3_s2",
+                "en": "Demand has grown steadily from the early 1990s, when thousands of acres of forests were burned to make space for new palm oil plantations, particularly in Indonesia.",
+                "ja": "需要は1990年代初めから着実に増えており，その頃には特にインドネシアで，新しいパーム油プランテーションのための場所を作るために何千エーカーもの森林が焼かれた。"
+              },
+              {
+                "id": "pal_p3_s3",
+                "en": "By 2006, Indonesia had become the world's largest producer, and currently manufactures twice as much palm oil as Malaysia.",
+                "ja": "2006年までにインドネシアは世界最大の生産国となり，現在ではマレーシアの2倍の量のパーム油を生産している。"
+              },
+              {
+                "id": "pal_p3_s4",
+                "en": "As the industry grew, it contributed significantly to global deforestation.",
+                "ja": "産業が成長するにつれ，それは地球規模の森林破壊に大きく寄与した。"
+              },
+              {
+                "id": "pal_p3_s5",
+                "en": "In response, a non-profit group called the Roundtable on Sustainable Palm Oil (RSPO), was set up in 2004 to certify palm oil products that are grown from ethical sources.",
+                "ja": "これに対し，倫理的な供給源から育てられたパーム油製品を認証するために，「持続可能なパーム油のための円卓会議」（RSPO）と呼ばれる非営利団体が2004年に設立された。"
+              },
+              {
+                "id": "pal_p3_s6",
+                "en": "It seeks to reduce the negative effects on the environment and communities.",
+                "ja": "それは環境と地域社会への悪影響を減らそうとしている。"
+              },
+              {
+                "id": "pal_p3_s7",
+                "en": "Their criteria for producers who want to be certified include minimal use of fire to clear land, fair treatment of workers, and proper consultation with local communities about land development.",
+                "ja": "認証を望む生産者に対するその評価基準には，土地を切り開く際の火の使用を必要最小限にすること，労働者への公正な待遇，土地開発について地域社会との適切な協議が含まれる。"
+              },
+              {
+                "id": "pal_p3_s8",
+                "en": "The RSPO reports that an increasing number of producers are committed to such sustainable practices.",
+                "ja": "RSPOは，そのような持続可能な慣行に取り組む生産者の数が増えていると報告している。"
+              },
+              {
+                "id": "pal_p3_s9",
+                "en": "Although certification is not a legal requirement, shoppers who want to support sustainable practices can now look for the RSPO symbol on palm-oil products.",
+                "ja": "認証は法的義務ではないが，持続可能な慣行を支持したい買い物客は今，パーム油製品にRSPOのマークを探すことができる。"
+              }
+            ],
+            [
+              {
+                "id": "pal_p4_s1",
+                "en": "Meanwhile, scientists at an environmental research organization, SMARTRI, are being paid to advise the oil palm industry on sustainable practices.",
+                "ja": "一方，環境調査団体SMARTRIの科学者たちは，持続可能な慣行についてパーム油産業に助言するために報酬を受け取っている。"
+              },
+              {
+                "id": "pal_p4_s2",
+                "en": "Scientists at SMARTRI believe that because palm oil is such an important crop, such partnerships are vital.",
+                "ja": "SMARTRIの科学者たちは，パーム油がこれほど重要な作物であるからこそ，そのようなパートナーシップは不可欠だと考えている。"
+              },
+              {
+                "id": "pal_p4_s3",
+                "en": "They point out that the Indonesian government's new laws to stop unethical practices of the past have not been successful because some forests and communities are still being destroyed by unethical companies.",
+                "ja": "彼らは，過去の非倫理的な慣行を止めるためのインドネシア政府の新しい法律は，非倫理的な企業によって森林や地域社会がいまだ破壊されているため，成功していないと指摘している。"
+              },
+              {
+                "id": "pal_p4_s4",
+                "en": "Critics who distrust the industry, however, suggest that the scientists' research is not independent.",
+                "ja": "しかし産業を信用しない批評家たちは，科学者の研究は独立していないと示唆している。"
+              },
+              {
+                "id": "pal_p4_s5",
+                "en": "They suspect that the companies' intentions are to pay the scientists to improve the industry's reputation while not changing their unethical practices.",
+                "ja": "彼らは，企業の意図は，非倫理的な慣行を変えずに，科学者に報酬を払って産業の評判を高めようとしているのではないかと疑っている。"
+              },
+              {
+                "id": "pal_p4_s6",
+                "en": "Others believe that any efforts to make the production of this important commodity more sustainable are worthwhile.",
+                "ja": "他の人々は，この重要な商品の生産をより持続可能にしようとする努力は，どれも価値があると考えている。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 34,
+          "points": 4,
+          "stem": {
+            "en": "According to environmentalists, the production of palm oil [ 34 ].",
+            "ja": "環境保護論者によると，パーム油の生産は［34］。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "created issues that are mostly ignored by consumers of palm oil products",
+              "ja": "問題を生み出したが，その大部分はパーム油製品の消費者から無視されている",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "may decrease in time, so it is better to focus on other issues",
+              "ja": "やがて減少するかもしれないので，他の問題に焦点を当てた方がよい",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "was affected by rumors started by other vegetable oil industries",
+              "ja": "他の植物油産業が流したうわさの影響を受けた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "will continue, so it is better to help make it more sustainable",
+              "ja": "今後も続くだろうから，より持続可能にするのを助ける方がよい",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。第１段落末尾に，農家にとっての重要性を認め，より持続可能な生産を助けることに焦点を移しているとある。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "pal_p1_s5"
+            ],
+            "instructor_note": {
+              "ja": "they are instead focusing on helping them produce it in a more sustainable way が核。",
+              "points": []
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 35,
+          "points": 4,
+          "stem": {
+            "en": "Out of the following four graphs, which illustrates the historical production of palm oil the best? [ 35 ]\n(Layout: top-left panel = ①, top-right = ②, bottom-left = ③, bottom-right = ④ — same as the circled numbers in each panel.)",
+            "ja": "次の４つのグラフのうち，歴史的なパーム油の生産の推移を最もよく表しているのはどれか。［35］\n（配置：左上のグラフが①，右上が②，左下が③，右下が④。各グラフ左上の丸数字も同じ対応です。）"
+          },
+          "figure_image": {
+            "src": "data/zkai/2026/round05/images/section07_q35_graph_choices.png",
+            "alt": "Palm oil production graphs ① to ④",
+            "caption_en": "① top left · ② top right · ③ bottom left · ④ bottom right",
+            "caption_ja": "解答の①〜④は、図の左上・右上・左下・右下の各パネルに対応します。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "正解は②。第３段落に，2018年の生産量，1990年代初めからの需要増，2006年までにインドネシアが最大産出国で現在マレーシアの2倍，など推移の手がかりがある。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "pal_p3_s1",
+              "pal_p3_s2",
+              "pal_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "図は左上が①・右上が②・左下が③・右下が④（各パネル左上の丸数字も同じ）。本文の数値と「交差」「2倍」を軸に照合する。",
+              "points": [
+                "第３段落の 2006 年までにインドネシアが最大，現在マレーシアの2倍，2018年の規模感が②の形と合う。",
+                "①のような高い出発・大きな落ち込みは本文と合わない。",
+                "③はインドネシアがマレーシアを追い越すのが遅すぎる。",
+                "④は2014前後の急ピークと下落が本文の説明と合いにくい。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            36,
+            37
+          ],
+          "unordered_slots": [
+            36,
+            37
+          ],
+          "points": 3,
+          "answer_note": "順不同・両スロット正解で満点",
+          "stem": {
+            "en": "According to the article, which two of the following tell us about the current situation in the palm oil industry? (Choose two options. The order does not matter.) [ 36 ] [ 37 ]",
+            "ja": "記事によると，次のうちどの２つがパーム油業界の現在の状況を述べているか。（２つの選択肢を選びなさい。順不同。）［36］［37］"
+          },
+          "choices_36": [
+            {
+              "label": "①",
+              "en": "Buyers have more options to choose sustainably-grown palm oil.",
+              "ja": "購入者には，持続可能な方法で栽培されたパーム油を選ぶより多くの選択肢がある。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Communities near the plantations are being given a share of the profits.",
+              "ja": "プランテーション近くの地域社会には利益の一部が配分されている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Consumers are becoming less willing to use palm oil products.",
+              "ja": "消費者はパーム油製品を使う意欲を失いつつある。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Governments have successfully stopped the burning of more forests.",
+              "ja": "政府は，これ以上の森林の焼き払いを食い止めることに成功した。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Some companies have hired expert advisors to improve their practices.",
+              "ja": "一部の企業は慣行を改善するために専門のアドバイザーを雇っている。",
+              "is_correct": true
+            }
+          ],
+          "choices_37": [
+            {
+              "label": "①",
+              "en": "Buyers have more options to choose sustainably-grown palm oil.",
+              "ja": "購入者には，持続可能な方法で栽培されたパーム油を選ぶより多くの選択肢がある。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Communities near the plantations are being given a share of the profits.",
+              "ja": "プランテーション近くの地域社会には利益の一部が配分されている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Consumers are becoming less willing to use palm oil products.",
+              "ja": "消費者はパーム油製品を使う意欲を失いつつある。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Governments have successfully stopped the burning of more forests.",
+              "ja": "政府は，これ以上の森林の焼き払いを食い止めることに成功した。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Some companies have hired expert advisors to improve their practices.",
+              "ja": "一部の企業は慣行を改善するために専門のアドバイザーを雇っている。",
+              "is_correct": true
+            }
+          ],
+          "answer": {
+            "36": "①",
+            "37": "⑤"
+          },
+          "explanation": {
+            "quoted_ja": "正解は①と⑤（順不同）。RSPOマークで持続可能な製品を選べること（第３段落後半），SMARTRIの科学者が産業に助言していること（第４段落冒頭）が根拠。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "pal_p3_s9",
+              "pal_p4_s1"
+            ],
+            "instructor_note": {
+              "ja": "④は政府の法律が成功していないと否定される。③は現在の方針と矛盾しやすい。",
+              "points": []
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 38,
+          "points": 3,
+          "stem": {
+            "en": "The best title for this article is [ 38 ].",
+            "ja": "この記事のタイトルとして最も適切なものは［38］である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "New Approaches to the Palm Oil Problem",
+              "ja": "パーム油の問題への新たなアプローチ",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Palm Oil is Not the Greenest Type of Oil",
+              "ja": "パーム油は最も環境にやさしい種類の油ではない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The Consequences of Our Use of Palm Oil",
+              "ja": "私たちがパーム油を使うことの帰結",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The Importance of Helping Farmers in Southeast Asia",
+              "ja": "東南アジアの農家を助けることの重要性",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。非倫理的生産への批判から，RSPOやSMARTRIによる持続可能性への取り組みへと焦点が移る流れが「問題への新たなアプローチ」に合う。",
+            "quoted_source": "Z会『2026年 共通テスト実戦模試 英語リーディング』第5回 解説冊子",
+            "evidence_sentences": [
+              "pal_p1_s4",
+              "pal_p1_s5",
+              "pal_p3_s5",
+              "pal_p4_s1"
+            ],
+            "instructor_note": {
+              "ja": "②は油種の比較，③は使用の帰結の予測，④は農家援助に限定され本文の焦点とずれる。",
+              "points": []
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語彙",
+          "items": [
+            {
+              "en": "ecological",
+              "ja": "生態学の；環境保護の"
+            },
+            {
+              "en": "palm oil",
+              "ja": "パーム油；ヤシ油"
+            },
+            {
+              "en": "reputation",
+              "ja": "評判"
+            },
+            {
+              "en": "burn down ~",
+              "ja": "～を焼き払う"
+            },
+            {
+              "en": "carbon dioxide",
+              "ja": "二酸化炭素"
+            },
+            {
+              "en": "consequently",
+              "ja": "結果として"
+            },
+            {
+              "en": "environmentalist",
+              "ja": "環境保護論者；環境問題専門家"
+            },
+            {
+              "en": "unethical",
+              "ja": "倫理的でない"
+            },
+            {
+              "en": "sustainable",
+              "ja": "持続可能な"
+            },
+            {
+              "en": "property",
+              "ja": "特性"
+            },
+            {
+              "en": "use",
+              "ja": "利用法"
+            },
+            {
+              "en": "solid",
+              "ja": "固体の"
+            },
+            {
+              "en": "spread food",
+              "ja": "塗り広げる食品"
+            },
+            {
+              "en": "preserve",
+              "ja": "～を保存する"
+            },
+            {
+              "en": "spoil",
+              "ja": "腐敗する"
+            },
+            {
+              "en": "crop",
+              "ja": "農作物"
+            },
+            {
+              "en": "soybean",
+              "ja": "大豆"
+            },
+            {
+              "en": "chemical",
+              "ja": "化学物質"
+            },
+            {
+              "en": "plantation",
+              "ja": "プランテーション；大農園"
+            },
+            {
+              "en": "contribute to ~",
+              "ja": "～の一因となる"
+            },
+            {
+              "en": "significantly",
+              "ja": "著しく；大いに"
+            },
+            {
+              "en": "deforestation",
+              "ja": "森林破壊"
+            },
+            {
+              "en": "set up ~",
+              "ja": "～を設立する"
+            },
+            {
+              "en": "certify",
+              "ja": "～を認証する"
+            },
+            {
+              "en": "ethical source",
+              "ja": "倫理的な供給源"
+            },
+            {
+              "en": "seek to do",
+              "ja": "…しようと努める"
+            },
+            {
+              "en": "reduce",
+              "ja": "～を減らす"
+            },
+            {
+              "en": "criteria",
+              "ja": "評価基準"
+            },
+            {
+              "en": "minimal",
+              "ja": "最小限の"
+            },
+            {
+              "en": "clear land",
+              "ja": "土地を切り開く"
+            },
+            {
+              "en": "fair treatment",
+              "ja": "公正な待遇"
+            },
+            {
+              "en": "sustainable practice",
+              "ja": "持続可能な慣行"
+            },
+            {
+              "en": "vital",
+              "ja": "極めて重要な；不可欠な"
+            },
+            {
+              "en": "critic",
+              "ja": "批判的な人"
+            },
+            {
+              "en": "independent",
+              "ja": "独立した"
+            },
+            {
+              "en": "suspect that ...",
+              "ja": "…ではないかと疑う"
+            },
+            {
+              "en": "intention",
+              "ja": "意図"
+            },
+            {
+              "en": "commodity",
+              "ja": "商品；必需品"
+            },
+            {
+              "en": "worthwhile",
+              "ja": "価値のある；無駄ではない"
+            },
+            {
+              "en": "consumer",
+              "ja": "消費者",
+              "note": "問1 ①"
+            },
+            {
+              "en": "share",
+              "ja": "分配；分け前",
+              "note": "問3 ②"
+            },
+            {
+              "en": "profit",
+              "ja": "利益",
+              "note": "問3 ②"
+            },
+            {
+              "en": "green",
+              "ja": "環境にやさしい",
+              "note": "問4 ②"
+            },
+            {
+              "en": "consequences",
+              "ja": "（しばしば複数形で）結果；帰結",
+              "note": "問4 ③"
             }
           ]
         }

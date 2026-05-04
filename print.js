@@ -7,6 +7,8 @@
  */
 
 const EXAM_PATHS = {
+  kyotsu_2025_honshiken: 'data/kyotsu/2025/honshiken/data.json',
+  kyotsu_2025_tsuishiken: 'data/kyotsu/2025/tsuishiken/data.json',
   zkai_2026_01: 'data/zkai/2026/round01/data.json',
   zkai_2026_02: 'data/zkai/2026/round02/data.json',
   zkai_2026_03: 'data/zkai/2026/round03/data.json',
@@ -584,6 +586,56 @@ function renderPassagePage(sec, dataPath) {
           html += '<div>' + slot.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') + '</div>';
         }
         html += '</div>';
+      }
+      html += '</div>';
+
+    } else if (passage.pamphlet_layout && passage.paragraphs) {
+      const imgBase = dataPath.replace(/data\.json$/, '');
+      html +=
+        '<div class="print-passage" style="border:1px solid #222;padding:16px 18px;font-family:Times New Roman,Times,serif;">';
+      if (passage.title) {
+        html += '<div class="print-passage-title" style="text-align:center;">' + passage.title.en + '</div>';
+      }
+      if (passage.subtitle && passage.subtitle.en) {
+        html +=
+          '<div style="text-align:center;color:#555;font-weight:600;font-size:0.95rem;margin-bottom:12px;">' +
+          passage.subtitle.en +
+          '</div>';
+      }
+      for (let pi = 0; pi < passage.paragraphs.length; pi++) {
+        const para = passage.paragraphs[pi];
+        if (pi >= 1) {
+          html += '<hr style="border:none;border-top:1px solid #1a1a1a;margin:12px 0;" />';
+        }
+        const phHead = Array.isArray(para) ? para.find(s => s.role === 'pamphlet_heading') : null;
+        const phRest = phHead ? para.filter(s => s !== phHead) : para;
+        if (phHead) {
+          html += '<p style="font-weight:700;margin:0 0 6px 0;">' + phHead.en + '</p>';
+        }
+        html += '<div style="overflow:auto;">';
+        if (passage.images) {
+          for (const img of passage.images) {
+            if (img.paragraph_index === pi) {
+              const raw = img.src || '';
+              const src =
+                raw.startsWith('data/') || raw.startsWith('http') ? raw : imgBase + raw;
+              const mw = img.max_width ? Math.min(img.max_width, 220) : 200;
+              html +=
+                '<img src="' +
+                src +
+                '" alt="" style="float:right;max-width:' +
+                mw +
+                'px;margin:0 0 8px 12px;" />';
+            }
+          }
+        }
+        html += '<p class="print-paragraph" style="text-align:left;margin-top:0;">';
+        for (const sent of phRest) {
+          let t = sent.en;
+          t = t.replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>');
+          html += t + ' ';
+        }
+        html += '</p><div style="clear:both;"></div></div>';
       }
       html += '</div>';
 

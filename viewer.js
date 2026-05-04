@@ -5,6 +5,8 @@
 
 // ===== レジストリ（app.jsと共通） =====
 const EXAM_PATHS = {
+  kyotsu_2025_honshiken: 'data/kyotsu/2025/honshiken/data.json',
+  kyotsu_2025_tsuishiken: 'data/kyotsu/2025/tsuishiken/data.json',
   zkai_2026_01: 'data/zkai/2026/round01/data.json',
   zkai_2026_02: 'data/zkai/2026/round02/data.json',
   zkai_2026_03: 'data/zkai/2026/round03/data.json',
@@ -153,7 +155,11 @@ function renderPassage() {
   }
 
   // Passages — grouped in one bordered container like the original exam
-  html += '<div class="passage-container">';
+  const passageContainerExtra =
+    sec.passage_ui && sec.passage_ui.outer_container_border === false
+      ? ' passage-container--no-outer-border'
+      : '';
+  html += `<div class="passage-container${passageContainerExtra}">`;
 
   const passages = sec.passages;
   for (let i = 0; i < passages.length; i++) {
@@ -193,10 +199,41 @@ function renderPassage() {
     // Section within the passage box
     const hasPortrait = passage.portrait_image ? ' has-portrait' : '';
     const framedCls = passage.framed ? ' passage-section--framed' : '';
-    html += `<div class="passage-section${isHeader ? ' passage-section--header' : ''}${hasPortrait}${framedCls}">`;
+    const pamphletCls = passage.pamphlet_layout ? ' passage-section--pamphlet' : '';
+    const floatWrapCls =
+      passage.image && passage.image.placement === 'before_subtitle'
+        ? ' passage-section--float-wrap'
+        : '';
+    html += `<div class="passage-section${isHeader ? ' passage-section--header' : ''}${hasPortrait}${framedCls}${floatWrapCls}${pamphletCls}">`;
 
     if (passage.title && !(passage.margin_comments && passage.margin_comments.length > 0)) {
-      html += `<div class="passage-title">${passage.title.en}</div>`;
+      const titlePamphletCls = passage.pamphlet_layout ? ' passage-title--pamphlet-main' : '';
+      if (passage.title.ja) {
+        const tid = passage.title.id || `__title_${passage.id || 'p'}`;
+        html += `<div class="passage-title${titlePamphletCls}"><span class="sentence" data-sid="${tid}">${passage.title.en}</span></div>`;
+        html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${tid}">${passage.title.ja}</div></div>`;
+      } else {
+        html += `<div class="passage-title${titlePamphletCls}">${passage.title.en}</div>`;
+      }
+    }
+
+    // 見出し直後に画像（記事ヘッダ横のイラスト：追試験 大問2 など）
+    if (passage.image && passage.image.placement === 'before_subtitle') {
+      const imgBaseEarly = currentDataPath.replace(/data\.json$/, '');
+      const rawEarly = passage.image.src || '';
+      const imgSrcEarly = /^https?:\/\//.test(rawEarly)
+        ? rawEarly
+        : rawEarly.startsWith('data/')
+          ? rawEarly
+          : imgBaseEarly + rawEarly;
+      const layoutFullEarly =
+        passage.image.layout === 'full' || passage.image.float === 'none' || passage.image.float === 'block';
+      const floatClassEarly = layoutFullEarly
+        ? 'passage-img--full'
+        : passage.image.float === 'left'
+          ? 'passage-img--left'
+          : 'passage-img--right';
+      html += `<img class="passage-img ${floatClassEarly}" src="${imgSrcEarly}" alt="${passage.image.alt || ''}">`;
     }
 
     // ロゴ＋導入枠（第5回 第1問 YCW など）— 見出しより先に置く
@@ -224,21 +261,42 @@ function renderPassage() {
     }
 
     if (passage.subtitle) {
-      const subCenter = passage.subtitle.align === 'center' ? ' passage-subtitle--center' : '';
+      let subAlign = '';
+      if (passage.subtitle.align === 'center') subAlign = ' passage-subtitle--center';
+      else if (passage.subtitle.align === 'left') subAlign = ' passage-subtitle--left';
+      else if (passage.subtitle.align === 'right') subAlign = ' passage-subtitle--right';
+      const subPamphlet = passage.pamphlet_layout ? ' passage-subtitle--pamphlet' : '';
       if (passage.subtitle.ja) {
         const sidSub = passage.subtitle.id || `__sub_${passage.id || 'p'}`;
-        html += `<div class="passage-subtitle${subCenter}"><span class="sentence" data-sid="${sidSub}">${passage.subtitle.en}</span></div>`;
+        html += `<div class="passage-subtitle${subAlign}${subPamphlet}"><span class="sentence" data-sid="${sidSub}">${passage.subtitle.en}</span></div>`;
         html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${sidSub}">${passage.subtitle.ja}</div></div>`;
       } else {
-        html += `<div class="passage-subtitle${subCenter}">${passage.subtitle.en}</div>`;
+        html += `<div class="passage-subtitle${subAlign}${subPamphlet}">${passage.subtitle.en}</div>`;
       }
     }
 
-    // Image (float right/left like original exam)
-    if (passage.image) {
-      const floatClass = passage.image.float === 'left' ? 'passage-img--left' : 'passage-img--right';
-      html += `<img class="passage-img ${floatClass}" src="${passage.image.src}" alt="${passage.image.alt || ''}">`;
+    // Image (float right/left like original exam, or full-width flyer scan)
+    if (passage.image && passage.image.placement !== 'before_subtitle') {
+      const imgBase = currentDataPath.replace(/data\.json$/, '');
+      const rawSrc = passage.image.src || '';
+      const imgSrc = /^https?:\/\//.test(rawSrc)
+        ? rawSrc
+        : rawSrc.startsWith('data/')
+          ? rawSrc
+          : imgBase + rawSrc;
+      const layoutFull = passage.image.layout === 'full' || passage.image.float === 'none' || passage.image.float === 'block';
+      const floatClass = layoutFull
+        ? 'passage-img--full'
+        : passage.image.float === 'left'
+          ? 'passage-img--left'
+          : 'passage-img--right';
+      html += `<img class="passage-img ${floatClass}" src="${imgSrc}" alt="${passage.image.alt || ''}">`;
     }
+    // Flyer layout (e.g. 2025年追試験 第1問: 文房具店チラシ)
+    if (passage.is_flyer && passage.flyer) {
+      html += renderFlyer(passage);
+    }
+
     // Portrait image with caption (float, 大問7)
     if (passage.portrait_image) {
       const imgBase = currentDataPath.replace(/data\.json$/, '');
@@ -302,8 +360,9 @@ function renderPassage() {
       html += '</div>';
     }
 
-    // Sentences rendering
-    if (passage.sentences) {
+    // Sentences rendering — skip when a custom layout (e.g. is_flyer) already
+    // consumed the sentences pool to avoid dumping a duplicate wall of text.
+    if (passage.sentences && !passage.is_flyer) {
       const audioFile = `${audioBase}s${secNum}_${passage.id}.mp3`;
 
       if (passage.advertisement_sections) {
@@ -885,9 +944,21 @@ function renderPassage() {
             // Render sentence text with optional underline word
             let sentText = sent.en;
             if (sent.underline_word) {
-              const markerHtml = (sent.comment_marker && sent.marker_position !== 'after')
-                ? '<sup class="comment-marker">' + sent.comment_marker + '</sup>'
-                : '';
+              const fullUnderline =
+                String(sent.en || '').trim() === String(sent.underline_word || '').trim();
+              const uw = String(sent.underline_word || '');
+              const avoidDupMarker =
+                uw.startsWith('(') &&
+                String(sent.en || '').includes(uw) &&
+                sent.comment_marker &&
+                uw.startsWith(String(sent.comment_marker));
+              const markerHtml =
+                sent.comment_marker &&
+                sent.marker_position !== 'after' &&
+                !fullUnderline &&
+                !avoidDupMarker
+                  ? '<sup class="comment-marker">' + sent.comment_marker + '</sup>'
+                  : '';
               sentText = sentText.replace(sent.underline_word, markerHtml + '<span class="underline-word">' + sent.underline_word + '</span>');
             }
             sentText = String(sentText).replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
@@ -1016,6 +1087,10 @@ function renderPassage() {
           // Handled below after the loop
         } else {
           // Normal paragraph rendering (no blocks)
+          if (passage.pamphlet_layout && pi >= 1) {
+            html += '<hr class="pamphlet-step-rule" />';
+            html += '<div class="pamphlet-step-wrap">';
+          }
           html += '<div class="para-audio-row">';
           html += '<div class="para-content">';
           // Insert passage images that target this paragraph
@@ -1088,14 +1163,27 @@ function renderPassage() {
               }
               html += '</div>';
             } else {
+              const phHead =
+                passage.pamphlet_layout && Array.isArray(para)
+                  ? para.find(s => s.role === 'pamphlet_heading')
+                  : null;
+              const phRest = phHead ? para.filter(s => s !== phHead) : para;
+              if (phHead) {
+                const hEn = String(phHead.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                html += `<div class="pamphlet-step-head"><strong><span class="sentence" data-sid="${phHead.id}">${hEn}</span></strong></div>`;
+              }
               html += `<p class="passage-paragraph${paraExtraClass}">`;
-              for (const sent of para) {
+              for (const sent of phRest) {
                 const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
                 html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
               }
               html += '</p>';
               html += '<div class="passage-ja-block">';
-              for (const sent of para) {
+              if (phHead) {
+                const hJa = String(phHead.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                html += `<div class="sentence-ja" data-sid-ja="${phHead.id}">${hJa}</div>`;
+              }
+              for (const sent of phRest) {
                 const jaText = String(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
                 html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${jaText}</div>`;
               }
@@ -1105,6 +1193,9 @@ function renderPassage() {
           html += '</div>';
           html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
           html += '</div>';
+          if (passage.pamphlet_layout && pi >= 1) {
+            html += '</div>'; // .pamphlet-step-wrap
+          }
         }
 
         // Graph image after specified paragraph (1-indexed)
@@ -1315,6 +1406,15 @@ function renderPassage() {
 
     // ===== Questionnaire rendering =====
     if (passage.id === 'questionnaire') {
+      if (passage.survey_title) {
+        const st = passage.survey_title;
+        if (st.en) {
+          html += `<div class="questionnaire-survey-title">${st.en}</div>`;
+        }
+        if (st.ja) {
+          html += `<div class="passage-ja-block questionnaire-survey-title-ja"><div class="sentence-ja">${st.ja}</div></div>`;
+        }
+      }
       // Q1 title
       if (passage.q1_title) {
         html += `<div class="questionnaire-q-title">${passage.q1_title.en}</div>`;
@@ -1368,7 +1468,18 @@ function renderPassage() {
       if (passage.sections_content) {
         for (const sec of passage.sections_content) {
           html += `<div class="handout-section">`;
-          html += `<div class="handout-heading">■ ${sec.heading.en}</div>`;
+          const headEn = String(sec.heading.en || '').replace(
+            /\[(\d+)\]/g,
+            '<span class="answer-slot">$1</span>'
+          );
+          html += `<div class="handout-heading">■ ${headEn}</div>`;
+          if (sec.heading.ja) {
+            const headJa = String(sec.heading.ja).replace(
+              /［(\d+)］/g,
+              '<span class="answer-slot">$1</span>'
+            );
+            html += `<div class="choice-text-ja handout-heading-ja">${headJa}</div>`;
+          }
           if (sec.items) {
             for (const item of sec.items) {
               const itemEn = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
@@ -1379,7 +1490,7 @@ function renderPassage() {
             for (const sub of sec.sub_items) {
               html += `<div class="handout-sub-item">`;
               html += `<div class="handout-sub-label">－ ${sub.label.en}</div>`;
-              if (sub.content) {
+              if (sub.content && sub.content.en != null && String(sub.content.en).trim() !== '') {
                 const contentEn = sub.content.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
                 html += `<div class="handout-sub-content">${contentEn}</div>`;
               }
@@ -1724,6 +1835,100 @@ function renderPassage() {
 
   // Bind step navigation cue clicks
   setupStepNavCues();
+}
+
+// ===== Flyer Layout Renderer (2025年追試験 第1問: 文房具店チラシ) =====
+function renderFlyer(passage) {
+  const sentMap = {};
+  for (const s of (passage.sentences || [])) sentMap[s.id] = s;
+  const imgBase = currentDataPath.replace(/data\.json$/, '');
+  const resolveSrc = (src) => /^https?:\/\//.test(src) || src.startsWith('data/') ? src : imgBase + src;
+
+  const sentEN = (sid) => {
+    const s = sentMap[sid];
+    return s ? `<span class="sentence" data-sid="${s.id}">${s.en || ''}</span>` : '';
+  };
+  const sentJA = (sid) => {
+    const s = sentMap[sid];
+    return s ? `<div class="sentence-ja" data-sid-ja="${s.id}">${s.ja || ''}</div>` : '';
+  };
+  const sentLine = (sid) => `<div class="flyer-line">${sentEN(sid)}${sentJA(sid)}</div>`;
+
+  const f = passage.flyer;
+  let h = '<div class="flyer-frame">';
+
+  // Top section: header (badge / logo / special-gift)
+  h += '<div class="flyer-top">';
+
+  // Header row with three columns
+  h += '<div class="flyer-header-row">';
+  // Badge (Celebrating 50 years!)
+  if (f.header && f.header.badge_image) {
+    h += `<div class="flyer-badge"><img src="${resolveSrc(f.header.badge_image)}" alt="Celebrating 50 years!"></div>`;
+  }
+  // Center logo (Stationery Supplies / Arigato / Established 1975)
+  if (f.header && f.header.logo_image) {
+    h += `<div class="flyer-logo"><img src="${resolveSrc(f.header.logo_image)}" alt="Arigato"></div>`;
+  }
+  // Special Gift dashed box
+  if (f.header && f.header.special_gift) {
+    const sg = f.header.special_gift;
+    h += '<div class="flyer-special-gift">';
+    h += '<div class="flyer-sg-title">Special Gift</div>';
+    for (const sid of sg.line_ids || []) h += sentLine(sid);
+    h += '</div>';
+  }
+  h += '</div>'; // .flyer-header-row
+
+  // Store info (centered lines under header)
+  if (f.header && Array.isArray(f.header.store_info_ids)) {
+    h += '<div class="flyer-store-info">';
+    for (const sid of f.header.store_info_ids) h += sentLine(sid);
+    h += '</div>';
+  }
+
+  h += '</div>'; // .flyer-top
+
+  // Monthly specials banner
+  if (f.specials_banner) {
+    h += '<div class="flyer-specials-banner">';
+    if (f.specials_banner.title_id) {
+      h += `<div class="flyer-specials-title">${sentEN(f.specials_banner.title_id)}</div>`;
+      h += sentJA(f.specials_banner.title_id);
+    }
+    if (f.specials_banner.subtitle_id) {
+      h += `<div class="flyer-specials-subtitle">**${sentEN(f.specials_banner.subtitle_id)}**</div>`;
+      h += sentJA(f.specials_banner.subtitle_id);
+    }
+    h += '</div>';
+  }
+
+  // Product table
+  if (Array.isArray(f.products) && f.products.length) {
+    h += '<table class="flyer-products"><tbody>';
+    for (const p of f.products) {
+      h += '<tr class="flyer-product-row">';
+      h += '<td class="flyer-product-illus">';
+      if (p.price) h += `<div class="flyer-product-price">${p.price}</div>`;
+      if (p.image) h += `<img src="${resolveSrc(p.image)}" alt="${p.name_id || ''}">`;
+      if (p.name_id) {
+        h += `<div class="flyer-product-name">${sentEN(p.name_id)}</div>`;
+        h += sentJA(p.name_id);
+      }
+      h += '</td>';
+      h += '<td class="flyer-product-desc">';
+      if (p.desc_id) {
+        h += sentEN(p.desc_id);
+        h += sentJA(p.desc_id);
+      }
+      h += '</td>';
+      h += '</tr>';
+    }
+    h += '</tbody></table>';
+  }
+
+  h += '</div>'; // .flyer-frame
+  return h;
 }
 
 // ===== Step Navigation Cue (scroll to questions in right pane) =====
@@ -2129,27 +2334,32 @@ function renderQuestions() {
     if (stemObj && stemObj.sentences && stemObj.sentences.length) {
       html += '<div class="question-stem">';
       for (const s of stemObj.sentences) {
-        const enLine = String(s.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+        const enLine = String(s.en || '').replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
         html += `<span class="sentence" data-sid="${s.id}">${enLine}</span> `;
       }
       html += '</div>';
       html += '<div class="passage-ja-block question-stem-ja">';
       for (const s of stemObj.sentences) {
-        const jaLine = String(s.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+        const jaLine = String(s.ja || '')
+          .replace(/［\s*(\d+)\s*］/g, '<span class="answer-slot">$1</span>')
+          .replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
         html += `<div class="sentence-ja" data-sid-ja="${s.id}">${jaLine}</div>`;
       }
       html += '</div>';
     } else if (stemObj && stemObj.en) {
-      const stemEn = stemObj.en.replace(
-        /\[(\d+)\]/g,
-        '<span class="answer-slot">$1</span>'
-      );
+      const stemEn = String(stemObj.en || '')
+        .replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>')
+        .replace(/\n/g, '<br>');
       html += `<div class="question-stem">${stemEn}</div>`;
     }
 
     // Stem ja (hidden by default) — single-block stems only
     if (stemObj && stemObj.ja && !(stemObj.sentences && stemObj.sentences.length)) {
-      html += `<div class="choice-text-ja" style="margin-bottom:10px; margin-top:-8px;">${stemObj.ja}</div>`;
+      const stemJa = String(stemObj.ja || '')
+        .replace(/［\s*(\d+)\s*］/g, '<span class="answer-slot">$1</span>')
+        .replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>')
+        .replace(/\n/g, '<br>');
+      html += `<div class="choice-text-ja" style="margin-bottom:10px; margin-top:-8px;">${stemJa}</div>`;
     }
 
     // Letter-keyed definitions (e.g. A–F listed before 「組み合わせ」選択肢)
@@ -2175,10 +2385,13 @@ function renderQuestions() {
     // Question-level figure (e.g. four-panel picture choices for problem 3)
     const qFig = q.figure_image || q.choice_grid_image;
     if (qFig && qFig.src) {
-      const cap =
-        qFig.caption_ja && String(qFig.caption_ja).trim()
-          ? `<div class="question-figure-caption">${qFig.caption_ja}</div>`
-          : '';
+      let cap = '';
+      if (qFig.caption_en && String(qFig.caption_en).trim()) {
+        cap += `<div class="question-figure-caption question-figure-caption-en">${qFig.caption_en}</div>`;
+      }
+      if (qFig.caption_ja && String(qFig.caption_ja).trim()) {
+        cap += `<div class="question-figure-caption choice-text-ja">${qFig.caption_ja}</div>`;
+      }
       html += `<figure class="question-figure">
         <img src="${qFig.src}" alt="${qFig.alt || ''}" />
         ${cap}

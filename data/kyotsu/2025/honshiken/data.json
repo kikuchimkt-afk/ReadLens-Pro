@@ -1,0 +1,1495 @@
+{
+  "exam_info": {
+    "title": "共通テスト 2025年度 本試験",
+    "publisher": "大学入試センター",
+    "year": 2025,
+    "round": "本試験",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 44,
+    "implemented_sections": [
+      1,
+      8
+    ],
+    "section_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "source_pdf_mondai": "_2025年度本試験_問題.pdf",
+    "source_pdf_kaitou": "_2025年度本試験_解説.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（パンフレット）",
+      "passage_ui": {
+        "outer_container_border": false
+      },
+      "situation": {
+        "en": "Your host family in the US is planning to buy a small aquarium. You found this helpful pamphlet.",
+        "ja": "米国にいるあなたのホストファミリーは，小さな水槽を購入するつもりです。あなたはこのような役に立つパンフレットを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "aquarium_pamphlet",
+          "framed": true,
+          "no_divider": true,
+          "pamphlet_layout": true,
+          "title": {
+            "id": "hs1_title",
+            "en": "Beginners!",
+            "ja": "初心者の皆さん！"
+          },
+          "subtitle": {
+            "id": "hs1_subtitle",
+            "align": "center",
+            "en": "Decorate Your Freshwater Aquarium",
+            "ja": "あなたの淡水水槽を装飾しましょう"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "hs1_p0_s1",
+                "en": "Start your wonderful hobby of keeping fish by following these three easy steps!",
+                "ja": "以下の 3 つの簡単なステップに従って，魚を飼育する素晴らしい趣味を始めてください！"
+              }
+            ],
+            [
+              {
+                "id": "hs1_p1_h",
+                "role": "pamphlet_heading",
+                "en": "1. Consider what kind of fish you want",
+                "ja": "１．飼いたい魚の種類を考える"
+              },
+              {
+                "id": "hs1_p1_s1",
+                "en": "Some fish need open spaces for swimming, while others want places to hide.",
+                "ja": "泳ぐのに広い空間を必要とする魚もいれば，隠れ場所を必要とする魚もいます。"
+              },
+              {
+                "id": "hs1_p1_s2",
+                "en": "Also, some fish need sand to cover themselves in.",
+                "ja": "また，自分を覆い隠すのに砂を必要とする魚もいます。"
+              },
+              {
+                "id": "hs1_p1_s3",
+                "en": "For other non-hiding fish, small stones can be used.",
+                "ja": "隠れない［退避行動をしない］他の魚には，小石を使うことができます。"
+              }
+            ],
+            [
+              {
+                "id": "hs1_p2_h",
+                "role": "pamphlet_heading",
+                "en": "2. Select decorations",
+                "ja": "２．装飾物を選ぶ"
+              },
+              {
+                "id": "hs1_p2_s1",
+                "en": "Natural and artificial decorations are necessary to keep fish in good health and should cover 50-70% of the area.",
+                "ja": "天然の装飾物と人工の装飾物は，魚を健康に保つために必要であり，水槽の面積の 50〜70 パーセントを覆うべきです。"
+              },
+              {
+                "id": "hs1_p2_s2",
+                "en": "Fish from fast-moving or deep water need solid objects such as small rocks and logs.",
+                "ja": "流れの速い水や深い水に住む魚は，小さな岩や流木のような硬いものを必要とします。"
+              },
+              {
+                "id": "hs1_p2_s3",
+                "en": "Those from slow-moving or shallow water prefer soft objects like plants.",
+                "ja": "流れの遅い水や浅い水に住む魚は，水草のような柔らかいものを好みます。"
+              },
+              {
+                "id": "hs1_p2_s4",
+                "en": "Avoid any plastic or rubber items not intended for aquariums.",
+                "ja": "水槽用として意図されていないプラスチックやゴム製の品は避けましょう。"
+              },
+              {
+                "id": "hs1_p2_s5",
+                "en": "Clean all decorations carefully to make sure there is nothing harmful on them.",
+                "ja": "有害なものが付着していないことを確実にするために，すべての装飾物を注意深く洗いましょう。"
+              }
+            ],
+            [
+              {
+                "id": "hs1_p3_h",
+                "role": "pamphlet_heading",
+                "en": "3. Position decorations",
+                "ja": "３．装飾物を配置する"
+              },
+              {
+                "id": "hs1_p3_s1",
+                "en": "Fish need room to move.",
+                "ja": "魚は動き回るための空間を必要とします。"
+              },
+              {
+                "id": "hs1_p3_s2",
+                "en": "Leave space around the edges of the tank.",
+                "ja": "水槽の周縁部にスペースを残しておきましょう。"
+              },
+              {
+                "id": "hs1_p3_s3",
+                "en": "Place tall decorations and plants at the back, and put short ones at the front.",
+                "ja": "背の高い装飾物や植物は後部に配置し，背の低いものは前部に置きましょう。"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "paragraph_index": 1,
+              "src": "data/kyotsu/2025/honshiken/images/q01_step1_fish_substrate.png",
+              "alt": "Fish and substrate types (sand and small stones)",
+              "position": "float-right",
+              "max_width": 220
+            },
+            {
+              "paragraph_index": 2,
+              "src": "data/kyotsu/2025/honshiken/images/q01_step2_natural_artificial.png",
+              "alt": "Natural and artificial aquarium decorations",
+              "position": "float-right",
+              "max_width": 220
+            },
+            {
+              "paragraph_index": 3,
+              "src": "data/kyotsu/2025/honshiken/images/q01_step3_position_tank.png",
+              "alt": "Aquarium with rock, castle, and plants arranged toward the back",
+              "position": "float-right",
+              "max_width": 220
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "The customers most likely to benefit from this pamphlet are [ 1 ].",
+            "ja": "このパンフレットが役に立つ可能性が最も高い客は［1］である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "aquarium lovers who are looking for discount prices",
+              "ja": "値引きを期待している水槽愛好家",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "experienced fish lovers who need specialized advice",
+              "ja": "専門的な助言を必要とする経験豊かな魚愛好家",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "fish fans who want different methods of feeding their fish",
+              "ja": "魚が好きで，さまざまな飼い方を知りたい人",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "newcomers who need to be informed about their aquarium",
+              "ja": "自分の水槽についての情報を必要とする初心者",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "見出しが Beginners! であり，初心者向けであることがわかる。②は経験者向けの専門的助言としては不適切。①は価格に関する記述がない。③はパンフレットはデコレーションが主題であり，魚の飼い方一般（餌やりに限らず）には触れていない。よって④。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs1_p0_s1"
+            ],
+            "instructor_note": {
+              "ja": "パンフレットの目的・対象読者をタイトルと導入から読み取る問題です。",
+              "points": [
+                "Beginners! と three easy steps が「初心者向けの手引き」であることを示す。",
+                "discount・飼い方・expert といった誘惑肢は本文の焦点と合わない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "When arranging decorations to keep your fish in good health, it is a good idea to [ 2 ].",
+            "ja": "魚の健康を保つために装飾物を配置する際には，［2］のが妙案である。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "avoid using solid and soft objects",
+              "ja": "硬い物や柔らかい物の使用を避ける",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "provide the right amount of open space",
+              "ja": "適切な量の空きスペースを確保する",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "reuse your old toothbrush as a decoration",
+              "ja": "古い歯ブラシを装飾として再利用する",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "wash decorations briefly and roughly",
+              "ja": "装飾品を短時間で大雑把に洗う",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "ステップ1に Some fish need open spaces for swimming とあり，ステップ3に Fish need room to move. Leave space around the edges of the tank. とある。装飾は面積の 50〜70% を覆うが，それ以外もオープンスペースとして確保する必要がある。よって②。①は魚の種類に応じて固体・軟体を使い分けるとある。③は水槽用でない物品として不適。④は carefully と矛盾。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs1_p1_s1",
+              "hs1_p2_s1",
+              "hs1_p3_s1",
+              "hs1_p3_s2"
+            ],
+            "instructor_note": {
+              "ja": "「泳ぐスペース」「縁の余白」「装飾の占有率」を総合して読む問題です。",
+              "points": [
+                "open spaces / room to move / leave space が②に収束する。",
+                "Avoid plastic... は③の誘惑に対する根拠。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "sentences": [
+              {
+                "id": "hs1_q3",
+                "en": "According to the pamphlet, which picture best shows how to decorate for fish from slow-moving water? [ 3 ]",
+                "ja": "このパンフレットによれば，流れの遅い水の中にいた魚のための装飾法を示すものとして最も適切な絵はどれか。［3］"
+              }
+            ]
+          },
+          "figure_image": {
+            "src": "data/kyotsu/2025/honshiken/images/q01_q3_tank_options.png",
+            "alt": "Four aquarium layouts for multiple choice"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "ステップ2で流れの遅い水の魚は植物などの柔らかい物を好むとあるため図②は不適切。ステップ3最終文で背の高い装飾物や植物は後部にとあるため図①は不適切。ステップ3第2文で水槽の周縁部にスペースを残すとあるため図③は不十分。消去法で図④。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs1_p2_s1",
+              "hs1_p2_s3",
+              "hs1_p3_s2",
+              "hs1_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "生息環境（軟性の装飾）とレイアウト規則（前後・占有率・余白）の三条件を図に当てはめる問題です。",
+              "points": [
+                "slow-moving water → plants / soft objects（②の岩主体を排除）。",
+                "tall at the back, short at the front（①の前寄りの高い装飾を排除）。",
+                "50〜70% coverage ⇄ 一定の open space（③の過密を排除）。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "decorate",
+              "ja": "〈動〉…を飾る"
+            },
+            {
+              "en": "decoration",
+              "ja": "〈名〉装飾（物）"
+            },
+            {
+              "en": "aquarium",
+              "ja": "〈名〉水槽"
+            },
+            {
+              "en": "freshwater",
+              "ja": "淡水の"
+            },
+            {
+              "en": "substrate",
+              "ja": "（水槽の）底床；床材"
+            },
+            {
+              "en": "sand to cover themselves in",
+              "ja": "自分を覆い隠すことのできる砂"
+            },
+            {
+              "en": "non-hiding fish",
+              "ja": "隠れない［退避行動をしない］魚"
+            },
+            {
+              "en": "artificial",
+              "ja": "人工の"
+            },
+            {
+              "en": "solid",
+              "ja": "〈形〉硬い"
+            },
+            {
+              "en": "log",
+              "ja": "〈名〉丸木；丸太"
+            },
+            {
+              "en": "shallow",
+              "ja": "〈形〉浅い"
+            },
+            {
+              "en": "soft",
+              "ja": "〈形〉柔らかい"
+            },
+            {
+              "en": "intended for ...",
+              "ja": "…のために意図されている"
+            },
+            {
+              "en": "make sure (that) ...",
+              "ja": "…であることを確実にする［確かめる］"
+            },
+            {
+              "en": "room",
+              "ja": "〈名〉空間；場所"
+            },
+            {
+              "en": "edge",
+              "ja": "〈名〉縁；端"
+            },
+            {
+              "en": "place",
+              "ja": "〈動〉…を置く"
+            },
+            {
+              "en": "harmful",
+              "ja": "有害な"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 8,
+      "title": "第8問",
+      "points": 17,
+      "description": "エッセイ作成（意見読解＋資料活用）",
+      "situation": {
+        "en": "You are working on an essay about space exploration. You will follow the steps below:\nStep 1: Read a range of opinions gathered from the Internet about exploring outer space.\nStep 2: Take a position on space exploration.\nStep 3: Create an outline of your essay using additional sources.",
+        "ja": "あなたは宇宙探検についてのエッセイに取り組んでいて，以下のステップに従う。\nステップ1：宇宙空間の探検に関する幅広い意見をインターネットから集めて読む。\nステップ2：宇宙探検に関する見解を固める。\nステップ3：さらなる資料を利用してエッセイのアウトラインを作成する。"
+      },
+      "passages": [
+        {
+          "id": "opinions",
+          "title": {
+            "en": "[Step 1] Read a range of opinions",
+            "ja": "［ステップ1］幅広い意見を読む"
+          },
+          "layout": "speaker_boxes",
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 4,
+              "question_ids": [
+                "問1",
+                "問2"
+              ],
+              "answer_numbers": [
+                38,
+                39
+              ]
+            },
+            {
+              "after_paragraph": 4,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、Step 2 に進みます。"
+            }
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "s8_apu_h",
+                "en": "Apu (university professor)",
+                "ja": "Apu（大学教授）"
+              },
+              {
+                "id": "s8_s2",
+                "en": "The exploration of space requires a lot of research time and money.",
+                "ja": "宇宙の探検には多くの研究時間とお金が必要です。"
+              },
+              {
+                "id": "s8_s3",
+                "en": "All this research has led to many new inventions and boosted humanity's scientific and technical knowledge.",
+                "ja": "こういった研究はすべて，多くの新しい発明をもたらし，人類の科学及び技術の知識を増進してきました。"
+              },
+              {
+                "id": "s8_s4",
+                "en": "While laser eye surgery, solar cells, freeze-dried food, and wireless headsets are just a few examples that have come out of space research, perhaps the invention that has proven the most useful in modern life is the computer mouse.",
+                "ja": "目のレーザー手術，太陽電池，フリーズドライ食品，ワイヤレスヘッドセットは，宇宙研究から生まれてきたもののほんの数例にすぎませんが，現代生活の中で最も役立つことになった発明品は，コンピュータのマウスかもしれません。"
+              },
+              {
+                "id": "s8_s5",
+                "en": "This was developed in the 1960s on a NASA research project.",
+                "ja": "これは1960年代にNASAの研究プロジェクトで開発されました。"
+              }
+            ],
+            [
+              {
+                "id": "s8_chr_h",
+                "en": "Christine (company CEO)",
+                "ja": "Christine（企業のCEO）"
+              },
+              {
+                "id": "s8_s7",
+                "en": "Much space exploration relies on international cooperation, a good example being the International Space Station, launched in 1998.",
+                "ja": "宇宙探検の多くは国際協力に依存していて，良い例が1998年に打ち上げられた国際宇宙ステーションです。"
+              },
+              {
+                "id": "s8_s8",
+                "en": "The main reasons for this cooperation are to share the huge costs involved and to improve national prestige.",
+                "ja": "こういった協力の主な理由は，必要となる巨額な費用を分担すること，そして国家の威信を高めることです。"
+              },
+              {
+                "id": "s8_s9",
+                "en": "More recently, private companies have begun exploring space, though mostly for commercial reasons.",
+                "ja": "より最近になって，民間企業が宇宙探検を始めました。ただしこれは主に商業的な理由によるものです。"
+              },
+              {
+                "id": "s8_s10",
+                "en": "In the future, it is possible that countries or corporations will try to colonize parts of the moon or Mars.",
+                "ja": "将来は，国や大企業が月や火星の一部に植民地を建設しようとする可能性もあります。"
+              },
+              {
+                "id": "s8_s11",
+                "en": "While financial cooperation and raising prestige are welcome, improper commercial or military use of outer space is not.",
+                "ja": "資金面で協力したり威信を高めるのは喜ぶべきことですが，商業的・軍事的に宇宙空間を不適切に利用することは喜べません。"
+              }
+            ],
+            [
+              {
+                "id": "s8_mei_h",
+                "en": "Meilin (journalist)",
+                "ja": "Meilin（ジャーナリスト）"
+              },
+              {
+                "id": "s8_s13",
+                "en": "As the famous physicist, Stephen Hawking, once said, it is probably dangerous to broadcast into deep space evidence of the existence of humans here on Earth.",
+                "ja": "有名な物理学者スティーブン・ホーキングがかつて言ったように，この地球上における人類の存在の証拠を遠い宇宙にまで知らしめるのはおそらく危険でしょう。"
+              },
+              {
+                "id": "s8_s14",
+                "en": "If our nearest intelligent aliens are anything like us, then they will seek to conquer Earth and humanity.",
+                "ja": "もし私たちに最も近いところにいる知的な異星人が私たちに少しでも似ていたら，彼らは地球と人類の征服を目指すでしょう。"
+              },
+              {
+                "id": "s8_s15",
+                "en": "For me, this is the greatest threat associated with space exploration.",
+                "ja": "私にとって，これは宇宙探検と結びつく最大の脅威です。"
+              },
+              {
+                "id": "s8_s16",
+                "en": "The deeper into space we travel, the greater the likelihood Earth will be discovered by an aggressive alien civilization.",
+                "ja": "宇宙の深淵に入っていけばいくほど，地球が攻撃的な異星人の文明に発見される可能性が高まるのです。"
+              }
+            ],
+            [
+              {
+                "id": "s8_nao_h",
+                "en": "Naomi (lawyer)",
+                "ja": "Naomi（弁護士）"
+              },
+              {
+                "id": "s8_s18",
+                "en": "Historically, jobs working at sea were likely the least safe, with the highest rates of death in the workplace.",
+                "ja": "歴史的に見ると，海へ出る仕事がおそらく最も安全度が低く，仕事場で死亡する率が最も高いものでした。"
+              },
+              {
+                "id": "s8_s19",
+                "en": "In modern times, space is no different, if not worse.",
+                "ja": "現代では，宇宙はそれより悪くはないにしても，同じくらい危険です。"
+              },
+              {
+                "id": "s8_s20",
+                "en": "Once we are just 10,000 meters or so above the surface of the Earth, there is little oxygen and the temperature is too low for human survival.",
+                "ja": "地表から1万メートルほど上昇するだけで，酸素はほとんどなく，気温も人間が生きていくには低すぎます。"
+              },
+              {
+                "id": "s8_s21",
+                "en": "Since the first person went into space in 1961, 19 of 652 astronauts have died on the job: a fatality rate of 2.9%.",
+                "ja": "1961年に人間が最初に宇宙に行って以来，652人の宇宙飛行士のうち19人が任務中に亡くなりました。2.9パーセントの死亡率です。"
+              },
+              {
+                "id": "s8_s22",
+                "en": "No other business or industry would tolerate such a high level of danger. Why should the space industry?",
+                "ja": "このような危険度の高さを容認するビジネスや産業は他にありません。なぜ宇宙産業だけが例外なのでしょうか？"
+              }
+            ],
+            [
+              {
+                "id": "s8_vic_h",
+                "en": "Victor (financial analyst)",
+                "ja": "Victor（財政アナリスト）"
+              },
+              {
+                "id": "s8_s24",
+                "en": "Space exploration has contributed hugely to economic growth.",
+                "ja": "宇宙探検は経済成長に大きく貢献してきました。"
+              },
+              {
+                "id": "s8_s25",
+                "en": "In the USA, NASA provided work for nearly 340,000 people in 2021, mostly at above-average salaries, and it is estimated that it has contributed $7.7 billion in taxes to the US government.",
+                "ja": "米国では，2021年にNASAが34万人近くに仕事を提供しましたが，そのほとんどが平均給与を上回っていて，それは77億ドルもの税収を米国政府にもたらしたと見積もられています。"
+              },
+              {
+                "id": "s8_s26",
+                "en": "Space is also being explored by other countries, such as China, India, Japan, and Russia.",
+                "ja": "宇宙の探検は，中国，インド，日本，ロシアなど他の国々も行っています。"
+              },
+              {
+                "id": "s8_s27",
+                "en": "In the future, further economic growth will be ensured by more private firms entering the space race and by the rise of space tourism, space mining, space colonization, and space militarization.",
+                "ja": "将来は，より多くの民間会社が宇宙競争に参加し，宇宙旅行，宇宙での資源採掘，宇宙の植民地化，宇宙の軍事化が増加することにより，さらなる経済成長が確実となるでしょう。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "position",
+          "title": {
+            "en": "[Step 2] Take a position",
+            "ja": "［ステップ2］見解を固める"
+          },
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 0,
+              "question_ids": [
+                "問3"
+              ],
+              "answer_numbers": [
+                40,
+                41,
+                42
+              ]
+            },
+            {
+              "after_paragraph": 0,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、Step 3 のアウトラインへ進みます。"
+            }
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s28",
+                "en": "Now that you have understood the various opinions, you have taken a position on space exploration and written some notes below.",
+                "ja": "あなたはいろいろな意見を理解したので，宇宙探検についての見解を固めて，下のようなメモを作成した。"
+              },
+              {
+                "id": "s8_s29",
+                "en": "POSITION: Space exploration is not a good idea.",
+                "ja": "見解：宇宙探検は勧められない。"
+              },
+              {
+                "id": "s8_s30",
+                "en": "[40] and [41] opinions support this the most.",
+                "ja": "[40]意見と[41]意見がこれを最も支持している。"
+              },
+              {
+                "id": "s8_s31",
+                "en": "An argument common to these two people is that [42].",
+                "ja": "この2人に共通する主張は，[42]ということである。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "outline",
+          "title": {
+            "en": "[Step 3] Create an outline of your essay",
+            "ja": "［ステップ3］エッセイのアウトラインを作成する"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s32",
+                "en": "A Reconsideration of Space Exploration",
+                "ja": "宇宙探検の見直し"
+              },
+              {
+                "id": "s8_s33",
+                "en": "Introduction",
+                "ja": "序論"
+              },
+              {
+                "id": "s8_s34",
+                "en": "Space exploration is without doubt on the frontline of science, but it should not be a priority for the following three reasons.",
+                "ja": "宇宙探検が科学の最先端であることに疑いはないが，次の3つの理由により，それを優先事項にするべきではない。"
+              }
+            ],
+            [
+              {
+                "id": "s8_s35",
+                "en": "Body",
+                "ja": "本論"
+              },
+              {
+                "id": "s8_s36",
+                "en": "REASON 1 from Step 2, based on evidence from the opinions in Step 1",
+                "ja": "理由1　ステップ2から。ステップ1の意見からの根拠に基づいて"
+              },
+              {
+                "id": "s8_s37",
+                "en": "REASON 2 ([43]), based on evidence from Source A",
+                "ja": "理由2（[43]）。資料Aからの根拠に基づいて"
+              },
+              {
+                "id": "s8_s38",
+                "en": "REASON 3, based on evidence ([44]) from Source B",
+                "ja": "理由3　資料Bからの根拠（[44]）に基づいて"
+              }
+            ],
+            [
+              {
+                "id": "s8_s39",
+                "en": "Conclusion",
+                "ja": "結論"
+              },
+              {
+                "id": "s8_s40",
+                "en": "Upon consideration of all its aspects, we should perhaps prioritize other things over exploring space.",
+                "ja": "すべての面を考慮に入れると，宇宙探検以外の物事を優先する方が良いかもしれない。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_a",
+          "title": {
+            "en": "Source A",
+            "ja": "資料A"
+          },
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 0,
+              "question_ids": [
+                "問4"
+              ],
+              "answer_numbers": [
+                43
+              ]
+            },
+            {
+              "after_paragraph": 0,
+              "marker_type": "navigate",
+              "action_ja": "解答が終わったら本文に戻り、資料Bを読みます。"
+            }
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s41",
+                "en": "Although you may not make a direct connection between space exploration and environmental problems, a connection does exist.",
+                "ja": "宇宙探検と環境問題を直接関係づけることはないかもしれませんが，関係は確かにあるのです。"
+              },
+              {
+                "id": "s8_s42",
+                "en": "First, the CO2 emissions of spacecraft are not insignificant.",
+                "ja": "第1に，宇宙船のCO2排出量は看過できません。"
+              },
+              {
+                "id": "s8_s43",
+                "en": "It is estimated that one spacecraft launch emits 200-300 tons of CO2 and other harmful gases into the Earth's atmosphere.",
+                "ja": "宇宙船を1回打ち上げると，200から300トンのCO2及びその他の有害ガスが地球の大気中に放出されると見積もられています。"
+              },
+              {
+                "id": "s8_s44",
+                "en": "More and more spacecraft are being sent into space, which is damaging for the Earth.",
+                "ja": "ますます多くの宇宙船が宇宙に送り出されており，これは地球にダメージを与えます。"
+              },
+              {
+                "id": "s8_s45",
+                "en": "The contribution to the greenhouse effect of these craft's CO2 emissions is causing the Earth's temperature to rise.",
+                "ja": "これらの宇宙船のCO2排出量が温室効果の一因となっていることにより，地球の温度が上昇しています。"
+              },
+              {
+                "id": "s8_s46",
+                "en": "Second, space exploration is damaging the thermosphere (the space environment close to the Earth).",
+                "ja": "第2に，宇宙探検は熱圏（地球に近い宇宙環境）にダメージを与えています。"
+              },
+              {
+                "id": "s8_s47",
+                "en": "The quantity of space debris, the junked parts of spacecraft or artificial satellites, is on the rise.",
+                "ja": "宇宙船や人工衛星の残骸である宇宙ゴミの量も増加しています。"
+              },
+              {
+                "id": "s8_s48",
+                "en": "NASA estimates that, in the thermosphere, there are currently around 23,000 pieces of space debris which are larger than a softball and travel at speeds of up to 28,000 km/h.",
+                "ja": "NASAの見積もりによると，現在熱圏にはソフトボールよりも大きい宇宙ゴミが約23,000片もあり，時速最大28,000キロで飛交っています。"
+              },
+              {
+                "id": "s8_s49",
+                "en": "This poses a risk to future spaceflight, and may even be a potential obstacle to astronomical observation.",
+                "ja": "これは将来の宇宙飛行に危険を及ぼし，天体観測への潜在的な障害となる恐れさえあるのです。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "source_b",
+          "title": {
+            "en": "Source B",
+            "ja": "資料B"
+          },
+          "inline_solve_markers": [
+            {
+              "after_paragraph": 0,
+              "question_ids": [
+                "問5"
+              ],
+              "answer_numbers": [
+                44
+              ]
+            }
+          ],
+          "graph_image": {
+            "src": "source_b_graph.png",
+            "alt": "Government investment vs. potential annual budgets",
+            "after_paragraph": 1
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s8_s50",
+                "en": "Space exploration is getting more and more costly; in 2022 it was reported that the total amount of money spent by all the governments around the world was more than US$100 billion.",
+                "ja": "宇宙探検にはますますお金がかかるようになっています。2022年の報告によると，世界の全政府が使ったお金の合計額は，1千億米ドル超でした。"
+              },
+              {
+                "id": "s8_s51",
+                "en": "The graph below compares this cost with the annual budgets, estimated by international institutions, that would be required to address some of the world's most important issues.",
+                "ja": "下のグラフはこの費用を，世界の最も重要な問題のいくつかに取り組むために必要となる年間予算の見込みと比較したもので，予算は国際機関の見積もりによるものです。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 38,
+          "stem": {
+            "en": "Which of the following best expresses Meilin's opinion? [38]",
+            "ja": "「Meilinの意見を最も適切に表しているものは次のどれか」[38]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Caution is critical.",
+              "ja": "警戒がきわめて重要だ。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Invention is invaluable.",
+              "ja": "発明は非常に貴重だ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Science is superior.",
+              "ja": "科学は優れている。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Trust is treasure.",
+              "ja": "信頼は宝だ。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。Meilinの意見の第1文（As the famous physicist, ...）に「有名な物理学者スティーブン・ホーキングがかつて言ったように，この地球上における人類の存在の証拠を遠い宇宙にまで知らしめるのはおそらく危険（dangerous）でしょう」とあることからわかるように，Meilinは宇宙探検について前向きな姿勢を示していないことから，①が正解となる。②の「発明」や，③の「科学」や，④の「信頼」を重視するような意見をMeilinは述べていないので，これらはいずれも正解にはなれない。",
+            "quoted_source": "共通テスト 2025年度 本試験 解説",
+            "evidence_sentences": [
+              "s8_s13",
+              "s8_s14",
+              "s8_s15",
+              "s8_s16"
+            ],
+            "instructor_note": {
+              "ja": "各意見者の主張を端的に要約したフレーズを選ぶ問題です。",
+              "points": [
+                "s8_s13の「it is probably dangerous to broadcast into deep space evidence of the existence of humans」がMeilinの核心的主張。dangerousという語から「警戒（Caution）」が導かれます。",
+                "s8_s15の「the greatest threat associated with space exploration」でthreatという語も「警戒が重要」を支持します。",
+                "テクニック: 短い格言風の選択肢では，各選択肢のキーワード（Caution/Invention/Science/Trust）と本文中の主張を照合します。Meilinの文にはdangerous, threat, aggressiveなど警戒を示す語が多く，①のCautionと一致します。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 39,
+          "stem": {
+            "en": "Both Christine and Victor mention that space exploration [39].",
+            "ja": "「ChristineとVictorは2人とも宇宙探検は[39]と述べている」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "has economic impacts and provides opportunities for private corporations to make money",
+              "ja": "経済に影響を与え，民間企業がお金を稼ぐ機会を与えてくれる",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "is gaining popularity and that salaries for people working in the industry are above average",
+              "ja": "人気が高まりつつあり，この産業で働く人々の給料は平均を上回っている",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "is politically challenging as it requires coordination among countries with different policies",
+              "ja": "政策が異なる国々の間の協力を必要とすることから，政治的に難しい",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "needs global cooperation, especially to operate the International Space Station successfully",
+              "ja": "特に国際宇宙ステーションをうまく稼働させるには，世界規模の協力が必要とする",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。Christineの意見の第3・4文（More recently, private companies ... / In the future, ...）により最近になって，民間企業が宇宙探検を始めました。ただしこれは主に商業的な理由によるものです。将来は，国や大企業が月や火星の一部に植民地を建設しようとする可能性もあります」とあり，下線部分は①の内容と合っている。また，Victorの意見の第1文（Space exploration has contributed ...）に「宇宙探検は経済成長に大きく貢献してきました」とあり，最終文（In the future, ...）に「将来は，より多くの民間会社が宇宙競争に参加し，宇宙旅行，宇宙での資源採掘，宇宙の植民地化，宇宙の軍事化が増加することにより，さらなる経済成長が確実となるでしょう」とあることから，やはり下線部分は①の内容と合っている。②のようなことはChristineの意見に含まれていない。③のようなことは2人とも述べていない。④のようなことはVictorの意見に含まれていない。",
+            "quoted_source": "共通テスト 2025年度 本試験 解説",
+            "evidence_sentences": [
+              "s8_s9",
+              "s8_s10",
+              "s8_s24",
+              "s8_s27"
+            ],
+            "instructor_note": {
+              "ja": "2人の意見に共通する内容を特定する問題です。",
+              "points": [
+                "Christineのs8_s9「private companies have begun exploring space, though mostly for commercial reasons」とVictorのs8_s27「more private firms entering the space race」が共通して民間企業の参入に言及しています。",
+                "Victorのs8_s24「contributed hugely to economic growth」が「economic impacts」に対応し，Christineのs8_s9「commercial reasons」が「opportunities to make money」に対応します。",
+                "テクニック: 「Both A and B mention」型の問題では，片方にしか書かれていない情報を含む選択肢を消去法で除外します。②の「salaries above average」はVictorのみ，④の「ISS」はChristineのみの情報です。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 40,
+          "answer_numbers": [
+            40,
+            41,
+            42
+          ],
+          "unordered_slots": [
+            40,
+            41
+          ],
+          "stem": {
+            "en": "Now that you have understood the various opinions, you have taken a position on space exploration and written some notes below. Choose the best options to complete [40]—[42]. (You must have all of [40]—[42] correct to get points.)",
+            "ja": "「あなたはいろいろな意見を理解したので，宇宙探検についての見解を固めて，下のようなメモを作成した。[40]—[42]を埋めるのに最も適当な選択肢を選びなさい。（[40]—[42]の全問に正解した場合にのみ点数を与える。）」"
+          },
+          "position_box": {
+            "en": "POSITION: Space exploration is not a good idea.\n• [40] and [41] opinions support this the most.\n• An argument common to these two people is that [42].",
+            "ja": "見解：宇宙探検は勧められない。\n・[40]意見と[41]意見がこれを最も支持している。\n・この2人に共通する主張は，[42]ということである。"
+          },
+          "choices_40": [
+            {
+              "label": "①",
+              "en": "Apu's",
+              "ja": "Apuの"
+            },
+            {
+              "label": "②",
+              "en": "Christine's",
+              "ja": "Christineの"
+            },
+            {
+              "label": "③",
+              "en": "Meilin's",
+              "ja": "Meilinの"
+            },
+            {
+              "label": "④",
+              "en": "Naomi's",
+              "ja": "Naomiの"
+            },
+            {
+              "label": "⑤",
+              "en": "Victor's",
+              "ja": "Victorの"
+            }
+          ],
+          "choices_41": [
+            {
+              "label": "①",
+              "en": "Apu's",
+              "ja": "Apuの"
+            },
+            {
+              "label": "②",
+              "en": "Christine's",
+              "ja": "Christineの"
+            },
+            {
+              "label": "③",
+              "en": "Meilin's",
+              "ja": "Meilinの"
+            },
+            {
+              "label": "④",
+              "en": "Naomi's",
+              "ja": "Naomiの"
+            },
+            {
+              "label": "⑤",
+              "en": "Victor's",
+              "ja": "Victorの"
+            }
+          ],
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "military conflict in outer space is something we should try hard to avoid",
+              "ja": "宇宙空間での軍事紛争は，私たちが全力で回避しなければならないものだ"
+            },
+            {
+              "label": "②",
+              "en": "space exploration exposes people to a lot of danger and is too risky",
+              "ja": "宇宙探検は人々を多くの危険にさらすのでリスクが高すぎる"
+            },
+            {
+              "label": "③",
+              "en": "the possibility of alien invasion is too great to be ignored and must be addressed",
+              "ja": "異星人による侵略の可能性は看過するには大きすぎるので，取り組みが必要だ"
+            },
+            {
+              "label": "④",
+              "en": "the risk of death for people in the industry is extremely high compared with other jobs",
+              "ja": "宇宙産業における人間の死のリスクは，他の仕事と比べてきわめて高い"
+            }
+          ],
+          "answer": {
+            "40": "③",
+            "41": "④",
+            "42": "②"
+          },
+          "answer_note": "[40]と[41]は順不同",
+          "explanation": {
+            "quoted_ja": "[40]と[41]の正解は③・④。[42]の正解は②。「宇宙探検は勧められない」という見解と基本的に同じ趣旨の意見を述べている人物を選ぶ。5人のうち，DavidとIndiraとYoは動物園について否定的な見解を抱いているのではなく，MeilinとNaomiが宇宙探検に否定的である。Meilinは異星人による地球侵略の可能性という観点から，宇宙探検は「おそらく危険だ（probably dangerous）」という見解であり，③が正解の1つとなる。またNaomiは宇宙探検における死亡率の高さを問題視して，最終文ではWhy should the space industry（tolerate such a high level of danger）?と述べている。これは修辞疑問文で，「なぜ宇宙産業だけが例外なのか〔容認すべきではない〕」という意味なので，やはり基本的に「宇宙探検は勧められない」という見解であることがわかる。したがって④がもう1つの正解となる。①のApuや⑤のVictorは「宇宙探検は勧められない」という趣旨の意見を述べていないので，正解にはなれない。②のChristineは最終文（While financial cooperation ...）で「資金面で協力したり威信を高めるのは喜ぶべきことですが，商業的・軍事的に宇宙空間を不適切に利用することは喜べません」と述べて宇宙探検の功罪両方について指摘しているので，必ずしも「宇宙探検は勧められない」と考えているわけではない。[42]の選択肢：[40]と[41]で選んだMeilinとNaomiに共通する主張を選ぶ。Meilinは異星人による地球侵略の可能性という観点から，宇宙探検は危険だと考えているので，②の内容と合っている。またNaomiについては，死亡率の高さを根拠にして宇宙探検の危険度の高さを訴えていることから，やはり②と合っている。①の「宇宙空間での軍事紛争」や③の「異星人による侵略の可能性」についてはNaomiが全く触れていない。④の「宇宙産業における人間の死のリスク」についてはMeilinが全く触れていない。",
+            "quoted_source": "共通テスト 2025年度 本試験 解説",
+            "evidence_sentences": [
+              "s8_s13",
+              "s8_s15",
+              "s8_s16",
+              "s8_s21",
+              "s8_s22"
+            ],
+            "instructor_note": {
+              "ja": "Step 2の見解に合致する意見者を選び，さらに共通する主張を特定する複合問題です。",
+              "points": [
+                "【重要】Step 2のポジションは「Space exploration is not a good idea」（宇宙探検は勧められない）です。これに賛同する人物を選ぶ必要があります。",
+                "Meilinは「危険（dangerous/threat）」，Naomiは「死亡率（fatality rate 2.9%）」の観点からそれぞれ否定的であり，両者に共通するのは「宇宙探検は危険でリスクが高い」という主張です。",
+                "②が正解となる理由：「exposes people to a lot of danger and is too risky」は，Meilinの「異星人からの脅威」とNaomiの「高い死亡率」の両方を包括する上位概念です。③はMeilinのみ，④はNaomiのみに対応するため不適切。",
+                "テクニック: [42]では2人の主張の「共通項」を探す必要があります。個別の論点（③alien invasion, ④death risk）ではなく，両者を包含する抽象的な表現（②danger/risky）を選びます。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "stem": {
+            "en": "Based on Source A, which of the following is the most appropriate for REASON 2? [43]",
+            "ja": "「資料Aに基づけば，理由2として最適なものは次のどれか」[43]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "CO2 emissions produced by spacecraft are huge and are damaging outer space.",
+              "ja": "宇宙船が生み出すCO2の排出量は莫大で，宇宙空間にダメージを与えている。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "It is difficult to update spacecraft with new engines that emit fewer harmful gases.",
+              "ja": "排出するガスがより少ない新しいエンジンを使って宇宙船をより新しく改良するのは難しい。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Space debris poses risks to humans due to potential collision with airplanes.",
+              "ja": "宇宙ゴミは飛行機と衝突する可能性があるので人間にとって危険である。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Space exploration is polluting the environment of both the Earth and the thermosphere.",
+              "ja": "宇宙探検は地球と熱圏の両方の環境を汚染している。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "正解は④。資料A（Source A）の内容と合うものを選ぶ。同資料の第4文（More and more spacecraft ...）に「ますます多くの宇宙船が宇宙に送り出されており，これは地球にダメージを与えます」と述べられている。また，第6文（Second, space exploration ...）には「第2に，宇宙探検は熱圏（地球に近い宇宙環境）にダメージを与えています」とある。したがって下線部の内容と合っている④が正解となる。①については，宇宙船が排出するCO2が地球にダメージを与えることは資料Aからは読み取れるが，それが宇宙空間にダメージを与えるとは述べられていない。②のようなことは資料Aからは読み取れない。③のように宇宙ゴミが「飛行機（airplanes）」と衝突する可能性があるとは資料Aでは述べられていない。",
+            "quoted_source": "共通テスト 2025年度 本試験 解説",
+            "evidence_sentences": [
+              "s8_s42",
+              "s8_s44",
+              "s8_s45",
+              "s8_s46",
+              "s8_s47"
+            ],
+            "instructor_note": {
+              "ja": "資料Aの論旨を正確に要約した選択肢を選ぶ問題です。",
+              "points": [
+                "資料Aは2つの論点で構成されています：(1) CO2排出→地球温暖化（s8_s42〜s8_s45），(2) 宇宙ゴミ→熱圏への影響（s8_s46〜s8_s49）。④はこの両方を「Earth and the thermosphere」で正確にカバーしています。",
+                "①の誤り：CO2が「outer space」にダメージを与えるとは書かれていません。CO2の影響は地球の大気・温度に及ぶものです。",
+                "③の誤り：宇宙ゴミが衝突する対象は「future spaceflight」（s8_s49）であり，「airplanes」ではありません。",
+                "テクニック: 資料の要約問題では，本文に書かれていない語（airplanes, outer space等）が選択肢に紛れていないか注意深く確認します。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 44,
+          "stem": {
+            "en": "For REASON 3, you have decided to write The cost of space exploration is high and the money could be used instead to solve major world problems. Based on Source B, which option best supports this statement? [44]",
+            "ja": "「理由3として，あなたは『宇宙探検の費用は高く，そのお金は代わりに世界の主要な問題を解決するのに使うことができるだろう』と書くことに決めた。資料Bに基づけば，この意見を最も適切に支持している選択肢はどれか」[44]"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The amount of money that governments around the world spend on space exploration could not only reduce hunger but also make primary education available in developing countries.",
+              "ja": "世界中の政府が宇宙探検に費やすお金（＝1,030億米ドル）があれば，途上国において飢餓を減らす（＝400億米ドル）だけでなく，初等教育を受けられるようにする（＝540億米ドル）こともできるだろう。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "The data show that it costs less to ensure clean water for people in developing countries than for governments around the world to explore space.",
+              "ja": "このデータによれば，世界中の政府が宇宙探検を行うのにかかるお金（＝1,030億米ドル）よりも，途上国の人々のために浄水を確保するのにかかるお金（＝1,500億米ドル）の方が少ない。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "With less than half the money that governments spend on space exploration, it would be possible to address the problem of educational inequality in the developing world.",
+              "ja": "政府が宇宙探検に使うお金の半分（＝1,030÷2＝515億米ドル）未満で，途上国における教育の不平等の問題に対処（＝540億米ドル）できるだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "With the money currently invested in space exploration, we could provide sufficient food, basic education, and enough clean water in developing countries.",
+              "ja": "現在宇宙探検に投資されているお金（＝1,030億米ドル）があれば，途上国で十分な食料（＝400億米ドル），基礎教育（＝540億米ドル），十分な浄水（＝1,500億米ドル）を供給できるだろう。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "正解は①。各選択肢中の下線部の内容を，資料Bのグラフを参照して金額に換算したものをカッコ内に示してある。これにより，正しいことを述べているのは①のみであるとわかる。①：飢餓の緩和400億＋基礎教育の提供540億＝940億 ＜ 宇宙探検1,030億なので正しい。②：浄水の確保1,500億 ＞ 宇宙探検1,030億なので「costs less」は誤り。③：宇宙探検の半分は515億だが，基礎教育は540億なので「less than half」では足りない。④：400＋540＋1,500＝2,440億 ＞ 1,030億なので3つ全ては賄えない。",
+            "quoted_source": "共通テスト 2025年度 本試験 解説",
+            "evidence_sentences": [
+              "s8_s50",
+              "s8_s51"
+            ],
+            "instructor_note": {
+              "ja": "グラフの数値を使って選択肢の正誤を判定する問題です。",
+              "points": [
+                "グラフの数値：宇宙探検への政府投資＝103（10億ドル），浄水供給＝150，基礎教育供給＝54，飢餓緩和＝40",
+                "①の検証：飢餓40＋教育54＝94 ＜ 宇宙探検103 → 正しい。宇宙探検の費用で飢餓と教育の両方に対処できる。",
+                "②の検証：浄水150 ＞ 宇宙探検103 → 「costs less」は誤り。浄水の方が高い。",
+                "③の検証：宇宙探検の半分＝51.5だが，教育は54 → 「less than half」では足りない。",
+                "④の検証：40＋54＋150＝244 ＞ 103 → 3項目すべてを賄えない。",
+                "テクニック: グラフ問題では，選択肢に含まれる数量表現（not only...but also, less than, enough等）を数値で検算することが決定的に重要です。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "exploration",
+              "ja": "探検"
+            },
+            {
+              "en": "require O",
+              "ja": "Oを必要とする"
+            },
+            {
+              "en": "lead to ...",
+              "ja": "…をもたらす"
+            },
+            {
+              "en": "invention",
+              "ja": "発明（品）"
+            },
+            {
+              "en": "boost O",
+              "ja": "Oを高める；増やす"
+            },
+            {
+              "en": "humanity",
+              "ja": "人類"
+            },
+            {
+              "en": "surgery",
+              "ja": "外科手術"
+            },
+            {
+              "en": "solar cell",
+              "ja": "太陽電池"
+            },
+            {
+              "en": "come out of ...",
+              "ja": "…から生じる"
+            },
+            {
+              "en": "CEO",
+              "ja": "最高経営責任者（chief executive officer）"
+            },
+            {
+              "en": "rely on ...",
+              "ja": "…に依存する"
+            },
+            {
+              "en": "cooperation",
+              "ja": "協力"
+            },
+            {
+              "en": "launch O",
+              "ja": "Oを打ち上げる"
+            },
+            {
+              "en": "costs involved",
+              "ja": "必要となる費用"
+            },
+            {
+              "en": "prestige",
+              "ja": "威信；名声"
+            },
+            {
+              "en": "commercial",
+              "ja": "商業的な"
+            },
+            {
+              "en": "colonize O",
+              "ja": "Oに植民地を建設する"
+            },
+            {
+              "en": "Mars",
+              "ja": "火星"
+            },
+            {
+              "en": "corporation",
+              "ja": "法人；大企業"
+            },
+            {
+              "en": "military",
+              "ja": "軍事的な"
+            },
+            {
+              "en": "physicist",
+              "ja": "物理学者"
+            },
+            {
+              "en": "broadcast O",
+              "ja": "Oを放送する；…を伝える"
+            },
+            {
+              "en": "existence",
+              "ja": "存在"
+            },
+            {
+              "en": "intelligent",
+              "ja": "知能の高い"
+            },
+            {
+              "en": "alien",
+              "ja": "異星人（の）"
+            },
+            {
+              "en": "anything like ...",
+              "ja": "いくらかでも…のような"
+            },
+            {
+              "en": "conquer O",
+              "ja": "Oを征服する"
+            },
+            {
+              "en": "threat",
+              "ja": "脅威"
+            },
+            {
+              "en": "associated with ...",
+              "ja": "…と関連づけられる"
+            },
+            {
+              "en": "likelihood",
+              "ja": "可能性"
+            },
+            {
+              "en": "aggressive",
+              "ja": "攻撃的な"
+            },
+            {
+              "en": "likely",
+              "ja": "たぶん"
+            },
+            {
+              "en": "if not ...",
+              "ja": "…ではないにしても"
+            },
+            {
+              "en": "... or so",
+              "ja": "…かそこら"
+            },
+            {
+              "en": "oxygen",
+              "ja": "酸素"
+            },
+            {
+              "en": "survival",
+              "ja": "生存"
+            },
+            {
+              "en": "astronaut",
+              "ja": "宇宙飛行士"
+            },
+            {
+              "en": "fatality rate",
+              "ja": "死亡率"
+            },
+            {
+              "en": "tolerate O",
+              "ja": "Oを大目に見る；我慢する"
+            },
+            {
+              "en": "analyst",
+              "ja": "分析者；アナリスト"
+            },
+            {
+              "en": "contribute (A) to B",
+              "ja": "（Aの分だけ）Bに貢献する"
+            },
+            {
+              "en": "provide A for B",
+              "ja": "AをBに供給する"
+            },
+            {
+              "en": "estimate O",
+              "ja": "Oを見積もる"
+            },
+            {
+              "en": "billion",
+              "ja": "10億"
+            },
+            {
+              "en": "ensure O",
+              "ja": "Oを確実にする；保証する"
+            },
+            {
+              "en": "private firm",
+              "ja": "民間会社（企業）"
+            },
+            {
+              "en": "mining",
+              "ja": "採掘；鉱業"
+            },
+            {
+              "en": "militarization",
+              "ja": "軍事化"
+            },
+            {
+              "en": "reconsideration",
+              "ja": "再考"
+            },
+            {
+              "en": "without doubt",
+              "ja": "疑いなく；確かに"
+            },
+            {
+              "en": "frontline",
+              "ja": "最前線"
+            },
+            {
+              "en": "priority",
+              "ja": "優先事項"
+            },
+            {
+              "en": "following",
+              "ja": "次にあげる"
+            },
+            {
+              "en": "based on ...",
+              "ja": "…に基づいて"
+            },
+            {
+              "en": "aspect",
+              "ja": "面；側"
+            },
+            {
+              "en": "prioritize A over B",
+              "ja": "BよりもAを優先する"
+            },
+            {
+              "en": "connection",
+              "ja": "関係；関連"
+            },
+            {
+              "en": "emission",
+              "ja": "排出（量）"
+            },
+            {
+              "en": "emit O",
+              "ja": "Oを排出する"
+            },
+            {
+              "en": "(space)craft",
+              "ja": "宇宙船"
+            },
+            {
+              "en": "insignificant",
+              "ja": "重要でない；ささいな"
+            },
+            {
+              "en": "atmosphere",
+              "ja": "大気（圏）"
+            },
+            {
+              "en": "damaging",
+              "ja": "ダメージを与える；有害な"
+            },
+            {
+              "en": "the contribution to A of B",
+              "ja": "BがAの一因となっていること"
+            },
+            {
+              "en": "greenhouse effect",
+              "ja": "温室効果"
+            },
+            {
+              "en": "thermosphere",
+              "ja": "熱圏"
+            },
+            {
+              "en": "debris",
+              "ja": "破片；残骸"
+            },
+            {
+              "en": "junk O",
+              "ja": "Oを廃棄する"
+            },
+            {
+              "en": "artificial satellite",
+              "ja": "人工衛星"
+            },
+            {
+              "en": "on the rise",
+              "ja": "上昇中で"
+            },
+            {
+              "en": "up to ...",
+              "ja": "最大…まで"
+            },
+            {
+              "en": "pose a risk to ...",
+              "ja": "…に危険をもたらす"
+            },
+            {
+              "en": "potential",
+              "ja": "潜在的な"
+            },
+            {
+              "en": "obstacle",
+              "ja": "障害物"
+            },
+            {
+              "en": "astronomical observation",
+              "ja": "天体観測"
+            },
+            {
+              "en": "costly",
+              "ja": "費用のかかる"
+            },
+            {
+              "en": "compare A with B",
+              "ja": "AをBと比較する"
+            },
+            {
+              "en": "annual budget",
+              "ja": "年間予算"
+            },
+            {
+              "en": "institution",
+              "ja": "団体；機関"
+            },
+            {
+              "en": "investment",
+              "ja": "投資"
+            },
+            {
+              "en": "relieve O",
+              "ja": "Oを軽減（緩和）する"
+            },
+            {
+              "en": "hunger",
+              "ja": "飢餓"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

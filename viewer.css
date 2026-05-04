@@ -413,6 +413,12 @@
   margin-bottom: 20px;
 }
 
+/* パンフレット単体で枠を付ける場合など、外側の太枠を消す（例：共通テスト2025 本試 第1問） */
+.passage-container--no-outer-border {
+  border: none;
+  margin-bottom: 0;
+}
+
 .passage-section {
   padding: 14px 20px;
 }
@@ -427,6 +433,57 @@
   border: 1px solid #333;
   margin-bottom: 12px;
   border-radius: 2px;
+}
+
+/* ========== Pamphlet layout（共通テスト 短篇パンフレット型） ========== */
+.passage-section--pamphlet {
+  font-family: "Times New Roman", Times, Georgia, "Noto Serif JP", serif;
+  padding: 16px 18px 18px;
+  background: #fff;
+  line-height: 1.75;
+}
+.passage-title--pamphlet-main {
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 6px;
+}
+.passage-subtitle--pamphlet {
+  color: #5a5a5a;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.pamphlet-step-rule {
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  margin: 14px 0 12px;
+}
+.pamphlet-step-wrap {
+  overflow: auto;
+  zoom: 1;
+}
+.pamphlet-step-wrap::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pamphlet-step-head {
+  font-size: 0.92rem;
+  margin-bottom: 6px;
+  line-height: 1.45;
+}
+.passage-section--pamphlet .passage-paragraph {
+  text-align: left;
+}
+.passage-section--pamphlet .passage-img-float-right {
+  max-width: 200px;
+  margin: 0 0 10px 14px;
+}
+.passage-section--pamphlet .passage-img-float-left {
+  max-width: 200px;
+  margin: 0 14px 10px 0;
 }
 
 .passage-divider {
@@ -447,6 +504,168 @@
 .passage-img--left {
   float: left;
   margin-right: 14px;
+}
+/* チラシ・全面スキャン（追試験 大問1 など） */
+.passage-img--full {
+  float: none;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 8px 0 14px;
+  clear: both;
+}
+
+/* ===== Flyer Layout (2025年追試験 第1問: 文房具店チラシ) ===== */
+.flyer-frame {
+  border: 2px solid #1a1a1a;
+  background: #fff;
+  margin: 14px 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #111;
+  overflow: hidden;
+}
+.flyer-top {
+  padding: 14px 18px 18px;
+  border-bottom: 1.5px solid #1a1a1a;
+}
+.flyer-header-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.4fr;
+  align-items: start;
+  gap: 16px;
+  min-height: 200px;
+}
+.flyer-badge img {
+  display: block;
+  max-width: 130px;
+  width: 100%;
+  height: auto;
+  transform: rotate(-12deg) translateX(8px) translateY(6px);
+  transform-origin: top left;
+}
+.flyer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flyer-logo img {
+  display: block;
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+}
+.flyer-special-gift {
+  border: 2px dashed #444;
+  border-radius: 4px;
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  background: #fff;
+}
+.flyer-sg-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.flyer-line {
+  margin: 2px 0;
+}
+.flyer-special-gift .sentence-ja {
+  font-size: 0.78rem;
+  color: #b85a4f;
+  text-align: left;
+  margin: 2px 0 4px;
+}
+.flyer-store-info {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.flyer-store-info .flyer-line {
+  margin: 0;
+}
+.flyer-store-info .sentence-ja {
+  font-size: 0.78rem;
+  color: #b85a4f;
+}
+.flyer-specials-banner {
+  text-align: center;
+  padding: 12px 14px;
+  border-bottom: 1.5px solid #1a1a1a;
+}
+.flyer-specials-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.flyer-specials-subtitle {
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+.flyer-specials-banner .sentence-ja {
+  font-size: 0.8rem;
+  color: #b85a4f;
+  margin-top: 2px;
+}
+.flyer-products {
+  width: 100%;
+  border-collapse: collapse;
+}
+.flyer-products td {
+  border-top: 1px solid #1a1a1a;
+  vertical-align: top;
+  padding: 12px 14px;
+}
+.flyer-products tr:first-child td {
+  border-top: none;
+}
+.flyer-product-illus {
+  width: 33%;
+  border-right: 1px solid #1a1a1a;
+  text-align: center;
+}
+.flyer-product-price {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 4px;
+}
+.flyer-product-illus img {
+  display: block;
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 6px;
+}
+.flyer-product-name {
+  font-style: italic;
+  font-size: 0.95rem;
+}
+.flyer-product-illus .sentence-ja {
+  font-size: 0.78rem;
+  color: #b85a4f;
+  text-align: center;
+}
+.flyer-product-desc {
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+.flyer-product-desc .sentence-ja {
+  font-size: 0.82rem;
+  color: #b85a4f;
+  margin-top: 4px;
+}
+
+/* Compact mode for narrow panes */
+@media (max-width: 720px) {
+  .flyer-header-row {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .flyer-badge img { transform: none; max-width: 100px; }
+  .flyer-product-illus { width: 38%; }
 }
 
 /* Audio row: paragraph + play button side by side */
@@ -1033,6 +1252,10 @@
   border-right: 1px solid #999;
   padding: 4px 10px;
   vertical-align: top;
+}
+.passage-paragraph.essay-draft-title {
+  text-align: center;
+  font-weight: 700;
 }
 .essay-cell-comments {
   border: 1px solid #ccc;
@@ -1813,6 +2036,28 @@
   width: 100%;
 }
 
+.passage-subtitle--left {
+  text-align: left;
+  font-style: italic;
+  width: 100%;
+}
+
+.passage-subtitle--right {
+  text-align: right;
+  width: 100%;
+}
+
+.questionnaire-survey-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.questionnaire-survey-title-ja {
+  margin-top: -6px;
+}
+
 .ad-section-heading--center {
   text-align: center;
   border-bottom: none;
@@ -1864,11 +2109,47 @@
   margin-top: 4px;
   margin-bottom: 4px;
 }
+.passage-img--full {
+  float: none;
+  display: block;
+  max-width: 100% !important;
+  width: 100%;
+  height: auto;
+  margin: 8px 0 14px;
+  clear: both;
+}
 /* Clearfix for para-content with floated images */
 .para-content::after {
   content: "";
   display: table;
   clear: both;
+}
+
+/* タイトル直下の float 画像（追試験 大問2 など）— 段落ごとの clear を外し、画像下まで回り込ませる */
+.passage-section--float-wrap .para-content::after {
+  content: none;
+  display: none;
+}
+
+/*
+ * .para-audio-row が display:flex だと子が（FFX 等の）BFC となり、
+ * 隣接 float の横では「行」ではなく「箱」全体が狭幅に抑えられ、
+ * 画像の下の行も全幅に戻らない。回り込み用には block ＋ ボタンは絶対配置。
+ */
+.passage-section--float-wrap .para-audio-row {
+  display: block;
+  position: relative;
+  padding-right: 36px;
+}
+.passage-section--float-wrap .para-content {
+  display: block;
+  width: auto;
+}
+.passage-section--float-wrap .btn-audio {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  float: none;
 }
 
 /* ===== Essay Comment Markers & Caret ===== */

@@ -1,0 +1,3752 @@
+{
+  "exam_info": {
+    "title": "共通テスト 2025年度 追試験",
+    "publisher": "大学入試センター",
+    "year": 2025,
+    "round": "追試験",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 44,
+    "implemented_sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_pdf_mondai": "_2025年度追試験_問題.pdf",
+    "source_pdf_kaitou": "_2025年度追試験_解説.pdf",
+    "section_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 6,
+      "points_per_question": 2,
+      "description": "短文読解（チラシ）",
+      "situation": {
+        "en": "You are on a study abroad program in the US. You find this advertisement from a local stationery store that you frequently visit.",
+        "ja": "あなたは米国での留学プログラムに参加しています。よく訪れる地元の文房具店でこの広告を見つけます。"
+      },
+      "passages": [
+        {
+          "id": "flyer",
+          "is_flyer": true,
+          "no_divider": true,
+          "flyer": {
+            "header": {
+              "badge_image": "data/kyotsu/2025/tsuishiken/images/q01_badge_50years.png",
+              "logo_image": "data/kyotsu/2025/tsuishiken/images/q01_logo_arigato_circle.png",
+              "special_gift": {
+                "line_ids": [
+                  "ts_s6",
+                  "ts_s7"
+                ]
+              },
+              "store_info_ids": [
+                "ts_s8",
+                "ts_s9",
+                "ts_s10",
+                "ts_s11"
+              ]
+            },
+            "specials_banner": {
+              "title_id": "ts_s12",
+              "subtitle_id": "ts_s13"
+            },
+            "products": [
+              {
+                "price": "$24.99",
+                "image": "data/kyotsu/2025/tsuishiken/images/q01_illus_pencil_case_v2.png",
+                "name_id": "ts_p1_name",
+                "desc_id": "ts_p1_desc"
+              },
+              {
+                "price": "$18.99",
+                "image": "data/kyotsu/2025/tsuishiken/images/q01_illus_planner_v2.png",
+                "name_id": "ts_p2_name",
+                "desc_id": "ts_p2_desc"
+              },
+              {
+                "price": "$3.99",
+                "image": "data/kyotsu/2025/tsuishiken/images/q01_illus_brush_v2.png",
+                "name_id": "ts_p3_name",
+                "desc_id": "ts_p3_desc"
+              },
+              {
+                "price": "$17.99",
+                "image": "data/kyotsu/2025/tsuishiken/images/q01_illus_tape_kit_v2.png",
+                "name_id": "ts_p4_name",
+                "desc_id": "ts_p4_desc"
+              }
+            ]
+          },
+          "sentences": [
+            {
+              "id": "ts_s1",
+              "en": "Celebrating 50 years!",
+              "ja": "祝 50 周年！"
+            },
+            {
+              "id": "ts_s2",
+              "en": "Stationery Supplies",
+              "ja": "事務用品"
+            },
+            {
+              "id": "ts_s3",
+              "en": "Arigato",
+              "ja": "アリガトウ"
+            },
+            {
+              "id": "ts_s4",
+              "en": "Established 1975",
+              "ja": "1975 年創業"
+            },
+            {
+              "id": "ts_s5",
+              "en": "Special Gift",
+              "ja": "特別プレゼント"
+            },
+            {
+              "id": "ts_s6",
+              "en": "Show this flyer with any purchase and receive a free memo pad!",
+              "ja": "お買い上げの際、このチラシの提示で無料のメモ帳を差し上げます！"
+            },
+            {
+              "id": "ts_s7",
+              "en": "Limited to the first 30 customers.",
+              "ja": "先着 30 名のお客様限定。"
+            },
+            {
+              "id": "ts_s8",
+              "en": "58 Main Street",
+              "ja": "メインストリート 58 番"
+            },
+            {
+              "id": "ts_s9",
+              "en": "Tel.: 555-****",
+              "ja": "電話：555-****"
+            },
+            {
+              "id": "ts_s10",
+              "en": "Weekdays: 10:00 a.m.–6:00 p.m. (Closed on Wednesdays)",
+              "ja": "平日：午前 10 時－午後 6 時（水曜日休業）"
+            },
+            {
+              "id": "ts_s11",
+              "en": "Weekends & Holidays: 11:00 a.m.–5:00 p.m.",
+              "ja": "土日・祝日：午前 11 時－午後 5 時"
+            },
+            {
+              "id": "ts_s12",
+              "en": "MONTHLY SPECIALS!",
+              "ja": "今月の特売品！"
+            },
+            {
+              "id": "ts_s13",
+              "en": "Discounts available for purchases over $60.",
+              "ja": "60 ドルを超えるお買い上げには割引あり。"
+            },
+            {
+              "id": "ts_p1_name",
+              "en": "Delightful Pencil Case",
+              "ja": "Delightful Pencil Case（ペンケース）"
+            },
+            {
+              "id": "ts_p1_desc",
+              "en": "Can be changed into a desktop stand. You can keep your items safely in the trays. This unique case is available in three colors: blue, green, and pink.",
+              "ja": "卓上スタンドにもできます。トレイに物を安全に収納できます。このユニークなケースは、ブルー、グリーン、ピンクの 3 色でお求めになれます。"
+            },
+            {
+              "id": "ts_p2_name",
+              "en": "So Busy Life Planner",
+              "ja": "So Busy Life Planner（手帳）"
+            },
+            {
+              "id": "ts_p2_desc",
+              "en": "Comes in a range of stylish covers. The three columns on each page help you effectively organize your schedule. Your notes on the durable pages can be easily erased and rewritten.",
+              "ja": "さまざまなスタイリッシュなカバーがあります。各ページは 3 つの欄に区切ってあり、スケジュールを要領よくまとめるのに役立ちます。丈夫な紙質のページに書いたメモは、簡単に消したり書き直したりできます。"
+            },
+            {
+              "id": "ts_p3_name",
+              "en": "Ultra-Dream Brush",
+              "ja": "Ultra-Dream Brush（筆ペン）"
+            },
+            {
+              "id": "ts_p3_desc",
+              "en": "Ideal for writing any style of letter or symbol. You can even draw on photographs! The erasable ink comes in red, orange, yellow, green, and blue.",
+              "ja": "どんなスタイルの文字やシンボルを書くのにも最適です。写真の上にまで描けます！消せるインクにはレッド、オレンジ、イエロー、グリーン、ブルーがあります。"
+            },
+            {
+              "id": "ts_p4_name",
+              "en": "Wonderful Tape Kit",
+              "ja": "Wonderful Tape Kit（テープセット）"
+            },
+            {
+              "id": "ts_p4_desc",
+              "en": "Contains four rolls of tape and a cutter. Excellent for decorating scrapbooks and planners, and also making labels and short notes! Available in various seasonal themes.",
+              "ja": "4 本のテープと 1 つのカッターからできています。スクラップ帳やスケジュール帳の飾り付け、そしてラベルや短いメモ作りにも優れています！季節ごとのテーマがいろいろ選べます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 1,
+          "stem": {
+            "en": "To get a lower price, you need to [1].",
+            "ja": "「値段を下げてもらうには，[1]必要がある。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "go to the store on a Wednesday",
+              "ja": "水曜日にお店に行く",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "present the flyer to the sales clerk",
+              "ja": "チラシを店員に提示する",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "shop for items on a weekend or holiday",
+              "ja": "週末や祝日に品物を買いに行く",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "spend more than $60 at one time",
+              "ja": "1度に60ドルより多く使う",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "MONTHLY SPECIALS! の下に Discounts available for purchases over $60. とある。よって割引を受ける条件は一括で 60 ドル超の購入であり④が正解。②のチラシ提示は無料メモ帳の条件であって割引の条件ではない。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts_s12",
+              "ts_s13"
+            ],
+            "instructor_note": {
+              "ja": "割引条件とノベルティ条件を混同しない問題です。",
+              "points": [
+                "ts_s13の「purchases over $60」が設問の lower price に直接対応します。",
+                "ts_s6〜ts_s7はメモ帳プレゼントの条件です（②はこちら側）。",
+                "ts_s10の水曜休業は①の誘惑だが、割引とは無関係です。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 2,
+          "stem": {
+            "en": "Which feature is stated for all the items?",
+            "ja": "「すべての品物に記されている特徴は次のどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The items are erasable.",
+              "ja": "品物は消すことができる。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "The items can be folded.",
+              "ja": "品物は折りたためる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "They are long-lasting.",
+              "ja": "長持ちする。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "They have several options.",
+              "ja": "いくつかの選択肢がある。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "ペンケースは三色展開、プランナーはスタイリッシュなカバーがレンジ、ブラシはインクが五色、テープキットは季節のテーマが様々——いずれも複数の選択肢・バリエーションが示されている。一方、消せるのはプランナーとブラシに限られるなど①は全品には言えない。よって④。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts_p1_desc",
+              "ts_p2_desc",
+              "ts_p3_desc",
+              "ts_p4_desc"
+            ],
+            "instructor_note": {
+              "ja": "「全商品共通」の記述を探す問題です。",
+              "points": [
+                "ts_p1_descの「three colors」、ts_p2_descの「a range of stylish covers」、ts_p3_descの五色のインク、ts_p4_descの「various seasonal themes」が「複数の選択肢・バリエーション」に集約されます。",
+                "erasable は主に手帳・ブラシ（①は全品ではない）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 3,
+          "stem": {
+            "en": "Yesterday you went to the store with the flyer and bought the Wonderful Tape Kit, but you couldn't get a free memo pad. What is the reason most likely to be?",
+            "ja": "「昨日あなたはこのチラシを持って店に行き，Wonderful Tape Kit を買ったが，無料のメモ帳をもらえなかった。それはおそらくどのような理由によるだろうか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Some monthly special items were sold out.",
+              "ja": "一部の月間特売品が売り切れだった。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Thirty people already got the memo pad.",
+              "ja": "30人の人がすでにメモ帳をもらっていた。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "You bought a memo pad recently.",
+              "ja": "あなたは最近メモ帳を買った。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "You purchased a discounted item.",
+              "ja": "あなたは値引き品を購入した。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "無料メモ帳は「チラシ提示＋購入」に加え，Limited to the first 30 customers. の先着限定。チラシを持って購入したのに貰えない場合，最も自然なのはすでに30人に達したため②。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts_s6",
+              "ts_s7"
+            ],
+            "instructor_note": {
+              "ja": "特典の条件を分解して推理する問題です。",
+              "points": [
+                "ts_s7の「first 30 customers」がキーワードです。",
+                "値引き購入（④）はメモ帳の可否とは別論点として切り分けます。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "stationery",
+              "ja": "文房具"
+            },
+            {
+              "en": "celebrate",
+              "ja": "…を祝う"
+            },
+            {
+              "en": "supplies",
+              "ja": "用品"
+            },
+            {
+              "en": "flyer",
+              "ja": "チラシ；びら"
+            },
+            {
+              "en": "purchase",
+              "ja": "（…を）購入（する）；購入品"
+            },
+            {
+              "en": "memo pad",
+              "ja": "メモ帳"
+            },
+            {
+              "en": "limited to ...",
+              "ja": "…に限られた"
+            },
+            {
+              "en": "monthly",
+              "ja": "1か月間の"
+            },
+            {
+              "en": "special",
+              "ja": "特売品"
+            },
+            {
+              "en": "discount",
+              "ja": "（…を）割引（する）"
+            },
+            {
+              "en": "available",
+              "ja": "利用できる；入手できる"
+            },
+            {
+              "en": "delightful",
+              "ja": "楽しい；愉快な"
+            },
+            {
+              "en": "desktop",
+              "ja": "卓上の"
+            },
+            {
+              "en": "tray",
+              "ja": "トレイ；整理箱"
+            },
+            {
+              "en": "planner",
+              "ja": "スケジュール帳；手帳"
+            },
+            {
+              "en": "come in ...",
+              "ja": "〈大きさ・色・種類など〉で手に入る［売られる］"
+            },
+            {
+              "en": "a range of ...",
+              "ja": "さまざまな…"
+            },
+            {
+              "en": "effectively",
+              "ja": "効果的に"
+            },
+            {
+              "en": "durable",
+              "ja": "耐久性のある；丈夫な"
+            },
+            {
+              "en": "erase",
+              "ja": "…を消す"
+            },
+            {
+              "en": "erasable",
+              "ja": "消すことのできる"
+            },
+            {
+              "en": "excellent",
+              "ja": "非常に優れた"
+            },
+            {
+              "en": "decorate",
+              "ja": "…を飾る"
+            },
+            {
+              "en": "seasonal theme",
+              "ja": "季節のテーマ；季題"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "長文読解（オンライン記事）",
+      "situation": {
+        "intro_sentences": [
+          {
+            "id": "ts2_sit1",
+            "en": "You are writing a report about the attitudes of married couples towards housework.",
+            "ja": "あなたは夫婦の家事に対する考え方についてのレポートを書いています。"
+          },
+          {
+            "id": "ts2_sit2",
+            "en": "In order to prepare, you find this online article written by a British exchange student living in Japan.",
+            "ja": "準備のために，日本に住む英国人の交換留学生が書いたこのオンライン記事をあなたは見つけます。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "article_part1",
+          "framed": true,
+          "title": {
+            "en": "<em>Who does what at home?</em>",
+            "ja": "家では誰が何をするの？"
+          },
+          "image": {
+            "src": "data/kyotsu/2025/tsuishiken/images/q02_housework_icons.png",
+            "alt": "Illustrations of housework and childcare",
+            "float": "right",
+            "placement": "before_subtitle"
+          },
+          "subtitle": {
+            "id": "ts2_meta",
+            "align": "left",
+            "en": "12 November 2024<br>Stephen Nitwick<br>Tokomachi, Japan",
+            "ja": "2024年11月12日<br>スティーブン・ニトウィック<br>トウコウマチ，日本"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ts2_p1_s1",
+                "en": "I've been doing a homestay with a Japanese family in Tokomachi City and I've noticed a few differences in the roles of the members between my two families.",
+                "ja": "私はトウコウマチ市の日本人家庭でホームステイをしており，二つの家族の間でメンバーの役割にいくつかの違いに気づきました。"
+              },
+              {
+                "id": "ts2_p1_s2",
+                "en": "For example, my father back in England makes breakfast but my host father takes out the rubbish.",
+                "ja": "たとえば，イギリスにいる父は朝食を作りますが，ホストのお父さんはゴミ出しをします。"
+              },
+              {
+                "id": "ts2_p1_s3",
+                "en": "A few weeks ago, however, my host father also started cooking for us after work.",
+                "ja": "しかし数週間前に，ホストのお父さんは仕事の後にみんなの料理も作るようになりました。"
+              },
+              {
+                "id": "ts2_p1_s4",
+                "en": "His food has become really good with help from an online cooking site.",
+                "ja": "オンラインの料理サイトの助けもあって，彼の作る食べ物は本当においしくなりました。"
+              },
+              {
+                "id": "ts2_p1_s5",
+                "en": "This made me wonder how housework was being shared in other Japanese families in my city.",
+                "ja": "これで私は，自分の住む街の他の日本人家庭では家事がどのように分担されているのだろうと考えるようになりました。"
+              }
+            ],
+            [
+              {
+                "id": "ts2_p2_s1",
+                "en": "I found an online survey of 5,000 Tokomachi residents who are married and have children: Half are husbands and the other half are wives.",
+                "ja": "子どもがいる既婚者 5,000 人のトウコウマチ市民を対象にしたオンライン調査を見つけました。半数は夫，残りの半数は妻です。"
+              },
+              {
+                "id": "ts2_p2_s2",
+                "en": "Of all the respondents, 80% said that wives, in general, do the majority of both the household chores and child raising.",
+                "ja": "回答者全体のうち 80 パーセントは，概して家事と育児の両方の大半は妻が担っていると答えました。"
+              },
+              {
+                "id": "ts2_p2_s3",
+                "en": "Also, 70% of the wives who were surveyed wished their husbands would do more around the house.",
+                "ja": "また，調査対象となった妻の 70 パーセントは，夫に家事をもっとやってほしいと答えました。"
+              },
+              {
+                "id": "ts2_p2_s4",
+                "en": "Furthermore, 60% of the husbands said that they want more responsibility around the home.",
+                "ja": "さらに，夫の 60 パーセントは，家庭でもっと責任を持ちたいと述べました。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "article_part2",
+          "framed": true,
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ts2_p3_s1",
+                "en": "The survey asked the couples about how they could be better partners in housework.",
+                "ja": "調査では夫婦に，家事のパートナーとしてよりよくなるにはどうしたらよいかを尋ねました。"
+              },
+              {
+                "id": "ts2_p3_s2",
+                "en": "The answer among the majority of husbands was shorter working hours for themselves.",
+                "ja": "夫の多数派が選んだ答えは，自分たちの労働時間を短くすることでした。"
+              },
+              {
+                "id": "ts2_p3_s3",
+                "en": "The answer most favoured by wives was a change in their husbands' awareness of household chores and childcare duties.",
+                "ja": "妻に最も支持された答えは，家事と育児の務めに関する夫の意識の変化でした。"
+              },
+              {
+                "id": "ts2_p3_s4",
+                "en": "I find it interesting that husbands and wives perceive the solution to being a better partner from different angles.",
+                "ja": "よりよいパートナーになるための解決策を，夫と妻は異なる観点から捉えていることは興味深いと思います。"
+              }
+            ],
+            [
+              {
+                "id": "ts2_p4_s1",
+                "en": "Although the current situation is not really satisfactory for many respondents in the survey, I think it's still encouraging that many couples want to improve how the housework and childcare tasks are shared.",
+                "ja": "現状は調査の多くの回答者にとって必ずしも満足のゆくものではありませんが，家事と育児の分担の仕方を改善したいと考える夫婦が多いことは，なお励みになると思います。"
+              },
+              {
+                "id": "ts2_p4_s2",
+                "en": "The future looks promising.",
+                "ja": "将来は有望に見えます。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "Which option best describes Stephen's <u>opinion</u>? [4]",
+            "ja": "「次の選択肢の中で，スティーブンの<u>意見</u>を最も適切に表しているものはどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Stephen's father makes breakfast every day.",
+              "ja": "スティーブンの父親は毎日朝食を作っている。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Stephen's father should learn cooking online.",
+              "ja": "スティーブンの父親はオンラインで料理を学ぶべきだ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Stephen's host father has his own online cooking site.",
+              "ja": "スティーブンのホストファミリーの父親は自分のオンライン料理サイトを持っている。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Stephen's host father's cooking has got tasty.",
+              "ja": "スティーブンのホストファミリーの父親の料理はおいしくなった。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第１段落でホスト父の料理がおいしくなったことは述べられているが，①は「事実」であって設問が求める「意見」とはみなしにくい。④がスティーブンの評価・態度を示す。②③は本文にない。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts2_p1_s3",
+              "ts2_p1_s4"
+            ],
+            "instructor_note": {
+              "ja": "fact と opinion を区別する問題です。",
+              "points": [
+                "ts2_p1_s3〜ts2_p1_s4 の「料理がおいしくなった」はスティーブンの評価に近い。",
+                "朝食を作る父の例（ts2_p1_s2）は客観的な対比（fact）として扱う。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "According to the survey data, which of the following is true? [5]",
+            "ja": "「調査データによると，次の中で正しいのはどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Less than half of the survey participants have children.",
+              "ja": "調査の参加者の中で子どもがいる人は半数未満だ。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "More than half of the husbands surveyed do most of the housework.",
+              "ja": "調査された夫の中で家事のほとんどを行っている人は半数を超えている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "More than half of the wives want their husbands to do more housework.",
+              "ja": "夫にもっと家事をしてほしいと思っている妻は半数を超えている。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "More wives than husbands participated in the survey.",
+              "ja": "調査に参加したのは夫よりも妻が多い。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "第２段落に「妻の 70 パーセントは夫にもっと家事をしてほしい」とあるため，半数を超える③が正しい。①〜④の他の選択肢は本文と合わない。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts2_p2_s1",
+              "ts2_p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "パーセンテージと母集団の条件を正確に読む問題です。",
+              "points": [
+                "ts2_p2_s1 で対象は married and have children の 5,000 人・男女半々と限定される。",
+                "ts2_p2_s3 の 70% が③の根拠。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "Which of the following is true about the results of the survey? [6]",
+            "ja": "「調査の結果に関して正しいのは次のどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Husbands and wives have similar preferences for household tasks.",
+              "ja": "夫と妻は家事の仕事についての好みが似ている。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Husbands want to do household chores more than child raising.",
+              "ja": "夫は育児よりも家事をやりたがっている。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Many husbands think they need to be at their workplace less.",
+              "ja": "多くの夫は職場にいる時間を少なくする必要があると思っている。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Wives think their husbands' awareness of household duties has changed.",
+              "ja": "夫の家事の務めに対する意識は変わってきたと妻は思っている。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "第３段落に夫の多数派の答えとして「自分たちの労働時間を短くする」とあるため③が正解。妻側の答えは「夫の意識の変化」であり，④のように「すでに変わった」とは読めない。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts2_p3_s2",
+              "ts2_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "「夫側・妻側で答えが違う」箇所を突く問題です。",
+              "points": [
+                "ts2_p3_s2 の shorter working hours が③に対応。",
+                "ts2_p3_s3 は awareness の「変化」を望むのであり，変化したという主張（④）とは異なる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "Which of the following best describes Stephen's attitude towards the sharing of housework in Japanese families? [7]",
+            "ja": "「次の中で，日本人家族の家事の分担に対するスティーブンの態度を最も適切に表しているものはどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Completely satisfied",
+              "ja": "完全に満足している",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Definitely disappointed",
+              "ja": "間違いなく失望している",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Moderately hopeful",
+              "ja": "ある程度の希望を持っている",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Mostly negative",
+              "ja": "大部分否定的である",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "最終段落の encouraging（励みになる）と promising（有望な）が示す通り，現状への留保はあるものの前向きさが強調される。よって moderately hopeful の③。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts2_p4_s1",
+              "ts2_p4_s2"
+            ],
+            "instructor_note": {
+              "ja": "トーン（語彙のポジティブ／ネガティブ）を読み取る問題です。",
+              "points": [
+                "ts2_p4_s1 の satisfactory でない点と encouraging の対比に注意。",
+                "ts2_p4_s2 の promising が希望のトーンを裏づける。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "homestay",
+              "ja": "ホームステイ"
+            },
+            {
+              "en": "host",
+              "ja": "〈自宅に留学生を迎える〉ホスト；主人役"
+            },
+            {
+              "en": "take out the rubbish",
+              "ja": "ゴミを出す"
+            },
+            {
+              "en": "resident",
+              "ja": "住民"
+            },
+            {
+              "en": "respondent",
+              "ja": "回答者"
+            },
+            {
+              "en": "in general",
+              "ja": "概して"
+            },
+            {
+              "en": "majority",
+              "ja": "大部分"
+            },
+            {
+              "en": "household chores",
+              "ja": "家事"
+            },
+            {
+              "en": "child raising",
+              "ja": "育児；子育て"
+            },
+            {
+              "en": "furthermore",
+              "ja": "さらに；加えて"
+            },
+            {
+              "en": "responsibility",
+              "ja": "責任"
+            },
+            {
+              "en": "working hours",
+              "ja": "労働［勤務］時間"
+            },
+            {
+              "en": "favour",
+              "ja": "賛成［支持］する（米: favor）"
+            },
+            {
+              "en": "awareness",
+              "ja": "意識"
+            },
+            {
+              "en": "perceive",
+              "ja": "…を知覚［認識］する"
+            },
+            {
+              "en": "angle",
+              "ja": "角度；観点"
+            },
+            {
+              "en": "current situation",
+              "ja": "現状"
+            },
+            {
+              "en": "satisfactory",
+              "ja": "満足のゆく"
+            },
+            {
+              "en": "encouraging",
+              "ja": "励みになる"
+            },
+            {
+              "en": "improve",
+              "ja": "…を改善する"
+            },
+            {
+              "en": "promising",
+              "ja": "有望な"
+            },
+            {
+              "en": "describe",
+              "ja": "…を説明［描写］する"
+            },
+            {
+              "en": "tasty",
+              "ja": "おいしい"
+            },
+            {
+              "en": "the following",
+              "ja": "次に述べること"
+            },
+            {
+              "en": "participant",
+              "ja": "参加者"
+            },
+            {
+              "en": "participate",
+              "ja": "参加する"
+            },
+            {
+              "en": "preference",
+              "ja": "好み"
+            },
+            {
+              "en": "definitely",
+              "ja": "絶対に"
+            },
+            {
+              "en": "moderately",
+              "ja": "適度に；ほどほどに"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "points_per_question": 3,
+      "description": "長文読解（物語）",
+      "situation": {
+        "intro_sentences": [
+          {
+            "id": "ts3_sit1",
+            "en": "You are studying in the UK, and your teacher asked you to find an interesting story.",
+            "ja": "あなたは英国で勉強していて，先生から面白いストーリーを見つけるよう求められました。"
+          },
+          {
+            "id": "ts3_sit2",
+            "en": "You found this story to share in your own words with your classmates next week.",
+            "ja": "あなたは来週自分の言葉でクラスメートに話すこのストーリーを見つけました。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "story_sora",
+          "framed": true,
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ts3_p1_s1",
+                "en": "Sora gazed out of her cabin window on the <em>Fantastica</em>, a modern spaceship.",
+                "ja": "ソラは最新式の宇宙船であるファンタスティカの船室の窓から外を眺めた。"
+              },
+              {
+                "id": "ts3_p1_s2",
+                "en": "She still couldn't believe her good luck—it was like a dream come true.",
+                "ja": "彼女はまだ自分の幸運を信じられなかった。まるで夢が実現したようだった。"
+              },
+              {
+                "id": "ts3_p1_s3",
+                "en": "Only six months ago she had won a holiday to planet <em>Palinosia</em> as the winner of the 2135 Young Innovators' Contest for the robot she had created.",
+                "ja": "彼女はつい半年前に，自分が作り出したロボットで，2135年度の青年イノベーターズ・コンテストの優勝者として惑星パリノシアへの旅行を獲得していた。"
+              },
+              {
+                "id": "ts3_p1_s4",
+                "en": "A short tune played loudly throughout the ship, interrupting Sora's thoughts.",
+                "ja": "短いメロディーが船内全体に響き渡り，ソラの思考をさえぎった。"
+              },
+              {
+                "id": "ts3_p1_s5",
+                "en": "An announcement followed, \"Attention passengers. We are approaching <em>Palinosia</em>. For those of you who'll be landing on the planet, please go to the departure area in 45 minutes. Thank you.\"",
+                "ja": "その後でアナウンスがあった。「お客様にお知らせいたします。パリノシアが近づいてまいりました。この星でお降りの方は，45分後に出発エリアにお越しください。ありがとうございます」"
+              },
+              {
+                "id": "ts3_p1_s6",
+                "en": "In her science class, one of the many high school classes that she did well in, Sora had first watched videos of the beautiful planet.",
+                "ja": "ソラが良い成績を収めた数多くの高校のクラスの１つである理科のクラスで，彼女は初めてこの美しい惑星のビデオを見た。"
+              },
+              {
+                "id": "ts3_p1_s7",
+                "en": "She was really excited because she finally had a chance to see it in person.",
+                "ja": "ついにそれを直接見る機会を得たことから，彼女は実に興奮した。"
+              },
+              {
+                "id": "ts3_p1_s8",
+                "en": "\"First things first; I have to make sure that my video camera is fully charged,\" Sora reminded herself.",
+                "ja": "「何はともあれ，ビデオカメラはちゃんと充電してあるわね」とソラは自分に言い聞かせた。"
+              },
+              {
+                "id": "ts3_p1_s9",
+                "en": "Then, she double-checked her spacesuit, helmet, boots, and gloves.",
+                "ja": "それから彼女は宇宙服，ヘルメット，ブーツ，手袋を再確認した。"
+              },
+              {
+                "id": "ts3_p1_s10",
+                "en": "Her spacesuit was not new, but it was in excellent condition because she had upgraded it with the latest parts.",
+                "ja": "彼女の宇宙服は新しくはなかったが，最新のパーツを使って自分で改良しておいたので，状態はとても良かった。"
+              },
+              {
+                "id": "ts3_p1_s11",
+                "en": "In fact, it had been recently used by her mother, Mirai Hoshino, the famous space explorer who was among the first humans to visit planet <em>Sandoneus</em>.",
+                "ja": "実はそれは彼女の母親で，惑星サンドネウスを初めて訪れた人類の１人であった有名な宇宙探検家ホシノ・ミライが最近使ったものだった。"
+              },
+              {
+                "id": "ts3_p1_s12",
+                "en": "Upon hearing the news of Sora winning the trip, Mirai gladly presented her with the gear.",
+                "ja": "ソラがこの旅行を獲得した知らせを聞くと，ミライは喜んで彼女に宇宙服を贈った。"
+              }
+            ],
+            [
+              {
+                "id": "ts3_p2_s1",
+                "en": "After the door opened, one by one, the excited tourists went down the ladder onto the planet's surface.",
+                "ja": "ドアが開くと，一人また一人と，興奮した旅行者たちはハシゴで惑星の表面に降り立った。"
+              },
+              {
+                "id": "ts3_p2_s2",
+                "en": "Sora walked around slowly, taking in the wonderful view.",
+                "ja": "ソラはゆっくりと歩き回り，素晴らしい眺めに見入っていた。"
+              },
+              {
+                "id": "ts3_p2_s3",
+                "en": "The landscape was amazing!",
+                "ja": "見事な景色だった！"
+              },
+              {
+                "id": "ts3_p2_s4",
+                "en": "The videos that she had seen had not fully prepared her for it.",
+                "ja": "事前に見たビデオでは，心の準備は十分にできなかった。"
+              },
+              {
+                "id": "ts3_p2_s5",
+                "en": "Suddenly, Sora felt a tap on her right shoulder.",
+                "ja": "突然ソラは右肩を軽く叩かれた感じがした。"
+              },
+              {
+                "id": "ts3_p2_s6",
+                "en": "As she turned to look, a brilliant light filled her eyes.",
+                "ja": "振り返ってみると，まばゆい光が彼女の目いっぱいに広がった。"
+              },
+              {
+                "id": "ts3_p2_s7",
+                "en": "\"You've got to get ready for school,\" her mother said as she opened the curtains.",
+                "ja": "「学校へ行く支度をしなさい」と母親がカーテンを開けながら言った。"
+              },
+              {
+                "id": "ts3_p2_s8",
+                "en": "\"Oh, it was a dream...\" Sora sadly said to herself as she sat up in her bed.",
+                "ja": "「ああ，夢だったのね…」とソラは悲しげに心の中で思い，ベッドの中で体を起こした。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 8,
+          "stem": {
+            "en": "In the first paragraph, Sora can be described as [ 8 ].",
+            "ja": "「第１段落で，ソラは［8］と描写できる。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a careless pilot",
+              "ja": "不注意なパイロット",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "a talented photographer",
+              "ja": "才能ある写真家",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "bad at science",
+              "ja": "理科が苦手",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "good with technology",
+              "ja": "科学技術の扱いが得意",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "ロボットでコンテストに優勝したこと，理科の授業の成績が良いこと，宇宙服を最新パーツで改良していることなどから，技術に強い④が最も適切。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts3_p1_s3",
+              "ts3_p1_s6",
+              "ts3_p1_s10"
+            ],
+            "instructor_note": {
+              "ja": "段落全体の描写から人物像をまとめる問題です。",
+              "points": [
+                "ts3_p1_s3 のロボット製作とコンテスト優勝がキーワード。",
+                "ts3_p1_s6 の science class / did well と ts3_p1_s10 の upgraded / latest parts を束ねると「技術」とつながる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "question_type": "ordering",
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "stem": {
+            "en": "Choose four out of the five options (①~⑤) and put them in the order they appeared in the story. [ 9 ] → [ 10 ] → [ 11 ] → [ 12 ]",
+            "ja": "「次の①〜⑤のうち４つを選び，物語に登場した順に並べよ。［9］→［10］→［11］→［12］」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Sora landed on a planet.",
+              "ja": "ソラは惑星に降り立った。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Sora repaired her video system.",
+              "ja": "ソラは自分のビデオシステムを修理した。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Sora was given equipment.",
+              "ja": "ソラは装備を与えられた。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Sora was told to get ready for school.",
+              "ja": "ソラは学校の支度をしなさいと言われた。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Sora won a space trip.",
+              "ja": "ソラは宇宙旅行を獲得した。",
+              "is_correct": true
+            }
+          ],
+          "answer": "⑤→③→①→④",
+          "answer_sequence": [
+            "⑤",
+            "③",
+            "①",
+            "④"
+          ],
+          "explanation": {
+            "quoted_ja": "②に相当する記述は本文にない。登場順は旅行当選（⑤）→母から宇宙服（③）→惑星に降りる（①）→学校の支度（④）。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts3_p1_s3",
+              "ts3_p1_s12",
+              "ts3_p2_s1",
+              "ts3_p2_s7"
+            ],
+            "instructor_note": {
+              "ja": "「本文にないイベント」をあらかじめ除き，残りを時系列で並べます。",
+              "points": [
+                "⑤は ts3_p1_s3（コンテスト優勝・旅行獲得）。",
+                "③は ts3_p1_s12（ミライが gear を渡す）。",
+                "①は ts3_p2_s1（惑星の表面へ）。",
+                "④は ts3_p2_s7（夢覚めの声かけ）。ビデオ「修理」は文中にない（②）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "How did Sora most likely feel at the end of the story? [ 13 ]",
+            "ja": "「物語の終わりで，ソラはおそらくどのように感じていたか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Bored",
+              "ja": "退屈した",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Disappointed",
+              "ja": "がっかりした",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Excited",
+              "ja": "興奮した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Prepared",
+              "ja": "準備ができた",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "最終文で夢だとわかり sadly とあるため，期待した宇宙旅行が夢に終わった落胆②が妥当。興奮はこれより前の描写。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts3_p2_s8"
+            ],
+            "instructor_note": {
+              "ja": "語彙 sadly と反語・対比（夢か現実か）に注目する問題です。",
+              "points": [
+                "ts3_p2_s8 の sadly と \"Oh, it was a dream...\" がトーンの核心。",
+                "excited は ts3_p1_s7 付近のムードで，設問は「終わり」に限定される。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "gaze",
+              "ja": "〈動〉見つめる"
+            },
+            {
+              "en": "cabin",
+              "ja": "〈名〉船室"
+            },
+            {
+              "en": "a dream come true",
+              "ja": "実現した夢；夢がかなうこと"
+            },
+            {
+              "en": "planet",
+              "ja": "〈名〉惑星"
+            },
+            {
+              "en": "innovator",
+              "ja": "〈名〉革新者"
+            },
+            {
+              "en": "tune",
+              "ja": "〈名〉曲；メロディー"
+            },
+            {
+              "en": "interrupt",
+              "ja": "〈動〉…をさえぎる"
+            },
+            {
+              "en": "thought",
+              "ja": "〈名〉思考"
+            },
+            {
+              "en": "approach",
+              "ja": "〈動〉…に近づく"
+            },
+            {
+              "en": "departure",
+              "ja": "〈名〉出発"
+            },
+            {
+              "en": "in person",
+              "ja": "直接自分で"
+            },
+            {
+              "en": "first things first",
+              "ja": "最も大事なことを最初に（しよう）；何はともあれ"
+            },
+            {
+              "en": "make sure that ...",
+              "ja": "…を確かめる［確実にする］"
+            },
+            {
+              "en": "charge",
+              "ja": "〈動〉…を充電する"
+            },
+            {
+              "en": "remind oneself",
+              "ja": "自分に言い聞かせる"
+            },
+            {
+              "en": "double-check",
+              "ja": "〈動〉…を再確認する"
+            },
+            {
+              "en": "excellent",
+              "ja": "〈形〉非常に優れた"
+            },
+            {
+              "en": "upgrade",
+              "ja": "〈動〉…を改良する"
+            },
+            {
+              "en": "latest",
+              "ja": "〈形〉最新の"
+            },
+            {
+              "en": "explorer",
+              "ja": "〈名〉探検家"
+            },
+            {
+              "en": "Upon hearing ...",
+              "ja": "…を聞くと（すぐに）"
+            },
+            {
+              "en": "gladly",
+              "ja": "〈副〉喜んで；進んで"
+            },
+            {
+              "en": "present A with B",
+              "ja": "AにBを贈呈する"
+            },
+            {
+              "en": "gear",
+              "ja": "〈名〉道具；装備 ≒ equipment"
+            },
+            {
+              "en": "one by one",
+              "ja": "１人ずつ"
+            },
+            {
+              "en": "ladder",
+              "ja": "〈名〉ハシゴ"
+            },
+            {
+              "en": "surface",
+              "ja": "〈名〉表面"
+            },
+            {
+              "en": "take in",
+              "ja": "見てとる；じっくり見る"
+            },
+            {
+              "en": "amazing",
+              "ja": "〈形〉すばらしい"
+            },
+            {
+              "en": "tap",
+              "ja": "〈名〉軽くたたくこと"
+            },
+            {
+              "en": "brilliant",
+              "ja": "〈形〉とても鮮やかな"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ（教師コメント）",
+      "situation": {
+        "intro_sentences": [
+          {
+            "id": "ts4_sit1",
+            "en": "In English class, you are writing an essay on changes you would like to see in schools.",
+            "ja": "英語のクラスであなたは学校に起こってほしい変化についてのエッセイを書いています。"
+          },
+          {
+            "id": "ts4_sit2",
+            "en": "This is your most recent draft.",
+            "ja": "これはあなたの草稿の最新版です。"
+          },
+          {
+            "id": "ts4_sit3",
+            "en": "You are now working on revisions based on comments from your teacher.",
+            "ja": "あなたは現在，先生からのコメントに基づいて修正を行っています。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "homework_essay",
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "Your title is too vague. It doesn't describe the change in schools. Rewrite it.",
+              "ja": "あなたのタイトルはあいまいすぎます。学校での変化を表していません。書き換えなさい。"
+            },
+            {
+              "marker": "(2)",
+              "en": "This sentence doesn't connect well. Add a phrase to the beginning.",
+              "ja": "この文はつながりがよくありません。冒頭にフレーズを加えなさい。"
+            },
+            {
+              "marker": "(3)",
+              "en": "What do you mean by \"more\"? Explain it.",
+              "ja": "「more」とはどういう意味ですか。説明しなさい。"
+            },
+            {
+              "marker": "(4)",
+              "en": "In this summary sentence, an important point is missing. Add it.",
+              "ja": "この要約の文では重要な点が欠けています。それを加えなさい。"
+            }
+          ],
+          "paragraph_classes": [
+            "essay-draft-title",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ts4_s1",
+                "en": "(1) Homework",
+                "ja": "(1) 宿題",
+                "comment_marker": "(1)",
+                "underline_word": "(1) Homework"
+              }
+            ],
+            [
+              {
+                "id": "ts4_s2",
+                "en": "Students in our school always have homework.",
+                "ja": "私たちの学校の生徒はいつも宿題を抱えています。"
+              },
+              {
+                "id": "ts4_s3",
+                "en": "On regular school nights, we may spend several hours on it.",
+                "ja": "翌日学校がある普通の夜には，私たちは数時間宿題をすることもあります。"
+              },
+              {
+                "id": "ts4_s4",
+                "en": "Teachers tend to assign tasks on the weekends, too.",
+                "ja": "先生は週末にも宿題を出すことが多くあります。"
+              },
+              {
+                "id": "ts4_s5",
+                "en": "As a result, students may have to sit at a desk for a long time on Saturdays and Sundays.",
+                "ja": "その結果，生徒は土日に長時間机の前に座らなければならないことがあるのです。"
+              },
+              {
+                "id": "ts4_s6",
+                "en": "Schools should allow students to have one homework-free weekend every month.",
+                "ja": "学校は生徒が毎月１回宿題のない週末を過ごすのを許すべきだと思います。"
+              },
+              {
+                "id": "ts4_s7",
+                "en": "This essay suggests the benefits of schools introducing it.",
+                "ja": "このエッセイでは，学校がそれを導入する利点を提示します。"
+              }
+            ],
+            [
+              {
+                "id": "ts4_s8",
+                "en": "Firstly, on a homework-free weekend, students can study lesson materials based on their needs.",
+                "ja": "第一に，宿題のない週末には，生徒は自分の必要に基づいて教材を学習することができます。"
+              },
+              {
+                "id": "ts4_s9",
+                "en": "Some students may want more time to thoroughly understand what they have studied.",
+                "ja": "学習したことを完全に理解するのにより多くの時間が欲しいと思う生徒がいるかもしれません。"
+              },
+              {
+                "id": "ts4_s10",
+                "en": "They can also read the upcoming chapters in their textbooks, if they choose.",
+                "ja": "その気になれば，教科書でもうすぐ学習する章を読むこともできます。"
+              },
+              {
+                "id": "ts4_s11",
+                "en": "(2) They may feel more confident and be able to concentrate better during classes.",
+                "ja": "(2) 自信が増して，授業中により集中できるかもしれません。",
+                "comment_marker": "(2)",
+                "underline_word": "(2) They may feel more confident and be able to concentrate better during classes."
+              }
+            ],
+            [
+              {
+                "id": "ts4_s12",
+                "en": "Secondly, while going over past lessons and studying for future lessons are useful for some students, others actually want (3) more.",
+                "ja": "第二に，過去の授業の復習や未来の授業の予習をすることが役に立つ生徒もいますが，実際には(3)もっと多くのことを望む生徒もいるのです。",
+                "comment_marker": "(3)",
+                "underline_word": "(3) more"
+              },
+              {
+                "id": "ts4_s13",
+                "en": "They would prefer to spend their time learning new or different things.",
+                "ja": "彼らは新しい，あるいは違う物事を学ぶのに時間を使うことをより好むかもしれません。"
+              },
+              {
+                "id": "ts4_s14",
+                "en": "For example, on one weekend, they could do their own research online or in the library.",
+                "ja": "たとえば１回の週末で，オンラインや図書館で自分独自の研究をすることができるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "ts4_s15",
+                "en": "Finally, students could take a break without worrying about homework.",
+                "ja": "最後に，生徒は宿題の心配をしないでひと休みできるでしょう。"
+              },
+              {
+                "id": "ts4_s16",
+                "en": "They would be able to refresh and reset their minds and bodies on the no-homework weekend.",
+                "ja": "宿題のない週末には頭や体のリフレッシュやリセットができるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "ts4_s17",
+                "en": "Students might feel motivated to work even harder during the week if they had a regular homework-free weekend.",
+                "ja": "宿題のない週末が定期的にあれば，生徒は平日にはさらに熱心に勉強する気になるかもしれません。"
+              },
+              {
+                "id": "ts4_s18",
+                "en": "This would improve their academic performance, which would also help them in the future.",
+                "ja": "これによって彼らの成績は向上し，そのことがまた将来彼らの役に立つでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "ts4_s19",
+                "en": "In conclusion, students should be given one weekend with no homework assignments every month.",
+                "ja": "結論として，毎月１度宿題のない週末を生徒に与えるべきだと思います。"
+              },
+              {
+                "id": "ts4_s20",
+                "en": "(4) They could review or preview the lesson content or learn new things.",
+                "ja": "(4) 生徒は授業内容の復習や予習をしたり，新しいことを学んだりできるでしょう。",
+                "comment_marker": "(4)",
+                "underline_word": "(4) They could review or preview the lesson content or learn new things."
+              },
+              {
+                "id": "ts4_s21",
+                "en": "In this way, students could enjoy their lives at school and at home even more.",
+                "ja": "このようにして，生徒は学校や家での生活をさらに楽しむことができるでしょう。"
+              }
+            ]
+          ],
+          "teacher_comment": {
+            "title_en": "Overall Comments:",
+            "title_ja": "〈全体的なコメント〉",
+            "en": "<em>You have proposed a really interesting idea. Maybe teachers could also benefit from this system. I think you can make your essay even better. Keep working on it. ☺</em>",
+            "ja": "あなたは実に興味深いアイデアを提案しています。先生たちもこの仕組みから利益を得られるかもしれません。あなたのエッセイはさらによくできると思います。その調子で取り組み続けなさい。☺"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on Comment (1), which is the best title? [ 14 ]",
+            "ja": "「コメント(1)に基づけば，最も適切なタイトルはどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Monthly Homework-Free Week",
+              "ja": "月に１度の宿題のない週",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Monthly Homework-Free Weekend",
+              "ja": "月に１度の宿題のない週末",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "No Homework on Saturdays and Sundays",
+              "ja": "土日は宿題なし",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "No Homework on Weekdays",
+              "ja": "平日は宿題なし",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "第１段落に「毎月１回の宿題のない週末」とあるため，②が最も適切なタイトル。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts4_s6"
+            ],
+            "instructor_note": {
+              "ja": "コメント(1)はタイトルの具体性を求める。本文のキーフレーズと一致する選択肢を選ぶ。",
+              "points": [
+                "ts4_s6 の「one homework-free weekend every month」が②に対応。",
+                "week（①）や平日・土日のみ（③④）は本文の提案とずれる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on Comment (2), choose the best phrase to add at the beginning of the sentence: \" [ 15 ] , they may feel more confident and be able to concentrate better during classes.\"",
+            "ja": "「コメント(2)に基づき，次の文の冒頭に加えるのに最も適切な語句を選びなさい。『［15］，自信が増して，授業中により集中できるかもしれません。』」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "By giving priority to regular homework",
+              "ja": "通常の宿題を優先することによって",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "By memorizing the content of their textbook",
+              "ja": "教科書の内容を暗記することによって",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "By reading or writing a summary",
+              "ja": "要約を読んだり書いたりすることによって",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "By reviewing or doing preparation",
+              "ja": "復習や予習をすることによって",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第２段落で理解を深めたり教科書の先行章を読んだりすることは復習・予習にあたるため，④が接続として最も自然。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts4_s9",
+              "ts4_s10",
+              "ts4_s11"
+            ],
+            "instructor_note": {
+              "ja": "直前の「教材を自分のペースで」「理解」「教科書の章」の語に対応する前置きを選ぶ。",
+              "points": [
+                "ts4_s9 の thoroughly understand は復習に近い。",
+                "ts4_s10 の read the upcoming chapters は予習に対応し④と整合。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on Comment (3), which is the best explanation to replace the underlined word? [ 16 ]",
+            "ja": "「コメント(3)に基づけば，下線部の語に置き換わる最適な説明はどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "to check their understanding",
+              "ja": "自分の理解を確認すること",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "to expand their knowledge",
+              "ja": "自分の知識を増やすこと",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "to finish their homework faster",
+              "ja": "自分の宿題をより速く仕上げること",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "to spend extra time at home",
+              "ja": "家で余分な時間を過ごすこと",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "「more」は続く「新しい，あるいは違う物事を学ぶ」研究などと結びつき，知識を広げること②が最適。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts4_s12",
+              "ts4_s14"
+            ],
+            "instructor_note": {
+              "ja": "下線の「more」が指す内容を第３段落全体で補う。",
+              "points": [
+                "ts4_s14 の learning new or different things / research が「知の拡張」の手がかり。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on Comment (4), choose the best point to add at the end of the sentence: \"They could review or preview the lesson content, learn new things, or [ 17 ].\"",
+            "ja": "「コメント(4)に基づいて，次の文の末尾に加えるべき最も適切な点を選びなさい。『生徒は授業内容の復習や予習をしたり，新しいことを学んだり，あるいは［17］ことができるでしょう』」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "develop new learning strategies",
+              "ja": "新しい学習戦略を身につける",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "forget about schoolwork and relax",
+              "ja": "学業のことを忘れてリラックスする",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "reflect on their classroom lessons",
+              "ja": "教室で学んだことをじっくり考える",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "study harder than on weekdays",
+              "ja": "平日よりも熱心に勉強する",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "要約(4)には第４段落の「宿題を気にせず休む／心身をリフレッシュ」の利点が抜けている。②がそれに相当。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts4_s15",
+              "ts4_s16",
+              "ts4_s20"
+            ],
+            "instructor_note": {
+              "ja": "Firstly／Secondly／Finally の三つの利点を結論でそろえる問題。",
+              "points": [
+                "ts4_s15〜ts4_s16 が「休む・リフレッシュ」に対応し，結論の並列に足りない要素。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "revision",
+              "ja": "〈名〉修正；変更"
+            },
+            {
+              "en": "based on ...",
+              "ja": "…に基づいて"
+            },
+            {
+              "en": "school night",
+              "ja": "翌日学校がある夜"
+            },
+            {
+              "en": "assign",
+              "ja": "〈動〉…を与える；課す"
+            },
+            {
+              "en": "assignment",
+              "ja": "〈名〉課題"
+            },
+            {
+              "en": "as a result",
+              "ja": "その結果"
+            },
+            {
+              "en": "homework-free",
+              "ja": "〈形〉宿題のない"
+            },
+            {
+              "en": "benefit",
+              "ja": "〈名〉〈動〉恩恵（を得る）"
+            },
+            {
+              "en": "lesson materials",
+              "ja": "教材"
+            },
+            {
+              "en": "thoroughly",
+              "ja": "〈副〉完全に"
+            },
+            {
+              "en": "upcoming",
+              "ja": "〈形〉まもなくやって来る"
+            },
+            {
+              "en": "concentrate",
+              "ja": "〈動〉集中する"
+            },
+            {
+              "en": "go over ...",
+              "ja": "…を繰り返す［復習する］"
+            },
+            {
+              "en": "prefer to ~",
+              "ja": "～する方を好む"
+            },
+            {
+              "en": "refresh",
+              "ja": "〈動〉…をさわやかにする；元気づける"
+            },
+            {
+              "en": "reset",
+              "ja": "〈動〉…を再起動する；修復する"
+            },
+            {
+              "en": "motivate O to ~",
+              "ja": "Oを動機づけて～させる"
+            },
+            {
+              "en": "improve",
+              "ja": "〈動〉…を改善する"
+            },
+            {
+              "en": "academic performance",
+              "ja": "学業成績"
+            },
+            {
+              "en": "in conclusion",
+              "ja": "結論として；要するに"
+            },
+            {
+              "en": "review",
+              "ja": "〈動〉…を復習する"
+            },
+            {
+              "en": "preview",
+              "ja": "〈動〉…を下検分する；先立って見る"
+            },
+            {
+              "en": "content",
+              "ja": "〈名〉内容"
+            },
+            {
+              "en": "vague",
+              "ja": "〈形〉あいまいな；漠然とした"
+            },
+            {
+              "en": "connect",
+              "ja": "〈動〉つながる"
+            },
+            {
+              "en": "summary sentence",
+              "ja": "要約文"
+            },
+            {
+              "en": "missing",
+              "ja": "〈形〉欠けている"
+            },
+            {
+              "en": "propose",
+              "ja": "〈動〉…を提案する"
+            },
+            {
+              "en": "preparation",
+              "ja": "〈名〉準備"
+            },
+            {
+              "en": "expand",
+              "ja": "〈動〉…を拡大する"
+            },
+            {
+              "en": "learning strategies",
+              "ja": "学習戦略"
+            },
+            {
+              "en": "reflect on ...",
+              "ja": "…を熟考する"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "description": "長文（フェスティバル・調査結果・メモ）",
+      "situation": {
+        "intro_sentences": [
+          {
+            "id": "ts5_sit1",
+            "en": "You are an exchange student in the US and have joined the festival committee in your community. You read the following article and use last year's survey results to create a memo for the upcoming meeting.",
+            "ja": "あなたは米国にいる交換留学生で，地域のフェスティバル委員会に入りました。あなたは下の記事を読み，昨年の調査結果を利用して，近く行われる会議のための覚え書きを作成します。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "festival_article",
+          "framed": true,
+          "title": {
+            "en": "Festival Fundamentals"
+          },
+          "subtitle": {
+            "id": "ts5_sub_author",
+            "en": "by Kandi Russell",
+            "ja": "著者：カンディ・ラッセル",
+            "align": "right"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ts5_art_p1_s1",
+                "en": "Local communities hold festivals for a variety of purposes.",
+                "ja": "地域社会はさまざまな目的でフェスティバルを開催します。"
+              },
+              {
+                "id": "ts5_art_p1_s2",
+                "en": "They often include stands selling local products, performances, and workshops where visitors can try new things.",
+                "ja": "その中には多くの場合，地産品を売る露店，演芸，訪れる人々が新しいことを試せるワークショップなどが含まれます。"
+              },
+              {
+                "id": "ts5_art_p1_s3",
+                "en": "For festivals to run smoothly, organizers usually follow the &quot;SLA Festival Model&quot;: <em>Scheme, Location, and Assistance</em>.",
+                "ja": "フェスティバルの円滑な運営のため，主催者は普通「SLA フェスティバル・モデル」に従います。これはスキーム（Scheme），ロケーション（Location），アシスタンス（Assistance）のことです。"
+              }
+            ],
+            [
+              {
+                "id": "ts5_art_p2_s1",
+                "en": "<em>Scheme</em> relates to how easy it is to arrange, co-ordinate, and hold the event within a specific time frame.",
+                "ja": "スキームとは，特定の時間枠の中でイベントの準備，調整，そして開催まで行うのがどれほど簡単かに関する言葉です。"
+              },
+              {
+                "id": "ts5_art_p2_s2",
+                "en": "Do you have enough time to plan and advertise your event?",
+                "ja": "イベントを計画して宣伝するのに十分な時間はありますか。"
+              },
+              {
+                "id": "ts5_art_p2_s3",
+                "en": "Do the local sellers have enough time to prepare items that people will want to buy?",
+                "ja": "人々が買いたがる物品を地元の業者が準備する十分な時間はありますか。"
+              },
+              {
+                "id": "ts5_art_p2_s4",
+                "en": "Is there time to arrange for workshops that visitors will be interested in?",
+                "ja": "訪れる人々が興味を持つようなワークショップを準備する時間はありますか。"
+              },
+              {
+                "id": "ts5_art_p2_s5",
+                "en": "We suggest allowing at least two months to organize your festival.",
+                "ja": "私たちはフェスティバルを作り上げるまで少なくとも2か月は見込むことを提案しています。"
+              },
+              {
+                "id": "ts5_art_p2_s6",
+                "en": "During this time, you should arrange for sellers, performers, and people to give workshops.",
+                "ja": "この期間で物品販売をする人，演芸をする人，ワークショップをやってくれる人を手配するべきです。"
+              }
+            ],
+            [
+              {
+                "id": "ts5_art_p3_s1",
+                "en": "<em>Location</em> relates to the actual place of the festival.",
+                "ja": "ロケーションとは，フェスティバルを行う実際の場所のことを言います。"
+              },
+              {
+                "id": "ts5_art_p3_s2",
+                "en": "Some locations are far superior to others because they are accessible, visible, and large enough to accommodate all of the stands, workshop areas, and your visitors.",
+                "ja": "簡単に行けて，目につきやすく，露店，ワークショップのエリア，訪れる人々のすべてを収容できるくらい広い場所は，そうでない場所よりもはるかに優れています。"
+              },
+              {
+                "id": "ts5_art_p3_s3",
+                "en": "Also, the festival organizer must check with local authorities as there are often regulations: trash disposal and recycling, areas for medical attention, and food handling and storage.",
+                "ja": "また，ゴミの処理とリサイクル，医療のためのエリア，食べ物の取り扱いと貯蔵については，規則があることが多いので，フェスティバルの主催者は地方自治体に確認を取らなければなりません。"
+              },
+              {
+                "id": "ts5_art_p3_s4",
+                "en": "Especially for health and safety, some local authorities require clear labels for people with food allergies.",
+                "ja": "特に健康と安全に関しては，食物アレルギーを持つ人々のためにわかりやすいラベル表示を求める地方自治体があります。"
+              }
+            ],
+            [
+              {
+                "id": "ts5_art_p4_s1",
+                "en": "<em>Assistance</em> relates to making sure there are enough people to help you prepare, organize, and run the event.",
+                "ja": "アシスタンスとは，イベントの準備，編成，運営を手伝ってくれる十分な人々を確保することを言います。"
+              },
+              {
+                "id": "ts5_art_p4_s2",
+                "en": "Festivals can usually last all day and generally have lots of visitors, so things can get untidy.",
+                "ja": "フェスティバルはたいてい1日中続けられ，普通は多くの人が訪れるので，雑然となることがあります。"
+              },
+              {
+                "id": "ts5_art_p4_s3",
+                "en": "It is therefore very important to clean up properly afterward.",
+                "ja": "それゆえ事後にきちんと清掃をすることがとても重要です。"
+              },
+              {
+                "id": "ts5_art_p4_s4",
+                "en": "This means having a large enough group of assistants is essential.",
+                "ja": "つまり，十分な規模の人々に援助してもらうことが必要不可欠なのです。"
+              }
+            ],
+            [
+              {
+                "id": "ts5_art_p5_s1",
+                "en": "Nothing guarantees a successful festival, but it is vital to consider the scheme, the location, and the assistance required.",
+                "ja": "フェスティバルの成功を保証できるものはありませんが，必要とされるスキーム，ロケーション，アシスタンスを考慮することはきわめて重要です。"
+              },
+              {
+                "id": "ts5_art_p5_s2",
+                "en": "The last secret ingredient for success is having a positive attitude!",
+                "ja": "成功のための最後の隠し味は，前向きな考え方をすることですよ！"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "questionnaire",
+          "no_divider": false,
+          "survey_title": {
+            "en": "Survey Results",
+            "ja": "調査結果"
+          },
+          "q1_title": {
+            "en": "What event(s) did you attend at the festival?",
+            "ja": "フェスティバルでどんなイベントに行きましたか？"
+          },
+          "chart_image": {
+            "src": "images/q05_survey_barchart.png",
+            "alt": "Survey chart: attendance by event"
+          },
+          "q2_title": {
+            "en": "What did you think about the festival?",
+            "ja": "フェスティバルについてどう思いましたか？"
+          },
+          "comments": [
+            {
+              "label": "Comment 1",
+              "sentences": [
+                {
+                  "id": "ts5_c1",
+                  "en": "It was fun for all the family, but how about having small animals for children to play with?",
+                  "ja": "家族全員楽しめましたが，子どもたちが一緒に遊べる小動物がいてもいいのでは？"
+                }
+              ]
+            },
+            {
+              "label": "Comment 2",
+              "sentences": [
+                {
+                  "id": "ts5_c2",
+                  "en": "The florist who gave the workshop was fantastic! I'm already looking forward to next year. I'm sure more people will want to join.",
+                  "ja": "ワークショップを開いてくれたお花屋さんは素晴らしい方でした！すでに来年が待ち遠しいです。絶対もっと多くの人々が参加したがると思います。"
+                }
+              ]
+            },
+            {
+              "label": "Comment 3",
+              "sentences": [
+                {
+                  "id": "ts5_c3",
+                  "en": "The cakes and cookies looked really good but I didn't know what they were made of. I have some food allergies, so I was sad that I couldn't buy anything.",
+                  "ja": "ケーキやクッキーはとてもおいしそうに見えましたが，原料が何かわかりませんでした。私は食物アレルギーを持っているので，何も買えず悲しかったです。"
+                }
+              ]
+            },
+            {
+              "label": "Comment 4",
+              "sentences": [
+                {
+                  "id": "ts5_c4",
+                  "en": "Just like last year, the bread-making workshop wasn't crowded. It's time for something new! Butter making might be fun.",
+                  "ja": "去年とまったく同じように，パン作りのワークショップは混んでいませんでした。新しいものに変える時でしょう！バター作りは楽しいかもしれません。"
+                }
+              ]
+            },
+            {
+              "label": "Comment 5",
+              "sentences": [
+                {
+                  "id": "ts5_c5",
+                  "en": "I had a great time, but I was disappointed that all of the vending machines were out of drinks. Provide more vending machines.",
+                  "ja": "とても楽しく過ごしましたが，自販機の飲み物が全部売り切れだったのにはがっかりしました。自販機の数を増やしてください。"
+                }
+              ]
+            },
+            {
+              "label": "Comment 6",
+              "sentences": [
+                {
+                  "id": "ts5_c6",
+                  "en": "The ground was uneven and I twisted my ankle while walking. Thankfully, the medical staff were very kind.",
+                  "ja": "地面はでこぼこしていて，私は歩行中に足首をくじいてしまいました。ありがたいことに医療スタッフはとても親切でした。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "festival_memo",
+          "is_handout": true,
+          "sections_content": [
+            {
+              "heading": {
+                "en": "Plan for This Year's Festival",
+                "ja": "今年のフェスティバルの計画"
+              },
+              "items": []
+            },
+            {
+              "heading": {
+                "en": "The SLA Festival Model",
+                "ja": "SLA フェスティバル・モデル"
+              },
+              "sub_items": [
+                {
+                  "label": {
+                    "en": "What is it for?",
+                    "ja": "何のためにあるのか？"
+                  },
+                  "content": {
+                    "en": "[18]",
+                    "ja": "［18］"
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Three components & key questions",
+                    "ja": "３つの構成要素と重要な問い"
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Scheme:",
+                    "ja": "スキーム："
+                  },
+                  "content": {
+                    "en": "[19]",
+                    "ja": "［19］"
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Location:",
+                    "ja": "ロケーション："
+                  },
+                  "content": {
+                    "en": "Where will the festival be held?",
+                    "ja": "どこでフェスティバルを開くか？"
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Assistance:",
+                    "ja": "アシスタンス："
+                  },
+                  "content": {
+                    "en": "Who can assist with the festival?",
+                    "ja": "誰がフェスティバルを支援できるか？"
+                  }
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Based on the Survey Results [20]",
+                "ja": "調査結果に基づけば ［20］"
+              },
+              "items": [
+                {
+                  "en": "A. Fewer respondents joined bread making than jam making.",
+                  "ja": "A. 回答者の中でパン作りに参加した人はジャム作りに参加した人よりも少なかった。"
+                },
+                {
+                  "en": "B. Flower arrangement was the most popular workshop.",
+                  "ja": "B. 生け花は最も人気のあるワークショップだった。"
+                },
+                {
+                  "en": "C. More than 50 respondents attended musical performances.",
+                  "ja": "C. 50人を超える回答者が音楽演奏に参加した。"
+                },
+                {
+                  "en": "D. Most respondents visited the baked goods stand.",
+                  "ja": "D. ほとんどの回答者が焼き菓子の露店を訪れた。"
+                },
+                {
+                  "en": "E. The painting workshop was the least popular event.",
+                  "ja": "E. 絵のワークショップは最も人気のないイベントだった。"
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Things to Consider",
+                "ja": "検討事項"
+              },
+              "items": [
+                {
+                  "en": "Plan new events based on [21] and [22].",
+                  "ja": "［21］と［22］に基づいて新しいイベントの計画を立てる。"
+                },
+                {
+                  "en": "Give the flower arranging workshop a bigger space.",
+                  "ja": "生け花ワークショップにより大きなスペースを与える。"
+                },
+                {
+                  "en": "Check local regulations and [23].",
+                  "ja": "現地の規則を確認して，［23］。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 18,
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts5_q1",
+                "en": "Which of the following best describes the purpose of the SLA Festival Model? [ 18 ]",
+                "ja": "次の中で，SLA フェスティバル・モデルの目的を最も適切に言い表しているのはどれか。［18］"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "It helps to achieve successful events.",
+              "ja": "それはイベントが成功を収めるのに役立つ。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "It helps to learn about new festival trends.",
+              "ja": "それは新しいフェスティバルの傾向について学ぶのに役立つ。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "It helps to revive local communities.",
+              "ja": "それは地域社会を再生するのに役立つ。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "It helps to understand the history of festivals.",
+              "ja": "それはフェスティバルの歴史を理解するのに役立つ。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第１段落の「円滑な運営」と最終段落の「成功を保証はできないが，スキーム・ロケーション・アシスタンスの検討はきわめて重要」から，SLA モデルは開催をうまく運ぶ／成功に近づけるための枠組みであると読める。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts5_art_p1_s3",
+              "ts5_art_p5_s1"
+            ],
+            "instructor_note": {
+              "ja": "目的を問う基本問題。本文冒頭と結びのトーンで「成功志向の運営支援」と捉える。",
+              "points": [
+                "smoothly / vital / consider がキーワード。",
+                "トレンド・地域再生・歴史は本文に根拠がない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 19,
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts5_q2",
+                "en": "According to the SLA Festival Model, which of the following is the best option for [ 19 ]?",
+                "ja": "SLA フェスティバル・モデルによると，［19］に入れるのに最適なものは次のどれか。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "How can we encourage more festival advertisers?",
+              "ja": "どうすればより多くのフェスティバルの広告主を奨励できるだろうか？",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "How much time is needed to arrange the festival?",
+              "ja": "フェスティバルの準備にどのくらいの時間が必要だろうか？",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "What is the main purpose of the festival?",
+              "ja": "フェスティバルの主たる目的は何か？",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "What time will the festival start and finish?",
+              "ja": "フェスティバルは何時に始まり終わるだろうか？",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "スキームの段落は「特定の時間枠」「計画・宣伝の時間」「少なくとも2か月」など，準備に要する時間の見積りが中心。開始・終了の時刻（④）ではない。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts5_art_p2_s1",
+              "ts5_art_p2_s5"
+            ],
+            "instructor_note": {
+              "ja": "Scheme＝時間管理の観点。語句 time frame, two months に合致する問いを選ぶ。",
+              "points": [
+                "①③は本文の焦点とずれる。",
+                "④は「何時」ではなく「どれだけの期間を確保するか」がテーマ。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 20,
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts5_q3",
+                "en": "In the Survey Results section in your memo, you have noticed an error. Which statement should you <u>remove</u>? [ 20 ]",
+                "ja": "あなたの覚え書きの「調査結果」のセクション内に1つ誤りがあることにあなたは気づいた。<u>取り除くべき</u>ことを述べているのはどれか。［20］"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": true
+            }
+          ],
+          "answer": "⑤",
+          "explanation": {
+            "quoted_ja": "グラフでは絵のワークショップ37人，パン作り24人のため，「最も人気がない」のはパン作りの方である。E は誤り。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [],
+            "instructor_note": {
+              "ja": "複数回答可の棒グラフで数値を突き合わせる。最小はパン作り（24）。",
+              "points": [
+                "E は painting と bread の大小関係を誤っている。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_numbers": [
+            21,
+            22
+          ],
+          "points": 4,
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts5_q4",
+                "en": "For this year's festival, you want to add new events. Which two comments would be most helpful? (The order does not matter.) [ 21 ] [ 22 ]",
+                "ja": "今年のフェスティバルにあなたは新しいイベントを追加したいと思っている。次のどの2つのコメントが最も役に立つだろうか（順序は問わない）。［21］［22］"
+              }
+            ]
+          },
+          "answer": {
+            "21": "①",
+            "22": "④"
+          },
+          "choices_21": [
+            {
+              "label": "①",
+              "en": "Comment 1",
+              "ja": "コメント１",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Comment 2",
+              "ja": "コメント２",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Comment 3",
+              "ja": "コメント３",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Comment 4",
+              "ja": "コメント４",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Comment 5",
+              "ja": "コメント５",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Comment 6",
+              "ja": "コメント６",
+              "is_correct": false
+            }
+          ],
+          "choices_22": [
+            {
+              "label": "①",
+              "en": "Comment 1",
+              "ja": "コメント１",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Comment 2",
+              "ja": "コメント２",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Comment 3",
+              "ja": "コメント３",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Comment 4",
+              "ja": "コメント４",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Comment 5",
+              "ja": "コメント５",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Comment 6",
+              "ja": "コメント６",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "新規イベントの提案はコメント1（小動物）とコメント4（バター作りなど新企画）が該当。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts5_c1",
+              "ts5_c4"
+            ],
+            "instructor_note": {
+              "ja": "「新しい催し」の手がかりになる発言を2つ選ぶ。",
+              "points": [
+                "2は人気の予測，3は表示，5は自販機，6は安全・医療で新イベント案ではない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 23,
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts5_q5",
+                "en": "Based on both the article and comments from last year's festival, which of the following is the best option for [ 23 ]?",
+                "ja": "昨年のフェスティバルの記事とコメントの両方に基づけば，次の中で［23］に入れるのに最適なものはどれか。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "ensure food labels list all ingredients",
+              "ja": "食べ物のラベルが必ずすべての材料を列挙しているようにする",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "food should be stored in fridges",
+              "ja": "食べ物は冷蔵庫に貯蔵すべきだ",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "have a medical station on site",
+              "ja": "現場に医療ステーションを設ける",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "make sure trash is properly separated",
+              "ja": "ゴミが適切に分別されていることを確かめる",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "記事の Location で当局がアレルギー向けの明確なラベルを要求しうるとあり，コメント3も材料表示がなく買えなかったと述べる。両方に関係するのは①。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts5_art_p3_s4",
+              "ts5_c3"
+            ],
+            "instructor_note": {
+              "ja": "記事とコメントの接点（アレルギー・表示）を探す。",
+              "points": [
+                "③はコメント6で医療スタッフが親切とあり，「次に足す」より現状維持の印象。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "upcoming",
+              "ja": "〈形〉まもなくやってくる"
+            },
+            {
+              "en": "festival",
+              "ja": "〈名〉催し；祭り；フェスティバル"
+            },
+            {
+              "en": "a variety of ...",
+              "ja": "さまざまな…"
+            },
+            {
+              "en": "include",
+              "ja": "〈動〉…を含む"
+            },
+            {
+              "en": "workshop",
+              "ja": "〈名〉ワークショップ；体験教室"
+            },
+            {
+              "en": "organizer",
+              "ja": "〈名〉主催者"
+            },
+            {
+              "en": "relate to ...",
+              "ja": "…に関係がある；…のことを述べている"
+            },
+            {
+              "en": "arrange",
+              "ja": "〈動〉…を手配［準備］する ≒ organize"
+            },
+            {
+              "en": "co-ordinate",
+              "ja": "〈動〉…を調整する"
+            },
+            {
+              "en": "specific",
+              "ja": "〈形〉特定の；明確な"
+            },
+            {
+              "en": "time frame",
+              "ja": "時間枠；期間"
+            },
+            {
+              "en": "advertise",
+              "ja": "〈動〉…を宣伝する"
+            },
+            {
+              "en": "allow",
+              "ja": "〈動〉〈時間〉を見ておく［見込んでおく］"
+            },
+            {
+              "en": "actual",
+              "ja": "〈形〉実際の"
+            },
+            {
+              "en": "be superior to ...",
+              "ja": "…より優れている"
+            },
+            {
+              "en": "accessible",
+              "ja": "〈形〉行きやすい"
+            },
+            {
+              "en": "visible",
+              "ja": "〈形〉人目につく；目立つ"
+            },
+            {
+              "en": "accommodate",
+              "ja": "〈動〉…を収容する"
+            },
+            {
+              "en": "authorities",
+              "ja": "〈名〉当局；公共事業機関"
+            },
+            {
+              "en": "regulations",
+              "ja": "〈名〉規則；規定"
+            },
+            {
+              "en": "trash disposal",
+              "ja": "ゴミ処理"
+            },
+            {
+              "en": "medical attention",
+              "ja": "医療；治療"
+            },
+            {
+              "en": "handling",
+              "ja": "〈名〉取り扱い"
+            },
+            {
+              "en": "storage",
+              "ja": "〈名〉貯蔵"
+            },
+            {
+              "en": "safety",
+              "ja": "〈名〉安全"
+            },
+            {
+              "en": "require",
+              "ja": "〈動〉…を要求する"
+            },
+            {
+              "en": "label",
+              "ja": "〈名〉ラベル"
+            },
+            {
+              "en": "allergy",
+              "ja": "〈名〉アレルギー"
+            },
+            {
+              "en": "make sure (that) ...",
+              "ja": "…を確かめる［確実にする］"
+            },
+            {
+              "en": "last",
+              "ja": "〈動〉続く"
+            },
+            {
+              "en": "untidy",
+              "ja": "〈形〉乱雑な"
+            },
+            {
+              "en": "properly",
+              "ja": "〈副〉きちんと"
+            },
+            {
+              "en": "afterward",
+              "ja": "〈副〉その後で"
+            },
+            {
+              "en": "essential",
+              "ja": "〈形〉不可欠な"
+            },
+            {
+              "en": "guarantee",
+              "ja": "〈動〉…を保証する"
+            },
+            {
+              "en": "successful",
+              "ja": "〈形〉成功した"
+            },
+            {
+              "en": "vital",
+              "ja": "〈形〉きわめて重要な"
+            },
+            {
+              "en": "secret ingredient",
+              "ja": "秘密の材料；隠し味"
+            },
+            {
+              "en": "positive",
+              "ja": "〈形〉肯定的な；前向きの"
+            },
+            {
+              "en": "attend",
+              "ja": "〈動〉出席する；通う；行く"
+            },
+            {
+              "en": "baked goods",
+              "ja": "焼き菓子"
+            },
+            {
+              "en": "flower arrangement",
+              "ja": "生け花"
+            },
+            {
+              "en": "respondent",
+              "ja": "〈名〉回答者"
+            },
+            {
+              "en": "multiple",
+              "ja": "〈形〉多数の"
+            },
+            {
+              "en": "how about ...?",
+              "ja": "…はいかがですか〈提案〉"
+            },
+            {
+              "en": "florist",
+              "ja": "〈名〉花屋"
+            },
+            {
+              "en": "look forward to ...",
+              "ja": "…を楽しみに待つ"
+            },
+            {
+              "en": "be made of ...",
+              "ja": "…で作られて［できて］いる"
+            },
+            {
+              "en": "crowded",
+              "ja": "〈形〉混み合った"
+            },
+            {
+              "en": "vending machine",
+              "ja": "自動販売機"
+            },
+            {
+              "en": "out of ...",
+              "ja": "…がなくなって"
+            },
+            {
+              "en": "provide",
+              "ja": "〈動〉…を供給する"
+            },
+            {
+              "en": "uneven",
+              "ja": "〈形〉でこぼこの"
+            },
+            {
+              "en": "twist",
+              "ja": "〈動〉…をひねる；くじく"
+            },
+            {
+              "en": "thankfully",
+              "ja": "〈副〉ありがたいことに"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "物語＋ワークシート",
+      "situation": {
+        "intro_sentences": [
+          {
+            "id": "ts6_sit1",
+            "en": "You are taking an English course at a university. Your teacher has provided a story and has asked you to read it and complete a worksheet.",
+            "ja": "あなたは大学で英語の授業を受けています。先生が物語を配り，それを読んでワークシートを完成させるよう求めています。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "toiura_story",
+          "framed": true,
+          "title": {
+            "en": "My Adventure Going to Toiura",
+            "ja": "トイウラへ行く僕の冒険"
+          },
+          "graph_image": {
+            "src": "images/q06_chocolate_box.png",
+            "alt": "Nana's Fancy Chocolates with a note to Michiko from Junko",
+            "after_paragraph": 10
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "ts6_p1_s1",
+                "en": "My name is Hiroki and I'm 10 years old.",
+                "ja": "僕の名前はヒロキ。年は10歳です。"
+              },
+              {
+                "id": "ts6_p1_s2",
+                "en": "I'm from Shinayama City, which is two hours away by super express train from Toiura, a small town where my grandparents live.",
+                "ja": "住んでいるところはシナヤマ市で，そこはおじいちゃんとおばあちゃんが住んでいるトイウラという小さな町から特急で2時間のところにあります。"
+              },
+              {
+                "id": "ts6_p1_s3",
+                "en": "Last month, my dad asked me if I wanted to visit my grandparents by myself this summer.",
+                "ja": "先月父さんが僕に，今年の夏に1人でおじいちゃんたちのところへ行ってみたいかと聞いてきたんです。"
+              },
+              {
+                "id": "ts6_p1_s4",
+                "en": "I was really excited but also nervous; I had never been on a trip by myself!",
+                "ja": "僕は本当に興奮したけど，緊張もしました。1人で旅行したことなんてなかったからです！"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p2_s1",
+                "en": "The day of my trip came.",
+                "ja": "旅行の日がやって来て，"
+              },
+              {
+                "id": "ts6_p2_s2",
+                "en": "After we arrived at the station, I bought a box of my favorite cookies for my grandparents.",
+                "ja": "僕たちは駅に着きました。それから僕はおじいちゃんたちのために僕が大好きな1箱のクッキーを買いました。"
+              },
+              {
+                "id": "ts6_p2_s3",
+                "en": "My parents then accompanied me to the train and made sure I was sitting in the right place.",
+                "ja": "それから父さんと母さんは列車のいるところまで僕について来て，僕が正しい席に座っていることを確かめました。"
+              },
+              {
+                "id": "ts6_p2_s4",
+                "en": "My parents told me to be careful of strangers before they left.",
+                "ja": "2人は僕に，見知らぬ人に注意しなさいと言ってから帰って行きました。"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p3_s1",
+                "en": "The tall buildings of Shinayama flashed by and suburban houses started to appear, then rice fields took over.",
+                "ja": "シナヤマの高い建物がさっと過ぎ去っていき，郊外の住宅が現れ始めて，それから田んぼが広がりました。"
+              },
+              {
+                "id": "ts6_p3_s2",
+                "en": "The train stopped and some passengers got on.",
+                "ja": "列車が停まると，お客さんが何人か乗ってきました。"
+              },
+              {
+                "id": "ts6_p3_s3",
+                "en": "Suddenly, I heard, \"Excuse me!\"",
+                "ja": "すると突然，「ごめんなさい！」という声がしました。"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p4_s1",
+                "en": "I turned and saw a middle-aged woman pointing at the seat next to me.",
+                "ja": "振り返ると，中年の女の人が僕の隣の席を指さしていました。"
+              },
+              {
+                "id": "ts6_p4_s2",
+                "en": "I moved my backpack from the aisle seat.",
+                "ja": "僕は通路側の席からバックパックを移動させました。"
+              },
+              {
+                "id": "ts6_p4_s3",
+                "en": "As she sat down, she spread her arms and legs into the space I had occupied before.",
+                "ja": "女の人は座って，それまで僕が占有していた場所に腕と足を広げて侵入してきました。"
+              },
+              {
+                "id": "ts6_p4_s4",
+                "en": "I retreated away from the left armrest and shifted my body toward the window.",
+                "ja": "僕は左の肘掛けから撤退して，体を窓側に動かしました。"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p5_s1",
+                "en": "\"Are you traveling alone?\" she asked me.",
+                "ja": "「1人で旅行しているの？」と女の人は聞いてきました。"
+              },
+              {
+                "id": "ts6_p5_s2",
+                "en": "I nodded in reply.",
+                "ja": "僕は返事の代わりにうなずきました。"
+              },
+              {
+                "id": "ts6_p5_s3",
+                "en": "\"Wow! Where are you going?\"",
+                "ja": "「まあ！どこへ行くの？」"
+              },
+              {
+                "id": "ts6_p5_s4",
+                "en": "I didn't know whether to respond because my parents had told me to be cautious of strangers.",
+                "ja": "両親から知らない人には用心しなさいと言われていたので，僕は答えていいのかどうかわかりませんでした。"
+              },
+              {
+                "id": "ts6_p5_s5",
+                "en": "So, I just said, \"Toiura.\"",
+                "ja": "だから僕は「トイウラ」とだけ言いました。"
+              },
+              {
+                "id": "ts6_p5_s6",
+                "en": "The woman's eyes widened.",
+                "ja": "女の人は目を大きく見開きました。"
+              },
+              {
+                "id": "ts6_p5_s7",
+                "en": "\"Toiura! I have a friend living there! I love visiting her.\" She started digging around in her bag.",
+                "ja": "「トイウラ！　私の友達がそこに住んでいるのよ！　会いに行くのがとっても楽しいわ」女の人はバッグをまさぐり出しました。"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p6_s1",
+                "en": "I saw her pull out a box of fancy chocolates.",
+                "ja": "女の人が高級なチョコレートの箱を取り出すのが見えました。"
+              },
+              {
+                "id": "ts6_p6_s2",
+                "en": "\"Would you like one?\" she asked.",
+                "ja": "「ひとついかが？」と女の人は聞いてきました。"
+              },
+              {
+                "id": "ts6_p6_s3",
+                "en": "I was tempted to take one, but I remembered what my parents had told me.",
+                "ja": "僕は1個もらいたくなったけど，親に言われたことを思い出しました。"
+              },
+              {
+                "id": "ts6_p6_s4",
+                "en": "I didn't know what to do.",
+                "ja": "どうしたらいいかわかりませんでした。"
+              },
+              {
+                "id": "ts6_p6_s5",
+                "en": "I didn't want to go against my parents' wishes, but I also thought it would be rude to refuse.",
+                "ja": "親の願いに背きたくはなかったけれど，断るのも失礼だと思ったんです。"
+              },
+              {
+                "id": "ts6_p6_s6",
+                "en": "I thought for a moment and said, \"No, thank you, ma'am.\"",
+                "ja": "ちょっと考えてから僕は言いました。「いいえ，結構です」"
+              },
+              {
+                "id": "ts6_p6_s7",
+                "en": "But she replied, \"Oh, don't be shy! Help yourself.\"",
+                "ja": "でも女の人は「あら，恥ずかしがらないで！　どうぞ召し上がれ」と答えました。"
+              },
+              {
+                "id": "ts6_p6_s8",
+                "en": "I breathed in and said, \"I really don't want any, but thank you for asking.\"",
+                "ja": "僕は息を吸い込んで，「本当にいらないんです。でもご親切にありがとう」と言いました。"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p7_s1",
+                "en": "The chocolate woman looked disappointed.",
+                "ja": "チョコレートの女の人は悲しそうな顔をしました"
+              },
+              {
+                "id": "ts6_p7_s2",
+                "en": "\"Oh, I see,\" she said softly.",
+                "ja": "が，「あらそう」と静かに言いました。"
+              },
+              {
+                "id": "ts6_p7_s3",
+                "en": "For a little while, an awkward silence followed.",
+                "ja": "少しの間，気まずい沈黙が流れて"
+              },
+              {
+                "id": "ts6_p7_s4",
+                "en": "Then she took out her phone and began tapping the screen.",
+                "ja": "，それから女の人は電話を取り出して画面をタップし始めました。"
+              },
+              {
+                "id": "ts6_p7_s5",
+                "en": "Some of the tension eased, but I felt I shouldn't let the conversation end that way.",
+                "ja": "緊張は少し解けたけれど，こんなふうに会話を終わらせちゃいけないと僕は感じました。"
+              },
+              {
+                "id": "ts6_p7_s6",
+                "en": "\"I'm sorry about the chocolate,\" I said. \"I really can't take it.\"",
+                "ja": "だから僕は言いました。「チョコレートのことはごめんなさい。どうしてもらえないんです」"
+              },
+              {
+                "id": "ts6_p7_s7",
+                "en": "\"That's all right, young man,\" she said. \"You handled this situation in a way that's beyond your age.\"",
+                "ja": "「いいのよ，坊や」と女の人は言いました。「大人っぽい対応の仕方だったわ」"
+              },
+              {
+                "id": "ts6_p7_s8",
+                "en": "After that, we both sat quietly and enjoyed the train ride.",
+                "ja": "その後は2人とも黙ったまま列車の旅を楽しみました。"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p8_s1",
+                "en": "\"We will soon arrive at Toiura Station. The train will stop for five minutes,\" an announcement said.",
+                "ja": "「まもなくトイウラ駅に到着します。5分間停車します」というアナウンスが流れました。"
+              },
+              {
+                "id": "ts6_p8_s2",
+                "en": "When the train pulled into the station, I saw my grandparents waving on the platform.",
+                "ja": "列車が駅に着くと，おじいちゃんたちが手を振っているのが見えました。"
+              },
+              {
+                "id": "ts6_p8_s3",
+                "en": "The chocolate woman looked surprised. \"Are those your grandparents over there?\" she asked.",
+                "ja": "チョコレートの女の人は驚いて，「あれがあなたのおじいちゃんとおばあちゃんなの？」と僕に聞きました。"
+              },
+              {
+                "id": "ts6_p8_s4",
+                "en": "When I said yes, she exclaimed, \"How about that! It's a small world!\"",
+                "ja": "僕がそうですと言うと，「まあ驚いた！　狭い世の中ね！」と女の人は言って"
+              },
+              {
+                "id": "ts6_p8_s5",
+                "en": "She began writing something hurriedly on a piece of paper.",
+                "ja": "，それから急いで1枚の紙に何かを書き始めました。"
+              },
+              {
+                "id": "ts6_p8_s6",
+                "en": "I kept waving at my grandparents for a little while because I wanted them to see I was on the train by myself!",
+                "ja": "僕はおじいちゃんたちに手を振りながら，少しの間席に座ったままでいました。だって1人で列車に乗っていることを見せたかったんです！"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p9_s1",
+                "en": "As I got ready to leave, she handed me the box of chocolates with a note stuck to it.",
+                "ja": "僕が席を立とうとすると，女の人は僕にメモを貼り付けたチョコレートの箱を手渡して言いました。"
+              },
+              {
+                "id": "ts6_p9_s2",
+                "en": "\"Please share these with Michiko, and tell her I said hello. I don't want to get in the way of your reunion.\"",
+                "ja": "「これをミチコと一緒に食べてちょうだい。それから私がよろしくって言ってたことも伝えてね。あなたたちの再会の邪魔はしたくないから」"
+              },
+              {
+                "id": "ts6_p9_s3",
+                "en": "I wondered how she knew my grandmother's name, but I didn't have time to ask.",
+                "ja": "チョコレートの女の人がどうしておばあちゃんの名前を知っているのかなと僕は思ったけれど，それを聞いている時間なんてありませんでした。"
+              },
+              {
+                "id": "ts6_p9_s4",
+                "en": "I rushed off the train toward my grandparents on the platform.",
+                "ja": "僕は急いで列車から降りて，ホームにいるおじいちゃんたちのところへ走って行きました。"
+              }
+            ],
+            [
+              {
+                "id": "ts6_p10_s1",
+                "en": "When I met them, I said, \"I brought cookies, and chocolates from the lady next to me. But maybe we shouldn't eat them — she's a stranger.\"",
+                "ja": "僕はおじいちゃんたちに会うとこう言いました。「クッキーと，それから隣に座っていた女の人からもらったチョコレートを持ってきたよ。でも食べないほうがいいかもしれない。知らない人だから」"
+              },
+              {
+                "id": "ts6_p10_s2",
+                "en": "As the train pulled away, I saw the chocolate woman waving at us.",
+                "ja": "列車が走り出すと，チョコレートの女の人が僕たちに手を振っているのが見えました。"
+              },
+              {
+                "id": "ts6_p10_s3",
+                "en": "\"Junko!\" my grandmother shouted.",
+                "ja": "「ジュンコ！」とおばあちゃんは言って，"
+              },
+              {
+                "id": "ts6_p10_s4",
+                "en": "She looked at the box of chocolates and read the note attached to it.",
+                "ja": "それからチョコレートの箱を見て，添えてあったメモを読みました。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "toiura_worksheet",
+          "is_handout": true,
+          "no_divider": false,
+          "sections_content": [
+            {
+              "heading": {
+                "en": "Worksheet",
+                "ja": "ワークシート"
+              },
+              "items": []
+            },
+            {
+              "heading": {
+                "en": "English Reading I",
+                "ja": "イングリッシュ・リーディング１"
+              },
+              "items": []
+            },
+            {
+              "heading": {
+                "en": "My Adventure Going to Toiura",
+                "ja": "トイウラへ行く僕の冒険"
+              },
+              "items": [
+                {
+                  "en": "Draw a picture that best shows Hiroki and the &quot;chocolate woman&quot; after she had gotten on the train. [24] (Picture)",
+                  "ja": "ヒロキ，そして列車に乗った後の「チョコレートの女の人」を最も適切に表す絵を描きなさい。［24］（絵）"
+                },
+                {
+                  "en": "How would you describe the chocolate woman's sentiments on the train ride? Write them below in the order they emerged.",
+                  "ja": "列車に乗っているチョコレートの女の人の気持ちを表現するとどのようになりますか？　それらが生じた順序で下に書きなさい。"
+                },
+                {
+                  "en": "1. [25] ________________________________________________",
+                  "ja": "1）［25］"
+                },
+                {
+                  "en": "2. [26] ________________________________________________",
+                  "ja": "2）［26］"
+                },
+                {
+                  "en": "3. [27] ________________________________________________",
+                  "ja": "3）［27］"
+                },
+                {
+                  "en": "4. [28] ________________________________________________",
+                  "ja": "4）［28］"
+                },
+                {
+                  "en": "Answer the following questions: What are the characteristics of the two main characters?",
+                  "ja": "次の質問に答えなさい：　2人の主な登場人物の特徴は何ですか？"
+                },
+                {
+                  "en": "Hiroki [29].",
+                  "ja": "ヒロキは［29］。"
+                },
+                {
+                  "en": "The chocolate woman [30].",
+                  "ja": "チョコレートの女の人は［30］。"
+                },
+                {
+                  "en": "Why was Junko so impressed?",
+                  "ja": "なぜジュンコは感心したのでしょう？"
+                },
+                {
+                  "en": "She thought that Hiroki had [31].",
+                  "ja": "ジュンコはヒロキが［31］と思ったから。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 24,
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts6_q1",
+                "en": "Choose the picture that you should draw. [ 24 ]",
+                "ja": "あなたが描くべき絵を選びなさい。［24］"
+              }
+            ]
+          },
+          "figure_image": {
+            "src": "data/kyotsu/2025/tsuishiken/images/q06_q1_picture_grid.png",
+            "alt": "Four illustrations for seating and expressions"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第4段落に，女は通路側の隣席に座り腕と足を広げ，ヒロキは左肘掛けから身を引いて窓側へ寄ったとある。窓際が少年・通路側が女性で，断りづらい状況ではあるが表情は引きつった様子（①）が本文と整合する。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts6_p4_s3",
+              "ts6_p4_s4"
+            ],
+            "instructor_note": {
+              "ja": "着席位置とパラグラフ描写を照合する図版問題。",
+              "points": [
+                "②④は表情が明るすぎる場合があるが，解説では①が正解（悲しげ／窓際の少年）。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "question_type": "ordering",
+          "answer_numbers": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts6_q2",
+                "en": "Choose <u>four</u> out of the five options (①~⑤) to complete the worksheet. [ 25 ] → [ 26 ] → [ 27 ] → [ 28 ]",
+                "ja": "5つの選択肢（①〜⑤）の中から4つを選び，ワークシートを完成させなさい。［25］→［26］→［27］→［28］"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "She is disappointed that Hiroki has rejected her offer.",
+              "ja": "自分の申し出をヒロキが断ったのでがっかりする。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "She is surprised to find a connection with Hiroki's grandmother.",
+              "ja": "ヒロキの祖母との関係がわかって驚く。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "She shows frustration about Hiroki's rude behavior toward her.",
+              "ja": "自分に対するヒロキの無礼な振る舞いにいらだちを示す。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "She shows interest in something else to make things less awkward.",
+              "ja": "気まずい雰囲気を和らげるために他のものに興味を示す。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "She shows thoughtfulness in deciding not to meet her friend.",
+              "ja": "友人に会わないことに決めることで思いやりを示す。",
+              "is_correct": true
+            }
+          ],
+          "answer": "①→④→②→⑤",
+          "answer_sequence": [
+            "①",
+            "④",
+            "②",
+            "⑤"
+          ],
+          "explanation": {
+            "quoted_ja": "気持ちの流れは，断られてがっかり（①）→気まずさを紛らわすために電話などへ関心（④）→駅で祖母とのつながりに気づいて驚く（②）→再会の邪魔をしないようメモを書く配慮（⑤）。③はヒロキが無礼だったとは読めないので除外。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts6_p7_s1",
+              "ts6_p7_s4",
+              "ts6_p8_s4",
+              "ts6_p9_s2"
+            ],
+            "instructor_note": {
+              "ja": "感情描写の時系列を本文どおりに並べる。",
+              "points": [
+                "③だけ本文に対応しない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_numbers": [
+            29,
+            30
+          ],
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts6_q3",
+                "en": "Choose the best options for [ 29 ] and [ 30 ].",
+                "ja": "［29］と［30］に入れるのに最適な選択肢を選びなさい。"
+              }
+            ]
+          },
+          "answer": {
+            "29": "⑤",
+            "30": "②"
+          },
+          "choices_29": [
+            {
+              "label": "①",
+              "en": "avoids meeting new people",
+              "ja": "新しい人々に会うのを避けている",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "can be generous even to strangers",
+              "ja": "見知らぬ人にも気前が良い",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "does not enjoy traveling alone",
+              "ja": "1人で旅行するのが楽しくない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "likes to protect others from harm",
+              "ja": "他の人を害悪から守るのが好きだ",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "tries to follow the advice of others",
+              "ja": "他の人のアドバイスに従おうと努力する",
+              "is_correct": true
+            }
+          ],
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "avoids meeting new people",
+              "ja": "新しい人々に会うのを避けている",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "can be generous even to strangers",
+              "ja": "見知らぬ人にも気前が良い",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "does not enjoy traveling alone",
+              "ja": "1人で旅行するのが楽しくない",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "likes to protect others from harm",
+              "ja": "他の人を害悪から守るのが好きだ",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "tries to follow the advice of others",
+              "ja": "他の人のアドバイスに従おうと努力する",
+              "is_correct": false
+            }
+          ],
+          "explanation": {
+            "quoted_ja": "ヒロキは両親の「用心しなさい」という助言に従おうとしてチョコを断る（⑤）。女性は見知らぬヒロキに高級チョコを勧めるなど気前のよさが描かれる（②）。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts6_p5_s4",
+              "ts6_p6_s1",
+              "ts6_p6_s7"
+            ],
+            "instructor_note": {
+              "ja": "人物像を行動から抽象語に対応させる。",
+              "points": []
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 31,
+          "stem": {
+            "sentences": [
+              {
+                "id": "ts6_q4",
+                "en": "Choose the best option for [ 31 ].",
+                "ja": "［31］に入れるのに最適な選択肢を選びなさい。"
+              }
+            ]
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "acted carelessly",
+              "ja": "不注意に行動した",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "been aggressive",
+              "ja": "攻撃的だった",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "been intelligent",
+              "ja": "頭が良かった",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "behaved maturely",
+              "ja": "大人のように振る舞った",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "女性はヒロキの対応を「年のわりに大人びている」と評しており，丁寧に断る姿勢は成熟した振る舞い（④）として読める。",
+            "quoted_source": "『共通テスト 2025年度 追試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "ts6_p7_s7",
+              "ts6_p6_s6"
+            ],
+            "instructor_note": {
+              "ja": "引用の beyond your age に対応する語を選ぶ。",
+              "points": []
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "adventure",
+              "ja": "〈名〉冒険"
+            },
+            {
+              "en": "by oneself",
+              "ja": "自分1人で"
+            },
+            {
+              "en": "nervous",
+              "ja": "〈形〉不安で；緊張して"
+            },
+            {
+              "en": "favorite",
+              "ja": "〈形〉お気に入りの"
+            },
+            {
+              "en": "cookie",
+              "ja": "〈名〉クッキー"
+            },
+            {
+              "en": "accompany",
+              "ja": "〈動〉…に付き添う"
+            },
+            {
+              "en": "make sure (that) ...",
+              "ja": "…を確かめる"
+            },
+            {
+              "en": "stranger",
+              "ja": "〈名〉見知らぬ人"
+            },
+            {
+              "en": "flash by",
+              "ja": "さっと過ぎる"
+            },
+            {
+              "en": "suburban",
+              "ja": "〈形〉郊外の"
+            },
+            {
+              "en": "rice field",
+              "ja": "水田；稲田"
+            },
+            {
+              "en": "take over",
+              "ja": "引き継ぐ；優勢になる"
+            },
+            {
+              "en": "passenger",
+              "ja": "〈名〉乗客"
+            },
+            {
+              "en": "middle-aged",
+              "ja": "〈形〉中年の"
+            },
+            {
+              "en": "aisle seat",
+              "ja": "通路側の座席"
+            },
+            {
+              "en": "occupy",
+              "ja": "〈動〉…を使う；占める"
+            },
+            {
+              "en": "retreat",
+              "ja": "〈動〉撤退する"
+            },
+            {
+              "en": "armrest",
+              "ja": "〈名〉肘掛け"
+            },
+            {
+              "en": "shift",
+              "ja": "〈動〉…を移動させる"
+            },
+            {
+              "en": "nod",
+              "ja": "〈動〉うなずく"
+            },
+            {
+              "en": "in reply",
+              "ja": "返事として"
+            },
+            {
+              "en": "respond",
+              "ja": "〈動〉返答する"
+            },
+            {
+              "en": "be cautious of ...",
+              "ja": "…に用心する"
+            },
+            {
+              "en": "widen",
+              "ja": "〈動〉大きく開く"
+            },
+            {
+              "en": "dig around",
+              "ja": "手を入れて探す"
+            },
+            {
+              "en": "fancy",
+              "ja": "〈形〉高級な"
+            },
+            {
+              "en": "tempt O to ~",
+              "ja": "Oを（誘惑して）〜する気にさせる"
+            },
+            {
+              "en": "go against ...",
+              "ja": "…に従わない"
+            },
+            {
+              "en": "refuse",
+              "ja": "〈動〉断る"
+            },
+            {
+              "en": "ma'am",
+              "ja": "〈名〉奥様〈年上の女性へのていねいな呼びかけ語〉"
+            },
+            {
+              "en": "shy",
+              "ja": "〈形〉恥ずかしがりの"
+            },
+            {
+              "en": "help oneself",
+              "ja": "遠慮なく取る"
+            },
+            {
+              "en": "breathe in",
+              "ja": "息を吸い込む"
+            },
+            {
+              "en": "thank you for asking",
+              "ja": "お気遣いありがとう"
+            },
+            {
+              "en": "silence",
+              "ja": "〈名〉沈黙"
+            },
+            {
+              "en": "tap",
+              "ja": "〈動〉軽くたたく"
+            },
+            {
+              "en": "tension",
+              "ja": "〈名〉緊張状態"
+            },
+            {
+              "en": "ease",
+              "ja": "〈動〉和らぐ"
+            },
+            {
+              "en": "announcement",
+              "ja": "〈名〉案内；アナウンス"
+            },
+            {
+              "en": "pull into the station",
+              "ja": "駅に着く"
+            },
+            {
+              "en": "How about that!",
+              "ja": "驚いた！"
+            },
+            {
+              "en": "hurriedly",
+              "ja": "〈副〉大急ぎで"
+            },
+            {
+              "en": "for a little bit",
+              "ja": "少しの時間"
+            },
+            {
+              "en": "interfere with ...",
+              "ja": "…を妨害する"
+            },
+            {
+              "en": "reunion",
+              "ja": "〈名〉再会"
+            },
+            {
+              "en": "rush",
+              "ja": "〈動〉急いで行く"
+            },
+            {
+              "en": "pleasure",
+              "ja": "〈名〉喜び；楽しさ"
+            },
+            {
+              "en": "impressed",
+              "ja": "〈形〉感動して"
+            },
+            {
+              "en": "sentiment",
+              "ja": "〈名〉感情"
+            },
+            {
+              "en": "emerge",
+              "ja": "〈動〉現れる"
+            },
+            {
+              "en": "characteristic",
+              "ja": "〈名〉特徴"
+            },
+            {
+              "en": "reject",
+              "ja": "〈動〉…を拒絶する"
+            },
+            {
+              "en": "connection",
+              "ja": "〈名〉つながり"
+            },
+            {
+              "en": "frustration",
+              "ja": "〈名〉失望；欲求不満"
+            },
+            {
+              "en": "interest",
+              "ja": "〈名〉興味；関心"
+            },
+            {
+              "en": "awkward",
+              "ja": "〈形〉落ち着かない；気まずい"
+            },
+            {
+              "en": "thoughtfulness",
+              "ja": "〈名〉思いやり"
+            },
+            {
+              "en": "generous",
+              "ja": "〈形〉気前のよい"
+            },
+            {
+              "en": "harm",
+              "ja": "〈名〉害"
+            },
+            {
+              "en": "carelessly",
+              "ja": "〈副〉不注意に"
+            },
+            {
+              "en": "aggressive",
+              "ja": "〈形〉攻撃的な"
+            },
+            {
+              "en": "intelligent",
+              "ja": "〈形〉知的な；聡明な"
+            },
+            {
+              "en": "behave",
+              "ja": "〈動〉振る舞う"
+            },
+            {
+              "en": "maturely",
+              "ja": "〈副〉大人のように"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
