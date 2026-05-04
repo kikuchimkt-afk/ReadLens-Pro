@@ -9,6 +9,11 @@
     "total_answer_numbers": 44,
     "implemented_sections": [
       1,
+      2,
+      3,
+      4,
+      5,
+      6,
       8
     ],
     "section_list": [
@@ -408,6 +413,3147 @@
             {
               "en": "harmful",
               "ja": "有害な"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "長文読解（ブログ）",
+      "situation": {
+        "en": "Your teacher asks you to write a report about the future of transportation. To prepare, you read a blog written by a British author about the topic.",
+        "ja": "先生があなたに交通機関の未来についてレポートを書くよう求めます。あなたは準備として，このトピックに関する英国人の著述家が書いたブログを読みます。"
+      },
+      "passages": [
+        {
+          "id": "flying_vehicles_blog",
+          "framed": true,
+          "no_divider": true,
+          "title": {
+            "id": "hs2_title",
+            "en": "<em>Flying Vehicles</em>",
+            "ja": "空飛ぶクルマ"
+          },
+          "image": {
+            "src": "data/kyotsu/2025/honshiken/images/q02_flying_vehicle.png",
+            "alt": "A line drawing of a futuristic flying vehicle with rotors and wings",
+            "float": "right",
+            "placement": "before_subtitle"
+          },
+          "subtitle": {
+            "id": "hs2_meta",
+            "align": "left",
+            "en": "10 December 2024<br>Jonah Markowski<br>Bristol, UK",
+            "ja": "2024年12月10日<br>ジョナ・マルコフスキ<br>英国，ブリストル"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "hs2_p1_s1",
+                "en": "Yesterday, I attended a forum in northern Japan called <em>Flying Vehicles: Today and Tomorrow</em>.",
+                "ja": "昨日，私は日本の北部で行われた「空飛ぶクルマ：今日そして明日」と呼ばれるフォーラムに参加しました。"
+              },
+              {
+                "id": "hs2_p1_s2",
+                "en": "Modern transportation problems and solutions were discussed by three guest speakers.",
+                "ja": "３人のゲストスピーカーによって，現代の交通機関の問題点と解決策が話し合われました。"
+              }
+            ],
+            [
+              {
+                "id": "hs2_p2_s1",
+                "en": "All the speakers agreed on three points.",
+                "ja": "３つの点でスピーカー全員の意見が一致しました。"
+              },
+              {
+                "id": "hs2_p2_s2",
+                "en": "First, flying vehicles should be electrically powered in general.",
+                "ja": "第１に，一般的に空飛ぶクルマの動力源は電力にするべきだということです。"
+              },
+              {
+                "id": "hs2_p2_s3",
+                "en": "Air pollution can be reduced by increasing the use of zero-emission technologies.",
+                "ja": "有害なガスを出さない技術の利用を増やすことで，大気汚染を減らすことができます。"
+              },
+              {
+                "id": "hs2_p2_s4",
+                "en": "Second, emergency services would be improved.",
+                "ja": "第２に，救急サービスが改善されるだろうという点です。"
+              },
+              {
+                "id": "hs2_p2_s5",
+                "en": "Flying ambulances would be faster in large cities with heavy traffic.",
+                "ja": "交通量の多い大都市では，空飛ぶ救急車の方が速いでしょう。"
+              },
+              {
+                "id": "hs2_p2_s6",
+                "en": "Also, they would be better for servicing small towns far from hospitals.",
+                "ja": "また，病院から遠く離れた小さな町への救急サービスにもこちらの方が適しているでしょう。"
+              },
+              {
+                "id": "hs2_p2_s7",
+                "en": "Finally, from a safety point of view, they said that flying technology would need to be well tested and controlled to avoid accidents in the air.",
+                "ja": "最後に安全の見地から，空中での事故を避けるために飛行技術は十分な検証と制御を行う必要があると３人は述べました。"
+              }
+            ],
+            [
+              {
+                "id": "hs2_p3_s1",
+                "en": "At the end of the forum, the speakers discussed flying taxis.",
+                "ja": "フォーラムの終盤で，スピーカーたちは空飛ぶタクシーについて討論しました。"
+              },
+              {
+                "id": "hs2_p3_s2",
+                "en": "According to one of the speakers, recent reports show that some countries are already developing this technology.",
+                "ja": "スピーカーの１人によると，一部の国々ではすでにこの技術が開発中であることを示す最近の報告書があるそうです。"
+              },
+              {
+                "id": "hs2_p3_s3",
+                "en": "A few of them are even testing flying taxi services in the middle of their major cities.",
+                "ja": "いくつかの国では，大都市の真ん中で空飛ぶタクシーの試験運行さえ行われているとのことでした。"
+              },
+              {
+                "id": "hs2_p3_s4",
+                "en": "Then, someone in the audience asked if flying taxis would soon be available around the world.",
+                "ja": "その時聴衆の１人が，空飛ぶタクシーはまもなく世界中で利用可能になるのですか，と質問しました。"
+              },
+              {
+                "id": "hs2_p3_s5",
+                "en": "Two of the speakers answered, \"Yes,\" but they disagreed about the timing.",
+                "ja": "「はい」と答えたスピーカーは２人いましたが，時期については意見が合いませんでした。"
+              },
+              {
+                "id": "hs2_p3_s6",
+                "en": "One of them said, \"In 5 years,\" and the other said, \"In 15 years.\"",
+                "ja": "１人は「５年後」と言い，もう１人は「15年後」と答えました。"
+              },
+              {
+                "id": "hs2_p3_s7",
+                "en": "The third speaker answered, \"No, because the operating costs of flying taxis are too high.\"",
+                "ja": "３人目のスピーカーは，「いいえ。空飛ぶタクシーは運用コストが高すぎますから」と答えました。"
+              },
+              {
+                "id": "hs2_p3_s8",
+                "en": "I look forward to seeing which guest speaker's prediction turns out to be correct.",
+                "ja": "ゲストスピーカーの中のどなたの予測が結局正しいことになるのか，私はそれを知るのが楽しみです。"
+              }
+            ],
+            [
+              {
+                "id": "hs2_p4_s1",
+                "en": "Next week's blog is about self-driving cars.",
+                "ja": "来週のブログでは，自動運転のクルマを取り上げます。"
+              },
+              {
+                "id": "hs2_p4_s2",
+                "en": "It's going to be a fantastic post!",
+                "ja": "とても楽しい話を投稿しますよ！"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 4,
+          "stem": {
+            "en": "Which of the following did all the guest speakers agree on? [ 4 ]",
+            "ja": "ゲストスピーカーの全員が同意したのは次のどれか。［4］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Flying vehicles are widely accepted as being safe.",
+              "ja": "空飛ぶクルマが安全であることは広く受け入れられている。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Flying vehicles will improve responses to emergencies.",
+              "ja": "空飛ぶクルマは緊急事態への対応を改善するだろう。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Modern transportation problems are difficult to solve.",
+              "ja": "現代の交通機関の問題は解決が難しい。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Zero-emission technologies cannot be applied to flying vehicles.",
+              "ja": "有害なガスを出さない技術は空飛ぶクルマには応用できない。",
+              "is_correct": false
+            }
+          ],
+          "answer": "②",
+          "explanation": {
+            "quoted_ja": "「全員が同意したこと」は第2段落（All the speakers agreed ...）にまとめられている。同段落の Second, emergency services would be improved に「救急サービスが改善される」とあるので②が正解。①③④はこの段落の一致点としては述べられていない。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs2_p2_s4",
+              "hs2_p2_s5",
+              "hs2_p2_s6"
+            ],
+            "instructor_note": {
+              "ja": "段落の要約部分から「全員一致」の内容だけを選ぶ問題です。",
+              "points": [
+                "Second, emergency services ... が②に対応。",
+                "Finally ... safety ... は①の「既に安全と認識」や④の「ゼロエミ不可」とは別論点。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 5,
+          "stem": {
+            "en": "Flying vehicles will most likely [ 5 ].",
+            "ja": "空飛ぶクルマはおそらく［5］だろう。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "be used in small towns rather than large cities",
+              "ja": "大都市よりも小さな町で使われる",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "increase the number of traffic jams near hospitals",
+              "ja": "病院付近での交通渋滞の数を増やす",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "prevent solutions to environmental problems",
+              "ja": "環境問題の解決策を阻む",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "require proper assessment and regulation",
+              "ja": "適切な査定と規制を必要とする",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第2段落の最終文に Finally, from a safety point of view, they said that flying technology would need to be well tested and controlled to avoid accidents in the air とある。well tested and controlled は④の proper assessment and regulation に対応する。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs2_p2_s7"
+            ],
+            "instructor_note": {
+              "ja": "パラフレーズ（言い換え）で安全面の条件を選ぶ問題です。",
+              "points": [
+                "well tested and controlled → assessment / regulation の語彙対応を確認。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 6,
+          "stem": {
+            "en": "One guest speaker's <u>opinion</u> is that [ 6 ].",
+            "ja": "１人のゲストスピーカーの<u>意見</u>は，［6］というものである。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "flying taxi centres will be based in rural areas",
+              "ja": "空飛ぶタクシーのセンターは地方を拠点とするだろう",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "flying taxi technology has already been tested",
+              "ja": "空飛ぶタクシーの技術はすでに検証済みである",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "flying taxis are already widespread",
+              "ja": "空飛ぶタクシーはすでに広く普及している",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "flying taxis are too expensive to run",
+              "ja": "空飛ぶタクシーを走らせるにはお金がかかりすぎる",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第3段落で第３スピーカーは operating costs of flying taxis are too high と述べており，これは「意見」としての否定理由になる。④がこれに合う。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs2_p3_s7"
+            ],
+            "instructor_note": {
+              "ja": "fact と opinion を区別し，コストに関する発言を選ぶ問題です。",
+              "points": [
+                "developing / testing の記述は②③の誘惑だが，設問は「意見」としての主張。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 7,
+          "stem": {
+            "en": "Which of the following is mentioned in the blog? [ 7 ]",
+            "ja": "ブログの中で言及されているのは次のどれか。［7］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Costs of flying ambulance services",
+              "ja": "空飛ぶ救急車サービスの費用",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Flying transport using solar-power",
+              "ja": "太陽光を利用する空飛ぶ交通機関",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Parking areas for flying taxis",
+              "ja": "空飛ぶタクシーの駐車区域",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Urban trials of flying taxi services",
+              "ja": "空飛ぶタクシーサービスの都会での試験運行",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "第3段落に A few of them are even testing flying taxi services in the middle of their major cities とあり，大都市での試験運行が述べられている。④がこれに合う。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs2_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "本文に明示されている事実かどうかで消去する問題です。",
+              "points": [
+                "ambulance は速さに触れるが費用の具体には触れない（①）。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "transportation",
+              "ja": "〈名〉交通機関"
+            },
+            {
+              "en": "vehicle",
+              "ja": "〈名〉乗り物；車"
+            },
+            {
+              "en": "be electrically powered",
+              "ja": "電気を動力源としている"
+            },
+            {
+              "en": "in general",
+              "ja": "概して"
+            },
+            {
+              "en": "zero-emission",
+              "ja": "〈形〉有害ガスを排出しない"
+            },
+            {
+              "en": "emergency services",
+              "ja": "救急（医療）サービス"
+            },
+            {
+              "en": "ambulance",
+              "ja": "〈名〉救急車"
+            },
+            {
+              "en": "from a ... point of view",
+              "ja": "…の観点からは"
+            },
+            {
+              "en": "operating costs",
+              "ja": "経営［運営；営業］費"
+            },
+            {
+              "en": "look forward to -ing",
+              "ja": "…するのを楽しみに待つ"
+            },
+            {
+              "en": "prediction",
+              "ja": "〈名〉予測"
+            },
+            {
+              "en": "turn out to be ...",
+              "ja": "…であることがわかる"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 9,
+      "description": "物語読解（人物・順序・記述理解）",
+      "situation": {
+        "en": "You are an exchange student at a UK high school, and your teacher asked you to find an interesting story. You found this story to share in class next week.",
+        "ja": "あなたは英国の高校にいる交換留学生で，先生から面白いストーリーを見つけるよう求められました。あなたは来週クラスで発表する次のようなストーリーを見つけました。"
+      },
+      "passages": [
+        {
+          "id": "the_contest",
+          "framed": true,
+          "no_divider": true,
+          "title": {
+            "id": "hs3_story_title",
+            "en": "THE CONTEST",
+            "ja": "コンテスト"
+          },
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "hs3_p1_s1",
+                "en": "\"One more time, with feeling!\" I encouraged my band.",
+                "ja": "「もう一度，気持ちを込めて！」私はバンドのみんなを励ましました。"
+              },
+              {
+                "id": "hs3_p1_s2",
+                "en": "We are capable musicians.",
+                "ja": "私たちは才能あるミュージシャンです。"
+              },
+              {
+                "id": "hs3_p1_s3",
+                "en": "In fact, our keyboardist, Yuki, is a classically-trained pianist who regularly performs in front of audiences.",
+                "ja": "実際，キーボードのユキはクラシック音楽の訓練を受けたピアニストで，定期的に聴衆の前で演奏しています。"
+              },
+              {
+                "id": "hs3_p1_s4",
+                "en": "Kei, our bassist, has a huge number of followers because of the popular videos she uploads.",
+                "ja": "ベース担当のケイはアップロードするビデオが人気で，大勢のフォロワーがいます。"
+              },
+              {
+                "id": "hs3_p1_s5",
+                "en": "However, the Ultimate Music Contest was only a few weeks away and I was kind of regretting that we had entered it.",
+                "ja": "ところがアルティメット・ミュージック・コンテストがわずか数週間後に迫っていて，それにエントリーしたことを私はちょっと後悔していました。"
+              },
+              {
+                "id": "hs3_p1_s6",
+                "en": "I was worried that my band <em>Cat's Curry</em> wouldn't be ready.",
+                "ja": "私のバンドであるキャッツ・カリーは準備が整わないんじゃないかと心配だったのです。"
+              },
+              {
+                "id": "hs3_p1_s7",
+                "en": "Something felt wrong, but I couldn't figure it out.",
+                "ja": "何かがおかしいと感じましたが，私にはそれが何なのかわからずにいました。"
+              },
+              {
+                "id": "hs3_p1_s8",
+                "en": "We continued to practise until our rehearsal time was up.",
+                "ja": "リハーサル期間が終わるまで私たちは練習を続けました。"
+              },
+              {
+                "id": "hs3_p1_s9",
+                "en": "As band leader, I felt additional pressure about the contest.",
+                "ja": "私はバンドのリーダーとして，コンサートのプレッシャーを余計に感じていました。"
+              },
+              {
+                "id": "hs3_p1_s10",
+                "en": "\"Tomo, you're too worried. Everything will be OK,\" Ren, our drummer, said as she smiled at me and waved goodbye.",
+                "ja": "「トモ，心配しすぎだよ。すべてうまくいくよ」とドラマーのレンは言いながら，私に微笑みかけてバイバイと手を振りました。"
+              },
+              {
+                "id": "hs3_p1_s11",
+                "en": "\"I hope so,\" I thought to myself.",
+                "ja": "「そうであればいいけど」と私は心の中で思いました。"
+              }
+            ],
+            [
+              {
+                "id": "hs3_p2_s1",
+                "en": "Back at home, I watched the video I had taken of our rehearsal.",
+                "ja": "私は帰宅すると，撮っておいたリハーサルのビデオを見てみました。"
+              },
+              {
+                "id": "hs3_p2_s2",
+                "en": "As I listened to <em>Sayonara, and Thanks for Everything</em>, I thought my ears were playing tricks on me.",
+                "ja": "「さよなら，いろいろありがとう」を聞いてみた時，私は自分の耳がおかしいのだと思いました。"
+              },
+              {
+                "id": "hs3_p2_s3",
+                "en": "I carefully listened a few more times.",
+                "ja": "さらに何回か注意して聞き直しました。"
+              },
+              {
+                "id": "hs3_p2_s4",
+                "en": "Although it was hard to notice, we were slightly out of rhythm.",
+                "ja": "気づきにくいものの，私たちはわずかにリズムが合っていませんでした。"
+              },
+              {
+                "id": "hs3_p2_s5",
+                "en": "\"How could that be?\" I wondered.",
+                "ja": "「なぜこんなことが？」と私は思いました。"
+              },
+              {
+                "id": "hs3_p2_s6",
+                "en": "As I continued to listen, I paid extra attention to each instrument.",
+                "ja": "私はさらに聞きながら，特に一つ一つの楽器に注意を向けてみました。"
+              },
+              {
+                "id": "hs3_p2_s7",
+                "en": "\"I've got it!\" I thought excitedly.",
+                "ja": "私は興奮して「わかったわ！」と思いました。"
+              }
+            ],
+            [
+              {
+                "id": "hs3_p3_s1",
+                "en": "At the next practice, I played back the recording and waited for everyone's reaction.",
+                "ja": "次の練習の時，私は録音したものを再生して，みんなの反応を待ちました。"
+              }
+            ],
+            [
+              {
+                "id": "hs3_p4_s1",
+                "en": "\"I've been practising every day!\"",
+                "ja": "「毎日練習してきたのよ！」"
+              },
+              {
+                "id": "hs3_p4_s2",
+                "en": "\"These songs aren't even difficult...\"",
+                "ja": "「これらの歌は難しいものですらないのに…」"
+              },
+              {
+                "id": "hs3_p4_s3",
+                "en": "\"What's the matter?\"",
+                "ja": "「どうなっちゃってるの？」"
+              }
+            ],
+            [
+              {
+                "id": "hs3_p5_s1",
+                "en": "They didn't understand the problem, so I explained my discovery, \"Each of us is showing off. We're playing for ourselves, not for the band!\"",
+                "ja": "みんな問題を理解していなかったので，私は「私たち一人一人が自分を出しすぎているのよ。みんなバンドのためではなくて，自分のために演奏しているんだわ！」と言って自分の発見を説明しました。"
+              },
+              {
+                "id": "hs3_p5_s2",
+                "en": "From that day on, our focus shifted and the band took a step forward on its musical journey.",
+                "ja": "その日を境に私たちは練習の重点を変えて，バンドの音楽の旅は一歩前進しました。"
+              },
+              {
+                "id": "hs3_p5_s3",
+                "en": "Like the saying goes, \"The whole is greater than the sum of the parts.\"",
+                "ja": "ことわざにもあるように，「全体は部分の総和よりも大なり」なのです。"
+              },
+              {
+                "id": "hs3_p5_s4",
+                "en": "Although <em>Cat's Curry</em> did not win the contest, we all felt it was the best performance of our lives.",
+                "ja": "キャッツ・カリーはコンテストでは優勝できませんでしたが，私たちはみな今までで最高の演奏ができたと感じました。"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 8,
+          "stem": {
+            "en": "Which person is telling the story? [ 8 ]",
+            "ja": "このストーリーを語っているのはどの人物か。［8］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Kei",
+              "ja": "ケイ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Ren",
+              "ja": "レン",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Tomo",
+              "ja": "トモ",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Yuki",
+              "ja": "ユキ",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "語り手は地の文の「私」であり，レンが「トモ」と呼びかけることから語り手はトモ（③）。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs3_p1_s10"
+            ],
+            "instructor_note": {
+              "ja": "人称と固有名の対応を確認する問題です。",
+              "points": [
+                "Tomo, you're too worried の Tomo が語り手の名前。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "question_type": "ordering",
+          "answer_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "stem": {
+            "en": "Choose <u>four</u> out of the five options (①~⑤) and put them in the order they happened. [ 9 ] → [ 10 ] → [ 11 ] → [ 12 ]",
+            "ja": "5つの選択肢（①〜⑤）の中から4つを選び，それらが起こった順序に並べなさい。［9］→［10］→［11］→［12］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "The band changed its attitude.",
+              "ja": "バンドが態度を変えた。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "The band decided to practise more often.",
+              "ja": "バンドはもっと数多く練習することにした。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The band leader identified the problem.",
+              "ja": "バンドのリーダーが問題を突き止めた。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "The band leader was concerned about the band.",
+              "ja": "バンドのリーダーがバンドのことを心配していた。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "The band registered for a contest.",
+              "ja": "バンドがコンテストに参加登録した。",
+              "is_correct": true
+            }
+          ],
+          "answer": "⑤→④→③→①",
+          "answer_sequence": [
+            "⑤",
+            "④",
+            "③",
+            "①"
+          ],
+          "explanation": {
+            "quoted_ja": "時系列はコンテスト参加（⑤）→リーダーの不安（④）→問題の発見（③）→態度の転換（①）。②に相当する「もっと練習すると決めた」という記述は本文にない。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs3_p1_s5",
+              "hs3_p1_s6",
+              "hs3_p2_s7",
+              "hs3_p5_s2"
+            ],
+            "instructor_note": {
+              "ja": "イベントを時系列に並べ，本文にない②を除く。",
+              "points": [
+                "entered / Ultimate Music Contest が⑤。",
+                "worried ... wouldn't be ready が④。",
+                "\"I've got it!\" が③の発見。",
+                "From that day on, our focus shifted が①。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 13,
+          "stem": {
+            "en": "How did the band most likely feel after the competition? [ 13 ]",
+            "ja": "コンテストの後でバンドはおそらくどのように感じただろうか。［13］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Awful",
+              "ja": "最悪だ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Embarrassed",
+              "ja": "恥ずかしい",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Independent",
+              "ja": "自立できた",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Satisfied",
+              "ja": "満足した",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "最終文に Although Cat's Curry did not win the contest, we all felt it was the best performance of our lives とあり，勝敗を超えて充実感がある。④の Satisfied が最も近い。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs3_p5_s4"
+            ],
+            "instructor_note": {
+              "ja": "結末の感情を best performance で読み取る問題です。",
+              "points": [
+                "best performance of our lives が肯定的感情の根拠。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "capable",
+              "ja": "〈形〉有能な"
+            },
+            {
+              "en": "classically-trained",
+              "ja": "〈形〉古典的な［クラシックの］訓練を受けた"
+            },
+            {
+              "en": "perform",
+              "ja": "〈動〉…を演奏する"
+            },
+            {
+              "en": "bassist",
+              "ja": "〈名〉ベース奏者"
+            },
+            {
+              "en": "follower",
+              "ja": "〈名〉（SNS などの）フォロワー"
+            },
+            {
+              "en": "kind of",
+              "ja": "いくぶん；かなり"
+            },
+            {
+              "en": "figure ... out",
+              "ja": "…を理解する"
+            },
+            {
+              "en": "additional",
+              "ja": "〈形〉追加の"
+            },
+            {
+              "en": "play tricks on 〈人〉",
+              "ja": "（〈人〉の目や耳などが）錯誤を起こす；機能がおかしくなる"
+            },
+            {
+              "en": "instrument",
+              "ja": "〈名〉楽器"
+            },
+            {
+              "en": "get it",
+              "ja": "わかる；理解する"
+            },
+            {
+              "en": "What's the matter?",
+              "ja": "どうしたのだろう？"
+            },
+            {
+              "en": "show off",
+              "ja": "〈能力などを〉ひけらかす"
+            },
+            {
+              "en": "from that day on",
+              "ja": "その日以来（ずっと）"
+            },
+            {
+              "en": "take a step forward",
+              "ja": "一歩踏み出す"
+            },
+            {
+              "en": "like the saying goes",
+              "ja": "ことわざにもあるように"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 12,
+      "points_per_question": 3,
+      "description": "エッセイ（教師コメント）",
+      "situation": {
+        "intro_sentences": [
+          {
+            "id": "hs4_sit1",
+            "en": "In English class, you are writing an essay on a topic related to lifestyle in modern society.",
+            "ja": "あなたは英語のクラスで，現代社会の生活様式に関連したトピックでエッセイを書いています。"
+          },
+          {
+            "id": "hs4_sit2",
+            "en": "This is your most recent draft.",
+            "ja": "これはあなたの一番新しい草稿です。"
+          },
+          {
+            "id": "hs4_sit3",
+            "en": "You are now working on improvements based on comments from your teacher.",
+            "ja": "あなたは今，先生からのコメントに基づいて修正に取り組んでいます。"
+          }
+        ]
+      },
+      "passages": [
+        {
+          "id": "slow_life_essay",
+          "framed": true,
+          "no_divider": true,
+          "title": {
+            "id": "hs4_doc_title",
+            "en": "Try a Slow Life",
+            "ja": "スローライフを体験しよう"
+          },
+          "margin_comments": [
+            {
+              "marker": "(1)",
+              "en": "Add an appropriate connecting word.",
+              "ja": "適切なつなぎ語を加えてください。"
+            },
+            {
+              "marker": "(2)",
+              "en": "Add a concluding sentence to improve this paragraph.",
+              "ja": "この段落をより良いものにするため，締めくくりの文を加えてください。"
+            },
+            {
+              "marker": "(3)",
+              "en": "The underlined part isn't your main argument. Rewrite it.",
+              "ja": "下線部はあなたの主旨とは異なります。書き換えてください。"
+            },
+            {
+              "marker": "(4)",
+              "en": "The underlined part doesn't describe your essay content well. Change it.",
+              "ja": "下線部はあなたのエッセイの内容をうまく表現していません。変更してください。"
+            }
+          ],
+          "paragraph_classes": [
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent",
+            "para-indent"
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "hs4_p1_s1",
+                "en": "In modern society, people are always busy and this fast pace of living can be stressful.",
+                "ja": "現代社会では，人々はいつも忙しくしていて，このようなペースの速い生活はストレスになることがあります。"
+              },
+              {
+                "id": "hs4_p1_s2",
+                "en": "The movement toward a slow life has shown us that you don't have to be busy all the time.",
+                "ja": "スローライフを志向する動きは私たちに，四六時中忙しくしている必要がないことを示しています。"
+              },
+              {
+                "id": "hs4_p1_s3",
+                "en": "Instead, you can slow down and notice things that are truly meaningful to you.",
+                "ja": "代わりにペースを落とすことで，自分にとって本当に意味のある物事に気づくことができるのです。"
+              },
+              {
+                "id": "hs4_p1_s4",
+                "en": "By taking your time and being completely focused on these things, you can improve the quality of your work and life.",
+                "ja": "ゆっくり時間をかけてこういった物事に完全に集中することによって，自分の仕事や生活の質を高めることができるのです。"
+              },
+              {
+                "id": "hs4_p1_s5",
+                "en": "This essay will describe some ways to do this.",
+                "ja": "このエッセイはこれを行ういくつかの方法を説明します。"
+              }
+            ],
+            [
+              {
+                "id": "hs4_p2_s1",
+                "en": "One key point of the slow life is to own fewer belongings.",
+                "ja": "スローライフの重要な点の１つは，所有する物を減らすことです。"
+              },
+              {
+                "id": "hs4_p2_s2",
+                "en": "This makes it easier to concentrate on everyday activities.",
+                "ja": "これにより，日々の活動に集中するのがより容易になります。"
+              },
+              {
+                "id": "hs4_p2_s3",
+                "en": "Many people today tend to buy more than they can consume.",
+                "ja": "今日では多くの人々が，消費しきれないほど多くの物を買う傾向があります。",
+                "comment_marker": "(1)",
+                "marker_type": "caret"
+              },
+              {
+                "id": "hs4_p2_s4",
+                "en": "Do you really need five pairs of the latest sneakers?",
+                "ja": "最新のスニーカーが本当に５足も必要ですか？"
+              },
+              {
+                "id": "hs4_p2_s5",
+                "en": "Slow-lifers would recommend reducing possessions and buying only necessary items.",
+                "ja": "スローライフを送る人なら，所有物を減らして必要なものだけを買うように勧めるでしょう。"
+              }
+            ],
+            [
+              {
+                "id": "hs4_p3_s1",
+                "en": "Another recommendation is to think about your communication style and manner in your public and private life.",
+                "ja": "もう１つ勧めたいことは，公私両面の生活における自分のコミュニケーションのとり方や話し方について考えることです。"
+              },
+              {
+                "id": "hs4_p3_s2",
+                "en": "Sadly, one study has found that around 90% of people check smartphones during face-to-face conversations, which may appear impolite and affect relationships negatively.",
+                "ja": "悲しいことにある調査によると，約90パーセントの人々が対面での会話の最中にスマートフォンをチェックするそうで，これは失礼に見えるし，人間関係に悪影響を及ぼすかもしれません。",
+                "comment_marker": "(2)",
+                "marker_position": "after",
+                "marker_type": "caret"
+              }
+            ],
+            [
+              {
+                "id": "hs4_p4_s1",
+                "en": "The final aspect of slow living is to take 10 to 15 minutes to reflect on your day.",
+                "ja": "スローな生活の最後の特徴は，10分から15分かけて１日を振り返るということです。"
+              },
+              {
+                "id": "hs4_p4_s2",
+                "en": "Try to recollect people and events that were significant.",
+                "ja": "大きな意味を持った人や出来事を思い出してみましょう。"
+              },
+              {
+                "id": "hs4_p4_s3",
+                "en": "By mentally highlighting them, you can find fulfillment in daily tasks.",
+                "ja": "それらをはっきりと意識することで，日々の仕事の中に充足を見出すことができます。"
+              }
+            ],
+            [
+              {
+                "id": "hs4_p5_s1",
+                "en": "In summary, through a slow life, you can relax.",
+                "ja": "要約すると，スローライフを送ればリラックスできるのです。",
+                "comment_marker": "(3)",
+                "underline_word": "you can relax",
+                "underline_word_ja": "リラックスできるのです"
+              },
+              {
+                "id": "hs4_p5_s2",
+                "en": "Even small changes can improve your life.",
+                "ja": "小さな変化でも生活を改善することができます。"
+              },
+              {
+                "id": "hs4_p5_s3",
+                "en": "Avoid having non-essential items, spend quality time with people around you, and remember what you talked about with your friends.",
+                "ja": "不必要なものは持たず，周囲の人々と上質な時間を過ごし，友達と話したことを思い出してください。",
+                "comment_marker": "(4)",
+                "underline_word": "remember what you talked about with your friends",
+                "underline_word_ja": "友達と話したことを思い出してください"
+              },
+              {
+                "id": "hs4_p5_s4",
+                "en": "By doing these things, you will have a chance to live a better and more rewarding life.",
+                "ja": "これらを行うことで，より良い充実した生活を送る機会を得ることでしょう。"
+              }
+            ]
+          ],
+          "teacher_comment": {
+            "title_en": "Overall Comments:",
+            "title_ja": "総評：",
+            "en": "You have really improved your essay. Keep working on it. I'm going to follow your suggestions to slow down and hopefully improve the quality of my life. 😊",
+            "ja": "あなたのエッセイは本当に良くなりましたね。この調子で頑張ってください。私もあなたの提案に従ってペースを落とし，生活の質を改善できればいいなと思います。😊"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 14,
+          "stem": {
+            "en": "Based on Comment (1), which is the best word to add? [ 14 ]",
+            "ja": "コメント（1）に基づけば，加えるべき最適な語はどれか。［14］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "However",
+              "ja": "しかしながら",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Moreover",
+              "ja": "さらに",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Otherwise",
+              "ja": "さもないと",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Therefore",
+              "ja": "したがって",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "「所有を減らすと集中しやすい」と「多くの人は買いすぎる」は対比なので，つなぎ語は However が適切。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs4_p2_s2",
+              "hs4_p2_s3"
+            ],
+            "instructor_note": {
+              "ja": "前後の論理関係（対比・追加・結果など）から接続語を選ぶ。",
+              "points": [
+                "This makes it easier ... と Many people today ... の内容対比。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 15,
+          "stem": {
+            "en": "Based on Comment (2), which is the best sentence to add? [ 15 ]",
+            "ja": "コメント（2）に基づけば，加えるべき最適な文はどれか。［15］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Limit the time you spend having conversations with people.",
+              "ja": "人と会話して過ごす時間を制限してください。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Send messages with your phone just once or twice a day.",
+              "ja": "１日に１回か２回だけ電話でメッセージを送ってください。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Try to focus your attention on the person you are talking with.",
+              "ja": "自分の話し相手に注意を集中しようとしてください。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "Use your phone to find real friends through social media.",
+              "ja": "ソーシャルメディアを通じて本当の友人を見つけるために電話を使ってください。",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "段落の主題はコミュニケーションの取り方であり，スマホを見る悪い例のあとには，話し相手に集中するという望ましい行動が締めとして適切。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs4_p3_s1",
+              "hs4_p3_s2"
+            ],
+            "instructor_note": {
+              "ja": "段落の主旨と「締めの文」の役割を照らす。",
+              "points": [
+                "communication style がキーワード。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 16,
+          "stem": {
+            "en": "Based on Comment (3), which is the best phrase to replace the underlined part? [ 16 ]",
+            "ja": "コメント（3）に基づけば，下線部を置き換える表現として最適なものはどれか。［16］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "you can be satisfied at work and in your personal life",
+              "ja": "仕事でも私生活でも満足できるのです",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "you can complete tasks in a short period of time",
+              "ja": "仕事を短時間で終えることができるのです",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "you can decrease stress by sharing work with others",
+              "ja": "仕事を他者と分担することでストレスを減らせるのです",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "you can focus on the outcome rather than the process",
+              "ja": "過程よりも結果に集中できるのです",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "第１段落で improve the quality of your work and life とあり，エッセイ全体の主旨は「質を高める方法」。①がこれに最も沿う。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs4_p1_s4",
+              "hs4_p5_s1"
+            ],
+            "instructor_note": {
+              "ja": "序論の主旨と結論部の言い換えの整合をとる。",
+              "points": [
+                "relax だけでは主旨が狭すぎる，というのがコメント(3)の意図。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 17,
+          "stem": {
+            "en": "Based on Comment (4), which is the best phrase to replace the underlined part? [ 17 ]",
+            "ja": "コメント（4）に基づけば，下線部を置き換える表現として最適なものはどれか。［17］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "plan your daily activities as soon as you wake up",
+              "ja": "目覚めたらすぐに１日の活動の計画を立てなさい",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "recall the bad things that happened in your life",
+              "ja": "生活の中で起こった悪いことを思い出しなさい",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "think back to the memorable parts of your day",
+              "ja": "１日の中で記憶に残る部分を振り返りなさい",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "throw away unwanted items before sleeping",
+              "ja": "いらない物を眠る前に捨てなさい",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "第４段落で reflect on your day／recollect ... significant とあり，記憶に残る部分を振り返ることが本文の方法論。(4)の下線はその要約に合わせる必要があるので③。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs4_p4_s1",
+              "hs4_p4_s2",
+              "hs4_p5_s3"
+            ],
+            "instructor_note": {
+              "ja": "結論の列挙が第４段落の内容と対応しているか確認する。",
+              "points": [
+                "remember ... friends だけでは段落４の「一日の振り返り」とずれる。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "(be) related to ...",
+              "ja": "…と関係がある"
+            },
+            {
+              "en": "draft",
+              "ja": "〈名〉草稿"
+            },
+            {
+              "en": "(be) based on ...",
+              "ja": "…に基づいている"
+            },
+            {
+              "en": "stressful",
+              "ja": "〈形〉ストレスの多い"
+            },
+            {
+              "en": "meaningful",
+              "ja": "〈形〉重要な；意味のある"
+            },
+            {
+              "en": "take one's time",
+              "ja": "ゆっくりやる"
+            },
+            {
+              "en": "be focused on ...",
+              "ja": "…に集中して［焦点を合わせて］いる"
+            },
+            {
+              "en": "quality",
+              "ja": "〈名〉質"
+            },
+            {
+              "en": "describe",
+              "ja": "〈動〉…の特徴を述べる；…を説明する"
+            },
+            {
+              "en": "own",
+              "ja": "〈動〉…を所有する"
+            },
+            {
+              "en": "belongings",
+              "ja": "〈名〉所有物 ≒ possessions"
+            },
+            {
+              "en": "concentrate on ...",
+              "ja": "…に集中する"
+            },
+            {
+              "en": "consume",
+              "ja": "〈動〉…を消費する"
+            },
+            {
+              "en": "latest",
+              "ja": "〈形〉最新の"
+            },
+            {
+              "en": "recommend",
+              "ja": "〈動〉…を勧める"
+            },
+            {
+              "en": "recommendation",
+              "ja": "〈名〉勧告；助言"
+            },
+            {
+              "en": "face-to-face",
+              "ja": "〈形〉対面の"
+            },
+            {
+              "en": "impolite",
+              "ja": "〈形〉失礼な"
+            },
+            {
+              "en": "affect ... negatively",
+              "ja": "…に悪い影響を及ぼす"
+            },
+            {
+              "en": "aspect",
+              "ja": "〈名〉面；特徴"
+            },
+            {
+              "en": "reflect on ...",
+              "ja": "…を熟考する"
+            },
+            {
+              "en": "recollect",
+              "ja": "〈動〉…を思い出す"
+            },
+            {
+              "en": "mentally",
+              "ja": "〈副〉精神的に；心の中で"
+            },
+            {
+              "en": "highlight",
+              "ja": "〈動〉…を強調する"
+            },
+            {
+              "en": "fulfillment",
+              "ja": "〈名〉充足［満足］感"
+            },
+            {
+              "en": "in summary",
+              "ja": "要約すると"
+            },
+            {
+              "en": "non-essential",
+              "ja": "〈形〉不必要な"
+            },
+            {
+              "en": "quality time",
+              "ja": "（親しい人と過ごす）上質な時間"
+            },
+            {
+              "en": "rewarding",
+              "ja": "〈形〉価値のある；報われる"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 16,
+      "situation": {
+        "en": "You are an exchange student in the US. As part of your university's community volunteer program, you will help organize a special conference for local businesses. You wrote this email to the professor in charge and received a reply.",
+        "ja": "あなたは米国にいる交換留学生である。大学のコミュニティー・ボランティア・プログラムの一環として，地元企業向けの特別カンファレンスの運営を手伝う。担当の教授に次のメールを書き，返信を受け取った。"
+      },
+      "passages": [
+        {
+          "id": "student_email",
+          "layout": "email_window",
+          "title": {
+            "id": "hs5_subj_student",
+            "en": "Event Plan",
+            "ja": "イベントプラン"
+          },
+          "date": "October 15, 2024",
+          "date_ja": "2024年10月15日",
+          "salutation": {
+            "en": "Dear Professor Ryan,",
+            "ja": "ライアン教授様"
+          },
+          "from": "Student group representative (University Volunteer Program)",
+          "to": "Professor Ryan",
+          "paragraphs": [
+            [
+              {
+                "id": "hs5_s1",
+                "en": "I am very happy to be the representative for the volunteer program.",
+                "ja": "私はボランティア・プログラムの代表になれて大変光栄です。"
+              },
+              {
+                "id": "hs5_s2",
+                "en": "You mentioned that this event is to promote the local economy.",
+                "ja": "このイベントは地元の経済を促進するためのものだと，先生はおっしゃいました。"
+              },
+              {
+                "id": "hs5_s3",
+                "en": "I hope to work as a civil servant in the local development division after graduation, so this experience is very valuable for me.",
+                "ja": "卒業後は地元の開発部門で公務員として働くことを希望しているので，この経験は私にとって大変貴重です。"
+              },
+              {
+                "id": "hs5_s4",
+                "en": "The conference schedule you requested is below.",
+                "ja": "先生が要請なさったカンファレンス・スケジュールは以下の通りです。"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s5",
+                "en": "I would like you to confirm the following points:",
+                "ja": "以下の点についてご確認お願いします："
+              },
+              {
+                "id": "hs5_s6",
+                "en": "The conference will start at 9:45 a.m. and end at 4:45 p.m.",
+                "ja": "会議は午前9時45分に始まり，午後4時45分に終わる。",
+                "role": "bullet"
+              },
+              {
+                "id": "hs5_s7",
+                "en": "The registration will close seven days before the event.",
+                "ja": "登録はイベントの7日前に締め切る。",
+                "role": "bullet"
+              },
+              {
+                "id": "hs5_s8",
+                "en": "The conference will be held in the Main Hall.",
+                "ja": "会議はメインホールで行う。",
+                "role": "bullet"
+              },
+              {
+                "id": "hs5_s9",
+                "en": "Participants will park in the university parking area.",
+                "ja": "参加者は大学の駐車場に車をとめる。",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s10",
+                "en": "Below is a list of things that still need to be decided:",
+                "ja": "以下は，これから決めなければならない事柄のリストである："
+              },
+              {
+                "id": "hs5_s11",
+                "en": "Can we use the cafeteria for the lunch time reception?",
+                "ja": "昼食時のレセプションにカフェテリアは使えますか？",
+                "role": "bullet"
+              },
+              {
+                "id": "hs5_s12",
+                "en": "Have you received the speech titles for the mayor and the two remaining presenters?",
+                "ja": "先生は市長と残りの2人のプレゼンターの講演タイトルを受け取りましたか？",
+                "role": "bullet"
+              },
+              {
+                "id": "hs5_s13",
+                "en": "How will we arrange the tables and chairs for the debate?",
+                "ja": "ディベート用のテーブルと椅子はどのように並べますか？",
+                "role": "bullet"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s14",
+                "en": "The number of volunteers that can help with the conference isn't set yet. I'll send you the list as soon as possible.",
+                "ja": "カンファレンスを手伝うことのできるボランティアの人数はまだ決まっていません。できるだけ早くリストを送ります。"
+              },
+              {
+                "id": "hs5_s15",
+                "en": "This is my first time being on a committee like this, and I am rather anxious, so I would appreciate any advice you have.",
+                "ja": "このような委員会に参加するのはこれが初めてで，かなり不安なので，どんなアドバイスでもいただければありがたいです。"
+              },
+              {
+                "id": "hs5_s16",
+                "en": "I'm looking forward to assisting and attending the presentations.",
+                "ja": "プレゼンテーションの手伝いと参加を楽しみにしています。"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s42",
+                "en": "With regards,",
+                "ja": "かしこ"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s43",
+                "en": "Student group representative",
+                "ja": "学生グループ代表"
+              },
+              {
+                "id": "hs5_s44",
+                "en": "(University Volunteer Program)",
+                "ja": "（大学ボランティア・プログラム）"
+              }
+            ]
+          ],
+          "framed": true,
+          "no_divider": true,
+          "table": {
+            "after_paragraph": 1,
+            "title": {
+              "en": "Saturday, February 15, 2025",
+              "ja": "2025年2月15日（土）"
+            },
+            "headers": [
+              "Time",
+              "Speaker & Title"
+            ],
+            "rows": [
+              {
+                "type": "section_header",
+                "label": "Morning theme: \"Changing local traditions\"",
+                "label_ja": "午前のテーマ：「地域の伝統を変える」"
+              },
+              {
+                "cells": [
+                  "9:45 a.m.",
+                  "Opening address: Professor Henry Ryan"
+                ],
+                "cells_ja": [
+                  "午前9時45分",
+                  "開会の辞：ヘンリー・ライアン教授"
+                ]
+              },
+              {
+                "cells": [
+                  "10:00 a.m.",
+                  "Presentation 1: Martin Faulkner\nTitle: Starting an online business"
+                ],
+                "cells_ja": [
+                  "午前10時",
+                  "プレゼンテーション1：マーティン・フォークナー\nタイトル：オンラインビジネスを始めること"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "11:00 a.m.",
+                  "Break"
+                ],
+                "cells_ja": [
+                  "午前11時",
+                  "休憩"
+                ]
+              },
+              {
+                "cells": [
+                  "11:15 a.m.",
+                  "Presentation 2: Jane Brown\nTitle: (undecided)"
+                ],
+                "cells_ja": [
+                  "午前11時15分",
+                  "プレゼンテーション2：ジェーン・ブラウン\nタイトル：（未定）"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "12:15 p.m.",
+                  "Lunch"
+                ],
+                "cells_ja": [
+                  "午後12時15分",
+                  "昼食"
+                ]
+              },
+              {
+                "type": "section_header",
+                "label": "Afternoon theme: \"Preserving local traditions\"",
+                "label_ja": "午後のテーマ：「地域の伝統を守る」"
+              },
+              {
+                "cells": [
+                  "1:00 p.m.",
+                  "Presentation 3: Sarine Schmidt\nTitle: Handing down craftsmanship to younger generations"
+                ],
+                "cells_ja": [
+                  "午後1時",
+                  "プレゼンテーション3：サリーン・シュミット\nタイトル：職人技を若い世代に伝えること"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "2:00 p.m.",
+                  "Break"
+                ],
+                "cells_ja": [
+                  "午後2時",
+                  "休憩"
+                ]
+              },
+              {
+                "cells": [
+                  "2:15 p.m.",
+                  "Presentation 4: Dianne Moran\nTitle: (undecided)"
+                ],
+                "cells_ja": [
+                  "午後2時15分",
+                  "プレゼンテーション4：ダイアン・モラン\nタイトル：（未定）"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "3:15 p.m.",
+                  "Break"
+                ],
+                "cells_ja": [
+                  "午後3時15分",
+                  "休憩"
+                ]
+              },
+              {
+                "cells": [
+                  "3:30 p.m.",
+                  "Debate moderator: Tim McGregor\nTitle: Change vs. conservation"
+                ],
+                "cells_ja": [
+                  "午後3時30分",
+                  "討論の司会者：ティム・マクグレゴー\nタイトル：変化対保存"
+                ]
+              },
+              {
+                "cells": [
+                  "4:30 p.m.",
+                  "Closing address: Mayor Lesley Baker\nTitle: (undecided)"
+                ],
+                "cells_ja": [
+                  "午後4時30分",
+                  "閉会の辞：レズリー・ベイカー市長\nタイトル：（未定）"
+                ]
+              },
+              {
+                "type": "span",
+                "cells": [
+                  "4:45 p.m.",
+                  "End"
+                ],
+                "cells_ja": [
+                  "午後4時45分",
+                  "終了"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "professor_reply",
+          "layout": "email_window",
+          "title": {
+            "id": "hs5_subj_prof",
+            "en": "Re: Event Plan",
+            "ja": "Re: イベントプラン"
+          },
+          "date": "October 17, 2024",
+          "date_ja": "2024年10月17日",
+          "salutation": {
+            "en": "Dear representative and group members,",
+            "ja": "代表およびグループメンバーの皆様"
+          },
+          "from": "Henry Ryan",
+          "to": "Dear representative and group members",
+          "paragraphs": [
+            [
+              {
+                "id": "hs5_s17",
+                "en": "Thank you for making the draft. You've done a really good job.",
+                "ja": "草稿を作成してくれてありがとう。大変よくできていますよ。"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s18",
+                "en": "The time schedule and order of events look good to me.",
+                "ja": "タイムスケジュールとイベントの順序についてはこれで良さそうです。"
+              },
+              {
+                "id": "hs5_s19",
+                "en": "The Main Hall worked really well as a venue last time.",
+                "ja": "前回，メインホールは開催会場として大変好都合でした。"
+              },
+              {
+                "id": "hs5_s20",
+                "en": "It has a good capacity for this type of event.",
+                "ja": "このようなイベントのための十分な収容能力があります。"
+              },
+              {
+                "id": "hs5_s21",
+                "en": "As a university staff member, I can reserve it for free.",
+                "ja": "私は大学の職員なので，無料で予約することができます。"
+              },
+              {
+                "id": "hs5_s22",
+                "en": "Closing the registration seven days before the conference is too short.",
+                "ja": "カンファレンスの7日前に申し込みを締め切るのは期間が短すぎます。"
+              },
+              {
+                "id": "hs5_s23",
+                "en": "It doesn't give us time to prepare materials and send out information.",
+                "ja": "私たちが資料を準備したり情報を送ったりする時間がありません。"
+              },
+              {
+                "id": "hs5_s24",
+                "en": "You also mentioned parking.",
+                "ja": "駐車についても書いていましたね。"
+              },
+              {
+                "id": "hs5_s25",
+                "en": "The university parking lot will be open for the event, so participants can use it without having a permit.",
+                "ja": "大学の駐車場はこのイベントのために開放されるので，参加者は許可なしでそこを利用することができます。"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s26",
+                "en": "With regard to the information you requested, I have received the remaining two presentation titles.",
+                "ja": "ご要望の情報については，残りの2人の講演タイトルを受け取りました。"
+              },
+              {
+                "id": "hs5_s27",
+                "en": "One presenter is a local businessperson, who will talk about changes she has made in her company.",
+                "ja": "1人のプレゼンターは地元のビジネスパーソンで，自分の会社で彼女が行った修正について講演します。"
+              },
+              {
+                "id": "hs5_s28",
+                "en": "The other presenter is a local chef.",
+                "ja": "もう1人のプレゼンターは地元のシェフです。"
+              },
+              {
+                "id": "hs5_s29",
+                "en": "She will introduce recipes using locally grown mushrooms.",
+                "ja": "彼女は地元で育ったマッシュルームを使ったレシピを紹介します。"
+              },
+              {
+                "id": "hs5_s30",
+                "en": "I will update their presentation details on the schedule and send it back to you.",
+                "ja": "プレゼンテーションの詳細についてはスケジュール上で最新のものにして，あなたに返信します。"
+              },
+              {
+                "id": "hs5_s31",
+                "en": "Also, the mayor has provided a title for his closing speech, \"Our town, our future.\"",
+                "ja": "また，市長から，閉会の辞のタイトルが「私たちの町，私たちの未来」になるとご連絡がありました。"
+              },
+              {
+                "id": "hs5_s32",
+                "en": "As for lunch, the cafeteria staff don't work on weekends, so we need to rethink it.",
+                "ja": "昼食については，カフェテリアのスタッフは週末に休暇をとるので，考え直す必要があります。"
+              },
+              {
+                "id": "hs5_s33",
+                "en": "Do you have any suggestions?",
+                "ja": "何かご提案はありますか？"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s34",
+                "en": "I have attached a diagram for the debate seating arrangements.",
+                "ja": "ディベートの席の並べ方についての図を添付しました。"
+              },
+              {
+                "id": "hs5_s35",
+                "en": "You will notice that there needs to be a small desk for the moderator in the center.",
+                "ja": "ご覧になってわかるように，中央に司会用の小さい机が必要です。"
+              },
+              {
+                "id": "hs5_s36",
+                "en": "There should be one table on each side of the moderator, and these tables should face slightly inward.",
+                "ja": "司会の両側にテーブルが1つずつ必要ですが，これらのテーブルはやや内側に向けて置きましょう。"
+              },
+              {
+                "id": "hs5_s37",
+                "en": "As we have two debaters on each team, use the long tables.",
+                "ja": "それぞれのチームに2人ずつディベーターがいるので，長テーブルを使ってください。"
+              },
+              {
+                "id": "hs5_s38",
+                "en": "There isn't a lot of time to set up the stage for the debate, so you will need a few people to help carry the tables and chairs.",
+                "ja": "ディベートのためのステージを用意する時間はあまりないので，テーブルと椅子を運ぶのを手伝ってくれる人が，数人必要です。"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s45",
+                "en": "Thank you for your assistance.",
+                "ja": "ご協力ありがとうございます。"
+              },
+              {
+                "id": "hs5_s46",
+                "en": "Henry Ryan",
+                "ja": "ヘンリー・ライアン"
+              }
+            ],
+            [
+              {
+                "id": "hs5_s47",
+                "en": "Attachment: Debate set up diagram",
+                "ja": "添付ファイル：討論会場設置図"
+              }
+            ]
+          ],
+          "framed": true,
+          "no_divider": true
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 18,
+          "stem": {
+            "en": "Based on your email, what is your overall worry about being on the volunteer program? [ 18 ]",
+            "ja": "あなたのメールに基づけば，ボランティア・プログラムに関してあなたが全体的に不安に思っていることは何か。［18］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A lack of event organizing experience",
+              "ja": "イベント開催経験の欠如",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Concerns about your presentation skills",
+              "ja": "自分のプレゼンテーション能力についての懸念",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The possibility of future employment",
+              "ja": "将来の就職の可能性",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Your ability in writing English emails",
+              "ja": "英語でメールを書く能力",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "「This is my first time being on a committee like this, and I am rather anxious …」より，大きな会議運営の経験不足が全体的不安。よって①。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs5_s15"
+            ],
+            "instructor_note": {
+              "ja": "メール後半の感情・経験に関する一文を特定する。",
+              "points": [
+                "first time … committee … anxious がキーワード。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 19,
+          "answer_numbers": [
+            19,
+            20
+          ],
+          "stem": {
+            "en": "Which of these titles best match Professor Ryan's descriptions for Presentation 2 ( [ 19 ] ) and Presentation 4 ( [ 20 ] ) based on the morning and afternoon themes?",
+            "ja": "午前と午後のテーマに照らし，ライアン教授の説明に最も合うのは，プレゼンテーション2（［19］）とプレゼンテーション4（［20］）のそれぞれについて，次のうちどれか。"
+          },
+          "choices_19": [
+            {
+              "label": "①",
+              "en": "Building a memorial statue of our town hero",
+              "ja": "町のヒーローの記念像の建造",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Dealing with local volunteers",
+              "ja": "地元のボランティアへの対応",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Organizing cross-cultural events",
+              "ja": "異文化交流イベントの開催",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Rediscovering the benefits of local food",
+              "ja": "地元の食べ物の利点の再発見",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Renovating the village church",
+              "ja": "村の教会の改装",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Updating a traditional business model",
+              "ja": "伝統的なビジネスモデルの刷新",
+              "is_correct": true
+            }
+          ],
+          "choices_20": [
+            {
+              "label": "①",
+              "en": "Building a memorial statue of our town hero",
+              "ja": "町のヒーローの記念像の建造",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Dealing with local volunteers",
+              "ja": "地元のボランティアへの対応",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Organizing cross-cultural events",
+              "ja": "異文化交流イベントの開催",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Rediscovering the benefits of local food",
+              "ja": "地元の食べ物の利点の再発見",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "Renovating the village church",
+              "ja": "村の教会の改装",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Updating a traditional business model",
+              "ja": "伝統的なビジネスモデルの刷新",
+              "is_correct": false
+            }
+          ],
+          "answers_19_20": [
+            "⑥",
+            "④"
+          ],
+          "answer": {
+            "19": "⑥",
+            "20": "④"
+          },
+          "explanation": {
+            "quoted_ja": "午前のテーマは「伝統を変える」→プレゼン2は会社の変革（⑥）。午後は「伝統を守る」→プレゼン4は地元食材・シェフの話（④）。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs5_s27",
+              "hs5_s28",
+              "hs5_s29"
+            ],
+            "instructor_note": {
+              "ja": "スケジュール上の午前／午後ブロックと，教授メール第3段落の説明を対応づける。",
+              "points": [
+                "businessperson / company changes → ⑥",
+                "chef / local mushrooms → ④"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 21,
+          "stem": {
+            "en": "Referring to Professor Ryan's reply, which of the following needs to be reconsidered? [ 21 ]",
+            "ja": "ライアン教授の返信を参照すると，次のうち再考が必要なのはどれか。［21］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Conference registration",
+              "ja": "会議の登録［申し込み締切］",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Main Hall as the venue",
+              "ja": "開催場所としてのメインホール",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Mayor's speech title",
+              "ja": "市長のスピーチのタイトル",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Opening and closing times",
+              "ja": "開会と閉会の時刻",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "教授メール「Closing the registration seven days before … is too short」より，登録締切の見直しが必要。よって①。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs5_s22",
+              "hs5_s23"
+            ],
+            "instructor_note": {
+              "ja": "「否定・問題提起」されている要素を選ぶ。",
+              "points": [
+                "Main Hall は venue として肯定されている。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 22,
+          "stem": {
+            "en": "Which diagram best represents Professor Ryan's seating plan for the debate? [ 22 ]",
+            "ja": "ライアン教授が提案した討論の座席配置を最もよく表している図はどれか。［22］"
+          },
+          "figure_image": {
+            "src": "data/kyotsu/2025/honshiken/images/q05_q4_debate_diagrams.png",
+            "alt": "Five debate seating diagrams labeled 1 through 5"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "",
+              "ja": "",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "",
+              "ja": "",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "中央に司会席・両側にやや内側を向いた長テーブル（各チーム2名）→③のみが整合。よって③。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs5_s35",
+              "hs5_s36",
+              "hs5_s37"
+            ],
+            "instructor_note": {
+              "ja": "図の人数・テーブル形状・司会位置の3点で消去する。",
+              "points": [
+                "moderator の small desk in the center",
+                "long tables",
+                "face slightly inward"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 23,
+          "stem": {
+            "en": "You will email Professor Ryan again. In your reply, which two pieces of information are you most likely to include? [ 23 ]",
+            "ja": "あなたは再度ライアン教授にメールする。返信に入れる可能性が最も高い情報の組み合わせは次のうちどれか。［23］"
+          },
+          "info_options": [
+            {
+              "label": "A",
+              "en": "The cost of renting the conference venue",
+              "ja": "会議場を借りる費用"
+            },
+            {
+              "label": "B",
+              "en": "The local restaurants that can serve food",
+              "ja": "食事を提供できる地元のレストラン"
+            },
+            {
+              "label": "C",
+              "en": "The names of the volunteers available",
+              "ja": "利用できるボランティアの氏名"
+            },
+            {
+              "label": "D",
+              "en": "The number of parking permits needed",
+              "ja": "必要な駐車許可証の数"
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "A and B",
+              "ja": "A と B",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "A and C",
+              "ja": "A と C",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "A and D",
+              "ja": "A と D",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "B and C",
+              "ja": "B と C",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "B and D",
+              "ja": "B と D",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "C and D",
+              "ja": "C と D",
+              "is_correct": false
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "昼食の代替としてレストラン情報（B）が必要／ボランティア名簿と搬入手伝い（C）が往復で必要。よって④。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs5_s32",
+              "hs5_s33",
+              "hs5_s38",
+              "hs5_s14"
+            ],
+            "instructor_note": {
+              "ja": "教授が「提案を求めているトピック」と「あなたが約束した未送信情報」を突き合わせる。",
+              "points": [
+                "会場費・駐車許可は本文で不要と分かる場合は除外。"
+              ]
+            }
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p11.png",
+        "images/mondai_p12.png",
+        "images/mondai_p13.png",
+        "images/mondai_p14.png",
+        "images/mondai_p15.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p12.png",
+        "images/kaitou_p13.png",
+        "images/kaitou_p14.png",
+        "images/kaitou_p15.png"
+      ],
+      "pdf_pages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "organize",
+              "ja": "〈動〉…を準備［計画］する"
+            },
+            {
+              "en": "conference",
+              "ja": "〈名〉会議"
+            },
+            {
+              "en": "representative",
+              "ja": "〈名〉代表"
+            },
+            {
+              "en": "promote",
+              "ja": "〈動〉…を促進する"
+            },
+            {
+              "en": "civil servant",
+              "ja": "公務員"
+            },
+            {
+              "en": "registration",
+              "ja": "〈名〉申し込み；登録"
+            },
+            {
+              "en": "participant",
+              "ja": "〈名〉参加者"
+            },
+            {
+              "en": "moderator",
+              "ja": "〈名〉司会者"
+            },
+            {
+              "en": "venue",
+              "ja": "〈名〉会場"
+            },
+            {
+              "en": "capacity",
+              "ja": "〈名〉収容力"
+            },
+            {
+              "en": "reserve",
+              "ja": "〈動〉…を予約する"
+            },
+            {
+              "en": "for free",
+              "ja": "無料で"
+            },
+            {
+              "en": "parking lot",
+              "ja": "駐車場"
+            },
+            {
+              "en": "permit",
+              "ja": "〈名〉許可証"
+            },
+            {
+              "en": "recipe",
+              "ja": "〈名〉レシピ；調理法"
+            },
+            {
+              "en": "rethink",
+              "ja": "〈動〉…を再考する"
+            },
+            {
+              "en": "attach",
+              "ja": "〈動〉…を添付する"
+            },
+            {
+              "en": "diagram",
+              "ja": "〈名〉図"
+            },
+            {
+              "en": "seating arrangements",
+              "ja": "座席配置"
+            }
+          ]
+        }
+      },
+      "description": "メール・カンファレンス日程"
+    },
+    {
+      "section_number": 6,
+      "title": "第6問",
+      "points": 12,
+      "description": "物語読解（成長の段階・能力・フィードバック）",
+      "situation": {
+        "en": "Your friend, Harry, wants to be a professional writer. He has written a story about two new heroes for a writing contest. You read it and then give him feedback.",
+        "ja": "あなたの友人ハリーは，プロの作家志望です。彼はあるライティングコンテストのために２人の新しいヒーローについての物語を書きました。あなたはそれを読み，それから彼に感想を伝えます。"
+      },
+      "passages": [
+        {
+          "id": "bluebird_story",
+          "framed": true,
+          "no_divider": true,
+          "title": {
+            "id": "hs6_title",
+            "align": "center",
+            "en": "Bluebird & Melody: Real Heroes",
+            "ja": "ブルーバードとメロディ：本当のヒーローたち"
+          },
+          "subtitle": {
+            "id": "hs6_author",
+            "align": "right",
+            "en": "By Harry Okazaki",
+            "ja": "ハリー・オカザキ作"
+          },
+          "block_separators": [
+            1,
+            4,
+            7
+          ],
+          "paragraph_classes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "passage-inset-note",
+            null
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "hs6_p1_s1",
+                "en": "Everyone knows me as Bluebird, the world-famous superhero.",
+                "ja": "みんな僕のことを世界的に有名なスーパーヒーローのブルーバードとして知っている。"
+              },
+              {
+                "id": "hs6_p1_s2",
+                "en": "Before, I was only a superhero in name, but now, I deserve my title.",
+                "ja": "以前僕は名前だけのスーパーヒーローだったが，今では名実ともにスーパーヒーローだ。"
+              },
+              {
+                "id": "hs6_p1_s3",
+                "en": "Let me tell you my story.",
+                "ja": "僕の物語をお話ししよう。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p2_s1",
+                "en": "I served as one of six members of the incredibly popular superhero group, Team Hero.",
+                "ja": "僕はチーム・ヒーローという嘘みたいに人気のあるスーパーヒーローグループの６人のメンバーの１人だった。"
+              },
+              {
+                "id": "hs6_p2_s2",
+                "en": "Our slogan was \"Heroes for Humanity!\"",
+                "ja": "僕たちのスローガンは「人類のためのヒーロー！」だった。"
+              },
+              {
+                "id": "hs6_p2_s3",
+                "en": "Rather than serving humanity, though, we starred in silly television shows.",
+                "ja": "ところが僕たちは人類に奉仕するのではなく，馬鹿げたテレビ番組の主役となってしまった。"
+              },
+              {
+                "id": "hs6_p2_s4",
+                "en": "Being so caught up in my own fame, I was unaware that I was a fake superhero.",
+                "ja": "僕は自分自身の名声に溺れてしまい，自分が偽物のスーパーヒーローであることに気づいていなかったんだ。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p3_s1",
+                "en": "One day, we were filming <em>The Lives of Heroes</em>, a reality show about our everyday good deeds.",
+                "ja": "ある日僕たちは「ヒーローの生活」という，僕たちの日常の良い行いについての実録番組を撮影していた。"
+              },
+              {
+                "id": "hs6_p3_s2",
+                "en": "The reality, however, was that we were actors; we pretended that we were helping the world.",
+                "ja": "ところが実際は，僕たちは役者で，世の中の役に立っているふりをしていたんだ。"
+              },
+              {
+                "id": "hs6_p3_s3",
+                "en": "In one episode, I was supposed to rescue a cat that had wandered into a street drain.",
+                "ja": "あるエピソードで僕は，排水溝の中に迷い込んだ猫を救うことになっていた。"
+              },
+              {
+                "id": "hs6_p3_s4",
+                "en": "I was flying through the air, when I heard a girl crying.",
+                "ja": "僕が空を飛んでいると，女の子が泣いている声が聞こえる。"
+              },
+              {
+                "id": "hs6_p3_s5",
+                "en": "In an instant, I flew down to her.",
+                "ja": "僕は直ちにその子のところに舞い降りる。"
+              },
+              {
+                "id": "hs6_p3_s6",
+                "en": "In tears, she told me that her cat, Whiskers, had gotten into the drain.",
+                "ja": "その子は涙を流しながら，飼い猫のウィスカーズが溝にはまってしまったの，と僕に言う。"
+              },
+              {
+                "id": "hs6_p3_s7",
+                "en": "The truth was, a member of the television crew was waiting in the underground drain with the cat.",
+                "ja": "実際は，テレビ局の人が猫を抱えて地下の排水溝の中で待機していたんだ。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p4_s1",
+                "en": "\"Have no fear! I'll save Whiskers!\" I said, as I threw open the cover of the drain and went underground.",
+                "ja": "「心配しないで！　僕がウィスカーズを助け出すから！」と僕は言って，排水溝の蓋をパッと開けて地下に降りた。"
+              },
+              {
+                "id": "hs6_p4_s2",
+                "en": "To my surprise, the crew member told me that she had lost Whiskers and asked me to find the cat.",
+                "ja": "ところが何とテレビ局の人が僕に，猫が逃げてしまったので見つけてほしいと言ってきたんだ。"
+              },
+              {
+                "id": "hs6_p4_s3",
+                "en": "I walked around calling for Whiskers but he did not come.",
+                "ja": "僕はウィスカーズの名前を呼びながら歩き回ったが，猫は戻ってこなかった。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p5_s1",
+                "en": "Suddenly, the newest Team Hero member, Melody, appeared out of nowhere.",
+                "ja": "すると突然，チーム・ヒーローの最新のメンバーであるメロディーがどこからともなく現れた。"
+              },
+              {
+                "id": "hs6_p5_s2",
+                "en": "Melody was mysterious; she wore a mask around her eyes and her real identity was unknown.",
+                "ja": "メロディーは謎の人物で，目の周りにマスクをしていて正体不明だった。"
+              },
+              {
+                "id": "hs6_p5_s3",
+                "en": "She could teleport to any place on earth in less than a second, so her unexpected appearances were always a surprise.",
+                "ja": "彼女は一瞬のうちに地球上のどんな場所へでもテレポートすることができたので，彼女が突然現れるのはいつも驚きだった。"
+              },
+              {
+                "id": "hs6_p5_s4",
+                "en": "She said, \"Whiskers thinks that you can't be trusted. I'll try to convince him to come out.\"",
+                "ja": "「ウィスカーズはあなたを信用できないと思っているのよ。出てくるように私が説得してみるわ」と彼女は言った。"
+              },
+              {
+                "id": "hs6_p5_s5",
+                "en": "Melody, who could recreate any sound, produced a cat's meow and Whiskers appeared.",
+                "ja": "どんな音でも再現できるメロディーが，猫のニャーという声を出すと，ウィスカーズは姿を現した。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p6_s1",
+                "en": "After picking up the cat, I returned to the street and was cheered by onlookers.",
+                "ja": "僕は猫を抱え上げると，通りへ戻って見物人たちの喝采を浴びた。"
+              },
+              {
+                "id": "hs6_p6_s2",
+                "en": "When I was posing for a photo with Whiskers and the girl, I was thinking about how foolish I looked.",
+                "ja": "僕はウィスカーズや女の子と一緒に写真のポーズをとりながら，自分のみっともない姿を思い浮かべていた。"
+              },
+              {
+                "id": "hs6_p6_s3",
+                "en": "Suddenly, a voice popped into my head, \"You do look foolish trying to be a celebrity.\"",
+                "ja": "突然僕の頭の中で声が聞こえた。「有名になろうとしているあなたは確かにみっともないよ」"
+              },
+              {
+                "id": "hs6_p6_s4",
+                "en": "I realized it was Melody, who had already vanished.",
+                "ja": "それがすでに姿を消していたメロディーの声であることに僕は気づいた。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p7_s1",
+                "en": "I grew up in Allegany State Park in New York State.",
+                "ja": "僕はニューヨーク州のアルガニー州立公園で育った。"
+              },
+              {
+                "id": "hs6_p7_s2",
+                "en": "My parents were both park rangers; they patrolled the park and helped hikers in trouble.",
+                "ja": "両親は共にパークレンジャーで，公園を巡回して困っているハイカーを助けていた。"
+              },
+              {
+                "id": "hs6_p7_s3",
+                "en": "When I was 12, I discovered my superpowers.",
+                "ja": "僕は12歳の時に自分の超能力を発見した。"
+              },
+              {
+                "id": "hs6_p7_s4",
+                "en": "I was climbing a tree when a branch broke.",
+                "ja": "木登りをしていると，枝がポキッと折れたんだ。"
+              },
+              {
+                "id": "hs6_p7_s5",
+                "en": "Instead of falling, I floated.",
+                "ja": "僕は落ちることなく浮かんでいた。"
+              },
+              {
+                "id": "hs6_p7_s6",
+                "en": "When I told my parents, my mother only said, \"So, you are the flyer in the family.\"",
+                "ja": "両親に話すと，母さんはポツリと「それじゃあ，お前は我が家の飛行士だね」と言った。"
+              },
+              {
+                "id": "hs6_p7_s7",
+                "en": "She then said something shocking, \"You have an older sister with superpowers.\"",
+                "ja": "それから驚くべきことを言った。「お前には超能力を持つ姉さんがいるんだよ」"
+              },
+              {
+                "id": "hs6_p7_s8",
+                "en": "I learned my parents had been told to send her to a special facility for extraordinary children, because her powers could help humanity.",
+                "ja": "両親は姉を非凡な子どもたちのための特殊施設に入れるよう命じられたことを僕は知った。彼女の能力が人類に役立つからだった。"
+              },
+              {
+                "id": "hs6_p7_s9",
+                "en": "\"Someday, when the time is right, you'll meet her. I know now that we should never have let her go. We won't let that happen to you,\" said my mother.",
+                "ja": "「いつの日か時が満ちたら，お前は姉さんに会うだろうね。今思うと，あの子を絶対に手離すべきじゃなかったよ。お前をそんな目にあわせはしないよ」と母さんは言った。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p8_s1",
+                "en": "I decided to put my powers to use by rescuing hikers.",
+                "ja": "僕は自分の能力をハイカーを救うことに利用することにした。"
+              },
+              {
+                "id": "hs6_p8_s2",
+                "en": "I could fly and see for miles; I could locate or aid a troubled hiker faster than any park ranger.",
+                "ja": "僕は空を飛んで何マイルも見渡すことができたので，どのパークレンジャーよりも速く，困っているハイカーを見つけて助けることができた。"
+              },
+              {
+                "id": "hs6_p8_s3",
+                "en": "I became known as the Amazing Park Ranger Boy.",
+                "ja": "僕はアメージング・パークレンジャーボーイという名で知られるようになった。"
+              },
+              {
+                "id": "hs6_p8_s4",
+                "en": "Because of my achievements, Team Hero eventually recruited me.",
+                "ja": "功績を積んだおかげで，チーム・ヒーローはついに僕を入隊させた。"
+              },
+              {
+                "id": "hs6_p8_s5",
+                "en": "Upon joining, I was given the name Bluebird and told that I would be doing bigger and better things.",
+                "ja": "入隊するとすぐに，僕はブルーバードという名を与えられて，もっと大きく良いことをするんだと言い聞かされた。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p9_s1",
+                "en": "After the Whiskers incident, I flew back home.",
+                "ja": "ウィスカーズの事件の後，僕は空を飛んで帰宅した。"
+              },
+              {
+                "id": "hs6_p9_s2",
+                "en": "My phone buzzed with a notification.",
+                "ja": "僕の電話が鳴って通知が届いた。"
+              },
+              {
+                "id": "hs6_p9_s3",
+                "en": "It said, \"Melody has decided to leave Team Hero.\"",
+                "ja": "そこには「メロディーはチーム・ヒーローの脱退を決めた」と書いてあった。"
+              },
+              {
+                "id": "hs6_p9_s4",
+                "en": "In my home office, I heard someone moving around.",
+                "ja": "僕の仕事部屋で誰かが動き回っている音が聞こえた。"
+              },
+              {
+                "id": "hs6_p9_s5",
+                "en": "When I opened the door, I briefly saw a person's shape before it disappeared.",
+                "ja": "僕がドアを開けると，一瞬人影が見えたがすぐに消えた。"
+              },
+              {
+                "id": "hs6_p9_s6",
+                "en": "On my desk was a note:",
+                "ja": "机の上には短い手紙があった："
+              }
+            ],
+            [
+              {
+                "id": "hs6_note_s1",
+                "en": "Bluebird,",
+                "ja": "ブルーバードへ"
+              },
+              {
+                "id": "hs6_note_s2",
+                "en": "Let's start a family business. Join me",
+                "ja": "家族で起業しよう。私と一緒に"
+              },
+              {
+                "id": "hs6_note_s3",
+                "en": "as a co-founder of REAL HEROES.",
+                "ja": "リアル・ヒーローズの設立者になって。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_p11_s1",
+                "en": "After reading the note, I understood who Melody was.",
+                "ja": "この手紙を読んで，メロディーが誰なのかがわかった。"
+              },
+              {
+                "id": "hs6_p11_s2",
+                "en": "Since then, working together, Melody and I have made our parents proud.",
+                "ja": "それ以来，メロディーと僕は力を合わせて働き，僕たちの両親の誇りとなったんだ。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "feedback_email",
+          "layout": "email_window",
+          "title": {
+            "id": "hs6_email_title",
+            "en": "Your email feedback to Harry",
+            "ja": "ハリーに宛てたあなたの感想メール"
+          },
+          "date": "",
+          "salutation": {
+            "en": "Hey Harry,",
+            "ja": "こんにちは，ハリー"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "hs6_em_s1",
+                "en": "I loved your story! I really liked how Bluebird passes through various stages in his personal growth (see below).",
+                "ja": "君の書いた物語はとても良かったよ！　ブルーバードがさまざまな段階を経て人間として成長していく過程がとても気に入ったよ（下記参照）。"
+              },
+              {
+                "id": "hs6_em_s2",
+                "en": "[24] → [25] → [26] → [27]",
+                "ja": "［24］→［25］→［26］→［27］"
+              }
+            ],
+            [
+              {
+                "id": "hs6_em_s3",
+                "en": "I found Melody really fascinating with her unique superpowers.",
+                "ja": "独特の超能力を持つメロディーには本当に魅了されたよ。"
+              },
+              {
+                "id": "hs6_em_s4",
+                "en": "She can [28].",
+                "ja": "彼女は［28］できるんだね。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_em_s5",
+                "en": "Also, I was moved when Bluebird's mother said, \"We won't let that happen to you.\" She meant, \"We are going to [29].\"",
+                "ja": "それと，ブルーバードのお母さんが「お前をそんな目にはあわせないよ」と言った時も感動したよ。お母さんは「私たちは［29］つもりだよ」と言いたかったんだね。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_em_s6",
+                "en": "On the other hand, I think you can still make the story a little better by adding a few details. You could write about [30] and [31], which are not mentioned or suggested. These details would give your characters depth and make your story more interesting.",
+                "ja": "その一方で，この物語はいくつか詳しい情報を加えることで，まだ少し改良できる余地があるとも思ったよ。［30］と［31］について書くといいかもしれないね。これらは言及も示唆もされていないので。これらの情報があれば，登場人物に深みが増して，物語がより面白くなるだろうね。"
+              }
+            ],
+            [
+              {
+                "id": "hs6_em_s7",
+                "en": "Good luck!",
+                "ja": "がんばって！"
+              }
+            ]
+          ],
+          "framed": true,
+          "no_divider": true
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "question_type": "ordering",
+          "answer_numbers": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "stem": {
+            "en": "Choose four out of the five descriptions (①〜⑤) and put them in the order they occurred. [24] → [25] → [26] → [27]",
+            "ja": "次の５つの説明文（①〜⑤）から４つを選び，それらが起こった順序に並べなさい。［24］→［25］→［26］→［27］"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "He is a hero again.",
+              "ja": "彼は再びヒーローとなる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "He is a performer.",
+              "ja": "彼は役者である。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "He is a professional writer.",
+              "ja": "彼はプロの作家である。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "He is a super park ranger.",
+              "ja": "彼はスーパー・パークレンジャーである。",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "He is an ordinary boy.",
+              "ja": "彼は普通の少年である。",
+              "is_correct": true
+            }
+          ],
+          "answer": "⑤→④→②→①",
+          "answer_sequence": [
+            "⑤",
+            "④",
+            "②",
+            "①"
+          ],
+          "explanation": {
+            "quoted_ja": "本文は◆で区切られた４ブロックに対応し，時系列で並べると⑤（§３で12歳以前の「普通の少年」）→④（アメージング・パークレンジャーボーイ）→②（§２の撮影で役者）→①（§１・§４で名実ともにヒーロー）となる。③は物語内に該当なし。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs6_p7_s3",
+              "hs6_p8_s3",
+              "hs6_p3_s2",
+              "hs6_p1_s2",
+              "hs6_p11_s2"
+            ],
+            "instructor_note": {
+              "ja": "語りの順序ではなく「出来事の時系列」で並べる問題です。",
+              "points": [
+                "◆の区切りと本文の現在／回想の入れ替わりに注意。",
+                "③はハリー（作者）にあたるが，語り手ブルーバードの段階ではない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 28,
+          "stem": {
+            "en": "Choose the correct combination of Melody's superpowers. [28]",
+            "ja": "メロディーの超能力を正しく組み合わせたものを選びなさい。［28］"
+          },
+          "info_options": [
+            {
+              "label": "A",
+              "en": "fly at very high altitudes",
+              "ja": "非常に高いところを飛ぶ"
+            },
+            {
+              "label": "B",
+              "en": "imitate sounds perfectly",
+              "ja": "音を完璧に真似る"
+            },
+            {
+              "label": "C",
+              "en": "read the minds of animals and people",
+              "ja": "動物や人の心を読む"
+            },
+            {
+              "label": "D",
+              "en": "see extremely long distances",
+              "ja": "はるか遠くまで見える"
+            },
+            {
+              "label": "E",
+              "en": "speak to people using telepathy",
+              "ja": "テレパシーで人に話しかける"
+            },
+            {
+              "label": "F",
+              "en": "transport herself to different places instantly",
+              "ja": "いろいろな場所に瞬間移動する"
+            }
+          ],
+          "choices": [
+            {
+              "label": "①",
+              "en": "A, B, D, and F",
+              "ja": "A, B, D, F",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "A, C, D, and E",
+              "ja": "A, C, D, E",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "B, C, D, and E",
+              "ja": "B, C, D, E",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "B, C, E, and F",
+              "ja": "B, C, E, F",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "テレポート（F），どんな音でも再現（B），猫の気持ち・語り手の頭に直接声（C・E）が本文に示される。空を飛ぶのはブルーバード側なのでA・Dは誤り。正解は④。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs6_p5_s3",
+              "hs6_p5_s5",
+              "hs6_p6_s3"
+            ],
+            "instructor_note": {
+              "ja": "メロディーの能力だけを集める（語り手の飛行能力と混同しない）。",
+              "points": [
+                "could recreate any sound → B",
+                "teleport … in less than a second → F",
+                "voice popped into my head → C/E"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 29,
+          "stem": {
+            "en": "Choose the best option for [29].",
+            "ja": "［29］に入れるのに最適な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "control your powers",
+              "ja": "お前の能力をコントロールする",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "hire you as a superhero",
+              "ja": "お前をスーパーヒーローとして雇う",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "keep you together with us",
+              "ja": "お前を私たちから離さない",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "make sure you don't commit crimes",
+              "ja": "お前が罪を犯さないように確かめる",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "母の \"We won't let that happen to you\" は，直前の let her go（姉を施設へ）と対応し，「あなたを手放したりしない」＝いつも一緒にいる，という意味に近い。よって③。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs6_p7_s8",
+              "hs6_p7_s9"
+            ],
+            "instructor_note": {
+              "ja": "let that happen の照応（姉のときと同じ目に合わせない）を取る。",
+              "points": [
+                "let her go / special facility との対比が鍵。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 30,
+          "answer_numbers": [
+            30,
+            31
+          ],
+          "unordered_slots": [
+            30,
+            31
+          ],
+          "stem": {
+            "en": "Choose the best options for [30] and [31]. (The order does not matter.)",
+            "ja": "［30］と［31］に入れるのに最適な選択肢を選びなさい（順序は問わない）。"
+          },
+          "choices_30": [
+            {
+              "label": "①",
+              "en": "Bluebird's childhood experiences",
+              "ja": "ブルーバードの子ども時代の経験",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Bluebird's view on the reality show",
+              "ja": "ブルーバードの実録番組についての見方",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "how Melody learned she had superpowers",
+              "ja": "メロディーが自分は超能力を持っていることを知るに至った経緯",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "the reason why Melody joined Team Hero",
+              "ja": "メロディーがチーム・ヒーローに入隊した理由",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "the relationship between Bluebird and Melody",
+              "ja": "ブルーバードとメロディーの関係",
+              "is_correct": false
+            }
+          ],
+          "choices_31": [
+            {
+              "label": "①",
+              "en": "Bluebird's childhood experiences",
+              "ja": "ブルーバードの子ども時代の経験",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Bluebird's view on the reality show",
+              "ja": "ブルーバードの実録番組についての見方",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "how Melody learned she had superpowers",
+              "ja": "メロディーが自分は超能力を持っていることを知るに至った経緯",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "the reason why Melody joined Team Hero",
+              "ja": "メロディーがチーム・ヒーローに入隊した理由",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "the relationship between Bluebird and Melody",
+              "ja": "ブルーバードとメロディーの関係",
+              "is_correct": false
+            }
+          ],
+          "answer": {
+            "30": "③",
+            "31": "④"
+          },
+          "answer_note": "順不同",
+          "explanation": {
+            "quoted_ja": "フィードバックは「まだ触れられていない詳細」を求めている。①②⑤は本文で述べられまたは示唆される。③④のみ未言及。よって［30］［31］は③と④（順不同）。",
+            "quoted_source": "『共通テスト 2025年度 本試験』英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "hs6_p7_s1",
+              "hs6_p3_s1",
+              "hs6_note_s2",
+              "hs6_p11_s2"
+            ],
+            "instructor_note": {
+              "ja": "「追加すると深みが出る」＝本文がまだ十分に語っていない要素を選ぶ。",
+              "points": [
+                "姉弟関係・家族の手紙は示唆あり（⑤は除外）。",
+                "メロディーの能力の発見・入隊動機は本文にない（③④）。"
+              ]
+            }
+          }
+        }
+      ],
+      "passage_images": [
+        "images/mondai_p16.png",
+        "images/mondai_p17.png",
+        "images/mondai_p18.png",
+        "images/mondai_p19.png",
+        "images/mondai_p20.png",
+        "images/mondai_p21.png",
+        "images/mondai_p22.png"
+      ],
+      "explanation_images": [
+        "images/kaitou_p16.png",
+        "images/kaitou_p17.png",
+        "images/kaitou_p18.png",
+        "images/kaitou_p19.png"
+      ],
+      "pdf_pages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "vocabulary": {
+        "passage": {
+          "label_ja": "主な語句・表現",
+          "items": [
+            {
+              "en": "in name",
+              "ja": "「名前だけの」"
+            },
+            {
+              "en": "deserve one's title",
+              "ja": "自分の肩書きに値する"
+            },
+            {
+              "en": "serve as ...",
+              "ja": "…として務める"
+            },
+            {
+              "en": "incredibly",
+              "ja": "〈副〉信じられないほど；とても"
+            },
+            {
+              "en": "humanity",
+              "ja": "〈名〉人類"
+            },
+            {
+              "en": "star",
+              "ja": "〈動〉主演する"
+            },
+            {
+              "en": "(be) caught up in ...",
+              "ja": "…に没頭［熱中］している"
+            },
+            {
+              "en": "fame",
+              "ja": "〈名〉名声"
+            },
+            {
+              "en": "fake",
+              "ja": "〈形〉にせの"
+            },
+            {
+              "en": "reality show",
+              "ja": "実録番組"
+            },
+            {
+              "en": "deed",
+              "ja": "〈名〉行為"
+            },
+            {
+              "en": "be supposed to -",
+              "ja": "- することになっている"
+            },
+            {
+              "en": "wander",
+              "ja": "〈動〉歩き回る；迷う"
+            },
+            {
+              "en": "drain",
+              "ja": "〈名〉排水溝"
+            },
+            {
+              "en": "underground",
+              "ja": "〈形〉地下の 〈副〉地下へ"
+            },
+            {
+              "en": "throw open ...",
+              "ja": "…を押し開ける"
+            },
+            {
+              "en": "to one's surprise",
+              "ja": "驚いたことに"
+            },
+            {
+              "en": "out of nowhere",
+              "ja": "どこからともなく；いきなり"
+            },
+            {
+              "en": "identity",
+              "ja": "〈名〉正体"
+            },
+            {
+              "en": "in less than a second",
+              "ja": "1秒未満で；またたく間に"
+            },
+            {
+              "en": "convince O to -",
+              "ja": "Oを説得して- させる"
+            },
+            {
+              "en": "meow",
+              "ja": "〈名〉ニャーと鳴く声"
+            },
+            {
+              "en": "cheer",
+              "ja": "〈動〉…に喝采を送る"
+            },
+            {
+              "en": "onlooker",
+              "ja": "〈名〉見物人"
+            },
+            {
+              "en": "pose for ...",
+              "ja": "…のためにポーズをとる"
+            },
+            {
+              "en": "pop into one's head",
+              "ja": "頭に浮かぶ"
+            },
+            {
+              "en": "celebrity",
+              "ja": "〈名〉有名人"
+            },
+            {
+              "en": "vanish",
+              "ja": "〈動〉消え去る"
+            },
+            {
+              "en": "ranger",
+              "ja": "〈名〉監視員；レンジャー"
+            },
+            {
+              "en": "in trouble",
+              "ja": "困っている"
+            },
+            {
+              "en": "float",
+              "ja": "〈動〉浮かぶ"
+            },
+            {
+              "en": "flyer",
+              "ja": "〈名〉飛行士；パイロット"
+            },
+            {
+              "en": "extraordinary",
+              "ja": "〈形〉驚くべき；並外れた"
+            },
+            {
+              "en": "let O go",
+              "ja": "Oを手離す"
+            },
+            {
+              "en": "put O to use",
+              "ja": "Oを利用する"
+            },
+            {
+              "en": "locate",
+              "ja": "〈動〉…を見つける"
+            },
+            {
+              "en": "eventually",
+              "ja": "〈副〉結局；ついに"
+            },
+            {
+              "en": "recruit",
+              "ja": "〈動〉…を採用する；入隊させる"
+            },
+            {
+              "en": "upon -ing",
+              "ja": "- するとすぐに"
+            },
+            {
+              "en": "buzz",
+              "ja": "〈動〉ブーンという音を立てる"
+            },
+            {
+              "en": "notification",
+              "ja": "〈名〉通知"
+            },
+            {
+              "en": "briefly",
+              "ja": "〈副〉少しの間"
+            },
+            {
+              "en": "On my desk was a note",
+              "ja": "机の上には短い手紙があった（was の主語は a note）"
+            },
+            {
+              "en": "proud",
+              "ja": "〈形〉誇り高い"
             }
           ]
         }

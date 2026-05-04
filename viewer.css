@@ -1750,6 +1750,13 @@
   100% { box-shadow: none; }
 }
 
+.passage-title.passage-title--center {
+  text-align: center;
+}
+.passage-title.passage-title--right {
+  text-align: right;
+}
+
 /* ===== Block separator (◆◆◆◆◆) ===== */
 .block-separator {
   text-align: center;
@@ -1760,6 +1767,16 @@
 }
 .passage-paragraph.para-indent {
   text-indent: 1.5em;
+}
+
+/* 物語内の手紙・メモ枠（例：第6問 Melody のメモ） */
+.passage-paragraph.passage-inset-note {
+  text-indent: 0;
+  margin: 0.5rem 0 0.75rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid #333;
+  background: #fafafa;
+  line-height: 1.5;
 }
 
 /* ☆ 付き箇条書き（オープンスター・駿台リーディング等） */
@@ -2956,5 +2973,95 @@
 .audio-bar-seek::-webkit-slider-runnable-track {
   background: rgba(255,255,255,0.2);
   border-radius: 2px;
+}
+
+/* ===== Email window（共通テスト 本試 第5問 等） — タイトルバー・日付右寄せ・件名 */
+.passage-section--email-window.passage-section--framed {
+  border: none;
+  padding: 0 0 12px;
+  background: transparent;
+}
+
+.email-window {
+  border: 1px solid #1a1a1a;
+  background: #fff;
+  font-family: "Times New Roman", Times, Georgia, "Noto Serif JP", serif;
+  color: #111;
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+.email-window__chrome {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  min-height: 22px;
+  padding: 4px 8px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #6a6a6a,
+    #6a6a6a 1px,
+    #7d7d7d 1px,
+    #7d7d7d 2px
+  );
+  background-color: #6a6a6a;
+  border-bottom: 1px solid #333;
+}
+
+.email-window__chrome-btn {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #c8c8c8;
+  border: 1px solid #4a4a4a;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.email-window__chrome-btn--sq {
+  width: 11px;
+  height: 9px;
+}
+.email-window__chrome-btn--close {
+  background: linear-gradient(135deg, #ddd 45%, #999 55%);
+}
+
+.email-window__header {
+  padding: 10px 14px 8px;
+}
+
+.email-window__date {
+  text-align: right;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.email-window__subject {
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.email-window__header-ja {
+  padding: 0 14px 4px;
+}
+
+.email-window__sep {
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  margin: 0;
+}
+
+.email-window__salutation {
+  padding: 10px 14px 4px;
+  font-size: 0.95rem;
+}
+
+.email-window__body {
+  padding: 4px 14px 14px;
+}
+
+.email-window__body .data-table-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 

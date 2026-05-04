@@ -29,6 +29,51 @@ const EXAM_PATHS = {
   kakomon_2021_1: 'data/kakomon/2021_1/data.json'
 };
 
+/**
+ * 教師コメント付きエッセイ表：和文1行。英語側と同じ (1)∧・下線を再現する。
+ * @param {object} sent
+ * @returns {string} HTML
+ */
+function formatEssayMarginJaHtml(sent) {
+  const hasUw = Boolean(sent.underline_word || sent.underline_word_ja);
+  let text = String(sent.ja || '');
+
+  if (sent.comment_marker && sent.marker_position !== 'after' && !hasUw) {
+    const caret = sent.marker_type === 'caret' ? ' <span class="caret-mark">∧</span>' : '';
+    text = '<sup class="comment-marker">' + sent.comment_marker + '</sup>' + caret + ' ' + text;
+  }
+
+  if (hasUw) {
+    const uw =
+      sent.underline_word_ja != null
+        ? String(sent.underline_word_ja)
+        : String(sent.underline_word || '');
+    if (uw && text.includes(uw)) {
+      const fullUnderline = String(text).trim() === uw.trim();
+      const avoidDupMarker =
+        uw.startsWith('(') &&
+        text.includes(uw) &&
+        sent.comment_marker &&
+        uw.startsWith(String(sent.comment_marker));
+      const markerHtml =
+        sent.comment_marker &&
+        sent.marker_position !== 'after' &&
+        !fullUnderline &&
+        !avoidDupMarker
+          ? '<sup class="comment-marker">' + sent.comment_marker + '</sup>'
+          : '';
+      text = text.replace(uw, markerHtml + '<span class="underline-word">' + uw + '</span>');
+    }
+  }
+
+  if (sent.comment_marker && sent.marker_position === 'after') {
+    const caret = sent.marker_type === 'caret' ? ' <span class="caret-mark">∧</span>' : '';
+    text += '<sup class="comment-marker">' + sent.comment_marker + '</sup>' + caret;
+  }
+
+  return String(text).replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
+}
+
 // ===== State =====
 let currentData = null;
 let currentSection = null;
@@ -204,16 +249,24 @@ function renderPassage() {
       passage.image && passage.image.placement === 'before_subtitle'
         ? ' passage-section--float-wrap'
         : '';
-    html += `<div class="passage-section${isHeader ? ' passage-section--header' : ''}${hasPortrait}${framedCls}${floatWrapCls}${pamphletCls}">`;
+    const emailWinCls = passage.layout === 'email_window' ? ' passage-section--email-window' : '';
+    html += `<div class="passage-section${isHeader ? ' passage-section--header' : ''}${hasPortrait}${framedCls}${floatWrapCls}${pamphletCls}${emailWinCls}">`;
 
-    if (passage.title && !(passage.margin_comments && passage.margin_comments.length > 0)) {
+    if (
+      passage.title &&
+      !(passage.margin_comments && passage.margin_comments.length > 0) &&
+      passage.layout !== 'email_window'
+    ) {
       const titlePamphletCls = passage.pamphlet_layout ? ' passage-title--pamphlet-main' : '';
+      let titleAlignCls = '';
+      if (passage.title.align === 'center') titleAlignCls = ' passage-title--center';
+      else if (passage.title.align === 'right') titleAlignCls = ' passage-title--right';
       if (passage.title.ja) {
         const tid = passage.title.id || `__title_${passage.id || 'p'}`;
-        html += `<div class="passage-title${titlePamphletCls}"><span class="sentence" data-sid="${tid}">${passage.title.en}</span></div>`;
+        html += `<div class="passage-title${titlePamphletCls}${titleAlignCls}"><span class="sentence" data-sid="${tid}">${passage.title.en}</span></div>`;
         html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${tid}">${passage.title.ja}</div></div>`;
       } else {
-        html += `<div class="passage-title${titlePamphletCls}">${passage.title.en}</div>`;
+        html += `<div class="passage-title${titlePamphletCls}${titleAlignCls}">${passage.title.en}</div>`;
       }
     }
 
@@ -901,6 +954,47 @@ function renderPassage() {
     if (passage.paragraphs) {
       // If margin_comments exist, use two-column table layout
       const hasComments = passage.margin_comments && passage.margin_comments.length > 0;
+      const isEmailWindow = passage.layout === 'email_window';
+
+      if (isEmailWindow) {
+        const tid = (passage.title && passage.title.id) || `__email_subj_${passage.id}`;
+        const subEn = (passage.title && passage.title.en) || '';
+        const subJa = (passage.title && passage.title.ja) || '';
+        const dateSid = `__email_date_${passage.id}`;
+        const salSid = `__email_sal_${passage.id}`;
+        let salEn = (passage.salutation && passage.salutation.en) || '';
+        const salJa = (passage.salutation && passage.salutation.ja) || '';
+        if (!salEn && passage.to) {
+          salEn = /^Dear\s/i.test(passage.to)
+            ? passage.to.endsWith(',')
+              ? passage.to
+              : `${passage.to},`
+            : `Dear ${passage.to},`;
+        }
+        html += '<div class="email-window">';
+        html +=
+          '<div class="email-window__chrome" aria-hidden="true"><span class="email-window__chrome-btn"></span><span class="email-window__chrome-btn email-window__chrome-btn--sq"></span><span class="email-window__chrome-btn email-window__chrome-btn--close"></span></div>';
+        html += '<div class="email-window__header">';
+        html += `<div class="email-window__date"><span class="sentence" data-sid="${dateSid}">${passage.date || ''}</span></div>`;
+        html += `<div class="email-window__subject"><span class="sentence" data-sid="${tid}">${subEn}</span></div>`;
+        html += '</div>';
+        if (passage.date_ja || subJa) {
+          html += '<div class="passage-ja-block email-window__header-ja">';
+          if (passage.date && passage.date_ja) {
+            html += `<div class="sentence-ja" data-sid-ja="${dateSid}">${passage.date_ja}</div>`;
+          }
+          if (subJa) {
+            html += `<div class="sentence-ja" data-sid-ja="${tid}">${subJa}</div>`;
+          }
+          html += '</div>';
+        }
+        html += '<hr class="email-window__sep" />';
+        html += `<div class="email-window__salutation"><span class="sentence" data-sid="${salSid}">${salEn}</span></div>`;
+        if (salJa) {
+          html += `<div class="passage-ja-block"><div class="sentence-ja" data-sid-ja="${salSid}">${salJa}</div></div>`;
+        }
+        html += '<div class="email-window__body">';
+      }
 
       if (hasComments) {
         html += '<table class="essay-table"><thead><tr>';
@@ -972,8 +1066,8 @@ function renderPassage() {
           html += '</p>';
           html += '<div class="passage-ja-block">';
           for (const sent of para) {
-            const jaText = String(sent.ja || '').replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
-            html += '<div class="sentence-ja" data-sid-ja="' + sent.id + '">' + jaText + '</div>';
+            html +=
+              '<div class="sentence-ja" data-sid-ja="' + sent.id + '">' + formatEssayMarginJaHtml(sent) + '</div>';
           }
           html += '</div>';
           html += '</div>';
@@ -1298,6 +1392,10 @@ function renderPassage() {
         }
       }
 
+      if (isEmailWindow) {
+        html += '</div>';
+      }
+
       // Block-based rendering: paragraphs grouped by ◆◆◆◆◆ separators
       if (passage.block_separators && passage.block_separators.length > 0 && !hasComments) {
         // Clear the html we just added for paragraphs (we need to re-render in blocks)
@@ -1316,15 +1414,19 @@ function renderPassage() {
 
           for (let pi = blockStart; pi <= blockEnd; pi++) {
             const para = paragraphs[pi];
-            html += `<p class="passage-paragraph para-indent">`;
+            const paraExtraClass =
+              passage.paragraph_classes && passage.paragraph_classes[pi]
+                ? ' ' + passage.paragraph_classes[pi]
+                : '';
+            html += `<p class="passage-paragraph para-indent${paraExtraClass}">`;
             for (const sent of para) {
-              const enText = String(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              const enText = String(sent.en || '').replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
               html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
             }
             html += '</p>';
             html += '<div class="passage-ja-block">';
             for (const sent of para) {
-              const jaText = String(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              const jaText = String(sent.ja || '').replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
               html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${jaText}</div>`;
             }
             html += '</div>';
@@ -1401,6 +1503,10 @@ function renderPassage() {
       // Footer note (e.g. deposits info)
       if (passage.footer_note) {
         html += `<div class="passage-footer-note"><strong>${passage.footer_note.en}</strong></div>`;
+      }
+
+      if (isEmailWindow) {
+        html += '</div>';
       }
     }
 
@@ -2066,6 +2172,16 @@ function findSentenceJa(sid) {
 
   // ── 通常の本文 sentence ID
   for (const passage of currentSection.passages) {
+    if (passage.layout === 'email_window') {
+      if (sid === `__email_date_${passage.id}`) return passage.date_ja || null;
+      if (sid === `__email_sal_${passage.id}`) return (passage.salutation && passage.salutation.ja) || null;
+      if (
+        passage.title &&
+        (sid === passage.title.id || sid === `__email_subj_${passage.id}`)
+      ) {
+        return passage.title.ja || null;
+      }
+    }
     if (passage.subtitle && passage.subtitle.id === sid) {
       return passage.subtitle.ja || null;
     }
