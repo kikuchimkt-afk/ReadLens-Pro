@@ -218,7 +218,8 @@
               "ja": "パンフレットの目的・対象読者をタイトルと導入から読み取る問題です。",
               "points": [
                 "Beginners! と three easy steps が「初心者向けの手引き」であることを示す。",
-                "discount・飼い方・expert といった誘惑肢は本文の焦点と合わない。"
+                "discount・飼い方・expert といった誘惑肢は本文の焦点と合わない。",
+                "テクニック: 設問の benefit from this pamphlet は「文章に書かれている価値を受け取れるのは誰か」なので，パンフの主題（デコレーション手順）と合う読者像だけを残す。"
               ]
             }
           }
@@ -270,7 +271,8 @@
               "ja": "「泳ぐスペース」「縁の余白」「装飾の占有率」を総合して読む問題です。",
               "points": [
                 "open spaces / room to move / leave space が②に収束する。",
-                "Avoid plastic... は③の誘惑に対する根拠。"
+                "Avoid plastic... は③の誘惑に対する根拠。",
+                "①の avoid solid and soft は step1 の文脈（魚の種類）を取り違えた極端な言い換え。④の roughly は carefully と反対。"
               ]
             }
           }
@@ -332,7 +334,8 @@
               "points": [
                 "slow-moving water → plants / soft objects（②の岩主体を排除）。",
                 "tall at the back, short at the front（①の前寄りの高い装飾を排除）。",
-                "50〜70% coverage ⇄ 一定の open space（③の過密を排除）。"
+                "50〜70% coverage ⇄ 一定の open space（③の過密を排除）。",
+                "図版が小さくても，消去法の筋は同じ。英語の条件を1つずつ図に当てはめ，最初に確実に落とせる条件から潰すとミスが減る。"
               ]
             }
           }
@@ -610,7 +613,8 @@
               "ja": "段落の要約部分から「全員一致」の内容だけを選ぶ問題です。",
               "points": [
                 "Second, emergency services ... が②に対応。",
-                "Finally ... safety ... は①の「既に安全と認識」や④の「ゼロエミ不可」とは別論点。"
+                "Finally ... safety ... は①の「既に安全と認識」や④の「ゼロエミ不可」とは別論点。",
+                "First の pollution／Third の medical は別要素のため，設問が求める「全員一致」に限定して読む（拾い読みで③を誤選しやすい）。"
               ]
             }
           }
@@ -658,7 +662,9 @@
             "instructor_note": {
               "ja": "パラフレーズ（言い換え）で安全面の条件を選ぶ問題です。",
               "points": [
-                "well tested and controlled → assessment / regulation の語彙対応を確認。"
+                "well tested and controlled → assessment / regulation の語彙対応を確認。",
+                "Finally 以降が「将来導入時の前提条件」で，設問の will most likely（見通し＋条件）と相性が良い。",
+                "①は都市郊外のイメージで誘うが本文は都市部試験運行が中心。③は環境問題の「解決」と混同しやすい。"
               ]
             }
           }
@@ -706,7 +712,9 @@
             "instructor_note": {
               "ja": "fact と opinion を区別し，コストに関する発言を選ぶ問題です。",
               "points": [
-                "developing / testing の記述は②③の誘惑だが，設問は「意見」としての主張。"
+                "developing / testing の記述は②③の誘惑だが，設問は「意見」としての主張。",
+                "too high と expensive は頻出の言い換え。コスト否定は「予測に対する No」の一文に集中している。",
+                "段落冒頭の Yes とのズレに惑わされず，発言者ごとにラベルを付けてから選択肢へ写すと安全。"
               ]
             }
           }
@@ -754,7 +762,10 @@
             "instructor_note": {
               "ja": "本文に明示されている事実かどうかで消去する問題です。",
               "points": [
-                "ambulance は速さに触れるが費用の具体には触れない（①）。"
+                "ambulance は速さに触れるが費用の具体には触れない（①）。",
+                "②の solar-power：本文は電動などの一般論で，太陽光に限定した記述ではない。",
+                "③の parking areas：タクシー試験運行は出るが駐車エリアの話は出てこない。",
+                "正解④は in the middle of their major cities の「都市部での試行」と一致する言い換え。"
               ]
             }
           }
@@ -1030,7 +1041,9 @@
             "instructor_note": {
               "ja": "人称と固有名の対応を確認する問題です。",
               "points": [
-                "Tomo, you're too worried の Tomo が語り手の名前。"
+                "Tomo, you're too worried の Tomo が語り手の名前。",
+                "as band leader も地の文の I と矛盾しない。",
+                "誤答は「固有名が出た＝語り手」と決めつけるパターン。呼びかけの相手と一人称の役割（リーダー）をセットで確認する。"
               ]
             }
           }
@@ -1150,7 +1163,9 @@
             "instructor_note": {
               "ja": "結末の感情を best performance で読み取る問題です。",
               "points": [
-                "best performance of our lives が肯定的感情の根拠。"
+                "best performance of our lives が肯定的感情の根拠。",
+                "Although ... did not win があるため，勝ち負けではなく主観的満足に焦点を移す。",
+                "②の恥さは中盤のレンへの反応と混同しやすいが，設問はコンテスト「後」に限定されている。"
               ]
             }
           }
@@ -1463,7 +1478,9 @@
             "instructor_note": {
               "ja": "前後の論理関係（対比・追加・結果など）から接続語を選ぶ。",
               "points": [
-                "This makes it easier ... と Many people today ... の内容対比。"
+                "This makes it easier ... と Many people today ... の内容対比。",
+                "Therefore／Moreover は同方向の展開向き，Otherwise は仮定の末路で，ここでは「良い原則 vs 実際の行動」の逆接が最優先。",
+                "コメント(1)の Add a connecting word は，前後の文を声に出して読み，接続の「反転」感があるかで判定しやすい。"
               ]
             }
           }
@@ -1512,7 +1529,9 @@
             "instructor_note": {
               "ja": "段落の主旨と「締めの文」の役割を照らす。",
               "points": [
-                "communication style がキーワード。"
+                "communication style がキーワード。",
+                "②④はスマホ活用を肯定・推奨する方向で，批判的な前段（90%が会話中チェック）とトーンが噛み合わない。",
+                "①の limit conversations はスローライフの趣旨と逆。③だけが「相手への集中」という具体的な改善行動になる。"
               ]
             }
           }
@@ -1561,7 +1580,9 @@
             "instructor_note": {
               "ja": "序論の主旨と結論部の言い換えの整合をとる。",
               "points": [
-                "relax だけでは主旨が狭すぎる，というのがコメント(3)の意図。"
+                "relax だけでは主旨が狭すぎる，というのがコメント(3)の意図。",
+                "第1段落の improve the quality of your work and life がエッセイ全体の約束で，結論の In summary はその要約ラベルとして機能すべき。",
+                "②③④はいずれも本文で主張している「スピード／分担／結果志向」とズレる。"
               ]
             }
           }
@@ -1611,7 +1632,9 @@
             "instructor_note": {
               "ja": "結論の列挙が第４段落の内容と対応しているか確認する。",
               "points": [
-                "remember ... friends だけでは段落４の「一日の振り返り」とずれる。"
+                "remember ... friends だけでは段落４の「一日の振り返り」とずれる。",
+                "reflect／recollect／significant が段落４の語彙束なので，③の memorable parts が直撃の言い換え。",
+                "①④は他段落の話題（計画・ミニマル）を混ぜた誘惑。②はバッドイベント想起でトーンも合わない。"
               ]
             }
           }
@@ -2236,7 +2259,9 @@
             "instructor_note": {
               "ja": "メール後半の感情・経験に関する一文を特定する。",
               "points": [
-                "first time … committee … anxious がキーワード。"
+                "first time … committee … anxious がキーワード。",
+                "冒頭の志望（公務員希望）や中盤のスケジュール正確さは「不安の核」ではない。設問の overall worry に直結する一文を抜き出す。",
+                "②は presentation（会議の发言）に引っ張られやすいが，本文の不安は委員会運営全般の経験不足に置いている。"
               ]
             }
           }
@@ -2348,7 +2373,9 @@
               "ja": "スケジュール上の午前／午後ブロックと，教授メール第3段落の説明を対応づける。",
               "points": [
                 "businessperson / company changes → ⑥",
-                "chef / local mushrooms → ④"
+                "chef / local mushrooms → ④",
+                "午前テーマ「Changing local traditions」＝変化・更新，午後「Preserving」＝保全・地産の話，という枠を先に固定すると迷いが減る。",
+                "更新系の紛れ（教会改装⑤など）を，教授文の company changes まで戻って照合する。"
               ]
             }
           }
@@ -2397,7 +2424,9 @@
             "instructor_note": {
               "ja": "「否定・問題提起」されている要素を選ぶ。",
               "points": [
-                "Main Hall は venue として肯定されている。"
+                "Main Hall は venue として肯定されている。",
+                "市長タイトル・時刻は「承知／改善予定」で，再考＝悪い点の指摘に直結するのは registration のみ。",
+                "too short / doesn't give us time など程度表現に下線を引きながら読むと，「再考が要る箇所」が浮かび上がる。"
               ]
             }
           }
@@ -2459,7 +2488,8 @@
               "points": [
                 "moderator の small desk in the center",
                 "long tables",
-                "face slightly inward"
+                "face slightly inward",
+                "設問は教授メールの描写との一致なので，自分のイメージした「討論の形」ではなく，文中の数量（two per side 等）まで拾えているか確認。"
               ]
             }
           }
@@ -2544,7 +2574,9 @@
             "instructor_note": {
               "ja": "教授が「提案を求めているトピック」と「あなたが約束した未送信情報」を突き合わせる。",
               "points": [
-                "会場費・駐車許可は本文で不要と分かる場合は除外。"
+                "会場費・駐車許可は本文で不要と分かる場合は除外。",
+                "往復メール型は必ず「教授が新たに求めたこと」と「学生が送ると言ったのに未送のこと」の交点を探す。",
+                "レストラン候補（昼食案の代替）とボランティア名簿＋搬入サポートは，返信の具体的アクションとして最も自然なペア。"
               ]
             }
           }
@@ -3110,7 +3142,9 @@
               "ja": "語りの順序ではなく「出来事の時系列」で並べる問題です。",
               "points": [
                 "◆の区切りと本文の現在／回想の入れ替わりに注意。",
-                "③はハリー（作者）にあたるが，語り手ブルーバードの段階ではない。"
+                "③はハリー（作者）にあたるが，語り手ブルーバードの段階ではない。",
+                "解説の通り「§3（少年期）が最古」→「§2（撮影）」→「§1＋§4（現在）」のイメージで，語りの先後と出来事の先後を分ける。",
+                "①の「再びヒーロー」は口語の要約表現で，名実ともに recover した現在の自己像と対応づけて取る。"
               ]
             }
           }
@@ -3194,7 +3228,8 @@
               "points": [
                 "could recreate any sound → B",
                 "teleport … in less than a second → F",
-                "voice popped into my head → C/E"
+                "voice popped into my head → C/E",
+                "A・Dはブルーバード（飛行・遠望）の描写と混線しやすい。選択肢は「メロディーに限定して言えるか」で最終チェック。"
               ]
             }
           }
@@ -3243,7 +3278,9 @@
             "instructor_note": {
               "ja": "let that happen の照応（姉のときと同じ目に合わせない）を取る。",
               "points": [
-                "let her go / special facility との対比が鍵。"
+                "let her go / special facility との対比が鍵。",
+                "that は直前の「施設に送られた」系の出来事を指すと捉えると，②の雇用や④の犯罪防止から切り離せる。",
+                "日本語選択肢では「私たちから離さない」がやや比喩的なので，英語の keep you together with us を原文イメージとして固定しておく。"
               ]
             }
           }
@@ -3345,7 +3382,9 @@
               "ja": "「追加すると深みが出る」＝本文がまだ十分に語っていない要素を選ぶ。",
               "points": [
                 "姉弟関係・家族の手紙は示唆あり（⑤は除外）。",
-                "メロディーの能力の発見・入隊動機は本文にない（③④）。"
+                "メロディーの能力の発見・入隊動機は本文にない（③④）。",
+                "②は主人公が実録番組を批判的に語っているため「見方」自体は本文に触れられる。①も少年時代が詳述済み。",
+                "フィードバック文の not mentioned or suggested をトリガーに，「まだ穴があく話題」だけを残すのが近道。"
               ]
             }
           }
@@ -4010,7 +4049,8 @@
               "points": [
                 "s8_s13の「it is probably dangerous to broadcast into deep space evidence of the existence of humans」がMeilinの核心的主張。dangerousという語から「警戒（Caution）」が導かれます。",
                 "s8_s15の「the greatest threat associated with space exploration」でthreatという語も「警戒が重要」を支持します。",
-                "テクニック: 短い格言風の選択肢では，各選択肢のキーワード（Caution/Invention/Science/Trust）と本文中の主張を照合します。Meilinの文にはdangerous, threat, aggressiveなど警戒を示す語が多く，①のCautionと一致します。"
+                "テクニック: 短い格言風の選択肢では，各選択肢のキーワード（Caution/Invention/Science/Trust）と本文中の主張を照合します。Meilinの文にはdangerous, threat, aggressiveなど警戒を示す語が多く，①のCautionと一致します。",
+                "補足: 引用の Hawking は「欄外の権威づけ」で，本問はあくまで Meilin 自身の stance を問う。引用文に引っ張られて②③に逃げない。"
               ]
             }
           }
@@ -4063,7 +4103,8 @@
               "points": [
                 "Christineのs8_s9「private companies have begun exploring space, though mostly for commercial reasons」とVictorのs8_s27「more private firms entering the space race」が共通して民間企業の参入に言及しています。",
                 "Victorのs8_s24「contributed hugely to economic growth」が「economic impacts」に対応し，Christineのs8_s9「commercial reasons」が「opportunities to make money」に対応します。",
-                "テクニック: 「Both A and B mention」型の問題では，片方にしか書かれていない情報を含む選択肢を消去法で除外します。②の「salaries above average」はVictorのみ，④の「ISS」はChristineのみの情報です。"
+                "テクニック: 「Both A and B mention」型の問題では，片方にしか書かれていない情報を含む選択肢を消去法で除外します。②の「salaries above average」はVictorのみ，④の「ISS」はChristineのみの情報です。",
+                "補足: economic impacts は「良い・悪い」の両面を含む広い語。本文では成長・商業・植民地化など“お金の話”が束ねられていると捉える。"
               ]
             }
           }
