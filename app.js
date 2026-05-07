@@ -185,14 +185,18 @@ const EXAM_REGISTRY = [
   },
 
   {
-    id: "kakomon_2024",
+    id: "kyotsu_2024_honshiken",
     publisher: "共通テスト",
-    series: "過去問",
+    series: "本試験",
     year: 2024,
     round: "本試験",
-    label: "共通テスト 2024年度 本試験",
-    dataPath: "data/kakomon/2024/data.json",
-    icon: "🏫"
+    label: "★ 共通テスト 2024年度 本試験",
+    dataPath: "data/kyotsu/2024/honshiken/data.json",
+    pdfPaths: {
+      mondai: "original_PDFs/Kyotuu-Test-2025/_2024年度本試験_問題.pdf",
+      kaitou: "original_PDFs/Kyotuu-Test-2025/_2024年度本試験_解説.pdf"
+    },
+    icon: "🎯"
   },
   {
     id: "kakomon_2023",

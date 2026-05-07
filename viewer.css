@@ -3065,3 +3065,12 @@
   margin-bottom: 10px;
 }
 
+
+/* Floating passage box */
+.passage-section--float-right {
+  float: right;
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  clear: right;
+}

@@ -1,0 +1,1708 @@
+{
+  "exam_info": {
+    "title": "共通テスト 2024年度 本試験",
+    "publisher": "共通テスト",
+    "year": 2024,
+    "round": "本試験",
+    "subject": "英語（リーディング）",
+    "time_limit_minutes": 80,
+    "total_answer_numbers": 49,
+    "implemented_sections": [
+      1,
+      2,
+      3
+    ],
+    "section_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "source_pdf_mondai": "_2024年度本試験_問題.pdf",
+    "source_pdf_kaitou": "_2024年度本試験_解説.pdf"
+  },
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "第1問",
+      "points": 10,
+      "points_per_question": 2,
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You are studying English at a language school in the US. The school is planning an event. You want to attend, so you are reading the flyer.",
+            "ja": "あなたは米国のある語学学校で英語を学んでいます。学校はあるイベントを計画中です。あなたは参加したいので、案内広告を読んでいます。"
+          },
+          "passages": [
+            {
+              "id": "header_1a",
+              "no_divider": true,
+              "title": {
+                "en": "The Thorpe English Language School\nInternational Night",
+                "ja": "ソープ英語学校\nインターナショナルな夕べ"
+              },
+              "subtitle": {
+                "en": "Friday, May 24, 5 p.m.-8 p.m.\nEntrance Fee: $5",
+                "ja": "5月24日金曜日 午後5時から8時\n入場料：5ドル"
+              }
+            },
+            {
+              "id": "intro_1a",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "1a_s1",
+                  "en": "The Thorpe English Language School (TELS) is organizing an international exchange event.",
+                  "ja": "ソープ英語学校(TELS)はインターナショナルな交流イベントを計画しています。"
+                },
+                {
+                  "id": "1a_s2",
+                  "en": "TELS students don't need to pay the entrance fee.",
+                  "ja": "TELSの学生は入場料を支払う必要はありません。"
+                },
+                {
+                  "id": "1a_s3",
+                  "en": "Please present your student ID at the reception desk in the Student Lobby.",
+                  "ja": "学生ロビーの受付で学生証を提示してください。"
+                }
+              ]
+            },
+            {
+              "id": "foods_1a",
+              "no_divider": true,
+              "title": {
+                "en": "● Enjoy foods from various parts of the world",
+                "ja": "● 世界の様々な地域の食べ物を味わおう"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s4",
+                  "en": "Have you ever tasted hummus from the Middle East?",
+                  "ja": "中東のフムスの味をご存知ですか？"
+                },
+                {
+                  "id": "1a_s5",
+                  "en": "How about tacos from Mexico? Couscous from North Africa? Try them all!",
+                  "ja": "メキシコのタコスはどうですか？ 北アフリカのクスクスは？ すべて試食できますよ。"
+                }
+              ]
+            },
+            {
+              "id": "languages_1a",
+              "no_divider": true,
+              "title": {
+                "en": "● Experience different languages and new ways to communicate",
+                "ja": "● 色々な言語や新しいコミュニケーションの仕方を体験しよう"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s6",
+                  "en": "Write basic expressions such as \"hello\" and \"thank you\" in Arabic, Italian, Japanese, and Spanish.",
+                  "ja": "\"hello\"や\"thank you\"などの基本的な表現をアラビア語、イタリア語、日本語、スペイン語で書いてみましょう。"
+                },
+                {
+                  "id": "1a_s7",
+                  "en": "Learn how people from these cultures use facial expressions and their hands to communicate.",
+                  "ja": "こういった文化圏の人々がコミュニケーションをとるために、表情や手をどのように用いるのかを学びましょう。"
+                }
+              ]
+            },
+            {
+              "id": "dance_1a",
+              "no_divider": true,
+              "title": {
+                "en": "● Watch dance performances",
+                "ja": "● ダンスの実演を見学しよう"
+              },
+              "image": {
+                "src": "data/kakomon/2024/images/s1a_hula_dancer.png",
+                "alt": "Hula dancer illustration",
+                "float": "right"
+              },
+              "sentences": [
+                {
+                  "id": "1a_s8",
+                  "en": "From 7 p.m. watch flamenco, hula, and samba dance shows on the stage!",
+                  "ja": "午後7時から舞台で行われるフラメンコ、フラダンス、サンバのダンスショーを見てください！"
+                },
+                {
+                  "id": "1a_s9",
+                  "en": "After each dance, performers will teach some basic steps. Please join in.",
+                  "ja": "それぞれのダンスの後で、実演者が基本のステップを教えます。どうぞ参加してください。"
+                }
+              ]
+            },
+            {
+              "id": "footer_1a",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "1a_s10",
+                  "en": "Lots of pictures, flags, maps, textiles, crafts, and games will be displayed in the hall.",
+                  "ja": "ホールでは、たくさんの写真、旗、地図、織物、手工芸品、ゲームが展示されます。"
+                },
+                {
+                  "id": "1a_s11",
+                  "en": "If you have some pictures or items from your home country which can be displayed at the event, let a school staff member know by May 17!",
+                  "ja": "あなたの出身国の写真や物品で、イベントで展示できるものをお持ちでしたら、5月17日までに学校職員にお知らせくださいね！"
+                }
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 1,
+              "stem": {
+                "en": "To join the event free of charge, you must [1].",
+                "ja": "「このイベントに無料で参加するには、[1]しなければならない。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "bring pictures from your home country",
+                  "ja": "出身国の写真を持参"
+                },
+                {
+                  "label": "②",
+                  "en": "consult a staff member about the display",
+                  "ja": "ショーのことでスタッフに相談する"
+                },
+                {
+                  "label": "③",
+                  "en": "fill out a form in the Student Lobby",
+                  "ja": "学生ロビーにある用紙に記入"
+                },
+                {
+                  "label": "④",
+                  "en": "show proof that you are a TELS student",
+                  "ja": "TELSの学生であることを証明するものを提示"
+                }
+              ],
+              "answer": 4,
+              "explanation": {
+                "ja": "正解は④。案内広告の「TELS students don't need to pay the entrance fee. Please present your student ID...」から、TELSの学生であることを証明するもの（学生証）を提示する必要があるとわかる。"
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 2,
+              "stem": {
+                "en": "At the event, you can [2].",
+                "ja": "「このイベントでは、[2]ことができる。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "learn about gestures in various cultures",
+                  "ja": "様々な文化のジェスチャーを学ぶ"
+                },
+                {
+                  "label": "②",
+                  "en": "participate in a dance competition",
+                  "ja": "ダンス競技会に参加する"
+                },
+                {
+                  "label": "③",
+                  "en": "read short stories in foreign languages",
+                  "ja": "外国語で短い物語を読む"
+                },
+                {
+                  "label": "④",
+                  "en": "try cooking international dishes",
+                  "ja": "国際的な料理を作ってみる"
+                }
+              ],
+              "answer": 1,
+              "explanation": {
+                "ja": "正解は①。「Experience different languages...」のセクションに「Learn how people from these cultures use facial expressions and their hands to communicate.（表情や手をどのように用いるのかを学びましょう）」とあり、ジェスチャーを学べる内容と一致する。"
+              }
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You are an exchange student in the US and next week your class will go on a day trip. The teacher has provided some information.",
+            "ja": "あなたは米国にいる交換留学生で、来週あなたのクラスは日帰り旅行に出かけます。先生が情報を提供してくれました。"
+          },
+          "passages": [
+            {
+              "id": "header_1b",
+              "title": {
+                "en": "Tours of Yentonville",
+                "ja": "イエントンビルのツアー"
+              },
+              "subtitle": {
+                "en": "The Yentonville Tourist Office offers three city tours.",
+                "ja": "イエントンビル旅行案内所は、3つの市内観光ツアーを提供しています。"
+              }
+            },
+            {
+              "id": "history_tour",
+              "title": {
+                "en": "The History Tour",
+                "ja": "歴史ツアー"
+              },
+              "image": {
+                "src": "data/kakomon/2024/images/s1b_mayors_house.png",
+                "alt": "Mayor's House illustration",
+                "float": "right"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s1",
+                  "en": "The day will begin with a visit to St. Patrick's Church, which was built when the city was established in the mid-1800s.",
+                  "ja": "ツアーの1日は、聖パトリック教会の訪問から始まります。この教会は1800年代の半ばに市が設立された時に建てられたものです。"
+                },
+                {
+                  "id": "1b_s2",
+                  "en": "Opposite the church is the early-20th-century Mayor's House.",
+                  "ja": "教会の向かい側には、20世紀初めの市長舎があります。"
+                },
+                {
+                  "id": "1b_s3",
+                  "en": "There will be a tour of the house and its beautiful garden.",
+                  "ja": "市長舎とその美しい庭園のツアーが行われます。"
+                },
+                {
+                  "id": "1b_s4",
+                  "en": "Finally, cross the city by public bus and visit the Peace Park.",
+                  "ja": "最後に、公共バスで市を横断して、平和公園を訪れましょう。"
+                },
+                {
+                  "id": "1b_s5",
+                  "en": "Opened soon after World War II, it was the site of many demonstrations in the 1960s.",
+                  "ja": "ここは第二次世界大戦のすぐ後に開園し、1960年代にはここで数多くのデモ活動が行われました。"
+                }
+              ]
+            },
+            {
+              "id": "arts_tour",
+              "title": {
+                "en": "The Arts Tour",
+                "ja": "芸術ツアー"
+              },
+              "image": {
+                "src": "data/kakomon/2024/images/s1b_artist.png",
+                "alt": "Artist painting illustration",
+                "float": "left"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s6",
+                  "en": "The morning will be spent in the Yentonville Arts District.",
+                  "ja": "午前中はイエントンビル芸術地区で過ごします。"
+                },
+                {
+                  "id": "1b_s7",
+                  "en": "We will begin in the Art Gallery where there are many paintings from Europe and the US.",
+                  "ja": "最初に訪れるのは、数多くのヨーロッパや米国の絵画がある美術館です。"
+                },
+                {
+                  "id": "1b_s8",
+                  "en": "After lunch, enjoy a concert across the street at the Bruton Concert Hall before walking a short distance to the Artists' Avenue.",
+                  "ja": "昼食後は通りの向かい側に行き、ブルートン音楽堂でコンサートを楽しんでから、少し歩いて芸術家通りに行きます。"
+                },
+                {
+                  "id": "1b_s9",
+                  "en": "This part of the district was developed several years ago when new artists' studios and the nearby Sculpture Park were created.",
+                  "ja": "この区域は数年前、新しい芸術家たちのアトリエと近隣にある彫刻公園が造られた時に開発されました。"
+                },
+                {
+                  "id": "1b_s10",
+                  "en": "Watch artists at work in their studios and afterwards wander around the park, finding sculptures among the trees.",
+                  "ja": "芸術家たちのアトリエでの制作活動を見た後は、公園を散策して、木々の中に彫刻を見つけてください。"
+                }
+              ]
+            },
+            {
+              "id": "sports_tour",
+              "title": {
+                "en": "The Sports Tour",
+                "ja": "スポーツツアー"
+              },
+              "image": {
+                "src": "data/kakomon/2024/images/s1b_hockey_player.png",
+                "alt": "Hockey player illustration",
+                "float": "right"
+              },
+              "sentences": [
+                {
+                  "id": "1b_s11",
+                  "en": "First thing in the morning, you can watch the Yentonville Lions football team training at their open-air facility in the suburbs.",
+                  "ja": "朝一番で、イエントンビル・ライオンズというフットボールチームがトレーニングしているのを、郊外にある屋外施設で見学できます。"
+                },
+                {
+                  "id": "1b_s12",
+                  "en": "In the afternoon, travel by subway to the Yentonville Hockey Arena, completed last fall.",
+                  "ja": "午後は、昨秋に完成したイエントンビルホッケー競技場まで地下鉄で移動します。"
+                },
+                {
+                  "id": "1b_s13",
+                  "en": "Spend some time in its exhibition hall to learn about the arena's unique design.",
+                  "ja": "この競技場の独特のデザインについて知るために、展示ホールでしばらく時間を過ごしてください。"
+                },
+                {
+                  "id": "1b_s14",
+                  "en": "Finally, enjoy a professional hockey game in the arena.",
+                  "ja": "最後に、競技場でプロによるホッケーの試合を楽しみましょう。"
+                }
+              ]
+            },
+            {
+              "id": "footer_1b",
+              "sentences": [
+                {
+                  "id": "1b_s15",
+                  "en": "Yentonville Tourist Office, January, 2024",
+                  "ja": "2024年1月、イエントンビル旅行案内所"
+                }
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 3,
+              "stem": {
+                "en": "Yentonville has [3].",
+                "ja": "「イエントンビルには[3]がある。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "a church built 250 years ago when the city was constructed",
+                  "ja": "市が建設された250年前に建てられた教会"
+                },
+                {
+                  "label": "②",
+                  "en": "a unique football training facility in the center of the town",
+                  "ja": "町の中心部にある独特なフットボールのトレーニング施設"
+                },
+                {
+                  "label": "③",
+                  "en": "an art studio where visitors can create original works of art",
+                  "ja": "訪問客が独自の芸術作品を作ることができるアトリエ"
+                },
+                {
+                  "label": "④",
+                  "en": "an arts area with both an art gallery and a concert hall",
+                  "ja": "美術館と音楽堂の両方がある芸術地区"
+                }
+              ],
+              "answer": 4,
+              "explanation": {
+                "ja": "正解は④。The Arts Tour に「We will begin in the Art Gallery... enjoy a concert across the street at the Bruton Concert Hall...」とあることから、美術館と音楽堂の両方があることがわかる。"
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 4,
+              "stem": {
+                "en": "On all three tours, you will [4].",
+                "ja": "「3つのツアーすべてにおいて、あなたは[4]だろう。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "learn about historic events in the city",
+                  "ja": "市の歴史的な事件について学ぶ"
+                },
+                {
+                  "label": "②",
+                  "en": "see people demonstrate their skills",
+                  "ja": "人々が自分の技術を披露しているのを見る"
+                },
+                {
+                  "label": "③",
+                  "en": "spend time both indoors and outdoors",
+                  "ja": "屋内と屋外の両方で時間を過ごす"
+                },
+                {
+                  "label": "④",
+                  "en": "use public transportation to get around",
+                  "ja": "公共交通を利用して動き回る"
+                }
+              ],
+              "answer": 3,
+              "explanation": {
+                "ja": "正解は③。各ツアーには、教会の訪問や美術館などの屋内での活動と、公園や屋外施設などの屋外での活動がそれぞれ含まれているため、3つのツアーすべてで屋内と屋外の両方で時間を過ごすことになる。"
+              }
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 5,
+              "stem": {
+                "en": "Which is the newest place in Yentonville you can visit on the tours?",
+                "ja": "「ツアーで訪れることのできる、イエントンビルの中の最も新しい場所はどれか。」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "The Hockey Arena",
+                  "ja": "ホッケー競技場"
+                },
+                {
+                  "label": "②",
+                  "en": "The Mayor's House",
+                  "ja": "市長舎"
+                },
+                {
+                  "label": "③",
+                  "en": "The Peace Park",
+                  "ja": "平和公園"
+                },
+                {
+                  "label": "④",
+                  "en": "The Sculpture Park",
+                  "ja": "彫刻公園"
+                }
+              ],
+              "answer": 1,
+              "explanation": {
+                "ja": "正解は①。スポーツツアーの項に「the Yentonville Hockey Arena, completed last fall（昨秋に完成したイエントンビルホッケー競技場）」とあり、他の場所よりも明らかに新しく造られたものである。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_number": 2,
+      "title": "第2問",
+      "points": 20,
+      "points_per_question": 2,
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "You are an exchange student at a high school in the UK and find this flyer.",
+            "ja": "あなたは英国の高校の交換留学生で，次のようなチラシを見つけます。"
+          },
+          "passages": [
+            {
+              "id": "header_2a",
+              "no_divider": true,
+              "title": {
+                "en": "Invitation to the Strategy Game Club",
+                "ja": "戦略ゲーム部へのお誘い"
+              },
+              "image": {
+                "src": "data/kyotsu/2024/honshiken/images/s2a_shogi.png",
+                "alt": "Shogi piece",
+                "float": "left",
+                "width": "80px"
+              }
+            },
+            {
+              "id": "intro_2a",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2a_s1",
+                  "en": "Have you ever wanted to learn strategy games like chess, shogi, or go?",
+                  "ja": "チェスや将棋や碁などの戦略ゲームを覚えたいと思ったことはありませんか。"
+                },
+                {
+                  "id": "2a_s2",
+                  "en": "They are actually more than just games.",
+                  "ja": "これらは実際はただのゲームではないのです。"
+                },
+                {
+                  "id": "2a_s3",
+                  "en": "You can learn skills such as thinking logically and deeply without distractions.",
+                  "ja": "気を散らすことなく論理的に深く考えるといった技術を身につけることができます。"
+                },
+                {
+                  "id": "2a_s4",
+                  "en": "Plus, these games are really fun!",
+                  "ja": "加えて，これらのゲームは本当に楽しいのです！"
+                },
+                {
+                  "id": "2a_s5",
+                  "en": "This club is open to all students of our school.",
+                  "ja": "この部は我が校のすべての生徒に開かれています。"
+                },
+                {
+                  "id": "2a_s6",
+                  "en": "Regardless of skill level, you are welcome to join.",
+                  "ja": "上手下手に関係なく，入部を歓迎します。"
+                }
+              ],
+              "image": {
+                "src": "data/kyotsu/2024/honshiken/images/s2a_chess.png",
+                "alt": "Chess knight",
+                "float": "right",
+                "width": "80px"
+              }
+            },
+            {
+              "id": "activities_2a",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2a_s7",
+                  "en": "We play strategy games together and...",
+                  "ja": "私たちは一緒に戦略ゲームをプレーして…"
+                },
+                {
+                  "id": "2a_s8",
+                  "en": "● learn basic moves from demonstrations by club members",
+                  "ja": "● 部員による実演から基本的な動きを学びます",
+                  "role": "bullet"
+                },
+                {
+                  "id": "2a_s9",
+                  "en": "● play online against club friends",
+                  "ja": "● 部の仲間とオンラインで対戦します",
+                  "role": "bullet"
+                },
+                {
+                  "id": "2a_s10",
+                  "en": "● share tips on our club webpage",
+                  "ja": "● 部のウェブページで秘訣を共有します",
+                  "role": "bullet"
+                },
+                {
+                  "id": "2a_s11",
+                  "en": "● learn the history and etiquette of each game",
+                  "ja": "● それぞれのゲームの歴史や作法を学びます",
+                  "role": "bullet"
+                },
+                {
+                  "id": "2a_s12",
+                  "en": "● analyse games using computer software",
+                  "ja": "● コンピューターのソフトを使ってゲームを分析します",
+                  "role": "bullet"
+                },
+                {
+                  "id": "2a_s13",
+                  "en": "● participate in local and national tournaments",
+                  "ja": "● 地元や全国のトーナメントに参加します",
+                  "role": "bullet"
+                }
+              ],
+              "image": {
+                "src": "data/kyotsu/2024/honshiken/images/s2a_go.png",
+                "alt": "Go board",
+                "float": "right",
+                "width": "150px"
+              }
+            },
+            {
+              "id": "schedule_2a",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2a_s14",
+                  "en": "Regular meetings: Wednesday afternoons in Room 301, Student Centre",
+                  "ja": "定例会：水曜日の午後，スチューデントセンターの301号室にて"
+                }
+              ]
+            },
+            {
+              "id": "comments_2a",
+              "title": {
+                "en": "Member Comments",
+                "ja": "部員のコメント"
+              },
+              "sentences": [
+                {
+                  "id": "2a_c1",
+                  "en": "- My mind is clearer, calmer, and more focused in class.",
+                  "ja": "- 授業中に頭がよりはっきりして，落ち着いて，集中できています。"
+                },
+                {
+                  "id": "2a_c2",
+                  "en": "- It's cool to learn how some games have certain similarities.",
+                  "ja": "- 一部のゲームにある種の類似点があることを学べるのってすごいです。"
+                },
+                {
+                  "id": "2a_c3",
+                  "en": "- At tournaments, I like discussing strategies with other participants.",
+                  "ja": "- トーナメントでは，他の参加者と戦略について話し合うのが私は好きです。"
+                },
+                {
+                  "id": "2a_c4",
+                  "en": "- Members share Internet videos that explain practical strategies for chess.",
+                  "ja": "- 部員たちはチェスの実際的な戦略を説明するインターネット動画を共有しています。"
+                },
+                {
+                  "id": "2a_c5",
+                  "en": "- It's nice to have friends who give good advice about go.",
+                  "ja": "- 碁についての良いアドバイスをしてくれる友達を持てるのはうれしいです。"
+                },
+                {
+                  "id": "2a_c6",
+                  "en": "- I was a complete beginner when I joined, and I had no problem!",
+                  "ja": "- 私は入部した時まったくの初心者でしたが，全然問題ありませんでした！"
+                }
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 6,
+              "stem": {
+                "en": "According to the flyer, which is true about the club? [6]",
+                "ja": "「チラシによると，この部について言えることはどれか」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "Absolute beginners are welcome.",
+                  "ja": "完全な初心者も歓迎される。"
+                },
+                {
+                  "label": "②",
+                  "en": "Members edit computer programs.",
+                  "ja": "部員はコンピュータープログラムを編集する。"
+                },
+                {
+                  "label": "③",
+                  "en": "Professional players give formal demonstrations.",
+                  "ja": "プロのプレーヤーが正式な対戦を披露する。"
+                },
+                {
+                  "label": "④",
+                  "en": "Students from other schools can join.",
+                  "ja": "他校の生徒も入部できる。"
+                }
+              ],
+              "answer": 1,
+              "explanation": {
+                "ja": "正解は①。チラシ上にある勧誘文の第1段落最終文（Regardless of skill level, ...）に「上手下手に関係なく，入部を歓迎します」とあり，「部員のコメント（Member Comments）」の最後のコメント（I was a complete beginner ...）にも「私は入部した時まったくの初心者でしたが，全然問題ありませんでした！」とあることから，①は正しいと言える。\n②の「コンピュータープログラムの編集（edit）」や，③の「プロの（professional）プレーヤー」については，本文中では述べられていない。④のような，「他校の生徒が入部できる」という記述もない。",
+                "evidence_sentences": [
+                  "2a_s6",
+                  "2a_c6"
+                ]
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 7,
+              "stem": {
+                "en": "Which of the following is not mentioned as a club activity? [7]",
+                "ja": "「次の中で，部の活動として述べられていないものはどれか」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "Having games with non-club members",
+                  "ja": "部員でない人たちと対戦すること"
+                },
+                {
+                  "label": "②",
+                  "en": "Playing matches against computers",
+                  "ja": "コンピューターと対戦すること"
+                },
+                {
+                  "label": "③",
+                  "en": "Sharing game-playing ideas on the Internet",
+                  "ja": "ゲームのプレーに関するアイディアをインターネット上で共有すること"
+                },
+                {
+                  "label": "④",
+                  "en": "Studying the backgrounds of strategy games",
+                  "ja": "戦略ゲームの背景を調べること"
+                }
+              ],
+              "answer": 2,
+              "explanation": {
+                "ja": "正解は②。②の「コンピューターとの対戦（Playing matches）」については，本文中に記述がないので，これが正解となる。\n①については，チラシの勧誘文の中で，部の活動内容について丸印（●）付きの箇条書き形式で説明している最後の項目（participate in ...）に「地元や全国のトーナメントに参加します」とあることなどから，部員でない人々とも対戦をすると考えられるので，正解にはなれない。③の「ゲームのプレーに関するアイディア（game-playing ideas）をインターネット上で共有すること」については，丸印の3つ目の項目（share tips on ...）に「部のウェブページで秘訣（tips）を共有します」とあり，「部員のコメント」の4つ目（Members share ...）に「部員たちはチェスの実際的な戦略を説明するインターネット動画（Internet videos that explain practical strategies）を共有しています」とある。3つの下線部は，ほぼ同内容と考えられることから，③も正解にはなれない。④の「戦略ゲームの背景（backgrounds）を調べること」については，丸印の4つ目（learn the history ...）に「それぞれのゲームの歴史（history）や作法を学びます」とあり，2つの下線部はほぼ同内容と考えられることから，④も正解にはなれない。",
+                "evidence_sentences": [
+                  "2a_s13",
+                  "2a_s10",
+                  "2a_c4",
+                  "2a_s11"
+                ]
+              }
+            },
+            {
+              "question_id": "問3",
+              "answer_number": 8,
+              "stem": {
+                "en": "One opinion stated by a member is that [8].",
+                "ja": "「ある部員が述べた1つの意見は，[8]ということだ」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "comparing different games is interesting",
+                  "ja": "異なるゲームを比較するのは面白い"
+                },
+                {
+                  "label": "②",
+                  "en": "many videos about go are useful",
+                  "ja": "碁に関する多くの動画は役に立つ"
+                },
+                {
+                  "label": "③",
+                  "en": "members learn tips at competitions",
+                  "ja": "部員たちは競技会で秘訣を学ぶ"
+                },
+                {
+                  "label": "④",
+                  "en": "regular meetings are held off campus",
+                  "ja": "定例会は学外で開かれる"
+                }
+              ],
+              "answer": 1,
+              "explanation": {
+                "ja": "正解は①。「部員のコメント」の2つ目（It's cool to ...）に，「一部のゲームにある種の類似点があることを学べるのってすごいです」とあることから，これとはほぼ同内容と考えられる①が正解となる。\n②の「碁に関する多くの動画は役に立つ」という意見を述べている部員はいないので，これは正解にはなれない。③や④は，「意見（opinion）」とみなすことはできないので，正解にはなり得ない。",
+                "evidence_sentences": [
+                  "2a_c2"
+                ]
+              }
+            },
+            {
+              "question_id": "問4",
+              "answer_number": 9,
+              "stem": {
+                "en": "The club invitation and a member's comment both mention that [9].",
+                "ja": "「部からの勧誘文とある部員のコメントはどちらも[9]ということに触れている」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "new members must demonstrate experience",
+                  "ja": "新しい部員は経験があることを見せなければならない"
+                },
+                {
+                  "label": "②",
+                  "en": "online support is necessary to be a good player",
+                  "ja": "良いプレーヤーになるにはオンラインによるサポートが必要だ"
+                },
+                {
+                  "label": "③",
+                  "en": "shogi is a logical and stimulating game",
+                  "ja": "将棋は論理的で刺激的なゲームだ"
+                },
+                {
+                  "label": "④",
+                  "en": "strategy games help improve one's concentration",
+                  "ja": "戦略ゲームは集中力を高めるのに役立つ"
+                }
+              ],
+              "answer": 4,
+              "explanation": {
+                "ja": "正解は④。勧誘文の第1段落第3文（You can learn ...）に「気を散らすことなく（without distractions）論理的に深く考えるといった技術を身につけることができます」とあり，部員のコメントの1番目（My mind is ...）に「授業中に頭がよりはっきりして，より落ち着いて，より集中できています（more focused）」とある。2つの下線部は，いずれも④の中の「集中力を高める（improve concentration）」とほぼ同内容と考えられることから，④が正解となる。\n①や②のようなことは，本文では述べられていない。③のようなことをコメントとして述べている部員もいない。",
+                "evidence_sentences": [
+                  "2a_s3",
+                  "2a_c1"
+                ]
+              }
+            },
+            {
+              "question_id": "問5",
+              "answer_number": 10,
+              "stem": {
+                "en": "This club is most likely suitable for students who want to [10].",
+                "ja": "「この部は，[10]ことを望んでいる生徒に最も適している可能性が高い」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "create their own computer strategy games",
+                  "ja": "自分独自のコンピューター戦略ゲームを作り出す"
+                },
+                {
+                  "label": "②",
+                  "en": "improve their skill level of playing strategy games",
+                  "ja": "戦略ゲームをプレーする技術レベルを上げる"
+                },
+                {
+                  "label": "③",
+                  "en": "learn proper British etiquette through playing strategy games",
+                  "ja": "戦略ゲームのプレーを通じて，英国の適切な作法を学ぶ"
+                },
+                {
+                  "label": "④",
+                  "en": "spend weekends playing strategy games in the club room",
+                  "ja": "部室で戦略ゲームをプレーして週末を過ごす"
+                }
+              ],
+              "answer": 2,
+              "explanation": {
+                "ja": "正解は②。消去法で考えるとわかりやすい。戦略ゲーム部は，チェスや将棋や碁を楽しむクラブであって，①のように「自分独自のコンピューター戦略ゲームを作り出す」ことについては全く述べられていないので，これは誤りとなる。また，部の活動内容として，勧誘文の第2段落の丸印の4つ目の項（learn the history ...）に「それぞれのゲームの歴史や作法を学びます」とあるが，③のように「英国の適切な作法を学ぶ」とは述べられていないので，これも誤りである。また④のように「週末に」部室が利用できるとも本文には書かれていない。\nこれに対して②の「戦略ゲームをプレーする技術レベルを上げる」ことについては，本文中にこれと合わない記述はなく，逆に勧誘文の第2段落の活動内容の説明の中の「部員による実演から基本的な動きを学びます（learn basic moves ...）」，「部のウェブページで秘訣を共有します（share tips on ...）」，「コンピューターのソフトを使ってゲームを分析します（analyse games using ...）」などの活動は，②のようなことを希望する生徒にとっては有益なことと考えられるので②が正解となる。",
+                "evidence_sentences": [
+                  "2a_s11",
+                  "2a_s8",
+                  "2a_s10",
+                  "2a_s12"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You are a college student going to study in the US and need travel insurance.  You find this review of an insurance plan written by a female international student who studied in the US for six months.",
+            "ja": "あなたは米国へ留学することになっている大学生で，旅行保険を必要としています。米国で6カ月間勉強した女性の留学生が書いた，以下のような保険プランについてのレビューを見つけます。"
+          },
+          "passages": [
+            {
+              "id": "intro_2b",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2b_s1",
+                  "en": "There are many things to consider before traveling abroad: pack appropriate clothes, prepare your travel expenses, and don't forget medication (if necessary).",
+                  "ja": "外国旅行をする前には，考えるべきことがたくさんあります。ふさわしい衣服を荷物として詰め，旅行の費用を準備し，それから（必要ならば）薬も忘れてはいけません。"
+                },
+                {
+                  "id": "2b_s2",
+                  "en": "Also, you should purchase travel insurance.",
+                  "ja": "さらに，旅行保険も購入するのがよいでしょう。"
+                }
+              ]
+            },
+            {
+              "id": "travsafer_2b",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2b_s3",
+                  "en": "When I studied at Fairville University in California, I bought travel insurance from TravSafer International.",
+                  "ja": "私はカリフォルニアにあるフェアビル大学に留学した時，トラブセイファー・インターナショナルの旅行保険を購入しました。"
+                },
+                {
+                  "id": "2b_s4",
+                  "en": "I signed up online in less than 15 minutes and was immediately covered.",
+                  "ja": "オンラインでの申し込みは15分もかからず，すぐに加入できました。"
+                },
+                {
+                  "id": "2b_s5",
+                  "en": "They accept any form of payment, usually on a monthly basis.",
+                  "ja": "どんな支払い方法も受け入れられ，普通は月単位です。"
+                },
+                {
+                  "id": "2b_s6",
+                  "en": "There were three plans.",
+                  "ja": "3種類のプランがありました。"
+                },
+                {
+                  "id": "2b_s7",
+                  "en": "All plans include a one-time health check-up.",
+                  "ja": "すべてのプランに，1回の健康診断が含まれています。"
+                }
+              ]
+            },
+            {
+              "id": "premium_2b",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2b_s8",
+                  "en": "The Premium Plan is $100/month.",
+                  "ja": "プレミアムプランは，月100ドルです。"
+                },
+                {
+                  "id": "2b_s9",
+                  "en": "The plan provides 24-hour medical support through a smartphone app and telephone service.",
+                  "ja": "このプランは，スマートフォンのアプリや電話による24時間の医療サポートを提供します。"
+                },
+                {
+                  "id": "2b_s10",
+                  "en": "Immediate financial support will be authorized if you need to stay in a hospital.",
+                  "ja": "入院が必要な場合は，直ちに金銭的援助が受けられます。"
+                }
+              ]
+            },
+            {
+              "id": "standard_2b",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2b_s11",
+                  "en": "The Standard Plan worked best for me.",
+                  "ja": "スタンダードプランは私に最適でした。"
+                },
+                {
+                  "id": "2b_s12",
+                  "en": "It had the 24-hour telephone assistance and included a weekly email with tips for staying healthy in a foreign country.",
+                  "ja": "これには24時間の電話案内が含まれ，外国で健康に過ごすための秘訣が書かれた電子メールが毎週送られてきました。"
+                },
+                {
+                  "id": "2b_s13",
+                  "en": "It wasn't cheap: $75/month.",
+                  "ja": "月75ドルで，安くはありませんでした。"
+                },
+                {
+                  "id": "2b_s14",
+                  "en": "However, it was nice to get the optional 15% discount because I paid for six months of coverage in advance.",
+                  "ja": "けれども，保険料を6カ月分前払いしたため，オプションの15パーセント割引を受けられたのは嬉しいことでした。"
+                }
+              ]
+            },
+            {
+              "id": "economy_2b",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2b_s15",
+                  "en": "If your budget is limited, you can choose the Economy Plan, which is $25/month.",
+                  "ja": "予算が限られている方は，月25ドルのエコノミープランを選ぶこともできます。"
+                },
+                {
+                  "id": "2b_s16",
+                  "en": "It has the 24-hour telephone support like the other plans but only covers emergency care.",
+                  "ja": "他のプランと同様に24時間の電話サポートが付いていますが，救急医療のみをカバーします。"
+                },
+                {
+                  "id": "2b_s17",
+                  "en": "Also, they can arrange a taxi to a hospital at a reduced cost if considered necessary by the support center.",
+                  "ja": "また，サポートセンターが必要と判断した場合は，病院までのタクシーを割引料金で手配してくれます。"
+                }
+              ]
+            },
+            {
+              "id": "conclusion_2b",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "2b_s18",
+                  "en": "I never got sick or hurt, so I thought it was a waste of money to get insurance.",
+                  "ja": "私は一度も病気や怪我をしなかったので，保険に入ったのはお金の無駄だと思っていました。"
+                },
+                {
+                  "id": "2b_s19",
+                  "en": "Then my friend from Brazil broke his leg while playing soccer and had to spend a few days in a hospital.",
+                  "ja": "するとブラジルから来た友人がサッカーをしている時に足を骨折して，数日間入院が必要となりました。"
+                },
+                {
+                  "id": "2b_s20",
+                  "en": "He had chosen the Premium Plan and it covered everything!",
+                  "ja": "彼はプレミアムプランを選んでいたので，すべてが保険でカバーされたんです！"
+                },
+                {
+                  "id": "2b_s21",
+                  "en": "I realized how important insurance is—you know that you will be supported when you are in trouble.",
+                  "ja": "私は保険がいかに大切かに気づきました。困った時にサポートしてもらえるとわかっていることの大切さに。"
+                }
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問6",
+              "answer_number": 11,
+              "stem": {
+                "en": "According to the review, which of the following is true? [11]",
+                "ja": "「このレビューによると，次の中で正しいのはどれか」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "Day and night medical assistance is available with the most expensive plan.",
+                  "ja": "最も高価なプランでは，昼夜を問わない医療扶助が受けられる。"
+                },
+                {
+                  "label": "②",
+                  "en": "The cheapest plan includes free hospitalization for any reason.",
+                  "ja": "最も安価なプランでは，いかなる理由であれ無料で入院できる。"
+                },
+                {
+                  "label": "③",
+                  "en": "The mid-level plan does not include the one-time health check-up.",
+                  "ja": "中間レベルのプランには，1回の健康診断は含まれない。"
+                },
+                {
+                  "label": "④",
+                  "en": "The writer's plan cost her over $100 every month.",
+                  "ja": "筆者のプランの負担額は毎月100ドルを超えた。"
+                }
+              ],
+              "answer": 1,
+              "explanation": {
+                "ja": "正解は①。①の中の「最も高価なプラン（the most expensive plan）」とは，本文中の「プレミアムプラン（the Premium Plan）」のことだが，これについて説明している第3段落第2文（The plan provides ...）に，「このプランは，スマートフォンのアプリや電話による24時間の医療サポート（24-hour medical support）を提供します」とある。下線部の表現は，①の中の「昼夜を問わない医療扶助（Day and night medical assistance）」と同内容と考えられることから，①が正解となる。\n②のようなことは，本文からは読み取れない。③は，第2段落最終文（All plans include ...）の「すべてのプランに，1回の健康診断が含まれています」という記述と合わない。第4段落第1文（The Standard Plan ...）に，「スタンダードプランは私に最適でした」とあることなどから，④の中の「筆者のプラン（The writer's plan）」とは，スタンダードプランであることがわかる。このプランは月額75ドル（同段落第3文：It wasn't cheap: ...）だが，筆者は半年分を前払いすることで15パーセントの割引を受けた（同段落最終文：However, it was nice ...）とあるので，④が誤りであることは明らかである。",
+                "evidence_sentences": [
+                  "2b_s9",
+                  "2b_s7",
+                  "2b_s11",
+                  "2b_s13",
+                  "2b_s14"
+                ]
+              }
+            },
+            {
+              "question_id": "問7",
+              "answer_number": 12,
+              "stem": {
+                "en": "Which is not included in the cheapest option? [12]",
+                "ja": "「最も安価な選択プランに含まれていないものはどれか」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "Email support",
+                  "ja": "電子メールによるサポート"
+                },
+                {
+                  "label": "②",
+                  "en": "Emergency treatment",
+                  "ja": "緊急治療"
+                },
+                {
+                  "label": "③",
+                  "en": "Telephone help desk",
+                  "ja": "電話による問い合わせ窓口"
+                },
+                {
+                  "label": "④",
+                  "en": "Transport assistance",
+                  "ja": "交通機関の補助"
+                }
+              ],
+              "answer": 1,
+              "explanation": {
+                "ja": "正解は①。「最も安価な選択プラン（the cheapest option）」とは，「エコノミープラン（the Economy Plan）」のことである。このプランについて述べている第5段落（If your budget is ...）を参照すると，「予算が限られている方は，月25ドルのエコノミープランを選ぶこともできます。他のプランと同様に24時間の電話サポート（telephone support→③）が付いていますが，救急医療（emergency care→②）のみをカバーします。また，サポートセンターが必要と判断した場合は，病院までのタクシーを割引料金で手配してくれます（arrange a taxi to a hospital at a reduced cost→④）」とあり，下線部の表現が，カッコ内に示した選択肢の内容に対応していることから，②や③や④は正解にはなれない。①については言及されていないので，これが正解となる。",
+                "evidence_sentences": [
+                  "2b_s15",
+                  "2b_s16",
+                  "2b_s17"
+                ]
+              }
+            },
+            {
+              "question_id": "問8",
+              "answer_number": 13,
+              "stem": {
+                "en": "Which is the best combination to describe TravSafer International? [13]",
+                "ja": "「トラブセイファー・インターナショナルの説明として最適なのはどの組み合わせか」"
+              },
+              "choices": [
+                {
+                  "label": "A",
+                  "en": "Monthly payment is possible.",
+                  "ja": "ひと月ごとの支払いが可能である。"
+                },
+                {
+                  "label": "B",
+                  "en": "It is planning a scholarship plan for students.",
+                  "ja": "学生のための奨学金プランを計画している。"
+                },
+                {
+                  "label": "C",
+                  "en": "It helps you remember to take your medication.",
+                  "ja": "服薬を忘れないよう助けてくれる。"
+                },
+                {
+                  "label": "D",
+                  "en": "It offers a registration system using the Internet.",
+                  "ja": "インターネットを用いた登録システムを提供している。"
+                },
+                {
+                  "label": "E",
+                  "en": "It takes a few days to process the application.",
+                  "ja": "申請書を処理するのに数日間要する。"
+                }
+              ],
+              "choice_combinations": [
+                {
+                  "label": "①",
+                  "combination": "A と D"
+                },
+                {
+                  "label": "②",
+                  "combination": "A と E"
+                },
+                {
+                  "label": "③",
+                  "combination": "B と D"
+                },
+                {
+                  "label": "④",
+                  "combination": "B と E"
+                },
+                {
+                  "label": "⑤",
+                  "combination": "C と D"
+                }
+              ],
+              "answer": 1,
+              "explanation": {
+                "ja": "正解は①。Aについては，第2段落第3文（They accept any form ...）に「どんな支払い方法も受け入れられ，普通は月単位（on a monthly basis）です」とあることから正しい。BやCのようなことは本文中では触れられていない。Dについては，第2段落第2文（I signed up ...）に「オンラインでの申し込み（signed up online）は15分もかからず，すぐに加入できました」とあることから考えて正しい。Eについては，上の文の中に「申し込みは15分もかからず（signed up ... in less than 15 minutes）」とあるのと合わない。以上により正解は①の「AとD」に決まる。",
+                "evidence_sentences": [
+                  "2b_s5",
+                  "2b_s4"
+                ]
+              }
+            },
+            {
+              "question_id": "問9",
+              "answer_number": 14,
+              "stem": {
+                "en": "The writer has the opinion about the plan she chose that [14].",
+                "ja": "「筆者は自分の選んだプランについて[14]という意見を持っている」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "it prevented her from trying to be healthy",
+                  "ja": "それは自分が健康を志向するのを妨げた"
+                },
+                {
+                  "label": "②",
+                  "en": "she was not satisfied with the phone guidance",
+                  "ja": "電話による案内に満足しなかった"
+                },
+                {
+                  "label": "③",
+                  "en": "the cost-reduction option was attractive",
+                  "ja": "費用削減のためのオプションは魅力的だった"
+                },
+                {
+                  "label": "④",
+                  "en": "her broken leg's treatment was covered",
+                  "ja": "自分の足の骨折の治療費がカバーされた"
+                }
+              ],
+              "answer": 3,
+              "explanation": {
+                "ja": "正解は③。③は第4段落最終文（However, it was nice ...）に，「けれども，保険料を6カ月分前払いしたため，オプションの15パーセント割引を受けられたのは嬉しいことでした（it was nice to get the optional 15% discount）」とあるのと合っている。\n①のようなことは本文からは読み取れない。筆者が電話サポートを受けたという記述もないので，②も誤りである。④は「自分の足の骨折（her broken leg）」が誤りであるし，「意見（opinion）」と見なすこともできないので，これも誤りである。",
+                "evidence_sentences": [
+                  "2b_s14"
+                ]
+              }
+            },
+            {
+              "question_id": "問10",
+              "answer_number": 15,
+              "stem": {
+                "en": "Which best describes the writer's attitude? [15]",
+                "ja": "「筆者の態度を最も適切に説明しているのは次のどれか」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "She believes smartphone apps are useful.",
+                  "ja": "スマートフォンのアプリは役に立つと信じている。"
+                },
+                {
+                  "label": "②",
+                  "en": "She thinks preparing for a trip is important.",
+                  "ja": "旅行の準備は大切だと考えている。"
+                },
+                {
+                  "label": "③",
+                  "en": "She feels the US health care system is unique in the world.",
+                  "ja": "米国の医療制度は世界でも独特だと感じている。"
+                },
+                {
+                  "label": "④",
+                  "en": "She thinks going to a different hospital would have been better for her friend.",
+                  "ja": "違う病院に行く方が友達にとっては良かっただろうと思っている。"
+                }
+              ],
+              "answer": 2,
+              "explanation": {
+                "ja": "正解は②。第1段落第1文（There are many things ...）に「外国旅行をする前には，考えるべきことがたくさんあります。…」とあり，最終段落最終文（I realized how ...）に「私は保険がいかに大切かに気づきました。…」とあることなどから，筆者は旅行をする際，旅行保険への加入などをはじめとする事前の準備が大切であると考えていることがわかるので，②が正解となる。他の選択肢を正解とするような記述は，本文中にはない。",
+                "evidence_sentences": [
+                  "2b_s1",
+                  "2b_s21"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_number": 3,
+      "title": "第3問",
+      "points": 15,
+      "points_per_question": 3,
+      "subsections": [
+        {
+          "label": "A",
+          "situation": {
+            "en": "Susan, your English ALT's sister, visited your class last month.  Now back in the UK, she wrote on her blog about an event she took part in.",
+            "ja": "あなたの英語指導補助教員の姉妹であるスーザンが，先月あなたのクラスを訪れました。彼女は今は英国に戻っていて，ブログに自分が参加したイベントについて書きました。"
+          },
+          "passages": [
+            {
+              "id": "blog_3a",
+              "no_divider": true,
+              "sentences": [
+                {
+                  "id": "3a_s1",
+                  "en": "Hi!",
+                  "ja": "こんにちは！"
+                },
+                {
+                  "id": "3a_s2",
+                  "en": "I participated in a photo rally for foreign tourists with my friends: See the rules on the right.",
+                  "ja": "私は友人たちと一緒に外国人旅行者のためのフォトラリーに参加しました。右のルールを見てください。"
+                },
+                {
+                  "id": "3a_s3",
+                  "en": "As photo rally beginners, we decided to aim for only five of the checkpoints.",
+                  "ja": "私たちはフォトラリーの初心者だったので，チェックポイントの中の5つだけを目指すことにしました。"
+                },
+                {
+                  "id": "3a_s4",
+                  "en": "In three minutes, we arrived at our first target, the city museum.",
+                  "ja": "私たちは3分で最初の目標である市立美術館に到着しました。"
+                },
+                {
+                  "id": "3a_s5",
+                  "en": "In quick succession, we made the second, third, and fourth targets.",
+                  "ja": "たて続けに私たちは第2，第3，第4の目標に到達しました。"
+                },
+                {
+                  "id": "3a_s6",
+                  "en": "Things were going smoothly!",
+                  "ja": "万事順調！"
+                },
+                {
+                  "id": "3a_s7",
+                  "en": "But, on the way to the last target, the statue of a famous samurai from the city, we got lost.",
+                  "ja": "ところが最後の目標であるこの市出身の有名な侍の像の所へ行く途中で，私たちは道に迷ってしまいました。"
+                },
+                {
+                  "id": "3a_s8",
+                  "en": "Time was running out and my feet were hurting from walking for over two hours.",
+                  "ja": "時間はなくなってくるし，私の足は2時間以上歩いたせいで痛みました。"
+                },
+                {
+                  "id": "3a_s9",
+                  "en": "We stopped a man with a pet monkey for help, but neither our Japanese nor his English were good enough.",
+                  "ja": "私たちはペットの猿を連れた男性を呼び止めて助けを求めましたが，私たちの日本語も彼の英語もあまり上手ではありませんでした。"
+                },
+                {
+                  "id": "3a_s10",
+                  "en": "After he'd explained the way using gestures, we realised we wouldn't have enough time to get there and would have to give up.",
+                  "ja": "彼が身振りを用いて行き方を説明してくれた後で，私たちはそこへ行く十分な時間がなく，諦めなければならないことに気づきました。"
+                },
+                {
+                  "id": "3a_s11",
+                  "en": "We took a photo with him and said goodbye.",
+                  "ja": "私たちは彼と写真を撮って，さよならを言いました。"
+                },
+                {
+                  "id": "3a_s12",
+                  "en": "When we got back to Sakura City Hall, we were surprised to hear that the winning team had completed 19 checkpoints.",
+                  "ja": "サクラ市役所に戻った私たちは，優勝チームが19ものチェックポイントを制覇したことを聞いて驚きました。"
+                },
+                {
+                  "id": "3a_s13",
+                  "en": "One of our photos was selected to be on the event website (click here).",
+                  "ja": "私たちの写真の1枚が選ばれて，イベントのウェブサイト上で公開されています（ここをクリック）。"
+                },
+                {
+                  "id": "3a_s14",
+                  "en": "It reminds me of the man's warmth and kindness: our own \"gold medal.\"",
+                  "ja": "この写真を見ると，私は例の男性の温かさと優しさを思い出します。これは私たちだけの「金メダル」です。"
+                }
+              ],
+              "floating_aside": {
+                "title": {
+                  "en": "Sakura City Photo Rally Rules",
+                  "ja": "サクラ市フォトラリーのルール"
+                },
+                "sentences": [
+                  {
+                    "id": "3a_r1",
+                    "en": "Each group can only use the camera and paper map, both provided by us",
+                    "ja": "各グループはカメラと紙の地図しか使うことができません。どちらも私たちが提供します"
+                  },
+                  {
+                    "id": "3a_r2",
+                    "en": "Take as many photos of 25 checkpoints (designated sightseeing spots) as possible",
+                    "ja": "（観光スポットに指定されている）25のチェックポイントの写真をできるだけたくさん撮ってください"
+                  },
+                  {
+                    "id": "3a_r3",
+                    "en": "3-hour time limit",
+                    "ja": "制限時間は3時間"
+                  },
+                  {
+                    "id": "3a_r4",
+                    "en": "Photos must include all 3 team members",
+                    "ja": "写真には3人のチームメンバー全員が写っていないといけません"
+                  },
+                  {
+                    "id": "3a_r5",
+                    "en": "All members must move together",
+                    "ja": "メンバーは全員一緒に移動しなければなりません"
+                  },
+                  {
+                    "id": "3a_r6",
+                    "en": "No mobile phones",
+                    "ja": "携帯電話は禁止"
+                  },
+                  {
+                    "id": "3a_r7",
+                    "en": "No transport",
+                    "ja": "交通機関の利用は禁止"
+                  }
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問1",
+              "answer_number": 16,
+              "stem": {
+                "en": "You click the link in the blog.  Which picture appears? [16]",
+                "ja": "「あなたはブログの中のリンクをクリックする。どの写真が出てくるだろうか」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "",
+                  "ja": ""
+                }
+              ],
+              "answer": 2,
+              "explanation": {
+                "ja": "正解は②。本文の最後の2つの文（One of our photos ... / It reminds me ...）に，「私たちの写真の1枚が選ばれて，イベントのウェブサイト上で公開されています（ここをクリック）。この写真を見ると，私は例の男性の温かさと優しさを思い出します。これは私たちだけの『金メダル』です」とある。これらの文から，リンク先の写真には「例の男性（the man）」が写っていると考えられる。この男性は，ブログ本文第8文（We stopped a man ...）の中に出てくる「ペットの猿を連れた男性（a man with a pet monkey）」のことであるから，この男性が写っている選択肢②か③が正解となる。また，第10文（We took a photo ...）と第11文（When we got back ...）に，「私たちは彼と写真を撮って，さよならを言いました。サクラ市役所に戻った私たちは，優勝チームが19ものチェックポイントを制覇したことを聞いて驚きました」とある。下線部の記述から，写真はサクラ市役所に戻る前に撮られていたことがわかる。サクラ市役所はこのラリーのゴール地点と考えられることから，「ゴール！（GOAL!）」と記されている③も誤りである。したがって正解は②に決まる。",
+                "evidence_sentences": [
+                  "3a_s13",
+                  "3a_s14",
+                  "3a_s9",
+                  "3a_s11",
+                  "3a_s12"
+                ]
+              },
+              "figure_image": {
+                "src": "images/s3a_q1_choices.png",
+                "alt": "Question 1 Choices"
+              }
+            },
+            {
+              "question_id": "問2",
+              "answer_number": 17,
+              "stem": {
+                "en": "You are asked to comment on Susan's blog.  Which would be an appropriate comment to her? [17]",
+                "ja": "「あなたはスーザンのブログにコメントすることを求められる。彼女へのコメントとして適切なものはどれか」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "I want to see a picture of you wearing the gold medal!",
+                  "ja": "あなたが金メダルをつけている写真を見たいな。"
+                },
+                {
+                  "label": "②",
+                  "en": "You did your best.  Come back to Japan and try again!",
+                  "ja": "あなたは最善を尽くしたね。日本へ戻ってきてもう一度やってみて！"
+                },
+                {
+                  "label": "③",
+                  "en": "You reached 19 checkpoints in three hours?  Really?  Wow!!",
+                  "ja": "19のチェックポイントに3時間で到達したの？ 本当？ うわー！！"
+                },
+                {
+                  "label": "④",
+                  "en": "Your photo is great!  Did you upgrade your phone?",
+                  "ja": "あなたの写真はすばらしいね！ 電話をアップグレードしたの？"
+                }
+              ],
+              "answer": 2,
+              "explanation": {
+                "ja": "正解は②。消去法で考えるとわかりやすい。①については，スーザンは実際には金メダルを獲得していないことから，コメントとして不適切である。なお，最終文（It reminds me ...）に「この写真を見ると，私は例の男性の温かさと優しさを思い出します。これは私たちだけの『金メダル』です」とあるが，下線部の「金メダル」とは，「貴重なもの」といった意味を表す比喩表現であって，実際の金メダルのことではない。③については，「19のチェックポイントに3時間で到達した」のは，優勝チームであって（第11文：When we got ...），スーザンのチームではないので，やはり誤りである。④は，スーザンがラリー中に携帯電話で写真を撮ったことを前提とするコメントだが，「サクラ市フォトラリーのルール（Sakura City Photo Rally Rules）」の6つ目の項目に，「携帯電話は禁止（No mobile phones）」とあることから，ラリー中にスーザンが携帯電話で写真を撮ることはありえないので，これも正解にはなれない。\nこれに対して②は本文の内容と合わない点を含んでいないので，これが正解となる。冒頭の状況説明文の第2文（Now back in the UK, ...）に，「（スーザンは）今は英国に戻っていて，ブログに自分が参加したイベントについて書きました」とあるので，②の第2文（Come back to ...）の「日本へ戻ってきてもう一度やってみて！」も現状に合ったコメントとなる。",
+                "evidence_sentences": [
+                  "3a_s14",
+                  "3a_s12",
+                  "3a_r6"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "situation": {
+            "en": "You are going to participate in an English Day.  As preparation, you are reading an article in the school newspaper written by Yuzu, who took part in it last year.",
+            "ja": "あなたはイングリッシュデーに参加することにしています。あなたはその準備として，昨年それに参加したユズが書いた学校新聞の記事を読んでいます。"
+          },
+          "passages": [
+            {
+              "id": "article_3b",
+              "title": {
+                "en": "Virtual Field Trip to a South Sea Island",
+                "ja": "サウスシーアイランドへのバーチャル野外旅行"
+              },
+              "images": [
+                {
+                  "src": "images/s3b_starry_sky.png",
+                  "alt": "Starry sky",
+                  "paragraph_index": 3,
+                  "position": "float-right",
+                  "max_width": 250
+                }
+              ],
+              "framed": true,
+              "paragraphs": [
+                [
+                  {
+                    "id": "3b_s1",
+                    "en": "This year, for our English Day, we participated in a virtual science tour.",
+                    "ja": "今年，イングリッシュデーとして，私たちはバーチャルサイエンスツアーに参加しました。"
+                  },
+                  {
+                    "id": "3b_s2",
+                    "en": "The winter weather had been terrible, so we were excited to see the tropical scenery of the volcanic island projected on the screen.",
+                    "ja": "冬の天気がひどかったので，私たちはスクリーンに投影される火山島の熱帯の景色を見てワクワクしました。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3b_s3",
+                    "en": "First, we \"took a road trip\" to learn about the geography of the island, using navigation software to view the route.",
+                    "ja": "まず最初に私たちは，島の地形について学ぶため，ルートを見るためのナビソフトを利用して，「自動車旅行に出かけました」。"
+                  },
+                  {
+                    "id": "3b_s4",
+                    "en": "We \"got into the car,\" which our teacher, Mr Leach, sometimes stopped so we could look out of the window and get a better sense of the rainforest.",
+                    "ja": "私たちは「車に乗り込み」ましたが，窓の外を見て熱帯雨林の様子がより良くわかるようにと，担任のリーチ先生は時々車を止めてくれました。"
+                  },
+                  {
+                    "id": "3b_s5",
+                    "en": "Afterwards, we asked Mr Leach about what we'd seen.",
+                    "ja": "それが終わると，私たちはリーチ先生に，見たものについて質問をしました。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3b_s6",
+                    "en": "Later, we \"dived into the ocean\" and learnt about the diversity of marine creatures.",
+                    "ja": "その後，私たちは「海に飛び込んで」，海洋生物の多様性について学びました。"
+                  },
+                  {
+                    "id": "3b_s7",
+                    "en": "We observed a coral reef via a live camera.",
+                    "ja": "私たちはライブカメラを通して，サンゴ礁を観察しました。"
+                  },
+                  {
+                    "id": "3b_s8",
+                    "en": "Mr Leach asked us if we could count the number of creatures, but there were too many!",
+                    "ja": "リーチ先生は私たちに，生き物の数を数えられますかと聞いてきましたが，数が多すぎました！"
+                  },
+                  {
+                    "id": "3b_s9",
+                    "en": "Then he showed us an image of the ocean 10 years ago.",
+                    "ja": "それから先生は10年前の海のイメージを見せてくれました。"
+                  },
+                  {
+                    "id": "3b_s10",
+                    "en": "The reef we'd seen on camera was dynamic, but in the photo it was even more full of life.",
+                    "ja": "カメラを通して見たサンゴ礁は活動的でしたが，写真で見るとさらに生き生きしていました。"
+                  },
+                  {
+                    "id": "3b_s11",
+                    "en": "It looked so different after only 10 years!",
+                    "ja": "10年経っただけでまったく違うように見えました！"
+                  },
+                  {
+                    "id": "3b_s12",
+                    "en": "Mr Leach told us human activity was affecting the ocean and it could be totally ruined if we didn't act now.",
+                    "ja": "リーチ先生は私たちに，人間の活動が海に影響を及ぼしていて，私たちが今すぐ行動しなければ海は台無しになるだろうとおっしゃいました。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3b_s13",
+                    "en": "In the evening, we studied astronomy under a \"perfect starry sky.\"",
+                    "ja": "夜になると，私たちは「完璧な星空」の下で天文学を勉強しました。"
+                  },
+                  {
+                    "id": "3b_s14",
+                    "en": "We put up tents in the gymnasium and created a temporary planetarium on the ceiling using a projector.",
+                    "ja": "体育館にテントを張って，プロジェクターを使って天井に臨時のプラネタリウムを作りました。"
+                  },
+                  {
+                    "id": "3b_s15",
+                    "en": "We were fascinated by the sky full of constellations, shooting stars, and the Milky Way.",
+                    "ja": "私たちは星座，流れ星，天の川が空いっぱいに広がっているのに魅了されました。"
+                  },
+                  {
+                    "id": "3b_s16",
+                    "en": "Someone pointed out one of the brightest lights and asked Mr Leach if it was Venus, a planet close to Earth.",
+                    "ja": "誰かが一番明るく光るものの1つを指し示して，リーチ先生にあれが地球に近い惑星である金星ですかと尋ねました。"
+                  },
+                  {
+                    "id": "3b_s17",
+                    "en": "He nodded and explained that humans have created so much artificial light that hardly anything is visible in our city's night sky.",
+                    "ja": "先生はうなずいて，人間は人工的な光をたくさん作り出してしまったために，私たちの市の夜空にはほとんど何も見えないと説明されました。"
+                  }
+                ],
+                [
+                  {
+                    "id": "3b_s18",
+                    "en": "On my way home after school, the weather had improved and the sky was now cloudless.",
+                    "ja": "学校が終わり家路に着いた頃には，天気は回復していて空にはもう雲はありませんでした。"
+                  },
+                  {
+                    "id": "3b_s19",
+                    "en": "I looked up at the moonless sky and realised what Mr Leach had told us was true.",
+                    "ja": "私は月の無い空を見上げて，リーチ先生が私たちにおっしゃったことは本当であることに気づきました。"
+                  }
+                ]
+              ]
+            }
+          ],
+          "questions": [
+            {
+              "question_id": "問3",
+              "answer_number": 18,
+              "question_type": "ordering",
+              "stem": {
+                "en": "Yuzu's article also included student comments (①〜④) describing the events in the virtual tour.  Put the comments in the order in which the events happened.  [18]→[19]→[20]→[21]",
+                "ja": "「ユズの投稿記事には，バーチャルツアーのイベントについて述べている生徒のコメントも含まれていた。これらのコメントを，イベントが起きた順に並べなさい」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "",
+                  "ja": ""
+                },
+                {
+                  "label": "②",
+                  "en": "",
+                  "ja": ""
+                },
+                {
+                  "label": "③",
+                  "en": "",
+                  "ja": ""
+                },
+                {
+                  "label": "④",
+                  "en": "",
+                  "ja": ""
+                }
+              ],
+              "answer": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "explanation": {
+                "ja": "正解は①→②→③→④。本文は，バーチャルサイエンスツアーのイベントについて，それらが行われた順序通りに述べているので，各選択肢に対応するイベントを本文中に見つけて，出て来る順序通りに並べればよい。\n①については，この中の「ジャングル（the jungle）」が，「全訳」の第2段落中の下線部内の「熱帯雨林（the rainforest）」を言い換えたものであることに気づけば，①は第2段落の「自動車旅行（a road trip）」について述べたものであるとわかる。\n②については，これが「海（oceans）」を話題にしていること，そしてこの中の「以前は（before）」が，全訳の第3段落中の下線部内の「10年前（ten years ago）」を言い換えたものであることに気づけば，②は第3段落の「ダイビング」について述べたものであるとわかる。\n③については，「体育館にキャンプ場を設置する（Setting up a camping site in the gymnasium）」とあり，これが全訳の第4段落の最初の下線部内の「体育館にテントを張って（put up tents in the gymnasium）」の言い換えと考えられるので，③はバーチャルな天体観測の準備としての「臨時のプラネタリウム（a temporary planetarium）」について述べているものだとわかる。\n④については，前半の「宇宙ショーの間，私たちは言葉を失い」の部分が，全訳の第4段落の2つ目の下線部とほぼ同内容と考えられる。また後半の「そこに存在しにしばしば気づかないものがあることを知りました」という意見も，同段落最終文（He nodded and explained ...）にあるリーチ先生の説明と合う内容である。したがって④は，最後のイベントであるバーチャルな「完璧な星空」の観測についてのコメントだとわかる。なおこのイベントは，「臨時のプラネタリウム」の設置後でないと行えないので，③の後に来る必要がある。以上により，正しい順序は①→②→③→④に決まる。",
+                "evidence_sentences": [
+                  "3b_s4",
+                  "3b_s9",
+                  "3b_s10",
+                  "3b_s11",
+                  "3b_s14",
+                  "3b_s15",
+                  "3b_s17"
+                ]
+              },
+              "figure_image": {
+                "src": "images/s3b_q1_choices.png",
+                "alt": "Comments Choices"
+              }
+            },
+            {
+              "question_id": "問4",
+              "answer_number": 22,
+              "stem": {
+                "en": "From the tour, Yuzu did not learn about [22] on the South Sea Island.",
+                "ja": "「このツアーから，ユズはサウスシーアイランドの[22]については学ばなかった」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "marine ecology",
+                  "ja": "海洋生態系"
+                },
+                {
+                  "label": "②",
+                  "en": "the night sky",
+                  "ja": "夜間の空"
+                },
+                {
+                  "label": "③",
+                  "en": "seasonal weather",
+                  "ja": "季節特有の天候"
+                },
+                {
+                  "label": "④",
+                  "en": "trees and plants",
+                  "ja": "木や植物"
+                }
+              ],
+              "answer": 3,
+              "explanation": {
+                "ja": "正解は③。このツアーでは，「季節特有の天候」に関するイベントは特に行われなかったので，③が正解となる。なお，第1段落第2文（The winter weather ...）に「冬の天気がひどかったので，私たちはスクリーンに投影される火山島の熱帯の景色を見てワクワクしました」とあり，最終段落第1文（On my way home ...）に「学校が終わり家路に着いた頃には，天気は回復していて空にはもう雲はありませんでした」とあるが，これらにおいて筆者はツアー前後の天気を話題にして，ツアー自体から学んだことを述べているのではないことに注意。\n①の「海洋生態系」については，第3段落第1文（Later, we \"dived into the ocean\" ...）に「その後，私たちは『海に飛び込んで』，海洋生物の多様性について学びました」とあることなどから考えて，ユズは海洋生態系についてある程度学んだと考えることができるので，①は正解にはなれない。②の「夜間の空」については，第4段落第1文（In the evening, ...）に「夜になると，私たちは『完璧な星空』の下で天文学を勉強しました」とあることと合っているので，やはり正解にはなれない。\n④の「木や植物」については，第2段落第2文（We \"got into the car,\" ...）に「私たちは『車に乗り込み』ましたが，窓の外を見て熱帯雨林の様子がより良くわかるようにと，担任のリーチ先生は時々車を止めてくれました」とあり，ユズは（主に木や植物からなる）熱帯雨林の観察をしたことがわかるので，④もユズが学んだことに含まれると考えられる。",
+                "evidence_sentences": [
+                  "3b_s2",
+                  "3b_s18",
+                  "3b_s6",
+                  "3b_s13",
+                  "3b_s4"
+                ]
+              }
+            },
+            {
+              "question_id": "問5",
+              "answer_number": 23,
+              "stem": {
+                "en": "On the way home, Yuzu looked up at the sky and most likely saw [23].",
+                "ja": "「帰宅途中で，ユズは上空を見ておそらく夜空の中に[23]を見たであろう」"
+              },
+              "choices": [
+                {
+                  "label": "①",
+                  "en": "a shooting star",
+                  "ja": "流れ星"
+                },
+                {
+                  "label": "②",
+                  "en": "very few stars",
+                  "ja": "ごく少数の星"
+                },
+                {
+                  "label": "③",
+                  "en": "a full moon",
+                  "ja": "満月"
+                },
+                {
+                  "label": "④",
+                  "en": "the Milky Way",
+                  "ja": "天の川"
+                }
+              ],
+              "answer": 2,
+              "explanation": {
+                "ja": "正解は②。最終段落最終文（I looked up ...）に「私は月の無い空を見上げて，リーチ先生が私たちにおっしゃったことは本当であることに気づきました」とあることから，下線部の「リーチ先生が私たちにおっしゃったこと（what Mr Leach had told us）」と合うものが正解となる。第4段落最終文（He nodded and explained ...）に，「（リーチ）先生はうなずいて，人間は人工的な光をたくさん作り出してしまったために，私たちの市の夜空にはほとんど何も見えないと説明されました」とあることから，下線部の内容に最も近い②が正解となる。他の選択肢は，いずれもリーチ先生の言葉とは無関係なので，正解にはなれない。",
+                "evidence_sentences": [
+                  "3b_s19",
+                  "3b_s17"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

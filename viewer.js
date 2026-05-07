@@ -23,7 +23,7 @@ const EXAM_PATHS = {
   sundai_2025_03: 'data/sundai/2025/round03/data.json',
   sundai_2025_04: 'data/sundai/2025/round04/data.json',
   kakomon_2025: 'data/kakomon/2025/data.json',
-  kakomon_2024: 'data/kakomon/2024/data.json',
+  kyotsu_2024_honshiken: 'data/kyotsu/2024/honshiken/data.json',
   kakomon_2023: 'data/kakomon/2023/data.json',
   kakomon_2022: 'data/kakomon/2022/data.json',
   kakomon_2021_1: 'data/kakomon/2021_1/data.json'
@@ -411,6 +411,22 @@ function renderPassage() {
         html += '</div>';
       }
       html += '</div>';
+    }
+
+    if (passage.floating_aside) {
+      const aside = passage.floating_aside;
+      html += `<div class="passage-floating-aside" style="float:right; width:45%; border:1px solid #333; margin:0 0 15px 15px; padding:15px; border-radius:2px; background:#fff; clear:right;">`;
+      if (aside.title) {
+        html += `<div style="font-weight:bold; text-align:center; margin-bottom:10px;">${aside.title.en}</div>`;
+      }
+      if (aside.sentences) {
+        html += `<ul style="list-style-type:disc; padding-left:20px; margin:0;">`;
+        for (const s of aside.sentences) {
+          html += `<li style="margin-bottom:6px;"><span class="sentence" data-sid="${s.id}">${s.en}</span><div class="passage-ja-block"><span class="sentence-ja" data-sid-ja="${s.id}">${s.ja}</span></div></li>`;
+        }
+        html += `</ul>`;
+      }
+      html += `</div>`;
     }
 
     // Sentences rendering — skip when a custom layout (e.g. is_flyer) already
@@ -2485,8 +2501,11 @@ function renderQuestions() {
       if (qFig.caption_ja && String(qFig.caption_ja).trim()) {
         cap += `<div class="question-figure-caption choice-text-ja">${qFig.caption_ja}</div>`;
       }
+      const qFigBase = currentDataPath.replace(/data\.json$/, '');
+      const rawFigSrc = qFig.src || '';
+      const finalFigSrc = /^https?:\/\//.test(rawFigSrc) ? rawFigSrc : (rawFigSrc.startsWith('data/') ? rawFigSrc : qFigBase + rawFigSrc);
       html += `<figure class="question-figure">
-        <img src="${qFig.src}" alt="${qFig.alt || ''}" />
+        <img src="${finalFigSrc}" alt="${qFig.alt || ''}" />
         ${cap}
       </figure>`;
     }
@@ -2540,9 +2559,18 @@ function renderQuestions() {
       }
       html += '</div>';
       html += '<div class="choice-pairs-body">';
-      for (const choice of q.choices) {
+      for (let i = 0; i < q.choices.length; i++) {
+        const choice = q.choices[i];
         if (!choice.pair_left || !choice.pair_right) continue;
-        const dc = choice.is_correct === true ? 'true' : 'false';
+        let isCorrect = choice.is_correct;
+        if (isCorrect === undefined && q.answer !== undefined) {
+          if (Array.isArray(q.answer)) {
+            isCorrect = q.answer.includes(i + 1);
+          } else {
+            isCorrect = (q.answer === (i + 1));
+          }
+        }
+        const dc = isCorrect === true ? 'true' : 'false';
         html += `<div class="choice-item choice-pair-row" data-qid="${q.question_id}" data-label="${choice.label}" data-correct="${dc}">`;
         html += `<div class="choice-pair-label-wrap"><span class="choice-pair-label-badge">${choice.label}</span></div>`;
         html += '<div class="choice-pair-cell-box">';
@@ -2619,7 +2647,16 @@ function renderQuestions() {
       // Normal choices
       const ulCls = pictureTierChoices ? 'choices choices-picture-tier' : 'choices';
       html += `<ul class="${ulCls}">`;
-      for (const choice of q.choices) {
+      for (let i = 0; i < q.choices.length; i++) {
+        const choice = q.choices[i];
+        let isCorrect = choice.is_correct;
+        if (isCorrect === undefined && q.answer !== undefined) {
+          if (Array.isArray(q.answer)) {
+            isCorrect = q.answer.includes(i + 1);
+          } else {
+            isCorrect = (q.answer === (i + 1));
+          }
+        }
         const cEn = choice.en || '';
         const cJa = choice.ja || '';
         const cImg = choice.image
@@ -2633,7 +2670,7 @@ function renderQuestions() {
               ${cImg}${cEn}
               <div class="choice-text-ja">${cJa}</div>
             </span>`;
-        html += `<li class="choice-item${liExtra}" data-qid="${q.question_id}" data-label="${choice.label}" data-correct="${choice.is_correct}">
+        html += `<li class="choice-item${liExtra}" data-qid="${q.question_id}" data-label="${choice.label}" data-correct="${isCorrect}">
           <span class="choice-label">${choice.label}</span>${textBlock}
         </li>`;
       }
