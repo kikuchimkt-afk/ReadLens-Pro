@@ -4,8 +4,9 @@ import asyncio
 import sys
 import re
 import tempfile
+import argparse
 
-async def generate_audio_for_file(data_file):
+async def generate_audio_for_file(data_file, target_section=None):
     audio_dir = os.path.join(os.path.dirname(data_file), "audio")
     os.makedirs(audio_dir, exist_ok=True)
     
@@ -19,16 +20,31 @@ async def generate_audio_for_file(data_file):
     def extract_text(sentences_or_para):
         if not sentences_or_para:
             return ""
+            
+        ignore_roles = {"pamphlet_heading", "title", "heading", "outline_title", "outline_subheader"}
+        
         if isinstance(sentences_or_para, dict):
             # object paragraph {id, en, ja}
+            if sentences_or_para.get("role") in ignore_roles:
+                return ""
             return sentences_or_para.get("en", "")
         else:
             # list of sentences
-            return " ".join([s.get("en", "") for s in sentences_or_para if isinstance(s, dict) and "en" in s])
+            parts = []
+            for s in sentences_or_para:
+                if isinstance(s, dict) and "en" in s:
+                    if s.get("role") in ignore_roles:
+                        continue
+                    parts.append(s.get("en", ""))
+            return " ".join(parts)
 
     # handle flattened subsections if any
     for section in data.get('sections', []):
         sec_num = section.get('section_number')
+        
+        if target_section is not None and sec_num != target_section:
+            continue
+            
         subsections = section.get('subsections', [])
         
         passages = section.get('passages', [])
@@ -107,8 +123,11 @@ async def generate_audio_for_file(data_file):
     # Generate MP3s
     for filename, text in tasks:
         # cleanup text for tts
-        clean_text = re.sub(r'\[\s*\d+\s*\]', '', text).strip()
+        clean_text = text.replace('\\n', ' ').replace('\n', ' ').replace('\r', '').replace('\t', ' ')
+        clean_text = re.sub(r'<[^>]+>', '', clean_text)
+        clean_text = re.sub(r'\[\s*\d+\s*\]', '', clean_text).strip()
         clean_text = re.sub(r'\(\s*\d+\s*\)', '', clean_text).strip()
+        clean_text = re.sub(r'\s+', ' ', clean_text).strip()
         
         if not clean_text:
             continue
@@ -125,7 +144,7 @@ async def generate_audio_for_file(data_file):
             temp_path = tf.name
             
         proc = await asyncio.create_subprocess_shell(
-            f'edge-tts --voice "{voice}" --f "{temp_path}" --write-media "{out}"',
+            f'"{sys.executable}" -m edge_tts --voice "{voice}" --f "{temp_path}" --write-media "{out}"',
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE
         )
@@ -139,11 +158,13 @@ async def generate_audio_for_file(data_file):
             print(f"  OK: {size} bytes")
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python generate_audio_all.py <path_to_data_json> ...")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Generate audio files using edge-tts.")
+    parser.add_argument("files", nargs="+", help="Path to data.json file(s)")
+    parser.add_argument("--section", type=int, default=None, help="Specific section number to generate audio for")
+    args = parser.parse_args()
     
-    for arg in sys.argv[1:]:
-        print(f"Processing {arg}...")
-        asyncio.run(generate_audio_for_file(arg))
-        print(f"Finished {arg}")
+    for data_file in args.files:
+        print(f"Processing {data_file}...")
+        asyncio.run(generate_audio_for_file(data_file, target_section=args.section))
+        print(f"Finished {data_file}")
+

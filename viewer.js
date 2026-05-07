@@ -2261,7 +2261,24 @@ const audioBarCurrent = document.getElementById('audio-bar-current');
 const audioBarTotal = document.getElementById('audio-bar-total');
 const audioBarPlayPause = document.getElementById('audio-bar-playpause');
 const audioBarClose = document.getElementById('audio-bar-close');
+const audioBarSpeed = document.getElementById('audio-bar-speed');
 let seekAnimFrame = null;
+
+let currentPlaybackRate = parseFloat(localStorage.getItem('readlensPlaybackRate')) || 1.0;
+if (audioBarSpeed) {
+  audioBarSpeed.textContent = currentPlaybackRate.toFixed(1) + 'x';
+  audioBarSpeed.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    currentPlaybackRate = Math.abs(currentPlaybackRate - 1.0) < 0.01 ? 0.9 : 1.0;
+    audioBarSpeed.textContent = currentPlaybackRate.toFixed(1) + 'x';
+    localStorage.setItem('readlensPlaybackRate', currentPlaybackRate.toString());
+    if (currentAudio) {
+      currentAudio.defaultPlaybackRate = currentPlaybackRate;
+      currentAudio.playbackRate = currentPlaybackRate;
+    }
+  });
+}
 
 function fmtTime(s) {
   if (!isFinite(s)) return '0:00';
@@ -2328,6 +2345,8 @@ function startAudio(src, btn) {
   }
 
   currentAudio = new Audio(src);
+  currentAudio.defaultPlaybackRate = currentPlaybackRate;
+  currentAudio.playbackRate = currentPlaybackRate;
   currentAudioBtn = btn;
   btn.textContent = '⏸';
   btn.classList.add('playing');
@@ -2338,6 +2357,10 @@ function startAudio(src, btn) {
 
   currentAudio.addEventListener('loadedmetadata', () => {
     audioBarTotal.textContent = fmtTime(currentAudio.duration);
+  });
+
+  currentAudio.addEventListener('play', () => {
+    currentAudio.playbackRate = currentPlaybackRate;
   });
 
   currentAudio.play().catch(() => {
