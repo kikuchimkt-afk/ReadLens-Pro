@@ -11,7 +11,7 @@ const EXAM_REGISTRY = [
     series: "本試験",
     year: 2025,
     round: "本試験",
-    label: "★ 共通テスト 2025年度 本試験（解説付き）",
+    label: "★ 共通テスト 2025年度 本試験",
     dataPath: "data/kyotsu/2025/honshiken/data.json",
     pdfPaths: {
       mondai: "original_PDFs/Kyotuu-Test-2026/_2025年度本試験_問題.pdf",
@@ -25,7 +25,7 @@ const EXAM_REGISTRY = [
     series: "追試験",
     year: 2025,
     round: "追試験",
-    label: "★ 共通テスト 2025年度 追試験（解説付き）",
+    label: "★ 共通テスト 2025年度 追試験",
     dataPath: "data/kyotsu/2025/tsuishiken/data.json",
     pdfPaths: {
       mondai: "original_PDFs/Kyotuu-Test-2026/_2025年度追試験_問題.pdf",
@@ -183,16 +183,7 @@ const EXAM_REGISTRY = [
     dataPath: "data/sundai/2025/round04/data.json",
     icon: "📕"
   },
-  {
-    id: "kakomon_2025",
-    publisher: "共通テスト",
-    series: "過去問",
-    year: 2025,
-    round: "本試験",
-    label: "共通テスト 2025年度 本試験",
-    dataPath: "data/kakomon/2025/data.json",
-    icon: "🏛"
-  },
+
   {
     id: "kakomon_2024",
     publisher: "共通テスト",
@@ -308,7 +299,10 @@ function groupExams(list) {
   const map = new Map();
   const groups = [];
   for (const ex of list) {
-    const key = `${ex.publisher}__${ex.series}__${ex.year}`;
+    let key = `${ex.publisher}__${ex.series}__${ex.year}`;
+    if (ex.publisher === '共通テスト') {
+      key = `${ex.publisher}__${ex.year}`;
+    }
     if (!map.has(key)) {
       const g = { key, publisher: ex.publisher, series: ex.series, year: ex.year, exams: [] };
       map.set(key, g);
@@ -321,7 +315,7 @@ function groupExams(list) {
 
 function groupLabel(g) {
   if (g.publisher === '駿台') return `駿台 ${g.series} ${g.year}`;
-  if (g.series === '本試験') return `🎯 共通テスト ${g.year}年度 本試験`;
+  if (g.publisher === '共通テスト') return `🎯 共通テスト ${g.year}年度`;
   return `${g.publisher} ${g.year}年度`;
 }
 
@@ -407,15 +401,22 @@ async function renderExamBlock(exam, indexInGroup, lastExamId, isFirstGroup) {
   // 最後に見ていた exam ID と一致したときだけ open。
   // 初回訪問（履歴なし）はすべて閉じた状態をデフォルトにする。
   // Build PDF links from exam_info
-  const pdfBase = `original_PDFs/${exam.publisher === '駿台' ? 'sundai' : exam.publisher}${exam.year}/`;
-  const pdfMondai = data?.exam_info?.source_pdf_mondai;
-  const pdfKaitou = data?.exam_info?.source_pdf_kaitou;
+  let pdfDir = "";
+  if (exam.publisher === '駿台') pdfDir = `sundai${exam.year}`;
+  else if (exam.publisher === 'Z会') pdfDir = `Z-kai${exam.year}`;
+  else pdfDir = `${exam.publisher}${exam.year}`;
+  
+  const pdfBase = `original_PDFs/${pdfDir}/`;
+  
+  const pdfMondai = exam.pdfPaths?.mondai || (data?.exam_info?.source_pdf_mondai ? `${pdfBase}${data.exam_info.source_pdf_mondai}` : null);
+  const pdfKaitou = exam.pdfPaths?.kaitou || (data?.exam_info?.source_pdf_kaitou ? `${pdfBase}${data.exam_info.source_pdf_kaitou}` : null);
+  
   let pdfLinksHtml = '';
   if (pdfMondai) {
-    pdfLinksHtml += `<a href="${pdfBase}${pdfMondai}" target="_blank" class="btn-pdf-link" onclick="event.stopPropagation()" title="原本PDF（問題）">📄 問題PDF</a>`;
+    pdfLinksHtml += `<a href="${pdfMondai}" target="_blank" class="btn-pdf-link" onclick="event.stopPropagation()" title="原本PDF（問題）">📄 問題PDF</a>`;
   }
   if (pdfKaitou) {
-    pdfLinksHtml += `<a href="${pdfBase}${pdfKaitou}" target="_blank" class="btn-pdf-link" onclick="event.stopPropagation()" title="原本PDF（解説）">📖 解説PDF</a>`;
+    pdfLinksHtml += `<a href="${pdfKaitou}" target="_blank" class="btn-pdf-link" onclick="event.stopPropagation()" title="原本PDF（解説）">📖 解説PDF</a>`;
   }
 
   const isOpen = (lastExamId && exam.id === lastExamId) ? 'open' : '';
