@@ -1176,10 +1176,12 @@ function renderPassage() {
             html += '</div>';
             outlineBoxOpen = false;
           }
-        } else if (passage.block_separators && passage.block_separators.length > 0) {
-          // Block-based rendering: group paragraphs into blocks separated by ◆◆◆◆◆
-          // Handled below after the loop
         } else {
+          // Block separator before this paragraph if it's the start of a new block
+          if (passage.block_separators && passage.block_separators.includes(i) && i > 0) {
+            html += '<div class="block-separator">◆◆◆◆◆</div>';
+          }
+
           // Normal paragraph rendering (no blocks)
           if (passage.pamphlet_layout && pi >= 1) {
             html += '<hr class="pamphlet-step-rule" />';
@@ -1396,55 +1398,7 @@ function renderPassage() {
         html += '</div>';
       }
 
-      // Block-based rendering: paragraphs grouped by ◆◆◆◆◆ separators
-      if (passage.block_separators && passage.block_separators.length > 0 && !hasComments) {
-        // Clear the html we just added for paragraphs (we need to re-render in blocks)
-        // Actually, since we skipped rendering in the else-if branch, we just add block html now
-        const separators = passage.block_separators;
-        const paragraphs = passage.paragraphs;
-        let blockStart = 0;
-        let blockNum = 1;
 
-        for (let bi = 0; bi <= separators.length; bi++) {
-          const blockEnd = bi < separators.length ? separators[bi] : paragraphs.length - 1;
-          const blockAudioFile = `${audioBase}s${secNum}_${passage.id}_p${blockNum}.mp3`;
-
-          html += '<div class="para-audio-row">';
-          html += '<div class="para-content">';
-
-          for (let pi = blockStart; pi <= blockEnd; pi++) {
-            const para = paragraphs[pi];
-            const paraExtraClass =
-              passage.paragraph_classes && passage.paragraph_classes[pi]
-                ? ' ' + passage.paragraph_classes[pi]
-                : '';
-            html += `<p class="passage-paragraph para-indent${paraExtraClass}">`;
-            for (const sent of para) {
-              const enText = String(sent.en || '').replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
-              html += `<span class="sentence" data-sid="${sent.id}">${enText}</span> `;
-            }
-            html += '</p>';
-            html += '<div class="passage-ja-block">';
-            for (const sent of para) {
-              const jaText = String(sent.ja || '').replace(/\[\s*(\d+)\s*\]/g, '<span class="answer-slot">$1</span>');
-              html += `<div class="sentence-ja" data-sid-ja="${sent.id}">${jaText}</div>`;
-            }
-            html += '</div>';
-          }
-
-          html += '</div>';
-          html += `<button class="btn-audio" data-audio="${blockAudioFile}" title="読み上げ">🔊</button>`;
-          html += '</div>';
-
-          // ◆◆◆◆◆ separator (not after the last block)
-          if (bi < separators.length) {
-            html += '<div class="block-separator">◆◆◆◆◆</div>';
-          }
-
-          blockStart = blockEnd + 1;
-          blockNum++;
-        }
-      }
 
       // Teacher's comment (optional title: title_en / title_ja — 第4問「Overall Comments」など)
       if (passage.teacher_comment) {

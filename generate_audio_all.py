@@ -81,35 +81,12 @@ async def generate_audio_for_file(data_file, target_section=None):
 
             # 3. paragraphs
             if 'paragraphs' in passage:
-                has_comments = bool(passage.get('margin_comments'))
-                blocks = passage.get('block_separators', [])
-                
-                if blocks and not has_comments:
-                    # grouped by block
-                    block_start = 0
-                    block_num = 1
-                    for bi in range(len(blocks) + 1):
-                        block_end = blocks[bi] if bi < len(blocks) else len(passage['paragraphs']) - 1
-                        
-                        text_parts = []
-                        for pi in range(block_start, block_end + 1):
-                            if pi < len(passage['paragraphs']):
-                                text_parts.append(extract_text(passage['paragraphs'][pi]))
-                        
-                        text = " ".join(text_parts).strip()
-                        if text:
-                            filename = f"s{sec_num}_{passage_id}_p{block_num}.mp3"
-                            tasks.append((filename, text))
-                        
-                        block_start = block_end + 1
-                        block_num += 1
-                else:
-                    # normal paragraphs
-                    for pi, para in enumerate(passage['paragraphs']):
-                        text = extract_text(para)
-                        if text.strip():
-                            filename = f"s{sec_num}_{passage_id}_p{pi+1}.mp3"
-                            tasks.append((filename, text))
+                # normal paragraphs
+                for pi, para in enumerate(passage['paragraphs']):
+                    text = extract_text(para)
+                    if text.strip():
+                        filename = f"s{sec_num}_{passage_id}_p{pi+1}.mp3"
+                        tasks.append((filename, text))
 
             # 4. sentences and advertisement_sections
             if 'sentences' in passage and 'authors' not in passage and 'sources' not in passage and 'paragraphs' not in passage:
