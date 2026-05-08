@@ -23,7 +23,8 @@ const EXAM_PATHS = {
   sundai_2025_03: 'data/sundai/2025/round03/data.json',
   sundai_2025_04: 'data/sundai/2025/round04/data.json',
   kakomon_2025: 'data/kakomon/2025/data.json',
-  kyotsu_2024_honshiken: 'data/kyotsu/2024/honshiken/data.json'
+  kyotsu_2024_honshiken: 'data/kyotsu/2024/honshiken/data.json',
+  kyotsu_2023_honshiken: 'data/kyotsu/2023/honshiken/data.json'
 };
 
 /**
@@ -146,7 +147,11 @@ function renderPassage() {
       }
       if (sub.passages) sec.passages.push(...sub.passages);
       if (sub.questions) {
-        for (const q of sub.questions) q._subsectionLabel = sub.label;
+        for (const q of sub.questions) {
+          q._subsectionLabel = sub.label;
+          q._displayLabel = q.question_id;
+          q.question_id = sub.label + '_' + q.question_id;
+        }
         sec.questions.push(...sub.questions);
       }
     }
@@ -518,16 +523,40 @@ function renderPassage() {
         // ===== Flat sentences rendering (fallback) =====
         html += '<div class="para-audio-row">';
         html += '<div class="para-content">';
-        html += '<p class="passage-paragraph">';
-        for (const sent of passage.sentences) {
-          html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+        const flatSents = passage.sentences;
+        const stripLeadBullet = t =>
+          String(t || '')
+            .replace(/^●\s*/, '')
+            .replace(/^・\s*/, '');
+        const useBulletList =
+          Array.isArray(flatSents) &&
+          flatSents.length > 0 &&
+          (passage.list_style === 'bullet' || flatSents.every(s => s.role === 'bullet'));
+        if (useBulletList) {
+          html += '<ul class="passage-bullet-list">';
+          for (const sent of flatSents) {
+            const enLine = stripLeadBullet(sent.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<li class="sentence passage-bullet-item" data-sid="${sent.id}">${enLine}</li>`;
+          }
+          html += '</ul>';
+          html += '<div class="passage-ja-block">';
+          for (const sent of flatSents) {
+            const jaLine = stripLeadBullet(sent.ja || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="sentence-ja sentence-ja-bullet" data-sid-ja="${sent.id}">${jaLine}</div>`;
+          }
+          html += '</div>';
+        } else {
+          html += '<p class="passage-paragraph">';
+          for (const sent of flatSents) {
+            html += `<span class="sentence" data-sid="${sent.id}">${sent.en}</span> `;
+          }
+          html += '</p>';
+          html += '<div class="passage-ja-block">';
+          for (const sent of flatSents) {
+            html += `<span class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</span>`;
+          }
+          html += '</div>';
         }
-        html += '</p>';
-        html += '<div class="passage-ja-block">';
-        for (const sent of passage.sentences) {
-          html += `<span class="sentence-ja" data-sid-ja="${sent.id}">${sent.ja}</span>`;
-        }
-        html += '</div>';
         html += '</div>';
         html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
         html += '</div>';
@@ -1224,6 +1253,7 @@ function renderPassage() {
             outlineBoxOpen = false;
           }
         } else {
+          const bulletParaList = passage.list_style === 'bullet';
           // Block separator before this paragraph if it's the start of a new block
           if (passage.block_separators && passage.block_separators.includes(i) && i > 0) {
             html += '<div class="block-separator">◆◆◆◆◆</div>';
@@ -1233,6 +1263,12 @@ function renderPassage() {
           if (passage.pamphlet_layout && pi >= 1) {
             html += '<hr class="pamphlet-step-rule" />';
             html += '<div class="pamphlet-step-wrap">';
+          }
+          if (bulletParaList && pi === 0) {
+            html += '<ul class="passage-bullet-list passage-bullet-para-list">';
+          }
+          if (bulletParaList) {
+            html += '<li class="passage-bullet-audio-item">';
           }
           html += '<div class="para-audio-row">';
           html += '<div class="para-content">';
@@ -1338,6 +1374,12 @@ function renderPassage() {
           html += '</div>';
           html += `<button class="btn-audio" data-audio="${audioFile}" title="読み上げ">🔊</button>`;
           html += '</div>';
+          if (bulletParaList) {
+            html += '</li>';
+          }
+          if (bulletParaList && pi === passage.paragraphs.length - 1) {
+            html += '</ul>';
+          }
           if (passage.pamphlet_layout && pi >= 1) {
             html += '</div>'; // .pamphlet-step-wrap
           }
@@ -2563,7 +2605,7 @@ function renderQuestions() {
 
     // Question label + per-question evidence button
     html += `<div class="question-label-row">
-      <span class="question-label">${q.question_id}</span>
+      <span class="question-label">${q._displayLabel || q.question_id}</span>
       <button class="btn-evidence-q" data-qid="${q.question_id}" data-qidx="${qIdx}" title="根拠箇所をヒント表示">ヒント</button>
     </div>`;
 
@@ -2871,7 +2913,7 @@ function renderExplanation(q) {
   }
 
   let html = `<div class="explanation-box" data-qid="${q.question_id}">`;
-  html += `<div class="explanation-header">📖 解説（${q.question_id}）</div>`;
+  html += `<div class="explanation-header">📖 解説（${q._displayLabel || q.question_id}）</div>`;
 
   // 解説PDF原文（逐語転載）優先。なければ legacy の ja を使う。
   const quotedBody = q.explanation.quoted_ja || q.explanation.ja || '';
@@ -3213,7 +3255,15 @@ function handleChoiceClick(e) {
 // ===== Question index (for color mapping) =====
 function getQuestionIndex(qid) {
   if (!currentSection) return 0;
-  const idx = currentSection.questions.findIndex(q => q.question_id === qid);
+  const q = currentSection.questions.find(q => q.question_id === qid);
+  if (!q) return 1;
+  const subLabel = q._subsectionLabel;
+  if (subLabel) {
+    const subQuestions = currentSection.questions.filter(q2 => q2._subsectionLabel === subLabel);
+    const idx = subQuestions.findIndex(q2 => q2.question_id === qid);
+    return idx >= 0 ? idx + 1 : 1;
+  }
+  const idx = currentSection.questions.findIndex(q2 => q2.question_id === qid);
   return idx >= 0 ? idx + 1 : 1;
 }
 
@@ -3254,7 +3304,8 @@ function highlightEvidence(qid) {
     const el = document.querySelector(`.sentence[data-sid="${sid}"]`);
     if (el) {
       el.classList.add('highlighted', `evidence-q${qIdx}`);
-      addEvidenceTag(el, qid, qIdx);
+      const displayLabel = q._displayLabel || qid;
+      addEvidenceTag(el, displayLabel, qIdx);
       el.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
@@ -3272,7 +3323,7 @@ function showAllEvidence() {
       const el = document.querySelector(`.sentence[data-sid="${sid}"]`);
       if (el) {
         el.classList.add('highlighted', `evidence-q${qIdx}`);
-        addEvidenceTag(el, q.question_id, qIdx);
+        addEvidenceTag(el, q._displayLabel || q.question_id, qIdx);
       }
     }
   }

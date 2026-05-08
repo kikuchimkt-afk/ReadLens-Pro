@@ -1,0 +1,7330 @@
+{
+  "meta": {
+    "exam": "共通テスト 2023年度 本試験",
+    "source": "data/kyotsu/2023/honshiken/data.json",
+    "sections_in_data": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "data.json内の全大問（現在実装済み）から語彙・表現を抽出。"
+  },
+  "entries": [
+    {
+      "term_en": "A and B",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "A and C",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "A and D",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "about",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        },
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "stem"
+        },
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "according",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "stem"
+        },
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "accustomed",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "acting",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "activities",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "Actors available to talk in the lobby after the performance",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "1a_s3",
+            "1a_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "additional",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "advanced",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "adventure",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "stem"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "advice",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問1",
+          "answer_number": 16,
+          "source": "stem"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "Advice from people around us can help us change.",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "after",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "stem"
+        },
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "agree",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "allowing",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "allowing time to get accustomed to wearing the shoes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "and your clothes at the top",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問1",
+          "answer_number": 16,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "3a_s2",
+            "3a_s3",
+            "3a_s4",
+            "3a_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "another",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "answered",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "app's",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "appeal",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "application",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "apply",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "appreciation",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "appropriately",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "argument",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "around",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "asked",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "asked him what he enjoyed about communication",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "asked his friend questions to find out more about his motivation",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "attention",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "attractive",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "audio",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "author's",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "avoid",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "avoiding",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "avoiding going out of your tent",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "B and C",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "B and D",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "backpack",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問1",
+          "answer_number": 16,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "balance",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "based",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "became",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Became a table tennis champion",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "became focused on searching for the sweets",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "become",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "before",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "believed",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "believed it would help him communicate",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "believes",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "benefit",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "beside",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "best",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "stem"
+        },
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "better",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Better Balance",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2a_s8"
+          ]
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "books",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "boring",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "both",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "bottom",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "brother",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "buses",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "but it took me several days to get used to them",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2a_s14"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "buying",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "buying a watch to help you lose weight",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "C and D",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "call",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "camp",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        },
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "stem"
+        },
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "campers",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "campfire",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "challenge",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "challenges",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "champion",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "change",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "cheap",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Cheap summer shoes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "checked",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "children",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "choice",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "choose",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "class",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "classes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "classmates",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "clear",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "clothes",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "colourful",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "comfortable",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "comment",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "communicate",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "communication",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "communicator",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "commute",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "commute more quickly",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "commuting",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "Commuting Challenge",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "compete",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "compete to win the top prize",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "complete",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Complete and hand in the bottom part.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "concentrate",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "concentrate on three-letter words",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "confidence",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "Confidence is important for being a good communicator.",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "confident",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "connecting",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "connecting to the app before putting the shoes on",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "contest",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "contextual",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_26"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_27"
+        }
+      ]
+    },
+    {
+      "term_en": "continuous",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "continuous drilling is boring",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "4a_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "cookware and tent in the middle",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問1",
+          "answer_number": 16,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "3a_s2",
+            "3a_s3",
+            "3a_s4",
+            "3a_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "cool",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "could have",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s10"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "create",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "created",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "created an experience especially for his children",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "customer",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "customer's",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "cycling",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "days after the last learning session",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "4b_s16"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "decision",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "decorated",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "decorating",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "describes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "devices",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "disadvantages",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "discussed",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Discussed with his teacher how to play well",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "drilling",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "drinks",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "during",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "each",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "easily",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "eating",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "eating hot meals beside your campfire",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "effective",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "encouraged",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "encouraged him to be more confident",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "encourages",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "english",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "enjoyed",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "especially",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "evaluate",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "evaluate each other's performances",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "events",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "everyday",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "exercise",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "experience",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "experiential",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "experiential learning",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "explain",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "explanation",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "extended",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_26"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_27"
+        }
+      ]
+    },
+    {
+      "term_en": "extra",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "fact",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "factor",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "fast",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "father",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "father's",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "features",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "feedback",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "fewer",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "fewer than 10% of the participants were first-years",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "fill",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問1",
+          "answer_number": 16,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "Fill in the form below and hand it in to your teacher today",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "1a_s10"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "filling",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "filling the gaps in your sleeping bag",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "final",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "find",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Find out more about the performances.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "finish",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "first-years",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "five",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "fixed",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_26"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_27"
+        }
+      ]
+    },
+    {
+      "term_en": "focused",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "follow",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "following",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "fond",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "food",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "foot",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "For some reason most of my first-year classmates didn't seem to know about this challenge",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s12",
+            "2b_s7"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "four",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "four weeks",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "free",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "friend",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "friend's",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "friends",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "functions",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "further",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "future",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "game",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "games",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "gaps",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "gave",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "get accustomed to",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2a_s14"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "get used to",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2a_s14"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "getting",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Getting more regular exercise",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "gifts",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "give",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "give a presentation about the future",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "given",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "going",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "good",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "got the highest score ever in an English vocabulary test",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s12",
+            "2b_s9"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "gradually",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Grand Theater",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "1a_s3",
+            "1a_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "had some trouble preparing the adventure game",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "hand",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "handout",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "happen",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "happened",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "hard",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "harder",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "have",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "having",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Having personalised foot support",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "having proper rest",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "held",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "help",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "helped",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "helped him learn the social skills he needed",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "helpful",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "high-tech",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "High-tech everyday shoes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "holmes",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "honour",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "hoped",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "hoped to become popular at school",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "house",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "How come so few first-years participated",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s12",
+            "2b_s7"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "HS",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "immediately",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "important",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "improve",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "improve their test scores",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "in Japan since 1989",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "include",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "included",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "increase",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "information",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "instructors",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "stem"
+        },
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "intentions",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "interested",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "international",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "intervals",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "into",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "introduces",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "invited",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "invited Mr Trent and other classmates to the party to show appreciation",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "involves",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "irregular",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_26"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_27"
+        }
+      ]
+    },
+    {
+      "term_en": "isupport",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "it could have included students who walk to school",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "It is important to make our intentions clear to our friends.",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "it was held for two months during the winter",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "it would be easier for me to play individually",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "5_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "japan",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "JH",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "kaitlyn",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "kaitlyn's",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問1",
+          "answer_number": 16,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "kept me warm all night",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "3a_s10",
+            "3a_s8",
+            "3a_s9"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "KF",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "knowing",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Knowing how fast you walk",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "lamps",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "leads",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "learn",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "learned",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "learning",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "leave",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "leave secret messages under the lamps",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "lee's",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "length",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "level",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "light",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Light comfortable sports shoes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "like",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "likely",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "living",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "long-term",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "long-term attention",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "longer intervals",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "4b_s10",
+            "4b_s4",
+            "4b_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "looking",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Looking cool wearing them",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "lose",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "love my pair now",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2a_s14"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "main",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "majority",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "make",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "make the challenges gradually harder",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "maker's",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "makes",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "manage",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "manage English classes better",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "massed",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_26"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_27"
+        }
+      ]
+    },
+    {
+      "term_en": "massed learning",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "4b_s10",
+            "4b_s4",
+            "4b_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "materials",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "matter",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "meals",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "meet",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "memorize",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "memory",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "mentions",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "messages",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "method",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "MN",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "money",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "months",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "more",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "most",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "motivation",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "name",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "needed",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "night",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "No drinks can be purchased before the show.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "offered",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "one day",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "one week",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "opinion",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "opinions",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "opponents",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Opportunity to greet the cast in their costumes before the show starts",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "1a_s3",
+            "1a_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "option",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "options",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "order",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "other",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "other's",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "over",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "overcome",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "overseas",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "oxford",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "oxford's",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Palace Theater",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "1a_s3",
+            "1a_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "part",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "participants",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "participants'",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "party",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "pass",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "paying",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "paying for the <i>iSupport</i> advanced features",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "people",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "performances",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        },
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "stem"
+        },
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "performers",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "personalised",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "phone",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "place",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "play",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "player",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "playing",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "plenty",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "point",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "popular",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "portable",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "practical",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_26"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "choices_27"
+        }
+      ]
+    },
+    {
+      "term_en": "practise",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "practise acting like Sherlock Holmes",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "preparing",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "present",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "present what they learned at the camp",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "presentation",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "prize",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "progressively more difficult",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "3b_s15"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "promotes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Promotes Exercise",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "proper",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "provide",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "purchased",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "putting",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "question",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "questions",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "quickly",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "read",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "reading",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "reading an explanation of terms is helpful",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "rearrange",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "receive",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "recommended",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "refused",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Refused a party in his honour",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "regular",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Remember that the puzzles should get progressively more difficult near the final goal",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "3b_s15"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "remembering",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "reported",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "rest",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "room",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "stem"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "route",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Route Memory",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Route Options",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2a_s11",
+            "2a_s12"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "said",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "same",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "school",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "science",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "scores",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "search",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "searching",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "secret",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "session",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "sherlock",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "shoes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "should have",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s10"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "show",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "silver medal",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "5_s4",
+            "5_s5",
+            "5_s6",
+            "5_s7"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "since",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "skills",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "sleeping",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "social",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "some",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Some T-shirts will be given as gifts.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "sons",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "spaced",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "spaced learning",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "4b_s10",
+            "4b_s4",
+            "4b_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "speech",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "speed",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "spent",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "spent a lot of money decorating the room",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "sport",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "sports",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "SS",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問5",
+          "answer_number": 15,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "started",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Started to study his opponents",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "stated",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "statements",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "stay",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "story",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "students",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "students are not interested in science",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "students had to use portable devices on buses",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "students'",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "study",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "study log",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問3",
+          "answer_number": 13,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s12",
+            "2b_s9"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "studying",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "studying with a workbook leads to success",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "studying with workbooks",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "stylish",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Stylish colourful cycling shoes",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "submit",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "success",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "successful",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "summer",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "support",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "sweets",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "t-shirts",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "table",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "take",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "A_問1",
+          "answer_number": 16,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "talk",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Talk to your teacher about your decision.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "talked",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Talked to his brother about table tennis",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "teacher",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "team",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "teammates",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "tennis",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "tent",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "terms",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "test",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "That means putting your sleeping bag at the bottom",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問1",
+          "answer_number": 16,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "3a_s2",
+            "3a_s3",
+            "3a_s4",
+            "3a_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "the app encourages fast walking",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "the app's free functions are user-friendly",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "the bottom part",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "1a_s10"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "The children ate food they are not fond of.",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "The children started the search for the sweets.",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "The father decorated the living room in the house.",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "The father gave his sons some clothes to wear.",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "the form below",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "1a_s10"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "The main factor that makes a science class attractive",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "the majority of participants travelled by train",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "The most effective length of intervals for spaced learning",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "the shoes are good value for money",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "the shoes increase your cycling speed",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "The support that teammates provide one another is helpful.",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "the train was a good place to read books",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "theaters",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "there",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "there were plenty of audio materials for studying",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "They will finish at the same time.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "thing",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "this activity",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "this sort of repetitive learning is dull and demotivating",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "4a_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "This stuffing method",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "3a_s10",
+            "3a_s8",
+            "3a_s9"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "thought",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "thought he could win games easily",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "three-letter",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "time",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "told",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "told him what he should have said to his school friends",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "took",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "topic",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "train",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "travelled",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "trent",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "tried",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "tried to understand his friend's point of view to act appropriately",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "trouble",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "true",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "under",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "understand",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問3",
+          "answer_number": 23,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "use their time better",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "user-friendly",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "using",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "value",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "videos",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "view",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "visuals",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "walk",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "walking",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問3",
+          "answer_number": 8,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "wanted",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "wanted to avoid playing a team sport",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "warm",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "watch",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "watching",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "watching videos for fun helped time pass quickly",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問4",
+          "answer_number": 14,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "We can apply what we learn from one thing to another.",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "We started this activity to help students use their commuting time more effectively",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問1",
+          "answer_number": 11,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "2b_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "We'll contact you to set up an interview to assess your English ability and ask about your course preference",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "explanation_ja",
+          "evidence_sentences": [
+            "1b_s9"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "wear",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "wearing",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "choices"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        },
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "wearing all of your extra clothes",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "A_問2",
+          "answer_number": 17,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "week",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "weeks",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "weight",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "A_問5",
+          "answer_number": 10,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "well",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "what",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "stem"
+        },
+        {
+          "section_number": 1,
+          "question_id": "B_問2",
+          "answer_number": 4,
+          "source": "choices"
+        },
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "stem"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "source": "choices"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_37"
+        },
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "source": "choices_38"
+        }
+      ]
+    },
+    {
+      "term_en": "whether",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Whether students' workbooks include visuals or not",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "which",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問1",
+          "answer_number": 6,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問2",
+          "answer_number": 7,
+          "source": "stem"
+        },
+        {
+          "section_number": 2,
+          "question_id": "A_問4",
+          "answer_number": 9,
+          "source": "stem"
+        },
+        {
+          "section_number": 3,
+          "question_id": "B_問1",
+          "answer_number": 18,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "source": "stem"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "Why Oxford's students could not memorize information well",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "winners",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "winners of an international contest",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "winter",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "B_問2",
+          "answer_number": 12,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "with overseas experience",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "words",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "B_問2",
+          "answer_number": 22,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "workbook",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "workbooks",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "worked",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "worked hard to be a better team player for successful communication",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "write",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Write your name and explain your choice.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問1",
+          "answer_number": 1,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "writers",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        },
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "source": "stem"
+        }
+      ]
+    },
+    {
+      "term_en": "writers of popular books",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問1",
+          "answer_number": 3,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "written",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "You can meet performers at the theaters.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "A_問2",
+          "answer_number": 2,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "You will call English instructors over the phone.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "You will receive a topic for an English speech.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "You will take a written English test.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    },
+    {
+      "term_en": "Your English level will be checked.",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "B_問3",
+          "answer_number": 5,
+          "source": "choices"
+        }
+      ]
+    }
+  ]
+}

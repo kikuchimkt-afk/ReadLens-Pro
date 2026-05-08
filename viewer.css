@@ -812,6 +812,8 @@
 .sentence.evidence-q6 { background: #fee2e2; border-left-color: #ef4444; }
 .sentence.evidence-q7 { background: #ccfbf1; border-left-color: #14b8a6; }
 .sentence.evidence-q8 { background: #fce7f3; border-left-color: #ec4899; }
+.sentence.evidence-q9 { background: #e0e7ff; border-left-color: #6366f1; }
+.sentence.evidence-q10 { background: #fef9c3; border-left-color: #ca8a04; }
 
 .sentence .evidence-tag {
   display: inline-block;
@@ -831,6 +833,8 @@
 .evidence-tag.tag-q6 { background: #ef4444; }
 .evidence-tag.tag-q7 { background: #14b8a6; }
 .evidence-tag.tag-q8 { background: #ec4899; }
+.evidence-tag.tag-q9 { background: #6366f1; }
+.evidence-tag.tag-q10 { background: #ca8a04; }
 
 .sentence-ja {
   font-size: 0.82rem;
@@ -2345,6 +2349,28 @@
   content: '・';
   position: absolute;
   left: 0;
+}
+
+/* 段落ごとに音声ボタンがある箇条書き（2023 大問2B Feedback 等） */
+.passage-bullet-para-list {
+  margin: 4px 0 10px 0;
+  padding: 0;
+}
+.passage-bullet-audio-item {
+  list-style: none;
+  margin: 6px 0;
+  padding: 0;
+  position: relative;
+}
+.passage-bullet-audio-item::before {
+  content: '·';
+  position: absolute;
+  left: 0.35em;
+  top: 0.55em;
+  font-weight: 700;
+}
+.passage-bullet-audio-item > .para-audio-row {
+  padding-left: 1.15em;
 }
 
 /* ===== Footer Note ===== */

@@ -1,0 +1,509 @@
+{
+  "meta": {
+    "exam": "共通テスト 2023年度 本試験",
+    "subject": "英語（リーディング）",
+    "source": "data/kyotsu/2023/honshiken/data.json",
+    "generated_for_sections": [
+      4,
+      5
+    ],
+    "description": "解説文に現れる重要語彙・表現のJSON化。occurrencesで設問・根拠文ID・解説内出現フレーズを保持。"
+  },
+  "entries": [
+    {
+      "term_en": "continuous drilling",
+      "term_ja": "連続した反復練習",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問1",
+          "answer_number": 24,
+          "in_explanation_phrase": "continuous drilling is boring",
+          "evidence_sentences": [
+            "4a_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "spaced learning",
+      "term_ja": "間隔学習",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "in_explanation_phrase": "spaced learning は longer intervals",
+          "evidence_sentences": [
+            "4b_s5",
+            "4b_s10"
+          ]
+        },
+        {
+          "section_number": 4,
+          "question_id": "問5",
+          "answer_number": 29,
+          "in_explanation_phrase": "間隔をあける反復が有利",
+          "evidence_sentences": [
+            "4b_s5",
+            "4b_s13",
+            "4b_s16"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "massed learning",
+      "term_ja": "集中学習",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問3",
+          "answer_number": 26,
+          "in_explanation_phrase": "massed learning の欠点",
+          "evidence_sentences": [
+            "4b_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "contextual learning",
+      "term_ja": "文脈学習",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "in_explanation_phrase": "Oxford は文脈学習を有効だと述べ",
+          "evidence_sentences": [
+            "4a_s7",
+            "4b_s1",
+            "4b_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "experiential learning",
+      "term_ja": "体験学習",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "in_explanation_phrase": "体験を通じた学習",
+          "evidence_sentences": [
+            "4a_s7"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "beneficial",
+      "term_ja": "有益な",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問4",
+          "answer_number": 28,
+          "in_explanation_phrase": "beneficial だと同意",
+          "evidence_sentences": [
+            "4b_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "recall",
+      "term_ja": "思い出す、想起する",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "問2",
+          "answer_number": 25,
+          "in_explanation_phrase": "28 days after the last learning session",
+          "evidence_sentences": [
+            "4b_s16"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "lightning speed",
+      "term_ja": "稲妻のような速さ",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "本文",
+          "answer_number": null,
+          "in_explanation_phrase": "導入描写（卓球の冒頭）",
+          "evidence_sentences": [
+            "5_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "get along with",
+      "term_ja": "〜とうまくやる",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "in_explanation_phrase": "チーム競技を避けたかった",
+          "evidence_sentences": [
+            "5_s2",
+            "5_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "strong point",
+      "term_ja": "得意分野",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "in_explanation_phrase": "コミュニケーションは得意ではない",
+          "evidence_sentences": [
+            "5_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "individually",
+      "term_ja": "個別に、個人で",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問1",
+          "answer_number": 30,
+          "in_explanation_phrase": "play individually",
+          "evidence_sentences": [
+            "5_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "focus on",
+      "term_ja": "〜に集中する",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "focus on the ball",
+          "evidence_sentences": [
+            "5_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "opponent",
+      "term_ja": "対戦相手",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "study your opponent's moves",
+          "evidence_sentences": [
+            "5_s4",
+            "5_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "accordingly",
+      "term_ja": "それに応じて",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "adjust your play accordingly",
+          "evidence_sentences": [
+            "5_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "make an impression on",
+      "term_ja": "〜に強い印象を与える",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "This made a deep impression on me",
+          "evidence_sentences": [
+            "5_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "deliberately",
+      "term_ja": "意図的に",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "I deliberately modified my style",
+          "evidence_sentences": [
+            "5_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "modify",
+      "term_ja": "変更する",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "modified my style of play",
+          "evidence_sentences": [
+            "5_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "pay off",
+      "term_ja": "報われる",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "My efforts paid off",
+          "evidence_sentences": [
+            "5_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "turn into",
+      "term_ja": "〜になる",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "I was turning into a star player",
+          "evidence_sentences": [
+            "5_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "analyse",
+      "term_ja": "〜を分析する",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "in_explanation_phrase": "analysing my opponent's movements",
+          "evidence_sentences": [
+            "5_s6"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "instant",
+      "term_ja": "即時の",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問2",
+          "answer_number": 31,
+          "in_explanation_phrase": "making instant decisions",
+          "evidence_sentences": [
+            "5_s6"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "in one's honour",
+      "term_ja": "〜を祝って",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問3",
+          "answer_number": 32,
+          "in_explanation_phrase": "Refused a party in his honour",
+          "evidence_sentences": [
+            "5_s7"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "motivation",
+      "term_ja": "動機",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "in_explanation_phrase": "friend's motivation",
+          "evidence_sentences": [
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "appreciation",
+      "term_ja": "感謝",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "in_explanation_phrase": "show appreciation",
+          "evidence_sentences": [
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "point of view",
+      "term_ja": "考え方、観点",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "in_explanation_phrase": "friend's point of view",
+          "evidence_sentences": [
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "appropriately",
+      "term_ja": "適切に",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "in_explanation_phrase": "act appropriately",
+          "evidence_sentences": [
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "attempt to do",
+      "term_ja": "〜しようと努める",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "in_explanation_phrase": "Without attempting to grasp someone's intention",
+          "evidence_sentences": [
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "grasp",
+      "term_ja": "〜を把握する",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "in_explanation_phrase": "grasp someone's intention",
+          "evidence_sentences": [
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "intention",
+      "term_ja": "意図",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "in_explanation_phrase": "someone's intention",
+          "evidence_sentences": [
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "respond",
+      "term_ja": "応答する",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問4",
+          "answer_number": 36,
+          "in_explanation_phrase": "know how to respond",
+          "evidence_sentences": [
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "apply A to B",
+      "term_ja": "AをBに応用する",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "問5",
+          "answer_number": 37,
+          "in_explanation_phrase": "卓球で得た学びをコミュニケーションへ応用",
+          "evidence_sentences": [
+            "5_s6",
+            "5_s8"
+          ]
+        }
+      ]
+    },
+    {
+      "term_en": "inspirational",
+      "term_ja": "人を鼓舞する、心を動かす",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "situation",
+          "answer_number": null,
+          "in_explanation_phrase": "find an inspirational story",
+          "evidence_sentences": []
+        }
+      ]
+    }
+  ]
+}

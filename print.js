@@ -25,7 +25,8 @@ const EXAM_PATHS = {
   sundai_2025_04: 'data/sundai/2025/round04/data.json',
   kakomon_2025: 'data/kakomon/2025/data.json',
   kakomon_2024: 'data/kakomon/2024/data.json',
-  kyotsu_2024_honshiken: 'data/kyotsu/2024/honshiken/data.json'
+  kyotsu_2024_honshiken: 'data/kyotsu/2024/honshiken/data.json',
+  kyotsu_2023_honshiken: 'data/kyotsu/2023/honshiken/data.json'
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -777,11 +778,27 @@ function renderPassagePage(sec, dataPath) {
       }
 
       if (passage.sentences) {
-        html += '<p class="print-paragraph">';
-        for (const sent of passage.sentences) {
-          html += sent.en + ' ';
+        const flatSents = passage.sentences;
+        const stripLeadBullet = t =>
+          String(t || '')
+            .replace(/^●\s*/, '')
+            .replace(/^・\s*/, '');
+        const useBulletList =
+          flatSents.length > 0 &&
+          (passage.list_style === 'bullet' || flatSents.every(s => s.role === 'bullet'));
+        if (useBulletList) {
+          html += '<ul class="print-bullet-list" style="margin:8px 0 8px 1.2em;padding-left:0.5em;">';
+          for (const sent of flatSents) {
+            html += '<li style="margin:4px 0;">' + stripLeadBullet(sent.en || '') + '</li>';
+          }
+          html += '</ul>';
+        } else {
+          html += '<p class="print-paragraph">';
+          for (const sent of flatSents) {
+            html += sent.en + ' ';
+          }
+          html += '</p>';
         }
-        html += '</p>';
       }
 
       if (passage.paragraphs) {
@@ -797,21 +814,35 @@ function renderPassagePage(sec, dataPath) {
             }
           }
         } else {
+          const bulletPara = passage.list_style === 'bullet';
+          if (bulletPara) {
+            html += '<ul class="print-bullet-para-list" style="margin:8px 0;padding-left:0;list-style:none;">';
+          }
           for (let pi = 0; pi < passage.paragraphs.length; pi++) {
             const para = passage.paragraphs[pi];
             const pc =
               passage.paragraph_classes && passage.paragraph_classes[pi] === 'para-indent';
             const indentAttr = pc ? ' style="text-indent:1.5em;"' : '';
+            if (bulletPara) {
+              html += '<li style="margin:6px 0;padding-left:1.1em;position:relative;">';
+              html += '<span style="position:absolute;left:0;">·</span>';
+            }
             html += '<p class="print-paragraph"' + indentAttr + '>';
             for (const sent of para) {
               html += sent.en + ' ';
             }
             html += '</p>';
+            if (bulletPara) {
+              html += '</li>';
+            }
             // Graph image after specified paragraph (1-indexed)
             if (passage.graph_image && passage.graph_image.after_paragraph === (pi + 1)) {
               const imgBase = dataPath.replace(/data\.json$/, '');
               html += '<img class="print-img" src="' + imgBase + passage.graph_image.src + '" alt="' + (passage.graph_image.alt || 'Graph') + '">';
             }
+          }
+          if (bulletPara) {
+            html += '</ul>';
           }
         }
       }

@@ -1,0 +1,26 @@
+第2問A・B で段落ごとに音声を読み込みます（viewer.js の規則: s{大問番号}_{passage.id}_p{段落番号}.mp3）。
+
+▼ 第2問A — Customers' Comments（お客様のコメント）7件
+s2_comments_2a_p1.mp3  … I like the choices for getting directions...
+s2_comments_2a_p2.mp3  … I lost 2 kg in a month!
+s2_comments_2a_p3.mp3  … I love my pair now...
+s2_comments_2a_p4.mp3  … As they don't slip in the rain...
+s2_comments_2a_p5.mp3  … They are so light and comfortable...
+s2_comments_2a_p6.mp3  … Easy to get around!...
+s2_comments_2a_p7.mp3  … They look great...
+
+▼ 第2問A — Advantages（長所）4項目
+s2_advantages_2a_p1.mp3  … Better Balance
+s2_advantages_2a_p2.mp3  … Promotes Exercise
+s2_advantages_2a_p3.mp3  … Route Memory
+s2_advantages_2a_p4.mp3  … Route Options
+
+▼ 第2問B — Feedback from participants（参加者からのフィードバック）5名分
+s2_feedback_2b_p1.mp3  … HS のコメント
+s2_feedback_2b_p2.mp3  … KF のコメント
+s2_feedback_2b_p3.mp3  … SS のコメント
+s2_feedback_2b_p4.mp3  … JH のコメント
+s2_feedback_2b_p5.mp3  … MN のコメント
+
+未配置でも 404 になるだけで他の表示には影響しません。
+従来の1ファイル合体版（s2_advantages_2a.mp3 / s2_feedback_2b.mp3）は paragraphs 化のため使われません。
