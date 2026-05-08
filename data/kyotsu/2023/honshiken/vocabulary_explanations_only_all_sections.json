@@ -1,7 +1,7 @@
 {
   "meta": {
     "exam": "共通テスト 2023年度 本試験",
-    "source": "data/kyotsu/2023/honshiken/data.json",
+    "source": "c:/Users/user/Documents/GitHub/ReadLens-Pro/data/kyotsu/2023/honshiken/data.json",
     "sections_in_data": [
       1,
       2,
@@ -25,6 +25,9 @@
   "entries": [
     {
       "term_en": "ability",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -39,6 +42,9 @@
     },
     {
       "term_en": "about",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -63,6 +69,9 @@
     },
     {
       "term_en": "accustomed",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -77,6 +86,9 @@
     },
     {
       "term_en": "activity",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -91,6 +103,9 @@
     },
     {
       "term_en": "actors",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -106,6 +121,9 @@
     },
     {
       "term_en": "Actors available to talk in the lobby after the performance",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -121,6 +139,9 @@
     },
     {
       "term_en": "after",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -145,6 +166,9 @@
     },
     {
       "term_en": "and your clothes at the top",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -162,6 +186,9 @@
     },
     {
       "term_en": "assess",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -176,6 +203,9 @@
     },
     {
       "term_en": "available",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -191,6 +221,9 @@
     },
     {
       "term_en": "balance",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Better Balance</b>: Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain.",
+      "example_ja": "<b>より良いバランス</b>：個人対応のサポートがあなたの立ち方を調整し、足、脚、腰の痛みから解放してくれます。",
       "occurrences": [
         {
           "section_number": 2,
@@ -205,6 +238,9 @@
     },
     {
       "term_en": "before",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -220,6 +256,9 @@
     },
     {
       "term_en": "below",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -234,6 +273,9 @@
     },
     {
       "term_en": "beneficial",
+      "term_ja": "有益な",
+      "example_en": "In this kind of learning, new knowledge is constructed through students' own experiences.",
+      "example_ja": "この学習法では，生徒自身の体験を通して新しい知識が構築されます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -250,6 +292,9 @@
     },
     {
       "term_en": "better",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Better Balance</b>: Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain.",
+      "example_ja": "<b>より良いバランス</b>：個人対応のサポートがあなたの立ち方を調整し、足、脚、腰の痛みから解放してくれます。",
       "occurrences": [
         {
           "section_number": 2,
@@ -264,6 +309,9 @@
     },
     {
       "term_en": "Better Balance",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Better Balance</b>: Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain.",
+      "example_ja": "<b>より良いバランス</b>：個人対応のサポートがあなたの立ち方を調整し、足、脚、腰の痛みから解放してくれます。",
       "occurrences": [
         {
           "section_number": 2,
@@ -278,6 +326,9 @@
     },
     {
       "term_en": "boring",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -292,6 +343,9 @@
     },
     {
       "term_en": "bottom",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -318,6 +372,9 @@
     },
     {
       "term_en": "but it took me several days to get used to them",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -332,6 +389,9 @@
     },
     {
       "term_en": "cast",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -347,6 +407,9 @@
     },
     {
       "term_en": "challenge",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -371,6 +434,9 @@
     },
     {
       "term_en": "classmates",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -386,6 +452,9 @@
     },
     {
       "term_en": "clothes",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -403,6 +472,9 @@
     },
     {
       "term_en": "come",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -418,6 +490,9 @@
     },
     {
       "term_en": "commuting",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -432,6 +507,9 @@
     },
     {
       "term_en": "Commuting Challenge",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -446,6 +524,9 @@
     },
     {
       "term_en": "contact",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -460,6 +541,9 @@
     },
     {
       "term_en": "continuous",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -474,6 +558,9 @@
     },
     {
       "term_en": "continuous drilling is boring",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -488,6 +575,9 @@
     },
     {
       "term_en": "cookware",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -505,6 +595,9 @@
     },
     {
       "term_en": "cookware and tent in the middle",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -522,6 +615,9 @@
     },
     {
       "term_en": "costumes",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -537,6 +633,9 @@
     },
     {
       "term_en": "could",
+      "term_ja": "（未登録）",
+      "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+      "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
       "occurrences": [
         {
           "section_number": 2,
@@ -551,6 +650,9 @@
     },
     {
       "term_en": "could have",
+      "term_ja": "（未登録）",
+      "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+      "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
       "occurrences": [
         {
           "section_number": 2,
@@ -565,6 +667,9 @@
     },
     {
       "term_en": "course",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -579,6 +684,9 @@
     },
     {
       "term_en": "days",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -602,6 +710,9 @@
     },
     {
       "term_en": "days after the last learning session",
+      "term_ja": "（未登録）",
+      "example_en": "As the figure to the right shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group.",
+      "example_ja": "右図の通り，最後の学習セッションから28日後のテストでは，想起率の平均は間隔学習グループのほうが高くなりました。",
       "occurrences": [
         {
           "section_number": 4,
@@ -616,6 +727,9 @@
     },
     {
       "term_en": "demotivating",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -630,6 +744,9 @@
     },
     {
       "term_en": "didn't",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -645,6 +762,9 @@
     },
     {
       "term_en": "difficult",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -659,6 +779,9 @@
     },
     {
       "term_en": "drilling",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -673,6 +796,9 @@
     },
     {
       "term_en": "dull",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -687,6 +813,9 @@
     },
     {
       "term_en": "easier",
+      "term_ja": "（未登録）",
+      "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+      "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
       "occurrences": [
         {
           "section_number": 5,
@@ -701,6 +830,9 @@
     },
     {
       "term_en": "effectively",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -715,6 +847,9 @@
     },
     {
       "term_en": "english",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -739,6 +874,9 @@
     },
     {
       "term_en": "ever",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -754,6 +892,9 @@
     },
     {
       "term_en": "fill",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -768,6 +909,9 @@
     },
     {
       "term_en": "Fill in the form below and hand it in to your teacher today",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -782,6 +926,9 @@
     },
     {
       "term_en": "final",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -796,6 +943,9 @@
     },
     {
       "term_en": "first-year",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -811,6 +961,9 @@
     },
     {
       "term_en": "first-years",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -826,6 +979,9 @@
     },
     {
       "term_en": "food",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -843,6 +999,9 @@
     },
     {
       "term_en": "For some reason most of my first-year classmates didn't seem to know about this challenge",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -858,6 +1017,9 @@
     },
     {
       "term_en": "forest",
+      "term_ja": "（未登録）",
+      "example_en": "◆ <b>FOREST</b>: You'll master basic grammar structures, make short speeches on simple topics, and get pronunciation tips.  Your instructors have taught English for over 20 years in several countries.  On the final day of the camp, you'll take part in a speech contest while all the other campers listen.",
+      "example_ja": "◆ <b>フォレスト</b>：基本的な文法構造を習得し、簡単なトピックで短いスピーチを行い、発音のコツを学びます。講師たちは、数カ国で20年以上英語を教えた経験があります。キャンプの最終日には、他の全キャンプ参加者が聞いている中、スピーチコンテストに参加します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -885,6 +1047,9 @@
     },
     {
       "term_en": "form",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -899,6 +1064,9 @@
     },
     {
       "term_en": "get accustomed to",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -913,6 +1081,9 @@
     },
     {
       "term_en": "get used to",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -927,6 +1098,9 @@
     },
     {
       "term_en": "goal",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -941,6 +1115,9 @@
     },
     {
       "term_en": "got the highest score ever in an English vocabulary test",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -956,6 +1133,9 @@
     },
     {
       "term_en": "grand",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -971,6 +1151,9 @@
     },
     {
       "term_en": "Grand Theater",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -986,6 +1169,9 @@
     },
     {
       "term_en": "greet",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -1001,6 +1187,9 @@
     },
     {
       "term_en": "hand",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -1015,6 +1204,9 @@
     },
     {
       "term_en": "have",
+      "term_ja": "（未登録）",
+      "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+      "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1029,6 +1221,9 @@
     },
     {
       "term_en": "help",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1043,6 +1238,9 @@
     },
     {
       "term_en": "highest",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1058,6 +1256,9 @@
     },
     {
       "term_en": "How come so few first-years participated",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -1073,6 +1274,9 @@
     },
     {
       "term_en": "individually",
+      "term_ja": "個別に、個人で",
+      "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+      "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
       "occurrences": [
         {
           "section_number": 5,
@@ -1087,6 +1291,9 @@
     },
     {
       "term_en": "instructions",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -1101,6 +1308,9 @@
     },
     {
       "term_en": "intervals",
+      "term_ja": "（未登録）",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1117,6 +1327,9 @@
     },
     {
       "term_en": "interview",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -1131,6 +1344,9 @@
     },
     {
       "term_en": "it would be easier for me to play individually",
+      "term_ja": "（未登録）",
+      "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+      "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
       "occurrences": [
         {
           "section_number": 5,
@@ -1145,6 +1361,9 @@
     },
     {
       "term_en": "kept",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1171,6 +1390,9 @@
     },
     {
       "term_en": "kept me warm all night",
+      "term_ja": "（未登録）",
+      "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+      "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1187,6 +1409,9 @@
     },
     {
       "term_en": "know",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -1202,6 +1427,9 @@
     },
     {
       "term_en": "last",
+      "term_ja": "（未登録）",
+      "example_en": "As the figure to the right shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group.",
+      "example_ja": "右図の通り，最後の学習セッションから28日後のテストでは，想起率の平均は間隔学習グループのほうが高くなりました。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1216,6 +1444,9 @@
     },
     {
       "term_en": "learning",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1250,6 +1481,9 @@
     },
     {
       "term_en": "lobby",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -1265,6 +1499,9 @@
     },
     {
       "term_en": "longer",
+      "term_ja": "（未登録）",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1281,6 +1518,9 @@
     },
     {
       "term_en": "longer intervals",
+      "term_ja": "（未登録）",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1297,6 +1537,9 @@
     },
     {
       "term_en": "love",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1311,6 +1554,9 @@
     },
     {
       "term_en": "love my pair now",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1325,6 +1571,9 @@
     },
     {
       "term_en": "massed",
+      "term_ja": "（未登録）",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1341,6 +1590,9 @@
     },
     {
       "term_en": "massed learning",
+      "term_ja": "集中学習",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1357,6 +1609,9 @@
     },
     {
       "term_en": "means",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1374,6 +1629,9 @@
     },
     {
       "term_en": "medal",
+      "term_ja": "（未登録）",
+      "example_en": "At first, I lost more games than I won. I was frustrated and often went straight home after practice, not speaking to anyone. One day, however, Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game. What do you think you need to do?\" \"I don't know,\" I replied, \"focus on the ball more?\" \"Yes,\" Mr Trent continued, \"but you also need to study your opponent's moves and adjust your play accordingly. Remember, your opponent is a person, not a ball.\" This made a deep impression on me.",
+      "example_ja": "最初のうちは、勝つより負ける試合のほうが多くありました。私はいら立って、練習後は誰とも話さずまっすぐ家に帰ることがよくありました。しかしある日、トレント先生が私にこう言いました。「ベン、お前はいい選手になれる。でももっと自分のプレーを考えなければならない。何をすべきだと思う？」 私は「わかりません。もっとボールに集中することですか？」と答えました。「そうだ」と先生は続けました。「だが相手の動きも研究して、それに合わせてプレーを調整する必要がある。覚えておけ、相手は人間であってボールじゃない。」この言葉は私に強い印象を与えました。",
       "occurrences": [
         {
           "section_number": 5,
@@ -1391,6 +1649,9 @@
     },
     {
       "term_en": "method",
+      "term_ja": "（未登録）",
+      "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+      "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1407,6 +1668,9 @@
     },
     {
       "term_en": "middle",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1424,6 +1688,9 @@
     },
     {
       "term_en": "more",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1447,6 +1714,9 @@
     },
     {
       "term_en": "most",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -1462,6 +1732,9 @@
     },
     {
       "term_en": "mountain",
+      "term_ja": "（未登録）",
+      "example_en": "◆ <b>FOREST</b>: You'll master basic grammar structures, make short speeches on simple topics, and get pronunciation tips.  Your instructors have taught English for over 20 years in several countries.  On the final day of the camp, you'll take part in a speech contest while all the other campers listen.",
+      "example_ja": "◆ <b>フォレスト</b>：基本的な文法構造を習得し、簡単なトピックで短いスピーチを行い、発音のコツを学びます。講師たちは、数カ国で20年以上英語を教えた経験があります。キャンプの最終日には、他の全キャンプ参加者が聞いている中、スピーチコンテストに参加します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -1489,6 +1762,9 @@
     },
     {
       "term_en": "near",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1503,6 +1779,9 @@
     },
     {
       "term_en": "night",
+      "term_ja": "（未登録）",
+      "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+      "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1519,6 +1798,9 @@
     },
     {
       "term_en": "opportunity",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -1534,6 +1816,9 @@
     },
     {
       "term_en": "Opportunity to greet the cast in their costumes before the show starts",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -1549,6 +1834,9 @@
     },
     {
       "term_en": "options",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Route Options</b>: View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions.",
+      "example_ja": "<b>ルートオプション</b>：機器であなたの現在地を見たり、イヤホンで道案内を自動再生したり、道案内を読むのにスマートウォッチを使ったりしてください。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1564,6 +1852,9 @@
     },
     {
       "term_en": "overcome",
+      "term_ja": "（未登録）",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1580,6 +1871,9 @@
     },
     {
       "term_en": "oxford",
+      "term_ja": "（未登録）",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1607,6 +1901,9 @@
     },
     {
       "term_en": "pair",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1621,6 +1918,9 @@
     },
     {
       "term_en": "palace",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -1636,6 +1936,9 @@
     },
     {
       "term_en": "Palace Theater",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -1651,6 +1954,9 @@
     },
     {
       "term_en": "part",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -1665,6 +1971,9 @@
     },
     {
       "term_en": "participated",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -1680,6 +1989,9 @@
     },
     {
       "term_en": "performance",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -1695,6 +2007,9 @@
     },
     {
       "term_en": "play",
+      "term_ja": "（未登録）",
+      "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+      "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
       "occurrences": [
         {
           "section_number": 5,
@@ -1709,6 +2024,9 @@
     },
     {
       "term_en": "preference",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -1723,6 +2041,9 @@
     },
     {
       "term_en": "progressively",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1737,6 +2058,9 @@
     },
     {
       "term_en": "progressively more difficult",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1751,6 +2075,9 @@
     },
     {
       "term_en": "putting",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1768,6 +2095,9 @@
     },
     {
       "term_en": "puzzles",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1782,6 +2112,9 @@
     },
     {
       "term_en": "reason",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -1797,6 +2130,9 @@
     },
     {
       "term_en": "remember",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1811,6 +2147,9 @@
     },
     {
       "term_en": "Remember that the puzzles should get progressively more difficult near the final goal",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -1825,6 +2164,9 @@
     },
     {
       "term_en": "repetitive",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1839,6 +2181,9 @@
     },
     {
       "term_en": "route",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Route Options</b>: View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions.",
+      "example_ja": "<b>ルートオプション</b>：機器であなたの現在地を見たり、イヤホンで道案内を自動再生したり、道案内を読むのにスマートウォッチを使ったりしてください。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1854,6 +2199,9 @@
     },
     {
       "term_en": "Route Options",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Route Options</b>: View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions.",
+      "example_ja": "<b>ルートオプション</b>：機器であなたの現在地を見たり、イヤホンで道案内を自動再生したり、道案内を読むのにスマートウォッチを使ったりしてください。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1869,6 +2217,9 @@
     },
     {
       "term_en": "score",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1884,6 +2235,9 @@
     },
     {
       "term_en": "seem",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -1899,6 +2253,9 @@
     },
     {
       "term_en": "session",
+      "term_ja": "（未登録）",
+      "example_en": "As the figure to the right shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group.",
+      "example_ja": "右図の通り，最後の学習セッションから28日後のテストでは，想起率の平均は間隔学習グループのほうが高くなりました。",
       "occurrences": [
         {
           "section_number": 4,
@@ -1913,6 +2270,9 @@
     },
     {
       "term_en": "several",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1927,6 +2287,9 @@
     },
     {
       "term_en": "should",
+      "term_ja": "（未登録）",
+      "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+      "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1950,6 +2313,9 @@
     },
     {
       "term_en": "should have",
+      "term_ja": "（未登録）",
+      "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+      "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
       "occurrences": [
         {
           "section_number": 2,
@@ -1964,6 +2330,9 @@
     },
     {
       "term_en": "show",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -1979,6 +2348,9 @@
     },
     {
       "term_en": "silver",
+      "term_ja": "（未登録）",
+      "example_en": "At first, I lost more games than I won. I was frustrated and often went straight home after practice, not speaking to anyone. One day, however, Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game. What do you think you need to do?\" \"I don't know,\" I replied, \"focus on the ball more?\" \"Yes,\" Mr Trent continued, \"but you also need to study your opponent's moves and adjust your play accordingly. Remember, your opponent is a person, not a ball.\" This made a deep impression on me.",
+      "example_ja": "最初のうちは、勝つより負ける試合のほうが多くありました。私はいら立って、練習後は誰とも話さずまっすぐ家に帰ることがよくありました。しかしある日、トレント先生が私にこう言いました。「ベン、お前はいい選手になれる。でももっと自分のプレーを考えなければならない。何をすべきだと思う？」 私は「わかりません。もっとボールに集中することですか？」と答えました。「そうだ」と先生は続けました。「だが相手の動きも研究して、それに合わせてプレーを調整する必要がある。覚えておけ、相手は人間であってボールじゃない。」この言葉は私に強い印象を与えました。",
       "occurrences": [
         {
           "section_number": 5,
@@ -1996,6 +2368,9 @@
     },
     {
       "term_en": "silver medal",
+      "term_ja": "（未登録）",
+      "example_en": "At first, I lost more games than I won. I was frustrated and often went straight home after practice, not speaking to anyone. One day, however, Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game. What do you think you need to do?\" \"I don't know,\" I replied, \"focus on the ball more?\" \"Yes,\" Mr Trent continued, \"but you also need to study your opponent's moves and adjust your play accordingly. Remember, your opponent is a person, not a ball.\" This made a deep impression on me.",
+      "example_ja": "最初のうちは、勝つより負ける試合のほうが多くありました。私はいら立って、練習後は誰とも話さずまっすぐ家に帰ることがよくありました。しかしある日、トレント先生が私にこう言いました。「ベン、お前はいい選手になれる。でももっと自分のプレーを考えなければならない。何をすべきだと思う？」 私は「わかりません。もっとボールに集中することですか？」と答えました。「そうだ」と先生は続けました。「だが相手の動きも研究して、それに合わせてプレーを調整する必要がある。覚えておけ、相手は人間であってボールじゃない。」この言葉は私に強い印象を与えました。",
       "occurrences": [
         {
           "section_number": 5,
@@ -2013,6 +2388,9 @@
     },
     {
       "term_en": "sleeping",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -2030,6 +2408,9 @@
     },
     {
       "term_en": "some",
+      "term_ja": "（未登録）",
+      "example_en": "How come so few first-years participated?",
+      "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
       "occurrences": [
         {
           "section_number": 2,
@@ -2045,6 +2426,9 @@
     },
     {
       "term_en": "sort",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -2059,6 +2443,9 @@
     },
     {
       "term_en": "spaced",
+      "term_ja": "（未登録）",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -2075,6 +2462,9 @@
     },
     {
       "term_en": "spaced learning",
+      "term_ja": "間隔学習",
+      "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+      "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
       "occurrences": [
         {
           "section_number": 4,
@@ -2091,6 +2481,9 @@
     },
     {
       "term_en": "started",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2105,6 +2498,9 @@
     },
     {
       "term_en": "starts",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -2120,6 +2516,9 @@
     },
     {
       "term_en": "step",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -2134,6 +2533,9 @@
     },
     {
       "term_en": "students",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2148,6 +2550,9 @@
     },
     {
       "term_en": "study",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2163,6 +2568,9 @@
     },
     {
       "term_en": "study log",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2178,6 +2586,9 @@
     },
     {
       "term_en": "stuffing",
+      "term_ja": "（未登録）",
+      "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+      "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -2194,6 +2605,9 @@
     },
     {
       "term_en": "talk",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -2209,6 +2623,9 @@
     },
     {
       "term_en": "teacher",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -2223,6 +2640,9 @@
     },
     {
       "term_en": "tent",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -2240,6 +2660,9 @@
     },
     {
       "term_en": "test",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2255,6 +2678,9 @@
     },
     {
       "term_en": "that",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -2281,6 +2707,9 @@
     },
     {
       "term_en": "That means putting your sleeping bag at the bottom",
+      "term_ja": "（未登録）",
+      "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+      "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -2298,6 +2727,9 @@
     },
     {
       "term_en": "the bottom part",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -2312,6 +2744,9 @@
     },
     {
       "term_en": "the form below",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -2326,6 +2761,9 @@
     },
     {
       "term_en": "theater",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -2341,6 +2779,9 @@
     },
     {
       "term_en": "their",
+      "term_ja": "（未登録）",
+      "example_en": "▶ Actors available to talk in the lobby after the performance",
+      "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
       "occurrences": [
         {
           "section_number": 1,
@@ -2365,6 +2806,9 @@
     },
     {
       "term_en": "them",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2379,6 +2823,9 @@
     },
     {
       "term_en": "this",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2423,6 +2870,9 @@
     },
     {
       "term_en": "this activity",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2437,6 +2887,9 @@
     },
     {
       "term_en": "this sort of repetitive learning is dull and demotivating",
+      "term_ja": "（未登録）",
+      "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+      "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
       "occurrences": [
         {
           "section_number": 4,
@@ -2451,6 +2904,9 @@
     },
     {
       "term_en": "This stuffing method",
+      "term_ja": "（未登録）",
+      "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+      "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -2467,6 +2923,9 @@
     },
     {
       "term_en": "three-digit",
+      "term_ja": "（未登録）",
+      "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+      "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
       "occurrences": [
         {
           "section_number": 3,
@@ -2481,6 +2940,9 @@
     },
     {
       "term_en": "time",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2495,6 +2957,9 @@
     },
     {
       "term_en": "today",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -2509,6 +2974,9 @@
     },
     {
       "term_en": "took",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2523,6 +2991,9 @@
     },
     {
       "term_en": "used",
+      "term_ja": "（未登録）",
+      "example_en": "I love my pair now, but it took me several days to get used to them.",
+      "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2537,6 +3008,9 @@
     },
     {
       "term_en": "vocabulary",
+      "term_ja": "（未登録）",
+      "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+      "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2552,6 +3026,9 @@
     },
     {
       "term_en": "warm",
+      "term_ja": "（未登録）",
+      "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+      "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
       "occurrences": [
         {
           "section_number": 3,
@@ -2568,6 +3045,9 @@
     },
     {
       "term_en": "We started this activity to help students use their commuting time more effectively",
+      "term_ja": "（未登録）",
+      "example_en": "We started this activity to help students use their commuting time more effectively.",
+      "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
       "occurrences": [
         {
           "section_number": 2,
@@ -2582,6 +3062,9 @@
     },
     {
       "term_en": "we'll",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -2596,6 +3079,9 @@
     },
     {
       "term_en": "We'll contact you to set up an interview to assess your English ability and ask about your course preference",
+      "term_ja": "（未登録）",
+      "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+      "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
       "occurrences": [
         {
           "section_number": 1,
@@ -2610,6 +3096,9 @@
     },
     {
       "term_en": "would",
+      "term_ja": "（未登録）",
+      "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+      "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
       "occurrences": [
         {
           "section_number": 5,
@@ -2624,6 +3113,9 @@
     },
     {
       "term_en": "your",
+      "term_ja": "（未登録）",
+      "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+      "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
       "occurrences": [
         {
           "section_number": 1,
@@ -2662,6 +3154,9 @@
     "1": [
       {
         "term_en": "ability",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -2670,6 +3165,9 @@
       },
       {
         "term_en": "about",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -2678,6 +3176,9 @@
       },
       {
         "term_en": "actors",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2687,6 +3188,9 @@
       },
       {
         "term_en": "Actors available to talk in the lobby after the performance",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2696,6 +3200,9 @@
       },
       {
         "term_en": "after",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2705,6 +3212,9 @@
       },
       {
         "term_en": "assess",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -2713,6 +3223,9 @@
       },
       {
         "term_en": "available",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2722,6 +3235,9 @@
       },
       {
         "term_en": "before",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2731,6 +3247,9 @@
       },
       {
         "term_en": "below",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -2739,6 +3258,9 @@
       },
       {
         "term_en": "bottom",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -2747,6 +3269,9 @@
       },
       {
         "term_en": "cast",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2756,6 +3281,9 @@
       },
       {
         "term_en": "contact",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -2764,6 +3292,9 @@
       },
       {
         "term_en": "costumes",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2773,6 +3304,9 @@
       },
       {
         "term_en": "course",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -2781,6 +3315,9 @@
       },
       {
         "term_en": "english",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -2789,6 +3326,9 @@
       },
       {
         "term_en": "fill",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -2797,6 +3337,9 @@
       },
       {
         "term_en": "Fill in the form below and hand it in to your teacher today",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -2805,6 +3348,9 @@
       },
       {
         "term_en": "forest",
+        "term_ja": "（未登録）",
+        "example_en": "◆ <b>FOREST</b>: You'll master basic grammar structures, make short speeches on simple topics, and get pronunciation tips.  Your instructors have taught English for over 20 years in several countries.  On the final day of the camp, you'll take part in a speech contest while all the other campers listen.",
+        "example_ja": "◆ <b>フォレスト</b>：基本的な文法構造を習得し、簡単なトピックで短いスピーチを行い、発音のコツを学びます。講師たちは、数カ国で20年以上英語を教えた経験があります。キャンプの最終日には、他の全キャンプ参加者が聞いている中、スピーチコンテストに参加します。",
         "question_id": "B_問1",
         "answer_number": 3,
         "evidence_sentences": [
@@ -2815,6 +3361,9 @@
       },
       {
         "term_en": "forest",
+        "term_ja": "（未登録）",
+        "example_en": "◆ <b>FOREST</b>: You'll master basic grammar structures, make short speeches on simple topics, and get pronunciation tips.  Your instructors have taught English for over 20 years in several countries.  On the final day of the camp, you'll take part in a speech contest while all the other campers listen.",
+        "example_ja": "◆ <b>フォレスト</b>：基本的な文法構造を習得し、簡単なトピックで短いスピーチを行い、発音のコツを学びます。講師たちは、数カ国で20年以上英語を教えた経験があります。キャンプの最終日には、他の全キャンプ参加者が聞いている中、スピーチコンテストに参加します。",
         "question_id": "B_問2",
         "answer_number": 4,
         "evidence_sentences": [
@@ -2825,6 +3374,9 @@
       },
       {
         "term_en": "form",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -2833,6 +3385,9 @@
       },
       {
         "term_en": "grand",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2842,6 +3397,9 @@
       },
       {
         "term_en": "Grand Theater",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2851,6 +3409,9 @@
       },
       {
         "term_en": "greet",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2860,6 +3421,9 @@
       },
       {
         "term_en": "hand",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -2868,6 +3432,9 @@
       },
       {
         "term_en": "instructions",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -2876,6 +3443,9 @@
       },
       {
         "term_en": "interview",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -2884,6 +3454,9 @@
       },
       {
         "term_en": "lobby",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2893,6 +3466,9 @@
       },
       {
         "term_en": "mountain",
+        "term_ja": "（未登録）",
+        "example_en": "◆ <b>FOREST</b>: You'll master basic grammar structures, make short speeches on simple topics, and get pronunciation tips.  Your instructors have taught English for over 20 years in several countries.  On the final day of the camp, you'll take part in a speech contest while all the other campers listen.",
+        "example_ja": "◆ <b>フォレスト</b>：基本的な文法構造を習得し、簡単なトピックで短いスピーチを行い、発音のコツを学びます。講師たちは、数カ国で20年以上英語を教えた経験があります。キャンプの最終日には、他の全キャンプ参加者が聞いている中、スピーチコンテストに参加します。",
         "question_id": "B_問1",
         "answer_number": 3,
         "evidence_sentences": [
@@ -2903,6 +3479,9 @@
       },
       {
         "term_en": "mountain",
+        "term_ja": "（未登録）",
+        "example_en": "◆ <b>FOREST</b>: You'll master basic grammar structures, make short speeches on simple topics, and get pronunciation tips.  Your instructors have taught English for over 20 years in several countries.  On the final day of the camp, you'll take part in a speech contest while all the other campers listen.",
+        "example_ja": "◆ <b>フォレスト</b>：基本的な文法構造を習得し、簡単なトピックで短いスピーチを行い、発音のコツを学びます。講師たちは、数カ国で20年以上英語を教えた経験があります。キャンプの最終日には、他の全キャンプ参加者が聞いている中、スピーチコンテストに参加します。",
         "question_id": "B_問2",
         "answer_number": 4,
         "evidence_sentences": [
@@ -2913,6 +3492,9 @@
       },
       {
         "term_en": "opportunity",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2922,6 +3504,9 @@
       },
       {
         "term_en": "Opportunity to greet the cast in their costumes before the show starts",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2931,6 +3516,9 @@
       },
       {
         "term_en": "palace",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2940,6 +3528,9 @@
       },
       {
         "term_en": "Palace Theater",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2949,6 +3540,9 @@
       },
       {
         "term_en": "part",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -2957,6 +3551,9 @@
       },
       {
         "term_en": "performance",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2966,6 +3563,9 @@
       },
       {
         "term_en": "preference",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -2974,6 +3574,9 @@
       },
       {
         "term_en": "show",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2983,6 +3586,9 @@
       },
       {
         "term_en": "starts",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -2992,6 +3598,9 @@
       },
       {
         "term_en": "step",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -3000,6 +3609,9 @@
       },
       {
         "term_en": "talk",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -3009,6 +3621,9 @@
       },
       {
         "term_en": "teacher",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -3017,6 +3632,9 @@
       },
       {
         "term_en": "the bottom part",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -3025,6 +3643,9 @@
       },
       {
         "term_en": "the form below",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -3033,6 +3654,9 @@
       },
       {
         "term_en": "theater",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -3042,6 +3666,9 @@
       },
       {
         "term_en": "their",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "A_問2",
         "answer_number": 2,
         "evidence_sentences": [
@@ -3051,6 +3678,9 @@
       },
       {
         "term_en": "today",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -3059,6 +3689,9 @@
       },
       {
         "term_en": "we'll",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -3067,6 +3700,9 @@
       },
       {
         "term_en": "We'll contact you to set up an interview to assess your English ability and ask about your course preference",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -3075,6 +3711,9 @@
       },
       {
         "term_en": "your",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 1,
         "evidence_sentences": [
@@ -3083,6 +3722,9 @@
       },
       {
         "term_en": "your",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "B_問3",
         "answer_number": 5,
         "evidence_sentences": [
@@ -3093,6 +3735,9 @@
     "2": [
       {
         "term_en": "about",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3102,6 +3747,9 @@
       },
       {
         "term_en": "accustomed",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3110,6 +3758,9 @@
       },
       {
         "term_en": "activity",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3118,6 +3769,9 @@
       },
       {
         "term_en": "balance",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Better Balance</b>: Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain.",
+        "example_ja": "<b>より良いバランス</b>：個人対応のサポートがあなたの立ち方を調整し、足、脚、腰の痛みから解放してくれます。",
         "question_id": "A_問2",
         "answer_number": 7,
         "evidence_sentences": [
@@ -3126,6 +3780,9 @@
       },
       {
         "term_en": "better",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Better Balance</b>: Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain.",
+        "example_ja": "<b>より良いバランス</b>：個人対応のサポートがあなたの立ち方を調整し、足、脚、腰の痛みから解放してくれます。",
         "question_id": "A_問2",
         "answer_number": 7,
         "evidence_sentences": [
@@ -3134,6 +3791,9 @@
       },
       {
         "term_en": "Better Balance",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Better Balance</b>: Adjusting how you stand, the personalised support helps keep feet, legs, and back free from pain.",
+        "example_ja": "<b>より良いバランス</b>：個人対応のサポートがあなたの立ち方を調整し、足、脚、腰の痛みから解放してくれます。",
         "question_id": "A_問2",
         "answer_number": 7,
         "evidence_sentences": [
@@ -3142,6 +3802,9 @@
       },
       {
         "term_en": "but it took me several days to get used to them",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3150,6 +3813,9 @@
       },
       {
         "term_en": "challenge",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3158,6 +3824,9 @@
       },
       {
         "term_en": "challenge",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3167,6 +3836,9 @@
       },
       {
         "term_en": "classmates",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3176,6 +3848,9 @@
       },
       {
         "term_en": "come",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3185,6 +3860,9 @@
       },
       {
         "term_en": "commuting",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3193,6 +3871,9 @@
       },
       {
         "term_en": "Commuting Challenge",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3201,6 +3882,9 @@
       },
       {
         "term_en": "could",
+        "term_ja": "（未登録）",
+        "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+        "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
         "question_id": "B_問4",
         "answer_number": 14,
         "evidence_sentences": [
@@ -3209,6 +3893,9 @@
       },
       {
         "term_en": "could have",
+        "term_ja": "（未登録）",
+        "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+        "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
         "question_id": "B_問4",
         "answer_number": 14,
         "evidence_sentences": [
@@ -3217,6 +3904,9 @@
       },
       {
         "term_en": "days",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3225,6 +3915,9 @@
       },
       {
         "term_en": "didn't",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3234,6 +3927,9 @@
       },
       {
         "term_en": "effectively",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3242,6 +3938,9 @@
       },
       {
         "term_en": "english",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Step 2:</b> We'll contact you to set up an interview to assess your English ability and ask about your course preference.",
+        "example_ja": "<b>ステップ2：</b>こちらからご連絡し、皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3251,6 +3950,9 @@
       },
       {
         "term_en": "ever",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3260,6 +3962,9 @@
       },
       {
         "term_en": "first-year",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3269,6 +3974,9 @@
       },
       {
         "term_en": "first-years",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3278,6 +3986,9 @@
       },
       {
         "term_en": "For some reason most of my first-year classmates didn't seem to know about this challenge",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3287,6 +3998,9 @@
       },
       {
         "term_en": "get accustomed to",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3295,6 +4009,9 @@
       },
       {
         "term_en": "get used to",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3303,6 +4020,9 @@
       },
       {
         "term_en": "got the highest score ever in an English vocabulary test",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3312,6 +4032,9 @@
       },
       {
         "term_en": "have",
+        "term_ja": "（未登録）",
+        "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+        "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
         "question_id": "B_問4",
         "answer_number": 14,
         "evidence_sentences": [
@@ -3320,6 +4043,9 @@
       },
       {
         "term_en": "help",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3328,6 +4054,9 @@
       },
       {
         "term_en": "highest",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3337,6 +4066,9 @@
       },
       {
         "term_en": "How come so few first-years participated",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3346,6 +4078,9 @@
       },
       {
         "term_en": "kept",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3355,6 +4090,9 @@
       },
       {
         "term_en": "know",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3364,6 +4102,9 @@
       },
       {
         "term_en": "love",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3372,6 +4113,9 @@
       },
       {
         "term_en": "love my pair now",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3380,6 +4124,9 @@
       },
       {
         "term_en": "more",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3388,6 +4135,9 @@
       },
       {
         "term_en": "most",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3397,6 +4147,9 @@
       },
       {
         "term_en": "options",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Route Options</b>: View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions.",
+        "example_ja": "<b>ルートオプション</b>：機器であなたの現在地を見たり、イヤホンで道案内を自動再生したり、道案内を読むのにスマートウォッチを使ったりしてください。",
         "question_id": "A_問4",
         "answer_number": 9,
         "evidence_sentences": [
@@ -3406,6 +4159,9 @@
       },
       {
         "term_en": "pair",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3414,6 +4170,9 @@
       },
       {
         "term_en": "participated",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3423,6 +4182,9 @@
       },
       {
         "term_en": "reason",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3432,6 +4194,9 @@
       },
       {
         "term_en": "route",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Route Options</b>: View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions.",
+        "example_ja": "<b>ルートオプション</b>：機器であなたの現在地を見たり、イヤホンで道案内を自動再生したり、道案内を読むのにスマートウォッチを使ったりしてください。",
         "question_id": "A_問4",
         "answer_number": 9,
         "evidence_sentences": [
@@ -3441,6 +4206,9 @@
       },
       {
         "term_en": "Route Options",
+        "term_ja": "（未登録）",
+        "example_en": "<b>Route Options</b>: View your live location on your device, have the directions play automatically in your earphones, or use your smartwatch to read directions.",
+        "example_ja": "<b>ルートオプション</b>：機器であなたの現在地を見たり、イヤホンで道案内を自動再生したり、道案内を読むのにスマートウォッチを使ったりしてください。",
         "question_id": "A_問4",
         "answer_number": 9,
         "evidence_sentences": [
@@ -3450,6 +4218,9 @@
       },
       {
         "term_en": "score",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3459,6 +4230,9 @@
       },
       {
         "term_en": "seem",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3468,6 +4242,9 @@
       },
       {
         "term_en": "several",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3476,6 +4253,9 @@
       },
       {
         "term_en": "should",
+        "term_ja": "（未登録）",
+        "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+        "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
         "question_id": "B_問4",
         "answer_number": 14,
         "evidence_sentences": [
@@ -3484,6 +4264,9 @@
       },
       {
         "term_en": "should have",
+        "term_ja": "（未登録）",
+        "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+        "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
         "question_id": "B_問4",
         "answer_number": 14,
         "evidence_sentences": [
@@ -3492,6 +4275,9 @@
       },
       {
         "term_en": "some",
+        "term_ja": "（未登録）",
+        "example_en": "How come so few first-years participated?",
+        "example_ja": "なぜ、1年生の参加がそんなに少ないのか？",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3501,6 +4287,9 @@
       },
       {
         "term_en": "started",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3509,6 +4298,9 @@
       },
       {
         "term_en": "students",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3517,6 +4309,9 @@
       },
       {
         "term_en": "study",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3526,6 +4321,9 @@
       },
       {
         "term_en": "study log",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3535,6 +4333,9 @@
       },
       {
         "term_en": "test",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3544,6 +4345,9 @@
       },
       {
         "term_en": "their",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3552,6 +4356,9 @@
       },
       {
         "term_en": "them",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3560,6 +4367,9 @@
       },
       {
         "term_en": "this",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3568,6 +4378,9 @@
       },
       {
         "term_en": "this",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問5",
         "answer_number": 15,
         "evidence_sentences": [
@@ -3577,6 +4390,9 @@
       },
       {
         "term_en": "this activity",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3585,6 +4401,9 @@
       },
       {
         "term_en": "time",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3593,6 +4412,9 @@
       },
       {
         "term_en": "took",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3601,6 +4423,9 @@
       },
       {
         "term_en": "used",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "A_問5",
         "answer_number": 10,
         "evidence_sentences": [
@@ -3609,6 +4434,9 @@
       },
       {
         "term_en": "vocabulary",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "B_問3",
         "answer_number": 13,
         "evidence_sentences": [
@@ -3618,6 +4446,9 @@
       },
       {
         "term_en": "We started this activity to help students use their commuting time more effectively",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問1",
         "answer_number": 11,
         "evidence_sentences": [
@@ -3628,6 +4459,9 @@
     "4": [
       {
         "term_en": "after",
+        "term_ja": "（未登録）",
+        "example_en": "▶ Actors available to talk in the lobby after the performance",
+        "example_ja": "▶ 公演のあと、ロビーにて俳優と話ができます",
         "question_id": "問2",
         "answer_number": 25,
         "evidence_sentences": [
@@ -3636,6 +4470,9 @@
       },
       {
         "term_en": "beneficial",
+        "term_ja": "有益な",
+        "example_en": "In this kind of learning, new knowledge is constructed through students' own experiences.",
+        "example_ja": "この学習法では，生徒自身の体験を通して新しい知識が構築されます。",
         "question_id": "問4",
         "answer_number": 28,
         "evidence_sentences": [
@@ -3646,6 +4483,9 @@
       },
       {
         "term_en": "boring",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3654,6 +4494,9 @@
       },
       {
         "term_en": "continuous",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3662,6 +4505,9 @@
       },
       {
         "term_en": "continuous drilling is boring",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3670,6 +4516,9 @@
       },
       {
         "term_en": "days",
+        "term_ja": "（未登録）",
+        "example_en": "I love my pair now, but it took me several days to get used to them.",
+        "example_ja": "今は自分の靴をとても気に入っていますが、靴に慣れるまで数日かかりました。",
         "question_id": "問2",
         "answer_number": 25,
         "evidence_sentences": [
@@ -3678,6 +4527,9 @@
       },
       {
         "term_en": "days after the last learning session",
+        "term_ja": "（未登録）",
+        "example_en": "As the figure to the right shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group.",
+        "example_ja": "右図の通り，最後の学習セッションから28日後のテストでは，想起率の平均は間隔学習グループのほうが高くなりました。",
         "question_id": "問2",
         "answer_number": 25,
         "evidence_sentences": [
@@ -3686,6 +4538,9 @@
       },
       {
         "term_en": "demotivating",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3694,6 +4549,9 @@
       },
       {
         "term_en": "drilling",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3702,6 +4560,9 @@
       },
       {
         "term_en": "dull",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3710,6 +4571,9 @@
       },
       {
         "term_en": "intervals",
+        "term_ja": "（未登録）",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3720,6 +4584,9 @@
       },
       {
         "term_en": "last",
+        "term_ja": "（未登録）",
+        "example_en": "As the figure to the right shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group.",
+        "example_ja": "右図の通り，最後の学習セッションから28日後のテストでは，想起率の平均は間隔学習グループのほうが高くなりました。",
         "question_id": "問2",
         "answer_number": 25,
         "evidence_sentences": [
@@ -3728,6 +4595,9 @@
       },
       {
         "term_en": "learning",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3736,6 +4606,9 @@
       },
       {
         "term_en": "learning",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問2",
         "answer_number": 25,
         "evidence_sentences": [
@@ -3744,6 +4617,9 @@
       },
       {
         "term_en": "learning",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3754,6 +4630,9 @@
       },
       {
         "term_en": "longer",
+        "term_ja": "（未登録）",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3764,6 +4643,9 @@
       },
       {
         "term_en": "longer intervals",
+        "term_ja": "（未登録）",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3774,6 +4656,9 @@
       },
       {
         "term_en": "massed",
+        "term_ja": "（未登録）",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3784,6 +4669,9 @@
       },
       {
         "term_en": "massed learning",
+        "term_ja": "集中学習",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3794,6 +4682,9 @@
       },
       {
         "term_en": "overcome",
+        "term_ja": "（未登録）",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3804,6 +4695,9 @@
       },
       {
         "term_en": "oxford",
+        "term_ja": "（未登録）",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3814,6 +4708,9 @@
       },
       {
         "term_en": "oxford",
+        "term_ja": "（未登録）",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問4",
         "answer_number": 28,
         "evidence_sentences": [
@@ -3824,6 +4721,9 @@
       },
       {
         "term_en": "repetitive",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3832,6 +4732,9 @@
       },
       {
         "term_en": "session",
+        "term_ja": "（未登録）",
+        "example_en": "As the figure to the right shows, 28 days after the last learning session, the average ratio of recalled names on a test was higher for the spaced learning group.",
+        "example_ja": "右図の通り，最後の学習セッションから28日後のテストでは，想起率の平均は間隔学習グループのほうが高くなりました。",
         "question_id": "問2",
         "answer_number": 25,
         "evidence_sentences": [
@@ -3840,6 +4743,9 @@
       },
       {
         "term_en": "sort",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3848,6 +4754,9 @@
       },
       {
         "term_en": "spaced",
+        "term_ja": "（未登録）",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3858,6 +4767,9 @@
       },
       {
         "term_en": "spaced learning",
+        "term_ja": "間隔学習",
+        "example_en": "However, the repetitive learning strategy he discussed, which is called \"massed learning,\" is not effective.",
+        "example_ja": "しかし，彼が述べた「集中学習（massed learning）」と呼ばれる反復学習は効果的ではありません。",
         "question_id": "問3",
         "answer_number": 26,
         "evidence_sentences": [
@@ -3868,6 +4780,9 @@
       },
       {
         "term_en": "this",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3876,6 +4791,9 @@
       },
       {
         "term_en": "this sort of repetitive learning is dull and demotivating",
+        "term_ja": "（未登録）",
+        "example_en": "Also, this sort of repetitive learning is dull and demotivating.",
+        "example_ja": "さらに，この種の反復学習は退屈で，やる気を失わせます。",
         "question_id": "問1",
         "answer_number": 24,
         "evidence_sentences": [
@@ -3886,6 +4804,9 @@
     "3": [
       {
         "term_en": "and your clothes at the top",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -3897,6 +4818,9 @@
       },
       {
         "term_en": "bottom",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -3908,6 +4832,9 @@
       },
       {
         "term_en": "clothes",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -3919,6 +4846,9 @@
       },
       {
         "term_en": "cookware",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -3930,6 +4860,9 @@
       },
       {
         "term_en": "cookware and tent in the middle",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -3941,6 +4874,9 @@
       },
       {
         "term_en": "difficult",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -3949,6 +4885,9 @@
       },
       {
         "term_en": "final",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -3957,6 +4896,9 @@
       },
       {
         "term_en": "food",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -3968,6 +4910,9 @@
       },
       {
         "term_en": "goal",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -3976,6 +4921,9 @@
       },
       {
         "term_en": "kept",
+        "term_ja": "（未登録）",
+        "example_en": "<b>HS:</b>  Thanks to this project, I got the highest score ever in an English vocabulary test.  It was easy to set small goals to complete on my way.",
+        "example_ja": "HS：このプロジェクトのおかげで、英単語のテストで過去最高の点数を取りました。小さな目標を立てて、道中で達成するのは簡単でした。",
         "question_id": "A_問2",
         "answer_number": 17,
         "evidence_sentences": [
@@ -3986,6 +4934,9 @@
       },
       {
         "term_en": "kept me warm all night",
+        "term_ja": "（未登録）",
+        "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+        "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
         "question_id": "A_問2",
         "answer_number": 17,
         "evidence_sentences": [
@@ -3996,6 +4947,9 @@
       },
       {
         "term_en": "means",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -4007,6 +4961,9 @@
       },
       {
         "term_en": "method",
+        "term_ja": "（未登録）",
+        "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+        "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
         "question_id": "A_問2",
         "answer_number": 17,
         "evidence_sentences": [
@@ -4017,6 +4974,9 @@
       },
       {
         "term_en": "middle",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -4028,6 +4988,9 @@
       },
       {
         "term_en": "more",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4036,6 +4999,9 @@
       },
       {
         "term_en": "near",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4044,6 +5010,9 @@
       },
       {
         "term_en": "night",
+        "term_ja": "（未登録）",
+        "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+        "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
         "question_id": "A_問2",
         "answer_number": 17,
         "evidence_sentences": [
@@ -4054,6 +5023,9 @@
       },
       {
         "term_en": "progressively",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4062,6 +5034,9 @@
       },
       {
         "term_en": "progressively more difficult",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4070,6 +5045,9 @@
       },
       {
         "term_en": "putting",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -4081,6 +5059,9 @@
       },
       {
         "term_en": "puzzles",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4089,6 +5070,9 @@
       },
       {
         "term_en": "remember",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4097,6 +5081,9 @@
       },
       {
         "term_en": "Remember that the puzzles should get progressively more difficult near the final goal",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4105,6 +5092,9 @@
       },
       {
         "term_en": "should",
+        "term_ja": "（未登録）",
+        "example_en": "<b>KF:</b>  My friend was sad because she couldn't participate.  She lives nearby and walks to school.  There should have been other ways to take part.",
+        "example_ja": "KF：友達が参加できなくて悲しんでいました。友達は近くに住んでいて、徒歩通学しています。他の参加方法があるべきだったと思います。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4113,6 +5103,9 @@
       },
       {
         "term_en": "sleeping",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -4124,6 +5117,9 @@
       },
       {
         "term_en": "stuffing",
+        "term_ja": "（未登録）",
+        "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+        "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
         "question_id": "A_問2",
         "answer_number": 17,
         "evidence_sentences": [
@@ -4134,6 +5130,9 @@
       },
       {
         "term_en": "tent",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -4145,6 +5144,9 @@
       },
       {
         "term_en": "that",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -4156,6 +5158,9 @@
       },
       {
         "term_en": "that",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4164,6 +5169,9 @@
       },
       {
         "term_en": "That means putting your sleeping bag at the bottom",
+        "term_ja": "（未登録）",
+        "example_en": "The first thing is to divide your backpack into three main parts and put the heaviest items in the middle section to balance the backpack.",
+        "example_ja": "まず、リュックを大きく3つの部分に分け、バランスをとるために一番重いものを中央の部分に入れることです。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -4175,6 +5183,9 @@
       },
       {
         "term_en": "this",
+        "term_ja": "（未登録）",
+        "example_en": "We started this activity to help students use their commuting time more effectively.",
+        "example_ja": "私たちは、生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました。",
         "question_id": "A_問2",
         "answer_number": 17,
         "evidence_sentences": [
@@ -4185,6 +5196,9 @@
       },
       {
         "term_en": "This stuffing method",
+        "term_ja": "（未登録）",
+        "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+        "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
         "question_id": "A_問2",
         "answer_number": 17,
         "evidence_sentences": [
@@ -4195,6 +5209,9 @@
       },
       {
         "term_en": "three-digit",
+        "term_ja": "（未登録）",
+        "example_en": "Remember that the puzzles should get progressively more difficult near the final goal.",
+        "example_ja": "最終目標に近づくにつれてパズルは次第に難しくしていくことを忘れないでください。",
         "question_id": "B_問2",
         "answer_number": 22,
         "evidence_sentences": [
@@ -4203,6 +5220,9 @@
       },
       {
         "term_en": "warm",
+        "term_ja": "（未登録）",
+        "example_en": "Although I put on extra layers of clothes before going to sleep, I was still cold.",
+        "example_ja": "寝る前に重ね着をたくさん着ましたが、それでもまだ寒かったです。",
         "question_id": "A_問2",
         "answer_number": 17,
         "evidence_sentences": [
@@ -4213,6 +5233,9 @@
       },
       {
         "term_en": "your",
+        "term_ja": "（未登録）",
+        "example_en": "Instructions: Which performance would you like to attend?  Fill in the form below and hand it in to your teacher today.",
+        "example_ja": "指示：どちらの公演に行きたいですか。以下のフォームに記入して、本日、先生に渡してください。",
         "question_id": "A_問1",
         "answer_number": 16,
         "evidence_sentences": [
@@ -4226,6 +5249,9 @@
     "5": [
       {
         "term_en": "easier",
+        "term_ja": "（未登録）",
+        "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+        "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
         "question_id": "問1",
         "answer_number": 30,
         "evidence_sentences": [
@@ -4234,6 +5260,9 @@
       },
       {
         "term_en": "individually",
+        "term_ja": "個別に、個人で",
+        "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+        "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
         "question_id": "問1",
         "answer_number": 30,
         "evidence_sentences": [
@@ -4242,6 +5271,9 @@
       },
       {
         "term_en": "it would be easier for me to play individually",
+        "term_ja": "（未登録）",
+        "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+        "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
         "question_id": "問1",
         "answer_number": 30,
         "evidence_sentences": [
@@ -4250,6 +5282,9 @@
       },
       {
         "term_en": "medal",
+        "term_ja": "（未登録）",
+        "example_en": "At first, I lost more games than I won. I was frustrated and often went straight home after practice, not speaking to anyone. One day, however, Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game. What do you think you need to do?\" \"I don't know,\" I replied, \"focus on the ball more?\" \"Yes,\" Mr Trent continued, \"but you also need to study your opponent's moves and adjust your play accordingly. Remember, your opponent is a person, not a ball.\" This made a deep impression on me.",
+        "example_ja": "最初のうちは、勝つより負ける試合のほうが多くありました。私はいら立って、練習後は誰とも話さずまっすぐ家に帰ることがよくありました。しかしある日、トレント先生が私にこう言いました。「ベン、お前はいい選手になれる。でももっと自分のプレーを考えなければならない。何をすべきだと思う？」 私は「わかりません。もっとボールに集中することですか？」と答えました。「そうだ」と先生は続けました。「だが相手の動きも研究して、それに合わせてプレーを調整する必要がある。覚えておけ、相手は人間であってボールじゃない。」この言葉は私に強い印象を与えました。",
         "question_id": "問3",
         "answer_number": 32,
         "evidence_sentences": [
@@ -4261,6 +5296,9 @@
       },
       {
         "term_en": "play",
+        "term_ja": "（未登録）",
+        "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+        "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
         "question_id": "問1",
         "answer_number": 30,
         "evidence_sentences": [
@@ -4269,6 +5307,9 @@
       },
       {
         "term_en": "silver",
+        "term_ja": "（未登録）",
+        "example_en": "At first, I lost more games than I won. I was frustrated and often went straight home after practice, not speaking to anyone. One day, however, Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game. What do you think you need to do?\" \"I don't know,\" I replied, \"focus on the ball more?\" \"Yes,\" Mr Trent continued, \"but you also need to study your opponent's moves and adjust your play accordingly. Remember, your opponent is a person, not a ball.\" This made a deep impression on me.",
+        "example_ja": "最初のうちは、勝つより負ける試合のほうが多くありました。私はいら立って、練習後は誰とも話さずまっすぐ家に帰ることがよくありました。しかしある日、トレント先生が私にこう言いました。「ベン、お前はいい選手になれる。でももっと自分のプレーを考えなければならない。何をすべきだと思う？」 私は「わかりません。もっとボールに集中することですか？」と答えました。「そうだ」と先生は続けました。「だが相手の動きも研究して、それに合わせてプレーを調整する必要がある。覚えておけ、相手は人間であってボールじゃない。」この言葉は私に強い印象を与えました。",
         "question_id": "問3",
         "answer_number": 32,
         "evidence_sentences": [
@@ -4280,6 +5321,9 @@
       },
       {
         "term_en": "silver medal",
+        "term_ja": "（未登録）",
+        "example_en": "At first, I lost more games than I won. I was frustrated and often went straight home after practice, not speaking to anyone. One day, however, Mr Trent said to me, \"You could be a good player, Ben, but you need to think more about your game. What do you think you need to do?\" \"I don't know,\" I replied, \"focus on the ball more?\" \"Yes,\" Mr Trent continued, \"but you also need to study your opponent's moves and adjust your play accordingly. Remember, your opponent is a person, not a ball.\" This made a deep impression on me.",
+        "example_ja": "最初のうちは、勝つより負ける試合のほうが多くありました。私はいら立って、練習後は誰とも話さずまっすぐ家に帰ることがよくありました。しかしある日、トレント先生が私にこう言いました。「ベン、お前はいい選手になれる。でももっと自分のプレーを考えなければならない。何をすべきだと思う？」 私は「わかりません。もっとボールに集中することですか？」と答えました。「そうだ」と先生は続けました。「だが相手の動きも研究して、それに合わせてプレーを調整する必要がある。覚えておけ、相手は人間であってボールじゃない。」この言葉は私に強い印象を与えました。",
         "question_id": "問3",
         "answer_number": 32,
         "evidence_sentences": [
@@ -4291,6 +5335,9 @@
       },
       {
         "term_en": "would",
+        "term_ja": "（未登録）",
+        "example_en": "I had to leave the football club when my family moved to a new town. I wasn't upset as I had decided to stop playing football anyway. My new school had a table tennis club, coached by the PE teacher, Mr Trent, and I joined that. To be honest, I chose table tennis because I thought it would be easier for me to play individually.",
+        "example_ja": "家族が新しい町へ引っ越したとき、私はサッカー部を辞めなければなりませんでした。どうせサッカーをやめるつもりだったので、落ち込みはしませんでした。新しい学校には体育教師トレント先生が指導する卓球部があり、私はそこに入りました。正直に言うと、私は一人でプレーするほうが自分には楽だと思って卓球を選びました。",
         "question_id": "問1",
         "answer_number": 30,
         "evidence_sentences": [

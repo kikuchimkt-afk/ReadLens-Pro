@@ -515,6 +515,46 @@ body {
 .stat-remaining { color: #b0722f; }
 .stat-learned { color: #357f67; }
 
+.vocab-section-picker {
+  border: 1px solid #e5d7c7;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 6px 0 12px;
+  background: #fffdf9;
+}
+.vocab-section-title {
+  font-size: 0.84rem;
+  color: #7f6d5e;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.vocab-section-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 8px;
+  margin-top: 6px;
+}
+.vocab-section-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #eadfce;
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 0.86rem;
+  color: #5f5043;
+  background: #fff;
+}
+.vocab-section-item-all {
+  background: #fcf5ec;
+}
+.vocab-section-count {
+  margin-left: auto;
+  color: #8f6f5d;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
 .vocab-order-toggle {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -710,6 +750,9 @@ body {
   .vocab-modal-dialog {
     width: 96vw;
     margin-top: 2vh;
+  }
+  .vocab-section-list {
+    grid-template-columns: 1fr;
   }
   .vocab-term-en {
     font-size: 1.7rem;

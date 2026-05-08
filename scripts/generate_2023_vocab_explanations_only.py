@@ -17,6 +17,59 @@ def main() -> None:
     src = pathlib.Path(in_arg)
     data = json.loads(src.read_text(encoding="utf-8"))
 
+    # 既存の手動語彙（term_ja付き）が同フォルダにある場合は訳を流用
+    term_ja_lookup = {}
+    manual_vocab = src.parent / "vocabulary_from_explanations.json"
+    if manual_vocab.exists():
+        try:
+            mv = json.loads(manual_vocab.read_text(encoding="utf-8"))
+            for e in mv.get("entries", []):
+                ten = str(e.get("term_en", "")).strip().lower()
+                tja = str(e.get("term_ja", "")).strip()
+                if ten and tja:
+                    term_ja_lookup[ten] = tja
+        except Exception:
+            pass
+
+    # sentence id -> {en, ja}
+    sentence_map = {}
+
+    def add_sentence(obj):
+        if not isinstance(obj, dict):
+            return
+        sid = obj.get("id")
+        if sid and (obj.get("en") or obj.get("ja")):
+            sentence_map[sid] = {"en": obj.get("en", ""), "ja": obj.get("ja", "")}
+
+    def walk_para(node):
+        if isinstance(node, list):
+            for x in node:
+                walk_para(x)
+            return
+        if isinstance(node, dict):
+            add_sentence(node)
+            if isinstance(node.get("items"), list):
+                for it in node["items"]:
+                    walk_para(it)
+
+    for sec in data.get("sections", []):
+        passages = []
+        if sec.get("subsections"):
+            for sub in sec["subsections"]:
+                passages.extend(sub.get("passages", []))
+        else:
+            passages.extend(sec.get("passages", []))
+        for p in passages:
+            if isinstance(p.get("sentences"), list):
+                for s in p["sentences"]:
+                    add_sentence(s)
+            if isinstance(p.get("paragraphs"), list):
+                for para in p["paragraphs"]:
+                    walk_para(para)
+            if isinstance(p.get("floating_aside"), dict) and isinstance(p["floating_aside"].get("sentences"), list):
+                for s in p["floating_aside"]["sentences"]:
+                    add_sentence(s)
+
     # 解説文の和文中に出る英語語句（1語/複数語）だけ抽出
     word_re = re.compile(r"[A-Za-z][A-Za-z'\-]+")
     phrase_re = re.compile(r"[A-Za-z][A-Za-z'\-]+(?:\s+[A-Za-z][A-Za-z'\-]+)+")
@@ -27,7 +80,29 @@ def main() -> None:
         if not t:
             return
         key = t.lower()
-        rec = entries.setdefault(key, {"term_en": t, "occurrences": []})
+        ex_en = ""
+        ex_ja = ""
+        if evidence_sentences:
+            for sid in evidence_sentences:
+                if sid in sentence_map:
+                    ex_en = sentence_map[sid].get("en", "") or ""
+                    ex_ja = sentence_map[sid].get("ja", "") or ""
+                    break
+        rec = entries.setdefault(
+            key,
+            {
+                "term_en": t,
+                "term_ja": term_ja_lookup.get(key, "（未登録）"),
+                "example_en": ex_en,
+                "example_ja": ex_ja,
+                "occurrences": [],
+            },
+        )
+        # 先に空なら例文を補完
+        if (not rec.get("example_en")) and ex_en:
+            rec["example_en"] = ex_en
+        if (not rec.get("example_ja")) and ex_ja:
+            rec["example_ja"] = ex_ja
         occ = {
             "section_number": sec,
             "question_id": qid,
@@ -104,6 +179,9 @@ def main() -> None:
             by_section.setdefault(sec, []).append(
                 {
                     "term_en": e["term_en"],
+                    "term_ja": e.get("term_ja", "（未登録）"),
+                    "example_en": e.get("example_en", ""),
+                    "example_ja": e.get("example_ja", ""),
                     "question_id": occ["question_id"],
                     "answer_number": occ["answer_number"],
                     "evidence_sentences": occ.get("evidence_sentences", []),

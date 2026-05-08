@@ -446,6 +446,8 @@ const vocabState = {
   examId: '',
   examTitle: '',
   allCards: [],
+  selectedSections: new Set(),
+  sectionCounts: new Map(),
   deck: [],
   index: 0,
   side: 'front',
@@ -493,6 +495,15 @@ function ensureVocabModal() {
             <div class="vocab-stat-card"><div class="vocab-stat-num stat-total">0</div><div class="vocab-stat-label">全単語</div></div>
             <div class="vocab-stat-card"><div class="vocab-stat-num stat-remaining">0</div><div class="vocab-stat-label">残り</div></div>
             <div class="vocab-stat-card"><div class="vocab-stat-num stat-learned">0</div><div class="vocab-stat-label">覚えた</div></div>
+          </div>
+          <div class="vocab-section-picker">
+            <div class="vocab-section-title">出題範囲（大問）</div>
+            <label class="vocab-section-item vocab-section-item-all">
+              <input type="checkbox" class="vocab-section-all" checked />
+              <span>全部</span>
+              <span class="vocab-section-count section-count-all">0語</span>
+            </label>
+            <div class="vocab-section-list"></div>
           </div>
           <div class="vocab-order-toggle">
             <button type="button" class="vocab-order-btn active" data-mode="inorder">出現順</button>
@@ -547,7 +558,6 @@ function ensureVocabModal() {
   vocabState.modal = wrap;
 
   wrap.querySelector('.vocab-close-btn').addEventListener('click', closeVocabModal);
-  wrap.querySelector('.vocab-modal-backdrop').addEventListener('click', closeVocabModal);
   wrap.querySelector('.vocab-start-btn').addEventListener('click', startVocabStudy);
   wrap.querySelector('.vocab-reset-btn').addEventListener('click', resetUnknownRecord);
   wrap.querySelector('.vocab-autoplay-check').addEventListener('change', (e) => {
@@ -568,10 +578,14 @@ function ensureVocabModal() {
   wrap.querySelector('.vocab-still-btn').addEventListener('click', () => markCard(false));
   wrap.querySelector('.vocab-learned-btn').addEventListener('click', () => markCard(true));
   wrap.querySelector('.vocab-end-btn').addEventListener('click', finishAndBackToSetup);
+  wrap.querySelector('.vocab-section-all').addEventListener('change', handleToggleAllSections);
+  wrap.querySelector('.vocab-section-list').addEventListener('change', handleToggleSectionItem);
 
   document.addEventListener('keydown', (ev) => {
     if (!vocabState.modal || vocabState.modal.classList.contains('hidden')) return;
-    if (ev.key === 'Escape') closeVocabModal();
+    if (ev.key === 'Escape') {
+      ev.preventDefault();
+    }
   });
 }
 
@@ -597,6 +611,8 @@ async function openVocabModal(examId, dataPath, vocabPath) {
       alert('語彙データが空です。');
       return;
     }
+    vocabState.sectionCounts = buildSectionCounts(vocabState.allCards);
+    vocabState.selectedSections = new Set([...vocabState.sectionCounts.keys()]);
     const unknownRaw = localStorage.getItem(getUnknownStorageKey(examId));
     let unknownList = [];
     if (unknownRaw) {
@@ -634,8 +650,12 @@ function showVocabSetup() {
     btn.classList.toggle('active', btn.dataset.mode === vocabState.orderMode);
   });
 
-  const total = vocabState.allCards.length;
-  const stillCnt = vocabState.unknownTerms.size;
+  renderSectionPicker();
+
+  const selectedCards = getCardsBySelectedSections(vocabState.allCards);
+  const total = selectedCards.length;
+  const selectedTermSet = new Set(selectedCards.map(c => c.termEn.toLowerCase()));
+  const stillCnt = [...vocabState.unknownTerms].filter(t => selectedTermSet.has(t)).length;
   const learned = Math.max(0, total - stillCnt);
   const remaining = Math.max(0, total - learned);
   m.querySelector('.stat-total').textContent = String(total);
@@ -645,8 +665,13 @@ function showVocabSetup() {
 
 function startVocabStudy() {
   if (!vocabState.modal) return;
+  const selected = getCardsBySelectedSections(vocabState.allCards);
+  if (!selected.length) {
+    alert('学習する大問を1つ以上選択してください。');
+    return;
+  }
   vocabState.mode = 'all';
-  vocabState.deck = [...vocabState.allCards];
+  vocabState.deck = [...selected];
   if (vocabState.orderMode === 'random') {
     shuffleArray(vocabState.deck);
   }
@@ -713,7 +738,7 @@ function normalizeVocabCards(vocabData) {
   const entries = Array.isArray(vocabData?.entries) ? vocabData.entries : [];
   const cards = [];
   for (const e of entries) {
-    const term = String(e.term_en || '').trim();
+    const term = cleanCardText(e.term_en);
     if (!term) continue;
     const occs = Array.isArray(e.occurrences) ? e.occurrences : [];
     occs.sort((a, b) => {
@@ -723,17 +748,17 @@ function normalizeVocabCards(vocabData) {
       return String(a.answer_number || '').localeCompare(String(b.answer_number || ''), 'ja');
     });
     const first = occs[0] || {};
-    let exEn = '';
-    let exJa = '';
+    let exEn = cleanCardText(e.example_en);
+    let exJa = cleanCardText(e.example_ja);
     const ids = Array.isArray(first.evidence_sentences) ? first.evidence_sentences : [];
-    if (ids.length && vocabState.sentenceMap.has(ids[0])) {
+    if ((!exEn || !exJa) && ids.length && vocabState.sentenceMap.has(ids[0])) {
       const x = vocabState.sentenceMap.get(ids[0]);
-      exEn = x.en || '';
-      exJa = x.ja || '';
+      exEn = exEn || cleanCardText(x.en);
+      exJa = exJa || cleanCardText(x.ja);
     }
     cards.push({
       termEn: term,
-      termJa: e.term_ja || '（訳未登録）',
+      termJa: cleanCardText(e.term_ja) || '（訳未登録）',
       section: first.section_number,
       questionId: first.question_id,
       answerNumber: first.answer_number,
@@ -824,7 +849,8 @@ function moveCard(delta) {
   if (next < 0) next = 0;
   if (next >= vocabState.deck.length) {
     if (vocabState.mode === 'all') {
-      const unknownCards = vocabState.allCards.filter(c => vocabState.unknownTerms.has(c.termEn.toLowerCase()));
+      const unknownCards = getCardsBySelectedSections(vocabState.allCards)
+        .filter(c => vocabState.unknownTerms.has(c.termEn.toLowerCase()));
       if (unknownCards.length > 0) {
         vocabState.mode = 'retry';
         vocabState.deck = [...unknownCards];
@@ -873,4 +899,70 @@ function playHintAudio() {
   const card = currentCard();
   if (!card) return;
   speakText(card.exampleEn || card.termEn, { lang: 'en-US', rate: 0.9 });
+}
+
+function cleanCardText(value) {
+  return String(value || '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function normalizeSectionValue(value) {
+  return String(value ?? '').trim();
+}
+
+function buildSectionCounts(cards) {
+  const counts = new Map();
+  for (const c of cards) {
+    const sec = normalizeSectionValue(c.section);
+    if (!sec) continue;
+    counts.set(sec, (counts.get(sec) || 0) + 1);
+  }
+  return new Map(
+    [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'ja', { numeric: true }))
+  );
+}
+
+function getCardsBySelectedSections(cards) {
+  return cards.filter(c => vocabState.selectedSections.has(normalizeSectionValue(c.section)));
+}
+
+function renderSectionPicker() {
+  const m = vocabState.modal;
+  if (!m) return;
+  const listEl = m.querySelector('.vocab-section-list');
+  const allEl = m.querySelector('.vocab-section-all');
+  const allCntEl = m.querySelector('.section-count-all');
+  const sections = [...vocabState.sectionCounts.entries()];
+  listEl.innerHTML = sections
+    .map(([sec, cnt]) => {
+      const checked = vocabState.selectedSections.has(sec) ? 'checked' : '';
+      return `<label class="vocab-section-item"><input type="checkbox" class="vocab-section-check" value="${sec}" ${checked} /><span>第${sec}問</span><span class="vocab-section-count">${cnt}語</span></label>`;
+    })
+    .join('');
+  const selectedCount = vocabState.selectedSections.size;
+  allEl.checked = selectedCount === sections.length;
+  allEl.indeterminate = selectedCount > 0 && selectedCount < sections.length;
+  allCntEl.textContent = `${vocabState.allCards.length}語`;
+}
+
+function handleToggleAllSections(ev) {
+  const checked = !!ev.target.checked;
+  vocabState.selectedSections = checked
+    ? new Set([...vocabState.sectionCounts.keys()])
+    : new Set();
+  showVocabSetup();
+}
+
+function handleToggleSectionItem(ev) {
+  const target = ev.target;
+  if (!(target instanceof HTMLInputElement)) return;
+  if (!target.classList.contains('vocab-section-check')) return;
+  const sec = normalizeSectionValue(target.value);
+  if (!sec) return;
+  if (target.checked) vocabState.selectedSections.add(sec);
+  else vocabState.selectedSections.delete(sec);
+  showVocabSetup();
 }
