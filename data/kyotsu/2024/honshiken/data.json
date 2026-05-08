@@ -1907,7 +1907,8 @@
           "images": [
             {
               "src": "images/s4_graph.png",
-              "paragraph_index": 1
+              "paragraph_index": 1,
+              "position": "block"
             }
           ]
         },
