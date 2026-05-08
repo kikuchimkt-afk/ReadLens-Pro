@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   try {
-    const resp = await fetch(dataPath);
+    const resp = await fetch(dataPath + '?v=' + new Date().getTime());
     currentData = await resp.json();
   } catch (e) {
     document.getElementById('passage-content').innerHTML = '<p class="pane-loading">データの読み込みに失敗しました。</p>';
@@ -1210,7 +1210,9 @@ function renderPassage() {
             const imgBase = currentDataPath.replace(/data\.json$/, '');
             for (const img of passage.images) {
               if (img.paragraph_index === pi) {
-                const floatClass = img.position === 'float-left' ? 'passage-img-float-left' : 'passage-img-float-right';
+                let floatClass = 'passage-img-float-right';
+                if (img.position === 'float-left') floatClass = 'passage-img-float-left';
+                else if (img.position === 'block' || img.position === 'center') floatClass = 'passage-img-block';
                 const styleAttr = img.max_width ? ` style="max-width:${img.max_width}px"` : '';
                 const rawSrc = img.src || '';
                 const imgSrc =

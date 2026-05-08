@@ -3074,3 +3074,6 @@
   margin-bottom: 20px;
   clear: right;
 }
+
+.passage-img-block { display: block; margin: 0 auto 1rem; max-width: 100%; float: none; clear: both; }
+

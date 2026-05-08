@@ -10,7 +10,8 @@
     "implemented_sections": [
       1,
       2,
-      3
+      3,
+      4
     ],
     "section_list": [
       1,
@@ -1701,6 +1702,546 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "section_number": 4,
+      "title": "第4問",
+      "points": 16,
+      "situation": {
+        "en": "Your college English club's room has several problems and you want to redesign it.  Based on the following article and the results of a questionnaire given to members, you make a handout for a group discussion.",
+        "ja": "あなたの大学の英語クラブの部室にはいくつかの問題があり，あなたは部室を改装したいと思っています。以下の記事と部員を対象としたアンケート結果に基づいて，あなたはグループ討論のための資料を作成します。"
+      },
+      "passages": [
+        {
+          "id": "article_4",
+          "title": {
+            "en": "What Makes a Good Classroom?",
+            "ja": "良い教室には何が必要か？"
+          },
+          "subtitle": {
+            "en": "Diana Bashworth, writer at Trends in Education",
+            "ja": "ダイアナ・バッシュワース，Trends in Education ライター"
+          },
+          "framed": true,
+          "paragraphs": [
+            [
+              {
+                "id": "4_s1",
+                "en": "As many schools work to improve their classrooms, it is important to have some ideas for making design decisions.",
+                "ja": "多くの学校が教室の改善に取り組んでいる今，デザインについての決定を行うためのアイディアをいくつか持っておくのは大事なことです。"
+              },
+              {
+                "id": "4_s2",
+                "en": "SIN, which stands for Stimulation, Individualization, and Naturalness, is a framework that might be helpful to consider when designing classrooms.",
+                "ja": "SIN とは「刺激（Stimulation）」，「個別化（Individualization）」，「自然らしさ（Naturalness）」を表し，これは教室のデザインを考える時に考慮に入れると役に立つかもしれないフレームワークです。"
+              }
+            ],
+            [
+              {
+                "id": "4_s3",
+                "en": "The first, Stimulation, has two aspects: color and complexity.",
+                "ja": "第1の「刺激」には2つの面があります。色と複雑さです。"
+              },
+              {
+                "id": "4_s4",
+                "en": "This has to do with the ceiling, floor, walls, and interior furnishings.",
+                "ja": "これは天井，床，壁，内装と関係があります。"
+              },
+              {
+                "id": "4_s5",
+                "en": "For example, a classroom that lacks colors might be uninteresting.",
+                "ja": "例えば，色合いに乏しい教室は退屈に感じるかもしれません。"
+              },
+              {
+                "id": "4_s6",
+                "en": "On the other hand, a classroom should not be too colorful.",
+                "ja": "その一方で，教室は華やかになりすぎてもいけません。"
+              },
+              {
+                "id": "4_s7",
+                "en": "A bright color could be used on one wall, on the floor, window coverings, or furniture.",
+                "ja": "明るい色を1枚の壁や，床や，窓おおいや，家具に用いるのはよいかもしれません。"
+              },
+              {
+                "id": "4_s8",
+                "en": "In addition, it can be visually distracting to have too many things displayed on walls.",
+                "ja": "加えて，壁にあまりに多くのものを飾っておくと，目を奪われて気が散ることがあります。"
+              },
+              {
+                "id": "4_s9",
+                "en": "It is suggested that 20 to 30 percent of wall space remain free.",
+                "ja": "壁面空間の20から30パーセントは空けておくことが勧められています。"
+              }
+            ],
+            [
+              {
+                "id": "4_s10",
+                "en": "The next item in the framework is Individualization, which includes two considerations: ownership and flexibility.",
+                "ja": "このフレームワークの次の項目は「個別化」ですが，ここにおいて考慮されるのは，オーナーシップとフレキシビリティの2点です。"
+              },
+              {
+                "id": "4_s11",
+                "en": "Ownership refers to whether the classroom feels personalized.",
+                "ja": "オーナーシップとは，教室が一人一人に合わせて作られていると感じるかどうかを指します。"
+              },
+              {
+                "id": "4_s12",
+                "en": "Examples of this include having chairs and desks that are suitable for student sizes and ages, and providing storage space and areas for displaying student works or projects.",
+                "ja": "この例に含まれるのは，生徒の体の大きさや年齢に適した椅子や机があること，収納スペースや生徒の作品や学習課題を展示するための場所を備えていることなどです。"
+              },
+              {
+                "id": "4_s13",
+                "en": "Flexibility is about having a classroom that allows for different kinds of activities.",
+                "ja": "フレキシビリティとは要するに，様々な種類の活動を可能にする教室があるということです。"
+              }
+            ],
+            [
+              {
+                "id": "4_s14",
+                "en": "Naturalness relates to the quality and quantity of light, both natural and artificial, and the temperature of the classroom.",
+                "ja": "「自然らしさ」とは，自然光と人工的な光の両方の質と量，そして教室の温度に関わるものです。"
+              },
+              {
+                "id": "4_s15",
+                "en": "Too much natural light may make screens and boards difficult to see; students may have difficulty reading or writing if there is a lack of light.",
+                "ja": "自然光が多すぎると，スクリーンやボードが見えづらくなり，光が乏しいと，生徒たちは読み書きがしづらいかもしれません。"
+              },
+              {
+                "id": "4_s16",
+                "en": "In addition, hot summer classrooms do not promote effective study.",
+                "ja": "また，暑い夏の教室は効果的な学習を促しません。"
+              },
+              {
+                "id": "4_s17",
+                "en": "Schools should install systems allowing for the adjustment of both light and temperature.",
+                "ja": "学校は光と温度の両方の調節を可能にする設備を導入するべきです。"
+              }
+            ],
+            [
+              {
+                "id": "4_s18",
+                "en": "While Naturalness is more familiar to us, and therefore often considered the priority, the other components are equally important.",
+                "ja": "「自然らしさ」は私たちにより馴染みがあり，それゆえしばしば優先事項と考えられますが，他の要素も同じくらい重要なのです。"
+              },
+              {
+                "id": "4_s19",
+                "en": "Hopefully, these ideas can guide your project to a successful end.",
+                "ja": "こういった考え方により，皆さんの取り組みが最終的に成功することを望んでいます。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "questionnaire_4",
+          "title": {
+            "en": "Results of the Questionnaire",
+            "ja": "アンケートの結果"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "4_q1",
+                "en": "Q1: Choose any items that match your use of the English club's room.",
+                "ja": "質問1：あなたの英語クラブの部室の利用法に合っている項目を選んでください。"
+              }
+            ],
+            [
+              {
+                "id": "4_q2",
+                "en": "Q2: What do you think about the current English club's room?",
+                "ja": "質問2：現在の英語クラブの部室についてどう思いますか。"
+              }
+            ],
+            [
+              {
+                "id": "4_q2_sub",
+                "en": "Main comments:",
+                "ja": "主なコメント："
+              }
+            ],
+            [
+              {
+                "id": "4_s1_comment",
+                "en": "Student 1 (S1): I can't see the projector screen and whiteboard well on a sunny day.  Also, there's no way to control the temperature.",
+                "ja": "生徒1（S1）：天気の良い日には，プロジェクターのスクリーンやホワイトボードがよく見えません。また，温度を調節する方法もありません。"
+              }
+            ],
+            [
+              {
+                "id": "4_s2_comment",
+                "en": "S2: By the windows, the sunlight makes it hard to read.  The other side of the room doesn't get enough light.  Also, the books are disorganized and the walls are covered with posters.  It makes me feel uncomfortable.",
+                "ja": "S2：窓際では，日光のせいで読むのに苦労します。教室の反対側だと十分な光量が得られません。また，本は整理されていなくて，壁はポスターだらけです。そのせいで居心地が悪く感じます。"
+              }
+            ],
+            [
+              {
+                "id": "4_s3_comment",
+                "en": "S3: The chairs don't really fit me and the desks are hard to move when we work in small groups.  Also, lots of members speak Japanese, even though it's an English club.",
+                "ja": "S3：椅子はあまり自分に合わず，小さなグループで活動する時には机を動かすのが大変です。また，ここは英語クラブなのに，多くの部員は日本語を話しています。"
+              }
+            ],
+            [
+              {
+                "id": "4_s4_comment",
+                "en": "S4: The pictures of foreign countries on the walls make me want to speak English.  Everyone likes the sofas—they are so comfortable that we often use the room for sleeping!",
+                "ja": "S4：壁に貼ってある外国の写真を見ると，英語を話したくなります。みんなソファが好きです。ソファはとても快適で，眠るために部室を利用することもよくあります！"
+              }
+            ],
+            [
+              {
+                "id": "4_s5_comment",
+                "en": "S5: The room is so far away, so I hardly ever go there!  Aren't there other rooms available?",
+                "ja": "S5：部室はとても遠いので，私はめったに行きません！ 他に利用できる部屋はないのでしょうか？"
+              }
+            ],
+            [
+              {
+                "id": "4_s6_comment",
+                "en": "S6: There's so much gray in the room.  I don't like it.  But it's good that there are plenty of everyday English phrases on the walls!",
+                "ja": "S6：部室は灰色の部分が多いですね。私は好きではありません。でも壁に日常英語のフレーズがたくさん掲げられているのはいいですね！"
+              }
+            ]
+          ],
+          "images": [
+            {
+              "src": "images/s4_graph.png",
+              "paragraph_index": 1
+            }
+          ]
+        },
+        {
+          "id": "handout_4",
+          "title": {
+            "en": "Room Improvement Project",
+            "ja": "部室改善プロジェクト"
+          },
+          "is_handout": true,
+          "sections_content": [
+            {
+              "heading": {
+                "en": "SIN Framework",
+                "ja": "SIN フレームワーク"
+              },
+              "items": [
+                {
+                  "en": "What it is: [24]",
+                  "ja": "どういうものか：[24]"
+                },
+                {
+                  "en": "SIN = Stimulation, Individualization, Naturalness",
+                  "ja": "SIN = 「刺激 (Stimulation)」, 「個別化 (Individualization)」, 「自然らしさ (Naturalness)」"
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Design Recommendations Based on SIN and Questionnaire Results",
+                "ja": "SIN とアンケート結果に基づくデザインの推奨案"
+              },
+              "sub_items": [
+                {
+                  "label": {
+                    "en": "Stimulation:",
+                    "ja": "「刺激」："
+                  },
+                  "content": {
+                    "en": "Cover the floor with a colorful rug and [25].",
+                    "ja": "床に色彩豊かな絨毯を敷いて，[25]。"
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Individualization:",
+                    "ja": "「個別化」："
+                  },
+                  "content": {
+                    "en": "Replace room furniture.\n(tables with wheels → easy to move around)",
+                    "ja": "部室の家具類を取り替える。\n(キャスター付きのテーブル→移動が簡単)"
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Naturalness:",
+                    "ja": "「自然らしさ」："
+                  },
+                  "content": {
+                    "en": "[26]\nA. Install blinds on windows.\nB. Make temperature control possible.\nC. Move projector screen away from windows.\nD. Place sofas near walls.\nE. Put floor lamp in darker corner.",
+                    "ja": "[26]\nA. 窓に日除けを取り付ける。\nB. 温度調節を可能にする。\nC. プロジェクターのスクリーンを窓から離す。\nD. ソファを壁の近くに置く。\nE. 暗い方のコーナーにフロアランプを置く。"
+                  }
+                }
+              ]
+            },
+            {
+              "heading": {
+                "en": "Other Issues to Discuss",
+                "ja": "その他の議論すべき問題"
+              },
+              "items": [
+                {
+                  "en": "The majority of members [27] the room, as mentioned in [28]'s comment. How can we improve this?",
+                  "ja": "[28]のコメントが触れているように，部員の大多数が部室[27]。これはどうすれば改善できるか？"
+                },
+                {
+                  "en": "Based on both the graph and [29]'s comment, should we make a rule about language in the room to motivate members to speak English more?",
+                  "ja": "グラフと[29]のコメントに基づいて，部員たちに英語をもっと話そうという気にさせるため，部室内での言葉に関するルールを定める方がよいだろうか？"
+                },
+                {
+                  "en": "S5 doesn't like the location of the room, but we cannot change rooms, so let's think of ways to encourage members to visit the room more often.",
+                  "ja": "S5は部室の場所が好きではないが，部室を変更することはできないので，部員が部室をより頻繁に訪れるのを促す方法を考えよう。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 24,
+          "stem": {
+            "en": "Choose the best option for [24].",
+            "ja": "「[24]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A guide to show which colors are appropriate to use in classrooms",
+              "ja": "どの色が教室で使うのに適しているかを示してくれる指標"
+            },
+            {
+              "label": "②",
+              "en": "A method to prioritize the needs of students and teachers in classrooms",
+              "ja": "教室での生徒と先生の必要に優先順位をつける方法"
+            },
+            {
+              "label": "③",
+              "en": "A model to follow when planning classroom environments",
+              "ja": "教室環境を設計する際に従うべきモデル"
+            },
+            {
+              "label": "④",
+              "en": "A system to understand how classrooms influence students' performance",
+              "ja": "教室が生徒の成績にどのように影響を及ぼすかを理解するためのシステム"
+            }
+          ],
+          "answer": 3,
+          "explanation": {
+            "ja": "正解は③。空所[24]には，SIN Frameworkの一般的特徴を的確に言い表したもの（What it is）が入る。冒頭の記事の第1段落第2文（SIN, which stands for ...）に，「SINとは『刺激（Stimulation）』，『個別化（Individualization）』，『自然らしさ（Naturalness）』を表し，これは教室のデザインを考える時に考慮に入れると役に立つかもしれないフレームワークです」とあることから，下線部の内容に最も近い③が正解となる。③の中の「教室環境（classroom environments）」とは，「教室内での学習活動に影響を及ぼす事物・状況」を表している。このようにSINは，教室のデザインを考える際の指標として適しているものであり，SINによって，教室が生徒の成績にどのように影響を及ぼすかが理解できる，とは述べられていない。したがって④は，SINの一般的特徴を表しているとは言えない。またSINは「教室の色」のみに関するものではないので，①も誤りである。②のようなことも本文では述べられていない。",
+            "evidence_sentences": [
+              "4_s2"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 25,
+          "stem": {
+            "en": "Choose the best option for [25].",
+            "ja": "「[25]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "move the screen to a better place",
+              "ja": "スクリーンをより良い場所に移動する"
+            },
+            {
+              "label": "②",
+              "en": "paint each wall a different color",
+              "ja": "それぞれの壁を違う色に塗る"
+            },
+            {
+              "label": "③",
+              "en": "put books on shelves",
+              "ja": "本を棚にしまう"
+            },
+            {
+              "label": "④",
+              "en": "reduce displayed items",
+              "ja": "展示［掲示］されている物を減らす"
+            }
+          ],
+          "answer": 4,
+          "explanation": {
+            "ja": "正解は④。空所[25]を含む文（Cover the floor ...）の内容を，SINにおける「刺激（Stimulation）」に関して述べられていることと，アンケート結果で述べられていることの両方から考えて「推奨されること（Recommendations）」にすることが求められている。\nまずSINにおける「刺激（Stimulation）」について述べられているのは，冒頭記事中の第2段落（The first, Stimulation, ...）なので，この段落の中で述べられていることと合う選択肢が正解の候補となる。第6文（In addition, ...）に，「加えて，壁にあまりに多くのものを飾ると，目を奪われて気が散ることがあります」とある。④は下線部と反対のことを述べているので，④は「刺激」の面から推奨されることであると考えられる。さらに，アンケート結果の質問2（Q2）に対する主なコメントの中でも，S2が「また，本は整理されていなくて，壁はポスターだらけです（Also, the books ...）。そのせいで居心地が悪く感じます（It makes me ...）」と述べている。この文の下線部も，やはり④の内容と反対のことを述べているので，④はアンケート結果に基づいても推奨されることと考えることができる。以上により④が正解に決まる。\n①の「スクリーン（の位置）」や，③の「本の整理」については，記事中で「刺激（Stimulation）」について述べている第2段落中に該当する記述がないので，いずれも正解にはなりえない。②については，第2段落第4文（On the other hand, ...）と第5文（A bright color ...）に，「その一方で，教室は華やかになりすぎてもいけません（should not be too colorful）。明るい色を1枚の壁（one wall）や，床や，窓おおいや，家具に用いるのはよいかもしれません」とある。下線部に注意することで，②の「それぞれの壁を違う色に塗る」は，記事の内容と合わないことがわかる。",
+            "evidence_sentences": [
+              "4_s8",
+              "4_s2_comment",
+              "4_s6",
+              "4_s7"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 26,
+          "stem": {
+            "en": "You are checking the handout.  You notice an error in the recommendations under Naturalness.  Which of the following should you remove? [26]",
+            "ja": "「あなたは資料をチェックしていて，『自然らしさ』の項にある推奨案の中の誤りに気づく。次の中で，取り除くべきものはどれか」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A"
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B"
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C"
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D"
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E"
+            }
+          ],
+          "answer": 4,
+          "explanation": {
+            "ja": "正解は④。冒頭記事の中で，「自然らしさ（Naturalness）」について述べられているのは第4段落（Naturalness relates to ...）なので，この段落の内容と合わない，あるいは無関係なものが正解となる。同段落第2文（Too much natural light ...）に「(1)自然光が多すぎると，スクリーンやボードが見えづらくなり，(2)光が乏しいと，生徒たちは読み書きがしづらいかもしれません」とある。Aの「窓に日除けを取り付ける」と，Cの「プロジェクターのスクリーンを窓から離す」は，いずれも下線部(1)の事態を解決するための推奨案として，適切な内容である。また，Eの「暗い方のコーナーにフロアランプを置く」は，下線部(2)の事態に対する推奨案として適切である。そしてBの「温度調節を可能にする」は，同段落最終文（Schools should install ...）に「学校は光と温度の両方の調節を可能にする設備を導入するべきです」とあることから考えて，やはり適切である。これに対して，Dの「ソファを壁の近くに置く」は，第4段落中に対応する記述がないことから，「自然らしさ」との関係性が乏しいため，これが正解となる。",
+            "evidence_sentences": [
+              "4_s14",
+              "4_s15",
+              "4_s17"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 27,
+          "stem": {
+            "en": "Choose the best options for [27] and [28].",
+            "ja": "「[27]と[28]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices_27": [
+            {
+              "label": "①",
+              "en": "borrow books from",
+              "ja": "から本を借りる"
+            },
+            {
+              "label": "②",
+              "en": "can't easily get to",
+              "ja": "に簡単に行けない"
+            },
+            {
+              "label": "③",
+              "en": "don't use Japanese in",
+              "ja": "で日本語を使わない"
+            },
+            {
+              "label": "④",
+              "en": "feel anxious in",
+              "ja": "で不安を感じる"
+            },
+            {
+              "label": "⑤",
+              "en": "take naps in",
+              "ja": "で仮眠をとる"
+            }
+          ],
+          "choices_28": [
+            {
+              "label": "①",
+              "en": "S1",
+              "ja": "S1"
+            },
+            {
+              "label": "②",
+              "en": "S2",
+              "ja": "S2"
+            },
+            {
+              "label": "③",
+              "en": "S3",
+              "ja": "S3"
+            },
+            {
+              "label": "④",
+              "en": "S4",
+              "ja": "S4"
+            },
+            {
+              "label": "⑤",
+              "en": "S5",
+              "ja": "S5"
+            },
+            {
+              "label": "⑥",
+              "en": "S6",
+              "ja": "S6"
+            }
+          ],
+          "answer": [
+            5,
+            4
+          ],
+          "explanation": {
+            "ja": "正解は[27]が⑤，[28]が④。部員の大多数（The majority of members）が部室に関して行っていることが[27]に入り，それについてコメントしている人物が[28]に入る。「部員の大多数が行っていること」と考えられるのは，「アンケートの結果（Results of the Questionnaire）」の「質問1（Q1）」の項にあるグラフを参照することで，38人中30人がしている「日本語でおしゃべりする（Chatting in Japanese）」と，32人がしている「眠る（Sleeping）」であるとわかる。この2つのうち，「日本語でおしゃべりする」は，選択肢に該当するものがなく，「眠る」は⑤の「仮眠（naps）をとる」に該当することから，[27]は⑤が正解となる。\nそして，「アンケートの結果」の「質問2（Q2）」の中のS4のコメントの第2文（Everyone likes the sofas ...）に，「みんなソファが好きです。ソファはとても快適で，眠るために（for sleeping）部室を利用することもよくあります」とあることから，[28]は④が正解となる。",
+            "evidence_sentences": [
+              "4_q1_data",
+              "4_s4_comment"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 29,
+          "stem": {
+            "en": "Choose the best option for [29].",
+            "ja": "「[29]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "S1",
+              "ja": "S1"
+            },
+            {
+              "label": "②",
+              "en": "S2",
+              "ja": "S2"
+            },
+            {
+              "label": "③",
+              "en": "S3",
+              "ja": "S3"
+            },
+            {
+              "label": "④",
+              "en": "S4",
+              "ja": "S4"
+            },
+            {
+              "label": "⑤",
+              "en": "S5",
+              "ja": "S5"
+            },
+            {
+              "label": "⑥",
+              "en": "S6",
+              "ja": "S6"
+            }
+          ],
+          "answer": 3,
+          "explanation": {
+            "ja": "正解は③。[29]を含む文（Based on both ...）の内容から，「部員が英語をもっと話す気にさせる（motivate members to speak English more）」ためのルール作りの必要性に関連するコメントをしている生徒が正解となる。S3のコメントの第2文（Also, lots of members ...）に「また，ここは英語クラブなのに，多くの部員は日本語を話しています」とあり，S3は英語を話す部員が少ないことを問題視していることが読み取れるので，③が正解となる。他の部員のコメントからは，このような問題意識は感じ取れないので，③以外は正解にはなれない。",
+            "evidence_sentences": [
+              "4_s3_comment"
+            ]
+          }
         }
       ]
     }
