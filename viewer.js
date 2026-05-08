@@ -243,7 +243,7 @@ function renderPassage() {
     const framedCls = passage.framed ? ' passage-section--framed' : '';
     const pamphletCls = passage.pamphlet_layout ? ' passage-section--pamphlet' : '';
     const floatWrapCls =
-      passage.image && passage.image.placement === 'before_subtitle'
+      (passage.image && passage.image.placement === 'before_subtitle') || passage.floating_aside
         ? ' passage-section--float-wrap'
         : '';
     const emailWinCls = passage.layout === 'email_window' ? ' passage-section--email-window' : '';

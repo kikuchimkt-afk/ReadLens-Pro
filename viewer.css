@@ -2179,7 +2179,8 @@
   clear: both;
 }
 
-/* タイトル直下の float 画像（追試験 大問2 など）— 段落ごとの clear を外し、画像下まで回り込ませる */
+/* タイトル直下の float 画像（追試験 大問2 等）および右ルール枠 floating_aside（2024 大問3A 等）—
+   段落ごとの clear を外し、float の下まで回り込ませる。.para-audio-row の flex をやめるのがポイント。 */
 .passage-section--float-wrap .para-content::after {
   content: none;
   display: none;
