@@ -472,7 +472,7 @@ function setupVocabLauncher() {
 }
 
 function getUnknownStorageKey(examId) {
-  return `readlens_vocab_unknown_${examId}`;
+  return `readlens_vocab_unknown_v2_${examId}`;
 }
 
 function ensureVocabModal() {
@@ -742,9 +742,8 @@ function normalizeVocabCards(vocabData) {
     if (!term) continue;
     const occs = Array.isArray(e.occurrences) ? e.occurrences : [];
     occs.sort((a, b) => {
-      const sa = String(a.section_number);
-      const sb = String(b.section_number);
-      if (sa !== sb) return sa.localeCompare(sb, 'ja');
+      const secCmp = compareSectionOrder(a.section_number, b.section_number);
+      if (secCmp !== 0) return secCmp;
       return String(a.answer_number || '').localeCompare(String(b.answer_number || ''), 'ja');
     });
     const first = occs[0] || {};
@@ -767,9 +766,8 @@ function normalizeVocabCards(vocabData) {
     });
   }
   cards.sort((a, b) => {
-    const sa = String(a.section);
-    const sb = String(b.section);
-    if (sa !== sb) return sa.localeCompare(sb, 'ja');
+    const secCmp = compareSectionOrder(a.section, b.section);
+    if (secCmp !== 0) return secCmp;
     return a.termEn.localeCompare(b.termEn, 'en');
   });
   return cards;
@@ -921,8 +919,29 @@ function buildSectionCounts(cards) {
     counts.set(sec, (counts.get(sec) || 0) + 1);
   }
   return new Map(
-    [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'ja', { numeric: true }))
+    [...counts.entries()].sort((a, b) => compareSectionOrder(a[0], b[0]))
   );
+}
+
+function parseSectionOrder(value) {
+  const raw = normalizeSectionValue(value);
+  const m = raw.match(/^(\d+)([A-Za-z]*)$/);
+  if (!m) {
+    return { main: Number.MAX_SAFE_INTEGER, suffix: raw.toUpperCase(), raw };
+  }
+  return {
+    main: Number(m[1]),
+    suffix: (m[2] || '').toUpperCase(),
+    raw,
+  };
+}
+
+function compareSectionOrder(a, b) {
+  const pa = parseSectionOrder(a);
+  const pb = parseSectionOrder(b);
+  if (pa.main !== pb.main) return pa.main - pb.main;
+  if (pa.suffix !== pb.suffix) return pa.suffix.localeCompare(pb.suffix, 'en');
+  return pa.raw.localeCompare(pb.raw, 'ja');
 }
 
 function getCardsBySelectedSections(cards) {

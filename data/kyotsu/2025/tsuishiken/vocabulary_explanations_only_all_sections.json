@@ -1,0 +1,5399 @@
+{
+  "meta": {
+    "exam": "共通テスト 2025年度 追試験",
+    "source": "c:/Users/user/Documents/GitHub/ReadLens-Pro/data/kyotsu/2025/tsuishiken/data.json",
+    "sections_in_data": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "constraint": "解説文（explanation.ja）内の英語語句のみに限定",
+    "sort_keys": {
+      "entries": [
+        "term_en"
+      ],
+      "by_section": [
+        "section_number",
+        "term_en",
+        "question_id",
+        "answer_number"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "term_en": "a dream come true",
+      "term_ja": "実現した夢；夢がかなうこと",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "a range of ...",
+      "term_ja": "さまざまな…",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "a variety of ...",
+      "term_ja": "さまざまな…",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "academic performance",
+      "term_ja": "学業成績",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "accessible",
+      "term_ja": "〈形〉行きやすい",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "accommodate",
+      "term_ja": "〈動〉…を収容する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "accompany",
+      "term_ja": "〈動〉…に付き添う",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "actual",
+      "term_ja": "〈形〉実際の",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "adventure",
+      "term_ja": "〈名〉冒険",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "advertise",
+      "term_ja": "〈動〉…を宣伝する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "afterward",
+      "term_ja": "〈副〉その後で",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "aggressive",
+      "term_ja": "〈形〉攻撃的な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "aisle seat",
+      "term_ja": "通路側の座席",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "allergy",
+      "term_ja": "〈名〉アレルギー",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "allow",
+      "term_ja": "〈動〉〈時間〉を見ておく［見込んでおく］",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "amazing",
+      "term_ja": "〈形〉すばらしい",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "angle",
+      "term_ja": "角度；観点",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "announcement",
+      "term_ja": "〈名〉案内；アナウンス",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "approach",
+      "term_ja": "〈動〉…に近づく",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "armrest",
+      "term_ja": "〈名〉肘掛け",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "arrange",
+      "term_ja": "〈動〉…を手配［準備］する ≒ organize",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "as a result",
+      "term_ja": "その結果",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "assign",
+      "term_ja": "〈動〉…を与える；課す",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "assignment",
+      "term_ja": "〈名〉課題",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "attend",
+      "term_ja": "〈動〉出席する；通う；行く",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "authorities",
+      "term_ja": "〈名〉当局；公共事業機関",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "available",
+      "term_ja": "利用できる；入手できる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "awareness",
+      "term_ja": "意識",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "awkward",
+      "term_ja": "〈形〉落ち着かない；気まずい",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "baked goods",
+      "term_ja": "焼き菓子",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "based on ...",
+      "term_ja": "…に基づいて",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "be cautious of ...",
+      "term_ja": "…に用心する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "be made of ...",
+      "term_ja": "…で作られて［できて］いる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "be superior to ...",
+      "term_ja": "…より優れている",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "behave",
+      "term_ja": "〈動〉振る舞う",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "benefit",
+      "term_ja": "〈名〉〈動〉恩恵（を得る）",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "breathe in",
+      "term_ja": "息を吸い込む",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "brilliant",
+      "term_ja": "〈形〉とても鮮やかな",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "by oneself",
+      "term_ja": "自分1人で",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "cabin",
+      "term_ja": "〈名〉船室",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "carelessly",
+      "term_ja": "〈副〉不注意に",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "celebrate",
+      "term_ja": "…を祝う",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "characteristic",
+      "term_ja": "〈名〉特徴",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "charge",
+      "term_ja": "〈動〉…を充電する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "child raising",
+      "term_ja": "育児；子育て",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "co-ordinate",
+      "term_ja": "〈動〉…を調整する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "come in ...",
+      "term_ja": "〈大きさ・色・種類など〉で手に入る［売られる］",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "concentrate",
+      "term_ja": "〈動〉集中する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "connect",
+      "term_ja": "〈動〉つながる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "connection",
+      "term_ja": "〈名〉つながり",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "content",
+      "term_ja": "〈名〉内容",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "cookie",
+      "term_ja": "〈名〉クッキー",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "crowded",
+      "term_ja": "〈形〉混み合った",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "current situation",
+      "term_ja": "現状",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "decorate",
+      "term_ja": "…を飾る",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "definitely",
+      "term_ja": "絶対に",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "delightful",
+      "term_ja": "楽しい；愉快な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "departure",
+      "term_ja": "〈名〉出発",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "describe",
+      "term_ja": "…を説明［描写］する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "desktop",
+      "term_ja": "卓上の",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "dig around",
+      "term_ja": "手を入れて探す",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "discount",
+      "term_ja": "（…を）割引（する）",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "double-check",
+      "term_ja": "〈動〉…を再確認する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "durable",
+      "term_ja": "耐久性のある；丈夫な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "ease",
+      "term_ja": "〈動〉和らぐ",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "effectively",
+      "term_ja": "効果的に",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "emerge",
+      "term_ja": "〈動〉現れる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "encouraging",
+      "term_ja": "励みになる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "erasable",
+      "term_ja": "消すことのできる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "erase",
+      "term_ja": "…を消す",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "essential",
+      "term_ja": "〈形〉不可欠な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "excellent",
+      "term_ja": "非常に優れた",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        },
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "expand",
+      "term_ja": "〈動〉…を拡大する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "explorer",
+      "term_ja": "〈名〉探検家",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "fancy",
+      "term_ja": "〈形〉高級な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "favorite",
+      "term_ja": "〈形〉お気に入りの",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "favour",
+      "term_ja": "賛成［支持］する（米: favor）",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "festival",
+      "term_ja": "〈名〉催し；祭り；フェスティバル",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "first things first",
+      "term_ja": "最も大事なことを最初に（しよう）；何はともあれ",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "flash by",
+      "term_ja": "さっと過ぎる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "florist",
+      "term_ja": "〈名〉花屋",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "flower arrangement",
+      "term_ja": "生け花",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "flyer",
+      "term_ja": "チラシ；びら",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "for a little bit",
+      "term_ja": "少しの時間",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "frustration",
+      "term_ja": "〈名〉失望；欲求不満",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "furthermore",
+      "term_ja": "さらに；加えて",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "gaze",
+      "term_ja": "〈動〉見つめる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "gear",
+      "term_ja": "〈名〉道具；装備 ≒ equipment",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "generous",
+      "term_ja": "〈形〉気前のよい",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "gladly",
+      "term_ja": "〈副〉喜んで；進んで",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "go against ...",
+      "term_ja": "…に従わない",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "go over ...",
+      "term_ja": "…を繰り返す［復習する］",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "guarantee",
+      "term_ja": "〈動〉…を保証する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "handling",
+      "term_ja": "〈名〉取り扱い",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "harm",
+      "term_ja": "〈名〉害",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "help oneself",
+      "term_ja": "遠慮なく取る",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "homestay",
+      "term_ja": "ホームステイ",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "homework-free",
+      "term_ja": "〈形〉宿題のない",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "host",
+      "term_ja": "〈自宅に留学生を迎える〉ホスト；主人役",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "household chores",
+      "term_ja": "家事",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "how about ...?",
+      "term_ja": "…はいかがですか〈提案〉",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "How about that!",
+      "term_ja": "驚いた！",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "hurriedly",
+      "term_ja": "〈副〉大急ぎで",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "impressed",
+      "term_ja": "〈形〉感動して",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "improve",
+      "term_ja": "…を改善する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        },
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "in conclusion",
+      "term_ja": "結論として；要するに",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "in general",
+      "term_ja": "概して",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "in person",
+      "term_ja": "直接自分で",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "in reply",
+      "term_ja": "返事として",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "include",
+      "term_ja": "〈動〉…を含む",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "innovator",
+      "term_ja": "〈名〉革新者",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "intelligent",
+      "term_ja": "〈形〉知的な；聡明な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "interest",
+      "term_ja": "〈名〉興味；関心",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "interfere with ...",
+      "term_ja": "…を妨害する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "interrupt",
+      "term_ja": "〈動〉…をさえぎる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "label",
+      "term_ja": "〈名〉ラベル",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "ladder",
+      "term_ja": "〈名〉ハシゴ",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "last",
+      "term_ja": "〈動〉続く",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "latest",
+      "term_ja": "〈形〉最新の",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "learning strategies",
+      "term_ja": "学習戦略",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "lesson materials",
+      "term_ja": "教材",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "limited to ...",
+      "term_ja": "…に限られた",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "look forward to ...",
+      "term_ja": "…を楽しみに待つ",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "ma'am",
+      "term_ja": "〈名〉奥様〈年上の女性へのていねいな呼びかけ語〉",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "majority",
+      "term_ja": "大部分",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "make sure (that) ...",
+      "term_ja": "…を確かめる［確実にする］",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        },
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "make sure that ...",
+      "term_ja": "…を確かめる［確実にする］",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "maturely",
+      "term_ja": "〈副〉大人のように",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "medical attention",
+      "term_ja": "医療；治療",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "memo pad",
+      "term_ja": "メモ帳",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "middle-aged",
+      "term_ja": "〈形〉中年の",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "missing",
+      "term_ja": "〈形〉欠けている",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "moderately",
+      "term_ja": "適度に；ほどほどに",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "monthly",
+      "term_ja": "1か月間の",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "motivate O to ~",
+      "term_ja": "Oを動機づけて～させる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "multiple",
+      "term_ja": "〈形〉多数の",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "nervous",
+      "term_ja": "〈形〉不安で；緊張して",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "nod",
+      "term_ja": "〈動〉うなずく",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "occupy",
+      "term_ja": "〈動〉…を使う；占める",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "one by one",
+      "term_ja": "１人ずつ",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "organizer",
+      "term_ja": "〈名〉主催者",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "out of ...",
+      "term_ja": "…がなくなって",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "participant",
+      "term_ja": "参加者",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "participate",
+      "term_ja": "参加する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "passenger",
+      "term_ja": "〈名〉乗客",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "perceive",
+      "term_ja": "…を知覚［認識］する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "planet",
+      "term_ja": "〈名〉惑星",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "planner",
+      "term_ja": "スケジュール帳；手帳",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "pleasure",
+      "term_ja": "〈名〉喜び；楽しさ",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "positive",
+      "term_ja": "〈形〉肯定的な；前向きの",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "prefer to ~",
+      "term_ja": "～する方を好む",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "preference",
+      "term_ja": "好み",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "preparation",
+      "term_ja": "〈名〉準備",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "present A with B",
+      "term_ja": "AにBを贈呈する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "preview",
+      "term_ja": "〈動〉…を下検分する；先立って見る",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "promising",
+      "term_ja": "有望な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "properly",
+      "term_ja": "〈副〉きちんと",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "propose",
+      "term_ja": "〈動〉…を提案する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "provide",
+      "term_ja": "〈動〉…を供給する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "pull into the station",
+      "term_ja": "駅に着く",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "purchase",
+      "term_ja": "（…を）購入（する）；購入品",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "reflect on ...",
+      "term_ja": "…を熟考する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "refresh",
+      "term_ja": "〈動〉…をさわやかにする；元気づける",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "refuse",
+      "term_ja": "〈動〉断る",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "regulations",
+      "term_ja": "〈名〉規則；規定",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "reject",
+      "term_ja": "〈動〉…を拒絶する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "relate to ...",
+      "term_ja": "…に関係がある；…のことを述べている",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "remind oneself",
+      "term_ja": "自分に言い聞かせる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "require",
+      "term_ja": "〈動〉…を要求する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "reset",
+      "term_ja": "〈動〉…を再起動する；修復する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "resident",
+      "term_ja": "住民",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "respond",
+      "term_ja": "〈動〉返答する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "respondent",
+      "term_ja": "回答者",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        },
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "responsibility",
+      "term_ja": "責任",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "retreat",
+      "term_ja": "〈動〉撤退する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "reunion",
+      "term_ja": "〈名〉再会",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "review",
+      "term_ja": "〈動〉…を復習する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "revision",
+      "term_ja": "〈名〉修正；変更",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "rice field",
+      "term_ja": "水田；稲田",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "rush",
+      "term_ja": "〈動〉急いで行く",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "safety",
+      "term_ja": "〈名〉安全",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "satisfactory",
+      "term_ja": "満足のゆく",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "school night",
+      "term_ja": "翌日学校がある夜",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "seasonal theme",
+      "term_ja": "季節のテーマ；季題",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "secret ingredient",
+      "term_ja": "秘密の材料；隠し味",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "sentiment",
+      "term_ja": "〈名〉感情",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "shift",
+      "term_ja": "〈動〉…を移動させる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "shy",
+      "term_ja": "〈形〉恥ずかしがりの",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "silence",
+      "term_ja": "〈名〉沈黙",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "special",
+      "term_ja": "特売品",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "specific",
+      "term_ja": "〈形〉特定の；明確な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "stationery",
+      "term_ja": "文房具",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "storage",
+      "term_ja": "〈名〉貯蔵",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "stranger",
+      "term_ja": "〈名〉見知らぬ人",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "suburban",
+      "term_ja": "〈形〉郊外の",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "successful",
+      "term_ja": "〈形〉成功した",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "summary sentence",
+      "term_ja": "要約文",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "supplies",
+      "term_ja": "用品",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "surface",
+      "term_ja": "〈名〉表面",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "take in",
+      "term_ja": "見てとる；じっくり見る",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "take out the rubbish",
+      "term_ja": "ゴミを出す",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "take over",
+      "term_ja": "引き継ぐ；優勢になる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "tap",
+      "term_ja": "〈名〉軽くたたくこと",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        },
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "tasty",
+      "term_ja": "おいしい",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "tempt O to ~",
+      "term_ja": "Oを（誘惑して）〜する気にさせる",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "tension",
+      "term_ja": "〈名〉緊張状態",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "thank you for asking",
+      "term_ja": "お気遣いありがとう",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "thankfully",
+      "term_ja": "〈副〉ありがたいことに",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "the following",
+      "term_ja": "次に述べること",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "thoroughly",
+      "term_ja": "〈副〉完全に",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "thought",
+      "term_ja": "〈名〉思考",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "thoughtfulness",
+      "term_ja": "〈名〉思いやり",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "time frame",
+      "term_ja": "時間枠；期間",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "trash disposal",
+      "term_ja": "ゴミ処理",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "tray",
+      "term_ja": "トレイ；整理箱",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "tune",
+      "term_ja": "〈名〉曲；メロディー",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "twist",
+      "term_ja": "〈動〉…をひねる；くじく",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "uneven",
+      "term_ja": "〈形〉でこぼこの",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "untidy",
+      "term_ja": "〈形〉乱雑な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "upcoming",
+      "term_ja": "〈形〉まもなくやって来る",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        },
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "upgrade",
+      "term_ja": "〈動〉…を改良する",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "Upon hearing ...",
+      "term_ja": "…を聞くと（すぐに）",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "vague",
+      "term_ja": "〈形〉あいまいな；漠然とした",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "vending machine",
+      "term_ja": "自動販売機",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "visible",
+      "term_ja": "〈形〉人目につく；目立つ",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "vital",
+      "term_ja": "〈形〉きわめて重要な",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "widen",
+      "term_ja": "〈動〉大きく開く",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "working hours",
+      "term_ja": "労働［勤務］時間",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    },
+    {
+      "term_en": "workshop",
+      "term_ja": "〈名〉ワークショップ；体験教室",
+      "example_en": "",
+      "example_ja": "",
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "section_vocabulary"
+        }
+      ]
+    }
+  ],
+  "by_section": {
+    "3": [
+      {
+        "term_en": "a dream come true",
+        "term_ja": "実現した夢；夢がかなうこと",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "amazing",
+        "term_ja": "〈形〉すばらしい",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "approach",
+        "term_ja": "〈動〉…に近づく",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "brilliant",
+        "term_ja": "〈形〉とても鮮やかな",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "cabin",
+        "term_ja": "〈名〉船室",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "charge",
+        "term_ja": "〈動〉…を充電する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "departure",
+        "term_ja": "〈名〉出発",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "double-check",
+        "term_ja": "〈動〉…を再確認する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "excellent",
+        "term_ja": "非常に優れた",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "explorer",
+        "term_ja": "〈名〉探検家",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "first things first",
+        "term_ja": "最も大事なことを最初に（しよう）；何はともあれ",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "gaze",
+        "term_ja": "〈動〉見つめる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "gear",
+        "term_ja": "〈名〉道具；装備 ≒ equipment",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "gladly",
+        "term_ja": "〈副〉喜んで；進んで",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "in person",
+        "term_ja": "直接自分で",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "innovator",
+        "term_ja": "〈名〉革新者",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "interrupt",
+        "term_ja": "〈動〉…をさえぎる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "ladder",
+        "term_ja": "〈名〉ハシゴ",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "latest",
+        "term_ja": "〈形〉最新の",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "make sure that ...",
+        "term_ja": "…を確かめる［確実にする］",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "one by one",
+        "term_ja": "１人ずつ",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "planet",
+        "term_ja": "〈名〉惑星",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "present A with B",
+        "term_ja": "AにBを贈呈する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "remind oneself",
+        "term_ja": "自分に言い聞かせる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "surface",
+        "term_ja": "〈名〉表面",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "take in",
+        "term_ja": "見てとる；じっくり見る",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "tap",
+        "term_ja": "〈名〉軽くたたくこと",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "thought",
+        "term_ja": "〈名〉思考",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "tune",
+        "term_ja": "〈名〉曲；メロディー",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "upgrade",
+        "term_ja": "〈動〉…を改良する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "Upon hearing ...",
+        "term_ja": "…を聞くと（すぐに）",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      }
+    ],
+    "1": [
+      {
+        "term_en": "a range of ...",
+        "term_ja": "さまざまな…",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "available",
+        "term_ja": "利用できる；入手できる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "celebrate",
+        "term_ja": "…を祝う",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "come in ...",
+        "term_ja": "〈大きさ・色・種類など〉で手に入る［売られる］",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "decorate",
+        "term_ja": "…を飾る",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "delightful",
+        "term_ja": "楽しい；愉快な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "desktop",
+        "term_ja": "卓上の",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "discount",
+        "term_ja": "（…を）割引（する）",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "durable",
+        "term_ja": "耐久性のある；丈夫な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "effectively",
+        "term_ja": "効果的に",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "erasable",
+        "term_ja": "消すことのできる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "erase",
+        "term_ja": "…を消す",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "excellent",
+        "term_ja": "非常に優れた",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "flyer",
+        "term_ja": "チラシ；びら",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "limited to ...",
+        "term_ja": "…に限られた",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "memo pad",
+        "term_ja": "メモ帳",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "monthly",
+        "term_ja": "1か月間の",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "planner",
+        "term_ja": "スケジュール帳；手帳",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "purchase",
+        "term_ja": "（…を）購入（する）；購入品",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "seasonal theme",
+        "term_ja": "季節のテーマ；季題",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "special",
+        "term_ja": "特売品",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "stationery",
+        "term_ja": "文房具",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "supplies",
+        "term_ja": "用品",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "tray",
+        "term_ja": "トレイ；整理箱",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      }
+    ],
+    "5": [
+      {
+        "term_en": "a variety of ...",
+        "term_ja": "さまざまな…",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "accessible",
+        "term_ja": "〈形〉行きやすい",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "accommodate",
+        "term_ja": "〈動〉…を収容する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "actual",
+        "term_ja": "〈形〉実際の",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "advertise",
+        "term_ja": "〈動〉…を宣伝する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "afterward",
+        "term_ja": "〈副〉その後で",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "allergy",
+        "term_ja": "〈名〉アレルギー",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "allow",
+        "term_ja": "〈動〉〈時間〉を見ておく［見込んでおく］",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "arrange",
+        "term_ja": "〈動〉…を手配［準備］する ≒ organize",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "attend",
+        "term_ja": "〈動〉出席する；通う；行く",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "authorities",
+        "term_ja": "〈名〉当局；公共事業機関",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "baked goods",
+        "term_ja": "焼き菓子",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "be made of ...",
+        "term_ja": "…で作られて［できて］いる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "be superior to ...",
+        "term_ja": "…より優れている",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "co-ordinate",
+        "term_ja": "〈動〉…を調整する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "crowded",
+        "term_ja": "〈形〉混み合った",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "essential",
+        "term_ja": "〈形〉不可欠な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "festival",
+        "term_ja": "〈名〉催し；祭り；フェスティバル",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "florist",
+        "term_ja": "〈名〉花屋",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "flower arrangement",
+        "term_ja": "生け花",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "guarantee",
+        "term_ja": "〈動〉…を保証する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "handling",
+        "term_ja": "〈名〉取り扱い",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "how about ...?",
+        "term_ja": "…はいかがですか〈提案〉",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "include",
+        "term_ja": "〈動〉…を含む",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "label",
+        "term_ja": "〈名〉ラベル",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "last",
+        "term_ja": "〈動〉続く",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "look forward to ...",
+        "term_ja": "…を楽しみに待つ",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "make sure (that) ...",
+        "term_ja": "…を確かめる［確実にする］",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "medical attention",
+        "term_ja": "医療；治療",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "multiple",
+        "term_ja": "〈形〉多数の",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "organizer",
+        "term_ja": "〈名〉主催者",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "out of ...",
+        "term_ja": "…がなくなって",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "positive",
+        "term_ja": "〈形〉肯定的な；前向きの",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "properly",
+        "term_ja": "〈副〉きちんと",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "provide",
+        "term_ja": "〈動〉…を供給する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "regulations",
+        "term_ja": "〈名〉規則；規定",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "relate to ...",
+        "term_ja": "…に関係がある；…のことを述べている",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "require",
+        "term_ja": "〈動〉…を要求する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "respondent",
+        "term_ja": "回答者",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "safety",
+        "term_ja": "〈名〉安全",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "secret ingredient",
+        "term_ja": "秘密の材料；隠し味",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "specific",
+        "term_ja": "〈形〉特定の；明確な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "storage",
+        "term_ja": "〈名〉貯蔵",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "successful",
+        "term_ja": "〈形〉成功した",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "thankfully",
+        "term_ja": "〈副〉ありがたいことに",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "time frame",
+        "term_ja": "時間枠；期間",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "trash disposal",
+        "term_ja": "ゴミ処理",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "twist",
+        "term_ja": "〈動〉…をひねる；くじく",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "uneven",
+        "term_ja": "〈形〉でこぼこの",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "untidy",
+        "term_ja": "〈形〉乱雑な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "upcoming",
+        "term_ja": "〈形〉まもなくやって来る",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "vending machine",
+        "term_ja": "自動販売機",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "visible",
+        "term_ja": "〈形〉人目につく；目立つ",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "vital",
+        "term_ja": "〈形〉きわめて重要な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "workshop",
+        "term_ja": "〈名〉ワークショップ；体験教室",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      }
+    ],
+    "4": [
+      {
+        "term_en": "academic performance",
+        "term_ja": "学業成績",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "as a result",
+        "term_ja": "その結果",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "assign",
+        "term_ja": "〈動〉…を与える；課す",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "assignment",
+        "term_ja": "〈名〉課題",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "based on ...",
+        "term_ja": "…に基づいて",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "benefit",
+        "term_ja": "〈名〉〈動〉恩恵（を得る）",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "concentrate",
+        "term_ja": "〈動〉集中する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "connect",
+        "term_ja": "〈動〉つながる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "content",
+        "term_ja": "〈名〉内容",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "expand",
+        "term_ja": "〈動〉…を拡大する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "go over ...",
+        "term_ja": "…を繰り返す［復習する］",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "homework-free",
+        "term_ja": "〈形〉宿題のない",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "improve",
+        "term_ja": "…を改善する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "in conclusion",
+        "term_ja": "結論として；要するに",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "learning strategies",
+        "term_ja": "学習戦略",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "lesson materials",
+        "term_ja": "教材",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "missing",
+        "term_ja": "〈形〉欠けている",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "motivate O to ~",
+        "term_ja": "Oを動機づけて～させる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "prefer to ~",
+        "term_ja": "～する方を好む",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "preparation",
+        "term_ja": "〈名〉準備",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "preview",
+        "term_ja": "〈動〉…を下検分する；先立って見る",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "propose",
+        "term_ja": "〈動〉…を提案する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "reflect on ...",
+        "term_ja": "…を熟考する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "refresh",
+        "term_ja": "〈動〉…をさわやかにする；元気づける",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "reset",
+        "term_ja": "〈動〉…を再起動する；修復する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "review",
+        "term_ja": "〈動〉…を復習する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "revision",
+        "term_ja": "〈名〉修正；変更",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "school night",
+        "term_ja": "翌日学校がある夜",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "summary sentence",
+        "term_ja": "要約文",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "thoroughly",
+        "term_ja": "〈副〉完全に",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "upcoming",
+        "term_ja": "〈形〉まもなくやって来る",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "vague",
+        "term_ja": "〈形〉あいまいな；漠然とした",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      }
+    ],
+    "6": [
+      {
+        "term_en": "accompany",
+        "term_ja": "〈動〉…に付き添う",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "adventure",
+        "term_ja": "〈名〉冒険",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "aggressive",
+        "term_ja": "〈形〉攻撃的な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "aisle seat",
+        "term_ja": "通路側の座席",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "announcement",
+        "term_ja": "〈名〉案内；アナウンス",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "armrest",
+        "term_ja": "〈名〉肘掛け",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "awkward",
+        "term_ja": "〈形〉落ち着かない；気まずい",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "be cautious of ...",
+        "term_ja": "…に用心する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "behave",
+        "term_ja": "〈動〉振る舞う",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "breathe in",
+        "term_ja": "息を吸い込む",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "by oneself",
+        "term_ja": "自分1人で",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "carelessly",
+        "term_ja": "〈副〉不注意に",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "characteristic",
+        "term_ja": "〈名〉特徴",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "connection",
+        "term_ja": "〈名〉つながり",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "cookie",
+        "term_ja": "〈名〉クッキー",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "dig around",
+        "term_ja": "手を入れて探す",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "ease",
+        "term_ja": "〈動〉和らぐ",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "emerge",
+        "term_ja": "〈動〉現れる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "fancy",
+        "term_ja": "〈形〉高級な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "favorite",
+        "term_ja": "〈形〉お気に入りの",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "flash by",
+        "term_ja": "さっと過ぎる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "for a little bit",
+        "term_ja": "少しの時間",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "frustration",
+        "term_ja": "〈名〉失望；欲求不満",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "generous",
+        "term_ja": "〈形〉気前のよい",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "go against ...",
+        "term_ja": "…に従わない",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "harm",
+        "term_ja": "〈名〉害",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "help oneself",
+        "term_ja": "遠慮なく取る",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "How about that!",
+        "term_ja": "驚いた！",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "hurriedly",
+        "term_ja": "〈副〉大急ぎで",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "impressed",
+        "term_ja": "〈形〉感動して",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "in reply",
+        "term_ja": "返事として",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "intelligent",
+        "term_ja": "〈形〉知的な；聡明な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "interest",
+        "term_ja": "〈名〉興味；関心",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "interfere with ...",
+        "term_ja": "…を妨害する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "ma'am",
+        "term_ja": "〈名〉奥様〈年上の女性へのていねいな呼びかけ語〉",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "make sure (that) ...",
+        "term_ja": "…を確かめる［確実にする］",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "maturely",
+        "term_ja": "〈副〉大人のように",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "middle-aged",
+        "term_ja": "〈形〉中年の",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "nervous",
+        "term_ja": "〈形〉不安で；緊張して",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "nod",
+        "term_ja": "〈動〉うなずく",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "occupy",
+        "term_ja": "〈動〉…を使う；占める",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "passenger",
+        "term_ja": "〈名〉乗客",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "pleasure",
+        "term_ja": "〈名〉喜び；楽しさ",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "pull into the station",
+        "term_ja": "駅に着く",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "refuse",
+        "term_ja": "〈動〉断る",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "reject",
+        "term_ja": "〈動〉…を拒絶する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "respond",
+        "term_ja": "〈動〉返答する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "retreat",
+        "term_ja": "〈動〉撤退する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "reunion",
+        "term_ja": "〈名〉再会",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "rice field",
+        "term_ja": "水田；稲田",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "rush",
+        "term_ja": "〈動〉急いで行く",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "sentiment",
+        "term_ja": "〈名〉感情",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "shift",
+        "term_ja": "〈動〉…を移動させる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "shy",
+        "term_ja": "〈形〉恥ずかしがりの",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "silence",
+        "term_ja": "〈名〉沈黙",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "stranger",
+        "term_ja": "〈名〉見知らぬ人",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "suburban",
+        "term_ja": "〈形〉郊外の",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "take over",
+        "term_ja": "引き継ぐ；優勢になる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "tap",
+        "term_ja": "〈名〉軽くたたくこと",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "tempt O to ~",
+        "term_ja": "Oを（誘惑して）〜する気にさせる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "tension",
+        "term_ja": "〈名〉緊張状態",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "thank you for asking",
+        "term_ja": "お気遣いありがとう",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "thoughtfulness",
+        "term_ja": "〈名〉思いやり",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "widen",
+        "term_ja": "〈動〉大きく開く",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      }
+    ],
+    "2": [
+      {
+        "term_en": "angle",
+        "term_ja": "角度；観点",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "awareness",
+        "term_ja": "意識",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "child raising",
+        "term_ja": "育児；子育て",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "current situation",
+        "term_ja": "現状",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "definitely",
+        "term_ja": "絶対に",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "describe",
+        "term_ja": "…を説明［描写］する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "encouraging",
+        "term_ja": "励みになる",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "favour",
+        "term_ja": "賛成［支持］する（米: favor）",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "furthermore",
+        "term_ja": "さらに；加えて",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "homestay",
+        "term_ja": "ホームステイ",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "host",
+        "term_ja": "〈自宅に留学生を迎える〉ホスト；主人役",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "household chores",
+        "term_ja": "家事",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "improve",
+        "term_ja": "…を改善する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "in general",
+        "term_ja": "概して",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "majority",
+        "term_ja": "大部分",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "moderately",
+        "term_ja": "適度に；ほどほどに",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "participant",
+        "term_ja": "参加者",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "participate",
+        "term_ja": "参加する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "perceive",
+        "term_ja": "…を知覚［認識］する",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "preference",
+        "term_ja": "好み",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "promising",
+        "term_ja": "有望な",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "resident",
+        "term_ja": "住民",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "respondent",
+        "term_ja": "回答者",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "responsibility",
+        "term_ja": "責任",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "satisfactory",
+        "term_ja": "満足のゆく",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "take out the rubbish",
+        "term_ja": "ゴミを出す",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "tasty",
+        "term_ja": "おいしい",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "the following",
+        "term_ja": "次に述べること",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      },
+      {
+        "term_en": "working hours",
+        "term_ja": "労働［勤務］時間",
+        "example_en": "",
+        "example_ja": "",
+        "question_id": "vocabulary",
+        "answer_number": null,
+        "evidence_sentences": []
+      }
+    ]
+  }
+}
