@@ -25,9 +25,7 @@ const EXAM_PATHS = {
   sundai_2025_04: 'data/sundai/2025/round04/data.json',
   kakomon_2025: 'data/kakomon/2025/data.json',
   kakomon_2024: 'data/kakomon/2024/data.json',
-  kakomon_2023: 'data/kakomon/2023/data.json',
-  kakomon_2022: 'data/kakomon/2022/data.json',
-  kakomon_2021_1: 'data/kakomon/2021_1/data.json'
+  kyotsu_2024_honshiken: 'data/kyotsu/2024/honshiken/data.json'
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -264,6 +262,129 @@ function renderPassagePage(sec, dataPath) {
           }
           html += '</ul>';
         }
+      }
+      html += '</div></div>';
+
+    } else if (passage.presentation_slides && passage.presentation_slides.slides) {
+      // 共通テスト 第6問B 等 — viewer.js と同形式の presentation_slides（グリッドスライド）
+      const ps = passage.presentation_slides;
+      const imgBase = dataPath ? dataPath.replace(/data\.json$/, '') : '';
+      html += '<div class="print-passage">';
+      if (ps.label_outside_box && ps.label_outside_box.en) {
+        html += '<div style="font-weight:700;margin-bottom:6px;">' + ps.label_outside_box.en + '</div>';
+      }
+      if (ps.label_outside_box && ps.label_outside_box.ja) {
+        html += '<div style="font-size:0.88rem;margin-bottom:10px;">' + ps.label_outside_box.ja + '</div>';
+      }
+      html += '<div class="print-slides-grid">';
+      for (const slide of ps.slides || []) {
+        html += '<div class="print-slide-card" style="position:relative;">';
+        if (slide.title) {
+          html +=
+            '<div class="print-slide-title">' +
+            (slide.title.en || '').replace(/\n/g, '<br>') +
+            '</div>';
+          if (slide.title.ja) {
+            html +=
+              '<div style="font-size:0.85rem;text-align:center;margin-bottom:8px;">' +
+              slide.title.ja +
+              '</div>';
+          }
+        }
+        if (slide.image && slide.image.src) {
+          const raw = slide.image.src;
+          const src =
+            raw.startsWith('http') || raw.startsWith('data:') || raw.startsWith('/')
+              ? raw
+              : raw.startsWith('data/')
+                ? raw
+                : imgBase + raw;
+          html +=
+            '<div style="text-align:center;margin:6px 0;"><img class="print-slide-img" src="' +
+            src +
+            '" alt="' +
+            (slide.image.alt || '') +
+            '" style="max-width:88%;max-height:170px;" /></div>';
+        }
+        if (slide.compare_table) {
+          const ct = slide.compare_table;
+          const cols = ct.columns || {};
+          html +=
+            '<table style="width:100%;border-collapse:collapse;font-size:0.88rem;margin:6px 0;"><thead><tr>';
+          if (cols.en && cols.en.length === 2) {
+            html +=
+              '<th style="border:1px solid #333;padding:4px 6px;text-align:center;">' +
+              cols.en[0] +
+              '</th>';
+            html +=
+              '<th style="border:1px solid #333;padding:4px 6px;text-align:center;">' +
+              cols.en[1] +
+              '</th>';
+          }
+          html += '</tr></thead><tbody>';
+          for (const row of ct.rows || []) {
+            const left = String((row.left && row.left.en) || '').replace(
+              /\[(\d+)\]/g,
+              '<span class="print-answer-slot">$1</span>'
+            );
+            const right = String((row.right && row.right.en) || '').replace(
+              /\[(\d+)\]/g,
+              '<span class="print-answer-slot">$1</span>'
+            );
+            html +=
+              '<tr><td style="border:1px solid #333;padding:6px;vertical-align:top;">• ' +
+              left +
+              '</td>';
+            html +=
+              '<td style="border:1px solid #333;padding:6px;vertical-align:top;">• ' +
+              right +
+              '</td></tr>';
+          }
+          html += '</tbody></table>';
+        }
+        if (slide.lead) {
+          let leadEn = slide.lead.en || '';
+          if (typeof slide.lead.trailing_slot === 'number') {
+            leadEn += ' <span class="print-answer-slot">' + slide.lead.trailing_slot + '</span>';
+          }
+          html += '<p class="print-slide-content" style="margin:6px 0;">' + leadEn + '</p>';
+          if (slide.lead.ja) {
+            let leadJa = slide.lead.ja;
+            if (typeof slide.lead.trailing_slot === 'number') {
+              leadJa += ' <span class="print-answer-slot">' + slide.lead.trailing_slot + '</span>';
+            }
+            html += '<div style="font-size:0.85rem;margin-bottom:6px;">' + leadJa + '</div>';
+          }
+        }
+        if (slide.lettered_bullets && slide.lettered_bullets.length) {
+          html += '<ul class="print-slide-items">';
+          for (const lb of slide.lettered_bullets) {
+            html += '<li><strong>' + lb.letter + '.</strong> ' + (lb.en || '') + '</li>';
+          }
+          html += '</ul>';
+        }
+        if (slide.bullets && slide.bullets.length) {
+          html += '<ul class="print-slide-items">';
+          for (const b of slide.bullets) {
+            if (b.is_slot && typeof b.slot === 'number') {
+              html += '<li><span class="print-answer-slot">' + b.slot + '</span></li>';
+            } else {
+              html +=
+                '<li>' +
+                String(b.en || '').replace(/\[(\d+)\]/g, '<span class="print-answer-slot">$1</span>') +
+                '</li>';
+            }
+          }
+          html += '</ul>';
+        }
+        if (typeof slide.center_slot === 'number') {
+          html +=
+            '<div style="text-align:center;margin:14px 0;"><span class="print-answer-slot">' +
+            slide.center_slot +
+            '</span></div>';
+        }
+        html += '<div class="print-slide-number">' + slide.slide_no + '</div>';
+        html += '</div>';
       }
       html += '</div></div>';
 
@@ -796,10 +917,18 @@ function renderQuestionsPage(sec, dataPath) {
     const printMultiSlots = deriveMultiSlotAnswerNumbersPrint(q);
     if (printMultiSlots && printMultiSlots.length > 0) {
       // Multi-answer question (大問6問3, 大問7問3 etc.)
+      const anySlotSpecificChoices = printMultiSlots.some(
+        n => Array.isArray(q['choices_' + n]) && q['choices_' + n].length > 0
+      );
       for (const num of printMultiSlots) {
         const choicesKey = 'choices_' + num;
-        const choices = q[choicesKey];
-        if (choices) {
+        let choices = q[choicesKey];
+        if (!Array.isArray(choices) || !choices.length) {
+          if (!anySlotSpecificChoices && Array.isArray(q.choices) && q.choices.length) {
+            choices = q.choices;
+          }
+        }
+        if (choices && choices.length) {
           html += '<div style="font-weight:600;margin:8px 0 4px;">[' + num + ']</div>';
           html += '<ul class="print-choices">';
           for (const choice of choices) {

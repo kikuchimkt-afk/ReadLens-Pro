@@ -11,7 +11,10 @@
       1,
       2,
       3,
-      4
+      4,
+      5,
+      "6A",
+      "6B"
     ],
     "section_list": [
       1,
@@ -19,11 +22,12 @@
       3,
       4,
       5,
-      6,
-      8
+      "6A",
+      "6B"
     ],
-    "source_pdf_mondai": "_2024年度本試験_問題.pdf",
-    "source_pdf_kaitou": "_2024年度本試験_解説.pdf"
+    "format": "6AB",
+    "source_pdf_mondai": "2024年_本試験_問題.pdf",
+    "source_pdf_kaitou": "2024年_本試験_解説.pdf"
   },
   "sections": [
     {
@@ -2241,6 +2245,2075 @@
             "ja": "正解は③。[29]を含む文（Based on both ...）の内容から，「部員が英語をもっと話す気にさせる（motivate members to speak English more）」ためのルール作りの必要性に関連するコメントをしている生徒が正解となる。S3のコメントの第2文（Also, lots of members ...）に「また，ここは英語クラブなのに，多くの部員は日本語を話しています」とあり，S3は英語を話す部員が少ないことを問題視していることが読み取れるので，③が正解となる。他の部員のコメントからは，このような問題意識は感じ取れないので，③以外は正解にはなれない。",
             "evidence_sentences": [
               "4_s3_comment"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": 5,
+      "title": "第5問",
+      "points": 15,
+      "situation": {
+        "en": "You are in an English discussion group, and it is your turn to introduce a story.  You have found a story in an English language magazine in Japan.  You are preparing notes for your presentation.",
+        "ja": "あなたは英語の討論グループに入っていて，ストーリーを紹介する番になりました。あなたは日本の英語雑誌の中にあるストーリーを見つけました。あなたは発表のためにメモを作成しています。"
+      },
+      "passages": [
+        {
+          "id": "story_5",
+          "title": {
+            "en": "Maki's Kitchen",
+            "ja": "マキのキッチン"
+          },
+          "framed": true,
+          "block_separators": [
+            2,
+            7,
+            17,
+            22,
+            25
+          ],
+          "paragraphs": [
+            [
+              {
+                "id": "5_s1",
+                "en": "\"Irasshai-mase,\" said Maki as two customers entered her restaurant, Maki's Kitchen.",
+                "ja": "「いらっしゃいませ」とマキが声をかけるなか，2人のお客さんが彼女のレストランである「マキのキッチン」に入ってきました。"
+              },
+              {
+                "id": "5_s2",
+                "en": "Maki had joined her family business at the age of 19 when her father became ill.",
+                "ja": "マキは，父親が病気になった19歳の時に，家族でやっているお店の経営に加わりました。"
+              },
+              {
+                "id": "5_s3",
+                "en": "After he recovered, Maki decided to continue.",
+                "ja": "父親が回復した後も，マキは仕事を続けることにしました。"
+              },
+              {
+                "id": "5_s4",
+                "en": "Eventually, Maki's parents retired and she became the owner.",
+                "ja": "やがてマキの両親は身を引いて，彼女がオーナーになりました。"
+              },
+              {
+                "id": "5_s5",
+                "en": "Maki had many regular customers who came not only for the delicious food, but also to sit at the counter and talk to her.",
+                "ja": "マキには常連のお客さんがたくさんいて，彼らはおいしいものを食べに来るだけでなく，カウンターに座って彼女とおしゃべりするためにやって来ました。"
+              },
+              {
+                "id": "5_s6",
+                "en": "Although her business was doing very well, Maki occasionally daydreamed about doing something different.",
+                "ja": "お店はとてもうまくいっていましたが，時折マキは違うことをしている空想にふけることがありました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s7",
+                "en": "\"Can we sit at the counter?\" she heard.",
+                "ja": "「カウンターに座ってもいいですか？」という声を彼女は聞きました。"
+              },
+              {
+                "id": "5_s8",
+                "en": "It was her old friends, Takuya and Kasumi.",
+                "ja": "そこには長年の友人であるタクヤとカスミがいました。"
+              },
+              {
+                "id": "5_s9",
+                "en": "A phone call a few weeks earlier from Kasumi to Takuya had given them the idea to visit Maki and surprise her.",
+                "ja": "数週間前にカスミがタクヤに電話をした時に，彼らはマキを尋ねて驚かそうと思いついたのでした。"
+              }
+            ],
+            [
+              {
+                "id": "5_s10",
+                "en": "Takuya's phone vibrated, and he saw a familiar name, Kasumi.",
+                "ja": "タクヤの電話が振動して，カスミという馴染みのある名前が目に入りました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s11",
+                "en": "\"Kasumi!\"",
+                "ja": "「カスミ！」"
+              }
+            ],
+            [
+              {
+                "id": "5_s12",
+                "en": "\"Hi Takuya, I saw you in the newspaper.  Congratulations!\"",
+                "ja": "「こんにちは，タクヤ，新聞にあなたが出ているのを見たわ。おめでとう！」"
+              }
+            ],
+            [
+              {
+                "id": "5_s13",
+                "en": "\"Thanks.  Hey, you weren't at our 20th high school reunion last month.\"",
+                "ja": "「ありがとう。ねえ，君は先月の20回目の高校の同窓会にいなかったね」"
+              }
+            ],
+            [
+              {
+                "id": "5_s14",
+                "en": "\"No, I couldn't make it.  I can't believe it's been 20 years since we graduated.  Actually, I was calling to ask if you've seen Maki recently.\"",
+                "ja": "「ええ，行けなかったの。卒業から20年経ったなんて信じられないわ。実はね，あなたが最近マキに会ったかどうか聞きたくて電話してみたの」"
+              }
+            ],
+            [
+              {
+                "id": "5_s15",
+                "en": "Takuya's family had moved to Kawanaka Town shortly before he started high school.",
+                "ja": "タクヤの家族は，彼が高校に入る少し前に川中町に引っ越して来ました。"
+              },
+              {
+                "id": "5_s16",
+                "en": "He joined the drama club, where he met Maki and Kasumi.",
+                "ja": "彼は演劇部に入り，そこでマキやカスミと出会いました。"
+              },
+              {
+                "id": "5_s17",
+                "en": "The three became inseparable.",
+                "ja": "3人は親友になりました。"
+              },
+              {
+                "id": "5_s18",
+                "en": "After graduation, Takuya left Kawanaka to become an actor, while Maki and Kasumi remained.",
+                "ja": "卒業後，タクヤは俳優になるため川中を離れましたが，マキとカスミは残りました。"
+              },
+              {
+                "id": "5_s19",
+                "en": "Maki had decided she wanted to study at university and enrolled in a preparatory school.",
+                "ja": "マキは大学で勉強したいという気持ちを固め，予備校に入学しました。"
+              },
+              {
+                "id": "5_s20",
+                "en": "Kasumi, on the other hand, started her career.",
+                "ja": "一方カスミは就職しました。"
+              },
+              {
+                "id": "5_s21",
+                "en": "Takuya tried out for various acting roles but was constantly rejected; eventually, he quit.",
+                "ja": "タクヤはいろいろな役柄に応募したものの，いつも不採用とされ，結局辞めてしまいました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s22",
+                "en": "Exactly one year after graduation, Takuya returned to Kawanaka with his dreams destroyed.",
+                "ja": "卒業からちょうど1年後に，タクヤは夢破れて川中に戻って来ました。"
+              },
+              {
+                "id": "5_s23",
+                "en": "He called Maki, who offered her sympathy.",
+                "ja": "彼がマキに電話すると，マキは同情してくれました。"
+              },
+              {
+                "id": "5_s24",
+                "en": "He was surprised to learn that Maki had abandoned her plan to attend university because she had to manage her family's restaurant.",
+                "ja": "マキが家族でやっているレストランの経営をしなければならないので大学へ通う計画を断念したことを知って，タクヤは驚きました。"
+              },
+              {
+                "id": "5_s25",
+                "en": "Her first day of work had been the day he called.",
+                "ja": "彼女が仕事を始めた日が，彼が電話をした日でした。"
+              },
+              {
+                "id": "5_s26",
+                "en": "For some reason, Takuya could not resist giving Maki some advice.",
+                "ja": "どういうわけか，タクヤはマキに助言せずにはいられませんでした。"
+              }
+            ],
+            [
+              {
+                "id": "5_s27",
+                "en": "\"Maki, I've always thought your family's restaurant should change the coffee it serves.  I think people in Kawanaka want a bolder flavor.  I'd be happy to recommend a different brand,\" he said.",
+                "ja": "「マキ，お宅のレストランで出しているコーヒーは変える方がいいと僕はいつも思っていたんだ。川中の人たちはもっと強い風味を望んでいると思うんだ。よかったらお勧めの別の銘柄を教えるよ」と彼は言いました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s28",
+                "en": "\"Takuya, you really know your coffee.  Hey, I was walking by Café Kawanaka and saw a help-wanted sign.  You should apply!\" Maki replied.",
+                "ja": "「タクヤ，あなたは本当にコーヒー通ね。そういえば，カフェ・カワナカの前を通ったら，求人の掲示があったわ。あなたは応募するべきよ！」とマキは答えました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s29",
+                "en": "Takuya was hired by Café Kawanaka and became fascinated by the science of coffee making.",
+                "ja": "タクヤはカフェ・カワナカに雇われて，コーヒー作りの技術に魅了されました。"
+              },
+              {
+                "id": "5_s30",
+                "en": "On the one-year anniversary of his employment, Takuya was talking to Maki at her restaurant.",
+                "ja": "タクヤは仕事を始めてから1年目の記念日に，マキのレストランで彼女と話していました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s31",
+                "en": "\"Maki,\" he said, \"do you know what my dream is?\"",
+                "ja": "「マキ，僕の夢が何だか知っているかい？」と彼は言いました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s32",
+                "en": "\"It must have something to do with coffee.\"",
+                "ja": "「きっとコーヒーに関係のあることね」"
+              }
+            ],
+            [
+              {
+                "id": "5_s33",
+                "en": "\"That's right!  It's to have my own coffee business.\"",
+                "ja": "「その通り！ 自分のコーヒー店を持つことさ」"
+              }
+            ],
+            [
+              {
+                "id": "5_s34",
+                "en": "\"I can't imagine a better person for it.  What are you waiting for?\"",
+                "ja": "「あなたに勝る人はいないわ。何をぐずぐずしているの？」"
+              }
+            ],
+            [
+              {
+                "id": "5_s35",
+                "en": "Maki's encouragement inspired Takuya.",
+                "ja": "マキに励まされてタクヤには意欲が出てきました。"
+              },
+              {
+                "id": "5_s36",
+                "en": "He quit his job, purchased a coffee bean roaster, and began roasting beans.",
+                "ja": "彼は仕事を辞め，コーヒー豆の焙煎機を買い，豆の焙煎を始めました。"
+              },
+              {
+                "id": "5_s37",
+                "en": "Maki had a sign in her restaurant saying, \"We proudly serve Takuya's Coffee,\" and this publicity helped the coffee gain popularity in Kawanaka.",
+                "ja": "マキがレストランに「当店自慢のタクヤのコーヒーをご賞味あれ」という看板を出すと，この宣伝が役に立って，このコーヒーは川中で人気となりました。"
+              },
+              {
+                "id": "5_s38",
+                "en": "Takuya started making good money selling his beans.",
+                "ja": "タクヤはコーヒー豆の販売でお金が儲かるようになりました。"
+              },
+              {
+                "id": "5_s39",
+                "en": "Eventually, he opened his own café and became a successful business owner.",
+                "ja": "ついに彼は，自分のカフェを開店して，経営者として成功を収めたのです。"
+              }
+            ],
+            [
+              {
+                "id": "5_s40",
+                "en": "Kasumi was reading the newspaper when she saw the headline: TAKUYA'S CAFÉ ATTRACTING TOURISTS TO KAWANAKA TOWN.",
+                "ja": "カスミが新聞を読んでいると，次のような見出しが目に入りました。「タクヤのカフェを求めて旅行者が川中に」。"
+              },
+              {
+                "id": "5_s41",
+                "en": "\"Who would have thought that Takuya would be so successful?\" Kasumi thought to herself as she reflected on her past.",
+                "ja": "「タクヤがこんなに成功するなんて誰が考えたかしら？」とカスミは昔を振り返りながら心の中で思いました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s42",
+                "en": "In the high school drama club, Kasumi's duty was to put make-up on the actors.",
+                "ja": "高校の演劇部でカスミは，演技をする部員たちのメイクを担当していました。"
+              },
+              {
+                "id": "5_s43",
+                "en": "No one could do it better than her.",
+                "ja": "彼女より上手な人はいませんでした。"
+              },
+              {
+                "id": "5_s44",
+                "en": "Maki noticed this and saw that a cosmetics company called Beautella was advertising for salespeople.",
+                "ja": "マキはこれに気づいて，ビューテラという化粧品会社が販売員の募集広告を出していることを知りました。"
+              },
+              {
+                "id": "5_s45",
+                "en": "She encouraged Kasumi to apply, and, after graduation, she became an employee of Beautella.",
+                "ja": "彼女はカスミに応募するよう後押しして，卒業後カスミはビューテラの社員になりました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s46",
+                "en": "The work was tough; Kasumi went door to door selling cosmetics.",
+                "ja": "仕事はきつく，カスミは一件一件回って化粧品を売りました。"
+              },
+              {
+                "id": "5_s47",
+                "en": "On bad days, she would call Maki, who would lift her spirits.",
+                "ja": "うまくいかない日に，彼女がマキに電話すると，マキは彼女を元気づけてくれました。"
+              },
+              {
+                "id": "5_s48",
+                "en": "One day, Maki had an idea, \"Doesn't Beautella do make-up workshops?  I think you are more suited for that.  You can show people how to use the make-up.  They'll love the way they look and buy lots of cosmetics!\"",
+                "ja": "ある日マキに1つのアイディアが浮かびました。「ビューテラはお化粧の講習会をやらないの？ そちらの方があなたに向いていると思うわ。化粧品の使い方を人に教えてあげるのよ。みんな自分の顔が気に入って，化粧品をたくさん買ってくれるわ！」"
+              }
+            ],
+            [
+              {
+                "id": "5_s49",
+                "en": "Kasumi's company agreed to let her do workshops, and they were a hit!",
+                "ja": "カスミの会社は彼女に講習会をやらせることに同意して，それはヒットしました！"
+              },
+              {
+                "id": "5_s50",
+                "en": "Kasumi's sales were so good that eight months out of high school, she had been promoted, moving to the big city of Ishijima.",
+                "ja": "カスミの売り上げ成績はとても良かったので，高校を卒業して8ヵ月経った時には，彼女は昇進していて，大都会の石島へ転居しました。"
+              },
+              {
+                "id": "5_s51",
+                "en": "Since then, she had steadily climbed her way up the company ladder until she had been named vice-president of Beautella this year.",
+                "ja": "それ以来，彼女は着実に会社の出世階段を上っていき，ついに今年副社長に任命されたのです。"
+              }
+            ],
+            [
+              {
+                "id": "5_s52",
+                "en": "\"I wouldn't be vice-president now without Maki,\" she thought, \"she helped me when I was struggling, but I was too absorbed with my work in Ishijima to give her support when she had to quit her preparatory school.\"",
+                "ja": "「マキがいなかったら私は今副社長になれていないわ」と彼女は思いました。「彼女は私が苦労している時に助けてくれたのに，私は石島での仕事に没頭するあまり，彼女が予備校を辞めなければならない時に支えてあげられなかった」"
+              },
+              {
+                "id": "5_s53",
+                "en": "Glancing back to the article, she decided to call Takuya.",
+                "ja": "彼女は新聞をもう一度ちらりと見て，タクヤに電話することにしました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s54",
+                "en": "\"Maki wasn't at the reunion.  I haven't seen her in ages,\" said Takuya.",
+                "ja": "「マキは同窓会にいなかったよ。もう長い間会ってないんだ」とタクヤは言いました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s55",
+                "en": "\"Same here.  It's a pity.  Where would we be without her?\" asked Kasumi.",
+                "ja": "「私も同じよ。残念だわ。彼女がいなかったら私たちはどうなっているのかしら」とカスミは問いかけました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s56",
+                "en": "The conversation became silent, as they wordlessly communicated their guilt.",
+                "ja": "会話は途切れましたが，2人は無言で後ろめたい気持ちを伝えていました。"
+              },
+              {
+                "id": "5_s57",
+                "en": "Then, Kasumi had an idea.",
+                "ja": "その時，カスミはあることを思いつきました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s58",
+                "en": "The three friends were talking and laughing when Maki asked, \"By the way, I'm really happy to see you two, but what brings you here?\"",
+                "ja": "3人の友人たちがおしゃべりをして笑っていると，「ところで，あなたたち2人に会えて本当にうれしいけど，なぜここへ来たの？」とマキが尋ねました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s59",
+                "en": "\"Payback,\" said Takuya.",
+                "ja": "「お返しだよ」とタクヤは言いました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s60",
+                "en": "\"Have I done something wrong?\" asked Maki.",
+                "ja": "「わたし何か悪いことをしたかしら」とマキは尋ねました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s61",
+                "en": "\"No.  The opposite.  You understand people incredibly well.  You can identify others' strengths and show them how to make use of them.  We're proof of this.  You made us aware of our gifts,\" said Takuya.",
+                "ja": "「いや。正反対さ。君は信じられないくらい人をよく理解できるね。人の長所を見極めて，それをどう生かすか教えてくれるんだ。僕たちがその証拠さ。君のおかげで僕たちは自分の才能に気づいたんだ」とタクヤは言いました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s62",
+                "en": "\"The irony is that you couldn't do the same for yourself,\" added Kasumi.",
+                "ja": "「皮肉なことに，あなたは自分に対して同じことができなかったのよ」とカスミは付け加えました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s63",
+                "en": "\"I think Ishijima University would be ideal for you.  It offers a degree program in counseling that's designed for people with jobs,\" said Takuya.",
+                "ja": "「君には石島大学がぴったりだと思うな。社会人を対象にしたカウンセリングの学位修得課程を提供しているんだ」とタクヤは言いました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s64",
+                "en": "\"You'd have to go there a few times a month, but you could stay with me.  Also, Takuya can help you find staff for your restaurant,\" said Kasumi.",
+                "ja": "「月に数回通学しなければならないけど，わたしのところに泊まればいいわ。それに，レストランのスタッフを探す手助けはタクヤがしてくれるわ」とカスミは言いました。"
+              }
+            ],
+            [
+              {
+                "id": "5_s65",
+                "en": "Maki closed her eyes and imagined Kawanaka having both \"Maki's Kitchen\" and \"Maki's Counseling.\"  She liked that idea.",
+                "ja": "マキは目を閉じて，川中に「マキのキッチン」と「マキのカウンセリング」の両方があるのを想像しました。彼女はそのアイディアが気に入りました。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "notes_5",
+          "is_notes": true,
+          "framed": true,
+          "no_divider": true,
+          "notes_caption": {
+            "en": "Your notes:",
+            "ja": "あなたのノート:"
+          },
+          "notes_title": {
+            "en": "Maki's Kitchen",
+            "ja": "マキのキッチン"
+          },
+          "story_outline": {
+            "header": {
+              "en": "Story outline",
+              "ja": "ストーリーのアウトライン"
+            },
+            "start": {
+              "en": "Maki, Takuya, and Kasumi graduate from high school.",
+              "ja": "マキ，タクヤ，カスミが高校を卒業する。"
+            },
+            "slots": [
+              30,
+              31,
+              32,
+              33
+            ],
+            "end": {
+              "en": "Maki begins to think about a second career.",
+              "ja": "マキは第2のキャリアについて考え始める。"
+            }
+          },
+          "about_maki": {
+            "heading": {
+              "en": "About Maki",
+              "ja": "マキについて"
+            },
+            "age_slot": 34,
+            "occupation": {
+              "en": "restaurant owner",
+              "ja": "レストランのオーナー"
+            },
+            "support_heading": {
+              "en": "How she supported her friends:",
+              "ja": "彼女はどうやって友人を支えたか："
+            },
+            "support": [
+              {
+                "en": "Provided Takuya with encouragement and [35].",
+                "ja": "タクヤには励ましを与え，[35]。"
+              },
+              {
+                "en": "\" Kasumi \" \" and [36].",
+                "ja": "カスミには 〃  〃  [36]。"
+              }
+            ]
+          },
+          "interpretation": [
+            {
+              "en": "Kasumi and Takuya experience an uncomfortable silence on the phone because they [37].",
+              "ja": "カスミとタクヤは[37]ので，通話中に気まずい沈黙を経験する。"
+            },
+            {
+              "en": "In the final scene, Kasumi uses the word \"irony\" with Maki. The irony is that Maki does not [38].",
+              "ja": "最後の場面で，カスミはマキについて「皮肉」という言葉を使う。皮肉とは，マキが[38]ないということだ。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 30,
+          "question_type": "ordering",
+          "stem": {
+            "en": "Choose four out of the five events (①〜⑤) and rearrange them in the order they happened.  [30]→[31]→[32]→[33]",
+            "ja": "「5つの出来事（①〜⑤）の中から4つを選び，それらが起こった順に並べ直しなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Kasumi becomes vice-president of her company.",
+              "ja": "カスミが会社の副社長になる。"
+            },
+            {
+              "label": "②",
+              "en": "Kasumi gets in touch with Takuya.",
+              "ja": "カスミがタクヤと連絡をとる。"
+            },
+            {
+              "label": "③",
+              "en": "Maki gets her university degree.",
+              "ja": "マキが大学の学位を取得する。"
+            },
+            {
+              "label": "④",
+              "en": "Maki starts working in her family business.",
+              "ja": "マキが家族でやっている店で働き始める。"
+            },
+            {
+              "label": "⑤",
+              "en": "Takuya is inspired to start his own business.",
+              "ja": "タクヤが自分で店を始めるよう励まされる。"
+            }
+          ],
+          "answer": "④→⑤→①→②",
+          "explanation": {
+            "ja": "正解は④→⑤→①→②。本文のストーリーは，「◆◆◆◆◆」によって6つのセクション（以下「§」で表す）に区切られている。各セクションの内容を端的に示すと，以下のようになる。\n§1（\"Irasshai-mase,\" said Maki ...）：マキのレストランにタクヤとカスミが訪れてきた場面\n§2（Takuya's phone vibrated, ...）：その数週間前に，カスミがタクヤに連絡をとった場面\n§3（Takuya's family had ...）：タクヤの歩み（高校入学前からカフェ開店まで）\n§4（Kasumi was reading ...）：カスミの歩み（高校時代から副社長就任まで）\n§5（\"Maki wasn't at ...）：タクヤとカスミの会話\n§6（The three friends ...）：マキのレストランでの3人の会話\n注意すべきは，全ての出来事が起こった順序通りに語られているわけではなく，§3と§4を除く4つのセクションは，時系列に沿って並べると，基本的に「§2→§5→§1→§6」という順序になる。\n①の「カスミが会社の副社長になる」は，§4の第4段落最終文（Since then, ...）に「それ以来，彼女は着実に会社の出世階段を上っていき，ついに今年副社長に任命されたのです」とあることから，このストーリーが語られている「今年」の出来事であるとわかる。「今年」とは，§2の最後にあるカスミの発言中に，「卒業から20年経ったなんて信じられないわ（I can't believe it's been 20 years since we graduated.）」とあることから，「卒業20年目の年」であるとわかる。\n②の「カスミがタクヤと連絡をとる」については，§4の最終段落（\"I wouldn't be vice-president ...）に，「『マキがいなかったら私は今副社長になれていないわ』と彼女は思いました。『彼女は私が苦労している時に助けてくれたのに，私は石島での仕事に没頭するあまり，彼女が予備校を辞めなければならない時に支えてあげられなかった』」 彼女は新聞をもう一度ちらりと見て，タクヤに電話することにしました」とある。2つの下線部に注意することで，カスミは副社長になった後で，タクヤに連絡をとることを決めたことがわかるので，「①→②」の順序になることがわかる。\n③の「マキが大学の学位を取得する」については，本文中に該当する記述がない。\n④の「マキが家族でやっている店で働き始める」については，§1の第1段落第2文（Maki had joined ...）に，「マキは，父親が病気になった19歳の時に，家族でやっているお店の経営に加わりました」とある。また，§3の第2段落第1文（Exactly one year after ...）と第2文（He called Maki, ...）に，「卒業からちょうど1年後に，タクヤは夢破れて川中に戻って来ました。彼がマキに電話すると，マキは同情してくれました」とあり，第4文（Her first day ...）には「彼女が仕事を始めた日が，彼が電話をした日でした」とある。したがって④は，マキが19歳で，卒業から1年経った時の出来事であることがわかる。これは明らかに①より前の出来事なので，「④→①→②」の順序になることがわかる。\n⑤の「タクヤが自分の店を始めるよう励まされる」に対応するのは，§3の最終段落第1文（Maki's encouragement inspired ...）の「マキに励まされてタクヤには意欲が出てきました」などの記述である（マキがタクヤにカフェ・カワナカへの就職を勧めた§3の中ほどにある \"Takuya, you really know ...\" という言葉ではないことに注意）。この場面は，§3の後半部に「タクヤは（カフェ・カワナカでの）仕事を始めてから1年目の記念日に，マキのレストランで彼女と話していました（On the one-year anniversary ...）」とあることから，④の約1年後の出来事である。つまり高校を卒業して約2年後のことになるので，卒業から20年後の出来事である①よりも前に来る。以上により，「④→⑤→①→②」という順序に決まる。そして§1の最終文（A phone call ...）からわかるように，②の数週間後に，カスミとタクヤはマキの店を訪れる。店での再会の場面は最後の§6で描かれ，そこでカスミとタクヤは，マキに大学へ進学してカウンセリングの勉強をすることを勧める。そして本文の最後から2つ目の文（Maki closed her eyes ...）に，マキは「目を閉じて，川中に『マキのキッチン』と『マキのカウンセリング』の両方があるのを想像しました」とあるが，これに対応するのが，「ストーリーのアウトライン」の最後に与えられている「マキは第2のキャリアについて考え始める」である。",
+            "evidence_sentences": [
+              "5_s2",
+              "5_s22",
+              "5_s25",
+              "5_s35",
+              "5_s51",
+              "5_s53",
+              "5_s14"
+            ]
+          },
+          "answer_numbers": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "answer_sequence": [
+            4,
+            5,
+            1,
+            2
+          ],
+          "answer_note": "全部正解で3点"
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 34,
+          "stem": {
+            "en": "Choose the best option for [34].",
+            "ja": "「[34]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "early 30s",
+              "ja": "30代前半",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "late 30s",
+              "ja": "30代後半",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "early 40s",
+              "ja": "40代前半",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "late 40s",
+              "ja": "40代後半",
+              "is_correct": false
+            }
+          ],
+          "answer": 2,
+          "explanation": {
+            "ja": "正解は②。マキの「（このストーリーが語られている）現在」の年齢として正しいものを選ぶ。以下の3点が主な手がかりとなる。\n(1) マキは19歳の時に店の仕事を始めた（§1の第2文：Maki had joined ...）。\n(2) マキが店の仕事を始めたのは，卒業して1年後である（問1の④の解説を参照）。\n(3)「現在」では，3人が高校を卒業して20年経っている（§2の最後にあるカスミの発言中の\"I can't believe it's been 20 years since we graduated.\"）。\n以上の手がかりから，「現在」のマキの年齢は38歳と推測できるので，②が正解となる。",
+            "evidence_sentences": [
+              "5_s2",
+              "5_s25",
+              "5_s14"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 35,
+          "stem": {
+            "en": "Choose the best options for [35] and [36].",
+            "ja": "「[35]と[36]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "answer": {
+            "35": "①",
+            "36": "②"
+          },
+          "explanation": {
+            "ja": "[35]の正解は①。ここにはマキがタクヤを支援した方法を表すものが入る。§3の最後から3つ目の文（Maki had a sign ...）に，「マキがレストランに『当店自慢のタクヤのコーヒーをご賞味あれ』という看板を出すと，この宣伝が役に立って，このコーヒーは川中で人気となりました」とあることから，この内容と合っている①が正解となる。\n[36]の正解は②。ここにはマキがカスミを支援した方法を表すものが入る。マキがカスミにかけた言葉として，§4の第3段落第3文（One day, Maki ...）に，「ある日マキに1つのアイディアが浮かびました。『ビューテラはお化粧の講習会をやらないの？ そちらの方があなたに向いていると思うわ。化粧品の使い方を人に教えてあげるのよ。みんな自分の顔が気に入って，化粧品をたくさん買ってくれるわ！』」とある。この中のマキの言葉は，カスミが化粧品販売の仕事で成功するアイディアを提案していると考えられることから，②が正解となる。\n他の選択肢のようなことをマキはタクヤにもカスミにもしていないので，これらは正解にはなれない。",
+            "evidence_sentences": [
+              "5_s37",
+              "5_s48"
+            ]
+          },
+          "answer_numbers": [
+            35,
+            36
+          ],
+          "choices_35": [
+            {
+              "label": "①",
+              "en": "made the product known to people",
+              "ja": "製品を人々に知らせた",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "proposed a successful business idea",
+              "ja": "ビジネスで成功するアイディアを提案した",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "purchased equipment for the business",
+              "ja": "ビジネス用の設備を購入した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "suggested moving to a bigger city",
+              "ja": "より大きな都市へ引っ越すことを提案した",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "taught the necessary skills for success",
+              "ja": "成功に必要な技術を教えた",
+              "is_correct": false
+            }
+          ],
+          "choices_36": [
+            {
+              "label": "①",
+              "en": "made the product known to people",
+              "ja": "製品を人々に知らせた",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "proposed a successful business idea",
+              "ja": "ビジネスで成功するアイディアを提案した",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "purchased equipment for the business",
+              "ja": "ビジネス用の設備を購入した",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "suggested moving to a bigger city",
+              "ja": "より大きな都市へ引っ越すことを提案した",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "taught the necessary skills for success",
+              "ja": "成功に必要な技術を教えた",
+              "is_correct": false
+            }
+          ],
+          "answer_note": "両方正解で3点"
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 37,
+          "stem": {
+            "en": "Choose the best option for [37].",
+            "ja": "「[37]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "do not want to discuss their success",
+              "ja": "彼らの成功について話し合いたくない",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "have not spoken in a long time",
+              "ja": "長い間話していない",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "regret not appreciating their friend more",
+              "ja": "彼らの友人のありがたみがもっとわかっていなかったことを後悔している",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "think Maki was envious of their achievements",
+              "ja": "マキが彼らの成し遂げたことをねたんだと思う",
+              "is_correct": false
+            }
+          ],
+          "answer": 3,
+          "explanation": {
+            "ja": "正解は③。[37]には，カスミとタクヤの間に気まずい沈黙が訪れた理由を表す表現が入る。§5の最後から2つ目の文（The conversation became ...）に「会話は途切れましたが，2人は無言で後ろめたい気持ちを伝えていました」とあることから，沈黙が訪れた理由は，2人が何らかの「後ろめたい気持ち（guilt）」を抱いたからだと考えられる。この「後ろめたい気持ち」が最も具体的に表現されているのは，§4の最終段落第1文（\"I wouldn't be ...）の中の「彼女（＝マキ）は私が苦労している時に助けてくれたのに，私は石島での仕事に没頭するあまり，彼女が予備校を辞めなければならない時に支えてあげられなかった」というカスミの言葉である。これはカスミが，自分の仕事に没頭することで大切な友人マキのありがたみを忘れていたことを後悔している言葉と理解することができるので，選択肢の中でこの言葉の内容に最も近い③が正解となる。",
+            "evidence_sentences": [
+              "5_s56",
+              "5_s52"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 38,
+          "stem": {
+            "en": "Choose the best option for [38].",
+            "ja": "「[38]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "like to try different things",
+              "ja": "いろいろなことを試みるのが好きでは（ない）",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "recognize her own talent",
+              "ja": "自分の才能が何かわかってい（ない）",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "understand the ability she lacks",
+              "ja": "自分に欠けている能力を理解してい（ない）",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "want to pursue her dreams",
+              "ja": "自分の夢を追いかけたいと思ってい（ない）",
+              "is_correct": false
+            }
+          ],
+          "answer": 2,
+          "explanation": {
+            "ja": "正解は②。本文中の「皮肉（irony）」の内容として適切なものを選ぶ。最終セクション（§6）の第5文（\"The irony is that ...）に，「『皮肉なことに，あなたは自分に対して同じことができなかったのよ』とカスミは付け加えました」とあることから，皮肉の内容は「あなたは自分に対して同じことができなかった」ということであるが，この中の「同じこと」とは，その直前の文（\"No. The opposite. ...）に「いや。正反対さ。君は信じられないくらい人をよく理解できるね。人の長所を見極めて，それをどう生かすか教えてくれるんだ。僕たちがその証拠さ。君のおかげで僕たちは自分の才能に気づいたんだ」とタクヤは言いました」とあることから，この中の下線部の「（他の）人」を「自分」に置き換えることができない，ということになるので，結局「自分をよく理解できない」，そして「自分の長所を見極めて，それをどう生かすかがわからない」ということになる。したがって，これらの意味に最も近い②が正解となる。",
+            "evidence_sentences": [
+              "5_s62",
+              "5_s61"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": "6A",
+      "title": "第6問 A",
+      "points": 12,
+      "situation": {
+        "en": "Your English teacher has assigned this article to you.  You need to prepare notes to give a short talk.",
+        "ja": "あなたの英語の先生は，この記事をあなたに割り当てました。あなたは短い話をするためにノートを用意しなければなりません。"
+      },
+      "passages": [
+        {
+          "id": "article_6a",
+          "title": {
+            "en": "Perceptions of Time",
+            "ja": "時間の知覚"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "6a_p1_s1",
+                "en": "When you hear the word \"time,\" it is probably hours, minutes, and seconds that immediately come to mind.",
+                "ja": "「時間」という言葉を聞くと，すぐに思い浮かぶのはおそらく時間，分，秒でしょう。"
+              },
+              {
+                "id": "6a_p1_s2",
+                "en": "In the late 19th century, however, philosopher Henri Bergson described how people usually do not experience time as it is measured by clocks (clock time).",
+                "ja": "しかし19世紀後半に，哲学者アンリ・ベルクソンは，人は普通，時計によって測定されるような時間（クロックタイム）を経験しないことを説明しました。"
+              },
+              {
+                "id": "6a_p1_s3",
+                "en": "Humans do not have a known biological mechanism to measure clock time, so they use mental processes instead.",
+                "ja": "人間はクロックタイムを測定するための，既知の生物学的メカニズムを持っていないので，代わりに心理作用を用いるのです。"
+              },
+              {
+                "id": "6a_p1_s4",
+                "en": "This is called psychological time, which everyone perceives differently.",
+                "ja": "これは心理的時間と呼ばれ，人によって知覚の仕方が異なるのです。"
+              }
+            ],
+            [
+              {
+                "id": "6a_p2_s1",
+                "en": "If you were asked how long it had taken to finish your homework, you probably would not know exactly.",
+                "ja": "宿題を終えるのにどのくらいかかりましたかと問われても，おそらく正確にはわからないでしょう。"
+              },
+              {
+                "id": "6a_p2_s2",
+                "en": "You would think back and make an estimate.",
+                "ja": "思い返して，概算をするでしょう。"
+              },
+              {
+                "id": "6a_p2_s3",
+                "en": "In a 1975 experiment, participants were shown either simple or complex shapes for a fixed amount of time and asked to memorize them.",
+                "ja": "1975年に行われたある実験で，参加者たちは一定の時間，単純あるいは複雑な形を見せられ，それらを覚えるよう求められました。"
+              },
+              {
+                "id": "6a_p2_s4",
+                "en": "Afterwards, they were asked how long they had looked at the shapes.",
+                "ja": "その後，彼らはどのくらいの間それらの形を見ていたかを問われました。"
+              },
+              {
+                "id": "6a_p2_s5",
+                "en": "To answer, they used a mental process called retrospective timing, which is estimating time based on the information retrieved from memory.",
+                "ja": "彼らは答えるために，追想的時間評価と呼ばれる心理作用を用いました。これは記憶から取り出される情報に基づいて時間を見積もることです。"
+              },
+              {
+                "id": "6a_p2_s6",
+                "en": "Participants who were shown the complex shapes felt the time was longer, while the people who saw the simple shapes experienced the opposite.",
+                "ja": "複雑な形を見せられた参加者は時間をより長く感じましたが，単純な形を見た人たちは正反対の経験をしました。"
+              }
+            ],
+            [
+              {
+                "id": "6a_p3_s1",
+                "en": "Another process to measure psychological time is called prospective timing.",
+                "ja": "心理的時間を測定する別の方法に，予期的時間評価と呼ばれるものがあります。"
+              },
+              {
+                "id": "6a_p3_s2",
+                "en": "It is used when you are actively keeping track of time while doing something.",
+                "ja": "これは何かをしながら能動的に時間を計り続ける時に用いられます。"
+              },
+              {
+                "id": "6a_p3_s3",
+                "en": "Instead of using the amount of information recalled, the level of attention given to time while doing the activity is used.",
+                "ja": "想起される情報の量ではなく，活動中に時間に向けられる注意の度合いが活用されます。"
+              },
+              {
+                "id": "6a_p3_s4",
+                "en": "In several studies, the participants performed tasks while estimating the time needed to complete them.",
+                "ja": "いくつかの研究では，参加者は課題をこなしながら，それを完成するのにかかる時間を推定しました。"
+              },
+              {
+                "id": "6a_p3_s5",
+                "en": "Time seemed shorter for the people doing more challenging mental activities which required them to place more focus on the task than on time.",
+                "ja": "時間よりも課題に集中しなければならない，より負荷の高い心理的活動をしている人たちには，時間はより短く感じられました。"
+              },
+              {
+                "id": "6a_p3_s6",
+                "en": "Time felt longer for the participants who did simpler tasks and the longest for those who were waiting or doing nothing.",
+                "ja": "より簡単な課題をこなした参加者には時間はより長く感じられ，待っていたり何もしていなかった人たちには最も長く感じられました。"
+              }
+            ],
+            [
+              {
+                "id": "6a_p4_s1",
+                "en": "Your emotional state can influence your awareness of time, too.",
+                "ja": "感情の状態も時間の意識に影響を及ぼすことがあります。"
+              },
+              {
+                "id": "6a_p4_s2",
+                "en": "For example, you can be enjoying a concert so much that you forget about time.",
+                "ja": "例えばコンサートが楽しいあまり，時間を忘れてしまうことがあります。"
+              },
+              {
+                "id": "6a_p4_s3",
+                "en": "Afterwards, you are shocked that hours have passed by in what seemed to be the blink of an eye.",
+                "ja": "後になって，数時間が瞬く間に過ぎてしまったように思えてショックを受けます。"
+              },
+              {
+                "id": "6a_p4_s4",
+                "en": "To explain this, we often say, \"Time flies when you're having fun.\"",
+                "ja": "これを説明するために私たちはしばしば「楽しい時間はあっという間に過ぎる」と言うのです。"
+              },
+              {
+                "id": "6a_p4_s5",
+                "en": "The opposite occurs when you are bored.",
+                "ja": "退屈な時には正反対のことが起こります。"
+              },
+              {
+                "id": "6a_p4_s6",
+                "en": "Instead of being focused on an activity, you notice the time.",
+                "ja": "活動に集中する代わりに，時間の存在に気づくのです。"
+              },
+              {
+                "id": "6a_p4_s7",
+                "en": "It seems to go very slowly as you cannot wait for your boredom to end.",
+                "ja": "退屈が終わるのが待ちきれないため，時はとてもゆっくり進むように思えます。"
+              },
+              {
+                "id": "6a_p4_s8",
+                "en": "Fear also affects our perception of time.",
+                "ja": "恐れもまた時間の知覚に影響を及ぼします。"
+              },
+              {
+                "id": "6a_p4_s9",
+                "en": "In a 2006 study, more than 60 people experienced skydiving for the first time.",
+                "ja": "2006年の研究では，60人を超える人々が初めてスカイダイビングを経験しました。"
+              },
+              {
+                "id": "6a_p4_s10",
+                "en": "Participants with high levels of unpleasant emotions perceived the time spent skydiving to be much longer than it was in reality.",
+                "ja": "不快な感情のレベルが高い参加者は，スカイダイビングに費やす時間を実際よりもずっと長いと思いました。"
+              }
+            ],
+            [
+              {
+                "id": "6a_p5_s1",
+                "en": "Psychological time also seems to move differently during life stages.",
+                "ja": "心理的時間は，ライフステージにおいても異なる動きをするようです。"
+              },
+              {
+                "id": "6a_p5_s2",
+                "en": "Children constantly encounter new information and have new experiences, which makes each day memorable and seem longer when recalled.",
+                "ja": "子供は絶えず新しい情報に遭遇して新しい経験をしますが，これによって1日1日が記憶に残り，思い出すときにはより長く感じられるのです。"
+              },
+              {
+                "id": "6a_p5_s3",
+                "en": "Also, time creeps by for them as they anticipate upcoming events such as birthdays and trips.",
+                "ja": "さらに，誕生日や旅行など近づいてくる行事を楽しみに待つ時には時間は子供にとってゆっくりと過ぎるのです。"
+              },
+              {
+                "id": "6a_p5_s4",
+                "en": "For most adults, unknown information is rarely encountered and new experiences become less frequent, so less mental focus is required and each day becomes less memorable.",
+                "ja": "ほとんどの大人にとっては，未知の情報に出会うことは稀で，新しい経験をすることはより少なくなるので，精神を集中する必要は減り，1日1日はより記憶に残らないものとなります。"
+              },
+              {
+                "id": "6a_p5_s5",
+                "en": "However, this is not always the case.",
+                "ja": "しかしながら，これはいつも正しいわけではありません。"
+              },
+              {
+                "id": "6a_p5_s6",
+                "en": "Daily routines are shaken up when drastic changes occur, such as changing jobs or relocating to a new city.",
+                "ja": "転職や新しい場所への転勤など劇的な変化が起こると，毎日の決まり事は一新されます。"
+              },
+              {
+                "id": "6a_p5_s7",
+                "en": "In such cases, the passage of time for those people is similar to that for children.",
+                "ja": "そのような場合には，こういった人たちにとっての時間の経過は，子供にとっての時間の経過と似ています。"
+              },
+              {
+                "id": "6a_p5_s8",
+                "en": "But generally speaking, time seems to accelerate as we mature.",
+                "ja": "しかし一般的に言えば，大人になるにつれて時間は加速するようです。"
+              }
+            ],
+            [
+              {
+                "id": "6a_p6_s1",
+                "en": "Knowledge of psychological time can be helpful in our daily lives, as it may help us deal with boredom.",
+                "ja": "心理的時間についての知識は，退屈に対処する一助となるかもしれないので，日常生活で役に立つ可能性があります。"
+              },
+              {
+                "id": "6a_p6_s2",
+                "en": "Because time passes slowly when we are not mentally focused and thinking about time, changing to a more engaging activity, such as reading a book, will help ease our boredom and speed up the time.",
+                "ja": "精神が集中していなくて時間のことを考えている時には，時間はゆっくりと過ぎるので，読書などのより興味をかき立てる活動に切り替えるのは，退屈を和らげて時間を速めるのに役立つでしょう。"
+              },
+              {
+                "id": "6a_p6_s3",
+                "en": "The next occasion that you hear \"Time flies when you're having fun,\" you will be reminded of this.",
+                "ja": "この次に「楽しい時間はあっという間に過ぎる」という言葉を聞いた時には，このことが思い出されるでしょう。"
+              }
+            ]
+          ],
+          "framed": true
+        },
+        {
+          "id": "notes_6a",
+          "is_notes": true,
+          "framed": true,
+          "no_divider": true,
+          "notes_caption": {
+            "en": "Your notes:",
+            "ja": "あなたのノート:"
+          },
+          "notes_title": {
+            "en": "Perceptions of Time",
+            "ja": "時間の知覚"
+          },
+          "outline_by_paragraph": {
+            "header": {
+              "en": "Outline by paragraph",
+              "ja": "段落別のアウトライン"
+            },
+            "items": [
+              {
+                "number": 1,
+                "text": {
+                  "en": "[39]",
+                  "ja": "[39]"
+                }
+              },
+              {
+                "number": 2,
+                "text": {
+                  "en": "Retrospective timing",
+                  "ja": "追想的時間評価"
+                }
+              },
+              {
+                "number": 3,
+                "text": {
+                  "en": "Prospective timing",
+                  "ja": "予期的時間評価"
+                }
+              },
+              {
+                "number": 4,
+                "text": {
+                  "en": "[40]",
+                  "ja": "[40]"
+                },
+                "sub_items": [
+                  {
+                    "en": "Skydiving",
+                    "ja": "スカイダイビング"
+                  }
+                ]
+              },
+              {
+                "number": 5,
+                "text": {
+                  "en": "Effects of age",
+                  "ja": "年齢の影響"
+                },
+                "sub_items": [
+                  {
+                    "en": "Time speeds up as we mature, but a [41].",
+                    "ja": "時間は歳をとるにつれて速く過ぎるが，[41]。"
+                  }
+                ]
+              },
+              {
+                "number": 6,
+                "text": {
+                  "en": "Practical tips",
+                  "ja": "実用的な助言"
+                }
+              }
+            ]
+          },
+          "original_examples": {
+            "header": {
+              "en": "My own examples to help listeners",
+              "ja": "聞き手を助けるための私の独自の例"
+            },
+            "items": [
+              {
+                "label": "A",
+                "heading": {
+                  "en": "Retrospective timing",
+                  "ja": "追想的時間評価"
+                },
+                "text": {
+                  "en": "Example: [42]",
+                  "ja": "例：[42]"
+                }
+              },
+              {
+                "label": "B",
+                "heading": {
+                  "en": "Prospective timing",
+                  "ja": "予期的時間評価"
+                },
+                "text": {
+                  "en": "Example: [43]",
+                  "ja": "例：[43]"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 39,
+          "stem": {
+            "en": "Choose the best options for [39] and [40].",
+            "ja": "「[39]と[40]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "answer": {
+            "39": "⑥",
+            "40": "②"
+          },
+          "points": 3,
+          "all_correct_only": true,
+          "explanation": {
+            "ja": "[39]には，第1段落（When you hear ...）の内容を端的に示す表現が入る。この段落では，時計によって計測される時間を表す「クロックタイム（clock time）」に対して，人間が時計を用いずに知覚する時間を表す「心理的時間（psychological time）」が紹介されている。つまり時間は複数の種類に分けて考えられるという趣旨であることから，⑥の「時間の種類」が正解となる。①の「生物学的メカニズム（biological mechanism）」については，本段落第3文（Humans do not ...）の中で言及されているものの，これは人間が時間計測の手段として持ち合わせていないものとして紹介されているもので，本段落の中心となる事項ではない。\n[40]には，第4段落（Your emotional state ...）の内容を端的に示す表現が入る。第1文に「感情の状態（emotional state）も時間の意識に影響を及ぼす（influence）ことがあります」とあり，この後ではいろいろな感情の状態（コンサートでの興奮状態，退屈，恐れ）が時間の知覚の仕方に影響を及ぼす例が紹介されている。したがって下線部の意味にほぼ等しい②の「私たちの気持ちの影響」が正解となる。",
+            "evidence_sentences": [
+              "6a_p1_s1",
+              "6a_p1_s2",
+              "6a_p1_s3",
+              "6a_p1_s4",
+              "6a_p4_s1",
+              "6a_p4_s2",
+              "6a_p4_s3",
+              "6a_p4_s4",
+              "6a_p4_s5",
+              "6a_p4_s6",
+              "6a_p4_s7",
+              "6a_p4_s8",
+              "6a_p4_s9",
+              "6a_p4_s10"
+            ]
+          },
+          "answer_numbers": [
+            39,
+            40
+          ],
+          "choices_39": [
+            {
+              "label": "①",
+              "en": "Biological mechanisms",
+              "ja": "生物学的メカニズム",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Effects of our feelings",
+              "ja": "私たちの気持ちの影響",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Kinds of memory",
+              "ja": "記憶の種類",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Life stages",
+              "ja": "ライフステージ",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Ongoing research",
+              "ja": "進行中の調査",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Types of time",
+              "ja": "時間の種類",
+              "is_correct": true
+            }
+          ],
+          "choices_40": [
+            {
+              "label": "①",
+              "en": "Biological mechanisms",
+              "ja": "生物学的メカニズム",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Effects of our feelings",
+              "ja": "私たちの気持ちの影響",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "Kinds of memory",
+              "ja": "記憶の種類",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Life stages",
+              "ja": "ライフステージ",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "Ongoing research",
+              "ja": "進行中の調査",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "Types of time",
+              "ja": "時間の種類",
+              "is_correct": false
+            }
+          ],
+          "answer_note": "両方正解で3点"
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 41,
+          "stem": {
+            "en": "Choose the best option for [41].",
+            "ja": "「[41]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "major lifestyle change at any age will likely make time slow down",
+              "ja": "あらゆる年齢における大きな生活様式の変化は，おそらく時間の進みを遅くするだろう",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "major lifestyle change regardless of age will likely make time speed up",
+              "ja": "年齢に関係ない大きな生活様式の変化は，おそらく時間の進みを速めるだろう",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "minor lifestyle change for adults will likely make time slow down",
+              "ja": "大人にとっての小さな生活様式の変化は，おそらく時間の進みを遅くするだろう",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "minor lifestyle change for children will likely make time speed up",
+              "ja": "子供にとっての小さな生活様式の変化は，おそらく時間の進みを速めるだろう",
+              "is_correct": false
+            }
+          ],
+          "answer": 1,
+          "points": 3,
+          "explanation": {
+            "ja": "正解は①。第5段落の内容を要約した文を完成する。同段落第6文（Daily routines are ...）と第7文（In such cases, ...）に，「転職や新しい場所への転勤など劇的な変化が起こると，毎日の決まり事は一新されます。そのような場合には，こういった人たちにとっての時間の経過は，子供にとっての時間の経過と似ています」とある。この中の「劇的な変化（drastic changes）」は，①の中の「大きな生活様式の変化（major lifestyle change）」と同内容である。また，「こういった人たち（those people）」とは，劇的な変化を経験した大人のことである。そして「子供にとっての時間の経過（that for children）」とは，同段落第3文（Also, time creeps ...）などにあるように，「ゆっくりと過ぎる（creeps by）」ことである。以上の点から選択肢①は，上に引用した第6・7文の内容と合っているので，これが正解となる。",
+            "evidence_sentences": [
+              "6a_p5_s1",
+              "6a_p5_s2",
+              "6a_p5_s3",
+              "6a_p5_s4",
+              "6a_p5_s5",
+              "6a_p5_s6",
+              "6a_p5_s7",
+              "6a_p5_s8"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 42,
+          "stem": {
+            "en": "Choose the best option for [42].",
+            "ja": "「[42]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "anticipating a message from a classmate",
+              "ja": "クラスメートからのメッセージを予想すること",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "memorizing your mother's cellphone number",
+              "ja": "母親の携帯電話の番号を暗記すること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "reflecting on how many hours you worked today",
+              "ja": "今日何時間働いたかを思い起こすこと",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "remembering that you have a meeting tomorrow",
+              "ja": "明日会議があることを思い出すこと",
+              "is_correct": false
+            }
+          ],
+          "answer": 3,
+          "points": 3,
+          "explanation": {
+            "ja": "正解は③。「追想的時間評価（Retrospective timing）」の例として適切なものを選ぶ。このタイプの時間評価については，第2段落第5文（To answer, they ...）に，「彼らは答えるために，追想的時間評価と呼ばれる心理作用を用いました。これは記憶から取り出される情報に基づいて時間を見積もることです」とある。選択肢の中で，下線部中の「時間を見積もること（estimating time）」に対応するものを探せば，③の「今日何時間働いたかを思い起こすこと」しかなく，この行為は，下線部の内容と合っている。したがって③が正解となる。",
+            "evidence_sentences": [
+              "6a_p2_s1",
+              "6a_p2_s2",
+              "6a_p2_s3",
+              "6a_p2_s4",
+              "6a_p2_s5",
+              "6a_p2_s6"
+            ]
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "stem": {
+            "en": "Choose the best option for [43].",
+            "ja": "「[43]に入れるのに最適な選択肢を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "guessing how long you've been jogging so far",
+              "ja": "自分が今までどのくらいジョギングをしてきているかを推測すること",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "making a schedule for the basketball team summer camp",
+              "ja": "バスケットボールチームの夏季合宿の予定を立てること",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "running into your tennis coach at the railway station",
+              "ja": "鉄道の駅で自分のテニスのコーチに偶然出会うこと",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "thinking about your last family vacation to a hot spring",
+              "ja": "この前の家族温泉旅行について考えること",
+              "is_correct": false
+            }
+          ],
+          "answer": 1,
+          "points": 3,
+          "explanation": {
+            "ja": "正解は①。「予期的時間評価（Prospective timing）」の例として適切なものを選ぶ。第3段落第1文（Another process to measure ...）と第2文（It is used ...）に，「心理的時間を測定する別の方法に，予期的時間評価と呼ばれるものがあります。これは何かをしながら能動的に時間を計り続ける時に用いられます」とある。選択肢の①は，言い換えれば「ジョギングをしながら現在までのジョギング時間を推測する」ことに等しいので，下線部の例として適切である。\nその他の選択肢はいずれも「時間を計り続ける」こととは関係のない行為なので，正解にはなれない。",
+            "evidence_sentences": [
+              "6a_p3_s1",
+              "6a_p3_s2",
+              "6a_p3_s3",
+              "6a_p3_s4",
+              "6a_p3_s5",
+              "6a_p3_s6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "section_number": "6B",
+      "title": "第6問 B",
+      "points": 12,
+      "situation": {
+        "en": "You are preparing a presentation for your science club, using the following passage from a science website.",
+        "ja": "あなたは科学クラブのための発表を準備していて，ある科学のウェブサイトから引用した以下の文章を利用しています。"
+      },
+      "passages": [
+        {
+          "id": "article_6b",
+          "title": {
+            "en": "Chili Peppers: The Spice of Life",
+            "ja": "チリ・ペッパー：生活のスパイス"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "6b_p1_s1",
+                "en": "Tiny pieces of red spice in chili chicken add a nice touch of color, but biting into even a small piece can make a person's mouth burn as if it were on fire.",
+                "ja": "チリ・チキンの中の赤い香辛料の小さな粒は，素敵な色味をちょっと添えてくれますが，小さな1粒を噛みつぶすだけで，口は火がついたようにヒリヒリと痛みます。"
+              },
+              {
+                "id": "6b_p1_s2",
+                "en": "While some people love this, others want to avoid the painful sensation.",
+                "ja": "これが大好きな人もいますが，痛い感覚を避けたがる人たちもいます。"
+              },
+              {
+                "id": "6b_p1_s3",
+                "en": "At the same time, though, they can eat sashimi with wasabi.",
+                "ja": "しかしその反面，その人たちはワサビを付けて刺身を食べることはできます。"
+              },
+              {
+                "id": "6b_p1_s4",
+                "en": "This might lead one to wonder what spiciness actually is and to ask where the difference between chili and wasabi comes from.",
+                "ja": "このことから，ピリッとした辛さとは実は何なのかと疑問に思い，チリとワサビの違いはどこから来るのか問いたくなるかもしれません。"
+              }
+            ],
+            [
+              {
+                "id": "6b_p2_s1",
+                "en": "Unlike sweetness, saltiness, and sourness, spiciness is not a taste.",
+                "ja": "甘さや塩辛さや酸っぱさとは異なり，辛さは味ではありません。"
+              },
+              {
+                "id": "6b_p2_s2",
+                "en": "In fact, we do not actually taste heat, or spiciness, when we eat spicy foods.",
+                "ja": "実は，私たちが辛いものを食べる時に，実際にはヒリヒリとした感覚，つまり辛さを味わってはいないのです。"
+              },
+              {
+                "id": "6b_p2_s3",
+                "en": "The bite we feel from eating chili peppers and wasabi is derived from different types of compounds.",
+                "ja": "チリ・ペッパーやワサビを食べることから感じる辛さは，異なる種類の化合物から生じます。"
+              },
+              {
+                "id": "6b_p2_s4",
+                "en": "Chili peppers get their heat from a heavier, oil-like element called capsaicin.",
+                "ja": "チリ・ペッパーのピリッとした辛みは，カプサイシンと呼ばれるより重くて油に似た成分に由来します。"
+              },
+              {
+                "id": "6b_p2_s5",
+                "en": "Capsaicin leaves a lingering, fire-like sensation in our mouths because it triggers a receptor called TRPV1.",
+                "ja": "カプサイシンはTRPV1と呼ばれる受容体を始動させるため，口の中になかなか収まらない炎症のような感覚を残します。"
+              },
+              {
+                "id": "6b_p2_s6",
+                "en": "TRPV1 induces stress and tells us when something is burning our mouths.",
+                "ja": "何かが口をヒリヒリさせている時に，TRPV1はストレスを誘発して私たちに知らせます。"
+              },
+              {
+                "id": "6b_p2_s7",
+                "en": "Interestingly, there is a wide range of heat across the different varieties of chili peppers, and the level depends on the amount of capsaicin they contain.",
+                "ja": "面白いことに，チリ・ペッパーの様々な種類に応じて，ピリッとした辛みにも広い幅があり，その度合いはカプサイシンの含有量によって決まります。"
+              },
+              {
+                "id": "6b_p2_s8",
+                "en": "This is measured using the Scoville Scale, which is also called Scoville Heat Units (SHU).",
+                "ja": "これはスコビル値，別名スコビル辛味単位（SHU）を用いて測定されます。"
+              },
+              {
+                "id": "6b_p2_s9",
+                "en": "SHUs range from the sweet and mild shishito pepper at 50-200 SHUs to the Carolina Reaper pepper, which can reach up to 2.2 million.",
+                "ja": "SHUの値の範囲は，甘くてマイルドなシシトウガラシの50-200から，キャロライナ・リーパー・ペッパーの220万に及びます。"
+              }
+            ],
+            [
+              {
+                "id": "6b_p3_s1",
+                "en": "Wasabi is considered a root, not a pepper, and does not contain capsaicin.",
+                "ja": "ワサビは根であって，ペッパーではないと考えられていて，カプサイシンを含んでいません。"
+              },
+              {
+                "id": "6b_p3_s2",
+                "en": "Thus, wasabi is not ranked on the Scoville Scale.",
+                "ja": "このため，ワサビはスコビル値でランク付けされてはいないのです。"
+              },
+              {
+                "id": "6b_p3_s3",
+                "en": "However, people have compared the level of spice in it to chilis with around 1,000 SHUs, which is on the lower end of the scale.",
+                "ja": "しかしながら，人々はそれに含まれる香辛料のレベルを，およそ1000SHUのチリと同程度とみなしましたが，それはこの尺度の下端に位置します。"
+              },
+              {
+                "id": "6b_p3_s4",
+                "en": "The reason some people cannot tolerate chili spice but can eat foods flavored with wasabi is that the spice compounds in it are low in density.",
+                "ja": "チリの香辛料には耐えられないのにワサビで味付けされたものは食べられる人がいる理由は，その中の香辛料の化合物が低密度であるからです。"
+              },
+              {
+                "id": "6b_p3_s5",
+                "en": "The compounds in wasabi vaporize easily, delivering a blast of spiciness to our nose when we eat it.",
+                "ja": "ワサビに含まれる化合物は容易に気化するので，食べた時に鼻にツーンとくるのです。"
+              }
+            ],
+            [
+              {
+                "id": "6b_p4_s1",
+                "en": "Consuming chili peppers can have positive effects on our health, and much research has been conducted into the benefits of capsaicin.",
+                "ja": "チリ・ペッパーの摂取は，健康に良い効果を及ぼしうるので，カプサイシンの効用について多くの研究がなされてきました。"
+              },
+              {
+                "id": "6b_p4_s2",
+                "en": "When capsaicin activates the TRPV1 receptor in a person's body, it is similar to what happens when they experience stress or pain from an injury.",
+                "ja": "カプサイシンが体内のTRPV1受容体を活性化させる時に起こることは，人がストレスや負傷によって痛みを経験する時に起こることと似ています。"
+              },
+              {
+                "id": "6b_p4_s3",
+                "en": "Strangely, capsaicin can also make pain go away.",
+                "ja": "奇妙なことに，カプサイシンは痛みを消すこともできます。"
+              },
+              {
+                "id": "6b_p4_s4",
+                "en": "Scientists found that TRPV1 ceases to be turned on after long-term exposure to chili peppers, temporarily easing painful sensations.",
+                "ja": "科学者たちは，TRPV1はチリ・ペッパーに長時間さらされると活性化されなくなり，それで一時的に痛みの感覚が和らぐのです。"
+              },
+              {
+                "id": "6b_p4_s5",
+                "en": "Thus, skin creams containing capsaicin might be useful for people who experience muscle aches.",
+                "ja": "このため，カプサイシンを含むスキンクリームは，筋肉痛を患っている人に効き目があるかもしれません。"
+              }
+            ],
+            [
+              {
+                "id": "6b_p5_s1",
+                "en": "Another benefit of eating chili peppers is that they accelerate the metabolism.",
+                "ja": "チリ・ペッパーを食べるもう1つの利点は，それが新陳代謝を促進することです。"
+              },
+              {
+                "id": "6b_p5_s2",
+                "en": "A group of researchers analyzed 90 studies on capsaicin and body weight and found that people had a reduced appetite when they ate spicy foods.",
+                "ja": "ある研究者のグループは，カプサイシンと体重に関する90の研究を分析して，人は辛いものを食べると食欲が減退することを発見しました。"
+              },
+              {
+                "id": "6b_p5_s3",
+                "en": "This is because spicy foods increase the heart rate, send more energy to the muscles, and convert fat into energy.",
+                "ja": "その理由は，辛い食べ物は心拍数を上げて，筋肉に送るエネルギーを増やし，脂肪をエネルギーに変えるためです。"
+              },
+              {
+                "id": "6b_p5_s4",
+                "en": "Recently, scientists at the University of Wyoming have created a weight-loss drug with capsaicin as a main ingredient.",
+                "ja": "最近ワイオミング大学の科学者たちは，カプサイシンを主成分とする減量薬を開発しました。"
+              }
+            ],
+            [
+              {
+                "id": "6b_p6_s1",
+                "en": "It is also believed that chili peppers are connected with food safety, which might lead to a healthier life.",
+                "ja": "チリ・ペッパーは食の安全と関係があるとも考えられていて，このことがより健康な生活をもたらすかもしれません。"
+              },
+              {
+                "id": "6b_p6_s2",
+                "en": "When food is left outside of a refrigerated environment, microorganisms multiply on it, which may cause sickness if eaten.",
+                "ja": "食べ物は冷やされた環境の外に置かれていると，微生物が繁殖し，食べると病気になるかもしれません。"
+              },
+              {
+                "id": "6b_p6_s3",
+                "en": "Studies have shown that capsaicin and other chemicals found in chili peppers have antibacterial properties that can slow down or even stop microorganism growth.",
+                "ja": "研究によると，チリ・ペッパーに含まれるカプサイシンなどの化学物質には抗菌性があり，微生物の成長を遅らせたり，止めることさえできるのです。"
+              },
+              {
+                "id": "6b_p6_s4",
+                "en": "As a result, food lasts longer and there are fewer food-borne illnesses.",
+                "ja": "その結果，食べ物はより長持ちして，食物に起因する病気が減ります。"
+              },
+              {
+                "id": "6b_p6_s5",
+                "en": "This may explain why people in hot climates have a tendency to use more chili peppers, and therefore, be more tolerant of spicier foods due to repeated exposure.",
+                "ja": "このことにより，気候の暑い地域の人々はチリ・ペッパーを使う量がより多く，それゆえ，繰り返しさらされることでより辛い食べ物への耐性が高まる傾向があるのかもしれません。"
+              },
+              {
+                "id": "6b_p6_s6",
+                "en": "Also, in the past, before there were refrigerators, they were less likely to have food poisoning than people in cooler climates.",
+                "ja": "また，かつて冷蔵庫がなかった時は，彼らはより涼しい気候の地域の人々よりも食中毒にかかる可能性が低かったのです。"
+              }
+            ],
+            [
+              {
+                "id": "6b_p7_s1",
+                "en": "Chili peppers seem to have health benefits, but can they also be bad for our health?",
+                "ja": "チリ・ペッパーには健康上の利点があるようですが，健康に悪いこともあるのでしょうか？"
+              },
+              {
+                "id": "6b_p7_s2",
+                "en": "Peppers that are high on the Scoville Scale can cause physical discomfort when eaten in large quantities.",
+                "ja": "スコビル値の高いペッパーは，大量に食べると身体的な苦痛を引き起こすことがあります。"
+              },
+              {
+                "id": "6b_p7_s3",
+                "en": "People who have eaten several of the world's hottest chilis in a short time have reported experiencing upset stomachs, diarrhea, numb hands, and symptoms similar to a heart attack.",
+                "ja": "世界で最も辛いチリのいくつかを短時間で食べた人々は，胃の不調，下痢，手の痺れ，心臓麻痺に似た症状を経験したと報告しています。"
+              },
+              {
+                "id": "6b_p7_s4",
+                "en": "Ghost peppers, which contain one million SHUs, can even burn a person's skin if they are touched.",
+                "ja": "100万のSHUを含むゴースト・ペッパーに触れると，人の皮膚が焼けることさえあるのです。"
+              }
+            ],
+            [
+              {
+                "id": "6b_p8_s1",
+                "en": "Luckily the discomfort some people feel after eating spicy foods tends to go away soon—usually within a few hours.",
+                "ja": "幸いなことに，辛いものを食べた後で一部の人々が感じる不快感は，すぐに（普通は数時間以内に）消え去ることが多いのです。"
+              },
+              {
+                "id": "6b_p8_s2",
+                "en": "Despite some negative side effects, spicy foods remain popular around the world and add a flavorful touch to the table.",
+                "ja": "いくつかのマイナスの副作用はあるものの，辛い食べ物は依然として世界中で人気があり，食卓に香味を添えてくれます。"
+              },
+              {
+                "id": "6b_p8_s3",
+                "en": "Remember, it is safe to consume spicy foods, but you might want to be careful about the amount of peppers you put in your dishes.",
+                "ja": "覚えておいていただきたいのは，辛いものを食べるのは安全ですが，料理に加えるペッパーの量は注意する方が良いかもしれないということです。"
+              }
+            ]
+          ],
+          "framed": true
+        },
+        {
+          "id": "presentation_6b",
+          "framed": true,
+          "no_divider": true,
+          "presentation_slides": {
+            "label_outside_box": {
+              "en": "Presentation slides:",
+              "ja": "発表用スライド:"
+            },
+            "slides": [
+              {
+                "slide_no": 1,
+                "title": {
+                  "en": "Chili Peppers: The Spice of Life",
+                  "ja": "チリ・ペッパー： 生活のスパイス"
+                },
+                "image": {
+                  "src": "images/s6b_slide1.png",
+                  "alt": "Chili peppers and dish"
+                }
+              },
+              {
+                "slide_no": 2,
+                "title": {
+                  "en": "Characteristics",
+                  "ja": "特徴"
+                },
+                "compare_table": {
+                  "columns": {
+                    "en": [
+                      "chili peppers",
+                      "wasabi"
+                    ],
+                    "ja": [
+                      "チリ・ペッパー",
+                      "ワサビ"
+                    ]
+                  },
+                  "rows": [
+                    {
+                      "left": {
+                        "en": "oil-like elements",
+                        "ja": "油に似た成分"
+                      },
+                      "right": {
+                        "en": "[44]",
+                        "ja": "[44]"
+                      }
+                    },
+                    {
+                      "left": {
+                        "en": "triggering TRPV1",
+                        "ja": "TRPV1を始動"
+                      },
+                      "right": {
+                        "en": "changing to vapor",
+                        "ja": "蒸気に変化"
+                      }
+                    },
+                    {
+                      "left": {
+                        "en": "persistent feeling",
+                        "ja": "消えにくい感覚"
+                      },
+                      "right": {
+                        "en": "spicy rush",
+                        "ja": "辛味が吹き抜ける"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "slide_no": 3,
+                "title": {
+                  "en": "Positive Effects",
+                  "ja": "プラス効果"
+                },
+                "lead": {
+                  "en": "Capsaicin can...",
+                  "ja": "カプサイシンは…ことができる。",
+                  "trailing_slot": 45
+                },
+                "lettered_bullets": [
+                  {
+                    "letter": "A",
+                    "en": "reduce pain.",
+                    "ja": "痛みを減らす"
+                  },
+                  {
+                    "letter": "B",
+                    "en": "give you more energy.",
+                    "ja": "より多くのエネルギーを体に与える"
+                  },
+                  {
+                    "letter": "C",
+                    "en": "speed up your metabolism.",
+                    "ja": "新陳代謝の速度を上げる"
+                  },
+                  {
+                    "letter": "D",
+                    "en": "make you feel less stress.",
+                    "ja": "人が感じるストレスの量を減らす"
+                  },
+                  {
+                    "letter": "E",
+                    "en": "decrease food poisoning.",
+                    "ja": "食中毒を減らす"
+                  }
+                ]
+              },
+              {
+                "slide_no": 4,
+                "title": {
+                  "en": "Negative Effects",
+                  "ja": "マイナス効果"
+                },
+                "lead": {
+                  "en": "When eating too many strong chili peppers in a short time,",
+                  "ja": "短時間で強いチリ・ペッパーを食べすぎると，"
+                },
+                "bullets": [
+                  {
+                    "is_slot": true,
+                    "slot": 46
+                  },
+                  {
+                    "is_slot": true,
+                    "slot": 47
+                  }
+                ]
+              },
+              {
+                "slide_no": 5,
+                "title": {
+                  "en": "Spice Tolerance",
+                  "ja": "香辛料への耐性"
+                },
+                "center_slot": 48
+              },
+              {
+                "slide_no": 6,
+                "title": {
+                  "en": "Closing Remark",
+                  "ja": "最後に"
+                },
+                "center_slot": 49
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 44,
+          "stem": {
+            "en": "What is the first characteristic of wasabi on Slide 2? [44]",
+            "ja": "「スライド2の中のワサビの第1の特徴は何か」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "burning taste",
+              "ja": "ヒリヒリする味",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "fire-like sensation",
+              "ja": "炎症のような感覚",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "lasting feeling",
+              "ja": "長続きする感じ",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "light compounds",
+              "ja": "軽い化合物",
+              "is_correct": true
+            }
+          ],
+          "answer": 4,
+          "points": 2,
+          "explanation": {
+            "ja": "正解は④。第2段落第3文（The bite we feel ...）と第4文（Chili peppers get ...）に，「チリ・ペッパーやワサビを食べることから感じる辛さは，異なる種類の化合物から生じます。チリ・ペッパーのピリッとした辛みは，カプサイシンと呼ばれるより重くて（heavier）油に似た成分に由来します」とある。これらの記述から，ワサビを形成する化合物は，チリ・ペッパーを形成する化合物よりも軽い（lighter）ことがわかるので，④が正解となる。\n他の選択肢は，いずれも本文中でワサビの特徴として述べられていない。",
+            "evidence_sentences": [
+              "6b_p2_s1",
+              "6b_p2_s2",
+              "6b_p2_s3",
+              "6b_p2_s4",
+              "6b_p2_s5",
+              "6b_p2_s6",
+              "6b_p2_s7",
+              "6b_p2_s8",
+              "6b_p2_s9"
+            ]
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 45,
+          "stem": {
+            "en": "Which is an error you found on Slide 3? [45]",
+            "ja": "「スライド3の中にあなたが見つけた誤りはどれか」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "A",
+              "ja": "A",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "B",
+              "ja": "B",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "C",
+              "ja": "C",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "D",
+              "ja": "D",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "E",
+              "ja": "E",
+              "is_correct": false
+            }
+          ],
+          "answer": 4,
+          "points": 2,
+          "explanation": {
+            "ja": "正解は④。カプサイシンのプラス効果として不適切なものを選ぶ。Dに「人が感じるストレスの量を減らす」とあるが，カプサイシンとストレスの関係については，第2段落第5文（Capsaicin leaves ...）と第6文（TRPV1 induces stress ...）に，「カプサイシンはTRPV1と呼ばれる受容体を始動させるため，口の中になかなか収まらない炎症のような感覚を残します。何かが口をヒリヒリさせている時に，TRPV1はストレスを誘発して私たちに知らせます」とある。また，第4段落第2文（When capsaicin activates ...）には，「カプサイシンが体内のTRPV1受容体を活性化させる時に起こることは，人がストレスや負傷によって痛みを経験する時に起こることと似ています」とある。これらはいずれも，カプサイシンはストレスやそれに似た症状を発現させるという内容であり，Dのようにカプサイシンが「人が感じるストレスの量を減らす」ということではないので，④が正解となる。\nAの「痛みを減らす」については，第4段落第3文（Strangely, capsaicin can ...）に「奇妙なことに，カプサイシンは痛みを消すこともできます」とあることなどと合っている。Bの「より多くのエネルギーを体に与える」については，カプサイシンと体重に関する研究の分析結果について述べている第5段落第3文（This is because ...）に，「その理由は，辛い食べ物は心拍数を上げて，筋肉に送るエネルギーを増やし，脂肪をエネルギーに変えるためです」とあることと合っている。Cの「新陳代謝の速度を上げる」については，第5段落第1文（Another benefit of ...）に「チリ・ペッパーを食べるもう1つの利点は，それが新陳代謝を促進することです」とあるのと合っている。Eの「食中毒を減らす」は，第6段落最終文（Also, in the past, ...）に「また，かつて冷蔵庫がなかった時は，彼ら（＝辛い食べ物を通じてカプサイシンを頻繁に摂取している暑い気候の地域の人々）はより涼しい気候の地域の人々よりも食中毒にかかる可能性が低かったのです」とあることと合っている。",
+            "evidence_sentences": [
+              "6b_p2_s1",
+              "6b_p2_s2",
+              "6b_p2_s3",
+              "6b_p2_s4",
+              "6b_p2_s5",
+              "6b_p2_s6",
+              "6b_p2_s7",
+              "6b_p2_s8",
+              "6b_p2_s9",
+              "6b_p4_s1",
+              "6b_p4_s2",
+              "6b_p4_s3",
+              "6b_p4_s4",
+              "6b_p4_s5",
+              "6b_p5_s1",
+              "6b_p5_s2",
+              "6b_p5_s3",
+              "6b_p5_s4",
+              "6b_p6_s1",
+              "6b_p6_s2",
+              "6b_p6_s3",
+              "6b_p6_s4",
+              "6b_p6_s5",
+              "6b_p6_s6"
+            ]
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 46,
+          "stem": {
+            "en": "Choose two options for Slide 4.  (The order does not matter.)\n[46] · [47]",
+            "ja": "「スライド4に合う選択肢を2つ選びなさい（順序は問わない）」"
+          },
+          "answer": {
+            "46": "②",
+            "47": "③"
+          },
+          "points": 3,
+          "all_correct_only": true,
+          "explanation": {
+            "ja": "正解は②と③。短時間で強いチリ・ペッパーを食べすぎた時に起こるマイナス効果を表すものを選ぶ。これについては第7段落（Chili peppers seem ...）で述べられている。第3文（People who have eaten ...）に，「世界で最も辛いチリのいくつかを短時間で食べた人々は，胃の不調（upset stomachs），下痢，手の痺れ（numb hands），心臓麻痺に似た症状を経験したと報告しています」とあり，②と③は下線部の内容と合っている。\n他の選択肢のようなことは，チリ・ペッパーの食べすぎによって起こるとは本文中で述べられていない。",
+            "evidence_sentences": [
+              "6b_p7_s1",
+              "6b_p7_s2",
+              "6b_p7_s3",
+              "6b_p7_s4"
+            ]
+          },
+          "answer_numbers": [
+            46,
+            47
+          ],
+          "unordered_slots": [
+            46,
+            47
+          ],
+          "choices_46": [
+            {
+              "label": "①",
+              "en": "you might activate harmful bacteria.",
+              "ja": "有害なバクテリアを活性化させるかもしれない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "you might experience stomach pain.",
+              "ja": "腹痛を起こすかもしれない。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "you might lose feeling in your hands.",
+              "ja": "手の感覚を失うかもしれない。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "your fingers might feel like they are on fire.",
+              "ja": "指に火がついたように感じるかもしれない。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "your nose might start hurting.",
+              "ja": "鼻が痛み出すかもしれない。",
+              "is_correct": false
+            }
+          ],
+          "choices_47": [
+            {
+              "label": "①",
+              "en": "you might activate harmful bacteria.",
+              "ja": "有害なバクテリアを活性化させるかもしれない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "you might experience stomach pain.",
+              "ja": "腹痛を起こすかもしれない。",
+              "is_correct": true
+            },
+            {
+              "label": "③",
+              "en": "you might lose feeling in your hands.",
+              "ja": "手の感覚を失うかもしれない。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "your fingers might feel like they are on fire.",
+              "ja": "指に火がついたように感じるかもしれない。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "your nose might start hurting.",
+              "ja": "鼻が痛み出すかもしれない。",
+              "is_correct": false
+            }
+          ],
+          "answer_note": "両方正解で3点（順不同）"
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 48,
+          "stem": {
+            "en": "What can be inferred about tolerance for spices for Slide 5? [48]",
+            "ja": "「スライド5の香辛料への耐性についてどんなことが推論できるか」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "People with a high tolerance to chili peppers pay attention to the spices used in their food.",
+              "ja": "チリ・ペッパーへの耐性が高い人は，自分が食べるものに使われる香辛料に注意を払う。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "People with a high tolerance to wasabi are scared of chili peppers' negative effects.",
+              "ja": "ワサビへの耐性が高い人は，チリ・ペッパーのマイナス効果をこわがる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "People with a low tolerance to chili peppers can get used to their heat.",
+              "ja": "チリ・ペッパーへの耐性が低い人は，その辛さに慣れることができる。",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "People with a low tolerance to wasabi cannot endure high SHU levels.",
+              "ja": "ワサビへの耐性が低い人は，高レベルのSHUに耐えることができない。",
+              "is_correct": false
+            }
+          ],
+          "answer": 3,
+          "points": 3,
+          "explanation": {
+            "ja": "正解は③。香辛料への耐性に関して，第6段落第5文（This may explain ...）に「このことにより，気候の暑い地域の人々はチリ・ペッパーを使う量がより多く，それゆえ，繰り返しさらされることでより辛い食べ物への耐性が高まる傾向があるのかもしれません」とある。下線部の中の「繰り返しさらされること（repeated exposure）」とは，この文脈では「辛いものを繰り返し食べること」を表している。このことから，③のように，最初はチリ・ペッパーが苦手でも，繰り返し食べていくうちにその辛さに慣れることがあると推論することが可能なので，③が正解となる。\n①や②のようなことは，本文からは読み取れない。④については，SHU値はカプサイシンの含有量によって決まる（第2段落第8文：This is measured ...）が，ワサビはカプサイシンを含んでいない（第3段落第1文：Wasabi is considered ...）ので，ワサビへの耐性とSHU値への耐性を直接関連づけることはできないことから，④は正解にならない。",
+            "evidence_sentences": [
+              "6b_p6_s1",
+              "6b_p6_s2",
+              "6b_p6_s3",
+              "6b_p6_s4",
+              "6b_p6_s5",
+              "6b_p6_s6"
+            ]
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 49,
+          "stem": {
+            "en": "Choose the most appropriate remark for Slide 6. [49]",
+            "ja": "「スライド6に最も適切な言葉を選びなさい」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Don't be afraid.  Eating spicy foods will boost your confidence.",
+              "ja": "こわがらないで。辛いものを食べると自信が高まります。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Next time you eat chili chicken, remember its punch only stays for a second.",
+              "ja": "この次チリ・チキンを食べる時には，辛さはほんのわずかしか続かないことを思い出してください。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Personality plays a big role in our spice preference, so don't worry.",
+              "ja": "香辛料の好みにおいては個性が大きな役割を果たすので，心配する必要はありません。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Unfortunately, there are no cures for a low wasabi tolerance.",
+              "ja": "残念なことに，ワサビへの耐性が低いことへの治療法はありません。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "When someone offers you some spicy food, remember it has some benefits.",
+              "ja": "辛い物を食べませんかと言われたら，それにはいくつかの利点があることを思い出してください。",
+              "is_correct": true
+            }
+          ],
+          "answer": 5,
+          "points": 2,
+          "explanation": {
+            "ja": "正解は⑤。チリ・ペッパーについての発表の最後の言葉として適切なものを選ぶ。消去法で考えるとわかりやすい。①の中の「辛いものを食べると自信が高まります」や，③の中の「香辛料の好みにおいては個性が大きな役割を果たす」という指摘は，発表内容の中に該当するものがないので，正解にはなれない。また，②の中の「辛さはほんのわずかしか続かない」は，最終段落第1文（Luckily the discomfort ...）の「幸いなことに，辛いものを食べた後で一部の人々が感じる不快感は，すぐに（普通は数時間以内に）消え去ることが多いのです」という記述を誤解したものなので，やはり正解にはなれない。また，この発表の表題は「チリ・ペッパー：生活のスパイス」なので，④のようにワサビについてのコメントで発表を結ぶのも不自然であるし，ワサビの耐性の低さへの治療法がないとも本文で述べられていない。したがって正解になりうるものは⑤のみである。⑤の中の「それ（＝辛い食べ物）にはいくつかの利点がある」ことについては，第4段落（Consuming chili peppers ...）から第6段落（It is also believed ...）を中心に述べられており，発表内容との矛盾点はなく，またこの発表の主旨と考えることもできるので，これが正解として最適である。",
+            "evidence_sentences": [
+              "6b_p4_s1",
+              "6b_p4_s2",
+              "6b_p4_s3",
+              "6b_p4_s4",
+              "6b_p4_s5",
+              "6b_p5_s1",
+              "6b_p5_s2",
+              "6b_p5_s3",
+              "6b_p5_s4",
+              "6b_p6_s1",
+              "6b_p6_s2",
+              "6b_p6_s3",
+              "6b_p6_s4",
+              "6b_p6_s5",
+              "6b_p6_s6",
+              "6b_p8_s1",
+              "6b_p8_s2",
+              "6b_p8_s3"
             ]
           }
         }

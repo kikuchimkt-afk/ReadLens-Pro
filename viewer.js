@@ -23,10 +23,7 @@ const EXAM_PATHS = {
   sundai_2025_03: 'data/sundai/2025/round03/data.json',
   sundai_2025_04: 'data/sundai/2025/round04/data.json',
   kakomon_2025: 'data/kakomon/2025/data.json',
-  kyotsu_2024_honshiken: 'data/kyotsu/2024/honshiken/data.json',
-  kakomon_2023: 'data/kakomon/2023/data.json',
-  kakomon_2022: 'data/kakomon/2022/data.json',
-  kakomon_2021_1: 'data/kakomon/2021_1/data.json'
+  kyotsu_2024_honshiken: 'data/kyotsu/2024/honshiken/data.json'
 };
 
 /**
@@ -881,9 +878,16 @@ function renderPassage() {
             html += `<div class="slide-title-ja choice-text-ja">${slide.title.ja}</div>`;
           }
         }
-        // Image (Slide 1 etc.)
+        // Image (Slide 1 など) — data.json と同じディレクトリ基準で相対パスを解決
         if (slide.image) {
-          html += `<div class="slide-image-wrap"><img class="slide-image" src="${slide.image.src}" alt="${slide.image.alt || ''}" /></div>`;
+          const imgBaseSlide = currentDataPath.replace(/data\.json$/, '');
+          const rawSlide = slide.image.src || '';
+          const slideImgSrc = /^https?:\/\//.test(rawSlide)
+            ? rawSlide
+            : rawSlide.startsWith('data/')
+              ? rawSlide
+              : imgBaseSlide + rawSlide;
+          html += `<div class="slide-image-wrap"><img class="slide-image" src="${slideImgSrc}" alt="${slide.image.alt || ''}" /></div>`;
         }
         // Lead text (e.g., "The silkworm ..." or "Silk ...")
         if (slide.lead) {
@@ -897,6 +901,33 @@ function renderPassage() {
               ? ` <span class="answer-slot">${slide.lead.trailing_slot}</span>` : '';
             html += `<div class="slide-lead-ja choice-text-ja">${slide.lead.ja}${jaTrail}</div>`;
           }
+        }
+        // Compare table (大問6B Slide 2: 2列比較表)
+        if (slide.compare_table) {
+          const ct = slide.compare_table;
+          const cols = ct.columns || {};
+          html += '<table class="slide-compare-table">';
+          if (cols.en && cols.en.length === 2) {
+            html += `<thead><tr><th>${cols.en[0]}</th><th>${cols.en[1]}</th></tr>`;
+            if (cols.ja && cols.ja.length === 2) {
+              html += `<tr class="compare-table-ja"><th><span class="choice-text-ja">${cols.ja[0]}</span></th>`
+                + `<th><span class="choice-text-ja">${cols.ja[1]}</span></th></tr>`;
+            }
+            html += '</thead>';
+          }
+          html += '<tbody>';
+          for (const row of (ct.rows || [])) {
+            const left = String((row.left && row.left.en) || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            const right = String((row.right && row.right.en) || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<tr><td>${left}</td><td>${right}</td></tr>`;
+            if ((row.left && row.left.ja) || (row.right && row.right.ja)) {
+              const lja = String((row.left && row.left.ja) || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              const rja = String((row.right && row.right.ja) || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<tr class="compare-table-ja"><td><span class="choice-text-ja">${lja}</span></td>`
+                + `<td><span class="choice-text-ja">${rja}</span></td></tr>`;
+            }
+          }
+          html += '</tbody></table>';
         }
         // Bullets (•付き、スロットも含む)
         if (slide.bullets && slide.bullets.length) {
@@ -1756,6 +1787,27 @@ function renderPassage() {
         html += '</li></ul>';
       }
 
+      // About Maki (大問5: 主人公が女性のストーリー型)
+      if (passage.about_maki) {
+        const am = passage.about_maki;
+        const heading = (am.heading && am.heading.en) || 'About Maki';
+        html += `<div class="notes-heading">${heading}</div>`;
+        if (am.heading && am.heading.ja) {
+          html += `<div class="passage-ja-block"><div class="choice-text-ja notes-heading-ja">${am.heading.ja}</div></div>`;
+        }
+        html += '<ul class="notes-list">';
+        const ageSlot = `<span class="answer-slot">${am.age_slot}</span>`;
+        html += `<li>Age: ${ageSlot}</li>`;
+        html += `<li>Occupation: ${am.occupation.en}</li>`;
+        const supportLabel = (am.support_heading && am.support_heading.en) || 'How she supported her friends:';
+        html += `<li>${supportLabel}`;
+        for (const item of am.support) {
+          const text = item.en.replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += `<div class="notes-support-item">${text}</div>`;
+        }
+        html += '</li></ul>';
+      }
+
       // Interpretation
       if (passage.interpretation) {
         html += '<div class="notes-heading">Interpretation of key moments</div>';
@@ -1765,6 +1817,64 @@ function renderPassage() {
           html += `<li>${text}</li>`;
         }
         html += '</ul>';
+      }
+
+      // Outline by paragraph (大問6A: 番号付きリスト + サブ▸アイテム)
+      if (passage.outline_by_paragraph) {
+        const obp = passage.outline_by_paragraph;
+        const heading = (obp.header && obp.header.en) || 'Outline by paragraph';
+        html += `<div class="notes-heading">${heading}</div>`;
+        if (obp.header && obp.header.ja) {
+          html += `<div class="passage-ja-block"><div class="choice-text-ja notes-heading-ja">${obp.header.ja}</div></div>`;
+        }
+        html += '<ol class="notes-numbered">';
+        for (const item of (obp.items || [])) {
+          const t = String(item.text && item.text.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += `<li value="${item.number}">${t}`;
+          if (item.text && item.text.ja) {
+            const tja = String(item.text.ja).replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="choice-text-ja">${tja}</div>`;
+          }
+          if (item.sub_items && item.sub_items.length) {
+            html += '<ul class="notes-sub-bullets">';
+            for (const sub of item.sub_items) {
+              const subT = String(sub.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+              html += `<li>${subT}`;
+              if (sub.ja) {
+                const subJa = String(sub.ja).replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+                html += `<div class="choice-text-ja">${subJa}</div>`;
+              }
+              html += '</li>';
+            }
+            html += '</ul>';
+          }
+          html += '</li>';
+        }
+        html += '</ol>';
+      }
+
+      // Original examples (大問6A: A./B. ヘッダ付き例)
+      if (passage.original_examples) {
+        const oe = passage.original_examples;
+        const heading = (oe.header && oe.header.en) || 'My original examples';
+        html += `<div class="notes-heading">${heading}</div>`;
+        if (oe.header && oe.header.ja) {
+          html += `<div class="passage-ja-block"><div class="choice-text-ja notes-heading-ja">${oe.header.ja}</div></div>`;
+        }
+        for (const item of (oe.items || [])) {
+          html += '<div class="notes-original-example">';
+          html += `<div class="notes-original-label"><strong>${item.label}.</strong> ${item.heading && item.heading.en || ''}</div>`;
+          if (item.heading && item.heading.ja) {
+            html += `<div class="passage-ja-block"><div class="choice-text-ja">${item.heading.ja}</div></div>`;
+          }
+          const t = String(item.text && item.text.en || '').replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+          html += `<div class="notes-original-text">${t}</div>`;
+          if (item.text && item.text.ja) {
+            const tja = String(item.text.ja).replace(/\[(\d+)\]/g, '<span class="answer-slot">$1</span>');
+            html += `<div class="passage-ja-block"><div class="choice-text-ja">${tja}</div></div>`;
+          }
+          html += '</div>';
+        }
       }
 
       // Research notes (generic sections with heading + items)
@@ -2411,6 +2521,23 @@ function deriveMultiSlotAnswerNumbers(q) {
   return null;
 }
 
+/** 複数空欄の正解を UI の選択肢ラベル（① 等）に揃える（データが 1 始まりの番号のときは choices から変換） */
+function normalizeSlotAnswerLabel(q, slotNum, raw) {
+  if (raw == null || raw === '') return raw;
+  if (typeof raw === 'string' && !/^\d+$/.test(raw)) return raw;
+  const idx = typeof raw === 'number' ? raw : parseInt(String(raw), 10);
+  if (isNaN(idx) || idx < 1) return String(raw);
+  const slotChoices = q['choices_' + slotNum];
+  const arr =
+    Array.isArray(slotChoices) && slotChoices.length
+      ? slotChoices
+      : Array.isArray(q.choices) && q.choices.length
+        ? q.choices
+        : null;
+  const choice = arr && arr[idx - 1];
+  return (choice && choice.label) ? choice.label : String(raw);
+}
+
 // ===== Render Questions (Right Pane) =====
 function renderQuestions() {
   const sec = currentSection;
@@ -2621,10 +2748,18 @@ function renderQuestions() {
         html += '<span class="ordering-slot multi-slot" data-slot="' + ansNum + '">[' + ansNum + ']</span>';
       }
       html += '</div>';
+      const anySlotSpecificChoices = multiSlotNums.some(
+        n => Array.isArray(q['choices_' + n]) && q['choices_' + n].length > 0
+      );
       for (const ansNum of multiSlotNums) {
         const choicesKey = `choices_${ansNum}`;
-        const choices = q[choicesKey];
-        if (!choices) continue;
+        let choices = q[choicesKey];
+        if (!Array.isArray(choices) || !choices.length) {
+          if (!anySlotSpecificChoices && Array.isArray(q.choices) && q.choices.length) {
+            choices = q.choices;
+          }
+        }
+        if (!Array.isArray(choices) || !choices.length) continue;
         html += `<div class="multi-answer-group" data-ans-num="${ansNum}">`;
         html += `<div class="multi-answer-label">[${ansNum}]</div>`;
         html += '<ul class="choices">';
@@ -2921,7 +3056,12 @@ function handleMultiAnswerClick(e) {
   if (!slotNums || !slotNums.length) return;
 
   // Determine which slots are unordered (e.g. [27] and [28] are interchangeable)
-  const unorderedSlots = q.unordered_slots || [];
+  let unorderedSlots = Array.isArray(q.unordered_slots) && q.unordered_slots.length
+    ? q.unordered_slots.map(Number)
+    : [];
+  if (!unorderedSlots.length && q.unordered === true && slotNums.length >= 2) {
+    unorderedSlots = slotNums.map(Number);
+  }
   const userAnswers = {};
   for (const s of allSlots) {
     userAnswers[s.dataset.slot] = s.dataset.label;
@@ -2930,7 +3070,9 @@ function handleMultiAnswerClick(e) {
   let allCorrect = true;
   if (unorderedSlots.length > 0) {
     // For unordered slots: collect correct labels and user labels, then compare as sets
-    const unorderedCorrect = unorderedSlots.map(n => q.answer[String(n)]).sort();
+    const unorderedCorrect = unorderedSlots
+      .map(n => normalizeSlotAnswerLabel(q, n, q.answer[String(n)]))
+      .sort();
     const unorderedUser = unorderedSlots.map(n => userAnswers[String(n)]).sort();
     if (JSON.stringify(unorderedCorrect) !== JSON.stringify(unorderedUser)) {
       allCorrect = false;
@@ -2939,7 +3081,8 @@ function handleMultiAnswerClick(e) {
     for (const s of allSlots) {
       const num = s.dataset.slot;
       if (unorderedSlots.includes(Number(num))) continue;
-      if (userAnswers[num] !== q.answer[String(num)]) {
+      const correctLabel = normalizeSlotAnswerLabel(q, Number(num), q.answer[String(num)]);
+      if (userAnswers[num] !== correctLabel) {
         allCorrect = false;
         break;
       }
@@ -2947,7 +3090,7 @@ function handleMultiAnswerClick(e) {
   } else {
     for (const s of allSlots) {
       const num = s.dataset.slot;
-      const correctLabel = q.answer && q.answer[String(num)];
+      const correctLabel = q.answer && normalizeSlotAnswerLabel(q, Number(num), q.answer[String(num)]);
       if (userAnswers[num] !== correctLabel) {
         allCorrect = false;
         break;
@@ -2965,14 +3108,16 @@ function handleMultiAnswerClick(e) {
     if (selectedEl) {
       if (isUnordered) {
         // For unordered: check if user's label is among any of the unordered correct labels
-        const unorderedCorrectLabels = unorderedSlots.map(n => q.answer[String(n)]);
+        const unorderedCorrectLabels = unorderedSlots.map(n =>
+          normalizeSlotAnswerLabel(q, n, q.answer[String(n)])
+        );
         if (unorderedCorrectLabels.includes(selectedEl.dataset.label)) {
           selectedEl.classList.add('correct');
         } else {
           selectedEl.classList.add('wrong');
         }
       } else {
-        const correctLabel = q.answer[String(num)];
+        const correctLabel = normalizeSlotAnswerLabel(q, Number(num), q.answer[String(num)]);
         if (selectedEl.dataset.label === correctLabel) {
           selectedEl.classList.add('correct');
         } else {
@@ -2989,7 +3134,7 @@ function handleMultiAnswerClick(e) {
   if (!allCorrect) {
     let correctText = '正解: ';
     for (const num of slotNums) {
-      correctText += `[${num}] ${q.answer[String(num)]}  `;
+      correctText += `[${num}] ${normalizeSlotAnswerLabel(q, Number(num), q.answer[String(num)])}  `;
     }
     if (q.answer_note) correctText += `（${q.answer_note}）`;
     const correctDiv = document.createElement('div');

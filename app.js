@@ -34,6 +34,20 @@ const EXAM_REGISTRY = [
     icon: "🎯"
   },
   {
+    id: "kyotsu_2024_honshiken",
+    publisher: "共通テスト",
+    series: "本試験",
+    year: 2024,
+    round: "本試験",
+    label: "★ 共通テスト 2024年度 本試験",
+    dataPath: "data/kyotsu/2024/honshiken/data.json",
+    pdfPaths: {
+      mondai: "original_PDFs/Kyotuu-Test-2024/2024年_本試験_問題.pdf",
+      kaitou: "original_PDFs/Kyotuu-Test-2024/2024年_本試験_解説.pdf"
+    },
+    icon: "🎯"
+  },
+  {
     id: "zkai_2026_01",
     publisher: "Z会",
     series: "実戦模試",
@@ -183,51 +197,6 @@ const EXAM_REGISTRY = [
     dataPath: "data/sundai/2025/round04/data.json",
     icon: "📕"
   },
-
-  {
-    id: "kyotsu_2024_honshiken",
-    publisher: "共通テスト",
-    series: "本試験",
-    year: 2024,
-    round: "本試験",
-    label: "★ 共通テスト 2024年度 本試験",
-    dataPath: "data/kyotsu/2024/honshiken/data.json",
-    pdfPaths: {
-      mondai: "original_PDFs/Kyotuu-Test-2025/_2024年度本試験_問題.pdf",
-      kaitou: "original_PDFs/Kyotuu-Test-2025/_2024年度本試験_解説.pdf"
-    },
-    icon: "🎯"
-  },
-  {
-    id: "kakomon_2023",
-    publisher: "共通テスト",
-    series: "過去問",
-    year: 2023,
-    round: "本試験",
-    label: "共通テスト 2023年度 本試験",
-    dataPath: "data/kakomon/2023/data.json",
-    icon: "🏫"
-  },
-  {
-    id: "kakomon_2022",
-    publisher: "共通テスト",
-    series: "過去問",
-    year: 2022,
-    round: "本試験",
-    label: "共通テスト 2022年度 本試験",
-    dataPath: "data/kakomon/2022/data.json",
-    icon: "🏫"
-  },
-  {
-    id: "kakomon_2021_1",
-    publisher: "共通テスト",
-    series: "過去問",
-    year: 2021,
-    round: "第1日程",
-    label: "共通テスト 2021年度 第1日程",
-    dataPath: "data/kakomon/2021_1/data.json",
-    icon: "🏫"
-  }
 ];
 
 // ===== 大問の説明テンプレート（data.jsonが未完成の大問向け） =====
