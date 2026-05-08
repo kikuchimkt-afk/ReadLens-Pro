@@ -444,13 +444,15 @@ function countQuestions(section) {
 const vocabState = {
   modal: null,
   examId: '',
+  examTitle: '',
   allCards: [],
   deck: [],
   index: 0,
   side: 'front',
   mode: 'all', // all | retry
+  orderMode: 'inorder', // inorder | random
+  autoPlay: true,
   unknownTerms: new Set(),
-  visited: [],
   sentenceMap: new Map(),
 };
 
@@ -476,26 +478,52 @@ function ensureVocabModal() {
   const wrap = document.createElement('div');
   wrap.className = 'vocab-modal hidden';
   wrap.innerHTML = `
-    <div class="vocab-modal-backdrop" data-close="1"></div>
+    <div class="vocab-modal-backdrop"></div>
     <div class="vocab-modal-dialog" role="dialog" aria-modal="true" aria-label="語彙フラッシュカード">
       <div class="vocab-modal-head">
-        <div class="vocab-modal-title">やっておきたい語句・表現</div>
+        <div class="vocab-modal-title-wrap">
+          <div class="vocab-modal-title">やっておきたい語句・表現</div>
+          <div class="vocab-modal-subtitle"></div>
+        </div>
         <button class="vocab-close-btn" type="button" title="閉じる">✕</button>
       </div>
       <div class="vocab-modal-body">
-        <div class="vocab-meta">
-          <span class="vocab-meta-mode"></span>
-          <span class="vocab-meta-counter"></span>
-        </div>
-        <div class="vocab-card">
-          <div class="vocab-term-row">
-            <div class="vocab-term-en"></div>
-            <button type="button" class="vocab-audio-btn vocab-play-term">🔊</button>
+        <div class="vocab-screen vocab-screen-setup">
+          <div class="vocab-stats">
+            <div class="vocab-stat-card"><div class="vocab-stat-num stat-total">0</div><div class="vocab-stat-label">全単語</div></div>
+            <div class="vocab-stat-card"><div class="vocab-stat-num stat-remaining">0</div><div class="vocab-stat-label">残り</div></div>
+            <div class="vocab-stat-card"><div class="vocab-stat-num stat-learned">0</div><div class="vocab-stat-label">覚えた</div></div>
           </div>
-          <div class="vocab-back-content hidden">
-            <div class="vocab-term-ja"></div>
-            <div class="vocab-example-en"></div>
-            <div class="vocab-example-ja"></div>
+          <div class="vocab-order-toggle">
+            <button type="button" class="vocab-order-btn active" data-mode="inorder">出現順</button>
+            <button type="button" class="vocab-order-btn" data-mode="random">ランダム</button>
+          </div>
+          <label class="vocab-autoplay-line">
+            <input type="checkbox" class="vocab-autoplay-check" checked />
+            <span>自動音声再生</span>
+          </label>
+          <button type="button" class="vocab-start-btn">START</button>
+          <button type="button" class="vocab-reset-btn">学習記録をリセット</button>
+        </div>
+
+        <div class="vocab-screen vocab-screen-study hidden">
+          <div class="vocab-study-top">
+            <div class="vocab-progress-text"></div>
+            <button type="button" class="vocab-end-btn">終了</button>
+          </div>
+          <div class="vocab-progress-line"><span class="vocab-progress-fill"></span></div>
+          <div class="vocab-card">
+            <div class="vocab-card-no"></div>
+            <button type="button" class="vocab-audio-btn vocab-play-term">🔊</button>
+            <div class="vocab-front">
+              <div class="vocab-term-en"></div>
+            </div>
+            <div class="vocab-back hidden">
+              <div class="vocab-term-ja"></div>
+              <div class="vocab-term-en-sub"></div>
+              <div class="vocab-example-en"></div>
+              <div class="vocab-example-ja"></div>
+            </div>
           </div>
           <div class="vocab-front-controls">
             <button type="button" class="vocab-btn vocab-hint-btn">ヒント</button>
@@ -520,6 +548,18 @@ function ensureVocabModal() {
 
   wrap.querySelector('.vocab-close-btn').addEventListener('click', closeVocabModal);
   wrap.querySelector('.vocab-modal-backdrop').addEventListener('click', closeVocabModal);
+  wrap.querySelector('.vocab-start-btn').addEventListener('click', startVocabStudy);
+  wrap.querySelector('.vocab-reset-btn').addEventListener('click', resetUnknownRecord);
+  wrap.querySelector('.vocab-autoplay-check').addEventListener('change', (e) => {
+    vocabState.autoPlay = !!e.target.checked;
+  });
+  wrap.querySelectorAll('.vocab-order-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const mode = btn.dataset.mode || 'inorder';
+      vocabState.orderMode = mode;
+      wrap.querySelectorAll('.vocab-order-btn').forEach(x => x.classList.toggle('active', x === btn));
+    });
+  });
   wrap.querySelectorAll('.vocab-hint-btn').forEach(btn => btn.addEventListener('click', playHintAudio));
   wrap.querySelector('.vocab-play-term').addEventListener('click', playTermAudio);
   wrap.querySelector('.vocab-answer-btn').addEventListener('click', () => setCardSide('back'));
@@ -527,6 +567,7 @@ function ensureVocabModal() {
   wrap.querySelectorAll('.vocab-prev-btn').forEach(btn => btn.addEventListener('click', () => moveCard(-1)));
   wrap.querySelector('.vocab-still-btn').addEventListener('click', () => markCard(false));
   wrap.querySelector('.vocab-learned-btn').addEventListener('click', () => markCard(true));
+  wrap.querySelector('.vocab-end-btn').addEventListener('click', finishAndBackToSetup);
 
   document.addEventListener('keydown', (ev) => {
     if (!vocabState.modal || vocabState.modal.classList.contains('hidden')) return;
@@ -547,7 +588,9 @@ async function openVocabModal(examId, dataPath, vocabPath) {
     }
     const vocabData = await vocabResp.json();
     const examData = dataResp.ok ? await dataResp.json() : null;
+
     vocabState.examId = examId;
+    vocabState.examTitle = examData?.exam_info?.title || examId;
     vocabState.sentenceMap = buildSentenceMap(examData);
     vocabState.allCards = normalizeVocabCards(vocabData);
     if (!vocabState.allCards.length) {
@@ -564,9 +607,10 @@ async function openVocabModal(examId, dataPath, vocabPath) {
     vocabState.deck = [...vocabState.allCards];
     vocabState.index = 0;
     vocabState.side = 'front';
-    vocabState.visited = [];
+    vocabState.orderMode = 'inorder';
+    vocabState.autoPlay = true;
     vocabState.modal.classList.remove('hidden');
-    renderVocabCard();
+    showVocabSetup();
   } catch (err) {
     console.error(err);
     alert('語彙データの読み込みに失敗しました。');
@@ -576,7 +620,59 @@ async function openVocabModal(examId, dataPath, vocabPath) {
 function closeVocabModal() {
   if (!vocabState.modal) return;
   vocabState.modal.classList.add('hidden');
-  speechSynthesis.cancel();
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+}
+
+function showVocabSetup() {
+  const m = vocabState.modal;
+  if (!m) return;
+  m.querySelector('.vocab-modal-subtitle').textContent = vocabState.examTitle;
+  m.querySelector('.vocab-screen-setup').classList.remove('hidden');
+  m.querySelector('.vocab-screen-study').classList.add('hidden');
+  m.querySelector('.vocab-autoplay-check').checked = vocabState.autoPlay;
+  m.querySelectorAll('.vocab-order-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.mode === vocabState.orderMode);
+  });
+
+  const total = vocabState.allCards.length;
+  const stillCnt = vocabState.unknownTerms.size;
+  const learned = Math.max(0, total - stillCnt);
+  const remaining = Math.max(0, total - learned);
+  m.querySelector('.stat-total').textContent = String(total);
+  m.querySelector('.stat-remaining').textContent = String(remaining);
+  m.querySelector('.stat-learned').textContent = String(learned);
+}
+
+function startVocabStudy() {
+  if (!vocabState.modal) return;
+  vocabState.mode = 'all';
+  vocabState.deck = [...vocabState.allCards];
+  if (vocabState.orderMode === 'random') {
+    shuffleArray(vocabState.deck);
+  }
+  vocabState.index = 0;
+  vocabState.side = 'front';
+  vocabState.modal.querySelector('.vocab-screen-setup').classList.add('hidden');
+  vocabState.modal.querySelector('.vocab-screen-study').classList.remove('hidden');
+  renderVocabCard();
+}
+
+function finishAndBackToSetup() {
+  showVocabSetup();
+}
+
+function resetUnknownRecord() {
+  if (!confirm('「まだ」の記録をリセットしますか？')) return;
+  vocabState.unknownTerms = new Set();
+  localStorage.setItem(getUnknownStorageKey(vocabState.examId), JSON.stringify([]));
+  showVocabSetup();
+}
+
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
 }
 
 function buildSentenceMap(examData) {
@@ -590,10 +686,7 @@ function buildSentenceMap(examData) {
     }
   };
   const walkParagraphNode = (node) => {
-    if (Array.isArray(node)) {
-      node.forEach(walkParagraphNode);
-      return;
-    }
+    if (Array.isArray(node)) return node.forEach(walkParagraphNode);
     if (node && typeof node === 'object') {
       addSent(node);
       if (Array.isArray(node.items)) node.items.forEach(walkParagraphNode);
@@ -603,9 +696,7 @@ function buildSentenceMap(examData) {
   for (const sec of examData.sections) {
     const passages = [];
     if (sec.subsections) {
-      for (const sub of sec.subsections) {
-        if (sub.passages) passages.push(...sub.passages);
-      }
+      for (const sub of sec.subsections) if (sub.passages) passages.push(...sub.passages);
     } else if (sec.passages) {
       passages.push(...sec.passages);
     }
@@ -668,43 +759,58 @@ function renderVocabCard() {
   const m = vocabState.modal;
   if (!m) return;
   const card = currentCard();
-  const modeEl = m.querySelector('.vocab-meta-mode');
-  const counterEl = m.querySelector('.vocab-meta-counter');
+  const progressText = m.querySelector('.vocab-progress-text');
+  const progressFill = m.querySelector('.vocab-progress-fill');
+  const noEl = m.querySelector('.vocab-card-no');
   const termEnEl = m.querySelector('.vocab-term-en');
   const termJaEl = m.querySelector('.vocab-term-ja');
+  const termEnSubEl = m.querySelector('.vocab-term-en-sub');
   const exEnEl = m.querySelector('.vocab-example-en');
   const exJaEl = m.querySelector('.vocab-example-ja');
-  const back = m.querySelector('.vocab-back-content');
+  const front = m.querySelector('.vocab-front');
+  const back = m.querySelector('.vocab-back');
   const frontControls = m.querySelector('.vocab-front-controls');
   const backControls = m.querySelector('.vocab-back-controls');
   const memoControls = m.querySelector('.vocab-memo-controls');
 
   if (!card) {
-    modeEl.textContent = vocabState.mode === 'retry' ? '未習得のみ復習' : '全語彙チェック';
-    counterEl.textContent = '';
-    termEnEl.textContent = '終了しました';
+    progressText.textContent = '完了';
+    progressFill.style.width = '100%';
+    termEnEl.textContent = 'お疲れさまでした！';
     termJaEl.textContent = '';
+    termEnSubEl.textContent = '';
     exEnEl.textContent = '';
     exJaEl.textContent = '';
-    back.classList.remove('hidden');
+    noEl.textContent = '';
+    front.classList.remove('hidden');
+    back.classList.add('hidden');
     frontControls.classList.add('hidden');
     backControls.classList.add('hidden');
     memoControls.classList.add('hidden');
     return;
   }
 
-  modeEl.textContent = vocabState.mode === 'retry' ? '未習得のみ復習' : '全語彙チェック';
-  counterEl.textContent = `${vocabState.index + 1} / ${vocabState.deck.length}`;
+  const idx = vocabState.index + 1;
+  const total = vocabState.deck.length;
+  progressText.textContent = `${idx} / ${total}${vocabState.mode === 'retry' ? '（未習得のみ）' : ''}`;
+  progressFill.style.width = `${Math.max(0, Math.min(100, (idx / total) * 100))}%`;
+  noEl.textContent = `No.${idx}`;
   termEnEl.textContent = card.termEn;
   termJaEl.textContent = card.termJa;
-  exEnEl.textContent = card.exampleEn ? `例文: ${card.exampleEn}` : '例文: （未登録）';
+  termEnSubEl.textContent = card.termEn;
+  exEnEl.textContent = card.exampleEn ? `例: ${card.exampleEn}` : '例: （未登録）';
   exJaEl.textContent = card.exampleJa ? `訳: ${card.exampleJa}` : '訳: （未登録）';
 
   const isBack = vocabState.side === 'back';
+  front.classList.toggle('hidden', isBack);
   back.classList.toggle('hidden', !isBack);
   frontControls.classList.toggle('hidden', isBack);
   backControls.classList.toggle('hidden', !isBack);
   memoControls.classList.toggle('hidden', !isBack);
+
+  if (!isBack && vocabState.autoPlay) {
+    playTermAudio();
+  }
 }
 
 function setCardSide(side) {
@@ -714,23 +820,26 @@ function setCardSide(side) {
 
 function moveCard(delta) {
   if (!vocabState.deck.length) return;
-  vocabState.index += delta;
-  if (vocabState.index < 0) vocabState.index = 0;
-  if (vocabState.index >= vocabState.deck.length) {
+  let next = vocabState.index + delta;
+  if (next < 0) next = 0;
+  if (next >= vocabState.deck.length) {
     if (vocabState.mode === 'all') {
       const unknownCards = vocabState.allCards.filter(c => vocabState.unknownTerms.has(c.termEn.toLowerCase()));
       if (unknownCards.length > 0) {
         vocabState.mode = 'retry';
-        vocabState.deck = unknownCards;
+        vocabState.deck = [...unknownCards];
+        if (vocabState.orderMode === 'random') shuffleArray(vocabState.deck);
         vocabState.index = 0;
         vocabState.side = 'front';
-      } else {
-        vocabState.index = vocabState.deck.length - 1;
+        renderVocabCard();
+        return;
       }
+      next = vocabState.deck.length - 1;
     } else {
-      vocabState.index = vocabState.deck.length - 1;
+      next = vocabState.deck.length - 1;
     }
   }
+  vocabState.index = next;
   setCardSide('front');
 }
 
@@ -740,10 +849,7 @@ function markCard(learned) {
   const key = card.termEn.toLowerCase();
   if (learned) vocabState.unknownTerms.delete(key);
   else vocabState.unknownTerms.add(key);
-  localStorage.setItem(
-    getUnknownStorageKey(vocabState.examId),
-    JSON.stringify([...vocabState.unknownTerms])
-  );
+  localStorage.setItem(getUnknownStorageKey(vocabState.examId), JSON.stringify([...vocabState.unknownTerms]));
   moveCard(1);
 }
 
@@ -766,6 +872,5 @@ function playTermAudio() {
 function playHintAudio() {
   const card = currentCard();
   if (!card) return;
-  const t = card.exampleEn || card.termEn;
-  speakText(t, { lang: 'en-US', rate: 0.9 });
+  speakText(card.exampleEn || card.termEn, { lang: 'en-US', rate: 0.9 });
 }
