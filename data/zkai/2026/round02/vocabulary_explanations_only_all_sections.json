@@ -1,0 +1,2109 @@
+{
+  "meta": {
+    "exam": "Z会 共通テスト実戦模試 2026年 第2回",
+    "source": "data/zkai/2026/round02/data.json（各問 vocabulary 準拠・例文は手作業・scripts/generate_zkai2026_round02_vocab_json.py）",
+    "sections_in_data": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "section1_passage_vocab": {
+      "label": "第1問 語句（町の本棚）",
+      "count": 7
+    },
+    "section2_passage_vocab": {
+      "label": "第2問 語句（オンライン試験）",
+      "count": 7
+    },
+    "section3_passage_vocab": {
+      "label": "第3問 語句（FILM SCHOOL）",
+      "count": 16
+    },
+    "section4_passage_vocab": {
+      "label": "第4問 語句・本文（京都オーバーツーリズム）",
+      "count": 21
+    },
+    "section4_questions_vocab": {
+      "label": "第4問 設問語句",
+      "count": 7
+    },
+    "section5_passage_vocab": {
+      "label": "第5問 語句（オリエンテーション・メール）",
+      "count": 16
+    },
+    "section6_passage_vocab": {
+      "label": "第6問 語句（A Critic's Journey）",
+      "count": 21
+    },
+    "section7_passage_vocab": {
+      "label": "第7問 語句（伝統医学）",
+      "count": 19
+    },
+    "section8_passage_vocab": {
+      "label": "第8問 語句（AIと社会）",
+      "count": 23
+    }
+  },
+  "entries": [
+    {
+      "term_en": "access",
+      "term_ja": "〈動〉〜に接近する；〜を利用できる",
+      "example_en": "Pick a place that readers can access without a key.",
+      "example_ja": "鍵なしで利用者が手の届く場所を選びましょう。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "option",
+      "term_ja": "〈名〉選択肢",
+      "example_en": "A shelf in a park or near home are both good options.",
+      "example_ja": "公園や自宅近くの棚は、どちらもよい選択肢です。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "contribute",
+      "term_ja": "〈動〉〜を寄付する",
+      "example_en": "You can contribute novels you have already enjoyed.",
+      "example_ja": "すでに楽しんだ小説を寄付してもよいでしょう。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "welcoming",
+      "term_ja": "〈形〉（人を）歓迎する",
+      "example_en": "Paint the little library so it looks welcoming in winter.",
+      "example_ja": "冬でも親しみやすく見えるように小さな図書棚を塗りましょう。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "install",
+      "term_ja": "〈動〉〜を取り付ける",
+      "example_en": "Install a light inside so people can browse after sunset.",
+      "example_ja": "日没後に本を選べるよう、中に灯りを取り付けましょう。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "automatically",
+      "term_ja": "〈副〉自動的に",
+      "example_en": "Some boxes open automatically when you wave your hand.",
+      "example_ja": "手をかざすと自動的に開く箱もあります。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "notepad",
+      "term_ja": "〈名〉メモ帳",
+      "example_en": "Keep a notepad inside for visitors to leave kind messages.",
+      "example_ja": "来場者が短いメモを残せるよう、中にメモ帳を置きましょう。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "flexibility",
+      "term_ja": "〈名〉柔軟性，融通性",
+      "example_en": "Teachers praised the flexibility of taking exams from home.",
+      "example_ja": "教師たちは在宅受験の柔軟性を高く評価した。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "institution",
+      "term_ja": "〈名〉機構，組織",
+      "example_en": "Each institution saves money by printing fewer paper tests.",
+      "example_ja": "各機関は紙の試験を少なく印刷することで経費を抑える。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "mark",
+      "term_ja": "〈動〉採点する",
+      "example_en": "Fewer staff members are needed to mark papers by hand.",
+      "example_ja": "手で答案を採点する人数は少なくて済む。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "grade",
+      "term_ja": "〈動〉採点する；成績を付ける",
+      "example_en": "Automated systems can grade multiple-choice items faster.",
+      "example_ja": "自動採点は選択式問題の成績付けを速くできる。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "cheat",
+      "term_ja": "〈動〉カンニングをする",
+      "example_en": "Cameras aim to reduce the chance that students will cheat.",
+      "example_ja": "カメラは受験者がカンニングする可能性を減らす目的がある。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "reliable",
+      "term_ja": "〈形〉信頼できる",
+      "example_en": "Anti-cheat software can make online results more reliable.",
+      "example_ja": "不正防止ソフトはオンラインの結果をより信頼できるものにしうる。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "certificate",
+      "term_ja": "〈名〉証明書，免許状",
+      "example_en": "The article never said digital certificates would get cheaper.",
+      "example_ja": "記事は電子証明書の料金が下がるとは述べていない。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "unforgettable",
+      "term_ja": "〈形〉忘れられない",
+      "example_en": "Alex shouted, \"Let's make something unforgettable!\"",
+      "example_ja": "アレックスは「忘れられないものを作ろう！」と叫んだ。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "split ~ into ...",
+      "term_ja": "〈表現〉〜を…に分ける",
+      "example_en": "We were split into groups of four on week one.",
+      "example_ja": "私たちは第1週に4人ずつのグループに分けられた。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "direct",
+      "term_ja": "〈動〉（映画・劇などの）監督をする",
+      "example_en": "Alex volunteered to direct our rushed short film.",
+      "example_ja": "アレックスは急ぎの短編を監督すると志願した。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "operate",
+      "term_ja": "〈動〉〜を操作する",
+      "example_en": "Helen could operate the camera but not the boom mic.",
+      "example_ja": "ヘレンはカメラは操作できたが、マイクの竿は扱えなかった。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "editor",
+      "term_ja": "〈名〉編集者",
+      "example_en": "Colin became the editor and also played the lead role.",
+      "example_ja": "コリンは編集者になり、主演もこなした。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "script",
+      "term_ja": "〈名〉台本",
+      "example_en": "Because I love writing, I handled the script.",
+      "example_ja": "書くことが好きなので、私が台本を担当した。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "proudly",
+      "term_ja": "〈副〉誇らしげに",
+      "example_en": "I proudly handed Alex my draft the very next morning.",
+      "example_ja": "私は翌朝、誇らしげに原稿をアレックスに渡した。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "edit",
+      "term_ja": "〈動〉〜を編集する",
+      "example_en": "Colin found the footage almost impossible to edit smoothly.",
+      "example_ja": "コリンはその映像をスムーズに編集するのはほぼ不可能だと感じた。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "hysterically",
+      "term_ja": "〈副〉ヒステリックに，ものすごく",
+      "example_en": "At the screening everyone except the professor laughed hysterically.",
+      "example_ja": "上映会では教授以外が大笑いした。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "thankfully",
+      "term_ja": "〈副〉ありがたいことに",
+      "example_en": "Thankfully, every other group's film failed just as badly.",
+      "example_ja": "ありがたいことに、他のグループの作品も同様にひどかった。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "strangely",
+      "term_ja": "〈副〉不思議なことに",
+      "example_en": "Strangely, I felt excited even after the embarrassing screening.",
+      "example_ja": "不思議なことに、恥ずかしい上映のあともわくわくした。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "afterward",
+      "term_ja": "〈副〉その後で",
+      "example_en": "Afterward I could not wait to study real filmmakers' methods.",
+      "example_ja": "その後、本物の映画作家の手法を学ぶのが待ちきれなかった。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "filmmaker",
+      "term_ja": "〈名〉映画制作者，映画監督",
+      "example_en": "I wondered how master filmmakers overcame the same messes.",
+      "example_ja": "大映画作家が同じような混乱をどう乗り越えたのか知りたかった。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "admire",
+      "term_ja": "〈動〉〜に敬服する",
+      "example_en": "I admire directors who finish strong stories on tiny budgets.",
+      "example_ja": "わずかな予算で力強い物語を完成させる監督に敬服する。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "overcome",
+      "term_ja": "〈動〉（困難・問題など）を克服する",
+      "example_en": "Great artists overcome technical limits with patience.",
+      "example_ja": "偉大な芸術家は忍耐で技術的限界を克服する。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "eager",
+      "term_ja": "〈形〉熱心な",
+      "example_en": "The choices call the writer eager after the final class.",
+      "example_ja": "選択肢は、最後の授業のあとの筆者を熱心だと表す。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "must-see",
+      "term_ja": "〈形〉必見の；ぜひ見るべき",
+      "example_en": "Kyoto stayed on every tourist's must-see list that spring.",
+      "example_ja": "その春も京都は旅行者の「必見」リストの上位にあった。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "highlight",
+      "term_ja": "〈動〉〜を浮き彫りにする〔強調する〕",
+      "example_en": "This essay will highlight both problems and practical fixes.",
+      "example_ja": "このエッセイは問題と現実的な対策の両方を強調する。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "crowding",
+      "term_ja": "〈名〉混雑",
+      "example_en": "First the writer names crowding on local buses.",
+      "example_ja": "筆者はまず市内バスでの混雑を挙げる。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "deal with ~",
+      "term_ja": "〈表現〉〜に対処する",
+      "example_en": "Officials have discussed how to deal with packed buses.",
+      "example_ja": "当局は混雑したバスへどう対処するか議論してきた。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "a number of ~",
+      "term_ja": "〈表現〉いくつかの〜",
+      "example_en": "A number of pricing ideas were debated for foreign riders.",
+      "example_ja": "外国人都賃の案がいくつも議論された。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "charge",
+      "term_ja": "〈動〉〜（＝料金・値段）を請求する",
+      "example_en": "Higher fares for visitors charge tourists extra for rush-hour routes.",
+      "example_ja": "観光客に割增高い運賃を請求する案もあった。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "practical",
+      "term_ja": "〈形〉現実的な；実際的な",
+      "example_en": "The student prefers practical fixes like double-decker buses.",
+      "example_ja": "生徒は2階建てバスのような現実的な解決策を好む。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "introduce",
+      "term_ja": "〈動〉〜を導入する",
+      "example_en": "Kyoto could introduce London-style buses to carry more riders.",
+      "example_ja": "京都はロンドン式バスを導入して輸送力を増やせる。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "double-decker bus",
+      "term_ja": "〈名〉2階建てバス",
+      "example_en": "A double-decker could move twice as many sightseers per trip.",
+      "example_ja": "2階建てバスは一回で観光客を倍近く運べる。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "complain about ~",
+      "term_ja": "〈表現〉〜について不平〔文句〕を言う",
+      "example_en": "Visitors complain about the lack of street trash cans.",
+      "example_ja": "訪問者は街頭のゴミ箱の少なさに文句を言う。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "trash can",
+      "term_ja": "〈名〉（大型の）ゴミ箱",
+      "example_en": "QR codes on each trash can could signal when bins are full.",
+      "example_ja": "各ゴミ箱のQRコードが満杯を知らせられる。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "dispose of ~",
+      "term_ja": "〈表現〉〜を捨てる〔廃棄する〕",
+      "example_en": "We need more spots where guests can dispose of wrappers.",
+      "example_ja": "包装紙を捨てられる場所をもっと増やす必要がある。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "scan",
+      "term_ja": "〈動〉〜をスキャンする",
+      "example_en": "Tourists scan a code to report bins that need emptying.",
+      "example_ja": "観光客がコードをスキャンして空にする必要を通知する。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "need doing",
+      "term_ja": "〈表現〉…される必要がある",
+      "example_en": "If a bin needs emptying, staff receive an alert at once.",
+      "example_ja": "ゴミ箱を空にする必要があるとすぐ職員に知らせが行く。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "empty",
+      "term_ja": "〈動〉〜を空にする",
+      "example_en": "Night crews empty the cans before dawn on busy weekends.",
+      "example_ja": "混雑週末は夜勤が明け方前に缶を空にする。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "outside regular collection hours",
+      "term_ja": "〈副・表現〉通常の収集時間外に",
+      "example_en": "Alerts matter outside regular collection hours in summer.",
+      "example_ja": "夏は定時収集の時間外に知らせが特に役立つ。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "take measures",
+      "term_ja": "〈表現〉手段を講じる；対策を取る",
+      "example_en": "The prefecture takes measures to spread visitors to the coast.",
+      "example_ja": "府は海沿いへ観光客を分散させる対策を講じている。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "encourage ~ to do",
+      "term_ja": "〈表現〉〜に…するよう促す",
+      "example_en": "Planners encourage locals to open small farm stays.",
+      "example_ja": "計画者は地元に小さな農家滞在を開くよう促す。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "scenery",
+      "term_ja": "〈名〉景色；景観",
+      "example_en": "Travelers enjoy scenery and daily life away from the core ward.",
+      "example_ja": "中心部から離れ景色と暮らしの両方を楽しめる。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "high-capacity",
+      "term_ja": "〈形〉収容人数の多い",
+      "example_en": "Let's add high-capacity transportation and cleaner streets.",
+      "example_ja": "収容力の大きい交通と清潔な街路を増やそう。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "transportation",
+      "term_ja": "〈名〉交通手段",
+      "example_en": "Better transportation spreads crowds beyond the old city.",
+      "example_ja": "より良い交通は混雑を旧市街の外へ広げる。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "after all",
+      "term_ja": "〈副〉結局のところ",
+      "example_en": "Choice ① used after all, but it did not fit the gap.",
+      "example_ja": "選択肢①は「結局のところ」を使っていたが、空欄には合わなかった。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "available",
+      "term_ja": "〈形〉利用できる；（ホテルの部屋などが）空いている",
+      "example_en": "The passage never said hotel rooms stayed available all season.",
+      "example_ja": "ホテルに空室がずっとあるとは本文は言っていない。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "act as ~",
+      "term_ja": "〈表現〉〜の役割を務める",
+      "example_en": "Option ① paired act as with representatives incorrectly.",
+      "example_ja": "選択肢①はact asとrepresentativesを不適切に結びつけた。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "representative",
+      "term_ja": "〈名〉代表（者）",
+      "example_en": "The distractor mentioned city representatives, not the essay.",
+      "example_ja": "迷選択肢は街の代表について述べていたが本文とは無関係だ。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "concentration",
+      "term_ja": "〈名〉（人・物の）集中",
+      "example_en": "Correct choice spoke of easing concentration downtown.",
+      "example_ja": "正解は市街地への人の集中を緩和することに言及する。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "city center",
+      "term_ja": "〈名〉街の中心；市街地",
+      "example_en": "Crowds in the city center sparked the writer's proposals.",
+      "example_ja": "市街地の混雑が筆者の提案を促した。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "entertain",
+      "term_ja": "〈動〉〜を楽ませる",
+      "example_en": "Entertain locals was not the campaign's stated goal.",
+      "example_ja": "地元民を楽しませることがキャンペーンの主目的ではなかった。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "orientation",
+      "term_ja": "〈名〉オリエンテーション",
+      "example_en": "The orientation helps freshmen feel ready for September classes.",
+      "example_ja": "オリエンテーションは新入生が9月の授業に備える助けになる。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "coordinator",
+      "term_ja": "〈名〉コーディネーター",
+      "example_en": "Please email the student coordinator if your plans change.",
+      "example_ja": "予定が変わったら学生コーディネーターにメールしてください。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "aim to do",
+      "term_ja": "〈表現〉〜することを目指す",
+      "example_en": "We aim to make the campus tour both fun and informative.",
+      "example_ja": "キャンパスツアーを楽しく、かつ有益なものにしたい。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "comfortable",
+      "term_ja": "〈形〉快適な、リラックスした",
+      "example_en": "Wear shoes that keep you comfortable on long walks.",
+      "example_ja": "長距離を歩いても快適な靴を履いてください。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "confirm",
+      "term_ja": "〈動〉〜を確認する",
+      "example_en": "Could you confirm whether the auditorium is free at noon?",
+      "example_ja": "正午に講堂が空いているか確認していただけますか。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "available",
+      "term_ja": "〈形〉利用できる",
+      "example_en": "Let us know if no projector is available that morning.",
+      "example_ja": "当日プロジェクターが使えない場合は知らせてください。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "arrange",
+      "term_ja": "〈動〉〜を配置する、手配する",
+      "example_en": "We still need to arrange seats for guests near the stage.",
+      "example_ja": "まだ客席を舞台近くに配置する必要がある。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "get used to",
+      "term_ja": "〈表現〉〜に慣れる",
+      "example_en": "Icebreakers help new students get used to speaking up.",
+      "example_ja": "アイスブレイクは新入生が発言に慣れる助けになる。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "appreciate",
+      "term_ja": "〈動〉〜に感謝する",
+      "example_en": "I appreciate your quick reply about the tech center.",
+      "example_ja": "テクノロジーセンターについての早い返信に感謝します。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "drop out",
+      "term_ja": "〈表現〉（参加を）やめる、脱落する",
+      "example_en": "Tell us if a guide must drop out of the walking tour.",
+      "example_ja": "歩きのツアーからガイドが抜けねばならない場合は連絡を。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "unavailable",
+      "term_ja": "〈形〉都合がつかない、手が空いていない",
+      "example_en": "Two volunteers were unavailable on the rehearsal day.",
+      "example_ja": "リハ当日はボランティア2人が都合がつかなかった。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "in common",
+      "term_ja": "〈副〉共通して",
+      "example_en": "The hosts in common share maps and emergency numbers.",
+      "example_ja": "司会者同士は地図と緊急連絡先を共通で持っている。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "resource",
+      "term_ja": "〈名〉リソース、資料",
+      "example_en": "Printable resources will sit on the welcome desk.",
+      "example_ja": "印刷できる資料はウェルカムデスクに置く。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "seating arrangement",
+      "term_ja": "〈名〉座席配置",
+      "example_en": "The seating arrangement keeps chaperones near the exits.",
+      "example_ja": "座席配置は引率が出口近くになるようになっている。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "audience",
+      "term_ja": "〈名〉聴衆",
+      "example_en": "A short skit wakes up the audience before the talk.",
+      "example_ja": "短いスキットが講演の前に聴衆を目覚めさせる。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "atmosphere",
+      "term_ja": "〈名〉雰囲気",
+      "example_en": "Soft music keeps the atmosphere relaxed in the hall.",
+      "example_ja": "ホールでは穏やかな音楽が雰囲気を和らげる。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section5_vocab"
+        }
+      ]
+    },
+    {
+      "term_en": "soapbox",
+      "term_ja": "〈名〉演説台（転じて，自分の意見を主張する場）",
+      "example_en": "His blog became a soapbox for sharp film reviews.",
+      "example_ja": "彼のブログは鋭い映画評の演説台のようになった。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "witty",
+      "term_ja": "〈形〉機知に富んだ",
+      "example_en": "Fans loved her witty jokes about Hollywood clichés.",
+      "example_ja": "ファンはハリウッドのお決まりを茶化す機知に富んだ冗談を愛した。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "dormitory",
+      "term_ja": "〈名〉寮",
+      "example_en": "She met her roommate on the first night in the dormitory.",
+      "example_ja": "彼女は寮の初日の夜にルームメイトに会った。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "inspiration",
+      "term_ja": "〈名〉ひらめき，インスピレーション",
+      "example_en": "A midnight film gave her the inspiration for a new column.",
+      "example_ja": "深夜の上映が新しい連載のひらめきを与えた。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "shrug",
+      "term_ja": "〈動〉肩をすくめる",
+      "example_en": "He shrugged when critics praised his harsh tone.",
+      "example_ja": "批評家が厳しい調子をほめても彼は肩をすくめた。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "internship",
+      "term_ja": "〈名〉インターンシップ，研修",
+      "example_en": "The internship taught him how sets really operate.",
+      "example_ja": "インターンシップで現場の実情を学んだ。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "take off",
+      "term_ja": "〈動〉（事業・キャリアなどが）軌道に乗る",
+      "example_en": "Her podcast took off after one viral interview.",
+      "example_ja": "バズったインタビュー一つでポッドキャストが軌道に乗った。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "critique",
+      "term_ja": "〈名〉批評",
+      "example_en": "Studios feared his critique but still quoted it on posters.",
+      "example_ja": "スタジオは彼の批評を恐れつつポスターに引用した。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "scold",
+      "term_ja": "〈動〉〜を叱る",
+      "example_en": "The editor had to scold him for missing deadlines.",
+      "example_ja": "締切を守れない彼を編集者は叱らねばならなかった。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "insight",
+      "term_ja": "〈名〉洞察，見識",
+      "example_en": "Readers praised the insight in his final essay on noir.",
+      "example_ja": "読者はノワール論の最終エッセイの洞察を称賛した。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "consultant",
+      "term_ja": "〈名〉コンサルタント，顧問",
+      "example_en": "Studios hired him as a consultant, not as lead director.",
+      "example_ja": "スタジオは彼を主演監督ではなく顧問として雇った。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "perspective",
+      "term_ja": "〈名〉視点，見方",
+      "example_en": "Travel gave her a fresh perspective on silent movies.",
+      "example_ja": "旅は無声映画を見る新しい視点を与えた。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "contribution",
+      "term_ja": "〈名〉貢献",
+      "example_en": "Teachers cited his contribution to classroom film clubs.",
+      "example_ja": "教師たちは映画サークルへの彼の貢献を挙げた。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "enthusiastic",
+      "term_ja": "〈形〉熱心な，熱意のある",
+      "example_en": "Despite low pay he remained enthusiastic on set.",
+      "example_ja": "低給でも現場では熱意を失わなかった。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "dilemma",
+      "term_ja": "〈名〉ジレンマ，板挟み",
+      "example_en": "The video call exposed the dilemma between art and income.",
+      "example_ja": "ビデオ通話が芸術と収入の板挟みを浮き彫りにした。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "at one's expense",
+      "term_ja": "〈表現〉〜を犠牲にして；〜をネタにして",
+      "example_en": "Comedians joked at his expense during the roast.",
+      "example_ja": "特別番組で彼がネタにされる冗談が飛んだ。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "tear apart",
+      "term_ja": "〈表現〉〜を厳しく批判する；〜をばらばらにする",
+      "example_en": "Reviewers tear apart sequels that recycle old plots.",
+      "example_ja": "レビュアーは古い筋を再利用する続編を厳しく批判する。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "confess",
+      "term_ja": "〈動〉〜を打ち明ける，告白する",
+      "example_en": "He confessed the job left him anxious every Friday.",
+      "example_ja": "金曜ごとに不安になったことを打ち明けた。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "accomplishment",
+      "term_ja": "〈名〉達成，業績",
+      "example_en": "Finishing the series was an accomplishment he treasured.",
+      "example_ja": "そのシリーズを完走したことが誇りの業績だった。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "gratitude",
+      "term_ja": "〈名〉感謝（の気持ち）",
+      "example_en": "She closed the speech with gratitude toward mentors.",
+      "example_ja": "スピーチは恩師への感謝で締めくくった。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "constructive",
+      "term_ja": "〈形〉建設的な",
+      "example_en": "Even harsh notes can be constructive if timed well.",
+      "example_ja": "厳しい指摘もタイミングよければ建設的になりうる。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "traditional medicine",
+      "term_ja": "〈名〉伝統医学",
+      "example_en": "Traditional medicine still draws millions of curious patients.",
+      "example_ja": "伝統医学は好奇心の強い患者を今も引きつける。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "wellness",
+      "term_ja": "〈名〉ウェルネス、健康",
+      "example_en": "Spas blend wellness marketing with old herbal recipes.",
+      "example_ja": "スパはウェルネス宣伝と古い草薬を混ぜる。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "evidence-based",
+      "term_ja": "〈形〉証拠に基づいた",
+      "example_en": "Doctors prefer evidence-based guides for chronic pain.",
+      "example_ja": "医師は慢性的な痛みには根拠のあるガイドを好む。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "spiritual",
+      "term_ja": "〈形〉精神的な、霊的な",
+      "example_en": "Some seekers want spiritual comfort as much as relief.",
+      "example_ja": "求める人によっては鎮痛と同じくらい心の支えが欲しい。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "originate",
+      "term_ja": "〈動〉発祥する、起源を持つ",
+      "example_en": "Many remedies originate in villages along the trade routes.",
+      "example_ja": "多くの民間療法は交易路沿いの村に起源を持つ。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "resistance",
+      "term_ja": "〈名〉抵抗（力）",
+      "example_en": "Germs may grow resistance if herbs are misused.",
+      "example_ja": "薬草の乱用は細菌の耐性を助長しうる。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "symptom",
+      "term_ja": "〈名〉症状",
+      "example_en": "Track each symptom before you change any supplement.",
+      "example_ja": "サプリを変える前に症状ひとつひとつを記録しなさい。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "cognitive function",
+      "term_ja": "〈名〉認知機能",
+      "example_en": "The trial measured cognitive function after six months.",
+      "example_ja": "試験は6か月後の認知機能を測った。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "regulate",
+      "term_ja": "〈動〉〜を調節する",
+      "example_en": "Certain plants help regulate sleep cycles gently.",
+      "example_ja": "ある植物は穏やかに睡眠リズムを調節する助けになる。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "clinical trial",
+      "term_ja": "〈名〉臨床試験",
+      "example_en": "A clinical trial compared the herbal mix with placebo.",
+      "example_ja": "臨床試験は漢方をプラセボと比較した。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "chronic",
+      "term_ja": "〈形〉慢性の",
+      "example_en": "Chronic fatigue needs longer follow-up than acute flu.",
+      "example_ja": "慢性の疲労は急性の感冒より長い経過観察が要る。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "methotrexate",
+      "term_ja": "〈名〉メトトレキサート（薬剤名）",
+      "example_en": "Methotrexate interacts badly with some herbal teas.",
+      "example_ja": "メトトレキサートは一部のハーブティーと悪く相互作用する。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "commitment",
+      "term_ja": "〈名〉コミットメント、専念",
+      "example_en": "True healing demands commitment from both healer and patient.",
+      "example_ja": "真の癒しには治療者と患者両方の専念が要る。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "potential risk",
+      "term_ja": "〈名〉潜在的なリスク",
+      "example_en": "Labels must list potential risk beside promised benefits.",
+      "example_ja": "表示には利点の隣に潜在リスクも書かねばならない。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "toxic",
+      "term_ja": "〈形〉有毒な",
+      "example_en": "Toxic metals showed up in poorly sourced powders.",
+      "example_ja": "出所不明の粉末から有毒金属が出た。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "screening",
+      "term_ja": "〈名〉スクリーニング、ふるい分け",
+      "example_en": "Routine screening caught high mercury before kidney harm.",
+      "example_ja": "定期スクリーニングが腎障害の前に水銀の高値をつかんだ。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "mercury",
+      "term_ja": "〈名〉水銀",
+      "example_en": "Long use of some creams raised mercury in blood tests.",
+      "example_ja": "あるクリームの長期使用が血液検査で水銀を上げた。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "consult",
+      "term_ja": "〈動〉〜に相談する",
+      "example_en": "Always consult your physician before stopping prescriptions.",
+      "example_ja": "処方を止める前は必ず医師に相談しなさい。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "alternative",
+      "term_ja": "〈名〉代替手段、選択肢",
+      "example_en": "Yoga became a popular alternative when pills failed.",
+      "example_ja": "薬が効かないときヨガが人気の代替策になった。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "viewpoint",
+      "term_ja": "〈名〉見解、視点",
+      "example_en": "The report contrasts every viewpoint on workplace AI.",
+      "example_ja": "レポートは職場のAIに関するあらゆる見解を対比する。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "impact",
+      "term_ja": "〈名〉影響",
+      "example_en": "We must weigh AI's impact on wages and morale.",
+      "example_ja": "賃金と士気へのAIの影響を比較衡量しなければならない。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "role-playing",
+      "term_ja": "〈名〉ロールプレイング",
+      "example_en": "Role-playing tasks train staff before live deployment.",
+      "example_ja": "ロールプレイの課題が本番前の訓練になる。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "recommend",
+      "term_ja": "〈動〉〜を推薦する",
+      "example_en": "Experts recommend clear rules before wide AI rollout.",
+      "example_ja": "専門家は本格的導入前に明確な規則を推薦する。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "take over",
+      "term_ja": "〈表現〉〜を乗っ取る、引き継ぐ",
+      "example_en": "Fear that bots will take over jobs spreads on social media.",
+      "example_ja": "ボットが仕事を奪う恐れがSNSで拡散する。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "restrict",
+      "term_ja": "〈動〉〜を制限する",
+      "example_en": "Some unions want laws that restrict automated hiring.",
+      "example_ja": "一部組合は自動採用を制限する法を求めている。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "grab one's attention",
+      "term_ja": "〈表現〉（人）の注意を引く",
+      "example_en": "A bold chart grabs the reader's attention on page one.",
+      "example_ja": "一枚目の大胆な図が読者の注意を引く。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "handy",
+      "term_ja": "〈形〉便利な",
+      "example_en": "Handy mobile tools still need human judgment.",
+      "example_ja": "便利なモバイルツールも人間の判断を要する。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "keep track of",
+      "term_ja": "〈表現〉〜を記録する、追跡する",
+      "example_en": "Apps keep track of energy use in smart homes.",
+      "example_ja": "アプリがスマートホームのエネルギー使用を追跡する。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "meaningful",
+      "term_ja": "〈形〉意味のある",
+      "example_en": "Students want meaningful careers alongside faster tech.",
+      "example_ja": "学生は高速な技術と並立する意味のある職を求める。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "intense debate",
+      "term_ja": "〈名〉激しい議論",
+      "example_en": "An intense debate surrounded the facial-scan pilot.",
+      "example_ja": "顔認証パイロットをめぐり激しい議論が起きた。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "advancement",
+      "term_ja": "〈名〉進歩、向上",
+      "example_en": "Rapid advancement surprises even cautious engineers.",
+      "example_ja": "急速な進歩は用心深い技術者さえ驚かせる。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "unemployment",
+      "term_ja": "〈名〉失業",
+      "example_en": "Forecasters link AI to unemployment in retail sectors.",
+      "example_ja": "予測者は小売部門の失業とAIを結びつける。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "adapt to",
+      "term_ja": "〈表現〉〜に適応する",
+      "example_en": "Workers must adapt to tools that learn every week.",
+      "example_ja": "労働者は毎週学習するツールに適応しなければならない。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "pace",
+      "term_ja": "〈名〉ペース、速度",
+      "example_en": "The pace of upgrades overwhelms small school boards.",
+      "example_ja": "アップデートのペースが小さな教育委員会を圧倒する。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "dilemma",
+      "term_ja": "〈名〉ジレンマ、板挟み",
+      "example_en": "Managers face a dilemma between cost cuts and ethics.",
+      "example_ja": "管理者はコスト削減と倫理の板挟みに直面する。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "enhance",
+      "term_ja": "〈動〉〜を向上させる、高める",
+      "example_en": "AI can enhance diagnostics when doctors stay in charge.",
+      "example_ja": "医師が最終判断するときAIは診断を高めうる。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "opportunity",
+      "term_ja": "〈名〉機会",
+      "example_en": "Start-ups see opportunity in bilingual chatbots.",
+      "example_ja": "スタートアップは二言語チャットボットに機会を見る。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "argument",
+      "term_ja": "〈名〉主張、議論",
+      "example_en": "His argument cites surveys from three continents.",
+      "example_ja": "彼の主張は三つの大陸の調査を引用する。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "virtual assistant",
+      "term_ja": "〈名〉仮想アシスタント",
+      "example_en": "A virtual assistant schedules meetings across time zones.",
+      "example_ja": "仮想アシスタントがタイムゾーンをまたぐ会議を入れる。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "voice recognition",
+      "term_ja": "〈名〉音声認識",
+      "example_en": "Voice recognition still struggles in noisy classrooms.",
+      "example_ja": "音声認識は騒がしい教室ではまだ苦戦する。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "efficiency",
+      "term_ja": "〈名〉効率",
+      "example_en": "Efficiency gains must not erase transparency.",
+      "example_ja": "効率の向上が透明性を奪ってはならない。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "public opinion",
+      "term_ja": "〈名〉世論",
+      "example_en": "Public opinion shifts slowly after each data breach.",
+      "example_ja": "データ漏洩のたびに世論はゆっくり動く。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round02_section8_passage"
+        }
+      ]
+    }
+  ]
+}

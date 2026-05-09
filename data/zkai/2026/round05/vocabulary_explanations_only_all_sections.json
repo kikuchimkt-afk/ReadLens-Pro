@@ -1,0 +1,3138 @@
+{
+  "meta": {
+    "exam": "Z会 共通テスト実戦模試 2026年 第5回",
+    "source": "data/zkai/2026/round05/data.json（vocabulary 準拠・例文は scripts/generate_zkai2026_round05_vocab_json.py の craft テンプレ）",
+    "sections_in_data": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "section1_passage_vocab": {
+      "label": "第1問 語句・本文（郷土料理イベント）",
+      "count": 8
+    },
+    "section1_questions_vocab": {
+      "label": "第1問 設問語句",
+      "count": 2
+    },
+    "section2_passage_vocab": {
+      "label": "第2問 語句・本文（ごみ拾いブログ）",
+      "count": 4
+    },
+    "section2_questions_vocab": {
+      "label": "第2問 設問語句",
+      "count": 3
+    },
+    "section3_passage_vocab": {
+      "label": "第3問 語句（劇場・職場見学）",
+      "count": 16
+    },
+    "section4_passage_vocab": {
+      "label": "第4問 語句・本文（コミュニティ・ガーデン）",
+      "count": 19
+    },
+    "section4_questions_vocab": {
+      "label": "第4問 設問語句",
+      "count": 10
+    },
+    "section5_passage_vocab": {
+      "label": "第5問 語句・本文（GROWモデル）",
+      "count": 17
+    },
+    "section5_questions_vocab": {
+      "label": "第5問 設問語句",
+      "count": 3
+    },
+    "section6_passage_vocab": {
+      "label": "第6問 語句・本文（A Newsworthy Friendship）",
+      "count": 48
+    },
+    "section6_questions_vocab": {
+      "label": "第6問 設問語句",
+      "count": 1
+    },
+    "section7_passage_vocab": {
+      "label": "第7問 語句・本文（パーム油・RSPO）",
+      "count": 39
+    },
+    "section7_questions_vocab": {
+      "label": "第7問 設問語句",
+      "count": 5
+    },
+    "section8_passage_vocab": {
+      "label": "第8問 語句・本文（動物実験レポート）",
+      "count": 19
+    },
+    "section8_questions_vocab": {
+      "label": "第8問 設問語句",
+      "count": 10
+    }
+  },
+  "entries": [
+    {
+      "term_en": "call for ~",
+      "term_ja": "〜の要請；〜のお願い",
+      "example_en": "Find “call for ~” in the passage and check it means “〜の要請”.",
+      "example_ja": "本文中の「call for ~」を探し、「〜の要請」の意味で使われているか確認する。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "local dish",
+      "term_ja": "郷土料理",
+      "example_en": "A good paraphrase of “local dish” here is “郷土料理”.",
+      "example_ja": "この箇所の「local dish」は「郷土料理」と言い換えられる。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "participant",
+      "term_ja": "参加者",
+      "example_en": "Connect “participant” with the Japanese nuance “参加者”.",
+      "example_ja": "「participant」と日本語のニュアンス「参加者」を結びつけて覚える。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "confidence",
+      "term_ja": "自信",
+      "example_en": "Underline “confidence” once and recall “自信” before the next drill.",
+      "example_ja": "「confidence」に一度下線を引き、次の演習の前に「自信」を思い出す。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "live",
+      "term_ja": "生の；実演の",
+      "example_en": "Remember: in this material, “live” covers the idea of “生の”.",
+      "example_ja": "この教材では「live」は「生の」という発想に対応する。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "vote",
+      "term_ja": "投票する；票",
+      "example_en": "Underline “vote” once and recall “投票する” before the next drill.",
+      "example_ja": "「vote」に一度下線を引き、次の演習の前に「投票する」を思い出す。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "award",
+      "term_ja": "〜（賞など）を与える",
+      "example_en": "Connect “award” with the Japanese nuance “〜”.",
+      "example_ja": "「award」と日本語のニュアンス「〜」を結びつけて覚える。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "prize",
+      "term_ja": "賞；賞品；賞金",
+      "example_en": "When you see “prize”, read it as “賞” in context.",
+      "example_ja": "「prize」に出会ったら、文脈では「賞」と読み取る。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "donate（問1①）",
+      "term_ja": "〜を寄付する",
+      "example_en": "A good paraphrase of “donate” here is “〜を寄付する”.",
+      "example_ja": "この箇所の「donate」は「〜を寄付する」と言い換えられる。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "attendee（問2）",
+      "term_ja": "出席者；参加者",
+      "example_en": "When you see “attendee”, read it as “出席者” in context.",
+      "example_ja": "「attendee」に出会ったら、文脈では「出席者」と読み取る。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section1_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "community service",
+      "term_ja": "社会奉仕",
+      "example_en": "Underline “community service” once and recall “社会奉仕” before the next drill.",
+      "example_ja": "「community service」に一度下線を引き、次の演習の前に「社会奉仕」を思い出す。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "litter",
+      "term_ja": "ごみ",
+      "example_en": "Match “litter” to its gloss “ごみ” on your vocabulary sheet.",
+      "example_ja": "語彙表で「litter」を見出し「ごみ」と対応づける。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "participate",
+      "term_ja": "参加する",
+      "example_en": "Underline “participate” once and recall “参加する” before the next drill.",
+      "example_ja": "「participate」に一度下線を引き、次の演習の前に「参加する」を思い出す。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "appreciate",
+      "term_ja": "〜に感謝する；〜を正当に評価する",
+      "example_en": "Underline “appreciate” once and recall “〜に感謝する” before the next drill.",
+      "example_ja": "「appreciate」に一度下線を引き、次の演習の前に「〜に感謝する」を思い出す。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "local（問1②）",
+      "term_ja": "（通例複数形で）地元の人たち",
+      "example_en": "A good paraphrase of “local” here is “”.",
+      "example_ja": "この箇所の「local」は「」と言い換えられる。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section2_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "last（問2①）",
+      "term_ja": "（期間が）続く",
+      "example_en": "Match “last” to its gloss “” on your vocabulary sheet.",
+      "example_ja": "語彙表で「last」を見出し「」と対応づける。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section2_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "attendee（問2）",
+      "term_ja": "出席者；来場者",
+      "example_en": "When you see “attendee”, read it as “出席者” in context.",
+      "example_ja": "「attendee」に出会ったら、文脈では「出席者」と読み取る。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section2_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "behind-the-scenes",
+      "term_ja": "舞台裏の",
+      "example_en": "Underline “behind-the-scenes” once and recall “舞台裏の” before the next drill.",
+      "example_ja": "「behind-the-scenes」に一度下線を引き、次の演習の前に「舞台裏の」を思い出す。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "atmosphere",
+      "term_ja": "雰囲気",
+      "example_en": "Remember: in this material, “atmosphere” covers the idea of “雰囲気”.",
+      "example_ja": "この教材では「atmosphere」は「雰囲気」という発想に対応する。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "set up ~",
+      "term_ja": "〜を設置する",
+      "example_en": "Connect “set up ~” with the Japanese nuance “〜を設置する”.",
+      "example_ja": "「set up ~」と日本語のニュアンス「〜を設置する」を結びつけて覚える。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "fill",
+      "term_ja": "〜をいっぱいにする",
+      "example_en": "Connect “fill” with the Japanese nuance “〜をいっぱいにする”.",
+      "example_ja": "「fill」と日本語のニュアンス「〜をいっぱいにする」を結びつけて覚える。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "rehearse",
+      "term_ja": "リハーサルをする",
+      "example_en": "Connect “rehearse” with the Japanese nuance “リハーサルをする”.",
+      "example_ja": "「rehearse」と日本語のニュアンス「リハーサルをする」を結びつけて覚える。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "storefront",
+      "term_ja": "店先",
+      "example_en": "Underline “storefront” once and recall “店先” before the next drill.",
+      "example_ja": "「storefront」に一度下線を引き、次の演習の前に「店先」を思い出す。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "backdrop",
+      "term_ja": "背景幕",
+      "example_en": "Underline “backdrop” once and recall “背景幕” before the next drill.",
+      "example_ja": "「backdrop」に一度下線を引き、次の演習の前に「背景幕」を思い出す。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in good shape",
+      "term_ja": "状態がよい",
+      "example_en": "Find “in good shape” in the passage and check it means “状態がよい”.",
+      "example_ja": "本文中の「in good shape」を探し、「状態がよい」の意味で使われているか確認する。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "technician",
+      "term_ja": "技術者",
+      "example_en": "Underline “technician” once and recall “技術者” before the next drill.",
+      "example_ja": "「technician」に一度下線を引き、次の演習の前に「技術者」を思い出す。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "adjust",
+      "term_ja": "〜を調整する",
+      "example_en": "A good paraphrase of “adjust” here is “〜を調整する”.",
+      "example_ja": "この箇所の「adjust」は「〜を調整する」と言い換えられる。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "switch",
+      "term_ja": "スイッチ",
+      "example_en": "When you see “switch”, read it as “スイッチ” in context.",
+      "example_ja": "「switch」に出会ったら、文脈では「スイッチ」と読み取る。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "fake",
+      "term_ja": "にせの，模造の",
+      "example_en": "Connect “fake” with the Japanese nuance “にせの，模造の”.",
+      "example_ja": "「fake」と日本語のニュアンス「にせの，模造の」を結びつけて覚える。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "stack",
+      "term_ja": "〜を積み重ねる",
+      "example_en": "Underline “stack” once and recall “〜を積み重ねる” before the next drill.",
+      "example_ja": "「stack」に一度下線を引き、次の演習の前に「〜を積み重ねる」を思い出す。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "put up ~",
+      "term_ja": "〜を貼り出す",
+      "example_en": "Match “put up ~” to its gloss “〜を貼り出す” on your vocabulary sheet.",
+      "example_ja": "語彙表で「put up ~」を見出し「〜を貼り出す」と対応づける。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "publicize",
+      "term_ja": "〜を宣伝する",
+      "example_en": "Connect “publicize” with the Japanese nuance “〜を宣伝する”.",
+      "example_ja": "「publicize」と日本語のニュアンス「〜を宣伝する」を結びつけて覚える。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "prediction",
+      "term_ja": "予測",
+      "example_en": "Find “prediction” in the passage and check it means “予測”.",
+      "example_ja": "本文中の「prediction」を探し、「予測」の意味で使われているか確認する。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in cooperation with ~",
+      "term_ja": "〜と協力して",
+      "example_en": "Match “in cooperation with ~” to its gloss “〜と協力して” on your vocabulary sheet.",
+      "example_ja": "語彙表で「in cooperation with ~」を見出し「〜と協力して」と対応づける。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "ensure",
+      "term_ja": "〜を確実にする",
+      "example_en": "When you see “ensure”, read it as “〜を確実にする” in context.",
+      "example_ja": "「ensure」に出会ったら、文脈では「〜を確実にする」と読み取る。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "potential",
+      "term_ja": "可能性",
+      "example_en": "Remember: in this material, “potential” covers the idea of “可能性”.",
+      "example_ja": "この教材では「potential」は「可能性」という発想に対応する。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "urban",
+      "term_ja": "都市の",
+      "example_en": "Remember: in this material, “urban” covers the idea of “都市の”.",
+      "example_ja": "この教材では「urban」は「都市の」という発想に対応する。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "isolation",
+      "term_ja": "孤立",
+      "example_en": "When you see “isolation”, read it as “孤立” in context.",
+      "example_ja": "「isolation」に出会ったら、文脈では「孤立」と読み取る。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "increasingly",
+      "term_ja": "ますます",
+      "example_en": "Remember: in this material, “increasingly” covers the idea of “ますます”.",
+      "example_ja": "この教材では「increasingly」は「ますます」という発想に対応する。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "interaction",
+      "term_ja": "交流（動詞は interact「交流する」）",
+      "example_en": "Remember: in this material, “interaction” covers the idea of “交流”.",
+      "example_ja": "この教材では「interaction」は「交流」という発想に対応する。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "resident",
+      "term_ja": "住民",
+      "example_en": "Underline “resident” once and recall “住民” before the next drill.",
+      "example_ja": "「resident」に一度下線を引き、次の演習の前に「住民」を思い出す。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "serve as ~",
+      "term_ja": "〜としての役割を果たす；〜として役立つ",
+      "example_en": "Connect “serve as ~” with the Japanese nuance “〜としての役割を果たす”.",
+      "example_ja": "「serve as ~」と日本語のニュアンス「〜としての役割を果たす」を結びつけて覚える。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "hub",
+      "term_ja": "（活動などの）中心地；拠点",
+      "example_en": "Connect “hub” with the Japanese nuance “”.",
+      "example_ja": "「hub」と日本語のニュアンス「」を結びつけて覚える。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "get to know ~",
+      "term_ja": "〜と知り合う",
+      "example_en": "Remember: in this material, “get to know ~” covers the idea of “〜と知り合う”.",
+      "example_ja": "この教材では「get to know ~」は「〜と知り合う」という発想に対応する。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "practical",
+      "term_ja": "実用的な",
+      "example_en": "A good paraphrase of “practical” here is “実用的な”.",
+      "example_ja": "この箇所の「practical」は「実用的な」と言い換えられる。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "responsibility",
+      "term_ja": "責任",
+      "example_en": "Remember: in this material, “responsibility” covers the idea of “責任”.",
+      "example_ja": "この教材では「responsibility」は「責任」という発想に対応する。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "ownership",
+      "term_ja": "所有者であること；所有していること",
+      "example_en": "Connect “ownership” with the Japanese nuance “所有者であること”.",
+      "example_ja": "「ownership」と日本語のニュアンス「所有者であること」を結びつけて覚える。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "nutritious",
+      "term_ja": "栄養価の高い",
+      "example_en": "Underline “nutritious” once and recall “栄養価の高い” before the next drill.",
+      "example_ja": "「nutritious」に一度下線を引き、次の演習の前に「栄養価の高い」を思い出す。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "affordable",
+      "term_ja": "手頃な価格の",
+      "example_en": "Underline “affordable” once and recall “手頃な価格の” before the next drill.",
+      "example_ja": "「affordable」に一度下線を引き、次の演習の前に「手頃な価格の」を思い出す。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "produce",
+      "term_ja": "農産物；生鮮食品",
+      "example_en": "When you see “produce”, read it as “農産物” in context.",
+      "example_ja": "「produce」に出会ったら、文脈では「農産物」と読み取る。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "enrich",
+      "term_ja": "〜を豊かにする",
+      "example_en": "Find “enrich” in the passage and check it means “〜を豊かにする”.",
+      "example_ja": "本文中の「enrich」を探し、「〜を豊かにする」の意味で使われているか確認する。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "diet",
+      "term_ja": "食習慣；食生活",
+      "example_en": "Underline “diet” once and recall “食習慣” before the next drill.",
+      "example_ja": "「diet」に一度下線を引き、次の演習の前に「食習慣」を思い出す。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "問1 ① regardless of ~",
+      "term_ja": "〜にかかわらず",
+      "example_en": "Connect “問1 ① regardless of ~” with the Japanese nuance “〜にかかわらず”.",
+      "example_ja": "「問1 ① regardless of ~」と日本語のニュアンス「〜にかかわらず」を結びつけて覚える。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問1 ③ furthermore",
+      "term_ja": "さらに",
+      "example_en": "The exam uses “問1 ③ furthermore” where Japanese students would expect “さらに”.",
+      "example_ja": "本題は「問1 ③ furthermore」を、受験者が「さらに」と捉えやすい箇所で用いる。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問1 ④ similarly",
+      "term_ja": "同様に",
+      "example_en": "Find “問1 ④ similarly” in the passage and check it means “同様に”.",
+      "example_ja": "本文中の「問1 ④ similarly」を探し、「同様に」の意味で使われているか確認する。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問2 ① additionally",
+      "term_ja": "さらに",
+      "example_en": "Connect “問2 ① additionally” with the Japanese nuance “さらに”.",
+      "example_ja": "「問2 ① additionally」と日本語のニュアンス「さらに」を結びつけて覚える。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問2 ③ in contrast",
+      "term_ja": "その一方",
+      "example_en": "Remember: in this material, “問2 ③ in contrast” covers the idea of “その一方”.",
+      "example_ja": "この教材では「問2 ③ in contrast」は「その一方」という発想に対応する。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問3 ① harvest",
+      "term_ja": "収穫（物）",
+      "example_en": "Connect “問3 ① harvest” with the Japanese nuance “収穫”.",
+      "example_ja": "「問3 ① harvest」と日本語のニュアンス「収穫」を結びつけて覚える。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問3 ④ shipping",
+      "term_ja": "運搬の；輸送の",
+      "example_en": "Connect “問3 ④ shipping” with the Japanese nuance “運搬の”.",
+      "example_ja": "「問3 ④ shipping」と日本語のニュアンス「運搬の」を結びつけて覚える。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問4 ② collaboration",
+      "term_ja": "協力",
+      "example_en": "The exam uses “問4 ② collaboration” where Japanese students would expect “協力”.",
+      "example_ja": "本題は「問4 ② collaboration」を、受験者が「協力」と捉えやすい箇所で用いる。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問4 ③ revitalize",
+      "term_ja": "〜を活性化する",
+      "example_en": "Match “問4 ③ revitalize” to its gloss “〜を活性化する” on your vocabulary sheet.",
+      "example_ja": "語彙表で「問4 ③ revitalize」を見出し「〜を活性化する」と対応づける。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "問4 ③ unwanted",
+      "term_ja": "要らない；不要な",
+      "example_en": "A good paraphrase of “問4 ③ unwanted” here is “要らない”.",
+      "example_ja": "この箇所の「問4 ③ unwanted」は「要らない」と言い換えられる。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "tutor",
+      "term_ja": "〈教科など〉〜を個別に教える；(個別)指導員",
+      "example_en": "Underline “tutor” once and recall “〈教科など〉〜を個別に教える” before the next drill.",
+      "example_ja": "「tutor」に一度下線を引き、次の演習の前に「〈教科など〉〜を個別に教える」を思い出す。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "one step at a time",
+      "term_ja": "一歩ずつの",
+      "example_en": "A good paraphrase of “one step at a time” here is “一歩ずつの”.",
+      "example_ja": "この箇所の「one step at a time」は「一歩ずつの」と言い換えられる。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "life coach",
+      "term_ja": "ライフ・コーチ",
+      "example_en": "Underline “life coach” once and recall “ライフ・コーチ” before the next drill.",
+      "example_ja": "「life coach」に一度下線を引き、次の演習の前に「ライフ・コーチ」を思い出す。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "challenging",
+      "term_ja": "困難だがやりがいのある，能力が試される",
+      "example_en": "Match “challenging” to its gloss “困難だがやりがいのある，能力が試される” on your vocabulary sheet.",
+      "example_ja": "語彙表で「challenging」を見出し「困難だがやりがいのある，能力が試される」と対応づける。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "simplify",
+      "term_ja": "〜を単純化する",
+      "example_en": "The exam uses “simplify” where Japanese students would expect “〜を単純化する”.",
+      "example_ja": "本題は「simplify」を、受験者が「〜を単純化する」と捉えやすい箇所で用いる。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "outcome",
+      "term_ja": "結果，成果",
+      "example_en": "Match “outcome” to its gloss “結果，成果” on your vocabulary sheet.",
+      "example_ja": "語彙表で「outcome」を見出し「結果，成果」と対応づける。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "focused",
+      "term_ja": "気持ちを集中させた",
+      "example_en": "Find “focused” in the passage and check it means “気持ちを集中させた”.",
+      "example_ja": "本文中の「focused」を探し、「気持ちを集中させた」の意味で使われているか確認する。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "reflect on ~",
+      "term_ja": "〜を熟考する，思い起こす",
+      "example_en": "Remember: in this material, “reflect on ~” covers the idea of “〜を熟考する，思い起こす”.",
+      "example_ja": "この教材では「reflect on ~」は「〜を熟考する，思い起こす」という発想に対応する。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in turn",
+      "term_ja": "結果として，今度は",
+      "example_en": "Remember: in this material, “in turn” covers the idea of “結果として，今度は”.",
+      "example_ja": "この教材では「in turn」は「結果として，今度は」という発想に対応する。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "invested in ~",
+      "term_ja": "〜に熱中して",
+      "example_en": "Connect “invested in ~” with the Japanese nuance “〜に熱中して”.",
+      "example_ja": "「invested in ~」と日本語のニュアンス「〜に熱中して」を結びつけて覚える。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "break down A into B",
+      "term_ja": "AをBに分解する",
+      "example_en": "When you see “break down A into B”, read it as “AをBに分解する” in context.",
+      "example_ja": "「break down A into B」に出会ったら、文脈では「AをBに分解する」と読み取る。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "feedback",
+      "term_ja": "フィードバック，意見",
+      "example_en": "The exam uses “feedback” where Japanese students would expect “フィードバック，意見”.",
+      "example_ja": "本題は「feedback」を、受験者が「フィードバック，意見」と捉えやすい箇所で用いる。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "specific",
+      "term_ja": "明確な，具体的な",
+      "example_en": "Underline “specific” once and recall “明確な，具体的な” before the next drill.",
+      "example_ja": "「specific」に一度下線を引き、次の演習の前に「明確な，具体的な」を思い出す。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "make progress",
+      "term_ja": "上達する",
+      "example_en": "A good paraphrase of “make progress” here is “上達する”.",
+      "example_ja": "この箇所の「make progress」は「上達する」と言い換えられる。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "immediate",
+      "term_ja": "当面の",
+      "example_en": "Connect “immediate” with the Japanese nuance “当面の”.",
+      "example_ja": "「immediate」と日本語のニュアンス「当面の」を結びつけて覚える。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "stick to ~",
+      "term_ja": "〜を最後までやり抜く",
+      "example_en": "Connect “stick to ~” with the Japanese nuance “〜を最後までやり抜く”.",
+      "example_ja": "「stick to ~」と日本語のニュアンス「〜を最後までやり抜く」を結びつけて覚える。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "ensure that ...",
+      "term_ja": "確実に…するようにする",
+      "example_en": "The exam uses “ensure that ...” where Japanese students would expect “確実に…するようにする”.",
+      "example_ja": "本題は「ensure that ...」を、受験者が「確実に…するようにする」と捉えやすい箇所で用いる。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "suited to ~",
+      "term_ja": "〜に適した",
+      "example_en": "Connect “suited to ~” with the Japanese nuance “〜に適した”.",
+      "example_ja": "「suited to ~」と日本語のニュアンス「〜に適した」を結びつけて覚える。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "acknowledge",
+      "term_ja": "〜を認める",
+      "example_en": "Match “acknowledge” to its gloss “〜を認める” on your vocabulary sheet.",
+      "example_ja": "語彙表で「acknowledge」を見出し「〜を認める」と対応づける。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "critical",
+      "term_ja": "批判的な，重要な",
+      "example_en": "A good paraphrase of “critical” here is “批判的な，重要な”.",
+      "example_ja": "この箇所の「critical」は「批判的な，重要な」と言い換えられる。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section5_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "newsworthy",
+      "term_ja": "ニュースにする価値のある，報道価値のある",
+      "example_en": "When you see “newsworthy”, read it as “ニュースにする価値のある，報道価値のある” in context.",
+      "example_ja": "「newsworthy」に出会ったら、文脈では「ニュースにする価値のある，報道価値のある」と読み取る。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "wave goodbye",
+      "term_ja": "さようならと手を振る",
+      "example_en": "Match “wave goodbye” to its gloss “さようならと手を振る” on your vocabulary sheet.",
+      "example_ja": "語彙表で「wave goodbye」を見出し「さようならと手を振る」と対応づける。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "scholarship",
+      "term_ja": "奨学金",
+      "example_en": "Remember: in this material, “scholarship” covers the idea of “奨学金”.",
+      "example_ja": "この教材では「scholarship」は「奨学金」という発想に対応する。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "feel frustrated",
+      "term_ja": "イライラする，欲求不満を感じる",
+      "example_en": "Remember: in this material, “feel frustrated” covers the idea of “イライラする，欲求不満を感じる”.",
+      "example_ja": "この教材では「feel frustrated」は「イライラする，欲求不満を感じる」という発想に対応する。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "think back to ~",
+      "term_ja": "〜を思い返す",
+      "example_en": "Remember: in this material, “think back to ~” covers the idea of “〜を思い返す”.",
+      "example_ja": "この教材では「think back to ~」は「〜を思い返す」という発想に対応する。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "snap a photo",
+      "term_ja": "スナップ写真を撮る",
+      "example_en": "The exam uses “snap a photo” where Japanese students would expect “スナップ写真を撮る”.",
+      "example_ja": "本題は「snap a photo」を、受験者が「スナップ写真を撮る」と捉えやすい箇所で用いる。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "capture",
+      "term_ja": "〜を（写真等に）うまく捉える",
+      "example_en": "Match “capture” to its gloss “〜を” on your vocabulary sheet.",
+      "example_ja": "語彙表で「capture」を見出し「〜を」と対応づける。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "magical",
+      "term_ja": "魔法のような",
+      "example_en": "Underline “magical” once and recall “魔法のような” before the next drill.",
+      "example_ja": "「magical」に一度下線を引き、次の演習の前に「魔法のような」を思い出す。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "field trip",
+      "term_ja": "校外学習，遠足",
+      "example_en": "A good paraphrase of “field trip” here is “校外学習，遠足”.",
+      "example_ja": "この箇所の「field trip」は「校外学習，遠足」と言い換えられる。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "botanical garden",
+      "term_ja": "植物園",
+      "example_en": "Underline “botanical garden” once and recall “植物園” before the next drill.",
+      "example_ja": "「botanical garden」に一度下線を引き、次の演習の前に「植物園」を思い出す。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "encourage ~ to do",
+      "term_ja": "〜に…するよう促す，励ます",
+      "example_en": "The exam uses “encourage ~ to do” where Japanese students would expect “〜に…するよう促す，励ます”.",
+      "example_ja": "本題は「encourage ~ to do」を、受験者が「〜に…するよう促す，励ます」と捉えやすい箇所で用いる。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "zoom in on ~",
+      "term_ja": "〜にズームインする，拡大する",
+      "example_en": "Connect “zoom in on ~” with the Japanese nuance “〜にズームインする，拡大する”.",
+      "example_ja": "「zoom in on ~」と日本語のニュアンス「〜にズームインする，拡大する」を結びつけて覚える。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "instruct",
+      "term_ja": "指示する",
+      "example_en": "Match “instruct” to its gloss “指示する” on your vocabulary sheet.",
+      "example_ja": "語彙表で「instruct」を見出し「指示する」と対応づける。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "exquisite",
+      "term_ja": "非常に美しい，精妙な",
+      "example_en": "Find “exquisite” in the passage and check it means “非常に美しい，精妙な”.",
+      "example_ja": "本文中の「exquisite」を探し、「非常に美しい，精妙な」の意味で使われているか確認する。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "admire",
+      "term_ja": "〜を感心して眺める，見とれる",
+      "example_en": "When you see “admire”, read it as “〜を感心して眺める，見とれる” in context.",
+      "example_ja": "「admire」に出会ったら、文脈では「〜を感心して眺める，見とれる」と読み取る。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "skilled",
+      "term_ja": "腕の良い，上手な",
+      "example_en": "Remember: in this material, “skilled” covers the idea of “腕の良い，上手な”.",
+      "example_ja": "この教材では「skilled」は「腕の良い，上手な」という発想に対応する。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "behind the camera",
+      "term_ja": "カメラマンとして",
+      "example_en": "Match “behind the camera” to its gloss “カメラマンとして” on your vocabulary sheet.",
+      "example_ja": "語彙表で「behind the camera」を見出し「カメラマンとして」と対応づける。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "display",
+      "term_ja": "〜を披露する",
+      "example_en": "Underline “display” once and recall “〜を披露する” before the next drill.",
+      "example_ja": "「display」に一度下線を引き、次の演習の前に「〜を披露する」を思い出す。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "flyer",
+      "term_ja": "チラシ",
+      "example_en": "When you see “flyer”, read it as “チラシ” in context.",
+      "example_ja": "「flyer」に出会ったら、文脈では「チラシ」と読み取る。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "recruit",
+      "term_ja": "〜を募集する",
+      "example_en": "Underline “recruit” once and recall “〜を募集する” before the next drill.",
+      "example_ja": "「recruit」に一度下線を引き、次の演習の前に「〜を募集する」を思い出す。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "daydream",
+      "term_ja": "空想にふける",
+      "example_en": "Connect “daydream” with the Japanese nuance “空想にふける”.",
+      "example_ja": "「daydream」と日本語のニュアンス「空想にふける」を結びつけて覚える。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "contemplate",
+      "term_ja": "〜について熟考する",
+      "example_en": "Match “contemplate” to its gloss “〜について熟考する” on your vocabulary sheet.",
+      "example_ja": "語彙表で「contemplate」を見出し「〜について熟考する」と対応づける。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "pursue",
+      "term_ja": "〜を追求する，追い求める",
+      "example_en": "Match “pursue” to its gloss “〜を追求する，追い求める” on your vocabulary sheet.",
+      "example_ja": "語彙表で「pursue」を見出し「〜を追求する，追い求める」と対応づける。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "assign ~ to do",
+      "term_ja": "〜に…するように指示する，課題を出す",
+      "example_en": "Find “assign ~ to do” in the passage and check it means “〜に…するように指示する，課題を出す”.",
+      "example_ja": "本文中の「assign ~ to do」を探し、「〜に…するように指示する，課題を出す」の意味で使われているか確認する。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "review",
+      "term_ja": "〜を批評する",
+      "example_en": "When you see “review”, read it as “〜を批評する” in context.",
+      "example_ja": "「review」に出会ったら、文脈では「〜を批評する」と読み取る。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "fluid",
+      "term_ja": "流暢な，流麗な",
+      "example_en": "Match “fluid” to its gloss “流暢な，流麗な” on your vocabulary sheet.",
+      "example_ja": "語彙表で「fluid」を見出し「流暢な，流麗な」と対応づける。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "descriptive",
+      "term_ja": "描写力に富んだ",
+      "example_en": "When you see “descriptive”, read it as “描写力に富んだ” in context.",
+      "example_ja": "「descriptive」に出会ったら、文脈では「描写力に富んだ」と読み取る。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "stimulate",
+      "term_ja": "〜を刺激する",
+      "example_en": "Remember: in this material, “stimulate” covers the idea of “〜を刺激する”.",
+      "example_ja": "この教材では「stimulate」は「〜を刺激する」という発想に対応する。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "challenge",
+      "term_ja": "困難，難題",
+      "example_en": "A good paraphrase of “challenge” here is “困難，難題”.",
+      "example_ja": "この箇所の「challenge」は「困難，難題」と言い換えられる。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "face",
+      "term_ja": "〜に直面する",
+      "example_en": "Connect “face” with the Japanese nuance “〜に直面する”.",
+      "example_ja": "「face」と日本語のニュアンス「〜に直面する」を結びつけて覚える。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "suggestion",
+      "term_ja": "提案",
+      "example_en": "Remember: in this material, “suggestion” covers the idea of “提案”.",
+      "example_ja": "この教材では「suggestion」は「提案」という発想に対応する。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "submit A to B",
+      "term_ja": "AをBに提出する",
+      "example_en": "When you see “submit A to B”, read it as “AをBに提出する” in context.",
+      "example_ja": "「submit A to B」に出会ったら、文脈では「AをBに提出する」と読み取る。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "walk past ~",
+      "term_ja": "〜のそばを通り過ぎる",
+      "example_en": "The exam uses “walk past ~” where Japanese students would expect “〜のそばを通り過ぎる”.",
+      "example_ja": "本題は「walk past ~」を、受験者が「〜のそばを通り過ぎる」と捉えやすい箇所で用いる。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "notice board",
+      "term_ja": "掲示板",
+      "example_en": "When you see “notice board”, read it as “掲示板” in context.",
+      "example_ja": "「notice board」に出会ったら、文脈では「掲示板」と読み取る。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "catch one's eye",
+      "term_ja": "〜の目を引く",
+      "example_en": "When you see “catch one's eye”, read it as “〜の目を引く” in context.",
+      "example_ja": "「catch one's eye」に出会ったら、文脈では「〜の目を引く」と読み取る。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "editor",
+      "term_ja": "（新聞・雑誌などの）編集長；編集者",
+      "example_en": "Connect “editor” with the Japanese nuance “”.",
+      "example_ja": "「editor」と日本語のニュアンス「」を結びつけて覚える。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "convincing",
+      "term_ja": "説得力のある",
+      "example_en": "Underline “convincing” once and recall “説得力のある” before the next drill.",
+      "example_ja": "「convincing」に一度下線を引き、次の演習の前に「説得力のある」を思い出す。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "you know what",
+      "term_ja": "《話を切り出す時に》ねえ，あのさ",
+      "example_en": "Remember: in this material, “you know what” covers the idea of “《話を切り出す時に》ねえ，あのさ”.",
+      "example_ja": "この教材では「you know what」は「《話を切り出す時に》ねえ，あのさ」という発想に対応する。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "inspire",
+      "term_ja": "〜を奮い立たせる",
+      "example_en": "When you see “inspire”, read it as “〜を奮い立たせる” in context.",
+      "example_ja": "「inspire」に出会ったら、文脈では「〜を奮い立たせる」と読み取る。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "push ~ to do",
+      "term_ja": "〜に…するように強く促す",
+      "example_en": "Match “push ~ to do” to its gloss “〜に…するように強く促す” on your vocabulary sheet.",
+      "example_ja": "語彙表で「push ~ to do」を見出し「〜に…するように強く促す」と対応づける。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "compliment",
+      "term_ja": "褒め言葉",
+      "example_en": "Remember: in this material, “compliment” covers the idea of “褒め言葉”.",
+      "example_ja": "この教材では「compliment」は「褒め言葉」という発想に対応する。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "semester",
+      "term_ja": "学期",
+      "example_en": "Remember: in this material, “semester” covers the idea of “学期”.",
+      "example_ja": "この教材では「semester」は「学期」という発想に対応する。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "front page",
+      "term_ja": "（新聞の）一面",
+      "example_en": "Underline “front page” once and recall “” before the next drill.",
+      "example_ja": "「front page」に一度下線を引き、次の演習の前に「」を思い出す。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "congratulate",
+      "term_ja": "〜を祝う",
+      "example_en": "Find “congratulate” in the passage and check it means “〜を祝う”.",
+      "example_ja": "本文中の「congratulate」を探し、「〜を祝う」の意味で使われているか確認する。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "exclaim",
+      "term_ja": "叫ぶ",
+      "example_en": "A good paraphrase of “exclaim” here is “叫ぶ”.",
+      "example_ja": "この箇所の「exclaim」は「叫ぶ」と言い換えられる。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "major in ~",
+      "term_ja": "〜を専攻する",
+      "example_en": "Underline “major in ~” once and recall “〜を専攻する” before the next drill.",
+      "example_ja": "「major in ~」に一度下線を引き、次の演習の前に「〜を専攻する」を思い出す。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "check out ~",
+      "term_ja": "〜を調べる",
+      "example_en": "Match “check out ~” to its gloss “〜を調べる” on your vocabulary sheet.",
+      "example_ja": "語彙表で「check out ~」を見出し「〜を調べる」と対応づける。",
+      "flashcard_order": 46,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "nod in agreement",
+      "term_ja": "同意してうなずく",
+      "example_en": "Remember: in this material, “nod in agreement” covers the idea of “同意してうなずく”.",
+      "example_ja": "この教材では「nod in agreement」は「同意してうなずく」という発想に対応する。",
+      "flashcard_order": 47,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "sign up for ~",
+      "term_ja": "〜に入会する，届け出を出す",
+      "example_en": "A good paraphrase of “sign up for ~” here is “〜に入会する，届け出を出す”.",
+      "example_ja": "この箇所の「sign up for ~」は「〜に入会する，届け出を出す」と言い換えられる。",
+      "flashcard_order": 48,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section6_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "ecological",
+      "term_ja": "生態学の；環境保護の",
+      "example_en": "When you see “ecological”, read it as “生態学の” in context.",
+      "example_ja": "「ecological」に出会ったら、文脈では「生態学の」と読み取る。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "palm oil",
+      "term_ja": "パーム油；ヤシ油",
+      "example_en": "Underline “palm oil” once and recall “パーム油” before the next drill.",
+      "example_ja": "「palm oil」に一度下線を引き、次の演習の前に「パーム油」を思い出す。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "reputation",
+      "term_ja": "評判",
+      "example_en": "A good paraphrase of “reputation” here is “評判”.",
+      "example_ja": "この箇所の「reputation」は「評判」と言い換えられる。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "burn down ~",
+      "term_ja": "～を焼き払う",
+      "example_en": "The exam uses “burn down ~” where Japanese students would expect “～を焼き払う”.",
+      "example_ja": "本題は「burn down ~」を、受験者が「～を焼き払う」と捉えやすい箇所で用いる。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "carbon dioxide",
+      "term_ja": "二酸化炭素",
+      "example_en": "A good paraphrase of “carbon dioxide” here is “二酸化炭素”.",
+      "example_ja": "この箇所の「carbon dioxide」は「二酸化炭素」と言い換えられる。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "consequently",
+      "term_ja": "結果として",
+      "example_en": "When you see “consequently”, read it as “結果として” in context.",
+      "example_ja": "「consequently」に出会ったら、文脈では「結果として」と読み取る。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "environmentalist",
+      "term_ja": "環境保護論者；環境問題専門家",
+      "example_en": "When you see “environmentalist”, read it as “環境保護論者” in context.",
+      "example_ja": "「environmentalist」に出会ったら、文脈では「環境保護論者」と読み取る。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "unethical",
+      "term_ja": "倫理的でない",
+      "example_en": "The exam uses “unethical” where Japanese students would expect “倫理的でない”.",
+      "example_ja": "本題は「unethical」を、受験者が「倫理的でない」と捉えやすい箇所で用いる。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "sustainable",
+      "term_ja": "持続可能な",
+      "example_en": "A good paraphrase of “sustainable” here is “持続可能な”.",
+      "example_ja": "この箇所の「sustainable」は「持続可能な」と言い換えられる。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "property",
+      "term_ja": "特性",
+      "example_en": "The exam uses “property” where Japanese students would expect “特性”.",
+      "example_ja": "本題は「property」を、受験者が「特性」と捉えやすい箇所で用いる。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "use",
+      "term_ja": "利用法",
+      "example_en": "The exam uses “use” where Japanese students would expect “利用法”.",
+      "example_ja": "本題は「use」を、受験者が「利用法」と捉えやすい箇所で用いる。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "solid",
+      "term_ja": "固体の",
+      "example_en": "A good paraphrase of “solid” here is “固体の”.",
+      "example_ja": "この箇所の「solid」は「固体の」と言い換えられる。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "spread food",
+      "term_ja": "塗り広げる食品",
+      "example_en": "Connect “spread food” with the Japanese nuance “塗り広げる食品”.",
+      "example_ja": "「spread food」と日本語のニュアンス「塗り広げる食品」を結びつけて覚える。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "preserve",
+      "term_ja": "～を保存する",
+      "example_en": "Match “preserve” to its gloss “～を保存する” on your vocabulary sheet.",
+      "example_ja": "語彙表で「preserve」を見出し「～を保存する」と対応づける。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "spoil",
+      "term_ja": "腐敗する",
+      "example_en": "Connect “spoil” with the Japanese nuance “腐敗する”.",
+      "example_ja": "「spoil」と日本語のニュアンス「腐敗する」を結びつけて覚える。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "crop",
+      "term_ja": "農作物",
+      "example_en": "Match “crop” to its gloss “農作物” on your vocabulary sheet.",
+      "example_ja": "語彙表で「crop」を見出し「農作物」と対応づける。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "soybean",
+      "term_ja": "大豆",
+      "example_en": "Find “soybean” in the passage and check it means “大豆”.",
+      "example_ja": "本文中の「soybean」を探し、「大豆」の意味で使われているか確認する。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "chemical",
+      "term_ja": "化学物質",
+      "example_en": "Underline “chemical” once and recall “化学物質” before the next drill.",
+      "example_ja": "「chemical」に一度下線を引き、次の演習の前に「化学物質」を思い出す。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "plantation",
+      "term_ja": "プランテーション；大農園",
+      "example_en": "When you see “plantation”, read it as “プランテーション” in context.",
+      "example_ja": "「plantation」に出会ったら、文脈では「プランテーション」と読み取る。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "contribute to ~",
+      "term_ja": "～の一因となる",
+      "example_en": "Remember: in this material, “contribute to ~” covers the idea of “～の一因となる”.",
+      "example_ja": "この教材では「contribute to ~」は「～の一因となる」という発想に対応する。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "significantly",
+      "term_ja": "著しく；大いに",
+      "example_en": "Match “significantly” to its gloss “著しく” on your vocabulary sheet.",
+      "example_ja": "語彙表で「significantly」を見出し「著しく」と対応づける。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "deforestation",
+      "term_ja": "森林破壊",
+      "example_en": "Connect “deforestation” with the Japanese nuance “森林破壊”.",
+      "example_ja": "「deforestation」と日本語のニュアンス「森林破壊」を結びつけて覚える。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "set up ~",
+      "term_ja": "～を設立する",
+      "example_en": "Connect “set up ~” with the Japanese nuance “～を設立する”.",
+      "example_ja": "「set up ~」と日本語のニュアンス「～を設立する」を結びつけて覚える。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "certify",
+      "term_ja": "～を認証する",
+      "example_en": "Underline “certify” once and recall “～を認証する” before the next drill.",
+      "example_ja": "「certify」に一度下線を引き、次の演習の前に「～を認証する」を思い出す。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "ethical source",
+      "term_ja": "倫理的な供給源",
+      "example_en": "A good paraphrase of “ethical source” here is “倫理的な供給源”.",
+      "example_ja": "この箇所の「ethical source」は「倫理的な供給源」と言い換えられる。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "seek to do",
+      "term_ja": "…しようと努める",
+      "example_en": "Underline “seek to do” once and recall “…しようと努める” before the next drill.",
+      "example_ja": "「seek to do」に一度下線を引き、次の演習の前に「…しようと努める」を思い出す。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "reduce",
+      "term_ja": "～を減らす",
+      "example_en": "Remember: in this material, “reduce” covers the idea of “～を減らす”.",
+      "example_ja": "この教材では「reduce」は「～を減らす」という発想に対応する。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "criteria",
+      "term_ja": "評価基準",
+      "example_en": "A good paraphrase of “criteria” here is “評価基準”.",
+      "example_ja": "この箇所の「criteria」は「評価基準」と言い換えられる。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "minimal",
+      "term_ja": "最小限の",
+      "example_en": "Connect “minimal” with the Japanese nuance “最小限の”.",
+      "example_ja": "「minimal」と日本語のニュアンス「最小限の」を結びつけて覚える。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "clear land",
+      "term_ja": "土地を切り開く",
+      "example_en": "Underline “clear land” once and recall “土地を切り開く” before the next drill.",
+      "example_ja": "「clear land」に一度下線を引き、次の演習の前に「土地を切り開く」を思い出す。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "fair treatment",
+      "term_ja": "公正な待遇",
+      "example_en": "Underline “fair treatment” once and recall “公正な待遇” before the next drill.",
+      "example_ja": "「fair treatment」に一度下線を引き、次の演習の前に「公正な待遇」を思い出す。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "sustainable practice",
+      "term_ja": "持続可能な慣行",
+      "example_en": "Underline “sustainable practice” once and recall “持続可能な慣行” before the next drill.",
+      "example_ja": "「sustainable practice」に一度下線を引き、次の演習の前に「持続可能な慣行」を思い出す。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "vital",
+      "term_ja": "極めて重要な；不可欠な",
+      "example_en": "Remember: in this material, “vital” covers the idea of “極めて重要な”.",
+      "example_ja": "この教材では「vital」は「極めて重要な」という発想に対応する。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "critic",
+      "term_ja": "批判的な人",
+      "example_en": "Underline “critic” once and recall “批判的な人” before the next drill.",
+      "example_ja": "「critic」に一度下線を引き、次の演習の前に「批判的な人」を思い出す。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "independent",
+      "term_ja": "独立した",
+      "example_en": "Underline “independent” once and recall “独立した” before the next drill.",
+      "example_ja": "「independent」に一度下線を引き、次の演習の前に「独立した」を思い出す。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "suspect that ...",
+      "term_ja": "…ではないかと疑う",
+      "example_en": "When you see “suspect that ...”, read it as “…ではないかと疑う” in context.",
+      "example_ja": "「suspect that ...」に出会ったら、文脈では「…ではないかと疑う」と読み取る。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "intention",
+      "term_ja": "意図",
+      "example_en": "Remember: in this material, “intention” covers the idea of “意図”.",
+      "example_ja": "この教材では「intention」は「意図」という発想に対応する。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "commodity",
+      "term_ja": "商品；必需品",
+      "example_en": "The exam uses “commodity” where Japanese students would expect “商品”.",
+      "example_ja": "本題は「commodity」を、受験者が「商品」と捉えやすい箇所で用いる。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "worthwhile",
+      "term_ja": "価値のある；無駄ではない",
+      "example_en": "The exam uses “worthwhile” where Japanese students would expect “価値のある”.",
+      "example_ja": "本題は「worthwhile」を、受験者が「価値のある」と捉えやすい箇所で用いる。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "consumer",
+      "term_ja": "消費者",
+      "example_en": "Match “consumer” to its gloss “消費者” on your vocabulary sheet.",
+      "example_ja": "語彙表で「consumer」を見出し「消費者」と対応づける。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "share",
+      "term_ja": "分配；分け前",
+      "example_en": "A good paraphrase of “share” here is “分配”.",
+      "example_ja": "この箇所の「share」は「分配」と言い換えられる。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "profit",
+      "term_ja": "利益",
+      "example_en": "Match “profit” to its gloss “利益” on your vocabulary sheet.",
+      "example_ja": "語彙表で「profit」を見出し「利益」と対応づける。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "green",
+      "term_ja": "環境にやさしい",
+      "example_en": "Find “green” in the passage and check it means “環境にやさしい”.",
+      "example_ja": "本文中の「green」を探し、「環境にやさしい」の意味で使われているか確認する。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "consequences",
+      "term_ja": "（しばしば複数形で）結果；帰結",
+      "example_en": "Match “consequences” to its gloss “” on your vocabulary sheet.",
+      "example_ja": "語彙表で「consequences」を見出し「」と対応づける。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section7_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "viewpoint",
+      "term_ja": "見解；観点",
+      "example_en": "The exam uses “viewpoint” where Japanese students would expect “見解”.",
+      "example_ja": "本題は「viewpoint」を、受験者が「見解」と捉えやすい箇所で用いる。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "outline",
+      "term_ja": "概要",
+      "example_en": "Remember: in this material, “outline” covers the idea of “概要”.",
+      "example_ja": "この教材では「outline」は「概要」という発想に対応する。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "additional",
+      "term_ja": "追加の",
+      "example_en": "Find “additional” in the passage and check it means “追加の”.",
+      "example_ja": "本文中の「additional」を探し、「追加の」の意味で使われているか確認する。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "source",
+      "term_ja": "（研究・調査の）資料；出典",
+      "example_en": "Find “source” in the passage and check it means “”.",
+      "example_ja": "本文中の「source」を探し、「」の意味で使われているか確認する。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "suffering",
+      "term_ja": "苦痛",
+      "example_en": "Find “suffering” in the passage and check it means “苦痛”.",
+      "example_ja": "本文中の「suffering」を探し、「苦痛」の意味で使われているか確認する。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "innocent",
+      "term_ja": "罪のない；無実の",
+      "example_en": "Underline “innocent” once and recall “罪のない” before the next drill.",
+      "example_ja": "「innocent」に一度下線を引き、次の演習の前に「罪のない」を思い出す。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "state-of-the-art",
+      "term_ja": "最先端の",
+      "example_en": "The exam uses “state-of-the-art” where Japanese students would expect “最先端の”.",
+      "example_ja": "本題は「state-of-the-art」を、受験者が「最先端の」と捉えやすい箇所で用いる。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "companion animal",
+      "term_ja": "コンパニオンアニマル（ペット）",
+      "example_en": "Underline “companion animal” once and recall “コンパニオンアニマル” before the next drill.",
+      "example_ja": "「companion animal」に一度下線を引き、次の演習の前に「コンパニオンアニマル」を思い出す。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "immoral",
+      "term_ja": "道徳に反する",
+      "example_en": "Find “immoral” in the passage and check it means “道徳に反する”.",
+      "example_ja": "本文中の「immoral」を探し、「道徳に反する」の意味で使われているか確認する。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "compensate for ~",
+      "term_ja": "〜を補う",
+      "example_en": "Match “compensate for ~” to its gloss “〜を補う” on your vocabulary sheet.",
+      "example_ja": "語彙表で「compensate for ~」を見出し「〜を補う」と対応づける。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "sacrifice",
+      "term_ja": "犠牲",
+      "example_en": "Find “sacrifice” in the passage and check it means “犠牲”.",
+      "example_ja": "本文中の「sacrifice」を探し、「犠牲」の意味で使われているか確認する。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "subject",
+      "term_ja": "被験者；実験動物",
+      "example_en": "Remember: in this material, “subject” covers the idea of “被験者”.",
+      "example_ja": "この教材では「subject」は「被験者」という発想に対応する。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "alternative",
+      "term_ja": "代替の；（名詞で）代替手段",
+      "example_en": "Connect “alternative” with the Japanese nuance “代替の”.",
+      "example_ja": "「alternative」と日本語のニュアンス「代替の」を結びつけて覚える。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "decent",
+      "term_ja": "適切な",
+      "example_en": "A good paraphrase of “decent” here is “適切な”.",
+      "example_ja": "この箇所の「decent」は「適切な」と言い換えられる。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "humane",
+      "term_ja": "思いやりのある；（不必要な）苦痛を与えない",
+      "example_en": "Underline “humane” once and recall “思いやりのある” before the next drill.",
+      "example_ja": "「humane」に一度下線を引き、次の演習の前に「思いやりのある」を思い出す。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "committee",
+      "term_ja": "委員会",
+      "example_en": "Connect “committee” with the Japanese nuance “委員会”.",
+      "example_ja": "「committee」と日本語のニュアンス「委員会」を結びつけて覚える。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "minimize",
+      "term_ja": "〜を最小限にする",
+      "example_en": "When you see “minimize”, read it as “〜を最小限にする” in context.",
+      "example_ja": "「minimize」に出会ったら、文脈では「〜を最小限にする」と読み取る。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "welfare",
+      "term_ja": "福祉",
+      "example_en": "Underline “welfare” once and recall “福祉” before the next drill.",
+      "example_ja": "「welfare」に一度下線を引き、次の演習の前に「福祉」を思い出す。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "regulation",
+      "term_ja": "規則",
+      "example_en": "When you see “regulation”, read it as “規則” in context.",
+      "example_ja": "「regulation」に出会ったら、文脈では「規則」と読み取る。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "verify（問1②）",
+      "term_ja": "〜を検証する",
+      "example_en": "The exam uses “verify” where Japanese students would expect “〜を検証する”.",
+      "example_ja": "本題は「verify」を、受験者が「〜を検証する」と捉えやすい箇所で用いる。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "intentionally（問1④）",
+      "term_ja": "意図的に",
+      "example_en": "When you see “intentionally”, read it as “意図的に” in context.",
+      "example_ja": "「intentionally」に出会ったら、文脈では「意図的に」と読み取る。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "imply（問2）",
+      "term_ja": "〜を暗示する",
+      "example_en": "A good paraphrase of “imply” here is “〜を暗示する”.",
+      "example_ja": "この箇所の「imply」は「〜を暗示する」と言い換えられる。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "dedicate A to B（問2②）",
+      "term_ja": "AをBに捧げる",
+      "example_en": "Find “dedicate A to B” in the passage and check it means “AをBに捧げる”.",
+      "example_ja": "本文中の「dedicate A to B」を探し、「AをBに捧げる」の意味で使われているか確認する。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "cure（問3［43］①）",
+      "term_ja": "治療法",
+      "example_en": "Connect “cure” with the Japanese nuance “治療法”.",
+      "example_ja": "「cure」と日本語のニュアンス「治療法」を結びつけて覚える。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "unfortunate（問4④）",
+      "term_ja": "不幸な",
+      "example_en": "A good paraphrase of “unfortunate” here is “不幸な”.",
+      "example_ja": "この箇所の「unfortunate」は「不幸な」と言い換えられる。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "in place（問4④）",
+      "term_ja": "施行されて",
+      "example_en": "Match “in place” to its gloss “施行されて” on your vocabulary sheet.",
+      "example_ja": "語彙表で「in place」を見出し「施行されて」と対応づける。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "use caution（問5）",
+      "term_ja": "注意する",
+      "example_en": "Remember: in this material, “use caution” covers the idea of “注意する”.",
+      "example_ja": "この教材では「use caution」は「注意する」という発想に対応する。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "concern（問5①）",
+      "term_ja": "関心；懸念",
+      "example_en": "Remember: in this material, “concern” covers the idea of “関心”.",
+      "example_ja": "この教材では「concern」は「関心」という発想に対応する。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "constant（問5③）",
+      "term_ja": "一定の",
+      "example_en": "When you see “constant”, read it as “一定の” in context.",
+      "example_ja": "「constant」に出会ったら、文脈では「一定の」と読み取る。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": 8,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round05_section8_questions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3836 @@
+{
+  "meta": {
+    "exam": "駿台 共通テスト実戦問題集 2026年 第5回",
+    "source": "data/sundai/2026/round05/data.json（各問 vocabulary 準拠・第1〜3問の例文は語句ごとに手書き、第4〜7問はテンプレから生成・scripts/generate_sundai2026_round05_vocab_json.py）",
+    "sections_in_data": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "counts_by_section": {
+      "section1": 17,
+      "section2": 14,
+      "section3": 27,
+      "section4": 46,
+      "section5": 46,
+      "section6": 55,
+      "section7": 47
+    },
+    "counts_by_source_prefix": {
+      "sundai2026_round05_section1_lead_text": 2,
+      "sundai2026_round05_section1_passage": 15,
+      "sundai2026_round05_section2_lead_text": 1,
+      "sundai2026_round05_section2_passage": 13,
+      "sundai2026_round05_section3_lead_text": 2,
+      "sundai2026_round05_section3_passage": 25,
+      "sundai2026_round05_section4_lead_text": 4,
+      "sundai2026_round05_section4_passage": 30,
+      "sundai2026_round05_section4_questions_and_choices": 12,
+      "sundai2026_round05_section5_passage": 46,
+      "sundai2026_round05_section6_lead_text": 4,
+      "sundai2026_round05_section6_passage": 45,
+      "sundai2026_round05_section6_questions_and_choices": 6,
+      "sundai2026_round05_section7_lead_text": 3,
+      "sundai2026_round05_section7_p1": 10,
+      "sundai2026_round05_section7_p2": 9,
+      "sundai2026_round05_section7_p3": 6,
+      "sundai2026_round05_section7_p4": 6,
+      "sundai2026_round05_section7_p5": 6,
+      "sundai2026_round05_section7_p6": 4,
+      "sundai2026_round05_section7_questions_and_choices": 3
+    },
+    "section1_label": "短文読解（ウェブ広告）",
+    "section2_label": "事実把握・要旨把握（学校記事）",
+    "section3_label": "記事読解（順序・内容一致）",
+    "section4_label": "エッセイ添削（教師コメントに基づくつなぎ・置換・主題文・要約）",
+    "section5_label": "長文読解（論説：言語教授法）",
+    "section6_label": "記事読解（メモの完成）",
+    "section7_label": "長文読解（生物学・発表スライド）"
+  },
+  "entries": [
+    {
+      "term_en": "creative writing",
+      "term_ja": "クリエイティブ・ライティング",
+      "example_en": "The banner promises daily workshops in creative writing and peer review.",
+      "example_ja": "バナーは創作と相互批評の日課ワークショップをうたっている。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "summer course",
+      "term_ja": "夏期講座",
+      "example_en": "Places in the July summer course vanish once lottery results post.",
+      "example_ja": "七月の夏期講座の枠は抽選結果が出るとすぐ埋まる。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "annual",
+      "term_ja": "年1回の；毎年の",
+      "example_en": "This annual retreat sells out before spring break every year.",
+      "example_ja": "この年一回の合宿は毎年春休み前に売り切れる。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "intensive",
+      "term_ja": "集中した；徹底的な",
+      "example_en": "Intensive mornings cover plotting; afternoons stay elective.",
+      "example_ja": "集中の午前はプロット、午後は選択制だ。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "accommodation",
+      "term_ja": "宿泊設備",
+      "example_en": "Optional dorm accommodation lists on another registration page.",
+      "example_ja": "寮宿泊は別の登録ページに載る。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "available",
+      "term_ja": "利用できる；手に入る",
+      "example_en": "Few scholarships stay available after the first lottery window.",
+      "example_ja": "初回抽選のあと残る奨学金はわずかだ。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "analyze",
+      "term_ja": "…を分析する",
+      "example_en": "Small groups analyze mentor scripts before pitching scenes.",
+      "example_ja": "ピッチの前に少人数班でメンター原稿を分析する。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "award-winning",
+      "term_ja": "受賞歴のある",
+      "example_en": "An award-winning novelist hosts Friday campfire readings.",
+      "example_ja": "受賞歴のある小説家が金曜のキャンプファイア読書を司会する。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "screenwriter",
+      "term_ja": "シナリオライター；脚本家",
+      "example_en": "One visiting screenwriter edits our dialogue beats line by line.",
+      "example_ja": "招かれた脚本家が台詞のビートを一行ずつ直す。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "perform",
+      "term_ja": "…を演じる；上演する",
+      "example_en": "Pairs perform a two-page scene under the pine awning.",
+      "example_ja": "ペアが松の軒下で二ページのシーンを演じる。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "campmate",
+      "term_ja": "同じキャンプに寝泊まりする人",
+      "example_en": "Your campmate may critique voice but never shame genre choices.",
+      "example_ja": "キャンプ仲間は文体を批評してもジャンルを嘲笑してはならない。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "novelist",
+      "term_ja": "小説家",
+      "example_en": "The resident novelist signs paperbacks on closing night.",
+      "example_ja": "滞在作家は最終夜に文庫本にサインする。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "complete",
+      "term_ja": "（書類など）に（必要事項を）記入する",
+      "example_en": "You must complete the waiver before touching studio lights.",
+      "example_ja": "スタジオの照明に触れる前に免責へ署名し終えなければならない。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "state",
+      "term_ja": "…を述べる；言明する",
+      "example_en": "The FAQ states that minors need a guardian email on file.",
+      "example_ja": "FAQは未成年者には保護者メールの登録が要ると明記する。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "confirmation",
+      "term_ja": "確認",
+      "example_en": "Expect a confirmation code within ten minutes of paying.",
+      "example_ja": "支払い後十分以内に確認コードが届く。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "note",
+      "term_ja": "…に注意する；気をつける",
+      "example_en": "The sidebar note warns that lake boats cancel in lightning.",
+      "example_ja": "欄外の注意は湖畔のボートが雷雨で中止になると書いている。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "at random",
+      "term_ja": "無作為に",
+      "example_en": "Mentor groups form at random after icebreakers Monday.",
+      "example_ja": "月曜のアイスブレイク後はメンター班が無作為に決まる。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "student council",
+      "term_ja": "生徒会",
+      "example_en": "Student council minutes posted this pilot before winter exams.",
+      "example_ja": "冬の試験前に生徒会がこの試行案を掲示した。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "in addition",
+      "term_ja": "その上；さらに加えて",
+      "example_en": "In addition, hall monitors now carry allergy kits.",
+      "example_ja": "その上、走廊の当番は今アレルギー用キットを持つ。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "previous",
+      "term_ja": "前の；以前の",
+      "example_en": "Compared with previous semesters, vending machines stock juice only.",
+      "example_ja": "前の学期より自販機はジュースだけになった。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "unhealthy",
+      "term_ja": "健康でない",
+      "example_en": "The nurse linked unhealthy snacks to afternoon crashes.",
+      "example_ja": "看護師は不健康な間食と午後のだるさを結びつけた。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "overweight",
+      "term_ja": "太りすぎの",
+      "example_en": "Charts tracked overweight trends without naming individuals.",
+      "example_ja": "図表は個人名を出さず肥満傾向を追った。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "be worried about ...",
+      "term_ja": "…を心配している",
+      "example_en": "Parents used to be worried about bike helmets; now phones dominate.",
+      "example_ja": "昔は自転車のヘルメットを心配していた保護者が、今はスマホを心配する。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "safety",
+      "term_ja": "安全",
+      "example_en": "Safety drills now include bus evacuations twice a term.",
+      "example_ja": "安全訓練は学期に二度バスからの避難を含む。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "on a trial basis",
+      "term_ja": "試験的に",
+      "example_en": "Meatless Mondays run on a trial basis through March.",
+      "example_ja": "ミートレス月曜は三月まで試行的に実施する。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "supervisor",
+      "term_ja": "監督者；管理者",
+      "example_en": "Each floor supervisor logs late arrivals after nine p.m.",
+      "example_ja": "各階の監督員が午後九時以降の遅刻を記録する。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "feedback",
+      "term_ja": "反応；意見",
+      "example_en": "Cafeteria feedback boards fill with spice requests.",
+      "example_ja": "食堂の感想ボードは香辛料の要望であふれる。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "thanks to ...",
+      "term_ja": "…のおかげで；…のせいで",
+      "example_en": "Thanks to new filters, tap water tastes neutral again.",
+      "example_ja": "新しい浄水器のおかげで水道水がまろやかになった。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in the beginning",
+      "term_ja": "最初は",
+      "example_en": "In the beginning, clubs resisted moving practice indoors.",
+      "example_ja": "当初は部活が屋内練習に反対した。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "trust O to -",
+      "term_ja": "安心して O に－させる",
+      "example_en": "Teachers trust monitors to lock roofs after astronomy club.",
+      "example_ja": "教師は天文部のあと屋上を施錠するよう当番を信頼している。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "motivate O to -",
+      "term_ja": "O を－する気にさせる",
+      "example_en": "Sticker charts motivate younger kids to climb stairs.",
+      "example_ja": "シール表が幼い子たちを階段で上らせる気にさせる。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "messy",
+      "term_ja": "散らかって；汚い",
+      "example_en": "Our messy drawer hid graters behind chipped mugs.",
+      "example_ja": "散らかった引き出しは欠けたマグのうしろにおろし金を隠していた。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "organize",
+      "term_ja": "…を整理する",
+      "example_en": "She uses Sunday nights to organize spice jars by cuisine.",
+      "example_ja": "彼女は日曜夜に香辛料を料理ジャンル別に整理する。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "maximize",
+      "term_ja": "…を最大限にする；…を最大限に利用する",
+      "example_en": "Open shelving maximizes light in a narrow galley kitchen.",
+      "example_ja": "オープン棚は狭いギャレーキッチンの光を最大にする。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "on schedule",
+      "term_ja": "予定通りに；定刻に",
+      "example_en": "Batch cooking stays on schedule if rice starts first.",
+      "example_ja": "米を先に炊けば作り置きは予定通り進む。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "decrease",
+      "term_ja": "…を減らす",
+      "example_en": "Labelled bins decreased our food waste within a month.",
+      "example_ja": "ラベル付き容器で一か月以内に食品ロスが減った。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "tidy up",
+      "term_ja": "片付ける；整理する",
+      "example_en": "We tidy up counters before the inspector's photo.",
+      "example_ja": "検査員の写真の前にカウンターを片付ける。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "get rid of ...",
+      "term_ja": "…を処分する；取り除く",
+      "example_en": "Get rid of chipped plastic before it contaminates flour jars.",
+      "example_ja": "欠けたプラスチックを小麦粉瓶を汚す前に捨てなさい。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "clutter",
+      "term_ja": "乱雑；散乱したもの",
+      "example_en": "Magnetic rails reduce clutter near the stove.",
+      "example_ja": "マグネットレールがコンロ周りの乱雑さを減らす。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "plate",
+      "term_ja": "（浅い）皿；平皿",
+      "example_en": "Stack plates by size so guests grab sets faster.",
+      "example_ja": "皿は大きさ順に積めば客がセットを取りやすい。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "dish",
+      "term_ja": "（深い）皿；大盛り皿",
+      "example_en": "Run the heavy dish cycle after greasy brunch pans.",
+      "example_ja": "油のついたブランチ用パンのあとは強洗浄で皿洗いを回す。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "pan",
+      "term_ja": "平なべ",
+      "example_en": "Hang carbon-steel pans dry to stop rust specks.",
+      "example_ja": "炭素鋼のフライパンは錆を防ぐため乾かして吊す。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "free up ...",
+      "term_ja": "〈時間・場所など〉を空ける",
+      "example_en": "Wall hooks free up drawer space for linens.",
+      "example_ja": "壁フックが引出しをタオル類が入る空きにする。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "storage",
+      "term_ja": "保管；貯蔵",
+      "example_en": "Clear storage lets you spot pasta before it stales.",
+      "example_ja": "透明容器ならパスタが古くなる前にわかる。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "cooker",
+      "term_ja": "オーブン；コンロ",
+      "example_en": "The pressure cooker's steam scorched the cabinet paint once.",
+      "example_ja": "圧力なべの蒸気で一度キャビネットの塗装が焦げた。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "right-handed",
+      "term_ja": "右利きの",
+      "example_en": "Right-handed cooks keep knives to the right of the sink.",
+      "example_ja": "右利きの料理人は包丁をシンク右に置く。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "coffee machine",
+      "term_ja": "コーヒーメーカー",
+      "example_en": "Descale the coffee machine before relatives visit.",
+      "example_ja": "親戚の訪問前にコーヒーマシンを除石灰しなさい。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "focus on ...",
+      "term_ja": "〈注意・関心〉を…に向ける",
+      "example_en": "This week we focus on vertical fridge zones only.",
+      "example_ja": "今週は冷蔵庫の縦ゾーンだけに集中する。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "replacement",
+      "term_ja": "置き換え；代用品",
+      "example_en": "Order replacement seals when the blender leaks.",
+      "example_ja": "ミキサーから漏れたらパッキンを取り寄せなさい。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "flour",
+      "term_ja": "小麦粉",
+      "example_en": "Sift flour twice when humidity spikes above seventy percent.",
+      "example_ja": "湿度が70%を超えるときは小麦粉を二度ふるいなさい。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "virtual",
+      "term_ja": "仮想の；バーチャルの",
+      "example_en": "She keeps a virtual pantry list synced to her phone.",
+      "example_ja": "彼女は仮想の食材棚リストをスマホと同期している。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "recipe",
+      "term_ja": "レシピ",
+      "example_en": "Pin the recipe card to the hood during stir-fry night.",
+      "example_ja": "炒め物の夜はレシピカードをレンジフードに留める。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "scrap",
+      "term_ja": "断片；一片",
+      "example_en": "Compost vegetable scraps unless the bin smells sour.",
+      "example_ja": "生ゴミが酸っぱくなければ野菜くずを堆肥に回す。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "notepad",
+      "term_ja": "メモ帳",
+      "example_en": "Keep a notepad on the fridge for odd guest requests.",
+      "example_ja": "来客の変わった要望は冷蔵庫のメモ帳に書く。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "a pile of ...",
+      "term_ja": "たくさんの…；山のような…",
+      "example_en": "A pile of lids slid when someone yanked the wrong drawer.",
+      "example_ja": "誰かが違う引き出しを勢いよく開けて蓋の山が滑った。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "photograph",
+      "term_ja": "…の写真を撮る；…を撮影する",
+      "example_en": "Photograph spices before donating the shaker rack.",
+      "example_ja": "スパイス棚を寄付する前に写真に撮っておきなさい。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "store",
+      "term_ja": "（データ）を記憶装置に保存する",
+      "example_en": "Store onions in mesh bags away from potatoes.",
+      "example_ja": "玉ねぎはじゃがいもから離してメッシュ袋で保管する。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "turn",
+      "term_ja": "順番",
+      "example_en": "Take turns scrubbing tile grout each Sunday.",
+      "example_ja": "日曜ごとにタイル目地を交代で磨く。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "draft",
+      "term_ja": "草稿；下書き",
+      "example_en": "Compare two drafts: only the sentence with \"draft\" should say 「草稿；下書き」.",
+      "example_ja": "二つの草稿を比べ、「draft」の文だけが「草稿；下書き」と言いたい内容か確かめる。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "revision",
+      "term_ja": "修正",
+      "example_en": "Read aloud: \"revision\" should match the tone of 「修正」 in your mind.",
+      "example_ja": "声に出すと、「revision」が心の中の「修正」と調子が合うかわかる。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "work on ...",
+      "term_ja": "…に取り組む",
+      "example_en": "Notice how \"work on ...\" ties to the idea of 「…に取り組む」 in this context.",
+      "example_ja": "この文脈で「work on ...」が「…に取り組む」という発想につながる点に気づく。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "based on ...",
+      "term_ja": "…に基づいて［た］",
+      "example_en": "Read aloud: \"based on ...\" should match the tone of 「…に基づいて［た］」 in your mind.",
+      "example_ja": "声に出すと、「based on ...」が心の中の「…に基づいて［た］」と調子が合うかわかる。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "benefit",
+      "term_ja": "利点；利益",
+      "example_en": "The distractor fails because it misreads \"benefit\" as something other than 「利点；利益」.",
+      "example_ja": "誤答肢は、「benefit」を「利点；利益」以外に解釈したときだけ選ばれる。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "reputation",
+      "term_ja": "評判",
+      "example_en": "Peer discussion often starts with \"reputation\" and its gloss 「評判」.",
+      "example_ja": "仲間と読むときは、まず「reputation」とその訳「評判」から話し合う。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "multiple",
+      "term_ja": "多数の；多様な",
+      "example_en": "The safest reading keeps \"multiple\" anchored to 「多数の；多様な」 through the whole line.",
+      "example_ja": "一行の終わりまで「multiple」を「多数の；多様な」に固定して読むのがもっとも安全だ。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "influence on ...",
+      "term_ja": "…への影響",
+      "example_en": "Slow reading fixes \"influence on ...\" as 「…への影響」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「influence on ...」を「…への影響」に固定する。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "improve",
+      "term_ja": "…を改善する；…を向上させる",
+      "example_en": "Swap synonyms only after you are sure \"improve\" is not 「…を改善する；…を向上させる」 in disguise.",
+      "example_ja": "類語に置き換えるのは、「improve」が「…を改善する；…を向上させる」の仮面をかぶった語ではないと確信してからだ。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "navigation skill",
+      "term_ja": "ナビゲーション能力（自身の位置を正確に把握し，ルートを計画し追跡するプロセスや活動に関する能力）",
+      "example_en": "Swap synonyms only after you are sure \"navigation skill\" is not 「ナビゲーション能力（自身の位置を正確に把握し，ルートを計画し追跡するプロセスや活動に関する能力）」 in disguise.",
+      "example_ja": "類語に置き換えるのは、「navigation skill」が「ナビゲーション能力（自身の位置を正確に把握し，ルートを計画し追跡するプロセスや活動…」の仮面をかぶった語ではないと確信してからだ。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "reasoning",
+      "term_ja": "論理的思考能力；推論力",
+      "example_en": "Peer discussion often starts with \"reasoning\" and its gloss 「論理的思考能力；推論力」.",
+      "example_ja": "仲間と読むときは、まず「reasoning」とその訳「論理的思考能力；推論力」から話し合う。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "target",
+      "term_ja": "標的",
+      "example_en": "Notice how \"target\" ties to the idea of 「標的」 in this context.",
+      "example_ja": "この文脈で「target」が「標的」という発想につながる点に気づく。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "avoid -ing",
+      "term_ja": "－することを避ける",
+      "example_en": "If \"avoid -ing\" feels vague, lock it to 「－することを避ける」 and reread the paragraph.",
+      "example_ja": "「avoid -ing」が曖昧なら「－することを避ける」に決め打ちして段落を読み返す。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "polish",
+      "term_ja": "…を磨く",
+      "example_en": "The phrase \"polish\" should ring as 「…を磨く」, not a false friend.",
+      "example_ja": "「polish」は偽友ではなく、「…を磨く」と聞こえるか確認する。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "just as much ... as ~",
+      "term_ja": "～とまったく同じぐらい（多く）",
+      "example_en": "Your annotation for \"just as much ... as ~\" can be a single gloss: 「～とまったく同じぐらい（多く）」.",
+      "example_ja": "「just as much ... as ~」へのメモは、ひと言「～とまったく同じぐらい（多く）」で十分なことが多い。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "designed to -",
+      "term_ja": "－するために作られた",
+      "example_en": "Translate silently: \"designed to -\" → 「－するために作られた」, then read on.",
+      "example_ja": "心の中で「designed to -」→「－するために作られた」と置いてから先を読む。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "be true for ...",
+      "term_ja": "…に当てはまる",
+      "example_en": "Swap synonyms only after you are sure \"be true for ...\" is not 「…に当てはまる」 in disguise.",
+      "example_ja": "類語に置き換えるのは、「be true for ...」が「…に当てはまる」の仮面をかぶった語ではないと確信してからだ。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "role-playing game",
+      "term_ja": "ロールプレイングゲーム（各自に割り当てられたキャラクターを操作し，目的を達成するゲーム）",
+      "example_en": "Rewrite the line with \"role-playing game\" into Japanese using 「ロールプレイングゲーム（各自に割り当てられたキャラクターを操作し，目的を達成するゲーム）」.",
+      "example_ja": "「role-playing game」の行を日本語に直すときは「ロールプレイングゲーム（各自に割り当てられたキャラクターを操作し，目的を達成するゲ…」の語感で置き換える。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "improvement",
+      "term_ja": "向上",
+      "example_en": "Without 「向上」, the clause containing \"improvement\" collapses.",
+      "example_ja": "「向上」が取れると、「improvement」を含む節が意味を失う。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "school grade",
+      "term_ja": "学校の成績",
+      "example_en": "Swap synonyms only after you are sure \"school grade\" is not 「学校の成績」 in disguise.",
+      "example_ja": "類語に置き換えるのは、「school grade」が「学校の成績」の仮面をかぶった語ではないと確信してからだ。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in short",
+      "term_ja": "要するに",
+      "example_en": "Rewrite the line with \"in short\" into Japanese using 「要するに」.",
+      "example_ja": "「in short」の行を日本語に直すときは「要するに」の語感で置き換える。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "encourage",
+      "term_ja": "…を促す",
+      "example_en": "Compare two drafts: only the sentence with \"encourage\" should say 「…を促す」.",
+      "example_ja": "二つの草稿を比べ、「encourage」の文だけが「…を促す」と言いたい内容か確かめる。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "relaxation",
+      "term_ja": "息抜き",
+      "example_en": "Mental paraphrase: replace \"relaxation\" with a Japanese chunk containing 「息抜き」.",
+      "example_ja": "言い換え練習では、「relaxation」を「息抜き」を含む日本語の塊に置き換える。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "put simply",
+      "term_ja": "簡単に言えば",
+      "example_en": "One sentence in the essay revision with teacher comments on cohesion hinges on \"put simply\" understood as 「簡単に言えば」.",
+      "example_ja": "教師コメントに基づくエッセイのつなぎ・置換・要約の一文は、「put simply」を「簡単に言えば」と読めたかがカギになる。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "depression",
+      "term_ja": "うつ；意気消沈",
+      "example_en": "The safest reading keeps \"depression\" anchored to 「うつ；意気消沈」 through the whole line.",
+      "example_ja": "一行の終わりまで「depression」を「うつ；意気消沈」に固定して読むのがもっとも安全だ。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "mental health",
+      "term_ja": "精神衛生",
+      "example_en": "Rewrite the line with \"mental health\" into Japanese using 「精神衛生」.",
+      "example_ja": "「mental health」の行を日本語に直すときは「精神衛生」の語感で置き換える。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in summary",
+      "term_ja": "要約すれば",
+      "example_en": "A one-word note beside \"in summary\"—「要約すれば」—saves review time.",
+      "example_ja": "「in summary」の横に「要約すれば」と一語だけ書いておくと復習が速い。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in moderation",
+      "term_ja": "適度に",
+      "example_en": "Notice how \"in moderation\" ties to the idea of 「適度に」 in this context.",
+      "example_ja": "この文脈で「in moderation」が「適度に」という発想につながる点に気づく。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "benefit (動)",
+      "term_ja": "…に利益をもたらす",
+      "example_en": "Slow reading fixes \"benefit (動)\" as 「…に利益をもたらす」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「benefit (動)」を「…に利益をもたらす」に固定する。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in many ways",
+      "term_ja": "多くの点で",
+      "example_en": "Skimming the essay revision with teacher comments on cohesion, underline \"in many ways\" where it matches 「多くの点で」.",
+      "example_ja": "教師コメントに基づくエッセイのつなぎ・置換・要約を速読するとき、「in many ways」を見つけたら意味が「多くの点で」になる印をつける。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "linking",
+      "term_ja": "つなぎとなる；接続する",
+      "example_en": "Listening to a classmate, check whether they keep \"linking\" on 「つなぎとなる；接続する」.",
+      "example_ja": "友達の説明を聞いて、「linking」を「つなぎとなる；接続する」からズラしていないか確かめる。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "introduce",
+      "term_ja": "…を導入する",
+      "example_en": "Skimming the essay revision with teacher comments on cohesion, underline \"introduce\" where it matches 「…を導入する」.",
+      "example_ja": "教師コメントに基づくエッセイのつなぎ・置換・要約を速読するとき、「introduce」を見つけたら意味が「…を導入する」になる印をつける。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "insert",
+      "term_ja": "…を挿入する［入れる］",
+      "example_en": "If \"insert\" feels vague, lock it to 「…を挿入する［入れる］」 and reread the paragraph.",
+      "example_ja": "「insert」が曖昧なら「…を挿入する［入れる］」に決め打ちして段落を読み返す。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "summarize",
+      "term_ja": "…を要約する",
+      "example_en": "One sentence in the essay revision with teacher comments on cohesion hinges on \"summarize\" understood as 「…を要約する」.",
+      "example_ja": "教師コメントに基づくエッセイのつなぎ・置換・要約の一文は、「summarize」を「…を要約する」と読めたかがカギになる。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "case",
+      "term_ja": "実情；事実",
+      "example_en": "Notice how \"case\" ties to the idea of 「実情；事実」 in this context.",
+      "example_ja": "この文脈で「case」が「実情；事実」という発想につながる点に気づく。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "school performance",
+      "term_ja": "学校の成績",
+      "example_en": "Peer discussion often starts with \"school performance\" and its gloss 「学校の成績」.",
+      "example_ja": "仲間と読むときは、まず「school performance」とその訳「学校の成績」から話し合う。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "decline",
+      "term_ja": "下がる；低下する",
+      "example_en": "Peer discussion often starts with \"decline\" and its gloss 「下がる；低下する」.",
+      "example_ja": "仲間と読むときは、まず「decline」とその訳「下がる；低下する」から話し合う。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "academic result",
+      "term_ja": "学業成績の結果",
+      "example_en": "Translate silently: \"academic result\" → 「学業成績の結果」, then read on.",
+      "example_ja": "心の中で「academic result」→「学業成績の結果」と置いてから先を読む。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "achievement",
+      "term_ja": "達成；成績",
+      "example_en": "Listening to a classmate, check whether they keep \"achievement\" on 「達成；成績」.",
+      "example_ja": "友達の説明を聞いて、「achievement」を「達成；成績」からズラしていないか確かめる。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "have little effect on ...",
+      "term_ja": "…にほとんど影響を及ぼさない",
+      "example_en": "Skimming the essay revision with teacher comments on cohesion, underline \"have little effect on ...\" where it matches 「…にほとんど影響を及ぼさない」.",
+      "example_ja": "教師コメントに基づくエッセイのつなぎ・置換・要約を速読するとき、「have little effect on ...」を見つけたら意味が「…にほとんど影響を及ぼさない」になる印をつける。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "negatively affect ...",
+      "term_ja": "…に悪影響を及ぼす",
+      "example_en": "Without 「…に悪影響を及ぼす」, the clause containing \"negatively affect ...\" collapses.",
+      "example_ja": "「…に悪影響を及ぼす」が取れると、「negatively affect ...」を含む節が意味を失う。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "prevent A from -ing",
+      "term_ja": "Aが－するのを防ぐ",
+      "example_en": "Rewrite the line with \"prevent A from -ing\" into Japanese using 「Aが－するのを防ぐ」.",
+      "example_ja": "「prevent A from -ing」の行を日本語に直すときは「Aが－するのを防ぐ」の語感で置き換える。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "anxious",
+      "term_ja": "不安な",
+      "example_en": "Your annotation for \"anxious\" can be a single gloss: 「不安な」.",
+      "example_ja": "「anxious」へのメモは、ひと言「不安な」で十分なことが多い。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "socialize with ...",
+      "term_ja": "…と交際する",
+      "example_en": "If \"socialize with ...\" feels vague, lock it to 「…と交際する」 and reread the paragraph.",
+      "example_ja": "「socialize with ...」が曖昧なら「…と交際する」に決め打ちして段落を読み返す。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "cognitive ability",
+      "term_ja": "認知能力",
+      "example_en": "Ask yourself whether \"cognitive ability\" here points to 「認知能力」.",
+      "example_ja": "ここで「cognitive ability」が指すのが「認知能力」か、自分に問い直す。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "refine",
+      "term_ja": "…を向上させる",
+      "example_en": "Listening to a classmate, check whether they keep \"refine\" on 「…を向上させる」.",
+      "example_ja": "友達の説明を聞いて、「refine」を「…を向上させる」からズラしていないか確かめる。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section4_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "（松井氏・第1段落）",
+      "term_ja": "—",
+      "example_en": "The phrase \"（松井氏・第1段落）\" should ring as 「—」, not a false friend.",
+      "example_ja": "「（松井氏・第1段落）」は偽友ではなく、「—」と聞こえるか確認する。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "grammar",
+      "term_ja": "文法",
+      "example_en": "Ask yourself whether \"grammar\" here points to 「文法」.",
+      "example_ja": "ここで「grammar」が指すのが「文法」か、自分に問い直す。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "translation",
+      "term_ja": "翻訳",
+      "example_en": "Timed review: glance at \"translation\" and recall 「翻訳」 in five seconds.",
+      "example_ja": "タイムドリチェックでは、「translation」を見て5秒で「翻訳」を思い出す。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "method",
+      "term_ja": "方法；方式",
+      "example_en": "One sentence in the long essay on language teaching methods hinges on \"method\" understood as 「方法；方式」.",
+      "example_ja": "言語教授法を論じる長文論説の一文は、「method」を「方法；方式」と読めたかがカギになる。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in detail",
+      "term_ja": "詳細に",
+      "example_en": "Notice how \"in detail\" ties to the idea of 「詳細に」 in this context.",
+      "example_ja": "この文脈で「in detail」が「詳細に」という発想につながる点に気づく。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "boring",
+      "term_ja": "退屈な；つまらない",
+      "example_en": "Notice how \"boring\" ties to the idea of 「退屈な；つまらない」 in this context.",
+      "example_ja": "この文脈で「boring」が「退屈な；つまらない」という発想につながる点に気づく。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "effective",
+      "term_ja": "効果的な",
+      "example_en": "The phrase \"effective\" should ring as 「効果的な」, not a false friend.",
+      "example_ja": "「effective」は偽友ではなく、「効果的な」と聞こえるか確認する。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "（松井氏・第2段落）",
+      "term_ja": "—",
+      "example_en": "The heading and \"（松井氏・第2段落）\" together signal the gloss 「—」.",
+      "example_ja": "見出しと「（松井氏・第2段落）」が重なるところで、意味は「—」と決まることが多い。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "take a break from ...",
+      "term_ja": "…をやめて休憩する；…を一休みする",
+      "example_en": "Swap synonyms only after you are sure \"take a break from ...\" is not 「…をやめて休憩する；…を一休みする」 in disguise.",
+      "example_ja": "類語に置き換えるのは、「take a break from ...」が「…をやめて休憩する；…を一休みする」の仮面をかぶった語ではないと確信してからだ。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "instead of ...",
+      "term_ja": "…の代わりに；…ではなくて",
+      "example_en": "A one-word note beside \"instead of ...\"—「…の代わりに；…ではなくて」—saves review time.",
+      "example_ja": "「instead of ...」の横に「…の代わりに；…ではなくて」と一語だけ書いておくと復習が速い。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "complete",
+      "term_ja": "…を完成する；仕上げる；終える",
+      "example_en": "A one-word note beside \"complete\"—「…を完成する；仕上げる；終える」—saves review time.",
+      "example_ja": "「complete」の横に「…を完成する；仕上げる；終える」と一語だけ書いておくと復習が速い。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "look at ...",
+      "term_ja": "…を調べる；検査する",
+      "example_en": "Parallel structure hinges on \"look at ...\" carrying 「…を調べる；検査する」 in both clauses.",
+      "example_ja": "平行構造では、「look at ...」が両方の節で同じ「…を調べる；検査する」を担うかに注目する。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "research",
+      "term_ja": "…を調べる",
+      "example_en": "The heading and \"research\" together signal the gloss 「…を調べる」.",
+      "example_ja": "見出しと「research」が重なるところで、意味は「…を調べる」と決まることが多い。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "accommodation",
+      "term_ja": "宿泊設備",
+      "example_en": "Read aloud: \"accommodation\" should match the tone of 「宿泊設備」 in your mind.",
+      "example_ja": "声に出すと、「accommodation」が心の中の「宿泊設備」と調子が合うかわかる。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "role-play",
+      "term_ja": "役割を演じる",
+      "example_en": "Parallel structure hinges on \"role-play\" carrying 「役割を演じる」 in both clauses.",
+      "example_ja": "平行構造では、「role-play」が両方の節で同じ「役割を演じる」を担うかに注目する。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "reservation",
+      "term_ja": "予約",
+      "example_en": "Notice how \"reservation\" ties to the idea of 「予約」 in this context.",
+      "example_ja": "この文脈で「reservation」が「予約」という発想につながる点に気づく。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "（松井氏・最終段落）",
+      "term_ja": "—",
+      "example_en": "Slow reading fixes \"（松井氏・最終段落）\" as 「—」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「（松井氏・最終段落）」を「—」に固定する。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "engaged",
+      "term_ja": "没頭して；熱中して",
+      "example_en": "Slow reading fixes \"engaged\" as 「没頭して；熱中して」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「engaged」を「没頭して；熱中して」に固定する。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "it is time that S V（過去形）",
+      "term_ja": "（そろそろ）SがVしてもいい頃だ",
+      "example_en": "Your annotation for \"it is time that S V（過去形）\" can be a single gloss: 「（そろそろ）SがVしてもいい頃だ」.",
+      "example_ja": "「it is time that S V（過去形）」へのメモは、ひと言「（そろそろ）SがVしてもいい頃だ」で十分なことが多い。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "retire",
+      "term_ja": "…を引退させる",
+      "example_en": "Listening to a classmate, check whether they keep \"retire\" on 「…を引退させる」.",
+      "example_ja": "友達の説明を聞いて、「retire」を「…を引退させる」からズラしていないか確かめる。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "encourage",
+      "term_ja": "…を奨励する；促進する",
+      "example_en": "Compare two drafts: only the sentence with \"encourage\" should say 「…を奨励する；促進する」.",
+      "example_ja": "二つの草稿を比べ、「encourage」の文だけが「…を奨励する；促進する」と言いたい内容か確かめる。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "（鈴木氏・第1段落）",
+      "term_ja": "—",
+      "example_en": "If \"（鈴木氏・第1段落）\" feels vague, lock it to 「—」 and reread the paragraph.",
+      "example_ja": "「（鈴木氏・第1段落）」が曖昧なら「—」に決め打ちして段落を読み返す。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "beneficial",
+      "term_ja": "…に有益な；ためになる",
+      "example_en": "Compare two drafts: only the sentence with \"beneficial\" should say 「…に有益な；ためになる」.",
+      "example_ja": "二つの草稿を比べ、「beneficial」の文だけが「…に有益な；ためになる」と言いたい内容か確かめる。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "intermediate",
+      "term_ja": "中級の；中程度の",
+      "example_en": "Listening to a classmate, check whether they keep \"intermediate\" on 「中級の；中程度の」.",
+      "example_ja": "友達の説明を聞いて、「intermediate」を「中級の；中程度の」からズラしていないか確かめる。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "（鈴木氏・第2段落）",
+      "term_ja": "—",
+      "example_en": "Translate silently: \"（鈴木氏・第2段落）\" → 「—」, then read on.",
+      "example_ja": "心の中で「（鈴木氏・第2段落）」→「—」と置いてから先を読む。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "get rid of ...",
+      "term_ja": "…を取り除く；…から脱する",
+      "example_en": "Notice how \"get rid of ...\" ties to the idea of 「…を取り除く；…から脱する」 in this context.",
+      "example_ja": "この文脈で「get rid of ...」が「…を取り除く；…から脱する」という発想につながる点に気づく。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "exposure",
+      "term_ja": "さらすこと；さらされること",
+      "example_en": "If \"exposure\" feels vague, lock it to 「さらすこと；さらされること」 and reread the paragraph.",
+      "example_ja": "「exposure」が曖昧なら「さらすこと；さらされること」に決め打ちして段落を読み返す。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "meaningful",
+      "term_ja": "意味のある；有意義な",
+      "example_en": "Exam practice: use \"meaningful\" in a fresh English sentence, meaning 「意味のある；有意義な」.",
+      "example_ja": "試験対策として、「meaningful」を「意味のある；有意義な」の意味で新しい英文を作る。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "instruction",
+      "term_ja": "指示",
+      "example_en": "The distractor fails because it misreads \"instruction\" as something other than 「指示」.",
+      "example_ja": "誤答肢は、「instruction」を「指示」以外に解釈したときだけ選ばれる。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "（鈴木氏・第3段落）",
+      "term_ja": "—",
+      "example_en": "A one-word note beside \"（鈴木氏・第3段落）\"—「—」—saves review time.",
+      "example_ja": "「（鈴木氏・第3段落）」の横に「—」と一語だけ書いておくと復習が速い。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "conduct",
+      "term_ja": "…を行う",
+      "example_en": "Swap synonyms only after you are sure \"conduct\" is not 「…を行う」 in disguise.",
+      "example_ja": "類語に置き換えるのは、「conduct」が「…を行う」の仮面をかぶった語ではないと確信してからだ。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "Jordan",
+      "term_ja": "ヨルダン",
+      "example_en": "Slow reading fixes \"Jordan\" as 「ヨルダン」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「Jordan」を「ヨルダン」に固定する。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "compare",
+      "term_ja": "…を比較する",
+      "example_en": "Before marking the answer sheet, refix \"compare\" as 「…を比較する」 in the stem.",
+      "example_ja": "マーク前に、問題文の「compare」を心の中で「…を比較する」に置き直す。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "result",
+      "term_ja": "結果；（試験などの）成績",
+      "example_en": "Peer discussion often starts with \"result\" and its gloss 「結果；（試験などの）成績」.",
+      "example_ja": "仲間と読むときは、まず「result」とその訳「結果；（試験などの）成績」から話し合う。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "source language",
+      "term_ja": "起点言語《翻訳における原文の言語》",
+      "example_en": "The distractor fails because it misreads \"source language\" as something other than 「起点言語《翻訳における原文の言語》」.",
+      "example_ja": "誤答肢は、「source language」を「起点言語《翻訳における原文の言語》」以外に解釈したときだけ選ばれる。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "target language",
+      "term_ja": "目標言語《学習・教授対象の言語》",
+      "example_en": "Peer discussion often starts with \"target language\" and its gloss 「目標言語《学習・教授対象の言語》」.",
+      "example_ja": "仲間と読むときは、まず「target language」とその訳「目標言語《学習・教授対象の言語》」から話し合う。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "randomly",
+      "term_ja": "ランダムに；無作為に",
+      "example_en": "The safest reading keeps \"randomly\" anchored to 「ランダムに；無作為に」 through the whole line.",
+      "example_ja": "一行の終わりまで「randomly」を「ランダムに；無作為に」に固定して読むのがもっとも安全だ。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "academic",
+      "term_ja": "学業成績の",
+      "example_en": "The distractor fails because it misreads \"academic\" as something other than 「学業成績の」.",
+      "example_ja": "誤答肢は、「academic」を「学業成績の」以外に解釈したときだけ選ばれる。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "specific",
+      "term_ja": "特定の；一定の",
+      "example_en": "If \"specific\" feels vague, lock it to 「特定の；一定の」 and reread the paragraph.",
+      "example_ja": "「specific」が曖昧なら「特定の；一定の」に決め打ちして段落を読み返す。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "significant",
+      "term_ja": "重大な；意味のある；かなり多い",
+      "example_en": "Mental paraphrase: replace \"significant\" with a Japanese chunk containing 「重大な；意味のある；かなり多い」.",
+      "example_ja": "言い換え練習では、「significant」を「重大な；意味のある；かなり多い」を含む日本語の塊に置き換える。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "（鈴木氏・最終段落）",
+      "term_ja": "—",
+      "example_en": "Parallel structure hinges on \"（鈴木氏・最終段落）\" carrying 「—」 in both clauses.",
+      "example_ja": "平行構造では、「（鈴木氏・最終段落）」が両方の節で同じ「—」を担うかに注目する。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "accurately",
+      "term_ja": "正確に；精密に",
+      "example_en": "Mental paraphrase: replace \"accurately\" with a Japanese chunk containing 「正確に；精密に」.",
+      "example_ja": "言い換え練習では、「accurately」を「正確に；精密に」を含む日本語の塊に置き換える。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "incorporate",
+      "term_ja": "…を組み入れる；合体させる",
+      "example_en": "Before marking the answer sheet, refix \"incorporate\" as 「…を組み入れる；合体させる」 in the stem.",
+      "example_ja": "マーク前に、問題文の「incorporate」を心の中で「…を組み入れる；合体させる」に置き直す。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "thorough",
+      "term_ja": "徹底的な；完全な",
+      "example_en": "Exam practice: use \"thorough\" in a fresh English sentence, meaning 「徹底的な；完全な」.",
+      "example_ja": "試験対策として、「thorough」を「徹底的な；完全な」の意味で新しい英文を作る。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "all-important",
+      "term_ja": "極めて重要な",
+      "example_en": "Your annotation for \"all-important\" can be a single gloss: 「極めて重要な」.",
+      "example_ja": "「all-important」へのメモは、ひと言「極めて重要な」で十分なことが多い。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "motivate",
+      "term_ja": "…に動機［興味］を与える",
+      "example_en": "Skimming the long essay on language teaching methods, underline \"motivate\" where it matches 「…に動機［興味］を与える」.",
+      "example_ja": "言語教授法を論じる長文論説を速読するとき、「motivate」を見つけたら意味が「…に動機［興味］を与える」になる印をつける。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "note",
+      "term_ja": "メモ",
+      "example_en": "Mental paraphrase: replace \"note\" with a Japanese chunk containing 「メモ」.",
+      "example_ja": "言い換え練習では、「note」を「メモ」を含む日本語の塊に置き換える。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "article",
+      "term_ja": "記事；論文",
+      "example_en": "Your annotation for \"article\" can be a single gloss: 「記事；論文」.",
+      "example_ja": "「article」へのメモは、ひと言「記事；論文」で十分なことが多い。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "physics",
+      "term_ja": "物理学",
+      "example_en": "Compare two drafts: only the sentence with \"physics\" should say 「物理学」.",
+      "example_ja": "二つの草稿を比べ、「physics」の文だけが「物理学」と言いたい内容か確かめる。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "be associated with ...",
+      "term_ja": "一緒にいる；交際している",
+      "example_en": "Without 「一緒にいる；交際している」, the clause containing \"be associated with ...\" collapses.",
+      "example_ja": "「一緒にいる；交際している」が取れると、「be associated with ...」を含む節が意味を失う。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "physicist",
+      "term_ja": "物理学者",
+      "example_en": "Skimming the article with blanks to complete your notes, underline \"physicist\" where it matches 「物理学者」.",
+      "example_ja": "メモ完成形式の記事読解を速読するとき、「physicist」を見つけたら意味が「物理学者」になる印をつける。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "divorce",
+      "term_ja": "離婚する",
+      "example_en": "Parallel structure hinges on \"divorce\" carrying 「離婚する」 in both clauses.",
+      "example_ja": "平行構造では、「divorce」が両方の節で同じ「離婚する」を担うかに注目する。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "Serbia",
+      "term_ja": "セルビア",
+      "example_en": "The safest reading keeps \"Serbia\" anchored to 「セルビア」 through the whole line.",
+      "example_ja": "一行の終わりまで「Serbia」を「セルビア」に固定して読むのがもっとも安全だ。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "wealthy",
+      "term_ja": "裕福な",
+      "example_en": "Peer discussion often starts with \"wealthy\" and its gloss 「裕福な」.",
+      "example_ja": "仲間と読むときは、まず「wealthy」とその訳「裕福な」から話し合う。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "complete",
+      "term_ja": "…を仕上げる；終える",
+      "example_en": "Listening to a classmate, check whether they keep \"complete\" on 「…を仕上げる；終える」.",
+      "example_ja": "友達の説明を聞いて、「complete」を「…を仕上げる；終える」からズラしていないか確かめる。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "be allowed to -",
+      "term_ja": "－することを許される",
+      "example_en": "Skimming the article with blanks to complete your notes, underline \"be allowed to -\" where it matches 「－することを許される」.",
+      "example_ja": "メモ完成形式の記事読解を速読するとき、「be allowed to -」を見つけたら意味が「－することを許される」になる印をつける。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "lecture",
+      "term_ja": "講義",
+      "example_en": "Mental paraphrase: replace \"lecture\" with a Japanese chunk containing 「講義」.",
+      "example_ja": "言い換え練習では、「lecture」を「講義」を含む日本語の塊に置き換える。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "recognize",
+      "term_ja": "…を認める；…だとわかる",
+      "example_en": "Compare two drafts: only the sentence with \"recognize\" should say 「…を認める；…だとわかる」.",
+      "example_ja": "二つの草稿を比べ、「recognize」の文だけが「…を認める；…だとわかる」と言いたい内容か確かめる。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "obtain",
+      "term_ja": "…を獲得する",
+      "example_en": "Mental paraphrase: replace \"obtain\" with a Japanese chunk containing 「…を獲得する」.",
+      "example_ja": "言い換え練習では、「obtain」を「…を獲得する」を含む日本語の塊に置き換える。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "permission",
+      "term_ja": "許可",
+      "example_en": "Without 「許可」, the clause containing \"permission\" collapses.",
+      "example_ja": "「許可」が取れると、「permission」を含む節が意味を失う。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "participate",
+      "term_ja": "参加する",
+      "example_en": "Mental paraphrase: replace \"participate\" with a Japanese chunk containing 「参加する」.",
+      "example_ja": "言い換え練習では、「participate」を「参加する」を含む日本語の塊に置き換える。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "Zurich Polytechnic",
+      "term_ja": "チューリッヒエ科大学",
+      "example_en": "Read aloud: \"Zurich Polytechnic\" should match the tone of 「チューリッヒエ科大学」 in your mind.",
+      "example_ja": "声に出すと、「Zurich Polytechnic」が心の中の「チューリッヒエ科大学」と調子が合うかわかる。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "enroll",
+      "term_ja": "入学する；登録する",
+      "example_en": "One sentence in the article with blanks to complete your notes hinges on \"enroll\" understood as 「入学する；登録する」.",
+      "example_ja": "メモ完成形式の記事読解の一文は、「enroll」を「入学する；登録する」と読めたかがカギになる。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "indicate",
+      "term_ja": "…を示す",
+      "example_en": "Timed review: glance at \"indicate\" and recall 「…を示す」 in five seconds.",
+      "example_ja": "タイムドリチェックでは、「indicate」を見て5秒で「…を示す」を思い出す。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "exchange",
+      "term_ja": "…を交換する",
+      "example_en": "Timed review: glance at \"exchange\" and recall 「…を交換する」 in five seconds.",
+      "example_ja": "タイムドリチェックでは、「exchange」を見て5秒で「…を交換する」を思い出す。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "similar",
+      "term_ja": "同じような；よく似た",
+      "example_en": "Timed review: glance at \"similar\" and recall 「同じような；よく似た」 in five seconds.",
+      "example_ja": "タイムドリチェックでは、「similar」を見て5秒で「同じような；よく似た」を思い出す。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "grade",
+      "term_ja": "成績",
+      "example_en": "Parallel structure hinges on \"grade\" carrying 「成績」 in both clauses.",
+      "example_ja": "平行構造では、「grade」が両方の節で同じ「成績」を担うかに注目する。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "applied physics",
+      "term_ja": "応用物理学",
+      "example_en": "Listening to a classmate, check whether they keep \"applied physics\" on 「応用物理学」.",
+      "example_ja": "友達の説明を聞いて、「applied physics」を「応用物理学」からズラしていないか確かめる。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "achieve",
+      "term_ja": "…を獲得する；達成する",
+      "example_en": "Slow reading fixes \"achieve\" as 「…を獲得する；達成する」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「achieve」を「…を獲得する；達成する」に固定する。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "relationship",
+      "term_ja": "関係",
+      "example_en": "Without 「関係」, the clause containing \"relationship\" collapses.",
+      "example_ja": "「関係」が取れると、「relationship」を含む節が意味を失う。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "religion",
+      "term_ja": "宗教",
+      "example_en": "A one-word note beside \"religion\"—「宗教」—saves review time.",
+      "example_ja": "「religion」の横に「宗教」と一語だけ書いておくと復習が速い。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "suitable",
+      "term_ja": "ふさわしい",
+      "example_en": "Timed review: glance at \"suitable\" and recall 「ふさわしい」 in five seconds.",
+      "example_ja": "タイムドリチェックでは、「suitable」を見て5秒で「ふさわしい」を思い出す。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "oppose",
+      "term_ja": "…に反対する",
+      "example_en": "Without 「…に反対する」, the clause containing \"oppose\" collapses.",
+      "example_ja": "「…に反対する」が取れると、「oppose」を含む節が意味を失う。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "nationality",
+      "term_ja": "国籍",
+      "example_en": "Rewrite the line with \"nationality\" into Japanese using 「国籍」.",
+      "example_ja": "「nationality」の行を日本語に直すときは「国籍」の語感で置き換える。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "intellect",
+      "term_ja": "知性",
+      "example_en": "Mental paraphrase: replace \"intellect\" with a Japanese chunk containing 「知性」.",
+      "example_ja": "言い換え練習では、「intellect」を「知性」を含む日本語の塊に置き換える。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "submit",
+      "term_ja": "…を提出する",
+      "example_en": "Mental paraphrase: replace \"submit\" with a Japanese chunk containing 「…を提出する」.",
+      "example_ja": "言い換え練習では、「submit」を「…を提出する」を含む日本語の塊に置き換える。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "make a name for oneself",
+      "term_ja": "名を上げる；有名になる",
+      "example_en": "The heading and \"make a name for oneself\" together signal the gloss 「名を上げる；有名になる」.",
+      "example_ja": "見出しと「make a name for oneself」が重なるところで、意味は「名を上げる；有名になる」と決まることが多い。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "prejudice against ...",
+      "term_ja": "…に対する偏見",
+      "example_en": "Timed review: glance at \"prejudice against ...\" and recall 「…に対する偏見」 in five seconds.",
+      "example_ja": "タイムドリチェックでは、「prejudice against ...」を見て5秒で「…に対する偏見」を思い出す。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "refer to ...",
+      "term_ja": "…に言及する；触れる",
+      "example_en": "The distractor fails because it misreads \"refer to ...\" as something other than 「…に言及する；触れる」.",
+      "example_ja": "誤答肢は、「refer to ...」を「…に言及する；触れる」以外に解釈したときだけ選ばれる。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "positively",
+      "term_ja": "肯定的に；プラス方向に",
+      "example_en": "One sentence in the article with blanks to complete your notes hinges on \"positively\" understood as 「肯定的に；プラス方向に」.",
+      "example_ja": "メモ完成形式の記事読解の一文は、「positively」を「肯定的に；プラス方向に」と読めたかがカギになる。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "mention",
+      "term_ja": "…のことを話に出す；…に言及する",
+      "example_en": "Colour-code \"mention\" in the margin and jot 「…のことを話に出す；…に言及する」.",
+      "example_ja": "余白で「mention」に色をつけ、その横に「…のことを話に出す；…に言及する」と書く。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "stay up late",
+      "term_ja": "遅くまで起きている",
+      "example_en": "Read aloud: \"stay up late\" should match the tone of 「遅くまで起きている」 in your mind.",
+      "example_ja": "声に出すと、「stay up late」が心の中の「遅くまで起きている」と調子が合うかわかる。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "biographer",
+      "term_ja": "伝記作家",
+      "example_en": "Rewrite the line with \"biographer\" into Japanese using 「伝記作家」.",
+      "example_ja": "「biographer」の行を日本語に直すときは「伝記作家」の語感で置き換える。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "celebrated",
+      "term_ja": "名高い；高名な",
+      "example_en": "Exam practice: use \"celebrated\" in a fresh English sentence, meaning 「名高い；高名な」.",
+      "example_ja": "試験対策として、「celebrated」を「名高い；高名な」の意味で新しい英文を作る。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in the background",
+      "term_ja": "目立たない所で；表には出ず",
+      "example_en": "Before marking the answer sheet, refix \"in the background\" as 「目立たない所で；表には出ず」 in the stem.",
+      "example_ja": "マーク前に、問題文の「in the background」を心の中で「目立たない所で；表には出ず」に置き直す。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "collapse",
+      "term_ja": "崩壊；破綻",
+      "example_en": "Listening to a classmate, check whether they keep \"collapse\" on 「崩壊；破綻」.",
+      "example_ja": "友達の説明を聞いて、「collapse」を「崩壊；破綻」からズラしていないか確かめる。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "be on good terms",
+      "term_ja": "仲が良い",
+      "example_en": "Without 「仲が良い」, the clause containing \"be on good terms\" collapses.",
+      "example_ja": "「仲が良い」が取れると、「be on good terms」を含む節が意味を失う。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "input",
+      "term_ja": "（提供された）情報；アドバイス；助力；貢献",
+      "example_en": "Ask yourself whether \"input\" here points to 「（提供された）情報；アドバイス；助力；貢献」.",
+      "example_ja": "ここで「input」が指すのが「（提供された）情報；アドバイス；助力；貢献」か、自分に問い直す。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "be revealed",
+      "term_ja": "暴露される",
+      "example_en": "Before marking the answer sheet, refix \"be revealed\" as 「暴露される」 in the stem.",
+      "example_ja": "マーク前に、問題文の「be revealed」を心の中で「暴露される」に置き直す。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "be destroyed",
+      "term_ja": "破壊される",
+      "example_en": "Skimming the article with blanks to complete your notes, underline \"be destroyed\" where it matches 「破壊される」.",
+      "example_ja": "メモ完成形式の記事読解を速読するとき、「be destroyed」を見つけたら意味が「破壊される」になる印をつける。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "be acknowledged",
+      "term_ja": "認められる",
+      "example_en": "Without 「認められる」, the clause containing \"be acknowledged\" collapses.",
+      "example_ja": "「認められる」が取れると、「be acknowledged」を含む節が意味を失う。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "abandon",
+      "term_ja": "…をあきらめる",
+      "example_en": "If \"abandon\" feels vague, lock it to 「…をあきらめる」 and reread the paragraph.",
+      "example_ja": "「abandon」が曖昧なら「…をあきらめる」に決め打ちして段落を読み返す。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "as with ...",
+      "term_ja": "…の場合と同じように",
+      "example_en": "Swap synonyms only after you are sure \"as with ...\" is not 「…の場合と同じように」 in disguise.",
+      "example_ja": "類語に置き換えるのは、「as with ...」が「…の場合と同じように」の仮面をかぶった語ではないと確信してからだ。",
+      "flashcard_order": 46,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "household",
+      "term_ja": "よく知られた",
+      "example_en": "The safest reading keeps \"household\" anchored to 「よく知られた」 through the whole line.",
+      "example_ja": "一行の終わりまで「household」を「よく知られた」に固定して読むのがもっとも安全だ。",
+      "flashcard_order": 47,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "evidence",
+      "term_ja": "証拠",
+      "example_en": "The safest reading keeps \"evidence\" anchored to 「証拠」 through the whole line.",
+      "example_ja": "一行の終わりまで「evidence」を「証拠」に固定して読むのがもっとも安全だ。",
+      "flashcard_order": 48,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "avoid -ing",
+      "term_ja": "－するのを避ける",
+      "example_en": "Rewrite the line with \"avoid -ing\" into Japanese using 「－するのを避ける」.",
+      "example_ja": "「avoid -ing」の行を日本語に直すときは「－するのを避ける」の語感で置き換える。",
+      "flashcard_order": 49,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "rearrange",
+      "term_ja": "…を並べ替える",
+      "example_en": "Listening to a classmate, check whether they keep \"rearrange\" on 「…を並べ替える」.",
+      "example_ja": "友達の説明を聞いて、「rearrange」を「…を並べ替える」からズラしていないか確かめる。",
+      "flashcard_order": 50,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "deserve",
+      "term_ja": "…を受けるに値する",
+      "example_en": "The distractor fails because it misreads \"deserve\" as something other than 「…を受けるに値する」.",
+      "example_ja": "誤答肢は、「deserve」を「…を受けるに値する」以外に解釈したときだけ選ばれる。",
+      "flashcard_order": 51,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "joint research paper",
+      "term_ja": "共同執筆論文",
+      "example_en": "The phrase \"joint research paper\" should ring as 「共同執筆論文」, not a false friend.",
+      "example_ja": "「joint research paper」は偽友ではなく、「共同執筆論文」と聞こえるか確認する。",
+      "flashcard_order": 52,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "recognition",
+      "term_ja": "評価",
+      "example_en": "Notice how \"recognition\" ties to the idea of 「評価」 in this context.",
+      "example_ja": "この文脈で「recognition」が「評価」という発想につながる点に気づく。",
+      "flashcard_order": 53,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "ruin",
+      "term_ja": "…を台なしにする；破滅させる",
+      "example_en": "Slow reading fixes \"ruin\" as 「…を台なしにする；破滅させる」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「ruin」を「…を台なしにする；破滅させる」に固定する。",
+      "flashcard_order": 54,
+      "occurrences": [
+        {
+          "section_number": 6,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section6_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "biology",
+      "term_ja": "生物学",
+      "example_en": "Skimming the biology article and presentation slide cues, underline \"biology\" where it matches 「生物学」.",
+      "example_ja": "生物学の長文と発表スライドの手がかりを速読するとき、「biology」を見つけたら意味が「生物学」になる印をつける。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "presentation",
+      "term_ja": "発表",
+      "example_en": "Parallel structure hinges on \"presentation\" carrying 「発表」 in both clauses.",
+      "example_ja": "平行構造では、「presentation」が両方の節で同じ「発表」を担うかに注目する。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "useful",
+      "term_ja": "役に立つ",
+      "example_en": "The safest reading keeps \"useful\" anchored to 「役に立つ」 through the whole line.",
+      "example_ja": "一行の終わりまで「useful」を「役に立つ」に固定して読むのがもっとも安全だ。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_lead_text"
+        }
+      ]
+    },
+    {
+      "term_en": "after all",
+      "term_ja": "そもそも；何しろ",
+      "example_en": "One sentence in the biology article and presentation slide cues hinges on \"after all\" understood as 「そもそも；何しろ」.",
+      "example_ja": "生物学の長文と発表スライドの手がかりの一文は、「after all」を「そもそも；何しろ」と読めたかがカギになる。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "be responsible for ...",
+      "term_ja": "…の原因である",
+      "example_en": "Colour-code \"be responsible for ...\" in the margin and jot 「…の原因である」.",
+      "example_ja": "余白で「be responsible for ...」に色をつけ、その横に「…の原因である」と書く。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "regularly",
+      "term_ja": "いつも；決まって",
+      "example_en": "The safest reading keeps \"regularly\" anchored to 「いつも；決まって」 through the whole line.",
+      "example_ja": "一行の終わりまで「regularly」を「いつも；決まって」に固定して読むのがもっとも安全だ。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "affect",
+      "term_ja": "〈病気などが〉…を襲う；…に影響を及ぼす",
+      "example_en": "One sentence in the biology article and presentation slide cues hinges on \"affect\" understood as 「〈病気などが〉…を襲う；…に影響を及ぼす」.",
+      "example_ja": "生物学の長文と発表スライドの手がかりの一文は、「affect」を「〈病気などが〉…を襲う；…に影響を及ぼす」と読めたかがカギになる。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "countless",
+      "term_ja": "無数の；数えきれない",
+      "example_en": "A one-word note beside \"countless\"—「無数の；数えきれない」—saves review time.",
+      "example_ja": "「countless」の横に「無数の；数えきれない」と一語だけ書いておくと復習が速い。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "at all costs",
+      "term_ja": "どんな犠牲を払っても；ぜひとも",
+      "example_en": "Skimming the biology article and presentation slide cues, underline \"at all costs\" where it matches 「どんな犠牲を払っても；ぜひとも」.",
+      "example_ja": "生物学の長文と発表スライドの手がかりを速読するとき、「at all costs」を見つけたら意味が「どんな犠牲を払っても；ぜひとも」になる印をつける。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "strictly",
+      "term_ja": "厳密に言うと",
+      "example_en": "Slow reading fixes \"strictly\" as 「厳密に言うと」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「strictly」を「厳密に言うと」に固定する。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "digestive",
+      "term_ja": "消化（器）の",
+      "example_en": "Rewrite the line with \"digestive\" into Japanese using 「消化（器）の」.",
+      "example_ja": "「digestive」の行を日本語に直すときは「消化（器）の」の語感で置き換える。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "harmful",
+      "term_ja": "有害な",
+      "example_en": "Translate silently: \"harmful\" → 「有害な」, then read on.",
+      "example_ja": "心の中で「harmful」→「有害な」と置いてから先を読む。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "bacteriophage",
+      "term_ja": "バクテリオファージ；殺菌ウイルス",
+      "example_en": "Ask yourself whether \"bacteriophage\" here points to 「バクテリオファージ；殺菌ウイルス」.",
+      "example_ja": "ここで「bacteriophage」が指すのが「バクテリオファージ；殺菌ウイルス」か、自分に問い直す。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p1"
+        }
+      ]
+    },
+    {
+      "term_en": "be made out of ...",
+      "term_ja": "…から作られて",
+      "example_en": "The phrase \"be made out of ...\" should ring as 「…から作られて」, not a false friend.",
+      "example_ja": "「be made out of ...」は偽友ではなく、「…から作られて」と聞こえるか確認する。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "reproduce",
+      "term_ja": "再生する；増殖［繁殖］する",
+      "example_en": "If \"reproduce\" feels vague, lock it to 「再生する；増殖［繁殖］する」 and reread the paragraph.",
+      "example_ja": "「reproduce」が曖昧なら「再生する；増殖［繁殖］する」に決め打ちして段落を読み返す。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "genetic",
+      "term_ja": "遺伝子の",
+      "example_en": "Translate silently: \"genetic\" → 「遺伝子の」, then read on.",
+      "example_ja": "心の中で「genetic」→「遺伝子の」と置いてから先を読む。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "protein case",
+      "term_ja": "タンパク質の外被",
+      "example_en": "Before marking the answer sheet, refix \"protein case\" as 「タンパク質の外被」 in the stem.",
+      "example_ja": "マーク前に、問題文の「protein case」を心の中で「タンパク質の外被」に置き直す。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "standard microscope",
+      "term_ja": "通常の顕微鏡",
+      "example_en": "Ask yourself whether \"standard microscope\" here points to 「通常の顕微鏡」.",
+      "example_ja": "ここで「standard microscope」が指すのが「通常の顕微鏡」か、自分に問い直す。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "bind to ...",
+      "term_ja": "…と化学結合する",
+      "example_en": "Notice how \"bind to ...\" ties to the idea of 「…と化学結合する」 in this context.",
+      "example_ja": "この文脈で「bind to ...」が「…と化学結合する」という発想につながる点に気づく。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "host cell",
+      "term_ja": "宿主細胞",
+      "example_en": "Mental paraphrase: replace \"host cell\" with a Japanese chunk containing 「宿主細胞」.",
+      "example_ja": "言い換え練習では、「host cell」を「宿主細胞」を含む日本語の塊に置き換える。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "machinery",
+      "term_ja": "機構；仕組み",
+      "example_en": "Mental paraphrase: replace \"machinery\" with a Japanese chunk containing 「機構；仕組み」.",
+      "example_ja": "言い換え練習では、「machinery」を「機構；仕組み」を含む日本語の塊に置き換える。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "results in ...",
+      "term_ja": "…という結果になる",
+      "example_en": "Swap synonyms only after you are sure \"results in ...\" is not 「…という結果になる」 in disguise.",
+      "example_ja": "類語に置き換えるのは、「results in ...」が「…という結果になる」の仮面をかぶった語ではないと確信してからだ。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p2"
+        }
+      ]
+    },
+    {
+      "term_en": "approve",
+      "term_ja": "…を認可する",
+      "example_en": "Read aloud: \"approve\" should match the tone of 「…を認可する」 in your mind.",
+      "example_ja": "声に出すと、「approve」が心の中の「…を認可する」と調子が合うかわかる。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p3"
+        }
+      ]
+    },
+    {
+      "term_en": "modify",
+      "term_ja": "…を修正する；変形する",
+      "example_en": "Rewrite the line with \"modify\" into Japanese using 「…を修正する；変形する」.",
+      "example_ja": "「modify」の行を日本語に直すときは「…を修正する；変形する」の語感で置き換える。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p3"
+        }
+      ]
+    },
+    {
+      "term_en": "antigen",
+      "term_ja": "抗原（免疫系にさまざまな免疫応答を引き起こす物質）",
+      "example_en": "Rewrite the line with \"antigen\" into Japanese using 「抗原（免疫系にさまざまな免疫応答を引き起こす物質）」.",
+      "example_ja": "「antigen」の行を日本語に直すときは「抗原（免疫系にさまざまな免疫応答を引き起こす物質）」の語感で置き換える。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p3"
+        }
+      ]
+    },
+    {
+      "term_en": "immune",
+      "term_ja": "免疫の",
+      "example_en": "Rewrite the line with \"immune\" into Japanese using 「免疫の」.",
+      "example_ja": "「immune」の行を日本語に直すときは「免疫の」の語感で置き換える。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p3"
+        }
+      ]
+    },
+    {
+      "term_en": "every two weeks",
+      "term_ja": "2週間ごとに",
+      "example_en": "Mental paraphrase: replace \"every two weeks\" with a Japanese chunk containing 「2週間ごとに」.",
+      "example_ja": "言い換え練習では、「every two weeks」を「2週間ごとに」を含む日本語の塊に置き換える。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p3"
+        }
+      ]
+    },
+    {
+      "term_en": "ignore",
+      "term_ja": "…を無視する",
+      "example_en": "One sentence in the biology article and presentation slide cues hinges on \"ignore\" understood as 「…を無視する」.",
+      "example_ja": "生物学の長文と発表スライドの手がかりの一文は、「ignore」を「…を無視する」と読めたかがカギになる。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p3"
+        }
+      ]
+    },
+    {
+      "term_en": "benefit",
+      "term_ja": "恩恵；利益；良い点",
+      "example_en": "If \"benefit\" feels vague, lock it to 「恩恵；利益；良い点」 and reread the paragraph.",
+      "example_ja": "「benefit」が曖昧なら「恩恵；利益；良い点」に決め打ちして段落を読み返す。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p4"
+        }
+      ]
+    },
+    {
+      "term_en": "side effect",
+      "term_ja": "副作用",
+      "example_en": "Your annotation for \"side effect\" can be a single gloss: 「副作用」.",
+      "example_ja": "「side effect」へのメモは、ひと言「副作用」で十分なことが多い。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p4"
+        }
+      ]
+    },
+    {
+      "term_en": "leave ... alone",
+      "term_ja": "…に手をつけずにおく；…に被害を与えない",
+      "example_en": "Ask yourself whether \"leave ... alone\" here points to 「…に手をつけずにおく；…に被害を与えない」.",
+      "example_ja": "ここで「leave ... alone」が指すのが「…に手をつけずにおく；…に被害を与えない」か、自分に問い直す。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p4"
+        }
+      ]
+    },
+    {
+      "term_en": "surgery",
+      "term_ja": "外科手術",
+      "example_en": "Ask yourself whether \"surgery\" here points to 「外科手術」.",
+      "example_ja": "ここで「surgery」が指すのが「外科手術」か、自分に問い直す。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p4"
+        }
+      ]
+    },
+    {
+      "term_en": "targeted by location",
+      "term_ja": "患部に的を絞って（治療する）",
+      "example_en": "One sentence in the biology article and presentation slide cues hinges on \"targeted by location\" understood as 「患部に的を絞って（治療する）」.",
+      "example_ja": "生物学の長文と発表スライドの手がかりの一文は、「targeted by location」を「患部に的を絞って（治療する）」と読めたかがカギになる。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p4"
+        }
+      ]
+    },
+    {
+      "term_en": "tiredness",
+      "term_ja": "疲労（感）",
+      "example_en": "Compare two drafts: only the sentence with \"tiredness\" should say 「疲労（感）」.",
+      "example_ja": "二つの草稿を比べ、「tiredness」の文だけが「疲労（感）」と言いたい内容か確かめる。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p4"
+        }
+      ]
+    },
+    {
+      "term_en": "gradually",
+      "term_ja": "徐々に；次第に",
+      "example_en": "Listening to a classmate, check whether they keep \"gradually\" on 「徐々に；次第に」.",
+      "example_ja": "友達の説明を聞いて、「gradually」を「徐々に；次第に」からズラしていないか確かめる。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p5"
+        }
+      ]
+    },
+    {
+      "term_en": "alter",
+      "term_ja": "…を変える",
+      "example_en": "Peer discussion often starts with \"alter\" and its gloss 「…を変える」.",
+      "example_ja": "仲間と読むときは、まず「alter」とその訳「…を変える」から話し合う。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p5"
+        }
+      ]
+    },
+    {
+      "term_en": "associated with ...",
+      "term_ja": "…に伴う",
+      "example_en": "Read aloud: \"associated with ...\" should match the tone of 「…に伴う」 in your mind.",
+      "example_ja": "声に出すと、「associated with ...」が心の中の「…に伴う」と調子が合うかわかる。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p5"
+        }
+      ]
+    },
+    {
+      "term_en": "prevent ... from -ing",
+      "term_ja": "…が…するのを防ぐ",
+      "example_en": "Rewrite the line with \"prevent ... from -ing\" into Japanese using 「…が…するのを防ぐ」.",
+      "example_ja": "「prevent ... from -ing」の行を日本語に直すときは「…が…するのを防ぐ」の語感で置き換える。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p5"
+        }
+      ]
+    },
+    {
+      "term_en": "identify",
+      "term_ja": "…を見分ける；認識する",
+      "example_en": "If \"identify\" feels vague, lock it to 「…を見分ける；認識する」 and reread the paragraph.",
+      "example_ja": "「identify」が曖昧なら「…を見分ける；認識する」に決め打ちして段落を読み返す。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p5"
+        }
+      ]
+    },
+    {
+      "term_en": "therapy",
+      "term_ja": "療法",
+      "example_en": "The heading and \"therapy\" together signal the gloss 「療法」.",
+      "example_ja": "見出しと「therapy」が重なるところで、意味は「療法」と決まることが多い。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p5"
+        }
+      ]
+    },
+    {
+      "term_en": "in summary",
+      "term_ja": "要約すると",
+      "example_en": "Slow reading fixes \"in summary\" as 「要約すると」 before you tackle the questions.",
+      "example_ja": "設問に進む前に、ゆっくり読んで「in summary」を「要約すると」に固定する。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p6"
+        }
+      ]
+    },
+    {
+      "term_en": "gene",
+      "term_ja": "遺伝子",
+      "example_en": "Mental paraphrase: replace \"gene\" with a Japanese chunk containing 「遺伝子」.",
+      "example_ja": "言い換え練習では、「gene」を「遺伝子」を含む日本語の塊に置き換える。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p6"
+        }
+      ]
+    },
+    {
+      "term_en": "adapt",
+      "term_ja": "…を改作する；変える",
+      "example_en": "Your annotation for \"adapt\" can be a single gloss: 「…を改作する；変える」.",
+      "example_ja": "「adapt」へのメモは、ひと言「…を改作する；変える」で十分なことが多い。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p6"
+        }
+      ]
+    },
+    {
+      "term_en": "cure",
+      "term_ja": "…を治す",
+      "example_en": "Ask yourself whether \"cure\" here points to 「…を治す」.",
+      "example_ja": "ここで「cure」が指すのが「…を治す」か、自分に問い直す。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_p6"
+        }
+      ]
+    },
+    {
+      "term_en": "one-hundredth",
+      "term_ja": "100分の1の（大きさ）",
+      "example_en": "Without 「100分の1の（大きさ）」, the clause containing \"one-hundredth\" collapses.",
+      "example_ja": "「100分の1の（大きさ）」が取れると、「one-hundredth」を含む節が意味を失う。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "modified virus",
+      "term_ja": "変異［改作］されたウイルス",
+      "example_en": "If \"modified virus\" feels vague, lock it to 「変異［改作］されたウイルス」 and reread the paragraph.",
+      "example_ja": "「modified virus」が曖昧なら「変異［改作］されたウイルス」に決め打ちして段落を読み返す。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_questions_and_choices"
+        }
+      ]
+    },
+    {
+      "term_en": "barrier",
+      "term_ja": "障害；壁",
+      "example_en": "Rewrite the line with \"barrier\" into Japanese using 「障害；壁」.",
+      "example_ja": "「barrier」の行を日本語に直すときは「障害；壁」の語感で置き換える。",
+      "flashcard_order": 46,
+      "occurrences": [
+        {
+          "section_number": 7,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "sundai2026_round05_section7_questions_and_choices"
+        }
+      ]
+    }
+  ]
+}

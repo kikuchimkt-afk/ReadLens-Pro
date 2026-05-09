@@ -1,0 +1,769 @@
+{
+  "meta": {
+    "exam": "Z会 共通テスト実戦模試 2026年 第3回",
+    "source": "data/zkai/2026/round03/data.json（各問 vocabulary 準拠・例文は手作業・scripts/generate_zkai2026_round03_vocab_json.py）",
+    "sections_in_data": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "section1_passage_vocab": {
+      "label": "第1問 語句（旅行サイト・夜市）",
+      "count": 6
+    },
+    "section2_passage_vocab": {
+      "label": "第2問 語句（在宅勤務）",
+      "count": 6
+    },
+    "section3_passage_vocab": {
+      "label": "第3問 語句（オープンキャンパス）",
+      "count": 12
+    },
+    "section4_passage_vocab": {
+      "label": "第4問 語句・本文（大気汚染エッセイ）",
+      "count": 19
+    },
+    "section4_questions_vocab": {
+      "label": "第4問 設問語句",
+      "count": 6
+    }
+  },
+  "entries": [
+    {
+      "term_en": "midday",
+      "term_ja": "〈名〉真昼；正午（⇔ midnight）",
+      "example_en": "Enjoy an evening walk out of the midday heat at East Park.",
+      "example_ja": "東公園の夜市では、真昼の暑さを避けて夕方の散歩ができる。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "speciality",
+      "term_ja": "〈名〉名物（料理）；特産品（米国英語では specialty）",
+      "example_en": "You can taste speciality foods made by local people.",
+      "example_ja": "地元の人が手がける名物の食品を味わえる。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "stand",
+      "term_ja": "〈名〉売店；露店",
+      "example_en": "Food stands are open every night from 6 p.m. to 10 p.m.",
+      "example_ja": "屋台は毎晩午後6時から10時まで営業している。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "on a lead",
+      "term_ja": "〈表現〉（飼い犬などが）ひもでつながれた",
+      "example_en": "No pets are allowed, even on a lead or in carriers.",
+      "example_ja": "ひもでつないでもキャリーに入れても、ペットは一切不可である。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "carrier",
+      "term_ja": "〈名〉運ぶための入れ物",
+      "example_en": "Carriers do not make pets welcome at the Night Market.",
+      "example_ja": "キャリーに入れても夜市へのペット持ち込みは認められない。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "tip for ~（問1④）",
+      "term_ja": "〈名〉〜のコツ；秘訣",
+      "example_en": "Choice ④ offered tips for walking safely at night, yet the notice focuses on the event.",
+      "example_ja": "選択肢④は夜の安全な歩き方のコツだが、通知の目的はイベント紹介である。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "telecommuting",
+      "term_ja": "〈名〉在宅勤務",
+      "example_en": "The article discusses how telecommuting changes daily routines.",
+      "example_ja": "記事は在宅勤務が日課をどう変えるかを論じる。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "update",
+      "term_ja": "〈動〉〜を更新する",
+      "example_en": "The ACS updated their statistics on the telecommuting population.",
+      "example_ja": "ACSは在宅勤務人口の統計を更新した。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "as of ~",
+      "term_ja": "〈前〉〜の時点で",
+      "example_en": "As of 2016, about 3.2% of workers telecommuted most days.",
+      "example_ja": "2016年時点では労働者の約3.2%が半分以上を在宅で過ごしていた。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "utility / utilities",
+      "term_ja": "〈名〉（電気・ガス・水道などの）公共設備；光熱費を含む運営コストのイメージも",
+      "example_en": "Employers save transportation and utilities costs when staff stay home.",
+      "example_ja": "スタッフが在宅なら雇用主は交通費や光熱費を抑えられる。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "opinion vs fact（問2・問3）",
+      "term_ja": "〈対比〉意見＝主張・評価；事実＝データ・定義など検証可能な記述",
+      "example_en": "Identify whether each sentence states an opinion or a measurable fact.",
+      "example_ja": "各文が意見か検証可能な事実かを見極めなさい。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "save + 人 + 物（問2③の型）",
+      "term_ja": "〈型〉save employees commuting time ＝通勤時間という負担を（在宅によって）省く",
+      "example_en": "Telecommuting saves employees commuting time that feels wasted.",
+      "example_ja": "在宅勤務は無駄に感じる通勤時間という負担を省く。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "campus",
+      "term_ja": "〈名〉キャンパス；（大学などの）構内",
+      "example_en": "The open day started with a guided tour of the campus.",
+      "example_ja": "オープンキャンパスはガイド付きの構内ツアーから始まった。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "focused",
+      "term_ja": "〈形〉集中した；専念した",
+      "example_en": "She stayed focused on realistic goals for university life.",
+      "example_ja": "彼女は大学生活の現実的な目標に集中した。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "dorm (= dormitory)",
+      "term_ja": "〈名〉寮",
+      "example_en": "Students debated whether life in a dorm would suit them.",
+      "example_ja": "寮生活が自分に合うかどうかを学生たちは話し合った。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "impress",
+      "term_ja": "〈動〉〜に強い印象を与える；感銘を与える",
+      "example_en": "The science lab failed to impress visitors that rainy afternoon.",
+      "example_ja": "その雨の午後、理科室は来場者の心をつかめなかった。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "current",
+      "term_ja": "〈形〉現在の；（地位などに）ある",
+      "example_en": "Her current worries mix exams with choosing a major.",
+      "example_ja": "彼女の今の悩みは試験と専攻選択が混ざっている。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "struggle",
+      "term_ja": "〈名〉苦闘；難局",
+      "example_en": "Every freshman faces the struggle of balancing clubs and grades.",
+      "example_ja": "どの1年生もサークルと成績の両立という難局に直面する。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "freshman",
+      "term_ja": "〈名〉（大学の）1年生",
+      "example_en": "As a freshman blogger, Mio described crowded lecture halls.",
+      "example_ja": "1年生のブロガーとしてミオは講義室の混雑を書いた。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "feel inspired to do",
+      "term_ja": "〈表現〉…しようという気になる",
+      "example_en": "She felt inspired to do more research on exchange programs.",
+      "example_ja": "彼女は留学プログラムをもっと調べようという気になった。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "senior year",
+      "term_ja": "〈名〉（高校・大学などの）最終学年",
+      "example_en": "Choosing a university still feels distant before senior year.",
+      "example_ja": "最終学年の前では大学選びはまだ遠い感じがする。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "impact（問1①）",
+      "term_ja": "〈名〉影響",
+      "example_en": "The question asks which choice names the essay's largest impact.",
+      "example_ja": "設問はエッセイで最も強調されている影響を選ばせる。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "hang around（問1④）",
+      "term_ja": "〈動〉ぶらぶらする；のんびり過ごす",
+      "example_en": "Hang around downtown after class if you love street food.",
+      "example_ja": "屋台が好きなら放課後は都心をぶらぶらしてもいい。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "suit（問3④）",
+      "term_ja": "〈動〉（人・目的などに）合う；向いている",
+      "example_en": "Pick the degree track that suits your strengths.",
+      "example_ja": "自分の強みに合ったコースを選びなさい。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "skyline",
+      "term_ja": "〈名〉スカイライン（空を背景とした建物のシルエット）",
+      "example_en": "In the old photo the skyline was barely visible through smog.",
+      "example_ja": "古い写真ではスモッグ越しにスカイラインがかすんでいた。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "barely",
+      "term_ja": "〈副〉ほとんど〜ない",
+      "example_en": "We could barely see the hills until the wind cleared the air.",
+      "example_ja": "風が空気を澄ますまで山並みはほとんど見えなかった。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "visible",
+      "term_ja": "〈形〉目に見える",
+      "example_en": "PM2.5 made the moon barely visible that night.",
+      "example_ja": "その夜はPM2.5で月がかすかにしか見えなかった。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "global scale",
+      "term_ja": "〈名〉世界規模",
+      "example_en": "We must tackle air pollution on a global scale.",
+      "example_ja": "大気汚染は世界規模で取り組まなければならない。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "estimate that ...",
+      "term_ja": "〈表現〉…と推定する",
+      "example_en": "The WHO estimates that millions die early because of dirty air.",
+      "example_ja": "WHOは汚れた空気が早熟死を招くと何百万人も推定している。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "move towards ~",
+      "term_ja": "〈表現〉〜への移行〔変化〕",
+      "example_en": "Cities need a faster move towards electric buses and trams.",
+      "example_ja": "都市は電気バスや路面電車への移行を速める必要がある。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "cause",
+      "term_ja": "〈名〉原因；（〈動〉〜を引き起こす）",
+      "example_en": "Cars remain a major cause of urban smog.",
+      "example_ja": "自動車は都市スモッグの主要因のままだ。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "practical",
+      "term_ja": "〈形〉現実的な；実際的な",
+      "example_en": "Buying an EV is still not practical without chargers nearby.",
+      "example_ja": "近くに充電器がなければEV購入はまだ現実的ではない。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "designated",
+      "term_ja": "〈形〉指定された",
+      "example_en": "London uses designated low emission zones to cut traffic fumes.",
+      "example_ja": "ロンドンは排気を減らす指定の低排出ゾーンを使う。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "emission",
+      "term_ja": "〈名〉排出（量）；（多く複数形で）排出ガス",
+      "example_en": "Older trucks fail the newest emission standards.",
+      "example_ja": "古いトラックは最新の排出ガス基準を満たさない。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "basically",
+      "term_ja": "〈副〉基本的に",
+      "example_en": "Basically, drivers pay to enter if their engines are dirty.",
+      "example_ja": "基本的にエンジンが汚い運転者は入域に金を払う。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "standard",
+      "term_ja": "〈名〉基準",
+      "example_en": "Japan could tighten exhaust standards for delivery vans.",
+      "example_ja": "日本は配送バンの排気基準を厳しくしてもよい。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "policy",
+      "term_ja": "〈名〉政策",
+      "example_en": "National policy still relies on hoping consumers choose EVs.",
+      "example_ja": "国の政策は消費者がEVを選ぶことを願う依存度がまだ高い。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "suck up ~",
+      "term_ja": "〈表現〉〜を吸い上げる",
+      "example_en": "Street trees suck up carbon dioxide while shading shoppers.",
+      "example_ja": "街路樹は買い物客に日陰を与えつつ二酸化炭素を吸い上げる。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "carbon dioxide",
+      "term_ja": "〈名〉二酸化炭素",
+      "example_en": "Citizens track carbon dioxide levels on their phones.",
+      "example_ja": "市民はスマホで二酸化炭素濃度を確認する。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "global citizen",
+      "term_ja": "〈名〉地球市民",
+      "example_en": "We should act as global citizens even when smog feels local.",
+      "example_ja": "スモッグが身近に感じなくても地球市民として行動すべきだ。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "toxic",
+      "term_ja": "〈形〉有毒な",
+      "example_en": "Factories must filter toxic gases before releasing smoke.",
+      "example_ja": "工場は煙を出す前に有毒ガスをろ過しなければならない。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "entire ~",
+      "term_ja": "〈形〉〜全体の",
+      "example_en": "What we do here affects the entire global ecosystem.",
+      "example_ja": "ここでの行いは地球の生態系全体に影響する。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "minor",
+      "term_ja": "〈形〉ささいな；ちょっとした",
+      "example_en": "The teacher asked only for minor revisions to the draft.",
+      "example_ja": "先生は草稿にささいな修正だけを求めた。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "as of ~（問1）",
+      "term_ja": "〈前〉〜の時点で",
+      "example_en": "As of 2023, only 3% of cars in Japan were electric.",
+      "example_ja": "2023年時点で日本の車の3%しか電気自動車ではなかった。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "in contrast（問2①）",
+      "term_ja": "〈接続〉対照的に；その一方で",
+      "example_en": "Japan hopes buyers choose EVs; in contrast, European cities regulate entry.",
+      "example_ja": "日本は購入を願うのに対し、欧州の都市は入域を規制する。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "in particular（問2②）",
+      "term_ja": "〈副〉特に",
+      "example_en": "Smog harms children, in particular those who walk to school on busy roads.",
+      "example_ja": "スモッグは子どもに害し、特に幹線道路脇を歩く子に厳しい。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "nevertheless（問2③）",
+      "term_ja": "〈接続〉それにもかかわらず",
+      "example_en": "Fuel prices fell; nevertheless, diesel trucks stayed on the roads.",
+      "example_ja": "燃料価格は下がったが、ディーゼルトラックは道路に残った。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "keep up with ~（問4③）",
+      "term_ja": "〈表現〉〜に遅れずについていく",
+      "example_en": "Tokyo must keep up with other cities in controlling toxic gas.",
+      "example_ja": "東京は有毒ガス抑制で他都市に遅れを取らないようにしなければならない。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_questions"
+        }
+      ]
+    },
+    {
+      "term_en": "contribution（問4④）",
+      "term_ja": "〈名〉貢献",
+      "example_en": "Choice ④ oddly stresses financial contribution instead of air policy.",
+      "example_ja": "選択肢④は大気政策ではなく財政貢献を奇妙に強調する。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round03_section4_questions"
+        }
+      ]
+    }
+  ]
+}

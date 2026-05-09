@@ -1,7 +1,7 @@
 {
   "meta": {
     "exam": "共通テスト 2024年度 本試験",
-    "source": "c:/Users/user/Documents/GitHub/ReadLens-Pro/data/kyotsu/2024/honshiken/data.json",
+    "source": "data/kyotsu/2024/honshiken/data.json",
     "sections_in_data": [
       1,
       2,
@@ -22,6 +22,55 @@
         "question_id",
         "answer_number"
       ]
+    },
+    "section4_official": {
+      "label": "2024本試験 大問4（画像・出題局語彙リストに準拠）",
+      "parts": {
+        "4A": "リード文",
+        "4B": "記事",
+        "4C": "アンケートの結果",
+        "4D": "資料"
+      },
+      "count": 61
+    },
+    "section5_official": {
+      "label": "2024本試験 大問5（画像・主な語句・表現に準拠）",
+      "parts": {
+        "5A": "§1",
+        "5B": "§2",
+        "5C": "§3",
+        "5D": "§4前",
+        "5E": "§4",
+        "5F": "§5",
+        "5G": "§6"
+      },
+      "count": 77
+    },
+    "section6a_official": {
+      "label": "2024本試験 大問6A（主な語句・表現に準拠）",
+      "parts": {
+        "6Aa": "第1段落",
+        "6Ab": "第2段落",
+        "6Ac": "第3段落",
+        "6Ad": "第4段落",
+        "6Ae": "第5段落",
+        "6Af": "最終段落"
+      },
+      "count": 62
+    },
+    "section6b_official": {
+      "label": "2024本試験 大問6B（主な語句・表現に準拠）",
+      "parts": {
+        "6Ba": "第1段落",
+        "6Bb": "第2段落",
+        "6Bc": "第3段落",
+        "6Bd": "第4段落",
+        "6Be": "第5段落",
+        "6Bf": "第6段落",
+        "6Bg": "第7段落",
+        "6Bh": "最終段落"
+      },
+      "count": 88
     }
   },
   "entries": [
@@ -149,20 +198,6 @@
       "occurrences": [
         {
           "section_number": 1,
-          "question_id": "vocabulary",
-          "answer_number": null,
-          "source": "vocabulary_seed"
-        }
-      ]
-    },
-    {
-      "term_en": "artificial",
-      "term_ja": "人工的な",
-      "example_en": "I will use artificial in class.",
-      "example_ja": "授業で「artificial（人工的な）」を使います。",
-      "occurrences": [
-        {
-          "section_number": 3,
           "question_id": "vocabulary",
           "answer_number": null,
           "source": "vocabulary_seed"
@@ -416,20 +451,6 @@
         },
         {
           "section_number": 2,
-          "question_id": "vocabulary",
-          "answer_number": null,
-          "source": "vocabulary_seed"
-        }
-      ]
-    },
-    {
-      "term_en": "display",
-      "term_ja": "…を展示する",
-      "example_en": "I will use display in class.",
-      "example_ja": "授業で「display（…を展示する）」を使います。",
-      "occurrences": [
-        {
-          "section_number": 1,
           "question_id": "vocabulary",
           "answer_number": null,
           "source": "vocabulary_seed"
@@ -1757,1227 +1778,4326 @@
           "source": "vocabulary_seed"
         }
       ]
+    },
+    {
+      "term_en": "based on ...",
+      "term_ja": "〈表現〉…に基づいて",
+      "example_en": "I will use based on ... in class.",
+      "example_ja": "授業で「based on ...（〈表現〉…に基づいて）」を使います。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": "4A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "following",
+      "term_ja": "〈形〉次に来る；下記の",
+      "example_en": "I will use following in class.",
+      "example_ja": "授業で「following（〈形〉次に来る；下記の）」を使います。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": "4A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "questionnaire",
+      "term_ja": "〈名〉アンケート",
+      "example_en": "I will use questionnaire in class.",
+      "example_ja": "授業で「questionnaire（〈名〉アンケート）」を使います。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": "4A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "handout",
+      "term_ja": "〈名〉プリント；資料",
+      "example_en": "I will use handout in class.",
+      "example_ja": "授業で「handout（〈名〉プリント；資料）」を使います。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": "4A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "framework",
+      "term_ja": "〈名〉枠組み；フレームワーク",
+      "example_en": "I will use framework in class.",
+      "example_ja": "授業で「framework（〈名〉枠組み；フレームワーク）」を使います。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "aspect",
+      "term_ja": "〈名〉側面",
+      "example_en": "I will use aspect in class.",
+      "example_ja": "授業で「aspect（〈名〉側面）」を使います。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "complexity",
+      "term_ja": "〈名〉複雑さ",
+      "example_en": "I will use complexity in class.",
+      "example_ja": "授業で「complexity（〈名〉複雑さ）」を使います。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "have to do with ...",
+      "term_ja": "〈表現〉…と関係がある",
+      "example_en": "I will use have to do with ... in class.",
+      "example_ja": "授業で「have to do with ...（〈表現〉…と関係がある）」を使います。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "furnishings",
+      "term_ja": "〈名〉備え付け家具；備品",
+      "example_en": "I will use furnishings in class.",
+      "example_ja": "授業で「furnishings（〈名〉備え付け家具；備品）」を使います。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "uninteresting",
+      "term_ja": "〈形〉面白くない；退屈な",
+      "example_en": "I will use uninteresting in class.",
+      "example_ja": "授業で「uninteresting（〈形〉面白くない；退屈な）」を使います。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "on the other hand",
+      "term_ja": "〈接続〉他方；それに対して",
+      "example_en": "I will use on the other hand in class.",
+      "example_ja": "授業で「on the other hand（〈接続〉他方；それに対して）」を使います。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "in addition",
+      "term_ja": "〈接続〉加えて；さらに",
+      "example_en": "I will use in addition in class.",
+      "example_ja": "授業で「in addition（〈接続〉加えて；さらに）」を使います。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "visually",
+      "term_ja": "〈副〉視覚的に",
+      "example_en": "I will use visually in class.",
+      "example_ja": "授業で「visually（〈副〉視覚的に）」を使います。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "distracting",
+      "term_ja": "〈形〉気を散らせる",
+      "example_en": "I will use distracting in class.",
+      "example_ja": "授業で「distracting（〈形〉気を散らせる）」を使います。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "display",
+      "term_ja": "〈動〉…を展示［掲示］する",
+      "example_en": "I will use display in class.",
+      "example_ja": "授業で「display（〈動〉…を展示［掲示］する）」を使います。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "item",
+      "term_ja": "〈名〉項目；事項",
+      "example_en": "I will use item in class.",
+      "example_ja": "授業で「item（〈名〉項目；事項）」を使います。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "consideration",
+      "term_ja": "〈名〉考慮すべきこと",
+      "example_en": "I will use consideration in class.",
+      "example_ja": "授業で「consideration（〈名〉考慮すべきこと）」を使います。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "ownership",
+      "term_ja": "〈名〉所有（者であること）；オーナーシップ",
+      "example_en": "I will use ownership in class.",
+      "example_ja": "授業で「ownership（〈名〉所有（者であること）；オーナーシップ）」を使います。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "flexibility",
+      "term_ja": "〈名〉柔軟性；フレキシビリティ",
+      "example_en": "I will use flexibility in class.",
+      "example_ja": "授業で「flexibility（〈名〉柔軟性；フレキシビリティ）」を使います。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "refer to ...",
+      "term_ja": "〈表現〉…のことを言う；…を表す［示す］",
+      "example_en": "I will use refer to ... in class.",
+      "example_ja": "授業で「refer to ...（〈表現〉…のことを言う；…を表す［示す］）」を使います。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "personalized",
+      "term_ja": "〈形〉個人向けにした",
+      "example_en": "I will use personalized in class.",
+      "example_ja": "授業で「personalized（〈形〉個人向けにした）」を使います。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "suitable",
+      "term_ja": "〈形〉適した",
+      "example_en": "I will use suitable in class.",
+      "example_ja": "授業で「suitable（〈形〉適した）」を使います。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "storage space",
+      "term_ja": "〈名〉収納スペース",
+      "example_en": "I will use storage space in class.",
+      "example_ja": "授業で「storage space（〈名〉収納スペース）」を使います。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "allow for ...",
+      "term_ja": "〈表現〉…を考慮に入れる；…を可能にさせる",
+      "example_en": "I will use allow for ... in class.",
+      "example_ja": "授業で「allow for ...（〈表現〉…を考慮に入れる；…を可能にさせる）」を使います。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "relate to ...",
+      "term_ja": "〈表現〉…に関係がある",
+      "example_en": "I will use relate to ... in class.",
+      "example_ja": "授業で「relate to ...（〈表現〉…に関係がある）」を使います。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "quality",
+      "term_ja": "〈名〉質",
+      "example_en": "I will use quality in class.",
+      "example_ja": "授業で「quality（〈名〉質）」を使います。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "quantity",
+      "term_ja": "〈名〉量",
+      "example_en": "I will use quantity in class.",
+      "example_ja": "授業で「quantity（〈名〉量）」を使います。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "artificial",
+      "term_ja": "〈形〉人工の",
+      "example_en": "I will use artificial in class.",
+      "example_ja": "授業で「artificial（〈形〉人工の）」を使います。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "temperature",
+      "term_ja": "〈名〉温度",
+      "example_en": "I will use temperature in class.",
+      "example_ja": "授業で「temperature（〈名〉温度）」を使います。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "have difficulty -ing",
+      "term_ja": "〈表現〉－するのに苦労する",
+      "example_en": "I will use have difficulty -ing in class.",
+      "example_ja": "授業で「have difficulty -ing（〈表現〉－するのに苦労する）」を使います。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "lack",
+      "term_ja": "〈名〉不足；欠乏",
+      "example_en": "I will use lack in class.",
+      "example_ja": "授業で「lack（〈名〉不足；欠乏）」を使います。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "promote",
+      "term_ja": "〈動〉…を促進する",
+      "example_en": "I will use promote in class.",
+      "example_ja": "授業で「promote（〈動〉…を促進する）」を使います。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "effective",
+      "term_ja": "〈形〉効果的な",
+      "example_en": "I will use effective in class.",
+      "example_ja": "授業で「effective（〈形〉効果的な）」を使います。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "install",
+      "term_ja": "〈動〉…を取り付ける",
+      "example_en": "I will use install in class.",
+      "example_ja": "授業で「install（〈動〉…を取り付ける）」を使います。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "adjustment",
+      "term_ja": "〈名〉調節",
+      "example_en": "I will use adjustment in class.",
+      "example_ja": "授業で「adjustment（〈名〉調節）」を使います。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be familiar to ...",
+      "term_ja": "〈表現〉…に馴染みがある",
+      "example_en": "I will use be familiar to ... in class.",
+      "example_ja": "授業で「be familiar to ...（〈表現〉…に馴染みがある）」を使います。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "priority",
+      "term_ja": "〈名〉優先事項",
+      "example_en": "I will use priority in class.",
+      "example_ja": "授業で「priority（〈名〉優先事項）」を使います。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "component",
+      "term_ja": "〈名〉（構成）要素",
+      "example_en": "I will use component in class.",
+      "example_ja": "授業で「component（〈名〉（構成）要素）」を使います。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "equally",
+      "term_ja": "〈副〉同様に",
+      "example_en": "I will use equally in class.",
+      "example_ja": "授業で「equally（〈副〉同様に）」を使います。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "hopefully",
+      "term_ja": "〈副〉願わくば；できれば",
+      "example_en": "I will use hopefully in class.",
+      "example_ja": "授業で「hopefully（〈副〉願わくば；できれば）」を使います。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": "4B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "match",
+      "term_ja": "〈動〉…と合う",
+      "example_en": "I will use match in class.",
+      "example_ja": "授業で「match（〈動〉…と合う）」を使います。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "chat",
+      "term_ja": "〈動〉おしゃべりする",
+      "example_en": "I will use chat in class.",
+      "example_ja": "授業で「chat（〈動〉おしゃべりする）」を使います。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "check out",
+      "term_ja": "〈表現〉（本を）借りる",
+      "example_en": "I will use check out in class.",
+      "example_ja": "授業で「check out（〈表現〉（本を）借りる）」を使います。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "respondent",
+      "term_ja": "〈名〉回答者",
+      "example_en": "I will use respondent in class.",
+      "example_ja": "授業で「respondent（〈名〉回答者）」を使います。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "current",
+      "term_ja": "〈形〉現在の",
+      "example_en": "I will use current in class.",
+      "example_ja": "授業で「current（〈形〉現在の）」を使います。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "disorganized",
+      "term_ja": "〈形〉乱雑な",
+      "example_en": "I will use disorganized in class.",
+      "example_ja": "授業で「disorganized（〈形〉乱雑な）」を使います。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "uncomfortable",
+      "term_ja": "〈形〉心地よくない",
+      "example_en": "I will use uncomfortable in class.",
+      "example_ja": "授業で「uncomfortable（〈形〉心地よくない）」を使います。",
+      "flashcard_order": 46,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "hardly ever",
+      "term_ja": "〈表現〉めったに…しない",
+      "example_en": "I will use hardly ever in class.",
+      "example_ja": "授業で「hardly ever（〈表現〉めったに…しない）」を使います。",
+      "flashcard_order": 47,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "available",
+      "term_ja": "〈形〉利用可能な",
+      "example_en": "I will use available in class.",
+      "example_ja": "授業で「available（〈形〉利用可能な）」を使います。",
+      "flashcard_order": 48,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "phrase",
+      "term_ja": "〈名〉言い回し；表現",
+      "example_en": "I will use phrase in class.",
+      "example_ja": "授業で「phrase（〈名〉言い回し；表現）」を使います。",
+      "flashcard_order": 49,
+      "occurrences": [
+        {
+          "section_number": "4C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "improvement",
+      "term_ja": "〈名〉改善",
+      "example_en": "I will use improvement in class.",
+      "example_ja": "授業で「improvement（〈名〉改善）」を使います。",
+      "flashcard_order": 50,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "recommendation",
+      "term_ja": "〈名〉勧め；提案",
+      "example_en": "I will use recommendation in class.",
+      "example_ja": "授業で「recommendation（〈名〉勧め；提案）」を使います。",
+      "flashcard_order": 51,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "cover A with B",
+      "term_ja": "〈表現〉AをBでおおう",
+      "example_en": "I will use cover A with B in class.",
+      "example_ja": "授業で「cover A with B（〈表現〉AをBでおおう）」を使います。",
+      "flashcard_order": 52,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "rug",
+      "term_ja": "〈名〉じゅうたん",
+      "example_en": "I will use rug in class.",
+      "example_ja": "授業で「rug（〈名〉じゅうたん）」を使います。",
+      "flashcard_order": 53,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "replace",
+      "term_ja": "〈動〉…を取り替える",
+      "example_en": "I will use replace in class.",
+      "example_ja": "授業で「replace（〈動〉…を取り替える）」を使います。",
+      "flashcard_order": 54,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "place",
+      "term_ja": "〈動〉…を置く",
+      "example_en": "I will use place in class.",
+      "example_ja": "授業で「place（〈動〉…を置く）」を使います。",
+      "flashcard_order": 55,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "issue",
+      "term_ja": "〈名〉問題",
+      "example_en": "I will use issue in class.",
+      "example_ja": "授業で「issue（〈名〉問題）」を使います。",
+      "flashcard_order": 56,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "majority",
+      "term_ja": "〈名〉大多数",
+      "example_en": "I will use majority in class.",
+      "example_ja": "授業で「majority（〈名〉大多数）」を使います。",
+      "flashcard_order": 57,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "mention",
+      "term_ja": "〈動〉…を話に出す；…に触れる",
+      "example_en": "I will use mention in class.",
+      "example_ja": "授業で「mention（〈動〉…を話に出す；…に触れる）」を使います。",
+      "flashcard_order": 58,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "motivate O to -",
+      "term_ja": "〈表現〉Oを励まして－させる",
+      "example_en": "I will use motivate O to - in class.",
+      "example_ja": "授業で「motivate O to -（〈表現〉Oを励まして－させる）」を使います。",
+      "flashcard_order": 59,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "location",
+      "term_ja": "〈名〉位置；所在地",
+      "example_en": "I will use location in class.",
+      "example_ja": "授業で「location（〈名〉位置；所在地）」を使います。",
+      "flashcard_order": 60,
+      "occurrences": [
+        {
+          "section_number": "4D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section4_official"
+        }
+      ]
+    },
+    {
+      "term_en": "family business",
+      "term_ja": "〈名〉家族経営の事業；家業",
+      "example_en": "I will use family business in class.",
+      "example_ja": "授業で「family business（〈名〉家族経営の事業；家業）」を使います。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": "5A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "recover",
+      "term_ja": "〈動〉回復する",
+      "example_en": "I will use recover in class.",
+      "example_ja": "授業で「recover（〈動〉回復する）」を使います。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": "5A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "eventually",
+      "term_ja": "〈副〉結局；ついに",
+      "example_en": "I will use eventually in class.",
+      "example_ja": "授業で「eventually（〈副〉結局；ついに）」を使います。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": "5A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "retire",
+      "term_ja": "〈動〉引退する；身を引く",
+      "example_en": "I will use retire in class.",
+      "example_ja": "授業で「retire（〈動〉引退する；身を引く）」を使います。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": "5A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "regular customer",
+      "term_ja": "〈名〉常連客",
+      "example_en": "I will use regular customer in class.",
+      "example_ja": "授業で「regular customer（〈名〉常連客）」を使います。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": "5A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "occasionally",
+      "term_ja": "〈副〉時折",
+      "example_en": "I will use occasionally in class.",
+      "example_ja": "授業で「occasionally（〈副〉時折）」を使います。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": "5A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "daydream",
+      "term_ja": "〈動〉空想する",
+      "example_en": "I will use daydream in class.",
+      "example_ja": "授業で「daydream（〈動〉空想する）」を使います。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": "5A",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "vibrate",
+      "term_ja": "〈動〉振動する",
+      "example_en": "I will use vibrate in class.",
+      "example_ja": "授業で「vibrate（〈動〉振動する）」を使います。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": "5B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "Congratulations!",
+      "term_ja": "〈表現〉おめでとう",
+      "example_en": "I will use Congratulations! in class.",
+      "example_ja": "授業で「Congratulations!（〈表現〉おめでとう）」を使います。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": "5B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "reunion",
+      "term_ja": "〈名〉同窓会",
+      "example_en": "I will use reunion in class.",
+      "example_ja": "授業で「reunion（〈名〉同窓会）」を使います。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": "5B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "make it",
+      "term_ja": "〈表現〉出席する；来る",
+      "example_en": "I will use make it in class.",
+      "example_ja": "授業で「make it（〈表現〉出席する；来る）」を使います。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": "5B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "graduate",
+      "term_ja": "〈動〉卒業する",
+      "example_en": "I will use graduate in class.",
+      "example_ja": "授業で「graduate（〈動〉卒業する）」を使います。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": "5B",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "shortly before ...",
+      "term_ja": "〈表現〉…する少し前に",
+      "example_en": "I will use shortly before ... in class.",
+      "example_ja": "授業で「shortly before ...（〈表現〉…する少し前に）」を使います。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "drama club",
+      "term_ja": "〈名〉演劇部",
+      "example_en": "I will use drama club in class.",
+      "example_ja": "授業で「drama club（〈名〉演劇部）」を使います。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "inseparable",
+      "term_ja": "〈形〉離れていられない",
+      "example_en": "I will use inseparable in class.",
+      "example_ja": "授業で「inseparable（〈形〉離れていられない）」を使います。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "enroll in ...",
+      "term_ja": "〈表現〉…に入学する",
+      "example_en": "I will use enroll in ... in class.",
+      "example_ja": "授業で「enroll in ...（〈表現〉…に入学する）」を使います。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "preparatory school",
+      "term_ja": "〈名〉予備校",
+      "example_en": "I will use preparatory school in class.",
+      "example_ja": "授業で「preparatory school（〈名〉予備校）」を使います。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "on the other hand",
+      "term_ja": "〈接続〉他方",
+      "example_en": "I will use on the other hand in class.",
+      "example_ja": "授業で「on the other hand（〈接続〉他方）」を使います。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "career",
+      "term_ja": "〈名〉仕事",
+      "example_en": "I will use career in class.",
+      "example_ja": "授業で「career（〈名〉仕事）」を使います。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "try out for ...",
+      "term_ja": "〈表現〉…の選考試験を受ける",
+      "example_en": "I will use try out for ... in class.",
+      "example_ja": "授業で「try out for ...（〈表現〉…の選考試験を受ける）」を使います。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "acting role",
+      "term_ja": "〈名〉芝居の役",
+      "example_en": "I will use acting role in class.",
+      "example_ja": "授業で「acting role（〈名〉芝居の役）」を使います。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "reject",
+      "term_ja": "〈動〉…を却下する",
+      "example_en": "I will use reject in class.",
+      "example_ja": "授業で「reject（〈動〉…を却下する）」を使います。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "offer one's sympathy",
+      "term_ja": "〈表現〉同情の気持ちを表す",
+      "example_en": "I will use offer one's sympathy in class.",
+      "example_ja": "授業で「offer one's sympathy（〈表現〉同情の気持ちを表す）」を使います。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "abandon",
+      "term_ja": "〈動〉…を捨てる",
+      "example_en": "I will use abandon in class.",
+      "example_ja": "授業で「abandon（〈動〉…を捨てる）」を使います。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "cannot resist -ing",
+      "term_ja": "〈表現〉－することを我慢できない",
+      "example_en": "I will use cannot resist -ing in class.",
+      "example_ja": "授業で「cannot resist -ing（〈表現〉－することを我慢できない）」を使います。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "serve",
+      "term_ja": "〈動〉〈飲食物を〉出す",
+      "example_en": "I will use serve in class.",
+      "example_ja": "授業で「serve（〈動〉〈飲食物を〉出す）」を使います。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "bold",
+      "term_ja": "〈形〉はっきりした；強い",
+      "example_en": "I will use bold in class.",
+      "example_ja": "授業で「bold（〈形〉はっきりした；強い）」を使います。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "flavor",
+      "term_ja": "〈名〉風味",
+      "example_en": "I will use flavor in class.",
+      "example_ja": "授業で「flavor（〈名〉風味）」を使います。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "recommend",
+      "term_ja": "〈動〉…を勧める",
+      "example_en": "I will use recommend in class.",
+      "example_ja": "授業で「recommend（〈動〉…を勧める）」を使います。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "brand",
+      "term_ja": "〈名〉銘柄",
+      "example_en": "I will use brand in class.",
+      "example_ja": "授業で「brand（〈名〉銘柄）」を使います。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "help-wanted",
+      "term_ja": "〈形〉求人広告の",
+      "example_en": "I will use help-wanted in class.",
+      "example_ja": "授業で「help-wanted（〈形〉求人広告の）」を使います。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "apply",
+      "term_ja": "〈動〉応募する",
+      "example_en": "I will use apply in class.",
+      "example_ja": "授業で「apply（〈動〉応募する）」を使います。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "hire",
+      "term_ja": "〈動〉…を雇う",
+      "example_en": "I will use hire in class.",
+      "example_ja": "授業で「hire（〈動〉…を雇う）」を使います。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "become fascinated by ...",
+      "term_ja": "〈表現〉…に魅了される",
+      "example_en": "I will use become fascinated by ... in class.",
+      "example_ja": "授業で「become fascinated by ...（〈表現〉…に魅了される）」を使います。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "anniversary",
+      "term_ja": "〈名〉記念日",
+      "example_en": "I will use anniversary in class.",
+      "example_ja": "授業で「anniversary（〈名〉記念日）」を使います。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "employment",
+      "term_ja": "〈名〉雇用",
+      "example_en": "I will use employment in class.",
+      "example_ja": "授業で「employment（〈名〉雇用）」を使います。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "have something to do with ...",
+      "term_ja": "〈表現〉…と関係がある",
+      "example_en": "I will use have something to do with ... in class.",
+      "example_ja": "授業で「have something to do with ...（〈表現〉…と関係がある）」を使います。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "What are you waiting for?",
+      "term_ja": "〈表現〉何をぐずぐずしているの；さっさと始めたら",
+      "example_en": "I will use What are you waiting for? in class.",
+      "example_ja": "授業で「What are you waiting for?（〈表現〉何をぐずぐずしているの；さっさと始めたら）」を使います。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": "5C",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "encouragement",
+      "term_ja": "〈名〉励まし",
+      "example_en": "I will use encouragement in class.",
+      "example_ja": "授業で「encouragement（〈名〉励まし）」を使います。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": "5D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "inspire",
+      "term_ja": "〈動〉…を鼓舞する",
+      "example_en": "I will use inspire in class.",
+      "example_ja": "授業で「inspire（〈動〉…を鼓舞する）」を使います。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": "5D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "roaster",
+      "term_ja": "〈名〉焙煎機",
+      "example_en": "I will use roaster in class.",
+      "example_ja": "授業で「roaster（〈名〉焙煎機）」を使います。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": "5D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "proudly",
+      "term_ja": "〈副〉誇りを持って",
+      "example_en": "I will use proudly in class.",
+      "example_ja": "授業で「proudly（〈副〉誇りを持って）」を使います。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": "5D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "publicity",
+      "term_ja": "〈名〉広告；宣伝",
+      "example_en": "I will use publicity in class.",
+      "example_ja": "授業で「publicity（〈名〉広告；宣伝）」を使います。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": "5D",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "headline",
+      "term_ja": "〈名〉見出し",
+      "example_en": "I will use headline in class.",
+      "example_ja": "授業で「headline（〈名〉見出し）」を使います。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "reflect on ...",
+      "term_ja": "〈表現〉…を熟考する",
+      "example_en": "I will use reflect on ... in class.",
+      "example_ja": "授業で「reflect on ...（〈表現〉…を熟考する）」を使います。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "make-up",
+      "term_ja": "〈名〉化粧（品）",
+      "example_en": "I will use make-up in class.",
+      "example_ja": "授業で「make-up（〈名〉化粧（品））」を使います。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "cosmetics",
+      "term_ja": "〈名〉化粧品",
+      "example_en": "I will use cosmetics in class.",
+      "example_ja": "授業で「cosmetics（〈名〉化粧品）」を使います。",
+      "flashcard_order": 46,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "advertise for ...",
+      "term_ja": "〈表現〉…を求めて広告を出す",
+      "example_en": "I will use advertise for ... in class.",
+      "example_ja": "授業で「advertise for ...（〈表現〉…を求めて広告を出す）」を使います。",
+      "flashcard_order": 47,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "employee",
+      "term_ja": "〈名〉社員；従業員",
+      "example_en": "I will use employee in class.",
+      "example_ja": "授業で「employee（〈名〉社員；従業員）」を使います。",
+      "flashcard_order": 48,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "tough",
+      "term_ja": "〈形〉難しい；つらい",
+      "example_en": "I will use tough in class.",
+      "example_ja": "授業で「tough（〈形〉難しい；つらい）」を使います。",
+      "flashcard_order": 49,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "door to door",
+      "term_ja": "〈表現〉家から家へ；戸別に",
+      "example_en": "I will use door to door in class.",
+      "example_ja": "授業で「door to door（〈表現〉家から家へ；戸別に）」を使います。",
+      "flashcard_order": 50,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "lift her spirits",
+      "term_ja": "〈表現〉彼女を元気づける",
+      "example_en": "I will use lift her spirits in class.",
+      "example_ja": "授業で「lift her spirits（〈表現〉彼女を元気づける）」を使います。",
+      "flashcard_order": 51,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "workshop",
+      "term_ja": "〈名〉講習会",
+      "example_en": "I will use workshop in class.",
+      "example_ja": "授業で「workshop（〈名〉講習会）」を使います。",
+      "flashcard_order": 52,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be suited for ...",
+      "term_ja": "〈表現〉…に適している",
+      "example_en": "I will use be suited for ... in class.",
+      "example_ja": "授業で「be suited for ...（〈表現〉…に適している）」を使います。",
+      "flashcard_order": 53,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "promote",
+      "term_ja": "〈動〉…を昇進させる",
+      "example_en": "I will use promote in class.",
+      "example_ja": "授業で「promote（〈動〉…を昇進させる）」を使います。",
+      "flashcard_order": 54,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "steadily",
+      "term_ja": "〈副〉着実に",
+      "example_en": "I will use steadily in class.",
+      "example_ja": "授業で「steadily（〈副〉着実に）」を使います。",
+      "flashcard_order": 55,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "climb one's way up the company ladder",
+      "term_ja": "〈表現〉会社の出世の階段を登る",
+      "example_en": "I will use climb one's way up the company ladder in class.",
+      "example_ja": "授業で「climb one's way up the company ladder（〈表現〉会社の出世の階段を登る）」を使います。",
+      "flashcard_order": 56,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "vice-president",
+      "term_ja": "〈名〉副社長",
+      "example_en": "I will use vice-president in class.",
+      "example_ja": "授業で「vice-president（〈名〉副社長）」を使います。",
+      "flashcard_order": 57,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "struggle",
+      "term_ja": "〈動〉格闘する；もがく",
+      "example_en": "I will use struggle in class.",
+      "example_ja": "授業で「struggle（〈動〉格闘する；もがく）」を使います。",
+      "flashcard_order": 58,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be absorbed",
+      "term_ja": "〈表現〉熱中している",
+      "example_en": "I will use be absorbed in class.",
+      "example_ja": "授業で「be absorbed（〈表現〉熱中している）」を使います。",
+      "flashcard_order": 59,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "glance",
+      "term_ja": "〈動〉ちらっと見る",
+      "example_en": "I will use glance in class.",
+      "example_ja": "授業で「glance（〈動〉ちらっと見る）」を使います。",
+      "flashcard_order": 60,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "article",
+      "term_ja": "〈名〉記事",
+      "example_en": "I will use article in class.",
+      "example_ja": "授業で「article（〈名〉記事）」を使います。",
+      "flashcard_order": 61,
+      "occurrences": [
+        {
+          "section_number": "5E",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "in ages",
+      "term_ja": "〈表現〉長い間",
+      "example_en": "I will use in ages in class.",
+      "example_ja": "授業で「in ages（〈表現〉長い間）」を使います。",
+      "flashcard_order": 62,
+      "occurrences": [
+        {
+          "section_number": "5F",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "Same here.",
+      "term_ja": "〈表現〉私も同じだ",
+      "example_en": "I will use Same here. in class.",
+      "example_ja": "授業で「Same here.（〈表現〉私も同じだ）」を使います。",
+      "flashcard_order": 63,
+      "occurrences": [
+        {
+          "section_number": "5F",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "pity",
+      "term_ja": "〈名〉残念なこと",
+      "example_en": "I will use pity in class.",
+      "example_ja": "授業で「pity（〈名〉残念なこと）」を使います。",
+      "flashcard_order": 64,
+      "occurrences": [
+        {
+          "section_number": "5F",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "wordlessly",
+      "term_ja": "〈副〉言葉を用いずに",
+      "example_en": "I will use wordlessly in class.",
+      "example_ja": "授業で「wordlessly（〈副〉言葉を用いずに）」を使います。",
+      "flashcard_order": 65,
+      "occurrences": [
+        {
+          "section_number": "5F",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "guilt",
+      "term_ja": "〈名〉罪悪感；うしろめたさ",
+      "example_en": "I will use guilt in class.",
+      "example_ja": "授業で「guilt（〈名〉罪悪感；うしろめたさ）」を使います。",
+      "flashcard_order": 66,
+      "occurrences": [
+        {
+          "section_number": "5F",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "payback",
+      "term_ja": "〈名〉お返し；仕返し",
+      "example_en": "I will use payback in class.",
+      "example_ja": "授業で「payback（〈名〉お返し；仕返し）」を使います。",
+      "flashcard_order": 67,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "incredibly",
+      "term_ja": "〈副〉信じられないくらい",
+      "example_en": "I will use incredibly in class.",
+      "example_ja": "授業で「incredibly（〈副〉信じられないくらい）」を使います。",
+      "flashcard_order": 68,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "identify",
+      "term_ja": "〈動〉…を特定する",
+      "example_en": "I will use identify in class.",
+      "example_ja": "授業で「identify（〈動〉…を特定する）」を使います。",
+      "flashcard_order": 69,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "strength",
+      "term_ja": "〈名〉強み；長所",
+      "example_en": "I will use strength in class.",
+      "example_ja": "授業で「strength（〈名〉強み；長所）」を使います。",
+      "flashcard_order": 70,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "make use of ...",
+      "term_ja": "〈表現〉…を利用［活用］する",
+      "example_en": "I will use make use of ... in class.",
+      "example_ja": "授業で「make use of ...（〈表現〉…を利用［活用］する）」を使います。",
+      "flashcard_order": 71,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "proof",
+      "term_ja": "〈名〉証拠",
+      "example_en": "I will use proof in class.",
+      "example_ja": "授業で「proof（〈名〉証拠）」を使います。",
+      "flashcard_order": 72,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "gift",
+      "term_ja": "〈名〉（天賦の）才能",
+      "example_en": "I will use gift in class.",
+      "example_ja": "授業で「gift（〈名〉（天賦の）才能）」を使います。",
+      "flashcard_order": 73,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "irony",
+      "term_ja": "〈名〉皮肉",
+      "example_en": "I will use irony in class.",
+      "example_ja": "授業で「irony（〈名〉皮肉）」を使います。",
+      "flashcard_order": 74,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "ideal",
+      "term_ja": "〈形〉理想的な",
+      "example_en": "I will use ideal in class.",
+      "example_ja": "授業で「ideal（〈形〉理想的な）」を使います。",
+      "flashcard_order": 75,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "degree",
+      "term_ja": "〈名〉学位",
+      "example_en": "I will use degree in class.",
+      "example_ja": "授業で「degree（〈名〉学位）」を使います。",
+      "flashcard_order": 76,
+      "occurrences": [
+        {
+          "section_number": "5G",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section5_official"
+        }
+      ]
+    },
+    {
+      "term_en": "come to mind",
+      "term_ja": "〈表現〉思い浮かぶ",
+      "example_en": "I will use come to mind in class.",
+      "example_ja": "授業で「come to mind（〈表現〉思い浮かぶ）」を使います。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "philosopher",
+      "term_ja": "〈名〉哲学者",
+      "example_en": "I will use philosopher in class.",
+      "example_ja": "授業で「philosopher（〈名〉哲学者）」を使います。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "measure",
+      "term_ja": "〈動〉…を測定する",
+      "example_en": "I will use measure in class.",
+      "example_ja": "授業で「measure（〈動〉…を測定する）」を使います。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "known",
+      "term_ja": "〈形〉既知の",
+      "example_en": "I will use known in class.",
+      "example_ja": "授業で「known（〈形〉既知の）」を使います。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "biological",
+      "term_ja": "〈形〉生物学的な",
+      "example_en": "I will use biological in class.",
+      "example_ja": "授業で「biological（〈形〉生物学的な）」を使います。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "mental process",
+      "term_ja": "〈名〉心理作用；精神過程",
+      "example_en": "I will use mental process in class.",
+      "example_ja": "授業で「mental process（〈名〉心理作用；精神過程）」を使います。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "instead",
+      "term_ja": "〈副〉代わりに",
+      "example_en": "I will use instead in class.",
+      "example_ja": "授業で「instead（〈副〉代わりに）」を使います。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "psychological",
+      "term_ja": "〈形〉心理的な",
+      "example_en": "I will use psychological in class.",
+      "example_ja": "授業で「psychological（〈形〉心理的な）」を使います。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "perceive",
+      "term_ja": "〈動〉知覚する",
+      "example_en": "I will use perceive in class.",
+      "example_ja": "授業で「perceive（〈動〉知覚する）」を使います。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": "6Aa",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "estimate",
+      "term_ja": "〈名・動〉見積もり；…を見積もる",
+      "example_en": "I will use estimate in class.",
+      "example_ja": "授業で「estimate（〈名・動〉見積もり；…を見積もる）」を使います。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": "6Ab",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "participant",
+      "term_ja": "〈名〉参加者",
+      "example_en": "I will use participant in class.",
+      "example_ja": "授業で「participant（〈名〉参加者）」を使います。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": "6Ab",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "fixed",
+      "term_ja": "〈形〉一定の",
+      "example_en": "I will use fixed in class.",
+      "example_ja": "授業で「fixed（〈形〉一定の）」を使います。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": "6Ab",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "memorize",
+      "term_ja": "〈動〉…を記憶する",
+      "example_en": "I will use memorize in class.",
+      "example_ja": "授業で「memorize（〈動〉…を記憶する）」を使います。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": "6Ab",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "afterwards",
+      "term_ja": "〈副〉後になって",
+      "example_en": "I will use afterwards in class.",
+      "example_ja": "授業で「afterwards（〈副〉後になって）」を使います。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": "6Ab",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "based on ...",
+      "term_ja": "〈表現〉…に基づいて",
+      "example_en": "I will use based on ... in class.",
+      "example_ja": "授業で「based on ...（〈表現〉…に基づいて）」を使います。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": "6Ab",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "retrieve",
+      "term_ja": "〈動〉取り戻す；回収する",
+      "example_en": "I will use retrieve in class.",
+      "example_ja": "授業で「retrieve（〈動〉取り戻す；回収する）」を使います。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": "6Ab",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "the opposite",
+      "term_ja": "〈名〉正反対のこと",
+      "example_en": "I will use the opposite in class.",
+      "example_ja": "授業で「the opposite（〈名〉正反対のこと）」を使います。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": "6Ab",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "actively",
+      "term_ja": "〈副〉積極的に；能動的に",
+      "example_en": "I will use actively in class.",
+      "example_ja": "授業で「actively（〈副〉積極的に；能動的に）」を使います。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": "6Ac",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "keep track of ...",
+      "term_ja": "〈表現〉…の経過を追う；…の記録をつける",
+      "example_en": "I will use keep track of ... in class.",
+      "example_ja": "授業で「keep track of ...（〈表現〉…の経過を追う；…の記録をつける）」を使います。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": "6Ac",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "instead of ...",
+      "term_ja": "〈表現〉…の代わりに",
+      "example_en": "I will use instead of ... in class.",
+      "example_ja": "授業で「instead of ...（〈表現〉…の代わりに）」を使います。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": "6Ac",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "recall",
+      "term_ja": "〈動〉…を思い出す",
+      "example_en": "I will use recall in class.",
+      "example_ja": "授業で「recall（〈動〉…を思い出す）」を使います。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": "6Ac",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "perform",
+      "term_ja": "〈動〉…を遂行する",
+      "example_en": "I will use perform in class.",
+      "example_ja": "授業で「perform（〈動〉…を遂行する）」を使います。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": "6Ac",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "complete",
+      "term_ja": "〈動〉…を完成する",
+      "example_en": "I will use complete in class.",
+      "example_ja": "授業で「complete（〈動〉…を完成する）」を使います。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": "6Ac",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "challenging",
+      "term_ja": "〈形〉やりがいのある；きつい",
+      "example_en": "I will use challenging in class.",
+      "example_ja": "授業で「challenging（〈形〉やりがいのある；きつい）」を使います。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": "6Ac",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "focus",
+      "term_ja": "〈名〉焦点；集中",
+      "example_en": "I will use focus in class.",
+      "example_ja": "授業で「focus（〈名〉焦点；集中）」を使います。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": "6Ac",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "emotional",
+      "term_ja": "〈形〉感情の",
+      "example_en": "I will use emotional in class.",
+      "example_ja": "授業で「emotional（〈形〉感情の）」を使います。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "state",
+      "term_ja": "〈名〉状態",
+      "example_en": "I will use state in class.",
+      "example_ja": "授業で「state（〈名〉状態）」を使います。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "influence",
+      "term_ja": "〈動〉…に影響を及ぼす",
+      "example_en": "I will use influence in class.",
+      "example_ja": "授業で「influence（〈動〉…に影響を及ぼす）」を使います。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "awareness",
+      "term_ja": "〈名〉意識；認識",
+      "example_en": "I will use awareness in class.",
+      "example_ja": "授業で「awareness（〈名〉意識；認識）」を使います。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "pass by",
+      "term_ja": "〈表現〉過ぎ去る",
+      "example_en": "I will use pass by in class.",
+      "example_ja": "授業で「pass by（〈表現〉過ぎ去る）」を使います。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "in what seemed to be the blink of an eye",
+      "term_ja": "〈表現〉目の瞬き［一瞬］と思える（短い）時間のうちに",
+      "example_en": "I will use in what seemed to be the blink of an eye in class.",
+      "example_ja": "授業で「in what seemed to be the blink of an eye（〈表現〉目の瞬き［一瞬］と思える（短い）時間のうちに）」を使います。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be focused on ...",
+      "term_ja": "〈表現〉…に集中している",
+      "example_en": "I will use be focused on ... in class.",
+      "example_ja": "授業で「be focused on ...（〈表現〉…に集中している）」を使います。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "wait for O to-",
+      "term_ja": "〈表現〉Oが-するのを待つ",
+      "example_en": "I will use wait for O to- in class.",
+      "example_ja": "授業で「wait for O to-（〈表現〉Oが-するのを待つ）」を使います。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "boredom",
+      "term_ja": "〈名〉退屈",
+      "example_en": "I will use boredom in class.",
+      "example_ja": "授業で「boredom（〈名〉退屈）」を使います。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "affect",
+      "term_ja": "〈動〉…に影響する",
+      "example_en": "I will use affect in class.",
+      "example_ja": "授業で「affect（〈動〉…に影響する）」を使います。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "perception",
+      "term_ja": "〈名〉知覚",
+      "example_en": "I will use perception in class.",
+      "example_ja": "授業で「perception（〈名〉知覚）」を使います。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "unpleasant",
+      "term_ja": "〈形〉不快な",
+      "example_en": "I will use unpleasant in class.",
+      "example_ja": "授業で「unpleasant（〈形〉不快な）」を使います。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "perceive O to be ...",
+      "term_ja": "〈表現〉Oが…であるのに気づく",
+      "example_en": "I will use perceive O to be ... in class.",
+      "example_ja": "授業で「perceive O to be ...（〈表現〉Oが…であるのに気づく）」を使います。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "in reality",
+      "term_ja": "〈表現〉実際に",
+      "example_en": "I will use in reality in class.",
+      "example_ja": "授業で「in reality（〈表現〉実際に）」を使います。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": "6Ad",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "constantly",
+      "term_ja": "〈副〉絶えず",
+      "example_en": "I will use constantly in class.",
+      "example_ja": "授業で「constantly（〈副〉絶えず）」を使います。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "encounter",
+      "term_ja": "〈動〉…に遭遇する",
+      "example_en": "I will use encounter in class.",
+      "example_ja": "授業で「encounter（〈動〉…に遭遇する）」を使います。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "memorable",
+      "term_ja": "〈形〉記憶に残る",
+      "example_en": "I will use memorable in class.",
+      "example_ja": "授業で「memorable（〈形〉記憶に残る）」を使います。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "creep by",
+      "term_ja": "〈表現〉徐々に過ぎる",
+      "example_en": "I will use creep by in class.",
+      "example_ja": "授業で「creep by（〈表現〉徐々に過ぎる）」を使います。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "anticipate",
+      "term_ja": "〈動〉…を予期する；心待ちにする",
+      "example_en": "I will use anticipate in class.",
+      "example_ja": "授業で「anticipate（〈動〉…を予期する；心待ちにする）」を使います。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "upcoming",
+      "term_ja": "〈形〉まもなくやって来る",
+      "example_en": "I will use upcoming in class.",
+      "example_ja": "授業で「upcoming（〈形〉まもなくやって来る）」を使います。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "rarely",
+      "term_ja": "〈副〉めったに…しない",
+      "example_en": "I will use rarely in class.",
+      "example_ja": "授業で「rarely（〈副〉めったに…しない）」を使います。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "frequent",
+      "term_ja": "〈形〉頻繁に起こる",
+      "example_en": "I will use frequent in class.",
+      "example_ja": "授業で「frequent（〈形〉頻繁に起こる）」を使います。",
+      "flashcard_order": 46,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be the case",
+      "term_ja": "〈表現〉真相［事実］である",
+      "example_en": "I will use be the case in class.",
+      "example_ja": "授業で「be the case（〈表現〉真相［事実］である）」を使います。",
+      "flashcard_order": 47,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "routine",
+      "term_ja": "〈名〉決まってすること",
+      "example_en": "I will use routine in class.",
+      "example_ja": "授業で「routine（〈名〉決まってすること）」を使います。",
+      "flashcard_order": 48,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "shake up",
+      "term_ja": "〈表現〉再編［刷新］する",
+      "example_en": "I will use shake up in class.",
+      "example_ja": "授業で「shake up（〈表現〉再編［刷新］する）」を使います。",
+      "flashcard_order": 49,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "drastic",
+      "term_ja": "〈形〉徹底的な",
+      "example_en": "I will use drastic in class.",
+      "example_ja": "授業で「drastic（〈形〉徹底的な）」を使います。",
+      "flashcard_order": 50,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "relocate",
+      "term_ja": "〈動〉（新しい場所に）移転［移住］する",
+      "example_en": "I will use relocate in class.",
+      "example_ja": "授業で「relocate（〈動〉（新しい場所に）移転［移住］する）」を使います。",
+      "flashcard_order": 51,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "passage",
+      "term_ja": "〈名〉（時の）経過",
+      "example_en": "I will use passage in class.",
+      "example_ja": "授業で「passage（〈名〉（時の）経過）」を使います。",
+      "flashcard_order": 52,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "generally speaking",
+      "term_ja": "〈表現〉一般的に言って",
+      "example_en": "I will use generally speaking in class.",
+      "example_ja": "授業で「generally speaking（〈表現〉一般的に言って）」を使います。",
+      "flashcard_order": 53,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "accelerate",
+      "term_ja": "〈動〉加速する",
+      "example_en": "I will use accelerate in class.",
+      "example_ja": "授業で「accelerate（〈動〉加速する）」を使います。",
+      "flashcard_order": 54,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "mature",
+      "term_ja": "〈動〉成長する；大人になる",
+      "example_en": "I will use mature in class.",
+      "example_ja": "授業で「mature（〈動〉成長する；大人になる）」を使います。",
+      "flashcard_order": 55,
+      "occurrences": [
+        {
+          "section_number": "6Ae",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "knowledge",
+      "term_ja": "〈名〉知識",
+      "example_en": "I will use knowledge in class.",
+      "example_ja": "授業で「knowledge（〈名〉知識）」を使います。",
+      "flashcard_order": 56,
+      "occurrences": [
+        {
+          "section_number": "6Af",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "deal with ...",
+      "term_ja": "〈表現〉…を扱う［処理する］",
+      "example_en": "I will use deal with ... in class.",
+      "example_ja": "授業で「deal with ...（〈表現〉…を扱う［処理する］）」を使います。",
+      "flashcard_order": 57,
+      "occurrences": [
+        {
+          "section_number": "6Af",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "engaging",
+      "term_ja": "〈形〉興味をそそる",
+      "example_en": "I will use engaging in class.",
+      "example_ja": "授業で「engaging（〈形〉興味をそそる）」を使います。",
+      "flashcard_order": 58,
+      "occurrences": [
+        {
+          "section_number": "6Af",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "ease",
+      "term_ja": "〈動〉…を和らげる",
+      "example_en": "I will use ease in class.",
+      "example_ja": "授業で「ease（〈動〉…を和らげる）」を使います。",
+      "flashcard_order": 59,
+      "occurrences": [
+        {
+          "section_number": "6Af",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "occasion",
+      "term_ja": "〈名〉時；場合",
+      "example_en": "I will use occasion in class.",
+      "example_ja": "授業で「occasion（〈名〉時；場合）」を使います。",
+      "flashcard_order": 60,
+      "occurrences": [
+        {
+          "section_number": "6Af",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be reminded of ...",
+      "term_ja": "〈表現〉…が思い出される",
+      "example_en": "I will use be reminded of ... in class.",
+      "example_ja": "授業で「be reminded of ...（〈表現〉…が思い出される）」を使います。",
+      "flashcard_order": 61,
+      "occurrences": [
+        {
+          "section_number": "6Af",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6a_official"
+        }
+      ]
+    },
+    {
+      "term_en": "touch",
+      "term_ja": "〈名〉ちょっと手を加えること",
+      "example_en": "I will use touch in class.",
+      "example_ja": "授業で「touch（〈名〉ちょっと手を加えること）」を使います。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": "6Ba",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "bite into ...",
+      "term_ja": "〈表現〉…をかじる",
+      "example_en": "I will use bite into ... in class.",
+      "example_ja": "授業で「bite into ...（〈表現〉…をかじる）」を使います。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": "6Ba",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "burn",
+      "term_ja": "〈動〉ヒリヒリする",
+      "example_en": "I will use burn in class.",
+      "example_ja": "授業で「burn（〈動〉ヒリヒリする）」を使います。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": "6Ba",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "on fire",
+      "term_ja": "〈表現〉火がついて",
+      "example_en": "I will use on fire in class.",
+      "example_ja": "授業で「on fire（〈表現〉火がついて）」を使います。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": "6Ba",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "sensation",
+      "term_ja": "〈名〉感覚；感じ",
+      "example_en": "I will use sensation in class.",
+      "example_ja": "授業で「sensation（〈名〉感覚；感じ）」を使います。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": "6Ba",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "at the same time",
+      "term_ja": "〈表現〉同時に；その反面",
+      "example_en": "I will use at the same time in class.",
+      "example_ja": "授業で「at the same time（〈表現〉同時に；その反面）」を使います。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": "6Ba",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "spiciness / spicy",
+      "term_ja": "〈名・形〉香辛料のきいた；ピリッとした",
+      "example_en": "I will use spiciness / spicy in class.",
+      "example_ja": "授業で「spiciness / spicy（〈名・形〉香辛料のきいた；ピリッとした）」を使います。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": "6Ba",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "unlike",
+      "term_ja": "〈前〉…とは違って",
+      "example_en": "I will use unlike in class.",
+      "example_ja": "授業で「unlike（〈前〉…とは違って）」を使います。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "saltiness / salty",
+      "term_ja": "〈名・形〉塩気のある；塩辛い",
+      "example_en": "I will use saltiness / salty in class.",
+      "example_ja": "授業で「saltiness / salty（〈名・形〉塩気のある；塩辛い）」を使います。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "sourness / sour",
+      "term_ja": "〈名・形〉酸っぱい",
+      "example_en": "I will use sourness / sour in class.",
+      "example_ja": "授業で「sourness / sour（〈名・形〉酸っぱい）」を使います。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "heat",
+      "term_ja": "〈名〉熱；辛さ",
+      "example_en": "I will use heat in class.",
+      "example_ja": "授業で「heat（〈名〉熱；辛さ）」を使います。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "bite",
+      "term_ja": "〈名〉辛さ",
+      "example_en": "I will use bite in class.",
+      "example_ja": "授業で「bite（〈名〉辛さ）」を使います。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be derived from ...",
+      "term_ja": "〈表現〉…に由来する",
+      "example_en": "I will use be derived from ... in class.",
+      "example_ja": "授業で「be derived from ...（〈表現〉…に由来する）」を使います。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "compound",
+      "term_ja": "〈名〉化合物",
+      "example_en": "I will use compound in class.",
+      "example_ja": "授業で「compound（〈名〉化合物）」を使います。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "element",
+      "term_ja": "〈名〉要素；成分",
+      "example_en": "I will use element in class.",
+      "example_ja": "授業で「element（〈名〉要素；成分）」を使います。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "lingering",
+      "term_ja": "〈形〉なかなか消えない",
+      "example_en": "I will use lingering in class.",
+      "example_ja": "授業で「lingering（〈形〉なかなか消えない）」を使います。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "trigger",
+      "term_ja": "〈動〉…を誘発する；始動させる",
+      "example_en": "I will use trigger in class.",
+      "example_ja": "授業で「trigger（〈動〉…を誘発する；始動させる）」を使います。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "receptor",
+      "term_ja": "〈名〉受容器［体］",
+      "example_en": "I will use receptor in class.",
+      "example_ja": "授業で「receptor（〈名〉受容器［体］）」を使います。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "induce",
+      "term_ja": "〈動〉…を誘発する",
+      "example_en": "I will use induce in class.",
+      "example_ja": "授業で「induce（〈動〉…を誘発する）」を使います。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "interestingly",
+      "term_ja": "〈副〉興味深いことに",
+      "example_en": "I will use interestingly in class.",
+      "example_ja": "授業で「interestingly（〈副〉興味深いことに）」を使います。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "variety",
+      "term_ja": "〈名〉種類",
+      "example_en": "I will use variety in class.",
+      "example_ja": "授業で「variety（〈名〉種類）」を使います。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "depend on ...",
+      "term_ja": "〈表現〉…によって決まる",
+      "example_en": "I will use depend on ... in class.",
+      "example_ja": "授業で「depend on ...（〈表現〉…によって決まる）」を使います。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "measure",
+      "term_ja": "〈動〉…を測定する",
+      "example_en": "I will use measure in class.",
+      "example_ja": "授業で「measure（〈動〉…を測定する）」を使います。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "range from A to B",
+      "term_ja": "〈表現〉AからBにわたる",
+      "example_en": "I will use range from A to B in class.",
+      "example_ja": "授業で「range from A to B（〈表現〉AからBにわたる）」を使います。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "up to ...",
+      "term_ja": "〈表現〉最大［最高］…",
+      "example_en": "I will use up to ... in class.",
+      "example_ja": "授業で「up to ...（〈表現〉最大［最高］…）」を使います。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": "6Bb",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "root",
+      "term_ja": "〈名〉根",
+      "example_en": "I will use root in class.",
+      "example_ja": "授業で「root（〈名〉根）」を使います。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "rank",
+      "term_ja": "〈動〉…をランクづけする",
+      "example_en": "I will use rank in class.",
+      "example_ja": "授業で「rank（〈動〉…をランクづけする）」を使います。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "compare A to B",
+      "term_ja": "〈表現〉AをBになぞらえる",
+      "example_en": "I will use compare A to B in class.",
+      "example_ja": "授業で「compare A to B（〈表現〉AをBになぞらえる）」を使います。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "tolerate",
+      "term_ja": "〈動〉…を許容する；…への耐性がある",
+      "example_en": "I will use tolerate in class.",
+      "example_ja": "授業で「tolerate（〈動〉…を許容する；…への耐性がある）」を使います。",
+      "flashcard_order": 28,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "flavored with ...",
+      "term_ja": "〈表現〉…で味付けされた［風味を添えた］",
+      "example_en": "I will use flavored with ... in class.",
+      "example_ja": "授業で「flavored with ...（〈表現〉…で味付けされた［風味を添えた］）」を使います。",
+      "flashcard_order": 29,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "density",
+      "term_ja": "〈名〉密度；濃度",
+      "example_en": "I will use density in class.",
+      "example_ja": "授業で「density（〈名〉密度；濃度）」を使います。",
+      "flashcard_order": 30,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "vaporize",
+      "term_ja": "〈動〉蒸発［気化］する",
+      "example_en": "I will use vaporize in class.",
+      "example_ja": "授業で「vaporize（〈動〉蒸発［気化］する）」を使います。",
+      "flashcard_order": 31,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "deliver A to B",
+      "term_ja": "〈表現〉A〈打撃・攻撃など〉をBに加える",
+      "example_en": "I will use deliver A to B in class.",
+      "example_ja": "授業で「deliver A to B（〈表現〉A〈打撃・攻撃など〉をBに加える）」を使います。",
+      "flashcard_order": 32,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "blast",
+      "term_ja": "〈名〉強いひと吹き",
+      "example_en": "I will use blast in class.",
+      "example_ja": "授業で「blast（〈名〉強いひと吹き）」を使います。",
+      "flashcard_order": 33,
+      "occurrences": [
+        {
+          "section_number": "6Bc",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "consume",
+      "term_ja": "〈動〉…を消費する；食べる",
+      "example_en": "I will use consume in class.",
+      "example_ja": "授業で「consume（〈動〉…を消費する；食べる）」を使います。",
+      "flashcard_order": 34,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "positive",
+      "term_ja": "〈形〉肯定的な；プラスの",
+      "example_en": "I will use positive in class.",
+      "example_ja": "授業で「positive（〈形〉肯定的な；プラスの）」を使います。",
+      "flashcard_order": 35,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "effect",
+      "term_ja": "〈名〉影響；効果",
+      "example_en": "I will use effect in class.",
+      "example_ja": "授業で「effect（〈名〉影響；効果）」を使います。",
+      "flashcard_order": 36,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "benefit",
+      "term_ja": "〈名〉恩恵；利点",
+      "example_en": "I will use benefit in class.",
+      "example_ja": "授業で「benefit（〈名〉恩恵；利点）」を使います。",
+      "flashcard_order": 37,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "activate",
+      "term_ja": "〈動〉…を活性化する",
+      "example_en": "I will use activate in class.",
+      "example_ja": "授業で「activate（〈動〉…を活性化する）」を使います。",
+      "flashcard_order": 38,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "injury",
+      "term_ja": "〈名〉負傷；けが",
+      "example_en": "I will use injury in class.",
+      "example_ja": "授業で「injury（〈名〉負傷；けが）」を使います。",
+      "flashcard_order": 39,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "strangely",
+      "term_ja": "〈副〉奇妙なことに",
+      "example_en": "I will use strangely in class.",
+      "example_ja": "授業で「strangely（〈副〉奇妙なことに）」を使います。",
+      "flashcard_order": 40,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "go away",
+      "term_ja": "〈表現〉消えていく",
+      "example_en": "I will use go away in class.",
+      "example_ja": "授業で「go away（〈表現〉消えていく）」を使います。",
+      "flashcard_order": 41,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "cease to -",
+      "term_ja": "〈表現〉-しなくなる",
+      "example_en": "I will use cease to - in class.",
+      "example_ja": "授業で「cease to -（〈表現〉-しなくなる）」を使います。",
+      "flashcard_order": 42,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "turn on",
+      "term_ja": "〈表現〉スイッチを入れる；刺激する",
+      "example_en": "I will use turn on in class.",
+      "example_ja": "授業で「turn on（〈表現〉スイッチを入れる；刺激する）」を使います。",
+      "flashcard_order": 43,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "long-term",
+      "term_ja": "〈形〉長期の",
+      "example_en": "I will use long-term in class.",
+      "example_ja": "授業で「long-term（〈形〉長期の）」を使います。",
+      "flashcard_order": 44,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "exposure to ...",
+      "term_ja": "〈表現〉…にさらされる［触れる］こと",
+      "example_en": "I will use exposure to ... in class.",
+      "example_ja": "授業で「exposure to ...（〈表現〉…にさらされる［触れる］こと）」を使います。",
+      "flashcard_order": 45,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "temporarily",
+      "term_ja": "〈副〉一時的に",
+      "example_en": "I will use temporarily in class.",
+      "example_ja": "授業で「temporarily（〈副〉一時的に）」を使います。",
+      "flashcard_order": 46,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "ease",
+      "term_ja": "〈動〉…を和らげる",
+      "example_en": "I will use ease in class.",
+      "example_ja": "授業で「ease（〈動〉…を和らげる）」を使います。",
+      "flashcard_order": 47,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "muscle ache",
+      "term_ja": "〈名〉筋肉痛",
+      "example_en": "I will use muscle ache in class.",
+      "example_ja": "授業で「muscle ache（〈名〉筋肉痛）」を使います。",
+      "flashcard_order": 48,
+      "occurrences": [
+        {
+          "section_number": "6Bd",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "accelerate",
+      "term_ja": "〈動〉…を加速する",
+      "example_en": "I will use accelerate in class.",
+      "example_ja": "授業で「accelerate（〈動〉…を加速する）」を使います。",
+      "flashcard_order": 49,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "metabolism",
+      "term_ja": "〈名〉新陳代謝",
+      "example_en": "I will use metabolism in class.",
+      "example_ja": "授業で「metabolism（〈名〉新陳代謝）」を使います。",
+      "flashcard_order": 50,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "analyze",
+      "term_ja": "〈動〉…を分析する",
+      "example_en": "I will use analyze in class.",
+      "example_ja": "授業で「analyze（〈動〉…を分析する）」を使います。",
+      "flashcard_order": 51,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "reduced",
+      "term_ja": "〈形〉減少した",
+      "example_en": "I will use reduced in class.",
+      "example_ja": "授業で「reduced（〈形〉減少した）」を使います。",
+      "flashcard_order": 52,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "appetite",
+      "term_ja": "〈名〉食欲",
+      "example_en": "I will use appetite in class.",
+      "example_ja": "授業で「appetite（〈名〉食欲）」を使います。",
+      "flashcard_order": 53,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "heart rate",
+      "term_ja": "〈名〉心拍数",
+      "example_en": "I will use heart rate in class.",
+      "example_ja": "授業で「heart rate（〈名〉心拍数）」を使います。",
+      "flashcard_order": 54,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "convert A into B",
+      "term_ja": "〈表現〉AをBに変える",
+      "example_en": "I will use convert A into B in class.",
+      "example_ja": "授業で「convert A into B（〈表現〉AをBに変える）」を使います。",
+      "flashcard_order": 55,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "fat",
+      "term_ja": "〈名〉脂肪",
+      "example_en": "I will use fat in class.",
+      "example_ja": "授業で「fat（〈名〉脂肪）」を使います。",
+      "flashcard_order": 56,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "weight-loss",
+      "term_ja": "〈形〉減量の",
+      "example_en": "I will use weight-loss in class.",
+      "example_ja": "授業で「weight-loss（〈形〉減量の）」を使います。",
+      "flashcard_order": 57,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "ingredient",
+      "term_ja": "〈名〉成分",
+      "example_en": "I will use ingredient in class.",
+      "example_ja": "授業で「ingredient（〈名〉成分）」を使います。",
+      "flashcard_order": 58,
+      "occurrences": [
+        {
+          "section_number": "6Be",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be connected with ...",
+      "term_ja": "〈表現〉…と関係［関連］がある",
+      "example_en": "I will use be connected with ... in class.",
+      "example_ja": "授業で「be connected with ...（〈表現〉…と関係［関連］がある）」を使います。",
+      "flashcard_order": 59,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "food safety",
+      "term_ja": "〈名〉食の安全",
+      "example_en": "I will use food safety in class.",
+      "example_ja": "授業で「food safety（〈名〉食の安全）」を使います。",
+      "flashcard_order": 60,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "refrigerated",
+      "term_ja": "〈形〉冷蔵された",
+      "example_en": "I will use refrigerated in class.",
+      "example_ja": "授業で「refrigerated（〈形〉冷蔵された）」を使います。",
+      "flashcard_order": 61,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "microorganism",
+      "term_ja": "〈名〉微生物",
+      "example_en": "I will use microorganism in class.",
+      "example_ja": "授業で「microorganism（〈名〉微生物）」を使います。",
+      "flashcard_order": 62,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "multiply",
+      "term_ja": "〈動〉繁殖する",
+      "example_en": "I will use multiply in class.",
+      "example_ja": "授業で「multiply（〈動〉繁殖する）」を使います。",
+      "flashcard_order": 63,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "chemical",
+      "term_ja": "〈名〉化学物質",
+      "example_en": "I will use chemical in class.",
+      "example_ja": "授業で「chemical（〈名〉化学物質）」を使います。",
+      "flashcard_order": 64,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "antibacterial",
+      "term_ja": "〈形〉抗菌性の",
+      "example_en": "I will use antibacterial in class.",
+      "example_ja": "授業で「antibacterial（〈形〉抗菌性の）」を使います。",
+      "flashcard_order": 65,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "property",
+      "term_ja": "〈名〉特性",
+      "example_en": "I will use property in class.",
+      "example_ja": "授業で「property（〈名〉特性）」を使います。",
+      "flashcard_order": 66,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "as a result",
+      "term_ja": "〈接続〉その結果",
+      "example_en": "I will use as a result in class.",
+      "example_ja": "授業で「as a result（〈接続〉その結果）」を使います。",
+      "flashcard_order": 67,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "last",
+      "term_ja": "〈動〉〈ある期間〉もつ",
+      "example_en": "I will use last in class.",
+      "example_ja": "授業で「last（〈動〉〈ある期間〉もつ）」を使います。",
+      "flashcard_order": 68,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "food-borne",
+      "term_ja": "〈形〉食物が媒介する",
+      "example_en": "I will use food-borne in class.",
+      "example_ja": "授業で「food-borne（〈形〉食物が媒介する）」を使います。",
+      "flashcard_order": 69,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "have a tendency to -",
+      "term_ja": "〈表現〉-する傾向がある",
+      "example_en": "I will use have a tendency to - in class.",
+      "example_ja": "授業で「have a tendency to -（〈表現〉-する傾向がある）」を使います。",
+      "flashcard_order": 70,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be tolerant of ...",
+      "term_ja": "〈表現〉…に対して耐性がある",
+      "example_en": "I will use be tolerant of ... in class.",
+      "example_ja": "授業で「be tolerant of ...（〈表現〉…に対して耐性がある）」を使います。",
+      "flashcard_order": 71,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "due to ...",
+      "term_ja": "〈表現〉…のせいで",
+      "example_en": "I will use due to ... in class.",
+      "example_ja": "授業で「due to ...（〈表現〉…のせいで）」を使います。",
+      "flashcard_order": 72,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "refrigerator",
+      "term_ja": "〈名〉冷蔵庫",
+      "example_en": "I will use refrigerator in class.",
+      "example_ja": "授業で「refrigerator（〈名〉冷蔵庫）」を使います。",
+      "flashcard_order": 73,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "be likely to -",
+      "term_ja": "〈表現〉-しそうだ；-する可能性が高い",
+      "example_en": "I will use be likely to - in class.",
+      "example_ja": "授業で「be likely to -（〈表現〉-しそうだ；-する可能性が高い）」を使います。",
+      "flashcard_order": 74,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "food poisoning",
+      "term_ja": "〈名〉食中毒",
+      "example_en": "I will use food poisoning in class.",
+      "example_ja": "授業で「food poisoning（〈名〉食中毒）」を使います。",
+      "flashcard_order": 75,
+      "occurrences": [
+        {
+          "section_number": "6Bf",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "discomfort",
+      "term_ja": "〈名〉苦痛（からくる不快感）",
+      "example_en": "I will use discomfort in class.",
+      "example_ja": "授業で「discomfort（〈名〉苦痛（からくる不快感））」を使います。",
+      "flashcard_order": 76,
+      "occurrences": [
+        {
+          "section_number": "6Bg",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "in large quantities",
+      "term_ja": "〈表現〉大量に",
+      "example_en": "I will use in large quantities in class.",
+      "example_ja": "授業で「in large quantities（〈表現〉大量に）」を使います。",
+      "flashcard_order": 77,
+      "occurrences": [
+        {
+          "section_number": "6Bg",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "upset",
+      "term_ja": "〈形〉不調な",
+      "example_en": "I will use upset in class.",
+      "example_ja": "授業で「upset（〈形〉不調な）」を使います。",
+      "flashcard_order": 78,
+      "occurrences": [
+        {
+          "section_number": "6Bg",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "diarrhea",
+      "term_ja": "〈名〉下痢",
+      "example_en": "I will use diarrhea in class.",
+      "example_ja": "授業で「diarrhea（〈名〉下痢）」を使います。",
+      "flashcard_order": 79,
+      "occurrences": [
+        {
+          "section_number": "6Bg",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "numb",
+      "term_ja": "〈形〉感覚のない；麻痺した",
+      "example_en": "I will use numb in class.",
+      "example_ja": "授業で「numb（〈形〉感覚のない；麻痺した）」を使います。",
+      "flashcard_order": 80,
+      "occurrences": [
+        {
+          "section_number": "6Bg",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "symptom",
+      "term_ja": "〈名〉症状",
+      "example_en": "I will use symptom in class.",
+      "example_ja": "授業で「symptom（〈名〉症状）」を使います。",
+      "flashcard_order": 81,
+      "occurrences": [
+        {
+          "section_number": "6Bg",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "heart attack",
+      "term_ja": "〈名〉心臓麻痺",
+      "example_en": "I will use heart attack in class.",
+      "example_ja": "授業で「heart attack（〈名〉心臓麻痺）」を使います。",
+      "flashcard_order": 82,
+      "occurrences": [
+        {
+          "section_number": "6Bg",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "go away",
+      "term_ja": "〈表現〉消えゆく",
+      "example_en": "I will use go away in class.",
+      "example_ja": "授業で「go away（〈表現〉消えゆく）」を使います。",
+      "flashcard_order": 83,
+      "occurrences": [
+        {
+          "section_number": "6Bh",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "despite",
+      "term_ja": "〈前〉…にもかかわらず",
+      "example_en": "I will use despite in class.",
+      "example_ja": "授業で「despite（〈前〉…にもかかわらず）」を使います。",
+      "flashcard_order": 84,
+      "occurrences": [
+        {
+          "section_number": "6Bh",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "negative",
+      "term_ja": "〈形〉否定的な；マイナスの",
+      "example_en": "I will use negative in class.",
+      "example_ja": "授業で「negative（〈形〉否定的な；マイナスの）」を使います。",
+      "flashcard_order": 85,
+      "occurrences": [
+        {
+          "section_number": "6Bh",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "flavorful",
+      "term_ja": "〈形〉風味に富む",
+      "example_en": "I will use flavorful in class.",
+      "example_ja": "授業で「flavorful（〈形〉風味に富む）」を使います。",
+      "flashcard_order": 86,
+      "occurrences": [
+        {
+          "section_number": "6Bh",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
+    },
+    {
+      "term_en": "you might want to -",
+      "term_ja": "〈表現〉-する方がいい",
+      "example_en": "I will use you might want to - in class.",
+      "example_ja": "授業で「you might want to -（〈表現〉-する方がいい）」を使います。",
+      "flashcard_order": 87,
+      "occurrences": [
+        {
+          "section_number": "6Bh",
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "kyotsu2024_section6b_official"
+        }
+      ]
     }
-  ],
-  "by_section": {
-    "3": [
-      {
-        "term_en": "affect",
-        "term_ja": "…に影響する",
-        "example_en": "I will use affect in class.",
-        "example_ja": "授業で「affect（…に影響する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "aim for ...",
-        "term_ja": "…を目指す",
-        "example_en": "I will use aim for ... in class.",
-        "example_ja": "授業で「aim for ...（…を目指す）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "ALT",
-        "term_ja": "外国語指導補助教員",
-        "example_en": "I will use ALT in class.",
-        "example_ja": "授業で「ALT（外国語指導補助教員）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "artificial",
-        "term_ja": "人工的な",
-        "example_en": "I will use artificial in class.",
-        "example_ja": "授業で「artificial（人工的な）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "as many ... as possible",
-        "term_ja": "できるだけ多くの…",
-        "example_en": "I will use as many ... as possible in class.",
-        "example_ja": "授業で「as many ... as possible（できるだけ多くの…）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "astronomy",
-        "term_ja": "天文学",
-        "example_en": "I will use astronomy in class.",
-        "example_ja": "授業で「astronomy（天文学）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "ceiling",
-        "term_ja": "天井",
-        "example_en": "I will use ceiling in class.",
-        "example_ja": "授業で「ceiling（天井）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "constellation",
-        "term_ja": "星座",
-        "example_en": "I will use constellation in class.",
-        "example_ja": "授業で「constellation（星座）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "coral reef",
-        "term_ja": "サンゴ礁",
-        "example_en": "I will use coral reef in class.",
-        "example_ja": "授業で「coral reef（サンゴ礁）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "designate",
-        "term_ja": "…を指定する",
-        "example_en": "I will use designate in class.",
-        "example_ja": "授業で「designate（…を指定する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "dive",
-        "term_ja": "飛び込む",
-        "example_en": "I will use dive in class.",
-        "example_ja": "授業で「dive（飛び込む）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "diversity",
-        "term_ja": "多様性",
-        "example_en": "I will use diversity in class.",
-        "example_ja": "授業で「diversity（多様性）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "dynamic",
-        "term_ja": "活動的な",
-        "example_en": "I will use dynamic in class.",
-        "example_ja": "授業で「dynamic（活動的な）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "fascinate",
-        "term_ja": "…を魅了する",
-        "example_en": "I will use fascinate in class.",
-        "example_ja": "授業で「fascinate（…を魅了する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "for help",
-        "term_ja": "助けを求めて",
-        "example_en": "I will use for help in class.",
-        "example_ja": "授業で「for help（助けを求めて）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "geography",
-        "term_ja": "地形",
-        "example_en": "I will use geography in class.",
-        "example_ja": "授業で「geography（地形）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "get a sense of ...",
-        "term_ja": "…を感じ取る；…の見当をつける",
-        "example_en": "I will use get a sense of ... in class.",
-        "example_ja": "授業で「get a sense of ...（…を感じ取る；…の見当をつける）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "get lost",
-        "term_ja": "道に迷う",
-        "example_en": "I will use get lost in class.",
-        "example_ja": "授業で「get lost（道に迷う）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "gymnasium",
-        "term_ja": "体育館",
-        "example_en": "We put up tents in the gymnasium and created a temporary planetarium on the ceiling using a pr…",
-        "example_ja": "体育館にテントを張って，プロジェクターを使って天井に臨時のプラネタリウムを作りました。",
-        "question_id": "B_問3",
-        "answer_number": 18,
-        "evidence_sentences": [
-          "3b_s10",
-          "3b_s11",
-          "3b_s14",
-          "3b_s15",
-          "3b_s17",
-          "3b_s4",
-          "3b_s9"
-        ]
-      },
-      {
-        "term_en": "gymnasium",
-        "term_ja": "体育館",
-        "example_en": "We put up tents in the gymnasium and created a temporary planetarium on the ceiling using a pr…",
-        "example_ja": "体育館にテントを張って，プロジェクターを使って天井に臨時のプラネタリウムを作りました。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "hardly anything",
-        "term_ja": "ほとんど何も…しない",
-        "example_en": "I will use hardly anything in class.",
-        "example_ja": "授業で「hardly anything（ほとんど何も…しない）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "improve",
-        "term_ja": "回復する",
-        "example_en": "You can learn skills such as thinking logically and deeply without distractions",
-        "example_ja": "気を散らすことなく論理的に深く考えるといった技術を身につけることができます。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "in quick succession",
-        "term_ja": "たて続けに",
-        "example_en": "I will use in quick succession in class.",
-        "example_ja": "授業で「in quick succession（たて続けに）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "marine",
-        "term_ja": "海の",
-        "example_en": "I will use marine in class.",
-        "example_ja": "授業で「marine（海の）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "moonless",
-        "term_ja": "月のない",
-        "example_en": "I will use moonless in class.",
-        "example_ja": "授業で「moonless（月のない）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "navigation",
-        "term_ja": "航行；誘導",
-        "example_en": "I will use navigation in class.",
-        "example_ja": "授業で「navigation（航行；誘導）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "neither A nor B",
-        "term_ja": "AもBも…しない",
-        "example_en": "I will use neither A nor B in class.",
-        "example_ja": "授業で「neither A nor B（AもBも…しない）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "nod",
-        "term_ja": "うなずく",
-        "example_en": "I will use nod in class.",
-        "example_ja": "授業で「nod（うなずく）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "ocean",
-        "term_ja": "海（洋）",
-        "example_en": "Later, we \"dived into the ocean\" and learnt about the diversity of marine creatures",
-        "example_ja": "その後，私たちは「海に飛び込んで」，海洋生物の多様性について学びました。",
-        "question_id": "B_問4",
-        "answer_number": 22,
-        "evidence_sentences": [
-          "3b_s13",
-          "3b_s18",
-          "3b_s2",
-          "3b_s4",
-          "3b_s6"
-        ]
-      },
-      {
-        "term_en": "ocean",
-        "term_ja": "海（洋）",
-        "example_en": "Later, we \"dived into the ocean\" and learnt about the diversity of marine creatures",
-        "example_ja": "その後，私たちは「海に飛び込んで」，海洋生物の多様性について学びました。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "on one's way home",
-        "term_ja": "家へ帰る途中で",
-        "example_en": "I will use on one's way home in class.",
-        "example_ja": "授業で「on one's way home（家へ帰る途中で）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "on the way to ...",
-        "term_ja": "…へ行く途中で",
-        "example_en": "I will use on the way to ... in class.",
-        "example_ja": "授業で「on the way to ...（…へ行く途中で）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "planet",
-        "term_ja": "惑星",
-        "example_en": "I will use planet in class.",
-        "example_ja": "授業で「planet（惑星）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "planetarium",
-        "term_ja": "プラネタリウム",
-        "example_en": "We put up tents in the gymnasium and created a temporary planetarium on the ceiling using a pr…",
-        "example_ja": "体育館にテントを張って，プロジェクターを使って天井に臨時のプラネタリウムを作りました。",
-        "question_id": "B_問3",
-        "answer_number": 18,
-        "evidence_sentences": [
-          "3b_s10",
-          "3b_s11",
-          "3b_s14",
-          "3b_s15",
-          "3b_s17",
-          "3b_s4",
-          "3b_s9"
-        ]
-      },
-      {
-        "term_en": "planetarium",
-        "term_ja": "プラネタリウム",
-        "example_en": "We put up tents in the gymnasium and created a temporary planetarium on the ceiling using a pr…",
-        "example_ja": "体育館にテントを張って，プロジェクターを使って天井に臨時のプラネタリウムを作りました。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "project",
-        "term_ja": "…を映写（投影）する",
-        "example_en": "I will use project in class.",
-        "example_ja": "授業で「project（…を映写（投影）する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "put up",
-        "term_ja": "…を建てる",
-        "example_en": "I will use put up in class.",
-        "example_ja": "授業で「put up（…を建てる）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "rainforest",
-        "term_ja": "熱帯雨林",
-        "example_en": "We \"got into the car,\" which our teacher, Mr Leach, sometimes stopped so we could look out of…",
-        "example_ja": "私たちは「車に乗り込み」ましたが，窓の外を見て熱帯雨林の様子がより良くわかるようにと，担任のリーチ先生は時々車を止…",
-        "question_id": "B_問3",
-        "answer_number": 18,
-        "evidence_sentences": [
-          "3b_s10",
-          "3b_s11",
-          "3b_s14",
-          "3b_s15",
-          "3b_s17",
-          "3b_s4",
-          "3b_s9"
-        ]
-      },
-      {
-        "term_en": "rainforest",
-        "term_ja": "熱帯雨林",
-        "example_en": "We \"got into the car,\" which our teacher, Mr Leach, sometimes stopped so we could look out of…",
-        "example_ja": "私たちは「車に乗り込み」ましたが，窓の外を見て熱帯雨林の様子がより良くわかるようにと，担任のリーチ先生は時々車を止…",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "realise (that) ...",
-        "term_ja": "…ということをはっきりと理解する［に気づく］",
-        "example_en": "I will use realise (that) ... in class.",
-        "example_ja": "授業で「realise (that) ...（…ということをはっきりと理解する［に気づく］）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "remind A of B",
-        "term_ja": "AにBを思い出させる",
-        "example_en": "I will use remind A of B in class.",
-        "example_ja": "授業で「remind A of B（AにBを思い出させる）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "road trip",
-        "term_ja": "自動車旅行",
-        "example_en": "We \"got into the car,\" which our teacher, Mr Leach, sometimes stopped so we could look out of…",
-        "example_ja": "私たちは「車に乗り込み」ましたが，窓の外を見て熱帯雨林の様子がより良くわかるようにと，担任のリーチ先生は時々車を止…",
-        "question_id": "B_問3",
-        "answer_number": 18,
-        "evidence_sentences": [
-          "3b_s10",
-          "3b_s11",
-          "3b_s14",
-          "3b_s15",
-          "3b_s17",
-          "3b_s4",
-          "3b_s9"
-        ]
-      },
-      {
-        "term_en": "road trip",
-        "term_ja": "自動車旅行",
-        "example_en": "We \"got into the car,\" which our teacher, Mr Leach, sometimes stopped so we could look out of…",
-        "example_ja": "私たちは「車に乗り込み」ましたが，窓の外を見て熱帯雨林の様子がより良くわかるようにと，担任のリーチ先生は時々車を止…",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "ruin",
-        "term_ja": "…を台無しにする",
-        "example_en": "I will use ruin in class.",
-        "example_ja": "授業で「ruin（…を台無しにする）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "run out",
-        "term_ja": "（時間が）なくなる",
-        "example_en": "I will use run out in class.",
-        "example_ja": "授業で「run out（（時間が）なくなる）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "scenery",
-        "term_ja": "風景",
-        "example_en": "I will use scenery in class.",
-        "example_ja": "授業で「scenery（風景）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "shooting star",
-        "term_ja": "流れ星",
-        "example_en": "I will use shooting star in class.",
-        "example_ja": "授業で「shooting star（流れ星）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "sightseeing spot",
-        "term_ja": "観光地（名所）",
-        "example_en": "I will use sightseeing spot in class.",
-        "example_ja": "授業で「sightseeing spot（観光地（名所））」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "starry",
-        "term_ja": "星の多い",
-        "example_en": "I will use starry in class.",
-        "example_ja": "授業で「starry（星の多い）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "statue",
-        "term_ja": "像",
-        "example_en": "I will use statue in class.",
-        "example_ja": "授業で「statue（像）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "take part [participate] in ...",
-        "term_ja": "…に参加する",
-        "example_en": "I will use take part [participate] in ... in class.",
-        "example_ja": "授業で「take part [participate] in ...（…に参加する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "temporary",
-        "term_ja": "一時的な",
-        "example_en": "We put up tents in the gymnasium and created a temporary planetarium on the ceiling using a pr…",
-        "example_ja": "体育館にテントを張って，プロジェクターを使って天井に臨時のプラネタリウムを作りました。",
-        "question_id": "B_問3",
-        "answer_number": 18,
-        "evidence_sentences": [
-          "3b_s10",
-          "3b_s11",
-          "3b_s14",
-          "3b_s15",
-          "3b_s17",
-          "3b_s4",
-          "3b_s9"
-        ]
-      },
-      {
-        "term_en": "temporary",
-        "term_ja": "一時的な",
-        "example_en": "We put up tents in the gymnasium and created a temporary planetarium on the ceiling using a pr…",
-        "example_ja": "体育館にテントを張って，プロジェクターを使って天井に臨時のプラネタリウムを作りました。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "the Milky Way",
-        "term_ja": "天の川",
-        "example_en": "I will use the Milky Way in class.",
-        "example_ja": "授業で「the Milky Way（天の川）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "transport",
-        "term_ja": "交通機関",
-        "example_en": "I will use transport in class.",
-        "example_ja": "授業で「transport（交通機関）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "tropical",
-        "term_ja": "熱帯の",
-        "example_en": "I will use tropical in class.",
-        "example_ja": "授業で「tropical（熱帯の）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "Venus",
-        "term_ja": "金星",
-        "example_en": "I will use Venus in class.",
-        "example_ja": "授業で「Venus（金星）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "virtual",
-        "term_ja": "仮想の；バーチャルな",
-        "example_en": "I will use virtual in class.",
-        "example_ja": "授業で「virtual（仮想の；バーチャルな）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "visible",
-        "term_ja": "目に見える",
-        "example_en": "I will use visible in class.",
-        "example_ja": "授業で「visible（目に見える）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "volcanic",
-        "term_ja": "火山のある",
-        "example_en": "I will use volcanic in class.",
-        "example_ja": "授業で「volcanic（火山のある）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      }
-    ],
-    "2": [
-      {
-        "term_en": "analyse",
-        "term_ja": "…を分析する",
-        "example_en": "● analyse games using computer software",
-        "example_ja": "● コンピューターのソフトを使ってゲームを分析します",
-        "question_id": "A_問5",
-        "answer_number": 10,
-        "evidence_sentences": [
-          "2a_s10",
-          "2a_s11",
-          "2a_s12",
-          "2a_s8"
-        ]
-      },
-      {
-        "term_en": "analyse",
-        "term_ja": "…を分析する",
-        "example_en": "● analyse games using computer software",
-        "example_ja": "● コンピューターのソフトを使ってゲームを分析します",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "app",
-        "term_ja": "アプリ（ケーション）",
-        "example_en": "I will use app in class.",
-        "example_ja": "授業で「app（アプリ（ケーション））」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "appropriate",
-        "term_ja": "適切な",
-        "example_en": "I will use appropriate in class.",
-        "example_ja": "授業で「appropriate（適切な）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "at a reduced cost",
-        "term_ja": "割引価格で",
-        "example_en": "I will use at a reduced cost in class.",
-        "example_ja": "授業で「at a reduced cost（割引価格で）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "authorize",
-        "term_ja": "…を認可［許可］する",
-        "example_en": "I will use authorize in class.",
-        "example_ja": "授業で「authorize（…を認可［許可］する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "budget",
-        "term_ja": "予算",
-        "example_en": "If your budget is limited, you can choose the Economy Plan, which is $25/month",
-        "example_ja": "予算が限られている方は，月25ドルのエコノミープランを選ぶこともできます。",
-        "question_id": "B_問7",
-        "answer_number": 12,
-        "evidence_sentences": [
-          "2b_s15",
-          "2b_s16",
-          "2b_s17"
-        ]
-      },
-      {
-        "term_en": "budget",
-        "term_ja": "予算",
-        "example_en": "If your budget is limited, you can choose the Economy Plan, which is $25/month",
-        "example_ja": "予算が限られている方は，月25ドルのエコノミープランを選ぶこともできます。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "cool",
-        "term_ja": "かっこいい；すごい",
-        "example_en": "- It's cool to learn how some games have certain similarities",
-        "example_ja": "- 一部のゲームにある種の類似点があることを学べるのってすごいです。",
-        "question_id": "A_問3",
-        "answer_number": 8,
-        "evidence_sentences": [
-          "2a_c2"
-        ]
-      },
-      {
-        "term_en": "cool",
-        "term_ja": "かっこいい；すごい",
-        "example_en": "- It's cool to learn how some games have certain similarities",
-        "example_ja": "- 一部のゲームにある種の類似点があることを学べるのってすごいです。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "cover",
-        "term_ja": "…を補償する",
-        "example_en": "Also, the books are disorganized and the walls are covered with poster…",
-        "example_ja": "S2：窓際では，日光のせいで読むのに苦労します。教室の反対側だと十分な光量が得られません。また，本は整理されていな…",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "coverage",
-        "term_ja": "保険の範囲",
-        "example_en": "I will use coverage in class.",
-        "example_ja": "授業で「coverage（保険の範囲）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "demonstration",
-        "term_ja": "実演",
-        "example_en": "I will use demonstration in class.",
-        "example_ja": "授業で「demonstration（実演）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "discount",
-        "term_ja": "割引",
-        "example_en": "However, it was nice to get the optional 15% discount because I paid for six months of coverag…",
-        "example_ja": "けれども，保険料を6カ月分前払いしたため，オプションの15パーセント割引を受けられたのは嬉しいことでした。",
-        "question_id": "B_問9",
-        "answer_number": 14,
-        "evidence_sentences": [
-          "2b_s14"
-        ]
-      },
-      {
-        "term_en": "discount",
-        "term_ja": "割引",
-        "example_en": "However, it was nice to get the optional 15% discount because I paid for six months of coverag…",
-        "example_ja": "けれども，保険料を6カ月分前払いしたため，オプションの15パーセント割引を受けられたのは嬉しいことでした。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "distraction",
-        "term_ja": "気を散らすこと",
-        "example_en": "I will use distraction in class.",
-        "example_ja": "授業で「distraction（気を散らすこと）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "emergency",
-        "term_ja": "緊急事態",
-        "example_en": "It has the 24-hour telephone support like the other plans but only covers emergency care",
-        "example_ja": "他のプランと同様に24時間の電話サポートが付いていますが，救急医療のみをカバーします。",
-        "question_id": "B_問7",
-        "answer_number": 12,
-        "evidence_sentences": [
-          "2b_s15",
-          "2b_s16",
-          "2b_s17"
-        ]
-      },
-      {
-        "term_en": "emergency",
-        "term_ja": "緊急事態",
-        "example_en": "It has the 24-hour telephone support like the other plans but only covers emergency care",
-        "example_ja": "他のプランと同様に24時間の電話サポートが付いていますが，救急医療のみをカバーします。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "etiquette",
-        "term_ja": "エチケット；作法",
-        "example_en": "I will use etiquette in class.",
-        "example_ja": "授業で「etiquette（エチケット；作法）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "expenses",
-        "term_ja": "経費；支出金",
-        "example_en": "I will use expenses in class.",
-        "example_ja": "授業で「expenses（経費；支出金）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "female",
-        "term_ja": "女性の",
-        "example_en": "I will use female in class.",
-        "example_ja": "授業で「female（女性の）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "financial",
-        "term_ja": "金銭的な",
-        "example_en": "I will use financial in class.",
-        "example_ja": "授業で「financial（金銭的な）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "health check-up",
-        "term_ja": "健康診断",
-        "example_en": "I will use health check-up in class.",
-        "example_ja": "授業で「health check-up（健康診断）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "in advance",
-        "term_ja": "あらかじめ",
-        "example_en": "I will use in advance in class.",
-        "example_ja": "授業で「in advance（あらかじめ）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "in trouble",
-        "term_ja": "困った事態に",
-        "example_en": "I will use in trouble in class.",
-        "example_ja": "授業で「in trouble（困った事態に）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "insurance",
-        "term_ja": "保険",
-        "example_en": "I will use insurance in class.",
-        "example_ja": "授業で「insurance（保険）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "logically",
-        "term_ja": "論理的に",
-        "example_en": "I will use logically in class.",
-        "example_ja": "授業で「logically（論理的に）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "medication",
-        "term_ja": "薬剤（治療）",
-        "example_en": "I will use medication in class.",
-        "example_ja": "授業で「medication（薬剤（治療））」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "on a monthly basis",
-        "term_ja": "1カ月ごとに",
-        "example_en": "I will use on a monthly basis in class.",
-        "example_ja": "授業で「on a monthly basis（1カ月ごとに）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "optional",
-        "term_ja": "自分で選べる",
-        "example_en": "However, it was nice to get the optional 15% discount because I paid for six months of coverag…",
-        "example_ja": "けれども，保険料を6カ月分前払いしたため，オプションの15パーセント割引を受けられたのは嬉しいことでした。",
-        "question_id": "B_問9",
-        "answer_number": 14,
-        "evidence_sentences": [
-          "2b_s14"
-        ]
-      },
-      {
-        "term_en": "optional",
-        "term_ja": "自分で選べる",
-        "example_en": "However, it was nice to get the optional 15% discount because I paid for six months of coverag…",
-        "example_ja": "けれども，保険料を6カ月分前払いしたため，オプションの15パーセント割引を受けられたのは嬉しいことでした。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "pack",
-        "term_ja": "（荷物を）詰める",
-        "example_en": "I will use pack in class.",
-        "example_ja": "授業で「pack（（荷物を）詰める）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "participant",
-        "term_ja": "参加者",
-        "example_en": "I will use participant in class.",
-        "example_ja": "授業で「participant（参加者）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "participate in ...",
-        "term_ja": "…に参加する",
-        "example_en": "I will use participate in ... in class.",
-        "example_ja": "授業で「participate in ...（…に参加する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "payment",
-        "term_ja": "支払い",
-        "example_en": "I will use payment in class.",
-        "example_ja": "授業で「payment（支払い）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "practical",
-        "term_ja": "実際的な；実用性のある",
-        "example_en": "- Members share Internet videos that explain practical strategies for chess",
-        "example_ja": "- 部員たちはチェスの実際的な戦略を説明するインターネット動画を共有しています。",
-        "question_id": "A_問2",
-        "answer_number": 7,
-        "evidence_sentences": [
-          "2a_c4",
-          "2a_s10",
-          "2a_s11",
-          "2a_s13"
-        ]
-      },
-      {
-        "term_en": "practical",
-        "term_ja": "実際的な；実用性のある",
-        "example_en": "- Members share Internet videos that explain practical strategies for chess",
-        "example_ja": "- 部員たちはチェスの実際的な戦略を説明するインターネット動画を共有しています。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "regardless of ...",
-        "term_ja": "…に関係なく",
-        "example_en": "I will use regardless of ... in class.",
-        "example_ja": "授業で「regardless of ...（…に関係なく）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "sign up",
-        "term_ja": "申し込みをする",
-        "example_en": "I will use sign up in class.",
-        "example_ja": "授業で「sign up（申し込みをする）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "strategy",
-        "term_ja": "戦略",
-        "example_en": "I will use strategy in class.",
-        "example_ja": "授業で「strategy（戦略）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "tip",
-        "term_ja": "秘訣",
-        "example_en": "I will use tip in class.",
-        "example_ja": "授業で「tip（秘訣）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "work",
-        "term_ja": "機能する；うまくいく",
-        "example_en": "I will use work in class.",
-        "example_ja": "授業で「work（機能する；うまくいく）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      }
-    ],
-    "1": [
-      {
-        "term_en": "arena",
-        "term_ja": "競技場",
-        "example_en": "I will use arena in class.",
-        "example_ja": "授業で「arena（競技場）」を使います。",
-        "question_id": "B_問3",
-        "answer_number": 5,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "arena",
-        "term_ja": "競技場",
-        "example_en": "I will use arena in class.",
-        "example_ja": "授業で「arena（競技場）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "art gallery",
-        "term_ja": "美術館",
-        "example_en": "I will use art gallery in class.",
-        "example_ja": "授業で「art gallery（美術館）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "at work",
-        "term_ja": "活動［仕事］中で",
-        "example_en": "I will use at work in class.",
-        "example_ja": "授業で「at work（活動［仕事］中で）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "crafts",
-        "term_ja": "手工芸品",
-        "example_en": "I will use crafts in class.",
-        "example_ja": "授業で「crafts（手工芸品）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "display",
-        "term_ja": "…を展示する",
-        "example_en": "I will use display in class.",
-        "example_ja": "授業で「display（…を展示する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "district",
-        "term_ja": "地域；地区",
-        "example_en": "I will use district in class.",
-        "example_ja": "授業で「district（地域；地区）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "entrance fee",
-        "term_ja": "入場料",
-        "example_en": "I will use entrance fee in class.",
-        "example_ja": "授業で「entrance fee（入場料）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "exhibition",
-        "term_ja": "展示",
-        "example_en": "I will use exhibition in class.",
-        "example_ja": "授業で「exhibition（展示）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "facial",
-        "term_ja": "顔の",
-        "example_en": "I will use facial in class.",
-        "example_ja": "授業で「facial（顔の）」を使います。",
-        "question_id": "A_問2",
-        "answer_number": 2,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "facial",
-        "term_ja": "顔の",
-        "example_en": "I will use facial in class.",
-        "example_ja": "授業で「facial（顔の）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "facility",
-        "term_ja": "施設",
-        "example_en": "I will use facility in class.",
-        "example_ja": "授業で「facility（施設）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "first thing in the morning",
-        "term_ja": "朝一番に",
-        "example_en": "I will use first thing in the morning in class.",
-        "example_ja": "授業で「first thing in the morning（朝一番に）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "flyer",
-        "term_ja": "ちらし；ビラ",
-        "example_en": "I will use flyer in class.",
-        "example_ja": "授業で「flyer（ちらし；ビラ）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "open-air",
-        "term_ja": "野外の",
-        "example_en": "I will use open-air in class.",
-        "example_ja": "授業で「open-air（野外の）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "Opposite the church is ...",
-        "term_ja": "教会の向かい側には…がある",
-        "example_en": "I will use Opposite the church is ... in class.",
-        "example_ja": "授業で「Opposite the church is ...（教会の向かい側には…がある）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "organize",
-        "term_ja": "（行事などを）準備［計画］する",
-        "example_en": "I will use organize in class.",
-        "example_ja": "授業で「organize（（行事などを）準備［計画］する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "present",
-        "term_ja": "…を提示する",
-        "example_en": "I will use present in class.",
-        "example_ja": "授業で「present（…を提示する）」を使います。",
-        "question_id": "A_問1",
-        "answer_number": 1,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "present",
-        "term_ja": "…を提示する",
-        "example_en": "I will use present in class.",
-        "example_ja": "授業で「present（…を提示する）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "reception desk",
-        "term_ja": "受付",
-        "example_en": "I will use reception desk in class.",
-        "example_ja": "授業で「reception desk（受付）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "sculpture",
-        "term_ja": "彫刻",
-        "example_en": "I will use sculpture in class.",
-        "example_ja": "授業で「sculpture（彫刻）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "site",
-        "term_ja": "場所；現場",
-        "example_en": "We \"got into the car,\" which our teacher, Mr Leach, sometimes stopped so we could look out of…",
-        "example_ja": "私たちは「車に乗り込み」ましたが，窓の外を見て熱帯雨林の様子がより良くわかるようにと，担任のリーチ先生は時々車を止…",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "soon after ...",
-        "term_ja": "…のすぐ後に",
-        "example_en": "I will use soon after ... in class.",
-        "example_ja": "授業で「soon after ...（…のすぐ後に）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "steps",
-        "term_ja": "（ダンスの）ステップ",
-        "example_en": "I will use steps in class.",
-        "example_ja": "授業で「steps（（ダンスの）ステップ）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      },
-      {
-        "term_en": "textile",
-        "term_ja": "織物",
-        "example_en": "I will use textile in class.",
-        "example_ja": "授業で「textile（織物）」を使います。",
-        "question_id": "vocabulary",
-        "answer_number": null,
-        "evidence_sentences": []
-      }
-    ]
-  }
+  ]
 }

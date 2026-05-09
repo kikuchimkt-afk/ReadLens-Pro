@@ -99,6 +99,26 @@
   font-size: 0.85rem !important;
 }
 
+/* ===== Source Table (資料Bの表など) ===== */
+.source-table {
+  border-collapse: collapse;
+  margin: 12px auto;
+  font-size: 0.9rem;
+}
+.source-table th,
+.source-table td {
+  border: 1.5px solid #555;
+  padding: 4px 14px;
+  text-align: center;
+}
+.source-table th {
+  font-weight: 700;
+  background: #f5f1e8;
+}
+.source-table td:nth-child(2) {
+  text-align: left;
+}
+
 /* ===== Presentation Slides (大問8) ===== */
 .slides-grid {
   display: grid;
@@ -2788,6 +2808,7 @@
   font-size: 0.85rem;
   color: var(--text-color, #333);
 }
+
 
 /* 大問6B Slide 2: 2列比較表 */
 .slide-compare-table {

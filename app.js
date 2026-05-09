@@ -169,7 +169,11 @@ const EXAM_REGISTRY = [
     round: 5,
     label: "駿台実戦問題集 2026 ─ 第5回",
     dataPath: "data/sundai/2026/round05/data.json",
-    icon: "📖"
+    icon: "📖",
+    pdfPaths: {
+      mondai: "original_PDFs/sundai2026/第5回_問題.pdf",
+      kaitou: "original_PDFs/sundai2026/第5回_解説.pdf"
+    }
   },
   {
     id: "sundai_2025_01",
@@ -755,6 +759,7 @@ function normalizeVocabCards(vocabData) {
       exEn = exEn || cleanCardText(x.en);
       exJa = exJa || cleanCardText(x.ja);
     }
+    const flashOrder = e.flashcard_order;
     cards.push({
       termEn: term,
       termJa: cleanCardText(e.term_ja) || '（訳未登録）',
@@ -763,11 +768,17 @@ function normalizeVocabCards(vocabData) {
       answerNumber: first.answer_number,
       exampleEn: exEn,
       exampleJa: exJa,
+      flashcardOrder: typeof flashOrder === 'number' && Number.isFinite(flashOrder) ? flashOrder : null,
     });
   }
   cards.sort((a, b) => {
     const secCmp = compareSectionOrder(a.section, b.section);
     if (secCmp !== 0) return secCmp;
+    const oa = a.flashcardOrder;
+    const ob = b.flashcardOrder;
+    if (oa != null && ob != null && oa !== ob) return oa - ob;
+    if (oa != null && ob == null) return -1;
+    if (oa == null && ob != null) return 1;
     return a.termEn.localeCompare(b.termEn, 'en');
   });
   return cards;
@@ -911,6 +922,156 @@ function normalizeSectionValue(value) {
   return String(value ?? '').trim();
 }
 
+/** 語彙モーダル用：大問3–8・6A・6B（… / 7P1–9 / 8M1–6・8N1–3・8U1–8（追試8-1）・8V1–4（追試8-2） / 6Aa–6Af / 6Ba–6Bh）を分かりやすく表示 */
+function formatVocabSectionLabel(sec) {
+  const s = normalizeSectionValue(sec);
+  const m4 = s.match(/^4([A-D])$/i);
+  if (m4) {
+    const part = { A: 'リード文', B: '記事', C: 'アンケートの結果', D: '資料' }[m4[1].toUpperCase()];
+    if (part) return `第4問（${part}）`;
+  }
+  const m3m = s.match(/^3M([12])$/i);
+  if (m3m) {
+    const part = { 1: '第1段落', 2: '第2段落' }[m3m[1]];
+    if (part) return `第3問（${part}）`;
+  }
+  const m5m = s.match(/^5M([12])$/i);
+  if (m5m) {
+    const part = { 1: '記事', 2: '調査結果' }[m5m[1]];
+    if (part) return `第5問（${part}）`;
+  }
+  const m5t = s.match(/^5T([1-3])$/i);
+  if (m5t) {
+    const part = {
+      1: 'リード文',
+      2: '「あなた」のメール',
+      3: 'ライアン教授のメール',
+    }[m5t[1]];
+    if (part) return `第5問（${part}）`;
+  }
+  const m5 = s.match(/^5([A-G])$/i);
+  if (m5) {
+    const part = {
+      A: '§1',
+      B: '§2',
+      C: '§3',
+      D: '§4前',
+      E: '§4',
+      F: '§5',
+      G: '§6',
+    }[m5[1].toUpperCase()];
+    if (part) return `第5問（${part}）`;
+  }
+  const m6n = s.match(/^6N([1-3])$/i);
+  if (m6n) {
+    const part = {
+      1: '物語',
+      2: 'ワークシート',
+      3: '設問文・選択肢',
+    }[m6n[1]];
+    if (part) return `第6問（${part}）`;
+  }
+  const m6m = s.match(/^6M([1-4])$/i);
+  if (m6m) {
+    const part = { 1: '§1', 2: '§2', 3: '§3', 4: '§4' }[m6m[1]];
+    if (part) return `第6問（${part}）`;
+  }
+  const m7p = s.match(/^7P([1-9])$/i);
+  if (m7p) {
+    const part = {
+      1: '第1段落',
+      2: '第2段落',
+      3: '第3段落',
+      4: '第4段落',
+      5: '第5段落',
+      6: '第6段落',
+      7: '最終段落',
+      8: '発表のアウトライン',
+      9: '設問文・選択肢',
+    }[m7p[1]];
+    if (part) return `第7問（${part}）`;
+  }
+  const m7m = s.match(/^7M([1-8])$/i);
+  if (m7m) {
+    const n = m7m[1];
+    if (n === '8') return '第7問（最終段落）';
+    const part = { 1: '§1', 2: '§2', 3: '§3', 4: '§4', 5: '§5', 6: '§6', 7: '§7' }[n];
+    if (part) return `第7問（${part}）`;
+  }
+  const m8m = s.match(/^8M([1-6])$/i);
+  if (m8m) {
+    const part = {
+      1: 'Apu',
+      2: 'Christine',
+      3: 'Meilin',
+      4: '中盤',
+      5: 'Naomi',
+      6: 'Victor',
+    }[m8m[1]];
+    if (part) return `第8問（${part}）`;
+  }
+  const m8n = s.match(/^8N([1-3])$/i);
+  if (m8n) {
+    const part = {
+      1: 'エッセイのアウトライン',
+      2: '資料A',
+      3: '資料B',
+    }[m8n[1]];
+    if (part) return `第8問（${part}）`;
+  }
+  const m8u = s.match(/^8U([1-8])$/i);
+  if (m8u) {
+    const part = {
+      1: '冒頭',
+      2: 'ステップ1・Aya',
+      3: 'ステップ1・David',
+      4: 'Indira',
+      5: 'Kenyatta',
+      6: 'Yo',
+      7: '設問文・選択肢',
+      8: 'ステップ2',
+    }[m8u[1]];
+    if (part) return `第8問（${part}）`;
+  }
+  const m8v = s.match(/^8V([1-4])$/i);
+  if (m8v) {
+    const part = {
+      1: 'エッセイのアウトライン',
+      2: '資料A',
+      3: '資料B',
+      4: '設問文・選択肢',
+    }[m8v[1]];
+    if (part) return `第8問（${part}）`;
+  }
+  const m6a = s.match(/^6A([a-f])$/i);
+  if (m6a) {
+    const part = {
+      a: '第1段落',
+      b: '第2段落',
+      c: '第3段落',
+      d: '第4段落',
+      e: '第5段落',
+      f: '最終段落',
+    }[m6a[1].toLowerCase()];
+    if (part) return `第6A問（${part}）`;
+  }
+  const m6b = s.match(/^6B([a-h])$/i);
+  if (m6b) {
+    const part = {
+      a: '第1段落',
+      b: '第2段落',
+      c: '第3段落',
+      d: '第4段落',
+      e: '第5段落',
+      f: '第6段落',
+      g: '第7段落',
+      h: '最終段落',
+    }[m6b[1].toLowerCase()];
+    if (part) return `第6B問（${part}）`;
+  }
+  return `第${s}問`;
+}
+
 function buildSectionCounts(cards) {
   const counts = new Map();
   for (const c of cards) {
@@ -958,7 +1119,7 @@ function renderSectionPicker() {
   listEl.innerHTML = sections
     .map(([sec, cnt]) => {
       const checked = vocabState.selectedSections.has(sec) ? 'checked' : '';
-      return `<label class="vocab-section-item"><input type="checkbox" class="vocab-section-check" value="${sec}" ${checked} /><span>第${sec}問</span><span class="vocab-section-count">${cnt}語</span></label>`;
+      return `<label class="vocab-section-item"><input type="checkbox" class="vocab-section-check" value="${sec}" ${checked} /><span>${formatVocabSectionLabel(sec)}</span><span class="vocab-section-count">${cnt}語</span></label>`;
     })
     .join('');
   const selectedCount = vocabState.selectedSections.size;

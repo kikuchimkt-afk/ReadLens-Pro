@@ -687,6 +687,25 @@ function renderPassage() {
       html += '</div>';
     }
 
+    // Table data (Source B 等の表)
+    if (passage.table_data) {
+      const td = passage.table_data;
+      html += '<table class="source-table">';
+      html += '<thead><tr>';
+      for (const h of td.headers) {
+        html += `<th>${h}</th>`;
+      }
+      html += '</tr></thead><tbody>';
+      for (const row of td.rows) {
+        html += '<tr>';
+        for (const cell of row) {
+          html += `<td>${cell}</td>`;
+        }
+        html += '</tr>';
+      }
+      html += '</tbody></table>';
+    }
+
     // Presentation outline in a box (駿台 第7問など)
     if (passage.presentation_outline) {
       const po = passage.presentation_outline;

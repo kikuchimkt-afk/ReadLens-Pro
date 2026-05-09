@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source": "2024 answer images curated for sections 1 and 2"
+    "source": "2024 answer images curated for sections 1–4"
   },
   "entries": [
     { "term_en": "flyer", "term_ja": "ちらし；ビラ", "section_number": 1, "question_id": "vocabulary" },
@@ -118,6 +118,36 @@
     { "term_en": "on one's way home", "term_ja": "家へ帰る途中で", "section_number": 3, "question_id": "vocabulary" },
     { "term_en": "improve", "term_ja": "回復する", "section_number": 3, "question_id": "vocabulary" },
     { "term_en": "moonless", "term_ja": "月のない", "section_number": 3, "question_id": "vocabulary" },
-    { "term_en": "realise (that) ...", "term_ja": "…ということをはっきりと理解する［に気づく］", "section_number": 3, "question_id": "vocabulary" }
+    { "term_en": "realise (that) ...", "term_ja": "…ということをはっきりと理解する［に気づく］", "section_number": 3, "question_id": "vocabulary" },
+
+    { "term_en": "(be) related to ...", "term_ja": "…と関係がある", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "draft", "term_ja": "草稿", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "(be) based on ...", "term_ja": "…に基づいている", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "stressful", "term_ja": "ストレスの多い", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "meaningful", "term_ja": "重要な；意味のある", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "take one's time", "term_ja": "ゆっくりやる", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "be focused on ...", "term_ja": "…に集中して［焦点を合わせて］いる", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "quality", "term_ja": "質", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "describe", "term_ja": "…の特徴を述べる；…を説明する", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "own", "term_ja": "…を所有する", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "belongings", "term_ja": "所有物（≒ possessions）", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "concentrate on ...", "term_ja": "…に集中する", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "consume", "term_ja": "…を消費する", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "latest", "term_ja": "最新の", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "recommend", "term_ja": "…を勧める", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "recommendation", "term_ja": "勧告；助言", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "face-to-face", "term_ja": "対面の", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "impolite", "term_ja": "失礼な", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "affect ... negatively", "term_ja": "…に悪い影響を及ぼす", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "aspect", "term_ja": "面；特徴", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "reflect on ...", "term_ja": "…を熟考する", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "recollect", "term_ja": "…を思い出す", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "mentally", "term_ja": "精神的に；心の中で", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "highlight", "term_ja": "…を強調する", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "fulfillment", "term_ja": "充足［満足］感", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "in summary", "term_ja": "要約すると", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "non-essential", "term_ja": "不必要な", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "quality time", "term_ja": "（親しい人と過ごす）上質な時間", "section_number": 4, "question_id": "vocabulary" },
+    { "term_en": "rewarding", "term_ja": "価値のある；報われる", "section_number": 4, "question_id": "vocabulary" }
   ]
 }

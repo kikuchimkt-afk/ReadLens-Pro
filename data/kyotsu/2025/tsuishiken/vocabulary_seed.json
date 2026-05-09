@@ -1,0 +1,2899 @@
+{
+  "meta": {
+    "source": "2025 追試験: 大問1–8=official（8-1=8U1–8、8-2=8V1–4）; merge_2025_tsuishiken_section*_vocab_official.py"
+  },
+  "entries": [
+    {
+      "term_en": "stationery",
+      "term_ja": "文房具",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "celebrate",
+      "term_ja": "…を祝う",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "supplies",
+      "term_ja": "用品",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "flyer",
+      "term_ja": "チラシ；びら",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "purchase",
+      "term_ja": "（…を）購入（する）；購入品",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "memo pad",
+      "term_ja": "メモ帳",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "limited to ...",
+      "term_ja": "…に限られた",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "monthly",
+      "term_ja": "1ヵ月間の",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "special",
+      "term_ja": "特売品",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "discount",
+      "term_ja": "（…を）割引（する）",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "available",
+      "term_ja": "利用できる；入手できる",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "delightful",
+      "term_ja": "楽しい；愉快な",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "desktop",
+      "term_ja": "卓上の",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tray",
+      "term_ja": "トレイ；整理箱",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "planner",
+      "term_ja": "スケジュール帳；手帳",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "come in ...",
+      "term_ja": "大きさ・色・種類などで手に入る［売られる］",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "a range of ...",
+      "term_ja": "さまざまな…",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "effectively",
+      "term_ja": "効果的に",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "durable",
+      "term_ja": "耐久性のある；丈夫な",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "erase / erasable",
+      "term_ja": "…を消す／消すことのできる",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "excellent",
+      "term_ja": "非常に優れた",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "decorate",
+      "term_ja": "…を飾る",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "seasonal theme",
+      "term_ja": "季節のテーマ；季題",
+      "section_number": 1,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "host",
+      "term_ja": "〈自宅に留学生を迎え入れる〉ホスト；主人役",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "resident",
+      "term_ja": "住民",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "respondent",
+      "term_ja": "回答者",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in general",
+      "term_ja": "概して",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "majority",
+      "term_ja": "大部分",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "household chores",
+      "term_ja": "家事",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "child raising",
+      "term_ja": "育児；子育て",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "furthermore",
+      "term_ja": "さらに；加えて",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "responsibility",
+      "term_ja": "責任",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "working hours",
+      "term_ja": "労働［勤務］時間",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "favour",
+      "term_ja": "賛成［支持］する",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "awareness",
+      "term_ja": "意識",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "perceive",
+      "term_ja": "…を知覚［認識］する",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "angle",
+      "term_ja": "角度；観点",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "current situation",
+      "term_ja": "現状",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "satisfactory",
+      "term_ja": "満足のゆく",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "encouraging",
+      "term_ja": "励みになる",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "improve",
+      "term_ja": "…を改善する",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "promising",
+      "term_ja": "有望な",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "describe",
+      "term_ja": "…を説明［描写］する",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tasty",
+      "term_ja": "おいしい",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "the following",
+      "term_ja": "次に述べること",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "participant / participate",
+      "term_ja": "参加者／参加する",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "preference",
+      "term_ja": "好み",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "definitely",
+      "term_ja": "絶対に",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "moderately",
+      "term_ja": "適度に；ほどほどに",
+      "section_number": 2,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "gaze",
+      "term_ja": "見つめる",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "cabin",
+      "term_ja": "船室",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "a dream come true",
+      "term_ja": "実現した夢；夢がかなうこと",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "planet",
+      "term_ja": "惑星",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "innovator",
+      "term_ja": "革新者",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tune",
+      "term_ja": "曲；メロディー",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "interrupt",
+      "term_ja": "…をさえぎる",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "thought",
+      "term_ja": "思考",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "approach",
+      "term_ja": "…に近づく",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "departure",
+      "term_ja": "出発",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in person",
+      "term_ja": "直接自分で",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "first things first",
+      "term_ja": "最も大事なことを最初に（しよう）；何はともあれ",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "make sure that ...",
+      "term_ja": "…を確かめる［確実にする］",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "charge",
+      "term_ja": "…を充電する",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "remind oneself",
+      "term_ja": "自分に言い聞かせる",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "double-check",
+      "term_ja": "…を再確認する",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "excellent",
+      "term_ja": "非常に優れた",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "upgrade",
+      "term_ja": "…を改良する",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "latest",
+      "term_ja": "最新の",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "explorer",
+      "term_ja": "探検家",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "Upon hearing ...",
+      "term_ja": "…を聞くと（すぐに）",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "gladly",
+      "term_ja": "喜んで；進んで",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "present A with B",
+      "term_ja": "AにBを贈呈する",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "gear",
+      "term_ja": "道具；装備（≒ equipment）",
+      "section_number": "3M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "one by one",
+      "term_ja": "１人ずつ",
+      "section_number": "3M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "ladder",
+      "term_ja": "ハシゴ",
+      "section_number": "3M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "surface",
+      "term_ja": "表面",
+      "section_number": "3M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "take in",
+      "term_ja": "見てとる；じっくり見る",
+      "section_number": "3M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "amazing",
+      "term_ja": "すばらしい",
+      "section_number": "3M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tap",
+      "term_ja": "軽くたたくこと",
+      "section_number": "3M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "brilliant",
+      "term_ja": "とても鮮やかな",
+      "section_number": "3M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "revision",
+      "term_ja": "修正；変更",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "based on ...",
+      "term_ja": "…に基づいて",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "school night",
+      "term_ja": "翌日学校がある夜",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "assign / assignment",
+      "term_ja": "…を与える；課す／課題",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "as a result",
+      "term_ja": "その結果",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "homework-free",
+      "term_ja": "宿題のない（≒ no-homework）",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "benefit",
+      "term_ja": "恩恵（を得る）",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "lesson materials",
+      "term_ja": "教材",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "thoroughly",
+      "term_ja": "完全に",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "upcoming",
+      "term_ja": "まもなくやって来る",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "concentrate",
+      "term_ja": "集中する",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "go over ...",
+      "term_ja": "…を繰り返す［復習する］",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "prefer to -",
+      "term_ja": "-する方を好む",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "refresh",
+      "term_ja": "…をさわやかにする；元気づける",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "reset",
+      "term_ja": "…を再起動する；修復する",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "motivate O to -",
+      "term_ja": "Oを動機づけて-させる",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "improve",
+      "term_ja": "…を改善する",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "academic performance",
+      "term_ja": "学業成績",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in conclusion",
+      "term_ja": "結論として；要するに",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "review",
+      "term_ja": "…を復習する",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "preview",
+      "term_ja": "…を下検分する；先立って見る",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "content",
+      "term_ja": "内容",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "vague",
+      "term_ja": "あいまいな；漠然とした",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "connect",
+      "term_ja": "つながる",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "summary sentence",
+      "term_ja": "要約文",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "missing",
+      "term_ja": "欠けている",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "propose",
+      "term_ja": "…を提案する",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "preparation",
+      "term_ja": "準備",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "expand",
+      "term_ja": "…を拡大する",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "learning strategies",
+      "term_ja": "学習戦略",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "reflect on ...",
+      "term_ja": "…を熟考する",
+      "section_number": 4,
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "upcoming",
+      "term_ja": "まもなくやってくる",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "festival",
+      "term_ja": "催し；祭り；フェスティバル",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "a variety of ...",
+      "term_ja": "さまざまな…",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "include",
+      "term_ja": "…を含む",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "workshop",
+      "term_ja": "ワークショップ；体験教室",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "organizer",
+      "term_ja": "主催者",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "relate to ...",
+      "term_ja": "…に関係がある；…のことを述べている",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "arrange",
+      "term_ja": "…を手配［準備］する（≒ organize）",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "co-ordinate",
+      "term_ja": "…を調整する",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "specific",
+      "term_ja": "特定の；明確な",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "time frame",
+      "term_ja": "時間枠；期間",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "advertise",
+      "term_ja": "…を宣伝する",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "allow",
+      "term_ja": "〈時間〉を見ておく［見込んでおく］",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "actual",
+      "term_ja": "実際の",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "be superior to ...",
+      "term_ja": "…より優れている",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "accessible",
+      "term_ja": "行きやすい",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "visible",
+      "term_ja": "人目に付く；目立つ",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "accommodate",
+      "term_ja": "…を収容する",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "authorities",
+      "term_ja": "当局；公共事業機関",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "regulations",
+      "term_ja": "規則；規定",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "trash disposal",
+      "term_ja": "ゴミ処理",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "medical attention",
+      "term_ja": "医療；治療",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "handling",
+      "term_ja": "取り扱い",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "storage",
+      "term_ja": "貯蔵",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "safety",
+      "term_ja": "安全",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "require",
+      "term_ja": "…を要求する",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "label",
+      "term_ja": "ラベル",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "allergy",
+      "term_ja": "アレルギー",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "make sure (that) ...",
+      "term_ja": "…を確かめる［確実にする］",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "last",
+      "term_ja": "続く",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "untidy",
+      "term_ja": "乱雑な",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "properly",
+      "term_ja": "きちんと",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "afterward",
+      "term_ja": "その後で",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "essential",
+      "term_ja": "必要不可欠な",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "guarantee",
+      "term_ja": "…を保証する",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "successful",
+      "term_ja": "成功した",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "vital",
+      "term_ja": "きわめて重要な",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "secret ingredient",
+      "term_ja": "秘密の材料；隠し味",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "positive",
+      "term_ja": "肯定的な；前向きの",
+      "section_number": "5M1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "attend",
+      "term_ja": "出席する；通う；行く",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "baked goods",
+      "term_ja": "焼き菓子",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "flower arrangement",
+      "term_ja": "生け花",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "respondent",
+      "term_ja": "回答者",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "multiple",
+      "term_ja": "多数の",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "how about ...?",
+      "term_ja": "…はいかがですか〈提案〉",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "animals for children to play with",
+      "term_ja": "子どもが一緒に遊べる動物",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "florist",
+      "term_ja": "花屋",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "look forward to ...",
+      "term_ja": "…を楽しみに待つ",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "be made of ...",
+      "term_ja": "…で作られて［できて］いる",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "crowded",
+      "term_ja": "混み合った",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "vending machine",
+      "term_ja": "自動販売機",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "out of ...",
+      "term_ja": "…がなくなって",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "provide",
+      "term_ja": "…を供給する",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "uneven",
+      "term_ja": "でこぼこの",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "twist",
+      "term_ja": "…をひねる；くじく",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "thankfully",
+      "term_ja": "ありがたいことに",
+      "section_number": "5M2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "adventure",
+      "term_ja": "冒険",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "by oneself",
+      "term_ja": "自分１人で",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "nervous",
+      "term_ja": "不安で；緊張して",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "favorite",
+      "term_ja": "お気に入りの",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "cookie",
+      "term_ja": "クッキー",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "accompany",
+      "term_ja": "…に付き添う",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "make sure (that) ...",
+      "term_ja": "…を確かめる",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "stranger",
+      "term_ja": "見知らぬ人",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "flash by",
+      "term_ja": "さっと過ぎる",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "suburban",
+      "term_ja": "郊外の",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "rice field",
+      "term_ja": "水田；稲田",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "take over",
+      "term_ja": "引き継ぐ；優勢になる",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "passenger",
+      "term_ja": "乗客",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "middle-aged",
+      "term_ja": "中年の",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "aisle seat",
+      "term_ja": "通路側の座席",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "occupy",
+      "term_ja": "…を使う；占める",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "retreat",
+      "term_ja": "撤退する",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "armrest",
+      "term_ja": "肘掛け",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "shift",
+      "term_ja": "…を移動させる",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "nod",
+      "term_ja": "うなずく",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in reply",
+      "term_ja": "返事として",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "respond",
+      "term_ja": "返答する",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "be cautious of ...",
+      "term_ja": "…に用心する",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "widen",
+      "term_ja": "大きく開く",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "dig around",
+      "term_ja": "手を入れて探す",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "fancy",
+      "term_ja": "高級な",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tempt O to -",
+      "term_ja": "Oを（誘惑して）-する気にさせる",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "go against ...",
+      "term_ja": "…に従わない",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "refuse",
+      "term_ja": "断る",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "ma'am",
+      "term_ja": "奥様",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "shy",
+      "term_ja": "恥ずかしがりの",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "help oneself",
+      "term_ja": "遠慮なく取る",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "breathe in",
+      "term_ja": "息を吸い込む",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "thank you for asking",
+      "term_ja": "お気遣いありがとう",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "silence",
+      "term_ja": "沈黙",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tap",
+      "term_ja": "軽くたたく",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tension",
+      "term_ja": "緊張状態",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "ease",
+      "term_ja": "和らぐ",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "announcement",
+      "term_ja": "案内；アナウンス",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "pull into the station",
+      "term_ja": "駅に着く",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "How about that!",
+      "term_ja": "驚いた！",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "hurriedly",
+      "term_ja": "大急ぎで",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "for a little bit",
+      "term_ja": "少しの時間",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "interfere with ...",
+      "term_ja": "…を妨害する",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "reunion",
+      "term_ja": "再会",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "rush",
+      "term_ja": "急いで行く",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "pleasure",
+      "term_ja": "喜び；楽しさ",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "impressed",
+      "term_ja": "感動して",
+      "section_number": "6N1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "sentiment",
+      "term_ja": "感情",
+      "section_number": "6N2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "emerge",
+      "term_ja": "現れる",
+      "section_number": "6N2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "characteristic",
+      "term_ja": "特徴",
+      "section_number": "6N2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "reject",
+      "term_ja": "…を拒絶する",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "connection",
+      "term_ja": "つながり",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "frustration",
+      "term_ja": "失望；欲求不満",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "interest",
+      "term_ja": "興味；関心",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "awkward",
+      "term_ja": "落ち着かない；気まずい",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "thoughtfulness",
+      "term_ja": "思いやり",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "generous",
+      "term_ja": "気前のよい",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "harm",
+      "term_ja": "害",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "carelessly",
+      "term_ja": "不注意に",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "aggressive",
+      "term_ja": "攻撃的な",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "intelligent",
+      "term_ja": "知的な；聡明な",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "behave",
+      "term_ja": "振る舞う",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "maturely",
+      "term_ja": "大人のように",
+      "section_number": "6N3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "flow",
+      "term_ja": "流れる",
+      "section_number": "7P1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "pipe",
+      "term_ja": "管；パイプ",
+      "section_number": "7P1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "bathing",
+      "term_ja": "水浴び；入浴",
+      "section_number": "7P1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "liquid",
+      "term_ja": "液体",
+      "section_number": "7P1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "distinct",
+      "term_ja": "はっきりわかる",
+      "section_number": "7P1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "makeup",
+      "term_ja": "構造；構成",
+      "section_number": "7P1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in the form of ...",
+      "term_ja": "…の形をして；…状の",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "absorb",
+      "term_ja": "…を吸収する",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "calcium",
+      "term_ja": "カルシウム",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "magnesium",
+      "term_ja": "マグネシウム",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "according to ...",
+      "term_ja": "…によると",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "contain",
+      "term_ja": "…を含む",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "milligram",
+      "term_ja": "ミリグラム",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "mineral",
+      "term_ja": "鉱物；ミネラル",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "per liter",
+      "term_ja": "1リットルにつき",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "further",
+      "term_ja": "それ以上に",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "subdivide",
+      "term_ja": "…を細分化する",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "moderately",
+      "term_ja": "適度に",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "classify A as B",
+      "term_ja": "AをBとして分類する",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in contrast",
+      "term_ja": "対照的に",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "content",
+      "term_ja": "含有量",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "vary",
+      "term_ja": "異なる；変化する",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "location",
+      "term_ja": "場所",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "compare A with B",
+      "term_ja": "AをBと比較する",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "determine",
+      "term_ja": "…を特定［確定］する",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "on the ... side",
+      "term_ja": "多少…気味で",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "whereas",
+      "term_ja": "…だが一方",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tend to -",
+      "term_ja": "-する傾向がある",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "depend more on A than (on) B",
+      "term_ja": "BよりもAに依存する",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "raw water",
+      "term_ja": "原水",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "unpurified",
+      "term_ja": "未浄化の",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "purification",
+      "term_ja": "浄化",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "process",
+      "term_ja": "過程",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "transportation",
+      "term_ja": "輸送",
+      "section_number": "7P2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "variable",
+      "term_ja": "変化するもの；不確定要素",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "affect",
+      "term_ja": "…に影響する",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "include",
+      "term_ja": "…を含む",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "region",
+      "term_ja": "地域；地方",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "urbanization",
+      "term_ja": "都市化",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "underground",
+      "term_ja": "地下の",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "source",
+      "term_ja": "（水）源",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "dissolve",
+      "term_ja": "溶ける",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in addition",
+      "term_ja": "さらに；加えて",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "melt",
+      "term_ja": "溶ける",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "movement",
+      "term_ja": "移動",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "industry",
+      "term_ja": "産業；工業",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "A as well as B",
+      "term_ja": "Bと同様にAも；AのほかにBも",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "infrastructure",
+      "term_ja": "インフラ",
+      "section_number": "7P3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "property",
+      "term_ja": "特質；特性",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "differ",
+      "term_ja": "異なる",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "soap / soapy",
+      "term_ja": "石けん／石けんを含んだ",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "detergent",
+      "term_ja": "洗剤",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "lather",
+      "term_ja": "石けんなどによる泡",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "bubble",
+      "term_ja": "泡",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "skin",
+      "term_ja": "皮膚；肌",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "spot",
+      "term_ja": "斑点；しみ",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "cutlery",
+      "term_ja": "食卓用器具",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "limescale",
+      "term_ja": "水あか",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "substance",
+      "term_ja": "物質",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "restrict",
+      "term_ja": "…を制限する；妨げる",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "discolor",
+      "term_ja": "…を退色［変色］させる",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "damage",
+      "term_ja": "…を損なう",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "appliance",
+      "term_ja": "器具",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "... as well",
+      "term_ja": "…もまた",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "despite",
+      "term_ja": "…にもかかわらず",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "aspect",
+      "term_ja": "側面",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "rate",
+      "term_ja": "格付けされる",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "beneficial",
+      "term_ja": "有益な",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "boost",
+      "term_ja": "…を増大させる",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "intake",
+      "term_ja": "摂取量",
+      "section_number": "7P4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "electricity",
+      "term_ja": "電気",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "rinse out",
+      "term_ja": "水洗いで落ちる",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "efficiently",
+      "term_ja": "効率的に",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "last",
+      "term_ja": "もつ；使える",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "wear out",
+      "term_ja": "すり減る",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "tap water",
+      "term_ja": "水道水",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "soften",
+      "term_ja": "…を軟らかくする",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "device",
+      "term_ja": "装置",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "attach A to B",
+      "term_ja": "AをBに取り付ける",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "remove",
+      "term_ja": "…を取り除く",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "filter / filtration",
+      "term_ja": "…をろ過する／ろ過",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "bead",
+      "term_ja": "ビーズ；じゅず玉",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "positively charged",
+      "term_ja": "正電気を帯びた",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "potassium ion",
+      "term_ja": "カリウムイオン",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "attract",
+      "term_ja": "…を引きつける",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "salty",
+      "term_ja": "塩辛い",
+      "section_number": "7P5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "costly",
+      "term_ja": "費用のかかる",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "maintain",
+      "term_ja": "…を維持する",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "remedy",
+      "term_ja": "解決策；改善法",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "solve",
+      "term_ja": "…を解決する",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "boil",
+      "term_ja": "…を沸かす",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "vinegar",
+      "term_ja": "酢",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "baking soda",
+      "term_ja": "重曹",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "react",
+      "term_ja": "反応する",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "neutralize",
+      "term_ja": "…を中和する",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "supplement",
+      "term_ja": "補足するもの",
+      "section_number": "7P6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "now that ...",
+      "term_ja": "今や…なので",
+      "section_number": "7P7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "mix",
+      "term_ja": "混合（物）；組み合わせ",
+      "section_number": "7P7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "result",
+      "term_ja": "結果",
+      "section_number": "7P8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "factor",
+      "term_ja": "要因；要素",
+      "section_number": "7P8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "increased",
+      "term_ja": "増加した",
+      "section_number": "7P8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "regional",
+      "term_ja": "地域による",
+      "section_number": "7P8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "climate",
+      "term_ja": "気候",
+      "section_number": "7P8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "raindrop",
+      "term_ja": "雨滴",
+      "section_number": "7P8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "details",
+      "term_ja": "詳細な情報",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "characteristic",
+      "term_ja": "特徴",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "ingredient",
+      "term_ja": "材料",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "consumption",
+      "term_ja": "消費",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "spot",
+      "term_ja": "…を見つける",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "get rid of ...",
+      "term_ja": "…を取り除く",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "ineffective",
+      "term_ja": "効果がない",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "positively",
+      "term_ja": "肯定的に；よい方向に",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "effective",
+      "term_ja": "効果的な",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "improve",
+      "term_ja": "…を改善する",
+      "section_number": "7P9",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "pose",
+      "term_ja": "…を引き起こす",
+      "section_number": "8U1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "citizen",
+      "term_ja": "国民；市民",
+      "section_number": "8U1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "safety",
+      "term_ja": "安全",
+      "section_number": "8U1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "advisor",
+      "term_ja": "顧問",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in terms of ...",
+      "term_ja": "…の点で",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "be unusual in that ...",
+      "term_ja": "…という点で珍しい",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in principle",
+      "term_ja": "原則的に",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "apart from ...",
+      "term_ja": "…は別にして",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "nevertheless",
+      "term_ja": "それにもかかわらず",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "boost",
+      "term_ja": "…を増大させる",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "purchase",
+      "term_ja": "…を購入する",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "employ",
+      "term_ja": "…を雇う",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "infrastructure",
+      "term_ja": "インフラ",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "medical",
+      "term_ja": "医療の",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "benefit",
+      "term_ja": "利益；恩恵",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "provide",
+      "term_ja": "…を提供する；もたらす",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "include",
+      "term_ja": "…を含む",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "collaborate with A on B",
+      "term_ja": "BをAと共同で行う",
+      "section_number": "8U2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "urban",
+      "term_ja": "都市の",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "planner",
+      "term_ja": "設計家",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "located",
+      "term_ja": "位置して；存在して",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "ensure (that) ...",
+      "term_ja": "確実に…するようにする",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "economically / economic",
+      "term_ja": "経済的に／経済的な",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "viable",
+      "term_ja": "実行できる",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "man-eating",
+      "term_ja": "人喰いの",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "a sea of ...",
+      "term_ja": "たくさんの…",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "huge",
+      "term_ja": "巨大な",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "risk",
+      "term_ja": "危険；リスク",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "bear",
+      "term_ja": "クマ",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "escape",
+      "term_ja": "逃げる",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "flooding",
+      "term_ja": "洪水",
+      "section_number": "8U3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "prison",
+      "term_ja": "刑務所；監獄",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "imagine",
+      "term_ja": "…を想像する",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "cheetah",
+      "term_ja": "チータ",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "used to -ing",
+      "term_ja": "-することに慣れている",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "distance",
+      "term_ja": "距離",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "lock up",
+      "term_ja": "閉じ込める",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "for the rest of one's life",
+      "term_ja": "その後死ぬまで",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "relatively",
+      "term_ja": "比較的",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "stimulation",
+      "term_ja": "刺激",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "noisy",
+      "term_ja": "騒がしい",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "expose A to B",
+      "term_ja": "AをBにさらす",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "cruel",
+      "term_ja": "残酷な",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "treatment",
+      "term_ja": "扱い",
+      "section_number": "8U4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "perform",
+      "term_ja": "…を行う；果たす",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "relation",
+      "term_ja": "関係",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "politics",
+      "term_ja": "政治",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "whereby",
+      "term_ja": "それによって…",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "loan",
+      "term_ja": "…を貸し出す",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "deal",
+      "term_ja": "取引",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "be symbolic of ...",
+      "term_ja": "…を象徴する",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in demand",
+      "term_ja": "需要がある",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "temporarily",
+      "term_ja": "一時的に",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "swap",
+      "term_ja": "交換する",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "treaty",
+      "term_ja": "条約；協定",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "painting",
+      "term_ja": "絵",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "promote",
+      "term_ja": "…を促進する",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "mutual",
+      "term_ja": "相互の",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "flow",
+      "term_ja": "流れ",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "zoological",
+      "term_ja": "動物学上の",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "improve",
+      "term_ja": "…を改善する",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "global",
+      "term_ja": "全世界の",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "connectivity",
+      "term_ja": "接続性",
+      "section_number": "8U5",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "pandemic",
+      "term_ja": "世界的な流行病；パンデミック",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "migration",
+      "term_ja": "移住；移動",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "virus",
+      "term_ja": "ウイルス",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "so-called",
+      "term_ja": "いわゆる",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "live",
+      "term_ja": "生きている",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "potential / potentially",
+      "term_ja": "潜在的な／潜在的に",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "source",
+      "term_ja": "源",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "given",
+      "term_ja": "…を考慮に入れると",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "disruption",
+      "term_ja": "混乱；中断",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "bring about ...",
+      "term_ja": "…をもたらす",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "guarantee",
+      "term_ja": "…を保証する",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "proper",
+      "term_ja": "適切な",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "procedure",
+      "term_ja": "方法；手順",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "leap / jumping",
+      "term_ja": "跳躍；ジャンプ",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "species",
+      "term_ja": "（分類上の）種",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "occur",
+      "term_ja": "起こる",
+      "section_number": "8U6",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "summarize",
+      "term_ja": "…を要約する",
+      "section_number": "8U7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "mistreatment",
+      "term_ja": "不当な扱い；虐待",
+      "section_number": "8U7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "observation",
+      "term_ja": "観察",
+      "section_number": "8U7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "suffering",
+      "term_ja": "苦しむこと",
+      "section_number": "8U7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "infectious",
+      "term_ja": "感染性の",
+      "section_number": "8U7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "harm",
+      "term_ja": "害",
+      "section_number": "8U7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "protect",
+      "term_ja": "…を保護する",
+      "section_number": "8U7",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "actively / active",
+      "term_ja": "積極的に／積極的な",
+      "section_number": "8U8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "maintain",
+      "term_ja": "…を維持する",
+      "section_number": "8U8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "welfare",
+      "term_ja": "幸福",
+      "section_number": "8U8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "priority",
+      "term_ja": "優先事項",
+      "section_number": "8U8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "knowledge",
+      "term_ja": "知識",
+      "section_number": "8U8",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "positively / positive",
+      "term_ja": "肯定的に；積極的に／肯定的な；積極的な",
+      "section_number": "8V1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "conclusion",
+      "term_ja": "結論",
+      "section_number": "8V1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "resource",
+      "term_ja": "資源；財源",
+      "section_number": "8V1",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "according to ...",
+      "term_ja": "…によると",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "publish",
+      "term_ja": "…を出版する；発表する",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "conservation",
+      "term_ja": "保護；保全",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "regard A as B",
+      "term_ja": "AをBとみなす",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "(be) threatened with ...",
+      "term_ja": "…の危機に瀕している",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "extinction / extinct",
+      "term_ja": "絶滅／絶滅した",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "compared to ...",
+      "term_ja": "…と比べて",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "approximately",
+      "term_ja": "およそ",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "prevent O from -ing",
+      "term_ja": "Oが－するのを妨げる",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "endangered",
+      "term_ja": "絶滅の危機にさらされた",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "restore",
+      "term_ja": "…を回復する",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "method",
+      "term_ja": "方法；方式",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "adopt",
+      "term_ja": "…を採用する",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "on-site",
+      "term_ja": "現場での",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "off-site",
+      "term_ja": "現場を離れた",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "the former [latter]",
+      "term_ja": "前者［後者］",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "preserve",
+      "term_ja": "…を保存する",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "surroundings",
+      "term_ja": "環境",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "breed",
+      "term_ja": "…を繁殖させる；飼育する",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "in captivity",
+      "term_ja": "とらわれの身で；動物園に入れられて",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "aim to -",
+      "term_ja": "－しようと試みる",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "be involved in ...",
+      "term_ja": "…に参加している［関わっている］",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "disappear",
+      "term_ja": "姿を消す",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "due to ...",
+      "term_ja": "…が原因で",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "effort",
+      "term_ja": "努力",
+      "section_number": "8V2",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "kid",
+      "term_ja": "子ども",
+      "section_number": "8V3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "aged X (years)",
+      "term_ja": "X歳の",
+      "section_number": "8V3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "check",
+      "term_ja": "…にチェックの印をつける",
+      "section_number": "8V3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "including",
+      "term_ja": "…を含めて",
+      "section_number": "8V3",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "rare",
+      "term_ja": "珍しい；まれな",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "reappear",
+      "term_ja": "再び現れる",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "fund",
+      "term_ja": "…に資金を提供する",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "path",
+      "term_ja": "（小）道",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "thanks to ...",
+      "term_ja": "…のおかげで",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "on the rise",
+      "term_ja": "増加している",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "broad",
+      "term_ja": "広い",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "abandoned",
+      "term_ja": "捨てられた",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "popular / popularity",
+      "term_ja": "人気のある／人気",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "commonly",
+      "term_ja": "一般に",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "reportedly",
+      "term_ja": "伝えられるところによると",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "unique",
+      "term_ja": "独特の",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "a variety of ...",
+      "term_ja": "いろいろの...",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    },
+    {
+      "term_en": "prefer",
+      "term_ja": "より好む",
+      "section_number": "8V4",
+      "question_id": "vocabulary"
+    }
+  ]
+}

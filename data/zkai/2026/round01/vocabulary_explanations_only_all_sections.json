@@ -1,0 +1,1340 @@
+{
+  "meta": {
+    "exam": "Z会 共通テスト実戦模試 2026年 第1回",
+    "source": "data/zkai/2026/round01/data.json（第1〜5問 vocabulary.passage 準拠・例文は手作業）",
+    "sections_in_data": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "section1_passage_vocab": {
+      "label": "第1問 主な語彙（パンフレット・防災キット）",
+      "count": 8
+    },
+    "section2_passage_vocab": {
+      "label": "第2問 主な語彙（ヘルスチャット・ストレス）",
+      "count": 13
+    },
+    "section3_passage_vocab": {
+      "label": "第3問 主な語彙（ベイクセール・物語）",
+      "count": 17
+    },
+    "section4_passage_vocab": {
+      "label": "第4問 主な語句（エッセイ・クマとの共存）",
+      "count": 21
+    },
+    "section5_passage_vocab": {
+      "label": "第5問 語句（識字イベント・メール）",
+      "count": 28
+    }
+  },
+  "entries": [
+    {
+      "term_en": "loved one",
+      "term_ja": "〈名〉最愛の人（家族などを指す）",
+      "example_en": "The pamphlet headline reads, “Protect your loved ones!”",
+      "example_ja": "パンフレットの見出しには「大事な人を守りましょう！」とある。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "emergency survival kit",
+      "term_ja": "〈名〉緊急サバイバルキット，非常用持ち出しキット",
+      "example_en": "We put bottled water and a flashlight in our emergency survival kit.",
+      "example_ja": "ペットボトルの水と懐中電灯を、非常用サバイバルキットに入れました。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "flooding",
+      "term_ja": "〈名〉氾濫，出水",
+      "example_en": "Some rivers rise quickly after heavy rain, and flooding can follow within hours.",
+      "example_ja": "豪雨のあと川の水位は急に上がり、数時間以内に氾濫が起きることがあります。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "inessential",
+      "term_ja": "〈形〉絶対に必要というわけではない",
+      "example_en": "Candies are inessential when space in your bag is tight.",
+      "example_ja": "かばんの中の余裕がないとき、キャンディーはなくてもよい品だ。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "store",
+      "term_ja": "〈動〉〜を保管する",
+      "example_en": "Store the kit by the front door so you will not forget it.",
+      "example_ja": "忘れないように、キットは玄関のそばに保管しましょう。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "grab",
+      "term_ja": "〈動〉〜を（不意に）つかむ",
+      "example_en": "In an emergency, you must be able to grab the kit and go.",
+      "example_ja": "緊急時には、キットをつかんですぐに出られるようにしておきたい。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "exchange A for B",
+      "term_ja": "〈表現〉AをBと取り替える",
+      "example_en": "When you check the kit, exchange old snacks for new ones.",
+      "example_ja": "キットを点検するときは、古いおやつを新しいものと取り替えましょう。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "replace",
+      "term_ja": "〈動〉〜を取り替える",
+      "example_en": "Replace any expired medicine as soon as you notice the date.",
+      "example_ja": "期限が切れている薬に気づいたら、すぐに取り替えましょう。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 1,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section1_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "psychologist",
+      "term_ja": "〈名〉心理学者",
+      "example_en": "On Health Chat, a psychologist spoke alongside a brain researcher.",
+      "example_ja": "『ヘルスチャット』では、脳研究者と並んで心理学者も話した。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "wellness",
+      "term_ja": "〈名〉健康（であること），ウェルネス（病気の有無だけでなく，生活の質が高い状態にあることを含む。）",
+      "example_en": "A wellness expert said yoga and massage help manage stress.",
+      "example_ja": "ウェルネス専門家は、ヨガとマッサージがストレス管理に役立つと述べた。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "priority",
+      "term_ja": "〈名〉優先事項",
+      "example_en": "All three guests agreed that getting enough sleep was a priority.",
+      "example_ja": "三人のゲストは皆、十分な睡眠をとることが優先事項だと認めた。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "caffeine",
+      "term_ja": "〈名〉カフェイン",
+      "example_en": "A healthy diet means avoiding too much sugar and caffeine.",
+      "example_ja": "健康的な食事とは、砂糖やカフェインの摂りすぎを避けることも含む。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "ups and downs",
+      "term_ja": "〈名〉上り下り，浮き沈み",
+      "example_en": "Exercise builds a body that handles the ups and downs of life.",
+      "example_ja": "運動は、人生の浮き沈みにうまく対処できる体をつくるのに役立つ。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "massage",
+      "term_ja": "〈名〉マッサージ",
+      "example_en": "The wellness expert called massage an excellent stress reliever.",
+      "example_ja": "ウェルネス専門家は、マッサージを優れたストレス解消法だと言った。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "chemistry",
+      "term_ja": "〈名〉化学的性質",
+      "example_en": "The researcher said understanding brain chemistry is key to mental health.",
+      "example_ja": "その研究者は、脳の化学的性質を理解することがメンタルヘルスの鍵だと述べた。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "anti-stress",
+      "term_ja": "〈形〉ストレス予防の",
+      "example_en": "Sunlight and hobbies help your body release anti-stress chemicals.",
+      "example_ja": "日光や趣味は、体にストレスを防ぐ化学物質を出すのに役立つ。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "dopamine",
+      "term_ja": "〈名〉ドーパミン",
+      "example_en": "The article lists dopamine among chemicals that lift your mood.",
+      "example_ja": "その記事では、気分を高める化学物質としてドーパミンにも触れている。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "serotonin",
+      "term_ja": "〈名〉セロトニン",
+      "example_en": "Serotonin is often mentioned together with dopamine in brain science.",
+      "example_ja": "脳科学の話では、セロトニンはドーパミンと一緒に語られることが多い。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in oneself",
+      "term_ja": "〈表現〉それ自体（〜自体）",
+      "example_en": "To him, yoga in itself was simply another way to exercise.",
+      "example_ja": "彼にとってヨガ自体は、単に運動の別の形にすぎなかった。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "tackle",
+      "term_ja": "〈動〉〜に立ち向かう",
+      "example_en": "Talking with friends often helps people tackle stress more calmly.",
+      "example_ja": "友人と話すことは、人がストレスにより落ち着いて立ち向かうのを助ける。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "supplement",
+      "term_ja": "〈名〉サプリメント，栄養補助剤",
+      "example_en": "The report talks about natural brain chemicals, not vitamin supplements.",
+      "example_ja": "そのレポートは体内でつくられる物質について述べており、ビタミン剤の話ではない。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 2,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section2_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "bake sale",
+      "term_ja": "〈名〉ベイクセール（学校や教会の資金集めなどのために手作りの菓子などを売る催し）",
+      "example_en": "The International Students’ Cooking Club held a bake sale on Day 1 of the festival.",
+      "example_ja": "留学生料理クラブは学園祭初日にベイクセールを開いた。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "bake",
+      "term_ja": "〈名・動〉オーブンで焼かれた料理；（パン・ケーキなどを）焼く",
+      "example_en": "The club had spent all morning baking cookies for the stall.",
+      "example_ja": "クラブは屋台用のクッキーを焼くのに午前をすべて使っていた。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "jaggery",
+      "term_ja": "〈名〉ジャガリ（東南アジアでクジャクヤシの樹液から作る生成されていない赤砂糖）",
+      "example_en": "Nisha’s cookies were sweetened with jaggery and cardamom.",
+      "example_ja": "ニーシャのクッキーはジャガリとカルダモンで味をつけていた。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "cardamom",
+      "term_ja": "〈名〉カルダモン（スパイスの1種）",
+      "example_en": "The smell of cardamom drifted from their trays of cookies.",
+      "example_ja": "トレイからカルダモンの香りが漂ってきた。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "represent",
+      "term_ja": "〈動〉〜を代表する",
+      "example_en": "Nisha’s cookies represented her culture; mine showcased Turkish flavours.",
+      "example_ja": "ニーシャのクッキーは彼女の文化を表し、私のものはトルコの味を披露した。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "lokum",
+      "term_ja": "〈名〉ロクム（トルコの伝統的なお菓子）",
+      "example_en": "Fatma made lokum and kaymak cookies to share her favourites.",
+      "example_ja": "ファトマは好物を分け合うためにロクムとカイマックのクッキーを作った。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "kaymak",
+      "term_ja": "〈名〉カイマック（トルコや中央アジアの伝統的な乳製品）",
+      "example_en": "Kaymak is a rich dairy product often enjoyed with Turkish sweets.",
+      "example_ja": "カイマックはトルコの菓子と一緒に食べられることの多い濃厚な乳製品だ。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "showcase",
+      "term_ja": "〈動〉〜を展示する〔披露する〕",
+      "example_en": "My cookies were meant to showcase lokum, kaymak, and Turkish tastes.",
+      "example_ja": "私のクッキーはロクムやカイマック、トルコの味を披露するためのものだった。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "Turkish",
+      "term_ja": "〈形〉トルコの",
+      "example_en": "Visitors were curious once they understood the Turkish ingredients.",
+      "example_ja": "トルコの食材の説明がわかると、来場者は興味を持ってくれた。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "Vegemite",
+      "term_ja": "〈名〉ベジマイト（オーストラリアのペースト状の発酵食品）",
+      "example_en": "Scott was confident about his Australian Vegemite pastries.",
+      "example_ja": "スコットはオーストラリアのベジマイト入りペストリーに強い自信があった。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "pastry",
+      "term_ja": "〈名〉ペストリー，（パイ・タルトなどの）焼き菓子",
+      "example_en": "The table was covered with cookies and pastries from many countries.",
+      "example_ja": "テーブルは各国から持ち寄ったクッキーとペストリーでいっぱいだった。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "glance at ~",
+      "term_ja": "〈表現〉〜をちらっと見る",
+      "example_en": "On Day 1, people only glanced at our table and walked on.",
+      "example_ja": "初日、人々は私たちのテーブルをちらりと見て通り過ぎた。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "pack up ~",
+      "term_ja": "〈表現〉〜を荷造りする〔片づける〕",
+      "example_en": "That evening we packed up the unsold trays in silence.",
+      "example_ja": "その夜、私たちは売れ残ったトレーを沈んだ気持ちで片づけた。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "ingredient",
+      "term_ja": "〈名〉材料，食材",
+      "example_en": "Posters explained each ingredient’s origins, popularity, and health benefits.",
+      "example_ja": "ポスターには各食材の産地や人気、健康効果が書かれていた。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "origin",
+      "term_ja": "〈名〉起源，原産（地）",
+      "example_en": "Knowing the origin of a spice helped customers feel less hesitant.",
+      "example_ja": "スパイスの産地がわかると、客は試すのをためらわなくなった。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "adventurous",
+      "term_ja": "〈形〉冒険好きな",
+      "example_en": "Even Scott’s Vegemite pastries found a few adventurous customers.",
+      "example_ja": "スコットのベジマイトのペストリーを試す冒険好きな客も、何人か現れた。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "description",
+      "term_ja": "〈名〉説明（※問2⑤の語）",
+      "example_en": "Clearer descriptions on the posters brought people back to buy more.",
+      "example_ja": "ポスターの説明がわかりやすくなると、客はまた買いに戻ってきた。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 3,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section3_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "coexist",
+      "term_ja": "〈動〉共存する（名詞形は coexistence）",
+      "example_en": "The essay argues that humans can coexist with bears if towns plan wisely.",
+      "example_ja": "そのエッセイは、町が賢く計画すれば人はクマと共存できると主張している。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "residential area",
+      "term_ja": "〈名〉住宅地",
+      "example_en": "More bears are wandering into residential areas at dusk.",
+      "example_ja": "夕暮れ時に住宅地へ迷い込むクマが増えている。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "population",
+      "term_ja": "〈名〉集団，個体数",
+      "example_en": "Conflict rises where the bear population meets dense human settlement.",
+      "example_ja": "クマの個体数が人の密集地に近づくと、衝突が起きやすい。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "property",
+      "term_ja": "〈名〉土地；建物",
+      "example_en": "Bears may damage property while looking for leftover fruit.",
+      "example_ja": "クマは残りの果実を探すとき、建物や敷地を傷つけることがある。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "invasion",
+      "term_ja": "〈名〉侵入",
+      "example_en": "Nighttime invasion of sheds has alarmed farmers in the valley.",
+      "example_ja": "夜間の物置への侵入が谷間の農家を不安にさせている。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "moon bear",
+      "term_ja": "〈名〉ツキノワグマ（Asian black bear とも呼ばれる）",
+      "example_en": "The moon bear spreads seeds as it feeds on wild fruit.",
+      "example_ja": "ツキノワグマは山の果実を食べながら種子をまき散らす。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "ecosystem",
+      "term_ja": "〈名〉生態系",
+      "example_en": "Protecting bears helps keep the mountain ecosystem balanced.",
+      "example_ja": "クマを守ることは山の生態系の均衡を保つのに役立つ。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "electronic tagging",
+      "term_ja": "〈名〉電子タグを付けること",
+      "example_en": "Electronic tagging allows teams to react before bears reach suburbs.",
+      "example_ja": "電子タグ付けにより、クマが郊外に入る前に対応できる。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "locate",
+      "term_ja": "〈動〉〜の場所を突き止める",
+      "example_en": "Radar helps rangers locate a bear moving toward a village.",
+      "example_ja": "レーダーは村へ向かうクマの居場所を突き止めるのに役立つ。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "scare ~ away",
+      "term_ja": "〈表現〉〜を脅して追い払う",
+      "example_en": "Noise-makers can scare a young bear away from a playground.",
+      "example_ja": "音を出す装置は、幼いクマを遊び場から追い払うのに使われうる。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "attractiveness",
+      "term_ja": "〈名〉魅力",
+      "example_en": "Cities try to lower the attractiveness of garbage dumps to wildlife.",
+      "example_ja": "自治体はゴミ捨て場が野生動物にとっての魅力を下げようとする。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "dump",
+      "term_ja": "〈動〉〜を捨てる",
+      "example_en": "Strong bins stop bears from eating food people dump outside.",
+      "example_ja": "頑丈なゴミ箱は、人が外に捨てた食べ物をクマが食べるのを防ぐ。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "trim",
+      "term_ja": "〈動〉〜を刈り取る",
+      "example_en": "Volunteers trim old fruit trees in empty lots near the forest edge.",
+      "example_ja": "ボランティアは森のふちの空き地にある老いた果樹を刈り込む。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "abandoned",
+      "term_ja": "〈形〉放棄された",
+      "example_en": "Bears hide in tall grass around abandoned farmhouses.",
+      "example_ja": "クマは放棄された農家の周りの高い草に隠れる。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "discourage O from doing",
+      "term_ja": "〈表現〉Oに…することをやめさせる",
+      "example_en": "Electric fences discourage bears from raiding cornfields.",
+      "example_ja": "電気柵はクマがトウモロコシ畑を荒らすのを思いとどまらせる。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "settle",
+      "term_ja": "〈動〉住みつく",
+      "example_en": "Thick brush lets bears settle within meters of a road.",
+      "example_ja": "茂みが濃いと、クマは道路のすぐ近くに住みつく。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "come across ~",
+      "term_ja": "〈表現〉〜に遭遇する",
+      "example_en": "If you come across a bear on a trail, speak calmly and retreat.",
+      "example_ja": "山道でクマに遭遇したら、落ち着いた声で後ずりしなさい。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "conduct",
+      "term_ja": "〈動〉〜を行う",
+      "example_en": "The town will conduct patrols when bear sightings spike.",
+      "example_ja": "目撃情報が急増したとき、町はパトロールを行う。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "be frightened of ~",
+      "term_ja": "〈表現〉〜を怖がる（※問2④の語）",
+      "example_en": "Food-conditioned bears may not be frightened of humans.",
+      "example_ja": "餌付けされたクマは、人を怖がらないことがある。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "get rid of ~",
+      "term_ja": "〈表現〉〜を取り除く（※問4②の語）",
+      "example_en": "The strategy aims to get rid of food smells near bus stops.",
+      "example_ja": "その方策は、バス停周辺の食べ物の臭いをなくすことを目指す。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "element",
+      "term_ja": "〈名〉要素（※問4②の語）",
+      "example_en": "Each risky element—open trash, fallen fruit—should be addressed.",
+      "example_ja": "開いたゴミ、落ちた果実など、危険な要素はそれぞれ手を打つべきだ。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 4,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section4_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "senior",
+      "term_ja": "〈名〉（高校・大学の）最上級生",
+      "example_en": "As a high school senior, I help organize the library literacy event.",
+      "example_ja": "私は高校の最上級生として、図書館の識字イベントの企画を手伝っている。",
+      "flashcard_order": 0,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "literacy",
+      "term_ja": "〈名〉読み書き能力",
+      "example_en": "The literacy event welcomes up to twelve children under nine.",
+      "example_ja": "その識字イベントは9歳未満の子どもを最大12名まで迎える。",
+      "flashcard_order": 1,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "librarian",
+      "term_ja": "〈名〉（図書館の）司書",
+      "example_en": "Ms. Murphy, our librarian, replied with detailed seating advice.",
+      "example_ja": "司書のマーフィーさんは、座席について詳しい助言つきで返信してくれた。",
+      "flashcard_order": 2,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in charge",
+      "term_ja": "〈形〉担当の",
+      "example_en": "I wrote to the librarian in charge of the children's section.",
+      "example_ja": "私は児童コーナーの担当の司書にメールを書いた。",
+      "flashcard_order": 3,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "upcoming",
+      "term_ja": "〈形〉来たる",
+      "example_en": "I am glad to help with the upcoming August event at the library.",
+      "example_ja": "8月の来たる図書館でのイベントのお手伝いができてうれしい。",
+      "flashcard_order": 4,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "session",
+      "term_ja": "〈名〉会合，セッション，〜の時間",
+      "example_en": "The morning session is titled “Understanding stories.”",
+      "example_ja": "午前の会のタイトルは「物語を理解する」だ。",
+      "flashcard_order": 5,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "predict",
+      "term_ja": "〈動〉予測する",
+      "example_en": "One activity is called “Predicting from pictures.”",
+      "example_ja": "あるアクティビティは「絵で予想する」というタイトルだ。",
+      "flashcard_order": 6,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "application",
+      "term_ja": "〈名〉申し込み",
+      "example_en": "Parents' contact details are saved when they complete the online application.",
+      "example_ja": "保護者の連絡先は、オンラインの申し込みを終えたときに保存される。",
+      "flashcard_order": 7,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "remain C",
+      "term_ja": "〈表現〉Cのままでいる",
+      "example_en": "The building will remain open while the workshop runs in the kids' corner.",
+      "example_ja": "ワークショップが子どもコーナーで行われている間も、建物は開いたままだ。",
+      "flashcard_order": 8,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "remaining",
+      "term_ja": "〈形〉残りの",
+      "example_en": "I asked what to call the remaining two afternoon activities.",
+      "example_ja": "午後に残りの2つのアクティビティを何と呼ぶかたずねた。",
+      "flashcard_order": 9,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "arrange",
+      "term_ja": "〈動〉〜を整える",
+      "example_en": "We still had to arrange tables and chairs for twelve children.",
+      "example_ja": "12人の子どものためにテーブルと椅子をどう整えるかはまだ決まっていなかった。",
+      "flashcard_order": 10,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "confirm",
+      "term_ja": "〈動〉〜を確認する",
+      "example_en": "Please confirm whether my bullet points about pick-up times are right.",
+      "example_ja": "お迎えの時間など、私が列挙した点が正しいか確認してください。",
+      "flashcard_order": 11,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "to be honest",
+      "term_ja": "〈副・表現〉正直に言うと",
+      "example_en": "To be honest, I have not spent much time minding young children.",
+      "example_ja": "正直に言うと、幼い子どもの世話をした経験はあまりない。",
+      "flashcard_order": 12,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "representative",
+      "term_ja": "〈名〉代表（者）",
+      "example_en": "I signed the email “Volunteer Group Representative.”",
+      "example_ja": "メールの署名は「ボランティア団体代表」にした。",
+      "flashcard_order": 13,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "allocate",
+      "term_ja": "〈動〉〜を割り当てる",
+      "example_en": "Murphy said we had allocated the activities across the schedule well.",
+      "example_ja": "マーフィーさんは、時間割にアクティビティをよく割り当てたと言ってくれた。",
+      "flashcard_order": 14,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "accessible to ~",
+      "term_ja": "〈表現〉〜が利用可能な",
+      "example_en": "Because the event uses only the children's area, the rest stays accessible to the public.",
+      "example_ja": "イベントは児童コーナーだけで行われるので、他の場所は一般にも利用できる。",
+      "flashcard_order": 15,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "accommodate",
+      "term_ja": "〈動〉〜を受け入れる",
+      "example_en": "Two librarians cannot safely accommodate more than twelve guests.",
+      "example_ja": "司書2人では、12人を超える参加者を安全に受け入れることはできない。",
+      "flashcard_order": 16,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "in reference to ~",
+      "term_ja": "〈表現〉〜に関して",
+      "example_en": "In reference to parents' phone numbers, you were right about the online form.",
+      "example_ja": "保護者の電話番号に関しては、オンラインフォームの件でおっしゃる通りだ。",
+      "flashcard_order": 17,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "fill out ~",
+      "term_ja": "〈表現〉〜を記入する",
+      "example_en": "Contact data is stored when parents fill out the web form.",
+      "example_ja": "保護者がウェブのフォームに記入したときに連絡先が保存される。",
+      "flashcard_order": 18,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "watch O do",
+      "term_ja": "〈表現〉Oが…するのを見る",
+      "example_en": "Murphy wants parents to watch their kids present artwork at the end.",
+      "example_ja": "マーフィーさんは、最後に保護者が子どもの作品発表を見られるようにしたいと言う。",
+      "flashcard_order": 19,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "as well",
+      "term_ja": "〈副〉同様に",
+      "example_en": "We could eat on the terrace, or use the picnic tables outside as well.",
+      "example_ja": "テラスで食べてもいいし、外のピクニックテーブルも同様に使える。",
+      "flashcard_order": 20,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "go with ~",
+      "term_ja": "〈表現〉〜と調和する",
+      "example_en": "Children will draw scenes that go with sentences in the storybook.",
+      "example_ja": "子どもたちは、物語の文に合った場面を描く。",
+      "flashcard_order": 21,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "regarding",
+      "term_ja": "〈前〉〜に関して",
+      "example_en": "Regarding lunch, Murphy suggested picnic tables or the terrace.",
+      "example_ja": "昼食に関して、マーフィーさんはピクニックテーブルかテラスを提案した。",
+      "flashcard_order": 22,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "attach",
+      "term_ja": "〈動〉〜を添付する",
+      "example_en": "She attached a diagram that showed how to place the tables.",
+      "example_ja": "彼女はテーブルの配置を示した図を添付してくれた。",
+      "flashcard_order": 23,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "diagram",
+      "term_ja": "〈名〉図表",
+      "example_en": "Open the seating diagram before you move any furniture.",
+      "example_ja": "家具を動かす前に座席の図表を開いてください。",
+      "flashcard_order": 24,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "seating",
+      "term_ja": "〈名〉座席（の配置）",
+      "example_en": "The seating plan pairs two square tables for six children.",
+      "example_ja": "座席の案では正方形のテーブル2台をくっつけて6人が座る。",
+      "flashcard_order": 25,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "reconsider",
+      "term_ja": "〈動〉〜を再考する（※問3の語）",
+      "example_en": "Murphy thinks we should reconsider the 4:00 p.m. parent pickup time.",
+      "example_ja": "マーフィーさんは午後4時の保護者のお迎えを再考すべきだと考えている。",
+      "flashcard_order": 26,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    },
+    {
+      "term_en": "supplies",
+      "term_ja": "〈名〉（必要な）用品（※問5Aの語）",
+      "example_en": "The exam's choice A mentioned art supplies, but neither email did.",
+      "example_ja": "試問の選択肢Aは美術の用品に触れていたが、どちらのメールにもない。",
+      "flashcard_order": 27,
+      "occurrences": [
+        {
+          "section_number": 5,
+          "question_id": "vocabulary",
+          "answer_number": null,
+          "source": "zkai2026_round01_section5_passage"
+        }
+      ]
+    }
+  ]
+}

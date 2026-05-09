@@ -12,7 +12,9 @@
       2,
       3,
       4,
-      5
+      5,
+      "6A",
+      "6B"
     ],
     "section_list": [
       1,
@@ -228,7 +230,16 @@
                 "ja": "正解は①。「Instructions」に「Fill in the form below and hand it in to your teacher today.（以下のフォームに記入して、本日、先生に渡してください）」とあり、設問の the bottom part は the form below を言い換えたもの。\n②「公演についてもっと調べる」は本文にない。\n③「自分の決定を先生に話す」は、話すのではなく用紙で提出する。\n④「自分の名前を書いて、自分の選択を説明する」は、チェックマークを入れるだけで説明は不要。",
                 "evidence_sentences": [
                   "1a_s10"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 1a_s10 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 1。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -267,7 +278,16 @@
                 "evidence_sentences": [
                   "1a_s3",
                   "1a_s8"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 1a_s3・1a_s8 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 4。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             }
           ]
@@ -416,7 +436,16 @@
                   "1b_s5",
                   "1b_s6",
                   "1b_s7"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 1b_s5・1b_s6・1b_s7 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 3。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -456,7 +485,16 @@
                   "1b_s5",
                   "1b_s6",
                   "1b_s7"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 1b_s5・1b_s6・1b_s7 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 4。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -494,7 +532,16 @@
                 "ja": "正解は③。Step 2「We'll contact you to set up an interview to assess your English ability and ask about your course preference.（皆さんの英語能力を評価し、ご希望のコースについて伺うための面接を設定します）」とあり、面接による英語の能力テストがある。\n①「英語講師に電話連絡する」≫本文にない。\n②「英語の筆記試験を受ける」≫筆記試験ではなく面接試験である。\n④「英語スピーチのトピックが送られる」≫本文にない。",
                 "evidence_sentences": [
                   "1b_s9"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 1b_s9 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 3。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             }
           ]
@@ -727,7 +774,16 @@
                   "2a_s5",
                   "2a_s6",
                   "2a_s7"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2a_s1・2a_s2・2a_s3・2a_s4・2a_s5・2a_s6・2a_s7 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 2。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -765,7 +821,16 @@
                 "ja": "正解は②。本文・全訳の問2(2)。状況設定の問2(1)で「足が痛くなる」というあなたの問題の解決に役立つ利点はBetter Balance（個人対応の足のサポート）なので、②が正解。\n①「定期的な運動をもっとするようになる」≫足の痛みという問題の解決にならない。\n③「歩く速さを知る」≫問題の解決にならない。\n④「履いているとかっこよく見える」≫見た目が素晴らしいというコメントはあるが、問題の解決にならない。",
                 "evidence_sentences": [
                   "2a_s8"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2a_s8 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 2。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -803,7 +868,16 @@
                 "ja": "正解は②。全訳の問3。②の顧客は有料機能を使っていないのだから、文中の「基本的な機能」＝「無料機能」は使いやすいと言える。\n①「アプリが早歩きを促す」≫コメントにない。\n③「靴は購入する価値がある」≫コメントにない。\n④「靴が自転車をこぐスピードを上げる」≫自転車に乗る時も靴を履くと言っているだけ。",
                 "evidence_sentences": [
                   "2a_s18"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2a_s18 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 2。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -842,7 +916,16 @@
                 "evidence_sentences": [
                   "2a_s11",
                   "2a_s12"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2a_s11・2a_s12 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 4。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -880,7 +963,16 @@
                 "ja": "正解は①。顧客コメント「I love my pair now, but it took me several days to get used to them.（今は自分の靴をとても気に入っているが、靴に慣れるまで数日かかった）」が経験談から①の「履き慣れる時間に余裕を持つこと」を勧めていると考える。get used to ＝ get accustomed to はいずれも「～に慣れる」の意味。\n②「体重を減らすのに役立つウォッチを買うこと」≫体重が減ったコメントはあるが、ウォッチに言及していない。\n③「靴を履く前にアプリに接続すること」≫コメントにない。\n④「iサポートの高度な機能のためにお金を払うこと」≫「高度な機能は買わない」と言っている。",
                 "evidence_sentences": [
                   "2a_s14"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2a_s14 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 1。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             }
           ]
@@ -1032,7 +1124,16 @@
                 "ja": "正解は④。本文・全訳の問1。「We started this activity to help students use their commuting time more effectively.（生徒が通学時間をもっと有効に使うのに役立つように、この活動を始めました）」とある。文中のthis activity はCommuting Challengeを指す。\n①「もっとはやく通学する」≫本文にない。\n②「テストの点数を上げる」≫目的ではなく、ある生徒の結果である。\n③「英語の授業をもっとうまく運営する」≫本文にない。",
                 "evidence_sentences": [
                   "2b_s4"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2b_s4 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 4。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -1071,7 +1172,16 @@
                 "evidence_sentences": [
                   "2b_s5",
                   "2b_s6"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2b_s5・2b_s6 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 1。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -1142,7 +1252,16 @@
                 "evidence_sentences": [
                   "2b_s9",
                   "2b_s12"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2b_s9・2b_s12 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 1。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -1180,7 +1299,16 @@
                 "ja": "正解は①。本文・全訳の問4からKFのコメント。〈should have＋過去分詞〉は「…するべきだったのに」、①の〈could have＋過去分詞〉は「…できただろう」の意味。\n②「電車は本を読むのに良い場所だった」≫SSが電車で本を読めなかったと書いている。\n③「学習のためのオーディオ教材がたくさんあった」≫SSがオーディオ教材は十分なかったと書いている。\n④「娯楽のためのビデオを見ることは時間が速く過ぎるのを助けた」≫MNが見ていたのは娯楽用ではなく、授業の理解に役立つもの。",
                 "evidence_sentences": [
                   "2b_s10"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2b_s10 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 1。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -1224,7 +1352,16 @@
                 "evidence_sentences": [
                   "2b_s7",
                   "2b_s12"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 2b_s7・2b_s12 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 2。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             }
           ]
@@ -1370,7 +1507,16 @@
                   "3a_s3",
                   "3a_s4",
                   "3a_s5"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "図と本文を対応させる問題です。図のラベル・位置関係と本文の語句を一つずつ照合しましょう。",
+                  "points": [
+                    "まず 3a_s2・3a_s3・3a_s4・3a_s5 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 2。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "図だけで決めず、本文の該当文と突き合わせて最終判断する。"
+                  ]
+                }
               },
               "figure_image": {
                 "src": "images/s3a_q1_choices.png",
@@ -1413,7 +1559,16 @@
                   "3a_s8",
                   "3a_s9",
                   "3a_s10"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 3a_s8・3a_s9・3a_s10 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 3。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             }
           ]
@@ -1630,7 +1785,16 @@
                   "3b_s18",
                   "3b_s20",
                   "3b_s22"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 3b_s6・3b_s16・3b_s18・3b_s20・3b_s22 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は [3, 4, 2, 1]。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -1667,7 +1831,16 @@
                 "ja": "正解は③。「Remember that the puzzles should get progressively more difficult near the final goal.（最終目標に近づくにつれてパズルは次第に難しくすべきである）」という筆者の助言がアドバイスに相当する。③の「徐々に難しく」は progressively more difficult と合う。\n①はthree-digitコードの例と混同しやすいが、本文のアドバイスではない。②はランプではなく「古い本」の話。④は長男の行動であり、読者への一般のアドバイスではない。",
                 "evidence_sentences": [
                   "3b_s15"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 3b_s15 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 3。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             },
             {
@@ -1705,7 +1878,16 @@
                 "evidence_sentences": [
                   "3b_s2",
                   "3b_s19"
-                ]
+                ],
+                "instructor_note": {
+                  "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+                  "points": [
+                    "まず 3b_s2・3b_s19 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                    "正解は 2。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                    "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                    "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+                  ]
+                }
               }
             }
           ]
@@ -1978,7 +2160,16 @@
             "ja": "正解は①。第1記事に「this sort of repetitive learning is dull and demotivating」とあり，continuous drilling is boring と同じ内容になる。",
             "evidence_sentences": [
               "4a_s5"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+              "points": [
+                "まず 4a_s5 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は 1。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+              ]
+            }
           }
         },
         {
@@ -2016,7 +2207,16 @@
             "ja": "正解は①。第2記事で「28 days after the last learning session」とあるため4週間後に相当する。",
             "evidence_sentences": [
               "4b_s16"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+              "points": [
+                "まず 4b_s16 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は 1。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+              ]
+            }
           }
         },
         {
@@ -2105,7 +2305,16 @@
               "4b_s4",
               "4b_s5",
               "4b_s10"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "複数空所を処理する問題です。空所ごとの条件を切り分けて、本文根拠に対応づけると安定します。",
+              "points": [
+                "まず 4b_s4・4b_s5・4b_s10 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は {'26': '②', '27': '⑤'}。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "順不同の場合も、各空所で文法・意味が自然につながるかを最後に必ず確認する。"
+              ]
+            }
           }
         },
         {
@@ -2145,7 +2354,16 @@
               "4a_s7",
               "4b_s1",
               "4b_s2"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "本文の条件に合う選択肢を選ぶ問題です。先に根拠文を確定してから選択肢比較に進みましょう。",
+              "points": [
+                "まず 4a_s7・4b_s1・4b_s2 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は 1。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "数量・比較・主語の一致を確認して、部分一致の選択肢を避ける。"
+              ]
+            }
           }
         },
         {
@@ -2185,7 +2403,16 @@
               "4b_s5",
               "4b_s13",
               "4b_s16"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "要点把握の問題です。設問語と同じ意味を表す本文表現を先に特定すると迷いにくくなります。",
+              "points": [
+                "まず 4b_s5・4b_s13・4b_s16 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は 2。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "迷ったら、言い切りが強すぎる選択肢や本文にない断定表現を先に除外する。"
+              ]
+            }
           }
         }
       ]
@@ -2440,7 +2667,16 @@
             "ja": "正解は④。本文第3段落で「it would be easier for me to play individually」とあり，個人競技を選んだ理由はチーム競技を避けたい意図に一致する。",
             "evidence_sentences": [
               "5_s3"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "要点把握の問題です。設問語と同じ意味を表す本文表現を先に特定すると迷いにくくなります。",
+              "points": [
+                "まず 5_s3 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は 4。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "迷ったら、言い切りが強すぎる選択肢や本文にない断定表現を先に除外する。"
+              ]
+            }
           }
         },
         {
@@ -2479,7 +2715,16 @@
             "evidence_sentences": [
               "5_s6",
               "5_s8"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "要点把握の問題です。設問語と同じ意味を表す本文表現を先に特定すると迷いにくくなります。",
+              "points": [
+                "まず 5_s6・5_s8 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は 3。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "迷ったら、言い切りが強すぎる選択肢や本文にない断定表現を先に除外する。"
+              ]
+            }
           }
         },
         {
@@ -2544,7 +2789,16 @@
               "5_s5",
               "5_s6",
               "5_s7"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "複数空所を処理する問題です。空所ごとの条件を切り分けて、本文根拠に対応づけると安定します。",
+              "points": [
+                "まず 5_s4・5_s5・5_s6・5_s7 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は [2, 4, 5, 3]。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "順不同の場合も、各空所で文法・意味が自然につながるかを最後に必ず確認する。"
+              ]
+            }
           }
         },
         {
@@ -2582,7 +2836,16 @@
             "ja": "正解は③。本文末で，応答には相手の意図をつかもうとすることが重要だと気づいている。",
             "evidence_sentences": [
               "5_s8"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "要点把握の問題です。設問語と同じ意味を表す本文表現を先に特定すると迷いにくくなります。",
+              "points": [
+                "まず 5_s8 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は 3。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "迷ったら、言い切りが強すぎる選択肢や本文にない断定表現を先に除外する。"
+              ]
+            }
           }
         },
         {
@@ -2662,10 +2925,1392 @@
               "5_s4",
               "5_s6",
               "5_s8"
-            ]
+            ],
+            "instructor_note": {
+              "ja": "複数空所を処理する問題です。空所ごとの条件を切り分けて、本文根拠に対応づけると安定します。",
+              "points": [
+                "まず 5_s4・5_s6・5_s8 を読み、設問で問われている条件（対象・理由・結果）を短く言い換えてから選択肢を見る。",
+                "正解は {'37': '①', '38': '⑤'}。本文の中心情報と一致するため、消去法ではなく根拠一致で選べる。",
+                "不正解の多くは、本文にある語を使いながらも範囲を広げすぎるか、因果関係を入れ替えている点に注意する。",
+                "順不同の場合も、各空所で文法・意味が自然につながるかを最後に必ず確認する。"
+              ]
+            }
           }
         }
       ]
+    },
+    {
+      "section_number": "6A",
+      "title": "第6問 A",
+      "points": 12,
+      "description": "長文読解（記事＋メモ）",
+      "situation": {
+        "en": "You are in a discussion group in school. You have been asked to summarize the following article. You will speak about it, using only notes.",
+        "ja": "あなたは学校で討論グループに所属している。次の記事を要約するように頼まれている。あなたはその記事について，メモだけを見て話すことになっている。"
+      },
+      "passages": [
+        {
+          "id": "s6a_article",
+          "type": "article",
+          "title": {
+            "en": "Collecting",
+            "ja": "収集"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s6a_p1_s1",
+                "en": "Collecting has existed at all levels of society, across cultures and age groups since early times.",
+                "ja": "収集は，昔から文化や年齢の層を問わず，社会のあらゆる階層に存在してきた。"
+              },
+              {
+                "id": "s6a_p1_s2",
+                "en": "Museums are proof that things have been collected, saved, and passed down for future generations.",
+                "ja": "博物館は，物が集められ，保存され，後世の人々に伝えられてきた証である。"
+              },
+              {
+                "id": "s6a_p1_s3",
+                "en": "There are various reasons for starting a collection.",
+                "ja": "コレクションを始めるにはさまざまな理由がある。"
+              },
+              {
+                "id": "s6a_p1_s4",
+                "en": "For example, Ms. A enjoys going to yard sales every Saturday morning with her children.",
+                "ja": "例えば，Aさんは毎週土曜日の朝，子供たちと一緒にヤードセールに行くのを楽しんでいる。"
+              },
+              {
+                "id": "s6a_p1_s5",
+                "en": "At yard sales, people sell unwanted things in front of their houses.",
+                "ja": "ヤードセールでは，人々が自分の家の前で不要品を売る。"
+              },
+              {
+                "id": "s6a_p1_s6",
+                "en": "One day, while looking for antique dishes, an unusual painting caught her eye and she bought it for only a few dollars.",
+                "ja": "ある日，アンティークの皿を探していると，珍しい絵が目に留まり，それをたった数ドルで彼女は購入した。"
+              },
+              {
+                "id": "s6a_p1_s7",
+                "en": "Over time, she found similar pieces that left an impression on her, and she now has a modest collection of artwork, some of which may be worth more than she paid.",
+                "ja": "徐々に，彼女は印象に残る似た作品を見つけ，今ではささやかな美術品のコレクションを持ち，そのうちのいくつかは支払った金額以上の価値があるかもしれない。"
+              },
+              {
+                "id": "s6a_p1_s8",
+                "en": "One person's trash can be another person's treasure.",
+                "ja": "ある人のがらくたが，別の人の宝物になりうる。"
+              },
+              {
+                "id": "s6a_p1_s9",
+                "en": "Regardless of how someone's collection was started, it is human nature to collect things.",
+                "ja": "コレクションを始めたきっかけは関係なく，物を集めるのは人間の本性である。"
+              }
+            ],
+            [
+              {
+                "id": "s6a_p2_s1",
+                "en": "In 1988, researchers Brenda Danet and Tamar Katriel analyzed 80 years of studies on children under the age of 10, and found that about 90% collected something.",
+                "ja": "1988年，研究者のブレンダ・ダネットとタマル・カトリエルは，10歳以下の子供についての80年間の研究を分析し，約90%が何かを集めていることがわかった。"
+              },
+              {
+                "id": "s6a_p2_s2",
+                "en": "This shows us that people like to gather things from an early age.",
+                "ja": "このことから，人は幼い頃から物を集めるのが好きだということがわかる。"
+              },
+              {
+                "id": "s6a_p2_s3",
+                "en": "Even after becoming adults, people continue collecting stuff.",
+                "ja": "大人になってからでさえも，人は物を集め続ける。"
+              },
+              {
+                "id": "s6a_p2_s4",
+                "en": "Researchers in the field generally agree that approximately one third of adults maintain this behavior.",
+                "ja": "この分野の研究者は，成人の約3分の1がこの行動を継続しているということに総じて賛同している。"
+              },
+              {
+                "id": "s6a_p2_s5",
+                "en": "Why is this?",
+                "ja": "なぜだろうか。"
+              },
+              {
+                "id": "s6a_p2_s6",
+                "en": "The primary explanation is related to emotions.",
+                "ja": "その第一の説明は，感情に関連する。"
+              },
+              {
+                "id": "s6a_p2_s7",
+                "en": "Some save greeting cards from friends and family, dried flowers from special events, seashells from a day at the beach, old photos, and so on.",
+                "ja": "友人や家族からのグリーティングカード，特別な出来事のドライフラワー，海辺で過ごした日の貝殻，古い写真などを保存する人もいる。"
+              },
+              {
+                "id": "s6a_p2_s8",
+                "en": "For others, their collection is a connection to their youth.",
+                "ja": "人によっては，コレクションは自分の青春時代とのつながりである。"
+              },
+              {
+                "id": "s6a_p2_s9",
+                "en": "They may have baseball cards, comic books, dolls, or miniature cars that they have kept since they were small.",
+                "ja": "彼らは，小さい頃からとっている野球カード，漫画，人形，ミニチュアカーなどを持っているかもしれない。"
+              },
+              {
+                "id": "s6a_p2_s10",
+                "en": "Others have an attachment to history; they seek and hold onto historical documents, signed letters and autographs from famous people, and so forth.",
+                "ja": "歴史に対して愛着があり，歴史的な資料や有名人の署名入りの手紙やサインなどを探して持ち続ける人もいる。"
+              }
+            ],
+            [
+              {
+                "id": "s6a_p3_s1",
+                "en": "For some individuals there is a social reason.",
+                "ja": "一部の人には社会的な理由がある。"
+              },
+              {
+                "id": "s6a_p3_s2",
+                "en": "People collect things such as pins to share, show, and even trade, making new friends this way.",
+                "ja": "他の人と共有したり，見せたり，あるいは交換したりするためにピンバッジなどの物を集め，このようにして新しい友人を作る人がいる。"
+              },
+              {
+                "id": "s6a_p3_s3",
+                "en": "Others, like some holders of Guinness World Records, appreciate the fame they achieve for their unique collection.",
+                "ja": "また，ギネス世界記録保持者のように，ユニークなコレクションを達成したことへの名声に価値を見出す人もいる。"
+              },
+              {
+                "id": "s6a_p3_s4",
+                "en": "Cards, stickers, stamps, coins, and toys have topped the \"usual\" collection list, but some collectors lean toward the more unexpected.",
+                "ja": "カード，ステッカー，切手，コイン，玩具などが「よくある」コレクションリストの上位にあるが，もっと意外な物に傾倒するコレクターもいる。"
+              },
+              {
+                "id": "s6a_p3_s5",
+                "en": "In September 2014, Guinness World Records recognized Harry Sperl, of Germany, for having the largest hamburger-related collection in the world, with 3,724 items; from T-shirts to pillows to dog toys, Sperl's room is filled with all things \"hamburger.\"",
+                "ja": "2014年9月にギネス世界記録は，ドイツのハリー・シュペールさんが，世界最大のハンバーガー関連コレクション3,724点を持っていると認定した。Tシャツから枕，犬のおもちゃまで，シュペールさんの部屋には「ハンバーガー」のあらゆる物があふれている。"
+              },
+              {
+                "id": "s6a_p3_s6",
+                "en": "Similarly, Liu Fuchang, of China, is a collector of playing cards.",
+                "ja": "同様に，中国のリウ・フーチャンさんはトランプのコレクターだ。"
+              },
+              {
+                "id": "s6a_p3_s7",
+                "en": "He has 11,087 different sets.",
+                "ja": "それぞれ異なる11,087セットを所有している。"
+              }
+            ],
+            [
+              {
+                "id": "s6a_p4_s1",
+                "en": "Perhaps the easiest motivation to understand is pleasure.",
+                "ja": "最もわかりやすい動機は楽しみだろう。"
+              },
+              {
+                "id": "s6a_p4_s2",
+                "en": "Some people start collections for pure enjoyment.",
+                "ja": "純粋に楽しみのためにコレクションを始める人もいる。"
+              },
+              {
+                "id": "s6a_p4_s3",
+                "en": "They may purchase and put up paintings just to gaze at frequently, or they may collect audio recordings and old-fashioned vinyl records to enjoy listening to their favorite music.",
+                "ja": "単に頻繁に眺めるために絵画を買って飾るかもしれないし，お気に入りの音楽を聞いて楽しむために録音された物や古めかしいビニール盤のレコードを収集するかもしれない。"
+              },
+              {
+                "id": "s6a_p4_s4",
+                "en": "This type of collector is unlikely to be very interested in the monetary value of their treasured music, while others collect objects specifically as an investment.",
+                "ja": "このタイプのコレクターは，秘蔵の音楽の金銭的価値にはあまり興味がないようだが，一方で，明確に投資として物を集める人もいる。"
+              },
+              {
+                "id": "s6a_p4_s5",
+                "en": "While it is possible to download certain classic games for free, having the same game unopened in its original packaging, in \"mint condition,\" can make the game worth a lot.",
+                "ja": "特定の古典的なゲームを無料でダウンロードできる一方，オリジナルのパッケージが未開封の状態で，つまり「新品同様で」同じゲームを持っていたら，そのゲームは大いに価値が出るかもしれない。"
+              },
+              {
+                "id": "s6a_p4_s6",
+                "en": "Owning various valuable \"collector's items\" could ensure some financial security.",
+                "ja": "様々な価値のある「コレクターズアイテム」を所有することは，ある程度の経済的な安定を保証するかもしれない。"
+              }
+            ],
+            [
+              {
+                "id": "s6a_p5_s1",
+                "en": "This behavior of collecting things will definitely continue into the distant future.",
+                "ja": "このような物を集めるという行動は，間違いなく遠い未来まで続くだろう。"
+              },
+              {
+                "id": "s6a_p5_s2",
+                "en": "Although the reasons why people keep things will likely remain the same, advances in technology will have an influence on collections.",
+                "ja": "人々が物を保持する理由は同じままであろうが，科学技術の進化はコレクションに影響を与えるだろう。"
+              },
+              {
+                "id": "s6a_p5_s3",
+                "en": "As technology can remove physical constraints, it is now possible for an individual to have vast digital libraries of music and art that would have been unimaginable 30 years ago.",
+                "ja": "科学技術が物理的制約を取り除くことができるので，30年前には想像もできなかったような膨大な音楽や美術のデジタル・ライブラリーを個人で持つことが，今や可能になった。"
+              },
+              {
+                "id": "s6a_p5_s4",
+                "en": "It is unclear, though, what other impacts technology will have on collections.",
+                "ja": "しかし，科学技術がコレクションに与える他の影響については不明だ。"
+              },
+              {
+                "id": "s6a_p5_s5",
+                "en": "Can you even imagine the form and scale that the next generation's collections will take?",
+                "ja": "次世代のコレクションが持つだろう形態と規模を，そもそも想像することができるだろうか。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "s6a_notes",
+          "image": {
+            "src": "data/kyotsu/2023/honshiken/images/s6a_notes_full.png",
+            "alt": "Your notes sheet for section 6A",
+            "layout": "full"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 39,
+          "stem": {
+            "en": "Choose the best option for [39].",
+            "ja": "[39]に最も適切な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "a great place for people to sell things to collectors at a high price is a yard sale",
+              "ja": "人々が物をコレクターに高額で売るのに絶好の場所はヤードセールだ",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "people can evaluate items incorrectly and end up paying too much money for junk",
+              "ja": "人々は品物を間違って評価し，がらくたに高いお金を払うことになる可能性がある",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "something not important to one person may be of value to someone else",
+              "ja": "ある人にとっては重要でない物でも，誰か他の人にとっては価値のある物かもしれない",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "things once collected and thrown in another person's yard may be valuable to others",
+              "ja": "一度は収集して他の人の庭に捨てられた物が，他の人にとっては貴重かもしれない",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "本文・全訳の問1の trash と treasure を具体的な説明で言い換えた，③が正解。\n\n[①「人々が物をコレクターに高額で売るのに絶好の場所はヤードセールだ」≫本文にない。②「人々は品物を間違って評価し，がらくたに高いお金を払うことになる可能性がある」≫本文にない。④「一度は収集して他の人の庭に捨てられた物が，他の人にとっては貴重かもしれない」≫「捨てられた物」ではなく「がらくた」が他人には貴重かもしれない。]",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6a_p1_s8"
+            ],
+            "instructor_note": {
+              "ja": "第1段落の教訓をまとめる問題です。具体的なエピソードの後にくる一般化された一文（s6a_p1_s8）を見抜きましょう。",
+              "points": [
+                "s6a_p1_s8 の One person's trash can be another person's treasure.（ある人のがらくたが、別の人の宝物になりうる）の言い換え。",
+                "③の something not important to one person = One person's trash",
+                "③の may be of value to someone else = can be another person's treasure に対応する。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 40,
+          "stem": {
+            "en": "Choose the best option for [40].",
+            "ja": "[40]に最も適切な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "About two thirds of children do not collect ordinary things.",
+              "ja": "子供の約3分の2は普通の物を集めない。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Almost one third of adults start collecting things for pleasure.",
+              "ja": "大人の約3分の1が楽しみのために収集を始める。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Approximately 10% of kids have collections similar to their friends.",
+              "ja": "子供のおよそ10%は友達とよく似たコレクションを持っている。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Roughly 30% of people keep collecting into adulthood.",
+              "ja": "大体30%の人が，大人になっても収集を続ける。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "本文・全訳の問2参照。「約3分の1」を「大体30%」と言い換えた④が正解。\n\n[①「子供の約3分の2は普通の物を集めない。」≫10歳以下の子供の90%が何かを集めている。②「大人の約3分の1が楽しみのために収集を始める。」≫収集を続ける大人が約3分の1。③「子供のおよそ10%は友達とよく似たコレクションを持っている。」≫本文にない。]",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6a_p2_s3",
+              "s6a_p2_s4"
+            ],
+            "instructor_note": {
+              "ja": "第2段落の数値データを言い換えた選択肢を選ぶ問題です。割合の表現の言い換え（分数・パーセンテージ）に注意しましょう。",
+              "points": [
+                "s6a_p2_s4 の approximately one third of adults（成人の約3分の1）が、Roughly 30% of people に言い換えられている。",
+                "s6a_p2_s4 の maintain this behavior（この行動を維持する）が、keep collecting into adulthood（大人になっても収集を続ける）に言い換えられている。",
+                "②の罠: start collecting（収集を始める）ではなく、幼少期から「続けている」のが1/3。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 41,
+          "answer_numbers": [
+            41,
+            42
+          ],
+          "unordered_slots": [
+            41,
+            42
+          ],
+          "stem": {
+            "en": "Choose the best options for [41] and [42]. (The order does not matter.)",
+            "ja": "[41]と[42]に最も適切な選択肢を選びなさい。（順不同）"
+          },
+          "choices_41": [
+            {
+              "label": "①",
+              "en": "desire to advance technology",
+              "ja": "科学技術を進歩させるという願望",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "fear of missing unexpected opportunities",
+              "ja": "思いがけない機会を逃すことの不安",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "filling a sense of emptiness",
+              "ja": "むなしさを満たすこと",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "reminder of precious events",
+              "ja": "貴重な出来事を思い出させる物",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "reusing objects for the future",
+              "ja": "将来のための物の再使用",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "seeking some sort of profit",
+              "ja": "ある種の利益追求",
+              "is_correct": true
+            }
+          ],
+          "choices_42": [
+            {
+              "label": "①",
+              "en": "desire to advance technology",
+              "ja": "科学技術を進歩させるという願望",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "fear of missing unexpected opportunities",
+              "ja": "思いがけない機会を逃すことの不安",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "filling a sense of emptiness",
+              "ja": "むなしさを満たすこと",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "reminder of precious events",
+              "ja": "貴重な出来事を思い出させる物",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "reusing objects for the future",
+              "ja": "将来のための物の再使用",
+              "is_correct": false
+            },
+            {
+              "label": "⑥",
+              "en": "seeking some sort of profit",
+              "ja": "ある種の利益追求",
+              "is_correct": true
+            }
+          ],
+          "answer": {
+            "41": "④",
+            "42": "⑥"
+          },
+          "answer_note": "順不同・両方正解で得点",
+          "explanation": {
+            "quoted_ja": "本文・全訳の問3④にあげられた収集品は，家族や特別な出来事の思い出にまつわる物であり，これは④に当てはまる。問3⑥には投資として金銭的価値が出そうな物を集めることが書かれており，⑥に一致する。\n\n[①「科学技術を進歩させるという願望」≫本文にない。②「思いがけない機会を逃すことの不安」≫本文にない。③「むなしさを満たすこと」≫本文にない。⑤「将来のための物の再使用」≫本文にない。]",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6a_p2_s7",
+              "s6a_p4_s4",
+              "s6a_p4_s6"
+            ],
+            "instructor_note": {
+              "ja": "メモの「収集の理由」欄に列挙されている項目（歴史への興味、子供時代に興奮したことなど）以外の理由を、第2・第4段落から見つけ出す問題です。",
+              "points": [
+                "④: s6a_p2_s7 の greeting cards from friends ... dried flowers from special events ... old photos（手紙や特別な出来事の花や古い写真）が、reminder of precious events（貴重な出来事を思い出させる物）に対応。",
+                "⑥: s6a_p4_s4 の collect objects specifically as an investment（明確に投資として物を集める）と s6a_p4_s6 の ensure some financial security（経済的な安定を保証する）が、seeking some sort of profit（ある種の利益追求）に対応。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 43,
+          "stem": {
+            "en": "Choose the best option for [43].",
+            "ja": "[43]に最も適切な選択肢を選びなさい。"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Collections will likely continue to change in size and shape.",
+              "ja": "コレクションは規模や形態が変化し続けると思われる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Collectors of mint-condition games will have more digital copies of them.",
+              "ja": "新品同様のゲームのコレクターは，より多くのデジタルコピーを所有することになるだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "People who have lost their passion for collecting will start again.",
+              "ja": "収集への情熱を失った人が再開するだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Reasons for collecting will change because of advances in technology.",
+              "ja": "科学技術の進歩で，収集の理由は変わるだろう。",
+              "is_correct": false
+            }
+          ],
+          "answer": "①",
+          "explanation": {
+            "quoted_ja": "本文・全訳の問4参照。科学技術の進化によって，デジタル・ライブラリーのような，30年前は想像もできなかった新しいコレクションが可能になったように，将来のコレクションの「形態と規模」は，科学技術によって想像できないほど変化するだろうと書いてある。したがって①が正解。\n\n[②「新品同様のゲームのコレクターは，より多くのデジタルコピーを所有することになるだろう。」≫本文にない。③「収集への情熱を失った人が再開するだろう。」≫本文にない。④「科学技術の進歩で，収集の理由は変わるだろう。」≫収集の理由は変わらないだろうと書かれている。]",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6a_p5_s5"
+            ],
+            "instructor_note": {
+              "ja": "最終段落（未来のコレクション）の要約を選ぶ問題です。本文の記述と矛盾する選択肢（④など）に注意しましょう。",
+              "points": [
+                "s6a_p5_s5 の the form and scale that the next generation's collections will take（次世代のコレクションが持つ形態と規模）が、選択肢①の size and shape に対応。",
+                "④の罠: s6a_p5_s2 で the reasons why people keep things will likely remain the same（人々が物を保持する理由は同じままであろう）と明言されており、reasons will change という④は本文と真っ向から矛盾します。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "p1": {
+          "label_ja": "第1段落（Collecting has existed ...）",
+          "items": [
+            {
+              "en": "summarize",
+              "ja": "〈動〉…を要約する"
+            },
+            {
+              "en": "proof",
+              "ja": "〈名〉証拠"
+            },
+            {
+              "en": "pass down ...",
+              "ja": "…を伝える"
+            },
+            {
+              "en": "catch one's eye",
+              "ja": "…の目に留まる"
+            },
+            {
+              "en": "over time",
+              "ja": "徐々に"
+            },
+            {
+              "en": "leave an impression on ...",
+              "ja": "…に印象を残す"
+            },
+            {
+              "en": "modest",
+              "ja": "〈形〉ささやかな"
+            },
+            {
+              "en": "trash",
+              "ja": "〈名〉がらくた"
+            },
+            {
+              "en": "treasure",
+              "ja": "〈名〉宝物"
+            },
+            {
+              "en": "regardless of ...",
+              "ja": "…に関係なく"
+            }
+          ]
+        },
+        "p2": {
+          "label_ja": "第2段落（In 1988, researchers ...）",
+          "items": [
+            {
+              "en": "gather",
+              "ja": "〈動〉…を集める"
+            },
+            {
+              "en": "stuff",
+              "ja": "〈名〉物"
+            },
+            {
+              "en": "maintain",
+              "ja": "〈動〉…を維持する"
+            },
+            {
+              "en": "primary",
+              "ja": "〈形〉第一の"
+            },
+            {
+              "en": "youth",
+              "ja": "〈名〉青春時代"
+            },
+            {
+              "en": "attachment to ...",
+              "ja": "…への愛着"
+            },
+            {
+              "en": "seek",
+              "ja": "〈動〉…を探し求める"
+            },
+            {
+              "en": "autograph",
+              "ja": "〈名〉（有名人の）サイン"
+            }
+          ]
+        },
+        "p3": {
+          "label_ja": "第3段落（For some individuals ...）",
+          "items": [
+            {
+              "en": "appreciate",
+              "ja": "〈動〉…の真価を認める"
+            },
+            {
+              "en": "fame",
+              "ja": "〈名〉名声"
+            },
+            {
+              "en": "similarly",
+              "ja": "〈副〉同様に"
+            },
+            {
+              "en": "playing cards",
+              "ja": "トランプ"
+            }
+          ]
+        },
+        "p4": {
+          "label_ja": "第4段落（Perhaps the easiest motivation ...）",
+          "items": [
+            {
+              "en": "purchase",
+              "ja": "〈動〉…を購入する"
+            },
+            {
+              "en": "put up ...",
+              "ja": "…を飾る"
+            },
+            {
+              "en": "gaze at ...",
+              "ja": "…をじっと見る"
+            },
+            {
+              "en": "vinyl",
+              "ja": "〈名〉ビニール"
+            },
+            {
+              "en": "monetary",
+              "ja": "〈形〉金銭的な"
+            },
+            {
+              "en": "treasured",
+              "ja": "〈形〉貴重な，秘蔵の"
+            },
+            {
+              "en": "specifically",
+              "ja": "〈副〉明確に"
+            },
+            {
+              "en": "investment",
+              "ja": "〈名〉投資"
+            },
+            {
+              "en": "in mint condition",
+              "ja": "新品同様で"
+            },
+            {
+              "en": "ensure",
+              "ja": "〈動〉…を保証する"
+            }
+          ]
+        },
+        "p5": {
+          "label_ja": "第5段落（This behavior of collecting ...）",
+          "items": [
+            {
+              "en": "distant",
+              "ja": "〈形〉遠い"
+            },
+            {
+              "en": "advance",
+              "ja": "〈名〉進歩"
+            },
+            {
+              "en": "have an influence on ...",
+              "ja": "…に影響を与える"
+            },
+            {
+              "en": "physical constraint",
+              "ja": "物理的制約"
+            },
+            {
+              "en": "vast",
+              "ja": "〈形〉膨大な"
+            }
+          ]
+        },
+        "questions": {
+          "label_ja": "設問・選択肢",
+          "items": [
+            {
+              "en": "evaluate",
+              "ja": "〈動〉…を評価する"
+            },
+            {
+              "en": "roughly",
+              "ja": "〈副〉大体"
+            },
+            {
+              "en": "desire",
+              "ja": "〈名〉願望"
+            },
+            {
+              "en": "reminder",
+              "ja": "〈名〉思い出させる人・物"
+            },
+            {
+              "en": "precious",
+              "ja": "〈形〉貴重な"
+            },
+            {
+              "en": "profit",
+              "ja": "〈名〉利益"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section_number": "6B",
+      "title": "第6問 B",
+      "points": 12,
+      "description": "長文読解（記事＋発表スライド）",
+      "situation": {
+        "en": "You are in a student group preparing for an international science presentation contest. You are using the following passage to create your part of the presentation on extraordinary creatures.",
+        "ja": "あなたは，国際科学プレゼンテーションコンテストの準備をしている学生グループに所属している。あなたは，驚異的な生き物に関するプレゼンテーションの自分の担当部分を作成するため，次の文章を使用している。"
+      },
+      "passages": [
+        {
+          "id": "s6b_article",
+          "type": "article",
+          "title": {
+            "en": "Tardigrades: Earth's Ultimate Survivors",
+            "ja": "クマムシ：地球最高の生存者"
+          },
+          "paragraphs": [
+            [
+              {
+                "id": "s6b_p1_s1",
+                "en": "Ask someone to name the world's toughest animal, and they might say the Bactrian camel or the Arctic fox.",
+                "ja": "誰かに世界最強の動物の名を挙げるよう頼んでみると，50℃の気温でも生き延びられるフタコブラクダか，-58℃の下で生き延びられるホッキョクギツネと答えるかもしれない。"
+              },
+              {
+                "id": "s6b_p1_s2",
+                "en": "However, both answers would be wrong as it is widely believed that the tardigrade is the toughest creature on earth.",
+                "ja": "しかし，これらの答えは間違っていると広く信じられており，地球で最も強い生物はクマムシだと考えられている。"
+              }
+            ],
+            [
+              {
+                "id": "s6b_p2_s1",
+                "en": "Tardigrades are microscopic creatures between 0.1 mm and 1.5 mm in length.",
+                "ja": "クマムシは水中のクマとも知られるが，体長0.1mmから1.5mmほどの微細な生物だ。"
+              },
+              {
+                "id": "s6b_p2_s2",
+                "en": "They live almost everywhere, from high mountains to deep below the ocean's surface.",
+                "ja": "クマムシは，高度6000mの山から海面下4600mまで，ほとんどどこでも生息している。"
+              },
+              {
+                "id": "s6b_p2_s3",
+                "en": "Most live in water, but some tardigrades can be found in very dry places.",
+                "ja": "厚い氷の下や温泉の中でも見つけることができるが，生息するクマムシのほとんどは水中にいる。"
+              },
+              {
+                "id": "s6b_p2_s4",
+                "en": "One researcher reported finding tardigrades under rocks in a desert without recorded rainfall for 25 years.",
+                "ja": "しかし，地球上で最も乾燥した場所で見つかることもある。ある研究者は，25年間一度も降雨記録がない砂漠の岩の下でクマムシを発見したと報告した。"
+              },
+              {
+                "id": "s6b_p2_s5",
+                "en": "When water dries up, they lose most of their body's water and their metabolism drops to 0.01% of normal speed.",
+                "ja": "水がなくなると，クマムシの体内の水分のほとんどが失われ，代謝は通常の速さの0.01%まで低下する。"
+              },
+              {
+                "id": "s6b_p2_s6",
+                "en": "When tardigrades are in a state of tun, they can survive temperatures as low as -272C and as high as 151C.",
+                "ja": "乾燥した休眠状態のクマムシは，-272℃から151℃という極端な温度でも生き延びられる。"
+              }
+            ],
+            [
+              {
+                "id": "s6b_p3_s1",
+                "en": "Perhaps even more amazing is their ability to survive in space.",
+                "ja": "さらに驚くべきは，クマムシは宇宙空間でも生存できる能力を持つことだ。"
+              },
+              {
+                "id": "s6b_p3_s2",
+                "en": "In 2007, researchers sent tardigrades into space for 10 days and 68% were still alive.",
+                "ja": "2007年，ヨーロッパの研究者が生きたクマムシを宇宙に送り，10日後に地球へ戻した際，68%が生きているのを見て驚いた。"
+              },
+              {
+                "id": "s6b_p3_s3",
+                "en": "This means they survived intense X-rays and ultraviolet radiation.",
+                "ja": "つまり，地球よりも1000倍強いX線や紫外線に10日間さらされることができたのだ。"
+              },
+              {
+                "id": "s6b_p3_s4",
+                "en": "In 2019, thousands of tardigrades in a state of tun were spilled onto the moon's surface.",
+                "ja": "その後，2019年にイスラエルの宇宙船が月に衝突し，数千匹の乾燥状態のクマムシが月面にまかれた。"
+              },
+              {
+                "id": "s6b_p3_s5",
+                "en": "Whether these are still alive is unknown as no one has gone to collect them, which is a pity.",
+                "ja": "それらがまだ生きているかは，誰もまだ採集に行っていないので不明であり，残念なことだ。"
+              }
+            ],
+            [
+              {
+                "id": "s6b_p4_s1",
+                "en": "Tardigrades are shaped like a short cucumber and have four short legs on each side.",
+                "ja": "クマムシは短いキュウリのような形をしている。体の両側にはそれぞれ4本の短い脚がある。"
+              },
+              {
+                "id": "s6b_p4_s2",
+                "en": "Some species have sticky pads, while others have claws.",
+                "ja": "それぞれの脚の先端に粘着性のパッドがある種もあれば，爪がある種もある。"
+              },
+              {
+                "id": "s6b_p4_s3",
+                "en": "There are 16 known claw variations, which help identify species with claws.",
+                "ja": "知られているものでは16種類の爪があり，爪のある種を識別するのに役立つ。"
+              },
+              {
+                "id": "s6b_p4_s4",
+                "en": "All tardigrades have a place for eyes, but not all species have eyes.",
+                "ja": "すべてのクマムシに目のための場所はあるが，すべての種に目があるわけではない。"
+              }
+            ],
+            [
+              {
+                "id": "s6b_p5_s1",
+                "en": "Basically, tardigrades can be divided into those that eat plant matter and those that eat other creatures.",
+                "ja": "基本的にクマムシは，植物を食べる種と，他の生物を食べる種に分類できる。"
+              },
+              {
+                "id": "s6b_p5_s2",
+                "en": "Their mouths do not have teeth. They do have two sharp needles, called stylets.",
+                "ja": "クマムシの口に歯はない。しかし実は針と呼ばれる2本の鋭い尖ったものを持っており，植物細胞や比較的小さな生き物の体に穴を開け，その中身を吸い出すことができる。"
+              }
+            ],
+            [
+              {
+                "id": "s6b_p6_s1",
+                "en": "Both types of tardigrade have rather simple digestive systems.",
+                "ja": "どちらの種のクマムシも，消化器官を持つ。"
+              },
+              {
+                "id": "s6b_p6_s2",
+                "en": "The mouth leads to the pharynx, and above the pharynx is a salivary gland.",
+                "ja": "口は咽頭のどにつながり，そこで消化液と食物が混ぜ合わさる。咽頭の上には唾液腺がある。"
+              },
+              {
+                "id": "s6b_p6_s3",
+                "en": "After the pharynx, there is the esophagus and middle gut.",
+                "ja": "咽頭の先には食道があり，その先に中腸が続く。"
+              },
+              {
+                "id": "s6b_p6_s4",
+                "en": "The leftovers then eventually move through to the anus.",
+                "ja": "中腸で栄養が吸収され，残った物は最終的に肛門へと進んでいく。"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "s6b_slides",
+          "type": "presentation_slides",
+          "title": {
+            "en": "Your presentation slides:",
+            "ja": "あなたの発表スライド"
+          },
+          "slides": [
+            {
+              "title": {
+                "en": "Tardigrades: Earth's Ultimate Survivors",
+                "ja": "クマムシ：地球最高の生存者"
+              },
+              "images": [
+                {
+                  "src": "data/kyotsu/2023/honshiken/images/s6b_slides_full.png",
+                  "alt": "Section 6B presentation slides and digestive-system diagram"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "問1",
+          "answer_number": 44,
+          "points": 2,
+          "stem": {
+            "en": "Which of the following should you not include for [44]?",
+            "ja": "「[44]に含めるべきでないものはどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "eight short legs",
+              "ja": "8本の短い脚",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "either blind or sighted",
+              "ja": "目が見えないか見えるかのどちらか",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "plant-eating or creature-eating",
+              "ja": "植物を食べる，または生き物を食べる",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "sixteen different types of feet",
+              "ja": "16種類の異なる足のタイプ",
+              "is_correct": true
+            },
+            {
+              "label": "⑤",
+              "en": "two stylets rather than teeth",
+              "ja": "歯ではなく2本の針",
+              "is_correct": false
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "本文・全訳の問1①②③⑤に当てはまる。4については「合計16種類の爪」があり，足のタイプが16種類ではないため④が正解。",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6b_p4_s1",
+              "s6b_p4_s2",
+              "s6b_p4_s3",
+              "s6b_p4_s4",
+              "s6b_p5_s2"
+            ],
+            "instructor_note": {
+              "ja": "スライド1の Basic Information に入れる要素を選ぶ問題です。本文の情報をそのまま拾う姿勢で解くと安定します。",
+              "points": [
+                "④が誤り。本文は 16 known claw variations（16種類の爪のバリエーション）であり、\"足のタイプが16種類\" とは言っていない。",
+                "①は s6b_p4_s1 の four short legs on each side（左右に各4本）から合計8本で一致する。",
+                "②は s6b_p4_s4（目の場所はあるが、すべての種に目があるわけではない）に対応する。",
+                "⑤は s6b_p5_s2 の do not have teeth / two sharp needles, called stylets に対応し、本文の言い換えとして正しい。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問2",
+          "answer_number": 45,
+          "answer_numbers": [
+            45,
+            46
+          ],
+          "unordered_slots": [
+            45,
+            46
+          ],
+          "points": 3,
+          "stem": {
+            "en": "For the Secrets to Survival slide, select two features which best help tardigrades survive. (The order does not matter.)",
+            "ja": "「生き残るための秘訣のスライド用に，クマムシが生き残るために最も役立つ特徴を2つ選びなさい。（順不同）」"
+          },
+          "choices_45": [
+            {
+              "label": "①",
+              "en": "In dry conditions, their metabolism drops to less than one percent of normal.",
+              "ja": "乾燥した環境で，代謝が通常の1%未満に落ちる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Tardigrades in a state of tun are able to survive in temperatures exceeding 151C.",
+              "ja": "休眠状態のクマムシは151℃を超える温度でも生存できる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The state of tun will cease when the water in a tardigrade's body is above 0.01%.",
+              "ja": "乾燥状態は，体内の水分が0.01%を超えると終わる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Their shark-like mouths allow them to more easily eat other creatures.",
+              "ja": "サメのような口のおかげで，他の生き物を食べやすくなる。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "They have an ability to withstand extreme levels of radiation.",
+              "ja": "非常に厳しいレベルの放射線に耐える能力がある。",
+              "is_correct": true
+            }
+          ],
+          "choices_46": [
+            {
+              "label": "①",
+              "en": "In dry conditions, their metabolism drops to less than one percent of normal.",
+              "ja": "乾燥した環境で，代謝が通常の1%未満に落ちる。",
+              "is_correct": true
+            },
+            {
+              "label": "②",
+              "en": "Tardigrades in a state of tun are able to survive in temperatures exceeding 151C.",
+              "ja": "休眠状態のクマムシは151℃を超える温度でも生存できる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The state of tun will cease when the water in a tardigrade's body is above 0.01%.",
+              "ja": "乾燥状態は，体内の水分が0.01%を超えると終わる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Their shark-like mouths allow them to more easily eat other creatures.",
+              "ja": "サメのような口のおかげで，他の生き物を食べやすくなる。",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "They have an ability to withstand extreme levels of radiation.",
+              "ja": "非常に厳しいレベルの放射線に耐える能力がある。",
+              "is_correct": true
+            }
+          ],
+          "answer": {
+            "45": "①",
+            "46": "⑤"
+          },
+          "answer_note": "順不同・両方正解で得点",
+          "explanation": {
+            "quoted_ja": "①は本文で代謝が通常の0.01%まで落ちるとあり，1%未満は正しい。⑤は強いX線や紫外線に耐えるとある。②は151℃までで超えるとは書かれていない。③は本文の条件と逆。④は本文にない。",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6b_p2_s5",
+              "s6b_p3_s3"
+            ],
+            "instructor_note": {
+              "ja": "「生存の秘訣」に直接つながる情報を2つ選ぶ設問です。数値・比較表現の読み違いを防ぐのが得点の鍵です。",
+              "points": [
+                "①は s6b_p2_s5 の metabolism drops to 0.01% of normal speed の要約で、1%未満という表現は正しい。",
+                "⑤は s6b_p3_s3 の intense X-rays and ultraviolet radiation に耐えた事実に対応する。",
+                "②の exceed 151C（151℃を超える）は本文不一致。本文は as high as 151C（151℃まで）。",
+                "③は因果が逆。本文は「体内水分を失う→乾燥休眠」であり、水分が増えると休眠が終わるとは書いていない。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問3",
+          "answer_number": 47,
+          "points": 2,
+          "stem": {
+            "en": "Complete the missing labels on the illustration of a tardigrade for the Digestive Systems slide.",
+            "ja": "「消化器官のスライド用に，クマムシのイラストの抜けている名前を完成させなさい。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "(A) Esophagus (B) Pharynx (C) Middle gut (D) Stylets (E) Salivary gland",
+              "ja": "(A) 食道 (B) 咽頭 (C) 中腸 (D) 口針 (E) 唾液腺",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "(A) Pharynx (B) Stylets (C) Salivary gland (D) Esophagus (E) Middle gut",
+              "ja": "(A) 咽頭 (B) 口針 (C) 唾液腺 (D) 食道 (E) 中腸",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "(A) Salivary gland (B) Esophagus (C) Middle gut (D) Stylets (E) Pharynx",
+              "ja": "(A) 唾液腺 (B) 食道 (C) 中腸 (D) 口針 (E) 咽頭",
+              "is_correct": true
+            },
+            {
+              "label": "④",
+              "en": "(A) Salivary gland (B) Middle gut (C) Stylets (D) Esophagus (E) Pharynx",
+              "ja": "(A) 唾液腺 (B) 中腸 (C) 口針 (D) 食道 (E) 咽頭",
+              "is_correct": false
+            },
+            {
+              "label": "⑤",
+              "en": "(A) Stylets (B) Salivary gland (C) Pharynx (D) Middle gut (E) Esophagus",
+              "ja": "(A) 口針 (B) 唾液腺 (C) 咽頭 (D) 中腸 (E) 食道",
+              "is_correct": false
+            }
+          ],
+          "answer": "③",
+          "explanation": {
+            "quoted_ja": "本文・全訳の問3(1)からDが口針。問3(2)から，口からつながる咽頭がE，咽頭の上のAが唾液腺，咽頭の先の管Bが食道，その先のCが中腸。よって③が正解。",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6b_p5_s2",
+              "s6b_p6_s2",
+              "s6b_p6_s3"
+            ],
+            "instructor_note": {
+              "ja": "器官名の対応は、本文の『口→咽頭→食道→中腸』という流れを先に確定させると整理しやすくなります。",
+              "points": [
+                "まず s6b_p5_s2 から D = stylets（口針）を固定する。",
+                "次に s6b_p6_s2 より pharynx の上が salivary gland なので A = 唾液腺、E = 咽頭。",
+                "最後に s6b_p6_s3 の after the pharynx, tube called the esophagus から B = 食道、C = 中腸。",
+                "この順で埋めると、語順の暗記ではなく『本文根拠で確定』できる。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問4",
+          "answer_number": 48,
+          "points": 2,
+          "stem": {
+            "en": "Which is the best statement for the final slide?",
+            "ja": "「最後のスライドに最適な意見はどれか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "For thousands of years, tardigrades have survived harsh conditions and will live longer than humankind.",
+              "ja": "クマムシは何千年もの間，地上と宇宙で最も過酷な環境を生き延び，人類より長生きするだろう。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Tardigrades are from space and can live in temperatures beyond Arctic foxes and camels, so they are stronger than humans.",
+              "ja": "クマムシは宇宙から来て，ホッキョクギツネやフタコブラクダの限界を超えた気温でも生きられる。だから人類より強い。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "Tardigrades are the toughest creatures on earth and can thrive on the moon.",
+              "ja": "クマムシは，疑いなく強い生き物で，月でも繁栄できる。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "Tardigrades have survived harsh conditions on earth and at least one trip into space. This remarkable creature might outlive the human species.",
+              "ja": "クマムシは地球上の過酷な状況を生き抜き，少なくとも一度は宇宙へ行った。この注目に値する生物は人類より長生きするかもしれない。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "本文・全訳で，クマムシは地球の過酷な環境を生き抜いていること，また宇宙へ行った事実がある。この2点に一致する④が最適。",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6b_p1_s2",
+              "s6b_p3_s2"
+            ],
+            "instructor_note": {
+              "ja": "Final Statement は『本文にある事実 + 控えめな推量』の形が最も安全です。断定しすぎる選択肢を避けましょう。",
+              "points": [
+                "④は本文事実（地球の過酷環境で生存・宇宙に行った）を押さえた上で、might outlive と控えめに推量している。",
+                "①は『何千年』や断定的な長寿比較が本文不一致。",
+                "②は「宇宙から来た」が本文にない情報で、過剰な飛躍。",
+                "③は「月で繁栄できる（thrive）」まで言い切っており、本文の不明情報を断定している。"
+              ]
+            }
+          }
+        },
+        {
+          "question_id": "問5",
+          "answer_number": 49,
+          "points": 3,
+          "stem": {
+            "en": "What can be inferred about sending tardigrades into space?",
+            "ja": "「クマムシを宇宙に送ることについて，何が推察できるか。」"
+          },
+          "choices": [
+            {
+              "label": "①",
+              "en": "Finding out whether tardigrades can survive in space was never thought to be important.",
+              "ja": "クマムシが宇宙で生きていけるかを解明することは，一度も重要だと考えられなかった。",
+              "is_correct": false
+            },
+            {
+              "label": "②",
+              "en": "Tardigrades, along with other creatures that have been on earth for millions of years, can withstand X-rays and ultraviolet radiation.",
+              "ja": "クマムシは，数百万年間地球上にいる他の生物と同様に，X線や紫外線に耐えられる。",
+              "is_correct": false
+            },
+            {
+              "label": "③",
+              "en": "The Israeli researchers did not expect so many tardigrades to survive the harsh environment of space.",
+              "ja": "イスラエルの研究者は，これほど多くのクマムシが過酷な宇宙環境を生き抜くとは予期していなかった。",
+              "is_correct": false
+            },
+            {
+              "label": "④",
+              "en": "The reason why no one has been to see if tardigrades can survive on the moon's surface attracted the author's attention.",
+              "ja": "クマムシが月面で生存できるかどうか誰も調査に行っていない理由が，筆者の関心を引いた。",
+              "is_correct": true
+            }
+          ],
+          "answer": "④",
+          "explanation": {
+            "quoted_ja": "本文・全訳の問5参照。クマムシは事故で月に残されたが，誰も生存確認のために採集へ行っていないことを，筆者は『残念だ』と述べている。したがって④が正解。",
+            "quoted_source": "共通テスト 2023年度 本試験 英語（リーディング） 問題・解説",
+            "evidence_sentences": [
+              "s6b_p3_s4",
+              "s6b_p3_s5"
+            ],
+            "instructor_note": {
+              "ja": "infer（推察）問題では、筆者の語気に注目すると精度が上がります。本文末の which is a pity が決定打です。",
+              "points": [
+                "s6b_p3_s5 の which is a pity は、筆者が『採集に行けていない状況』を残念に思っている態度を示す。",
+                "④は『その理由が筆者の注意を引いた』という、本文の筆者態度に沿った推察になっている。",
+                "①は『重要と思われなかった』という否定断定で、本文事実（実際に宇宙へ送っている）に反する。",
+                "③は主語の取り違え。2007年の驚きは European researchers であり、Israeli researchers ではない。"
+              ]
+            }
+          }
+        }
+      ],
+      "vocabulary": {
+        "p1": {
+          "label_ja": "第1段落",
+          "items": [
+            {
+              "en": "passage",
+              "ja": "〈名〉文章"
+            },
+            {
+              "en": "extraordinary",
+              "ja": "〈形〉異常な"
+            },
+            {
+              "en": "Bactrian camel",
+              "ja": "フタコブラクダ"
+            },
+            {
+              "en": "survive",
+              "ja": "〈動〉生き延びる"
+            }
+          ]
+        },
+        "p2": {
+          "label_ja": "第2段落",
+          "items": [
+            {
+              "en": "tardigrade",
+              "ja": "〈名〉クマムシ"
+            },
+            {
+              "en": "microscopic",
+              "ja": "〈形〉微細な"
+            },
+            {
+              "en": "layer",
+              "ja": "〈名〉層"
+            },
+            {
+              "en": "metabolism",
+              "ja": "〈名〉代謝"
+            },
+            {
+              "en": "state",
+              "ja": "〈名〉状態"
+            },
+            {
+              "en": "soaked",
+              "ja": "〈形〉びしょ濡れの"
+            },
+            {
+              "en": "absorb",
+              "ja": "〈動〉吸収する"
+            },
+            {
+              "en": "spring back to life",
+              "ja": "復活する"
+            },
+            {
+              "en": "matter",
+              "ja": "〈名〉大きな違い"
+            },
+            {
+              "en": "ultraviolet radiation",
+              "ja": "紫外線放射"
+            }
+          ]
+        },
+        "p3": {
+          "label_ja": "第3段落",
+          "items": [
+            {
+              "en": "intense",
+              "ja": "〈形〉強烈な"
+            },
+            {
+              "en": "cucumber",
+              "ja": "〈名〉キュウリ"
+            },
+            {
+              "en": "identify",
+              "ja": "〈動〉識別する"
+            },
+            {
+              "en": "primitive",
+              "ja": "〈形〉未発達の"
+            },
+            {
+              "en": "vegetation",
+              "ja": "〈名〉植物"
+            },
+            {
+              "en": "terminal",
+              "ja": "〈形〉末端の"
+            },
+            {
+              "en": "stylet",
+              "ja": "〈名〉口針"
+            },
+            {
+              "en": "digestive system",
+              "ja": "消化器官"
+            }
+          ]
+        },
+        "p4": {
+          "label_ja": "第4段落",
+          "items": [
+            {
+              "en": "pharynx",
+              "ja": "〈名〉咽頭"
+            },
+            {
+              "en": "digestive juice",
+              "ja": "消化液"
+            },
+            {
+              "en": "salivary gland",
+              "ja": "唾液腺"
+            },
+            {
+              "en": "esophagus",
+              "ja": "〈名〉食道"
+            },
+            {
+              "en": "middle gut",
+              "ja": "〈名〉中腸"
+            },
+            {
+              "en": "nutrient",
+              "ja": "〈名〉栄養物"
+            },
+            {
+              "en": "anus",
+              "ja": "〈名〉肛門"
+            }
+          ]
+        },
+        "questions": {
+          "label_ja": "設問・選択肢",
+          "items": [
+            {
+              "en": "feature",
+              "ja": "〈名〉特徴"
+            },
+            {
+              "en": "exceed",
+              "ja": "〈他〉〜を超える"
+            },
+            {
+              "en": "cease",
+              "ja": "〈自〉終わる"
+            },
+            {
+              "en": "withstand",
+              "ja": "〈他〉〜に耐える"
+            },
+            {
+              "en": "thrive",
+              "ja": "〈自〉繁栄する"
+            },
+            {
+              "en": "remarkable",
+              "ja": "〈形〉注目に値する"
+            },
+            {
+              "en": "outlive",
+              "ja": "〈他〉〜より長生きする"
+            },
+            {
+              "en": "infer",
+              "ja": "〈他〉〜を推察する"
+            }
+          ]
+        }
+      }
     }
   ]
 }
